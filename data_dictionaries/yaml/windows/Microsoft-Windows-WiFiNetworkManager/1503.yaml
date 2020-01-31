@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1503'
+version: '0'
+event(fields): task_01503(UInt32 Error)
+opcode: ''
+keywords: PwrEvt
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error

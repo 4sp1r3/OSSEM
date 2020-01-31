@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-Agent Driver
+event_id: '108'
+version: '0'
+event(fields): task_0108(UnicodeString String)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String

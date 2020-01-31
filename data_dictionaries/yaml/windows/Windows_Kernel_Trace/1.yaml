@@ -1,0 +1,12 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '1'
+version: '0'
+event(fields): Thread_V0_TypeGroup1(UInt32 TThreadId, UInt32 ProcessId)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: TThreadId
+- field_type: UInt32
+  field_name: ProcessId

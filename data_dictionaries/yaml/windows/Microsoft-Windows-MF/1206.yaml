@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1206'
+version: '0'
+event(fields): MediaFoundationSyncMFTRunningStop(Pointer ObjectPtr, UInt32 WorkQueueID)
+opcode: Stop
+keywords: ''
+task: MediaFoundationSyncMFTRunning
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ObjectPtr
+- field_type: UInt32
+  field_name: WorkQueueID

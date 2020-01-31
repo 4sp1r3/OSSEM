@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '277'
+version: '0'
+event(fields): StateRepository.Task.DataAccessLayer277(AnsiString Entity, UInt64 Id,
+  AnsiString Fields)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD keyword_200000000000
+task: StateRepository.Task.DataAccessLayer
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Entity
+- field_type: UInt64
+  field_name: Id
+- field_type: AnsiString
+  field_name: Fields

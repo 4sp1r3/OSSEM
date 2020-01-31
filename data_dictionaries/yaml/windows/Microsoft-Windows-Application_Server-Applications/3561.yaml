@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3561'
+version: '0'
+event(fields): task_03561(UnicodeString data1, UnicodeString SerializedException,
+  UnicodeString AppDomain)
+opcode: ''
+keywords: WebHost
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: SerializedException
+- field_type: UnicodeString
+  field_name: AppDomain

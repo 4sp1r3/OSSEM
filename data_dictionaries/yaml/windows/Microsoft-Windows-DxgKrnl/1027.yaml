@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1027'
+version: '0'
+event(fields): MiracastUmdDriverStopMiracastSessionStop(UInt64 MiracastLuid)
+opcode: Stop
+keywords: Miracast
+task: MiracastUmdDriverStopMiracastSession
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid

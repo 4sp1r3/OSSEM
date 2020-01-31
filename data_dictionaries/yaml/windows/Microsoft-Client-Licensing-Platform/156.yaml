@@ -1,0 +1,11 @@
+provider: Microsoft-Client-Licensing-Platform
+event_id: '156'
+version: '0'
+event(fields): task_0156()
+opcode: ''
+keywords: SERVICE_KEYWORD
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

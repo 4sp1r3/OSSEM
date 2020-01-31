@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Network-Connection-Broker
+event_id: '1105'
+version: '0'
+event(fields): task_01105(UInt64 NlmEpochBefore, Pointer NlmSignatureBefore, Boolean
+  NlmSignatureStableBefore, UInt64 NlmEpochAfter, Pointer NlmSignatureAfter, Boolean
+  NlmSignatureStableAfter, UInt32 Value, Int32 ValueType, Boolean ScheduleUpdate)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: NlmEpochBefore
+- field_type: Pointer
+  field_name: NlmSignatureBefore
+- field_type: Boolean
+  field_name: NlmSignatureStableBefore
+- field_type: UInt64
+  field_name: NlmEpochAfter
+- field_type: Pointer
+  field_name: NlmSignatureAfter
+- field_type: Boolean
+  field_name: NlmSignatureStableAfter
+- field_type: UInt32
+  field_name: Value
+- field_type: Int32
+  field_name: ValueType
+- field_type: Boolean
+  field_name: ScheduleUpdate

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDC
+event_id: '38'
+version: '0'
+event(fields): CsDisableInput()
+opcode: ''
+keywords: Cs
+task: CsDisableInput
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2035'
+version: '0'
+event(fields): Browseui_Breadcrumb_Dropdown_Show()
+opcode: ''
+keywords: Shell
+task: Browseui_Breadcrumb_Dropdown_Show
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

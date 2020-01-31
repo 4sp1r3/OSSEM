@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3005'
+version: '1'
+event(fields): GetMachineCatalogStart_V1()
+opcode: Start
+keywords: ''
+task: GetMachineCatalog
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

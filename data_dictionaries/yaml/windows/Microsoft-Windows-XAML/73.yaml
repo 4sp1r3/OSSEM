@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '73'
+version: '0'
+event(fields): CreatingMetaSurfaceStop()
+opcode: Stop
+keywords: Rendering
+task: CreatingMetaSurface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

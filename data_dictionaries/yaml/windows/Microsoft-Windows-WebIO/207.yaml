@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebIO
+event_id: '207'
+version: '0'
+event(fields): ConnectionNameResolutionRequestStop207(Pointer DnsQuery, UInt32 Error)
+opcode: Stop
+keywords: ''
+task: ConnectionNameResolutionRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DnsQuery
+- field_type: UInt32
+  field_name: Error

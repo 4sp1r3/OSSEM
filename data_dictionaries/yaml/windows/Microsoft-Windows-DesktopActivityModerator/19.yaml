@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DesktopActivityModerator
+event_id: '19'
+version: '0'
+event(fields): StopDriverStop()
+opcode: Stop
+keywords: StartStopDriver
+task: StopDriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

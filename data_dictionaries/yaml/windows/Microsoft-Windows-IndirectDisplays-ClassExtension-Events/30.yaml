@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '30'
+version: '0'
+event(fields): OPMGetRandomNumber()
+opcode: GetRandomNumber
+keywords: DdiCallbacks
+task: OPM
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

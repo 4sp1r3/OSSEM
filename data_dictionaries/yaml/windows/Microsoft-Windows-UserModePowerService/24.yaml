@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '24'
+version: '0'
+event(fields): ConsoleSessionChange(UInt32 Event, UInt32 SessionId)
+opcode: ''
+keywords: ''
+task: ConsoleSessionChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Event
+- field_type: UInt32
+  field_name: SessionId

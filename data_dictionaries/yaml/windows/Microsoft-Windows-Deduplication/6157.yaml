@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '6157'
+version: '0'
+event(fields): task_06157(UInt32 JobType, GUID JobInstanceId, UnicodeString VolumeGuidPath,
+  UnicodeString VolumeDisplayName, UInt32 ErrorCode, UnicodeString ErrorMessage, UInt64
+  UnOptimizedFiles, UInt64 ProcessedSizeMB, UInt64 JobElapsedTime, Float JobThroughput,
+  UInt64 SkippedFiles, UInt64 FailedFiles, UnicodeString FileSystem)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobType
+- field_type: GUID
+  field_name: JobInstanceId
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UnicodeString
+  field_name: VolumeDisplayName
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UInt64
+  field_name: UnOptimizedFiles
+- field_type: UInt64
+  field_name: ProcessedSizeMB
+- field_type: UInt64
+  field_name: JobElapsedTime
+- field_type: Float
+  field_name: JobThroughput
+- field_type: UInt64
+  field_name: SkippedFiles
+- field_type: UInt64
+  field_name: FailedFiles
+- field_type: UnicodeString
+  field_name: FileSystem

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5651'
+version: '0'
+event(fields): DataMonitor_AppInfo_UpdateStart()
+opcode: Start
+keywords: datamonitor
+task: DataMonitor_AppInfo_Update
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinINet
+event_id: '803'
+version: '1'
+event(fields): WININET_AUTOPROXY_DHCPStop_V1(UInt16 _InterfaceLength, UnicodeString
+  Interface, UInt16 _ConfigurationURLLength, UnicodeString ConfigurationURL)
+opcode: Stop
+keywords: WININET_KEYWORD_AUTOPROXY
+task: WININET_AUTOPROXY_DHCP
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _InterfaceLength
+- field_type: UnicodeString
+  field_name: Interface
+- field_type: UInt16
+  field_name: _ConfigurationURLLength
+- field_type: UnicodeString
+  field_name: ConfigurationURL

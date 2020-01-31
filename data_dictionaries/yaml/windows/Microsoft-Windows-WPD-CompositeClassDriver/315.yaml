@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WPD-CompositeClassDriver
+event_id: '315'
+version: '0'
+event(fields): TransportManagement315()
+opcode: ''
+keywords: ''
+task: TransportManagement
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

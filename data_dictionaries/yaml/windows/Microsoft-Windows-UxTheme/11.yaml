@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UxTheme
+event_id: '11'
+version: '0'
+event(fields): BufferedPaint_PruningBuffers()
+opcode: ''
+keywords: ''
+task: BufferedPaint_PruningBuffers
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,58 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1383'
+version: '0'
+event(fields): IpRouteSelection(UInt32 CompartmentId, UInt32 DestinationAddressLength,
+  Binary DestinationAddress, UInt32 PrDestinationPrefixLength, UInt32 PrDestinationPrefixAddressLength,
+  Binary PrDestinationPrefix, UInt32 PrNextHopAddressLength, Binary PrNextHopAddress,
+  UInt32 PrInterfaceIndex, UInt32 PrInterfaceMetric, UInt32 PrRouteMetric, UInt32
+  NonPrDestinationPrefixLength, UInt32 NonPrDestinationPrefixAddressLength, Binary
+  NonPrDestinationPrefix, UInt32 NonPrNextHopAddressLength, Binary NonPrNextHopAddress,
+  UInt32 NonPrInterfaceIndex, UInt32 NonPrInterfaceMetric, UInt32 NonPrRouteMetric,
+  UInt32 PreferenceReason)
+opcode: ''
+keywords: ut:TcpipRoute
+task: IpRouteSelection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: DestinationAddressLength
+- field_type: Binary
+  field_name: DestinationAddress
+- field_type: UInt32
+  field_name: PrDestinationPrefixLength
+- field_type: UInt32
+  field_name: PrDestinationPrefixAddressLength
+- field_type: Binary
+  field_name: PrDestinationPrefix
+- field_type: UInt32
+  field_name: PrNextHopAddressLength
+- field_type: Binary
+  field_name: PrNextHopAddress
+- field_type: UInt32
+  field_name: PrInterfaceIndex
+- field_type: UInt32
+  field_name: PrInterfaceMetric
+- field_type: UInt32
+  field_name: PrRouteMetric
+- field_type: UInt32
+  field_name: NonPrDestinationPrefixLength
+- field_type: UInt32
+  field_name: NonPrDestinationPrefixAddressLength
+- field_type: Binary
+  field_name: NonPrDestinationPrefix
+- field_type: UInt32
+  field_name: NonPrNextHopAddressLength
+- field_type: Binary
+  field_name: NonPrNextHopAddress
+- field_type: UInt32
+  field_name: NonPrInterfaceIndex
+- field_type: UInt32
+  field_name: NonPrInterfaceMetric
+- field_type: UInt32
+  field_name: NonPrRouteMetric
+- field_type: UInt32
+  field_name: PreferenceReason

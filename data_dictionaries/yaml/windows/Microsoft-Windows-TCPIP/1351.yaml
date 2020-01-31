@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1351'
+version: '0'
+event(fields): TcpDataTransferRetransmitRound1351(Pointer Tcb, UInt32 SndUna, UInt32
+  RexmitCount, UInt32 SRTT, UInt32 RTO)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:SendPath
+task: TcpDataTransferRetransmitRound
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: SndUna
+- field_type: UInt32
+  field_name: RexmitCount
+- field_type: UInt32
+  field_name: SRTT
+- field_type: UInt32
+  field_name: RTO

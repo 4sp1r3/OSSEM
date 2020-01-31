@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6611'
+version: '0'
+event(fields): ConnectCharm_PlayStart(UnicodeString DeviceInstanceID)
+opcode: Start
+keywords: ''
+task: ConnectCharm_Play
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceInstanceID

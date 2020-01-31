@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LDAP-Client
+event_id: '15'
+version: '0'
+event(fields): task_015(AnsiString Message)
+opcode: ''
+keywords: outmemory
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Message

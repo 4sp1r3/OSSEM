@@ -1,0 +1,17 @@
+provider: Heap Trace Provider
+category: '{222962ab-6180-4b88-a825-346b75f2a24a}'
+event_id: '52'
+version: '2'
+event(fields): HeapCommitDecommit(UInt32 HeapHandle, UInt32 Block, Object Size, UInt32
+  Caller)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapHandle
+- field_type: UInt32
+  field_name: Block
+- field_type: Object
+  field_name: Size
+- field_type: UInt32
+  field_name: Caller

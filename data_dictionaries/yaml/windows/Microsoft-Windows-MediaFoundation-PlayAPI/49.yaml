@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '49'
+version: '0'
+event(fields): MFPlayStop49(Pointer Object, UInt32 ErrorCode, UInt32 MinSizeSize,
+  Binary MinSize, UInt32 MaxSizeSize, Binary MaxSize)
+opcode: Stop
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: MinSizeSize
+- field_type: Binary
+  field_name: MinSize
+- field_type: UInt32
+  field_name: MaxSizeSize
+- field_type: Binary
+  field_name: MaxSize

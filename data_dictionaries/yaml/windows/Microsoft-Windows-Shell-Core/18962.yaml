@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18962'
+version: '0'
+event(fields): Shell32_SHChangeNotify_SendNotification_NotifyThreadStart(UInt32 Event,
+  UInt32 ID)
+opcode: Start
+keywords: Shell
+task: Shell32_SHChangeNotify_SendNotification_NotifyThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Event
+- field_type: UInt32
+  field_name: ID

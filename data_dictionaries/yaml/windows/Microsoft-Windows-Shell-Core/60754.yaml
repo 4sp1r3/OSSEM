@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60754'
+version: '0'
+event(fields): Shell32_ActiveSetup_RunInstallUninstallStubsWorkerStop(UnicodeString
+  pszBranchToRun)
+opcode: Stop
+keywords: Shell ActiveSetup
+task: Shell32_ActiveSetup_RunInstallUninstallStubsWorker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pszBranchToRun

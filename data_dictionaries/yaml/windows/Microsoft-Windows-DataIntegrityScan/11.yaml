@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DataIntegrityScan
+event_id: '11'
+version: '0'
+event(fields): task_0Start11(UInt32 DiskNumber, GUID DiskGuid, GUID PortPoolId, GUID
+  PortDiskId)
+opcode: Start
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DiskNumber
+- field_type: GUID
+  field_name: DiskGuid
+- field_type: GUID
+  field_name: PortPoolId
+- field_type: GUID
+  field_name: PortDiskId

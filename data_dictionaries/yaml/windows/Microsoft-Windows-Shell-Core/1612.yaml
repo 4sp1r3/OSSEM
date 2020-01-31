@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1612'
+version: '0'
+event(fields): ShellTask_CDBurn_WizardThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_CDBurn_WizardThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

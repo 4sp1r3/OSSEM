@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14047'
+version: '1'
+event(fields): ConfigurePackageGroupCompleteComponentStart_V1(UInt32 Component)
+opcode: Start
+keywords: ''
+task: ConfigurePackageGroupCompleteComponent
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Component

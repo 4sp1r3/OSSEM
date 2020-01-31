@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1086'
+version: '0'
+event(fields): TcpBlackHoleDetectionFailed(Pointer Tcb, UInt32 BHMSS, UInt32 OriginalMSS,
+  UnicodeString TraceString)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Global
+task: TcpBlackHoleDetectionFailed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: BHMSS
+- field_type: UInt32
+  field_name: OriginalMSS
+- field_type: UnicodeString
+  field_name: TraceString

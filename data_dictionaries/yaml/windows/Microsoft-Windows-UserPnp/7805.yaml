@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7805'
+version: '0'
+event(fields): PnP_DMRC_SearchLocalIndexStop()
+opcode: Stop
+keywords: UserPnp
+task: PnP_DMRC_SearchLocalIndex
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

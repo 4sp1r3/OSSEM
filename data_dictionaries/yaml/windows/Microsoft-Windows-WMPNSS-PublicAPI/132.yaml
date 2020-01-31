@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-PublicAPI
+event_id: '132'
+version: '0'
+event(fields): showShareMediaCPLStart(UnicodeString DeviceID, UInt32 HResult)
+opcode: Start
+keywords: ''
+task: showShareMediaCPL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceID
+- field_type: UInt32
+  field_name: HResult

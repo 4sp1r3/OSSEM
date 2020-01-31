@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-VolumeControl
+event_id: '106'
+version: '0'
+event(fields): task_VolumeLimit_UIVolumeLimit_WnfCallback(Pointer object, Int32 ChangeStamp)
+opcode: VolumeLimit_WnfCallback
+keywords: ''
+task: task_VolumeLimit_UI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: ChangeStamp

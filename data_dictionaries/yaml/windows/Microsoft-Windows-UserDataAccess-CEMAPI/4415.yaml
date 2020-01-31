@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4415'
+version: '0'
+event(fields): MSG_ADDRECIPIENTSStop()
+opcode: Stop
+keywords: Performance
+task: MSG_ADDRECIPIENTS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

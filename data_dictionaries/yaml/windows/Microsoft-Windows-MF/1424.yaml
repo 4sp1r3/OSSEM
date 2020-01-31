@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1424'
+version: '0'
+event(fields): MediaFoundationDeviceMFTMErrorThrown(HexInt32 hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationDeviceMFTMErrorThrown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: hr

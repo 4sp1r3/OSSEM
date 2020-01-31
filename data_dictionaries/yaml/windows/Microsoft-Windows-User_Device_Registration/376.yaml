@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '376'
+version: '0'
+event(fields): task_0376(UnicodeString UPN, UnicodeString KeyDisplayName, UnicodeString
+  UserDisplayName, UnicodeString UserImageUrl, UnicodeString KeyAlgorithm, UnicodeString
+  AuthToken, UnicodeString RequestId, UInt32 Flags, UInt32 PinStatus, UInt32 PinRetries)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UPN
+- field_type: UnicodeString
+  field_name: KeyDisplayName
+- field_type: UnicodeString
+  field_name: UserDisplayName
+- field_type: UnicodeString
+  field_name: UserImageUrl
+- field_type: UnicodeString
+  field_name: KeyAlgorithm
+- field_type: UnicodeString
+  field_name: AuthToken
+- field_type: UnicodeString
+  field_name: RequestId
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: PinStatus
+- field_type: UInt32
+  field_name: PinRetries

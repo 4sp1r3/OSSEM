@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '711'
+version: '0'
+event(fields): Compatibilitymoduletasksupgradefailed711(UnicodeString Account, UInt32
+  ResultCode)
+opcode: ''
+keywords: ''
+task: Compatibilitymoduletasksupgradefailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Account
+- field_type: UInt32
+  field_name: ResultCode

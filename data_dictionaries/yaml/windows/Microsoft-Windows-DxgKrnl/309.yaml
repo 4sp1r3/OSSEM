@@ -1,0 +1,49 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '309'
+version: '0'
+event(fields): PagingOpUpdatePageTable(Pointer pDxgAdapter, Pointer hDmaBuffer, Boolean
+  ContinueNextBuffer, Pointer hAllocationGlobalHandle, UInt32 PageTableLevel, UInt64
+  PageTableAddress, UInt32 SegmentId, UInt32 NumPageTableUpdateEntries, Pointer PageTableEntries,
+  Pointer PageTableEntries64KB, UInt32 StartIndex, UInt32 Flags, UInt64 DriverProtection,
+  UInt64 AllocationOffsetInBytes, Pointer hProcess, UInt32 UpdateMode, UInt64 FirstPteVirtualAddress)
+opcode: ''
+keywords: Resource
+task: PagingOpUpdatePageTable
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: hDmaBuffer
+- field_type: Boolean
+  field_name: ContinueNextBuffer
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt32
+  field_name: PageTableLevel
+- field_type: UInt64
+  field_name: PageTableAddress
+- field_type: UInt32
+  field_name: SegmentId
+- field_type: UInt32
+  field_name: NumPageTableUpdateEntries
+- field_type: Pointer
+  field_name: PageTableEntries
+- field_type: Pointer
+  field_name: PageTableEntries64KB
+- field_type: UInt32
+  field_name: StartIndex
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt64
+  field_name: DriverProtection
+- field_type: UInt64
+  field_name: AllocationOffsetInBytes
+- field_type: Pointer
+  field_name: hProcess
+- field_type: UInt32
+  field_name: UpdateMode
+- field_type: UInt64
+  field_name: FirstPteVirtualAddress

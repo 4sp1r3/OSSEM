@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17512'
+version: '0'
+event(fields): ResolveUserNames_MultipleSidsToNamesLookupStop()
+opcode: Stop
+keywords: Properties
+task: ResolveUserNames_MultipleSidsToNamesLookup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

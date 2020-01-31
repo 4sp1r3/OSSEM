@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '282'
+version: '0'
+event(fields): Crowdsource282(UInt32 SourcePE, Boolean IsReadyForData, Boolean IsValidData,
+  UInt32 Result)
+opcode: ''
+keywords: Selfhost Crowdsource
+task: Crowdsource
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SourcePE
+- field_type: Boolean
+  field_name: IsReadyForData
+- field_type: Boolean
+  field_name: IsValidData
+- field_type: UInt32
+  field_name: Result

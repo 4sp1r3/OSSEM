@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '781'
+version: '0'
+event(fields): Mshtml_Ortc_Receiver_StatsStart(UInt64 OutstandingStatsRequestCount,
+  HexInt32 HrTask, Pointer ThisPtr)
+opcode: Start
+keywords: mshtml
+task: Mshtml_Ortc_Receiver_Stats
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OutstandingStatsRequestCount
+- field_type: HexInt32
+  field_name: HrTask
+- field_type: Pointer
+  field_name: ThisPtr

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '12'
+version: '0'
+event(fields): PowerSchemeChanged(UnicodeString ProcessPath, UInt32 ProcessPid, GUID
+  OldSchemeGuid, GUID NewSchemeGuid)
+opcode: ''
+keywords: ''
+task: PowerSchemeChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessPath
+- field_type: UInt32
+  field_name: ProcessPid
+- field_type: GUID
+  field_name: OldSchemeGuid
+- field_type: GUID
+  field_name: NewSchemeGuid

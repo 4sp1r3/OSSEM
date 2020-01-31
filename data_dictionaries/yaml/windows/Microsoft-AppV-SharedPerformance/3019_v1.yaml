@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3019'
+version: '1'
+event(fields): ConfigurePackageCompleteStart_V1()
+opcode: Start
+keywords: ''
+task: ConfigurePackageComplete
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

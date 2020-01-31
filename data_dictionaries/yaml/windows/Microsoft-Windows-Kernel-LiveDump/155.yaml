@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-LiveDump
+event_id: '155'
+version: '0'
+event(fields): CapturePagesWorkflowSystemQuiesceEnd()
+opcode: SystemQuiesceEnd
+keywords: ''
+task: CapturePagesWorkflow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

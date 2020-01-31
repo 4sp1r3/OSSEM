@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '184'
+version: '0'
+event(fields): InkRenderingStart()
+opcode: Start
+keywords: Reader
+task: InkRendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

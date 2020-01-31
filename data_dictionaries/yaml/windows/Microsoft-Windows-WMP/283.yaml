@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '283'
+version: '0'
+event(fields): THUMBNAIL_TOOLBAR_BUTTON_CLICKEDStop(UInt32 ButtonID)
+opcode: Stop
+keywords: mediaplayer
+task: THUMBNAIL_TOOLBAR_BUTTON_CLICKED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ButtonID

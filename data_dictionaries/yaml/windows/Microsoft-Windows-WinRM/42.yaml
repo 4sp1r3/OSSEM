@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '42'
+version: '0'
+event(fields): WinRMMIProtocolHandlerStop()
+opcode: Stop
+keywords: Keyword.Client
+task: WinRMMIProtocolHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

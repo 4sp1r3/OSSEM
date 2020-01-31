@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DUI
+event_id: '93'
+version: '0'
+event(fields): DirectUI_ModernProgressBarForegroundColor(UInt32 ForegroundColor)
+opcode: ''
+keywords: Default
+task: DirectUI_ModernProgressBarForegroundColor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ForegroundColor

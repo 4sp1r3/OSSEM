@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20510'
+version: '0'
+event(fields): InitializefilecacheStart(Pointer UnderlyingFileObject, UInt64 CacheFileSize)
+opcode: Start
+keywords: KmFileCache
+task: Initializefilecache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: UnderlyingFileObject
+- field_type: UInt64
+  field_name: CacheFileSize

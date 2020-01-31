@@ -1,0 +1,18 @@
+provider: Microsoft-IEFRAME
+event_id: '417'
+version: '0'
+event(fields): Browseui_Tabs_MarkTabAsNotHung(UInt32 TabID, Boolean SelfRecovered,
+  UInt32 PerformWhenBrowserResponds)
+opcode: ''
+keywords: hang
+task: Browseui_Tabs_MarkTabAsNotHung
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID
+- field_type: Boolean
+  field_name: SelfRecovered
+- field_type: UInt32
+  field_name: PerformWhenBrowserResponds

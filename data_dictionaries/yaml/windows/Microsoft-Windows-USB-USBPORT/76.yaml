@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '76'
+version: '0'
+event(fields): URB_FUNCTION_CONTROL_TRANSFERCompleteInternalwithData(UInt32 fid_USBPORT_HC,
+  Binary fid_USBPORT_Device, HexInt64 fid_USBPORT_Endpoint, Struct fid_USBPORT_Endpoint_Descriptor,
+  Pointer fid_URB_Ptr, 30 fid_USBPORT_URB_CONTROL_TRANSFER, UInt16 fid_URB_TransferDataLength,
+  UInt8 fid_URB_TransferData)
+opcode: CompleteInternalwithData
+keywords: Diagnostic
+task: URB_FUNCTION_CONTROL_TRANSFER
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: fid_USBPORT_HC
+- field_type: Binary
+  field_name: fid_USBPORT_Device
+- field_type: HexInt64
+  field_name: fid_USBPORT_Endpoint
+- field_type: Struct
+  field_name: fid_USBPORT_Endpoint_Descriptor
+- field_type: Pointer
+  field_name: fid_URB_Ptr
+- field_type: '30'
+  field_name: fid_USBPORT_URB_CONTROL_TRANSFER
+- field_type: UInt16
+  field_name: fid_URB_TransferDataLength
+- field_type: UInt8
+  field_name: fid_URB_TransferData

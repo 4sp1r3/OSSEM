@@ -1,0 +1,26 @@
+provider: Microsoft-WindowsPhone-UfxSynopsys
+event_id: '201'
+version: '0'
+event(fields): Transfer201(Pointer Endpoint, UInt32 PhysicalEndpoint, UInt32 Index,
+  UInt32 Word1, UInt32 Word2, UInt32 Word3, UInt32 Word4)
+opcode: ''
+keywords: Endpoint
+task: Transfer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: PhysicalEndpoint
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: Word1
+- field_type: UInt32
+  field_name: Word2
+- field_type: UInt32
+  field_name: Word3
+- field_type: UInt32
+  field_name: Word4

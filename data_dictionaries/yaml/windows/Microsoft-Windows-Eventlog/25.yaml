@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '25'
+version: '0'
+event(fields): Servicestartup25(UnicodeString ChannelPath)
+opcode: ''
+keywords: el:Availability
+task: Servicestartup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ChannelPath

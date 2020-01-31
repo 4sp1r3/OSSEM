@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16901'
+version: '0'
+event(fields): PHLocationCreator_ScanSearchRootsStart()
+opcode: Start
+keywords: Shell
+task: PHLocationCreator_ScanSearchRoots
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

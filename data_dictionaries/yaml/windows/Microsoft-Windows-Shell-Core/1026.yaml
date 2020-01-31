@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1026'
+version: '0'
+event(fields): AutoLists_MergeEnumToViewStop()
+opcode: Stop
+keywords: Shell
+task: AutoLists_MergeEnumToView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

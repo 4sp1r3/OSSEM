@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-XAML
+event_id: '386'
+version: '0'
+event(fields): DmCompositorContentValuesUpdateStop(UInt64 ViewportId, UInt64 ContentId,
+  UInt32 ContentType, Float TranslationX, Float TranslationY, Float ZoomFactor, Float
+  ZoomFactorX, Float ZoomFactorY)
+opcode: Stop
+keywords: Input
+task: DmCompositorContentValuesUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ViewportId
+- field_type: UInt64
+  field_name: ContentId
+- field_type: UInt32
+  field_name: ContentType
+- field_type: Float
+  field_name: TranslationX
+- field_type: Float
+  field_name: TranslationY
+- field_type: Float
+  field_name: ZoomFactor
+- field_type: Float
+  field_name: ZoomFactorX
+- field_type: Float
+  field_name: ZoomFactorY

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-BackgroundTransfer-ContentPrefetcher
+event_id: '9'
+version: '0'
+event(fields): IndirectContentURI9(UInt32 statusCode, UnicodeString errorReason, UnicodeString
+  sourceText, UInt32 errorOffset)
+opcode: ''
+keywords: ''
+task: IndirectContentURI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: statusCode
+- field_type: UnicodeString
+  field_name: errorReason
+- field_type: UnicodeString
+  field_name: sourceText
+- field_type: UInt32
+  field_name: errorOffset

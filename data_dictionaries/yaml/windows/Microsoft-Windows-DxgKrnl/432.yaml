@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '432'
+version: '0'
+event(fields): SchedulingLog(Pointer hAdapter, UInt32 NodeOrdinal, UInt32 EngineOrdinal,
+  UInt64 CpuTimestamp0, UInt64 GpuTimestamp0, UInt64 CpuTimestamp1, UInt64 GpuTimestamp1,
+  UInt32 SchedulingLogSize, Binary SchedulingLogData)
+opcode: ''
+keywords: HardwareSchedulingLog
+task: SchedulingLog
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAdapter
+- field_type: UInt32
+  field_name: NodeOrdinal
+- field_type: UInt32
+  field_name: EngineOrdinal
+- field_type: UInt64
+  field_name: CpuTimestamp0
+- field_type: UInt64
+  field_name: GpuTimestamp0
+- field_type: UInt64
+  field_name: CpuTimestamp1
+- field_type: UInt64
+  field_name: GpuTimestamp1
+- field_type: UInt32
+  field_name: SchedulingLogSize
+- field_type: Binary
+  field_name: SchedulingLogData

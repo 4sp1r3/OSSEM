@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DCLocator
+event_id: '9'
+version: '0'
+event(fields): task_09(UnicodeString Message)
+opcode: ''
+keywords: site_more
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message

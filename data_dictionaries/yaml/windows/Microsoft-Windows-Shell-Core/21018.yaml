@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '21018'
+version: '0'
+event(fields): SystemTray_RearrangeIconStop(UInt32 Value)
+opcode: Stop
+keywords: Shell
+task: SystemTray_RearrangeIcon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

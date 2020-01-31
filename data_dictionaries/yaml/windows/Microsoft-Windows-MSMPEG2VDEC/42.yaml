@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '42'
+version: '0'
+event(fields): DXVA_ReleaseBufferStart()
+opcode: Start
+keywords: ''
+task: DXVA_ReleaseBuffer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

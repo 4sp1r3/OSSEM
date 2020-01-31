@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '634'
+version: '0'
+event(fields): IA2TextRange_AddToSelectionStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: IA2TextRange_AddToSelection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

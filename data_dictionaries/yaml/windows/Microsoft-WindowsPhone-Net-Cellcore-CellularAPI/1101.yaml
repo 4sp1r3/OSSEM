@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '1101'
+version: '0'
+event(fields): CellVoice1101()
+opcode: ''
+keywords: Error
+task: CellVoice
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

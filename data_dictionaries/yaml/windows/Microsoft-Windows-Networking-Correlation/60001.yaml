@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Networking-Correlation
+event_id: '60001'
+version: '0'
+event(fields): task_0Start(GUID SourceProvider, UInt32 Context)
+opcode: Start
+keywords: ActivityTransfer ActivityStart
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SourceProvider
+- field_type: UInt32
+  field_name: Context

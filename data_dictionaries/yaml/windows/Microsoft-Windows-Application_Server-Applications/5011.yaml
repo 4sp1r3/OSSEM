@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '5011'
+version: '0'
+event(fields): GenerateDeserializerStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: Serialization
+task: GenerateDeserializer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

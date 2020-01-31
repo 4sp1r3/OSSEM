@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '26001'
+version: '1'
+event(fields): IRP_MJ_CREATEtask.Stop_V1()
+opcode: Stop
+keywords: ''
+task: IRP_MJ_CREATEtask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '28'
+version: '0'
+event(fields): TelemetryCheck28(UnicodeString Info, UnicodeString XML)
+opcode: ''
+keywords: functionality
+task: TelemetryCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Info
+- field_type: UnicodeString
+  field_name: XML

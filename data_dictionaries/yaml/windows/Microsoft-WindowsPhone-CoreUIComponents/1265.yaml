@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1265'
+version: '0'
+event(fields): ForegroundTaskManagerLaunchTask(UnicodeString pwsz, UInt32 unParam)
+opcode: ''
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerLaunchTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UInt32
+  field_name: unParam

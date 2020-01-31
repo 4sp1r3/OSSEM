@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MF
+event_id: '1134'
+version: '0'
+event(fields): MediaFoundationAsyncWrapperSetWorkQueue(Pointer WrapperPtr, UInt32
+  WorkQueueID)
+opcode: ''
+keywords: ''
+task: MediaFoundationAsyncWrapperSetWorkQueue
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WrapperPtr
+- field_type: UInt32
+  field_name: WorkQueueID

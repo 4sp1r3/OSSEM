@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Manipulations
+event_id: '1'
+version: '0'
+event(fields): TABLET_MANIPULATIONS_Inertia_CreateStart()
+opcode: Start
+keywords: ''
+task: TABLET_MANIPULATIONS_Inertia_Create
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61648'
+version: '0'
+event(fields): HtmlFormatHelper_CreateHtmlFormatStart()
+opcode: Start
+keywords: Shell
+task: HtmlFormatHelper_CreateHtmlFormat
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

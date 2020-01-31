@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '43082'
+version: '1'
+event(fields): DeserializePolicy.Start_V1()
+opcode: Start
+keywords: ''
+task: DeserializePolicy.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

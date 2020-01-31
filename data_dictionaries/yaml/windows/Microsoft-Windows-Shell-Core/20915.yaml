@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20915'
+version: '0'
+event(fields): UserTile_DynamicTile_InitStop()
+opcode: Stop
+keywords: Shell
+task: UserTile_DynamicTile_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

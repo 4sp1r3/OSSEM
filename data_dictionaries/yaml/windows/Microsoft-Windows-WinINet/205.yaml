@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinINet
+event_id: '205'
+version: '0'
+event(fields): WININET_HTTP_CONNECTION_CLOSED(Pointer ConnectionHandle, Pointer SocketHandle,
+  UInt16 _ReasonLength, AnsiString Reason)
+opcode: ''
+keywords: WININET_KEYWORD_HTTP
+task: WININET_HTTP_CONNECTION_CLOSED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionHandle
+- field_type: Pointer
+  field_name: SocketHandle
+- field_type: UInt16
+  field_name: _ReasonLength
+- field_type: AnsiString
+  field_name: Reason

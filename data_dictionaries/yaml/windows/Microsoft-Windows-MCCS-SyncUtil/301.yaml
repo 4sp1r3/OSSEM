@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-SyncUtil
+event_id: '301'
+version: '0'
+event(fields): task_0301()
+opcode: ''
+keywords: Error
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '1006'
+version: '0'
+event(fields): Boot_DetectedMultipleLogons()
+opcode: ''
+keywords: BootStatus
+task: Boot_DetectedMultipleLogons
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

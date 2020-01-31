@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DXGI
+event_id: '54'
+version: '0'
+event(fields): FlipCPUSyncTimeout(Pointer pIDXGISwapChain, UInt32 BackBufferNumber,
+  Pointer BackBufferHandle, Pointer BackBufferEventHandle)
+opcode: ''
+keywords: Events
+task: FlipCPUSyncTimeout
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: UInt32
+  field_name: BackBufferNumber
+- field_type: Pointer
+  field_name: BackBufferHandle
+- field_type: Pointer
+  field_name: BackBufferEventHandle

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5062'
+version: '0'
+event(fields): task_05062()
+opcode: ''
+keywords: iphttps
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

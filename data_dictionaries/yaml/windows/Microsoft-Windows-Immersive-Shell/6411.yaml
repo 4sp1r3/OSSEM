@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6411'
+version: '0'
+event(fields): AppList_HideItemStop()
+opcode: Stop
+keywords: ''
+task: AppList_HideItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

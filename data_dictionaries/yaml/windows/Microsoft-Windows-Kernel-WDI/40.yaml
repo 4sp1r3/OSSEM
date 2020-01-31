@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Kernel-WDI
+event_id: '40'
+version: '0'
+event(fields): SEMInitializationTheSEMisconfiguredwithascenariothathastoomanyendevents.(GUID
+  ProviderID, UInt16 EventID)
+opcode: TheSEMisconfiguredwithascenariothathastoomanyendevents.
+keywords: ''
+task: SEMInitialization
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderID
+- field_type: UInt16
+  field_name: EventID

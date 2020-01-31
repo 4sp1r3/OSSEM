@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OLE-Perf
+event_id: '21'
+version: '0'
+event(fields): OLE_DragDrop_DragOperation_UpdatePositionStart()
+opcode: Start
+keywords: ''
+task: OLE_DragDrop_DragOperation_UpdatePosition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

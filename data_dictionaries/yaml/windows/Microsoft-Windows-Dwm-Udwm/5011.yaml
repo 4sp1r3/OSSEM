@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5011'
+version: '0'
+event(fields): UdwmLivePreviewAnimationStart()
+opcode: Start
+keywords: Udwm
+task: UdwmLivePreviewAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

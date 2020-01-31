@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1104'
+version: '0'
+event(fields): DataLayer_RSMGetGroupManagerStart()
+opcode: Start
+keywords: Shell
+task: DataLayer_RSMGetGroupManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

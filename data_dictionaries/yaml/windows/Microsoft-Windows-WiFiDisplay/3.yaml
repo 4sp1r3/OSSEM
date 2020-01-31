@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WiFiDisplay
+event_id: '3'
+version: '0'
+event(fields): Pair(UInt32 AssociationKey, UnicodeString LocalDeviceInformation, UnicodeString
+  RemoteDeviceInformation)
+opcode: ''
+keywords: ''
+task: Pair
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AssociationKey
+- field_type: UnicodeString
+  field_name: LocalDeviceInformation
+- field_type: UnicodeString
+  field_name: RemoteDeviceInformation

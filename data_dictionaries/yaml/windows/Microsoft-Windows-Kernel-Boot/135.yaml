@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '135'
+version: '0'
+event(fields): WaitForPartitionsRestoredStop()
+opcode: Stop
+keywords: SoftRestart
+task: WaitForPartitionsRestored
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

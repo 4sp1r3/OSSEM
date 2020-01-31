@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5505'
+version: '0'
+event(fields): UI_ClickExpandoStart()
+opcode: Start
+keywords: ui
+task: UI_ClickExpando
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

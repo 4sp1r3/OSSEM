@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '6103'
+version: '0'
+event(fields): DeviceDiscoveryStop(UInt32 ServerOrRenderer, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: DeviceDiscovery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ServerOrRenderer
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '180'
+version: '0'
+event(fields): ClientRequestInformation180(Pointer fid_UsbDevice, GUID fid_Capability,
+  UInt32 fid_NtStatus)
+opcode: Information
+keywords: Default IRP
+task: ClientRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: GUID
+  field_name: fid_Capability
+- field_type: UInt32
+  field_name: fid_NtStatus

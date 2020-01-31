@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '356'
+version: '0'
+event(fields): task_0356(UnicodeString UPN, UnicodeString TenantId, Int32 ExitCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UPN
+- field_type: UnicodeString
+  field_name: TenantId
+- field_type: Int32
+  field_name: ExitCode

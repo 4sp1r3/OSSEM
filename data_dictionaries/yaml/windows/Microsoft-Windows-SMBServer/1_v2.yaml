@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1'
+version: '2'
+event(fields): Smb2RequestNegotiate_V2(UInt64 SessionId, UInt32 ProcessId, UInt32
+  TreeId, UInt64 MessageId, UInt64 MasterMessageId, UInt16 Command, UInt16 CreditsRequested,
+  UInt32 Flags, UInt16 SecurityMode, UInt32 Capabilities, UInt16 DialectCount, UInt16
+  Dialects, GUID ClientGuid, GUID ConnectionGUID)
+opcode: ''
+keywords: Request
+task: Smb2RequestNegotiate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: TreeId
+- field_type: UInt64
+  field_name: MessageId
+- field_type: UInt64
+  field_name: MasterMessageId
+- field_type: UInt16
+  field_name: Command
+- field_type: UInt16
+  field_name: CreditsRequested
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt16
+  field_name: SecurityMode
+- field_type: UInt32
+  field_name: Capabilities
+- field_type: UInt16
+  field_name: DialectCount
+- field_type: UInt16
+  field_name: Dialects
+- field_type: GUID
+  field_name: ClientGuid
+- field_type: GUID
+  field_name: ConnectionGUID

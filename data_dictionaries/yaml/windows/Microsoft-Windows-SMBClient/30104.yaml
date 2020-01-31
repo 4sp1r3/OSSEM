@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30104'
+version: '0'
+event(fields): task_030104(Pointer RxContext, Pointer Exchange, UInt32 ExchangeState,
+  UInt32 ExchangeStatus)
+opcode: ''
+keywords: Smb_Perf
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RxContext
+- field_type: Pointer
+  field_name: Exchange
+- field_type: UInt32
+  field_name: ExchangeState
+- field_type: UInt32
+  field_name: ExchangeStatus

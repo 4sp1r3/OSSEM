@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '15'
+version: '0'
+event(fields): Shdocvw_Feed_SearchStart()
+opcode: Start
+keywords: primarynav
+task: Shdocvw_Feed_Search
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

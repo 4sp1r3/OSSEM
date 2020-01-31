@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ErrorReportingConsole
+event_id: '104'
+version: '0'
+event(fields): PrsApplicableResponseIndividualCheckStop(UInt32 ResponseId)
+opcode: Stop
+keywords: ''
+task: PrsApplicableResponseIndividualCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ResponseId

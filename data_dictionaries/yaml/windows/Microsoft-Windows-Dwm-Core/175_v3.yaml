@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '175'
+version: '3'
+event(fields): TOUCH_LAST_FRAME_EVENT_V3(UInt64 UniqueKey, UInt64 ScenarioPointer,
+  UInt32 InputType, UInt32 InteractionType, UInt32 InteractionContext, UInt16 SurfaceWidth,
+  UInt16 SurfaceHeight, UInt32 ScenarioDurationMs, UInt32 cFrames, UInt64 StartFrame,
+  UInt64 EndFrame, UInt32 MonitorCount, GUID PrimaryAdapterLuid, Boolean PrimaryAdapterIsWarp,
+  UnicodeString AppUserModelId)
+opcode: ''
+keywords: DwmCore LowOverheadSmoothnessTracking DwmInput
+task: TOUCH_LAST_FRAME_EVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueKey
+- field_type: UInt64
+  field_name: ScenarioPointer
+- field_type: UInt32
+  field_name: InputType
+- field_type: UInt32
+  field_name: InteractionType
+- field_type: UInt32
+  field_name: InteractionContext
+- field_type: UInt16
+  field_name: SurfaceWidth
+- field_type: UInt16
+  field_name: SurfaceHeight
+- field_type: UInt32
+  field_name: ScenarioDurationMs
+- field_type: UInt32
+  field_name: cFrames
+- field_type: UInt64
+  field_name: StartFrame
+- field_type: UInt64
+  field_name: EndFrame
+- field_type: UInt32
+  field_name: MonitorCount
+- field_type: GUID
+  field_name: PrimaryAdapterLuid
+- field_type: Boolean
+  field_name: PrimaryAdapterIsWarp
+- field_type: UnicodeString
+  field_name: AppUserModelId

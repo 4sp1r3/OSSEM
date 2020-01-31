@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3003'
+version: '0'
+event(fields): CreateSectionPageHashNotFound_DbgAttached(UInt16 FileNameLength, UnicodeString
+  FileNameBuffer)
+opcode: PageHashNotFound_DbgAttached
+keywords: ''
+task: CreateSection
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer

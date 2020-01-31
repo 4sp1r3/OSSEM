@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '154'
+version: '0'
+event(fields): CDRMMemoryCacheAllocStart(UInt32 Size)
+opcode: Start
+keywords: ''
+task: CDRMMemoryCacheAlloc
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Size

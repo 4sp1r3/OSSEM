@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '3090'
+version: '0'
+event(fields): ArmcontrollerforwakeDispatch(Int8 fid_USBPORT_HC, Pointer fid_IRP_Ptr,
+  UInt32 fid_Status)
+opcode: Dispatch
+keywords: Diagnostic
+task: Armcontrollerforwake
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: fid_USBPORT_HC
+- field_type: Pointer
+  field_name: fid_IRP_Ptr
+- field_type: UInt32
+  field_name: fid_Status

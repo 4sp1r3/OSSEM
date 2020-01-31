@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OOBE-Machine-DUI
+event_id: '5108'
+version: '0'
+event(fields): WizardPage_OnNext(UnicodeString PluginName)
+opcode: ''
+keywords: msoobe
+task: WizardPage_OnNext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PluginName

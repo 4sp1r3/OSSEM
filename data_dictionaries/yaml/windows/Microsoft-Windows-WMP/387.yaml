@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '387'
+version: '0'
+event(fields): RME_CreateDeviceFinderStart()
+opcode: Start
+keywords: mediaplayer
+task: RME_CreateDeviceFinder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

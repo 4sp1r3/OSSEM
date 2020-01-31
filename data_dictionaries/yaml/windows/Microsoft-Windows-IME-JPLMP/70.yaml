@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-JPLMP
+event_id: '70'
+version: '0'
+event(fields): TaskID:IMELearningStop()
+opcode: Stop
+keywords: ''
+task: TaskID:IMELearning
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

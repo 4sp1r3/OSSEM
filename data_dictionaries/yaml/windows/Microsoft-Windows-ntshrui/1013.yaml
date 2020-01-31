@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ntshrui
+event_id: '1013'
+version: '0'
+event(fields): Sharing_End_To_End_Including_UIStart()
+opcode: Start
+keywords: ''
+task: Sharing_End_To_End_Including_UI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

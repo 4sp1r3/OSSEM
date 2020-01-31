@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '210'
+version: '0'
+event(fields): CommandingUIManager_AutoDismissStart()
+opcode: Start
+keywords: TSF_UIManager
+task: CommandingUIManager_AutoDismiss
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

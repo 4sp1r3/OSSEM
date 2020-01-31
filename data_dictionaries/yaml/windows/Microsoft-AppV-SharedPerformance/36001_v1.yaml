@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '36001'
+version: '1'
+event(fields): Packaging_2801Start_V1()
+opcode: Start
+keywords: ''
+task: Packaging_2801
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

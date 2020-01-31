@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17513'
+version: '0'
+event(fields): ResolveUserNames_CachedFriendlyNameLookupStart()
+opcode: Start
+keywords: Properties
+task: ResolveUserNames_CachedFriendlyNameLookup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

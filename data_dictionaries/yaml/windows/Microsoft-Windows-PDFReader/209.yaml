@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '209'
+version: '0'
+event(fields): JumpToDestination()
+opcode: ''
+keywords: Reader
+task: JumpToDestination
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

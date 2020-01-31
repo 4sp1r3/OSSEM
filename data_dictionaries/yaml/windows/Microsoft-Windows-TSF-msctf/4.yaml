@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '4'
+version: '0'
+event(fields): UninitMSCTFForProcessStop()
+opcode: Stop
+keywords: Perf
+task: UninitMSCTFForProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

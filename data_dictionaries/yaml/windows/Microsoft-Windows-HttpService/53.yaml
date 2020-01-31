@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HttpService
+event_id: '53'
+version: '0'
+event(fields): HTTPTimeoutTraceTaskConnTimedOut(UInt64 ConnectionId, Pointer ConnectionObj,
+  AnsiString Timer)
+opcode: ConnTimedOut
+keywords: HTTP_KEYWORD_CONNECTION HTTP_KEYWORD_TIMEOUT
+task: HTTPTimeoutTraceTask
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ConnectionId
+- field_type: Pointer
+  field_name: ConnectionObj
+- field_type: AnsiString
+  field_name: Timer

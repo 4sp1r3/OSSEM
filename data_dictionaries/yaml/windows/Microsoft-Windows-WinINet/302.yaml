@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinINet
+event_id: '302'
+version: '0'
+event(fields): WININET_TCP_CONNECTIONFail(UInt16 _ServerNameLength, AnsiString ServerName,
+  Pointer ConnectionHandle, UInt32 Error)
+opcode: Fail
+keywords: WININET_KEYWORD_CONNECTION WININET_KEYWORD_AOAC
+task: WININET_TCP_CONNECTION
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _ServerNameLength
+- field_type: AnsiString
+  field_name: ServerName
+- field_type: Pointer
+  field_name: ConnectionHandle
+- field_type: UInt32
+  field_name: Error

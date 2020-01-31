@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Win32k
+event_id: '8'
+version: '0'
+event(fields): UIPIClipboardError(UInt8 UIPI_Trace_Header, UInt32 ClipFormat, UInt32
+  ClipIL, UInt32 ClipLBN)
+opcode: ''
+keywords: UIPI
+task: UIPIClipboardError
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: UIPI_Trace_Header
+- field_type: UInt32
+  field_name: ClipFormat
+- field_type: UInt32
+  field_name: ClipIL
+- field_type: UInt32
+  field_name: ClipLBN

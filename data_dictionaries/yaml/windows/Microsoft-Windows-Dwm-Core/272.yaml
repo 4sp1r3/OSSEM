@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '272'
+version: '0'
+event(fields): INTERACTION_VISUAL_UPDATE(Pointer Interaction, Pointer Visual)
+opcode: ''
+keywords: DwmCore DwmInput
+task: INTERACTION_VISUAL_UPDATE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Interaction
+- field_type: Pointer
+  field_name: Visual

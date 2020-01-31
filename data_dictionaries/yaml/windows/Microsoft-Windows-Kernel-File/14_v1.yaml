@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-Kernel-File
+event_id: '14'
+version: '1'
+event(fields): Close_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, UInt32 IssuingThreadId)
+opcode: ''
+keywords: KERNEL_FILE_KEYWORD_FILEIO
+task: Close
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: FileObject
+- field_type: Pointer
+  field_name: FileKey
+- field_type: UInt32
+  field_name: IssuingThreadId

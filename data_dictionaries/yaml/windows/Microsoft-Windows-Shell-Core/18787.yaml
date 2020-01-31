@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18787'
+version: '0'
+event(fields): Shell32_MountPoint_InitLocalDrivesStart()
+opcode: Start
+keywords: Shell
+task: Shell32_MountPoint_InitLocalDrives
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

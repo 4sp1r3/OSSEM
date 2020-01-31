@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '170'
+version: '0'
+event(fields): DmViewportStatusUpdateStop(UInt64 ViewportId)
+opcode: Stop
+keywords: Input
+task: DmViewportStatusUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ViewportId

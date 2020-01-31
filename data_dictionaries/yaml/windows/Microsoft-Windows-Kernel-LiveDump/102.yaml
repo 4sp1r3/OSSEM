@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-LiveDump
+event_id: '102'
+version: '0'
+event(fields): SizingWorkflowMirroringPhase0End()
+opcode: MirroringPhase0End
+keywords: ''
+task: SizingWorkflow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

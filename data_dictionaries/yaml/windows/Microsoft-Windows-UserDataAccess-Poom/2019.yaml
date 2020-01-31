@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserDataAccess-Poom
+event_id: '2019'
+version: '0'
+event(fields): task_02019(HexInt32 P1_HexInt, UnicodeString P2_UnicodeString)
+opcode: ''
+keywords: POOM
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: P1_HexInt
+- field_type: UnicodeString
+  field_name: P2_UnicodeString

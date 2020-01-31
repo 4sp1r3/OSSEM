@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Audio
+event_id: '108'
+version: '0'
+event(fields): MidiRT:TrytoopendeviceahandleonthedeviceStart(UnicodeString DeviceId,
+  Pointer object)
+opcode: Start
+keywords: ''
+task: MidiRT:Trytoopendeviceahandleonthedevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceId
+- field_type: Pointer
+  field_name: object

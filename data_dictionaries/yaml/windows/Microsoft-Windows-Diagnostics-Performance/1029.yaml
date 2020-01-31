@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '1029'
+version: '0'
+event(fields): Boot_RurAppResourceUsageStop(UInt32 HResult)
+opcode: Stop
+keywords: BootStatus
+task: Boot_RurAppResourceUsage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HResult

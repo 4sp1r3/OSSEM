@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18869'
+version: '0'
+event(fields): Shell32_AutoDestList_CalculateDecayStart()
+opcode: Start
+keywords: Shell
+task: Shell32_AutoDestList_CalculateDecay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

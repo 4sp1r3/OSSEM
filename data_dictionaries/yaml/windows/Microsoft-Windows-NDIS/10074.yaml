@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10074'
+version: '0'
+event(fields): Power10074(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error,
+  UInt32 Oid, Boolean Set)
+opcode: ''
+keywords: Power
+task: Power
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: NetLuid
+- field_type: UInt32
+  field_name: Error
+- field_type: UInt32
+  field_name: Oid
+- field_type: Boolean
+  field_name: Set

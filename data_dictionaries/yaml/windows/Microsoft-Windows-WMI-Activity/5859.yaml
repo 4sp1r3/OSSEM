@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WMI-Activity
+event_id: '5859'
+version: '0'
+event(fields): task_05859(UnicodeString NamespaceName, UnicodeString Query, UnicodeString
+  User, UInt32 processid, UnicodeString providerName, UInt32 queryid, UnicodeString
+  PossibleCause)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: NamespaceName
+- field_type: UnicodeString
+  field_name: Query
+- field_type: UnicodeString
+  field_name: User
+- field_type: UInt32
+  field_name: processid
+- field_type: UnicodeString
+  field_name: providerName
+- field_type: UInt32
+  field_name: queryid
+- field_type: UnicodeString
+  field_name: PossibleCause

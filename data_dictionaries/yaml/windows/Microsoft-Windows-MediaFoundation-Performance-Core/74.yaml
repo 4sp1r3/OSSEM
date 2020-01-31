@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '74'
+version: '0'
+event(fields): MFMFAudio_Render_StreamSinkAudStreamSink_FlushMarkers_Enter(Pointer
+  object)
+opcode: AudStreamSink_FlushMarkers_Enter
+keywords: ''
+task: MFMFAudio_Render_StreamSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DXGI
+event_id: '68'
+version: '0'
+event(fields): CheckOverlayColorSpaceSupport(Pointer pIDXGIOutput, UInt32 Format,
+  UInt32 ColorSpace, UInt32 OutputFlags, UInt32 Result)
+opcode: ''
+keywords: Events
+task: CheckOverlayColorSpaceSupport
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGIOutput
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: ColorSpace
+- field_type: UInt32
+  field_name: OutputFlags
+- field_type: UInt32
+  field_name: Result

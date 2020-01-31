@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '181'
+version: '0'
+event(fields): SVRGPUBoost(Pointer object, Int64 TimeToDeadline_us)
+opcode: ''
+keywords: ''
+task: SVRGPUBoost
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: TimeToDeadline_us

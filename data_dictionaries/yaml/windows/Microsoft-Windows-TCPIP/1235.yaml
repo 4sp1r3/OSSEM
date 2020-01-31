@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1235'
+version: '0'
+event(fields): RssProcessorAssignment(UInt32 NewAdapterIndex, UInt32 ProcessorIndex,
+  UInt32 PreviousAdapterIndex, UInt32 TriggeringProcessorIndex)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Rss ut:Global
+task: RssProcessorAssignment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NewAdapterIndex
+- field_type: UInt32
+  field_name: ProcessorIndex
+- field_type: UInt32
+  field_name: PreviousAdapterIndex
+- field_type: UInt32
+  field_name: TriggeringProcessorIndex

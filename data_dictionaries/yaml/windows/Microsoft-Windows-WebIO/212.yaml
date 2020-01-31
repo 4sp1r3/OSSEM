@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WebIO
+event_id: '212'
+version: '0'
+event(fields): ConnectionNameResolutionStop(Pointer CacheEntry, UnicodeString ResolveName,
+  UInt32 Flags, UInt32 Error, UInt32 AddressCount)
+opcode: Stop
+keywords: ''
+task: ConnectionNameResolution
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CacheEntry
+- field_type: UnicodeString
+  field_name: ResolveName
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Error
+- field_type: UInt32
+  field_name: AddressCount

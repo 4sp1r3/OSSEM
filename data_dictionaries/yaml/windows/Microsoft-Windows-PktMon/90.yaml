@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-PktMon
+event_id: '90'
+version: '0'
+event(fields): task_090(UInt16 ComponentId, UnicodeString EdgeName, UInt16 EdgeId,
+  UInt16 DirTagIn, UInt64 PacketsIn, UInt64 BytesIn, UInt16 DirTagOut, UInt64 PacketsOut,
+  UInt64 BytesOut)
+opcode: ''
+keywords: Rundown
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ComponentId
+- field_type: UnicodeString
+  field_name: EdgeName
+- field_type: UInt16
+  field_name: EdgeId
+- field_type: UInt16
+  field_name: DirTagIn
+- field_type: UInt64
+  field_name: PacketsIn
+- field_type: UInt64
+  field_name: BytesIn
+- field_type: UInt16
+  field_name: DirTagOut
+- field_type: UInt64
+  field_name: PacketsOut
+- field_type: UInt64
+  field_name: BytesOut

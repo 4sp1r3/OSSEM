@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-USB-USBHUB
+event_id: '119'
+version: '0'
+event(fields): USBDeviceStartComplete(Int8 fid_USBHUB_HC, UInt32 fid_USBHUB_Device,
+  UInt32 fid_Status)
+opcode: Complete
+keywords: Diagnostics keyword_400000000000
+task: USBDeviceStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: fid_USBHUB_HC
+- field_type: UInt32
+  field_name: fid_USBHUB_Device
+- field_type: UInt32
+  field_name: fid_Status

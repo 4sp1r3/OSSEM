@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EaseOfAccess
+event_id: '3'
+version: '0'
+event(fields): Magnify_ChangeZoomLevelStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: Magnify_ChangeZoomLevel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

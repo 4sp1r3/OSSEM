@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-EnhancedStorage-EhStorTcgDrv
+event_id: '4'
+version: '0'
+event(fields): DriverGeneral4(AnsiString ObjectName, UInt32 ObjectSize)
+opcode: General
+keywords: ''
+task: Driver
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: ObjectName
+- field_type: UInt32
+  field_name: ObjectSize

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '1006'
+version: '0'
+event(fields): CreateDocument1006(UInt32 ErrorCode, UnicodeString ErrorMessage, UnicodeString
+  Description)
+opcode: ''
+keywords: XmlValidation ut:Configuration
+task: CreateDocument
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: Description

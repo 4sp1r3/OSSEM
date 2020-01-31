@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '10110'
+version: '1'
+event(fields): User_modeDriverproblems._V1(GUID LifetimeId, UInt8 Problem, UInt8 DetectedBy,
+  UInt8 ActiveOperation, UInt32 ExitCode, UInt32 Message, UInt32 Status)
+opcode: ''
+keywords: ''
+task: User_modeDriverproblems.
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId
+- field_type: UInt8
+  field_name: Problem
+- field_type: UInt8
+  field_name: DetectedBy
+- field_type: UInt8
+  field_name: ActiveOperation
+- field_type: UInt32
+  field_name: ExitCode
+- field_type: UInt32
+  field_name: Message
+- field_type: UInt32
+  field_name: Status

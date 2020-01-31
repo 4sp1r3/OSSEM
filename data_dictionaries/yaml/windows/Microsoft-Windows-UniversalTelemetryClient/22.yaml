@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '22'
+version: '0'
+event(fields): Upload_SevilleBandwidthMonitor_TierChange(UnicodeString Environment,
+  UInt64 BytesUploadedSoFar, UInt64 BytesAllowed, UInt32 PercentageUsed, UInt32 NewTier,
+  UInt32 OldTier)
+opcode: ''
+keywords: Upload
+task: Upload_SevilleBandwidthMonitor_TierChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: UInt64
+  field_name: BytesUploadedSoFar
+- field_type: UInt64
+  field_name: BytesAllowed
+- field_type: UInt32
+  field_name: PercentageUsed
+- field_type: UInt32
+  field_name: NewTier
+- field_type: UInt32
+  field_name: OldTier

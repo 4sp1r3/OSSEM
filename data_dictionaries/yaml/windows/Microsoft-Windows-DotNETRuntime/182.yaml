@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '182'
+version: '0'
+event(fields): StrongNameVerificationStop(UInt32 VerificationFlags, UInt32 ErrorCode,
+  UnicodeString FullyQualifiedAssemblyName)
+opcode: Stop
+keywords: SecurityKeyword
+task: StrongNameVerification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: VerificationFlags
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: FullyQualifiedAssemblyName

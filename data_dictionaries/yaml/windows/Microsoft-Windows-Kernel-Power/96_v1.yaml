@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '96'
+version: '1'
+event(fields): SystemTimeResolutionRundown_V1(UInt32 CurrentPeriod, UInt32 MinimumPeriod,
+  UInt32 MaximumPeriod, UInt32 KernelRequestCount, UInt32 KernelRequestedPeriod, UInt32
+  InternalSetPeriod)
+opcode: ''
+keywords: po:Diagnostic
+task: SystemTimeResolutionRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CurrentPeriod
+- field_type: UInt32
+  field_name: MinimumPeriod
+- field_type: UInt32
+  field_name: MaximumPeriod
+- field_type: UInt32
+  field_name: KernelRequestCount
+- field_type: UInt32
+  field_name: KernelRequestedPeriod
+- field_type: UInt32
+  field_name: InternalSetPeriod

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows Networking VPN Plugin Platform
+event_id: '2027'
+version: '0'
+event(fields): task_02027(SID plugin, UnicodeString profile)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: plugin
+- field_type: UnicodeString
+  field_name: profile

@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '344'
+version: '0'
+event(fields): IMTravelLogMVC_ScreenShotInfo(UnicodeString String)
+opcode: ''
+keywords: immersive
+task: IMTravelLogMVC_ScreenShotInfo
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String

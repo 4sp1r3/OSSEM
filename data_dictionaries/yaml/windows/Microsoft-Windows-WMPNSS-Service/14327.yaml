@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '14327'
+version: '0'
+event(fields): task_014327(UnicodeString ServiceName, UnicodeString ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: UnicodeString
+  field_name: ErrorCode

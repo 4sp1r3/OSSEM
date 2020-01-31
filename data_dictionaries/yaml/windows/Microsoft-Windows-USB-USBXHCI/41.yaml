@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '41'
+version: '0'
+event(fields): USBtransferUSBtransferinitialized(UInt8 fid_SlotId, UInt32 fid_EndpointContextIndex,
+  UInt32 fid_StreamId, UInt32 fid_BytesTotal)
+opcode: USBtransferinitialized
+keywords: Default Performance
+task: USBtransfer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: fid_SlotId
+- field_type: UInt32
+  field_name: fid_EndpointContextIndex
+- field_type: UInt32
+  field_name: fid_StreamId
+- field_type: UInt32
+  field_name: fid_BytesTotal

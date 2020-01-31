@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '10021'
+version: '0'
+event(fields): InterfaceInitializationTaskStart(GUID InterfaceGuid)
+opcode: Start
+keywords: LwtDiagnostic InterfaceEnum keyword_200000000000
+task: InterfaceInitializationTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

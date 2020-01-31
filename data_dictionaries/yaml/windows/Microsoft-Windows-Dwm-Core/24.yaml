@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '24'
+version: '0'
+event(fields): SCHEDULE_GLITCH(UInt64 cFrame, UInt64 tVSyncLatency, UInt64 tElapsed,
+  Boolean Induced, UInt64 qpcPresented, UInt64 qpcConfirmed, UInt64 tPresentLatency,
+  UInt64 qpcFrame, UInt64 cSyncRefreshFrame, UInt64 tGlitch, UInt64 qpcFrequency,
+  UInt64 qpcPeriod, UInt32 cMonitors, Binary rgcDXRefresh)
+opcode: ''
+keywords: FrameDrawInconsistencyInformation
+task: SCHEDULE_GLITCH
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: cFrame
+- field_type: UInt64
+  field_name: tVSyncLatency
+- field_type: UInt64
+  field_name: tElapsed
+- field_type: Boolean
+  field_name: Induced
+- field_type: UInt64
+  field_name: qpcPresented
+- field_type: UInt64
+  field_name: qpcConfirmed
+- field_type: UInt64
+  field_name: tPresentLatency
+- field_type: UInt64
+  field_name: qpcFrame
+- field_type: UInt64
+  field_name: cSyncRefreshFrame
+- field_type: UInt64
+  field_name: tGlitch
+- field_type: UInt64
+  field_name: qpcFrequency
+- field_type: UInt64
+  field_name: qpcPeriod
+- field_type: UInt32
+  field_name: cMonitors
+- field_type: Binary
+  field_name: rgcDXRefresh

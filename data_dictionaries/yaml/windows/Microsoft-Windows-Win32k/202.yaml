@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Win32k
+event_id: '202'
+version: '0'
+event(fields): CompositionSurfaceObjectUpdate(Pointer pCompositionSurfaceObject, UInt32
+  SwapChainIndex)
+opcode: ''
+keywords: Updates Visualization
+task: CompositionSurfaceObjectUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCompositionSurfaceObject
+- field_type: UInt32
+  field_name: SwapChainIndex

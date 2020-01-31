@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-EngineShared
+event_id: '3001'
+version: '0'
+event(fields): task_03001(UnicodeString Prop_UnicodeString)
+opcode: ''
+keywords: Debug
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_UnicodeString

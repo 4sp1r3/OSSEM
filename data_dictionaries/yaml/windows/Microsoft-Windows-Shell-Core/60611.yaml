@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60611'
+version: '0'
+event(fields): ItemsView_UIItemsView_PreProcessEventQueueStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: ItemsView_UIItemsView_PreProcessEventQueue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

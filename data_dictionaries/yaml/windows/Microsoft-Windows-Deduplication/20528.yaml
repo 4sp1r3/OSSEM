@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20528'
+version: '0'
+event(fields): AllocatepoolbufferStart(UInt32 ReadLength, Boolean PagingIo)
+opcode: Start
+keywords: KmChunkContainer
+task: Allocatepoolbuffer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ReadLength
+- field_type: Boolean
+  field_name: PagingIo

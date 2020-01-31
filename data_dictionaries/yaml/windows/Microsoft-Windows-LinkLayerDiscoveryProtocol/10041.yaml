@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-LinkLayerDiscoveryProtocol
+event_id: '10041'
+version: '0'
+event(fields): task_010041(UInt32 IfIndex, UInt32 SequenceNumber, UInt32 PacketPayloadLength,
+  Binary PacketPayload)
+opcode: ''
+keywords: ut:ReceivePath
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: SequenceNumber
+- field_type: UInt32
+  field_name: PacketPayloadLength
+- field_type: Binary
+  field_name: PacketPayload

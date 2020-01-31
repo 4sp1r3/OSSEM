@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '109'
+version: '0'
+event(fields): FirewallAppContainerDeletionStart(UnicodeString AppContainerName)
+opcode: Start
+keywords: AppContainer
+task: FirewallAppContainerDeletion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppContainerName

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '6'
+version: '0'
+event(fields): ImageUnload(Pointer ImageBase, Pointer ImageSize, UInt32 ProcessID,
+  UInt32 ImageCheckSum, UInt32 TimeDateStamp, Pointer DefaultBase, UnicodeString ImageName)
+opcode: ''
+keywords: WINEVENT_KEYWORD_IMAGE
+task: ImageUnload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ImageBase
+- field_type: Pointer
+  field_name: ImageSize
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: UInt32
+  field_name: ImageCheckSum
+- field_type: UInt32
+  field_name: TimeDateStamp
+- field_type: Pointer
+  field_name: DefaultBase
+- field_type: UnicodeString
+  field_name: ImageName

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-Vault
+event_id: '107'
+version: '0'
+event(fields): VaultPerformanceStop107()
+opcode: Stop
+keywords: ''
+task: VaultPerformance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

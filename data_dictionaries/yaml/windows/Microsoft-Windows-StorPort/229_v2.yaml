@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-StorPort
+event_id: '229'
+version: '2'
+event(fields): Port229_V2(Pointer PoHandle, UInt32 PortNumber, UInt8 Bus, UInt8 Target,
+  UInt8 LUN, HexInt32 RegistrationStatus, Boolean Requested_D3ColdSupported, Boolean
+  Requested_WakeCapable, UInt32 Requested_IdleTimeoutInMS, UInt32 NumberOfFStates,
+  Boolean Actual_D3ColdSupported, Boolean Actual_WakeCapable, UInt32 Actual_IdleTimeoutInMS)
+opcode: ''
+keywords: Power
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PoHandle
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: Bus
+- field_type: UInt8
+  field_name: Target
+- field_type: UInt8
+  field_name: LUN
+- field_type: HexInt32
+  field_name: RegistrationStatus
+- field_type: Boolean
+  field_name: Requested_D3ColdSupported
+- field_type: Boolean
+  field_name: Requested_WakeCapable
+- field_type: UInt32
+  field_name: Requested_IdleTimeoutInMS
+- field_type: UInt32
+  field_name: NumberOfFStates
+- field_type: Boolean
+  field_name: Actual_D3ColdSupported
+- field_type: Boolean
+  field_name: Actual_WakeCapable
+- field_type: UInt32
+  field_name: Actual_IdleTimeoutInMS

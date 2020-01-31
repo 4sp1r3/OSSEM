@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4891'
+version: '0'
+event(fields): task_04891(UnicodeString Node, UnicodeString Entry, UnicodeString Value,
+  SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString SubjectDomainName,
+  HexInt64 SubjectLogonId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Node
+- field_type: UnicodeString
+  field_name: Entry
+- field_type: UnicodeString
+  field_name: Value
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '500'
+version: '0'
+event(fields): FlipManagerCompleteTokenStart(UInt64 PresentId)
+opcode: Start
+keywords: Updates
+task: FlipManagerCompleteToken
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PresentId

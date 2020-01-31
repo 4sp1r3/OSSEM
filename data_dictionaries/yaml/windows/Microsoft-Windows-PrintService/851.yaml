@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintService
+event_id: '851'
+version: '0'
+event(fields): AddingaprinterconnectionSpoolerOperationFailed851(UnicodeString PrintQueue,
+  HexInt32 Error)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_CONNECTION
+task: Addingaprinterconnection
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PrintQueue
+- field_type: HexInt32
+  field_name: Error

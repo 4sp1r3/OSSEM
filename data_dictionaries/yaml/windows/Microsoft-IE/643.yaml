@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '643'
+version: '0'
+event(fields): Mshtml_EventDebug_MutationObserverCallbackStart(UInt32 FunctionId,
+  UInt64 ScriptContextId)
+opcode: Start
+keywords: eventsandtimers
+task: Mshtml_EventDebug_MutationObserverCallback
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FunctionId
+- field_type: UInt64
+  field_name: ScriptContextId

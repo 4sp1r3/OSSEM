@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '336'
+version: '0'
+event(fields): task_0336(UInt32 Prop_Dword_1, UnicodeString Prop_String1, UnicodeString
+  Prop_String2, UInt32 Prop_Dword_2)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_Dword_1
+- field_type: UnicodeString
+  field_name: Prop_String1
+- field_type: UnicodeString
+  field_name: Prop_String2
+- field_type: UInt32
+  field_name: Prop_Dword_2

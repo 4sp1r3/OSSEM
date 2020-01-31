@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62137'
+version: '0'
+event(fields): TileManagement_AppTileInfo_RevertStop(UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: TileManagement_AppTileInfo_Revert
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

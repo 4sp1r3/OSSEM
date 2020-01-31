@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '175'
+version: '0'
+event(fields): StandbyConnectivityRundown(UInt32 State, UInt32 Reason)
+opcode: ''
+keywords: po:Diagnostic
+task: StandbyConnectivityRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Reason

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Diagnosis-DPS
+event_id: '185'
+version: '0'
+event(fields): ScenarioLifecycleAdiagnosticmodulewasmovedtoabrokenstate(UnicodeString
+  DiagnosticModuleImageName, GUID DiagnosticModuleId, Int32 StatusCode)
+opcode: Adiagnosticmodulewasmovedtoabrokenstate
+keywords: lifecycle
+task: ScenarioLifecycle
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DiagnosticModuleImageName
+- field_type: GUID
+  field_name: DiagnosticModuleId
+- field_type: Int32
+  field_name: StatusCode

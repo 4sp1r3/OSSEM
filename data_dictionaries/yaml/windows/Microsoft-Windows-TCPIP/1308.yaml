@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1308'
+version: '0'
+event(fields): TcpSignalNotificationChannelEvent(Pointer Tcb, Pointer NcmContext,
+  UInt32 Pid, UInt32 RcvNxt, UInt32 Delivered, UInt32 Indicated, UInt32 FinalEvent)
+opcode: ''
+keywords: ut:ConnectPath ut:Global
+task: TcpSignalNotificationChannelEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: Pointer
+  field_name: NcmContext
+- field_type: UInt32
+  field_name: Pid
+- field_type: UInt32
+  field_name: RcvNxt
+- field_type: UInt32
+  field_name: Delivered
+- field_type: UInt32
+  field_name: Indicated
+- field_type: UInt32
+  field_name: FinalEvent

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1207'
+version: '0'
+event(fields): RdClientRADCworkspace(UnicodeString BuildBranch, UnicodeString BuildDate,
+  UnicodeString BuildTime, UnicodeString BuildVersion, UnicodeString ArchAndFlavour)
+opcode: ''
+keywords: ''
+task: RdClientRADCworkspace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: BuildBranch
+- field_type: UnicodeString
+  field_name: BuildDate
+- field_type: UnicodeString
+  field_name: BuildTime
+- field_type: UnicodeString
+  field_name: BuildVersion
+- field_type: UnicodeString
+  field_name: ArchAndFlavour

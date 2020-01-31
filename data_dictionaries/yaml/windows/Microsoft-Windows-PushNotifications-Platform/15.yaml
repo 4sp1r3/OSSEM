@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '15'
+version: '0'
+event(fields): task_015(UInt16 CountApplication, UInt16 CountAllocated, UInt16 MaximumApplication)
+opcode: ''
+keywords: wpnplat
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: CountApplication
+- field_type: UInt16
+  field_name: CountAllocated
+- field_type: UInt16
+  field_name: MaximumApplication

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SleepStudy
+event_id: '4'
+version: '0'
+event(fields): SubsystemContextInfo(UInt32 DataCount, AnsiString Data)
+opcode: ''
+keywords: sleepstudy
+task: SubsystemContextInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DataCount
+- field_type: AnsiString
+  field_name: Data

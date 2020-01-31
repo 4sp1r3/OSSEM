@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '232'
+version: '0'
+event(fields): SuplSession232(UInt32 Major, UInt32 Minor)
+opcode: ''
+keywords: Selfhost Supl
+task: SuplSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Major
+- field_type: UInt32
+  field_name: Minor

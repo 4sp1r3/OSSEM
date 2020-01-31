@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1311'
+version: '0'
+event(fields): task_01311(UInt32 ConnectionType, UInt32 OldIndex, UInt32 OldAddressFamily,
+  UInt32 NewIndex, UInt32 NewAddressFamily, UInt32 NewPhysicalMediumType)
+opcode: ''
+keywords: wnptrans
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ConnectionType
+- field_type: UInt32
+  field_name: OldIndex
+- field_type: UInt32
+  field_name: OldAddressFamily
+- field_type: UInt32
+  field_name: NewIndex
+- field_type: UInt32
+  field_name: NewAddressFamily
+- field_type: UInt32
+  field_name: NewPhysicalMediumType

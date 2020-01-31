@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '352'
+version: '0'
+event(fields): VidMmYieldDevice(Pointer pDxgDevice, Pointer pYieldedTo, UInt32 Delta)
+opcode: ''
+keywords: VidMmWorkerThread
+task: VidMmYieldDevice
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgDevice
+- field_type: Pointer
+  field_name: pYieldedTo
+- field_type: UInt32
+  field_name: Delta

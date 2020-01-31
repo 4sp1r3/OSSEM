@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HealthCenterCPL
+event_id: '100'
+version: '0'
+event(fields): WHC_ControlPanelLaunchStart()
+opcode: Start
+keywords: ''
+task: WHC_ControlPanelLaunch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

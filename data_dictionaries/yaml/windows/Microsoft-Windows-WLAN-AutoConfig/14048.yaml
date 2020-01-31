@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14048'
+version: '0'
+event(fields): task_014048(Boolean ActiveConsole)
+opcode: ''
+keywords: Session
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: ActiveConsole

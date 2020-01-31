@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '6287'
+version: '0'
+event(fields): task_06287(UInt32 p0, UInt32 p1)
+opcode: ''
+keywords: ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p0
+- field_type: UInt32
+  field_name: p1

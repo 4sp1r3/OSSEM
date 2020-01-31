@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '26061'
+version: '2'
+event(fields): Queryfileallocationmessagetask.Stop_V2()
+opcode: Stop
+keywords: ''
+task: Queryfileallocationmessagetask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

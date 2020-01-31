@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2111'
+version: '0'
+event(fields): WNFCtapDeviceChangeNotifyInfoInformational(HexInt32 Transport)
+opcode: Informational
+keywords: Ctap
+task: WNFCtapDeviceChangeNotifyInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Transport

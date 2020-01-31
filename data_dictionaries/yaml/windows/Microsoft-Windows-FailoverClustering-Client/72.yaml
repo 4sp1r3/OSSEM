@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FailoverClustering-Client
+event_id: '72'
+version: '0'
+event(fields): task_072(UnicodeString Parameter1)
+opcode: ''
+keywords: Property
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Parameter1

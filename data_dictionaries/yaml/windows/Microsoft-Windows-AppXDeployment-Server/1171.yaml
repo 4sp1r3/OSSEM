@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1171'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.CancelRequestStart()
+opcode: Start
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.CancelRequest
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

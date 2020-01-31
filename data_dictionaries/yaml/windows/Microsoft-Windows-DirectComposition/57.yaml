@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '57'
+version: '0'
+event(fields): VISUAL_REDIRECT_MOUSE(UInt32 Channel, UInt32 visualHandle, UInt64 visualAndChannelHandle,
+  Pointer windowHandle, UInt32 mouseConfigMask, UInt32 mouseConfigValues)
+opcode: ''
+keywords: DCompInput
+task: VISUAL_REDIRECT_MOUSE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Channel
+- field_type: UInt32
+  field_name: visualHandle
+- field_type: UInt64
+  field_name: visualAndChannelHandle
+- field_type: Pointer
+  field_name: windowHandle
+- field_type: UInt32
+  field_name: mouseConfigMask
+- field_type: UInt32
+  field_name: mouseConfigValues

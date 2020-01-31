@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '46'
+version: '0'
+event(fields): SetAllocationPriority(Pointer hAllocationHandle, UInt32 Priority)
+opcode: ''
+keywords: Base
+task: SetAllocationPriority
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAllocationHandle
+- field_type: UInt32
+  field_name: Priority

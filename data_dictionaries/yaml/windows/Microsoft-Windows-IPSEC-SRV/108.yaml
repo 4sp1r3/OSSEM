@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IPSEC-SRV
+event_id: '108'
+version: '0'
+event(fields): IPSEC_BFE_EngineOpenStop()
+opcode: Stop
+keywords: PolicyAgent
+task: IPSEC_BFE_EngineOpen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1004'
+version: '1'
+event(fields): SrvSignatureValidationFailure_V1(UInt16 ClientNameLength, UnicodeString
+  ClientName, UInt16 UserNameLength, UnicodeString UserName, UInt32 ClientAddressLength,
+  Binary ClientAddress, HexInt64 SessionID)
+opcode: ''
+keywords: Operational
+task: SrvSignatureValidationFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName
+- field_type: UInt16
+  field_name: UserNameLength
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UInt32
+  field_name: ClientAddressLength
+- field_type: Binary
+  field_name: ClientAddress
+- field_type: HexInt64
+  field_name: SessionID

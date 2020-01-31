@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '512'
+version: '0'
+event(fields): AudCaptureStream_CreateCaptureStreamStop(Pointer object, UInt32 m_u32BytesPerFrame,
+  UInt32 m_u32FramesPerSecond, UInt32 hResult)
+opcode: Stop
+keywords: ''
+task: AudCaptureStream_CreateCaptureStream
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: m_u32BytesPerFrame
+- field_type: UInt32
+  field_name: m_u32FramesPerSecond
+- field_type: UInt32
+  field_name: hResult

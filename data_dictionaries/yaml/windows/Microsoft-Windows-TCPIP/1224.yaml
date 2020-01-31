@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1224'
+version: '0'
+event(fields): TcpTemplateChanged(Pointer Tcb, UInt32 TemplateType, UnicodeString
+  Context)
+opcode: ''
+keywords: ut:Global
+task: TcpTemplateChanged
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: TemplateType
+- field_type: UnicodeString
+  field_name: Context

@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-Backup
+event_id: '226'
+version: '0'
+event(fields): task_0226(GUID BackupSetId, FILETIME BackupSetTime, GUID RestoreEventId,
+  Boolean RecoveryFromSSB, UnicodeString BackupTargetPath, UnicodeString AppRestoreAlternateTargetPath,
+  Int32 RestoreState, UInt32 HRESULT, UInt32 DetailedHRESULT, FILETIME RestoreTime,
+  UInt32 NumOfComponents, UnicodeString FileSuccessLogPath, UnicodeString FileFailureLogPath,
+  UnicodeString AppsInfo)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BackupSetId
+- field_type: FILETIME
+  field_name: BackupSetTime
+- field_type: GUID
+  field_name: RestoreEventId
+- field_type: Boolean
+  field_name: RecoveryFromSSB
+- field_type: UnicodeString
+  field_name: BackupTargetPath
+- field_type: UnicodeString
+  field_name: AppRestoreAlternateTargetPath
+- field_type: Int32
+  field_name: RestoreState
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: DetailedHRESULT
+- field_type: FILETIME
+  field_name: RestoreTime
+- field_type: UInt32
+  field_name: NumOfComponents
+- field_type: UnicodeString
+  field_name: FileSuccessLogPath
+- field_type: UnicodeString
+  field_name: FileFailureLogPath
+- field_type: UnicodeString
+  field_name: AppsInfo

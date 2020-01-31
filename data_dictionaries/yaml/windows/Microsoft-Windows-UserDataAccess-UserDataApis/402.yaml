@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '402'
+version: '0'
+event(fields): task_0402(UnicodeString Prop_UnicodeString)
+opcode: ''
+keywords: OnlinePhotosAPI StateTransition
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_UnicodeString

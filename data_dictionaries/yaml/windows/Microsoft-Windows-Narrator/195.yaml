@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '195'
+version: '0'
+event(fields): PlaceCaretStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: PlaceCaret
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

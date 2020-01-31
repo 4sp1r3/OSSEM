@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Hyper-V-Netvsc
+event_id: '37'
+version: '0'
+event(fields): NdkOpenAdapter(UInt32 Status, UInt32 failureReason, UInt32 MiniportNameLen,
+  UnicodeString MiniportName)
+opcode: ''
+keywords: ''
+task: NdkOpenAdapter
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: failureReason
+- field_type: UInt32
+  field_name: MiniportNameLen
+- field_type: UnicodeString
+  field_name: MiniportName

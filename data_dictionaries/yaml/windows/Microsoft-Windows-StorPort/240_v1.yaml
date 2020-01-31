@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorPort
+event_id: '240'
+version: '1'
+event(fields): Port240_V1(Pointer PoHandle, UInt32 PortNumber, Boolean D3ColdSupported,
+  UInt32 IdleTimeoutInMS, UInt32 NumberOfFStates)
+opcode: ''
+keywords: Power
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PoHandle
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: Boolean
+  field_name: D3ColdSupported
+- field_type: UInt32
+  field_name: IdleTimeoutInMS
+- field_type: UInt32
+  field_name: NumberOfFStates

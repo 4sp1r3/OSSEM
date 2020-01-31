@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '203'
+version: '0'
+event(fields): TpmSubmitError203(UInt32 CommandCode, UInt32 ErrorCode, UInt64 ResponseMilliseconds,
+  UInt32 CommandSize, Binary CommandData)
+opcode: ''
+keywords: keyword_80000000000
+task: TpmSubmitError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CommandCode
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt64
+  field_name: ResponseMilliseconds
+- field_type: UInt32
+  field_name: CommandSize
+- field_type: Binary
+  field_name: CommandData

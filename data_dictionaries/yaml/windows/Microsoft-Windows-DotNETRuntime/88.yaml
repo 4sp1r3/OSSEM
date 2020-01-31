@@ -1,0 +1,37 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '88'
+version: '0'
+event(fields): ILStubStubGenerated(UInt16 ClrInstanceID, UInt64 ModuleID, UInt64 StubMethodID,
+  UInt32 StubFlags, UInt32 ManagedInteropMethodToken, UnicodeString ManagedInteropMethodNamespace,
+  UnicodeString ManagedInteropMethodName, UnicodeString ManagedInteropMethodSignature,
+  UnicodeString NativeMethodSignature, UnicodeString StubMethodSignature, UnicodeString
+  StubMethodILCode)
+opcode: StubGenerated
+keywords: InteropKeyword
+task: ILStub
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: UInt64
+  field_name: ModuleID
+- field_type: UInt64
+  field_name: StubMethodID
+- field_type: UInt32
+  field_name: StubFlags
+- field_type: UInt32
+  field_name: ManagedInteropMethodToken
+- field_type: UnicodeString
+  field_name: ManagedInteropMethodNamespace
+- field_type: UnicodeString
+  field_name: ManagedInteropMethodName
+- field_type: UnicodeString
+  field_name: ManagedInteropMethodSignature
+- field_type: UnicodeString
+  field_name: NativeMethodSignature
+- field_type: UnicodeString
+  field_name: StubMethodSignature
+- field_type: UnicodeString
+  field_name: StubMethodILCode

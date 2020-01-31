@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '33'
+version: '0'
+event(fields): DevicePairing_FirstDeviceDiscoveryStop()
+opcode: Stop
+keywords: DeviceUX_Performance
+task: DevicePairing_FirstDeviceDiscovery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

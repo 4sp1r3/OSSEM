@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '24'
+version: '0'
+event(fields): WindowsUpdateAgentUninstallation24(HexInt32 errorCode, UnicodeString
+  updatelist, GUID updateGuid, UInt32 updateRevisionNumber)
+opcode: Uninstallation
+keywords: failure uninstall
+task: WindowsUpdateAgent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: updatelist
+- field_type: GUID
+  field_name: updateGuid
+- field_type: UInt32
+  field_name: updateRevisionNumber

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-COMRuntime
+event_id: '6'
+version: '0'
+event(fields): DropPointerMessage(UInt32 ApartmentType, UInt32 Message)
+opcode: ''
+keywords: DropInputMessage
+task: DropPointerMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ApartmentType
+- field_type: UInt32
+  field_name: Message

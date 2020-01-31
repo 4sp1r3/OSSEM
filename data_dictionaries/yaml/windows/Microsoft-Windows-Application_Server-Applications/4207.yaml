@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4207'
+version: '0'
+event(fields): SqlCommandExecute4207(UnicodeString AppDomain)
+opcode: ''
+keywords: Quota WFInstanceStore
+task: SqlCommandExecute
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,17 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '49'
+version: '3'
+event(fields): ThreadPriority(UInt32 ThreadId, UInt8 OldPriority, UInt8 NewPriority,
+  UInt16 Reserved)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: ThreadId
+- field_type: UInt8
+  field_name: OldPriority
+- field_type: UInt8
+  field_name: NewPriority
+- field_type: UInt16
+  field_name: Reserved

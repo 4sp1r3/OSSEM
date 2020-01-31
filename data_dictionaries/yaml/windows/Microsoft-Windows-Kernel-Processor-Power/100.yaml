@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '100'
+version: '0'
+event(fields): PerfCheckStart100(UInt64 PpmCheckTime, UInt64 AdjustedCheckTime, UInt32
+  PipelineId)
+opcode: Start
+keywords: Diag
+task: PerfCheck
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PpmCheckTime
+- field_type: UInt64
+  field_name: AdjustedCheckTime
+- field_type: UInt32
+  field_name: PipelineId

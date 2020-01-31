@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3011'
+version: '0'
+event(fields): LoadCatalogStop(UInt16 FileNameLength, UnicodeString FileNameBuffer)
+opcode: Stop
+keywords: ''
+task: LoadCatalog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2232'
+version: '0'
+event(fields): Share_ShowFailure(UInt32 Result)
+opcode: ''
+keywords: ''
+task: Share_ShowFailure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

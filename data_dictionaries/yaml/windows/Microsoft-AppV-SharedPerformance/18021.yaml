@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '18021'
+version: '0'
+event(fields): SendchangenotificationsStop()
+opcode: Stop
+keywords: ''
+task: Sendchangenotifications
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

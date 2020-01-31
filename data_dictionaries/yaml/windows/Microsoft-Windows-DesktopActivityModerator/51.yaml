@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DesktopActivityModerator
+event_id: '51'
+version: '0'
+event(fields): PdcCallback(UInt32 State, UInt32 NTSTATUS, Boolean WorkItemQueued)
+opcode: ''
+keywords: Pdc
+task: PdcCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: NTSTATUS
+- field_type: Boolean
+  field_name: WorkItemQueued

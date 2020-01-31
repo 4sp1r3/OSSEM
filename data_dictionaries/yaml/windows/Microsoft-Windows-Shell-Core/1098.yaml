@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1098'
+version: '0'
+event(fields): DataLayer_RSMNotificationStop(UInt32 Event)
+opcode: Stop
+keywords: Shell
+task: DataLayer_RSMNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Event

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '10'
+version: '0'
+event(fields): BuildChainStart(UnicodeString EventWriteData)
+opcode: Start
+keywords: PathValidation PathDiscovery
+task: BuildChain
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventWriteData

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TextPredictionEngine
+event_id: '5'
+version: '0'
+event(fields): TPLangMod_API_KeyPressStart()
+opcode: Start
+keywords: ''
+task: TPLangMod_API_KeyPress
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

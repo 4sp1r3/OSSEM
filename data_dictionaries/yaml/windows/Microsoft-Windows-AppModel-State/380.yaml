@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '380'
+version: '0'
+event(fields): AppModel.Task.StateWinRT.ApplicationDataCompositeValueServer_LookupStart()
+opcode: Start
+keywords: WinRT
+task: AppModel.Task.StateWinRT.ApplicationDataCompositeValueServer_Lookup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

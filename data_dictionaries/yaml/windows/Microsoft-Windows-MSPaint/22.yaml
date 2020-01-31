@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSPaint
+event_id: '22'
+version: '0'
+event(fields): MeasurePaintLagStart()
+opcode: Start
+keywords: ''
+task: MeasurePaintLag
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,56 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1445'
+version: '0'
+event(fields): IpRouteDGDStateChange(UInt32 DestinationPrefixAddressLength, Binary
+  DestinationPrefix, UInt32 NextHopAddressLength, Binary NextHopAddress, UInt32 DestinationPrefixLength,
+  UInt32 CompartmentId, UInt32 IfIndex, UInt32 OldState, UInt32 NewState, UInt32 OldProbeCount,
+  UInt32 NewProbeCount, UInt32 OldUnreachablePaths, UInt32 NewUnreachablePaths, UInt32
+  OldMovedPaths, UInt32 NewMovedPaths, UInt32 TotalPaths, UInt32 OldStateChangeTick,
+  UInt32 NewStateChangeTick, UInt32 DgdNeedsReset, UInt32 Reason)
+opcode: ''
+keywords: ut:TcpipRoute
+task: IpRouteDGDStateChange
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DestinationPrefixAddressLength
+- field_type: Binary
+  field_name: DestinationPrefix
+- field_type: UInt32
+  field_name: NextHopAddressLength
+- field_type: Binary
+  field_name: NextHopAddress
+- field_type: UInt32
+  field_name: DestinationPrefixLength
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: OldState
+- field_type: UInt32
+  field_name: NewState
+- field_type: UInt32
+  field_name: OldProbeCount
+- field_type: UInt32
+  field_name: NewProbeCount
+- field_type: UInt32
+  field_name: OldUnreachablePaths
+- field_type: UInt32
+  field_name: NewUnreachablePaths
+- field_type: UInt32
+  field_name: OldMovedPaths
+- field_type: UInt32
+  field_name: NewMovedPaths
+- field_type: UInt32
+  field_name: TotalPaths
+- field_type: UInt32
+  field_name: OldStateChangeTick
+- field_type: UInt32
+  field_name: NewStateChangeTick
+- field_type: UInt32
+  field_name: DgdNeedsReset
+- field_type: UInt32
+  field_name: Reason

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1477'
+version: '0'
+event(fields): LauncherTip_ContextMenuHash(UInt32 HashValue, UnicodeString HashInput)
+opcode: ''
+keywords: ''
+task: LauncherTip_ContextMenuHash
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HashValue
+- field_type: UnicodeString
+  field_name: HashInput

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1496'
+version: '0'
+event(fields): IpReassembly1496(UInt32 FragmentContextDirection, UInt32 IfIndex, UInt32
+  AddressFamily)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:ReceivePath
+task: IpReassembly
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FragmentContextDirection
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: AddressFamily

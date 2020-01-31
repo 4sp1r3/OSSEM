@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '139'
+version: '0'
+event(fields): Setup_DeletePreviousUsersSettingsKey()
+opcode: ''
+keywords: Service
+task: Setup_DeletePreviousUsersSettingsKey
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

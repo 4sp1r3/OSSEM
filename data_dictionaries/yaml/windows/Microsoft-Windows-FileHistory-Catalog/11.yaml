@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '11'
+version: '0'
+event(fields): GetNamespaceRecordStart(Int32 id)
+opcode: Start
+keywords: ''
+task: GetNamespaceRecord
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: id

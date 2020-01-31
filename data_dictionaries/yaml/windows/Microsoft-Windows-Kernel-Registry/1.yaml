@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '1'
+version: '0'
+event(fields): task_0CreateKey(Pointer BaseObject, Pointer KeyObject, UInt32 Status,
+  UInt32 Disposition, UnicodeString BaseName, UnicodeString RelativeName)
+opcode: CreateKey
+keywords: CreateKey
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: BaseObject
+- field_type: Pointer
+  field_name: KeyObject
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Disposition
+- field_type: UnicodeString
+  field_name: BaseName
+- field_type: UnicodeString
+  field_name: RelativeName

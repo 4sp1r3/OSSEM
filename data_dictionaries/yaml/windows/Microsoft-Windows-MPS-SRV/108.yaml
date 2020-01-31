@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '108'
+version: '0'
+event(fields): Audit_ShutdownStop()
+opcode: Stop
+keywords: Service
+task: Audit_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

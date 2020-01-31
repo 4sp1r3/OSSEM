@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2304'
+version: '0'
+event(fields): ExecutionManagerClient2304(Pointer ptr, UInt32 hex)
+opcode: ''
+keywords: Error
+task: ExecutionManagerClient
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ptr
+- field_type: UInt32
+  field_name: hex

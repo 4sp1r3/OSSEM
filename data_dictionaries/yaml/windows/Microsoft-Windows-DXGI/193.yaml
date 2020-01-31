@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '193'
+version: '0'
+event(fields): IDXGISwapChain_GetContainingOutputStop(UInt32 m_Ret)
+opcode: Stop
+keywords: ''
+task: IDXGISwapChain_GetContainingOutput
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret

@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '108'
+version: '0'
+event(fields): ExtendedProfilerStop(UInt32 Function, UInt32 Src, UInt32 Dst, UInt32
+  SrcWidth, UInt32 SrcHeight, UInt32 DstWidth, UInt32 DstHeight, Boolean Accelerated,
+  Boolean SolidColor, UInt32 Reserved)
+opcode: Stop
+keywords: Profiler
+task: ExtendedProfiler
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Function
+- field_type: UInt32
+  field_name: Src
+- field_type: UInt32
+  field_name: Dst
+- field_type: UInt32
+  field_name: SrcWidth
+- field_type: UInt32
+  field_name: SrcHeight
+- field_type: UInt32
+  field_name: DstWidth
+- field_type: UInt32
+  field_name: DstHeight
+- field_type: Boolean
+  field_name: Accelerated
+- field_type: Boolean
+  field_name: SolidColor
+- field_type: UInt32
+  field_name: Reserved

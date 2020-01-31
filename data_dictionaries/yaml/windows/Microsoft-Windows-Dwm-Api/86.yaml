@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '86'
+version: '0'
+event(fields): ApiRenderGestureStop(UInt32 hr, UInt32 Enum)
+opcode: Stop
+keywords: DwmApi
+task: ApiRenderGesture
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr
+- field_type: UInt32
+  field_name: Enum

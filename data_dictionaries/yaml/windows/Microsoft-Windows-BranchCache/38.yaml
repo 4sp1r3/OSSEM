@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '38'
+version: '0'
+event(fields): task_038(UnicodeString Path, UInt32 ErrorCode, UnicodeString ErrorMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

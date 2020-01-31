@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4805'
+version: '0'
+event(fields): DiscoveryMessageInvalidContent(UnicodeString messageType, UnicodeString
+  messageId, UnicodeString AppDomain)
+opcode: InvalidContent
+keywords: Discovery
+task: DiscoveryMessage
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: messageType
+- field_type: UnicodeString
+  field_name: messageId
+- field_type: UnicodeString
+  field_name: AppDomain

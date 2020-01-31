@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '828'
+version: '0'
+event(fields): CSms828(UInt64 Pointer, UnicodeString String)
+opcode: ''
+keywords: Information
+task: CSms
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Pointer
+- field_type: UnicodeString
+  field_name: String

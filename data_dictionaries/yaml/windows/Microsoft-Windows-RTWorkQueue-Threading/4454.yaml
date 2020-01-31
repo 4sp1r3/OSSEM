@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4454'
+version: '0'
+event(fields): MMCSSRegistrationStart(Pointer Queue, UInt32 ThreadID, Pointer Handle,
+  UInt32 Error, UnicodeString Class, Int32 Priority, UInt32 TaskID)
+opcode: Start
+keywords: ''
+task: MMCSSRegistration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Queue
+- field_type: UInt32
+  field_name: ThreadID
+- field_type: Pointer
+  field_name: Handle
+- field_type: UInt32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: Class
+- field_type: Int32
+  field_name: Priority
+- field_type: UInt32
+  field_name: TaskID

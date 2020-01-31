@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '5'
+version: '0'
+event(fields): DeviceDCStart(Pointer pID3D11Device, Pointer pIDXGIDevice, Pointer
+  pIDXGIAdapter, UInt32 CreationFlags, UInt32 FeatureLevel, UInt32 FeatureSupport,
+  UInt32 hKMAdapter, Pointer hUMAdapter, UInt64 UMAdapterVersion, UInt32 hKMDevice,
+  Pointer hUMDevice, UInt64 UMDeviceVersion, UInt32 UMDeviceFlags)
+opcode: DC_Start
+keywords: Devices
+task: Device
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D11Device
+- field_type: Pointer
+  field_name: pIDXGIDevice
+- field_type: Pointer
+  field_name: pIDXGIAdapter
+- field_type: UInt32
+  field_name: CreationFlags
+- field_type: UInt32
+  field_name: FeatureLevel
+- field_type: UInt32
+  field_name: FeatureSupport
+- field_type: UInt32
+  field_name: hKMAdapter
+- field_type: Pointer
+  field_name: hUMAdapter
+- field_type: UInt64
+  field_name: UMAdapterVersion
+- field_type: UInt32
+  field_name: hKMDevice
+- field_type: Pointer
+  field_name: hUMDevice
+- field_type: UInt64
+  field_name: UMDeviceVersion
+- field_type: UInt32
+  field_name: UMDeviceFlags

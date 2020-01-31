@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Network-Connection-Broker
+event_id: '1113'
+version: '0'
+event(fields): task_01113(UnicodeString Description, UInt32 Appprovidedtime, UInt32
+  Currentkeepalivetime, UInt32 Loweredkeepalivetime, UInt32 WNStestinputtime)
+opcode: ''
+keywords: Aoac
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Description
+- field_type: UInt32
+  field_name: Appprovidedtime
+- field_type: UInt32
+  field_name: Currentkeepalivetime
+- field_type: UInt32
+  field_name: Loweredkeepalivetime
+- field_type: UInt32
+  field_name: WNStestinputtime

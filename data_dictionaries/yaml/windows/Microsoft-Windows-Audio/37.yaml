@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Audio
+event_id: '37'
+version: '0'
+event(fields): Audio_Glitch_DetectionKSEndpointGlitch:IOMGRIoctlTimeLimitExceeded(Pointer
+  pOwner, UInt64 IoctlTimeHNS)
+opcode: IOMGRIoctlTimeLimitExceeded
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pOwner
+- field_type: UInt64
+  field_name: IoctlTimeHNS

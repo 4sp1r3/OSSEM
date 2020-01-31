@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-FunctionDiscovery
+event_id: '1004'
+version: '0'
+event(fields): FunDisc_CreateInstanceCollectionQueryStart(UnicodeString Category,
+  UnicodeString Subcategory, Boolean IncludeSubcategories)
+opcode: Start
+keywords: ''
+task: FunDisc_CreateInstanceCollectionQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Category
+- field_type: UnicodeString
+  field_name: Subcategory
+- field_type: Boolean
+  field_name: IncludeSubcategories

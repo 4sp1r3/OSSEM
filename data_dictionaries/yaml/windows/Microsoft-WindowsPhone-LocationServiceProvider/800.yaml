@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '800'
+version: '0'
+event(fields): LocationSession800(UnicodeString Scenario, UInt32 TTFF, UInt32 Accuracy)
+opcode: ''
+keywords: Performance Selfhost
+task: LocationSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Scenario
+- field_type: UInt32
+  field_name: TTFF
+- field_type: UInt32
+  field_name: Accuracy

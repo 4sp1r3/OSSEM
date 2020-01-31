@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '101'
+version: '0'
+event(fields): BatteryMeter_DisplayRichTooltipStart()
+opcode: Start
+keywords: BatteryMeter
+task: BatteryMeter_DisplayRichTooltip
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

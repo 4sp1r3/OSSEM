@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '105'
+version: '0'
+event(fields): BatteryMeter_DisplayContextMenuStart()
+opcode: Start
+keywords: BatteryMeter
+task: BatteryMeter_DisplayContextMenu
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

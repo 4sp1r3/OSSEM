@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '51'
+version: '0'
+event(fields): LegacyHistoryAddStop()
+opcode: Stop
+keywords: primarynav
+task: LegacyHistoryAdd
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

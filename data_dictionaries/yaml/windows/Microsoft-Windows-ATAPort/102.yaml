@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-ATAPort
+event_id: '102'
+version: '0'
+event(fields): ATAportGeneralATAPORT_OPCODE_XFER_MODE_CHANGE(UInt32 SCSIAddressSize,
+  UInt8 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN, UInt8 DMAtoPIO, UInt8
+  StepDownInDMAModes)
+opcode: ATAPORT_OPCODE_XFER_MODE_CHANGE
+keywords: XferModeChange
+task: ATAportGeneral
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SCSIAddressSize
+- field_type: UInt8
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: PathID
+- field_type: UInt8
+  field_name: TargetID
+- field_type: UInt8
+  field_name: LUN
+- field_type: UInt8
+  field_name: DMAtoPIO
+- field_type: UInt8
+  field_name: StepDownInDMAModes

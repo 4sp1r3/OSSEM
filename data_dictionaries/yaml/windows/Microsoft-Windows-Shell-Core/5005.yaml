@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '5005'
+version: '0'
+event(fields): Comdlg32_FileDialog_FrameFirstRedrawStop()
+opcode: Stop
+keywords: Shell
+task: Comdlg32_FileDialog_FrameFirstRedraw
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

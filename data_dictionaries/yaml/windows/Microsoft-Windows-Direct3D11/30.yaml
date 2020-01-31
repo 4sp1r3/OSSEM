@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '30'
+version: '0'
+event(fields): Destruction(Pointer pThis)
+opcode: ''
+keywords: ''
+task: Destruction
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis

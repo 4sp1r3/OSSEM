@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack-Counters
+event_id: '2002'
+version: '0'
+event(fields): PerfTrackCounter_Pool(UInt32 PagedPoolPages, UInt32 NonPagedPoolPages)
+opcode: ''
+keywords: PoolCounter
+task: PerfTrackCounter_Pool
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PagedPoolPages
+- field_type: UInt32
+  field_name: NonPagedPoolPages

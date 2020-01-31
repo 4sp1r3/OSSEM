@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18630'
+version: '0'
+event(fields): Shell32_MountPoint_WMDeviceChange_MountPointArrivalStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_MountPoint_WMDeviceChange_MountPointArrival
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

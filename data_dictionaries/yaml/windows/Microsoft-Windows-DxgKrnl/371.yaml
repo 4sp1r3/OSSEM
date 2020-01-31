@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '371'
+version: '0'
+event(fields): VidMmProcessCommitmentChange(UInt64 Commitment, UInt64 OldCommitment,
+  Pointer pDxgAdapter, UInt32 ProcessId, UInt16 PhysicalAdapterIndex, UInt8 MemorySegmentGroup)
+opcode: ''
+keywords: References
+task: VidMmProcessCommitmentChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Commitment
+- field_type: UInt64
+  field_name: OldCommitment
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt16
+  field_name: PhysicalAdapterIndex
+- field_type: UInt8
+  field_name: MemorySegmentGroup

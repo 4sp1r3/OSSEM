@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22046'
+version: '0'
+event(fields): Taskbar_Compute_Row_Layout(UInt32 nTotalWidth, UInt32 nTotalFixedWidth,
+  UInt32 iGroupStart, UInt32 iItemStart, UInt32 iGroupEnd, UInt32 iItemEnd)
+opcode: ''
+keywords: Shell
+task: Taskbar_Compute_Row_Layout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: nTotalWidth
+- field_type: UInt32
+  field_name: nTotalFixedWidth
+- field_type: UInt32
+  field_name: iGroupStart
+- field_type: UInt32
+  field_name: iItemStart
+- field_type: UInt32
+  field_name: iGroupEnd
+- field_type: UInt32
+  field_name: iItemEnd

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '184'
+version: '0'
+event(fields): MediaEngineClearHistory(Pointer object, Int32 ListCount, Int32 Location)
+opcode: ''
+keywords: ''
+task: MediaEngineClearHistory
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: ListCount
+- field_type: Int32
+  field_name: Location

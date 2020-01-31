@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27160'
+version: '0'
+event(fields): PerfTrack_StartMenu_DocumentsStop()
+opcode: Stop
+keywords: Shell WDI
+task: PerfTrack_StartMenu_Documents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

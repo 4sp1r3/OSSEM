@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1189'
+version: '0'
+event(fields): TcpDeliveryStateChange(Pointer Tcb, Pointer Delivery, UInt32 OldDeliveryState,
+  UInt32 NewDeliveryState)
+opcode: ''
+keywords: ut:ReceivePath
+task: TcpDeliveryStateChange
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: Pointer
+  field_name: Delivery
+- field_type: UInt32
+  field_name: OldDeliveryState
+- field_type: UInt32
+  field_name: NewDeliveryState

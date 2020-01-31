@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50060'
+version: '0'
+event(fields): AddressConfigurationStateEventRouteDeleted(UnicodeString Str1, UnicodeString
+  Str2, UnicodeString Str3, UnicodeString Str4)
+opcode: RouteDeleted
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Str1
+- field_type: UnicodeString
+  field_name: Str2
+- field_type: UnicodeString
+  field_name: Str3
+- field_type: UnicodeString
+  field_name: Str4

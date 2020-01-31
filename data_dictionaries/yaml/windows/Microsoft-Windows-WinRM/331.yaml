@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '331'
+version: '0'
+event(fields): WSManAPIcallStart331(UnicodeString argument)
+opcode: Start
+keywords: Keyword.Client
+task: WSManAPIcall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: argument

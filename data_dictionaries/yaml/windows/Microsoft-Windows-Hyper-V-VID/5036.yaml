@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5036'
+version: '0'
+event(fields): VID_unballoonpagesStop5036(Int64 Parameter0, Int64 Parameter1, Int64
+  Parameter2, Int64 Parameter3)
+opcode: Stop
+keywords: VMK_HYPERV_PERF_INNER VMK_HYPERV_PERF
+task: VID_unballoonpages
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: Parameter0
+- field_type: Int64
+  field_name: Parameter1
+- field_type: Int64
+  field_name: Parameter2
+- field_type: Int64
+  field_name: Parameter3

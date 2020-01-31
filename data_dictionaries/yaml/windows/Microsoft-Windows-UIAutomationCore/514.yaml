@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '514'
+version: '0'
+event(fields): HandleWinEventStop(UnicodeString Method, HexInt32 HWND, UnicodeString
+  WindowClassName, HexInt32 EventId, HexInt32 ObjectId, UInt32 ChildId)
+opcode: Stop
+keywords: PerfInstrumentation
+task: HandleWinEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Method
+- field_type: HexInt32
+  field_name: HWND
+- field_type: UnicodeString
+  field_name: WindowClassName
+- field_type: HexInt32
+  field_name: EventId
+- field_type: HexInt32
+  field_name: ObjectId
+- field_type: UInt32
+  field_name: ChildId

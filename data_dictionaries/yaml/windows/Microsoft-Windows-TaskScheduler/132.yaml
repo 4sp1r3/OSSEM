@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '132'
+version: '0'
+event(fields): Launchconditionwarning,quotaapproaching(UInt32 CurrentQuota)
+opcode: ''
+keywords: ''
+task: Launchconditionwarning,quotaapproaching
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CurrentQuota

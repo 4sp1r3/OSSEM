@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62335'
+version: '0'
+event(fields): FileChunkMap_SetFileCompletionStateStart(UnicodeString FileName, UInt32
+  FileCompletionState)
+opcode: Start
+keywords: Shell
+task: FileChunkMap_SetFileCompletionState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: FileCompletionState

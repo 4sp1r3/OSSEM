@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '667'
+version: '0'
+event(fields): SPERF_TAG_CONVERT_TO_MIMEStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_CONVERT_TO_MIME
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

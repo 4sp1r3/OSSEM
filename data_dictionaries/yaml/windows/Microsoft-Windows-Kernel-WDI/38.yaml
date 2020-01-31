@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Kernel-WDI
+event_id: '38'
+version: '0'
+event(fields): SEMInitializationTheSEMisconfiguredwithmorescenariosthanthemaximumallowedcount.(GUID
+  ProviderID, UInt16 EventID)
+opcode: TheSEMisconfiguredwithmorescenariosthanthemaximumallowedcount.
+keywords: ''
+task: SEMInitialization
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderID
+- field_type: UInt16
+  field_name: EventID

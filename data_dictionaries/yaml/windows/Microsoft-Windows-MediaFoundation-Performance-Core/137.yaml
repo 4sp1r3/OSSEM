@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '137'
+version: '0'
+event(fields): MFMFAudio_Render_StreamSinkAudStreamSink_CheckAllocationLimits_LowerMaxRequest(Pointer
+  object, Int32 cMaxPendingRequestSample, Int32 NumContainers)
+opcode: AudStreamSink_CheckAllocationLimits_LowerMaxRequest
+keywords: ''
+task: MFMFAudio_Render_StreamSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: cMaxPendingRequestSample
+- field_type: Int32
+  field_name: NumContainers

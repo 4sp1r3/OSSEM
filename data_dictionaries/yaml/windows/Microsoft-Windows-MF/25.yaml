@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MF
+event_id: '25'
+version: '0'
+event(fields): MediaFoundationDevproxyMFTStreamStateStart(UInt32 StreamID, UInt32
+  IsStreaming)
+opcode: Start
+keywords: ''
+task: MediaFoundationDevproxyMFTStreamState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StreamID
+- field_type: UInt32
+  field_name: IsStreaming

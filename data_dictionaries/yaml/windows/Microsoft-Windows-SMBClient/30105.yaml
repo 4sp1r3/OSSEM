@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30105'
+version: '0'
+event(fields): task_030105(Pointer BufferCtxt, Pointer Exchange, UInt32 MidCharge,
+  Pointer Window, UInt32 CurrentWindowLimit, UInt32 ThrottlingWindowLimit, UInt32
+  CurrentWindowSize)
+opcode: ''
+keywords: Smb_Perf
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: BufferCtxt
+- field_type: Pointer
+  field_name: Exchange
+- field_type: UInt32
+  field_name: MidCharge
+- field_type: Pointer
+  field_name: Window
+- field_type: UInt32
+  field_name: CurrentWindowLimit
+- field_type: UInt32
+  field_name: ThrottlingWindowLimit
+- field_type: UInt32
+  field_name: CurrentWindowSize

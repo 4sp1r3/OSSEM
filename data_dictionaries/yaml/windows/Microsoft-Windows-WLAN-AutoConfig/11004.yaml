@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '11004'
+version: '0'
+event(fields): MsmSecurityStop_24012_197(UnicodeString Adapter, GUID DeviceGuid, UnicodeString
+  LocalMac, UnicodeString SSID, UnicodeString BSSType, UnicodeString SecurityHint,
+  UInt32 SecurityHintCode, Pointer ConnectionId)
+opcode: Stop_24012_197
+keywords: WlanConnect LwtDiagnostic
+task: MsmSecurity
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UnicodeString
+  field_name: SecurityHint
+- field_type: UInt32
+  field_name: SecurityHintCode
+- field_type: Pointer
+  field_name: ConnectionId

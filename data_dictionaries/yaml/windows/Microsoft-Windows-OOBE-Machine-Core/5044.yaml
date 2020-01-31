@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-Machine-Core
+event_id: '5044'
+version: '0'
+event(fields): FinalizeStop()
+opcode: Stop
+keywords: msoobe
+task: Finalize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

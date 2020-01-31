@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '112'
+version: '0'
+event(fields): PointerDeviceMessageStop()
+opcode: Stop
+keywords: MessagePumpInternalAndInput
+task: PointerDeviceMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

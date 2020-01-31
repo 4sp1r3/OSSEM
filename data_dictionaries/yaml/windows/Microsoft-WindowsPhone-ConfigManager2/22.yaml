@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '22'
+version: '0'
+event(fields): ICSPNode_GetPropertyIdentifiers_TaskStart()
+opcode: Start
+keywords: Performance
+task: ICSPNode_GetPropertyIdentifiers_Task
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

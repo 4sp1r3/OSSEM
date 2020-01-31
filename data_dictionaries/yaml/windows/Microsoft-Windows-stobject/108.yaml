@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '108'
+version: '0'
+event(fields): BatteryMeter_DisplayPowerOptionsStop()
+opcode: Stop
+keywords: BatteryMeter
+task: BatteryMeter_DisplayPowerOptions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

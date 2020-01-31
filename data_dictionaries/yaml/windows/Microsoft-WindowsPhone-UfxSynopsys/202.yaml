@@ -1,0 +1,26 @@
+provider: Microsoft-WindowsPhone-UfxSynopsys
+event_id: '202'
+version: '0'
+event(fields): Transfer202(AnsiString Name, Pointer Endpoint, UInt32 PhysicalEndpoint,
+  UInt32 Command, UInt32 Parameter0, UInt32 Parameter1, UInt32 Parameter2)
+opcode: ''
+keywords: Endpoint
+task: Transfer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Name
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: PhysicalEndpoint
+- field_type: UInt32
+  field_name: Command
+- field_type: UInt32
+  field_name: Parameter0
+- field_type: UInt32
+  field_name: Parameter1
+- field_type: UInt32
+  field_name: Parameter2

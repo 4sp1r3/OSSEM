@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '2'
+version: '1'
+event(fields): StoreReadStop_V1(Pointer Irp, UInt32 Status)
+opcode: Stop
+keywords: StoreOps
+task: StoreRead
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt32
+  field_name: Status

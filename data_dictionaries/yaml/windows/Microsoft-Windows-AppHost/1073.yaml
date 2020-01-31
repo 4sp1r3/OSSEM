@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1073'
+version: '0'
+event(fields): BackgroundActivatedStart()
+opcode: Start
+keywords: WwaHost
+task: BackgroundActivated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

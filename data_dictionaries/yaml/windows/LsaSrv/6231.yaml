@@ -1,0 +1,11 @@
+provider: LsaSrv
+event_id: '6231'
+version: '0'
+event(fields): SecurityPackageManagerStart()
+opcode: Start
+keywords: ''
+task: SecurityPackageManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

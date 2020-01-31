@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Bluetooth-Bthmini
+event_id: '201'
+version: '0'
+event(fields): BthMini_ReadPump(UInt32 ExpectedLengthMin, UInt32 ExpectedLengthMax,
+  UInt32 ActualLength)
+opcode: ''
+keywords: _BTHMINI_KEYWORD
+task: BthMini_ReadPump
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ExpectedLengthMin
+- field_type: UInt32
+  field_name: ExpectedLengthMax
+- field_type: UInt32
+  field_name: ActualLength

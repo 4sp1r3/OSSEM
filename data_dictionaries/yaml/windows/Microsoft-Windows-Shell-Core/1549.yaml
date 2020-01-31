@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1549'
+version: '0'
+event(fields): ShellTask_RegFldr_DisconnectDialogThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_RegFldr_DisconnectDialogThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

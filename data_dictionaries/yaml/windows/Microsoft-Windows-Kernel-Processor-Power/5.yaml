@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '5'
+version: '0'
+event(fields): IdleStatesErrata()
+opcode: ''
+keywords: ''
+task: IdleStatesErrata
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

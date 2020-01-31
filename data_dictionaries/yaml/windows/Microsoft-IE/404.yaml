@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '404'
+version: '0'
+event(fields): Mshtml_MediaElement_PlayTo_ConnectStart(UInt32 MediaElementId, UnicodeString
+  MediaElementIdAttribute)
+opcode: Start
+keywords: subsystem mshtml
+task: Mshtml_MediaElement_PlayTo_Connect
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaElementId
+- field_type: UnicodeString
+  field_name: MediaElementIdAttribute

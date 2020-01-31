@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '466'
+version: '0'
+event(fields): BindEnterpriseId(UInt64 ElementId, UnicodeString Name)
+opcode: ''
+keywords: Images
+task: BindEnterpriseId
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UnicodeString
+  field_name: Name

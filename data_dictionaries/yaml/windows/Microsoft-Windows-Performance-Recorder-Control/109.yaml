@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Performance-Recorder-Control
+event_id: '109'
+version: '0'
+event(fields): Perf_AddProfileToCollectionStop()
+opcode: Stop
+keywords: PerfStatus
+task: Perf_AddProfileToCollection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

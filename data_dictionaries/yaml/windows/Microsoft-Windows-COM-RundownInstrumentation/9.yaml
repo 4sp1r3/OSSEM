@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-COM-RundownInstrumentation
+event_id: '9'
+version: '0'
+event(fields): RundownInstrumentation9(UInt64 OID, UInt32 Flags, Int32 HRESULT)
+opcode: ''
+keywords: RundownInstrumentation
+task: RundownInstrumentation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OID
+- field_type: UInt32
+  field_name: Flags
+- field_type: Int32
+  field_name: HRESULT

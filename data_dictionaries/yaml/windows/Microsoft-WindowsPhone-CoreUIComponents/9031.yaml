@@ -1,0 +1,25 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9031'
+version: '0'
+event(fields): ViewManagerReplaceAndNavigateToView(UInt32 unParam, UInt32 unParam2,
+  UInt32 ViewNavigationLevel, UInt32 AnimationDirection, UInt32 AnimationType, Boolean
+  fBool)
+opcode: ReplaceAndNavigateToView
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2
+- field_type: UInt32
+  field_name: ViewNavigationLevel
+- field_type: UInt32
+  field_name: AnimationDirection
+- field_type: UInt32
+  field_name: AnimationType
+- field_type: Boolean
+  field_name: fBool

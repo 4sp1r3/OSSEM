@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2210'
+version: '0'
+event(fields): Page2210(UInt32 unParam, UInt32 unParam2, UInt32 NavigationTimeoutEventType,
+  UInt32 PageState, UInt32 PageState2)
+opcode: ''
+keywords: Page
+task: Page
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2
+- field_type: UInt32
+  field_name: NavigationTimeoutEventType
+- field_type: UInt32
+  field_name: PageState
+- field_type: UInt32
+  field_name: PageState2

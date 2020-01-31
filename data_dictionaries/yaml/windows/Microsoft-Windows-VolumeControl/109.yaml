@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-VolumeControl
+event_id: '109'
+version: '0'
+event(fields): task_VolumeLimit_UIVolumeLimit_IsChildAccount(Pointer object, Boolean
+  IsChildAccount, Int32 hResult)
+opcode: VolumeLimit_IsChildAccount
+keywords: ''
+task: task_VolumeLimit_UI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Boolean
+  field_name: IsChildAccount
+- field_type: Int32
+  field_name: hResult

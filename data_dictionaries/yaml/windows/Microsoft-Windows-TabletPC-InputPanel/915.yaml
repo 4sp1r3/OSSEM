@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '915'
+version: '0'
+event(fields): SoftKeyboard_CandidateManager_SelfLearnCandidateStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_CandidateManager_SelfLearnCandidate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

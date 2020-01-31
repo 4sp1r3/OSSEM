@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-Kernel-General
+event_id: '17'
+version: '0'
+event(fields): task_017(UnicodeString ActionName, UnicodeString ProcessName, UnicodeString
+  AccountName, UnicodeString AuthorityName, HexInt64 TokenId, HexInt64 AuthenticationId,
+  UInt32 TokenType, UInt32 ImpersonationLevel, HexInt32 TokenFlags, Int64 SidValuesReferenceCount,
+  UInt32 SidValuesCount, GUID SidValues, Int64 SharedSidValuesReferenceCount, UInt32
+  SharedSidValuesCount, Pointer SharedSidValues)
+opcode: ''
+keywords: KERNEL_GENERAL_TOKEN_SID_MANAGEMENT
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ActionName
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: AccountName
+- field_type: UnicodeString
+  field_name: AuthorityName
+- field_type: HexInt64
+  field_name: TokenId
+- field_type: HexInt64
+  field_name: AuthenticationId
+- field_type: UInt32
+  field_name: TokenType
+- field_type: UInt32
+  field_name: ImpersonationLevel
+- field_type: HexInt32
+  field_name: TokenFlags
+- field_type: Int64
+  field_name: SidValuesReferenceCount
+- field_type: UInt32
+  field_name: SidValuesCount
+- field_type: GUID
+  field_name: SidValues
+- field_type: Int64
+  field_name: SharedSidValuesReferenceCount
+- field_type: UInt32
+  field_name: SharedSidValuesCount
+- field_type: Pointer
+  field_name: SharedSidValues

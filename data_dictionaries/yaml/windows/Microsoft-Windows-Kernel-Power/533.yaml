@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '533'
+version: '0'
+event(fields): PowerAggregatorSessionBegin(UInt32 SessionId, UInt32 PowerEvent, UInt32
+  Action, Boolean AudioActivity, UInt32 DisconnectedStandbyMode, Boolean DsEnabled)
+opcode: ''
+keywords: po:Diagnostic
+task: PowerAggregatorSessionBegin
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: PowerEvent
+- field_type: UInt32
+  field_name: Action
+- field_type: Boolean
+  field_name: AudioActivity
+- field_type: UInt32
+  field_name: DisconnectedStandbyMode
+- field_type: Boolean
+  field_name: DsEnabled

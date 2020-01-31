@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PDC
+event_id: '6'
+version: '0'
+event(fields): ResiliencyClientDeregistration(Pointer Client, UInt32 PdcId, UInt32
+  Status)
+opcode: ''
+keywords: clients
+task: ResiliencyClientDeregistration
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: UInt32
+  field_name: PdcId
+- field_type: UInt32
+  field_name: Status

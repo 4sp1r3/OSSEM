@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '105'
+version: '0'
+event(fields): Impersonationfailure(UnicodeString Context, UInt32 ResultCode)
+opcode: ''
+keywords: ''
+task: Impersonationfailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Context
+- field_type: UInt32
+  field_name: ResultCode

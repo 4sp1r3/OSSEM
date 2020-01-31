@@ -1,0 +1,58 @@
+provider: Microsoft-Windows-WFP
+event_id: '1001'
+version: '2'
+event(fields): task_0_V2(FILETIME Timestamp, UInt32 LocalAddressLength, Binary LocalAddress,
+  UInt32 RemoteAddressLength, Binary RemoteAddress, UInt32 ScopeId, UnicodeString
+  AppId, SID UserSID, UInt32 ReauthReason, UInt32 OriginalProfile, UInt32 CurrentProfile,
+  UInt32 PacketDirection, Boolean Loopback, UInt64 FilterId, UInt16 LayerId, UnicodeString
+  vSwitchId, UInt32 SourcevSwitchPort, UInt32 DestinationvSwitchPort, UnicodeString
+  EnterpriseId, UInt64 PolicyFlags, UnicodeString EffectiveName)
+opcode: ''
+keywords: ut:AOAC keyword_10000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: Timestamp
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: ScopeId
+- field_type: UnicodeString
+  field_name: AppId
+- field_type: SID
+  field_name: UserSID
+- field_type: UInt32
+  field_name: ReauthReason
+- field_type: UInt32
+  field_name: OriginalProfile
+- field_type: UInt32
+  field_name: CurrentProfile
+- field_type: UInt32
+  field_name: PacketDirection
+- field_type: Boolean
+  field_name: Loopback
+- field_type: UInt64
+  field_name: FilterId
+- field_type: UInt16
+  field_name: LayerId
+- field_type: UnicodeString
+  field_name: vSwitchId
+- field_type: UInt32
+  field_name: SourcevSwitchPort
+- field_type: UInt32
+  field_name: DestinationvSwitchPort
+- field_type: UnicodeString
+  field_name: EnterpriseId
+- field_type: UInt64
+  field_name: PolicyFlags
+- field_type: UnicodeString
+  field_name: EffectiveName

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62100'
+version: '0'
+event(fields): Shell_Scaling_Cache_Updated(UInt32 Device, UInt32 GotRealDevice, UInt32
+  VerticalResolution, UInt32 HorizontalResolution, UInt32 VerticalSize, UInt32 HorizontalSize,
+  UInt32 ComputedScaleFactor, UInt32 ComputedDPI, UInt32 ChangedFlags)
+opcode: ''
+keywords: Shell
+task: Shell_Scaling_Cache_Updated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Device
+- field_type: UInt32
+  field_name: GotRealDevice
+- field_type: UInt32
+  field_name: VerticalResolution
+- field_type: UInt32
+  field_name: HorizontalResolution
+- field_type: UInt32
+  field_name: VerticalSize
+- field_type: UInt32
+  field_name: HorizontalSize
+- field_type: UInt32
+  field_name: ComputedScaleFactor
+- field_type: UInt32
+  field_name: ComputedDPI
+- field_type: UInt32
+  field_name: ChangedFlags

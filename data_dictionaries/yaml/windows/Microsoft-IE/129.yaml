@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '129'
+version: '0'
+event(fields): JScript_ParseStart(Pointer Element, UInt32 Zero)
+opcode: Start
+keywords: jscript
+task: JScript_Parse
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Element
+- field_type: UInt32
+  field_name: Zero

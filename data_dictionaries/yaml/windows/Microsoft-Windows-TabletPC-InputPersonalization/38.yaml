@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '38'
+version: '0'
+event(fields): IPS_TIPTEXTCONTRIBUTOR_HarvestTextForTypeStop()
+opcode: Stop
+keywords: ''
+task: IPS_TIPTEXTCONTRIBUTOR_HarvestTextForType
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

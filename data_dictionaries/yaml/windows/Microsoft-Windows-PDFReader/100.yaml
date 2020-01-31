@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '100'
+version: '0'
+event(fields): PageRenderStop(Int32 Aspect, UInt32 PageIndex, Boolean IsCancelled)
+opcode: Stop
+keywords: Reader
+task: PageRender
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Aspect
+- field_type: UInt32
+  field_name: PageIndex
+- field_type: Boolean
+  field_name: IsCancelled

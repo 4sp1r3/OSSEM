@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3211'
+version: '0'
+event(fields): Dispatcher_DispatchLoopStop()
+opcode: Stop
+keywords: MessagingPerformance Dispatcher
+task: Dispatcher_DispatchLoop
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

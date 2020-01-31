@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4016'
+version: '0'
+event(fields): AssociationLaunch_FileLaunch_MissingFileExtension()
+opcode: ''
+keywords: ''
+task: AssociationLaunch_FileLaunch_MissingFileExtension
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

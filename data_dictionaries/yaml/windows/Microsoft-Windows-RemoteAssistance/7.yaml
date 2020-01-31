@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-RemoteAssistance
+event_id: '7'
+version: '0'
+event(fields): task_07(UInt32 line, UnicodeString File)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: line
+- field_type: UnicodeString
+  field_name: File

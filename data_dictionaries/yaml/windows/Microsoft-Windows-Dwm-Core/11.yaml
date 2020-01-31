@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '11'
+version: '0'
+event(fields): SCHEDULE_PROCESS_FRAME(UInt32 fRenderTime, UInt32 fPresentNeeded, UInt32
+  dwOutstandingPresents, UInt32 dwMaxOutstandingFrames)
+opcode: ''
+keywords: DwmCore
+task: SCHEDULE_PROCESS_FRAME
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: fRenderTime
+- field_type: UInt32
+  field_name: fPresentNeeded
+- field_type: UInt32
+  field_name: dwOutstandingPresents
+- field_type: UInt32
+  field_name: dwMaxOutstandingFrames

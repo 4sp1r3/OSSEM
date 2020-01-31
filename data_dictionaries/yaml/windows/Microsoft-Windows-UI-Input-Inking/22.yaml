@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UI-Input-Inking
+event_id: '22'
+version: '0'
+event(fields): Inking_IStrokeCollection_DeserializeStop()
+opcode: Stop
+keywords: InkStrokeManipulation
+task: Inking_IStrokeCollection_Deserialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

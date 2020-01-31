@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '235'
+version: '0'
+event(fields): ETWGUID_PRIMITIVE_GROUP_DRAW(Pointer Visual, Pointer PrimitiveGroup,
+  Float VisualLeft, Float VisualTop, Float VisualRight, Float VisualBottom)
+opcode: ''
+keywords: FrameVisualization
+task: ETWGUID_PRIMITIVE_GROUP_DRAW
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Visual
+- field_type: Pointer
+  field_name: PrimitiveGroup
+- field_type: Float
+  field_name: VisualLeft
+- field_type: Float
+  field_name: VisualTop
+- field_type: Float
+  field_name: VisualRight
+- field_type: Float
+  field_name: VisualBottom

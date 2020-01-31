@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1028'
+version: '0'
+event(fields): task_0(UInt16 NewDialect, UInt16 OldDialect)
+opcode: ''
+keywords: Operational
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: NewDialect
+- field_type: UInt16
+  field_name: OldDialect

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-ESE
+event_id: '5000'
+version: '0'
+event(fields): task_0(UInt8 TableClass, UInt16 OrigSize, UInt16 XpressSize, UInt16
+  Xpress9Size, UInt32 usecXpressTime, UInt32 usecXpress9Time, Double ShannonEntropy,
+  Double ChiSquared)
+opcode: ''
+keywords: CompressExp
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: TableClass
+- field_type: UInt16
+  field_name: OrigSize
+- field_type: UInt16
+  field_name: XpressSize
+- field_type: UInt16
+  field_name: Xpress9Size
+- field_type: UInt32
+  field_name: usecXpressTime
+- field_type: UInt32
+  field_name: usecXpress9Time
+- field_type: Double
+  field_name: ShannonEntropy
+- field_type: Double
+  field_name: ChiSquared

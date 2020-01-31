@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Biometrics
+event_id: '1021'
+version: '0'
+event(fields): WBioSrvc1021()
+opcode: ''
+keywords: ''
+task: WBioSrvc
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

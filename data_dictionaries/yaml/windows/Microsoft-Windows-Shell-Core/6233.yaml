@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6233'
+version: '0'
+event(fields): Thumbnails_HostSelfDestruct()
+opcode: ''
+keywords: Shell
+task: Thumbnails_HostSelfDestruct
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

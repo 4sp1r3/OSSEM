@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2679'
+version: '0'
+event(fields): Settings_Launch_SettingsCommandStart(UInt32 Result)
+opcode: Start
+keywords: ''
+task: Settings_Launch_SettingsCommand
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

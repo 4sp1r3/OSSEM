@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '528'
+version: '0'
+event(fields): Geofencing528(UInt32 TriggerType)
+opcode: ''
+keywords: Selfhost ClientApi
+task: Geofencing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TriggerType

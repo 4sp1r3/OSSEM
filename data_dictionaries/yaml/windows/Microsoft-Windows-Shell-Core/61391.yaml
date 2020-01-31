@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61391'
+version: '0'
+event(fields): FileAccessAPI_GetKnownItemStop(GUID KnownItemRequested, UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: FileAccessAPI_GetKnownItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: KnownItemRequested
+- field_type: UInt32
+  field_name: HRESULT

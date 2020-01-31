@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '186'
+version: '0'
+event(fields): RegisterInputPaneHandlerStop()
+opcode: Stop
+keywords: Input
+task: RegisterInputPaneHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

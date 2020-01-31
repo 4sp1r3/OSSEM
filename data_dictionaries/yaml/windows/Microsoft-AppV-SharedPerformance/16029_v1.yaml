@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '16029'
+version: '1'
+event(fields): RefreshGroupsStop_V1()
+opcode: Stop
+keywords: ''
+task: RefreshGroups
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

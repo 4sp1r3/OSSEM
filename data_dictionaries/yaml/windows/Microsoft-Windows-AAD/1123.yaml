@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AAD
+event_id: '1123'
+version: '0'
+event(fields): AadCloudAPPluginOperation1123()
+opcode: ''
+keywords: Error Operational
+task: AadCloudAPPluginOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

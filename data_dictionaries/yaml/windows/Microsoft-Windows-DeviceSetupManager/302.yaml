@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '302'
+version: '0'
+event(fields): task_0302(UnicodeString Prop_ContainerId, UnicodeString Prop_ServiceInfoNamespace,
+  UnicodeString Prop_CultureCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_ContainerId
+- field_type: UnicodeString
+  field_name: Prop_ServiceInfoNamespace
+- field_type: UnicodeString
+  field_name: Prop_CultureCode

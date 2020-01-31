@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4027'
+version: '0'
+event(fields): InternetConnectivityDetection(GUID InterfaceGuid, UInt32 Family)
+opcode: ''
+keywords: ut:L3ConnectPath
+task: InternetConnectivityDetection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: Family

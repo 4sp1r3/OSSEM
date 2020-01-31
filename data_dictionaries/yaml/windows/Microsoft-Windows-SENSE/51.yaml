@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SENSE
+event_id: '51'
+version: '0'
+event(fields): task_051(UnicodeString parameter1, UnicodeString parameter2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: parameter1
+- field_type: UnicodeString
+  field_name: parameter2

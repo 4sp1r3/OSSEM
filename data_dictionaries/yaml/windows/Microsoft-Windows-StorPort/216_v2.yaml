@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-StorPort
+event_id: '216'
+version: '2'
+event(fields): PortCompletionofrequest.216_V2(UInt32 PortNumber, UInt8 Bus, UInt8
+  Target, UInt8 LUN, Pointer Irp, HexInt32 Status)
+opcode: Completionofrequest.
+keywords: Power
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: Bus
+- field_type: UInt8
+  field_name: Target
+- field_type: UInt8
+  field_name: LUN
+- field_type: Pointer
+  field_name: Irp
+- field_type: HexInt32
+  field_name: Status

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '132'
+version: '0'
+event(fields): UnifiedListView_SwitchMode()
+opcode: ''
+keywords: unifiedlistview
+task: UnifiedListView_SwitchMode
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

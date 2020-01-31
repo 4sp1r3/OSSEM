@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '490'
+version: '0'
+event(fields): Mshtml_IndependentHitTestStop(Int32 PointerID)
+opcode: Stop
+keywords: mshtml
+task: Mshtml_IndependentHitTest
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: PointerID

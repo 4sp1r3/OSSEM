@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Sdbus
+event_id: '115'
+version: '0'
+event(fields): SdbusWorkerDpc(HexInt64 SDHostPhysicalAddress, Pointer Irp, UInt32
+  WorkPacketWorkerProcFunction, HexInt32 WorkEngineCurrentState, HexInt32 WorkEngineFunctionPhase)
+opcode: ''
+keywords: Dpc
+task: SdbusWorkerDpc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: SDHostPhysicalAddress
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt32
+  field_name: WorkPacketWorkerProcFunction
+- field_type: HexInt32
+  field_name: WorkEngineCurrentState
+- field_type: HexInt32
+  field_name: WorkEngineFunctionPhase

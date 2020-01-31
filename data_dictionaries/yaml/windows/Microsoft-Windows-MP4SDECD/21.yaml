@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MP4SDECD
+event_id: '21'
+version: '0'
+event(fields): MP4SDECD_Flush()
+opcode: ''
+keywords: ''
+task: MP4SDECD_Flush
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

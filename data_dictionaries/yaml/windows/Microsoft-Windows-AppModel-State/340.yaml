@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '340'
+version: '0'
+event(fields): AppModel.Task.StateWinRT.ApplicationDataContainerSettingsServer_RemoveStart()
+opcode: Start
+keywords: WinRT
+task: AppModel.Task.StateWinRT.ApplicationDataContainerSettingsServer_Remove
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

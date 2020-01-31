@@ -1,0 +1,15 @@
+provider: Microsoft-JScript
+event_id: '94'
+version: '0'
+event(fields): Jscript_Profile_PersistenceLoad(UInt64 SourceID, Pointer ScriptContextID)
+opcode: Load
+keywords: JScriptProfile
+task: Jscript_Profile_Persistence
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SourceID
+- field_type: Pointer
+  field_name: ScriptContextID

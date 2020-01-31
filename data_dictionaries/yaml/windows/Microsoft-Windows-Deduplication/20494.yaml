@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20494'
+version: '0'
+event(fields): OpenchunkcontainerStart(UInt32 ContainerId, UInt32 Generation, UInt16
+  RootPathLength, UnicodeString RootPath)
+opcode: Start
+keywords: KmChunkContainer
+task: Openchunkcontainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ContainerId
+- field_type: UInt32
+  field_name: Generation
+- field_type: UInt16
+  field_name: RootPathLength
+- field_type: UnicodeString
+  field_name: RootPath

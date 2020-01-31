@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '247'
+version: '0'
+event(fields): VSyncStart(Pointer hAdapter)
+opcode: Start
+keywords: Base LongHaul
+task: VSync
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAdapter

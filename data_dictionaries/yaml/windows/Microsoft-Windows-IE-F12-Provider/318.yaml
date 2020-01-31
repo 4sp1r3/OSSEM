@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-IE-F12-Provider
+event_id: '318'
+version: '0'
+event(fields): Debugger_BreakpointController_SetAllEnabledStatesStart(UnicodeString
+  TraceDescription)
+opcode: Start
+keywords: ''
+task: Debugger_BreakpointController_SetAllEnabledStates
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceDescription

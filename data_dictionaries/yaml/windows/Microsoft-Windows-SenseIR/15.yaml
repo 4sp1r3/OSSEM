@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SenseIR
+event_id: '15'
+version: '0'
+event(fields): task_015(UnicodeString ActionType, UnicodeString ActionId, UnicodeString
+  ActionPhase, HexInt64 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ActionType
+- field_type: UnicodeString
+  field_name: ActionId
+- field_type: UnicodeString
+  field_name: ActionPhase
+- field_type: HexInt64
+  field_name: HRESULT

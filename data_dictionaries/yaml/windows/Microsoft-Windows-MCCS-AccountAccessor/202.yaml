@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-AccountAccessor
+event_id: '202'
+version: '0'
+event(fields): task_0202(HexInt32 P1_Dword)
+opcode: ''
+keywords: Error
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: P1_Dword

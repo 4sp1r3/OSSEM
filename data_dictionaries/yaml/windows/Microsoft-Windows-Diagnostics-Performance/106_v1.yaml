@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '106'
+version: '1'
+event(fields): BootPerformanceMonitoringBootDegradation106_V1(FILETIME StartTime,
+  UInt32 NameLength, UnicodeString Name, UInt32 TotalTime, UInt32 DegradationTime)
+opcode: BootDegradation
+keywords: EventLog
+task: BootPerformanceMonitoring
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: StartTime
+- field_type: UInt32
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt32
+  field_name: TotalTime
+- field_type: UInt32
+  field_name: DegradationTime

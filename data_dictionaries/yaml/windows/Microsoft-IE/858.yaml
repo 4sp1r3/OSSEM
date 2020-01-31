@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '858'
+version: '0'
+event(fields): Mshtml_EventLoop_DriveRegularTasks()
+opcode: ''
+keywords: gwnd
+task: Mshtml_EventLoop_DriveRegularTasks
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

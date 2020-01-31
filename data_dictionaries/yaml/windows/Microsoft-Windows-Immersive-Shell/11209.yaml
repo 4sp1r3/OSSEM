@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11209'
+version: '0'
+event(fields): Accounts_Launch_CredentialCommandStop(UInt32 Result)
+opcode: Stop
+keywords: ''
+task: Accounts_Launch_CredentialCommand
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

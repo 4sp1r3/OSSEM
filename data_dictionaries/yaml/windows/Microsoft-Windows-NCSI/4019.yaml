@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4019'
+version: '0'
+event(fields): CorporateConnectivityDetectionStart(GUID InterfaceGuid)
+opcode: Start
+keywords: keyword_200000000000
+task: CorporateConnectivityDetection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

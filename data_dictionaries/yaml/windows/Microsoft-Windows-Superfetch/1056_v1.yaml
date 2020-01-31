@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1056'
+version: '1'
+event(fields): PostlaunchAppFail_V1(HexInt32 AppNameKey, UnicodeString AUMID, UInt8
+  NewFailCount, UInt32 LaunchResult, UInt8 Requeue, UInt32 AppStatus)
+opcode: ''
+keywords: PfAp
+task: PostlaunchAppFail
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: AppNameKey
+- field_type: UnicodeString
+  field_name: AUMID
+- field_type: UInt8
+  field_name: NewFailCount
+- field_type: UInt32
+  field_name: LaunchResult
+- field_type: UInt8
+  field_name: Requeue
+- field_type: UInt32
+  field_name: AppStatus

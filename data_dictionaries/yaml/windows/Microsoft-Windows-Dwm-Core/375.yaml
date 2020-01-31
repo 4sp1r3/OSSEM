@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '375'
+version: '0'
+event(fields): BRUSH_DRAW375()
+opcode: ''
+keywords: DwmCore
+task: BRUSH_DRAW
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

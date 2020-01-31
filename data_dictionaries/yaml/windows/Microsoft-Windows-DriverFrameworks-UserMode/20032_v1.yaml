@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '20032'
+version: '1'
+event(fields): PowerTransition_DriverNestingStart_V1(Pointer Irp, Pointer Device)
+opcode: NestingStart
+keywords: umdf:PowerTransition
+task: PowerTransition_Driver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: Device

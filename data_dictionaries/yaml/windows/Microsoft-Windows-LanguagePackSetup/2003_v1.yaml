@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '2003'
+version: '1'
+event(fields): RunningthelpksetupWizardChangetheSystemUIlanguagesettingtoselectedlanguage2003_V1(UnicodeString
+  PreviousLanguage, UnicodeString NewLanguage, HexInt32 Error)
+opcode: ChangetheSystemUIlanguagesettingtoselectedlanguage
+keywords: ''
+task: RunningthelpksetupWizard
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PreviousLanguage
+- field_type: UnicodeString
+  field_name: NewLanguage
+- field_type: HexInt32
+  field_name: Error

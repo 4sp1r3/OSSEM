@@ -1,0 +1,15 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '2033'
+version: '0'
+event(fields): Orchestrator_120AppAgent2033(Int32 Int1, UnicodeString String1)
+opcode: AppAgent
+keywords: ''
+task: Orchestrator_120
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Int1
+- field_type: UnicodeString
+  field_name: String1

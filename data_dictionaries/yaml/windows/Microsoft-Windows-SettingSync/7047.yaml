@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7047'
+version: '0'
+event(fields): Perf_WLRoamFindChangesNetworkRequestStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamFindChangesNetworkRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '16010'
+version: '0'
+event(fields): task_016010(UnicodeString ModuleToHook, AnsiString HookModule, AnsiString
+  HookApi, Boolean Hooked, UnicodeString Reason)
+opcode: ''
+keywords: ShimEng
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ModuleToHook
+- field_type: AnsiString
+  field_name: HookModule
+- field_type: AnsiString
+  field_name: HookApi
+- field_type: Boolean
+  field_name: Hooked
+- field_type: UnicodeString
+  field_name: Reason

@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '130'
+version: '0'
+event(fields): UnifiedListView_GroupPopulated(GUID CLSID, UInt32 QueryID)
+opcode: ''
+keywords: unifiedlistview
+task: UnifiedListView_GroupPopulated
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CLSID
+- field_type: UInt32
+  field_name: QueryID

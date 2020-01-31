@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4015'
+version: '0'
+event(fields): AfdRioSendReceive(Pointer RioState, UInt32 BufferType, UInt32 SpecifiedLength,
+  UInt32 RequiredLength)
+opcode: ''
+keywords: AFD_KW_RIO
+task: AfdRioSendReceive
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RioState
+- field_type: UInt32
+  field_name: BufferType
+- field_type: UInt32
+  field_name: SpecifiedLength
+- field_type: UInt32
+  field_name: RequiredLength

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '902'
+version: '0'
+event(fields): WININET_APPLICATION_OFFLINE_CHECKStop(UInt32 Result, Boolean Offline)
+opcode: Stop
+keywords: WININET_KEYWORD_MOBILE
+task: WININET_APPLICATION_OFFLINE_CHECK
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: Boolean
+  field_name: Offline

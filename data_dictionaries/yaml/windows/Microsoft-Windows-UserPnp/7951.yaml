@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7951'
+version: '0'
+event(fields): PnP_DMRC_Query7951(UnicodeString QueryType, UnicodeString LookupKey)
+opcode: ''
+keywords: UserPnp
+task: PnP_DMRC_Query
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: QueryType
+- field_type: UnicodeString
+  field_name: LookupKey

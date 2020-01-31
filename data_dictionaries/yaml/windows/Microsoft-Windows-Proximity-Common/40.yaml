@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Proximity-Common
+event_id: '40'
+version: '0'
+event(fields): Proximity_SocketConnectStart()
+opcode: Start
+keywords: ''
+task: Proximity_SocketConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

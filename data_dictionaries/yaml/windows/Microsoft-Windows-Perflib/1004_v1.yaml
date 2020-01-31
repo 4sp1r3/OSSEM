@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Perflib
+event_id: '1004'
+version: '1'
+event(fields): task_01004_V1(UnicodeString Library, UnicodeString Service, UInt32
+  ObjectIndex)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Library
+- field_type: UnicodeString
+  field_name: Service
+- field_type: UInt32
+  field_name: ObjectIndex

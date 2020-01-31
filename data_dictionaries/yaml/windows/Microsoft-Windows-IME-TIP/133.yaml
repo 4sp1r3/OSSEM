@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-TIP
+event_id: '133'
+version: '0'
+event(fields): TaskID:IMEModeIndicatorStop133()
+opcode: Stop
+keywords: ''
+task: TaskID:IMEModeIndicator
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

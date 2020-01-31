@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60818'
+version: '0'
+event(fields): ShellLib_DUIControls_CandidateList_PagingComplete(Int32 PageCount,
+  Int32 CandidateCount)
+opcode: ''
+keywords: Controls
+task: ShellLib_DUIControls_CandidateList_PagingComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: PageCount
+- field_type: Int32
+  field_name: CandidateCount

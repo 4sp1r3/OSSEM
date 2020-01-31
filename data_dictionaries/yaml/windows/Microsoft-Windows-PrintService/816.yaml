@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PrintService
+event_id: '816'
+version: '0'
+event(fields): EnablingspoolerRPCendpointsSpoolerOperationFailed816(UnicodeString
+  ValidatedProtocolSequence, UnicodeString ExpectedProtocolSequence, HexInt32 ErrorCode)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_ROUTER
+task: EnablingspoolerRPCendpoints
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ValidatedProtocolSequence
+- field_type: UnicodeString
+  field_name: ExpectedProtocolSequence
+- field_type: HexInt32
+  field_name: ErrorCode

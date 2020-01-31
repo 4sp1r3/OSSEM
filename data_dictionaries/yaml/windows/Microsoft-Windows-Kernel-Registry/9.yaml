@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '9'
+version: '0'
+event(fields): task_0EnumerateValueKey(Pointer KeyObject, UInt32 Status, UInt32 Index,
+  UInt32 InfoClass, UInt32 DataSize, UnicodeString KeyName, UInt16 CapturedDataSize,
+  Binary CapturedData)
+opcode: EnumerateValueKey
+keywords: EnumerateValueKey
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: KeyObject
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: InfoClass
+- field_type: UInt32
+  field_name: DataSize
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: UInt16
+  field_name: CapturedDataSize
+- field_type: Binary
+  field_name: CapturedData

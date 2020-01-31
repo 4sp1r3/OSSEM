@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1009'
+version: '0'
+event(fields): task_01009(GUID Id, UInt64 BytesProcessed)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UInt64
+  field_name: BytesProcessed

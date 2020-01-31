@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '535'
+version: '0'
+event(fields): OnLaunchedProtectedStop()
+opcode: Stop
+keywords: ''
+task: OnLaunchedProtected
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

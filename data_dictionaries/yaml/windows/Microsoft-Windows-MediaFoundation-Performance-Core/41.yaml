@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '41'
+version: '0'
+event(fields): AudEngineStream_CheckForEOS_TaskStart(Pointer object)
+opcode: Start
+keywords: ''
+task: AudEngineStream_CheckForEOS_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

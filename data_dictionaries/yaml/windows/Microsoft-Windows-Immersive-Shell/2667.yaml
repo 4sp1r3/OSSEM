@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2667'
+version: '0'
+event(fields): Settings_HotkeyInvoke()
+opcode: ''
+keywords: ''
+task: Settings_HotkeyInvoke
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

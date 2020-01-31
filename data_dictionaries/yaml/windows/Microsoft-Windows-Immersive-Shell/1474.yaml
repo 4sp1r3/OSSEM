@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1474'
+version: '0'
+event(fields): DragVisual_Destroy()
+opcode: ''
+keywords: ''
+task: DragVisual_Destroy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '120'
+version: '0'
+event(fields): LifetimeTrackerStop(Pointer pID3D12Device, Pointer pID3D12LifetimeTracker)
+opcode: Stop
+keywords: Resources ObjectLifetime
+task: LifetimeTracker
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12LifetimeTracker

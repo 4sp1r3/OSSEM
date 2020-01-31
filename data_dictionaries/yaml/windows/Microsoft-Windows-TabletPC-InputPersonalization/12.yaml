@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '12'
+version: '0'
+event(fields): IPS_RECOPLUGIN_FilterWordSinkAddTextStop()
+opcode: Stop
+keywords: ''
+task: IPS_RECOPLUGIN_FilterWordSinkAddText
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

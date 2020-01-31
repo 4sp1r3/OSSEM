@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-DisplayColorCalibration
+event_id: '8'
+version: '0'
+event(fields): DisplayColorCalibration8(UnicodeString Setting, UInt32 OldRedGain,
+  UInt32 NewRedGain, UInt32 OldGreenGain, UInt32 NewGreenGain, UInt32 OldBlueGain,
+  UInt32 NewBlueGain, UInt16 RedLuts, UInt16 GreenLuts, UInt16 BlueLuts)
+opcode: ''
+keywords: ''
+task: DisplayColorCalibration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Setting
+- field_type: UInt32
+  field_name: OldRedGain
+- field_type: UInt32
+  field_name: NewRedGain
+- field_type: UInt32
+  field_name: OldGreenGain
+- field_type: UInt32
+  field_name: NewGreenGain
+- field_type: UInt32
+  field_name: OldBlueGain
+- field_type: UInt32
+  field_name: NewBlueGain
+- field_type: UInt16
+  field_name: RedLuts
+- field_type: UInt16
+  field_name: GreenLuts
+- field_type: UInt16
+  field_name: BlueLuts

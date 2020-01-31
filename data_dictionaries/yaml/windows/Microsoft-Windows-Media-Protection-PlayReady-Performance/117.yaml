@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '117'
+version: '0'
+event(fields): CBlackboxGetCertificateStop(Pointer Object, UInt32 HResult)
+opcode: Stop
+keywords: ''
+task: CBlackboxGetCertificate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: HResult

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WPD-CompositeClassDriver
+event_id: '110'
+version: '0'
+event(fields): DriverPerformanceStart110()
+opcode: Start
+keywords: ''
+task: DriverPerformance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

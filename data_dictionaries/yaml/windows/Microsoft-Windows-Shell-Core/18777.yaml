@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18777'
+version: '0'
+event(fields): Shell32_CConditionEvaluator_DoesItemMatchConditionStart()
+opcode: Start
+keywords: Grep
+task: Shell32_CConditionEvaluator_DoesItemMatchCondition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

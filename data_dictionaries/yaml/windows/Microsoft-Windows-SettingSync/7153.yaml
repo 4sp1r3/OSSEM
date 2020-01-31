@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7153'
+version: '0'
+event(fields): Perf_WLRoamFetchDataFromPreAuthUrlStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamFetchDataFromPreAuthUrl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

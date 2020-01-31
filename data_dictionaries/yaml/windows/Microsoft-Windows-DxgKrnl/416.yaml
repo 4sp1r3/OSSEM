@@ -1,0 +1,56 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '416'
+version: '0'
+event(fields): DisplayConfigPlaneChange(Pointer pDxgAdapter, UInt32 VidPnSourceId,
+  UInt32 PlaneIndex, Boolean Enabled, UInt32 Flags, UInt32 SrcRectleft, UInt32 SrcRecttop,
+  UInt32 SrcRectright, UInt32 SrcRectbottom, UInt32 DstRectleft, UInt32 DstRecttop,
+  UInt32 DstRectright, UInt32 DstRectbottom, UInt32 ClipRectleft, UInt32 ClipRecttop,
+  UInt32 ClipRectright, UInt32 ClipRectbottom, UInt32 Blend, UInt32 ColorSpace, UInt32
+  SDRWhiteLevel)
+opcode: ''
+keywords: Base
+task: DisplayConfigPlaneChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: PlaneIndex
+- field_type: Boolean
+  field_name: Enabled
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: SrcRectleft
+- field_type: UInt32
+  field_name: SrcRecttop
+- field_type: UInt32
+  field_name: SrcRectright
+- field_type: UInt32
+  field_name: SrcRectbottom
+- field_type: UInt32
+  field_name: DstRectleft
+- field_type: UInt32
+  field_name: DstRecttop
+- field_type: UInt32
+  field_name: DstRectright
+- field_type: UInt32
+  field_name: DstRectbottom
+- field_type: UInt32
+  field_name: ClipRectleft
+- field_type: UInt32
+  field_name: ClipRecttop
+- field_type: UInt32
+  field_name: ClipRectright
+- field_type: UInt32
+  field_name: ClipRectbottom
+- field_type: UInt32
+  field_name: Blend
+- field_type: UInt32
+  field_name: ColorSpace
+- field_type: UInt32
+  field_name: SDRWhiteLevel

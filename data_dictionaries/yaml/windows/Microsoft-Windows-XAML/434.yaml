@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-XAML
+event_id: '434'
+version: '0'
+event(fields): MockDCompDump(AnsiString value, UInt32 CRC, UInt32 chunk, UInt32 numChunks)
+opcode: ''
+keywords: Rendering
+task: MockDCompDump
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: value
+- field_type: UInt32
+  field_name: CRC
+- field_type: UInt32
+  field_name: chunk
+- field_type: UInt32
+  field_name: numChunks

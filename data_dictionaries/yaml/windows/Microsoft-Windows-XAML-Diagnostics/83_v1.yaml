@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '83'
+version: '1'
+event(fields): ElementCreatedWithSource_V1(UInt64 ElementId, UnicodeString ClassName,
+  UnicodeString FileURI, UInt32 LineNumber, UInt32 ColumnNumber, UnicodeString FileHash)
+opcode: ''
+keywords: ''
+task: ElementCreatedWithSource
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UnicodeString
+  field_name: ClassName
+- field_type: UnicodeString
+  field_name: FileURI
+- field_type: UInt32
+  field_name: LineNumber
+- field_type: UInt32
+  field_name: ColumnNumber
+- field_type: UnicodeString
+  field_name: FileHash

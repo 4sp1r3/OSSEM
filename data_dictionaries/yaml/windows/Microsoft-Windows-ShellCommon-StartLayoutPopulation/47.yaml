@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '47'
+version: '0'
+event(fields): CuratedTileCollectionBackgroundTask_TaskRunningStart()
+opcode: Start
+keywords: ''
+task: CuratedTileCollectionBackgroundTask_TaskRunning
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

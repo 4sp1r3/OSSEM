@@ -1,0 +1,8 @@
+provider: 'Active Directory: NetLogon'
+category: '{63dbb180-dbed-11d2-895b-00c04f79ab69}'
+event_id: '1'
+version: '0'
+event(fields): NlSecChanlSetup_Start()
+event_type: Start
+description: NetLogon Secure Channel Setup
+event_fields: []

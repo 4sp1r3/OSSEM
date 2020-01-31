@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Win32k
+event_id: '13'
+version: '0'
+event(fields): DisplayTimeoutReset(UInt32 SessionId, UInt16 IsConsoleSession, UInt32
+  DisplayTimeoutValueMs)
+opcode: ''
+keywords: win32Power
+task: DisplayTimeoutReset
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt16
+  field_name: IsConsoleSession
+- field_type: UInt32
+  field_name: DisplayTimeoutValueMs

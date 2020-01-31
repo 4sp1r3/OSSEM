@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataUtils
+event_id: '105'
+version: '0'
+event(fields): task_0105(UnicodeString P1_UnicodeString, UInt32 P1_UInt32)
+opcode: ''
+keywords: ServiceBase
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: P1_UnicodeString
+- field_type: UInt32
+  field_name: P1_UInt32

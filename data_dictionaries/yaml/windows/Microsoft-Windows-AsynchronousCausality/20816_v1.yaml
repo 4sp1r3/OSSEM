@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AsynchronousCausality
+event_id: '20816'
+version: '1'
+event(fields): task_020816_V1()
+opcode: ''
+keywords: OperationWork SystemOperation
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

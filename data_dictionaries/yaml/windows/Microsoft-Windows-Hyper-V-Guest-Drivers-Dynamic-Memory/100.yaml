@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-Guest-Drivers-Dynamic-Memory
+event_id: '100'
+version: '0'
+event(fields): task_0100(UnicodeString OperationMessage, UInt32 PageCount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: OperationMessage
+- field_type: UInt32
+  field_name: PageCount

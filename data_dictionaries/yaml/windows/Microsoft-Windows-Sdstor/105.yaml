@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sdstor
+event_id: '105'
+version: '0'
+event(fields): HighPriorityInterrupt105(UInt32 ResultCode)
+opcode: ''
+keywords: ''
+task: HighPriorityInterrupt
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ResultCode

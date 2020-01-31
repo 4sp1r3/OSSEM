@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '90'
+version: '0'
+event(fields): Backoff_UserActivityCheck(UInt32 Interval, Boolean IsUserActive)
+opcode: ''
+keywords: Backoff
+task: Backoff_UserActivityCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Interval
+- field_type: Boolean
+  field_name: IsUserActive

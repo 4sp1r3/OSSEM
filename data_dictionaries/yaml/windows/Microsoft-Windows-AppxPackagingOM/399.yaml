@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '399'
+version: '0'
+event(fields): Bundlereader399()
+opcode: ''
+keywords: ''
+task: Bundlereader
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

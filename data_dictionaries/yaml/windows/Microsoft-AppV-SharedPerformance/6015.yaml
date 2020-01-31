@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6015'
+version: '0'
+event(fields): LoadStop6015(UnicodeString str)
+opcode: Stop
+keywords: ''
+task: Load
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str

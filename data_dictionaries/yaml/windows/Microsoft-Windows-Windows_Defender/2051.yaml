@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Windows Defender
+event_id: '2051'
+version: '0'
+event(fields): task_02051(UnicodeString ProductName, UnicodeString ProductVersion,
+  UnicodeString Filename, UnicodeString Sha256, UnicodeString CurrentsecurityintelligenceVersion,
+  UnicodeString CurrentEngineVersion, UnicodeString ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UnicodeString
+  field_name: ProductVersion
+- field_type: UnicodeString
+  field_name: Filename
+- field_type: UnicodeString
+  field_name: Sha256
+- field_type: UnicodeString
+  field_name: CurrentsecurityintelligenceVersion
+- field_type: UnicodeString
+  field_name: CurrentEngineVersion
+- field_type: UnicodeString
+  field_name: ErrorCode

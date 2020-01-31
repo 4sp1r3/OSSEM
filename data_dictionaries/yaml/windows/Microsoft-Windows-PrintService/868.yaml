@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintService
+event_id: '868'
+version: '0'
+event(fields): BOPEventOfflineArchiveFullSpoolerTrace(UnicodeString MachineName)
+opcode: SpoolerTrace
+keywords: SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING
+task: BOPEventOfflineArchiveFull
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MachineName

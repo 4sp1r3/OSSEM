@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2104'
+version: '0'
+event(fields): Picker_NavigationStart()
+opcode: ''
+keywords: ''
+task: Picker_NavigationStart
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

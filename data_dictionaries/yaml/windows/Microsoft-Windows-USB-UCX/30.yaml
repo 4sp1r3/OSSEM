@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-USB-UCX
+event_id: '30'
+version: '0'
+event(fields): URB_FUNCTION_ISOCH_TRANSFERStart(Pointer fid_UcxController, Pointer
+  fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr,
+  UInt16 fid_UCX_URB_NumberOfPackets, UInt32 fid_UCX_URB_ISOCH_TRANSFER, CountedMbcsString
+  fid_UCX_URB_ISO_PACKETS)
+opcode: Start
+keywords: HeadersBusTrace PartialDataBusTrace FullDataBusTrace
+task: URB_FUNCTION_ISOCH_TRANSFER
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Pointer
+  field_name: fid_PipeHandle
+- field_type: Pointer
+  field_name: fid_IRP_Ptr
+- field_type: Pointer
+  field_name: fid_URB_Ptr
+- field_type: UInt16
+  field_name: fid_UCX_URB_NumberOfPackets
+- field_type: UInt32
+  field_name: fid_UCX_URB_ISOCH_TRANSFER
+- field_type: CountedMbcsString
+  field_name: fid_UCX_URB_ISO_PACKETS

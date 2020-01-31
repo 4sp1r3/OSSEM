@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3030'
+version: '0'
+event(fields): RequestResourceStart()
+opcode: Start
+keywords: wpnui
+task: RequestResource
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

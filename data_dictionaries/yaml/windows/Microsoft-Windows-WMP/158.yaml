@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '158'
+version: '0'
+event(fields): RAMCACHEStop(UInt32 Value)
+opcode: Stop
+keywords: ramcache
+task: RAMCACHE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

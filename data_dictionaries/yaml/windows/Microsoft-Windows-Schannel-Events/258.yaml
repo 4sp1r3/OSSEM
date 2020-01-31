@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Schannel-Events
+event_id: '258'
+version: '0'
+event(fields): AcquireCredentialHandleStop(HexInt32 ReturnValue)
+opcode: Stop
+keywords: ''
+task: AcquireCredentialHandle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ReturnValue

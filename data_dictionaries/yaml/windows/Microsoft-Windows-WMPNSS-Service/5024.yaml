@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '5024'
+version: '0'
+event(fields): Flush_MemoryStart(UInt32 IdleSecondsUntilMemoryFlush, UInt64 TimeContentRequestsBecameZero)
+opcode: Start
+keywords: ''
+task: Flush_Memory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IdleSecondsUntilMemoryFlush
+- field_type: UInt64
+  field_name: TimeContentRequestsBecameZero

@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '77'
+version: '0'
+event(fields): DeviceIdleCheck(Pointer Device, Pointer Pdo, UInt16 InstancePathLength,
+  UnicodeString InstancePath, UInt32 ConservativeTimeout, UInt32 PerformanceTimeout,
+  UInt32 IdleTime, UInt32 BusyCount, UInt32 TotalBusyCount, UInt8 IdlePowerState,
+  UInt8 CurrentPowerState)
+opcode: ''
+keywords: po:Idle
+task: DeviceIdleCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Device
+- field_type: Pointer
+  field_name: Pdo
+- field_type: UInt16
+  field_name: InstancePathLength
+- field_type: UnicodeString
+  field_name: InstancePath
+- field_type: UInt32
+  field_name: ConservativeTimeout
+- field_type: UInt32
+  field_name: PerformanceTimeout
+- field_type: UInt32
+  field_name: IdleTime
+- field_type: UInt32
+  field_name: BusyCount
+- field_type: UInt32
+  field_name: TotalBusyCount
+- field_type: UInt8
+  field_name: IdlePowerState
+- field_type: UInt8
+  field_name: CurrentPowerState

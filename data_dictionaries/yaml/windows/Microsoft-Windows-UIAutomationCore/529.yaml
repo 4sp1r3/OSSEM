@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '529'
+version: '0'
+event(fields): ReleaseCollection_ReleaseObjects(UInt32 ObjectCount, Boolean IsCombinedWithOtherMethod)
+opcode: ''
+keywords: PerfInstrumentation
+task: ReleaseCollection_ReleaseObjects
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ObjectCount
+- field_type: Boolean
+  field_name: IsCombinedWithOtherMethod

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6040'
+version: '0'
+event(fields): task_06040(UnicodeString SettingUnitId, FILETIME SettingUnitTimestamp,
+  FILETIME DataStreamTimestamp)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SettingUnitId
+- field_type: FILETIME
+  field_name: SettingUnitTimestamp
+- field_type: FILETIME
+  field_name: DataStreamTimestamp

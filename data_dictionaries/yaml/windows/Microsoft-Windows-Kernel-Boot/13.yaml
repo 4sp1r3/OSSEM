@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '13'
+version: '0'
+event(fields): task_013(GUID ApplicationGuid, UInt32 Element)
+opcode: ''
+keywords: keyword_200000000000
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ApplicationGuid
+- field_type: UInt32
+  field_name: Element

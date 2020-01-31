@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '204'
+version: '0'
+event(fields): PickerFileSelected204()
+opcode: ''
+keywords: Reader
+task: PickerFileSelected
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

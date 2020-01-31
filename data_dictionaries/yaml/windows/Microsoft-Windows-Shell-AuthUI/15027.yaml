@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '15027'
+version: '0'
+event(fields): Common_GetFieldDescriptorCount(UInt32 DWORD1, UInt32 DWORD2)
+opcode: ''
+keywords: ''
+task: Common_GetFieldDescriptorCount
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DWORD1
+- field_type: UInt32
+  field_name: DWORD2

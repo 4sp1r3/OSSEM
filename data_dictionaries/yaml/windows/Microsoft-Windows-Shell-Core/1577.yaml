@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1577'
+version: '0'
+event(fields): ShellTask_LinkProp_LinkCheckThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_LinkProp_LinkCheckThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

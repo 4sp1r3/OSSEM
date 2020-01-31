@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '260'
+version: '0'
+event(fields): WiFiAdapter(UnicodeString MacAddress, Int32 SignalStrength)
+opcode: ''
+keywords: WiFiTracing
+task: WiFiAdapter
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MacAddress
+- field_type: Int32
+  field_name: SignalStrength

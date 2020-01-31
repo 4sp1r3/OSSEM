@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIRibbon
+event_id: '10'
+version: '0'
+event(fields): NetUIContainerCreated()
+opcode: ''
+keywords: Default
+task: NetUIContainerCreated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

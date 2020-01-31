@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1023'
+version: '0'
+event(fields): AppXDeployment.Task.Server.OSIMStart1023(UnicodeString PackageName,
+  UInt32 CapabilityCount)
+opcode: Start
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.OSIM
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UInt32
+  field_name: CapabilityCount

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '217'
+version: '0'
+event(fields): SAPIOneCoreSSMLProcessingStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: SAPIOneCoreSSMLProcessing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

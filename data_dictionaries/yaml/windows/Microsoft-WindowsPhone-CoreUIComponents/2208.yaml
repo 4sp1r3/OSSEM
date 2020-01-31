@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2208'
+version: '0'
+event(fields): Page2208(UInt32 unParam, UInt32 unParam2, UInt32 SystemKey, Boolean
+  bool1)
+opcode: ''
+keywords: Page
+task: Page
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2
+- field_type: UInt32
+  field_name: SystemKey
+- field_type: Boolean
+  field_name: bool1

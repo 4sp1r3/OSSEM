@@ -1,0 +1,16 @@
+provider: Microsoft-JScript
+event_id: '110'
+version: '0'
+event(fields): Jscript_Recycler_AllocationAllocate_Function(Pointer MemoryAddress,
+  UInt32 MethodID)
+opcode: Allocate_Function
+keywords: JScriptObjectAllocation
+task: Jscript_Recycler_Allocation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MemoryAddress
+- field_type: UInt32
+  field_name: MethodID

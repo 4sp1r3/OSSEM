@@ -1,0 +1,22 @@
+provider: Intel-iaLPSS-I2C
+event_id: '1027'
+version: '1'
+event(fields): TasktotrackDMATransactionsStop_V1(UnicodeString Direction, Pointer
+  WDFDEVICE, HexInt64 MMIO, UInt32 DMAStatus, UInt64 NumBytes)
+opcode: Stop
+keywords: ''
+task: TasktotrackDMATransactions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Direction
+- field_type: Pointer
+  field_name: WDFDEVICE
+- field_type: HexInt64
+  field_name: MMIO
+- field_type: UInt32
+  field_name: DMAStatus
+- field_type: UInt64
+  field_name: NumBytes

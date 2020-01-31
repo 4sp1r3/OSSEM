@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '321'
+version: '0'
+event(fields): task_0321(UnicodeString PsmKey, Int32 SuspendTrigger, HexInt32 ErrorCode)
+opcode: ''
+keywords: PLM ExecProductionCircular ExecDevPlatCircular
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: Int32
+  field_name: SuspendTrigger
+- field_type: HexInt32
+  field_name: ErrorCode

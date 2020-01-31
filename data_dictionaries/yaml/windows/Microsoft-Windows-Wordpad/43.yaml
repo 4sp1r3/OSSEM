@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wordpad
+event_id: '43'
+version: '0'
+event(fields): Wordpad_Docx_Odt_ReadStart()
+opcode: Start
+keywords: ''
+task: Wordpad_Docx_Odt_Read
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '12'
+version: '0'
+event(fields): AppReadiness_Error12(UnicodeString User, UnicodeString Error, Int32
+  Result)
+opcode: ''
+keywords: Error
+task: AppReadiness_Error
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: Error
+- field_type: Int32
+  field_name: Result

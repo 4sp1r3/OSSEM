@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '641'
+version: '0'
+event(fields): Shdocvw_VirtualTab_NavigateInWebBrowser_Navigate2Call641()
+opcode: ''
+keywords: primarynav
+task: Shdocvw_VirtualTab_NavigateInWebBrowser_Navigate2Call
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

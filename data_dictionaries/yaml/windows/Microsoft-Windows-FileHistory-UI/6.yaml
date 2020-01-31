@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '6'
+version: '0'
+event(fields): ForwardButtonNavigationStart()
+opcode: Start
+keywords: ''
+task: ForwardButtonNavigation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4820'
+version: '0'
+event(fields): DiscoverySynchronizationContextReset(UnicodeString synchronizationContextType,
+  UnicodeString AppDomain)
+opcode: Reset
+keywords: Discovery
+task: DiscoverySynchronizationContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: synchronizationContextType
+- field_type: UnicodeString
+  field_name: AppDomain

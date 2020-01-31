@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '368'
+version: '0'
+event(fields): Mshtml_HTMLSpell_InitSpellerStop()
+opcode: Stop
+keywords: subsystem mshtml
+task: Mshtml_HTMLSpell_InitSpeller
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

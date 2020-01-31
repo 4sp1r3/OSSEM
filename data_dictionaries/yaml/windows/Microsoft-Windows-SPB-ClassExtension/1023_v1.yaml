@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SPB-ClassExtension
+event_id: '1023'
+version: '1'
+event(fields): I/OoperationflowthroughSPBCxIoSpbPayloadTdBuffer_V1(UInt32 BufferIndex,
+  UInt32 ByteCount, Binary Buffer)
+opcode: IoSpbPayloadTdBuffer
+keywords: ''
+task: I/OoperationflowthroughSPBCx
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BufferIndex
+- field_type: UInt32
+  field_name: ByteCount
+- field_type: Binary
+  field_name: Buffer

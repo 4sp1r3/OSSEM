@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '55'
+version: '0'
+event(fields): SurpriseRemovalStart55(Pointer fid_UsbDevice)
+opcode: Start
+keywords: Default PnP
+task: SurpriseRemoval
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice

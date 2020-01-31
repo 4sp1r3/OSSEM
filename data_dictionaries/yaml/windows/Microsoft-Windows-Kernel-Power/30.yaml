@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '30'
+version: '0'
+event(fields): QueryFailedApps()
+opcode: ''
+keywords: ''
+task: QueryFailedApps
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

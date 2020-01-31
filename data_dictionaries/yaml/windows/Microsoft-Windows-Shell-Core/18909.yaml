@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18909'
+version: '0'
+event(fields): Shell32_CopyEngine_ProgressData(UInt64 WorkDone, UInt64 TimeElapsed)
+opcode: ''
+keywords: Shell
+task: Shell32_CopyEngine_ProgressData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: WorkDone
+- field_type: UInt64
+  field_name: TimeElapsed

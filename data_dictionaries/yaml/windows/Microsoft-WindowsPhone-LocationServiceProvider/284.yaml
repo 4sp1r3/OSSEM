@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '284'
+version: '0'
+event(fields): Crowdsource284(UInt32 Level, UInt32 CollectionType, Boolean IsBufferFull,
+  Boolean IsBatterySavings, Boolean IsUserPresenceOn)
+opcode: ''
+keywords: Selfhost Crowdsource
+task: Crowdsource
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Level
+- field_type: UInt32
+  field_name: CollectionType
+- field_type: Boolean
+  field_name: IsBufferFull
+- field_type: Boolean
+  field_name: IsBatterySavings
+- field_type: Boolean
+  field_name: IsUserPresenceOn

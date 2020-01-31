@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '1867'
+version: '0'
+event(fields): DocPerf_Task_PrintTicket_GetPrintDeviceResourcesStop()
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_PrintTicket_GetPrintDeviceResources
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

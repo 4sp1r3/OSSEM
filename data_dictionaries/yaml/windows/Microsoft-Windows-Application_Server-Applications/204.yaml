@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '204'
+version: '0'
+event(fields): ClientRuntimeClientParameterInspectorStart(UnicodeString TypeName,
+  UnicodeString HostReference, UnicodeString AppDomain)
+opcode: ClientParameterInspectorStart
+keywords: ServiceModel Troubleshooting
+task: ClientRuntime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeName
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18713'
+version: '0'
+event(fields): Shell32_StartMenuQueryFactory_Programs_RunStart()
+opcode: Start
+keywords: Shell
+task: Shell32_StartMenuQueryFactory_Programs_Run
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

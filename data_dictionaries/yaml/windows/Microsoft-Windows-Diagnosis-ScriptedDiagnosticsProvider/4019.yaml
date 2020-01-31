@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '4019'
+version: '0'
+event(fields): task_0Stop4019(UInt32 HttpError, UInt32 Error)
+opcode: Stop
+keywords: search
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HttpError
+- field_type: UInt32
+  field_name: Error

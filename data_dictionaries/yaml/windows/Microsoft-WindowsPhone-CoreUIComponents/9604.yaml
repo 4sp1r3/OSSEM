@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9604'
+version: '0'
+event(fields): BasicViewAdapter9604(UInt32 unParam, UInt32 unParam2)
+opcode: ''
+keywords: BasicViewAdapter
+task: BasicViewAdapter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2

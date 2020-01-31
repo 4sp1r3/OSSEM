@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '403'
+version: '0'
+event(fields): task_0403(UnicodeString DeviceInstanceId, UnicodeString DriverName,
+  GUID ClassGuid, UnicodeString DriverDate, UnicodeString DriverVersion, UnicodeString
+  DriverProvider, Boolean DriverInbox, UnicodeString DriverSection, HexInt32 DriverRank,
+  UnicodeString MatchingDeviceId, UnicodeString OutrankedDrivers, Boolean DeviceUpdated,
+  HexInt32 Status, UnicodeString ParentDeviceInstanceId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceInstanceId
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: GUID
+  field_name: ClassGuid
+- field_type: UnicodeString
+  field_name: DriverDate
+- field_type: UnicodeString
+  field_name: DriverVersion
+- field_type: UnicodeString
+  field_name: DriverProvider
+- field_type: Boolean
+  field_name: DriverInbox
+- field_type: UnicodeString
+  field_name: DriverSection
+- field_type: HexInt32
+  field_name: DriverRank
+- field_type: UnicodeString
+  field_name: MatchingDeviceId
+- field_type: UnicodeString
+  field_name: OutrankedDrivers
+- field_type: Boolean
+  field_name: DeviceUpdated
+- field_type: HexInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: ParentDeviceInstanceId

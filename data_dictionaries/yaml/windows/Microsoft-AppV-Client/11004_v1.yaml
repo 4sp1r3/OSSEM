@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '11004'
+version: '1'
+event(fields): PublishPackage11004_V1(GUID Package)
+opcode: ''
+keywords: ClientCoExistence
+task: PublishPackage
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Package

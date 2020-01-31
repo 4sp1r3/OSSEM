@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '1'
+version: '1'
+event(fields): ClassPnPIOrequestcompleteClassPnP_IO_End_V1(UInt64 RequestProcessTime,
+  Pointer OriginalIrp, Pointer Irp, UInt8 MajorFunction, UInt8 RequestType, UInt8
+  SrbStatus, UInt32 DeviceNumber)
+opcode: ClassPnP_IO_End
+keywords: ClassPnPAllIO
+task: ClassPnPIOrequestcomplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RequestProcessTime
+- field_type: Pointer
+  field_name: OriginalIrp
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt8
+  field_name: MajorFunction
+- field_type: UInt8
+  field_name: RequestType
+- field_type: UInt8
+  field_name: SrbStatus
+- field_type: UInt32
+  field_name: DeviceNumber

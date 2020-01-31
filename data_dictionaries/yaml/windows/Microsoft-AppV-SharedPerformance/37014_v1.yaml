@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '37014'
+version: '1'
+event(fields): PublishRoamingTask.VIRTMAN.Start_V1()
+opcode: Start
+keywords: ''
+task: PublishRoamingTask.VIRTMAN.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

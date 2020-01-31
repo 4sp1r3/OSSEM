@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '153'
+version: '0'
+event(fields): OPEN_SHARED_TEXTURE_EVENTStart(UInt64 dxSharedHandle)
+opcode: Start
+keywords: DwmCore
+task: OPEN_SHARED_TEXTURE_EVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: dxSharedHandle

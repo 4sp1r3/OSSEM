@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7001'
+version: '0'
+event(fields): Perf_SettingProfileHandler_OnLoadStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_SettingProfileHandler_OnLoad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

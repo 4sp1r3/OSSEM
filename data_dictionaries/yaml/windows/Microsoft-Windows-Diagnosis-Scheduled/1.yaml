@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-Scheduled
+event_id: '1'
+version: '0'
+event(fields): task_0()
+opcode: ''
+keywords: notification
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

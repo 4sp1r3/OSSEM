@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wordpad
+event_id: '15'
+version: '0'
+event(fields): Wordpad_LaunchStop()
+opcode: Stop
+keywords: ''
+task: Wordpad_Launch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

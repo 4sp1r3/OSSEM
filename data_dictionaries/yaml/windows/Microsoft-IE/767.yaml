@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '767'
+version: '0'
+event(fields): Mshtml_Selectors_Api_Query_Selector(UInt32 SelectorType, UnicodeString
+  Selector, UInt32 TargetType, Pointer Target, Boolean IsQueryAll)
+opcode: ''
+keywords: verbose
+task: Mshtml_Selectors_Api_Query_Selector
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SelectorType
+- field_type: UnicodeString
+  field_name: Selector
+- field_type: UInt32
+  field_name: TargetType
+- field_type: Pointer
+  field_name: Target
+- field_type: Boolean
+  field_name: IsQueryAll

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Network-Setup
+event_id: '200'
+version: '0'
+event(fields): TransactionStart(GUID TransactionGuid, UInt32 EnvironmentType)
+opcode: Start
+keywords: ''
+task: Transaction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionGuid
+- field_type: UInt32
+  field_name: EnvironmentType

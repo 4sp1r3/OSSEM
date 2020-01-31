@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8041'
+version: '1'
+event(fields): PublishPackage_1515Stop_V1(UInt64 ActivityId)
+opcode: Stop
+keywords: ''
+task: PublishPackage_1515
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ActivityId

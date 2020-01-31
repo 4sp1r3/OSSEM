@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4706'
+version: '0'
+event(fields): task_04706(UnicodeString DomainName, SID DomainSid, SID SubjectUserSid,
+  UnicodeString SubjectUserName, UnicodeString SubjectDomainName, HexInt64 SubjectLogonId,
+  UInt32 TdoType, UInt32 TdoDirection, UInt32 TdoAttributes, UnicodeString SidFilteringEnabled)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DomainName
+- field_type: SID
+  field_name: DomainSid
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UInt32
+  field_name: TdoType
+- field_type: UInt32
+  field_name: TdoDirection
+- field_type: UInt32
+  field_name: TdoAttributes
+- field_type: UnicodeString
+  field_name: SidFilteringEnabled

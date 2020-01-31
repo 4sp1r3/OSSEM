@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5906'
+version: '0'
+event(fields): AppActivation_ActivateApplicationForContractByAppIDStop()
+opcode: Stop
+keywords: ''
+task: AppActivation_ActivateApplicationForContractByAppID
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

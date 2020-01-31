@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40006'
+version: '0'
+event(fields): VReg.QueryKeyStart()
+opcode: Start
+keywords: ''
+task: VReg.QueryKey
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

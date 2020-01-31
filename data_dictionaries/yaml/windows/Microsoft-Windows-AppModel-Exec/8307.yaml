@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '8307'
+version: '0'
+event(fields): ODB_Trace8307(GUID p1_GUID)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular ODB keyword_200000000000
+task: ODB_Trace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: p1_GUID

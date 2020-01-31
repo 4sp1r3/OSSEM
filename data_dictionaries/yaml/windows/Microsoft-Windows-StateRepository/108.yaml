@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '108'
+version: '0'
+event(fields): StateRepository.Task.DataAccessLayer108(HexInt32 ErrorCode, AnsiString
+  SQL)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD
+task: StateRepository.Task.DataAccessLayer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: AnsiString
+  field_name: SQL

@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '18004'
+version: '1'
+event(fields): ApplicationLaunch18004_V1(UnicodeString Item1, UnicodeString Item2)
+opcode: ''
+keywords: VirtualAppLaunch
+task: ApplicationLaunch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Item1
+- field_type: UnicodeString
+  field_name: Item2

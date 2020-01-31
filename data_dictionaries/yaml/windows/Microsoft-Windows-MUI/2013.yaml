@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MUI
+event_id: '2013'
+version: '0'
+event(fields): MUIresourcecachebuilderBuildresourcecache2013()
+opcode: Buildresourcecache
+keywords: ''
+task: MUIresourcecachebuilder
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

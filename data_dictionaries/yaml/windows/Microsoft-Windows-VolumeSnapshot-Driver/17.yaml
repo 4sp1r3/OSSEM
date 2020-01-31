@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-VolumeSnapshot-Driver
+event_id: '17'
+version: '0'
+event(fields): vs:RemountStop(UInt32 RealThreadID, GUID VolumeGuid)
+opcode: Stop
+keywords: ''
+task: vs:Remount
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RealThreadID
+- field_type: GUID
+  field_name: VolumeGuid

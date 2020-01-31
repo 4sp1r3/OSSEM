@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-XAML
+event_id: '286'
+version: '0'
+event(fields): CompTreeCreateRenderDataNode(UInt64 CompNode, UInt64 PrimitiveGroup,
+  UInt32 IsEmulated)
+opcode: ''
+keywords: DComp
+task: CompTreeCreateRenderDataNode
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CompNode
+- field_type: UInt64
+  field_name: PrimitiveGroup
+- field_type: UInt32
+  field_name: IsEmulated

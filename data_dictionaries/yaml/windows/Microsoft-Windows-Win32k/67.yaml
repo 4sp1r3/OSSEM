@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Win32k
+event_id: '67'
+version: '0'
+event(fields): InputQueueLocked67(Int8 CallbackCount, Pointer pQueue, UInt32 ownerThread)
+opcode: ''
+keywords: MessagePumpInternalAndInput
+task: InputQueueLocked
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: CallbackCount
+- field_type: Pointer
+  field_name: pQueue
+- field_type: UInt32
+  field_name: ownerThread

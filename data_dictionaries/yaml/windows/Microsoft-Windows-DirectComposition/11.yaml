@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '11'
+version: '0'
+event(fields): UPDATE_TOKENStop()
+opcode: Stop
+keywords: DCompBasic
+task: UPDATE_TOKEN
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

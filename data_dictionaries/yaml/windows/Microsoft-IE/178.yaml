@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '178'
+version: '0'
+event(fields): Mshtml_Dx_TargetSurfaceEnsureStart(Pointer RenderTarget, UInt32 TargetSurfaceBaseType,
+  UInt32 TargetSurfaceSubType)
+opcode: Start
+keywords: subsystem pageloadbreakdown
+task: Mshtml_Dx_TargetSurfaceEnsure
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RenderTarget
+- field_type: UInt32
+  field_name: TargetSurfaceBaseType
+- field_type: UInt32
+  field_name: TargetSurfaceSubType

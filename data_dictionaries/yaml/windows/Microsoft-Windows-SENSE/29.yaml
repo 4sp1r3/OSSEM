@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SENSE
+event_id: '29'
+version: '0'
+event(fields): task_029(Int32 errorType, HexInt32 HRESULT, UnicodeString description)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: errorType
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: UnicodeString
+  field_name: description

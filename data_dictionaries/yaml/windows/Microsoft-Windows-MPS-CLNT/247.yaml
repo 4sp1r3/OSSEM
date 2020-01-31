@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '247'
+version: '0'
+event(fields): MPS_CLNT_API_SetCryptoSetStop()
+opcode: Stop
+keywords: Client
+task: MPS_CLNT_API_SetCryptoSet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

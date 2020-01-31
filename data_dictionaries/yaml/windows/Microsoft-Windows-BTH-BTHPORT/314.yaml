@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-BTH-BTHPORT
+event_id: '314'
+version: '0'
+event(fields): task_0314(UInt32 SystemPowerState, UInt32 DevicePowerState, UInt32
+  CompleteStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SystemPowerState
+- field_type: UInt32
+  field_name: DevicePowerState
+- field_type: UInt32
+  field_name: CompleteStatus

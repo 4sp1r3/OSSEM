@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Wisp
+event_id: '32'
+version: '0'
+event(fields): TABLET_INPUT_Query_Window_AtomStop()
+opcode: Stop
+keywords: ''
+task: TABLET_INPUT_Query_Window_Atom
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

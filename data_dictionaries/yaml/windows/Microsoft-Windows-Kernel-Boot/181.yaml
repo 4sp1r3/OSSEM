@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '181'
+version: '0'
+event(fields): RegisterFilter(UInt32 Status)
+opcode: ''
+keywords: SoftRestart
+task: RegisterFilter
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

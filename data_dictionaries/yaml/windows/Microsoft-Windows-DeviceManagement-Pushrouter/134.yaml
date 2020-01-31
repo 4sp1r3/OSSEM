@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceManagement-Pushrouter
+event_id: '134'
+version: '0'
+event(fields): task_0134()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

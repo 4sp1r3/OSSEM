@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '409'
+version: '0'
+event(fields): SensorInvalid(UInt32 Code)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SensorInvalid
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Code

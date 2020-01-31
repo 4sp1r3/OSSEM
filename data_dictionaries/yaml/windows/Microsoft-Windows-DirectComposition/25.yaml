@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '25'
+version: '0'
+event(fields): DEVICE_COMMIT(UInt64 DeviceId, UInt32 ChannelHandle, UInt32 LastCommittedBatchId,
+  UInt32 LastConfirmedBatchId)
+opcode: ''
+keywords: DCompDiagnostic DCompMemory
+task: DEVICE_COMMIT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DeviceId
+- field_type: UInt32
+  field_name: ChannelHandle
+- field_type: UInt32
+  field_name: LastCommittedBatchId
+- field_type: UInt32
+  field_name: LastConfirmedBatchId

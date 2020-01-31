@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXP
+event_id: '14'
+version: '0'
+event(fields): LauncherStop(UnicodeString DeviceID)
+opcode: Stop
+keywords: ''
+task: Launcher
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceID

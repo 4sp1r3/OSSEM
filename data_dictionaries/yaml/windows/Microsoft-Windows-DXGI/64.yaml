@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '64'
+version: '0'
+event(fields): SetHardwareProtection(Pointer pIDXGISwapChain, Boolean Enabled)
+opcode: ''
+keywords: Events
+task: SetHardwareProtection
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: Boolean
+  field_name: Enabled

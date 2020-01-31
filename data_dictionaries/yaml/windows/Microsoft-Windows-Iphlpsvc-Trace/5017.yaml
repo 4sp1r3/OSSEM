@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5017'
+version: '0'
+event(fields): task_05017(UInt32 InterfaceIndex, UnicodeString Address, Boolean Added,
+  Boolean LimitedConnectivity)
+opcode: ''
+keywords: iphttps
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UnicodeString
+  field_name: Address
+- field_type: Boolean
+  field_name: Added
+- field_type: Boolean
+  field_name: LimitedConnectivity

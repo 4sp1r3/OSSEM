@@ -1,0 +1,18 @@
+provider: WINSATAPI_ETW_PROVIDER
+event_id: '9'
+version: '0'
+event(fields): Application9(UInt16 PhaseID, UInt16 DescriptionSize, UnicodeString
+  Description)
+opcode: ''
+keywords: ''
+task: Application
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: PhaseID
+- field_type: UInt16
+  field_name: DescriptionSize
+- field_type: UnicodeString
+  field_name: Description

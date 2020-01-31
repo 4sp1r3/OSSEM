@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Hyper-V-Guest-Drivers-Dynamic-Memory
+event_id: '101'
+version: '0'
+event(fields): task_0101(HexInt64 HighestHotAddPage, UInt64 MinPageCount, Boolean
+  IsHighestPageDetermined, Boolean SupportsHotAdd, Boolean SupportsHotRemove, Boolean
+  SupportsContiguousAllocations, Boolean SupportsFastContiguousAllocations)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: HighestHotAddPage
+- field_type: UInt64
+  field_name: MinPageCount
+- field_type: Boolean
+  field_name: IsHighestPageDetermined
+- field_type: Boolean
+  field_name: SupportsHotAdd
+- field_type: Boolean
+  field_name: SupportsHotRemove
+- field_type: Boolean
+  field_name: SupportsContiguousAllocations
+- field_type: Boolean
+  field_name: SupportsFastContiguousAllocations

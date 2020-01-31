@@ -1,0 +1,29 @@
+provider: Microsoft-AppV-Client-StreamingUX
+event_id: '150'
+version: '1'
+event(fields): task_0150_V1(UnicodeString server, Boolean global, UInt32 packageTotal,
+  UInt32 packageSucceeded, UInt32 packageFailed, UInt32 groupTotal, UInt32 groupSucceeded,
+  UInt32 groupFailed)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: server
+- field_type: Boolean
+  field_name: global
+- field_type: UInt32
+  field_name: packageTotal
+- field_type: UInt32
+  field_name: packageSucceeded
+- field_type: UInt32
+  field_name: packageFailed
+- field_type: UInt32
+  field_name: groupTotal
+- field_type: UInt32
+  field_name: groupSucceeded
+- field_type: UInt32
+  field_name: groupFailed

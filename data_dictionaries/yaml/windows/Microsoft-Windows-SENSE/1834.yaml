@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SENSE
+event_id: '1834'
+version: '0'
+event(fields): task_01834(UnicodeString registryValue, Boolean IsDefault, Boolean
+  conversionSucceeded, UInt32 Result)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: registryValue
+- field_type: Boolean
+  field_name: IsDefault
+- field_type: Boolean
+  field_name: conversionSucceeded
+- field_type: UInt32
+  field_name: Result

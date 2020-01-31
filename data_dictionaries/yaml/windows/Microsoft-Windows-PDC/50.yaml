@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDC
+event_id: '50'
+version: '0'
+event(fields): SuspendSvcsEnter()
+opcode: ''
+keywords: suspendresume
+task: SuspendSvcsEnter
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

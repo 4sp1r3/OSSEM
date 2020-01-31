@@ -1,0 +1,12 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '53'
+version: '1'
+event(fields): V1_DriverCompleteRequestReturn(UInt32 Irp, UInt32 UniqMatchId)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: Irp
+- field_type: UInt32
+  field_name: UniqMatchId

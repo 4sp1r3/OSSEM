@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7435'
+version: '0'
+event(fields): ConnectedSearch_LogTemplateRequestInfoStart()
+opcode: Start
+keywords: ''
+task: ConnectedSearch_LogTemplateRequestInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ClearTypeTextTuner
+event_id: '1'
+version: '0'
+event(fields): ClearTypeTextTuner_LaunchAppStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: ClearTypeTextTuner_LaunchApp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

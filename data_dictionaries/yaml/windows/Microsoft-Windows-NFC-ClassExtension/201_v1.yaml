@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NFC-ClassExtension
+event_id: '201'
+version: '1'
+event(fields): task_0201_V1(Boolean RadioIsOn)
+opcode: ''
+keywords: Power
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: RadioIsOn

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-HttpService
+event_id: '48'
+version: '0'
+event(fields): HTTPLoggingTraceTaskLoggingConfig(UInt32 Present, UInt32 Type, UInt32
+  Group, UInt32 Format, UnicodeString Directory, UnicodeString Software, UInt32 SiteId)
+opcode: LoggingConfig
+keywords: HTTP_KEYWORD_LOGGING
+task: HTTPLoggingTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Present
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Group
+- field_type: UInt32
+  field_name: Format
+- field_type: UnicodeString
+  field_name: Directory
+- field_type: UnicodeString
+  field_name: Software
+- field_type: UInt32
+  field_name: SiteId

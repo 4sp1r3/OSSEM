@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1074'
+version: '0'
+event(fields): TcpDataTransferReceive(Pointer Tcb, UInt32 NumBytes, UInt32 SeqNo)
+opcode: ''
+keywords: ut:ReceivePath
+task: TcpDataTransferReceive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: NumBytes
+- field_type: UInt32
+  field_name: SeqNo

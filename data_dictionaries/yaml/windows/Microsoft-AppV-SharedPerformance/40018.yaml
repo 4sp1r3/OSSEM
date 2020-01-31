@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40018'
+version: '0'
+event(fields): VReg.NotifyChangeMultipleKeysStart()
+opcode: Start
+keywords: ''
+task: VReg.NotifyChangeMultipleKeys
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

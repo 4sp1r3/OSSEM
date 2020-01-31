@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-TIP
+event_id: '122'
+version: '0'
+event(fields): TaskID:IME_SUGGESTIONStart122()
+opcode: Start
+keywords: ''
+task: TaskID:IME_SUGGESTION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

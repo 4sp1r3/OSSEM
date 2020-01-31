@@ -1,0 +1,62 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '16'
+version: '0'
+event(fields): QueryStatsAppPerfInfo(UInt64 UniqueApplicationId, UnicodeString PackageFullName,
+  UInt64 ForegroundCycleTime, UInt64 BackgroundCycleTime, UInt64 ForegroundActiveTime,
+  UInt64 ForegroundBytesRead, UInt64 ForegroundBytesWritten, UInt64 BackgroundBytesRead,
+  UInt64 BackgroundBytesWritten, UInt32 BucketCount, CountedUtf16String ForegroundCycles,
+  UInt64 ForegroundDiskEnergy, UInt64 ForegroundNetworkTailEnergy, UInt64 ForegroundMBBTailEnergy,
+  UInt64 ForegroundNetworkTxRxBytes, UInt64 ForegroundMBBTxRxBytes, 25 BackgroundCycles,
+  UInt64 BackgroundDiskEnergy, UInt64 BackgroundNetworkTailEnergy, UInt64 BackgroundMBBTailEnergy,
+  UInt64 BackgroundNetworkTxRxBytes, UInt64 BackgroundMBBTxRxBytes)
+opcode: AppPerfInfo
+keywords: SystemInformation
+task: QueryStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueApplicationId
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UInt64
+  field_name: ForegroundCycleTime
+- field_type: UInt64
+  field_name: BackgroundCycleTime
+- field_type: UInt64
+  field_name: ForegroundActiveTime
+- field_type: UInt64
+  field_name: ForegroundBytesRead
+- field_type: UInt64
+  field_name: ForegroundBytesWritten
+- field_type: UInt64
+  field_name: BackgroundBytesRead
+- field_type: UInt64
+  field_name: BackgroundBytesWritten
+- field_type: UInt32
+  field_name: BucketCount
+- field_type: CountedUtf16String
+  field_name: ForegroundCycles
+- field_type: UInt64
+  field_name: ForegroundDiskEnergy
+- field_type: UInt64
+  field_name: ForegroundNetworkTailEnergy
+- field_type: UInt64
+  field_name: ForegroundMBBTailEnergy
+- field_type: UInt64
+  field_name: ForegroundNetworkTxRxBytes
+- field_type: UInt64
+  field_name: ForegroundMBBTxRxBytes
+- field_type: '25'
+  field_name: BackgroundCycles
+- field_type: UInt64
+  field_name: BackgroundDiskEnergy
+- field_type: UInt64
+  field_name: BackgroundNetworkTailEnergy
+- field_type: UInt64
+  field_name: BackgroundMBBTailEnergy
+- field_type: UInt64
+  field_name: BackgroundNetworkTxRxBytes
+- field_type: UInt64
+  field_name: BackgroundMBBTxRxBytes

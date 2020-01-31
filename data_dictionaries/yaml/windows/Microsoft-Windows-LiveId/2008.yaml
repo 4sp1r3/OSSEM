@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-LiveId
+event_id: '2008'
+version: '0'
+event(fields): LiveIdModernAPIOperationStart2008()
+opcode: Start
+keywords: Analytic
+task: LiveIdModernAPIOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

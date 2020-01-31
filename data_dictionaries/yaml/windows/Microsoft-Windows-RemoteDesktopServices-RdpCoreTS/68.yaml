@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '68'
+version: '0'
+event(fields): RemoteFXmodule_4RCMProtocolImpl68(UnicodeString ConnectionName, UInt32
+  PromptForCredentials, UInt32 PromptForCredentialsDone, UInt32 GfxChannelOpened,
+  UInt32 FirstGraphicsReceived)
+opcode: RCMProtocolImpl
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ConnectionName
+- field_type: UInt32
+  field_name: PromptForCredentials
+- field_type: UInt32
+  field_name: PromptForCredentialsDone
+- field_type: UInt32
+  field_name: GfxChannelOpened
+- field_type: UInt32
+  field_name: FirstGraphicsReceived

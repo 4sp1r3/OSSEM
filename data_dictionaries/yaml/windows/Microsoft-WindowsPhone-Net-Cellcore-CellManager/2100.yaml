@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '2100'
+version: '0'
+event(fields): CRoamingFilter(UnicodeString StringName1, UInt32 DwordName1)
+opcode: ''
+keywords: Trace
+task: CRoamingFilter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StringName1
+- field_type: UInt32
+  field_name: DwordName1

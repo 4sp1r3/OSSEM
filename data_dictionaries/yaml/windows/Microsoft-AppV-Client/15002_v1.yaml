@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '15002'
+version: '1'
+event(fields): ConnecttoAppVClientService15002_V1(Int32 HResult)
+opcode: ''
+keywords: ClientStreamingUX
+task: ConnecttoAppVClientService
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HResult

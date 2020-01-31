@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '112'
+version: '0'
+event(fields): HealthCenter_IconBalloonStart()
+opcode: Start
+keywords: ''
+task: HealthCenter_IconBalloon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

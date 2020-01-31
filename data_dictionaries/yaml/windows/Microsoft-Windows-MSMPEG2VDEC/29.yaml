@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '29'
+version: '0'
+event(fields): MFT_ProcessInputStart()
+opcode: Start
+keywords: ''
+task: MFT_ProcessInput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

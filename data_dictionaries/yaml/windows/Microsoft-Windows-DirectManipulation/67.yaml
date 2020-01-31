@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '67'
+version: '0'
+event(fields): Manipulation_Behaviors(Pointer content, Int32 dimension, Float inertiaStartValue,
+  Float originalRestPoint, Float outputRestPoint, Int32 outputRestPointPriority, Int32
+  outputRestPointCurveId)
+opcode: ''
+keywords: ''
+task: Manipulation_Behaviors
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: content
+- field_type: Int32
+  field_name: dimension
+- field_type: Float
+  field_name: inertiaStartValue
+- field_type: Float
+  field_name: originalRestPoint
+- field_type: Float
+  field_name: outputRestPoint
+- field_type: Int32
+  field_name: outputRestPointPriority
+- field_type: Int32
+  field_name: outputRestPointCurveId

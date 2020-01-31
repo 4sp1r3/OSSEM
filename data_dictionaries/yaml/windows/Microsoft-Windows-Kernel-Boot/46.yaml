@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '46'
+version: '0'
+event(fields): RetrieveDriverListTime(UInt64 RetrieveDriverListTime)
+opcode: ''
+keywords: ''
+task: RetrieveDriverListTime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RetrieveDriverListTime

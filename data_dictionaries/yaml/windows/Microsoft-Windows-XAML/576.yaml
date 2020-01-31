@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-XAML
+event_id: '576'
+version: '0'
+event(fields): HitTestStats(UInt32 M4x4Multiplications, UInt32 M3x2AsM4x4Multiplications,
+  UInt32 M4x4PointMultiplications, UInt32 M4x4TransformBounds, UInt32 Count3DBoundsMode,
+  UInt32 Projections)
+opcode: ''
+keywords: Input
+task: HitTestStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: M4x4Multiplications
+- field_type: UInt32
+  field_name: M3x2AsM4x4Multiplications
+- field_type: UInt32
+  field_name: M4x4PointMultiplications
+- field_type: UInt32
+  field_name: M4x4TransformBounds
+- field_type: UInt32
+  field_name: Count3DBoundsMode
+- field_type: UInt32
+  field_name: Projections

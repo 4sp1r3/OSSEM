@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '104'
+version: '0'
+event(fields): task_0104(HexInt32 Prop_Dword_0, HexInt32 Prop_Dword_1, HexInt32 Prop_Dword_2,
+  UInt32 Prop_Dword_3)
+opcode: ''
+keywords: Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_Dword_0
+- field_type: HexInt32
+  field_name: Prop_Dword_1
+- field_type: HexInt32
+  field_name: Prop_Dword_2
+- field_type: UInt32
+  field_name: Prop_Dword_3

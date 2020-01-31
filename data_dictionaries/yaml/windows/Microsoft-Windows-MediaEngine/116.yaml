@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '116'
+version: '0'
+event(fields): MediaFoundationPresent_SubmittedFrame(Pointer object, Int64 sampleTime,
+  Int64 QPC, Int64 Ahead)
+opcode: ''
+keywords: ''
+task: MediaFoundationPresent_SubmittedFrame
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: sampleTime
+- field_type: Int64
+  field_name: QPC
+- field_type: Int64
+  field_name: Ahead

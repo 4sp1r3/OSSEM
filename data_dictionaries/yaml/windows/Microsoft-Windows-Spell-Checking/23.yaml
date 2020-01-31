@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Spell-Checking
+event_id: '23'
+version: '0'
+event(fields): SpellcheckingSend23(UInt32 WordlistType)
+opcode: Send
+keywords: ''
+task: Spellchecking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WordlistType

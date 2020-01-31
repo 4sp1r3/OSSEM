@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Developer
+event_id: '1119'
+version: '0'
+event(fields): task_01119(UnicodeString AppID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID

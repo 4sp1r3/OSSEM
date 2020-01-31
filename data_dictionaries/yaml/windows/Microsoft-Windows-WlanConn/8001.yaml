@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WlanConn
+event_id: '8001'
+version: '0'
+event(fields): L2ConnStart()
+opcode: Start
+keywords: ''
+task: L2Conn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

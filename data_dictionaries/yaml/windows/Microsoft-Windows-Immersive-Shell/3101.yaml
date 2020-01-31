@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '3101'
+version: '0'
+event(fields): ImmersiveAutoPlay_DeviceAutoPlayStart()
+opcode: Start
+keywords: ''
+task: ImmersiveAutoPlay_DeviceAutoPlay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

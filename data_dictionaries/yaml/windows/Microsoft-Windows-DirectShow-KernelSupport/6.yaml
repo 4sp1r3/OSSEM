@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DirectShow-KernelSupport
+event_id: '6'
+version: '0'
+event(fields): KSProxyInfoExit6()
+opcode: Exit
+keywords: ''
+task: KSProxyInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

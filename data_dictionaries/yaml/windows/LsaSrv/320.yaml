@@ -1,0 +1,15 @@
+provider: LsaSrv
+event_id: '320'
+version: '0'
+event(fields): task_0320(UnicodeString UserName, UnicodeString DomainName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UnicodeString
+  field_name: DomainName

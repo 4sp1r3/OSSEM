@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '382'
+version: '0'
+event(fields): DecodeToRenderSizeDisabled(UInt64 ImageId, UnicodeString Reason)
+opcode: ''
+keywords: Images
+task: DecodeToRenderSizeDisabled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ImageId
+- field_type: UnicodeString
+  field_name: Reason

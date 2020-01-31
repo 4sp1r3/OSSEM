@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WPD-MTPUS
+event_id: '105'
+version: '0'
+event(fields): task_0105(UInt16 WINUSB_SETUP_PACKET_LENGTH, Binary WINUSB_SETUP_PACKET,
+  UInt32 ControlTransferBufferLength, Binary ControlTransferBuffer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: WINUSB_SETUP_PACKET_LENGTH
+- field_type: Binary
+  field_name: WINUSB_SETUP_PACKET
+- field_type: UInt32
+  field_name: ControlTransferBufferLength
+- field_type: Binary
+  field_name: ControlTransferBuffer

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '2001'
+version: '1'
+event(fields): CreatePackageMachinePolicyDocumentFromDefaultStart_V1()
+opcode: Start
+keywords: ''
+task: CreatePackageMachinePolicyDocumentFromDefault
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

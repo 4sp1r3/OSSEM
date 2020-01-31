@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3036'
+version: '0'
+event(fields): task_03036(Boolean IDM_Enabled)
+opcode: ''
+keywords: wpnui
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IDM_Enabled

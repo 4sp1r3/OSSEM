@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '3006'
+version: '0'
+event(fields): Comctl32_ImageList_DrawStop()
+opcode: Stop
+keywords: Shell
+task: Comctl32_ImageList_Draw
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '10100'
+version: '1'
+event(fields): Installationorupdateofdevicedrivers.Stop_V1(UInt32 FinalStatus)
+opcode: Stop
+keywords: ''
+task: Installationorupdateofdevicedrivers.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FinalStatus

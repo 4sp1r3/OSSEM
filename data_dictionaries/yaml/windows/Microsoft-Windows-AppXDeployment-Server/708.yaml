@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '708'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment708(UInt32 DeploymentOperation,
+  UnicodeString PackageFullName, UnicodeString Path)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeploymentOperation
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: Path

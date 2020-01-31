@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '334'
+version: '0'
+event(fields): task_0334(UnicodeString AUMID, Pointer Hwnd)
+opcode: ''
+keywords: PLM ExecProductionCircular ExecDevPlatCircular
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AUMID
+- field_type: Pointer
+  field_name: Hwnd

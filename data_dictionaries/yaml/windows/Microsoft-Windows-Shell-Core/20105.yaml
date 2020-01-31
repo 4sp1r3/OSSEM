@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20105'
+version: '0'
+event(fields): StartMenuCPL_ApplyStop()
+opcode: Stop
+keywords: Shell
+task: StartMenuCPL_Apply
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

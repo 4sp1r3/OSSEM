@@ -1,0 +1,111 @@
+provider: Microsoft-Windows-Backup
+event_id: '14'
+version: '3'
+event(fields): task_0Stop_V3(GUID BackupTemplateID, HexInt32 HRESULT, HexInt32 DetailedHRESULT,
+  UnicodeString ErrorMessage, Int32 BackupState, FILETIME BackupTime, UnicodeString
+  BackupTarget, UInt32 NumOfVolumes, UnicodeString VolumesInfo, FILETIME SourceSnapStartTime,
+  FILETIME SourceSnapEndTime, UnicodeString PrepareBackupStartTime, UnicodeString
+  PrepareBackupEndTime, UnicodeString BackupWriteStartTime, UnicodeString BackupWriteEndTime,
+  FILETIME TargetSnapStartTime, FILETIME TargetSnapEndTime, UnicodeString DVDFormatStartTime,
+  UnicodeString DVDFormatEndTime, UnicodeString MediaVerifyStartTime, UnicodeString
+  MediaVerifyEndTime, Int32 BackupPreviousState, UnicodeString ComponentStatus, UnicodeString
+  ComponentInfo, FILETIME SSBEnumerateStartTime, FILETIME SSBEnumerateEndTime, FILETIME
+  SSBVhdCreationStartTime, FILETIME SSBVhdCreationEndTime, FILETIME SSBBackupStartTime,
+  FILETIME SSBBackupEndTime, UnicodeString SystemStateBackup, UnicodeString BMR, Boolean
+  VssFullBackup, Boolean UserInputBMR, Boolean UserInputSSB, UnicodeString BackupSuccessLogPath,
+  UnicodeString BackupFailureLogPath, UnicodeString EnumerateBackupStartTime, UnicodeString
+  EnumerateBackupEndTime, UnicodeString PruneBackupStartTime, UnicodeString PruneBackupEndTime,
+  HexInt32 BackupFlags, UnicodeString ComponentInfoSummary)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BackupTemplateID
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: HexInt32
+  field_name: DetailedHRESULT
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: Int32
+  field_name: BackupState
+- field_type: FILETIME
+  field_name: BackupTime
+- field_type: UnicodeString
+  field_name: BackupTarget
+- field_type: UInt32
+  field_name: NumOfVolumes
+- field_type: UnicodeString
+  field_name: VolumesInfo
+- field_type: FILETIME
+  field_name: SourceSnapStartTime
+- field_type: FILETIME
+  field_name: SourceSnapEndTime
+- field_type: UnicodeString
+  field_name: PrepareBackupStartTime
+- field_type: UnicodeString
+  field_name: PrepareBackupEndTime
+- field_type: UnicodeString
+  field_name: BackupWriteStartTime
+- field_type: UnicodeString
+  field_name: BackupWriteEndTime
+- field_type: FILETIME
+  field_name: TargetSnapStartTime
+- field_type: FILETIME
+  field_name: TargetSnapEndTime
+- field_type: UnicodeString
+  field_name: DVDFormatStartTime
+- field_type: UnicodeString
+  field_name: DVDFormatEndTime
+- field_type: UnicodeString
+  field_name: MediaVerifyStartTime
+- field_type: UnicodeString
+  field_name: MediaVerifyEndTime
+- field_type: Int32
+  field_name: BackupPreviousState
+- field_type: UnicodeString
+  field_name: ComponentStatus
+- field_type: UnicodeString
+  field_name: ComponentInfo
+- field_type: FILETIME
+  field_name: SSBEnumerateStartTime
+- field_type: FILETIME
+  field_name: SSBEnumerateEndTime
+- field_type: FILETIME
+  field_name: SSBVhdCreationStartTime
+- field_type: FILETIME
+  field_name: SSBVhdCreationEndTime
+- field_type: FILETIME
+  field_name: SSBBackupStartTime
+- field_type: FILETIME
+  field_name: SSBBackupEndTime
+- field_type: UnicodeString
+  field_name: SystemStateBackup
+- field_type: UnicodeString
+  field_name: BMR
+- field_type: Boolean
+  field_name: VssFullBackup
+- field_type: Boolean
+  field_name: UserInputBMR
+- field_type: Boolean
+  field_name: UserInputSSB
+- field_type: UnicodeString
+  field_name: BackupSuccessLogPath
+- field_type: UnicodeString
+  field_name: BackupFailureLogPath
+- field_type: UnicodeString
+  field_name: EnumerateBackupStartTime
+- field_type: UnicodeString
+  field_name: EnumerateBackupEndTime
+- field_type: UnicodeString
+  field_name: PruneBackupStartTime
+- field_type: UnicodeString
+  field_name: PruneBackupEndTime
+- field_type: HexInt32
+  field_name: BackupFlags
+- field_type: UnicodeString
+  field_name: ComponentInfoSummary

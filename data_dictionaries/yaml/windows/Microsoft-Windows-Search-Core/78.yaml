@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '78'
+version: '0'
+event(fields): Gatherer_RequestStatusChange(UInt32 Status, UInt32 hrReason)
+opcode: ''
+keywords: Gatherer
+task: Gatherer_RequestStatusChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: hrReason

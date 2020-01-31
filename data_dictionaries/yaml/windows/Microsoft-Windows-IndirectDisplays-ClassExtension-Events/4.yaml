@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '4'
+version: '0'
+event(fields): AdapterUpdateMaxBandwidth(Int64 IddAdapterLuid, UInt64 Bandwidth)
+opcode: UpdateMaxBandwidth
+keywords: DdiCalls
+task: Adapter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: IddAdapterLuid
+- field_type: UInt64
+  field_name: Bandwidth

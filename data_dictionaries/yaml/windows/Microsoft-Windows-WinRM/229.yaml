@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinRM
+event_id: '229'
+version: '0'
+event(fields): Winrmconfiguration229(UnicodeString param1, UInt32 param2)
+opcode: ''
+keywords: Keyword.Client Keyword.Server
+task: Winrmconfiguration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UInt32
+  field_name: param2

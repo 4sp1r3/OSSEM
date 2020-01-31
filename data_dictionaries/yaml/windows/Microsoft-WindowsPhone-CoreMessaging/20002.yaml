@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '20002'
+version: '0'
+event(fields): SelfHostError_ConnectionFailed(UInt32 hex, UInt32 hex2, GUID guid)
+opcode: ''
+keywords: keyword_80000000000
+task: SelfHostError_ConnectionFailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex
+- field_type: UInt32
+  field_name: hex2
+- field_type: GUID
+  field_name: guid

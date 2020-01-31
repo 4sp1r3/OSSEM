@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '315'
+version: '0'
+event(fields): MediaCaptureAdvancedPhotoPrepareoperationStart(Pointer WinRTCaptureEngine,
+  Pointer AsyncOp, UInt32 OpStatus)
+opcode: Start
+keywords: keyword_800000000000
+task: MediaCaptureAdvancedPhotoPrepareoperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WinRTCaptureEngine
+- field_type: Pointer
+  field_name: AsyncOp
+- field_type: UInt32
+  field_name: OpStatus

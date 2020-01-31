@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '188'
+version: '0'
+event(fields): MediaFoundationComputeRatioToPrimary(Pointer object, Float Ratio, Float
+  Ratio_x100)
+opcode: ''
+keywords: ''
+task: MediaFoundationComputeRatioToPrimary
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Float
+  field_name: Ratio
+- field_type: Float
+  field_name: Ratio_x100

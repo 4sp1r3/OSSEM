@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SruMon
+event_id: '2004'
+version: '0'
+event(fields): SruMonDebugTrace2004(UnicodeString _TableName)
+opcode: ''
+keywords: KeywordSruMonDebugTrace
+task: SruMonDebugTrace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: _TableName

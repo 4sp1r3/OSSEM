@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '55015'
+version: '0'
+event(fields): CredentialProviderUser_GetAccountOptions(UInt32 DWORD1)
+opcode: ''
+keywords: ''
+task: CredentialProviderUser_GetAccountOptions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DWORD1

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-PCW
+event_id: '20'
+version: '0'
+event(fields): task_020(UInt32 ErrorCode, UInt32 Phase)
+opcode: ''
+keywords: errors
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: Phase

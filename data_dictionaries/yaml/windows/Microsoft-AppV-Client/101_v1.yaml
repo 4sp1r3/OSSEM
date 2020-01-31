@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '101'
+version: '1'
+event(fields): APIRequestStart_V1(UnicodeString Item)
+opcode: Start
+keywords: ''
+task: APIRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Item

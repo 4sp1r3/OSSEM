@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Servicing
+event_id: '1015'
+version: '0'
+event(fields): task_01015(UnicodeString errorCode, UInt32 repaired, UInt32 totalCorruption)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: errorCode
+- field_type: UInt32
+  field_name: repaired
+- field_type: UInt32
+  field_name: totalCorruption

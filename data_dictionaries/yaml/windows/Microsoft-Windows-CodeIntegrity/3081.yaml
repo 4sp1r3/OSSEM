@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3081'
+version: '0'
+event(fields): ValidateSIPolicyPolicyFailure3081(UInt16 FileNameLength, UnicodeString
+  FileName, UInt16 ProcessNameLength, UnicodeString ProcessName, UInt8 RequestedSigningLevel,
+  UInt8 ValidatedSigningLevel, UInt32 Status, UInt32 SHA1HashSize, Binary SHA1Hash,
+  UInt32 SHA256HashSize, Binary SHA256Hash, UInt64 USN, UInt32 SISigningScenario)
+opcode: PolicyFailure
+keywords: ''
+task: ValidateSIPolicy
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt16
+  field_name: ProcessNameLength
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UInt8
+  field_name: RequestedSigningLevel
+- field_type: UInt8
+  field_name: ValidatedSigningLevel
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: SHA1HashSize
+- field_type: Binary
+  field_name: SHA1Hash
+- field_type: UInt32
+  field_name: SHA256HashSize
+- field_type: Binary
+  field_name: SHA256Hash
+- field_type: UInt64
+  field_name: USN
+- field_type: UInt32
+  field_name: SISigningScenario

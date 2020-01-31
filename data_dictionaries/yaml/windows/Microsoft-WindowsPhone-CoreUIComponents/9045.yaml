@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9045'
+version: '0'
+event(fields): ViewManager9045(UInt32 unParam)
+opcode: ''
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Backup
+event_id: '25'
+version: '0'
+event(fields): task_025(GUID VolumeGUID, UnicodeString VolumeFriendlyName, UnicodeString
+  VhdDeleteReason, UnicodeString VhdPath)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VolumeGUID
+- field_type: UnicodeString
+  field_name: VolumeFriendlyName
+- field_type: UnicodeString
+  field_name: VhdDeleteReason
+- field_type: UnicodeString
+  field_name: VhdPath

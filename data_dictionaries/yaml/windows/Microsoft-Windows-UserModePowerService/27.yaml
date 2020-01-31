@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '27'
+version: '0'
+event(fields): RundownSmartUserPresenceState(Boolean Supported, Boolean GlobalUserPresent,
+  UInt32 UserPredictionMode, UInt8 MinConfidence, UInt32 SuspendCount, UInt64 LastUserAwayEndSystemTime)
+opcode: ''
+keywords: SmartUserPresence
+task: RundownSmartUserPresenceState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Supported
+- field_type: Boolean
+  field_name: GlobalUserPresent
+- field_type: UInt32
+  field_name: UserPredictionMode
+- field_type: UInt8
+  field_name: MinConfidence
+- field_type: UInt32
+  field_name: SuspendCount
+- field_type: UInt64
+  field_name: LastUserAwayEndSystemTime

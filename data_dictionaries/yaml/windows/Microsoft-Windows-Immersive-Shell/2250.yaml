@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2250'
+version: '0'
+event(fields): Share_ShowFetchProgressStart()
+opcode: Start
+keywords: ''
+task: Share_ShowFetchProgress
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

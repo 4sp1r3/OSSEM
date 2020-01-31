@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '55'
+version: '0'
+event(fields): ThreadPoolWorkerThreadAdjustment(Double AverageThroughput, UInt32 NewWorkerThreadCount,
+  UInt32 Reason, UInt16 ClrInstanceID)
+opcode: Adjustment
+keywords: ThreadingKeyword
+task: ThreadPoolWorkerThreadAdjustment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Double
+  field_name: AverageThroughput
+- field_type: UInt32
+  field_name: NewWorkerThreadCount
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt16
+  field_name: ClrInstanceID

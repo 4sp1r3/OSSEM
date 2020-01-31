@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '20014'
+version: '1'
+event(fields): VirtualProcessLaunchFailureActivityStart_V1()
+opcode: Start
+keywords: ''
+task: VirtualProcessLaunchFailureActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

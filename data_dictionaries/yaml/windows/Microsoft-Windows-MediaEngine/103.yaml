@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '103'
+version: '0'
+event(fields): MediaFoundationTransferFrameRemoteStop(UInt32 id, HexInt32 hr)
+opcode: Stop
+keywords: ''
+task: MediaFoundationTransferFrameRemote
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id
+- field_type: HexInt32
+  field_name: hr

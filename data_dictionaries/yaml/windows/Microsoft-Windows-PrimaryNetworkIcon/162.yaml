@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PrimaryNetworkIcon
+event_id: '162'
+version: '0'
+event(fields): PrimaryNetworkIcon_Task_VANUI_Selected()
+opcode: ''
+keywords: ''
+task: PrimaryNetworkIcon_Task_VANUI_Selected
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

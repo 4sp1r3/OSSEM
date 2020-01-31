@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '433'
+version: '1'
+event(fields): AssociateDxgSchedulerObject_V1(Pointer pDxgObject, Pointer pSchObject,
+  Pointer hKmdHandle, Pointer hOsHandle)
+opcode: ''
+keywords: Resource LongHaul
+task: AssociateDxgSchedulerObject
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgObject
+- field_type: Pointer
+  field_name: pSchObject
+- field_type: Pointer
+  field_name: hKmdHandle
+- field_type: Pointer
+  field_name: hOsHandle

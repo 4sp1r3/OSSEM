@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-User Profiles Service
+event_id: '1552'
+version: '0'
+event(fields): task_01552(UnicodeString InterferingImageName, UInt32 InterferingPID,
+  UInt32 ProfsvcPID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InterferingImageName
+- field_type: UInt32
+  field_name: InterferingPID
+- field_type: UInt32
+  field_name: ProfsvcPID

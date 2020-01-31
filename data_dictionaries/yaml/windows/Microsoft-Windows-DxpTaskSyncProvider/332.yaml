@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxpTaskSyncProvider
+event_id: '332'
+version: '0'
+event(fields): DxpTaskSync_EnumContentTypesStart(GUID ContainerID)
+opcode: Start
+keywords: ''
+task: DxpTaskSync_EnumContentTypes
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ContainerID

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '120'
+version: '0'
+event(fields): Startup_RecoverIfNecessary()
+opcode: ''
+keywords: Service
+task: Startup_RecoverIfNecessary
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

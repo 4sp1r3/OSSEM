@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-Direct3D10
+event_id: '4'
+version: '0'
+event(fields): DeviceStop(Pointer pID3D10Device, Pointer pIDXGIDevice, Pointer pIDXGIAdapter,
+  UInt32 CreationFlags, UInt32 hKMAdapter, Pointer hUMAdapter, UInt64 UMAdapterVersion,
+  UInt32 hKMDevice, Pointer hUMDevice, UInt64 UMDeviceVersion, UInt32 UMDeviceFlags)
+opcode: Stop
+keywords: Devices
+task: Device
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D10Device
+- field_type: Pointer
+  field_name: pIDXGIDevice
+- field_type: Pointer
+  field_name: pIDXGIAdapter
+- field_type: UInt32
+  field_name: CreationFlags
+- field_type: UInt32
+  field_name: hKMAdapter
+- field_type: Pointer
+  field_name: hUMAdapter
+- field_type: UInt64
+  field_name: UMAdapterVersion
+- field_type: UInt32
+  field_name: hKMDevice
+- field_type: Pointer
+  field_name: hUMDevice
+- field_type: UInt64
+  field_name: UMDeviceVersion
+- field_type: UInt32
+  field_name: UMDeviceFlags

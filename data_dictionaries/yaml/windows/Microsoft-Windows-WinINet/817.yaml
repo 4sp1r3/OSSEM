@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinINet
+event_id: '817'
+version: '0'
+event(fields): WININET_BLOCKING_AUTOPROXY_DETERMINATIONStop()
+opcode: Stop
+keywords: WININET_KEYWORD_AUTOPROXY
+task: WININET_BLOCKING_AUTOPROXY_DETERMINATION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

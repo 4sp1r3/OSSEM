@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1461'
+version: '0'
+event(fields): SessionManager1461(UnicodeString pwsz)
+opcode: ''
+keywords: SessionManager
+task: SessionManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '32'
+version: '0'
+event(fields): URLReputationCheck32(UnicodeString Info, UnicodeString URL)
+opcode: ''
+keywords: functionality
+task: URLReputationCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Info
+- field_type: UnicodeString
+  field_name: URL

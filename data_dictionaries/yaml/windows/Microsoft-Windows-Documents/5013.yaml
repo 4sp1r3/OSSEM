@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '5013'
+version: '0'
+event(fields): DocPerf_Task_Opc_Signature_ValidateStop()
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_Opc_Signature_Validate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '8'
+version: '0'
+event(fields): DismCloseSessionStop(UInt32 SessionId)
+opcode: Stop
+keywords: DismApiEvent
+task: DismCloseSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId

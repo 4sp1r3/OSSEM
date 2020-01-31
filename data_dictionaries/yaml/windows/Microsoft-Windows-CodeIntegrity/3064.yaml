@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3064'
+version: '0'
+event(fields): CreateSection(UInt16 FileNameLength, UnicodeString FileNameBuffer,
+  UInt16 ProcessNameLength, UnicodeString ProcessNameBuffer, UInt8 RequirementType,
+  HexInt32 Status)
+opcode: ''
+keywords: ''
+task: CreateSection
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer
+- field_type: UInt16
+  field_name: ProcessNameLength
+- field_type: UnicodeString
+  field_name: ProcessNameBuffer
+- field_type: UInt8
+  field_name: RequirementType
+- field_type: HexInt32
+  field_name: Status

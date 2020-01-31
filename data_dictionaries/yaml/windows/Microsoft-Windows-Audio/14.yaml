@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Audio
+event_id: '14'
+version: '0'
+event(fields): AudioPerf_Task_EndpointVolumeStart()
+opcode: Start
+keywords: ''
+task: AudioPerf_Task_EndpointVolume
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

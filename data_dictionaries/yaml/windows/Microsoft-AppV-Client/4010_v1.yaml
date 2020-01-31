@@ -1,0 +1,20 @@
+provider: Microsoft-AppV-Client
+event_id: '4010'
+version: '1'
+event(fields): ExecuteEmbeddedScripts4010_V1(UInt32 ScriptScope, UnicodeString EventType,
+  UnicodeString CommandLine, UInt32 Error)
+opcode: ''
+keywords: EmbeddedScripting
+task: ExecuteEmbeddedScripts
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScriptScope
+- field_type: UnicodeString
+  field_name: EventType
+- field_type: UnicodeString
+  field_name: CommandLine
+- field_type: UInt32
+  field_name: Error

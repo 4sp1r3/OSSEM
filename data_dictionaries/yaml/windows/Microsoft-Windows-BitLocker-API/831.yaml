@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '831'
+version: '0'
+event(fields): task_0831(Int32 JsonErrorCode, UnicodeString LocalizedJsonError)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: JsonErrorCode
+- field_type: UnicodeString
+  field_name: LocalizedJsonError

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61211'
+version: '0'
+event(fields): Shell32_SyncIntegration_Manager_Notifications61211(GUID CLSID, UnicodeString
+  ItemPath, UInt32 ScopeAffetcedItems, UInt32 ItemSyncState, UnicodeString ItemSyncStatus,
+  UnicodeString ItemSyncStatusDescription, UnicodeString ItemSyncStatusAction)
+opcode: ''
+keywords: Shell
+task: Shell32_SyncIntegration_Manager_Notifications
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CLSID
+- field_type: UnicodeString
+  field_name: ItemPath
+- field_type: UInt32
+  field_name: ScopeAffetcedItems
+- field_type: UInt32
+  field_name: ItemSyncState
+- field_type: UnicodeString
+  field_name: ItemSyncStatus
+- field_type: UnicodeString
+  field_name: ItemSyncStatusDescription
+- field_type: UnicodeString
+  field_name: ItemSyncStatusAction

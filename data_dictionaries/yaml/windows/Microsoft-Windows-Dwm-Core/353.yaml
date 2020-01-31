@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '353'
+version: '0'
+event(fields): SHADERS_D3DSHADER_LINK_INFO(AnsiString Info)
+opcode: ''
+keywords: DwmCore
+task: SHADERS_D3DSHADER_LINK_INFO
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Info

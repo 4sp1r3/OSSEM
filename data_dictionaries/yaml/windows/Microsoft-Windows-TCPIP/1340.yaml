@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1340'
+version: '0'
+event(fields): UdpCreateNotificationChannelRequestProcessing(Pointer UdpEndpoint,
+  UInt32 IpAddrLength, UInt32 LocalIPv4Address, Binary LocalIPv6Address, UInt32 IPProtocol,
+  UInt16 SrcPort)
+opcode: ''
+keywords: ut:Global
+task: UdpCreateNotificationChannelRequestProcessing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: UdpEndpoint
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: UInt32
+  field_name: LocalIPv4Address
+- field_type: Binary
+  field_name: LocalIPv6Address
+- field_type: UInt32
+  field_name: IPProtocol
+- field_type: UInt16
+  field_name: SrcPort

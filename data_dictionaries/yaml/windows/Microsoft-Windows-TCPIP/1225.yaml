@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1225'
+version: '0'
+event(fields): TcpDataTransferEcnAlpha(Pointer Tcb, UInt32 SndRound, UInt32 EcnTotalByteCount,
+  UInt32 EcnTotalMarkedCount, UInt32 ThAck, UInt32 EcnAlpha)
+opcode: ''
+keywords: ut:ReceivePath
+task: TcpDataTransferEcnAlpha
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: SndRound
+- field_type: UInt32
+  field_name: EcnTotalByteCount
+- field_type: UInt32
+  field_name: EcnTotalMarkedCount
+- field_type: UInt32
+  field_name: ThAck
+- field_type: UInt32
+  field_name: EcnAlpha

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27033'
+version: '1'
+event(fields): HandleRemovePackageGroupActivityStop_V1()
+opcode: Stop
+keywords: ''
+task: HandleRemovePackageGroupActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

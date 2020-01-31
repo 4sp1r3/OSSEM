@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '82'
+version: '0'
+event(fields): Manipulation_PointerAssociation(UInt32 PointerId, UInt32 ContactId)
+opcode: ''
+keywords: ''
+task: Manipulation_PointerAssociation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PointerId
+- field_type: UInt32
+  field_name: ContactId

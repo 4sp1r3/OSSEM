@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '65'
+version: '0'
+event(fields): Mshtml_CDoc_Running2InplaceInvalDoc(Pointer CDoc)
+opcode: ''
+keywords: subsystem
+task: Mshtml_CDoc_Running2InplaceInvalDoc
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CDoc

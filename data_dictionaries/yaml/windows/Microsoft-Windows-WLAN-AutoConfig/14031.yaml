@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14031'
+version: '0'
+event(fields): task_014031(GUID InterfaceGuid, UInt32 Type)
+opcode: ''
+keywords: IntfMgr
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: Type

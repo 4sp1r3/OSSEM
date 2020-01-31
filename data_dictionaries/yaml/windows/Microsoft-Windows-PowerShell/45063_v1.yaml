@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45063'
+version: '1'
+event(fields): WorkflowHostingTobeusedwhenoperationisjustexecutingamethod_V1(UnicodeString
+  endpointName, UnicodeString user, UnicodeString hostingMode, UnicodeString protocol,
+  UnicodeString configuration)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: PSWorkflow
+task: WorkflowHosting
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: endpointName
+- field_type: UnicodeString
+  field_name: user
+- field_type: UnicodeString
+  field_name: hostingMode
+- field_type: UnicodeString
+  field_name: protocol
+- field_type: UnicodeString
+  field_name: configuration

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '221'
+version: '0'
+event(fields): MFCaptureEnginePhotoEncodeStart(Pointer PhotoSink, Pointer Sample)
+opcode: Start
+keywords: ''
+task: MFCaptureEnginePhotoEncode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PhotoSink
+- field_type: Pointer
+  field_name: Sample

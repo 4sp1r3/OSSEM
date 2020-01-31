@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-DUI
+event_id: '89'
+version: '0'
+event(fields): DirectUI_DUserTransition89(UnicodeString atomname, UInt32 hGadChange,
+  Float flEndScalar, Float flEndX, Float flEndY, Float flEndZ, Float flEndOriginX,
+  Float flEndOriginY, Float flEndOriginZ, Float flCurveX1, Float flCurveY1, Float
+  flCurveX2, Float flCurveY2, Boolean fTransitionCancelled)
+opcode: ''
+keywords: Default
+task: DirectUI_DUserTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: atomname
+- field_type: UInt32
+  field_name: hGadChange
+- field_type: Float
+  field_name: flEndScalar
+- field_type: Float
+  field_name: flEndX
+- field_type: Float
+  field_name: flEndY
+- field_type: Float
+  field_name: flEndZ
+- field_type: Float
+  field_name: flEndOriginX
+- field_type: Float
+  field_name: flEndOriginY
+- field_type: Float
+  field_name: flEndOriginZ
+- field_type: Float
+  field_name: flCurveX1
+- field_type: Float
+  field_name: flCurveY1
+- field_type: Float
+  field_name: flCurveX2
+- field_type: Float
+  field_name: flCurveY2
+- field_type: Boolean
+  field_name: fTransitionCancelled

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6211'
+version: '0'
+event(fields): Thumbnails_FolderThumbnailRenderStart()
+opcode: Start
+keywords: Shell
+task: Thumbnails_FolderThumbnailRender
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

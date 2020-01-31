@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '701'
+version: '0'
+event(fields): Smb2ShareModify(UInt16 ShareNameLength, UnicodeString ShareName, UInt16
+  ServerNameLength, UnicodeString ServerName, UInt16 PathNameLength, UnicodeString
+  PathName, UInt32 CSCState, UInt32 ClusterShareType, UInt32 ShareProperties, UInt32
+  CaTimeOut, UInt32 ShareState)
+opcode: ''
+keywords: Share
+task: Smb2ShareModify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt16
+  field_name: PathNameLength
+- field_type: UnicodeString
+  field_name: PathName
+- field_type: UInt32
+  field_name: CSCState
+- field_type: UInt32
+  field_name: ClusterShareType
+- field_type: UInt32
+  field_name: ShareProperties
+- field_type: UInt32
+  field_name: CaTimeOut
+- field_type: UInt32
+  field_name: ShareState

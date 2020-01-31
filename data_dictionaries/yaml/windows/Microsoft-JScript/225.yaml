@@ -1,0 +1,15 @@
+provider: Microsoft-JScript
+event_id: '225'
+version: '0'
+event(fields): Memprotect_GC_RescanMarkWaitStop(Pointer RecyclerID, Boolean HasTimedout)
+opcode: Stop
+keywords: MemProtectGarbageCollection
+task: Memprotect_GC_RescanMarkWait
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID
+- field_type: Boolean
+  field_name: HasTimedout

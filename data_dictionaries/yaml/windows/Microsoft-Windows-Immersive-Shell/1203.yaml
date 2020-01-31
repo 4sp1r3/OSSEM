@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1203'
+version: '0'
+event(fields): ImmersiveShellBadgeParseXML(UnicodeString AppID, UInt32 NotificationID,
+  UInt32 HRESULT, UnicodeString Node, Int32 Line, Int32 Position)
+opcode: ''
+keywords: NotificationE2E
+task: ImmersiveShellBadgeParseXML
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UInt32
+  field_name: NotificationID
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UnicodeString
+  field_name: Node
+- field_type: Int32
+  field_name: Line
+- field_type: Int32
+  field_name: Position

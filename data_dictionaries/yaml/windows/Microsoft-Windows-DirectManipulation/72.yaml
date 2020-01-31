@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '72'
+version: '0'
+event(fields): Manipulation_Inertia(UInt64 inertiaStartTime, UInt64 time, UInt64 processTime,
+  UInt64 compositionTime, Double timerElapsedTime, Double timerOffset, Double animationTime)
+opcode: ''
+keywords: ''
+task: Manipulation_Inertia
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: inertiaStartTime
+- field_type: UInt64
+  field_name: time
+- field_type: UInt64
+  field_name: processTime
+- field_type: UInt64
+  field_name: compositionTime
+- field_type: Double
+  field_name: timerElapsedTime
+- field_type: Double
+  field_name: timerOffset
+- field_type: Double
+  field_name: animationTime

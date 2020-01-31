@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '254'
+version: '0'
+event(fields): DXPresentStart(Pointer Object, UInt32 Index, UInt32 Inverval, UInt32
+  Flags)
+opcode: Start
+keywords: ''
+task: DXPresent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: Inverval
+- field_type: UInt32
+  field_name: Flags

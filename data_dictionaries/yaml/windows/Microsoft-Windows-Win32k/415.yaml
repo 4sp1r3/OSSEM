@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '415'
+version: '0'
+event(fields): DwmManipulationFrameRouted(UInt32 FrameId, UInt32 PointerCount)
+opcode: ''
+keywords: Updates
+task: DwmManipulationFrameRouted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FrameId
+- field_type: UInt32
+  field_name: PointerCount

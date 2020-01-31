@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wallet
+event_id: '313'
+version: '0'
+event(fields): Core_ProcessPackageStart()
+opcode: Start
+keywords: Performance
+task: Core_ProcessPackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

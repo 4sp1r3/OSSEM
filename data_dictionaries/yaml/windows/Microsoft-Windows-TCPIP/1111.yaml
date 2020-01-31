@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1111'
+version: '0'
+event(fields): TcpLso(Pointer Tcb, UInt32 BytesInSegment, UInt32 BytesRemaining)
+opcode: ''
+keywords: ut:SendPath
+task: TcpLso
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: BytesInSegment
+- field_type: UInt32
+  field_name: BytesRemaining

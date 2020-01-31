@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '7005'
+version: '0'
+event(fields): NavigationClientRegistrationComplete(UInt32 unParam)
+opcode: ''
+keywords: NavigationClient
+task: NavigationClientRegistrationComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

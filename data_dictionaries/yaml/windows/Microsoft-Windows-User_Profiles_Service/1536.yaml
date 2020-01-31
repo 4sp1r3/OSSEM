@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-User Profiles Service
+event_id: '1536'
+version: '0'
+event(fields): task_01536(UnicodeString Folder)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Folder

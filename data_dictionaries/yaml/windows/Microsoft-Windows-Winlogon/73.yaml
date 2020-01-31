@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '73'
+version: '0'
+event(fields): DwmpNotifyUserLogoffStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: DwmpNotifyUserLogoff
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

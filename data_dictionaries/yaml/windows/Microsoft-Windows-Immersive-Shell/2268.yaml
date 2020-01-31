@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2268'
+version: '0'
+event(fields): SharingManager_RetrieveSourceAppNameStart()
+opcode: Start
+keywords: ''
+task: SharingManager_RetrieveSourceAppName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

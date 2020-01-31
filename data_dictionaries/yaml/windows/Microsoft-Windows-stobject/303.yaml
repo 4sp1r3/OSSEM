@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-stobject
+event_id: '303'
+version: '0'
+event(fields): SSO_OnHandleSignaledStart(GUID guid)
+opcode: Start
+keywords: SSO
+task: SSO_OnHandleSignaled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: guid

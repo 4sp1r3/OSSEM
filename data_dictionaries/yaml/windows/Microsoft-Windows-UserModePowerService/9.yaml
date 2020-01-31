@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '9'
+version: '0'
+event(fields): RundownBatteryStatus(UInt32 State, UInt32 Capacity, UInt32 Voltage,
+  Int32 Rate, UInt32 EstimatedRuntime, UnicodeString UniqueId)
+opcode: ''
+keywords: ''
+task: RundownBatteryStatus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Capacity
+- field_type: UInt32
+  field_name: Voltage
+- field_type: Int32
+  field_name: Rate
+- field_type: UInt32
+  field_name: EstimatedRuntime
+- field_type: UnicodeString
+  field_name: UniqueId

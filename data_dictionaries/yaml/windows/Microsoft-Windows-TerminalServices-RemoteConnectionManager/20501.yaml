@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-RemoteConnectionManager
+event_id: '20501'
+version: '0'
+event(fields): task_020501()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

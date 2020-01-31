@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AIT
+event_id: '6'
+version: '0'
+event(fields): AitProcessEnd()
+opcode: ''
+keywords: ''
+task: AitProcessEnd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

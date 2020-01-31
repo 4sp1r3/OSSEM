@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-msmpeg2venc
+event_id: '8'
+version: '0'
+event(fields): TaskdonebythevideoencoderStop8(Int32 hr)
+opcode: Stop
+keywords: keyword_800000000000
+task: Taskdonebythevideoencoder
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: hr

@@ -1,0 +1,17 @@
+provider: Windows Kernel Trace
+category: '{9aec974b-5b8e-4118-9b92-3186d8002ce5}'
+event_id: '33'
+version: '2'
+event(fields): UmsDirectedSwitchEnd(UInt32 ProcessId, UInt32 ScheduledThreadId, UInt32
+  PrimaryThreadId, UInt32 SwitchFlags)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: ScheduledThreadId
+- field_type: UInt32
+  field_name: PrimaryThreadId
+- field_type: UInt32
+  field_name: SwitchFlags

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '413'
+version: '0'
+event(fields): UserSessionStatus(UInt32 SessionId, UInt32 State)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: UserSessionStatus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: State

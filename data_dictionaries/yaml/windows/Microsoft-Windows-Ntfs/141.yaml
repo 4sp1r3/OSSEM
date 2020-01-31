@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '141'
+version: '0'
+event(fields): task_0141(GUID VolumeGuid, UInt32 VolumeNameLength, UnicodeString VolumeName,
+  UInt32 ProcessNameLength, UnicodeString ProcessName, Boolean IsBootVolume, UInt64
+  FreeSpaceInBytes, UInt64 TotalReservedSpaceInBytes, UInt64 TotalAbortReservationSpaceInBytes,
+  UInt64 RequestedSpaceInBytes, UInt64 PageFileSize)
+opcode: ''
+keywords: Statistics
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VolumeGuid
+- field_type: UInt32
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UInt32
+  field_name: ProcessNameLength
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: Boolean
+  field_name: IsBootVolume
+- field_type: UInt64
+  field_name: FreeSpaceInBytes
+- field_type: UInt64
+  field_name: TotalReservedSpaceInBytes
+- field_type: UInt64
+  field_name: TotalAbortReservationSpaceInBytes
+- field_type: UInt64
+  field_name: RequestedSpaceInBytes
+- field_type: UInt64
+  field_name: PageFileSize

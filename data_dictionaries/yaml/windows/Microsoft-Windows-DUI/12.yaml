@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '12'
+version: '0'
+event(fields): DirectUI_FlusterMovieStop()
+opcode: Stop
+keywords: Default
+task: DirectUI_FlusterMovie
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61214'
+version: '0'
+event(fields): Shell32_SyncIntegration_Manager_Notifications61214(UnicodeString psz)
+opcode: ''
+keywords: Shell
+task: Shell32_SyncIntegration_Manager_Notifications
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

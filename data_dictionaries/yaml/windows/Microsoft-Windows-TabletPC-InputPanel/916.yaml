@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '916'
+version: '0'
+event(fields): SoftKeyboard_CandidateManager_GetReconversionCandidateStart()
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_CandidateManager_GetReconversionCandidate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4261'
+version: '0'
+event(fields): DhcpStabilized(GUID InterfaceGuid, UInt32 NlaState)
+opcode: Stabilized
+keywords: Trigger LwtDiagnostic
+task: Dhcp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: NlaState

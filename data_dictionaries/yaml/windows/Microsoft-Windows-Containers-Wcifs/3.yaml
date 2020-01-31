@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Containers-Wcifs
+event_id: '3'
+version: '0'
+event(fields): task_03(HexInt32 NTStatus, UInt16 VolumeNameLength, UnicodeString VolumeName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: NTStatus
+- field_type: UInt16
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName

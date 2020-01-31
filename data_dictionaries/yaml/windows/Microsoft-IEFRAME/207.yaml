@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '207'
+version: '0'
+event(fields): DLM_Security_AntiVirusStart()
+opcode: Start
+keywords: primarynav
+task: DLM_Security_AntiVirus
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

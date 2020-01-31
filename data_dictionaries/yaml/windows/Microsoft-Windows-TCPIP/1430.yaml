@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1430'
+version: '0'
+event(fields): TcpCubicDataTransferDupAck(Pointer Tcb, UInt32 Cwnd, UInt32 SSThresh,
+  UInt32 DupAckCount, UInt32 SeqNo, UInt32 CwrMax)
+opcode: ''
+keywords: ut:ReceivePath
+task: TcpCubicDataTransferDupAck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Cwnd
+- field_type: UInt32
+  field_name: SSThresh
+- field_type: UInt32
+  field_name: DupAckCount
+- field_type: UInt32
+  field_name: SeqNo
+- field_type: UInt32
+  field_name: CwrMax

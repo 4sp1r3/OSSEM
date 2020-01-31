@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7097'
+version: '0'
+event(fields): Perf_ScanForChangesStart(UnicodeString CollectionId)
+opcode: Start
+keywords: ''
+task: Perf_ScanForChanges
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId

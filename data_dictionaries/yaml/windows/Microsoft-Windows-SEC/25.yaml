@@ -1,0 +1,79 @@
+provider: Microsoft-Windows-SEC
+event_id: '25'
+version: '0'
+event(fields): task_025(UInt64 SequenceNumber, HexInt32 AffectedProcessId, Int64 AffectedProcessTime,
+  Pointer CurrentTokenPointer, Binary CurrentTokenSource, UInt64 CurrentTokenPrivPresent,
+  UInt64 CurrentTokenPrivEnabled, UInt64 CurrentTokenPrivEnabledByDefault, UInt32
+  CurrentTokenIntegrityLevel, SID CurrentTokenUserSid, Pointer PreviousTokenPointer,
+  Binary PreviousTokenSource, UInt64 PreviousTokenPrivPresent, UInt64 PreviousTokenPrivEnabled,
+  UInt64 PreviousTokenPrivEnabledByDefault, UInt32 PreviousTokenIntegrityLevel, SID
+  PreviousTokenUserSid, Pointer OriginalTokenPointer, Binary OriginalTokenSource,
+  UInt64 OriginalTokenPrivPresent, UInt64 OriginalTokenPrivEnabled, UInt64 OriginalTokenPrivEnabledByDefault,
+  UInt32 OriginalTokenIntegrityLevel, SID OriginalTokenUserSid, Pointer SystemTokenPointer,
+  Boolean InlineCheck, UInt64 AffectedProcessStartKey, Boolean PrimaryTokenFrozen,
+  UInt32 ParentTokenIntegrityLevel)
+opcode: ''
+keywords: Event25
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: HexInt32
+  field_name: AffectedProcessId
+- field_type: Int64
+  field_name: AffectedProcessTime
+- field_type: Pointer
+  field_name: CurrentTokenPointer
+- field_type: Binary
+  field_name: CurrentTokenSource
+- field_type: UInt64
+  field_name: CurrentTokenPrivPresent
+- field_type: UInt64
+  field_name: CurrentTokenPrivEnabled
+- field_type: UInt64
+  field_name: CurrentTokenPrivEnabledByDefault
+- field_type: UInt32
+  field_name: CurrentTokenIntegrityLevel
+- field_type: SID
+  field_name: CurrentTokenUserSid
+- field_type: Pointer
+  field_name: PreviousTokenPointer
+- field_type: Binary
+  field_name: PreviousTokenSource
+- field_type: UInt64
+  field_name: PreviousTokenPrivPresent
+- field_type: UInt64
+  field_name: PreviousTokenPrivEnabled
+- field_type: UInt64
+  field_name: PreviousTokenPrivEnabledByDefault
+- field_type: UInt32
+  field_name: PreviousTokenIntegrityLevel
+- field_type: SID
+  field_name: PreviousTokenUserSid
+- field_type: Pointer
+  field_name: OriginalTokenPointer
+- field_type: Binary
+  field_name: OriginalTokenSource
+- field_type: UInt64
+  field_name: OriginalTokenPrivPresent
+- field_type: UInt64
+  field_name: OriginalTokenPrivEnabled
+- field_type: UInt64
+  field_name: OriginalTokenPrivEnabledByDefault
+- field_type: UInt32
+  field_name: OriginalTokenIntegrityLevel
+- field_type: SID
+  field_name: OriginalTokenUserSid
+- field_type: Pointer
+  field_name: SystemTokenPointer
+- field_type: Boolean
+  field_name: InlineCheck
+- field_type: UInt64
+  field_name: AffectedProcessStartKey
+- field_type: Boolean
+  field_name: PrimaryTokenFrozen
+- field_type: UInt32
+  field_name: ParentTokenIntegrityLevel

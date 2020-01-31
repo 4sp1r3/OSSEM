@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Audio
+event_id: '143'
+version: '0'
+event(fields): AEDrop(Pointer objInstance, UInt64 SampleTime, UInt64 u64ByteCount)
+opcode: ''
+keywords: ''
+task: AEDrop
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objInstance
+- field_type: UInt64
+  field_name: SampleTime
+- field_type: UInt64
+  field_name: u64ByteCount

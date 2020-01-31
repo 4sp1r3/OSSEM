@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '22'
+version: '0'
+event(fields): QueryStatsResidualEnergy(UInt64 BatteryDrain, UInt64 EstimatedEnergy,
+  Int64 ResidualEnergy)
+opcode: ResidualEnergy
+keywords: ''
+task: QueryStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: BatteryDrain
+- field_type: UInt64
+  field_name: EstimatedEnergy
+- field_type: Int64
+  field_name: ResidualEnergy

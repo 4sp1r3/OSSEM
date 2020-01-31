@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '50002'
+version: '0'
+event(fields): ShellLib_AdjustImageStop()
+opcode: Stop
+keywords: ''
+task: ShellLib_AdjustImage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

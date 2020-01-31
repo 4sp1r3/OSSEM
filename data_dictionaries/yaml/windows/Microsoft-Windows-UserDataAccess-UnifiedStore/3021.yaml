@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '3021'
+version: '0'
+event(fields): task_03021(UInt32 Prop_UInt32)
+opcode: ''
+keywords: Unified_Store
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_UInt32

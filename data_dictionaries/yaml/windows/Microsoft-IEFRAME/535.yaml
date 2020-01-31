@@ -1,0 +1,23 @@
+provider: Microsoft-IEFRAME
+event_id: '535'
+version: '0'
+event(fields): DominantImageClassifier(UInt32 Count, UnicodeString DominantImageUrl1,
+  UnicodeString DominantImageUrl2, UnicodeString DominantImageUrl3, UnicodeString
+  DominantImageUrl4)
+opcode: ''
+keywords: DIC immersive
+task: DominantImageClassifier
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count
+- field_type: UnicodeString
+  field_name: DominantImageUrl1
+- field_type: UnicodeString
+  field_name: DominantImageUrl2
+- field_type: UnicodeString
+  field_name: DominantImageUrl3
+- field_type: UnicodeString
+  field_name: DominantImageUrl4

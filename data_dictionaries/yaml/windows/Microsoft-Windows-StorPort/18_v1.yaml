@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-StorPort
+event_id: '18'
+version: '1'
+event(fields): None18_V1(UnicodeString AdapterName, UInt32 PortNumber, UInt32 CurrentOutstanding,
+  UInt32 HighWaterMark, UInt32 MaxCount, UInt32 MemAllocFailures, UInt32 ConsecutiveFailures,
+  UInt32 SuspendCount)
+opcode: ''
+keywords: Config
+task: None
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AdapterName
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt32
+  field_name: CurrentOutstanding
+- field_type: UInt32
+  field_name: HighWaterMark
+- field_type: UInt32
+  field_name: MaxCount
+- field_type: UInt32
+  field_name: MemAllocFailures
+- field_type: UInt32
+  field_name: ConsecutiveFailures
+- field_type: UInt32
+  field_name: SuspendCount

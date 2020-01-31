@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EaseOfAccess
+event_id: '2'
+version: '0'
+event(fields): Magnify_LaunchAppStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: Magnify_LaunchApp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1353'
+version: '0'
+event(fields): TcpipGeneric(UnicodeString AllocationObjectString, Pointer Param1,
+  Pointer Param2, UInt32 Param3, UInt32 Param4)
+opcode: ''
+keywords: ut:TcpipDiagnosis
+task: TcpipGeneric
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AllocationObjectString
+- field_type: Pointer
+  field_name: Param1
+- field_type: Pointer
+  field_name: Param2
+- field_type: UInt32
+  field_name: Param3
+- field_type: UInt32
+  field_name: Param4

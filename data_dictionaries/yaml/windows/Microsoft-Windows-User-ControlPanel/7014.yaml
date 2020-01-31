@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-User-ControlPanel
+event_id: '7014'
+version: '0'
+event(fields): UserAccount_Taskflow_RoamingPage7014()
+opcode: ''
+keywords: ''
+task: UserAccount_Taskflow_RoamingPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

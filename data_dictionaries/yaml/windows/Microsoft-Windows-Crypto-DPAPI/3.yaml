@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Crypto-DPAPI
+event_id: '3'
+version: '0'
+event(fields): MasterKeyOperation3(GUID MasterKeyGUID, Boolean Success, HexInt32 LastError,
+  HexInt32 MasterKeyDisposition)
+opcode: ''
+keywords: ETW_TASK_MASTERKEY_OPERATION
+task: MasterKeyOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: MasterKeyGUID
+- field_type: Boolean
+  field_name: Success
+- field_type: HexInt32
+  field_name: LastError
+- field_type: HexInt32
+  field_name: MasterKeyDisposition

@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '398'
+version: '0'
+event(fields): Bundlemanifest398(HexInt32 errorCode, UnicodeString currentFileName,
+  UnicodeString currentPackageFullName, UInt32 currentManifestLineNumber, UInt32 currentManifestColumnNumber,
+  UnicodeString referenceFileName, UnicodeString referencePackageFullName, UInt32
+  referenceManifestLineNumber, UInt32 referenceManifestColumnNumber, UnicodeString
+  xPathToMismatchLocation)
+opcode: ''
+keywords: ''
+task: Bundlemanifest
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: currentFileName
+- field_type: UnicodeString
+  field_name: currentPackageFullName
+- field_type: UInt32
+  field_name: currentManifestLineNumber
+- field_type: UInt32
+  field_name: currentManifestColumnNumber
+- field_type: UnicodeString
+  field_name: referenceFileName
+- field_type: UnicodeString
+  field_name: referencePackageFullName
+- field_type: UInt32
+  field_name: referenceManifestLineNumber
+- field_type: UInt32
+  field_name: referenceManifestColumnNumber
+- field_type: UnicodeString
+  field_name: xPathToMismatchLocation

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '12105'
+version: '0'
+event(fields): Shlwapi_SHGetSignatureInfo_CatalogStart()
+opcode: Start
+keywords: Shell
+task: Shlwapi_SHGetSignatureInfo_Catalog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

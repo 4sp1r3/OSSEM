@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '75'
+version: '0'
+event(fields): Unreset(Pointer hGlobalAllocationHandle, UInt32 cReads, UInt32 cPages,
+  Boolean Succeeded)
+opcode: ''
+keywords: Base
+task: Unreset
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hGlobalAllocationHandle
+- field_type: UInt32
+  field_name: cReads
+- field_type: UInt32
+  field_name: cPages
+- field_type: Boolean
+  field_name: Succeeded

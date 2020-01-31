@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1062'
+version: '0'
+event(fields): DataLayer_GetDataSourcePropertiesStart(GUID HandlerId)
+opcode: Start
+keywords: Shell ExplorerPerf
+task: DataLayer_GetDataSourceProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: HandlerId

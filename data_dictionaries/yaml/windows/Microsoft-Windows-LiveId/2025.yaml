@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-LiveId
+event_id: '2025'
+version: '0'
+event(fields): WLIDServiceOperation2025(UnicodeString Operation, UnicodeString Reason,
+  HexInt32 Result)
+opcode: ''
+keywords: Error Operational keyword_400000000000
+task: WLIDServiceOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Operation
+- field_type: UnicodeString
+  field_name: Reason
+- field_type: HexInt32
+  field_name: Result

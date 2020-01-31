@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1478'
+version: '0'
+event(fields): TcpipFramingPacketDrops(UInt32 PathDirection, UInt32 AddressFamily,
+  UInt32 Interface, UInt32 PacketCount, UInt32 Reason, UInt32 Data)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:SendPath ut:ReceivePath ut:Global keyword_10000000000
+task: TcpipFramingPacketDrops
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PathDirection
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: PacketCount
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Data

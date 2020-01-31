@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Display
+event_id: '121'
+version: '0'
+event(fields): DisplayCpl_SettingsPage_EnumAllDisplaysStop()
+opcode: Stop
+keywords: DisplayCPL
+task: DisplayCpl_SettingsPage_EnumAllDisplays
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

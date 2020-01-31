@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '223'
+version: '1'
+event(fields): ClassCompletionofrequest.223_V1(GUID DeviceGUID, UInt32 DeviceNumber,
+  UInt64 RequestDurationin100ns, Pointer OriginalIrp, UInt8 SrbStatus, HexInt32 SrbFlags,
+  UInt64 MaxAllowedLbaCount, UInt64 MaxAllowedBlockDescriptorCount, UInt32 LbaSizeinBytes,
+  UInt32 Srb_BlockDescriptorCount, Float Srb_BlockDescriptors)
+opcode: Completionofrequest.
+keywords: keyword_400000000000
+task: Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGUID
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: UInt64
+  field_name: RequestDurationin100ns
+- field_type: Pointer
+  field_name: OriginalIrp
+- field_type: UInt8
+  field_name: SrbStatus
+- field_type: HexInt32
+  field_name: SrbFlags
+- field_type: UInt64
+  field_name: MaxAllowedLbaCount
+- field_type: UInt64
+  field_name: MaxAllowedBlockDescriptorCount
+- field_type: UInt32
+  field_name: LbaSizeinBytes
+- field_type: UInt32
+  field_name: Srb_BlockDescriptorCount
+- field_type: Float
+  field_name: Srb_BlockDescriptors

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5954'
+version: '0'
+event(fields): AppActivation_Log_UACDisabled(UnicodeString AppId, UnicodeString ContractId)
+opcode: ''
+keywords: ''
+task: AppActivation_Log_UACDisabled
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId
+- field_type: UnicodeString
+  field_name: ContractId

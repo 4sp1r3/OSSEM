@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '176'
+version: '0'
+event(fields): Window_Restored()
+opcode: ''
+keywords: primarynav
+task: Window_Restored
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

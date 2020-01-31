@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4111'
+version: '0'
+event(fields): QUERYROWS_STORESStop()
+opcode: Stop
+keywords: Performance
+task: QUERYROWS_STORES
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

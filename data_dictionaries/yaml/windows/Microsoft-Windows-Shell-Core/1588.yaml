@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1588'
+version: '0'
+event(fields): ShellTask_ItemHandlerCache_MessagePumpThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_ItemHandlerCache_MessagePumpThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

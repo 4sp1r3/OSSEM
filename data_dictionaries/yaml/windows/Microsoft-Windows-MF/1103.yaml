@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MF
+event_id: '1103'
+version: '0'
+event(fields): MediaFoundationIMFInputTrustAuthority_Reset(UInt32 object, HexInt32
+  hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationIMFInputTrustAuthority_Reset
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: object
+- field_type: HexInt32
+  field_name: hr

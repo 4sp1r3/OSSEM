@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '41'
+version: '0'
+event(fields): ETWGUID_CLEAREVENTStop()
+opcode: Stop
+keywords: DwmCore
+task: ETWGUID_CLEAREVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

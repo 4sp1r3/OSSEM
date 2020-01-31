@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61442'
+version: '0'
+event(fields): FileAccessAPI_StreamedFile_DataRequestStart()
+opcode: Start
+keywords: Shell
+task: FileAccessAPI_StreamedFile_DataRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

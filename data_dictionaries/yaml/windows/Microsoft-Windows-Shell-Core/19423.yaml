@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19423'
+version: '0'
+event(fields): FileClassStore_SetFileClassHandlerStop()
+opcode: Stop
+keywords: FileClassStoreAndIconCache
+task: FileClassStore_SetFileClassHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

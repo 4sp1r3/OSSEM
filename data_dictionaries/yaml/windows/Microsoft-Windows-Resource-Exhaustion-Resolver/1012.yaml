@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Resource-Exhaustion-Resolver
+event_id: '1012'
+version: '0'
+event(fields): ResolutionEventsEventsloggedafterperformingtheresolutionactions1012(UInt8
+  TimesUIShown, Int32 UserAction)
+opcode: Eventsloggedafterperformingtheresolutionactions
+keywords: RDR_RES_KEYWORD_MEMORY_EXHAUSTION
+task: ResolutionEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: TimesUIShown
+- field_type: Int32
+  field_name: UserAction

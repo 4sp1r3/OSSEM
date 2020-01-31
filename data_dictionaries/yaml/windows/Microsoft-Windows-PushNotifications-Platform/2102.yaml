@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2102'
+version: '0'
+event(fields): task_02102(UInt32 RequestFlags, UInt32 TrackingId, UnicodeString NotificationType)
+opcode: ''
+keywords: wpnend wpndev_NotificationE2E
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestFlags
+- field_type: UInt32
+  field_name: TrackingId
+- field_type: UnicodeString
+  field_name: NotificationType

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RTWorkQueue-Extended
+event_id: '6'
+version: '0'
+event(fields): WorkQueue:PlatformRefStop(Pointer object)
+opcode: Stop
+keywords: ''
+task: WorkQueue:PlatformRef
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

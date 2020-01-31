@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1216'
+version: '0'
+event(fields): TcpMppNppEvaluation(UInt32 PhysicalPages, UInt32 NonPagedPoolPages,
+  UInt32 CurrentWatermark, UInt32 PeakWatermark, UInt32 HighWatermark, UInt32 LowWatermark)
+opcode: ''
+keywords: ut:Global
+task: TcpMppNppEvaluation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PhysicalPages
+- field_type: UInt32
+  field_name: NonPagedPoolPages
+- field_type: UInt32
+  field_name: CurrentWatermark
+- field_type: UInt32
+  field_name: PeakWatermark
+- field_type: UInt32
+  field_name: HighWatermark
+- field_type: UInt32
+  field_name: LowWatermark

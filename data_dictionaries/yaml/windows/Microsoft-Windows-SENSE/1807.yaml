@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SENSE
+event_id: '1807'
+version: '0'
+event(fields): task_01807(UInt64 onboardingBlobHash, Boolean isDefaultOnboardingBlob,
+  UInt32 onboardingState, Boolean isDefaultOnboardingState)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: onboardingBlobHash
+- field_type: Boolean
+  field_name: isDefaultOnboardingBlob
+- field_type: UInt32
+  field_name: onboardingState
+- field_type: Boolean
+  field_name: isDefaultOnboardingState

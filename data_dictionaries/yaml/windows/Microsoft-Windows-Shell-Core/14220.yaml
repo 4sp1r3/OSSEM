@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14220'
+version: '0'
+event(fields): TypeAhead_Enabled(UInt32 Value)
+opcode: ''
+keywords: Shell
+task: TypeAhead_Enabled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

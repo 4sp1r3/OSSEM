@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SetupUGC
+event_id: '3001'
+version: '0'
+event(fields): RunningProcessorStart(UnicodeString Processor)
+opcode: Start
+keywords: keyPerformance
+task: RunningProcessor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Processor

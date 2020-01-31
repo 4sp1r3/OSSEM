@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '1011'
+version: '1'
+event(fields): task_01011_V1(GUID SocketID, UInt32 Count, UInt32 IntervalInMicroSeconds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SocketID
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt32
+  field_name: IntervalInMicroSeconds

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '130'
+version: '0'
+event(fields): task_0130(UnicodeString ErrorMessage, UInt32 RetryMinutes, UnicodeString
+  DomainPeer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UInt32
+  field_name: RetryMinutes
+- field_type: UnicodeString
+  field_name: DomainPeer

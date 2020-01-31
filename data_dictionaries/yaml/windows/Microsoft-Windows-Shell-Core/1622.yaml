@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1622'
+version: '0'
+event(fields): ShellTask_AsyncInvoke_InvokeThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_AsyncInvoke_InvokeThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

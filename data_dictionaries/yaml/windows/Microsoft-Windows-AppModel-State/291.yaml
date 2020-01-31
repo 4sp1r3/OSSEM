@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '291'
+version: '0'
+event(fields): AppModel.Task.StateWinRT.ApplicationDataContainerSettingsServer_LookupStop()
+opcode: Stop
+keywords: WinRT
+task: AppModel.Task.StateWinRT.ApplicationDataContainerSettingsServer_Lookup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

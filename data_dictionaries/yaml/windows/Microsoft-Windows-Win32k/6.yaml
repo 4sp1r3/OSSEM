@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Win32k
+event_id: '6'
+version: '0'
+event(fields): UIPIHandleValError(UInt8 UIPI_Trace_Header, UInt64 Handle, UInt32 HandleType,
+  UInt32 Reserved)
+opcode: ''
+keywords: UIPI
+task: UIPIHandleValError
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: UIPI_Trace_Header
+- field_type: UInt64
+  field_name: Handle
+- field_type: UInt32
+  field_name: HandleType
+- field_type: UInt32
+  field_name: Reserved

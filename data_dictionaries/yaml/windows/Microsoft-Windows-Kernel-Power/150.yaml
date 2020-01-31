@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '150'
+version: '0'
+event(fields): SessionDisplayOn(UInt32 Session, Boolean Console, UInt32 Reason)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight keyword_400000000000
+task: SessionDisplayOn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Session
+- field_type: Boolean
+  field_name: Console
+- field_type: UInt32
+  field_name: Reason

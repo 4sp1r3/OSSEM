@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '9'
+version: '0'
+event(fields): GCSuspendEEStart(UInt16 Reason)
+opcode: SuspendEEStart
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Reason

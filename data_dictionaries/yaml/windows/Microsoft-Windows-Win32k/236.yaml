@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '236'
+version: '0'
+event(fields): TouchPadTypeDiscovered(UInt32 deviceType)
+opcode: ''
+keywords: TouchInput
+task: TouchPadTypeDiscovered
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: deviceType

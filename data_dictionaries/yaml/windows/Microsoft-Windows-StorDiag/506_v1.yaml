@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '506'
+version: '1'
+event(fields): ClassCompletionofrequest.506_V1(GUID DeviceGUID, UInt32 DeviceNumber,
+  AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber,
+  HexInt32 DownLevelIrpStatus, UInt8 SrbStatus, UInt8 ScsiStatus, UInt8 SenseKey,
+  UInt8 AdditionalSenseCode, UInt8 AdditionalSenseCodeQualifier, UInt32 CdbByteCount,
+  Binary CdbBytes, UInt8 NumberOfRetriesDone)
+opcode: Completionofrequest.
+keywords: Write PagingWrite LowMemoryWrite
+task: Class
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGUID
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: AnsiString
+  field_name: Vendor
+- field_type: AnsiString
+  field_name: Model
+- field_type: AnsiString
+  field_name: FirmwareVersion
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: HexInt32
+  field_name: DownLevelIrpStatus
+- field_type: UInt8
+  field_name: SrbStatus
+- field_type: UInt8
+  field_name: ScsiStatus
+- field_type: UInt8
+  field_name: SenseKey
+- field_type: UInt8
+  field_name: AdditionalSenseCode
+- field_type: UInt8
+  field_name: AdditionalSenseCodeQualifier
+- field_type: UInt32
+  field_name: CdbByteCount
+- field_type: Binary
+  field_name: CdbBytes
+- field_type: UInt8
+  field_name: NumberOfRetriesDone

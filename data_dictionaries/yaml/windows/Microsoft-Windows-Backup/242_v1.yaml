@@ -1,0 +1,73 @@
+provider: Microsoft-Windows-Backup
+event_id: '242'
+version: '1'
+event(fields): task_0242_V1(FILETIME RestoreTime, HexInt32 HRESULT, HexInt32 DetailedHRESULT,
+  UInt32 RestoreType, UInt32 SysvolRestoreType, GUID BackupSetID, FILETIME BackupSetTime,
+  UInt32 NumOfVolumes, UnicodeString VolumesInfo, UInt32 NumOfWriters, UnicodeString
+  WritersInfo, UInt64 NoOfFilesProcessed, UInt64 NoOfFilesFailed, UInt64 NoOfBytesProcessed,
+  UInt64 TotalNumOfBytes, FILETIME EnumerateStartTime, FILETIME EnumerateEndTime,
+  FILETIME RestoreStartTime, FILETIME RestoreEndTime, FILETIME DeleteStartTime, FILETIME
+  DeleteEndTime, UnicodeString RestoreSuccessLogPath, UnicodeString RestoreFailureLogPath,
+  UnicodeString RestoreCLIOutputLogPath, UnicodeString TargetAccessPath, UnicodeString
+  AlternateRecoveryPath, UnicodeString ErrorMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: RestoreTime
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: HexInt32
+  field_name: DetailedHRESULT
+- field_type: UInt32
+  field_name: RestoreType
+- field_type: UInt32
+  field_name: SysvolRestoreType
+- field_type: GUID
+  field_name: BackupSetID
+- field_type: FILETIME
+  field_name: BackupSetTime
+- field_type: UInt32
+  field_name: NumOfVolumes
+- field_type: UnicodeString
+  field_name: VolumesInfo
+- field_type: UInt32
+  field_name: NumOfWriters
+- field_type: UnicodeString
+  field_name: WritersInfo
+- field_type: UInt64
+  field_name: NoOfFilesProcessed
+- field_type: UInt64
+  field_name: NoOfFilesFailed
+- field_type: UInt64
+  field_name: NoOfBytesProcessed
+- field_type: UInt64
+  field_name: TotalNumOfBytes
+- field_type: FILETIME
+  field_name: EnumerateStartTime
+- field_type: FILETIME
+  field_name: EnumerateEndTime
+- field_type: FILETIME
+  field_name: RestoreStartTime
+- field_type: FILETIME
+  field_name: RestoreEndTime
+- field_type: FILETIME
+  field_name: DeleteStartTime
+- field_type: FILETIME
+  field_name: DeleteEndTime
+- field_type: UnicodeString
+  field_name: RestoreSuccessLogPath
+- field_type: UnicodeString
+  field_name: RestoreFailureLogPath
+- field_type: UnicodeString
+  field_name: RestoreCLIOutputLogPath
+- field_type: UnicodeString
+  field_name: TargetAccessPath
+- field_type: UnicodeString
+  field_name: AlternateRecoveryPath
+- field_type: UnicodeString
+  field_name: ErrorMessage

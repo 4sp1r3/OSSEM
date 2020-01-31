@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '15'
+version: '1'
+event(fields): ProcessRundown_V1(UInt32 ProcessID, UInt64 ProcessSequenceNumber, FILETIME
+  CreateTime, UInt32 ParentProcessID, UInt64 ParentProcessSequenceNumber, UInt32 SessionID,
+  UInt32 Flags, UInt32 ProcessTokenElevationType, UInt32 ProcessTokenIsElevated, SID
+  MandatoryLabel, UnicodeString ImageName, UInt32 ImageChecksum, UInt32 TimeDateStamp,
+  UnicodeString PackageFullName, UnicodeString PackageRelativeAppId)
+opcode: ''
+keywords: WINEVENT_KEYWORD_PROCESS
+task: ProcessRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: UInt64
+  field_name: ProcessSequenceNumber
+- field_type: FILETIME
+  field_name: CreateTime
+- field_type: UInt32
+  field_name: ParentProcessID
+- field_type: UInt64
+  field_name: ParentProcessSequenceNumber
+- field_type: UInt32
+  field_name: SessionID
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ProcessTokenElevationType
+- field_type: UInt32
+  field_name: ProcessTokenIsElevated
+- field_type: SID
+  field_name: MandatoryLabel
+- field_type: UnicodeString
+  field_name: ImageName
+- field_type: UInt32
+  field_name: ImageChecksum
+- field_type: UInt32
+  field_name: TimeDateStamp
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: PackageRelativeAppId

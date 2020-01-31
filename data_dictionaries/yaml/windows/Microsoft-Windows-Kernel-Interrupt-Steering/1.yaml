@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Interrupt-Steering
+event_id: '1'
+version: '0'
+event(fields): InterruptSteeringMaskRundown(UInt32 LoadPercent, UInt32 GsivCount,
+  UInt32 MaskCount, UInt16 GroupCount, Pointer Mask)
+opcode: ''
+keywords: IntSteer
+task: InterruptSteeringMaskRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LoadPercent
+- field_type: UInt32
+  field_name: GsivCount
+- field_type: UInt32
+  field_name: MaskCount
+- field_type: UInt16
+  field_name: GroupCount
+- field_type: Pointer
+  field_name: Mask

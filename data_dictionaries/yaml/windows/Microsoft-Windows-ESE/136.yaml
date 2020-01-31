@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ESE
+event_id: '136'
+version: '0'
+event(fields): ESE_TestMarker_Trace(UInt64 qwMarkerID, AnsiString szAnnotation)
+opcode: ''
+keywords: Test
+task: ESE_TestMarker_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: qwMarkerID
+- field_type: AnsiString
+  field_name: szAnnotation

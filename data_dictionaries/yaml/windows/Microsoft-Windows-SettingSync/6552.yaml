@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6552'
+version: '0'
+event(fields): task_06552(UnicodeString CollectionId, UInt32 Count)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UInt32
+  field_name: Count

@@ -1,0 +1,23 @@
+provider: Microsoft-IE
+event_id: '771'
+version: '0'
+event(fields): Mshtml_Ortc_Audio_Drift_Render_Sample_Dropped(UInt64 DriftedTimeMSec,
+  UInt64 LastSampleEndTimeMSec, UInt64 CurrentPresentationClockTimeMSec, UInt64 AudioDriftDroppedSampleCount,
+  Pointer ThisPtr)
+opcode: ''
+keywords: mshtml
+task: Mshtml_Ortc_Audio_Drift_Render_Sample_Dropped
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DriftedTimeMSec
+- field_type: UInt64
+  field_name: LastSampleEndTimeMSec
+- field_type: UInt64
+  field_name: CurrentPresentationClockTimeMSec
+- field_type: UInt64
+  field_name: AudioDriftDroppedSampleCount
+- field_type: Pointer
+  field_name: ThisPtr

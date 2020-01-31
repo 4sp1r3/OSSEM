@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MF
+event_id: '1141'
+version: '0'
+event(fields): MediaFoundationAsyncWrapperCompactedoutput(Pointer WrapperPtr, UInt64
+  SampleTimestamp, UInt64 Duration0, UInt64 Duration1, UInt64 DurationResult)
+opcode: ''
+keywords: ''
+task: MediaFoundationAsyncWrapperCompactedoutput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WrapperPtr
+- field_type: UInt64
+  field_name: SampleTimestamp
+- field_type: UInt64
+  field_name: Duration0
+- field_type: UInt64
+  field_name: Duration1
+- field_type: UInt64
+  field_name: DurationResult

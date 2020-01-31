@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7700'
+version: '0'
+event(fields): PnP_SetupAPI_CallClassInstallerStart(UnicodeString DIF_CODE, HexInt32
+  ErrorCode)
+opcode: Start
+keywords: UserPnp
+task: PnP_SetupAPI_CallClassInstaller
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DIF_CODE
+- field_type: HexInt32
+  field_name: ErrorCode

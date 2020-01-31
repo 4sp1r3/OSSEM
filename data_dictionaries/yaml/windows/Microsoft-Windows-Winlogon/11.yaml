@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '11'
+version: '0'
+event(fields): ThemesOnLogonPreStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: ThemesOnLogonPre
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

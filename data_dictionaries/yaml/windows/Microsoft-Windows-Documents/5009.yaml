@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '5009'
+version: '0'
+event(fields): DocPerf_Task_Opc_OM_SavePackageStop()
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_Opc_OM_SavePackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

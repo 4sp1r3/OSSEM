@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-StorPort
+event_id: '17'
+version: '1'
+event(fields): None17_V1(UnicodeString AdapterName, UInt32 PortNumber, UInt32 CurrentOutstanding,
+  UInt32 OldHighWaterMark, UInt32 NewHighWaterMark, UInt32 MaxCount)
+opcode: ''
+keywords: Config
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AdapterName
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt32
+  field_name: CurrentOutstanding
+- field_type: UInt32
+  field_name: OldHighWaterMark
+- field_type: UInt32
+  field_name: NewHighWaterMark
+- field_type: UInt32
+  field_name: MaxCount

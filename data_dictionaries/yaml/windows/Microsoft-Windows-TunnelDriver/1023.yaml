@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TunnelDriver
+event_id: '1023'
+version: '0'
+event(fields): task_01023(UInt32 IpAddrV6Length, UInt32 LocalIPv4Address, UInt32 RemoteIPv4Address,
+  Binary LocalIPv6, Binary RemoteIPv6, UInt32 NTStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IpAddrV6Length
+- field_type: UInt32
+  field_name: LocalIPv4Address
+- field_type: UInt32
+  field_name: RemoteIPv4Address
+- field_type: Binary
+  field_name: LocalIPv6
+- field_type: Binary
+  field_name: RemoteIPv6
+- field_type: UInt32
+  field_name: NTStatus

@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '12022'
+version: '1'
+event(fields): VEMgrProcessShutdownStart12022_V1(UInt32 pid)
+opcode: Start
+keywords: ''
+task: VEMgrProcessShutdown
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: pid

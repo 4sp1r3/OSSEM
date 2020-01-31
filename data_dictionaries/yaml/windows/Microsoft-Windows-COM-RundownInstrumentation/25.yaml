@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-COM-RundownInstrumentation
+event_id: '25'
+version: '0'
+event(fields): RundownInstrumentation25(UInt64 OID, UInt32 ClientProcessId, UInt64
+  TokenModifiedLuid, UInt64 SetIdIfKnown, UInt32 Reason)
+opcode: ''
+keywords: RundownInstrumentation
+task: RundownInstrumentation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OID
+- field_type: UInt32
+  field_name: ClientProcessId
+- field_type: UInt64
+  field_name: TokenModifiedLuid
+- field_type: UInt64
+  field_name: SetIdIfKnown
+- field_type: UInt32
+  field_name: Reason

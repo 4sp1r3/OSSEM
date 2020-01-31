@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '9511'
+version: '0'
+event(fields): task_09511(UnicodeString PackageFullname, UInt64 PreDowngradeVersion,
+  UInt64 PostDowngradeVersion)
+opcode: ''
+keywords: keyword_80000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullname
+- field_type: UInt64
+  field_name: PreDowngradeVersion
+- field_type: UInt64
+  field_name: PostDowngradeVersion

@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2420'
+version: '0'
+event(fields): NavigationWindowInitializeStart(Pointer ptr)
+opcode: Start
+keywords: NavigationPerformance NavigationWindow
+task: NavigationWindowInitialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ptr

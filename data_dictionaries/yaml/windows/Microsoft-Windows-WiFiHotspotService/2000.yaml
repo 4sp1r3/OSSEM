@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WiFiHotspotService
+event_id: '2000'
+version: '0'
+event(fields): HotspotService2000(UnicodeString uString1, UnicodeString uString2,
+  UInt32 Dword1, UInt32 Dword2, UInt32 Dword3)
+opcode: ''
+keywords: Error
+task: HotspotService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: uString1
+- field_type: UnicodeString
+  field_name: uString2
+- field_type: UInt32
+  field_name: Dword1
+- field_type: UInt32
+  field_name: Dword2
+- field_type: UInt32
+  field_name: Dword3

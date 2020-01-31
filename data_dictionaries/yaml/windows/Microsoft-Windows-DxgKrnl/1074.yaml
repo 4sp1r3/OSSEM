@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1074'
+version: '0'
+event(fields): OutputDuplicationGetFrameInfo(Pointer ContextPtr, UInt32 KeyedMutexIdx,
+  UInt64 LastPresentTime, UInt64 LastMouseUpdateTime, UInt32 AccumulatedFrames, Boolean
+  RectsCoalesced, Boolean ProtectedContentMaskedOut, UInt32 TotalMetadataBufferSize,
+  UInt32 PointerShapeBufferSize)
+opcode: ''
+keywords: Base
+task: OutputDuplicationGetFrameInfo
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextPtr
+- field_type: UInt32
+  field_name: KeyedMutexIdx
+- field_type: UInt64
+  field_name: LastPresentTime
+- field_type: UInt64
+  field_name: LastMouseUpdateTime
+- field_type: UInt32
+  field_name: AccumulatedFrames
+- field_type: Boolean
+  field_name: RectsCoalesced
+- field_type: Boolean
+  field_name: ProtectedContentMaskedOut
+- field_type: UInt32
+  field_name: TotalMetadataBufferSize
+- field_type: UInt32
+  field_name: PointerShapeBufferSize

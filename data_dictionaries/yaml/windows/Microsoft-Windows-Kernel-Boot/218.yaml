@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '218'
+version: '0'
+event(fields): SoftReboot(UnicodeString Function, UInt32 Status, UInt32 Checkpoint)
+opcode: ''
+keywords: SoftRestart MemoryPreservation
+task: SoftReboot
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Function
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Checkpoint

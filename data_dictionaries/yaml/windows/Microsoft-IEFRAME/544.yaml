@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '544'
+version: '0'
+event(fields): TravelLogScreenshotNav_NewTab_SetAsHiddenTab()
+opcode: ''
+keywords: TravelLogScreenshotNav
+task: TravelLogScreenshotNav_NewTab_SetAsHiddenTab
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TSF-msutb
+event_id: '10'
+version: '0'
+event(fields): HandleFocusThreadChangeStart(UInt32 tid_current, UInt32 tid_new)
+opcode: Start
+keywords: Perf Focus
+task: HandleFocusThreadChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: tid_current
+- field_type: UInt32
+  field_name: tid_new

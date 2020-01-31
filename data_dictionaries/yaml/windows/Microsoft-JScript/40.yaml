@@ -1,0 +1,20 @@
+provider: Microsoft-JScript
+event_id: '40'
+version: '0'
+event(fields): ScriptContextRundownSourceDCEnd(UInt64 SourceID, Pointer ScriptContextID,
+  UInt32 SourceFlags, UnicodeString Url)
+opcode: SourceDCEnd
+keywords: JScriptEndRundown
+task: ScriptContextRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SourceID
+- field_type: Pointer
+  field_name: ScriptContextID
+- field_type: UInt32
+  field_name: SourceFlags
+- field_type: UnicodeString
+  field_name: Url

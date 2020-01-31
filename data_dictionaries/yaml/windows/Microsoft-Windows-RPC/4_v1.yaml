@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-RPC
+event_id: '4'
+version: '1'
+event(fields): Debug_V1(UInt8 Subject, UInt8 Verb, UInt64 SubjectPointer, UInt64 ObjectPointer,
+  UInt64 DataPointer)
+opcode: ''
+keywords: ''
+task: Debug
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Subject
+- field_type: UInt8
+  field_name: Verb
+- field_type: UInt64
+  field_name: SubjectPointer
+- field_type: UInt64
+  field_name: ObjectPointer
+- field_type: UInt64
+  field_name: DataPointer

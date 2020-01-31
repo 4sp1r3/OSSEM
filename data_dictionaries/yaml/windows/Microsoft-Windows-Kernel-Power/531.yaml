@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '531'
+version: '0'
+event(fields): PowerAggregatorValidationEvent(UInt32 SessionId, UInt32 Action, UInt32
+  Result)
+opcode: ''
+keywords: po:Diagnostic
+task: PowerAggregatorValidationEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: Action
+- field_type: UInt32
+  field_name: Result

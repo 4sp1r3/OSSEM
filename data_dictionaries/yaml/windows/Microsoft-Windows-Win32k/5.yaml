@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Win32k
+event_id: '5'
+version: '0'
+event(fields): UIPIEventHookError(UInt32 UIPI_Trace_Header, UInt32 WinEvent, UInt64
+  WndHandle, UInt32 ObjectID, UInt32 ChildID, Int32 SenderTID, Int32 Time, UInt32
+  Flags)
+opcode: ''
+keywords: UIPI
+task: UIPIEventHookError
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UIPI_Trace_Header
+- field_type: UInt32
+  field_name: WinEvent
+- field_type: UInt64
+  field_name: WndHandle
+- field_type: UInt32
+  field_name: ObjectID
+- field_type: UInt32
+  field_name: ChildID
+- field_type: Int32
+  field_name: SenderTID
+- field_type: Int32
+  field_name: Time
+- field_type: UInt32
+  field_name: Flags

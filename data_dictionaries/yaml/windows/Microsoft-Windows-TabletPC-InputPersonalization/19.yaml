@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '19'
+version: '0'
+event(fields): IPS_RECOPLUGIN_GathererDataSinkShutdownStart()
+opcode: Start
+keywords: ''
+task: IPS_RECOPLUGIN_GathererDataSinkShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

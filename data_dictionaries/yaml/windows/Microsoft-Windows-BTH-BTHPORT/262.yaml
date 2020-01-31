@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-BTH-BTHPORT
+event_id: '262'
+version: '0'
+event(fields): task_0262(UInt32 Num_HCI_Packets)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Num_HCI_Packets

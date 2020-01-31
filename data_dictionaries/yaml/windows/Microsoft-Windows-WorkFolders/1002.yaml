@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '1002'
+version: '0'
+event(fields): task_01002(UnicodeString User, UnicodeString StsUri, UnicodeString
+  HResultStr, Int32 HResult)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: StsUri
+- field_type: UnicodeString
+  field_name: HResultStr
+- field_type: Int32
+  field_name: HResult

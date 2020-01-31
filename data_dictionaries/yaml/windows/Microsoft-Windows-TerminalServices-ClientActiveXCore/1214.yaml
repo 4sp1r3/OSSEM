@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1214'
+version: '0'
+event(fields): RdClientRADCworkspaceThiseventisraisedwhentheuserstartsanewcycleoffeeddiscovery.WelogthehashedUPNandtimezoneinformationhere(UnicodeString
+  UserNameHash, Int32 TimeZoneBias, UnicodeString TimeZoneName)
+opcode: Thiseventisraisedwhentheuserstartsanewcycleoffeeddiscovery.WelogthehashedUPNandtimezoneinformationhere
+keywords: ''
+task: RdClientRADCworkspace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserNameHash
+- field_type: Int32
+  field_name: TimeZoneBias
+- field_type: UnicodeString
+  field_name: TimeZoneName

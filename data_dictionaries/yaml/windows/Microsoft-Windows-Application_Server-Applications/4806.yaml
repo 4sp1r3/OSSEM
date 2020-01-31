@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4806'
+version: '0'
+event(fields): DiscoveryMessageInvalidRelatesToOrOperationCompleted(UnicodeString
+  discoveryMessageName, UnicodeString messageId, UnicodeString relatesTo, UnicodeString
+  discoveryOperationName, UnicodeString AppDomain)
+opcode: InvalidRelatesToOrOperationCompleted
+keywords: Discovery
+task: DiscoveryMessage
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: discoveryMessageName
+- field_type: UnicodeString
+  field_name: messageId
+- field_type: UnicodeString
+  field_name: relatesTo
+- field_type: UnicodeString
+  field_name: discoveryOperationName
+- field_type: UnicodeString
+  field_name: AppDomain

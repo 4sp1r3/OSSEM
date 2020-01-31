@@ -1,0 +1,24 @@
+provider: Microsoft-JScript
+event_id: '241'
+version: '0'
+event(fields): Memprotect_GC_Heap_Size(Pointer RecyclerID, UInt64 UsedBytes, UInt64
+  ReservedBytes, UInt64 CommittedBytes, UInt64 NumberOfSegments, Boolean FromGC)
+opcode: ''
+keywords: MemProtectHeapSize
+task: Memprotect_GC_Heap_Size
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID
+- field_type: UInt64
+  field_name: UsedBytes
+- field_type: UInt64
+  field_name: ReservedBytes
+- field_type: UInt64
+  field_name: CommittedBytes
+- field_type: UInt64
+  field_name: NumberOfSegments
+- field_type: Boolean
+  field_name: FromGC

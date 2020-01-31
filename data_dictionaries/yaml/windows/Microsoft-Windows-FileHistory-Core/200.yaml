@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-FileHistory-Core
+event_id: '200'
+version: '0'
+event(fields): task_0200(UInt32 HighLevelHr, UInt32 LowLevelHr, UnicodeString ConfigFilePath)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HighLevelHr
+- field_type: UInt32
+  field_name: LowLevelHr
+- field_type: UnicodeString
+  field_name: ConfigFilePath

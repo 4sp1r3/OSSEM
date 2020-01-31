@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '71'
+version: '0'
+event(fields): ApiSnapshotIconicThumbnailStart(Pointer hwndDst, Pointer hwndSrc)
+opcode: Start
+keywords: DwmApi
+task: ApiSnapshotIconicThumbnail
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwndDst
+- field_type: Pointer
+  field_name: hwndSrc

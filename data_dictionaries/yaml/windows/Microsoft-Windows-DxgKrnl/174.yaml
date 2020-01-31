@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '174'
+version: '0'
+event(fields): ACPIEvent(UInt32 Id)
+opcode: ''
+keywords: Base
+task: ACPIEvent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Id

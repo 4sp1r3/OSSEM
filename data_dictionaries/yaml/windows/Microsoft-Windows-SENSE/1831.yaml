@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SENSE
+event_id: '1831'
+version: '0'
+event(fields): task_01831()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

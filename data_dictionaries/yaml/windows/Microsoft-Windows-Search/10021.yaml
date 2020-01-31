@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Search
+event_id: '10021'
+version: '0'
+event(fields): task_0PCODE_128pcode_12810021(UnicodeString Driver, UnicodeString InstanceName,
+  UnicodeString InstanceNum, UnicodeString ErrorMessage)
+opcode: opcode_128
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Driver
+- field_type: UnicodeString
+  field_name: InstanceName
+- field_type: UnicodeString
+  field_name: InstanceNum
+- field_type: UnicodeString
+  field_name: ErrorMessage

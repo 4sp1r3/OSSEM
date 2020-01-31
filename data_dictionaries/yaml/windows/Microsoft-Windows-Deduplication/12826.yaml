@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '12826'
+version: '0'
+event(fields): DataDeduplicationScrubbingTask12826(GUID JobInstanceId, UnicodeString
+  VolumeGuidPath, UnicodeString VolumeDisplayName, UInt32 DetectedCorruptionCount,
+  UInt32 FixableCorruptionCount, UInt32 CorruptedUserFileCount, UInt32 FixableUserFileCount,
+  UInt32 ErrorCode, UnicodeString ErrorMessage, Boolean ReadOnlyMode)
+opcode: ''
+keywords: Reporting
+task: DataDeduplicationScrubbingTask
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: JobInstanceId
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UnicodeString
+  field_name: VolumeDisplayName
+- field_type: UInt32
+  field_name: DetectedCorruptionCount
+- field_type: UInt32
+  field_name: FixableCorruptionCount
+- field_type: UInt32
+  field_name: CorruptedUserFileCount
+- field_type: UInt32
+  field_name: FixableUserFileCount
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: Boolean
+  field_name: ReadOnlyMode

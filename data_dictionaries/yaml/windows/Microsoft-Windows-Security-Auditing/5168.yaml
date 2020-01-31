@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5168'
+version: '0'
+event(fields): task_05168(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString SpnName, HexInt32 ErrorCode,
+  UnicodeString ServerNames, UnicodeString ConfiguredNames, UnicodeString IpAddresses)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: SpnName
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ServerNames
+- field_type: UnicodeString
+  field_name: ConfiguredNames
+- field_type: UnicodeString
+  field_name: IpAddresses

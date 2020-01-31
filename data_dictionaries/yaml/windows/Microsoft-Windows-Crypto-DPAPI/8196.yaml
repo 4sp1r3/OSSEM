@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Crypto-DPAPI
+event_id: '8196'
+version: '0'
+event(fields): MasterKeyOperation8196()
+opcode: ''
+keywords: ETW_TASK_MASTERKEY_OPERATION
+task: MasterKeyOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

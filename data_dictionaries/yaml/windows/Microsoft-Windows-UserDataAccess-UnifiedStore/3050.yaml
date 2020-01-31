@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '3050'
+version: '0'
+event(fields): task_03050(UInt32 Prop_Prop1, UInt32 Prop_Prop2)
+opcode: ''
+keywords: Unified_Store StateTransition
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_Prop1
+- field_type: UInt32
+  field_name: Prop_Prop2

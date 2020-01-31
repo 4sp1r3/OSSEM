@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-International
+event_id: '3000'
+version: '0'
+event(fields): NLSlocalefunctionsNLSoperations(UInt32 ProcessId, UnicodeString ProdessName,
+  UInt32 Locale, UInt32 LCType, UnicodeString lpLCData)
+opcode: NLSoperations
+keywords: ''
+task: NLSlocalefunctions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ProdessName
+- field_type: UInt32
+  field_name: Locale
+- field_type: UInt32
+  field_name: LCType
+- field_type: UnicodeString
+  field_name: lpLCData

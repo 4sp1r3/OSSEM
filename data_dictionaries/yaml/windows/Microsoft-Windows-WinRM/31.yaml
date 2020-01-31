@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '31'
+version: '0'
+event(fields): WSManSessioninitializeStop31()
+opcode: Stop
+keywords: Keyword.Client
+task: WSManSessioninitialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

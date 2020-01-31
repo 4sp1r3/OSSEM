@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '370'
+version: '0'
+event(fields): Mshtml_HTMLSpell_SpellCheckingEngineStop()
+opcode: Stop
+keywords: subsystem mshtml
+task: Mshtml_HTMLSpell_SpellCheckingEngine
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

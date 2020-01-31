@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Runtime-Web-Http
+event_id: '29'
+version: '0'
+event(fields): HttpOperation29(UInt32 asyncOperation, Pointer asyncObject, UInt32
+  hresult, Int32 errorMessage)
+opcode: ''
+keywords: ''
+task: HttpOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: asyncOperation
+- field_type: Pointer
+  field_name: asyncObject
+- field_type: UInt32
+  field_name: hresult
+- field_type: Int32
+  field_name: errorMessage

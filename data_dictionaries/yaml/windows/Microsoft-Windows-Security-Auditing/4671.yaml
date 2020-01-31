@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4671'
+version: '0'
+event(fields): task_04671(SID CallerUserSid, UnicodeString CallerUserName, UnicodeString
+  CallerDomainName, HexInt64 CallerLogonId, UInt32 Ordinal)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: CallerUserSid
+- field_type: UnicodeString
+  field_name: CallerUserName
+- field_type: UnicodeString
+  field_name: CallerDomainName
+- field_type: HexInt64
+  field_name: CallerLogonId
+- field_type: UInt32
+  field_name: Ordinal

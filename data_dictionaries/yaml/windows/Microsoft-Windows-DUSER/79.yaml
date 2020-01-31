@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DUSER
+event_id: '79'
+version: '0'
+event(fields): DUser_RunDUIPVLAnimationStart(Pointer pStoryboard, Int32 nAnimationId,
+  Int32 nStoryboardId, Int32 nCode, Float flProcessingDelay)
+opcode: Start
+keywords: Default
+task: DUser_RunDUIPVLAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pStoryboard
+- field_type: Int32
+  field_name: nAnimationId
+- field_type: Int32
+  field_name: nStoryboardId
+- field_type: Int32
+  field_name: nCode
+- field_type: Float
+  field_name: flProcessingDelay

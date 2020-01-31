@@ -1,0 +1,26 @@
+provider: Microsoft-IE
+event_id: '228'
+version: '0'
+event(fields): Mshtml_MediaEngine_VideoFramePresented(UInt32 MediaEngineID, UInt32
+  left, UInt32 top, UInt32 right, UInt32 bottom, UInt64 sampletime, UInt64 processtime)
+opcode: ''
+keywords: mediaengine
+task: Mshtml_MediaEngine_VideoFramePresented
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaEngineID
+- field_type: UInt32
+  field_name: left
+- field_type: UInt32
+  field_name: top
+- field_type: UInt32
+  field_name: right
+- field_type: UInt32
+  field_name: bottom
+- field_type: UInt64
+  field_name: sampletime
+- field_type: UInt64
+  field_name: processtime

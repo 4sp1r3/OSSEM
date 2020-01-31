@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Win32k
+event_id: '203'
+version: '0'
+event(fields): QueueEventMessage(Int8 CallbackCount, Pointer pqmsg, Pointer pti, UInt32
+  dwQEvent, Pointer hwnd)
+opcode: ''
+keywords: MessagePumpInternalAndInput
+task: QueueEventMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: CallbackCount
+- field_type: Pointer
+  field_name: pqmsg
+- field_type: Pointer
+  field_name: pti
+- field_type: UInt32
+  field_name: dwQEvent
+- field_type: Pointer
+  field_name: hwnd

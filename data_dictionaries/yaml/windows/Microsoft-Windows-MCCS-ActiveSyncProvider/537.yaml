@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '537'
+version: '0'
+event(fields): task_0537(UInt32 Prop_Dword_1, UInt32 Prop_Dword_2, UInt32 Prop_Dword_3)
+opcode: ''
+keywords: PeopleSync
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_Dword_1
+- field_type: UInt32
+  field_name: Prop_Dword_2
+- field_type: UInt32
+  field_name: Prop_Dword_3

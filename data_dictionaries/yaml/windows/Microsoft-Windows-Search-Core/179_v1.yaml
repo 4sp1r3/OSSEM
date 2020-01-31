@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '179'
+version: '1'
+event(fields): RobotThread_CatalogResetRequested_V1(UInt64 ITrans)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: RobotThread_CatalogResetRequested
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ITrans

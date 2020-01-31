@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-XAML
+event_id: '348'
+version: '0'
+event(fields): DCompSetTransformValue(UInt64 Transform, Float M11, Float M12, Float
+  M21, Float M22, Float M31, Float M32)
+opcode: ''
+keywords: DComp
+task: DCompSetTransformValue
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Transform
+- field_type: Float
+  field_name: M11
+- field_type: Float
+  field_name: M12
+- field_type: Float
+  field_name: M21
+- field_type: Float
+  field_name: M22
+- field_type: Float
+  field_name: M31
+- field_type: Float
+  field_name: M32

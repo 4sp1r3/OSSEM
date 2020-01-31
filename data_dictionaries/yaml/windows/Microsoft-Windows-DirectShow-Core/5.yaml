@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '5'
+version: '0'
+event(fields): PluginManager5(GUID clsid, GUID Subtype)
+opcode: ''
+keywords: ''
+task: PluginManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: clsid
+- field_type: GUID
+  field_name: Subtype

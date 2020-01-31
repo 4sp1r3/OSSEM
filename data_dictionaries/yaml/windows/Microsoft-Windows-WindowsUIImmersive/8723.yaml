@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsUIImmersive
+event_id: '8723'
+version: '0'
+event(fields): PopupLightDismiss8723(UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: PopupLightDismiss
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

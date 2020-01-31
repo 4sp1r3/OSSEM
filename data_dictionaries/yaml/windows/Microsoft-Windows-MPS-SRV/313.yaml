@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '313'
+version: '0'
+event(fields): MPS_SVC_BFE_SublayerAddStart()
+opcode: Start
+keywords: Service
+task: MPS_SVC_BFE_SublayerAdd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

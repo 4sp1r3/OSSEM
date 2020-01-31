@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1110'
+version: '0'
+event(fields): IndirectSwapChainAddSurface(Pointer pSwapChain, UInt32 Status, UInt32
+  bProducer, Pointer hSurface, UInt32 SurfaceIdx)
+opcode: ''
+keywords: IndirectSwapChain
+task: IndirectSwapChainAddSurface
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pSwapChain
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: bProducer
+- field_type: Pointer
+  field_name: hSurface
+- field_type: UInt32
+  field_name: SurfaceIdx

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '18'
+version: '0'
+event(fields): SuspendServicesStart(UInt16 NameLength, UnicodeString Name)
+opcode: Start
+keywords: po:Performance po:PerformanceLight
+task: SuspendServices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: Name

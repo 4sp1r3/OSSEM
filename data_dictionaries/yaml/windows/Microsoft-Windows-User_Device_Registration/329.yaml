@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '329'
+version: '0'
+event(fields): task_0329(UnicodeString AccountProvider, UnicodeString Scope, UnicodeString
+  Client, UnicodeString Authority, UnicodeString Resource, UnicodeString CorrelationId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AccountProvider
+- field_type: UnicodeString
+  field_name: Scope
+- field_type: UnicodeString
+  field_name: Client
+- field_type: UnicodeString
+  field_name: Authority
+- field_type: UnicodeString
+  field_name: Resource
+- field_type: UnicodeString
+  field_name: CorrelationId

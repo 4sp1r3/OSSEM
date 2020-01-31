@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '7050'
+version: '0'
+event(fields): DocPerf_Task_XpsViewer_SelectContentStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_XpsViewer_SelectContent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

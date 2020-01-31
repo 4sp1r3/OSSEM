@@ -1,0 +1,22 @@
+provider: Windows Kernel Trace
+category: '{68fdd900-4a3e-11d1-84f4-0000f80464e3}'
+event_id: '80'
+version: '2'
+event(fields): Header_PartitionInfoExtensionV2_TypeGroup(UInt16 EventVersion, UInt16
+  Reserved, UInt32 PartitionType, SInt64 QpcOffsetFromRoot, String PartitionId, String
+  ParentId)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt16
+  field_name: EventVersion
+- field_type: UInt16
+  field_name: Reserved
+- field_type: UInt32
+  field_name: PartitionType
+- field_type: SInt64
+  field_name: QpcOffsetFromRoot
+- field_type: String
+  field_name: PartitionId
+- field_type: String
+  field_name: ParentId

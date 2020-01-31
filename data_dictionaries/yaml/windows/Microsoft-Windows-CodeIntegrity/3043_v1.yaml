@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3043'
+version: '1'
+event(fields): SetFileCacheStop3043_V1(HexInt32 Status, HexInt32 CachedFlags, UInt8
+  CacheSource, UInt8 CachedPolicy)
+opcode: Stop
+keywords: ''
+task: SetFileCache
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: CachedFlags
+- field_type: UInt8
+  field_name: CacheSource
+- field_type: UInt8
+  field_name: CachedPolicy

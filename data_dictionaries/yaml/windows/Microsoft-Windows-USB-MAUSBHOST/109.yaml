@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '109'
+version: '0'
+event(fields): PALManagementChannelInformation109(Pointer fid_Controller, Pointer
+  fid_UsbDevice, Pointer fid_Endpoint, Float fid_USB_Endpoint_Descriptor, UInt8 fid_IsLinkManaged,
+  UInt16 fid_CreditConsumptionUnit, UInt32 fid_BufferSize, UInt16 fid_IsochProgrammingDelay,
+  UInt16 fid_IsochResponseDelay, UInt32 fid_IsochSegmentsPerFrame, UInt32 fid_MaxIsochSegmentSize)
+opcode: Information
+keywords: Default keyword_400000000000
+task: PALManagementChannel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Pointer
+  field_name: fid_Endpoint
+- field_type: Float
+  field_name: fid_USB_Endpoint_Descriptor
+- field_type: UInt8
+  field_name: fid_IsLinkManaged
+- field_type: UInt16
+  field_name: fid_CreditConsumptionUnit
+- field_type: UInt32
+  field_name: fid_BufferSize
+- field_type: UInt16
+  field_name: fid_IsochProgrammingDelay
+- field_type: UInt16
+  field_name: fid_IsochResponseDelay
+- field_type: UInt32
+  field_name: fid_IsochSegmentsPerFrame
+- field_type: UInt32
+  field_name: fid_MaxIsochSegmentSize

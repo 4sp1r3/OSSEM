@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '202'
+version: '0'
+event(fields): task_0202(UnicodeString jobName, UnicodeString jobOwner, GUID jobId,
+  UnicodeString url, GUID xferId, UnicodeString proxy, UInt32 hr, UInt64 fileLength,
+  UnicodeString HTTPVersion, UnicodeString URLRange)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: jobName
+- field_type: UnicodeString
+  field_name: jobOwner
+- field_type: GUID
+  field_name: jobId
+- field_type: UnicodeString
+  field_name: url
+- field_type: GUID
+  field_name: xferId
+- field_type: UnicodeString
+  field_name: proxy
+- field_type: UInt32
+  field_name: hr
+- field_type: UInt64
+  field_name: fileLength
+- field_type: UnicodeString
+  field_name: HTTPVersion
+- field_type: UnicodeString
+  field_name: URLRange

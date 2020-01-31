@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62132'
+version: '0'
+event(fields): TileManagement_AppTileInfo_InitContentTileRoamingStart(UnicodeString
+  ParentShortcutPath)
+opcode: Start
+keywords: Shell
+task: TileManagement_AppTileInfo_InitContentTileRoaming
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ParentShortcutPath

@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '2004'
+version: '1'
+event(fields): task_0_V1(UInt32 ErrorHigh, UInt32 ErrorLow)
+opcode: ''
+keywords: Startup Catalog
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow

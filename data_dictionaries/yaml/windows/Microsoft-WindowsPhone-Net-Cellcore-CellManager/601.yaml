@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '601'
+version: '0'
+event(fields): SetModemPowerStateStop()
+opcode: Stop
+keywords: Performance
+task: SetModemPowerState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

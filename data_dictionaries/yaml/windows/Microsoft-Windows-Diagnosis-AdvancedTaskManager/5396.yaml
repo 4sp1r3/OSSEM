@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5396'
+version: '0'
+event(fields): Dashboard_RemoveDiskStop()
+opcode: Stop
+keywords: dashboard
+task: Dashboard_RemoveDisk
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

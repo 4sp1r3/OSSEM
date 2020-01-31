@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4880'
+version: '0'
+event(fields): task_04880(UnicodeString CertificateDatabaseHash, UnicodeString PrivateKeyUsageCount,
+  UnicodeString CACertificateHash, UnicodeString CAPublicKeyHash)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CertificateDatabaseHash
+- field_type: UnicodeString
+  field_name: PrivateKeyUsageCount
+- field_type: UnicodeString
+  field_name: CACertificateHash
+- field_type: UnicodeString
+  field_name: CAPublicKeyHash

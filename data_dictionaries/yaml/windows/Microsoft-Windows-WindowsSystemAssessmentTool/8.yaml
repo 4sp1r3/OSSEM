@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WindowsSystemAssessmentTool
+event_id: '8'
+version: '0'
+event(fields): Application8(UInt16 MessageSize, AnsiString Message)
+opcode: ''
+keywords: ''
+task: Application
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: MessageSize
+- field_type: AnsiString
+  field_name: Message

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '296'
+version: '0'
+event(fields): CompTreeRemoveCompositionPeer(UInt64 Element, UInt64 CompNode)
+opcode: ''
+keywords: DComp
+task: CompTreeRemoveCompositionPeer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Element
+- field_type: UInt64
+  field_name: CompNode

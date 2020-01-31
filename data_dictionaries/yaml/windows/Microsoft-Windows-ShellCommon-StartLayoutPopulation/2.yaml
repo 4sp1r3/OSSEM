@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '2'
+version: '0'
+event(fields): StartLayout_LayoutResetStartedStart(UnicodeString value)
+opcode: Start
+keywords: ''
+task: StartLayout_LayoutResetStarted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value

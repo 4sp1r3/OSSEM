@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TZSync
+event_id: '8'
+version: '0'
+event(fields): ConversiontaskStop8(UnicodeString TimeZoneId)
+opcode: Stop
+keywords: ''
+task: Conversiontask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TimeZoneId

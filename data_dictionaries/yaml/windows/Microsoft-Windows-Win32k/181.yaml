@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Win32k
+event_id: '181'
+version: '0'
+event(fields): DirtyRectUpdate(Pointer hwnd, UInt32 DirtyLeft, UInt32 DirtyTop, UInt32
+  DirtyRight, UInt32 DirtyBottom)
+opcode: ''
+keywords: Updates
+task: DirtyRectUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwnd
+- field_type: UInt32
+  field_name: DirtyLeft
+- field_type: UInt32
+  field_name: DirtyTop
+- field_type: UInt32
+  field_name: DirtyRight
+- field_type: UInt32
+  field_name: DirtyBottom

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '526'
+version: '0'
+event(fields): KeyDownHandlerStart(UInt64 RegisteredOn, UInt32 KeyCode, UInt64 OriginalSource)
+opcode: Start
+keywords: ''
+task: KeyDownHandler
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RegisteredOn
+- field_type: UInt32
+  field_name: KeyCode
+- field_type: UInt64
+  field_name: OriginalSource

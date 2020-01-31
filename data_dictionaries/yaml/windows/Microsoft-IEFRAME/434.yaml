@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '434'
+version: '0'
+event(fields): Bing_Suggestions_CancelRequest(UInt32 QueryID)
+opcode: ''
+keywords: bingsuggestions
+task: Bing_Suggestions_CancelRequest
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: QueryID

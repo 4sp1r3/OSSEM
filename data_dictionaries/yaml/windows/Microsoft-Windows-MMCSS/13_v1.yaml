@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MMCSS
+event_id: '13'
+version: '1'
+event(fields): TaskIndex_YieldCancel_V1(UInt32 TaskIndex)
+opcode: ''
+keywords: ''
+task: TaskIndex_YieldCancel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TaskIndex

@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '679'
+version: '0'
+event(fields): Mshtml_CDMDraggableTouchTarget_OnDragDropStatusChangeImp(UInt32 PreviousStatus,
+  UInt32 CurrentStatus, Pointer CDMDraggableTouchTarget)
+opcode: ''
+keywords: draganddrop touch
+task: Mshtml_CDMDraggableTouchTarget_OnDragDropStatusChangeImp
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PreviousStatus
+- field_type: UInt32
+  field_name: CurrentStatus
+- field_type: Pointer
+  field_name: CDMDraggableTouchTarget

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '15'
+version: '0'
+event(fields): ProfileManagement15(UInt32 Scope)
+opcode: ''
+keywords: ''
+task: ProfileManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Scope

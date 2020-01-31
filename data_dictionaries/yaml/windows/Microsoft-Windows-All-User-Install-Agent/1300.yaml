@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-All-User-Install-Agent
+event_id: '1300'
+version: '0'
+event(fields): task_01300(UnicodeString UserSid, HexInt32 Error, Int32 location)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserSid
+- field_type: HexInt32
+  field_name: Error
+- field_type: Int32
+  field_name: location

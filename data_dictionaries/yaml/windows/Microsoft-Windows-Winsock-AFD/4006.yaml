@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4006'
+version: '0'
+event(fields): AfdRioCreateRqPairOpen(Pointer Endpoint, Pointer RioState, Pointer
+  RegistrationDomain, UInt32 SendEntryCount, Pointer SendUserAddress, Pointer SendSystemAddress,
+  UInt32 SendBufferSize, UInt32 ReceiveEntryCount, Pointer ReceiveUserAddress, Pointer
+  ReceiveSystemAddress, UInt32 ReceiveBufferSize, UInt32 SendCqIndex, UInt32 ReceiveCqIndex,
+  UInt32 Status)
+opcode: Open
+keywords: AFD_KW_RIO
+task: AfdRioCreateRqPair
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: Pointer
+  field_name: RioState
+- field_type: Pointer
+  field_name: RegistrationDomain
+- field_type: UInt32
+  field_name: SendEntryCount
+- field_type: Pointer
+  field_name: SendUserAddress
+- field_type: Pointer
+  field_name: SendSystemAddress
+- field_type: UInt32
+  field_name: SendBufferSize
+- field_type: UInt32
+  field_name: ReceiveEntryCount
+- field_type: Pointer
+  field_name: ReceiveUserAddress
+- field_type: Pointer
+  field_name: ReceiveSystemAddress
+- field_type: UInt32
+  field_name: ReceiveBufferSize
+- field_type: UInt32
+  field_name: SendCqIndex
+- field_type: UInt32
+  field_name: ReceiveCqIndex
+- field_type: UInt32
+  field_name: Status

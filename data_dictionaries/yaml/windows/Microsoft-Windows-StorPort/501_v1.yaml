@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-StorPort
+event_id: '501'
+version: '1'
+event(fields): BusresetOpCodeBusReset_V1(UInt32 PortNumber, UInt8 PathID, GUID RequestingUnitClassDeviceGuid)
+opcode: OpCodeBusReset
+keywords: Reset
+task: Busreset
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: PathID
+- field_type: GUID
+  field_name: RequestingUnitClassDeviceGuid

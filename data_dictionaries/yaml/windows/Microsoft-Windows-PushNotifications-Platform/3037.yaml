@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3037'
+version: '0'
+event(fields): TileSessionUpdateStart3037(UInt32 SessionId, UInt32 Count, Int8 UpdateControl)
+opcode: Start
+keywords: wpnui
+task: TileSessionUpdate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: Count
+- field_type: Int8
+  field_name: UpdateControl

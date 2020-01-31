@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '115'
+version: '0'
+event(fields): MSVideoProcessoftMFT_RotationStart(HexInt32 fourCC, UInt32 Rotation)
+opcode: Start
+keywords: ''
+task: MSVideoProcessoftMFT_Rotation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: fourCC
+- field_type: UInt32
+  field_name: Rotation

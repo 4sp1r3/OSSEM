@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Directory-Services-SAM
+event_id: '12296'
+version: '0'
+event(fields): task_012296(UnicodeString DirectoryPath, UInt32 __binLength, Binary
+  WinError)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DirectoryPath
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: WinError

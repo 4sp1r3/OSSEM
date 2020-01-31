@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '3304'
+version: '0'
+event(fields): AppXDeployment.Task.Server.OSIMStop3304()
+opcode: Stop
+keywords: OSIM_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.OSIM
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

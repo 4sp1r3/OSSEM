@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14003'
+version: '1'
+event(fields): ComponentRunStart_V1(UInt32 Component)
+opcode: Start
+keywords: ''
+task: ComponentRun
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Component

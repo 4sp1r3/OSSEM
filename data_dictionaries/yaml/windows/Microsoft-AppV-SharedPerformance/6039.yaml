@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6039'
+version: '0'
+event(fields): ToggleOnlineModeStop()
+opcode: Stop
+keywords: ''
+task: ToggleOnlineMode
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,53 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '478'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment478(UInt32 DeploymentOperation,
+  UnicodeString PackageFullName, UnicodeString Path, UnicodeString MountPoint, HexInt32
+  TargetPlatform, Boolean SystemVolume, UnicodeString StorageId, Boolean IsCentennial,
+  HexInt32 PackageType, Boolean IsPackageEncrypted, HexInt64 DeploymentOptions, Boolean
+  IsStreamingPackage, Boolean IsInRelatedSet, Boolean IsPackageUsingBDC, UnicodeString
+  MainPackageFamilyName, UnicodeString CallingProcess, Boolean IsOptional, HexInt32
+  PackageFlags)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeploymentOperation
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UnicodeString
+  field_name: MountPoint
+- field_type: HexInt32
+  field_name: TargetPlatform
+- field_type: Boolean
+  field_name: SystemVolume
+- field_type: UnicodeString
+  field_name: StorageId
+- field_type: Boolean
+  field_name: IsCentennial
+- field_type: HexInt32
+  field_name: PackageType
+- field_type: Boolean
+  field_name: IsPackageEncrypted
+- field_type: HexInt64
+  field_name: DeploymentOptions
+- field_type: Boolean
+  field_name: IsStreamingPackage
+- field_type: Boolean
+  field_name: IsInRelatedSet
+- field_type: Boolean
+  field_name: IsPackageUsingBDC
+- field_type: UnicodeString
+  field_name: MainPackageFamilyName
+- field_type: UnicodeString
+  field_name: CallingProcess
+- field_type: Boolean
+  field_name: IsOptional
+- field_type: HexInt32
+  field_name: PackageFlags

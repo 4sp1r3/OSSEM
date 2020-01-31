@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ComDlg32
+event_id: '30001'
+version: '0'
+event(fields): PerfTrack_DisplayChooseFontStop()
+opcode: Stop
+keywords: ''
+task: PerfTrack_DisplayChooseFont
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

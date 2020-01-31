@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '17005'
+version: '0'
+event(fields): task_017005(UnicodeString string, UnicodeString string2, UnicodeString
+  string3)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: string
+- field_type: UnicodeString
+  field_name: string2
+- field_type: UnicodeString
+  field_name: string3

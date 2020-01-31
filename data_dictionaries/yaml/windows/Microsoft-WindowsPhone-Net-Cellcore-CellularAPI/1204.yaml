@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '1204'
+version: '0'
+event(fields): CCan1204(UInt32 DwordName1)
+opcode: ''
+keywords: Information
+task: CCan
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName1

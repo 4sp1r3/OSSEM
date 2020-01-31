@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DUSER
+event_id: '50'
+version: '0'
+event(fields): DUser_CommitFromWMPaint(UInt32 hGadget, Pointer m_pVisual, Int32 nVisuals)
+opcode: ''
+keywords: Default
+task: DUser_CommitFromWMPaint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hGadget
+- field_type: Pointer
+  field_name: m_pVisual
+- field_type: Int32
+  field_name: nVisuals

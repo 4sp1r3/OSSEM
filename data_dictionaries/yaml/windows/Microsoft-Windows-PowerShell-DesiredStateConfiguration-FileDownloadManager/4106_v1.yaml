@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager
+event_id: '4106'
+version: '1'
+event(fields): ValidaterequestinFileDownloadManager4106_V1(UnicodeString FileName)
+opcode: ''
+keywords: ''
+task: ValidaterequestinFileDownloadManager
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

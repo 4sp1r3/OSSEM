@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ntshrui
+event_id: '1020'
+version: '0'
+event(fields): Publish_ItemsStop()
+opcode: Stop
+keywords: ''
+task: Publish_Items
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

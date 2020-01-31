@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '35015'
+version: '0'
+event(fields): CredUI_ModernDialog_LoadStyleSheetStop()
+opcode: Stop
+keywords: ''
+task: CredUI_ModernDialog_LoadStyleSheet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

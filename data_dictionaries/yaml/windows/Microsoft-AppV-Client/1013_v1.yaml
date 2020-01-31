@@ -1,0 +1,16 @@
+provider: Microsoft-AppV-Client
+event_id: '1013'
+version: '1'
+event(fields): UnpublishVirtualApplicationConnectionGroup_V1(GUID PackageGroup, GUID
+  Version)
+opcode: ''
+keywords: Publishing
+task: UnpublishVirtualApplicationConnectionGroup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PackageGroup
+- field_type: GUID
+  field_name: Version

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FeatureConfiguration
+event_id: '1001'
+version: '0'
+event(fields): FeatureConfigurationEvents(Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: FeatureConfigurationEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ErrorCode

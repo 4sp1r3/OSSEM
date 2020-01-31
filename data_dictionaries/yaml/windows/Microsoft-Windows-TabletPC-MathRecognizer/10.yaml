@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathRecognizer
+event_id: '10'
+version: '0'
+event(fields): RecognitionAlternatesStart()
+opcode: Start
+keywords: ''
+task: RecognitionAlternates
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

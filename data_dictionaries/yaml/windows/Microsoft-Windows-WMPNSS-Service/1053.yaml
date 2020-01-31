@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1053'
+version: '0'
+event(fields): UpdateObjectStart(UnicodeString ID, UnicodeString CurrentTagValue,
+  UnicodeString NewTagValue)
+opcode: Start
+keywords: ''
+task: UpdateObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ID
+- field_type: UnicodeString
+  field_name: CurrentTagValue
+- field_type: UnicodeString
+  field_name: NewTagValue

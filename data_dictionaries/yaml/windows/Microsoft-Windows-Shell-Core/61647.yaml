@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61647'
+version: '0'
+event(fields): DataObjectProvider_SetDataObjectStop()
+opcode: Stop
+keywords: Shell
+task: DataObjectProvider_SetDataObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

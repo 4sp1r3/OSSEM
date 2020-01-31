@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '12'
+version: '1'
+event(fields): RecordedUtility_V1(UInt64 PpmCheckTime, UInt64 IdleTime, UInt64 BusyTime,
+  UInt32 Frequency, UInt16 Group, UInt8 Number, UInt32 DeliveredPerformance, UInt16
+  Utility, UInt16 AffinitizedUtility, UInt8 FrequencySensitivity)
+opcode: ''
+keywords: Diag
+task: RecordedUtility
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PpmCheckTime
+- field_type: UInt64
+  field_name: IdleTime
+- field_type: UInt64
+  field_name: BusyTime
+- field_type: UInt32
+  field_name: Frequency
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: DeliveredPerformance
+- field_type: UInt16
+  field_name: Utility
+- field_type: UInt16
+  field_name: AffinitizedUtility
+- field_type: UInt8
+  field_name: FrequencySensitivity

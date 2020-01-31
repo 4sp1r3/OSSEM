@@ -1,0 +1,74 @@
+provider: Microsoft-Windows-Kernel-General
+event_id: '14'
+version: '0'
+event(fields): task_014(UnicodeString Mode, UnicodeString ObjectType, UnicodeString
+  ObjectName, UnicodeString ProcessName, UnicodeString ObjectCreatorProcessName, HexInt32
+  AccessMask, UInt32 TokenType, UInt32 ImpersonationLevel, UInt32 SessionId, UInt32
+  LowBoxNumber, UInt32 TokenGroupsCount, 28 TokenGroups, UInt32 TokenPackageCount,
+  30 TokenPackage, UInt32 TokenCapabilityCount, 31 TokenCapabilities, UInt32 TokenTrustLevelCount,
+  33 TokenTrustLevel, UInt8 SecurityDescriptorRevision, UInt16 SecurityDescriptorControl,
+  SID SecurityDescriptorOwner, SID SecurityDescriptorGroup, UInt8 DaclRevision, UInt16
+  DaclAceCount, 34 DaclAce, UInt8 SaclRevision, UInt16 SaclAceCount, 38 SaclAce)
+opcode: ''
+keywords: KERNEL_GENERAL_SECURITY_ACCESSCHECK
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Mode
+- field_type: UnicodeString
+  field_name: ObjectType
+- field_type: UnicodeString
+  field_name: ObjectName
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: ObjectCreatorProcessName
+- field_type: HexInt32
+  field_name: AccessMask
+- field_type: UInt32
+  field_name: TokenType
+- field_type: UInt32
+  field_name: ImpersonationLevel
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: LowBoxNumber
+- field_type: UInt32
+  field_name: TokenGroupsCount
+- field_type: '28'
+  field_name: TokenGroups
+- field_type: UInt32
+  field_name: TokenPackageCount
+- field_type: '30'
+  field_name: TokenPackage
+- field_type: UInt32
+  field_name: TokenCapabilityCount
+- field_type: '31'
+  field_name: TokenCapabilities
+- field_type: UInt32
+  field_name: TokenTrustLevelCount
+- field_type: '33'
+  field_name: TokenTrustLevel
+- field_type: UInt8
+  field_name: SecurityDescriptorRevision
+- field_type: UInt16
+  field_name: SecurityDescriptorControl
+- field_type: SID
+  field_name: SecurityDescriptorOwner
+- field_type: SID
+  field_name: SecurityDescriptorGroup
+- field_type: UInt8
+  field_name: DaclRevision
+- field_type: UInt16
+  field_name: DaclAceCount
+- field_type: '34'
+  field_name: DaclAce
+- field_type: UInt8
+  field_name: SaclRevision
+- field_type: UInt16
+  field_name: SaclAceCount
+- field_type: '38'
+  field_name: SaclAce

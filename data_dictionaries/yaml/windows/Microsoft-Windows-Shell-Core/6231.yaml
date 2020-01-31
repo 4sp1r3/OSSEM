@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6231'
+version: '0'
+event(fields): Thumbnails_CropLookupSize(UInt32 CropLookupSize)
+opcode: ''
+keywords: Shell
+task: Thumbnails_CropLookupSize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CropLookupSize

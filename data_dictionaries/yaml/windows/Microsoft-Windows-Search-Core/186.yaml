@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '186'
+version: '0'
+event(fields): CEnumSearchRoots_NextStart(UInt32 ElementCount)
+opcode: Start
+keywords: CSM
+task: CEnumSearchRoots_Next
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ElementCount

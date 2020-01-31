@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '236'
+version: '0'
+event(fields): Resizedswapchain(UInt32 Width, UInt32 Height, UInt32 Backbuffers, UInt32
+  Format, UInt32 Flags)
+opcode: ''
+keywords: ''
+task: Resizedswapchain
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: Backbuffers
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: Flags

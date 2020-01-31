@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '3687'
+version: '0'
+event(fields): LogTrace3687(GUID p1_GUID)
+opcode: ''
+keywords: ExecDevPlatCircular
+task: LogTrace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: p1_GUID

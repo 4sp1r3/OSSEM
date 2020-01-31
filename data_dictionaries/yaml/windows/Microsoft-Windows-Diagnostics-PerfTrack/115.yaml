@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '115'
+version: '0'
+event(fields): GenericScenario_AllocatedInstance()
+opcode: ''
+keywords: PerfTrackStatus
+task: GenericScenario_AllocatedInstance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

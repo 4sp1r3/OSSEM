@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '242'
+version: '0'
+event(fields): DebugExceptionProcessingStart()
+opcode: Start
+keywords: DebuggerKeyword
+task: DebugExceptionProcessing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

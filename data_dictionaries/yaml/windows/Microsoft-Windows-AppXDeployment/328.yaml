@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppXDeployment
+event_id: '328'
+version: '0'
+event(fields): task_0328(HexInt32 ErrorCode)
+opcode: ''
+keywords: AppXDeployment
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

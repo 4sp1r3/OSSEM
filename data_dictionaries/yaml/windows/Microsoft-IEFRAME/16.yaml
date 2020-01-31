@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '16'
+version: '0'
+event(fields): Shdocvw_Feed_SearchStop()
+opcode: Stop
+keywords: primarynav
+task: Shdocvw_Feed_Search
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

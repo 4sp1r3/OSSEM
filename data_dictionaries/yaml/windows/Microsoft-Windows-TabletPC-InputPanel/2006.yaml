@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '2006'
+version: '0'
+event(fields): VisibilityInputType2006(Pointer ForegroundHwnd)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: VisibilityInputType
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ForegroundHwnd

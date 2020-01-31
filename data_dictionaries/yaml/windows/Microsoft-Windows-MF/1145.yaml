@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-MF
+event_id: '1145'
+version: '0'
+event(fields): MediaFoundationAsyncWrapperProcessInputStart(Pointer WrapperPtr, UInt32
+  StreamID, Pointer SamplePtr, UInt64 SampleTimestamp, UInt64 Duration, UInt32 InputQueueLength,
+  UInt32 ShatterInputSamples, UInt32 BufferCount)
+opcode: Start
+keywords: ''
+task: MediaFoundationAsyncWrapperProcessInput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WrapperPtr
+- field_type: UInt32
+  field_name: StreamID
+- field_type: Pointer
+  field_name: SamplePtr
+- field_type: UInt64
+  field_name: SampleTimestamp
+- field_type: UInt64
+  field_name: Duration
+- field_type: UInt32
+  field_name: InputQueueLength
+- field_type: UInt32
+  field_name: ShatterInputSamples
+- field_type: UInt32
+  field_name: BufferCount

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '300'
+version: '0'
+event(fields): ServerQuery_ForcePublishStart(UInt32 Qid)
+opcode: Start
+keywords: Performance Indexing Querying IndexPI
+task: ServerQuery_ForcePublish
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Qid

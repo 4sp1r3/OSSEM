@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-RemoteAssistance
+event_id: '6'
+version: '0'
+event(fields): task_06(UnicodeString file, UInt32 line, UInt32 Condition)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: file
+- field_type: UInt32
+  field_name: line
+- field_type: UInt32
+  field_name: Condition

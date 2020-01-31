@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1263'
+version: '0'
+event(fields): Ndkpi_Modify_Srq(Pointer NdkSrq, UInt32 SrqDepth, UInt32 NotifyThreshold,
+  Pointer RequestContext)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Modify_Srq
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkSrq
+- field_type: UInt32
+  field_name: SrqDepth
+- field_type: UInt32
+  field_name: NotifyThreshold
+- field_type: Pointer
+  field_name: RequestContext

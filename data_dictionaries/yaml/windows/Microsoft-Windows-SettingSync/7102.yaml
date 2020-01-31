@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7102'
+version: '0'
+event(fields): Perf_NotifyOnBackgroundUploadsStartedStop(UnicodeString Clsid)
+opcode: Stop
+keywords: ''
+task: Perf_NotifyOnBackgroundUploadsStarted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Clsid

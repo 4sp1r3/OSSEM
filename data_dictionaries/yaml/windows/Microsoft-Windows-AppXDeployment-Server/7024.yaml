@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '7024'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.RuntimeStop7024(UnicodeString
+  PackageFullName)
+opcode: Stop
+keywords: RUNTIME_DEH_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.Runtime
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName

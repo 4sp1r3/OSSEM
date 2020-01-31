@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1815'
+version: '0'
+event(fields): RotationManagerInitializeOrientationService(UInt32 hex, UInt32 hex2)
+opcode: ''
+keywords: RotationManager
+task: RotationManagerInitializeOrientationService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex
+- field_type: UInt32
+  field_name: hex2

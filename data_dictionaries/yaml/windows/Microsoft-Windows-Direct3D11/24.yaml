@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '24'
+version: '0'
+event(fields): UMDDeviceCreateStart()
+opcode: Start
+keywords: Devices
+task: UMDDeviceCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

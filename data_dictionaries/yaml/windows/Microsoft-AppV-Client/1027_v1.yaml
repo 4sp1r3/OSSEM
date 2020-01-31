@@ -1,0 +1,17 @@
+provider: Microsoft-AppV-Client
+event_id: '1027'
+version: '1'
+event(fields): ConfigurePackage1027_V1(GUID Id, GUID Version, UnicodeString Path)
+opcode: ''
+keywords: Publishing
+task: ConfigurePackage
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: GUID
+  field_name: Version
+- field_type: UnicodeString
+  field_name: Path

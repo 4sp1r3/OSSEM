@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxpTaskSyncProvider
+event_id: '343'
+version: '0'
+event(fields): DxpTaskSync_MediaPopulateChoiceStop()
+opcode: Stop
+keywords: ''
+task: DxpTaskSync_MediaPopulateChoice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

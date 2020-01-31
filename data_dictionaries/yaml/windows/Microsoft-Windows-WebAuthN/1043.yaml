@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '1043'
+version: '0'
+event(fields): NgcGetAssertionResponseInformational(GUID TransactionId, UInt32 RpIdHashLength,
+  Binary RpIdHash, HexInt32 Flags, HexInt32 SignCount, UInt32 CredentialIdLength,
+  Binary CredentialId)
+opcode: Informational
+keywords: WebAuthN Ngc
+task: NgcGetAssertionResponse
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UInt32
+  field_name: RpIdHashLength
+- field_type: Binary
+  field_name: RpIdHash
+- field_type: HexInt32
+  field_name: Flags
+- field_type: HexInt32
+  field_name: SignCount
+- field_type: UInt32
+  field_name: CredentialIdLength
+- field_type: Binary
+  field_name: CredentialId

@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '15000'
+version: '0'
+event(fields): TemplateConsole_1016TemplateConsole(Int32 intValue1)
+opcode: TemplateConsole
+keywords: ''
+task: TemplateConsole_1016
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: intValue1

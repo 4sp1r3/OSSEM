@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '2313'
+version: '0'
+event(fields): WPRegistrationPolicy2313(Boolean bCode1, Boolean bCode2, Boolean bCode3)
+opcode: ''
+keywords: Trace
+task: WPRegistrationPolicy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: bCode1
+- field_type: Boolean
+  field_name: bCode2
+- field_type: Boolean
+  field_name: bCode3

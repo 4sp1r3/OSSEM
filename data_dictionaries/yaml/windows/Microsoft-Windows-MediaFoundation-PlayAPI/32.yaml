@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '32'
+version: '0'
+event(fields): MFPlayStart32(Pointer Object, Pointer MediaItem)
+opcode: Start
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: MediaItem

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '312'
+version: '0'
+event(fields): PLAYHISTORY(UInt32 Int1, UInt32 Int2)
+opcode: ''
+keywords: mediaplayer
+task: PLAYHISTORY
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Int1
+- field_type: UInt32
+  field_name: Int2

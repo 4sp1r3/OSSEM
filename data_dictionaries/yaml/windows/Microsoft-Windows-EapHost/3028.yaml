@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-EapHost
+event_id: '3028'
+version: '0'
+event(fields): Common3028(AnsiString debugString)
+opcode: ''
+keywords: ''
+task: Common
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: debugString

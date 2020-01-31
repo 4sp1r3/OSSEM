@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-StorPort
+event_id: '2'
+version: '1'
+event(fields): TargetresetOpCodeTargetReset_V1(UInt32 PortNumber, UInt8 PathID, UInt8
+  TargetID)
+opcode: OpCodeTargetReset
+keywords: Reset
+task: Targetreset
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: PathID
+- field_type: UInt8
+  field_name: TargetID

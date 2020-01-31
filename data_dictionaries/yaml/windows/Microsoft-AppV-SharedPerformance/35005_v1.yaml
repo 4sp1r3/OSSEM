@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '35005'
+version: '1'
+event(fields): VFSqueryattributesfileStop_V1()
+opcode: Stop
+keywords: ''
+task: VFSqueryattributesfile
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

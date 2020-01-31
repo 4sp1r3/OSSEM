@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPDMCUI
+event_id: '2022'
+version: '0'
+event(fields): PLAYTO_DEVICE_PLAYStop(UnicodeString UDN, Int32 result)
+opcode: Stop
+keywords: ''
+task: PLAYTO_DEVICE_PLAY
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: Int32
+  field_name: result

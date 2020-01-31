@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9513'
+version: '0'
+event(fields): Explorer_StartPane_OpenBox_Char(UnicodeString Query)
+opcode: ''
+keywords: Shell
+task: Explorer_StartPane_OpenBox_Char
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Query

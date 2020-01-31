@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5083'
+version: '0'
+event(fields): UdwmAnimationComponent(Pointer hwnd, Int32 StoryboardId, Int32 Target)
+opcode: ''
+keywords: Udwm
+task: UdwmAnimationComponent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwnd
+- field_type: Int32
+  field_name: StoryboardId
+- field_type: Int32
+  field_name: Target

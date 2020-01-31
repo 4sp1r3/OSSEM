@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2251'
+version: '0'
+event(fields): Share_ShowFetchProgressStop()
+opcode: Stop
+keywords: ''
+task: Share_ShowFetchProgress
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '23'
+version: '0'
+event(fields): ICSPNode_GetPropertyIdentifiers_TaskStop(Int32 PropCount, UInt32 Result)
+opcode: Stop
+keywords: Performance Trace
+task: ICSPNode_GetPropertyIdentifiers_Task
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: PropCount
+- field_type: UInt32
+  field_name: Result

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1115'
+version: '0'
+event(fields): CSAccountingInProgressStart()
+opcode: Start
+keywords: DxgKrnl_Power
+task: CSAccountingInProgress
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '204'
+version: '0'
+event(fields): SCHEDULE_PRESENT_STATS_DELTAS(UInt64 DisplayID, UInt64 SyncRefreshCountDelta,
+  Float SyncTimeDeltaMS)
+opcode: ''
+keywords: DwmCore
+task: SCHEDULE_PRESENT_STATS_DELTAS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DisplayID
+- field_type: UInt64
+  field_name: SyncRefreshCountDelta
+- field_type: Float
+  field_name: SyncTimeDeltaMS

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '24'
+version: '0'
+event(fields): PlatformBootUp24()
+opcode: ''
+keywords: wpnplat wpntroubleshoot
+task: PlatformBootUp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

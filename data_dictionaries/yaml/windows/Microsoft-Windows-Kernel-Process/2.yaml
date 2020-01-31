@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '2'
+version: '0'
+event(fields): ProcessStop(UInt32 ProcessID, FILETIME CreateTime, FILETIME ExitTime,
+  UInt32 ExitCode, UInt32 TokenElevationType, UInt32 HandleCount, UInt64 CommitCharge,
+  UInt64 CommitPeak, AnsiString ImageName)
+opcode: Stop
+keywords: WINEVENT_KEYWORD_PROCESS
+task: ProcessStop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: FILETIME
+  field_name: CreateTime
+- field_type: FILETIME
+  field_name: ExitTime
+- field_type: UInt32
+  field_name: ExitCode
+- field_type: UInt32
+  field_name: TokenElevationType
+- field_type: UInt32
+  field_name: HandleCount
+- field_type: UInt64
+  field_name: CommitCharge
+- field_type: UInt64
+  field_name: CommitPeak
+- field_type: AnsiString
+  field_name: ImageName

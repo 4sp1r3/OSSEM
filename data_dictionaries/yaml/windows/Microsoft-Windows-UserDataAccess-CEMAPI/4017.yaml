@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4017'
+version: '0'
+event(fields): FOLDER_COPYMESSAGESStart()
+opcode: Start
+keywords: Performance
+task: FOLDER_COPYMESSAGES
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

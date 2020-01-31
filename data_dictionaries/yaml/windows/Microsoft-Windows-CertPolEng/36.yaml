@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CertPolEng
+event_id: '36'
+version: '0'
+event(fields): task_036(UInt32 Source, UInt32 Calculated)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Source
+- field_type: UInt32
+  field_name: Calculated

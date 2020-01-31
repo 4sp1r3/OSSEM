@@ -1,0 +1,18 @@
+provider: Microsoft-IEFRAME
+event_id: '329'
+version: '0'
+event(fields): NotificationBar_AnimateStop(UInt32 AnimationType, UInt32 Flags, UInt32
+  Result)
+opcode: Stop
+keywords: notification
+task: NotificationBar_Animate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AnimationType
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Result

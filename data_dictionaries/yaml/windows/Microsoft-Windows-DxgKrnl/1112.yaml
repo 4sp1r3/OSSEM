@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1112'
+version: '0'
+event(fields): IndirectSwapChainUnOrderedPresent(Pointer pSwapChain, UInt32 Status,
+  UInt32 bProducer, Pointer hSurface, UInt32 SurfaceIdx, UInt32 MetadataSize)
+opcode: ''
+keywords: IndirectSwapChain
+task: IndirectSwapChainUnOrderedPresent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pSwapChain
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: bProducer
+- field_type: Pointer
+  field_name: hSurface
+- field_type: UInt32
+  field_name: SurfaceIdx
+- field_type: UInt32
+  field_name: MetadataSize

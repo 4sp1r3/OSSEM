@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '4'
+version: '1'
+event(fields): task_04_V1(UnicodeString RegistryKeyName, UnicodeString SettingName,
+  UInt32 MinValidValue, UInt32 MaxValidValue, UInt32 DefaultValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RegistryKeyName
+- field_type: UnicodeString
+  field_name: SettingName
+- field_type: UInt32
+  field_name: MinValidValue
+- field_type: UInt32
+  field_name: MaxValidValue
+- field_type: UInt32
+  field_name: DefaultValue

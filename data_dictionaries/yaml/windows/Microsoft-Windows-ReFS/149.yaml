@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-ReFS
+event_id: '149'
+version: '0'
+event(fields): task_0149(GUID VolumeCorrelationId, UInt32 VolumeNameLength, UnicodeString
+  VolumeName, Boolean IsBootVolume, UInt32 SecondsElapsed, UInt32 HighLatencyCount,
+  UInt32 FailedWriteCount, UInt32 FailedReadCount, UInt32 BadClusterHotfixCount, UInt32
+  ValuesCount, UInt32 HighLatencyArray, UInt32 FailedWriteArray, UInt32 FailedReadArray,
+  UInt32 BadClusterHotfixArray, UInt32 StatusArray, UInt32 TableIndexArray)
+opcode: ''
+keywords: Statistics
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VolumeCorrelationId
+- field_type: UInt32
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: Boolean
+  field_name: IsBootVolume
+- field_type: UInt32
+  field_name: SecondsElapsed
+- field_type: UInt32
+  field_name: HighLatencyCount
+- field_type: UInt32
+  field_name: FailedWriteCount
+- field_type: UInt32
+  field_name: FailedReadCount
+- field_type: UInt32
+  field_name: BadClusterHotfixCount
+- field_type: UInt32
+  field_name: ValuesCount
+- field_type: UInt32
+  field_name: HighLatencyArray
+- field_type: UInt32
+  field_name: FailedWriteArray
+- field_type: UInt32
+  field_name: FailedReadArray
+- field_type: UInt32
+  field_name: BadClusterHotfixArray
+- field_type: UInt32
+  field_name: StatusArray
+- field_type: UInt32
+  field_name: TableIndexArray

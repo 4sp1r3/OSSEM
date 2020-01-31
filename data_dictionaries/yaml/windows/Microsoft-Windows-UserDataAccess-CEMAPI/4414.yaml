@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4414'
+version: '0'
+event(fields): MSG_ADDRECIPIENTSStart()
+opcode: Start
+keywords: Performance
+task: MSG_ADDRECIPIENTS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

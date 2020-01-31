@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '602'
+version: '0'
+event(fields): CCellularStop(UInt64 Pointer)
+opcode: Stop
+keywords: Performance
+task: CCellular
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Pointer

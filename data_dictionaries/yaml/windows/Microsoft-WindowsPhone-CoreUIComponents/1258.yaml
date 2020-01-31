@@ -1,0 +1,16 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1258'
+version: '0'
+event(fields): ForegroundTaskManagerGetApplicationDefaultFullScreenValueStop(Boolean
+  fBool, UInt32 navigationError)
+opcode: Stop
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerGetApplicationDefaultFullScreenValue
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fBool
+- field_type: UInt32
+  field_name: navigationError

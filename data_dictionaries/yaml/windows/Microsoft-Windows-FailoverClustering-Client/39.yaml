@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FailoverClustering-Client
+event_id: '39'
+version: '0'
+event(fields): task_039(UnicodeString Parameter1)
+opcode: ''
+keywords: NetInt
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Parameter1

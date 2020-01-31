@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '105'
+version: '0'
+event(fields): ContactVisualizationStop()
+opcode: Stop
+keywords: UserActivity Rendering
+task: ContactVisualization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

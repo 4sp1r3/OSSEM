@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '223'
+version: '0'
+event(fields): MPS_SVC_API_ClosePolicyStoreStop()
+opcode: Stop
+keywords: Service
+task: MPS_SVC_API_ClosePolicyStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

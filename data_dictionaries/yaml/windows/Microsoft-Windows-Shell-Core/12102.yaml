@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '12102'
+version: '0'
+event(fields): Shlwapi_SHGetSignatureInfoStop()
+opcode: Stop
+keywords: Shell WDI
+task: Shlwapi_SHGetSignatureInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

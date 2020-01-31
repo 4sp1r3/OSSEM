@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '531'
+version: '0'
+event(fields): ClientConnection_StateChange(UnicodeString NewState)
+opcode: ''
+keywords: PerfInstrumentation
+task: ClientConnection_StateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: NewState

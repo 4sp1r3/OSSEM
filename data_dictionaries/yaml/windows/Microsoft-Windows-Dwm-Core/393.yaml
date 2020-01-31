@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '393'
+version: '0'
+event(fields): COMPUTESCRIBBLE_TELEMETRYDROPPED(UInt32 FirstPointerFrameID, UInt32
+  LastPointerFrameID, UInt64 RenderStartQPC, UInt64 RenderStopQPC)
+opcode: ''
+keywords: DwmCore
+task: COMPUTESCRIBBLE_TELEMETRYDROPPED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FirstPointerFrameID
+- field_type: UInt32
+  field_name: LastPointerFrameID
+- field_type: UInt64
+  field_name: RenderStartQPC
+- field_type: UInt64
+  field_name: RenderStopQPC

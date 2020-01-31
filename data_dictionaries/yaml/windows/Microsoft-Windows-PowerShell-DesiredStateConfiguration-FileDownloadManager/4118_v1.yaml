@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager
+event_id: '4118'
+version: '1'
+event(fields): ValidaterequestinFileDownloadManager4118_V1(UnicodeString ExceptionSeen)
+opcode: ''
+keywords: ''
+task: ValidaterequestinFileDownloadManager
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExceptionSeen

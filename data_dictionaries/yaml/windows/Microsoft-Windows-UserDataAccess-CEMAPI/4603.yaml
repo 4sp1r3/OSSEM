@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4603'
+version: '0'
+event(fields): CONVERSATION_SOFTDELETEStop()
+opcode: Stop
+keywords: Performance
+task: CONVERSATION_SOFTDELETE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

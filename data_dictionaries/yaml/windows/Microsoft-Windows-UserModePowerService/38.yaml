@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '38'
+version: '0'
+event(fields): SleepStudySleepSessionReloggingStop(UInt32 Type, UInt32 Id, UInt32
+  ErrorCode)
+opcode: Stop
+keywords: SleepStudy
+task: SleepStudySleepSessionRelogging
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Id
+- field_type: UInt32
+  field_name: ErrorCode

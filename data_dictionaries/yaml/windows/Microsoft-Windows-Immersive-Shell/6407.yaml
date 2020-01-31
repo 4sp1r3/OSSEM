@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6407'
+version: '0'
+event(fields): AppList_PinItemStop()
+opcode: Stop
+keywords: ''
+task: AppList_PinItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

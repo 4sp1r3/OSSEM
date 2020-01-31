@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-Machine-DUI
+event_id: '5127'
+version: '0'
+event(fields): EULAWizardPage_LoadEulas5127()
+opcode: ''
+keywords: msoobe
+task: EULAWizardPage_LoadEulas
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

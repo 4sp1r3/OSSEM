@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '98'
+version: '0'
+event(fields): task_098(UInt32 UInt32Param)
+opcode: ''
+keywords: Reader
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UInt32Param

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Runtime-Web-Http
+event_id: '48'
+version: '0'
+event(fields): HttpAsyncI/O48()
+opcode: ''
+keywords: ''
+task: HttpAsyncI/O
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1006'
+version: '0'
+event(fields): ConnectionSequenceThiseventisraisedwhiletryingtoautomaticallyreconnecttotheserver(UnicodeString
+  TraceMessage, UInt32 ErrorCode)
+opcode: Thiseventisraisedwhiletryingtoautomaticallyreconnecttotheserver
+keywords: ''
+task: ConnectionSequence
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceMessage
+- field_type: UInt32
+  field_name: ErrorCode

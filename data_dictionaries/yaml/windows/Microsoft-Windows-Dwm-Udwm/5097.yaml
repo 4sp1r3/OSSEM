@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5097'
+version: '0'
+event(fields): UdwmSecondaryWindowMakeStatic()
+opcode: ''
+keywords: Udwm
+task: UdwmSecondaryWindowMakeStatic
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

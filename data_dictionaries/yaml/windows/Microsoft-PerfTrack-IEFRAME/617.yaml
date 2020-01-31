@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '617'
+version: '0'
+event(fields): Find_HighlightHits_PerftrackStart(UInt64 Object)
+opcode: Start
+keywords: ''
+task: Find_HighlightHits_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '181'
+version: '0'
+event(fields): DmStartCrossSlideContainersStart()
+opcode: Start
+keywords: Input
+task: DmStartCrossSlideContainers
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OLE-Perf
+event_id: '8'
+version: '0'
+event(fields): OLE_Clipboard_IsCurrentClipboardStop()
+opcode: Stop
+keywords: ''
+task: OLE_Clipboard_IsCurrentClipboard
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

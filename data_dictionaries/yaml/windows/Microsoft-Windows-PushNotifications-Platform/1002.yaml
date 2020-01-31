@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1002'
+version: '0'
+event(fields): task_01002(GUID CLSID, UInt32 Flags, Int32 ErrorCode)
+opcode: ''
+keywords: wpnconn
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CLSID
+- field_type: UInt32
+  field_name: Flags
+- field_type: Int32
+  field_name: ErrorCode

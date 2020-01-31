@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '7006'
+version: '0'
+event(fields): SelfHostInfo_MaxUniquenessHit(UInt32 hex)
+opcode: ''
+keywords: keyword_40000000000
+task: SelfHostInfo_MaxUniquenessHit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '653'
+version: '0'
+event(fields): Smb2FileSuspend(GUID OpenGUID)
+opcode: ''
+keywords: File
+task: Smb2FileSuspend
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: OpenGUID

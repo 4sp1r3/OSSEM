@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '2114'
+version: '0'
+event(fields): task_02114(UInt32 hr)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr

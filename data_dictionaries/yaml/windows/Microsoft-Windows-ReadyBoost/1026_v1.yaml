@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-ReadyBoost
+event_id: '1026'
+version: '1'
+event(fields): ReadyBoot1026_V1(UnicodeString VolumeUniqueId, UInt16 OldRdbAttachState,
+  UInt16 NewRdbAttachState, UInt16 OldHbdrvAttachState, UInt16 NewHbdrvAttachState,
+  UnicodeString VolumePath)
+opcode: ''
+keywords: ReadyBoot
+task: ReadyBoot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VolumeUniqueId
+- field_type: UInt16
+  field_name: OldRdbAttachState
+- field_type: UInt16
+  field_name: NewRdbAttachState
+- field_type: UInt16
+  field_name: OldHbdrvAttachState
+- field_type: UInt16
+  field_name: NewHbdrvAttachState
+- field_type: UnicodeString
+  field_name: VolumePath

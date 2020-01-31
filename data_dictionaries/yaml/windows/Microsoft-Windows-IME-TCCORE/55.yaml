@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-TCCORE
+event_id: '55'
+version: '0'
+event(fields): TaskID:IMELMDecodingSearchStart()
+opcode: SearchStart
+keywords: ''
+task: TaskID:IMELMDecoding
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1812'
+version: '0'
+event(fields): CryptoSessionTeardownCount(Pointer pThis, Pointer pCryptoSession, UInt32
+  TeardownCount)
+opcode: ''
+keywords: ''
+task: CryptoSessionTeardownCount
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pCryptoSession
+- field_type: UInt32
+  field_name: TeardownCount

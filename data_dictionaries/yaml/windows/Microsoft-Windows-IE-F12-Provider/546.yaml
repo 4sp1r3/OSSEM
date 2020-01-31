@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IE-F12-Provider
+event_id: '546'
+version: '0'
+event(fields): Dom_CommitEditAttributeStop(UnicodeString TraceDescription)
+opcode: Stop
+keywords: ''
+task: Dom_CommitEditAttribute
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceDescription

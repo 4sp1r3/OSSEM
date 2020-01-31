@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '41001'
+version: '1'
+event(fields): VServices.ServiceDllAttachStop_V1()
+opcode: Stop
+keywords: ''
+task: VServices.ServiceDllAttach
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

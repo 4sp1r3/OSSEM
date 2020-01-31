@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WABSyncProvider
+event_id: '16'
+version: '0'
+event(fields): EnumerateItemsStop()
+opcode: Stop
+keywords: ''
+task: EnumerateItems
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

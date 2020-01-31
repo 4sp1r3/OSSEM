@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HomeGroup-ListenerService
+event_id: '14'
+version: '0'
+event(fields): HomeGroup_ListenerService_Alpha_ReadPersistedAlphaStop()
+opcode: Stop
+keywords: ''
+task: HomeGroup_ListenerService_Alpha_ReadPersistedAlpha
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

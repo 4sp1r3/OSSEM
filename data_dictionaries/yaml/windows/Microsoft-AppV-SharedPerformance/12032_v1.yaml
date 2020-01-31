@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '12032'
+version: '1'
+event(fields): GlobalUnpublishingStart_V1()
+opcode: Start
+keywords: ''
+task: GlobalUnpublishing
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

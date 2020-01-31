@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '244'
+version: '1'
+event(fields): QueuePacketStart244_V1(Pointer hContext, UInt32 SubmitSequence, UInt32
+  Flags, Pointer hSyncObject, UInt64 FenceValue, Pointer pQueuePacket)
+opcode: Start
+keywords: Base
+task: QueuePacket
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: SubmitSequence
+- field_type: UInt32
+  field_name: Flags
+- field_type: Pointer
+  field_name: hSyncObject
+- field_type: UInt64
+  field_name: FenceValue
+- field_type: Pointer
+  field_name: pQueuePacket

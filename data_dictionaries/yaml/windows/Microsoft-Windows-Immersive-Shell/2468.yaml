@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2468'
+version: '0'
+event(fields): PLM_MemoryPolicy(UnicodeString PsmKey, UInt32 Reason, UInt32 HiFlags_LoAppCount,
+  UInt32 HiThreshold_LoCurrentMetric, UInt32 SumOfPrivateWsOrSumOfSwapUsageOrPrivateModifiedSize)
+opcode: ''
+keywords: PLMComponent
+task: PLM_MemoryPolicy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: HiFlags_LoAppCount
+- field_type: UInt32
+  field_name: HiThreshold_LoCurrentMetric
+- field_type: UInt32
+  field_name: SumOfPrivateWsOrSumOfSwapUsageOrPrivateModifiedSize

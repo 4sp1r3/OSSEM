@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Bluetooth-MTPEnum
+event_id: '101'
+version: '0'
+event(fields): DriverHealth101(UInt32 StatusCode)
+opcode: ''
+keywords: ''
+task: DriverHealth
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StatusCode

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '127'
+version: '0'
+event(fields): AppIntegrityInAppValidatePackageStart(UnicodeString PackageFullName)
+opcode: Start
+keywords: Process
+task: AppIntegrityInAppValidatePackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName

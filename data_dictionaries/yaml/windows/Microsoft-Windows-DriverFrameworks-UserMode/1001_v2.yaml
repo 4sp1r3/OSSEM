@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '1001'
+version: '2'
+event(fields): Startupofthedrivermanagerservice.Stop_V2(UInt32 Error)
+opcode: Stop
+keywords: ''
+task: Startupofthedrivermanagerservice.
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error

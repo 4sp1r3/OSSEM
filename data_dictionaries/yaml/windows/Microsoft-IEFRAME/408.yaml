@@ -1,0 +1,18 @@
+provider: Microsoft-IEFRAME
+event_id: '408'
+version: '0'
+event(fields): Browseui_HangUI_DisparentAndDetachBrowserTabStop(Boolean Disconnect,
+  UInt32 TabID, UInt32 HRESULT)
+opcode: Stop
+keywords: hang
+task: Browseui_HangUI_DisparentAndDetachBrowserTab
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Disconnect
+- field_type: UInt32
+  field_name: TabID
+- field_type: UInt32
+  field_name: HRESULT

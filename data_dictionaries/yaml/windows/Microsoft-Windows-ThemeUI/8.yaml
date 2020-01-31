@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ThemeUI
+event_id: '8'
+version: '0'
+event(fields): ThemePack_ProgressBarDisplayed()
+opcode: ''
+keywords: ''
+task: ThemePack_ProgressBarDisplayed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

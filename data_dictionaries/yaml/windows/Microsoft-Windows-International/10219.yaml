@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-International
+event_id: '10219'
+version: '0'
+event(fields): NLSUnattendedRegionalandLanguageOptionsNLSoperations10219()
+opcode: NLSoperations
+keywords: ''
+task: NLSUnattendedRegionalandLanguageOptions
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

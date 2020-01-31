@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10115'
+version: '0'
+event(fields): Request10115(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 RequestType,
+  GUID LowerIf)
+opcode: ''
+keywords: Request
+task: Request
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: NetLuid
+- field_type: UInt32
+  field_name: RequestType
+- field_type: GUID
+  field_name: LowerIf

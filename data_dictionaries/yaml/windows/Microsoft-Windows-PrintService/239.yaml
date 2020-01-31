@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-PrintService
+event_id: '239'
+version: '0'
+event(fields): InstallingaprinterdriverSpoolerOperationFailed239(UnicodeString DriverName,
+  UnicodeString InfPath, UnicodeString RequiredClassDriver, UnicodeString Directive,
+  UnicodeString Value)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP
+task: Installingaprinterdriver
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UnicodeString
+  field_name: InfPath
+- field_type: UnicodeString
+  field_name: RequiredClassDriver
+- field_type: UnicodeString
+  field_name: Directive
+- field_type: UnicodeString
+  field_name: Value

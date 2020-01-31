@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Winsrv
+event_id: '12012'
+version: '1'
+event(fields): NotificationEventStop_V1(UInt32 EventType)
+opcode: Stop
+keywords: Perf
+task: NotificationEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EventType

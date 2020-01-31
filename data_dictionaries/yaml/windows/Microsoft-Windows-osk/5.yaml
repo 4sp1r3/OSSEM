@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-osk
+event_id: '5'
+version: '0'
+event(fields): SwitchModeStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: SwitchMode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

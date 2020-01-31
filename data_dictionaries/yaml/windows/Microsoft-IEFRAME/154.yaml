@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '154'
+version: '0'
+event(fields): Find_FindHitsStop()
+opcode: Stop
+keywords: primarynav
+task: Find_FindHits
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

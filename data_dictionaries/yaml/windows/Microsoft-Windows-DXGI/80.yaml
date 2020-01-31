@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '80'
+version: '0'
+event(fields): CreateDXGIFactoryStart(GUID riid, Pointer ppFactory)
+opcode: Start
+keywords: ''
+task: CreateDXGIFactory
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: riid
+- field_type: Pointer
+  field_name: ppFactory

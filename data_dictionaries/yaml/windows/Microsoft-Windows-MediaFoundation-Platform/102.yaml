@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '102'
+version: '0'
+event(fields): MediaFoundationPlatformShutdownStop(HexInt32 hr)
+opcode: Stop
+keywords: ''
+task: MediaFoundationPlatformShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: hr

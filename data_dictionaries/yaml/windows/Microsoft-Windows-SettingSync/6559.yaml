@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6559'
+version: '0'
+event(fields): task_06559(UnicodeString SettingUnitId, UInt32 WriteStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SettingUnitId
+- field_type: UInt32
+  field_name: WriteStatus

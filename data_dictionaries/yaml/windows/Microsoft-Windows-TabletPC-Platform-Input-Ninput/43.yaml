@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '43'
+version: '0'
+event(fields): NinputSendWmGesture(UInt32 GestureId)
+opcode: ''
+keywords: ''
+task: NinputSendWmGesture
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: GestureId

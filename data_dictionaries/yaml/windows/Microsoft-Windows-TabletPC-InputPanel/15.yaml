@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '15'
+version: '0'
+event(fields): StateModel_ActivateHKLStart()
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: StateModel_ActivateHKL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

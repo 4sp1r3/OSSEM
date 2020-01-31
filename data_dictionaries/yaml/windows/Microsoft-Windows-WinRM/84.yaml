@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '84'
+version: '0'
+event(fields): Requesthandling(UInt32 users)
+opcode: ''
+keywords: Keyword.Server Keyword.QuotaViolation
+task: Requesthandling
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: users

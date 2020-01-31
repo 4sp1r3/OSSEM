@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '27'
+version: '0'
+event(fields): Thisgroupofeventstrackstheperformanceofflushinghives.RegPerfOpHiveFlushWrotePrimaryFile(UInt32
+  WritesIssued, UInt32 BytesWritten)
+opcode: RegPerfOpHiveFlushWrotePrimaryFile
+keywords: ''
+task: Thisgroupofeventstrackstheperformanceofflushinghives.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WritesIssued
+- field_type: UInt32
+  field_name: BytesWritten

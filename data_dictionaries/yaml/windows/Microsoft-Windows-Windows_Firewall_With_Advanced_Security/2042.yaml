@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2042'
+version: '0'
+event(fields): task_02042(UInt32 SettingType, Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SettingType
+- field_type: Int32
+  field_name: ErrorCode

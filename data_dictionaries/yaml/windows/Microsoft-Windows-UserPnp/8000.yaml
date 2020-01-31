@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '8000'
+version: '0'
+event(fields): task_0(UnicodeString DeviceId)
+opcode: ''
+keywords: UserPnp
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceId

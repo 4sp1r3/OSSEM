@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61355'
+version: '0'
+event(fields): OperationManager_Cancelled(UInt32 OldState, UInt32 NewState)
+opcode: ''
+keywords: Shell
+task: OperationManager_Cancelled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OldState
+- field_type: UInt32
+  field_name: NewState

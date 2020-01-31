@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '43'
+version: '0'
+event(fields): ETWGUID_OCCLUSIONEVENTStart(UInt64 data, UInt32 Id)
+opcode: Start
+keywords: DwmCore
+task: ETWGUID_OCCLUSIONEVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: data
+- field_type: UInt32
+  field_name: Id

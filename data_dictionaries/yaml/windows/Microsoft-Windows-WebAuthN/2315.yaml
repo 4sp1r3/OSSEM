@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2315'
+version: '0'
+event(fields): CtapNfcReaderManagerThreadStop(GUID TransactionId, UInt32 NumberOfTimesScardCancelCommandsSent)
+opcode: Stop
+keywords: Ctap Nfc
+task: CtapNfcReaderManagerThread
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UInt32
+  field_name: NumberOfTimesScardCancelCommandsSent

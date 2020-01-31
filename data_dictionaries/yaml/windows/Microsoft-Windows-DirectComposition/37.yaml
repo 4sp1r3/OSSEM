@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '37'
+version: '0'
+event(fields): VIRTUAL_SURFACE_COUNTERS(UInt32 percentValidTiles, UInt32 pixelsPerClump)
+opcode: ''
+keywords: DCompDiagnostic DCompMemory
+task: VIRTUAL_SURFACE_COUNTERS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: percentValidTiles
+- field_type: UInt32
+  field_name: pixelsPerClump

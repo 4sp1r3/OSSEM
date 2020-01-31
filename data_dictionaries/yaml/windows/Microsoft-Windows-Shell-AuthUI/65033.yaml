@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '65033'
+version: '0'
+event(fields): LockscreenNotifications_NotificationArrivedStop()
+opcode: Stop
+keywords: ''
+task: LockscreenNotifications_NotificationArrived
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

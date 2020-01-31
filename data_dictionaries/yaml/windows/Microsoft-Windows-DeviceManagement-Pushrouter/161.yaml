@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceManagement-Pushrouter
+event_id: '161'
+version: '0'
+event(fields): task_0161()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

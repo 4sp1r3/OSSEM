@@ -1,0 +1,13 @@
+provider: Microsoft-IE-JSDumpHeap
+event_id: '2'
+version: '1'
+event(fields): JSDumpHeapEnvelopeStop_V1(UnicodeString Summary)
+opcode: Stop
+keywords: jsdumpheap jsdumpheapEnvelopeOnly
+task: JSDumpHeapEnvelope
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Summary

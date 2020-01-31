@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '241'
+version: '0'
+event(fields): StateRepository.Task.DataAccessLayer241(HexInt32 ErrorCode, AnsiString
+  Filename, UInt32 ProcessIndex, UInt32 ProcessCount, UInt32 ProcessId, UnicodeString
+  ApplicationUserModelId, UnicodeString PackageFullName, UnicodeString ExecutableName,
+  UnicodeString UserSID, UnicodeString UserDomain, UnicodeString UserName, UInt32
+  SessionId, UnicodeString CommandLine)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD keyword_400000000000
+task: StateRepository.Task.DataAccessLayer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: AnsiString
+  field_name: Filename
+- field_type: UInt32
+  field_name: ProcessIndex
+- field_type: UInt32
+  field_name: ProcessCount
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ApplicationUserModelId
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: ExecutableName
+- field_type: UnicodeString
+  field_name: UserSID
+- field_type: UnicodeString
+  field_name: UserDomain
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: CommandLine

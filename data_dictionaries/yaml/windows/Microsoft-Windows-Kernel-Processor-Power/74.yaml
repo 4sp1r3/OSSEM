@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '74'
+version: '0'
+event(fields): LowPowerScenarioChange(UInt32 PreviousActiveScenarioId, UInt32 NewActiveScenarioId)
+opcode: ''
+keywords: Perf Diag
+task: LowPowerScenarioChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PreviousActiveScenarioId
+- field_type: UInt32
+  field_name: NewActiveScenarioId

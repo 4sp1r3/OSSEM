@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Runtime-Web-Http
+event_id: '36'
+version: '0'
+event(fields): HttpCct36()
+opcode: ''
+keywords: ''
+task: HttpCct
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

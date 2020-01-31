@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2005'
+version: '0'
+event(fields): CoreApplicationExitStop()
+opcode: Stop
+keywords: ''
+task: CoreApplicationExit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

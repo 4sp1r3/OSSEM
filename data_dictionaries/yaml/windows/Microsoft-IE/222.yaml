@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '222'
+version: '0'
+event(fields): Mshtml_MediaEngine_SeekStop(UInt32 MediaEngineID, UInt32 hrResult)
+opcode: Stop
+keywords: mediaengine
+task: Mshtml_MediaEngine_Seek
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaEngineID
+- field_type: UInt32
+  field_name: hrResult

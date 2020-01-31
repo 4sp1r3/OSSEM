@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '2012'
+version: '0'
+event(fields): PKMKeyboardDeparted(UInt32 KeyboardType)
+opcode: ''
+keywords: ''
+task: PKMKeyboardDeparted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: KeyboardType

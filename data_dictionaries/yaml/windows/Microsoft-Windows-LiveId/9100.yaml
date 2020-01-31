@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LiveId
+event_id: '9100'
+version: '0'
+event(fields): task_09100(UnicodeString value)
+opcode: ''
+keywords: WlidProv Credentials
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '136'
+version: '0'
+event(fields): DeviceRundown(Pointer DeviceNode, UInt8 PowerState, UInt16 InstancePathLength,
+  UnicodeString InstancePath, UInt16 FriendlyNameLength, UnicodeString FriendlyName)
+opcode: ''
+keywords: po:Diagnostic
+task: DeviceRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DeviceNode
+- field_type: UInt8
+  field_name: PowerState
+- field_type: UInt16
+  field_name: InstancePathLength
+- field_type: UnicodeString
+  field_name: InstancePath
+- field_type: UInt16
+  field_name: FriendlyNameLength
+- field_type: UnicodeString
+  field_name: FriendlyName

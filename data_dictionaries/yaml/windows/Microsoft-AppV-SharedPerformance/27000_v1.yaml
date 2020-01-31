@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27000'
+version: '1'
+event(fields): StreamingManageractivityprocessing.Start_V1()
+opcode: Start
+keywords: ''
+task: StreamingManageractivityprocessing.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

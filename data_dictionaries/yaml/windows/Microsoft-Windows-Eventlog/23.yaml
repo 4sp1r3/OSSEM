@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '23'
+version: '0'
+event(fields): Servicestartup23(UInt32 ErrorCode, UnicodeString Path)
+opcode: ''
+keywords: el:Availability
+task: Servicestartup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: Path

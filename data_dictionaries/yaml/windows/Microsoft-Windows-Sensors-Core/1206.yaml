@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1206'
+version: '0'
+event(fields): SensorsHidInitializationTask1206(Pointer WdfDevice, UInt16 SensorUsage,
+  UInt8 ReportId, UInt16 Usage, GUID fmtid, UInt32 pid)
+opcode: ''
+keywords: ''
+task: SensorsHidInitializationTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: UInt16
+  field_name: SensorUsage
+- field_type: UInt8
+  field_name: ReportId
+- field_type: UInt16
+  field_name: Usage
+- field_type: GUID
+  field_name: fmtid
+- field_type: UInt32
+  field_name: pid

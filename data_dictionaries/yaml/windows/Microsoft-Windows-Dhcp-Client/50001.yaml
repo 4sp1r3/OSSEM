@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50001'
+version: '0'
+event(fields): MediaStateEventMediaConnect(UInt32 InterfaceId)
+opcode: MediaConnect
+keywords: keyword_200000000000
+task: MediaStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId

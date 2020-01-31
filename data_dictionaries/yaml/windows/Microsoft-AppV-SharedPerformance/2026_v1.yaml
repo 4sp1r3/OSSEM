@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '2026'
+version: '1'
+event(fields): CreatePublishingDescriptorDocumentFromFileStop_V1()
+opcode: Stop
+keywords: ''
+task: CreatePublishingDescriptorDocumentFromFile
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

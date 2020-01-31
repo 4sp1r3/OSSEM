@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSMPEG2ADEC
+event_id: '16'
+version: '0'
+event(fields): AUD_CODECTYPE_CHANGE(UInt32 dwordarg)
+opcode: ''
+keywords: ''
+task: AUD_CODECTYPE_CHANGE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwordarg

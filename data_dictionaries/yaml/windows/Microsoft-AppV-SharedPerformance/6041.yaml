@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6041'
+version: '0'
+event(fields): ToggleOnlineModeStop6041(UnicodeString str)
+opcode: Stop
+keywords: ''
+task: ToggleOnlineMode
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str

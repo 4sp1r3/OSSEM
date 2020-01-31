@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '131'
+version: '0'
+event(fields): ParkNodeClassRecordedStats(UInt16 Group, Pointer Affinity, UInt8 Class,
+  UInt8 DistributeCores, UInt32 HistogramSize, UInt64 ConcurrencyHistogram)
+opcode: ''
+keywords: Diag
+task: ParkNodeClassRecordedStats
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: Pointer
+  field_name: Affinity
+- field_type: UInt8
+  field_name: Class
+- field_type: UInt8
+  field_name: DistributeCores
+- field_type: UInt32
+  field_name: HistogramSize
+- field_type: UInt64
+  field_name: ConcurrencyHistogram

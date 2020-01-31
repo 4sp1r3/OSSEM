@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '803'
+version: '0'
+event(fields): WebPlatStorageServerStop803(UnicodeString MethodName, UInt32 HR)
+opcode: Stop
+keywords: ''
+task: WebPlatStorageServer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: UInt32
+  field_name: HR

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '4009'
+version: '0'
+event(fields): task_04009(Pointer Prop_ptr, AnsiString Prop_ansi, UnicodeString Prop_string)
+opcode: ''
+keywords: Debug
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Prop_ptr
+- field_type: AnsiString
+  field_name: Prop_ansi
+- field_type: UnicodeString
+  field_name: Prop_string

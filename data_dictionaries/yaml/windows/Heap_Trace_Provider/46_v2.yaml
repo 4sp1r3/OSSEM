@@ -1,0 +1,10 @@
+provider: Heap Trace Provider
+category: '{222962ab-6180-4b88-a825-346b75f2a24a}'
+event_id: '46'
+version: '2'
+event(fields): Heap_TypeGroup1(UInt32 HeapHandle)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapHandle

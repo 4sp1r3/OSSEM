@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '13'
+version: '0'
+event(fields): PowerMeterData(Pointer MeterId, UInt32 value)
+opcode: ''
+keywords: PowerMeter
+task: PowerMeterData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MeterId
+- field_type: UInt32
+  field_name: value

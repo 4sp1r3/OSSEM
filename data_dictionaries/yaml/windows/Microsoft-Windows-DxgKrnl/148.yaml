@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '148'
+version: '0'
+event(fields): DdiQueryChildRelationsStart(UInt16 ChildRelationSize, Binary ChildDescriptors,
+  Pointer MiniportContext, UInt32 Status, UInt64 ChildCount)
+opcode: Start
+keywords: Base
+task: DdiQueryChildRelations
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ChildRelationSize
+- field_type: Binary
+  field_name: ChildDescriptors
+- field_type: Pointer
+  field_name: MiniportContext
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt64
+  field_name: ChildCount

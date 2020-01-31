@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1704'
+version: '0'
+event(fields): ShellTask_ACThread_GenerationCompletionListThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_ACThread_GenerationCompletionListThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

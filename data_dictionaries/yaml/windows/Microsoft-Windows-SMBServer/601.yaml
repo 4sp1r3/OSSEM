@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '601'
+version: '0'
+event(fields): Smb2TreeConnectDisconnect(GUID TreeConnectGUID, GUID SessionGUID, GUID
+  ConnectionGUID)
+opcode: ''
+keywords: TreeConnect
+task: Smb2TreeConnectDisconnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TreeConnectGUID
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: ConnectionGUID

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1067'
+version: '0'
+event(fields): TcpTcbChangeIsb(UInt32 IsbSize, UInt32 Cwnd, UInt32 SndWnd, UInt32
+  SendAvailable, UInt32 SSThresh)
+opcode: ''
+keywords: ut:TcpipTcb ut:TcpipDiagnosis ut:Endpoint
+task: TcpTcbChangeIsb
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IsbSize
+- field_type: UInt32
+  field_name: Cwnd
+- field_type: UInt32
+  field_name: SndWnd
+- field_type: UInt32
+  field_name: SendAvailable
+- field_type: UInt32
+  field_name: SSThresh

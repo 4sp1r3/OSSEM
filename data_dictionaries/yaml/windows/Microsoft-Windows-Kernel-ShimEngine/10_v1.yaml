@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-ShimEngine
+event_id: '10'
+version: '1'
+event(fields): task_010_V1(UnicodeString DriverName, Pointer DriverBase, UInt32 DriverSize,
+  UInt32 DriverTimeStamp, UInt32 DriverCheckSum)
+opcode: ''
+keywords: DriverScopeGeneral
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: Pointer
+  field_name: DriverBase
+- field_type: UInt32
+  field_name: DriverSize
+- field_type: UInt32
+  field_name: DriverTimeStamp
+- field_type: UInt32
+  field_name: DriverCheckSum

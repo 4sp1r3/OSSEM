@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1296'
+version: '0'
+event(fields): Ndkpi_Srq_Work_Request_Inline_Failure(Pointer NdkSrq, Pointer RequestContext,
+  UInt32 Status)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Srq_Work_Request_Inline_Failure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkSrq
+- field_type: Pointer
+  field_name: RequestContext
+- field_type: UInt32
+  field_name: Status

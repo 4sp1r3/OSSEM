@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '361'
+version: '0'
+event(fields): FileChangeTracker_APICallStart361()
+opcode: Start
+keywords: IndexingChunk Gatherer
+task: FileChangeTracker_APICall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

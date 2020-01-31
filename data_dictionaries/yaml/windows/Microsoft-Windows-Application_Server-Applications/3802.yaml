@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3802'
+version: '0'
+event(fields): RoutingServiceMessageCompletingOneWay(UnicodeString SerializedException,
+  UnicodeString AppDomain)
+opcode: CompletingOneWay
+keywords: RoutingServices
+task: RoutingServiceMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SerializedException
+- field_type: UnicodeString
+  field_name: AppDomain

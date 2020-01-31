@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1001'
+version: '0'
+event(fields): DxgkDdiMiracastQueryCapsStop(Pointer MiniportContext, UInt32 MaxChunkPrivateDriverDataSize,
+  UInt32 MiracastCaps, UInt32 ReturnStatus)
+opcode: Stop
+keywords: Miracast
+task: DxgkDdiMiracastQueryCaps
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportContext
+- field_type: UInt32
+  field_name: MaxChunkPrivateDriverDataSize
+- field_type: UInt32
+  field_name: MiracastCaps
+- field_type: UInt32
+  field_name: ReturnStatus

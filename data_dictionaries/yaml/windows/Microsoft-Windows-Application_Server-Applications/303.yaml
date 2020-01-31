@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '303'
+version: '0'
+event(fields): task_0303(UnicodeString Name, UnicodeString HostReference, UnicodeString
+  Payload)
+opcode: ''
+keywords: ServiceModel EndToEndMonitoring HealthMonitoring Troubleshooting UserEvents
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: Payload

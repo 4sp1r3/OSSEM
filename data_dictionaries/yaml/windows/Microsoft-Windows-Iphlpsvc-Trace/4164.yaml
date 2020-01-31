@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '4164'
+version: '0'
+event(fields): task_04164(UnicodeString InterfaceAlias, Boolean IcsPrivateInterface,
+  Boolean AdvertiseDefaultRoute, Boolean Advertises, Boolean Forwards, UInt64 Status)
+opcode: ''
+keywords: sixto4
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InterfaceAlias
+- field_type: Boolean
+  field_name: IcsPrivateInterface
+- field_type: Boolean
+  field_name: AdvertiseDefaultRoute
+- field_type: Boolean
+  field_name: Advertises
+- field_type: Boolean
+  field_name: Forwards
+- field_type: UInt64
+  field_name: Status

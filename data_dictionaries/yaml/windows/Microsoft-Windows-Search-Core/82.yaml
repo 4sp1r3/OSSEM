@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '82'
+version: '0'
+event(fields): AliasTable_InitSDIDCache()
+opcode: ''
+keywords: IndexingItem Gatherer
+task: AliasTable_InitSDIDCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

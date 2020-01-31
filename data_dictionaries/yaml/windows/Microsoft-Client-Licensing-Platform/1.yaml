@@ -1,0 +1,11 @@
+provider: Microsoft-Client-Licensing-Platform
+event_id: '1'
+version: '0'
+event(fields): Service_InitStart()
+opcode: Start
+keywords: SERVICE_PERF_KEYWORD
+task: Service_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

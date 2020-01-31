@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '15'
+version: '0'
+event(fields): RestorePrintBRMoperationfailure15(UnicodeString PrintProcessorName,
+  HexInt32 ErrorCode)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_PROC_KEYWORD
+task: Restore
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PrintProcessorName
+- field_type: HexInt32
+  field_name: ErrorCode

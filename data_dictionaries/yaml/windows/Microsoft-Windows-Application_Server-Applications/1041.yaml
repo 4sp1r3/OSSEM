@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1041'
+version: '0'
+event(fields): WFApplicationStateChangePersistableIdle(UnicodeString data1, UnicodeString
+  data2, UnicodeString AppDomain)
+opcode: PersistableIdle
+keywords: WFRuntime
+task: WFApplicationStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: data2
+- field_type: UnicodeString
+  field_name: AppDomain

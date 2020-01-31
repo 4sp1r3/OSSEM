@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1012'
+version: '0'
+event(fields): SrvNetNameInfoChange(UInt32 ChangeType, UInt16 NetNameLength, UnicodeString
+  NetName, HexInt32 Flags, UInt32 InterfaceIndex, HexInt32 Capability, UInt64 LinkSpeed,
+  UInt16 ClientAddressLength, Binary ClientAddress)
+opcode: ''
+keywords: Operational
+task: SrvNetNameInfoChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ChangeType
+- field_type: UInt16
+  field_name: NetNameLength
+- field_type: UnicodeString
+  field_name: NetName
+- field_type: HexInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: HexInt32
+  field_name: Capability
+- field_type: UInt64
+  field_name: LinkSpeed
+- field_type: UInt16
+  field_name: ClientAddressLength
+- field_type: Binary
+  field_name: ClientAddress

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '550'
+version: '0'
+event(fields): GetCompressedImageSizeStop()
+opcode: Stop
+keywords: Core
+task: GetCompressedImageSize
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

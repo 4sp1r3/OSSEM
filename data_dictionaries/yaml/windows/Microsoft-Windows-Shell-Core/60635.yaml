@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60635'
+version: '0'
+event(fields): ItemsView_AnimationManager_AllocateHBITMAPStart()
+opcode: Start
+keywords: Shell
+task: ItemsView_AnimationManager_AllocateHBITMAP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

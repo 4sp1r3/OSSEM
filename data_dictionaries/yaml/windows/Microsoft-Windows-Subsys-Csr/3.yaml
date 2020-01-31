@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Subsys-Csr
+event_id: '3'
+version: '0'
+event(fields): csr:ShutdownProcessStart(UInt32 ProcessId, UInt32 Level, UInt32 Flags)
+opcode: Start
+keywords: csr:Diagnostics
+task: csr:ShutdownProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: Level
+- field_type: UInt32
+  field_name: Flags

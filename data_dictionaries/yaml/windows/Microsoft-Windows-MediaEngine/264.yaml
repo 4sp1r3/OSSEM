@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '264'
+version: '0'
+event(fields): SphericalVideoChangedTask(Boolean IsEnabled, UInt32 Format, UInt32
+  ProjectionMode)
+opcode: ''
+keywords: ''
+task: SphericalVideoChangedTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsEnabled
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: ProjectionMode

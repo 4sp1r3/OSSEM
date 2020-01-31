@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-DPS
+event_id: '180'
+version: '0'
+event(fields): NotificationtaskThiseventisraisedwhenDPSrefreshesgrouppolicy()
+opcode: ThiseventisraisedwhenDPSrefreshesgrouppolicy
+keywords: notification
+task: Notificationtask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

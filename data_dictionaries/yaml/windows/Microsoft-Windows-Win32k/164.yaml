@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Win32k
+event_id: '164'
+version: '0'
+event(fields): ExclusiveUserCrit164(UInt64 AcquireQpcCounts, UInt32 AcquireTimeUs,
+  UInt64 Token)
+opcode: ''
+keywords: Contention
+task: ExclusiveUserCrit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: AcquireQpcCounts
+- field_type: UInt32
+  field_name: AcquireTimeUs
+- field_type: UInt64
+  field_name: Token

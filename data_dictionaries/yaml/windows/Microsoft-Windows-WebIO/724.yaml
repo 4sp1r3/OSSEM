@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-WebIO
+event_id: '724'
+version: '0'
+event(fields): SSLConnectionBufferReceiveStart(Pointer Connection, Pointer DataChunks,
+  Pointer Buffer, UInt32 Consumed, UInt32 Available, UInt32 Information, UInt32 Error)
+opcode: Start
+keywords: Keyword.RECEIVE
+task: SSLConnectionBufferReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: Consumed
+- field_type: UInt32
+  field_name: Available
+- field_type: UInt32
+  field_name: Information
+- field_type: UInt32
+  field_name: Error

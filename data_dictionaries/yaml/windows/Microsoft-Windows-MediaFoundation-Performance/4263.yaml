@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4263'
+version: '0'
+event(fields): QualityManagerSetDropTime(AnsiString tag, Pointer object, UInt32 knobID,
+  UInt32 previousLevel, UInt32 newLevel, Int64 dropTime)
+opcode: ''
+keywords: ''
+task: QualityManagerSetDropTime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: knobID
+- field_type: UInt32
+  field_name: previousLevel
+- field_type: UInt32
+  field_name: newLevel
+- field_type: Int64
+  field_name: dropTime

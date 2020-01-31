@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1385'
+version: '0'
+event(fields): TcpTailLossProbe(Pointer Tcb, UInt32 SndUna, UInt32 SndMax, UInt32
+  SendAvailable, UInt32 TailProbeSeq, UInt32 TailProbeLast, UInt32 ControlsToSend,
+  UInt8 ThFlags)
+opcode: ''
+keywords: ut:SendPath
+task: TcpTailLossProbe
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: SndUna
+- field_type: UInt32
+  field_name: SndMax
+- field_type: UInt32
+  field_name: SendAvailable
+- field_type: UInt32
+  field_name: TailProbeSeq
+- field_type: UInt32
+  field_name: TailProbeLast
+- field_type: UInt32
+  field_name: ControlsToSend
+- field_type: UInt8
+  field_name: ThFlags

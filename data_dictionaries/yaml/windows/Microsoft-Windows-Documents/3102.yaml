@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '3102'
+version: '0'
+event(fields): DocPerf_Task_SDP_GetDefaultPrinterStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_SDP_GetDefaultPrinter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

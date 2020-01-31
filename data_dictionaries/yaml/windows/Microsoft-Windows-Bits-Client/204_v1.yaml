@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '204'
+version: '1'
+event(fields): task_0204_V1(UnicodeString server, UnicodeString job, UnicodeString
+  url, UnicodeString scheme, UnicodeString user)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: server
+- field_type: UnicodeString
+  field_name: job
+- field_type: UnicodeString
+  field_name: url
+- field_type: UnicodeString
+  field_name: scheme
+- field_type: UnicodeString
+  field_name: user

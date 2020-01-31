@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '111'
+version: '0'
+event(fields): InvalidateModeCache(Pointer pDxgAdapter, UInt32 VidPnSourceIdNotToInvalidate,
+  UInt8 ClientType, UInt8 VidPnChange, Boolean ReclaimClonedTarget, Boolean CleanupAfterFailedCommitVidPn,
+  Boolean ForceAllActiveVidPnModeListInvalidation, UInt32 ModeChangeRequestId)
+opcode: ''
+keywords: Base
+task: InvalidateModeCache
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: VidPnSourceIdNotToInvalidate
+- field_type: UInt8
+  field_name: ClientType
+- field_type: UInt8
+  field_name: VidPnChange
+- field_type: Boolean
+  field_name: ReclaimClonedTarget
+- field_type: Boolean
+  field_name: CleanupAfterFailedCommitVidPn
+- field_type: Boolean
+  field_name: ForceAllActiveVidPnModeListInvalidation
+- field_type: UInt32
+  field_name: ModeChangeRequestId

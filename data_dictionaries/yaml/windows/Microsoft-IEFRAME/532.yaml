@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '532'
+version: '0'
+event(fields): DownloadWindow_Item_Added()
+opcode: ''
+keywords: DownloadWindow
+task: DownloadWindow_Item_Added
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

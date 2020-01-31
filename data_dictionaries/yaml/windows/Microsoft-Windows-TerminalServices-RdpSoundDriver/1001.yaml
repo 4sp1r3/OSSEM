@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-TerminalServices-RdpSoundDriver
+event_id: '1001'
+version: '0'
+event(fields): StreamSetup(UInt16 UINT16_FORMAT_TAG, UInt16 UINT16_NUM_CHANNELS, UInt32
+  UINT32_SAMPLES_PER_SECOND, UInt32 UINT32_AVERAGE_BYTES_PER_SECOND, UInt16 UINT16_BLOCK_ALIGN,
+  UInt16 UINT16_BITS_PER_SAMPLE, UInt16 UINT16_STRUCTURE_SIZE, UInt32 SessionID)
+opcode: ''
+keywords: ''
+task: StreamSetup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: UINT16_FORMAT_TAG
+- field_type: UInt16
+  field_name: UINT16_NUM_CHANNELS
+- field_type: UInt32
+  field_name: UINT32_SAMPLES_PER_SECOND
+- field_type: UInt32
+  field_name: UINT32_AVERAGE_BYTES_PER_SECOND
+- field_type: UInt16
+  field_name: UINT16_BLOCK_ALIGN
+- field_type: UInt16
+  field_name: UINT16_BITS_PER_SAMPLE
+- field_type: UInt16
+  field_name: UINT16_STRUCTURE_SIZE
+- field_type: UInt32
+  field_name: SessionID

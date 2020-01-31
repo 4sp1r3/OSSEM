@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '69'
+version: '0'
+event(fields): PreSleepCallbacksPhaseStop()
+opcode: PhaseStop
+keywords: po:Performance po:PerformanceLight
+task: PreSleepCallbacks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

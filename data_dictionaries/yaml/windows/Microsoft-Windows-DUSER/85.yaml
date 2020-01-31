@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DUSER
+event_id: '85'
+version: '0'
+event(fields): DUser_Input85(UInt32 PointerHitTestID)
+opcode: ''
+keywords: Default
+task: DUser_Input
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PointerHitTestID

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '55'
+version: '0'
+event(fields): PrepareTargetFailure(UInt32 Status, UInt32 FailurePoint)
+opcode: ''
+keywords: ''
+task: PrepareTargetFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: FailurePoint

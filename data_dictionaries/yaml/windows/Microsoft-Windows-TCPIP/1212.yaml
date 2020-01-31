@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1212'
+version: '0'
+event(fields): TcpWsdProfileStateChange(UInt32 Profile, UInt32 State, UInt32 Qualified,
+  UInt32 EreQualified)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Global
+task: TcpWsdProfileStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Profile
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Qualified
+- field_type: UInt32
+  field_name: EreQualified

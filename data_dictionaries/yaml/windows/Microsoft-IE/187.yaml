@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '187'
+version: '0'
+event(fields): Mshtml_CImgInfo_Destroy(Pointer DwnInfo, UInt32 DecodeFlags)
+opcode: ''
+keywords: subsystem
+task: Mshtml_CImgInfo_Destroy
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DwnInfo
+- field_type: UInt32
+  field_name: DecodeFlags

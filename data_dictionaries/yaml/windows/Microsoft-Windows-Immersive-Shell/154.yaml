@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '154'
+version: '0'
+event(fields): ImmersiveShellLayoutInitializeStart()
+opcode: Start
+keywords: ''
+task: ImmersiveShellLayoutInitialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

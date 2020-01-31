@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '105'
+version: '0'
+event(fields): IPSocketInformation105(Pointer fid_FdoContext, UInt32 fid_NtStatus)
+opcode: Information
+keywords: Default
+task: IPSocket
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_FdoContext
+- field_type: UInt32
+  field_name: fid_NtStatus

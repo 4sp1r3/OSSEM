@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '3063'
+version: '0'
+event(fields): CascadedScaling(UInt32 dwScaleX, UInt32 dwScaleY, UInt32 dwWindowX,
+  UInt32 dwWindowY)
+opcode: ''
+keywords: ''
+task: CascadedScaling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwScaleX
+- field_type: UInt32
+  field_name: dwScaleY
+- field_type: UInt32
+  field_name: dwWindowX
+- field_type: UInt32
+  field_name: dwWindowY

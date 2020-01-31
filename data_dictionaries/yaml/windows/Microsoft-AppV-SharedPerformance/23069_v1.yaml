@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23069'
+version: '1'
+event(fields): Packaging_ManifestWrite_RegistrationCommandsStop_V1()
+opcode: Stop
+keywords: ''
+task: Packaging_ManifestWrite_RegistrationCommands
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

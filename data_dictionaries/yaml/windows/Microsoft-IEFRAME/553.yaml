@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '553'
+version: '0'
+event(fields): PinnedSites_OfferedImagesComplete()
+opcode: ''
+keywords: ''
+task: PinnedSites_OfferedImagesComplete
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

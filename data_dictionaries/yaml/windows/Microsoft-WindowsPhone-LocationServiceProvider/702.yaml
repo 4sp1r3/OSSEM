@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '702'
+version: '0'
+event(fields): GeofenceTracking702()
+opcode: ''
+keywords: Selfhost GeofenceTracking
+task: GeofenceTracking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

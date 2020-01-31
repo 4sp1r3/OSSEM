@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '26'
+version: '0'
+event(fields): Summary26(UInt16 Group, UInt8 Number, UInt32 IdleStateCount, UInt32
+  PerfStateCount, UInt32 ThrottleStateCount, Int32 IdleState, UInt32 PerfState)
+opcode: ''
+keywords: ''
+task: Summary
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: IdleStateCount
+- field_type: UInt32
+  field_name: PerfStateCount
+- field_type: UInt32
+  field_name: ThrottleStateCount
+- field_type: Int32
+  field_name: IdleState
+- field_type: UInt32
+  field_name: PerfState

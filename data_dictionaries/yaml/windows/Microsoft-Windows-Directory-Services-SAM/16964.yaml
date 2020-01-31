@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Directory-Services-SAM
+event_id: '16964'
+version: '0'
+event(fields): task_016964(UnicodeString MalformedSDString, UnicodeString DefaultSDString)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MalformedSDString
+- field_type: UnicodeString
+  field_name: DefaultSDString

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2025'
+version: '0'
+event(fields): CoreApplicationEnteredBackgroundDispatchStop()
+opcode: Stop
+keywords: ''
+task: CoreApplicationEnteredBackgroundDispatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '26041'
+version: '2'
+event(fields): Writefilemessagetask.Stop_V2()
+opcode: Stop
+keywords: ''
+task: Writefilemessagetask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

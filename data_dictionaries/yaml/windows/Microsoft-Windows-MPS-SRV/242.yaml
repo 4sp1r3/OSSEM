@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '242'
+version: '0'
+event(fields): MPS_SVC_API_EnumAuthenticationSetsStart()
+opcode: Start
+keywords: Service
+task: MPS_SVC_API_EnumAuthenticationSets
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

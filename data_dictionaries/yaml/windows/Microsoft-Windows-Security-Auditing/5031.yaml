@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5031'
+version: '0'
+event(fields): task_05031(UnicodeString Profiles, UnicodeString Application)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Profiles
+- field_type: UnicodeString
+  field_name: Application

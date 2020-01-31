@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '161'
+version: '0'
+event(fields): Find_DeactivateBarStop()
+opcode: Stop
+keywords: primarynav
+task: Find_DeactivateBar
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

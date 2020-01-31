@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MF
+event_id: '1214'
+version: '0'
+event(fields): MediaFoundationAsyncProcessOutput(MFT)Stop(Pointer WrapperPtr, Pointer
+  SamplePtr, UInt64 SampleTime, UInt32 hr)
+opcode: Stop
+keywords: ''
+task: MediaFoundationAsyncProcessOutput(MFT)
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WrapperPtr
+- field_type: Pointer
+  field_name: SamplePtr
+- field_type: UInt64
+  field_name: SampleTime
+- field_type: UInt32
+  field_name: hr

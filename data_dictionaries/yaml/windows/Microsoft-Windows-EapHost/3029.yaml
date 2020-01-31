@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-EapHost
+event_id: '3029'
+version: '0'
+event(fields): Common3029(UInt8 TypeId, UInt32 AuthorId, UInt32 VendorId, UInt32 VendorType)
+opcode: ''
+keywords: ''
+task: Common
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: TypeId
+- field_type: UInt32
+  field_name: AuthorId
+- field_type: UInt32
+  field_name: VendorId
+- field_type: UInt32
+  field_name: VendorType

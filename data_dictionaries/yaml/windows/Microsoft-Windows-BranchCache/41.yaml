@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '41'
+version: '0'
+event(fields): task_041(UInt16 ListenPort)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ListenPort

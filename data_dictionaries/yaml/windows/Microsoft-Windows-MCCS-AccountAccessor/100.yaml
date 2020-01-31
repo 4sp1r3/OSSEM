@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-AccountAccessor
+event_id: '100'
+version: '0'
+event(fields): SPERF_TAG_AA_LOADStart()
+opcode: Start
+keywords: Performance
+task: SPERF_TAG_AA_LOAD
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

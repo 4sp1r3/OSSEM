@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '1'
+version: '0'
+event(fields): ProcessStart(UInt32 ProcessID, FILETIME CreateTime, UInt32 ParentProcessID,
+  UInt32 SessionID, UnicodeString ImageName)
+opcode: Start
+keywords: WINEVENT_KEYWORD_PROCESS
+task: ProcessStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: FILETIME
+  field_name: CreateTime
+- field_type: UInt32
+  field_name: ParentProcessID
+- field_type: UInt32
+  field_name: SessionID
+- field_type: UnicodeString
+  field_name: ImageName

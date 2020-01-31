@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-OLEACC
+event_id: '2'
+version: '0'
+event(fields): OLEACC_ClientApiCallStart(UInt32 MethodIndex, Pointer Object, Int32
+  Parameter)
+opcode: Start
+keywords: ''
+task: OLEACC_ClientApiCall
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MethodIndex
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: Parameter

@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-VolumeSnapshot-Driver
+event_id: '1021'
+version: '0'
+event(fields): vs:RevertStop1021(UInt16 DiagPrefixLength, UnicodeString DiagPrefix,
+  UInt16 VolumeNameLength, UnicodeString VolumeName, GUID TargetVolumeGuid, GUID SnapshotGuid,
+  HexInt32 ExitStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)
+opcode: Stop
+keywords: ''
+task: vs:Revert
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: DiagPrefixLength
+- field_type: UnicodeString
+  field_name: DiagPrefix
+- field_type: UInt16
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: GUID
+  field_name: TargetVolumeGuid
+- field_type: GUID
+  field_name: SnapshotGuid
+- field_type: HexInt32
+  field_name: ExitStatus
+- field_type: HexInt32
+  field_name: SourceFile
+- field_type: UInt16
+  field_name: SourceLine
+- field_type: UInt32
+  field_name: SourceTag

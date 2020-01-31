@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '53'
+version: '0'
+event(fields): MFMFAudio_Render_StreamSinkAudStreamSink_AudStreamSink(Pointer object,
+  UInt32 dwFlags, UInt32 ui32EndpointRole, UInt32 eCategory, Boolean bIsLowLatency,
+  Boolean bBufferDurationSpecified, Int64 hnsBufferDuration, Boolean bOnlyAudio, Boolean
+  bDisableOffload, Boolean bNonSeekableStream)
+opcode: AudStreamSink_AudStreamSink
+keywords: ''
+task: MFMFAudio_Render_StreamSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: dwFlags
+- field_type: UInt32
+  field_name: ui32EndpointRole
+- field_type: UInt32
+  field_name: eCategory
+- field_type: Boolean
+  field_name: bIsLowLatency
+- field_type: Boolean
+  field_name: bBufferDurationSpecified
+- field_type: Int64
+  field_name: hnsBufferDuration
+- field_type: Boolean
+  field_name: bOnlyAudio
+- field_type: Boolean
+  field_name: bDisableOffload
+- field_type: Boolean
+  field_name: bNonSeekableStream

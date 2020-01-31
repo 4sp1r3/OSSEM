@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '230'
+version: '0'
+event(fields): MFCaptureEnginePhotoSinkConfigureStop(Pointer PhotoSink, UInt32 hrStatus)
+opcode: Stop
+keywords: ''
+task: MFCaptureEnginePhotoSinkConfigure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PhotoSink
+- field_type: UInt32
+  field_name: hrStatus

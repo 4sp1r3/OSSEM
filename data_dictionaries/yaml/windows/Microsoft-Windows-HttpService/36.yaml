@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HttpService
+event_id: '36'
+version: '0'
+event(fields): HTTPSSLTraceTaskSslHandshakeComplete(UInt32 Status, Pointer ConnectionObj)
+opcode: SslHandshakeComplete
+keywords: HTTP_KEYWORD_SSL
+task: HTTPSSLTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: Pointer
+  field_name: ConnectionObj

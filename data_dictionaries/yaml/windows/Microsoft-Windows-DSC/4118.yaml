@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DSC
+event_id: '4118'
+version: '0'
+event(fields): task_04118(UnicodeString JobId, UnicodeString ResourceId, UnicodeString
+  MessageBody)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: ResourceId
+- field_type: UnicodeString
+  field_name: MessageBody

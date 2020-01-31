@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '30'
+version: '0'
+event(fields): NinputScrollerOnTimerStart()
+opcode: Start
+keywords: ''
+task: NinputScrollerOnTimer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

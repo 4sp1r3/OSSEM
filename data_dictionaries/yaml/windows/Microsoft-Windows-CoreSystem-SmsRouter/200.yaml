@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-CoreSystem-SmsRouter
+event_id: '200'
+version: '0'
+event(fields): SmsBrokerStart()
+opcode: Start
+keywords: Performance
+task: SmsBroker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

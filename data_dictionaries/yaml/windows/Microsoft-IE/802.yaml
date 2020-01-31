@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '802'
+version: '0'
+event(fields): WebPlatStorageServerStart802(UnicodeString MethodName)
+opcode: Start
+keywords: ''
+task: WebPlatStorageServer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MethodName

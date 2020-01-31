@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4100'
+version: '0'
+event(fields): QUERYROWS_ATTACHMENTSStart()
+opcode: Start
+keywords: Performance
+task: QUERYROWS_ATTACHMENTS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

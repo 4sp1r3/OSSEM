@@ -1,0 +1,29 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '101'
+version: '0'
+event(fields): LocationSession101(Double Latitude, Double Longitude, Double Altitude,
+  Double HorizontalAccuracy, Double VerticalAccuracy, Double Heading, Double Velocity,
+  UInt32 ErrorCode)
+opcode: ''
+keywords: Selfhost Position FixSession ClientApi
+task: LocationSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Double
+  field_name: Latitude
+- field_type: Double
+  field_name: Longitude
+- field_type: Double
+  field_name: Altitude
+- field_type: Double
+  field_name: HorizontalAccuracy
+- field_type: Double
+  field_name: VerticalAccuracy
+- field_type: Double
+  field_name: Heading
+- field_type: Double
+  field_name: Velocity
+- field_type: UInt32
+  field_name: ErrorCode

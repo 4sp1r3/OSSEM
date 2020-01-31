@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '313'
+version: '0'
+event(fields): ScopeManager_Init(Boolean IsCompact, UInt32 CacheCapacity)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: ScopeManager_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsCompact
+- field_type: UInt32
+  field_name: CacheCapacity

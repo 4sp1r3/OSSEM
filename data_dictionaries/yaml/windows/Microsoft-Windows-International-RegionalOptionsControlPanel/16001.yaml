@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-International-RegionalOptionsControlPanel
+event_id: '16001'
+version: '0'
+event(fields): RegionandLanguagecontrolpanelRLOUIoperations16001(UnicodeString LocaleName,
+  UInt32 StatusCode)
+opcode: RLOUIoperations
+keywords: ''
+task: RegionandLanguagecontrolpanel
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocaleName
+- field_type: UInt32
+  field_name: StatusCode

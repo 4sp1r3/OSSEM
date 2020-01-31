@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '355'
+version: '0'
+event(fields): SHADERS_D3DSHADER_CREATEStop(UInt32 Type)
+opcode: Stop
+keywords: DwmCore
+task: SHADERS_D3DSHADER_CREATE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type

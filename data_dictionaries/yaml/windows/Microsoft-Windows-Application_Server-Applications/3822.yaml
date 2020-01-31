@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3822'
+version: '0'
+event(fields): RoutingServiceMessageSendingResponse(UnicodeString data1, UnicodeString
+  AppDomain)
+opcode: SendingResponse
+keywords: RoutingServices
+task: RoutingServiceMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '441'
+version: '0'
+event(fields): Mshtml_TouchSelection_GripperHidden(UInt32 GripperID)
+opcode: ''
+keywords: mshtml touch
+task: Mshtml_TouchSelection_GripperHidden
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: GripperID

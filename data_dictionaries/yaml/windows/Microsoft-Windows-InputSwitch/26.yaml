@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-InputSwitch
+event_id: '26'
+version: '0'
+event(fields): IMEConsentUXFlyoutShowStart()
+opcode: Start
+keywords: ''
+task: IMEConsentUXFlyoutShow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

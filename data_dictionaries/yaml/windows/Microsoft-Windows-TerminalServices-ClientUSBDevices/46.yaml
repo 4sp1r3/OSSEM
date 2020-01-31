@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TerminalServices-ClientUSBDevices
+event_id: '46'
+version: '0'
+event(fields): RemoteDesktopUSBHubFilter46(UnicodeString deviceName)
+opcode: ''
+keywords: ''
+task: RemoteDesktopUSBHubFilter
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: deviceName

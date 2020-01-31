@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '1'
+version: '0'
+event(fields): RESOURCE_CREATION(UInt32 channelHandle, UInt32 resourceHandle, UInt64
+  externalHandleAndChannel, UInt32 resourceType, Boolean createShared, Boolean openShared,
+  UInt64 resourcePointer)
+opcode: ''
+keywords: DCompBasic DCompInput
+task: RESOURCE_CREATION
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: channelHandle
+- field_type: UInt32
+  field_name: resourceHandle
+- field_type: UInt64
+  field_name: externalHandleAndChannel
+- field_type: UInt32
+  field_name: resourceType
+- field_type: Boolean
+  field_name: createShared
+- field_type: Boolean
+  field_name: openShared
+- field_type: UInt64
+  field_name: resourcePointer

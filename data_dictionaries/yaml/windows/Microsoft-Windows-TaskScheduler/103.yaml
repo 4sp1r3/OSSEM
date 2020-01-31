@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '103'
+version: '0'
+event(fields): ActionstartfailedRunFailure(UnicodeString TaskName, GUID InstanceId,
+  UnicodeString UserContext, UInt32 ResultCode)
+opcode: RunFailure
+keywords: ForcedIdleProcessing
+task: Actionstartfailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: GUID
+  field_name: InstanceId
+- field_type: UnicodeString
+  field_name: UserContext
+- field_type: UInt32
+  field_name: ResultCode

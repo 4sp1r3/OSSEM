@@ -1,0 +1,58 @@
+provider: Microsoft-Windows-CloudStore
+event_id: '2004'
+version: '0'
+event(fields): task_02004(AnsiString CorrelationVector, AnsiString QualifiedTypeName,
+  UInt32 SchemaSize, Binary Schema, Boolean ForceLastWriterWins, UInt64 OriginalVersion,
+  Boolean OriginalTombstoned, UInt32 OriginalSize, Binary OriginalData, UInt64 TheirsVersion,
+  Boolean TheirsTombstoned, UInt32 TheirsSize, Binary TheirsData, UInt64 YoursVersion,
+  Boolean YoursTombstoned, UInt32 YoursSize, Binary YoursData, UInt64 ResolvedVersion,
+  Boolean ResolvedTombstoned, UInt32 ResolvedSize, Binary ResolvedData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: CorrelationVector
+- field_type: AnsiString
+  field_name: QualifiedTypeName
+- field_type: UInt32
+  field_name: SchemaSize
+- field_type: Binary
+  field_name: Schema
+- field_type: Boolean
+  field_name: ForceLastWriterWins
+- field_type: UInt64
+  field_name: OriginalVersion
+- field_type: Boolean
+  field_name: OriginalTombstoned
+- field_type: UInt32
+  field_name: OriginalSize
+- field_type: Binary
+  field_name: OriginalData
+- field_type: UInt64
+  field_name: TheirsVersion
+- field_type: Boolean
+  field_name: TheirsTombstoned
+- field_type: UInt32
+  field_name: TheirsSize
+- field_type: Binary
+  field_name: TheirsData
+- field_type: UInt64
+  field_name: YoursVersion
+- field_type: Boolean
+  field_name: YoursTombstoned
+- field_type: UInt32
+  field_name: YoursSize
+- field_type: Binary
+  field_name: YoursData
+- field_type: UInt64
+  field_name: ResolvedVersion
+- field_type: Boolean
+  field_name: ResolvedTombstoned
+- field_type: UInt32
+  field_name: ResolvedSize
+- field_type: Binary
+  field_name: ResolvedData

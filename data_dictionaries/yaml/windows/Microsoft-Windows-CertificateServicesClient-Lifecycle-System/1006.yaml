@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CertificateServicesClient-Lifecycle-System
+event_id: '1006'
+version: '0'
+event(fields): task_01006(UnicodeString EventWriteData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventWriteData

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Prefetch
+event_id: '11'
+version: '0'
+event(fields): AsyncWorkerStart(UInt16 ScenarioNameLength, UnicodeString ScenarioName,
+  UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 NumPhases)
+opcode: Start
+keywords: BasicInformation
+task: AsyncWorker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ScenarioNameLength
+- field_type: UnicodeString
+  field_name: ScenarioName
+- field_type: UInt32
+  field_name: ScenarioHashId
+- field_type: UInt32
+  field_name: ScenarioType
+- field_type: UInt32
+  field_name: NumPhases

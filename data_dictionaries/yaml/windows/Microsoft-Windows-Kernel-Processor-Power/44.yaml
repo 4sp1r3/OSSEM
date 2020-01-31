@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '44'
+version: '0'
+event(fields): BiosCStatesRundown(UInt16 Group, UInt8 Number, UInt16 FadtC2Latency,
+  UInt16 FadtC3Latency, UInt32 CStateVersionInUse, UInt32 StateCount, Int32 CstStates)
+opcode: ''
+keywords: Diag PowerDiagnostics
+task: BiosCStatesRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt16
+  field_name: FadtC2Latency
+- field_type: UInt16
+  field_name: FadtC3Latency
+- field_type: UInt32
+  field_name: CStateVersionInUse
+- field_type: UInt32
+  field_name: StateCount
+- field_type: Int32
+  field_name: CstStates

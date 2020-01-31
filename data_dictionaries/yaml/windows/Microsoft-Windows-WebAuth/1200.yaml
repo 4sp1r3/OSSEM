@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebAuth
+event_id: '1200'
+version: '0'
+event(fields): SecurityManager(HexInt32 Action, UnicodeString Url)
+opcode: ''
+keywords: AuthHost
+task: SecurityManager
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Action
+- field_type: UnicodeString
+  field_name: Url

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7053'
+version: '0'
+event(fields): KeyCreationStop7053(HexInt32 Error, UInt32 ProcessingTime)
+opcode: Stop
+keywords: Internal
+task: KeyCreation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error
+- field_type: UInt32
+  field_name: ProcessingTime

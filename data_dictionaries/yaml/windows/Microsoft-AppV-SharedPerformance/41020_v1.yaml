@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '41020'
+version: '1'
+event(fields): VServices.ProcessApplyHooksStart_V1()
+opcode: Start
+keywords: ''
+task: VServices.ProcessApplyHooks
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

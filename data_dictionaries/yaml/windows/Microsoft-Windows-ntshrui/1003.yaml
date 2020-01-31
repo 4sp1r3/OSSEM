@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ntshrui
+event_id: '1003'
+version: '0'
+event(fields): StopSharingStart()
+opcode: Start
+keywords: ''
+task: StopSharing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

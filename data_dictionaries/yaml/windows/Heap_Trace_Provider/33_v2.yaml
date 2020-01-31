@@ -1,0 +1,17 @@
+provider: Heap Trace Provider
+category: '{222962ab-6180-4b88-a825-346b75f2a24a}'
+event_id: '33'
+version: '2'
+event(fields): HeapAlloc(UInt32 HeapHandle, Object AllocSize, UInt32 AllocAddress,
+  UInt32 SourceId)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapHandle
+- field_type: Object
+  field_name: AllocSize
+- field_type: UInt32
+  field_name: AllocAddress
+- field_type: UInt32
+  field_name: SourceId

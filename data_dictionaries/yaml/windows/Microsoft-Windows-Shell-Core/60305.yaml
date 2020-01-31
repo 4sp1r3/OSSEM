@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60305'
+version: '0'
+event(fields): TryHarder_Calculate_Search_File_ContentsStart()
+opcode: Start
+keywords: Shell
+task: TryHarder_Calculate_Search_File_Contents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

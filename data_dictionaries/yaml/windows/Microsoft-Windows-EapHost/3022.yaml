@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-EapHost
+event_id: '3022'
+version: '0'
+event(fields): Common3022(UnicodeString TypeId, UnicodeString AuthorId)
+opcode: ''
+keywords: Reg
+task: Common
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeId
+- field_type: UnicodeString
+  field_name: AuthorId

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Audio
+event_id: '38'
+version: '0'
+event(fields): Audio_Glitch_DetectionKSEndpointGlitch:BASEOutputUnexpectedBufferCompleted(Pointer
+  pCAudioBasePin, Pointer pLockedDataPointer, Boolean bLockedEqualsUnrolled)
+opcode: BASEOutputUnexpectedBufferCompleted
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCAudioBasePin
+- field_type: Pointer
+  field_name: pLockedDataPointer
+- field_type: Boolean
+  field_name: bLockedEqualsUnrolled

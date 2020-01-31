@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '202'
+version: '0'
+event(fields): ContinuousReading_GenerateSegmentStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: ContinuousReading_GenerateSegment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

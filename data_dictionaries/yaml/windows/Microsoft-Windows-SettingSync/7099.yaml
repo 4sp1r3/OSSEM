@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7099'
+version: '0'
+event(fields): Perf_EndSyncBatchStart()
+opcode: Start
+keywords: ''
+task: Perf_EndSyncBatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

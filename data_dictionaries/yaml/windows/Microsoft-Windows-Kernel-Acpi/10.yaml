@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Acpi
+event_id: '10'
+version: '0'
+event(fields): DeviceCoolingRundown(UInt16 DeviceInstanceLength, UnicodeString DeviceInstance,
+  UInt16 PowerState, UInt8 Throttle)
+opcode: ''
+keywords: acpi:Thermal
+task: DeviceCoolingRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: DeviceInstanceLength
+- field_type: UnicodeString
+  field_name: DeviceInstance
+- field_type: UInt16
+  field_name: PowerState
+- field_type: UInt8
+  field_name: Throttle

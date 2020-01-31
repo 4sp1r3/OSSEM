@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceSyncProvider
+event_id: '436'
+version: '0'
+event(fields): WPDProvider_EnumerateChangesStart()
+opcode: Start
+keywords: ''
+task: WPDProvider_EnumerateChanges
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

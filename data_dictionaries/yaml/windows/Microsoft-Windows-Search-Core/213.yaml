@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '213'
+version: '0'
+event(fields): CSearchCrawlScopeManager_AddUserScopeRuleStop(UInt32 hr)
+opcode: Stop
+keywords: CSM
+task: CSearchCrawlScopeManager_AddUserScopeRule
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr

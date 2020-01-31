@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23057'
+version: '1'
+event(fields): Packaging_ManifestWrite_InstantMessagingStop_V1()
+opcode: Stop
+keywords: ''
+task: Packaging_ManifestWrite_InstantMessaging
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

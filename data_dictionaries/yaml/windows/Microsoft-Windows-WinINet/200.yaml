@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinINet
+event_id: '200'
+version: '0'
+event(fields): WININET_HTTP_REQUESTStart(Pointer HINTERNET)
+opcode: Start
+keywords: WININET_KEYWORD_HTTP
+task: WININET_HTTP_REQUEST
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HINTERNET

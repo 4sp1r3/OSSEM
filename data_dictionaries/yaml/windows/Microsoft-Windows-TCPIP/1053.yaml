@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1053'
+version: '0'
+event(fields): TcpEndpointFailedPortReservation(UInt32 ProcessId, UInt32 Status, UInt16
+  StartPort, UInt16 NumberOfPorts)
+opcode: ''
+keywords: ut:TcpipEndpoint ut:TcpipBind ut:Endpoint
+task: TcpEndpointFailedPortReservation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt16
+  field_name: StartPort
+- field_type: UInt16
+  field_name: NumberOfPorts

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61205'
+version: '0'
+event(fields): Shell32_SyncIntegration_Manager_Initialize61205(GUID CLSID, UInt32
+  HRESULT)
+opcode: ''
+keywords: Shell
+task: Shell32_SyncIntegration_Manager_Initialize
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CLSID
+- field_type: UInt32
+  field_name: HRESULT

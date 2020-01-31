@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '12'
+version: '0'
+event(fields): AudEngineStream_GetPositionInternal_TaskStop(Pointer object, UInt32
+  hResult, Int64 pullPlayPosition, Int64 pullRawPlayPosition, Int64 pullRawWritePosition,
+  Int64 pullDevicePosition, Int64 phnsCorrelatedTime)
+opcode: Stop
+keywords: ''
+task: AudEngineStream_GetPositionInternal_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: hResult
+- field_type: Int64
+  field_name: pullPlayPosition
+- field_type: Int64
+  field_name: pullRawPlayPosition
+- field_type: Int64
+  field_name: pullRawWritePosition
+- field_type: Int64
+  field_name: pullDevicePosition
+- field_type: Int64
+  field_name: phnsCorrelatedTime

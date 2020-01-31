@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '21'
+version: '0'
+event(fields): task_021(Pointer Process, Pointer Endpoint, Boolean FastPath, Int32
+  BufferCount, Pointer Buffer, UInt32 BufferLength, UInt32 Address, UInt16 Port)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: Boolean
+  field_name: FastPath
+- field_type: Int32
+  field_name: BufferCount
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: BufferLength
+- field_type: UInt32
+  field_name: Address
+- field_type: UInt16
+  field_name: Port

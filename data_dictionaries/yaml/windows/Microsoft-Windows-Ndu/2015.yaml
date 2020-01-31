@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Ndu
+event_id: '2015'
+version: '0'
+event(fields): NduPowerDebug(UInt64 _IfLuid, UInt64 TimeSinceLast, UInt64 Energy,
+  UInt32 CurrentProc, UInt32 BytesTxRx, UInt32 Pid, UInt8 IfMediaType)
+opcode: ''
+keywords: KeywordNduPowerDebug
+task: NduPowerDebug
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: _IfLuid
+- field_type: UInt64
+  field_name: TimeSinceLast
+- field_type: UInt64
+  field_name: Energy
+- field_type: UInt32
+  field_name: CurrentProc
+- field_type: UInt32
+  field_name: BytesTxRx
+- field_type: UInt32
+  field_name: Pid
+- field_type: UInt8
+  field_name: IfMediaType

@@ -1,0 +1,12 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '60'
+version: '3'
+event(fields): DiskIo_TypeGroup2(UInt32 Irp, UInt32 IssuingThreadId)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: Irp
+- field_type: UInt32
+  field_name: IssuingThreadId

@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '1'
+version: '1'
+event(fields): BackgroundTaskStart_V1(UInt16 EntryPointLength, UnicodeString TaskEntryPoint,
+  UInt16 NameLength, UnicodeString TaskName, UInt64 UserContextId, GUID InstanceId,
+  UInt64 ApplicationId, UInt32 PsmActivationType, Boolean CriticalActivation, GUID
+  TriggerEventId, UInt32 TriggerEventType)
+opcode: Start
+keywords: BackgroundTask LowOverheadDiag
+task: BackgroundTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: EntryPointLength
+- field_type: UnicodeString
+  field_name: TaskEntryPoint
+- field_type: UInt16
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UInt64
+  field_name: UserContextId
+- field_type: GUID
+  field_name: InstanceId
+- field_type: UInt64
+  field_name: ApplicationId
+- field_type: UInt32
+  field_name: PsmActivationType
+- field_type: Boolean
+  field_name: CriticalActivation
+- field_type: GUID
+  field_name: TriggerEventId
+- field_type: UInt32
+  field_name: TriggerEventType

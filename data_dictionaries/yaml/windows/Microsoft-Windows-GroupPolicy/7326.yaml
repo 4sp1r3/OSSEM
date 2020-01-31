@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '7326'
+version: '0'
+event(fields): task_07326(UInt32 DCDiscoveryTimeInMilliSeconds, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DCDiscoveryTimeInMilliSeconds
+- field_type: UInt32
+  field_name: ErrorCode

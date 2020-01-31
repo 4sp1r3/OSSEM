@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62329'
+version: '0'
+event(fields): FilePlaceholder_StreamResolver_VerifyFileVersionStop(UnicodeString
+  FileName, UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: FilePlaceholder_StreamResolver_VerifyFileVersion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: HRESULT

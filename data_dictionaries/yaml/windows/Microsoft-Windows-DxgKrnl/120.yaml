@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '120'
+version: '0'
+event(fields): DpiDriverUnloadStart(Pointer DriverObject)
+opcode: Start
+keywords: Base
+task: DpiDriverUnload
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DriverObject

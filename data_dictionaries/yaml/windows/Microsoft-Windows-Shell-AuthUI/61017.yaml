@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '61017'
+version: '0'
+event(fields): PicturePassword_EnrollmentHandlerCreate(UInt32 DWORD1)
+opcode: ''
+keywords: ''
+task: PicturePassword_EnrollmentHandlerCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DWORD1

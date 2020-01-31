@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1093'
+version: '0'
+event(fields): IndirectDisableRenderD3(UInt64 AdapterLuid, Boolean DisableD3Requests,
+  UInt32 GetMiniportStatus)
+opcode: ''
+keywords: Base
+task: IndirectDisableRenderD3
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: AdapterLuid
+- field_type: Boolean
+  field_name: DisableD3Requests
+- field_type: UInt32
+  field_name: GetMiniportStatus

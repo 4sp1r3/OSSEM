@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-KdsSvc
+event_id: '4006'
+version: '0'
+event(fields): task_04006(GUID MRKIDGUID, UnicodeString AttrName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: MRKIDGUID
+- field_type: UnicodeString
+  field_name: AttrName

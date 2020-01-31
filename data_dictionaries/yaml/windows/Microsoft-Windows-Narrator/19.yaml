@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '19'
+version: '0'
+event(fields): NarratorCheckSAPIVoicesStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: NarratorCheckSAPIVoices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

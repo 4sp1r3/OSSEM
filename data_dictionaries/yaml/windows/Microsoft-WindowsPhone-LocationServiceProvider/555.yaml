@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '555'
+version: '0'
+event(fields): Geofencing555(UInt32 AppId, HexInt32 hr, UnicodeString CallerName)
+opcode: ''
+keywords: Selfhost
+task: Geofencing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AppId
+- field_type: HexInt32
+  field_name: hr
+- field_type: UnicodeString
+  field_name: CallerName

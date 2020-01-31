@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1610'
+version: '0'
+event(fields): NavigationServerWindowConstructStart(Pointer ptr)
+opcode: Start
+keywords: NavigationPerformance ServerWindow
+task: NavigationServerWindowConstruct
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ptr

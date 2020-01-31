@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '2'
+version: '0'
+event(fields): InitMSCTFForProcessStop()
+opcode: Stop
+keywords: Perf
+task: InitMSCTFForProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

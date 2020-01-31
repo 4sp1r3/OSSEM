@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '22'
+version: '0'
+event(fields): AttemptPreemption(Pointer hContext, UInt32 AttemptResult)
+opcode: ''
+keywords: Base
+task: AttemptPreemption
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: AttemptResult

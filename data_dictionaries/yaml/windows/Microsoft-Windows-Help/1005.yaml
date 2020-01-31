@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Help
+event_id: '1005'
+version: '0'
+event(fields): NonPerfEvents1005(UInt32 Win32LastError)
+opcode: ''
+keywords: ''
+task: NonPerfEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Win32LastError

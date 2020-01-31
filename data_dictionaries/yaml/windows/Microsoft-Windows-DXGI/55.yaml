@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DXGI
+event_id: '55'
+version: '0'
+event(fields): PresentMultiplaneOverlayStart(Pointer pIDXGISwapChain, UInt32 Flags,
+  UInt32 SyncInterval, UInt32 NumPlanes, UInt32 LayerMask)
+opcode: Start
+keywords: Events
+task: PresentMultiplaneOverlay
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: SyncInterval
+- field_type: UInt32
+  field_name: NumPlanes
+- field_type: UInt32
+  field_name: LayerMask

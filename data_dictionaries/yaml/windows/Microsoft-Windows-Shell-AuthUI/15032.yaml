@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '15032'
+version: '0'
+event(fields): Common_ReportResult(UInt32 DWORD1, UInt32 DWORD2, UInt32 DWORD3)
+opcode: ''
+keywords: ''
+task: Common_ReportResult
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DWORD1
+- field_type: UInt32
+  field_name: DWORD2
+- field_type: UInt32
+  field_name: DWORD3

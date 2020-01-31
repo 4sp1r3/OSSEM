@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '1024'
+version: '0'
+event(fields): MiniportStartDispatch(UnicodeString fid_USBPORT_HC)
+opcode: Dispatch
+keywords: Diagnostic
+task: MiniportStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: fid_USBPORT_HC

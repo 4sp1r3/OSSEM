@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '351'
+version: '0'
+event(fields): RenderThreadSimulateVBlankStop()
+opcode: Stop
+keywords: Rendering
+task: RenderThreadSimulateVBlank
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

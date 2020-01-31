@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18838'
+version: '0'
+event(fields): Shell32_UA_SetEntryStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_UA_SetEntry
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

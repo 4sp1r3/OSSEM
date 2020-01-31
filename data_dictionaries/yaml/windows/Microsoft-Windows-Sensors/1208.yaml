@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1208'
+version: '0'
+event(fields): SensorClassExtensionPostEventHandlerStop(UnicodeString SensorObjectId)
+opcode: Stop
+keywords: SensPerf
+task: SensorClassExtensionPostEventHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SensorObjectId

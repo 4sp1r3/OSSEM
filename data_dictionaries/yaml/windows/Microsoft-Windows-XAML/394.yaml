@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '394'
+version: '0'
+event(fields): ExportHeapHandle(UInt64 Handle)
+opcode: ''
+keywords: ''
+task: ExportHeapHandle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Handle

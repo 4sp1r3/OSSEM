@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '381'
+version: '0'
+event(fields): HSyncInterrupt(Pointer pDxgAdapter, UInt32 VidPnTargetId, UInt64 ScannedPhysicalAddress)
+opcode: ''
+keywords: Base
+task: HSyncInterrupt
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: VidPnTargetId
+- field_type: UInt64
+  field_name: ScannedPhysicalAddress

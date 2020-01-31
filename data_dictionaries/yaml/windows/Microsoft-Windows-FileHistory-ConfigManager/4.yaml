@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-ConfigManager
+event_id: '4'
+version: '0'
+event(fields): ProvisionAndSetTargetStop(UnicodeString TargetUrl)
+opcode: Stop
+keywords: ''
+task: ProvisionAndSetTarget
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TargetUrl

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '46348'
+version: '1'
+event(fields): None46348_V1(GUID ContainerParentJobInstanceId)
+opcode: ''
+keywords: ''
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ContainerParentJobInstanceId

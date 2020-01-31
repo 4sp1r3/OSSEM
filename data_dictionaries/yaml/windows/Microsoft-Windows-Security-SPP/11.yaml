@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Security-SPP
+event_id: '11'
+version: '0'
+event(fields): SLSvc_HwidCollectStop(UInt32 Status)
+opcode: Stop
+keywords: PerfInstrumentation
+task: SLSvc_HwidCollect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

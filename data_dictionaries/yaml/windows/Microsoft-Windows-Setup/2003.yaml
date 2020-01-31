@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Setup
+event_id: '2003'
+version: '0'
+event(fields): Setupinformation(UnicodeString HostOSName, Boolean Installwasanupgrade,
+  Boolean HostOSwasWindowsPE, UInt32 HostOSmajorversion, UInt32 HostOSminorversion,
+  UInt32 HostOSbuildversion, UnicodeString HostOSservicepackName, UInt32 HostOSservicepackmajorversion,
+  UInt32 HostOSservicepackminorversion)
+opcode: ''
+keywords: keyword_800000000000
+task: Setupinformation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HostOSName
+- field_type: Boolean
+  field_name: Installwasanupgrade
+- field_type: Boolean
+  field_name: HostOSwasWindowsPE
+- field_type: UInt32
+  field_name: HostOSmajorversion
+- field_type: UInt32
+  field_name: HostOSminorversion
+- field_type: UInt32
+  field_name: HostOSbuildversion
+- field_type: UnicodeString
+  field_name: HostOSservicepackName
+- field_type: UInt32
+  field_name: HostOSservicepackmajorversion
+- field_type: UInt32
+  field_name: HostOSservicepackminorversion

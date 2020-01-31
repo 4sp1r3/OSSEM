@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '18'
+version: '0'
+event(fields): EnergyMeterData(Pointer MeterId, UInt64 AbsoluteEnergy, UInt64 AbsoluteTime)
+opcode: ''
+keywords: EnergyMeter
+task: EnergyMeterData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MeterId
+- field_type: UInt64
+  field_name: AbsoluteEnergy
+- field_type: UInt64
+  field_name: AbsoluteTime

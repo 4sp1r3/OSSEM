@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '36015'
+version: '1'
+event(fields): Publishing_UnpublishEPStop_V1()
+opcode: Stop
+keywords: ''
+task: Publishing_UnpublishEP
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

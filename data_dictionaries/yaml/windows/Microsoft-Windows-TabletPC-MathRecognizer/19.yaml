@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathRecognizer
+event_id: '19'
+version: '0'
+event(fields): QuickSymbolCorrection()
+opcode: ''
+keywords: ''
+task: QuickSymbolCorrection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

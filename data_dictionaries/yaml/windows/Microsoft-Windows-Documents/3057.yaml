@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '3057'
+version: '0'
+event(fields): DocPerf_Task_Smc_GetScannerPropsStop()
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_Smc_GetScannerProps
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

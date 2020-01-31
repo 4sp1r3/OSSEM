@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPDMCUI
+event_id: '2011'
+version: '0'
+event(fields): MUTE_BUTTONStop(Int32 result)
+opcode: Stop
+keywords: ''
+task: MUTE_BUTTON
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: result

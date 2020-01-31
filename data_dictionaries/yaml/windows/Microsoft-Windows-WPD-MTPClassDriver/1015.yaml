@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1015'
+version: '0'
+event(fields): DeviceError1015(UInt32 Code, UInt32 Prop, UInt32 Offset)
+opcode: ''
+keywords: ''
+task: DeviceError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Code
+- field_type: UInt32
+  field_name: Prop
+- field_type: UInt32
+  field_name: Offset

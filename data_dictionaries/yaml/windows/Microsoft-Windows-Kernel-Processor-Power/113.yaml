@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '113'
+version: '0'
+event(fields): ProcessorEnergyCounter(UInt16 Group, UInt8 Number, UInt32 CounterId,
+  UInt64 CounterValue)
+opcode: ''
+keywords: EnergyEstimation
+task: ProcessorEnergyCounter
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: CounterId
+- field_type: UInt64
+  field_name: CounterValue

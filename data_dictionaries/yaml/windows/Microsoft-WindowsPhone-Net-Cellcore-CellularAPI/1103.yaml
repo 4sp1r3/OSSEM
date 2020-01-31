@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '1103'
+version: '0'
+event(fields): CellVoice1103()
+opcode: ''
+keywords: Information
+task: CellVoice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

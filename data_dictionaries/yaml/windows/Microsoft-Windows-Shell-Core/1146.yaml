@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1146'
+version: '0'
+event(fields): DataLayer_ItemCompareItemStart()
+opcode: Start
+keywords: SearchPerf
+task: DataLayer_ItemCompareItem
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

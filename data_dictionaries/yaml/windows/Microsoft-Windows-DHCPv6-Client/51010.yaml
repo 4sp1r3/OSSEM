@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51010'
+version: '0'
+event(fields): ProtocolStateEventReplyForRequestReceived(UInt32 InterfaceId, UInt32
+  StatusCode, Binary Address)
+opcode: ReplyForRequestReceived
+keywords: ''
+task: ProtocolStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: StatusCode
+- field_type: Binary
+  field_name: Address

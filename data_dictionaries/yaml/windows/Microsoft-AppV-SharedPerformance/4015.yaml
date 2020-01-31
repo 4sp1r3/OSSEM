@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4015'
+version: '0'
+event(fields): Repair_AppvPackageStop(GUID Guid)
+opcode: Stop
+keywords: ''
+task: Repair_AppvPackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Guid

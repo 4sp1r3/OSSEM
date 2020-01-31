@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '36'
+version: '0'
+event(fields): UnknownEnergy(UInt64 TotalDuration, UInt64 StandbyDuration, UInt64
+  NonDripsDuration, UInt64 PdcDuration, UInt64 BIDuration, UInt64 TargetedBIEnergy,
+  UInt64 ActualBIEnergy, UInt64 UnknownEnergy, UInt64 ScaleFactor, UInt32 Policy,
+  UInt32 DripsPowerFloorMilliWatts, UInt32 NonDripsPenaltyMilliWatts)
+opcode: UnknownEnergy
+keywords: EnergyEstimation
+task: UnknownEnergy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TotalDuration
+- field_type: UInt64
+  field_name: StandbyDuration
+- field_type: UInt64
+  field_name: NonDripsDuration
+- field_type: UInt64
+  field_name: PdcDuration
+- field_type: UInt64
+  field_name: BIDuration
+- field_type: UInt64
+  field_name: TargetedBIEnergy
+- field_type: UInt64
+  field_name: ActualBIEnergy
+- field_type: UInt64
+  field_name: UnknownEnergy
+- field_type: UInt64
+  field_name: ScaleFactor
+- field_type: UInt32
+  field_name: Policy
+- field_type: UInt32
+  field_name: DripsPowerFloorMilliWatts
+- field_type: UInt32
+  field_name: NonDripsPenaltyMilliWatts

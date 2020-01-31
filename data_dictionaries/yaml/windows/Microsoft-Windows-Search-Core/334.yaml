@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '334'
+version: '0'
+event(fields): ValueIndexSeekStop334(UInt32 RangeSet)
+opcode: Stop
+keywords: Indexing Querying
+task: ValueIndexSeek
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RangeSet

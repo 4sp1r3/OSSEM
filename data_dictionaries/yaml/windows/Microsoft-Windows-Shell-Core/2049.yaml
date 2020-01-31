@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2049'
+version: '0'
+event(fields): Browseui_NavBar_CreateBandsStart()
+opcode: Start
+keywords: Shell
+task: Browseui_NavBar_CreateBands
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

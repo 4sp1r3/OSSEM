@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2484'
+version: '1'
+event(fields): PerfTrack_PLM_SuspendApplication_V1(UnicodeString PsmKey)
+opcode: ''
+keywords: PLMComponent LwNetDiag
+task: PerfTrack_PLM_SuspendApplication
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinINet
+event_id: '209'
+version: '0'
+event(fields): WININET_HTTP_RESPONSE_BODY_RECEIVED(Pointer RequestHandle)
+opcode: ''
+keywords: WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG
+task: WININET_HTTP_RESPONSE_BODY_RECEIVED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestHandle

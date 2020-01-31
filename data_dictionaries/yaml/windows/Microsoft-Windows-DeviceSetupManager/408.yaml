@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '408'
+version: '0'
+event(fields): MetadataInstallTaskStart(UnicodeString Prop_ContainerId)
+opcode: Start
+keywords: ''
+task: MetadataInstallTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_ContainerId

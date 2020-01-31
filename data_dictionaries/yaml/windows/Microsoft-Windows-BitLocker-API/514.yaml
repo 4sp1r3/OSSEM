@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '514'
+version: '0'
+event(fields): task_0514(GUID ProtectorGUID, HexInt32 ErrorCode, GUID VolumeGUID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProtectorGUID
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: GUID
+  field_name: VolumeGUID

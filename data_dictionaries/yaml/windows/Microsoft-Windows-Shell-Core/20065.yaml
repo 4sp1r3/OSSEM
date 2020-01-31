@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20065'
+version: '0'
+event(fields): Taskbar_DestinationList_PrepopulateStart()
+opcode: Start
+keywords: Shell
+task: Taskbar_DestinationList_Prepopulate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

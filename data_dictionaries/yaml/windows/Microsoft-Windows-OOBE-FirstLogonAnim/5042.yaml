@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-FirstLogonAnim
+event_id: '5042'
+version: '0'
+event(fields): AnimationStop()
+opcode: Stop
+keywords: FirstLogonAnim
+task: Animation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

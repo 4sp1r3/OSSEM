@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '7002'
+version: '0'
+event(fields): Startup_EnumerationStart()
+opcode: Start
+keywords: datamonitor
+task: Startup_Enumeration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

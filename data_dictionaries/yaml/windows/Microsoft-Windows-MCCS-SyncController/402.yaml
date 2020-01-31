@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '402'
+version: '0'
+event(fields): SPERF_TAG_SYNC_INIT_PROVIDERStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_SYNC_INIT_PROVIDER
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

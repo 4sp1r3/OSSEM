@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20506'
+version: '0'
+event(fields): ClearchunkcontainerblockStart(Pointer Block, UInt32 Size, UInt32 BufferType)
+opcode: Start
+keywords: KmChunkContainer
+task: Clearchunkcontainerblock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Block
+- field_type: UInt32
+  field_name: Size
+- field_type: UInt32
+  field_name: BufferType

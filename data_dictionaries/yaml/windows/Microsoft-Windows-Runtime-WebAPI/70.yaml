@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Runtime-WebAPI
+event_id: '70'
+version: '0'
+event(fields): ParseParseJSONstring70(UInt32 obj)
+opcode: ParseJSONstring
+keywords: keywords.Format
+task: Parse
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: obj

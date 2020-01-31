@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-IdCtrls
+event_id: '5003'
+version: '0'
+event(fields): task_05003(UnicodeString URL, UnicodeString TargetFrameName, UInt32
+  StatusCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UnicodeString
+  field_name: TargetFrameName
+- field_type: UInt32
+  field_name: StatusCode

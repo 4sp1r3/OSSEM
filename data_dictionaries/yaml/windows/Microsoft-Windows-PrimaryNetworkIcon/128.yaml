@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrimaryNetworkIcon
+event_id: '128'
+version: '0'
+event(fields): PrimaryNetworkIcon_Task_InternetConnected_MBB(UInt32 IconResID)
+opcode: ''
+keywords: ''
+task: PrimaryNetworkIcon_Task_InternetConnected_MBB
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IconResID

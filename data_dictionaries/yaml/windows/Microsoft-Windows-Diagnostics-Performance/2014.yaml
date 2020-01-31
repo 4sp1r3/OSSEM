@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '2014'
+version: '0'
+event(fields): Scenario_ProblemDetectionStop(GUID ScenarioGUID, UInt32 HResult)
+opcode: Stop
+keywords: ScenarioStatus
+task: Scenario_ProblemDetection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ScenarioGUID
+- field_type: UInt32
+  field_name: HResult

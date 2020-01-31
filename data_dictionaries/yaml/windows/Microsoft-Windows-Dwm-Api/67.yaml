@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '67'
+version: '0'
+event(fields): ApipEnumGraphicsStreamTransformHIntsStart()
+opcode: Start
+keywords: DwmApi
+task: ApipEnumGraphicsStreamTransformHInts
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

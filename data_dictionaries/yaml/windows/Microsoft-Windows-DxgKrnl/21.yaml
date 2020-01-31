@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '21'
+version: '0'
+event(fields): ChangePriority(Pointer hContext, UInt32 PublicPriority, UInt32 SchedulingPriority)
+opcode: ''
+keywords: Base
+task: ChangePriority
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: PublicPriority
+- field_type: UInt32
+  field_name: SchedulingPriority

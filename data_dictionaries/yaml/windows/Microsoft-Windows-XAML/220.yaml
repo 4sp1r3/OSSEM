@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-XAML
+event_id: '220'
+version: '0'
+event(fields): PresentControllerFrameOnScreen(UInt64 ControllerId, UInt32 PresentId,
+  UInt64 StartQPCTicks, UInt64 EndQPCTicks, UInt64 LatencyInQPCTicks, Float QPCTicksPerVBlank,
+  UInt32 LatencyInVBlanks)
+opcode: ''
+keywords: Rendering
+task: PresentControllerFrameOnScreen
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ControllerId
+- field_type: UInt32
+  field_name: PresentId
+- field_type: UInt64
+  field_name: StartQPCTicks
+- field_type: UInt64
+  field_name: EndQPCTicks
+- field_type: UInt64
+  field_name: LatencyInQPCTicks
+- field_type: Float
+  field_name: QPCTicksPerVBlank
+- field_type: UInt32
+  field_name: LatencyInVBlanks

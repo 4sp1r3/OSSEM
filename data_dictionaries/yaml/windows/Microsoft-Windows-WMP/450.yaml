@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMP
+event_id: '450'
+version: '0'
+event(fields): PLAYSINGLE_PH_RESOLVEStart(Pointer ProtocolHandler, UnicodeString URL,
+  Pointer IInternetProtocolSink)
+opcode: Start
+keywords: mediaplayer
+task: PLAYSINGLE_PH_RESOLVE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ProtocolHandler
+- field_type: UnicodeString
+  field_name: URL
+- field_type: Pointer
+  field_name: IInternetProtocolSink

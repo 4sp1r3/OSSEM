@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '127'
+version: '0'
+event(fields): Dictation_ShowStageStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: Dictation_ShowStage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

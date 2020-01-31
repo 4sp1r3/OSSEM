@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PerfProc
+event_id: '2004'
+version: '1'
+event(fields): task_02004_V1(UnicodeString Message, UInt32 Win32Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UInt32
+  field_name: Win32Error

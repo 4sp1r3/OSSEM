@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '6'
+version: '1'
+event(fields): GCFreeSegment_V1(UInt64 Address, UInt16 ClrInstanceID)
+opcode: FreeSegment
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Address
+- field_type: UInt16
+  field_name: ClrInstanceID

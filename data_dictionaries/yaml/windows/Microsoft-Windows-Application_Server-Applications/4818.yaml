@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4818'
+version: '0'
+event(fields): DiscoveryClientChannelOpenFailed(UnicodeString endpointAddress, UnicodeString
+  via, UnicodeString SerializedException, UnicodeString AppDomain)
+opcode: OpenFailed
+keywords: Discovery
+task: DiscoveryClientChannel
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: endpointAddress
+- field_type: UnicodeString
+  field_name: via
+- field_type: UnicodeString
+  field_name: SerializedException
+- field_type: UnicodeString
+  field_name: AppDomain

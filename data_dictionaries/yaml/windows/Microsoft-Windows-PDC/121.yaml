@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PDC
+event_id: '121'
+version: '0'
+event(fields): PdcTargetPhaseSelected(UInt8 PreviousTargetPhase, UInt8 NewTargetPhase,
+  UInt8 CurrentPhase)
+opcode: ''
+keywords: Cs CsDiag
+task: PdcTargetPhaseSelected
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: PreviousTargetPhase
+- field_type: UInt8
+  field_name: NewTargetPhase
+- field_type: UInt8
+  field_name: CurrentPhase

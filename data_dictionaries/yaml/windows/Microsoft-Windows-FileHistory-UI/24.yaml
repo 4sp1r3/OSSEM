@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '24'
+version: '0'
+event(fields): FolderViewStyleSwitchToDetailsStart()
+opcode: Start
+keywords: ''
+task: FolderViewStyleSwitchToDetails
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

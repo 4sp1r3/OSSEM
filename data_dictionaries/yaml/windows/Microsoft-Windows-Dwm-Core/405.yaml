@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '405'
+version: '0'
+event(fields): DCOMPEVENT_RESOURCE_OPEN(UInt32 sourceChannelHandle, UInt32 sourceResourceHandle,
+  UInt32 targetChannelHandle, UInt32 targetResourceHandle, UInt64 sourceInternalHandleAndChannel,
+  UInt64 targetInternalHandleAndChannel, UInt32 resourceType, UInt64 resourcePointer)
+opcode: ''
+keywords: DwmCore DwmInput
+task: DCOMPEVENT_RESOURCE_OPEN
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: sourceChannelHandle
+- field_type: UInt32
+  field_name: sourceResourceHandle
+- field_type: UInt32
+  field_name: targetChannelHandle
+- field_type: UInt32
+  field_name: targetResourceHandle
+- field_type: UInt64
+  field_name: sourceInternalHandleAndChannel
+- field_type: UInt64
+  field_name: targetInternalHandleAndChannel
+- field_type: UInt32
+  field_name: resourceType
+- field_type: UInt64
+  field_name: resourcePointer

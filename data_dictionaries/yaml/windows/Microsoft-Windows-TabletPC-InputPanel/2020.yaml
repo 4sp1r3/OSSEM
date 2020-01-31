@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '2020'
+version: '0'
+event(fields): PKMWin32kCalloutStop(UInt32 KeyboardCalloutResult)
+opcode: Stop
+keywords: ''
+task: PKMWin32kCallout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: KeyboardCalloutResult

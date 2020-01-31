@@ -1,0 +1,85 @@
+provider: Microsoft-Windows-DXGI
+event_id: '12'
+version: '0'
+event(fields): SwapChainDCStart(Pointer pIDXGISwapChain, Pointer pIDXGIFactory, Pointer
+  pIDXGIDevice, Pointer pIDXGIOutput, UInt8 UserBackbufferCount, UInt8 BackbufferCount,
+  Pointer ppBackBuffers, Pointer pPrimary, Pointer pProxyPrimary, UInt32 Width, UInt32
+  Height, UInt32 RefreshNumerator, UInt32 RefreshDenominator, UInt32 Format, UInt32
+  ScanlineOrdering, UInt32 Scaling, UInt32 SampleCount, UInt32 SampleQuality, UInt32
+  Usage, Pointer OutputWindow, Boolean Windowed, UInt32 SwapEffect, UInt32 Flags,
+  Boolean Redirected, UInt64 LogicalSurfaceHandle, UInt64 BindId, Pointer BackbufferHandles,
+  Pointer BackbufferEventHandles, Pointer FenceHandle, UInt64 FenceValue, UInt8 ActualBufferCount,
+  UInt32 ActualSwapEffect, UInt8 WinFlipProxyBufferCount)
+opcode: DC_Start
+keywords: Objects
+task: SwapChain
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: Pointer
+  field_name: pIDXGIFactory
+- field_type: Pointer
+  field_name: pIDXGIDevice
+- field_type: Pointer
+  field_name: pIDXGIOutput
+- field_type: UInt8
+  field_name: UserBackbufferCount
+- field_type: UInt8
+  field_name: BackbufferCount
+- field_type: Pointer
+  field_name: ppBackBuffers
+- field_type: Pointer
+  field_name: pPrimary
+- field_type: Pointer
+  field_name: pProxyPrimary
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: RefreshNumerator
+- field_type: UInt32
+  field_name: RefreshDenominator
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: ScanlineOrdering
+- field_type: UInt32
+  field_name: Scaling
+- field_type: UInt32
+  field_name: SampleCount
+- field_type: UInt32
+  field_name: SampleQuality
+- field_type: UInt32
+  field_name: Usage
+- field_type: Pointer
+  field_name: OutputWindow
+- field_type: Boolean
+  field_name: Windowed
+- field_type: UInt32
+  field_name: SwapEffect
+- field_type: UInt32
+  field_name: Flags
+- field_type: Boolean
+  field_name: Redirected
+- field_type: UInt64
+  field_name: LogicalSurfaceHandle
+- field_type: UInt64
+  field_name: BindId
+- field_type: Pointer
+  field_name: BackbufferHandles
+- field_type: Pointer
+  field_name: BackbufferEventHandles
+- field_type: Pointer
+  field_name: FenceHandle
+- field_type: UInt64
+  field_name: FenceValue
+- field_type: UInt8
+  field_name: ActualBufferCount
+- field_type: UInt32
+  field_name: ActualSwapEffect
+- field_type: UInt8
+  field_name: WinFlipProxyBufferCount

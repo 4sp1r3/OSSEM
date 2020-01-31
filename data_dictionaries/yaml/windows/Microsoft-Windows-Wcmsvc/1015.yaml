@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '1015'
+version: '0'
+event(fields): task_01015(GUID InterfaceGUID, UInt32 Mediatype, Boolean ManualConnect,
+  UInt32 ManualFiltercontrol, UInt32 NumManualprofiles, UnicodeString ManualProfileNames,
+  Boolean AutoConnect, UInt32 AutoFiltercontrol, UInt32 NumAutoprofiles, UnicodeString
+  AutoProfileNames)
+opcode: ''
+keywords: LwtDiagnostic
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGUID
+- field_type: UInt32
+  field_name: Mediatype
+- field_type: Boolean
+  field_name: ManualConnect
+- field_type: UInt32
+  field_name: ManualFiltercontrol
+- field_type: UInt32
+  field_name: NumManualprofiles
+- field_type: UnicodeString
+  field_name: ManualProfileNames
+- field_type: Boolean
+  field_name: AutoConnect
+- field_type: UInt32
+  field_name: AutoFiltercontrol
+- field_type: UInt32
+  field_name: NumAutoprofiles
+- field_type: UnicodeString
+  field_name: AutoProfileNames

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1233'
+version: '0'
+event(fields): task_01233(AnsiString SessionId, UInt64 SecondsSinceLastSentPacket,
+  UInt32 ConnectionType)
+opcode: ''
+keywords: wnptrans
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: SessionId
+- field_type: UInt64
+  field_name: SecondsSinceLastSentPacket
+- field_type: UInt32
+  field_name: ConnectionType

@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-Kernel-File
+event_id: '16'
+version: '1'
+event(fields): Write_V1(UInt64 ByteOffset, Pointer Irp, Pointer FileObject, Pointer
+  FileKey, UInt32 IssuingThreadId, UInt32 IOSize, UInt32 IOFlags, UInt32 ExtraFlags)
+opcode: ''
+keywords: KERNEL_FILE_KEYWORD_FILEIO KERNEL_FILE_KEYWORD_WRITE
+task: Write
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ByteOffset
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: FileObject
+- field_type: Pointer
+  field_name: FileKey
+- field_type: UInt32
+  field_name: IssuingThreadId
+- field_type: UInt32
+  field_name: IOSize
+- field_type: UInt32
+  field_name: IOFlags
+- field_type: UInt32
+  field_name: ExtraFlags

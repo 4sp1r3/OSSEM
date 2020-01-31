@@ -1,0 +1,22 @@
+provider: Microsoft-IEFRAME
+event_id: '564'
+version: '0'
+event(fields): Browseui_TabWindow_SetVisibleStop(Int32 TabID, Boolean NewVisibleState,
+  Boolean CurrentVisibleState, Boolean IsTabSwitch, Boolean IsHung)
+opcode: Stop
+keywords: ''
+task: Browseui_TabWindow_SetVisible
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: TabID
+- field_type: Boolean
+  field_name: NewVisibleState
+- field_type: Boolean
+  field_name: CurrentVisibleState
+- field_type: Boolean
+  field_name: IsTabSwitch
+- field_type: Boolean
+  field_name: IsHung

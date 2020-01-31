@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebIO
+event_id: '59992'
+version: '0'
+event(fields): ThreadTokenStop(UInt64 Token, UInt32 Error)
+opcode: Stop
+keywords: ''
+task: ThreadToken
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Token
+- field_type: UInt32
+  field_name: Error

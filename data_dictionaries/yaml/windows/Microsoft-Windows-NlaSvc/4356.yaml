@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4356'
+version: '0'
+event(fields): ldap_bindFailed(UnicodeString Addresses, UnicodeString DcName, UInt32
+  TryNumber, UInt32 TryCount, UInt32 ErrorCode)
+opcode: Failed
+keywords: Resolver Intranet LwtDiagnostic
+task: ldap_bind
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Addresses
+- field_type: UnicodeString
+  field_name: DcName
+- field_type: UInt32
+  field_name: TryNumber
+- field_type: UInt32
+  field_name: TryCount
+- field_type: UInt32
+  field_name: ErrorCode

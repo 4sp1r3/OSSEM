@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '703'
+version: '0'
+event(fields): ServiceChannelCallStart(UnicodeString AppDomain)
+opcode: Start
+keywords: ServiceModel
+task: ServiceChannelCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

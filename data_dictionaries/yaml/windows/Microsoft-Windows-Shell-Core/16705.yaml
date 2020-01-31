@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16705'
+version: '0'
+event(fields): ShellItem_GetPropertyStoreWithCreateObjectStop()
+opcode: Stop
+keywords: Properties
+task: ShellItem_GetPropertyStoreWithCreateObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

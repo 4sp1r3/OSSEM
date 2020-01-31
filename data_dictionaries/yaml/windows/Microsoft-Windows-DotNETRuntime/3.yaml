@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '3'
+version: '0'
+event(fields): GCRestartEEStop()
+opcode: RestartEEStop
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

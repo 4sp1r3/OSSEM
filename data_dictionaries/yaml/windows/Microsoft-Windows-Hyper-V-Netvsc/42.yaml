@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Hyper-V-Netvsc
+event_id: '42'
+version: '0'
+event(fields): task_042(UInt32 Status, Boolean RequestHandled, UInt32 IfIndex, UInt32
+  MiniportNameLen, UnicodeString MiniportName, UInt32 VfAdapterNameLen, UnicodeString
+  VfAdapterName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: Boolean
+  field_name: RequestHandled
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: MiniportNameLen
+- field_type: UnicodeString
+  field_name: MiniportName
+- field_type: UInt32
+  field_name: VfAdapterNameLen
+- field_type: UnicodeString
+  field_name: VfAdapterName

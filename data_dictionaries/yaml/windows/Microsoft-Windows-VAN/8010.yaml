@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-VAN
+event_id: '8010'
+version: '0'
+event(fields): DisconnectStop()
+opcode: Stop
+keywords: ''
+task: Disconnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

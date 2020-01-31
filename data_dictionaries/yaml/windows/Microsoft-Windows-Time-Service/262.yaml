@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '262'
+version: '0'
+event(fields): task_0262(UnicodeString AdjustmentPPM, UInt64 NewClockRate, UInt64
+  OldClockRate, UInt64 TickCount, UnicodeString MinReportedAdjustmentPPM)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AdjustmentPPM
+- field_type: UInt64
+  field_name: NewClockRate
+- field_type: UInt64
+  field_name: OldClockRate
+- field_type: UInt64
+  field_name: TickCount
+- field_type: UnicodeString
+  field_name: MinReportedAdjustmentPPM

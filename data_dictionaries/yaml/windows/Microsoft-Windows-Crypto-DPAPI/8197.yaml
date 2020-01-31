@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Crypto-DPAPI
+event_id: '8197'
+version: '0'
+event(fields): DataProtectionOperation(HexInt32 Status, UInt32 ReasonForFailure)
+opcode: ''
+keywords: ETW_TASK_DATAPROTECTION_OPERATION
+task: DataProtectionOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: ReasonForFailure

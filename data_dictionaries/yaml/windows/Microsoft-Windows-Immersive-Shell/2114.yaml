@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2114'
+version: '0'
+event(fields): Picker_ActionButton_ContentChanged()
+opcode: ''
+keywords: ''
+task: Picker_ActionButton_ContentChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

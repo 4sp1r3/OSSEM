@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '802'
+version: '0'
+event(fields): WININET_AUTOPROXY_DHCPStart(UInt16 _InterfaceLength, AnsiString Interface)
+opcode: Start
+keywords: WININET_KEYWORD_AUTOPROXY
+task: WININET_AUTOPROXY_DHCP
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _InterfaceLength
+- field_type: AnsiString
+  field_name: Interface

@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '19'
+version: '0'
+event(fields): CommonWinRTSynchronizationController(UnicodeString stringValue1)
+opcode: SynchronizationController
+keywords: DebugTrace
+task: CommonWinRT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1

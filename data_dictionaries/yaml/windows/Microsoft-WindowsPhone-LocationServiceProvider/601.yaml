@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '601'
+version: '0'
+event(fields): GCWStateLogEvent(UInt32 InstanceId, UInt32 GeoStatus, UInt32 GeoPermission)
+opcode: ''
+keywords: Selfhost FixSession ClientApi ManagedApi
+task: GCWStateLogEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InstanceId
+- field_type: UInt32
+  field_name: GeoStatus
+- field_type: UInt32
+  field_name: GeoPermission

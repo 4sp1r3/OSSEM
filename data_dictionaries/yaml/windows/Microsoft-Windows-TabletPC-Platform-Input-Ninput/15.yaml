@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '15'
+version: '0'
+event(fields): NinputSendMouseStart(UInt32 promotionFlags)
+opcode: Start
+keywords: ''
+task: NinputSendMouse
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: promotionFlags

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ACL-UI
+event_id: '4000'
+version: '0'
+event(fields): LaunchAdvancedACLUIStart()
+opcode: Start
+keywords: ''
+task: LaunchAdvancedACLUI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

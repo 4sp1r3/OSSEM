@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDC
+event_id: '92'
+version: '0'
+event(fields): SpmClientSend(Pointer Client, UInt32 SendReceive)
+opcode: ''
+keywords: SPM
+task: SpmClientSend
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: UInt32
+  field_name: SendReceive

@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4004'
+version: '0'
+event(fields): Set_AppvPackageStart(GUID Guid)
+opcode: Start
+keywords: ''
+task: Set_AppvPackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Guid

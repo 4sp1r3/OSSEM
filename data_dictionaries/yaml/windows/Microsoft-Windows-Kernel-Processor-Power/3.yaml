@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '3'
+version: '0'
+event(fields): ThrottleStatesError(UInt32 Processor)
+opcode: ''
+keywords: ''
+task: ThrottleStatesError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Processor

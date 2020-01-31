@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '550'
+version: '0'
+event(fields): BM_FlushDeferredActivations()
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BM_FlushDeferredActivations
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

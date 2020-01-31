@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HttpService
+event_id: '63'
+version: '0'
+event(fields): HTTPSSLTraceTaskSslSealMsg(Pointer ConnectionObj, UInt32 SecStatus)
+opcode: SslSealMsg
+keywords: HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_SSL
+task: HTTPSSLTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionObj
+- field_type: UInt32
+  field_name: SecStatus

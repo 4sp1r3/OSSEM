@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1807'
+version: '0'
+event(fields): ID3D11VideoDevice_CreateCryptoSessionStop(UInt32 m_Ret, Pointer ppCryptoSession)
+opcode: Stop
+keywords: ''
+task: ID3D11VideoDevice_CreateCryptoSession
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret
+- field_type: Pointer
+  field_name: ppCryptoSession

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceSyncProvider
+event_id: '413'
+version: '0'
+event(fields): WPDProvider_GetMetadataSchemaStop()
+opcode: Stop
+keywords: ''
+task: WPDProvider_GetMetadataSchema
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

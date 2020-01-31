@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP-Setup_WM
+event_id: '806'
+version: '0'
+event(fields): FUE_PATH_TAKEN(UInt32 WMPSetupID)
+opcode: ''
+keywords: ''
+task: FUE_PATH_TAKEN
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WMPSetupID

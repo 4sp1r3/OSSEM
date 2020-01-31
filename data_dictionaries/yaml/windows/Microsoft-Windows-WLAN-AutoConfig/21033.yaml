@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '21033'
+version: '0'
+event(fields): task_021033(UInt32 AdapterId, GUID InterfaceGuid, UInt32 RequestType,
+  UInt32 ResponseType, Boolean Cancelled)
+opcode: ''
+keywords: MSMSEC ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterId
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RequestType
+- field_type: UInt32
+  field_name: ResponseType
+- field_type: Boolean
+  field_name: Cancelled

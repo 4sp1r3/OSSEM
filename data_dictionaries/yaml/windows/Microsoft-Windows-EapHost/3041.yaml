@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EapHost
+event_id: '3041'
+version: '0'
+event(fields): Common3041()
+opcode: ''
+keywords: ''
+task: Common
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '14'
+version: '0'
+event(fields): MonitorI2CReceive(Int64 IddAdapterLuid, UInt32 ConnectorIndex, UInt32
+  SevenBitI2CAddress, UInt32 DataSizeInBytes, UInt32 Flags)
+opcode: I2CReceive
+keywords: DdiCallbacks
+task: Monitor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: IddAdapterLuid
+- field_type: UInt32
+  field_name: ConnectorIndex
+- field_type: UInt32
+  field_name: SevenBitI2CAddress
+- field_type: UInt32
+  field_name: DataSizeInBytes
+- field_type: UInt32
+  field_name: Flags

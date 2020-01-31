@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1123'
+version: '0'
+event(fields): TcpListenerActivated(Pointer Listener, UInt32 AddressLength, Binary
+  SocketAddress, UInt32 Status, UInt32 ProcessId, UInt32 CompartmentId, UInt32 AddressFamily)
+opcode: ''
+keywords: ut:TcpipListener ut:ConnectPath
+task: TcpListenerActivated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Listener
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: Binary
+  field_name: SocketAddress
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: AddressFamily

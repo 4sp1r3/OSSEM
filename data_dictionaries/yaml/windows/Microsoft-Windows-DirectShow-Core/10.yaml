@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '10'
+version: '0'
+event(fields): PluginManager10(GUID clsid, Boolean Disabled)
+opcode: ''
+keywords: ''
+task: PluginManager
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: clsid
+- field_type: Boolean
+  field_name: Disabled

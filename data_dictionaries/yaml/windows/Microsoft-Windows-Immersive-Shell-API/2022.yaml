@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2022'
+version: '0'
+event(fields): CoreApplicationEnteredBackgroundStart()
+opcode: Start
+keywords: ''
+task: CoreApplicationEnteredBackground
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

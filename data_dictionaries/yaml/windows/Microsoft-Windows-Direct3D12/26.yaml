@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '26'
+version: '0'
+event(fields): D3DSupplemental(UInt32 BufferSize, Binary Buffer)
+opcode: ''
+keywords: ''
+task: D3DSupplemental
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BufferSize
+- field_type: Binary
+  field_name: Buffer

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8005'
+version: '1'
+event(fields): NotifyShortcutRemovedStart_V1()
+opcode: Start
+keywords: ''
+task: NotifyShortcutRemoved
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

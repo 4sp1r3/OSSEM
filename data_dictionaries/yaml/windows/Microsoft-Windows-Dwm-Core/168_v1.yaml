@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '168'
+version: '1'
+event(fields): ANIMATION_ANALYSIS_DEBUG_EVENT_V1(UnicodeString AnimationScenario,
+  UInt32 ReferenceCount, UInt32 VSyncs, UInt32 GlitchesRecorded, UInt32 ScenarioIndex,
+  UInt64 UniqueKey)
+opcode: ''
+keywords: DwmCore
+task: ANIMATION_ANALYSIS_DEBUG_EVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AnimationScenario
+- field_type: UInt32
+  field_name: ReferenceCount
+- field_type: UInt32
+  field_name: VSyncs
+- field_type: UInt32
+  field_name: GlitchesRecorded
+- field_type: UInt32
+  field_name: ScenarioIndex
+- field_type: UInt64
+  field_name: UniqueKey

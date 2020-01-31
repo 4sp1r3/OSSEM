@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '231'
+version: '0'
+event(fields): WaitForSynchronizationObject2(Pointer hContext, UInt32 ObjectCount,
+  Pointer ObjectArray, UInt64 FenceValue)
+opcode: ''
+keywords: Base
+task: WaitForSynchronizationObject2
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: ObjectCount
+- field_type: Pointer
+  field_name: ObjectArray
+- field_type: UInt64
+  field_name: FenceValue

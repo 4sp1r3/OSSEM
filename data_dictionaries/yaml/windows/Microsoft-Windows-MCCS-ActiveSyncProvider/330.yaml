@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '330'
+version: '0'
+event(fields): task_0330(UnicodeString Prop_String)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_String

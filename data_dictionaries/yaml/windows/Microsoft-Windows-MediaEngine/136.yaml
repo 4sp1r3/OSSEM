@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '136'
+version: '0'
+event(fields): SaveimageStop(Pointer object, UInt32 NativeWidth, UInt32 NativeHeight,
+  UInt32 EncodedWidth, UInt32 EncodedHeight, UInt32 EncodedSize, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Saveimage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: NativeWidth
+- field_type: UInt32
+  field_name: NativeHeight
+- field_type: UInt32
+  field_name: EncodedWidth
+- field_type: UInt32
+  field_name: EncodedHeight
+- field_type: UInt32
+  field_name: EncodedSize
+- field_type: UInt32
+  field_name: ErrorCode

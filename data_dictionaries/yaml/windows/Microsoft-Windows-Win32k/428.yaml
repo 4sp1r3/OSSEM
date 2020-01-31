@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '428'
+version: '0'
+event(fields): SPIBlockedByFiltering(UInt32 SPIAction)
+opcode: ''
+keywords: ''
+task: SPIBlockedByFiltering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SPIAction

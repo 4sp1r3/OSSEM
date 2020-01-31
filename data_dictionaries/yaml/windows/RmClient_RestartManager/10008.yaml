@@ -1,0 +1,17 @@
+provider: RmClient_RestartManager
+event_id: '10008'
+version: '0'
+event(fields): task_010008(UInt32 RmSessionId, UInt32 cbSize, Binary pbBinary)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RmSessionId
+- field_type: UInt32
+  field_name: cbSize
+- field_type: Binary
+  field_name: pbBinary

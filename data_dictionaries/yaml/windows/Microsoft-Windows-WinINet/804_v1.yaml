@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-WinINet
+event_id: '804'
+version: '1'
+event(fields): WININET_AUTOPROXY_DHCPFail_V1(UInt16 _InterfaceLength, UnicodeString
+  Interface, UInt16 _ConfigurationURLLength, UnicodeString ConfigurationURL, UInt32
+  Error)
+opcode: Fail
+keywords: WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC
+task: WININET_AUTOPROXY_DHCP
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _InterfaceLength
+- field_type: UnicodeString
+  field_name: Interface
+- field_type: UInt16
+  field_name: _ConfigurationURLLength
+- field_type: UnicodeString
+  field_name: ConfigurationURL
+- field_type: UInt32
+  field_name: Error

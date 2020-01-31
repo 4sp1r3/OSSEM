@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1033'
+version: '0'
+event(fields): WinNatMOutOfPortsOper(UnicodeString InstanceName, UInt32 TransportProtocol)
+opcode: ''
+keywords: ''
+task: WinNatMOutOfPortsOper
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InstanceName
+- field_type: UInt32
+  field_name: TransportProtocol

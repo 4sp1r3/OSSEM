@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '96'
+version: '0'
+event(fields): MediaBufferingNotify(Boolean Engaged)
+opcode: ''
+keywords: Algorithm
+task: MediaBufferingNotify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Engaged

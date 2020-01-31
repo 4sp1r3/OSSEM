@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1208'
+version: '0'
+event(fields): SensorsHidInitializationTask1208(Pointer WdfDevice, UInt16 SensorUsage,
+  UInt8 ReportId, UInt16 BitSize, UInt16 ExpectedBitSize, UInt16 ReportCount, UInt16
+  ExpectedReportCount, UInt16 Exponent, UInt16 ExpectedExponent)
+opcode: ''
+keywords: ''
+task: SensorsHidInitializationTask
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: UInt16
+  field_name: SensorUsage
+- field_type: UInt8
+  field_name: ReportId
+- field_type: UInt16
+  field_name: BitSize
+- field_type: UInt16
+  field_name: ExpectedBitSize
+- field_type: UInt16
+  field_name: ReportCount
+- field_type: UInt16
+  field_name: ExpectedReportCount
+- field_type: UInt16
+  field_name: Exponent
+- field_type: UInt16
+  field_name: ExpectedExponent

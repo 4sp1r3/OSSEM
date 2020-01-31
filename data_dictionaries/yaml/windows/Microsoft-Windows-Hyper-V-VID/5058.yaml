@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5058'
+version: '0'
+event(fields): VMT_VID_PARTITION_UNPERSISTStart(Int8 KsrPersisted, GUID PartitionGuid)
+opcode: Start
+keywords: VMK_PARTITION
+task: VMT_VID_PARTITION_UNPERSIST
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: KsrPersisted
+- field_type: GUID
+  field_name: PartitionGuid

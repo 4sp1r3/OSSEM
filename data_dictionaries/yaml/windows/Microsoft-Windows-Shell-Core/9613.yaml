@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9613'
+version: '0'
+event(fields): Explorer_InitInstrumentation(UInt32 SqmType, SID SqmSid)
+opcode: ''
+keywords: Shell
+task: Explorer_InitInstrumentation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SqmType
+- field_type: SID
+  field_name: SqmSid

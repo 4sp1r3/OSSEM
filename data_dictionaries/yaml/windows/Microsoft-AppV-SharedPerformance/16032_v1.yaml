@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '16032'
+version: '1'
+event(fields): ConfigureapackageStart_V1()
+opcode: Start
+keywords: ''
+task: Configureapackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

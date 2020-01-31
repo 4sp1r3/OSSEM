@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '403'
+version: '0'
+event(fields): SignpostSuspend(UnicodeString ExtendedData, UnicodeString AppDomain)
+opcode: Suspend
+keywords: ServiceModel Troubleshooting
+task: Signpost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtendedData
+- field_type: UnicodeString
+  field_name: AppDomain

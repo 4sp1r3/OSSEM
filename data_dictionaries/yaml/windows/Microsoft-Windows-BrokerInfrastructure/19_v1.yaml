@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '19'
+version: '1'
+event(fields): BackgroundTaskTaskCanceled_V1(UInt16 EntryPointLength, UnicodeString
+  TaskEntryPoint, UInt16 NameLength, UnicodeString TaskName, GUID InstanceId, UInt64
+  UserContextId)
+opcode: TaskCanceled
+keywords: BackgroundTask
+task: BackgroundTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: EntryPointLength
+- field_type: UnicodeString
+  field_name: TaskEntryPoint
+- field_type: UInt16
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: GUID
+  field_name: InstanceId
+- field_type: UInt64
+  field_name: UserContextId

@@ -1,0 +1,13 @@
+provider: Microsoft-OneCore-OnlineSetup
+event_id: '1001'
+version: '0'
+event(fields): RunSetupSpecializationStart(UnicodeString CommandLine)
+opcode: Start
+keywords: keyPerformance
+task: RunSetupSpecialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CommandLine

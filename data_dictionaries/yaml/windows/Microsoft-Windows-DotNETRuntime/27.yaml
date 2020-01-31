@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '27'
+version: '0'
+event(fields): GCMarkHandles(UInt32 HeapNum, UInt16 ClrInstanceID)
+opcode: MarkHandles
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapNum
+- field_type: UInt16
+  field_name: ClrInstanceID

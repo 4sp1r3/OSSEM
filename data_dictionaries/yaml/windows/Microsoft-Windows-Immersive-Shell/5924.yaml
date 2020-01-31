@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5924'
+version: '0'
+event(fields): AppActivation_RPCTimeout(UnicodeString PsmKey, UInt32 TimeOutPeriod)
+opcode: ''
+keywords: ''
+task: AppActivation_RPCTimeout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: TimeOutPeriod

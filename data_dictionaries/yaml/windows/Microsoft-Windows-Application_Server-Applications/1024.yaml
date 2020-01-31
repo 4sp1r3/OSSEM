@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1024'
+version: '0'
+event(fields): CreateBookmark1024(UnicodeString data1, UnicodeString AppDomain)
+opcode: ''
+keywords: WFRuntime
+task: CreateBookmark
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

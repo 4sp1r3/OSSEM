@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-ConfigManager
+event_id: '10'
+version: '0'
+event(fields): MigrationStop()
+opcode: Stop
+keywords: ''
+task: Migration
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '4021'
+version: '0'
+event(fields): Messaging_StreamDirty(UInt32 hex, UInt32 hex2)
+opcode: ''
+keywords: MessagingPerformance Messaging
+task: Messaging_StreamDirty
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex
+- field_type: UInt32
+  field_name: hex2

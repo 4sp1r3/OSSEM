@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '528'
+version: '0'
+event(fields): PowerStateEvent(UInt32 Event, UInt32 Intent)
+opcode: ''
+keywords: po:Diagnostic
+task: PowerStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Event
+- field_type: UInt32
+  field_name: Intent

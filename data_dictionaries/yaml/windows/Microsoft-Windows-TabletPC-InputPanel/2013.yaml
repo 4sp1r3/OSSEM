@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '2013'
+version: '0'
+event(fields): PKMLifetimeStart()
+opcode: Start
+keywords: ''
+task: PKMLifetime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

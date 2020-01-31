@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DUI
+event_id: '87'
+version: '0'
+event(fields): DirectUI_TouchScrollViewer_OnRegionStatusChangedStart(UInt32 PreviousState,
+  UInt32 NewState)
+opcode: Start
+keywords: Default
+task: DirectUI_TouchScrollViewer_OnRegionStatusChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PreviousState
+- field_type: UInt32
+  field_name: NewState

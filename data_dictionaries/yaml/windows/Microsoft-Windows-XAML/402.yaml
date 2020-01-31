@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '402'
+version: '0'
+event(fields): ImageUpdateHardwareResourcesStop(UInt64 Id)
+opcode: Stop
+keywords: Images
+task: ImageUpdateHardwareResources
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id

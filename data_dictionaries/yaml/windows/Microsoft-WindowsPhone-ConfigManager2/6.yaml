@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '6'
+version: '0'
+event(fields): ICSPNode_SetValue_TaskStart()
+opcode: Start
+keywords: Performance
+task: ICSPNode_SetValue_Task
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

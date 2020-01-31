@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-LimitsManagement
+event_id: '9'
+version: '0'
+event(fields): PolicyRundown(UInt64 Token, UnicodeString Name, UnicodeString Parameters)
+opcode: ''
+keywords: ''
+task: PolicyRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Token
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Parameters

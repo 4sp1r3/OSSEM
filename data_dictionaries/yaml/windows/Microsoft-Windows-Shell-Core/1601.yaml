@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1601'
+version: '0'
+event(fields): ShellTask_DefCM_DeleteItemsThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_DefCM_DeleteItemsThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

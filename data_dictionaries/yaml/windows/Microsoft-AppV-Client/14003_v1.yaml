@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client
+event_id: '14003'
+version: '1'
+event(fields): BackgroundStreaming14003_V1()
+opcode: ''
+keywords: Streaming
+task: BackgroundStreaming
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9703'
+version: '0'
+event(fields): BaseNavigationClientInitialize(UInt32 unParam)
+opcode: Initialize
+keywords: NavigationClient
+task: BaseNavigationClient
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30609'
+version: '1'
+event(fields): Unpublishing_4104Start_V1()
+opcode: Start
+keywords: ''
+task: Unpublishing_4104
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '227'
+version: '0'
+event(fields): DLM_Resume_TimeStop()
+opcode: Stop
+keywords: primarynav
+task: DLM_Resume_Time
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

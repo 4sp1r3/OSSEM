@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '5050'
+version: '0'
+event(fields): Formatting_MessageMethodStart(UnicodeString pwsz)
+opcode: Start
+keywords: MessagingPerformance Formatting
+task: Formatting_MessageMethod
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz

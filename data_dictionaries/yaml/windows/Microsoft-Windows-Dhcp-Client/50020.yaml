@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50020'
+version: '0'
+event(fields): ProtocolStateEventBroadcastbitToggled(UInt32 InterfaceId, Boolean BoolFlag)
+opcode: BroadcastbitToggled
+keywords: ''
+task: ProtocolStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: Boolean
+  field_name: BoolFlag

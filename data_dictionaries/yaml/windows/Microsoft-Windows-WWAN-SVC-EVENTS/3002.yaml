@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '3002'
+version: '0'
+event(fields): task_03002(GUID InterfaceGuid, UInt32 EventCode, UInt32 ErrorCode,
+  UInt32 NetworkErrorCode, UInt32 RequestID)
+opcode: ''
+keywords: LwtDiagnostic ut:L2ConnectPath
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: EventCode
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: NetworkErrorCode
+- field_type: UInt32
+  field_name: RequestID

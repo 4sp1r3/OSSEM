@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '10'
+version: '0'
+event(fields): task_0QueryMultipleValueKey(Pointer KeyObject, UInt32 Status, UInt32
+  EntryCount, UInt32 DataSize, UnicodeString KeyName)
+opcode: QueryMultipleValueKey
+keywords: QueryMultipleValueKey
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: KeyObject
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: EntryCount
+- field_type: UInt32
+  field_name: DataSize
+- field_type: UnicodeString
+  field_name: KeyName

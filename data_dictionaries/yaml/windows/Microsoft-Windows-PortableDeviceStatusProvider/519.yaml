@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceStatusProvider
+event_id: '519'
+version: '0'
+event(fields): GetStatusServicePropertiesStop()
+opcode: Stop
+keywords: ''
+task: GetStatusServiceProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

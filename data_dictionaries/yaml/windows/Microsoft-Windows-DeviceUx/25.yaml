@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '25'
+version: '0'
+event(fields): BWContextHandler_RemovePairingStandardStop()
+opcode: Stop
+keywords: DeviceUX
+task: BWContextHandler_RemovePairingStandard
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

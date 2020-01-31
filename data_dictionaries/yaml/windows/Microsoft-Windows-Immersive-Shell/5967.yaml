@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5967'
+version: '0'
+event(fields): AppActivation_AppSpinupStep5967(UnicodeString AppId, UnicodeString
+  ContractId, UInt32 ProcessId)
+opcode: ''
+keywords: ''
+task: AppActivation_AppSpinupStep
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId
+- field_type: UnicodeString
+  field_name: ContractId
+- field_type: UInt32
+  field_name: ProcessId

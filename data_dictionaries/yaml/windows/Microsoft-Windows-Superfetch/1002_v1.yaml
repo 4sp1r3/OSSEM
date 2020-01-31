@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1002'
+version: '1'
+event(fields): EmptyVirtualStore_V1(UInt32 StoreId)
+opcode: ''
+keywords: Store
+task: EmptyVirtualStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StoreId

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WABSyncProvider
+event_id: '24'
+version: '0'
+event(fields): DeleteItemStop()
+opcode: Stop
+keywords: ''
+task: DeleteItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '478'
+version: '0'
+event(fields): CAsyncStorage_WorkPendingStart()
+opcode: Start
+keywords: verbose
+task: CAsyncStorage_WorkPending
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

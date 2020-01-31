@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '1'
+version: '0'
+event(fields): GCStart(UInt32 Count, UInt32 Reason)
+opcode: Start
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt32
+  field_name: Reason

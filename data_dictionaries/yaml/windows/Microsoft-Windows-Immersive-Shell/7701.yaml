@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7701'
+version: '0'
+event(fields): ImmersiveApplicationManagerForegroundBoost(Pointer ApplicationWindow,
+  UInt32 PID, UnicodeString AppID, Boolean PriorityForeground, Pointer SystemWindow)
+opcode: ''
+keywords: ''
+task: ImmersiveApplicationManagerForegroundBoost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ApplicationWindow
+- field_type: UInt32
+  field_name: PID
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: Boolean
+  field_name: PriorityForeground
+- field_type: Pointer
+  field_name: SystemWindow

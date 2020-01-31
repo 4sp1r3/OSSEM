@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '30'
+version: '0'
+event(fields): RESOURCE_RELEASE(UInt32 channelHandle, UInt32 resourceHandle, UInt64
+  resourcePointer)
+opcode: ''
+keywords: DCompBasic
+task: RESOURCE_RELEASE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: channelHandle
+- field_type: UInt32
+  field_name: resourceHandle
+- field_type: UInt64
+  field_name: resourcePointer

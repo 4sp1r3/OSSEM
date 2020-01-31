@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '77'
+version: '0'
+event(fields): ApiInvalidateIconicBitmapsStart(Pointer hwnd)
+opcode: Start
+keywords: DwmApi
+task: ApiInvalidateIconicBitmaps
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwnd

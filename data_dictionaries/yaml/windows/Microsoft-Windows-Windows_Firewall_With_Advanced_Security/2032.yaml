@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2032'
+version: '0'
+event(fields): task_02032(SID ModifyingUser, UnicodeString ModifyingApplication)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: ModifyingUser
+- field_type: UnicodeString
+  field_name: ModifyingApplication

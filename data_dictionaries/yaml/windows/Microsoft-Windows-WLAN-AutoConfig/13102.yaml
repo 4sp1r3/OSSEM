@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '13102'
+version: '0'
+event(fields): ConnectionCost13102(UInt32 CostSource, GUID InterfaceGuid, UnicodeString
+  ProfileName)
+opcode: ''
+keywords: LwtDiagnostic
+task: ConnectionCost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CostSource
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: ProfileName

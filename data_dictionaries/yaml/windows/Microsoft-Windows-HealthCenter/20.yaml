@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '20'
+version: '0'
+event(fields): HealthCenter_NotificationProcessing(UnicodeString CanonicalName)
+opcode: ''
+keywords: ''
+task: HealthCenter_NotificationProcessing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CanonicalName

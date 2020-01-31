@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '40'
+version: '0'
+event(fields): RestorePrintBRMoperationsuccess40(UnicodeString FolderName)
+opcode: PrintBRMoperationsuccess
+keywords: PRINT_BRM_KEYWORD
+task: Restore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FolderName

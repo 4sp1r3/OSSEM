@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-VAN
+event_id: '8013'
+version: '0'
+event(fields): NetworkStatus_Limited()
+opcode: ''
+keywords: VAN_Performance Aoac
+task: NetworkStatus_Limited
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

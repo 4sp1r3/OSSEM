@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8036'
+version: '1'
+event(fields): HandleActivityStart_V1(UInt64 uint64, UInt32 uint32)
+opcode: Start
+keywords: ''
+task: HandleActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: uint64
+- field_type: UInt32
+  field_name: uint32

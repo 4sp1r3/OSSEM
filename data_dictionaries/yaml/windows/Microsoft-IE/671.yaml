@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '671'
+version: '0'
+event(fields): Mshtml_TouchDiagnosis_GenericInfo_Output(UInt32 GenericInfo, Pointer
+  ThisPtr)
+opcode: ''
+keywords: touch
+task: Mshtml_TouchDiagnosis_GenericInfo_Output
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: GenericInfo
+- field_type: Pointer
+  field_name: ThisPtr

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '1003'
+version: '0'
+event(fields): CreateDocument1003(Int32 Result)
+opcode: ''
+keywords: XmlValidation ut:Configuration
+task: CreateDocument
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Result

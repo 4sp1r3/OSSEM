@@ -1,0 +1,15 @@
+provider: Intel-iaLPSS-I2C
+event_id: '1011'
+version: '0'
+event(fields): TasktoTrackInterruptRoutineStart(Pointer WDFDEVICE, HexInt64 MMIO)
+opcode: Start
+keywords: ''
+task: TasktoTrackInterruptRoutine
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WDFDEVICE
+- field_type: HexInt64
+  field_name: MMIO

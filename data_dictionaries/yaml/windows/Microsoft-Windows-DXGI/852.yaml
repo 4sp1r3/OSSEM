@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DXGI
+event_id: '852'
+version: '0'
+event(fields): IDXGISwapChain_GetSourceSizeStart(Pointer pThis, Pointer pWidth, Pointer
+  pHeight)
+opcode: Start
+keywords: ''
+task: IDXGISwapChain_GetSourceSize
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pWidth
+- field_type: Pointer
+  field_name: pHeight

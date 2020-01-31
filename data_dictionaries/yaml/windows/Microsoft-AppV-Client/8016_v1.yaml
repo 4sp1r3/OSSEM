@@ -1,0 +1,18 @@
+provider: Microsoft-AppV-Client
+event_id: '8016'
+version: '1'
+event(fields): ConfigurePackage8016_V1(UnicodeString tString, GUID PackageId, GUID
+  PackageVersion)
+opcode: ''
+keywords: DynamicConfiguration
+task: ConfigurePackage
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: tString
+- field_type: GUID
+  field_name: PackageId
+- field_type: GUID
+  field_name: PackageVersion

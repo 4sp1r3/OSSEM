@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4660'
+version: '0'
+event(fields): task_04660(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString ObjectServer, Pointer
+  HandleId, Pointer ProcessId, UnicodeString ProcessName, GUID TransactionId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: ObjectServer
+- field_type: Pointer
+  field_name: HandleId
+- field_type: Pointer
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: GUID
+  field_name: TransactionId

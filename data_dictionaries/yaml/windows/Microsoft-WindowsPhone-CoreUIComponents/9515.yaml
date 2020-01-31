@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9515'
+version: '0'
+event(fields): ViewManager9515(UInt32 unParam, UnicodeString pwsz)
+opcode: ''
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UnicodeString
+  field_name: pwsz

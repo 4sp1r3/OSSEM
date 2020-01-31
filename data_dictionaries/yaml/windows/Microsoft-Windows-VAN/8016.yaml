@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-VAN
+event_id: '8016'
+version: '0'
+event(fields): LoadPreCFEStop()
+opcode: Stop
+keywords: VAN_Performance
+task: LoadPreCFE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

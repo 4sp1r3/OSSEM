@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors
+event_id: '10001'
+version: '0'
+event(fields): PerfTrackmeasurementofauto_rotationStart(UInt32 EventId)
+opcode: Start
+keywords: SensPerf
+task: PerfTrackmeasurementofauto_rotation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EventId

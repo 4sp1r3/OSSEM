@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '2'
+version: '1'
+event(fields): BackgroundTaskStop_V1(GUID WorkItemId, GUID BrokerId, UInt32 SessionId,
+  Boolean TaskExecuted, UInt32 Result, SID UserSid, UnicodeString PackageFullName,
+  UInt16 EntryPointLength, UnicodeString EntryPoint, UInt64 ApplicationId, UInt16
+  CpuThrottleCount, UInt16 NetThrottleCount, UInt32 WatchdogDuration, UInt32 WatchdogIteration,
+  UInt16 Flags)
+opcode: Stop
+keywords: BackgroundTask LowOverheadDiag
+task: BackgroundTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: WorkItemId
+- field_type: GUID
+  field_name: BrokerId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: Boolean
+  field_name: TaskExecuted
+- field_type: UInt32
+  field_name: Result
+- field_type: SID
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UInt16
+  field_name: EntryPointLength
+- field_type: UnicodeString
+  field_name: EntryPoint
+- field_type: UInt64
+  field_name: ApplicationId
+- field_type: UInt16
+  field_name: CpuThrottleCount
+- field_type: UInt16
+  field_name: NetThrottleCount
+- field_type: UInt32
+  field_name: WatchdogDuration
+- field_type: UInt32
+  field_name: WatchdogIteration
+- field_type: UInt16
+  field_name: Flags

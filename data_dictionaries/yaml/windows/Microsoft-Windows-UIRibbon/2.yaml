@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIRibbon
+event_id: '2'
+version: '0'
+event(fields): NetUIPaintStop()
+opcode: Stop
+keywords: Default
+task: NetUIPaint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

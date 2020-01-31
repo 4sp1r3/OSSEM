@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7279'
+version: '0'
+event(fields): ConnectedSearch_UploadPerfPingBGStart()
+opcode: Start
+keywords: ''
+task: ConnectedSearch_UploadPerfPingBG
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

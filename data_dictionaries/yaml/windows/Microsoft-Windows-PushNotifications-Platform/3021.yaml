@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3021'
+version: '0'
+event(fields): TileImageDownload3021(UInt32 PriorityIndex, UnicodeString AppUserModelId,
+  UInt32 NotificationId, UInt32 URLCount, UInt32 Flag)
+opcode: ''
+keywords: wpnui wpndev_NotificationE2E
+task: TileImageDownload
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PriorityIndex
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: NotificationId
+- field_type: UInt32
+  field_name: URLCount
+- field_type: UInt32
+  field_name: Flag

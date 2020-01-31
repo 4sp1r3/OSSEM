@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MF
+event_id: '1302'
+version: '0'
+event(fields): MFDSSamplePoolPending(Pointer Object, Pointer Sample, Int32 PendingCount)
+opcode: ''
+keywords: ''
+task: MFDSSamplePoolPending
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: Sample
+- field_type: Int32
+  field_name: PendingCount

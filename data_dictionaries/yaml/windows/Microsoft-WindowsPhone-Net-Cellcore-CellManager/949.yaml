@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '949'
+version: '0'
+event(fields): CellularModemContainer949(UInt32 DwordName1, UInt32 DwordName2, UInt32
+  cbBytes3, UInt8 Bytes4)
+opcode: ''
+keywords: Error
+task: CellularModemContainer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName1
+- field_type: UInt32
+  field_name: DwordName2
+- field_type: UInt32
+  field_name: cbBytes3
+- field_type: UInt8
+  field_name: Bytes4

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '550'
+version: '0'
+event(fields): SystemIdleEventAssessment(UInt32 EventType, UInt32 TimeSinceEvent,
+  UInt32 IdleTimeout, Boolean WasIgnored, UInt32 BusyReason)
+opcode: ''
+keywords: po:Diagnostic
+task: SystemIdleEventAssessment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EventType
+- field_type: UInt32
+  field_name: TimeSinceEvent
+- field_type: UInt32
+  field_name: IdleTimeout
+- field_type: Boolean
+  field_name: WasIgnored
+- field_type: UInt32
+  field_name: BusyReason

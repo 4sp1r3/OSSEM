@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WebIO
+event_id: '720'
+version: '0'
+event(fields): SSLReceiveEntityStart(Pointer Connection, Pointer SslIOContext, Pointer
+  DataChunks)
+opcode: Start
+keywords: Keyword.RECEIVE
+task: SSLReceiveEntity
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: SslIOContext
+- field_type: Pointer
+  field_name: DataChunks

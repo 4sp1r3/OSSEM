@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '664'
+version: '0'
+event(fields): Perftrack_OutputManager_KeyUpStart(UInt32 Duration)
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: Perftrack_OutputManager_KeyUp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Duration

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Backup
+event_id: '9'
+version: '0'
+event(fields): task_09(GUID BackupSetId, UInt32 SppErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BackupSetId
+- field_type: UInt32
+  field_name: SppErrorCode

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4014'
+version: '0'
+event(fields): InternetConnectivityDetectionStop(GUID InterfaceGuid, Boolean Succeeded,
+  Boolean UsedDnsProbe, Boolean UsedProxy, Boolean ContentComparison, Boolean WebCompleted,
+  Boolean WebRedirected, Boolean LocalErrorOccured)
+opcode: Stop
+keywords: LwtDiagnostic keyword_200000000000
+task: InternetConnectivityDetection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: Boolean
+  field_name: Succeeded
+- field_type: Boolean
+  field_name: UsedDnsProbe
+- field_type: Boolean
+  field_name: UsedProxy
+- field_type: Boolean
+  field_name: ContentComparison
+- field_type: Boolean
+  field_name: WebCompleted
+- field_type: Boolean
+  field_name: WebRedirected
+- field_type: Boolean
+  field_name: LocalErrorOccured

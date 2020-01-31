@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinRM
+event_id: '49'
+version: '0'
+event(fields): WinRMMIOperationStop49(UInt32 errorCode, UnicodeString errorMessage)
+opcode: Stop
+keywords: Keyword.Client
+task: WinRMMIOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: errorMessage

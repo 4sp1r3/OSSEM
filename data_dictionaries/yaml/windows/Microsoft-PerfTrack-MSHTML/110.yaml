@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-MSHTML
+event_id: '110'
+version: '0'
+event(fields): XSSFilter_SanitizeStop(UInt64 ObjectXSSFilter)
+opcode: Stop
+keywords: ''
+task: XSSFilter_Sanitize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ObjectXSSFilter

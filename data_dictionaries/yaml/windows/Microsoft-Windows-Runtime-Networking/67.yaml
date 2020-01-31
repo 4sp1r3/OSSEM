@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '67'
+version: '0'
+event(fields): SocketConnect67(UnicodeString value, UInt32 resolutionResult)
+opcode: ''
+keywords: keywords.Socket
+task: SocketConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value
+- field_type: UInt32
+  field_name: resolutionResult

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '11'
+version: '0'
+event(fields): URSCall(UInt32 numElements, UnicodeString DefaultLangId, UnicodeString
+  lastOverrideToken, UnicodeString newOverrideToken)
+opcode: ''
+keywords: functionality
+task: URSCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: numElements
+- field_type: UnicodeString
+  field_name: DefaultLangId
+- field_type: UnicodeString
+  field_name: lastOverrideToken
+- field_type: UnicodeString
+  field_name: newOverrideToken

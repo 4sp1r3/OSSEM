@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2104'
+version: '0'
+event(fields): ImmersiveSettingsPane_DispatchCommandStart()
+opcode: Start
+keywords: ''
+task: ImmersiveSettingsPane_DispatchCommand
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

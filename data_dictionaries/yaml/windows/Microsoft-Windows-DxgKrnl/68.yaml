@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '68'
+version: '0'
+event(fields): ReserveResourceStop(UInt32 Status)
+opcode: Stop
+keywords: Base
+task: ReserveResource
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

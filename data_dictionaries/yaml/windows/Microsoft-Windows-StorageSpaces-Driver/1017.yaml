@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1017'
+version: '0'
+event(fields): task_01017(UInt64 Duration, HexInt32 Frame0, HexInt32 Frame1, HexInt32
+  Frame2, HexInt32 Frame3)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Duration
+- field_type: HexInt32
+  field_name: Frame0
+- field_type: HexInt32
+  field_name: Frame1
+- field_type: HexInt32
+  field_name: Frame2
+- field_type: HexInt32
+  field_name: Frame3

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '1503'
+version: '0'
+event(fields): task_0Start1503(UInt32 SupportInfo1, UInt32 SupportInfo2, UInt32 ProcessingMode,
+  UInt32 ProcessingTimeInMilliseconds, UnicodeString DCName, UInt32 NumberOfGroupPolicyObjects)
+opcode: Start
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SupportInfo1
+- field_type: UInt32
+  field_name: SupportInfo2
+- field_type: UInt32
+  field_name: ProcessingMode
+- field_type: UInt32
+  field_name: ProcessingTimeInMilliseconds
+- field_type: UnicodeString
+  field_name: DCName
+- field_type: UInt32
+  field_name: NumberOfGroupPolicyObjects

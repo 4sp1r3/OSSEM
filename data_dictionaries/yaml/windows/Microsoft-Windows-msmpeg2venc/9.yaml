@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-msmpeg2venc
+event_id: '9'
+version: '0'
+event(fields): Taskdonebythevideoencoder(Pointer pSample, UInt64 cSampleLength)
+opcode: ''
+keywords: keyword_800000000000
+task: Taskdonebythevideoencoder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pSample
+- field_type: UInt64
+  field_name: cSampleLength

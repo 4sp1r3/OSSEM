@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8225'
+version: '0'
+event(fields): KeyCreationStop8225(UInt32 ProcessingTime)
+opcode: Stop
+keywords: Internal
+task: KeyCreation
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessingTime

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '9'
+version: '0'
+event(fields): RESIZEStop()
+opcode: Stop
+keywords: DCompBasic
+task: RESIZE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

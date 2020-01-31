@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2906'
+version: '0'
+event(fields): CoreUIService2906(UInt32 coreUIServiceType)
+opcode: ''
+keywords: CoreUIService
+task: CoreUIService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: coreUIServiceType

@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '274'
+version: '0'
+event(fields): VenuePE274(Boolean IsInsideVenue, Double Lat, Double Lon, UInt32 Acc,
+  UInt32 SourcePe)
+opcode: ''
+keywords: Selfhost VenuePE
+task: VenuePE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsInsideVenue
+- field_type: Double
+  field_name: Lat
+- field_type: Double
+  field_name: Lon
+- field_type: UInt32
+  field_name: Acc
+- field_type: UInt32
+  field_name: SourcePe

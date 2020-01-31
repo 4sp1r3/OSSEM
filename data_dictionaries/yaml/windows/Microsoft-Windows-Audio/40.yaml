@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Audio
+event_id: '40'
+version: '0'
+event(fields): Audio_Glitch_DetectionKSEndpointGlitch:BASEInputBufferIndexMismatch(Pointer
+  pCAudioBasePin, Pointer LockedDataPointer)
+opcode: BASEInputBufferIndexMismatch
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCAudioBasePin
+- field_type: Pointer
+  field_name: LockedDataPointer

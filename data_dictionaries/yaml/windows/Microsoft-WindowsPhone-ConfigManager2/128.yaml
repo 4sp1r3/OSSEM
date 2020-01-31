@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '128'
+version: '0'
+event(fields): ICSPNode_DeleteChild_TaskStop128(UnicodeString URI1, UnicodeString
+  URI2, UInt32 Result)
+opcode: Stop
+keywords: Error Performance Trace
+task: ICSPNode_DeleteChild_Task
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URI1
+- field_type: UnicodeString
+  field_name: URI2
+- field_type: UInt32
+  field_name: Result

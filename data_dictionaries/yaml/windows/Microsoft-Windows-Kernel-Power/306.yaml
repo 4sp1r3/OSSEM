@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '306'
+version: '0'
+event(fields): StartDevicePowerManagement(Pointer Token)
+opcode: ''
+keywords: po:RuntimeFx
+task: StartDevicePowerManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token

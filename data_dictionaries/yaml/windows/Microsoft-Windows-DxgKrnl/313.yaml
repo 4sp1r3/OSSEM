@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '313'
+version: '0'
+event(fields): PagingOpSysmemCommit(Pointer pDxgAdapter, Pointer hAllocationGlobalHandle,
+  UInt32 SegmentId)
+opcode: ''
+keywords: Resource
+task: PagingOpSysmemCommit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt32
+  field_name: SegmentId

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FMS
+event_id: '40005'
+version: '0'
+event(fields): ETWDebugMsgGetNameStringsStart(UnicodeString ApiName)
+opcode: GetNameStringsStart
+keywords: ''
+task: ETWDebugMsg
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApiName

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HttpService
+event_id: '33'
+version: '0'
+event(fields): HTTPConfigurationPropertyTraceTaskRemAllUrls(UInt64 UrlGroupId)
+opcode: RemAllUrls
+keywords: HTTP_KEYWORD_URL_GROUP
+task: HTTPConfigurationPropertyTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UrlGroupId

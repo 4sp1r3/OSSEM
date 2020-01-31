@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7950'
+version: '0'
+event(fields): PnP_DMRC_ParseMetadata7950(UnicodeString PackageName, UnicodeString
+  PackagePath)
+opcode: ''
+keywords: UserPnp
+task: PnP_DMRC_ParseMetadata
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UnicodeString
+  field_name: PackagePath

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '148'
+version: '0'
+event(fields): ImmersiveShellAppManagerSetActiveProcessStop()
+opcode: Stop
+keywords: ''
+task: ImmersiveShellAppManagerSetActiveProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

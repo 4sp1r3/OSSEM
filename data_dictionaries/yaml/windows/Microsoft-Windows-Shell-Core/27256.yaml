@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27256'
+version: '0'
+event(fields): PerfTrack_Launcher_LoginStop(UInt32 RenderedTileCount, UInt32 RealizedTileCount)
+opcode: Stop
+keywords: Shell
+task: PerfTrack_Launcher_Login
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RenderedTileCount
+- field_type: UInt32
+  field_name: RealizedTileCount

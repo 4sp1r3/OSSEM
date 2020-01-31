@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '830'
+version: '0'
+event(fields): DeviceRemoval(UnicodeString Device)
+opcode: ''
+keywords: Enumeration
+task: DeviceRemoval
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Device

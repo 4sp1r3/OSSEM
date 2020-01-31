@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '277'
+version: '0'
+event(fields): CloseDocumentStop()
+opcode: Stop
+keywords: Reader
+task: CloseDocument
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

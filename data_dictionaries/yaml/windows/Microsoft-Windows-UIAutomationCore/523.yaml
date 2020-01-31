@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '523'
+version: '0'
+event(fields): ProcessIncomingRequestStart(UnicodeString MethodName, UInt32 ObjectReference,
+  UInt32 InstanceId)
+opcode: Start
+keywords: PerfInstrumentation
+task: ProcessIncomingRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: UInt32
+  field_name: ObjectReference
+- field_type: UInt32
+  field_name: InstanceId

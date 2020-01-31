@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '605'
+version: '0'
+event(fields): SPERF_TAG_GET_SERVER_CHANGE_CNTStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_GET_SERVER_CHANGE_CNT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

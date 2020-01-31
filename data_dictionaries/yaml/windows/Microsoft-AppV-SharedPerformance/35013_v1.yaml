@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '35013'
+version: '1'
+event(fields): VFSSetInformationFiledeleterequestStop_V1()
+opcode: Stop
+keywords: ''
+task: VFSSetInformationFiledeleterequest
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

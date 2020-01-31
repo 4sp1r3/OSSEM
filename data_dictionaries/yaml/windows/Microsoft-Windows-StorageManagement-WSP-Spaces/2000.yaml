@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorageManagement-WSP-Spaces
+event_id: '2000'
+version: '0'
+event(fields): task_0(UnicodeString SubsystemID, UnicodeString SubsystemURI, UnicodeString
+  Username, UInt32 ErrorCode, UnicodeString ErrorString)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SubsystemID
+- field_type: UnicodeString
+  field_name: SubsystemURI
+- field_type: UnicodeString
+  field_name: Username
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorString

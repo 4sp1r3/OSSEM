@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-ProcessStateManager
+event_id: '1'
+version: '0'
+event(fields): StateChange(UInt64 ApplicationId, UInt32 SessionId, UnicodeString PsmKey,
+  UInt32 OldState, UInt32 NewState, UInt32 MixedWorkItems, UInt32 PureWorkItems, UInt32
+  SystemWorkItems, UInt32 Flags, UInt64 CycleTime, UInt64 NetworkTokens)
+opcode: ''
+keywords: StateChange
+task: StateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ApplicationId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: OldState
+- field_type: UInt32
+  field_name: NewState
+- field_type: UInt32
+  field_name: MixedWorkItems
+- field_type: UInt32
+  field_name: PureWorkItems
+- field_type: UInt32
+  field_name: SystemWorkItems
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt64
+  field_name: CycleTime
+- field_type: UInt64
+  field_name: NetworkTokens

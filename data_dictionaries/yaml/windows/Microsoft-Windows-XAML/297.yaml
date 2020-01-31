@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAML
+event_id: '297'
+version: '0'
+event(fields): ResourceDictionaryAdd(UInt64 ResourceDictionaryId, UInt64 ResourceId,
+  UnicodeString Key, Boolean KeyIsType)
+opcode: ''
+keywords: Core
+task: ResourceDictionaryAdd
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ResourceDictionaryId
+- field_type: UInt64
+  field_name: ResourceId
+- field_type: UnicodeString
+  field_name: Key
+- field_type: Boolean
+  field_name: KeyIsType

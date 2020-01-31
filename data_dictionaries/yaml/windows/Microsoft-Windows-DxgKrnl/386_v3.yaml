@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '386'
+version: '3'
+event(fields): MMIOFlipMultiPlaneOverlay3_V3(Pointer pDxgAdapter, UInt32 VidPnSourceId,
+  UInt32 PlaneCount, UInt64 PresentId, UInt32 InputFlags, UInt32 OutputFlags, Int32
+  PostCompositionSrcRectleft, Int32 PostCompositionSrcRectright, Int32 PostCompositionSrcRecttop,
+  Int32 PostCompositionSrcRectbottom, Int32 PostCompositionDstRectleft, Int32 PostCompositionDstRectright,
+  Int32 PostCompositionDstRecttop, Int32 PostCompositionDstRectbottom, Boolean HDRMetaDataSpecified,
+  UInt32 HDRMetaDataType, Boolean FlipDoNotFlip)
+opcode: ''
+keywords: Base
+task: MMIOFlipMultiPlaneOverlay3
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: PlaneCount
+- field_type: UInt64
+  field_name: PresentId
+- field_type: UInt32
+  field_name: InputFlags
+- field_type: UInt32
+  field_name: OutputFlags
+- field_type: Int32
+  field_name: PostCompositionSrcRectleft
+- field_type: Int32
+  field_name: PostCompositionSrcRectright
+- field_type: Int32
+  field_name: PostCompositionSrcRecttop
+- field_type: Int32
+  field_name: PostCompositionSrcRectbottom
+- field_type: Int32
+  field_name: PostCompositionDstRectleft
+- field_type: Int32
+  field_name: PostCompositionDstRectright
+- field_type: Int32
+  field_name: PostCompositionDstRecttop
+- field_type: Int32
+  field_name: PostCompositionDstRectbottom
+- field_type: Boolean
+  field_name: HDRMetaDataSpecified
+- field_type: UInt32
+  field_name: HDRMetaDataType
+- field_type: Boolean
+  field_name: FlipDoNotFlip

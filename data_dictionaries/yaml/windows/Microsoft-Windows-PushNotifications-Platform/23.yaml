@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '23'
+version: '0'
+event(fields): ProcessTileUpdateSettings(UnicodeString AppUserModelId, UnicodeString
+  Uri, UInt32 WpnRecurrence)
+opcode: ''
+keywords: wpnplat
+task: ProcessTileUpdateSettings
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UnicodeString
+  field_name: Uri
+- field_type: UInt32
+  field_name: WpnRecurrence

@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5127'
+version: '0'
+event(fields): task_05127(UnicodeString CAConfigurationId, UnicodeString BaseCRLNumber,
+  UnicodeString BaseCRLThisUpdate, UnicodeString BaseCRLHash, UnicodeString DeltaCRLNumber,
+  UnicodeString DeltaCRLIndicator, UnicodeString DeltaCRLThisUpdate, UnicodeString
+  DeltaCRLHash)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CAConfigurationId
+- field_type: UnicodeString
+  field_name: BaseCRLNumber
+- field_type: UnicodeString
+  field_name: BaseCRLThisUpdate
+- field_type: UnicodeString
+  field_name: BaseCRLHash
+- field_type: UnicodeString
+  field_name: DeltaCRLNumber
+- field_type: UnicodeString
+  field_name: DeltaCRLIndicator
+- field_type: UnicodeString
+  field_name: DeltaCRLThisUpdate
+- field_type: UnicodeString
+  field_name: DeltaCRLHash

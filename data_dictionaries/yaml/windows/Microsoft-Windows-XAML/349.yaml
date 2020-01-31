@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-XAML
+event_id: '349'
+version: '0'
+event(fields): DCompAddTransformToGroup(UInt64 TransformGroup, UInt64 Transform, UInt32
+  Index)
+opcode: ''
+keywords: DComp
+task: DCompAddTransformToGroup
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TransformGroup
+- field_type: UInt64
+  field_name: Transform
+- field_type: UInt32
+  field_name: Index

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23023'
+version: '1'
+event(fields): PackagingEmailLocalMachineStop_V1()
+opcode: Stop
+keywords: ''
+task: PackagingEmailLocalMachine
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19407'
+version: '0'
+event(fields): FileClassStore_LookupFileClassStringStop()
+opcode: Stop
+keywords: FileClassStoreAndIconCache
+task: FileClassStore_LookupFileClassString
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

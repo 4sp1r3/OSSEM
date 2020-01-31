@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '544'
+version: '0'
+event(fields): XYFocusCandidateCacheHit(UnicodeString Direction)
+opcode: ''
+keywords: Input
+task: XYFocusCandidateCacheHit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Direction

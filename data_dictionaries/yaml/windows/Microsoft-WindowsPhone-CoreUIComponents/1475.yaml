@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1475'
+version: '0'
+event(fields): SessionManager1475(UInt32 unParam)
+opcode: ''
+keywords: SessionManager
+task: SessionManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

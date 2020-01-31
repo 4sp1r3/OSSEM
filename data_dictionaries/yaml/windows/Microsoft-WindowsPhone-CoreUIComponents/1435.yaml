@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1435'
+version: '0'
+event(fields): SessionManagerNSSMSetOverlayMaximized(Boolean fBool, Boolean fBool2)
+opcode: NSSMSetOverlayMaximized
+keywords: NavigationPerformance SessionManager
+task: SessionManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fBool
+- field_type: Boolean
+  field_name: fBool2

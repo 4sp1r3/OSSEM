@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45105'
+version: '1'
+event(fields): WorkflowExecutionTobeusedwhenoperationisjustexecutingamethod45105_V1(GUID
+  jobId)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: PSWorkflow
+task: WorkflowExecution
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: jobId

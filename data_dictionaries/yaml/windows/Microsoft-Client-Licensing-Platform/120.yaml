@@ -1,0 +1,22 @@
+provider: Microsoft-Client-Licensing-Platform
+event_id: '120'
+version: '0'
+event(fields): task_0120(UnicodeString LicenseId, Int32 Type, UnicodeString PackageName,
+  UnicodeString UserId, UInt32 HRESULT)
+opcode: ''
+keywords: SERVICE_KEYWORD
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LicenseId
+- field_type: Int32
+  field_name: Type
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UnicodeString
+  field_name: UserId
+- field_type: UInt32
+  field_name: HRESULT

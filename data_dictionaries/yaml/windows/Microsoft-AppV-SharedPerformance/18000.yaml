@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '18000'
+version: '0'
+event(fields): EnumeratesettingchangesStart()
+opcode: Start
+keywords: ''
+task: Enumeratesettingchanges
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '303'
+version: '0'
+event(fields): TaskengineshutdownduetoerrorFailure(UnicodeString TaskEngineName, UnicodeString
+  ErrorDescription, UInt32 ResultCode)
+opcode: Failure
+keywords: ''
+task: Taskengineshutdownduetoerror
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskEngineName
+- field_type: UnicodeString
+  field_name: ErrorDescription
+- field_type: UInt32
+  field_name: ResultCode

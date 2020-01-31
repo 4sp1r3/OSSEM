@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '284'
+version: '0'
+event(fields): ServerQuery_Received(UInt32 Qid, UInt32 BytesReceived, Int32 MessageId)
+opcode: ''
+keywords: Querying
+task: ServerQuery_Received
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Qid
+- field_type: UInt32
+  field_name: BytesReceived
+- field_type: Int32
+  field_name: MessageId

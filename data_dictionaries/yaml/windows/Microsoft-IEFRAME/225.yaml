@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '225'
+version: '0'
+event(fields): IdleTask_Execution_Time(UInt64 TimeElapsed)
+opcode: ''
+keywords: primarynav
+task: IdleTask_Execution_Time
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TimeElapsed

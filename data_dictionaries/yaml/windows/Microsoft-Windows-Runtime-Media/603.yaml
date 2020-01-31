@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '603'
+version: '0'
+event(fields): AdaptiveMediaSourcebufferdraintaskStop(Pointer AdaptiveMediaSource,
+  Pointer SourceBufferManager, Int64 BufferLevel)
+opcode: Stop
+keywords: keyword_100000000000
+task: AdaptiveMediaSourcebufferdraintask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdaptiveMediaSource
+- field_type: Pointer
+  field_name: SourceBufferManager
+- field_type: Int64
+  field_name: BufferLevel

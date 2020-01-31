@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '3052'
+version: '0'
+event(fields): KeyCreationStart()
+opcode: Start
+keywords: Internal
+task: KeyCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

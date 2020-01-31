@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '333'
+version: '0'
+event(fields): ETWGUID_VISUAL_RENDERCONTENT(Pointer Visual, Float Left, Float Top,
+  Float Right, Float Bottom, AnsiString VisualType, AnsiString ContentType)
+opcode: ''
+keywords: FrameVisualization
+task: ETWGUID_VISUAL_RENDERCONTENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Visual
+- field_type: Float
+  field_name: Left
+- field_type: Float
+  field_name: Top
+- field_type: Float
+  field_name: Right
+- field_type: Float
+  field_name: Bottom
+- field_type: AnsiString
+  field_name: VisualType
+- field_type: AnsiString
+  field_name: ContentType

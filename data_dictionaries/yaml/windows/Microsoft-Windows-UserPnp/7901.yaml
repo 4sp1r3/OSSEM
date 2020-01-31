@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7901'
+version: '0'
+event(fields): PnP_DMRC_Query(UnicodeString PackagePath)
+opcode: ''
+keywords: UserPnp
+task: PnP_DMRC_Query
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackagePath

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '241'
+version: '0'
+event(fields): CUIAutomation_PollForPotentialSupportedPropertiesStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CUIAutomation_PollForPotentialSupportedProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

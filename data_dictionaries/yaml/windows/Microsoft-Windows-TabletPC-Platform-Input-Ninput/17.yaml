@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '17'
+version: '0'
+event(fields): NinputSendWmTouchStart()
+opcode: Start
+keywords: ''
+task: NinputSendWmTouch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

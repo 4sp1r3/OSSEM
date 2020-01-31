@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '5331'
+version: '0'
+event(fields): task_05331(UnicodeString UpdateCauseExtensionName, UnicodeString UpdateCauseExtensionId,
+  UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UpdateCauseExtensionName
+- field_type: UnicodeString
+  field_name: UpdateCauseExtensionId
+- field_type: UInt32
+  field_name: ErrorCode

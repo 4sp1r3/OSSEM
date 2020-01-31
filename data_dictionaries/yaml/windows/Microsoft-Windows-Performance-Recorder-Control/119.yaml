@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Performance-Recorder-Control
+event_id: '119'
+version: '0'
+event(fields): Perf_IsEqualTraceMergePropertiesStop119()
+opcode: Stop
+keywords: PerfStatus
+task: Perf_IsEqualTraceMergeProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

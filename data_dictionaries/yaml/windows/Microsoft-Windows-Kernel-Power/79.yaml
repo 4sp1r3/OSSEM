@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '79'
+version: '0'
+event(fields): SkipTick(Boolean Disabled, Boolean Overridden)
+opcode: ''
+keywords: po:Diagnostic po:Performance
+task: SkipTick
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Disabled
+- field_type: Boolean
+  field_name: Overridden

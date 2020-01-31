@@ -1,0 +1,20 @@
+provider: Microsoft-AppV-Client
+event_id: '17'
+version: '1'
+event(fields): ClientStartupStart17_V1(UnicodeString StringParam1, UnicodeString StringParam2,
+  UInt32 ErrorHigh, UInt32 ErrorLow)
+opcode: Start
+keywords: Startup
+task: ClientStartup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StringParam1
+- field_type: UnicodeString
+  field_name: StringParam2
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow

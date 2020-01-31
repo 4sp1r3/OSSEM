@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NetworkSecurity
+event_id: '808'
+version: '0'
+event(fields): SaContextOperation(UInt64 SaContextID)
+opcode: ''
+keywords: ''
+task: SaContextOperation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SaContextID

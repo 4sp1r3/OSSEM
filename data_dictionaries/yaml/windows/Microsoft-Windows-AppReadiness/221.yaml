@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '221'
+version: '0'
+event(fields): AppReadiness_User_ProcessTasks221(UnicodeString Username, UnicodeString
+  Task)
+opcode: ''
+keywords: User
+task: AppReadiness_User_ProcessTasks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Username
+- field_type: UnicodeString
+  field_name: Task

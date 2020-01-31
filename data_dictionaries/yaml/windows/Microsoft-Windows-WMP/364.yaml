@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '364'
+version: '0'
+event(fields): HME_SERVER_ONLINE_OFFLINE(UnicodeString ServerUDN, Boolean Offline)
+opcode: ''
+keywords: mediaplayer
+task: HME_SERVER_ONLINE_OFFLINE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServerUDN
+- field_type: Boolean
+  field_name: Offline

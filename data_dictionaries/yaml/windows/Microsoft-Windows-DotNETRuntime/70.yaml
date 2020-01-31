@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '70'
+version: '0'
+event(fields): ThreadCreating(Pointer ID, UInt16 ClrInstanceID)
+opcode: Creating
+keywords: ThreadingKeyword ThreadTransferKeyword
+task: Thread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ID
+- field_type: UInt16
+  field_name: ClrInstanceID

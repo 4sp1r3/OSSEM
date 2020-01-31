@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '380'
+version: '0'
+event(fields): PeriodicFrameNotificationTimer(Pointer pVidSchSyncObject, UInt32 VidPnSourceID,
+  UInt32 NotificationID, Int64 IsrFrameTimeValue, Int64 DueValue, UInt64 FrameNumber)
+opcode: ''
+keywords: GPUScheduler
+task: PeriodicFrameNotificationTimer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pVidSchSyncObject
+- field_type: UInt32
+  field_name: VidPnSourceID
+- field_type: UInt32
+  field_name: NotificationID
+- field_type: Int64
+  field_name: IsrFrameTimeValue
+- field_type: Int64
+  field_name: DueValue
+- field_type: UInt64
+  field_name: FrameNumber

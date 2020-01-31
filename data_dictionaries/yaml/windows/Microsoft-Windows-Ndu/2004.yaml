@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Ndu
+event_id: '2004'
+version: '0'
+event(fields): PerFlowStats(UnicodeString _Direction, UInt64 _FlowHandle, UnicodeString
+  _ExePath, UInt32 _SvcTag, UnicodeString _PkgName, SID _UserId, UInt32 _Pid)
+opcode: ''
+keywords: KeywordNduPerFlowStats
+task: PerFlowStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: _Direction
+- field_type: UInt64
+  field_name: _FlowHandle
+- field_type: UnicodeString
+  field_name: _ExePath
+- field_type: UInt32
+  field_name: _SvcTag
+- field_type: UnicodeString
+  field_name: _PkgName
+- field_type: SID
+  field_name: _UserId
+- field_type: UInt32
+  field_name: _Pid

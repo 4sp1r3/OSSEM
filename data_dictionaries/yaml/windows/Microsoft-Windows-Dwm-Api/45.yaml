@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '45'
+version: '0'
+event(fields): ApipDxGetWindowSharedSurfaceStart(UInt64 Hwnd, UInt64 luidAdapter,
+  UInt64 hmonAssociation, UInt32 dwFlags, UInt32 DxgiFormat)
+opcode: Start
+keywords: DwmApi
+task: ApipDxGetWindowSharedSurface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Hwnd
+- field_type: UInt64
+  field_name: luidAdapter
+- field_type: UInt64
+  field_name: hmonAssociation
+- field_type: UInt32
+  field_name: dwFlags
+- field_type: UInt32
+  field_name: DxgiFormat

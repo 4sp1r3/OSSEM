@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '2110'
+version: '0'
+event(fields): PlaceholderTileTransformer2110(UnicodeString itemName, UInt64 size)
+opcode: ''
+keywords: ''
+task: PlaceholderTileTransformer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: itemName
+- field_type: UInt64
+  field_name: size

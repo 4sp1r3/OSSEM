@@ -1,0 +1,11 @@
+provider: Microsoft-PerfTrack-MSHTML
+event_id: '123'
+version: '0'
+event(fields): Mshtml_TouchSelection_ManipulationStop()
+opcode: Stop
+keywords: ''
+task: Mshtml_TouchSelection_Manipulation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '6'
+version: '0'
+event(fields): DestroyShaderCacheStart(Pointer Cache)
+opcode: Start
+keywords: APIs Profiling
+task: DestroyShaderCache
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Cache

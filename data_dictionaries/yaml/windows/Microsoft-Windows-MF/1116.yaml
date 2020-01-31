@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MF
+event_id: '1116'
+version: '0'
+event(fields): MediaFoundationIMFOutputPolicy_GenerateRequiredSchemas(HexInt32 attributes,
+  GUID outputSubtype, UInt32 cSchemas, HexInt32 hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationIMFOutputPolicy_GenerateRequiredSchemas
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: attributes
+- field_type: GUID
+  field_name: outputSubtype
+- field_type: UInt32
+  field_name: cSchemas
+- field_type: HexInt32
+  field_name: hr

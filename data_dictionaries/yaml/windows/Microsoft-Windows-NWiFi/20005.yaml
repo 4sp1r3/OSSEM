@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '20005'
+version: '0'
+event(fields): ConnecttonetworkonresumeafterinterveningdisconnectStop20005(GUID InterfaceGuid)
+opcode: Stop
+keywords: ''
+task: Connecttonetworkonresumeafterinterveningdisconnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

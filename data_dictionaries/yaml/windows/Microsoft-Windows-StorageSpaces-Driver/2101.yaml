@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '2101'
+version: '0'
+event(fields): task_02101(GUID SpaceId, UInt32 LogType, UInt64 Lsn, UInt32 Length,
+  UInt8 Reason)
+opcode: ''
+keywords: Log
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SpaceId
+- field_type: UInt32
+  field_name: LogType
+- field_type: UInt64
+  field_name: Lsn
+- field_type: UInt32
+  field_name: Length
+- field_type: UInt8
+  field_name: Reason

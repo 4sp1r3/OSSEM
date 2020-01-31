@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62050'
+version: '0'
+event(fields): Shell32_MountPoint_VolumeAddedOrUpdatedStart()
+opcode: Start
+keywords: Shell
+task: Shell32_MountPoint_VolumeAddedOrUpdated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

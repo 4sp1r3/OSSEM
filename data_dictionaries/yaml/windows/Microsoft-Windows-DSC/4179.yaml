@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DSC
+event_id: '4179'
+version: '0'
+event(fields): task_04179(UnicodeString JobId, UnicodeString param1, UInt32 param2,
+  UInt32 param3)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UInt32
+  field_name: param2
+- field_type: UInt32
+  field_name: param3

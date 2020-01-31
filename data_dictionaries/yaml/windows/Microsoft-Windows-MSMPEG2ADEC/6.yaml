@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2ADEC
+event_id: '6'
+version: '0'
+event(fields): PLAYBACKStop()
+opcode: Stop
+keywords: ''
+task: PLAYBACK
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

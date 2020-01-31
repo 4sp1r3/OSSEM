@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45127'
+version: '1'
+event(fields): WorkflowExecutionTobeusedwhenoperationisjustexecutingamethod45127_V1(UnicodeString
+  parameters, UnicodeString computers)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: PSWorkflow
+task: WorkflowExecution
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: parameters
+- field_type: UnicodeString
+  field_name: computers

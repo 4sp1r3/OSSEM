@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '1029'
+version: '0'
+event(fields): Packaging_ManifestWriteStop()
+opcode: Stop
+keywords: ''
+task: Packaging_ManifestWrite
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

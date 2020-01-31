@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '2'
+version: '0'
+event(fields): task_02(Pointer Message)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Message

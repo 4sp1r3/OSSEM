@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '45'
+version: '0'
+event(fields): AdapterDisplayConfigUpdate(Int64 IddAdapterLuid, UInt32 PathIdx, UInt32
+  MonitorConnectorIndex, UInt32 Positionx, UInt32 Positiony, UInt32 ResolutionWidth,
+  UInt32 ResolutionHeight, Float VSync, UInt32 VSyncDivider, UInt32 Rotation, UInt32
+  DPI, UInt32 PhysicalSizeWidth, UInt32 PhysicalSizeHeight)
+opcode: DisplayConfigUpdate
+keywords: DdiCalls
+task: Adapter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: IddAdapterLuid
+- field_type: UInt32
+  field_name: PathIdx
+- field_type: UInt32
+  field_name: MonitorConnectorIndex
+- field_type: UInt32
+  field_name: Positionx
+- field_type: UInt32
+  field_name: Positiony
+- field_type: UInt32
+  field_name: ResolutionWidth
+- field_type: UInt32
+  field_name: ResolutionHeight
+- field_type: Float
+  field_name: VSync
+- field_type: UInt32
+  field_name: VSyncDivider
+- field_type: UInt32
+  field_name: Rotation
+- field_type: UInt32
+  field_name: DPI
+- field_type: UInt32
+  field_name: PhysicalSizeWidth
+- field_type: UInt32
+  field_name: PhysicalSizeHeight

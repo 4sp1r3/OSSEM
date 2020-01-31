@@ -1,0 +1,17 @@
+provider: 'Active Directory Domain Services: SAM'
+category: '{ff0c6ce2-9528-4a91-b9c7-bcf834b6f79a}'
+event_id: '1'
+version: '0'
+event(fields): SamGetDomPwdInfo_Start(String Sam, UInt32 Version, String Sid, String
+  Client)
+event_type: Start
+description: SAM Get Domain Password Information
+event_fields:
+- field_type: String
+  field_name: Sam
+- field_type: UInt32
+  field_name: Version
+- field_type: String
+  field_name: Sid
+- field_type: String
+  field_name: Client

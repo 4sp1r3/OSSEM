@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '444'
+version: '0'
+event(fields): Mshtml_TouchSelection_CaretPlacementStart()
+opcode: Start
+keywords: mshtml touch
+task: Mshtml_TouchSelection_CaretPlacement
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

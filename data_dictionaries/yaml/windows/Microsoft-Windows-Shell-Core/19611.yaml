@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19611'
+version: '0'
+event(fields): Shell32_ControlPanel_Search_NoResults()
+opcode: ''
+keywords: Shell
+task: Shell32_ControlPanel_Search_NoResults
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

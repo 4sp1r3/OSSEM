@@ -1,0 +1,18 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '4048'
+version: '0'
+event(fields): SynchronizationtofilesystemAppAgent4048(UnicodeString package, UInt32
+  actualSize, UInt32 maxSize)
+opcode: AppAgent
+keywords: ''
+task: Synchronizationtofilesystem
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: package
+- field_type: UInt32
+  field_name: actualSize
+- field_type: UInt32
+  field_name: maxSize

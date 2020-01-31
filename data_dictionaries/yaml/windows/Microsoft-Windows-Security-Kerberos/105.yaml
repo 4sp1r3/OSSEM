@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Security-Kerberos
+event_id: '105'
+version: '0'
+event(fields): task_0105(UInt32 LuidHighPart, UInt32 LuidLowPart, UnicodeString DomainName,
+  UnicodeString UserName, Boolean Refresh, UnicodeString CurrentFileTime, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LuidHighPart
+- field_type: UInt32
+  field_name: LuidLowPart
+- field_type: UnicodeString
+  field_name: DomainName
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: Boolean
+  field_name: Refresh
+- field_type: UnicodeString
+  field_name: CurrentFileTime
+- field_type: UInt32
+  field_name: ErrorCode

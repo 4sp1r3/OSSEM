@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1476'
+version: '0'
+event(fields): TcpipLoopbackPacketTransmit(Pointer Nbl, UInt32 Interface, UInt32 Compartment,
+  UInt32 AddressLength, Binary DestinationAddress, Binary SourceAddress, UInt32 IPTransportProtocol)
+opcode: ''
+keywords: ut:Loopback
+task: TcpipLoopbackPacketTransmit
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Nbl
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: Compartment
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: Binary
+  field_name: DestinationAddress
+- field_type: Binary
+  field_name: SourceAddress
+- field_type: UInt32
+  field_name: IPTransportProtocol

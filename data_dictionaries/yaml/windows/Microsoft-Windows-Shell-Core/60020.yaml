@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60020'
+version: '0'
+event(fields): IE_CompressThumbnailStart()
+opcode: Start
+keywords: InternetExplorer
+task: IE_CompressThumbnail
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

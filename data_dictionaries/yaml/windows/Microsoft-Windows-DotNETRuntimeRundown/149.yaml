@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DotNETRuntimeRundown
+event_id: '149'
+version: '0'
+event(fields): MethodMethodDCStartILToNativeMap(UInt64 MethodID, UInt64 ReJITID, UInt8
+  MethodExtent, UInt16 CountOfMapEntries, UInt32 ILOffsets, UInt32 NativeOffsets,
+  UInt16 ClrInstanceID)
+opcode: MethodDCStartILToNativeMap
+keywords: JittedMethodILToNativeMapRundownKeyword
+task: Method
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MethodID
+- field_type: UInt64
+  field_name: ReJITID
+- field_type: UInt8
+  field_name: MethodExtent
+- field_type: UInt16
+  field_name: CountOfMapEntries
+- field_type: UInt32
+  field_name: ILOffsets
+- field_type: UInt32
+  field_name: NativeOffsets
+- field_type: UInt16
+  field_name: ClrInstanceID

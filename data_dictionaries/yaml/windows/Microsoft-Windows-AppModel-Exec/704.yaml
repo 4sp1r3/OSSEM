@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '704'
+version: '0'
+event(fields): BAM_AccessStateChanged(UnicodeString Package, UInt32 Old_AccessState,
+  UInt32 New_AccessState, UnicodeString UserSid)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular keyword_400000000000
+task: BAM_AccessStateChanged
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Package
+- field_type: UInt32
+  field_name: Old_AccessState
+- field_type: UInt32
+  field_name: New_AccessState
+- field_type: UnicodeString
+  field_name: UserSid

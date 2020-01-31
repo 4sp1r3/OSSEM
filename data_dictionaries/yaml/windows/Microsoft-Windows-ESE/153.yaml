@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-ESE
+event_id: '153'
+version: '0'
+event(fields): ESE_DiskFlushFileBuffersBegin_Trace(UInt32 dwDisk, UInt64 hFile, UInt32
+  iofr)
+opcode: ''
+keywords: IO
+task: ESE_DiskFlushFileBuffersBegin_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwDisk
+- field_type: UInt64
+  field_name: hFile
+- field_type: UInt32
+  field_name: iofr

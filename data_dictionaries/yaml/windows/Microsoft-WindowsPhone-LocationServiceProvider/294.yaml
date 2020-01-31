@@ -1,0 +1,43 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '294'
+version: '0'
+event(fields): CompositePE294(UInt32 DistanceThreshold, Double Speed, Boolean MDUsed,
+  UInt32 MovementPrecision, UInt32 SpeedBasedWaitTimeSec, UInt32 MDBasedWaitTimeSec,
+  UInt32 MinWaitTimeToMeetBudgetSec, UInt32 SelectedWaitTimeSec, UInt64 CumulativeRunningTimeSec,
+  UInt64 CumulativeAcquireTimeSec, UInt32 RequestsCount, Boolean IsSpeedUnknown, Boolean
+  RecentMovementTimeBoundApplied, UInt32 AcquireId)
+opcode: ''
+keywords: Selfhost CompositePe
+task: CompositePE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DistanceThreshold
+- field_type: Double
+  field_name: Speed
+- field_type: Boolean
+  field_name: MDUsed
+- field_type: UInt32
+  field_name: MovementPrecision
+- field_type: UInt32
+  field_name: SpeedBasedWaitTimeSec
+- field_type: UInt32
+  field_name: MDBasedWaitTimeSec
+- field_type: UInt32
+  field_name: MinWaitTimeToMeetBudgetSec
+- field_type: UInt32
+  field_name: SelectedWaitTimeSec
+- field_type: UInt64
+  field_name: CumulativeRunningTimeSec
+- field_type: UInt64
+  field_name: CumulativeAcquireTimeSec
+- field_type: UInt32
+  field_name: RequestsCount
+- field_type: Boolean
+  field_name: IsSpeedUnknown
+- field_type: Boolean
+  field_name: RecentMovementTimeBoundApplied
+- field_type: UInt32
+  field_name: AcquireId

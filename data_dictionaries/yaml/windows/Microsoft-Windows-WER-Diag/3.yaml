@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WER-Diag
+event_id: '3'
+version: '0'
+event(fields): task_03(UInt32 ProcessId, UInt32 ModuleNameLength, UnicodeString ModuleName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: ModuleNameLength
+- field_type: UnicodeString
+  field_name: ModuleName

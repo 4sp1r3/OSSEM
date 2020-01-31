@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OLE-Perf
+event_id: '26'
+version: '0'
+event(fields): OLE_DragDrop_DragOperation_DoDropStop(Int32 HResult)
+opcode: Stop
+keywords: ''
+task: OLE_DragDrop_DragOperation_DoDrop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HResult

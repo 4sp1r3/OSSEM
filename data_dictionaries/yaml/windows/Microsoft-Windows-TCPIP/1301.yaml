@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1301'
+version: '0'
+event(fields): Ndkpi_Interface_Event(UInt32 InterfaceIndex, UInt32 EventDescription,
+  UInt32 NDKOperational, UInt32 StatusCode)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Interface_Event
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UInt32
+  field_name: EventDescription
+- field_type: UInt32
+  field_name: NDKOperational
+- field_type: UInt32
+  field_name: StatusCode

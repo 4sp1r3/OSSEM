@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '8'
+version: '0'
+event(fields): WSManSessiondeinitializeStart()
+opcode: Start
+keywords: Keyword.Client
+task: WSManSessiondeinitialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

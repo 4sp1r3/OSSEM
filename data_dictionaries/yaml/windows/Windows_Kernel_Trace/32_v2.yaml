@@ -1,0 +1,85 @@
+provider: Windows Kernel Trace
+category: '{def2fe46-7bd6-4b80-bd94-f57fe20d0ce3}'
+event_id: '32'
+version: '2'
+event(fields): StackWalk_Event(UInt64 EventTimeStamp, UInt32 StackProcess, UInt32
+  StackThread, UInt32 Stack1, UInt32 Stack2, UInt32 Stack3, UInt32 Stack4, UInt32
+  Stack5, UInt32 Stack6, UInt32 Stack7, UInt32 Stack8, UInt32 Stack9, UInt32 Stack10,
+  UInt32 Stack11, UInt32 Stack12, UInt32 Stack13, UInt32 Stack14, UInt32 Stack15,
+  UInt32 Stack16, UInt32 Stack17, UInt32 Stack18, UInt32 Stack19, UInt32 Stack20,
+  UInt32 Stack21, UInt32 Stack22, UInt32 Stack23, UInt32 Stack24, UInt32 Stack25,
+  UInt32 Stack26, UInt32 Stack27, UInt32 Stack28, UInt32 Stack29, UInt32 Stack30,
+  UInt32 Stack31, UInt32 Stack32)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt64
+  field_name: EventTimeStamp
+- field_type: UInt32
+  field_name: StackProcess
+- field_type: UInt32
+  field_name: StackThread
+- field_type: UInt32
+  field_name: Stack1
+- field_type: UInt32
+  field_name: Stack2
+- field_type: UInt32
+  field_name: Stack3
+- field_type: UInt32
+  field_name: Stack4
+- field_type: UInt32
+  field_name: Stack5
+- field_type: UInt32
+  field_name: Stack6
+- field_type: UInt32
+  field_name: Stack7
+- field_type: UInt32
+  field_name: Stack8
+- field_type: UInt32
+  field_name: Stack9
+- field_type: UInt32
+  field_name: Stack10
+- field_type: UInt32
+  field_name: Stack11
+- field_type: UInt32
+  field_name: Stack12
+- field_type: UInt32
+  field_name: Stack13
+- field_type: UInt32
+  field_name: Stack14
+- field_type: UInt32
+  field_name: Stack15
+- field_type: UInt32
+  field_name: Stack16
+- field_type: UInt32
+  field_name: Stack17
+- field_type: UInt32
+  field_name: Stack18
+- field_type: UInt32
+  field_name: Stack19
+- field_type: UInt32
+  field_name: Stack20
+- field_type: UInt32
+  field_name: Stack21
+- field_type: UInt32
+  field_name: Stack22
+- field_type: UInt32
+  field_name: Stack23
+- field_type: UInt32
+  field_name: Stack24
+- field_type: UInt32
+  field_name: Stack25
+- field_type: UInt32
+  field_name: Stack26
+- field_type: UInt32
+  field_name: Stack27
+- field_type: UInt32
+  field_name: Stack28
+- field_type: UInt32
+  field_name: Stack29
+- field_type: UInt32
+  field_name: Stack30
+- field_type: UInt32
+  field_name: Stack31
+- field_type: UInt32
+  field_name: Stack32

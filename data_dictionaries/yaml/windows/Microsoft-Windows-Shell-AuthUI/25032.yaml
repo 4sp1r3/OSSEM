@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25032'
+version: '0'
+event(fields): Logon_LogonFrame_OnSelectCredentialReplyStop()
+opcode: Stop
+keywords: ''
+task: Logon_LogonFrame_OnSelectCredentialReply
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

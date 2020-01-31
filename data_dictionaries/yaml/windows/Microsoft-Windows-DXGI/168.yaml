@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DXGI
+event_id: '168'
+version: '0'
+event(fields): IDXGISwapChain_SetPrivateDataStart(Pointer pThis, Binary Name, UInt32
+  uiDataSize, Pointer pData)
+opcode: Start
+keywords: ''
+task: IDXGISwapChain_SetPrivateData
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Binary
+  field_name: Name
+- field_type: UInt32
+  field_name: uiDataSize
+- field_type: Pointer
+  field_name: pData

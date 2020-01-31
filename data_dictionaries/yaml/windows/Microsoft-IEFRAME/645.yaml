@@ -1,0 +1,18 @@
+provider: Microsoft-IEFRAME
+event_id: '645'
+version: '0'
+event(fields): Browseui_TabSuspension_Check_Suspendable(UInt32 PID, Boolean FoundSuspendable,
+  UInt32 FailureReason)
+opcode: ''
+keywords: tabhydration
+task: Browseui_TabSuspension_Check_Suspendable
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PID
+- field_type: Boolean
+  field_name: FoundSuspendable
+- field_type: UInt32
+  field_name: FailureReason

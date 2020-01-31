@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '844'
+version: '0'
+event(fields): Mshtml_WebRTC_Add_Ice_Candidate(UnicodeString Candidate, UnicodeString
+  Mid, UInt16 SdpMLineIndex, Pointer ThisPtr)
+opcode: ''
+keywords: mshtml
+task: Mshtml_WebRTC_Add_Ice_Candidate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Candidate
+- field_type: UnicodeString
+  field_name: Mid
+- field_type: UInt16
+  field_name: SdpMLineIndex
+- field_type: Pointer
+  field_name: ThisPtr

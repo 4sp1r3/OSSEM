@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1024'
+version: '0'
+event(fields): task_01024(UInt32 port, UInt32 winerror, UInt32 reasoncode, UInt32
+  eaptype, UnicodeString string)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: port
+- field_type: UInt32
+  field_name: winerror
+- field_type: UInt32
+  field_name: reasoncode
+- field_type: UInt32
+  field_name: eaptype
+- field_type: UnicodeString
+  field_name: string

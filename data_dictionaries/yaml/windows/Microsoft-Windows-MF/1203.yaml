@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1203'
+version: '0'
+event(fields): D3DDeviceLost(HexInt32 hr)
+opcode: ''
+keywords: ''
+task: D3DDeviceLost
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: hr

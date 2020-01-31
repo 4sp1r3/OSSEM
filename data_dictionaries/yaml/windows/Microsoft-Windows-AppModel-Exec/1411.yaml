@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '1411'
+version: '0'
+event(fields): FM_EndPauseActivation(UInt32 p1_UInt32, Boolean p2_Boolean)
+opcode: ''
+keywords: FM ExecProductionCircular ExecDevPlatCircular
+task: FM_EndPauseActivation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p1_UInt32
+- field_type: Boolean
+  field_name: p2_Boolean

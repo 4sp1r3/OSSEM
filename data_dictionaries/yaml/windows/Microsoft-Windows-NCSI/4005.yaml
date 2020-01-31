@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4005'
+version: '0'
+event(fields): WaitforInternetConnectivity(GUID InterfaceGuid, UInt8 CurrentOrNextState,
+  UInt64 IfLuid)
+opcode: ''
+keywords: keyword_200000000000
+task: WaitforInternetConnectivity
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt8
+  field_name: CurrentOrNextState
+- field_type: UInt64
+  field_name: IfLuid

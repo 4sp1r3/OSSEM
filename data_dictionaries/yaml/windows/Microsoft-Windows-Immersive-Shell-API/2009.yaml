@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2009'
+version: '0'
+event(fields): CoreApplicationInitializationStop()
+opcode: Stop
+keywords: ''
+task: CoreApplicationInitialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

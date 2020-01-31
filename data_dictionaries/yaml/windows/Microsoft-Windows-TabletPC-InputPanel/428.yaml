@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '428'
+version: '0'
+event(fields): IHM_ImmersiveDismissStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: IHM_ImmersiveDismiss
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

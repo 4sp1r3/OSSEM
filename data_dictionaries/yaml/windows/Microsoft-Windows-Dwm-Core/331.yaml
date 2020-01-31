@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '331'
+version: '0'
+event(fields): TOUCH_FIRST_FRAME_EVENT331(UInt64 UniqueKey, UInt64 ScenarioPointer,
+  UInt16 SurfaceWidth, UInt16 SurfaceHeight, UInt64 Frame, UInt32 MonitorCount, Float
+  PrimaryAdapterLuid, Boolean PrimaryAdapterIsWarp, UnicodeString AppUserModelId,
+  UInt32 AppType, UInt32 InteractionLibraryType)
+opcode: ''
+keywords: DwmCore DwmInput
+task: TOUCH_FIRST_FRAME_EVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueKey
+- field_type: UInt64
+  field_name: ScenarioPointer
+- field_type: UInt16
+  field_name: SurfaceWidth
+- field_type: UInt16
+  field_name: SurfaceHeight
+- field_type: UInt64
+  field_name: Frame
+- field_type: UInt32
+  field_name: MonitorCount
+- field_type: Float
+  field_name: PrimaryAdapterLuid
+- field_type: Boolean
+  field_name: PrimaryAdapterIsWarp
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: AppType
+- field_type: UInt32
+  field_name: InteractionLibraryType

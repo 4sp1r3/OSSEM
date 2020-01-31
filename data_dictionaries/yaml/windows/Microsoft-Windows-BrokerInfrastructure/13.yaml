@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '13'
+version: '0'
+event(fields): BackgroundTaskTaskLatched(UInt16 EntryPointLength, UnicodeString TaskEntryPoint,
+  UInt16 NameLength, UnicodeString TaskName, UInt32 ConditionType, UInt32 ConditionValue,
+  Boolean ConditionDesiredValue)
+opcode: TaskLatched
+keywords: BackgroundTask
+task: BackgroundTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: EntryPointLength
+- field_type: UnicodeString
+  field_name: TaskEntryPoint
+- field_type: UInt16
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UInt32
+  field_name: ConditionType
+- field_type: UInt32
+  field_name: ConditionValue
+- field_type: Boolean
+  field_name: ConditionDesiredValue

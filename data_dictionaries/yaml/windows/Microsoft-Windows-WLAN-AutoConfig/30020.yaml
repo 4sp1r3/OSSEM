@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '30020'
+version: '0'
+event(fields): task_0Start30020(GUID InterfaceGuid)
+opcode: Start
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

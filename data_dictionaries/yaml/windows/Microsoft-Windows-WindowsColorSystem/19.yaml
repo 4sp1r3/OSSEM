@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '19'
+version: '0'
+event(fields): TransformCreation19(UnicodeString Tag, UInt32 BCurves, UInt32 Matrix,
+  UInt32 MCurves, UInt32 CLut, UInt32 ACurves)
+opcode: ''
+keywords: wcse:Lino
+task: TransformCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Tag
+- field_type: UInt32
+  field_name: BCurves
+- field_type: UInt32
+  field_name: Matrix
+- field_type: UInt32
+  field_name: MCurves
+- field_type: UInt32
+  field_name: CLut
+- field_type: UInt32
+  field_name: ACurves

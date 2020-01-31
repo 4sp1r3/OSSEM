@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1821'
+version: '0'
+event(fields): IDXGIResource_CreateSharedHandle(UInt32 hKMResource, Pointer hUMSharedResource,
+  UnicodeString Name)
+opcode: ''
+keywords: Resources
+task: IDXGIResource_CreateSharedHandle
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hKMResource
+- field_type: Pointer
+  field_name: hUMSharedResource
+- field_type: UnicodeString
+  field_name: Name

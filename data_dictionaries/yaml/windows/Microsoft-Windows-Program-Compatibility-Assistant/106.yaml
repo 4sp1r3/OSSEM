@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Program-Compatibility-Assistant
+event_id: '106'
+version: '0'
+event(fields): PCA_ServiceInitializeStop()
+opcode: Stop
+keywords: ''
+task: PCA_ServiceInitialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

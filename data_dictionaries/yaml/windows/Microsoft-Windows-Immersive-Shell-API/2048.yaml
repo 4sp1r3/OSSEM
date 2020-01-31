@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2048'
+version: '0'
+event(fields): CoreApplicationEnteredBackground()
+opcode: ''
+keywords: ''
+task: CoreApplicationEnteredBackground
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

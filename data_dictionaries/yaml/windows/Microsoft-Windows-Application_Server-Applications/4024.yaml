@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4024'
+version: '0'
+event(fields): WASActivationStop4024(UnicodeString hresult, UnicodeString AppDomain)
+opcode: Stop
+keywords: ActivationServices
+task: WASActivation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: hresult
+- field_type: UnicodeString
+  field_name: AppDomain

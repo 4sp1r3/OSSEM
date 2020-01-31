@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-KernelStreaming
+event_id: '213'
+version: '0'
+event(fields): KS_QueryInterfaceStart(Pointer pKsDevice, Pointer pIrp, GUID InterfaceGuid,
+  UInt32 Status)
+opcode: Start
+keywords: ''
+task: KS_QueryInterface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pKsDevice
+- field_type: Pointer
+  field_name: pIrp
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: Status

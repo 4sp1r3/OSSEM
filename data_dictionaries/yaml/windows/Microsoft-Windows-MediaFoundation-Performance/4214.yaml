@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4214'
+version: '0'
+event(fields): SourceResolutionBeginCreateObjectFromByteStreamStop(AnsiString tag,
+  Pointer object, UnicodeString url, Pointer objectCreated, HexInt32 hr)
+opcode: Stop
+keywords: ''
+task: SourceResolutionBeginCreateObjectFromByteStream
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: UnicodeString
+  field_name: url
+- field_type: Pointer
+  field_name: objectCreated
+- field_type: HexInt32
+  field_name: hr

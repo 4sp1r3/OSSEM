@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Subsys-SMSS
+event_id: '11'
+version: '0'
+event(fields): smss:FileRename(UInt16 FromNameLength, UInt16 ToNameLength, UnicodeString
+  FromName, UnicodeString ToName)
+opcode: ''
+keywords: smss:Diagnostics
+task: smss:FileRename
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FromNameLength
+- field_type: UInt16
+  field_name: ToNameLength
+- field_type: UnicodeString
+  field_name: FromName
+- field_type: UnicodeString
+  field_name: ToName

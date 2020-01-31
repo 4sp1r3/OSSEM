@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Audio
+event_id: '111'
+version: '0'
+event(fields): MidiRT:PerformSynchronousI/OStart(Pointer object, UInt32 ioControlCode)
+opcode: Start
+keywords: ''
+task: MidiRT:PerformSynchronousI/O
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: ioControlCode

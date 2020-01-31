@@ -1,0 +1,24 @@
+provider: Microsoft-IEFRAME
+event_id: '567'
+version: '0'
+event(fields): IdleManager_RemoveTask(UInt64 ISO_HANDLE, UInt32 IDLEMANAGER_TASKTYPE,
+  UInt32 TaskID, UInt32 MaxWaitingTime, UInt32 MaxBlockingTime, UInt32 IDLETASK_PRIORITY)
+opcode: ''
+keywords: ''
+task: IdleManager_RemoveTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ISO_HANDLE
+- field_type: UInt32
+  field_name: IDLEMANAGER_TASKTYPE
+- field_type: UInt32
+  field_name: TaskID
+- field_type: UInt32
+  field_name: MaxWaitingTime
+- field_type: UInt32
+  field_name: MaxBlockingTime
+- field_type: UInt32
+  field_name: IDLETASK_PRIORITY

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '16388'
+version: '0'
+event(fields): task_016388(GUID Id, UnicodeString Title, UnicodeString Owner, UnicodeString
+  User)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UnicodeString
+  field_name: Title
+- field_type: UnicodeString
+  field_name: Owner
+- field_type: UnicodeString
+  field_name: User

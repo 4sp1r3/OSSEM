@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerCpl
+event_id: '122'
+version: '0'
+event(fields): PowerCpl_InitializeGlobalSettingsPageStart()
+opcode: Start
+keywords: PowerCpl
+task: PowerCpl_InitializeGlobalSettingsPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

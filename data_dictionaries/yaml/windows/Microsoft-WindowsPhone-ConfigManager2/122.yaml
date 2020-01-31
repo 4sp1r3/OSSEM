@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '122'
+version: '0'
+event(fields): None122(UInt32 Result)
+opcode: ''
+keywords: Error
+task: None
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

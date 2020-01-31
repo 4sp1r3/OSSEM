@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1022'
+version: '0'
+event(fields): MiracastUmdDriverDestroyMiracastContextStart(UInt64 MiracastLuid)
+opcode: Start
+keywords: Miracast
+task: MiracastUmdDriverDestroyMiracastContext
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid

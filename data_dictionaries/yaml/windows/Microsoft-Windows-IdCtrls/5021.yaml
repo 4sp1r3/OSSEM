@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-IdCtrls
+event_id: '5021'
+version: '0'
+event(fields): task_05021(UInt32 cx, UInt32 cy)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: cx
+- field_type: UInt32
+  field_name: cy

@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-DotNETRuntimeRundown
+event_id: '153'
+version: '2'
+event(fields): LoaderModuleDCStart_V2(UInt64 ModuleID, UInt64 AssemblyID, UInt32 ModuleFlags,
+  UInt32 Reserved1, UnicodeString ModuleILPath, UnicodeString ModuleNativePath, UInt16
+  ClrInstanceID, GUID ManagedPdbSignature, UInt32 ManagedPdbAge, UnicodeString ManagedPdbBuildPath,
+  GUID NativePdbSignature, UInt32 NativePdbAge, UnicodeString NativePdbBuildPath)
+opcode: ModuleDCStart
+keywords: LoaderRundownKeyword PerfTrackRundownKeyword
+task: Loader
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ModuleID
+- field_type: UInt64
+  field_name: AssemblyID
+- field_type: UInt32
+  field_name: ModuleFlags
+- field_type: UInt32
+  field_name: Reserved1
+- field_type: UnicodeString
+  field_name: ModuleILPath
+- field_type: UnicodeString
+  field_name: ModuleNativePath
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: GUID
+  field_name: ManagedPdbSignature
+- field_type: UInt32
+  field_name: ManagedPdbAge
+- field_type: UnicodeString
+  field_name: ManagedPdbBuildPath
+- field_type: GUID
+  field_name: NativePdbSignature
+- field_type: UInt32
+  field_name: NativePdbAge
+- field_type: UnicodeString
+  field_name: NativePdbBuildPath

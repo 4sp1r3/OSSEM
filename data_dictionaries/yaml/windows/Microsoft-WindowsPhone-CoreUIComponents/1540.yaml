@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1540'
+version: '0'
+event(fields): ServerTaskCreateStart()
+opcode: Start
+keywords: NavigationPerformance ServerTask
+task: ServerTaskCreate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

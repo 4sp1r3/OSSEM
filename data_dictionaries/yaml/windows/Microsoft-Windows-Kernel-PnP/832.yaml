@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '832'
+version: '0'
+event(fields): DeviceRemovalStop(UnicodeString Device)
+opcode: Stop
+keywords: Enumeration
+task: DeviceRemoval
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Device

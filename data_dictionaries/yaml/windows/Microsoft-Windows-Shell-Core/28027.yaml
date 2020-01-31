@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28027'
+version: '0'
+event(fields): Shell32_LauncherLayoutManager_ChangeNotify(UnicodeString AppID, Int32
+  Event)
+opcode: ''
+keywords: Shell
+task: Shell32_LauncherLayoutManager_ChangeNotify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: Int32
+  field_name: Event

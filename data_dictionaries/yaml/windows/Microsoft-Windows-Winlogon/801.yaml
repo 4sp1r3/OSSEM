@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '801'
+version: '0'
+event(fields): NotifyExecuteStart(UInt32 Event)
+opcode: Start
+keywords: PerfInstrumentation PerfTrackContext keyword_200000000000
+task: NotifyExecute
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Event

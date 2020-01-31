@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '121'
+version: '0'
+event(fields): AudStreamSink_ComputeRenderPosition_TaskStop(Pointer object, Int32
+  hResult, Boolean pfDiscontinuity, Int64 pullRenderBytePosition, Int32 pdwBytesToStall)
+opcode: Stop
+keywords: ''
+task: AudStreamSink_ComputeRenderPosition_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: hResult
+- field_type: Boolean
+  field_name: pfDiscontinuity
+- field_type: Int64
+  field_name: pullRenderBytePosition
+- field_type: Int32
+  field_name: pdwBytesToStall

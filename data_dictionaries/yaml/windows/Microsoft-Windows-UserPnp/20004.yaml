@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '20004'
+version: '0'
+event(fields): PnP_PlugPlay_DeviceInstall20004(UnicodeString ServiceName, UnicodeString
+  DriverFileName, UnicodeString DeviceInstanceID, Boolean PrimaryService, Boolean
+  UpdateService, UInt32 AddServiceStatus)
+opcode: ''
+keywords: ''
+task: PnP_PlugPlay_DeviceInstall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: UnicodeString
+  field_name: DriverFileName
+- field_type: UnicodeString
+  field_name: DeviceInstanceID
+- field_type: Boolean
+  field_name: PrimaryService
+- field_type: Boolean
+  field_name: UpdateService
+- field_type: UInt32
+  field_name: AddServiceStatus

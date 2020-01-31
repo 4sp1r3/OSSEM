@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-HttpService
+event_id: '43'
+version: '1'
+event(fields): HTTPAuthenticationTraceTaskSspiCall_V1(UInt64 ConnectionId, AnsiString
+  AuthType, UInt32 SecStatus, UInt32 AuthStatus, UInt32 ContextAttributes)
+opcode: SspiCall
+keywords: HTTP_KEYWORD_AUTHENTICATION
+task: HTTPAuthenticationTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ConnectionId
+- field_type: AnsiString
+  field_name: AuthType
+- field_type: UInt32
+  field_name: SecStatus
+- field_type: UInt32
+  field_name: AuthStatus
+- field_type: UInt32
+  field_name: ContextAttributes

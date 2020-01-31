@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '20001'
+version: '1'
+event(fields): ReportingActivityStop_V1()
+opcode: Stop
+keywords: ''
+task: ReportingActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

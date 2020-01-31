@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1590'
+version: '0'
+event(fields): ShellTask_FSDropTarget_DoDropThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_FSDropTarget_DoDropThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

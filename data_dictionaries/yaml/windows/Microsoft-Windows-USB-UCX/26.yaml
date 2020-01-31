@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-USB-UCX
+event_id: '26'
+version: '0'
+event(fields): URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFERStart(Pointer fid_UcxController,
+  Pointer fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr,
+  UInt16 fid_UCX_URB_BULK_OR_INTERRUPT_TRANSFER)
+opcode: Start
+keywords: HeadersBusTrace PartialDataBusTrace FullDataBusTrace
+task: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Pointer
+  field_name: fid_PipeHandle
+- field_type: Pointer
+  field_name: fid_IRP_Ptr
+- field_type: Pointer
+  field_name: fid_URB_Ptr
+- field_type: UInt16
+  field_name: fid_UCX_URB_BULK_OR_INTERRUPT_TRANSFER

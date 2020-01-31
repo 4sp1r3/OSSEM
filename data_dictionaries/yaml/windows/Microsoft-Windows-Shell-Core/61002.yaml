@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61002'
+version: '0'
+event(fields): Shell32_UnknownFileDialog_CreateStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_UnknownFileDialog_Create
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4405'
+version: '0'
+event(fields): Identified4405(GUID InterfaceGuid, UInt16 SignatureLength, Binary Signature,
+  UInt32 SignatureSource)
+opcode: ''
+keywords: Identification LwtDiagnostic
+task: Identified
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt16
+  field_name: SignatureLength
+- field_type: Binary
+  field_name: Signature
+- field_type: UInt32
+  field_name: SignatureSource

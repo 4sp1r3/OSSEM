@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winsock-NameResolution
+event_id: '1014'
+version: '0'
+event(fields): WinsockGai1014(UInt32 Location, UInt32 RefCount)
+opcode: ''
+keywords: ''
+task: WinsockGai
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: RefCount

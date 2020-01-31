@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '637'
+version: '0'
+event(fields): Mshtml_CGarbageTracker_CollectGarbage(Pointer CGarbageTracker, UInt32
+  ResourceType, UInt32 Reason, UInt32 RequestedGCType, UInt32 GCType)
+opcode: ''
+keywords: mshtml
+task: Mshtml_CGarbageTracker_CollectGarbage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CGarbageTracker
+- field_type: UInt32
+  field_name: ResourceType
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: RequestedGCType
+- field_type: UInt32
+  field_name: GCType

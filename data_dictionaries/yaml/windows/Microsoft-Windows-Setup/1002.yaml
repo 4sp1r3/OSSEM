@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Setup
+event_id: '1002'
+version: '0'
+event(fields): ExecuteSetupPhaseStop(UInt32 ErrorCode)
+opcode: Stop
+keywords: keyPerformance keyword_400000000000
+task: ExecuteSetupPhase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

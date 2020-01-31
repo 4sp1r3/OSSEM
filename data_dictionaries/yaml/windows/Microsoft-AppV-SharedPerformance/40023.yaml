@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40023'
+version: '0'
+event(fields): VReg.QueryValueStop()
+opcode: Stop
+keywords: ''
+task: VReg.QueryValue
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

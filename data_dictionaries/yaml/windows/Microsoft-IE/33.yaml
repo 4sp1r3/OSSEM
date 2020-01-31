@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '33'
+version: '0'
+event(fields): Mshtml_CDoc_ExecuteScriptURL(UnicodeString AddressName)
+opcode: ''
+keywords: primarynav
+task: Mshtml_CDoc_ExecuteScriptURL
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AddressName

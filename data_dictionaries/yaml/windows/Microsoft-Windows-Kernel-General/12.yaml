@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Kernel-General
+event_id: '12'
+version: '0'
+event(fields): SystemStart(UInt32 MajorVersion, UInt32 MinorVersion, UInt32 BuildVersion,
+  UInt32 QfeVersion, UInt16 ServiceVersion, UInt32 BootMode, FILETIME StartTime)
+opcode: ''
+keywords: BootPerformance
+task: SystemStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MajorVersion
+- field_type: UInt32
+  field_name: MinorVersion
+- field_type: UInt32
+  field_name: BuildVersion
+- field_type: UInt32
+  field_name: QfeVersion
+- field_type: UInt16
+  field_name: ServiceVersion
+- field_type: UInt32
+  field_name: BootMode
+- field_type: FILETIME
+  field_name: StartTime

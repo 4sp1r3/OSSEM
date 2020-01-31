@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6413'
+version: '0'
+event(fields): AppList_UnhideItemStop()
+opcode: Stop
+keywords: ''
+task: AppList_UnhideItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

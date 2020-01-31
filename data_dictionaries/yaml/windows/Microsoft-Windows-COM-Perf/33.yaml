@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '33'
+version: '0'
+event(fields): Windows_Runtime_ActivateInstance_InprocServerImplStart()
+opcode: Start
+keywords: ''
+task: Windows_Runtime_ActivateInstance_InprocServerImpl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

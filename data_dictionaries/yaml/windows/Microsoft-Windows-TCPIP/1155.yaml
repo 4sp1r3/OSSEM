@@ -1,0 +1,39 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1155'
+version: '0'
+event(fields): TcpCtcpDataTransferSpuriousTimeout(Pointer Tcb, UInt32 Cwnd, UInt32
+  SSThresh, UInt32 RttSample, UInt32 NumBytes, UInt32 SeqNo, UInt32 SndUna, UInt32
+  Round, UInt32 SRTT, UInt32 RTO, UInt32 DWnd, UInt32 BaseRtt, UInt32 DupAckCount)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:SendPath
+task: TcpCtcpDataTransferSpuriousTimeout
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Cwnd
+- field_type: UInt32
+  field_name: SSThresh
+- field_type: UInt32
+  field_name: RttSample
+- field_type: UInt32
+  field_name: NumBytes
+- field_type: UInt32
+  field_name: SeqNo
+- field_type: UInt32
+  field_name: SndUna
+- field_type: UInt32
+  field_name: Round
+- field_type: UInt32
+  field_name: SRTT
+- field_type: UInt32
+  field_name: RTO
+- field_type: UInt32
+  field_name: DWnd
+- field_type: UInt32
+  field_name: BaseRtt
+- field_type: UInt32
+  field_name: DupAckCount

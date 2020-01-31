@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-PLA
+event_id: '5010'
+version: '0'
+event(fields): task_05010(UnicodeString Name)
+opcode: ''
+keywords: transaction
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name

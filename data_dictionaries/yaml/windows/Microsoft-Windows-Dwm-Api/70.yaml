@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '70'
+version: '0'
+event(fields): ApipGetGlobalStateStop(UInt32 hr)
+opcode: Stop
+keywords: DwmApi
+task: ApipGetGlobalState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr

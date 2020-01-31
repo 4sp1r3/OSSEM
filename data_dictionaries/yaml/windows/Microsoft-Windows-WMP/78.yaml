@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '78'
+version: '0'
+event(fields): CDBURNStart()
+opcode: Start
+keywords: mediaplayer
+task: CDBURN
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

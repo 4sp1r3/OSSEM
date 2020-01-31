@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '268'
+version: '0'
+event(fields): CancelFlip(Pointer pDxgAdapter, UInt64 ScannedPhysicalAddress, UInt32
+  VidPnSourceId, UInt32 PresentId, Pointer hFlipDevice, UInt32 FlipType, UInt64 FlipFenceId)
+opcode: ''
+keywords: Base
+task: CancelFlip
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt64
+  field_name: ScannedPhysicalAddress
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: PresentId
+- field_type: Pointer
+  field_name: hFlipDevice
+- field_type: UInt32
+  field_name: FlipType
+- field_type: UInt64
+  field_name: FlipFenceId

@@ -1,0 +1,24 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1624'
+version: '0'
+event(fields): WPRegistrationPolicy1624(UInt32 dwCode1, Boolean bCode1, Boolean bCode2,
+  Boolean bCode3, Boolean bCode4, Boolean bCode5)
+opcode: ''
+keywords: Trace
+task: WPRegistrationPolicy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwCode1
+- field_type: Boolean
+  field_name: bCode1
+- field_type: Boolean
+  field_name: bCode2
+- field_type: Boolean
+  field_name: bCode3
+- field_type: Boolean
+  field_name: bCode4
+- field_type: Boolean
+  field_name: bCode5

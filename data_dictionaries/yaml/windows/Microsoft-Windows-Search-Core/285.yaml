@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '285'
+version: '0'
+event(fields): ClientQuery_Send(UInt32 BytesSent, Int32 MessageId)
+opcode: ''
+keywords: Querying
+task: ClientQuery_Send
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BytesSent
+- field_type: Int32
+  field_name: MessageId

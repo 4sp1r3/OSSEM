@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14564'
+version: '0'
+event(fields): Properties_VariantHelper_Coercion(UInt16 VARTYPEFrom, UInt16 VARTYPETo,
+  UInt32 HRESULT)
+opcode: ''
+keywords: Properties
+task: Properties_VariantHelper_Coercion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: VARTYPEFrom
+- field_type: UInt16
+  field_name: VARTYPETo
+- field_type: UInt32
+  field_name: HRESULT

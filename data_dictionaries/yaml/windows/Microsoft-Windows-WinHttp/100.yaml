@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '100'
+version: '0'
+event(fields): API100(Pointer hRequest, UInt32 AuthTargets, UInt32 AuthScheme, UnicodeString
+  UserName, UnicodeString Password)
+opcode: ''
+keywords: Keyword.API keyword_20000000000
+task: API
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hRequest
+- field_type: UInt32
+  field_name: AuthTargets
+- field_type: UInt32
+  field_name: AuthScheme
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UnicodeString
+  field_name: Password

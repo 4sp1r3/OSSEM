@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DSC
+event_id: '4121'
+version: '0'
+event(fields): SendconfigurationscenarioforLocalconfigurationmanager4121(UnicodeString
+  JobId, UInt32 TotalSize, UInt32 RemainingSize)
+opcode: ''
+keywords: ''
+task: SendconfigurationscenarioforLocalconfigurationmanager
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UInt32
+  field_name: TotalSize
+- field_type: UInt32
+  field_name: RemainingSize

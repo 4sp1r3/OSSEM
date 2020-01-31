@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnostics-LoggingChannel
+event_id: '12'
+version: '0'
+event(fields): task_0Start12(UnicodeString LoggingChannelName, UnicodeString ActivityName)
+opcode: Start
+keywords: K_ActivityLogging
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LoggingChannelName
+- field_type: UnicodeString
+  field_name: ActivityName

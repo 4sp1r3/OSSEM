@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '6221'
+version: '0'
+event(fields): task_06221(UInt32 p0, UnicodeString p1)
+opcode: ''
+keywords: ExecDevPlatCircular
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p0
+- field_type: UnicodeString
+  field_name: p1

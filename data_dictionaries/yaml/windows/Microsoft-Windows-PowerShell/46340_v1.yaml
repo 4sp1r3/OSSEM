@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '46340'
+version: '1'
+event(fields): None46340_V1(GUID TrackingId)
+opcode: ''
+keywords: ''
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TrackingId

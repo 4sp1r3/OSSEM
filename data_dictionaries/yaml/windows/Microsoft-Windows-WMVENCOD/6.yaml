@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMVENCOD
+event_id: '6'
+version: '0'
+event(fields): VC1ENC_FRAME_NOOFREENCODE_INFO(Int32 NumberOfReencode, Int64 SampleTime,
+  Pointer EncoderInstance)
+opcode: ''
+keywords: ''
+task: VC1ENC_FRAME_NOOFREENCODE_INFO
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: NumberOfReencode
+- field_type: Int64
+  field_name: SampleTime
+- field_type: Pointer
+  field_name: EncoderInstance

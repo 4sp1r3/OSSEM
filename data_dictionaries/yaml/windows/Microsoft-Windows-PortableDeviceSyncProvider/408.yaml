@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceSyncProvider
+event_id: '408'
+version: '0'
+event(fields): WPDProvider_BeginSessionStart()
+opcode: Start
+keywords: ''
+task: WPDProvider_BeginSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

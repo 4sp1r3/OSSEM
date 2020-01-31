@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '7'
+version: '2'
+event(fields): Smb2RequestCancel_V2(UInt64 SessionId, UInt32 ProcessId, UInt32 TreeId,
+  UInt64 MessageId, UInt64 MasterMessageId, UInt16 Command, UInt16 CreditsRequested,
+  UInt32 Flags, GUID ConnectionGUID)
+opcode: ''
+keywords: Request
+task: Smb2RequestCancel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: TreeId
+- field_type: UInt64
+  field_name: MessageId
+- field_type: UInt64
+  field_name: MasterMessageId
+- field_type: UInt16
+  field_name: Command
+- field_type: UInt16
+  field_name: CreditsRequested
+- field_type: UInt32
+  field_name: Flags
+- field_type: GUID
+  field_name: ConnectionGUID

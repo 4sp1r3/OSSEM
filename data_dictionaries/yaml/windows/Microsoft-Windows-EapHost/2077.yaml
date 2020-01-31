@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-EapHost
+event_id: '2077'
+version: '0'
+event(fields): Peer2077(UInt64 PerfId)
+opcode: ''
+keywords: ''
+task: Peer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PerfId

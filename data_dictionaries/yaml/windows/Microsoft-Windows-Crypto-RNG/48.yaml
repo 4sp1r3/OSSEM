@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Crypto-RNG
+event_id: '48'
+version: '0'
+event(fields): Prng(HexInt64 PrngAddress, UInt32 nData, Binary Data)
+opcode: ''
+keywords: KEYWORD_SYSTEMRNG_PRNG
+task: Prng
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: PrngAddress
+- field_type: UInt32
+  field_name: nData
+- field_type: Binary
+  field_name: Data

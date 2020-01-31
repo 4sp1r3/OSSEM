@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28109'
+version: '0'
+event(fields): Shell32_RegistryPackageChangeListener_AppStateChange(UnicodeString
+  AppID, UInt32 OldState, UInt32 NewState, UnicodeString PackageName, UInt32 Value)
+opcode: ''
+keywords: Shell
+task: Shell32_RegistryPackageChangeListener_AppStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UInt32
+  field_name: OldState
+- field_type: UInt32
+  field_name: NewState
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UInt32
+  field_name: Value

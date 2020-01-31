@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '507'
+version: '0'
+event(fields): AutoListEditor_Filters_RenderingStart()
+opcode: Start
+keywords: Shell
+task: AutoListEditor_Filters_Rendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

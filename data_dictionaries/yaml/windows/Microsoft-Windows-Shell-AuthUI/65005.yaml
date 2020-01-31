@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '65005'
+version: '0'
+event(fields): Booting_Animation_TimerProcStart()
+opcode: Start
+keywords: ''
+task: Booting_Animation_TimerProc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

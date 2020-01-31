@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SharedAccess_NAT
+event_id: '34007'
+version: '0'
+event(fields): task_034007()
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '689'
+version: '0'
+event(fields): SoftKeyboard_Prediction_Key_PressedStart()
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_Prediction_Key_Pressed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2635'
+version: '0'
+event(fields): Settings_PermissionsLifetimeStop()
+opcode: Stop
+keywords: ''
+task: Settings_PermissionsLifetime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

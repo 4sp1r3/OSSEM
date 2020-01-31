@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-LiveId
+event_id: '7104'
+version: '0'
+event(fields): task_07104(UInt32 Attempts, UInt32 latestIterationResult, Boolean continueRetry,
+  Boolean isConnected, UnicodeString flowUrl, UnicodeString defaultUser, UInt32 promptType,
+  UnicodeString authUrl, UnicodeString endAuthUrl)
+opcode: ''
+keywords: WlidModern StateMachine
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Attempts
+- field_type: UInt32
+  field_name: latestIterationResult
+- field_type: Boolean
+  field_name: continueRetry
+- field_type: Boolean
+  field_name: isConnected
+- field_type: UnicodeString
+  field_name: flowUrl
+- field_type: UnicodeString
+  field_name: defaultUser
+- field_type: UInt32
+  field_name: promptType
+- field_type: UnicodeString
+  field_name: authUrl
+- field_type: UnicodeString
+  field_name: endAuthUrl

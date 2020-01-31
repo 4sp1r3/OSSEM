@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '93'
+version: '0'
+event(fields): ScriptContextRuntimeScriptContextOnStartupComplete(Pointer ScriptContextID)
+opcode: ScriptContextOnStartupComplete
+keywords: JScriptProfile
+task: ScriptContextRuntime
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ScriptContextID

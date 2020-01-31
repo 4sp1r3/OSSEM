@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '550'
+version: '0'
+event(fields): Smb2SessionAllocateStart(GUID SessionGUID, GUID ConnectionGUID)
+opcode: Start
+keywords: Session
+task: Smb2SessionAllocate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: ConnectionGUID

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '284'
+version: '0'
+event(fields): CddStandardAllocation(Pointer pDxgAdapterAllocation, UInt32 Flags,
+  UInt32 Width, UInt32 Height, UInt32 Format, UInt32 RefreshRateNumerator, UInt32
+  RefreshRateDenominator, UInt32 VidPnSourceId)
+opcode: ''
+keywords: Base
+task: CddStandardAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapterAllocation
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: RefreshRateNumerator
+- field_type: UInt32
+  field_name: RefreshRateDenominator
+- field_type: UInt32
+  field_name: VidPnSourceId

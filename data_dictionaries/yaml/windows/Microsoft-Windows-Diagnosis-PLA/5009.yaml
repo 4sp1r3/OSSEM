@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-PLA
+event_id: '5009'
+version: '0'
+event(fields): task_05009(UnicodeString Name, UInt32 Index)
+opcode: ''
+keywords: transaction
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt32
+  field_name: Index

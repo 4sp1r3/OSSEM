@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '1515'
+version: '0'
+event(fields): ChatMessageManagerGetTransportAsync_STOP()
+opcode: Stop
+keywords: Performance
+task: ChatMessageManagerGetTransportAsync_STOP
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

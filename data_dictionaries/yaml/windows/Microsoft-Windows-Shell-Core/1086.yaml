@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1086'
+version: '0'
+event(fields): DataLayer_CountTaskStart(UInt32 Type, UInt32 Cookie)
+opcode: Start
+keywords: Shell ExplorerPerf
+task: DataLayer_CountTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Cookie

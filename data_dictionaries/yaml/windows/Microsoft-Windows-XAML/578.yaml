@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '578'
+version: '0'
+event(fields): CachedBoundsStats578(UInt32 RecalculatedCount, UInt32 ReusedCount)
+opcode: ''
+keywords: Input
+task: CachedBoundsStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RecalculatedCount
+- field_type: UInt32
+  field_name: ReusedCount

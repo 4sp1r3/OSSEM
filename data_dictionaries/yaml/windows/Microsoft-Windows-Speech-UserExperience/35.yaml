@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '35'
+version: '0'
+event(fields): Dictation_ActivateInsertionStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: Dictation_ActivateInsertion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

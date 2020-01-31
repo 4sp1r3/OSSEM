@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DXGI
+event_id: '878'
+version: '0'
+event(fields): IDXGISwapChain_SetMatrixTransformStart(Pointer pThis, Pointer pMatrix,
+  Float Matrix)
+opcode: Start
+keywords: ''
+task: IDXGISwapChain_SetMatrixTransform
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pMatrix
+- field_type: Float
+  field_name: Matrix

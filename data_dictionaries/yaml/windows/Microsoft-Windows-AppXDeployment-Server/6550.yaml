@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '6550'
+version: '0'
+event(fields): task_06550(UnicodeString File, UInt32 Line, UInt32 Column, HexInt32
+  ErrorCode, UnicodeString Package, UnicodeString Content, UnicodeString StoreName,
+  UnicodeString ErrorCodeDescription)
+opcode: ''
+keywords: CERTIFICATES_DEH_KEYWORD
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: File
+- field_type: UInt32
+  field_name: Line
+- field_type: UInt32
+  field_name: Column
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: Package
+- field_type: UnicodeString
+  field_name: Content
+- field_type: UnicodeString
+  field_name: StoreName
+- field_type: UnicodeString
+  field_name: ErrorCodeDescription

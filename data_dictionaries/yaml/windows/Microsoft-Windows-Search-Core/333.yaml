@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '333'
+version: '0'
+event(fields): ValueIndexSeekStart333(Boolean HasStartVariant, Boolean HasEndVariant,
+  Boolean ExcludeStartVariant, Boolean ExcludeEndVariant)
+opcode: Start
+keywords: Indexing Querying
+task: ValueIndexSeek
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: HasStartVariant
+- field_type: Boolean
+  field_name: HasEndVariant
+- field_type: Boolean
+  field_name: ExcludeStartVariant
+- field_type: Boolean
+  field_name: ExcludeEndVariant

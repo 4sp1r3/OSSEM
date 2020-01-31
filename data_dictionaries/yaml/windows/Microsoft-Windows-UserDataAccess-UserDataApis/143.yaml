@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '143'
+version: '0'
+event(fields): task_0143()
+opcode: ''
+keywords: SmsIntercept
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

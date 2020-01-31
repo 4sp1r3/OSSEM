@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30205'
+version: '0'
+event(fields): task_030205(Pointer VcEndpoint, Pointer Socket, Pointer SendMdl, UInt32
+  SendLength)
+opcode: ''
+keywords: Networking_Perf
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: VcEndpoint
+- field_type: Pointer
+  field_name: Socket
+- field_type: Pointer
+  field_name: SendMdl
+- field_type: UInt32
+  field_name: SendLength

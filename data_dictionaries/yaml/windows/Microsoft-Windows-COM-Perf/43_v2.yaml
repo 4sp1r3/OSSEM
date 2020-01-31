@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '43'
+version: '2'
+event(fields): COM_ServerSyncCallStart_V2(UInt32 CallTraceId, UInt32 SourceProcessId,
+  UInt32 SourceThreadId, GUID CausalityId, UInt32 TargetMethod, GUID TargetInterface,
+  Pointer InterfacePointer, Pointer MethodAddress, Pointer ServerIUnknown, GUID IPID,
+  UInt64 OID, UInt32 WinrtAsyncPatternMethodIndicator)
+opcode: Start
+keywords: ''
+task: COM_ServerSyncCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CallTraceId
+- field_type: UInt32
+  field_name: SourceProcessId
+- field_type: UInt32
+  field_name: SourceThreadId
+- field_type: GUID
+  field_name: CausalityId
+- field_type: UInt32
+  field_name: TargetMethod
+- field_type: GUID
+  field_name: TargetInterface
+- field_type: Pointer
+  field_name: InterfacePointer
+- field_type: Pointer
+  field_name: MethodAddress
+- field_type: Pointer
+  field_name: ServerIUnknown
+- field_type: GUID
+  field_name: IPID
+- field_type: UInt64
+  field_name: OID
+- field_type: UInt32
+  field_name: WinrtAsyncPatternMethodIndicator

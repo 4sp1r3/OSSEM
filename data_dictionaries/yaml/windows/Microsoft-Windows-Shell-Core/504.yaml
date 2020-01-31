@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '504'
+version: '0'
+event(fields): AutoListEditor_FilterConditions_RenderingStop()
+opcode: Stop
+keywords: Shell
+task: AutoListEditor_FilterConditions_Rendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

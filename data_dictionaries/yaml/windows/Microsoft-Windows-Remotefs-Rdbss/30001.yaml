@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-Remotefs-Rdbss
+event_id: '30001'
+version: '0'
+event(fields): task_030001(Pointer Irp, Pointer RxContext, Pointer Fcb, Pointer Fobx,
+  Pointer FileObject, UInt16 FileNameLength, UnicodeString FileName, UInt16 MajorFunction)
+opcode: ''
+keywords: Rdbss_Perf Rdbss_Info
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: RxContext
+- field_type: Pointer
+  field_name: Fcb
+- field_type: Pointer
+  field_name: Fobx
+- field_type: Pointer
+  field_name: FileObject
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt16
+  field_name: MajorFunction

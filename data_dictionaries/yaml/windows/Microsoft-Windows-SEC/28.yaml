@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-SEC
+event_id: '28'
+version: '0'
+event(fields): task_028(UInt64 SequenceNumber, HexInt32 ProcessId, UInt64 ProcessStartKey,
+  UInt32 Flags, HexInt32 ThreadId, Pointer CallerAddress, Pointer StartAddress, UInt32
+  BackTraceSize, Binary BackTrace, UInt32 TargetCodeSize, Binary TargetCode, UInt32
+  CallerCodeSize, Binary CallerCode)
+opcode: ''
+keywords: Event28
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: HexInt32
+  field_name: ProcessId
+- field_type: UInt64
+  field_name: ProcessStartKey
+- field_type: UInt32
+  field_name: Flags
+- field_type: HexInt32
+  field_name: ThreadId
+- field_type: Pointer
+  field_name: CallerAddress
+- field_type: Pointer
+  field_name: StartAddress
+- field_type: UInt32
+  field_name: BackTraceSize
+- field_type: Binary
+  field_name: BackTrace
+- field_type: UInt32
+  field_name: TargetCodeSize
+- field_type: Binary
+  field_name: TargetCode
+- field_type: UInt32
+  field_name: CallerCodeSize
+- field_type: Binary
+  field_name: CallerCode

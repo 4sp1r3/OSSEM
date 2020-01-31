@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '210'
+version: '0'
+event(fields): Mshtml_MsPerformance_FullyLoaded()
+opcode: ''
+keywords: primarynav
+task: Mshtml_MsPerformance_FullyLoaded
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

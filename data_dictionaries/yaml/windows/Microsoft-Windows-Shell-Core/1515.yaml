@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1515'
+version: '0'
+event(fields): ShellTask_CloseSession_TipThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_CloseSession_TipThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

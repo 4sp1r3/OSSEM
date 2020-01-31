@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25010'
+version: '0'
+event(fields): Logon_ServerCallback_DisplaySecurityOptionsStop()
+opcode: Stop
+keywords: ''
+task: Logon_ServerCallback_DisplaySecurityOptions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

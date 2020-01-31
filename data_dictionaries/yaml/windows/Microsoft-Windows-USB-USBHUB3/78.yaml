@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '78'
+version: '0'
+event(fields): DescriptorValidationError78(Pointer fid_UsbDevice)
+opcode: Error
+keywords: Default Enumeration HWVerifyDevice keyword_400000000000
+task: DescriptorValidation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice

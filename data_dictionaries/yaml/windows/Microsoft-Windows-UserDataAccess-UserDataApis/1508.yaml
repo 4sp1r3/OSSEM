@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '1508'
+version: '0'
+event(fields): ChatConversationReadAsync_START()
+opcode: Start
+keywords: Performance
+task: ChatConversationReadAsync_START
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

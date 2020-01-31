@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '815'
+version: '1'
+event(fields): WINHTTP_AUTOPROXY_FIND_INFO_FOR_URLFail_V1(UInt16 _URLLength, UnicodeString
+  URL, UInt32 Error)
+opcode: Fail
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_AUTOPROXY_FIND_INFO_FOR_URL
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _URLLength
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt32
+  field_name: Error

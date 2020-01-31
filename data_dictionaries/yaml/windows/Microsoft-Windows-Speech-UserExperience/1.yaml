@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '1'
+version: '0'
+event(fields): MSAA_CmdScrapingStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: MSAA_CmdScraping
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

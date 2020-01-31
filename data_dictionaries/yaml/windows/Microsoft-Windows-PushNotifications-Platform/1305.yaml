@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1305'
+version: '0'
+event(fields): task_01305(Int32 ErrorCode, Int64 InitCount, Int64 PdcReason, UInt32
+  ConnectionType)
+opcode: ''
+keywords: wpnprv
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ErrorCode
+- field_type: Int64
+  field_name: InitCount
+- field_type: Int64
+  field_name: PdcReason
+- field_type: UInt32
+  field_name: ConnectionType

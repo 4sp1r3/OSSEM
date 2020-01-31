@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '560'
+version: '0'
+event(fields): Geofencing560(UInt32 ClientId, UInt64 EventId, HexInt32 hr)
+opcode: ''
+keywords: Selfhost
+task: Geofencing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ClientId
+- field_type: UInt64
+  field_name: EventId
+- field_type: HexInt32
+  field_name: hr

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Help
+event_id: '63'
+version: '0'
+event(fields): LaunchStop(UInt32 sessionid)
+opcode: Stop
+keywords: ''
+task: Launch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: sessionid

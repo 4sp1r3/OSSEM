@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PDC
+event_id: '103'
+version: '0'
+event(fields): ActivatorActiveTooLong(UInt32 TimeContinuouslyActive, UInt32 ClientIdAndActivityTypeAndOnAc,
+  UInt32 UserClientProcess)
+opcode: ''
+keywords: activators Cs CsDiag
+task: ActivatorActiveTooLong
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimeContinuouslyActive
+- field_type: UInt32
+  field_name: ClientIdAndActivityTypeAndOnAc
+- field_type: UInt32
+  field_name: UserClientProcess

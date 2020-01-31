@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '516'
+version: '0'
+event(fields): EmptyTab_Timer_Timeout(UInt32 TabID)
+opcode: ''
+keywords: primarynav
+task: EmptyTab_Timer_Timeout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID

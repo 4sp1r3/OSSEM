@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-msmpeg2venc
+event_id: '11'
+version: '0'
+event(fields): TaskdonebythevideoencoderReceive(Pointer pSample, UInt64 cSampleLength,
+  Boolean bEndOfEncoding)
+opcode: Receive
+keywords: keyword_800000000000
+task: Taskdonebythevideoencoder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pSample
+- field_type: UInt64
+  field_name: cSampleLength
+- field_type: Boolean
+  field_name: bEndOfEncoding

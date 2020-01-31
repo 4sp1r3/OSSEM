@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '191'
+version: '0'
+event(fields): JumpToHeadingStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: JumpToHeading
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

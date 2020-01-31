@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9653'
+version: '0'
+event(fields): Explorer_Startup_ParallelStepStop(UnicodeString psz)
+opcode: Stop
+keywords: Shell StartupPerf
+task: Explorer_Startup_ParallelStep
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

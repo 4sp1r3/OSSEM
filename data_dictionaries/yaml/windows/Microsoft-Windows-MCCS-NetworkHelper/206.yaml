@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '206'
+version: '0'
+event(fields): task_0206(UnicodeString P1_String, Boolean P2_Boolean)
+opcode: ''
+keywords: StateTransition
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: P1_String
+- field_type: Boolean
+  field_name: P2_Boolean

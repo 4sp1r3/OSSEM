@@ -1,0 +1,69 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '259'
+version: '3'
+event(fields): MMIOFlipMultiPlaneOverlay_V3(Pointer pDxgAdapter, UInt32 VidPnSourceId,
+  UInt32 LayerIndex, UInt64 FlipSubmitSequence, Pointer FlipToDriverAllocation, UInt64
+  FlipToPhysicalAddress, UInt32 FlipToSegmentId, UInt32 FlipPresentId, UInt32 FlipPhysicalAdapterMask,
+  Int32 SrcRectleft, Int32 SrcRectright, Int32 SrcRecttop, Int32 SrcRectbottom, Int32
+  DstRectleft, Int32 DstRectright, Int32 DstRecttop, Int32 DstRectbottom, Int32 ClipRectleft,
+  Int32 ClipRectright, Int32 ClipRecttop, Int32 ClipRectbottom, UInt32 ColorSpace,
+  UInt32 FlipEntryStatusAfterFlip, Boolean Enabled, UInt32 SDRWhiteLevel, UInt32 DirtyRectCount)
+opcode: ''
+keywords: Base
+task: MMIOFlipMultiPlaneOverlay
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: LayerIndex
+- field_type: UInt64
+  field_name: FlipSubmitSequence
+- field_type: Pointer
+  field_name: FlipToDriverAllocation
+- field_type: UInt64
+  field_name: FlipToPhysicalAddress
+- field_type: UInt32
+  field_name: FlipToSegmentId
+- field_type: UInt32
+  field_name: FlipPresentId
+- field_type: UInt32
+  field_name: FlipPhysicalAdapterMask
+- field_type: Int32
+  field_name: SrcRectleft
+- field_type: Int32
+  field_name: SrcRectright
+- field_type: Int32
+  field_name: SrcRecttop
+- field_type: Int32
+  field_name: SrcRectbottom
+- field_type: Int32
+  field_name: DstRectleft
+- field_type: Int32
+  field_name: DstRectright
+- field_type: Int32
+  field_name: DstRecttop
+- field_type: Int32
+  field_name: DstRectbottom
+- field_type: Int32
+  field_name: ClipRectleft
+- field_type: Int32
+  field_name: ClipRectright
+- field_type: Int32
+  field_name: ClipRecttop
+- field_type: Int32
+  field_name: ClipRectbottom
+- field_type: UInt32
+  field_name: ColorSpace
+- field_type: UInt32
+  field_name: FlipEntryStatusAfterFlip
+- field_type: Boolean
+  field_name: Enabled
+- field_type: UInt32
+  field_name: SDRWhiteLevel
+- field_type: UInt32
+  field_name: DirtyRectCount

@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '53'
+version: '0'
+event(fields): Jscript_Projection_WriteIReferenceStart(UnicodeString TypeName)
+opcode: Start
+keywords: JScriptProjection
+task: Jscript_Projection_WriteIReference
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeName

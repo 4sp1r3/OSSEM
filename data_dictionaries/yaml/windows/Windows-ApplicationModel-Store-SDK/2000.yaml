@@ -1,0 +1,18 @@
+provider: Windows-ApplicationModel-Store-SDK
+event_id: '2000'
+version: '0'
+event(fields): StoreSDKModuleLoaded(UnicodeString ProcessName, UnicodeString ModuleName,
+  UnicodeString BuildName)
+opcode: ''
+keywords: Messages
+task: StoreSDKModuleLoaded
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: ModuleName
+- field_type: UnicodeString
+  field_name: BuildName

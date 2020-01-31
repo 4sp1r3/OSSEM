@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1052'
+version: '0'
+event(fields): Objwriter_Get_Album_Art_DataStop(UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Objwriter_Get_Album_Art_Data
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

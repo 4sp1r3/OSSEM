@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1007'
+version: '0'
+event(fields): SrvShareAnonymousAccessDeniedFailure(UInt16 ShareNameLength, UnicodeString
+  ShareName, UInt16 SharePathLength, UnicodeString SharePath, UInt32 ClientAddressLength,
+  Binary ClientAddress, UInt16 ClientNameLength, UnicodeString ClientName)
+opcode: ''
+keywords: Operational
+task: SrvShareAnonymousAccessDeniedFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt16
+  field_name: SharePathLength
+- field_type: UnicodeString
+  field_name: SharePath
+- field_type: UInt32
+  field_name: ClientAddressLength
+- field_type: Binary
+  field_name: ClientAddress
+- field_type: UInt16
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName

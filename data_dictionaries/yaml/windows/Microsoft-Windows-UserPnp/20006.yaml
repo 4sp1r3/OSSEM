@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '20006'
+version: '0'
+event(fields): PnP_PlugPlay_DeviceInstall20006(UnicodeString DeviceId)
+opcode: ''
+keywords: ''
+task: PnP_PlugPlay_DeviceInstall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceId

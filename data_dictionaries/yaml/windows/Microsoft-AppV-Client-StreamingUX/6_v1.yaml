@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client-StreamingUX
+event_id: '6'
+version: '1'
+event(fields): task_06_V1(UnicodeString astring)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: astring

@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '24'
+version: '0'
+event(fields): DShow_NewDXVAConfig(GUID DecoderGUID, GUID ConfigBitstreamEncryption,
+  GUID ConfigMBcontrolEncryption, GUID ConfigResidDiffEncryption, UInt32 ConfigBitstreamRaw,
+  UInt32 ConfigMBcontrolRasterOrder, UInt32 ConfigResidDiffHost, UInt32 ConfigSpatialResid8,
+  UInt32 ConfigResid8Subtraction, UInt32 ConfigSpatialHost8or9Clipping, UInt32 ConfigSpatialResidInterleaved,
+  UInt32 ConfigIntraResidUnsigned, UInt32 ConfigResidDiffAccelerator, UInt32 ConfigHostInverseScan,
+  UInt32 ConfigSpecificIDCT, UInt32 Config4GroupedCoefs, UInt32 ConfigMinRenderTargetBuffCount)
+opcode: ''
+keywords: ''
+task: DShow_NewDXVAConfig
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DecoderGUID
+- field_type: GUID
+  field_name: ConfigBitstreamEncryption
+- field_type: GUID
+  field_name: ConfigMBcontrolEncryption
+- field_type: GUID
+  field_name: ConfigResidDiffEncryption
+- field_type: UInt32
+  field_name: ConfigBitstreamRaw
+- field_type: UInt32
+  field_name: ConfigMBcontrolRasterOrder
+- field_type: UInt32
+  field_name: ConfigResidDiffHost
+- field_type: UInt32
+  field_name: ConfigSpatialResid8
+- field_type: UInt32
+  field_name: ConfigResid8Subtraction
+- field_type: UInt32
+  field_name: ConfigSpatialHost8or9Clipping
+- field_type: UInt32
+  field_name: ConfigSpatialResidInterleaved
+- field_type: UInt32
+  field_name: ConfigIntraResidUnsigned
+- field_type: UInt32
+  field_name: ConfigResidDiffAccelerator
+- field_type: UInt32
+  field_name: ConfigHostInverseScan
+- field_type: UInt32
+  field_name: ConfigSpecificIDCT
+- field_type: UInt32
+  field_name: Config4GroupedCoefs
+- field_type: UInt32
+  field_name: ConfigMinRenderTargetBuffCount

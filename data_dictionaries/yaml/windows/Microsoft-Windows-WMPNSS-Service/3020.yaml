@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '3020'
+version: '0'
+event(fields): Callback_End_Url_TransformStop(Pointer Address, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Callback_End_Url_Transform
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Address
+- field_type: UInt32
+  field_name: ErrorCode

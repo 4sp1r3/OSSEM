@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '327'
+version: '0'
+event(fields): NotificationBar_Flash()
+opcode: ''
+keywords: notification
+task: NotificationBar_Flash
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

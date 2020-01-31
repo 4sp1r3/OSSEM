@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '1111'
+version: '0'
+event(fields): Handwriting_Character_Alternates_Window_Size_Change()
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: Handwriting_Character_Alternates_Window_Size_Change
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '2005'
+version: '0'
+event(fields): VisibilityInputType2005(Int32 eMethod, Pointer ForegroundHwnd)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: VisibilityInputType
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: eMethod
+- field_type: Pointer
+  field_name: ForegroundHwnd

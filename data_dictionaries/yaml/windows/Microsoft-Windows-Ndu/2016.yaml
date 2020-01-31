@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Ndu
+event_id: '2016'
+version: '0'
+event(fields): NduPowerQueueWorkItem(UInt32 ProcId, UInt32 Count)
+opcode: ''
+keywords: KeywordNduPowerDebug
+task: NduPowerQueueWorkItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcId
+- field_type: UInt32
+  field_name: Count

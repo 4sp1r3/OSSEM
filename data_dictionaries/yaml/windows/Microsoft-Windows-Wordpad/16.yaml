@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wordpad
+event_id: '16'
+version: '0'
+event(fields): Wordpad_InsertPictureStart()
+opcode: Start
+keywords: ''
+task: Wordpad_InsertPicture
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

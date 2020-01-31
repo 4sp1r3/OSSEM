@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WLAN-Driver
+event_id: '5'
+version: '1'
+event(fields): DataTransmitReceive5_V1(UInt32 FrameUniqueID, UInt32 PortNumber, UInt16
+  RxBacklog, UInt32 CustomData1, UInt32 CustomData2, UInt32 CustomData3)
+opcode: Receive
+keywords: DataPath
+task: DataTransmitReceive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FrameUniqueID
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt16
+  field_name: RxBacklog
+- field_type: UInt32
+  field_name: CustomData1
+- field_type: UInt32
+  field_name: CustomData2
+- field_type: UInt32
+  field_name: CustomData3

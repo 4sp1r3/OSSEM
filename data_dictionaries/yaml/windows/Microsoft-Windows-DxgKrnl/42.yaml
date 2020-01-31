@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '42'
+version: '0'
+event(fields): Unlock(Pointer hDevice, Pointer hAllocationHandle, UInt32 dwFlags)
+opcode: ''
+keywords: Base
+task: Unlock
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hDevice
+- field_type: Pointer
+  field_name: hAllocationHandle
+- field_type: UInt32
+  field_name: dwFlags

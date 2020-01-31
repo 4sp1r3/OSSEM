@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '250'
+version: '0'
+event(fields): SwitchTo(UInt32 UInt32Param, UnicodeString StringParam, Boolean BooleanParam)
+opcode: ''
+keywords: Reader
+task: SwitchTo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UInt32Param
+- field_type: UnicodeString
+  field_name: StringParam
+- field_type: Boolean
+  field_name: BooleanParam

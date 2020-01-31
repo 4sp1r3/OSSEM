@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPDClassInstaller
+event_id: '100'
+version: '0'
+event(fields): DriverPerformanceStart(UInt32 InstallFunctionCode, UnicodeString InstallFunctionName)
+opcode: Start
+keywords: ''
+task: DriverPerformance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InstallFunctionCode
+- field_type: UnicodeString
+  field_name: InstallFunctionName

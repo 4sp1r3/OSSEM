@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathRecognizer
+event_id: '7'
+version: '0'
+event(fields): HintApplication()
+opcode: ''
+keywords: ''
+task: HintApplication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF-FrameServer
+event_id: '3'
+version: '0'
+event(fields): FrameServerFsProxySetOutputTypeStop(HexInt32 hr)
+opcode: Stop
+keywords: ''
+task: FrameServerFsProxySetOutputType
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: hr

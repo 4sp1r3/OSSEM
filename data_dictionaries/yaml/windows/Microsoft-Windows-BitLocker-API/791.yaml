@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '791'
+version: '0'
+event(fields): BitLockerPINModificationTask791()
+opcode: ''
+keywords: ''
+task: BitLockerPINModificationTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

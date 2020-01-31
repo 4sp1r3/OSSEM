@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-EFS
+event_id: '7002'
+version: '0'
+event(fields): task_07002(UnicodeString Reason)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Reason

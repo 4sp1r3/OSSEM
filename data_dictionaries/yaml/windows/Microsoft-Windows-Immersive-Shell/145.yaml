@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '145'
+version: '0'
+event(fields): ImmersiveShellAppManagerStartupStart()
+opcode: Start
+keywords: ''
+task: ImmersiveShellAppManagerStartup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

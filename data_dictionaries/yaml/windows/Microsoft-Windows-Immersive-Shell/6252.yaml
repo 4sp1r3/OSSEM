@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6252'
+version: '0'
+event(fields): SplashScreen_ImageLoadStart(UnicodeString FilePath)
+opcode: Start
+keywords: ''
+task: SplashScreen_ImageLoad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FilePath

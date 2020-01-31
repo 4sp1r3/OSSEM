@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '34'
+version: '0'
+event(fields): Dictation_ProcessingClientViewChangeStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: Dictation_ProcessingClientViewChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

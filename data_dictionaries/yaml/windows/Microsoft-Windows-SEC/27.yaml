@@ -1,0 +1,64 @@
+provider: Microsoft-Windows-SEC
+event_id: '27'
+version: '0'
+event(fields): task_027(UInt64 SequenceNumber, HexInt32 AffectedProcessId, UInt64
+  AffectedProcessStartKey, Int64 AffectedProcessTime, Boolean InlineCheck, Pointer
+  CurrentDaclPointer, Boolean CurrentDaclValidAceList, UInt32 CurrentDaclAceCount,
+  UnicodeString CurrentDaclSids, UInt32 CurrentDaclAccessMaskBlobSize, Binary CurrentDaclAccessMasks,
+  Pointer PreviousDaclPointer, Boolean PreviousDaclValidAceList, UInt32 PreviousDaclAceCount,
+  UnicodeString PreviousDaclSids, UInt32 PreviousDaclAccessMaskBlobSize, Binary PreviousDaclAccessMasks,
+  Pointer OriginalDaclPointer, Boolean OriginalDaclValidAceList, UInt32 OriginalDaclAceCount,
+  UnicodeString OriginalDaclSids, UInt32 OriginalDaclAccessMaskBlobSize, Binary OriginalDaclAccessMasks)
+opcode: ''
+keywords: Event27
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: HexInt32
+  field_name: AffectedProcessId
+- field_type: UInt64
+  field_name: AffectedProcessStartKey
+- field_type: Int64
+  field_name: AffectedProcessTime
+- field_type: Boolean
+  field_name: InlineCheck
+- field_type: Pointer
+  field_name: CurrentDaclPointer
+- field_type: Boolean
+  field_name: CurrentDaclValidAceList
+- field_type: UInt32
+  field_name: CurrentDaclAceCount
+- field_type: UnicodeString
+  field_name: CurrentDaclSids
+- field_type: UInt32
+  field_name: CurrentDaclAccessMaskBlobSize
+- field_type: Binary
+  field_name: CurrentDaclAccessMasks
+- field_type: Pointer
+  field_name: PreviousDaclPointer
+- field_type: Boolean
+  field_name: PreviousDaclValidAceList
+- field_type: UInt32
+  field_name: PreviousDaclAceCount
+- field_type: UnicodeString
+  field_name: PreviousDaclSids
+- field_type: UInt32
+  field_name: PreviousDaclAccessMaskBlobSize
+- field_type: Binary
+  field_name: PreviousDaclAccessMasks
+- field_type: Pointer
+  field_name: OriginalDaclPointer
+- field_type: Boolean
+  field_name: OriginalDaclValidAceList
+- field_type: UInt32
+  field_name: OriginalDaclAceCount
+- field_type: UnicodeString
+  field_name: OriginalDaclSids
+- field_type: UInt32
+  field_name: OriginalDaclAccessMaskBlobSize
+- field_type: Binary
+  field_name: OriginalDaclAccessMasks

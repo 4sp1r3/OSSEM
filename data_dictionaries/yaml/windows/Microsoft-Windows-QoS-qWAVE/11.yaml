@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-QoS-qWAVE
+event_id: '11'
+version: '0'
+event(fields): task_011(UInt32 SourceAddressLen, Binary SourceAddress, UInt32 DestAddressLen,
+  Binary DestAddress, Double BottleneckBandwidth, Double AvailableBandwidth, Boolean
+  Is8021pSupported)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SourceAddressLen
+- field_type: Binary
+  field_name: SourceAddress
+- field_type: UInt32
+  field_name: DestAddressLen
+- field_type: Binary
+  field_name: DestAddress
+- field_type: Double
+  field_name: BottleneckBandwidth
+- field_type: Double
+  field_name: AvailableBandwidth
+- field_type: Boolean
+  field_name: Is8021pSupported

@@ -1,0 +1,58 @@
+provider: Microsoft-Windows-WHEA-Logger
+event_id: '28'
+version: '0'
+event(fields): task_028(UInt32 ErrorSource, UInt64 MPIDR_EL1, UInt64 MIDR_EL1, HexInt32
+  RunningState, HexInt32 PSCIState, HexInt32 ErrorType, UInt32 TransactionType, UInt32
+  Participation, HexInt32 CacheLevel, HexInt32 AffinityLevel, UInt32 Timeout, UInt32
+  OperationType, UInt32 TLBOperationType, UInt32 AddressSpace, UInt32 AccessMode,
+  UInt32 PrecisePC, UInt32 RestartablePC, HexInt64 VirtualFaultAddress, HexInt64 PhysicalFaultAddress,
+  UInt32 Length, Binary RawData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorSource
+- field_type: UInt64
+  field_name: MPIDR_EL1
+- field_type: UInt64
+  field_name: MIDR_EL1
+- field_type: HexInt32
+  field_name: RunningState
+- field_type: HexInt32
+  field_name: PSCIState
+- field_type: HexInt32
+  field_name: ErrorType
+- field_type: UInt32
+  field_name: TransactionType
+- field_type: UInt32
+  field_name: Participation
+- field_type: HexInt32
+  field_name: CacheLevel
+- field_type: HexInt32
+  field_name: AffinityLevel
+- field_type: UInt32
+  field_name: Timeout
+- field_type: UInt32
+  field_name: OperationType
+- field_type: UInt32
+  field_name: TLBOperationType
+- field_type: UInt32
+  field_name: AddressSpace
+- field_type: UInt32
+  field_name: AccessMode
+- field_type: UInt32
+  field_name: PrecisePC
+- field_type: UInt32
+  field_name: RestartablePC
+- field_type: HexInt64
+  field_name: VirtualFaultAddress
+- field_type: HexInt64
+  field_name: PhysicalFaultAddress
+- field_type: UInt32
+  field_name: Length
+- field_type: Binary
+  field_name: RawData

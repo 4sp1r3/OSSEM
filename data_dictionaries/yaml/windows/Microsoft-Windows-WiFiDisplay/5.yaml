@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WiFiDisplay
+event_id: '5'
+version: '0'
+event(fields): OpenSession(UnicodeString LocalDeviceInformation, UnicodeString RemoteDeviceInformation)
+opcode: ''
+keywords: ''
+task: OpenSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalDeviceInformation
+- field_type: UnicodeString
+  field_name: RemoteDeviceInformation

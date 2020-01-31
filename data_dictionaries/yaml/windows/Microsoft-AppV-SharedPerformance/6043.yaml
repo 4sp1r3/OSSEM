@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6043'
+version: '0'
+event(fields): GetPublishingServersStop()
+opcode: Stop
+keywords: ''
+task: GetPublishingServers
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

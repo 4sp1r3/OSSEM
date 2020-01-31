@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '11008'
+version: '2'
+event(fields): task_0OID_Handling11008_V2(GUID InterfaceGuid, UInt32 RequestId, UInt32
+  PacketServiceAction, UInt32 ErrorCode)
+opcode: OID_Handling
+keywords: LwtDiagnostic WwanOid ContextLifeCycle keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: PacketServiceAction
+- field_type: UInt32
+  field_name: ErrorCode

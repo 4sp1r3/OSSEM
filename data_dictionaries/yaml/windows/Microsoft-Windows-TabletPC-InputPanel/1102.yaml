@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '1102'
+version: '0'
+event(fields): Handwriting_Press_Gesture_Button()
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: Handwriting_Press_Gesture_Button
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

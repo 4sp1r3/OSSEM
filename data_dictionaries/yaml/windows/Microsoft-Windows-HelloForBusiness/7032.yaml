@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7032'
+version: '0'
+event(fields): task_0Informational7032(HexInt32 Error)
+opcode: Informational
+keywords: Internal
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error

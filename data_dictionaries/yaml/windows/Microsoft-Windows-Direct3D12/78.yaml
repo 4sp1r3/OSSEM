@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '78'
+version: '0'
+event(fields): CommandSignatureStart(Pointer pID3D12Device, Pointer pID3D12CommandSignature,
+  UInt32 ByteStride, UInt32 NumArgumentDescs, UInt32 NodeMask)
+opcode: Start
+keywords: Resources ObjectLifetime
+task: CommandSignature
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12CommandSignature
+- field_type: UInt32
+  field_name: ByteStride
+- field_type: UInt32
+  field_name: NumArgumentDescs
+- field_type: UInt32
+  field_name: NodeMask

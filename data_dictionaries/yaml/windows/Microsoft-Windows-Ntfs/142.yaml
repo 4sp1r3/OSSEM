@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '142'
+version: '0'
+event(fields): task_0142(GUID VolumeGuid, UInt32 VolumeNameLength, UnicodeString VolumeName,
+  UInt64 LowestFreeSpaceInBytes, UInt64 HighestFreeSpaceInBytes, Boolean IsBootVolume)
+opcode: ''
+keywords: Statistics
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VolumeGuid
+- field_type: UInt32
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UInt64
+  field_name: LowestFreeSpaceInBytes
+- field_type: UInt64
+  field_name: HighestFreeSpaceInBytes
+- field_type: Boolean
+  field_name: IsBootVolume

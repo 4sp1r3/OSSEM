@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '17'
+version: '0'
+event(fields): LockRelease(Pointer LockId, UnicodeString LockName)
+opcode: ''
+keywords: Concurrency
+task: LockRelease
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: LockId
+- field_type: UnicodeString
+  field_name: LockName

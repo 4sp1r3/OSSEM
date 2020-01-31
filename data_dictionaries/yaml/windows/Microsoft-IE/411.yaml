@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '411'
+version: '0'
+event(fields): Mshtml_Animations_TransitioningStop(Pointer AnimationClientObject,
+  Pointer TreeNode, UInt32 DISPID)
+opcode: Stop
+keywords: animation
+task: Mshtml_Animations_Transitioning
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AnimationClientObject
+- field_type: Pointer
+  field_name: TreeNode
+- field_type: UInt32
+  field_name: DISPID

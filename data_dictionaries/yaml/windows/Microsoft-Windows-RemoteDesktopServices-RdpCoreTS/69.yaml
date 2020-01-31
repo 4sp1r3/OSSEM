@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '69'
+version: '0'
+event(fields): RemoteFXmodule_4RCMProtocolImpl69(UnicodeString ModuleName)
+opcode: RCMProtocolImpl
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ModuleName

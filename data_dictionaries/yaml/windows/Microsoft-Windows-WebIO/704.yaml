@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WebIO
+event_id: '704'
+version: '0'
+event(fields): SSLInitializeSecurityContext(Pointer Connection, UInt64 SecurityHandleHigh,
+  UInt64 SecurityHandleLow, Pointer Buffer, UInt32 BufferLengthData, UInt32 BufferLengthRemaining,
+  Binary Data)
+opcode: ''
+keywords: Keyword.SECURITY
+task: SSLInitializeSecurityContext
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: UInt64
+  field_name: SecurityHandleHigh
+- field_type: UInt64
+  field_name: SecurityHandleLow
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: BufferLengthData
+- field_type: UInt32
+  field_name: BufferLengthRemaining
+- field_type: Binary
+  field_name: Data

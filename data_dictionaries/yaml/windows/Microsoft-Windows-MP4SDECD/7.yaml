@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MP4SDECD
+event_id: '7'
+version: '0'
+event(fields): MP4SDECD_ProcessInputStop(UInt32 Frame)
+opcode: Stop
+keywords: ''
+task: MP4SDECD_ProcessInput
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Frame

@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '404'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment404(UnicodeString SummaryError,
+  UnicodeString PackageFullName, HexInt32 ErrorCode, UnicodeString MountPoint, HexInt32
+  TargetPlatform, UnicodeString CallingProcess)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SummaryError
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: MountPoint
+- field_type: HexInt32
+  field_name: TargetPlatform
+- field_type: UnicodeString
+  field_name: CallingProcess

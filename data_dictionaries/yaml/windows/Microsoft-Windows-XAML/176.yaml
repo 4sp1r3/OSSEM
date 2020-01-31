@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-XAML
+event_id: '176'
+version: '0'
+event(fields): DmCompositorViewportRemoved(UInt64 ViewportId, UInt64 CompositorViewportId,
+  UInt64 ContainerId)
+opcode: ''
+keywords: Input
+task: DmCompositorViewportRemoved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ViewportId
+- field_type: UInt64
+  field_name: CompositorViewportId
+- field_type: UInt64
+  field_name: ContainerId

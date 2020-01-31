@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4001'
+version: '0'
+event(fields): ActivationDispatchSessionReceive(UnicodeString via, UnicodeString AppDomain)
+opcode: Receive
+keywords: ActivationServices
+task: ActivationDispatchSession
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: via
+- field_type: UnicodeString
+  field_name: AppDomain

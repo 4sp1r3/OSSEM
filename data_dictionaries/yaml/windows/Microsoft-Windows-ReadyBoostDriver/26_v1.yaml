@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '26'
+version: '1'
+event(fields): WriteEvict_V1(UInt64 DataKey, UInt64 LengthInBytes)
+opcode: ''
+keywords: StoreContentsRundown
+task: WriteEvict
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DataKey
+- field_type: UInt64
+  field_name: LengthInBytes

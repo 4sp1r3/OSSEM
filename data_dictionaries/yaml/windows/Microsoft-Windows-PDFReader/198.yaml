@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '198'
+version: '0'
+event(fields): DocSummaryStart()
+opcode: Start
+keywords: Reader
+task: DocSummary
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FailoverClustering-Client
+event_id: '68'
+version: '0'
+event(fields): task_068(UnicodeString Parameter1)
+opcode: ''
+keywords: ResType
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Parameter1

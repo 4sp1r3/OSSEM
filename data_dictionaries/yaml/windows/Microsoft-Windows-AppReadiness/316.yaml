@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '316'
+version: '0'
+event(fields): AppReadiness_ExecuteTask316(UnicodeString User, UnicodeString PackageFamilyName)
+opcode: ''
+keywords: Tasks
+task: AppReadiness_ExecuteTask
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: PackageFamilyName

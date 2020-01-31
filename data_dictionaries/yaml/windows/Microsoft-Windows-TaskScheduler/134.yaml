@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '134'
+version: '0'
+event(fields): Launchconditionwarning,quotaapproaching_134(UnicodeString TaskEngineName,
+  UnicodeString UserName)
+opcode: ''
+keywords: ''
+task: Launchconditionwarning,quotaapproaching_134
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskEngineName
+- field_type: UnicodeString
+  field_name: UserName

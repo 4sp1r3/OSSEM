@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-International-RegionalOptionsControlPanel
+event_id: '15009'
+version: '0'
+event(fields): RegionandLanguagecontrolpanelRLOUIoperations15009()
+opcode: RLOUIoperations
+keywords: ''
+task: RegionandLanguagecontrolpanel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

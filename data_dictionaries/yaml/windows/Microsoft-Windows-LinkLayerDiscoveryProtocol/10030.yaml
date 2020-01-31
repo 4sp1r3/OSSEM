@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-LinkLayerDiscoveryProtocol
+event_id: '10030'
+version: '0'
+event(fields): task_010030(UInt32 IfIndex, UInt32 AdminParameter, UInt32 OldValue,
+  UInt32 NewValue)
+opcode: ''
+keywords: ut:Configuration
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: AdminParameter
+- field_type: UInt32
+  field_name: OldValue
+- field_type: UInt32
+  field_name: NewValue

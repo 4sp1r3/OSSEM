@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3224'
+version: '0'
+event(fields): Adapter_ScheduleDispatch(UInt32 unParam, UInt32 UserPriority)
+opcode: ''
+keywords: MessagingPerformance Dispatcher
+task: Adapter_ScheduleDispatch
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: UserPriority

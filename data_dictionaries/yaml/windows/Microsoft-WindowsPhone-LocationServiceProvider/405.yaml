@@ -1,0 +1,29 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '405'
+version: '0'
+event(fields): CompositePE405(UInt32 hr, UInt32 WifiConnectionState, Boolean WifiThrottlingOn,
+  UInt64 WifiThrottlingOnElapsedTimeSec, Boolean CellThrottlingOn, UInt64 CellThrottlingOnElapsedTimeSec,
+  Boolean ADThrottlingOn, UInt64 ADThrottlingOnElapsedTimeSec)
+opcode: ''
+keywords: Selfhost CompositePe
+task: CompositePE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr
+- field_type: UInt32
+  field_name: WifiConnectionState
+- field_type: Boolean
+  field_name: WifiThrottlingOn
+- field_type: UInt64
+  field_name: WifiThrottlingOnElapsedTimeSec
+- field_type: Boolean
+  field_name: CellThrottlingOn
+- field_type: UInt64
+  field_name: CellThrottlingOnElapsedTimeSec
+- field_type: Boolean
+  field_name: ADThrottlingOn
+- field_type: UInt64
+  field_name: ADThrottlingOnElapsedTimeSec

@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-StorPort
+event_id: '210'
+version: '1'
+event(fields): Port_V1(Pointer Irp, UInt8 Bus, UInt8 Target, UInt8 LUN)
+opcode: ''
+keywords: Flush
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt8
+  field_name: Bus
+- field_type: UInt8
+  field_name: Target
+- field_type: UInt8
+  field_name: LUN

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '121'
+version: '0'
+event(fields): RenderThreadWaitForWorkStop()
+opcode: Stop
+keywords: Rendering
+task: RenderThreadWaitForWork
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

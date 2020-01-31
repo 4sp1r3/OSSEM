@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Management-SecureAssessment
+event_id: '203'
+version: '0'
+event(fields): Lockdown203(HexInt32 ErrorCode)
+opcode: ''
+keywords: SecureAssessment
+task: Lockdown
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

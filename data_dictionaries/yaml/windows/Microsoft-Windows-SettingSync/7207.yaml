@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7207'
+version: '0'
+event(fields): Perf_SyncRequestedByCloudStart(UInt32 Value)
+opcode: Start
+keywords: RoamingSettings
+task: Perf_SyncRequestedByCloud
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

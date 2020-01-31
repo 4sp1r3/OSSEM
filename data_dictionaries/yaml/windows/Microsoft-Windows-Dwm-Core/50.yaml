@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '50'
+version: '0'
+event(fields): ETWGUID_DRAWEVENT(Float left, Float top, Float right, Float bottom)
+opcode: ''
+keywords: DwmCore
+task: ETWGUID_DRAWEVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: left
+- field_type: Float
+  field_name: top
+- field_type: Float
+  field_name: right
+- field_type: Float
+  field_name: bottom

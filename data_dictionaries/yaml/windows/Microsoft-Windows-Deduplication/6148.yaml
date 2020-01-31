@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '6148'
+version: '0'
+event(fields): task_06148(UInt32 JobType, GUID JobInstanceId, UnicodeString VolumeGuidPath,
+  UnicodeString VolumeDisplayName, UInt32 AvailableMemoryMB, UInt32 AvailableCores,
+  UInt32 Instances, UInt32 ReadersPerInstance, UInt32 JobPriorityType, UInt32 IoThrottle)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobType
+- field_type: GUID
+  field_name: JobInstanceId
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UnicodeString
+  field_name: VolumeDisplayName
+- field_type: UInt32
+  field_name: AvailableMemoryMB
+- field_type: UInt32
+  field_name: AvailableCores
+- field_type: UInt32
+  field_name: Instances
+- field_type: UInt32
+  field_name: ReadersPerInstance
+- field_type: UInt32
+  field_name: JobPriorityType
+- field_type: UInt32
+  field_name: IoThrottle

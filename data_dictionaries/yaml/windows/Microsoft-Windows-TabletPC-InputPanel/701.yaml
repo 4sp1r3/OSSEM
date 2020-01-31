@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '701'
+version: '0'
+event(fields): KeyboardUI_Optimized_State_ShiftStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: KeyboardUI_Optimized_State_Shift
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

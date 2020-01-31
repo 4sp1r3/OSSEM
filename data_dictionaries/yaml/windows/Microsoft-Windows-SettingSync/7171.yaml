@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7171'
+version: '0'
+event(fields): Perf_AppSyncReacquireAppsStart()
+opcode: Start
+keywords: AppSync
+task: Perf_AppSyncReacquireApps
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

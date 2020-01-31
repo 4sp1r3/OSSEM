@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Narrator
+event_id: '163'
+version: '0'
+event(fields): EventQProcessStop(Int32 MessageType)
+opcode: Stop
+keywords: PerfInstrumentation
+task: EventQProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: MessageType

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30103'
+version: '0'
+event(fields): task_030103(Pointer RxContext, Pointer Exchange, Pointer ListHead)
+opcode: ''
+keywords: Smb_Perf
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RxContext
+- field_type: Pointer
+  field_name: Exchange
+- field_type: Pointer
+  field_name: ListHead

@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5150'
+version: '0'
+event(fields): task_05150(UnicodeString Direction, UnicodeString SourceAddress, UnicodeString
+  DestAddress, HexInt32 EtherType, UInt32 MediaType, UInt32 InterfaceType, HexInt32
+  VlanTag, UInt64 FilterRTID, UnicodeString LayerName, UInt64 LayerRTID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Direction
+- field_type: UnicodeString
+  field_name: SourceAddress
+- field_type: UnicodeString
+  field_name: DestAddress
+- field_type: HexInt32
+  field_name: EtherType
+- field_type: UInt32
+  field_name: MediaType
+- field_type: UInt32
+  field_name: InterfaceType
+- field_type: HexInt32
+  field_name: VlanTag
+- field_type: UInt64
+  field_name: FilterRTID
+- field_type: UnicodeString
+  field_name: LayerName
+- field_type: UInt64
+  field_name: LayerRTID

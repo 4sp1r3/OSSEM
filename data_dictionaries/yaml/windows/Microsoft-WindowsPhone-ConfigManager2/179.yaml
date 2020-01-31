@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '179'
+version: '0'
+event(fields): task_0179(UInt32 CmdType, UnicodeString TrackedURI, HexInt32 Result)
+opcode: ''
+keywords: Error Trace
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CmdType
+- field_type: UnicodeString
+  field_name: TrackedURI
+- field_type: HexInt32
+  field_name: Result

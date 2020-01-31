@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '30'
+version: '0'
+event(fields): Shdocvw_PanningTool_ScrollElementByStart()
+opcode: Start
+keywords: primarynav
+task: Shdocvw_PanningTool_ScrollElementBy
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

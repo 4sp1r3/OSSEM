@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '47'
+version: '0'
+event(fields): MFPlayStop47(Pointer Object, UInt32 ErrorCode, UInt32 VideoSizeSize,
+  Binary VideoSize, UInt32 AspectSizeSize, Binary AspectSize)
+opcode: Stop
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: VideoSizeSize
+- field_type: Binary
+  field_name: VideoSize
+- field_type: UInt32
+  field_name: AspectSizeSize
+- field_type: Binary
+  field_name: AspectSize

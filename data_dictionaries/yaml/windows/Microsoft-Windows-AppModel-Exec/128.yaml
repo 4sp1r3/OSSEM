@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '128'
+version: '0'
+event(fields): task_0128(UInt32 PID, HexInt32 ErrorCode, Int64 PackageState)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PID
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: Int64
+  field_name: PackageState

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '23'
+version: '0'
+event(fields): DirectUI_ScrollLineDownStart()
+opcode: Start
+keywords: Default
+task: DirectUI_ScrollLineDown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

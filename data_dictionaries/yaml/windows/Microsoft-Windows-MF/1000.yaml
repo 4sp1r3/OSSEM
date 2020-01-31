@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MF
+event_id: '1000'
+version: '0'
+event(fields): MediaFoundationLoadTopologyStart()
+opcode: Start
+keywords: ''
+task: MediaFoundationLoadTopology
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '307'
+version: '0'
+event(fields): task_0307(Double number)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Double
+  field_name: number

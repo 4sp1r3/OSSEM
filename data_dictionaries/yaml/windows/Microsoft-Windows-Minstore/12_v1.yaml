@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Minstore
+event_id: '12'
+version: '1'
+event(fields): TreeUpdateTaskStartedwritingB+tree_V1(UInt32 PageCount, HexInt64 IdHigh,
+  HexInt64 IdLow)
+opcode: StartedwritingB+tree
+keywords: ''
+task: TreeUpdateTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PageCount
+- field_type: HexInt64
+  field_name: IdHigh
+- field_type: HexInt64
+  field_name: IdLow

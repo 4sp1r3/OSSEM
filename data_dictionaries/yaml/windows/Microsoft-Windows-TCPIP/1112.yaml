@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1112'
+version: '0'
+event(fields): TcpConnectionOffloadStatus(Pointer Tcb, UInt32 Status, UInt32 Interface,
+  UInt32 PMax)
+opcode: ''
+keywords: ut:TcpipTcb ut:Configuration
+task: TcpConnectionOffloadStatus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: PMax

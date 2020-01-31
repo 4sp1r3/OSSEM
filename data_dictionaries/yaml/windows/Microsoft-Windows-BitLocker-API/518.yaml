@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '518'
+version: '0'
+event(fields): task_0518(HexInt32 ErrorCode, UnicodeString Thumbprint, GUID VolumeGUID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: Thumbprint
+- field_type: GUID
+  field_name: VolumeGUID

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3322'
+version: '0'
+event(fields): FormatterDeserializeRequestStart(UnicodeString AppDomain)
+opcode: Start
+keywords: ServiceModel
+task: FormatterDeserializeRequest
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

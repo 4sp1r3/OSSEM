@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Schannel-Events
+event_id: '513'
+version: '0'
+event(fields): AcceptSecurityContextStart(Pointer CredHandle, Pointer ContextHandle)
+opcode: Start
+keywords: ''
+task: AcceptSecurityContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CredHandle
+- field_type: Pointer
+  field_name: ContextHandle

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinRM
+event_id: '1048'
+version: '0'
+event(fields): Responsehandling1048(UInt16 httpStatus, UInt32 errorCode, UnicodeString
+  extraErrorInfo1, UnicodeString extraErrorInfo2)
+opcode: ''
+keywords: Keyword.Server
+task: Responsehandling
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: httpStatus
+- field_type: UInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: extraErrorInfo1
+- field_type: UnicodeString
+  field_name: extraErrorInfo2

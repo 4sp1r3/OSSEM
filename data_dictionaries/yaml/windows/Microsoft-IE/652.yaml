@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '652'
+version: '0'
+event(fields): Mshtml_Generic_Diagnosis_Warn1(AnsiString WarningDescription, UInt32
+  DwordParam, Pointer ThisPtr)
+opcode: ''
+keywords: mshtml
+task: Mshtml_Generic_Diagnosis_Warn1
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: WarningDescription
+- field_type: UInt32
+  field_name: DwordParam
+- field_type: Pointer
+  field_name: ThisPtr

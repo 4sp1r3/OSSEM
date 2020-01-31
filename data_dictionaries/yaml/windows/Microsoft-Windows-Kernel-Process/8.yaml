@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '8'
+version: '0'
+event(fields): CpuPriorityChange(UInt32 ProcessID, UInt32 ThreadID, UInt8 OldPriority,
+  UInt8 NewPriority)
+opcode: ''
+keywords: WINEVENT_KEYWORD_CPU_PRIORITY
+task: CpuPriorityChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: UInt32
+  field_name: ThreadID
+- field_type: UInt8
+  field_name: OldPriority
+- field_type: UInt8
+  field_name: NewPriority

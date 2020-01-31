@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '388'
+version: '0'
+event(fields): AppXPackaging.Task.BundleManifestReader.CreateStart()
+opcode: Start
+keywords: ''
+task: AppXPackaging.Task.BundleManifestReader.Create
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

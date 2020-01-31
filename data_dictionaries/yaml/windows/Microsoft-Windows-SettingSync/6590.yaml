@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6590'
+version: '0'
+event(fields): task_06590(Boolean IsRoamingEnabled, UInt32 RoamingReasonCode, Boolean
+  IsBackupEnabled, UInt32 BackupReasonCode, GUID ProviderId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsRoamingEnabled
+- field_type: UInt32
+  field_name: RoamingReasonCode
+- field_type: Boolean
+  field_name: IsBackupEnabled
+- field_type: UInt32
+  field_name: BackupReasonCode
+- field_type: GUID
+  field_name: ProviderId

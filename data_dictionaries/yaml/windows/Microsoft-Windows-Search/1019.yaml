@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Search
+event_id: '1019'
+version: '0'
+event(fields): task_0PCODE_192pcode_1921019(UnicodeString ExtraInfo, UnicodeString
+  Phase, UnicodeString ErrorCode, UnicodeString Path)
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtraInfo
+- field_type: UnicodeString
+  field_name: Phase
+- field_type: UnicodeString
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: Path

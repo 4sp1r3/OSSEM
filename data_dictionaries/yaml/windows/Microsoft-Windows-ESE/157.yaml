@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ESE
+event_id: '157'
+version: '0'
+event(fields): ESE_FmpStationId_Trace(UInt8 tsidr, UInt32 ifmp, UInt32 iInstance,
+  UInt8 dbid, UnicodeString wszDatabaseName)
+opcode: ''
+keywords: StationId
+task: ESE_FmpStationId_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: tsidr
+- field_type: UInt32
+  field_name: ifmp
+- field_type: UInt32
+  field_name: iInstance
+- field_type: UInt8
+  field_name: dbid
+- field_type: UnicodeString
+  field_name: wszDatabaseName

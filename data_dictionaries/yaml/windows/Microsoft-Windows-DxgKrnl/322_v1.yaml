@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '322'
+version: '1'
+event(fields): PagingQueuePacketStart_V1(Pointer DxgDevice, Pointer PagingQueue, Pointer
+  PagingQueuePacket, UInt64 SequenceId, UInt32 VidMmOpType, Pointer Alloc, UInt32
+  PagingQueueType)
+opcode: Start
+keywords: Base
+task: PagingQueuePacket
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DxgDevice
+- field_type: Pointer
+  field_name: PagingQueue
+- field_type: Pointer
+  field_name: PagingQueuePacket
+- field_type: UInt64
+  field_name: SequenceId
+- field_type: UInt32
+  field_name: VidMmOpType
+- field_type: Pointer
+  field_name: Alloc
+- field_type: UInt32
+  field_name: PagingQueueType

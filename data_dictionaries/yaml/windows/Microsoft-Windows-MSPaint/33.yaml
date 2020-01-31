@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSPaint
+event_id: '33'
+version: '0'
+event(fields): CropOperationStart()
+opcode: Start
+keywords: ''
+task: CropOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

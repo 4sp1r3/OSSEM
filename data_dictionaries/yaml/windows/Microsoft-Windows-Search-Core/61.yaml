@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '61'
+version: '0'
+event(fields): BackoffReason(UInt32 Value)
+opcode: ''
+keywords: Backoff
+task: BackoffReason
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

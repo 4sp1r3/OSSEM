@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WebcamExperience
+event_id: '110'
+version: '0'
+event(fields): Webcam_VideoTrimStart()
+opcode: Start
+keywords: ''
+task: Webcam_VideoTrim
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

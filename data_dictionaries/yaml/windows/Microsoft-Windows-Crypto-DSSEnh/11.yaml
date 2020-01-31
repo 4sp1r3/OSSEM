@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Crypto-DSSEnh
+event_id: '11'
+version: '0'
+event(fields): WriteContainerInfo(UnicodeString ProcessName, UInt32 ProviderType,
+  UnicodeString ContainerName, Boolean MachineKeyset, UInt32 Status, UnicodeString
+  ErrorDescription)
+opcode: ''
+keywords: ''
+task: WriteContainerInfo
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UInt32
+  field_name: ProviderType
+- field_type: UnicodeString
+  field_name: ContainerName
+- field_type: Boolean
+  field_name: MachineKeyset
+- field_type: UInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: ErrorDescription

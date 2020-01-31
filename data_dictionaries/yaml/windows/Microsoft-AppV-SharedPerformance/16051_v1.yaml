@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '16051'
+version: '1'
+event(fields): DownloadpolicyStop_V1()
+opcode: Stop
+keywords: ''
+task: Downloadpolicy
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

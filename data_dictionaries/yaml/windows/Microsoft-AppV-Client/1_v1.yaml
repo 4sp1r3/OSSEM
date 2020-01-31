@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client
+event_id: '1'
+version: '1'
+event(fields): ClientStartupStart_V1()
+opcode: Start
+keywords: Startup
+task: ClientStartup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

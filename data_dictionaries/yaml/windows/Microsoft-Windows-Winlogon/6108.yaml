@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '6108'
+version: '0'
+event(fields): LogonStart()
+opcode: Start
+keywords: PerfDiagnostics keyword_200000000000
+task: Logon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

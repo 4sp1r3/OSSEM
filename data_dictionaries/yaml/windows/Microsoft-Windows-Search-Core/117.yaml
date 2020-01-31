@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '117'
+version: '0'
+event(fields): Startup_CDcomService_Init()
+opcode: ''
+keywords: Service
+task: Startup_CDcomService_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

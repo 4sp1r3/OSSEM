@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1025'
+version: '0'
+event(fields): Search_Sort_Criteria()
+opcode: ''
+keywords: ''
+task: Search_Sort_Criteria
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

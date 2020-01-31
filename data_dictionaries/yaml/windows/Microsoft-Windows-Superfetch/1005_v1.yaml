@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1005'
+version: '1'
+event(fields): MemoryInversionReaction_V1(UInt32 StoreId)
+opcode: ''
+keywords: Store
+task: MemoryInversionReaction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StoreId

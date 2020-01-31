@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '35'
+version: '0'
+event(fields): MFT_ProcessMessage(UInt32 Message)
+opcode: ''
+keywords: ''
+task: MFT_ProcessMessage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Message

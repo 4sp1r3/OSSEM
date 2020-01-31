@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '205'
+version: '0'
+event(fields): EarlyLaunchAntiMalwareStart(UInt16 ElamDriverNameLength, UnicodeString
+  ElamDriverName)
+opcode: Start
+keywords: Performance
+task: EarlyLaunchAntiMalware
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ElamDriverNameLength
+- field_type: UnicodeString
+  field_name: ElamDriverName

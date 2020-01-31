@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Audio
+event_id: '148'
+version: '0'
+event(fields): AEData(Pointer objInstance, UInt32 ucType, UInt64 Data1, UInt64 Data2,
+  UInt64 Data3)
+opcode: ''
+keywords: ''
+task: AEData
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objInstance
+- field_type: UInt32
+  field_name: ucType
+- field_type: UInt64
+  field_name: Data1
+- field_type: UInt64
+  field_name: Data2
+- field_type: UInt64
+  field_name: Data3

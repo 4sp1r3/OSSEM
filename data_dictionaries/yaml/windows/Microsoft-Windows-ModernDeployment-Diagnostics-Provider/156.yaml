@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ModernDeployment-Diagnostics-Provider
+event_id: '156'
+version: '0'
+event(fields): task_0156()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

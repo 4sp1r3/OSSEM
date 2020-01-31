@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CoreSystem-SmsRouter
+event_id: '1023'
+version: '0'
+event(fields): task_01023(UInt32 error, Int32 hresult)
+opcode: ''
+keywords: Error
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: error
+- field_type: Int32
+  field_name: hresult

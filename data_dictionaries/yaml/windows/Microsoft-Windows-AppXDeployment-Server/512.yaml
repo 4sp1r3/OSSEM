@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '512'
+version: '0'
+event(fields): task_0512(HexInt64 SessionKey, Boolean StreamingDataSourcePrefetchCanceled)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: SessionKey
+- field_type: Boolean
+  field_name: StreamingDataSourcePrefetchCanceled

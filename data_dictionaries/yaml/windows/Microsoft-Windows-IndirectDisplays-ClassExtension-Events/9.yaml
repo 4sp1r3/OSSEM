@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '9'
+version: '0'
+event(fields): MonitorGetDefaultDescriptionModes(Int64 IddAdapterLuid, UInt32 ConnectorIndex,
+  UInt32 InputModeCount)
+opcode: GetDefaultDescriptionModes
+keywords: DdiCallbacks
+task: Monitor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: IddAdapterLuid
+- field_type: UInt32
+  field_name: ConnectorIndex
+- field_type: UInt32
+  field_name: InputModeCount

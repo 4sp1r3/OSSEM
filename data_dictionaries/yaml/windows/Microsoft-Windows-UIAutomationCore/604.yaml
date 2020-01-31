@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '604'
+version: '0'
+event(fields): IA2TextRange_CloneStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: IA2TextRange_Clone
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-ReFS
+event_id: '5'
+version: '0'
+event(fields): task_05(Pointer Context, HexInt32 Status, GUID VolumeGuid, UInt16 DeviceNameLength,
+  UnicodeString DeviceName, UInt16 VolumeNameLength, UnicodeString VolumeName, UInt32
+  StackCount, Pointer Stack, UInt32 SourceLine)
+opcode: ''
+keywords: VolumeMount
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Context
+- field_type: HexInt32
+  field_name: Status
+- field_type: GUID
+  field_name: VolumeGuid
+- field_type: UInt16
+  field_name: DeviceNameLength
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: UInt16
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UInt32
+  field_name: StackCount
+- field_type: Pointer
+  field_name: Stack
+- field_type: UInt32
+  field_name: SourceLine

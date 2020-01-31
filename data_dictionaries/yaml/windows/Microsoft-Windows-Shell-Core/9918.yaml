@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9918'
+version: '0'
+event(fields): Shell32_ObservableCollection_OnUniqueLeafCountChanged()
+opcode: ''
+keywords: Shell
+task: Shell32_ObservableCollection_OnUniqueLeafCountChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

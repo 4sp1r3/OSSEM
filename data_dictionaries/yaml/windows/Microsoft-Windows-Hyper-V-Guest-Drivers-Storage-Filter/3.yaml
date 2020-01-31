@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter
+event_id: '3'
+version: '0'
+event(fields): task_03(UnicodeString Location, HexInt32 NTStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Location
+- field_type: HexInt32
+  field_name: NTStatus

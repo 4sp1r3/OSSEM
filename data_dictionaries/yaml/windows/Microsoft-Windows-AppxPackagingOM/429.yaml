@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '429'
+version: '0'
+event(fields): AppXPackaging.Task.BundleWriter.AddPackageReferenceStop()
+opcode: Stop
+keywords: ''
+task: AppXPackaging.Task.BundleWriter.AddPackageReference
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5460'
+version: '0'
+event(fields): task_05460(UnicodeString Policy)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Policy

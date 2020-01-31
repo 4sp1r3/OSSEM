@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1050'
+version: '1'
+event(fields): PrelaunchIdleCheck_V1(UInt32 CPUUtilization, UInt32 DiskUtilization,
+  UInt32 GPUUtilization, UInt32 AvailableMemory, UInt32 ModifiedMemory, Boolean OkToPrelaunch)
+opcode: ''
+keywords: PfAp
+task: PrelaunchIdleCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CPUUtilization
+- field_type: UInt32
+  field_name: DiskUtilization
+- field_type: UInt32
+  field_name: GPUUtilization
+- field_type: UInt32
+  field_name: AvailableMemory
+- field_type: UInt32
+  field_name: ModifiedMemory
+- field_type: Boolean
+  field_name: OkToPrelaunch

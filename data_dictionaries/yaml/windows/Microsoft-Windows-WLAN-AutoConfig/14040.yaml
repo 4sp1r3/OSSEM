@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14040'
+version: '0'
+event(fields): task_014040(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UInt32 ScanType, Boolean FlushBSSList)
+opcode: ''
+keywords: State
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UInt32
+  field_name: ScanType
+- field_type: Boolean
+  field_name: FlushBSSList

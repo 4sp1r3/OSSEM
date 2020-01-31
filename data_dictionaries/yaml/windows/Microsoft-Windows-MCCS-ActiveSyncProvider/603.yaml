@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '603'
+version: '0'
+event(fields): SPERF_TAG_SYNC_ENGINEStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_SYNC_ENGINE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

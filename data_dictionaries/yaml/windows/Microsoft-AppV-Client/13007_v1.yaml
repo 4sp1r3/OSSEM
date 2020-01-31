@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '13007'
+version: '1'
+event(fields): ApplicationLaunch13007_V1(UnicodeString Item)
+opcode: ''
+keywords: VirtualAppLaunch
+task: ApplicationLaunch
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Item

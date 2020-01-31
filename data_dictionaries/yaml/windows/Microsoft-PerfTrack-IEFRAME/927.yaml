@@ -1,0 +1,11 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '927'
+version: '0'
+event(fields): Immersive_Travellog_SwipeStartThresholdMet()
+opcode: ''
+keywords: nonPerfTrack
+task: Immersive_Travellog_SwipeStartThresholdMet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

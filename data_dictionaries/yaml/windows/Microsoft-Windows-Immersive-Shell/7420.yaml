@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7420'
+version: '0'
+event(fields): ConnectedSearch_ImageDownloaderDownloadUrlStart(UnicodeString URL)
+opcode: Start
+keywords: ''
+task: ConnectedSearch_ImageDownloaderDownloadUrl
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL

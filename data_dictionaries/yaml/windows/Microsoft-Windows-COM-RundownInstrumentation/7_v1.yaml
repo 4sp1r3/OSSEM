@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-COM-RundownInstrumentation
+event_id: '7'
+version: '1'
+event(fields): RundownInstrumentation7_V1(UInt64 OID, GUID TargetInterface, UInt32
+  TargetMethod, GUID IPID, Pointer ProxyManagerIUnknown, GUID ImplementedInterface1,
+  GUID ImplementedInterface2, GUID ImplementedInterface3)
+opcode: ''
+keywords: RundownInstrumentation
+task: RundownInstrumentation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OID
+- field_type: GUID
+  field_name: TargetInterface
+- field_type: UInt32
+  field_name: TargetMethod
+- field_type: GUID
+  field_name: IPID
+- field_type: Pointer
+  field_name: ProxyManagerIUnknown
+- field_type: GUID
+  field_name: ImplementedInterface1
+- field_type: GUID
+  field_name: ImplementedInterface2
+- field_type: GUID
+  field_name: ImplementedInterface3

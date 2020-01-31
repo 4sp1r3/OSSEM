@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Networking-Correlation
+event_id: '3003'
+version: '0'
+event(fields): task_03003()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

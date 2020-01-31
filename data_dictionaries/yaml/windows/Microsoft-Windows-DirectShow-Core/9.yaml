@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '9'
+version: '0'
+event(fields): PluginManager9(GUID Subtype)
+opcode: ''
+keywords: ''
+task: PluginManager
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Subtype

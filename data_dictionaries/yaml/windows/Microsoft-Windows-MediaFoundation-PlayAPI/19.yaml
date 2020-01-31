@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '19'
+version: '0'
+event(fields): MFPlayStop19(Pointer Object, UInt32 ErrorCode, UInt32 DurationValueSize,
+  Binary DurationValue)
+opcode: Stop
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: DurationValueSize
+- field_type: Binary
+  field_name: DurationValue

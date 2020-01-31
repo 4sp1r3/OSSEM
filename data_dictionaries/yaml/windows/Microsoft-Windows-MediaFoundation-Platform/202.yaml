@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '202'
+version: '0'
+event(fields): MediaFoundationSourceResolver(Pointer Context, UnicodeString clsid)
+opcode: ''
+keywords: ''
+task: MediaFoundationSourceResolver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Context
+- field_type: UnicodeString
+  field_name: clsid

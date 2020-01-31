@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebAuth
+event_id: '1021'
+version: '0'
+event(fields): NavigationNewWindowStart(UnicodeString Url, UnicodeString ReferrerUrl)
+opcode: Start
+keywords: AuthHost
+task: NavigationNewWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Url
+- field_type: UnicodeString
+  field_name: ReferrerUrl

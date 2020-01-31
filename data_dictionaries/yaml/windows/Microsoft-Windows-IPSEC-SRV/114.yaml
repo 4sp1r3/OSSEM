@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IPSEC-SRV
+event_id: '114'
+version: '0'
+event(fields): IPSEC_BFE_TransactionCommitStop()
+opcode: Stop
+keywords: PolicyAgent
+task: IPSEC_BFE_TransactionCommit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

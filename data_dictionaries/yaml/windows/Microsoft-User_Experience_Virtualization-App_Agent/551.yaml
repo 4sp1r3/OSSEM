@@ -1,0 +1,11 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '551'
+version: '0'
+event(fields): AppAgentruntimeAppAgent551()
+opcode: AppAgent
+keywords: ''
+task: AppAgentruntime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

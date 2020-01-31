@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10314'
+version: '0'
+event(fields): Power10314(UInt64 Duration)
+opcode: ''
+keywords: Power LwtDiagnostic
+task: Power
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Duration

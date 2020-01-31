@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2059'
+version: '0'
+event(fields): Browseui_AutoComplete_UpdateCompletionStart(UnicodeString Path)
+opcode: Start
+keywords: Shell
+task: Browseui_AutoComplete_UpdateCompletion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path

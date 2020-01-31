@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Crypto-NCrypt
+event_id: '3'
+version: '0'
+event(fields): OpenKeyFailure(UnicodeString ProviderName, UnicodeString KeyName, HexInt32
+  Status, UnicodeString ProcessName)
+opcode: ''
+keywords: ETW_KEYWORD_NCRYPT_OPERATION
+task: OpenKeyFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProviderName
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: HexInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: ProcessName

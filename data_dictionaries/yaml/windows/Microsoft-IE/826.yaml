@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '826'
+version: '0'
+event(fields): Mshtml_Input_TaskStop(AnsiString TaskName, UInt32 ScriptExecutionTime,
+  Boolean IsIgnoredInTelemetry)
+opcode: Stop
+keywords: gwnd
+task: Mshtml_Input_Task
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: TaskName
+- field_type: UInt32
+  field_name: ScriptExecutionTime
+- field_type: Boolean
+  field_name: IsIgnoredInTelemetry

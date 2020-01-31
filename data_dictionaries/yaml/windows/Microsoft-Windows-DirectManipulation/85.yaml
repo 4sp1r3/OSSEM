@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '85'
+version: '0'
+event(fields): Manipulation_TelemetryStart(UnicodeString AppUserModeId, UInt32 AppType,
+  UInt32 InteractionLibraryType, UInt64 UniqueKey, UInt16 SurfaceWidth, UInt16 SurfaceHeight)
+opcode: Start
+keywords: ''
+task: Manipulation_Telemetry
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModeId
+- field_type: UInt32
+  field_name: AppType
+- field_type: UInt32
+  field_name: InteractionLibraryType
+- field_type: UInt64
+  field_name: UniqueKey
+- field_type: UInt16
+  field_name: SurfaceWidth
+- field_type: UInt16
+  field_name: SurfaceHeight

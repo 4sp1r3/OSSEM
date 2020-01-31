@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-HttpService
+event_id: '45'
+version: '0'
+event(fields): HTTPAuthenticationTraceTaskAuthCacheEntryFreed(Pointer AccessTokenOrHandle,
+  UInt32 Status)
+opcode: AuthCacheEntryFreed
+keywords: HTTP_KEYWORD_AUTHENTICATION
+task: HTTPAuthenticationTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AccessTokenOrHandle
+- field_type: UInt32
+  field_name: Status

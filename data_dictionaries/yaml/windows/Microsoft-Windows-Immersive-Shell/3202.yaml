@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '3202'
+version: '0'
+event(fields): EdgeUi_Invoke_Continuous_Cancel()
+opcode: ''
+keywords: ''
+task: EdgeUi_Invoke_Continuous_Cancel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

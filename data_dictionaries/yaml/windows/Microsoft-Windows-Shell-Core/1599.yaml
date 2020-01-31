@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1599'
+version: '0'
+event(fields): ShellTask_DrvX_DrvSizeThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_DrvX_DrvSizeThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

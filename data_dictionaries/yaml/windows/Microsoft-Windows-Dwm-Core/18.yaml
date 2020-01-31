@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '18'
+version: '0'
+event(fields): SCHEDULE_GETPRESENTCOUNTStop(UInt32 cDisplay, AnsiString rgcDXPresent)
+opcode: Stop
+keywords: DwmCore
+task: SCHEDULE_GETPRESENTCOUNT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: cDisplay
+- field_type: AnsiString
+  field_name: rgcDXPresent

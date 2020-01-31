@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27163'
+version: '0'
+event(fields): PerfTrack_Taskbar_DestinationList_UpStart()
+opcode: Start
+keywords: Shell WDI
+task: PerfTrack_Taskbar_DestinationList_Up
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

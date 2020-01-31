@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '27'
+version: '0'
+event(fields): task_0Savinglocalcache.27(UInt32 ErrorCode, UnicodeString ErrorMessage)
+opcode: Savinglocalcache.
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

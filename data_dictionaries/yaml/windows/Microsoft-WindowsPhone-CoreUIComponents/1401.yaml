@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1401'
+version: '0'
+event(fields): SessionManager1401()
+opcode: ''
+keywords: SessionManager
+task: SessionManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

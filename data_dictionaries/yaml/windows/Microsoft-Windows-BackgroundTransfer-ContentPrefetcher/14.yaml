@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-BackgroundTransfer-ContentPrefetcher
+event_id: '14'
+version: '0'
+event(fields): PrefetchTaskActivity14(UnicodeString appName)
+opcode: ''
+keywords: ''
+task: PrefetchTaskActivity
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: appName

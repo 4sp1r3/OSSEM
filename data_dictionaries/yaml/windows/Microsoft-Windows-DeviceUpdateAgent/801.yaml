@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceUpdateAgent
+event_id: '801'
+version: '0'
+event(fields): task_0801(UnicodeString Prop_ProductId, UnicodeString Prop_ProductVersion)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_ProductId
+- field_type: UnicodeString
+  field_name: Prop_ProductVersion

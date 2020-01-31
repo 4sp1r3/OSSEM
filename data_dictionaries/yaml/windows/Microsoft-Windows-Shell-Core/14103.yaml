@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14103'
+version: '0'
+event(fields): StatusBarModule_GetPropertiesWorkItemDispatchStart()
+opcode: Start
+keywords: Shell
+task: StatusBarModule_GetPropertiesWorkItemDispatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

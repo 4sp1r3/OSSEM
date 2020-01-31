@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '32'
+version: '0'
+event(fields): Mshtml_CFormElement_DoSubmit(UnicodeString AddressName)
+opcode: ''
+keywords: primarynav
+task: Mshtml_CFormElement_DoSubmit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AddressName

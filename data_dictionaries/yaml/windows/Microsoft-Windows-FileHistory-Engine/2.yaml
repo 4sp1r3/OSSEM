@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-Engine
+event_id: '2'
+version: '0'
+event(fields): UsnJournalScanStop()
+opcode: Stop
+keywords: ''
+task: UsnJournalScan
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

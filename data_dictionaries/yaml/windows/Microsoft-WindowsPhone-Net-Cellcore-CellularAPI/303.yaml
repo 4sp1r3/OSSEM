@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '303'
+version: '0'
+event(fields): CUICC303(UInt32 DwordName, Boolean BooleanName)
+opcode: ''
+keywords: Error UICC
+task: CUICC
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName
+- field_type: Boolean
+  field_name: BooleanName

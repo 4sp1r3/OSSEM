@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '83'
+version: '0'
+event(fields): RefreshTemplateBindingsStop()
+opcode: Stop
+keywords: Detailed
+task: RefreshTemplateBindings
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

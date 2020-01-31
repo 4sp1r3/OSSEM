@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4016'
+version: '0'
+event(fields): AfdNrtCreateOpen(Pointer NameResolutionHandle, Pointer Process, UInt32
+  Status)
+opcode: Open
+keywords: AFD_KW_NRT
+task: AfdNrtCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NameResolutionHandle
+- field_type: Pointer
+  field_name: Process
+- field_type: UInt32
+  field_name: Status

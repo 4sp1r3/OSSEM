@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TerminalServices-LocalSessionManager
+event_id: '44'
+version: '0'
+event(fields): task_044(UInt32 Session)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Session

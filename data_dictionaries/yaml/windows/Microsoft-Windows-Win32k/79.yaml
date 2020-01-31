@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Win32k
+event_id: '79'
+version: '0'
+event(fields): PointerMotionStart(Int32 Time, Int32 X, Int32 Y)
+opcode: Start
+keywords: MessagePumpInternalAndInput
+task: PointerMotion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Time
+- field_type: Int32
+  field_name: X
+- field_type: Int32
+  field_name: Y

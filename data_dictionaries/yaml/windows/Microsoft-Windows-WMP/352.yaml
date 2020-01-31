@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '352'
+version: '0'
+event(fields): RME_CLIENT_LIBRARY_METADATA_REQUESTStart(UnicodeString URL)
+opcode: Start
+keywords: mediaplayer
+task: RME_CLIENT_LIBRARY_METADATA_REQUEST
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL

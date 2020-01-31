@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ApplicabilityEngine
+event_id: '101'
+version: '0'
+event(fields): GetApplicabilityContextStop()
+opcode: Stop
+keywords: ''
+task: GetApplicabilityContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

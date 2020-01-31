@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '248'
+version: '0'
+event(fields): DisplayRotationTask(UInt32 Rotation)
+opcode: ''
+keywords: ''
+task: DisplayRotationTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Rotation

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1569'
+version: '0'
+event(fields): ShellTask_MulPropSheet_AppluMultipleThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_MulPropSheet_AppluMultipleThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

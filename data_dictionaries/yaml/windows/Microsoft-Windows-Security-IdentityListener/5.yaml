@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Security-IdentityListener
+event_id: '5'
+version: '0'
+event(fields): task_05(SID Sid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: Sid

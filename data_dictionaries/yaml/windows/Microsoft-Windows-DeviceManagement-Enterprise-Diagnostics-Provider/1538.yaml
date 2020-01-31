@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider
+event_id: '1538'
+version: '0'
+event(fields): None1538(HexInt32 HRESULT)
+opcode: ''
+keywords: Debug
+task: None
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HRESULT

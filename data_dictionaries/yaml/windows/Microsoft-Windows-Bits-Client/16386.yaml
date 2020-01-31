@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '16386'
+version: '0'
+event(fields): task_016386(GUID Id, UnicodeString Title, UnicodeString FileList)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UnicodeString
+  field_name: Title
+- field_type: UnicodeString
+  field_name: FileList

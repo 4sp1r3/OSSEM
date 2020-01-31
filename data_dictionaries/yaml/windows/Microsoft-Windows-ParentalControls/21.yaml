@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '21'
+version: '0'
+event(fields): ComputerUsageSystem(UInt64 Id, UInt64 TimeUsed)
+opcode: System
+keywords: WPC
+task: ComputerUsage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt64
+  field_name: TimeUsed

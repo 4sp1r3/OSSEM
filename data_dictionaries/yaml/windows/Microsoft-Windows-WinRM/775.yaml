@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinRM
+event_id: '775'
+version: '0'
+event(fields): Requesthandling775(UInt32 requests, UInt32 windowTime, UnicodeString
+  senderName, UInt32 delayHint)
+opcode: ''
+keywords: Keyword.Server Keyword.QuotaViolation
+task: Requesthandling
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: requests
+- field_type: UInt32
+  field_name: windowTime
+- field_type: UnicodeString
+  field_name: senderName
+- field_type: UInt32
+  field_name: delayHint

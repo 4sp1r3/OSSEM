@@ -1,0 +1,35 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '36'
+version: '4'
+event(fields): CSwitch_V4(UInt32 NewThreadId, UInt32 OldThreadId, SInt8 NewThreadPriority,
+  SInt8 OldThreadPriority, UInt8 PreviousCState, SInt8 SpareByte, SInt8 OldThreadWaitReason,
+  SInt8 ThreadFlags, SInt8 OldThreadState, SInt8 OldThreadWaitIdealProcessor, UInt32
+  NewThreadWaitTime, UInt32 Reserved)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: NewThreadId
+- field_type: UInt32
+  field_name: OldThreadId
+- field_type: SInt8
+  field_name: NewThreadPriority
+- field_type: SInt8
+  field_name: OldThreadPriority
+- field_type: UInt8
+  field_name: PreviousCState
+- field_type: SInt8
+  field_name: SpareByte
+- field_type: SInt8
+  field_name: OldThreadWaitReason
+- field_type: SInt8
+  field_name: ThreadFlags
+- field_type: SInt8
+  field_name: OldThreadState
+- field_type: SInt8
+  field_name: OldThreadWaitIdealProcessor
+- field_type: UInt32
+  field_name: NewThreadWaitTime
+- field_type: UInt32
+  field_name: Reserved

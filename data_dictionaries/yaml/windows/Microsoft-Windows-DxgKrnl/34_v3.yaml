@@ -1,0 +1,76 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '34'
+version: '3'
+event(fields): AdapterAllocationStop_V3(Pointer hProcessId, Pointer hDevice, Pointer
+  pDxgAdapter, UInt32 Flags, UInt64 allocSize, UInt32 ulAlignment, UInt32 dwReadSegment,
+  UInt32 dwWriteSegment, UInt32 PreferredSegment, UInt32 HintedBank, UInt32 dwEvictionSegment,
+  UInt32 Priority, Pointer hVidMmGlobalAlloc, Pointer hDxgGlobalAlloc, Pointer hDxgSharedResource,
+  UInt32 UsageVersion, UInt32 UsageFlags, UInt32 Format, UInt32 SwizzledFormat, UInt32
+  ByteOffset, UInt32 Width, UInt32 Height, UInt32 Pitch, UInt32 Depth, UInt32 SlicePitch,
+  Boolean BackingStoreWasPinned, Pointer pSectionObject, UInt16 PhysicalAdapterIndex,
+  Boolean PageTableOrDirectory)
+opcode: Stop
+keywords: Resource
+task: AdapterAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hProcessId
+- field_type: Pointer
+  field_name: hDevice
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt64
+  field_name: allocSize
+- field_type: UInt32
+  field_name: ulAlignment
+- field_type: UInt32
+  field_name: dwReadSegment
+- field_type: UInt32
+  field_name: dwWriteSegment
+- field_type: UInt32
+  field_name: PreferredSegment
+- field_type: UInt32
+  field_name: HintedBank
+- field_type: UInt32
+  field_name: dwEvictionSegment
+- field_type: UInt32
+  field_name: Priority
+- field_type: Pointer
+  field_name: hVidMmGlobalAlloc
+- field_type: Pointer
+  field_name: hDxgGlobalAlloc
+- field_type: Pointer
+  field_name: hDxgSharedResource
+- field_type: UInt32
+  field_name: UsageVersion
+- field_type: UInt32
+  field_name: UsageFlags
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: SwizzledFormat
+- field_type: UInt32
+  field_name: ByteOffset
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: Pitch
+- field_type: UInt32
+  field_name: Depth
+- field_type: UInt32
+  field_name: SlicePitch
+- field_type: Boolean
+  field_name: BackingStoreWasPinned
+- field_type: Pointer
+  field_name: pSectionObject
+- field_type: UInt16
+  field_name: PhysicalAdapterIndex
+- field_type: Boolean
+  field_name: PageTableOrDirectory

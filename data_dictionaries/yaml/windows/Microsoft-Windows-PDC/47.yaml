@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PDC
+event_id: '47'
+version: '0'
+event(fields): SuspendResumeMessage(Pointer Message, UInt32 TransactionId, UInt32
+  PowerEvent)
+opcode: ''
+keywords: suspendresume
+task: SuspendResumeMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Message
+- field_type: UInt32
+  field_name: TransactionId
+- field_type: UInt32
+  field_name: PowerEvent

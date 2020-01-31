@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FMS
+event_id: '2015'
+version: '0'
+event(fields): FMSAPIentrycall(UnicodeString ApiName)
+opcode: ''
+keywords: ''
+task: FMSAPIentrycall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApiName

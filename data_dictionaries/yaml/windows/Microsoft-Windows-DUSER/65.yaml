@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUSER
+event_id: '65'
+version: '0'
+event(fields): DUser_IntervalAcquireRegionStart()
+opcode: Start
+keywords: Default
+task: DUser_IntervalAcquireRegion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '123'
+version: '1'
+event(fields): USBPortStop_V1(UInt32 fid_PortNumber, UInt16 fid_PreviousPortStatus,
+  UInt16 fid_CurrentPortStatus, UInt16 fid_CurrentPortChange, UInt32 fid_Event, UInt16
+  fid_idVendor, UInt16 fid_idProduct, UInt16 fid_bcdDevice)
+opcode: Stop
+keywords: Default Power HWVerifyHub
+task: USBPort
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: fid_PortNumber
+- field_type: UInt16
+  field_name: fid_PreviousPortStatus
+- field_type: UInt16
+  field_name: fid_CurrentPortStatus
+- field_type: UInt16
+  field_name: fid_CurrentPortChange
+- field_type: UInt32
+  field_name: fid_Event
+- field_type: UInt16
+  field_name: fid_idVendor
+- field_type: UInt16
+  field_name: fid_idProduct
+- field_type: UInt16
+  field_name: fid_bcdDevice

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinINet
+event_id: '814'
+version: '0'
+event(fields): WININET_AUTOPROXY_FIND_INFO_FOR_URLStop(UInt16 _URLLength, AnsiString
+  URL, UInt16 _ProxyStringLength, AnsiString ProxyString)
+opcode: Stop
+keywords: WININET_KEYWORD_AUTOPROXY
+task: WININET_AUTOPROXY_FIND_INFO_FOR_URL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _URLLength
+- field_type: AnsiString
+  field_name: URL
+- field_type: UInt16
+  field_name: _ProxyStringLength
+- field_type: AnsiString
+  field_name: ProxyString

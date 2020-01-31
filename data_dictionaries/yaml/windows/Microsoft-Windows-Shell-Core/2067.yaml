@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2067'
+version: '0'
+event(fields): Browseui_FrameMessagePump_Activate(UInt32 Value)
+opcode: ''
+keywords: Shell
+task: Browseui_FrameMessagePump_Activate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

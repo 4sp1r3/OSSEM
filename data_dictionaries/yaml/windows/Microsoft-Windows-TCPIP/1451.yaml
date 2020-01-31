@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1451'
+version: '0'
+event(fields): IpRaDnsEvent(UInt32 Event, UInt32 Interface, UInt32 CompartmentId,
+  UInt32 RouterAddrLength, Binary RouterAddress, UInt32 DnsAddrLength, Binary DNSServerAddress,
+  AnsiString DNSSuffix, UInt32 Lifetime)
+opcode: ''
+keywords: ut:TcpipRouter
+task: IpRaDnsEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Event
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: RouterAddrLength
+- field_type: Binary
+  field_name: RouterAddress
+- field_type: UInt32
+  field_name: DnsAddrLength
+- field_type: Binary
+  field_name: DNSServerAddress
+- field_type: AnsiString
+  field_name: DNSSuffix
+- field_type: UInt32
+  field_name: Lifetime

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-Scripted
+event_id: '104'
+version: '0'
+event(fields): task_0104(UnicodeString PackageId)
+opcode: ''
+keywords: lifecycle
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageId

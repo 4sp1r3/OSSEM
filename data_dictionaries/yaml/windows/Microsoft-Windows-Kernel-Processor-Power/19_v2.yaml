@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '19'
+version: '2'
+event(fields): IdleAccountingRundown_V2(UInt32 StateCount, UInt32 TotalTransitions,
+  UInt32 ResetCount, UInt32 AbortCount, UInt64 StartTime, Float State, UInt16 Group,
+  UInt8 Number, UInt64 IdleTime, UInt32 SelectionCount, SID SelectionAccounting)
+opcode: ''
+keywords: Diag PowerDiagnostics
+task: IdleAccountingRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StateCount
+- field_type: UInt32
+  field_name: TotalTransitions
+- field_type: UInt32
+  field_name: ResetCount
+- field_type: UInt32
+  field_name: AbortCount
+- field_type: UInt64
+  field_name: StartTime
+- field_type: Float
+  field_name: State
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt64
+  field_name: IdleTime
+- field_type: UInt32
+  field_name: SelectionCount
+- field_type: SID
+  field_name: SelectionAccounting

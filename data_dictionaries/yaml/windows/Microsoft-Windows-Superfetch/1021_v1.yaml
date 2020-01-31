@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1021'
+version: '1'
+event(fields): PerfTrackSessionPoolFrag_V1(UInt32 Fragmentation, UInt32 AllocPages,
+  UInt32 CommitPages, UInt32 ActivePages)
+opcode: ''
+keywords: ''
+task: PerfTrackSessionPoolFrag
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Fragmentation
+- field_type: UInt32
+  field_name: AllocPages
+- field_type: UInt32
+  field_name: CommitPages
+- field_type: UInt32
+  field_name: ActivePages

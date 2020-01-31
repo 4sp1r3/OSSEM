@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '769'
+version: '0'
+event(fields): Mshtml_Image_Pooling_Budget_EnforceStop(UInt32 Type, UInt32 Budget,
+  UInt32 Current)
+opcode: Stop
+keywords: mshtml
+task: Mshtml_Image_Pooling_Budget_Enforce
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Budget
+- field_type: UInt32
+  field_name: Current

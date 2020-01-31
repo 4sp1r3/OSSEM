@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '200'
+version: '0'
+event(fields): TpmCommandResponse(UInt32 CommandCode, UInt32 ResponseCode, UInt64
+  ResponseMilliseconds)
+opcode: ''
+keywords: ''
+task: TpmCommandResponse
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CommandCode
+- field_type: UInt32
+  field_name: ResponseCode
+- field_type: UInt64
+  field_name: ResponseMilliseconds

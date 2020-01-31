@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '101'
+version: '0'
+event(fields): aparticularrequestwithinapeersearchStop101(GUID requestId, UnicodeString
+  responseXml)
+opcode: Stop
+keywords: ''
+task: aparticularrequestwithinapeersearch
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: requestId
+- field_type: UnicodeString
+  field_name: responseXml

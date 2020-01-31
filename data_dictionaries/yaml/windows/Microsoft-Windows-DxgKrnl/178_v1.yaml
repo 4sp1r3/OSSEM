@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '178'
+version: '1'
+event(fields): QueuePacketStart_V1(Pointer hContext, UInt32 PacketType, UInt32 SubmitSequence,
+  UInt64 DmaBufferSize, UInt32 AllocationListSize, UInt32 PatchLocationListSize, Boolean
+  bPresent, Pointer hDmaBuffer, Pointer pQueuePacket, UInt64 ProgressFenceValue)
+opcode: Start
+keywords: Base
+task: QueuePacket
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: PacketType
+- field_type: UInt32
+  field_name: SubmitSequence
+- field_type: UInt64
+  field_name: DmaBufferSize
+- field_type: UInt32
+  field_name: AllocationListSize
+- field_type: UInt32
+  field_name: PatchLocationListSize
+- field_type: Boolean
+  field_name: bPresent
+- field_type: Pointer
+  field_name: hDmaBuffer
+- field_type: Pointer
+  field_name: pQueuePacket
+- field_type: UInt64
+  field_name: ProgressFenceValue

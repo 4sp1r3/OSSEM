@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5921'
+version: '0'
+event(fields): AppActivation_ErrorDialogDisplayed(UnicodeString AppId, UInt32 ErrorCode,
+  GUID DialogId)
+opcode: ''
+keywords: ''
+task: AppActivation_ErrorDialogDisplayed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: GUID
+  field_name: DialogId

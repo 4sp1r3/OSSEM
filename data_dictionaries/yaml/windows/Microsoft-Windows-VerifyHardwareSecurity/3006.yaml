@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-VerifyHardwareSecurity
+event_id: '3006'
+version: '0'
+event(fields): CheckSecureBootPolicyECUREBOOTPOLICYFAILEDCHECKecurebootPolicyFailedCheck()
+opcode: securebootPolicyFailedCheck
+keywords: ''
+task: CheckSecureBootPolicy
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

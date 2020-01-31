@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HttpService
+event_id: '24'
+version: '0'
+event(fields): HTTPConnectionTraceTaskConnCleanup(Pointer ConnectionObj)
+opcode: ConnCleanup
+keywords: HTTP_KEYWORD_CONNECTION
+task: HTTPConnectionTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionObj

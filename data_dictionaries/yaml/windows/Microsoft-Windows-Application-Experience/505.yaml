@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '505'
+version: '0'
+event(fields): task_0505(UInt32 ProcessId, FILETIME StartTime, GUID FixID, HexInt32
+  Flags, UnicodeString ExePath, UnicodeString FixName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: FILETIME
+  field_name: StartTime
+- field_type: GUID
+  field_name: FixID
+- field_type: HexInt32
+  field_name: Flags
+- field_type: UnicodeString
+  field_name: ExePath
+- field_type: UnicodeString
+  field_name: FixName

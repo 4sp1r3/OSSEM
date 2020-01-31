@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Power-Meter-Polling
+event_id: '3'
+version: '0'
+event(fields): PowerMeterData(Pointer MeterId, UInt32 Value)
+opcode: ''
+keywords: ''
+task: PowerMeterData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MeterId
+- field_type: UInt32
+  field_name: Value

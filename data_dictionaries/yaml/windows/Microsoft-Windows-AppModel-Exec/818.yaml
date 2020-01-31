@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '818'
+version: '0'
+event(fields): LogTrace818()
+opcode: ''
+keywords: ExecSelfHostCritical
+task: LogTrace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

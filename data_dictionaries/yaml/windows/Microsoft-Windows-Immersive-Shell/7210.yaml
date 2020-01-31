@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7210'
+version: '0'
+event(fields): ConnectedSearch_LogClickPayload(UInt32 InputMethod, UInt32 ViewMode,
+  UInt64 Timestamp, UnicodeString JSON)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogClickPayload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InputMethod
+- field_type: UInt32
+  field_name: ViewMode
+- field_type: UInt64
+  field_name: Timestamp
+- field_type: UnicodeString
+  field_name: JSON

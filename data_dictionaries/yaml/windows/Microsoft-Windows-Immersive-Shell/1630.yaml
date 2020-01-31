@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1630'
+version: '0'
+event(fields): AppsFolder_ImmersiveApp_InstallRequest()
+opcode: ''
+keywords: ''
+task: AppsFolder_ImmersiveApp_InstallRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

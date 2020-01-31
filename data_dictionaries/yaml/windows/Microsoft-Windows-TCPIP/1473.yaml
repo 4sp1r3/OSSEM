@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1473'
+version: '0'
+event(fields): TcpSackUpdateLimitReached(Pointer Tcb, UInt32 Location)
+opcode: ''
+keywords: ut:TcpipDiagnosis
+task: TcpSackUpdateLimitReached
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Location

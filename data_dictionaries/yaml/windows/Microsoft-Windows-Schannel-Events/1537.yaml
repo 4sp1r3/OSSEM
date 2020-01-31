@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Schannel-Events
+event_id: '1537'
+version: '0'
+event(fields): FreeCredentialHandleStart(Pointer CredHandle)
+opcode: Start
+keywords: ''
+task: FreeCredentialHandle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CredHandle

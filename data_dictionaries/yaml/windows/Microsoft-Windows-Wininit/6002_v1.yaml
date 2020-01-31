@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Wininit
+event_id: '6002'
+version: '1'
+event(fields): PerfTrackFullShutdown_V1(UInt32 ShutdownFlags, UInt64 SystemShutdownDuration,
+  UInt32 SkuHasLogoff)
+opcode: ''
+keywords: PerfInstrumentation
+task: PerfTrackFullShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ShutdownFlags
+- field_type: UInt64
+  field_name: SystemShutdownDuration
+- field_type: UInt32
+  field_name: SkuHasLogoff

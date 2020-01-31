@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '388'
+version: '0'
+event(fields): FrameNavigated(UnicodeString PageDescriptor, UInt8 NavigationMode)
+opcode: ''
+keywords: Appmodel
+task: FrameNavigated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PageDescriptor
+- field_type: UInt8
+  field_name: NavigationMode

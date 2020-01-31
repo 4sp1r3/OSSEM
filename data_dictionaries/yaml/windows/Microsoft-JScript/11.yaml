@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '11'
+version: '0'
+event(fields): ScriptContextRuntimeScriptContextLoad(Pointer ScriptContextID)
+opcode: ScriptContextLoad
+keywords: JScriptRuntime
+task: ScriptContextRuntime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ScriptContextID

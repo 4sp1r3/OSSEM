@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3113'
+version: '0'
+event(fields): AFCForwardToast3113(Boolean IsFwdToCdpEnabled, Boolean IsMirrorMasterSwitchEnabled,
+  Boolean IsGPEnabled)
+opcode: ''
+keywords: wpnui
+task: AFCForwardToast
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsFwdToCdpEnabled
+- field_type: Boolean
+  field_name: IsMirrorMasterSwitchEnabled
+- field_type: Boolean
+  field_name: IsGPEnabled

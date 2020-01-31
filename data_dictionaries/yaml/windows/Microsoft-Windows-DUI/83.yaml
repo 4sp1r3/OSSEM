@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DUI
+event_id: '83'
+version: '0'
+event(fields): DirectUI_ModernProgressRingSize(Float flRadius)
+opcode: ''
+keywords: Default
+task: DirectUI_ModernProgressRingSize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: flRadius

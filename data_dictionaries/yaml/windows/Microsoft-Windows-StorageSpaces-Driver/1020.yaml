@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1020'
+version: '0'
+event(fields): task_01020(GUID Id, UnicodeString Manufacturer, UnicodeString Model,
+  UnicodeString Serial, UnicodeString Revision, UInt32 DriveCount, Int32 DriveIoSummary)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UnicodeString
+  field_name: Manufacturer
+- field_type: UnicodeString
+  field_name: Model
+- field_type: UnicodeString
+  field_name: Serial
+- field_type: UnicodeString
+  field_name: Revision
+- field_type: UInt32
+  field_name: DriveCount
+- field_type: Int32
+  field_name: DriveIoSummary

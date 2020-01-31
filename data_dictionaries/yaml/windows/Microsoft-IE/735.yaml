@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '735'
+version: '0'
+event(fields): Mshtml_WebOCEvents_DocumentComplete(Pointer CMarkup)
+opcode: ''
+keywords: webocevents
+task: Mshtml_WebOCEvents_DocumentComplete
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMarkup

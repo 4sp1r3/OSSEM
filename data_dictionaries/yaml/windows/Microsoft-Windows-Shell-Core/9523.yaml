@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9523'
+version: '0'
+event(fields): Explorer_StartPane_OpenBox_TopMatchReady()
+opcode: ''
+keywords: Shell ExplorerPerf
+task: Explorer_StartPane_OpenBox_TopMatchReady
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

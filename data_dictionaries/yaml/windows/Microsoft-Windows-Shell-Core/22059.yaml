@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22059'
+version: '0'
+event(fields): Taskbar_ThumbBar_UpdateButton(UInt32 Index)
+opcode: ''
+keywords: Shell
+task: Taskbar_ThumbBar_UpdateButton
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Magnification
+event_id: '6'
+version: '0'
+event(fields): UpdateLensContentStop(UInt64 hWndLensCtx, UInt32 DesktopComposited)
+opcode: Stop
+keywords: Magnification
+task: UpdateLensContent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hWndLensCtx
+- field_type: UInt32
+  field_name: DesktopComposited

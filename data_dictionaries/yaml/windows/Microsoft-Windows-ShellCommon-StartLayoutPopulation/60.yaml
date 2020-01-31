@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '60'
+version: '0'
+event(fields): LocalXmlStartCollectionProvider_GetCollection(UInt32 TaskHResultValue)
+opcode: ''
+keywords: ''
+task: LocalXmlStartCollectionProvider_GetCollection
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TaskHResultValue

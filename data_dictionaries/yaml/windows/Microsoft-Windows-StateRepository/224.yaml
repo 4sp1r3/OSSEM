@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '224'
+version: '0'
+event(fields): StateRepository.Task.WinRTAPI224(Int32 Partition, Int32 SchemaVersion,
+  UnicodeString Filename)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD
+task: StateRepository.Task.WinRTAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Partition
+- field_type: Int32
+  field_name: SchemaVersion
+- field_type: UnicodeString
+  field_name: Filename

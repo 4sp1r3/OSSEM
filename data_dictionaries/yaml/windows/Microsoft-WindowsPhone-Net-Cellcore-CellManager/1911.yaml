@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1911'
+version: '0'
+event(fields): CmHelper1911()
+opcode: ''
+keywords: Error
+task: CmHelper
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

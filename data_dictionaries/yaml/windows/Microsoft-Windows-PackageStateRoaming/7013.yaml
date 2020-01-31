@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PackageStateRoaming
+event_id: '7013'
+version: '0'
+event(fields): Perf_StructuredState_MergeUnitStart(UnicodeString CollectionId, UInt32
+  Locality)
+opcode: Start
+keywords: PackageStateRoaming
+task: Perf_StructuredState_MergeUnit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UInt32
+  field_name: Locality

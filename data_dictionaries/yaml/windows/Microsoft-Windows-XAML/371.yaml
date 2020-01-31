@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '371'
+version: '0'
+event(fields): ImageSetSourceStop(UInt64 Id)
+opcode: Stop
+keywords: Images
+task: ImageSetSource
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '53'
+version: '0'
+event(fields): StartTileCollection_TDLMigration53(UnicodeString tileIdentifier)
+opcode: ''
+keywords: ''
+task: StartTileCollection_TDLMigration
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: tileIdentifier

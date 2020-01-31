@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '8003'
+version: '0'
+event(fields): SyncPartnershipUploadStart(UnicodeString LocalReplicaRoot)
+opcode: UploadStart
+keywords: SyncPartnership
+task: SyncPartnership
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalReplicaRoot

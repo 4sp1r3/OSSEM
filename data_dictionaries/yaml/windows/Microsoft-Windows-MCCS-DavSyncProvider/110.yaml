@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MCCS-DavSyncProvider
+event_id: '110'
+version: '0'
+event(fields): task_0110(HexInt32 Prop_Id, UnicodeString Prop_String1, UnicodeString
+  Prop_String2, Boolean Prop_Bool)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_Id
+- field_type: UnicodeString
+  field_name: Prop_String1
+- field_type: UnicodeString
+  field_name: Prop_String2
+- field_type: Boolean
+  field_name: Prop_Bool

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '8'
+version: '0'
+event(fields): RESIZEStart(UInt32 channelHandle, UInt32 resourceType, UInt64 resourcePointer)
+opcode: Start
+keywords: DCompBasic DCompMemory
+task: RESIZE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: channelHandle
+- field_type: UInt32
+  field_name: resourceType
+- field_type: UInt64
+  field_name: resourcePointer

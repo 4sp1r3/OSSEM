@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '4000'
+version: '0'
+event(fields): Messaging_ConstructMessageSessionStart()
+opcode: Start
+keywords: MessagingPerformance Messaging
+task: Messaging_ConstructMessageSession
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

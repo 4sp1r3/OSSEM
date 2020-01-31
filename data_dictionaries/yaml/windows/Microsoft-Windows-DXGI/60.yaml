@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DXGI
+event_id: '60'
+version: '0'
+event(fields): PresentMultiplaneOverlayChange(Pointer pIDXGISwapChain, UInt32 LayerIndex,
+  Boolean Enabled)
+opcode: ''
+keywords: Events
+task: PresentMultiplaneOverlayChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: UInt32
+  field_name: LayerIndex
+- field_type: Boolean
+  field_name: Enabled

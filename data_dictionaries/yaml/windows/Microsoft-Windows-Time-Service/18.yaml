@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '18'
+version: '0'
+event(fields): task_018(UnicodeString Domain, UnicodeString ErrorMessage, UnicodeString
+  RetryMinutes)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Domain
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: RetryMinutes

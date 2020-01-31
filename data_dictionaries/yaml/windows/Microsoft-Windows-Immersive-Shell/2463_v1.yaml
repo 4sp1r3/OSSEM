@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2463'
+version: '1'
+event(fields): PerfTrack_PLM_ResumeApplicationStart_V1(UnicodeString PsmKey)
+opcode: Start
+keywords: PLMComponent keyword_200000000000
+task: PerfTrack_PLM_ResumeApplication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey

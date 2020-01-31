@@ -1,0 +1,15 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '817'
+version: '0'
+event(fields): QSA_CalculateTilesInView_PerftrackStop(UInt64 Object, UInt32 ID)
+opcode: Stop
+keywords: nonPerfTrack
+task: QSA_CalculateTilesInView_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object
+- field_type: UInt32
+  field_name: ID

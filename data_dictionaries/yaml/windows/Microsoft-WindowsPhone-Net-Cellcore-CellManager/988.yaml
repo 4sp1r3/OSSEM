@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '988'
+version: '0'
+event(fields): CellularModemContainer988(UInt32 IccIdLength, UInt8 IccId)
+opcode: ''
+keywords: Error
+task: CellularModemContainer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IccIdLength
+- field_type: UInt8
+  field_name: IccId

@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10031'
+version: '0'
+event(fields): WMI10031(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)
+opcode: ''
+keywords: WMI
+task: WMI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: IfLuid
+- field_type: UInt32
+  field_name: ReferenceContext

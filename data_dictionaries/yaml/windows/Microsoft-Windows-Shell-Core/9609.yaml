@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9609'
+version: '0'
+event(fields): Explorer_InitStartButtonStart()
+opcode: Start
+keywords: Shell StartupPerf
+task: Explorer_InitStartButton
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '428'
+version: '0'
+event(fields): FlushPresentReferencesAndDisableOverlays(Pointer pDxgAdapter, UInt32
+  SourceMaskFlushHwAndAbortSwQueue, UInt32 SourceMaskFlushHwAndKeepSwQueue, UInt32
+  SourceMaskDisableAllPlanes, UInt32 SourceMaskSuspendScheduler)
+opcode: ''
+keywords: Base
+task: FlushPresentReferencesAndDisableOverlays
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: SourceMaskFlushHwAndAbortSwQueue
+- field_type: UInt32
+  field_name: SourceMaskFlushHwAndKeepSwQueue
+- field_type: UInt32
+  field_name: SourceMaskDisableAllPlanes
+- field_type: UInt32
+  field_name: SourceMaskSuspendScheduler

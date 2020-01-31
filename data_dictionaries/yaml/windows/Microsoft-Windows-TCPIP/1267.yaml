@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1267'
+version: '0'
+event(fields): Ndkpi_Accept(Pointer NdkConnector, Pointer NdkQp, UInt32 IRD, UInt32
+  ORD, Pointer DisconnectEventContext, Pointer RequestContext, UInt32 PrivateDataLength)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Accept
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkConnector
+- field_type: Pointer
+  field_name: NdkQp
+- field_type: UInt32
+  field_name: IRD
+- field_type: UInt32
+  field_name: ORD
+- field_type: Pointer
+  field_name: DisconnectEventContext
+- field_type: Pointer
+  field_name: RequestContext
+- field_type: UInt32
+  field_name: PrivateDataLength

@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-WindowsUIImmersive
+event_id: '8751'
+version: '0'
+event(fields): LightDismissOverlay(Int32 Left, Int32 Top, Int32 Right, Int32 Bottom)
+opcode: ''
+keywords: ''
+task: LightDismissOverlay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Left
+- field_type: Int32
+  field_name: Top
+- field_type: Int32
+  field_name: Right
+- field_type: Int32
+  field_name: Bottom

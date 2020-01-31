@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '1010'
+version: '0'
+event(fields): task_01010(UInt32 Prop_UInt_1, UInt32 Prop_UInt_2)
+opcode: ''
+keywords: ChatApis
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_UInt_1
+- field_type: UInt32
+  field_name: Prop_UInt_2

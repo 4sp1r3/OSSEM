@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '659'
+version: '0'
+event(fields): Mshtml_CView_SetFixedLayoutWidth(Pointer CView, Float FixedLayoutWidthOld,
+  Float FixedLayoutWidthNew)
+opcode: ''
+keywords: mshtml
+task: Mshtml_CView_SetFixedLayoutWidth
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CView
+- field_type: Float
+  field_name: FixedLayoutWidthOld
+- field_type: Float
+  field_name: FixedLayoutWidthNew

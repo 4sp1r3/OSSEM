@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7421'
+version: '0'
+event(fields): ConnectedSearch_ImageDownloaderDownloadUrlStop(UnicodeString URL, UInt32
+  Result)
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_ImageDownloaderDownloadUrl
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt32
+  field_name: Result

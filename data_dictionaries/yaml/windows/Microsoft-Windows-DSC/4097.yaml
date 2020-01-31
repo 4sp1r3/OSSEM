@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DSC
+event_id: '4097'
+version: '0'
+event(fields): SendconfigurationscenarioforLocalconfigurationmanager(UnicodeString
+  JobId, UnicodeString ComponentName, HexInt32 ErrorId, UnicodeString ErrorDetail,
+  UnicodeString ResourceId, UnicodeString SourceInfo, UnicodeString ErrorMessage)
+opcode: ''
+keywords: ''
+task: SendconfigurationscenarioforLocalconfigurationmanager
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: ComponentName
+- field_type: HexInt32
+  field_name: ErrorId
+- field_type: UnicodeString
+  field_name: ErrorDetail
+- field_type: UnicodeString
+  field_name: ResourceId
+- field_type: UnicodeString
+  field_name: SourceInfo
+- field_type: UnicodeString
+  field_name: ErrorMessage

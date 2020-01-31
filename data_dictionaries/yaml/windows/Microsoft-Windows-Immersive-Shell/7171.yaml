@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7171'
+version: '0'
+event(fields): ConnectedSearch_LogAttributionVisibilityPayload(UnicodeString JSON)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogAttributionVisibilityPayload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JSON

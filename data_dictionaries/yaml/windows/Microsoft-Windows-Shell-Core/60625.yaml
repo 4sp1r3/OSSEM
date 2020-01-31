@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60625'
+version: '0'
+event(fields): ItemsView_ItemDevirtualizer_ForegroundFullDevirtualization()
+opcode: ''
+keywords: Shell
+task: ItemsView_ItemDevirtualizer_ForegroundFullDevirtualization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

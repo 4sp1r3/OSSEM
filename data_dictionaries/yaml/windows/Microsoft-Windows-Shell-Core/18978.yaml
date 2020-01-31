@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18978'
+version: '0'
+event(fields): CopyEngine_PerformUndo(UnicodeString pszOperationSource, UnicodeString
+  pszOperationDestination, UInt32 FileOp, Boolean IsOperationUndo, UInt32 UndoFlags)
+opcode: ''
+keywords: Shell
+task: CopyEngine_PerformUndo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pszOperationSource
+- field_type: UnicodeString
+  field_name: pszOperationDestination
+- field_type: UInt32
+  field_name: FileOp
+- field_type: Boolean
+  field_name: IsOperationUndo
+- field_type: UInt32
+  field_name: UndoFlags

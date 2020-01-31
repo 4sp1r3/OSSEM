@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1290'
+version: '0'
+event(fields): Ndkpi_Bind(Pointer NdkQp, Pointer RequestContext, Pointer NdkMr, Pointer
+  NdkMw, Pointer VirtualAddress, UInt64 Length, UInt32 Flags)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Bind
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkQp
+- field_type: Pointer
+  field_name: RequestContext
+- field_type: Pointer
+  field_name: NdkMr
+- field_type: Pointer
+  field_name: NdkMw
+- field_type: Pointer
+  field_name: VirtualAddress
+- field_type: UInt64
+  field_name: Length
+- field_type: UInt32
+  field_name: Flags

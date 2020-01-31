@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62323'
+version: '0'
+event(fields): FilePlaceholder_ClearPrimaryStreamStop(UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: FilePlaceholder_ClearPrimaryStream
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

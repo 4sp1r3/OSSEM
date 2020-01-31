@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DXGI
+event_id: '135'
+version: '0'
+event(fields): IDXGIOutput_GetPrivateDataStop(UInt32 m_Ret, UInt32 pDataSize, Pointer
+  pData)
+opcode: Stop
+keywords: ''
+task: IDXGIOutput_GetPrivateData
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret
+- field_type: UInt32
+  field_name: pDataSize
+- field_type: Pointer
+  field_name: pData

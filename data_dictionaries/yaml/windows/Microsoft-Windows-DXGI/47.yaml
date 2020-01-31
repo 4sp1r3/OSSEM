@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-DXGI
+event_id: '47'
+version: '0'
+event(fields): ResizeTargetStart(Pointer pDXGISwapChain, UInt32 Width, UInt32 Height,
+  UInt32 RefreshNumerator, UInt32 RefreshDenominator, UInt32 Format, UInt32 ScanlineOrdering,
+  UInt32 Scaling, Boolean Windowed, Pointer pOldPrimary, Pointer pOldProxyPrimary,
+  UInt8 OldWinFlipProxyBufferCount)
+opcode: Start
+keywords: Events
+task: ResizeTarget
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDXGISwapChain
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: RefreshNumerator
+- field_type: UInt32
+  field_name: RefreshDenominator
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: ScanlineOrdering
+- field_type: UInt32
+  field_name: Scaling
+- field_type: Boolean
+  field_name: Windowed
+- field_type: Pointer
+  field_name: pOldPrimary
+- field_type: Pointer
+  field_name: pOldProxyPrimary
+- field_type: UInt8
+  field_name: OldWinFlipProxyBufferCount

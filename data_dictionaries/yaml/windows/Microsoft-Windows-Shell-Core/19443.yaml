@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19443'
+version: '0'
+event(fields): IconCache_ScaleImage(UnicodeString PathToIcon, Int32 IconOffset, Int32
+  FromIconSize, Int32 ToIconSize)
+opcode: ''
+keywords: FileClassStoreAndIconCache
+task: IconCache_ScaleImage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PathToIcon
+- field_type: Int32
+  field_name: IconOffset
+- field_type: Int32
+  field_name: FromIconSize
+- field_type: Int32
+  field_name: ToIconSize

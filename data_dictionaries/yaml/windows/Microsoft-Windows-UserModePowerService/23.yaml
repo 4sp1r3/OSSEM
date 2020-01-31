@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '23'
+version: '0'
+event(fields): RundownConsoleSession(UInt32 SessionId)
+opcode: ''
+keywords: ''
+task: RundownConsoleSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId

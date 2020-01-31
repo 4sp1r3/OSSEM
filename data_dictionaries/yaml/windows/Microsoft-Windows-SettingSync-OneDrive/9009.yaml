@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9009'
+version: '0'
+event(fields): Perf_WLRoamGetAllForSubfoldersNetworkRequestStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamGetAllForSubfoldersNetworkRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,62 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4652'
+version: '0'
+event(fields): task_04652(UnicodeString LocalMMPrincipalName, UnicodeString LocalMMCertHash,
+  UnicodeString LocalMMIssuingCA, UnicodeString LocalMMRootCA, UnicodeString RemoteMMPrincipalName,
+  UnicodeString RemoteMMCertHash, UnicodeString RemoteMMIssuingCA, UnicodeString RemoteMMRootCA,
+  UnicodeString LocalAddress, UInt32 LocalKeyModPort, UnicodeString RemoteAddress,
+  UInt32 RemoteKeyModPort, UnicodeString KeyModName, UnicodeString FailurePoint, UnicodeString
+  FailureReason, UnicodeString MMAuthMethod, UnicodeString State, UnicodeString Role,
+  UnicodeString MMImpersonationState, UInt64 MMFilterID, UnicodeString InitiatorCookie,
+  UnicodeString ResponderCookie)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalMMPrincipalName
+- field_type: UnicodeString
+  field_name: LocalMMCertHash
+- field_type: UnicodeString
+  field_name: LocalMMIssuingCA
+- field_type: UnicodeString
+  field_name: LocalMMRootCA
+- field_type: UnicodeString
+  field_name: RemoteMMPrincipalName
+- field_type: UnicodeString
+  field_name: RemoteMMCertHash
+- field_type: UnicodeString
+  field_name: RemoteMMIssuingCA
+- field_type: UnicodeString
+  field_name: RemoteMMRootCA
+- field_type: UnicodeString
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: LocalKeyModPort
+- field_type: UnicodeString
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: RemoteKeyModPort
+- field_type: UnicodeString
+  field_name: KeyModName
+- field_type: UnicodeString
+  field_name: FailurePoint
+- field_type: UnicodeString
+  field_name: FailureReason
+- field_type: UnicodeString
+  field_name: MMAuthMethod
+- field_type: UnicodeString
+  field_name: State
+- field_type: UnicodeString
+  field_name: Role
+- field_type: UnicodeString
+  field_name: MMImpersonationState
+- field_type: UInt64
+  field_name: MMFilterID
+- field_type: UnicodeString
+  field_name: InitiatorCookie
+- field_type: UnicodeString
+  field_name: ResponderCookie

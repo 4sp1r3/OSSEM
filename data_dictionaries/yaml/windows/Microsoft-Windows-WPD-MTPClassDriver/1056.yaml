@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1056'
+version: '0'
+event(fields): DeviceError1056(UInt32 Code)
+opcode: ''
+keywords: ''
+task: DeviceError
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Code

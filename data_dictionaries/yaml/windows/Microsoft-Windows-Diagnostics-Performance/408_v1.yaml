@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '408'
+version: '1'
+event(fields): SystemPerformanceMonitoringShellDegradation408_V1(FILETIME StartTime,
+  UInt32 WorkingSetSizeKb, Double PercentMemory)
+opcode: ShellDegradation
+keywords: EventLog
+task: SystemPerformanceMonitoring
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: StartTime
+- field_type: UInt32
+  field_name: WorkingSetSizeKb
+- field_type: Double
+  field_name: PercentMemory

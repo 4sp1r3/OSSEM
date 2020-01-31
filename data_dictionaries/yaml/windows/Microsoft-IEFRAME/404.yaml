@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '404'
+version: '0'
+event(fields): Browseui_HangUIStop()
+opcode: Stop
+keywords: hang
+task: Browseui_HangUI
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

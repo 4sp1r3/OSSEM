@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '821'
+version: '0'
+event(fields): GenericDeviceActionStop(UnicodeString Device, HexInt32 RequestType,
+  UInt32 Status)
+opcode: Stop
+keywords: Enumeration
+task: GenericDeviceAction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Device
+- field_type: HexInt32
+  field_name: RequestType
+- field_type: UInt32
+  field_name: Status

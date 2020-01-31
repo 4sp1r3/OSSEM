@@ -1,0 +1,24 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9029'
+version: '0'
+event(fields): ViewManagerCreateServerTask(UnicodeString pwsz1, UnicodeString pwsz2,
+  UnicodeString pwsz3, UInt32 ViewActivationFlags, UnicodeString pwsz4, UInt32 unParam)
+opcode: CreateServerTask
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz1
+- field_type: UnicodeString
+  field_name: pwsz2
+- field_type: UnicodeString
+  field_name: pwsz3
+- field_type: UInt32
+  field_name: ViewActivationFlags
+- field_type: UnicodeString
+  field_name: pwsz4
+- field_type: UInt32
+  field_name: unParam

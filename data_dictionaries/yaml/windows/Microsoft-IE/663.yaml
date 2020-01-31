@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '663'
+version: '0'
+event(fields): Mshtml_CDMScrollableTouchTarget_BeginInteraction(UInt32 ManualGestureConfiguration,
+  UInt16 PointerID, Boolean IsIHTThread, Pointer CDMScrollableTouchTarget)
+opcode: ''
+keywords: touch
+task: Mshtml_CDMScrollableTouchTarget_BeginInteraction
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ManualGestureConfiguration
+- field_type: UInt16
+  field_name: PointerID
+- field_type: Boolean
+  field_name: IsIHTThread
+- field_type: Pointer
+  field_name: CDMScrollableTouchTarget

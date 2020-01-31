@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1072'
+version: '0'
+event(fields): BltQueueEntryStop(Int32 FrameNumber, Boolean FrontOfQueue)
+opcode: Stop
+keywords: Base
+task: BltQueueEntry
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: FrameNumber
+- field_type: Boolean
+  field_name: FrontOfQueue

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1447'
+version: '0'
+event(fields): TcpPacingSend(Pointer Tcb, UInt32 Cwnd, UInt32 SndWnd, UInt32 BytesAvailable,
+  UInt32 BytesOutstanding, UInt32 ChunkSize)
+opcode: ''
+keywords: ut:SendPath
+task: TcpPacingSend
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Cwnd
+- field_type: UInt32
+  field_name: SndWnd
+- field_type: UInt32
+  field_name: BytesAvailable
+- field_type: UInt32
+  field_name: BytesOutstanding
+- field_type: UInt32
+  field_name: ChunkSize

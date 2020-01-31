@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '69'
+version: '0'
+event(fields): RECO_TRAINER_DestroyTrainerStart()
+opcode: Start
+keywords: ''
+task: RECO_TRAINER_DestroyTrainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

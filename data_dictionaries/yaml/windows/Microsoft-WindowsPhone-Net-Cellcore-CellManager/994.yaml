@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '994'
+version: '0'
+event(fields): CellularModemContainer994(UInt32 dwSlotIndex, UInt32 ATRLength, UInt8
+  ATR)
+opcode: ''
+keywords: Trace
+task: CellularModemContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwSlotIndex
+- field_type: UInt32
+  field_name: ATRLength
+- field_type: UInt8
+  field_name: ATR

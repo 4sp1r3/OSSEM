@@ -1,0 +1,37 @@
+provider: Microsoft-Windows-Servicing
+event_id: '4416'
+version: '0'
+event(fields): task_0PCODE_64pcode_644416(UnicodeString updateName, UnicodeString
+  identifier, UnicodeString releaseType, UnicodeString updateStateLoc, UnicodeString
+  updateState, UnicodeString packageAssembly, UnicodeString updateDisplayName, UnicodeString
+  operation, UnicodeString operationCompleted, UnicodeString errorCode, UnicodeString
+  rebootOption)
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: updateName
+- field_type: UnicodeString
+  field_name: identifier
+- field_type: UnicodeString
+  field_name: releaseType
+- field_type: UnicodeString
+  field_name: updateStateLoc
+- field_type: UnicodeString
+  field_name: updateState
+- field_type: UnicodeString
+  field_name: packageAssembly
+- field_type: UnicodeString
+  field_name: updateDisplayName
+- field_type: UnicodeString
+  field_name: operation
+- field_type: UnicodeString
+  field_name: operationCompleted
+- field_type: UnicodeString
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: rebootOption

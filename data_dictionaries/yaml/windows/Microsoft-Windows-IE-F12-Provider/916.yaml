@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IE-F12-Provider
+event_id: '916'
+version: '0'
+event(fields): Shell_LaunchTool_DebuggerStop(UnicodeString TraceDescription)
+opcode: Stop
+keywords: ''
+task: Shell_LaunchTool_Debugger
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceDescription

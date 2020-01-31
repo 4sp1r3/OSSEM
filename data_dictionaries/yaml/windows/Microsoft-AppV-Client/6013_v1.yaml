@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client
+event_id: '6013'
+version: '1'
+event(fields): ConfigureVirtualServices6013_V1()
+opcode: ''
+keywords: VirtualServices
+task: ConfigureVirtualServices
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

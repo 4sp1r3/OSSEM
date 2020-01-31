@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2009'
+version: '0'
+event(fields): task_02009(Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ErrorCode

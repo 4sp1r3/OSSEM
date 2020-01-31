@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1423'
+version: '0'
+event(fields): IcmpPacketDrops(UInt32 IPTransportProtocol, UInt32 PathDirection, UInt32
+  IcmpType, UInt32 IcmpCode, UInt32 DropReason, UInt32 Status, UInt32 CompartmentId,
+  UInt32 SourceAddressLength, Binary SourceAddress, UInt32 DestAddressLength, Binary
+  DestAddress)
+opcode: ''
+keywords: ut:TcpipDiagnosis keyword_10000000000
+task: IcmpPacketDrops
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IPTransportProtocol
+- field_type: UInt32
+  field_name: PathDirection
+- field_type: UInt32
+  field_name: IcmpType
+- field_type: UInt32
+  field_name: IcmpCode
+- field_type: UInt32
+  field_name: DropReason
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: SourceAddressLength
+- field_type: Binary
+  field_name: SourceAddress
+- field_type: UInt32
+  field_name: DestAddressLength
+- field_type: Binary
+  field_name: DestAddress

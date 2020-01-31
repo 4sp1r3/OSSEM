@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5056'
+version: '0'
+event(fields): UdwmTouchDragVisual()
+opcode: ''
+keywords: Udwm UdwmInput
+task: UdwmTouchDragVisual
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

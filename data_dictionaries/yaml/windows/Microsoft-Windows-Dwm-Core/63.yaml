@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '63'
+version: '0'
+event(fields): MILEVENT_MEDIA_UCE_PROCESSPRESENTHISTORYStart()
+opcode: Start
+keywords: DwmCore
+task: MILEVENT_MEDIA_UCE_PROCESSPRESENTHISTORY
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

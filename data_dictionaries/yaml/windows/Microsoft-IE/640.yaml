@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '640'
+version: '0'
+event(fields): Mshtml_CDoc_HostPaintUpdateNotificationStart(Pointer CDoc, Pointer
+  PrimaryCMarkup, UInt32 SourceContext)
+opcode: Start
+keywords: mshtml
+task: Mshtml_CDoc_HostPaintUpdateNotification
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CDoc
+- field_type: Pointer
+  field_name: PrimaryCMarkup
+- field_type: UInt32
+  field_name: SourceContext

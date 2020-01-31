@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '504'
+version: '0'
+event(fields): Mshtml_Composition_Destination_Invalid_Region(Pointer Object, UInt16
+  RectsLength, Binary Rects)
+opcode: ''
+keywords: composition
+task: Mshtml_Composition_Destination_Invalid_Region
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt16
+  field_name: RectsLength
+- field_type: Binary
+  field_name: Rects

@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1381'
+version: '0'
+event(fields): TcpAssociateNameResContext(Pointer Endpoint, Pointer NameResContext,
+  UnicodeString DnsName, UInt32 InterfaceIndex, UInt32 IpCount, UInt32 IpAddr1Length,
+  Binary IpAddr1, UInt32 IpAddr2Length, Binary IpAddr2, UInt32 IpAddr3Length, Binary
+  IpAddr3, UInt32 IpAddr4Length, Binary IpAddr4, UInt32 IpAddr5Length, Binary IpAddr5,
+  UInt32 Status)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Nrt
+task: TcpAssociateNameResContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: Pointer
+  field_name: NameResContext
+- field_type: UnicodeString
+  field_name: DnsName
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UInt32
+  field_name: IpCount
+- field_type: UInt32
+  field_name: IpAddr1Length
+- field_type: Binary
+  field_name: IpAddr1
+- field_type: UInt32
+  field_name: IpAddr2Length
+- field_type: Binary
+  field_name: IpAddr2
+- field_type: UInt32
+  field_name: IpAddr3Length
+- field_type: Binary
+  field_name: IpAddr3
+- field_type: UInt32
+  field_name: IpAddr4Length
+- field_type: Binary
+  field_name: IpAddr4
+- field_type: UInt32
+  field_name: IpAddr5Length
+- field_type: Binary
+  field_name: IpAddr5
+- field_type: UInt32
+  field_name: Status

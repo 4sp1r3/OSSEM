@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1524'
+version: '0'
+event(fields): ShellTask_BackPropSheet_SizeCheckerThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_BackPropSheet_SizeCheckerThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

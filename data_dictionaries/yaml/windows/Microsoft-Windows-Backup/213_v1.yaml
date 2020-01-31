@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Backup
+event_id: '213'
+version: '1'
+event(fields): task_0Stop213_V1(GUID BackupSetId, GUID VolumeToMount, Boolean NeedNetworkShare,
+  HexInt32 HRESULT, UInt32 TimeTakenToMount)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BackupSetId
+- field_type: GUID
+  field_name: VolumeToMount
+- field_type: Boolean
+  field_name: NeedNetworkShare
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: TimeTakenToMount

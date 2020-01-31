@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '209'
+version: '2'
+event(fields): ClassRetryhandling._V2(UInt32 DeviceNumber, Pointer Irp, UInt32 CurrentRetryCount,
+  HexInt32 NTStatus, UInt8 SrbStatus, UInt8 ScsiStatus, UInt8 SenseKey, UInt8 AddSense,
+  UInt8 AddSenseQ)
+opcode: Retryhandling.
+keywords: Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite
+task: Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt32
+  field_name: CurrentRetryCount
+- field_type: HexInt32
+  field_name: NTStatus
+- field_type: UInt8
+  field_name: SrbStatus
+- field_type: UInt8
+  field_name: ScsiStatus
+- field_type: UInt8
+  field_name: SenseKey
+- field_type: UInt8
+  field_name: AddSense
+- field_type: UInt8
+  field_name: AddSenseQ

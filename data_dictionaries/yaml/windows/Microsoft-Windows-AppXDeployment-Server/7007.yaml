@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '7007'
+version: '0'
+event(fields): task_07007(UnicodeString PackageFullName, UnicodeString Key, UnicodeString
+  Subkey, HexInt32 ErrorCode, UnicodeString ErrorText)
+opcode: ''
+keywords: RUNTIME_DEH_KEYWORD
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: Key
+- field_type: UnicodeString
+  field_name: Subkey
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorText

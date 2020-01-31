@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '2008'
+version: '0'
+event(fields): VisibilityInputType2008(Int32 Caret_left, Int32 Caret_top, Int32 Caret_right,
+  Int32 Caret_bottom, Int32 CaretWnd_left, Int32 CaretWnd_top, Int32 CaretWnd_right,
+  Int32 CaretWnd_bottom, UInt32 Caret_Flags, Pointer CaretHwnd, Boolean CaretVisible)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: VisibilityInputType
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Caret_left
+- field_type: Int32
+  field_name: Caret_top
+- field_type: Int32
+  field_name: Caret_right
+- field_type: Int32
+  field_name: Caret_bottom
+- field_type: Int32
+  field_name: CaretWnd_left
+- field_type: Int32
+  field_name: CaretWnd_top
+- field_type: Int32
+  field_name: CaretWnd_right
+- field_type: Int32
+  field_name: CaretWnd_bottom
+- field_type: UInt32
+  field_name: Caret_Flags
+- field_type: Pointer
+  field_name: CaretHwnd
+- field_type: Boolean
+  field_name: CaretVisible

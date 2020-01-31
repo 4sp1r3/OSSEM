@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5113'
+version: '0'
+event(fields): UdwmHardwareExpressionPostDelayAnimationStop()
+opcode: Stop
+keywords: Udwm
+task: UdwmHardwareExpressionPostDelayAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Documents
+event_id: '6203'
+version: '0'
+event(fields): DocPerf_Task_USBMon_LoadBidiExtensionsStart(UnicodeString PortName,
+  UnicodeString PrinterName)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_USBMon_LoadBidiExtensions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PortName
+- field_type: UnicodeString
+  field_name: PrinterName

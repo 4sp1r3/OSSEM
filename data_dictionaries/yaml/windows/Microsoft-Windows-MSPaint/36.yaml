@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSPaint
+event_id: '36'
+version: '0'
+event(fields): InvertColorOperationStop()
+opcode: Stop
+keywords: ''
+task: InvertColorOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

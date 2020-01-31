@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1317'
+version: '0'
+event(fields): SrcStreamRequestSampleTimeoutStart(Pointer Object, Pointer Token)
+opcode: Start
+keywords: ''
+task: SrcStreamRequestSampleTimeout
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: Token

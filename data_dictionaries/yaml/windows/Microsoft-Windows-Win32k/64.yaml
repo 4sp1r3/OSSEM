@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Win32k
+event_id: '64'
+version: '0'
+event(fields): RetrievePseudoMessage(Int8 CallbackCount, Pointer pqmsg, Pointer hwnd,
+  Pointer WParam, Pointer LParam, UInt32 message, UInt32 inputReadyTimeMs, UInt32
+  flags)
+opcode: ''
+keywords: MessagePump
+task: RetrievePseudoMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: CallbackCount
+- field_type: Pointer
+  field_name: pqmsg
+- field_type: Pointer
+  field_name: hwnd
+- field_type: Pointer
+  field_name: WParam
+- field_type: Pointer
+  field_name: LParam
+- field_type: UInt32
+  field_name: message
+- field_type: UInt32
+  field_name: inputReadyTimeMs
+- field_type: UInt32
+  field_name: flags

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Audio
+event_id: '22'
+version: '0'
+event(fields): AudioSession_Client_Suspended(Boolean bIsSuspended)
+opcode: ''
+keywords: ''
+task: AudioSession_Client_Suspended
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: bIsSuspended

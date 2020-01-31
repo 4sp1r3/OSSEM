@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '270'
+version: '0'
+event(fields): Shutdown_Search_Service_DurationStop()
+opcode: Stop
+keywords: Performance Indexing
+task: Shutdown_Search_Service_Duration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

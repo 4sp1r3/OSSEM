@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '67'
+version: '0'
+event(fields): IPS_TIPTEXTCONTRIBUTOR_HarvestTextAndContextStart()
+opcode: Start
+keywords: ''
+task: IPS_TIPTEXTCONTRIBUTOR_HarvestTextAndContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

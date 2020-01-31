@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1453'
+version: '0'
+event(fields): TcpCubicDataTransferEcn(Pointer Tcb, UInt32 Cwnd, UInt32 SSThresh,
+  UInt32 SndUna)
+opcode: ''
+keywords: ut:SendPath
+task: TcpCubicDataTransferEcn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Cwnd
+- field_type: UInt32
+  field_name: SSThresh
+- field_type: UInt32
+  field_name: SndUna

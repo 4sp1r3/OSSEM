@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '2900'
+version: '1'
+event(fields): Shutdownofadriverhostprocess._41Start_V1(GUID LifetimeId)
+opcode: Start
+keywords: ''
+task: Shutdownofadriverhostprocess._41
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId

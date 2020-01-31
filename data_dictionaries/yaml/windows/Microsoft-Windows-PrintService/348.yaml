@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintService
+event_id: '348'
+version: '0'
+event(fields): AddingaprinterdriverSpoolerWarning(UnicodeString param1)
+opcode: SpoolerWarning
+keywords: SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC
+task: Addingaprinterdriver
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

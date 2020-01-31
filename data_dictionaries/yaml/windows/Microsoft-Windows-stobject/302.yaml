@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-stobject
+event_id: '302'
+version: '0'
+event(fields): SSO_Load(GUID guid)
+opcode: ''
+keywords: SSO
+task: SSO_Load
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: guid

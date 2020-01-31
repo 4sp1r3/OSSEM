@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '408'
+version: '0'
+event(fields): SensorInput(UInt32 UserPresence)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SensorInput
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UserPresence

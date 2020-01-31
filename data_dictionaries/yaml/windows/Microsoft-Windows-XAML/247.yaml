@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-XAML
+event_id: '247'
+version: '0'
+event(fields): DCompSet2DTransform(UInt64 VisualId, Float M11, Float M12, Float M21,
+  Float M22, Float M31, Float M32)
+opcode: ''
+keywords: Rendering
+task: DCompSet2DTransform
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: VisualId
+- field_type: Float
+  field_name: M11
+- field_type: Float
+  field_name: M12
+- field_type: Float
+  field_name: M21
+- field_type: Float
+  field_name: M22
+- field_type: Float
+  field_name: M31
+- field_type: Float
+  field_name: M32

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '121'
+version: '0'
+event(fields): Tasktriggeredonlocalconsoledisconnect(UnicodeString TaskName, UnicodeString
+  UserName, GUID InstanceId)
+opcode: ''
+keywords: ''
+task: Tasktriggeredonlocalconsoledisconnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: GUID
+  field_name: InstanceId

@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '114'
+version: '0'
+event(fields): WorkflowInstanceRecord114(GUID InstanceId, Int64 RecordNumber, FILETIME
+  EventTime, UnicodeString ActivityDefinitionId, UnicodeString State, UnicodeString
+  Annotations, UnicodeString ProfileName, UnicodeString WorkflowDefinitionIdentity,
+  UnicodeString HostReference, UnicodeString AppDomain)
+opcode: ''
+keywords: WFTracking HealthMonitoring
+task: WorkflowInstanceRecord
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InstanceId
+- field_type: Int64
+  field_name: RecordNumber
+- field_type: FILETIME
+  field_name: EventTime
+- field_type: UnicodeString
+  field_name: ActivityDefinitionId
+- field_type: UnicodeString
+  field_name: State
+- field_type: UnicodeString
+  field_name: Annotations
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UnicodeString
+  field_name: WorkflowDefinitionIdentity
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,11 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '506'
+version: '0'
+event(fields): AppAgentruntimeAppAgent506()
+opcode: AppAgent
+keywords: ''
+task: AppAgentruntime
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

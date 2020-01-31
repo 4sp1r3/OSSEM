@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '45'
+version: '0'
+event(fields): BackupPrintBRMoperationsuccess45(UnicodeString ServerName)
+opcode: PrintBRMoperationsuccess
+keywords: PRINT_BRM_KEYWORD
+task: Backup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServerName

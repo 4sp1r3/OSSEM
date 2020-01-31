@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1120'
+version: '0'
+event(fields): DataLayer_ResultSetMergeBatchStart(UInt32 Count)
+opcode: Start
+keywords: Shell ExplorerPerf
+task: DataLayer_ResultSetMergeBatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count

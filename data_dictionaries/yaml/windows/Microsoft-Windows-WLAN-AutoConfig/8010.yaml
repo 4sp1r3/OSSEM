@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '8010'
+version: '0'
+event(fields): StopthedevicenetworkStop8010(GUID InterfaceGuid, UInt32 ErrorCode,
+  UnicodeString ErrorMsg, AnsiString SSID)
+opcode: Stop
+keywords: SOFTAP
+task: Stopthedevicenetwork
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMsg
+- field_type: AnsiString
+  field_name: SSID

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '132'
+version: '0'
+event(fields): ResponsehandlingStop(UnicodeString operationName)
+opcode: Stop
+keywords: Keyword.Client
+task: Responsehandling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: operationName

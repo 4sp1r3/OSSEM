@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '338'
+version: '0'
+event(fields): MakeResidentStart(Pointer pPagingQueue, Pointer pSyncObject, UInt32
+  NumAllocations, UInt32 Flags)
+opcode: Start
+keywords: References
+task: MakeResident
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pPagingQueue
+- field_type: Pointer
+  field_name: pSyncObject
+- field_type: UInt32
+  field_name: NumAllocations
+- field_type: UInt32
+  field_name: Flags

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '5315'
+version: '0'
+event(fields): task_05315(UnicodeString PrincipalSamName, UInt32 NextPolicyApplicationTime,
+  UnicodeString NextPolicyApplicationTimeUnit)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PrincipalSamName
+- field_type: UInt32
+  field_name: NextPolicyApplicationTime
+- field_type: UnicodeString
+  field_name: NextPolicyApplicationTimeUnit

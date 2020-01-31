@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '51'
+version: '0'
+event(fields): DisPanel_StartAppDisStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: DisPanel_StartAppDis
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

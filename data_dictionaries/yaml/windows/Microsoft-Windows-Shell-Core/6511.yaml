@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6511'
+version: '0'
+event(fields): CommonFileDialog_PlacesBar_RenderingStart()
+opcode: Start
+keywords: Shell
+task: CommonFileDialog_PlacesBar_Rendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

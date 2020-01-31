@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NdisImPlatformEventProvider
+event_id: '4'
+version: '0'
+event(fields): task_04(UnicodeString Adapter, UInt32 StatusBufferLength, Binary StatusBuffer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: UInt32
+  field_name: StatusBufferLength
+- field_type: Binary
+  field_name: StatusBuffer

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62380'
+version: '0'
+event(fields): StartMenuFeedback(Int32 QuestionID, UnicodeString ResponseType, UnicodeString
+  QuestionType, UnicodeString Answer, UnicodeString FollowupAnswer)
+opcode: ''
+keywords: Shell ElizaPrototype
+task: StartMenuFeedback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: QuestionID
+- field_type: UnicodeString
+  field_name: ResponseType
+- field_type: UnicodeString
+  field_name: QuestionType
+- field_type: UnicodeString
+  field_name: Answer
+- field_type: UnicodeString
+  field_name: FollowupAnswer

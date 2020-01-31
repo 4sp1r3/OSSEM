@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '128'
+version: '0'
+event(fields): ManifestParseManifest128(HexInt32 errorCode, UnicodeString reason)
+opcode: ParseManifest
+keywords: ''
+task: Manifest
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: reason

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PDC
+event_id: '72'
+version: '0'
+event(fields): NotificationRegistrationRundown(Pointer Client, UInt32 PdcId, UInt32
+  Type, UInt32 ClientNameLength, UnicodeString ClientName)
+opcode: ''
+keywords: notifications CsDiag
+task: NotificationRegistrationRundown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: UInt32
+  field_name: PdcId
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName

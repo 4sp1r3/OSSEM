@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '5017'
+version: '1'
+event(fields): QueueClientEventStart_V1(UInt32 ClientEvent)
+opcode: Start
+keywords: ''
+task: QueueClientEvent
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ClientEvent

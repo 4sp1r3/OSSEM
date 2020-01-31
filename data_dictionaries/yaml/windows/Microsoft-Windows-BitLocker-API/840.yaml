@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '840'
+version: '0'
+event(fields): task_0840(GUID IdentificationGUID, UnicodeString VolumeName, UnicodeString
+  VolumeMountPoint, UInt32 BinaryDataSize, Binary BinaryData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IdentificationGUID
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UnicodeString
+  field_name: VolumeMountPoint
+- field_type: UInt32
+  field_name: BinaryDataSize
+- field_type: Binary
+  field_name: BinaryData

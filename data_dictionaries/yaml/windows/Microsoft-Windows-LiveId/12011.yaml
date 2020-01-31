@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-LiveId
+event_id: '12011'
+version: '0'
+event(fields): task_012011(AnsiString FunctionName, Pointer Address)
+opcode: ''
+keywords: Function Extension
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: FunctionName
+- field_type: Pointer
+  field_name: Address

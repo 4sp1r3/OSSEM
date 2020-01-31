@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Spell-Checking
+event_id: '16'
+version: '0'
+event(fields): task_016(UnicodeString First, UnicodeString Second)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: First
+- field_type: UnicodeString
+  field_name: Second

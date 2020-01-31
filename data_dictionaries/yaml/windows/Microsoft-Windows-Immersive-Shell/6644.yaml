@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6644'
+version: '0'
+event(fields): ConnectCharm_PrintSourceEvaluateStart()
+opcode: Start
+keywords: ''
+task: ConnectCharm_PrintSourceEvaluate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

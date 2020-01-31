@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '102'
+version: '0'
+event(fields): task_0102(GUID xferId, UInt8 count, Int8 ranges)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: xferId
+- field_type: UInt8
+  field_name: count
+- field_type: Int8
+  field_name: ranges

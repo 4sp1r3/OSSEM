@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '40'
+version: '0'
+event(fields): PDA_TRANSFER_FILEStop()
+opcode: Stop
+keywords: mediaplayer
+task: PDA_TRANSFER_FILE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

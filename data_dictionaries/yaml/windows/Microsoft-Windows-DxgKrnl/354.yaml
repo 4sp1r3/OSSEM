@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '354'
+version: '0'
+event(fields): YieldStartAdapter(Pointer pDxgAdapter, UInt32 YieldingPriority, UInt64
+  YieldBudget)
+opcode: ''
+keywords: Base
+task: YieldStartAdapter
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: YieldingPriority
+- field_type: UInt64
+  field_name: YieldBudget

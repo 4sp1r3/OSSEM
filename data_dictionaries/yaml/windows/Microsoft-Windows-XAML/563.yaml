@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '563'
+version: '0'
+event(fields): AddToCollectionOnCurrentInstanceStart()
+opcode: Start
+keywords: Core
+task: AddToCollectionOnCurrentInstance
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

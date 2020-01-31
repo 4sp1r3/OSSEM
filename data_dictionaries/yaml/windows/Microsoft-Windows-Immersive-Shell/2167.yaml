@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2167'
+version: '0'
+event(fields): Picker_AppInstanceView_CompleteFileUpdate()
+opcode: ''
+keywords: ''
+task: Picker_AppInstanceView_CompleteFileUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

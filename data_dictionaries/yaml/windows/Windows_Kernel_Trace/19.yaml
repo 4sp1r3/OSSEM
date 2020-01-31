@@ -1,0 +1,17 @@
+provider: Windows Kernel Trace
+category: '{ae53722e-c863-11d2-8659-00c04fa321a1}'
+event_id: '19'
+version: '0'
+event(fields): Registry_V0_TypeGroup1(UInt32 Status, UInt32 KeyHandle, SInt64 ElapsedTime,
+  String KeyName)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: KeyHandle
+- field_type: SInt64
+  field_name: ElapsedTime
+- field_type: String
+  field_name: KeyName

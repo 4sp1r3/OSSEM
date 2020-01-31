@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Wininit
+event_id: '10'
+version: '0'
+event(fields): ShutdownWindowsStop(UInt32 Win32Status)
+opcode: Stop
+keywords: PerfInstrumentation
+task: ShutdownWindows
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Win32Status

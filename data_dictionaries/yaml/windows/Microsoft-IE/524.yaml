@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '524'
+version: '0'
+event(fields): Mshtml_Animations_InstanceStop(Pointer AnimationInstanceObject)
+opcode: Stop
+keywords: animation composition_verbose
+task: Mshtml_Animations_Instance
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AnimationInstanceObject

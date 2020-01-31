@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Core
+event_id: '69'
+version: '0'
+event(fields): TABLET_INPUT_OverPan_SlideWindowStart()
+opcode: Start
+keywords: ''
+task: TABLET_INPUT_OverPan_SlideWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

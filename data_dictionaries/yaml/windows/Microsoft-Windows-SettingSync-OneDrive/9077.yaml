@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9077'
+version: '0'
+event(fields): Perf_CreateRoamingCollectionFolderStart9077(UnicodeString CollectionId)
+opcode: Start
+keywords: RoamingSettings
+task: Perf_CreateRoamingCollectionFolder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId

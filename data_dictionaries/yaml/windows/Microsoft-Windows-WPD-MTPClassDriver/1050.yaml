@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1050'
+version: '0'
+event(fields): DeviceError1050(UInt32 Offset)
+opcode: ''
+keywords: ''
+task: DeviceError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Offset

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '268'
+version: '0'
+event(fields): task_0268(UnicodeString AUMID, Int32 Type, HexInt32 ErrorCode)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AUMID
+- field_type: Int32
+  field_name: Type
+- field_type: HexInt32
+  field_name: ErrorCode

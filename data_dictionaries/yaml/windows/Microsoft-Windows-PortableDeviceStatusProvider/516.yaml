@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceStatusProvider
+event_id: '516'
+version: '0'
+event(fields): GetStorageStart()
+opcode: Start
+keywords: ''
+task: GetStorage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

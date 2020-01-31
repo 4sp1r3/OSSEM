@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '358'
+version: '0'
+event(fields): DecodeSizeQueryStart()
+opcode: Start
+keywords: Images
+task: DecodeSizeQuery
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

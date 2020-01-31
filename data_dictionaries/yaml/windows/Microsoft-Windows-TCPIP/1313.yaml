@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1313'
+version: '0'
+event(fields): TcpipPlumbWakePatternOnInterface(UInt32 InterfaceIndex, UInt32 AoAcCapable,
+  UInt32 BitmapPatternSupported, UInt32 ARPNDOffloadSupported, UInt32 IPAddressWakeReady,
+  UInt32 PatternPriority, UInt32 PhysicalMediumType, UInt32 IpAddrLength, UInt32 IPv4Address,
+  Binary IPv6Address, UInt32 IPProtocol, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipCsDiag ut:Global
+task: TcpipPlumbWakePatternOnInterface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UInt32
+  field_name: AoAcCapable
+- field_type: UInt32
+  field_name: BitmapPatternSupported
+- field_type: UInt32
+  field_name: ARPNDOffloadSupported
+- field_type: UInt32
+  field_name: IPAddressWakeReady
+- field_type: UInt32
+  field_name: PatternPriority
+- field_type: UInt32
+  field_name: PhysicalMediumType
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: UInt32
+  field_name: IPv4Address
+- field_type: Binary
+  field_name: IPv6Address
+- field_type: UInt32
+  field_name: IPProtocol
+- field_type: UInt32
+  field_name: Status

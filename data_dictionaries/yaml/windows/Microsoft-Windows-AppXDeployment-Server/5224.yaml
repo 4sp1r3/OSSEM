@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '5224'
+version: '0'
+event(fields): task_05224(UnicodeString filename, HexInt32 Error)
+opcode: ''
+keywords: STATE_DEH_KEYWORD
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: filename
+- field_type: HexInt32
+  field_name: Error

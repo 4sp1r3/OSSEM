@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAML
+event_id: '222'
+version: '0'
+event(fields): PresentControllerShouldProduceFrame(UInt64 ControllerId, UInt32 ShouldPresent,
+  UInt32 VBlanksToSkip, UInt32 FramesToQueue)
+opcode: ''
+keywords: Rendering
+task: PresentControllerShouldProduceFrame
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ControllerId
+- field_type: UInt32
+  field_name: ShouldPresent
+- field_type: UInt32
+  field_name: VBlanksToSkip
+- field_type: UInt32
+  field_name: FramesToQueue

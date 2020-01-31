@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '148'
+version: '0'
+event(fields): IDXGIOutput_ReleaseOwnershipStart(Pointer pThis)
+opcode: Start
+keywords: ''
+task: IDXGIOutput_ReleaseOwnership
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis

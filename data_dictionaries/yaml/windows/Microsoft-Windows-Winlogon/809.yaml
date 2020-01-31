@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '809'
+version: '0'
+event(fields): ConnectToSubscriberStart(UnicodeString SubscriberName)
+opcode: Start
+keywords: PerfInstrumentation
+task: ConnectToSubscriber
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SubscriberName

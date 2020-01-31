@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '207'
+version: '0'
+event(fields): BootSIInitStatus(UInt32 Phase, UInt32 StatusCode, UInt32 EnvironmentState)
+opcode: InitStatus
+keywords: ''
+task: BootSI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Phase
+- field_type: UInt32
+  field_name: StatusCode
+- field_type: UInt32
+  field_name: EnvironmentState

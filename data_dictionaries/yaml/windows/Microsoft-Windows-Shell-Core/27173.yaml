@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27173'
+version: '0'
+event(fields): PerfTrack_Explorer_FrameCloseStart()
+opcode: Start
+keywords: Shell WDI
+task: PerfTrack_Explorer_FrameClose
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

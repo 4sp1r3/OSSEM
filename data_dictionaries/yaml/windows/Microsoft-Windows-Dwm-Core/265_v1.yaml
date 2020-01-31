@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '265'
+version: '1'
+event(fields): DCOMPEVENT_PRIMITIVEGROUP_UPDATE_V1(UInt32 channelHandle, UInt64 resourcePointer,
+  UInt32 resourceHandle, UInt32 memoryHandle)
+opcode: ''
+keywords: FrameVisualization
+task: DCOMPEVENT_PRIMITIVEGROUP_UPDATE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: channelHandle
+- field_type: UInt64
+  field_name: resourcePointer
+- field_type: UInt32
+  field_name: resourceHandle
+- field_type: UInt32
+  field_name: memoryHandle

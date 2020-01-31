@@ -1,0 +1,73 @@
+provider: Microsoft-Windows-ReFS
+event_id: '145'
+version: '2'
+event(fields): task_0145_V2(GUID VolumeCorrelationId, UInt32 VolumeNameLength, UnicodeString
+  VolumeName, Boolean IsBootVolume, UInt32 TierIndex, UInt64 MaxLatencyMs, Int64 ReadWriteLatencyBucket1,
+  Int64 ReadWriteLatencyBucket2, Int64 ReadWriteLatencyBucket3, Int64 ReadWriteLatencyBucket4,
+  Int64 ReadWriteLatencyBucket5, Int64 ReadWriteLatencyBucket6, Int64 ReadWriteLatencyBucket7,
+  Int64 TrimLatencyBucket1, Int64 TrimLatencyBucket2, Int64 TrimLatencyBucket3, Int64
+  TrimLatencyBucket4, Int64 TrimLatencyBucket5, Int64 TrimLatencyBucket6, Int64 TrimLatencyBucket7,
+  Int64 FlushLatencyBucket1, Int64 FlushLatencyBucket2, Int64 FlushLatencyBucket3,
+  Int64 FlushLatencyBucket4, Int64 FlushLatencyBucket5, Int64 FlushLatencyBucket6,
+  Int64 FlushLatencyBucket7)
+opcode: ''
+keywords: Statistics
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VolumeCorrelationId
+- field_type: UInt32
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: Boolean
+  field_name: IsBootVolume
+- field_type: UInt32
+  field_name: TierIndex
+- field_type: UInt64
+  field_name: MaxLatencyMs
+- field_type: Int64
+  field_name: ReadWriteLatencyBucket1
+- field_type: Int64
+  field_name: ReadWriteLatencyBucket2
+- field_type: Int64
+  field_name: ReadWriteLatencyBucket3
+- field_type: Int64
+  field_name: ReadWriteLatencyBucket4
+- field_type: Int64
+  field_name: ReadWriteLatencyBucket5
+- field_type: Int64
+  field_name: ReadWriteLatencyBucket6
+- field_type: Int64
+  field_name: ReadWriteLatencyBucket7
+- field_type: Int64
+  field_name: TrimLatencyBucket1
+- field_type: Int64
+  field_name: TrimLatencyBucket2
+- field_type: Int64
+  field_name: TrimLatencyBucket3
+- field_type: Int64
+  field_name: TrimLatencyBucket4
+- field_type: Int64
+  field_name: TrimLatencyBucket5
+- field_type: Int64
+  field_name: TrimLatencyBucket6
+- field_type: Int64
+  field_name: TrimLatencyBucket7
+- field_type: Int64
+  field_name: FlushLatencyBucket1
+- field_type: Int64
+  field_name: FlushLatencyBucket2
+- field_type: Int64
+  field_name: FlushLatencyBucket3
+- field_type: Int64
+  field_name: FlushLatencyBucket4
+- field_type: Int64
+  field_name: FlushLatencyBucket5
+- field_type: Int64
+  field_name: FlushLatencyBucket6
+- field_type: Int64
+  field_name: FlushLatencyBucket7

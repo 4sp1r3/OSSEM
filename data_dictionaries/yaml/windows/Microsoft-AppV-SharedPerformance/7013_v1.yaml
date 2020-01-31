@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '7013'
+version: '1'
+event(fields): UnpublishPackage_507Start_V1()
+opcode: Start
+keywords: ''
+task: UnpublishPackage_507
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '232'
+version: '0'
+event(fields): CUIAutomation_GetPatternProgrammaticNameStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CUIAutomation_GetPatternProgrammaticName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

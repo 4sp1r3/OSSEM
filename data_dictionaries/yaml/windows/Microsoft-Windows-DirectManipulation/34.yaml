@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '34'
+version: '0'
+event(fields): Manipulation_ProcessInput_MotionUpdate(Pointer MotionPointer, Pointer
+  RegionPointer, Pointer LayerPointer)
+opcode: ''
+keywords: ''
+task: Manipulation_ProcessInput_MotionUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MotionPointer
+- field_type: Pointer
+  field_name: RegionPointer
+- field_type: Pointer
+  field_name: LayerPointer

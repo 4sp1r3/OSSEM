@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '4257'
+version: '0'
+event(fields): task_04257(Boolean IsMachine, Boolean IsBackgroundProcessing, Boolean
+  IsAsyncProcessing)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsMachine
+- field_type: Boolean
+  field_name: IsBackgroundProcessing
+- field_type: Boolean
+  field_name: IsAsyncProcessing

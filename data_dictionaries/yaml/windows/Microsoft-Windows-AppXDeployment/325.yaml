@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppXDeployment
+event_id: '325'
+version: '0'
+event(fields): task_0325(UnicodeString PackageFamilyName)
+opcode: ''
+keywords: AppXDeployment
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFamilyName

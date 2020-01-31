@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '552'
+version: '0'
+event(fields): FindObjectsOfTypeStop()
+opcode: Stop
+keywords: Core
+task: FindObjectsOfType
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '109'
+version: '0'
+event(fields): DirectShowFilterGraphNotifyEvent(Pointer context, Int32 eventCode,
+  Pointer param1, Pointer param2)
+opcode: ''
+keywords: ''
+task: DirectShowFilterGraphNotifyEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: context
+- field_type: Int32
+  field_name: eventCode
+- field_type: Pointer
+  field_name: param1
+- field_type: Pointer
+  field_name: param2

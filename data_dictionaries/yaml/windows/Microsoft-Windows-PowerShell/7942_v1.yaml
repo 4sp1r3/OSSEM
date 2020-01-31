@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '7942'
+version: '1'
+event(fields): NoneTobeusedwhenoperationisjustexecutingamethod7942_V1(UnicodeString
+  ClassName, UnicodeString MethodName, UnicodeString WorkflowGuid, UnicodeString Message,
+  UnicodeString JobData, UnicodeString ActivityName, UnicodeString ActivityGuid, UnicodeString
+  Parameters)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: Cmdlets
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ClassName
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: UnicodeString
+  field_name: WorkflowGuid
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UnicodeString
+  field_name: JobData
+- field_type: UnicodeString
+  field_name: ActivityName
+- field_type: UnicodeString
+  field_name: ActivityGuid
+- field_type: UnicodeString
+  field_name: Parameters

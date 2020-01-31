@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-StoreMgr
+event_id: '16'
+version: '1'
+event(fields): RegionCompactStop_V1(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status,
+  UInt16 SpaceUsed, UInt16 LastAccessTime)
+opcode: Stop
+keywords: StoreOps
+task: RegionCompact
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DataMgr
+- field_type: UInt32
+  field_name: RegionIndex
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt16
+  field_name: SpaceUsed
+- field_type: UInt16
+  field_name: LastAccessTime

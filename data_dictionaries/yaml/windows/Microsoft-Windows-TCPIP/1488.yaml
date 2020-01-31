@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1488'
+version: '0'
+event(fields): IpSessionFailure1488(UInt32 SocketIoctl, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis
+task: IpSessionFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SocketIoctl
+- field_type: UInt32
+  field_name: Status

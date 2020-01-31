@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Acpi
+event_id: '14'
+version: '0'
+event(fields): FanPowerStateChange(UInt16 FanBiosNameLength, UnicodeString FanBiosName,
+  UInt16 PowerState)
+opcode: ''
+keywords: acpi:Thermal
+task: FanPowerStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FanBiosNameLength
+- field_type: UnicodeString
+  field_name: FanBiosName
+- field_type: UInt16
+  field_name: PowerState

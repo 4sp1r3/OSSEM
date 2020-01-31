@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '34'
+version: '0'
+event(fields): task_034(UnicodeString ServerDNSName, UnicodeString SiteName, SYSTEMTIME
+  ExpiryTime, UInt32 ErrorCode, UnicodeString ErrorMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServerDNSName
+- field_type: UnicodeString
+  field_name: SiteName
+- field_type: SYSTEMTIME
+  field_name: ExpiryTime
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

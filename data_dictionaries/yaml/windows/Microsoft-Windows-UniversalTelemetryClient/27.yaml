@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '27'
+version: '0'
+event(fields): Upload_SevilleEventlog_Info(UnicodeString Environment, UInt32 EventsUploaded,
+  UInt32 EventsDropped, UInt64 LastEventlogWrittenTime)
+opcode: ''
+keywords: Upload
+task: Upload_SevilleEventlog_Info
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: UInt32
+  field_name: EventsUploaded
+- field_type: UInt32
+  field_name: EventsDropped
+- field_type: UInt64
+  field_name: LastEventlogWrittenTime

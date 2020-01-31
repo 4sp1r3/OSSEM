@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '202'
+version: '2'
+event(fields): ClassDispatchingofrequest.202_V2(UInt32 DeviceNumber, Pointer Irp,
+  UInt8 Command, UInt64 LengthOfTransferinbytes, HexInt64 LBA, Pointer OriginalIrp,
+  UInt8 NvCachePriority)
+opcode: Dispatchingofrequest.
+keywords: Read
+task: Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt8
+  field_name: Command
+- field_type: UInt64
+  field_name: LengthOfTransferinbytes
+- field_type: HexInt64
+  field_name: LBA
+- field_type: Pointer
+  field_name: OriginalIrp
+- field_type: UInt8
+  field_name: NvCachePriority

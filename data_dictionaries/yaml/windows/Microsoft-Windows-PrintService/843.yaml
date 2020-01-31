@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintService
+event_id: '843'
+version: '0'
+event(fields): Isolatingprinterdriversandotherplug_insSpoolerOperationSucceeded843(UInt32
+  SucceededRpcCalls, UInt32 FailedRpcCalls)
+opcode: SpoolerOperationSucceeded
+keywords: SPOOLER_KEYWORD_PRINT_DRIVER_SANDBOX
+task: Isolatingprinterdriversandotherplug_ins
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SucceededRpcCalls
+- field_type: UInt32
+  field_name: FailedRpcCalls

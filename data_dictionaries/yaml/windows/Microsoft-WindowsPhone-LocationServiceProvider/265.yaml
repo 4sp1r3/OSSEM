@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '265'
+version: '0'
+event(fields): Initialization265(UInt32 Status, Boolean IsRecoverable, UnicodeString
+  Description)
+opcode: ''
+keywords: Selfhost Init Gnss
+task: Initialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: Boolean
+  field_name: IsRecoverable
+- field_type: UnicodeString
+  field_name: Description

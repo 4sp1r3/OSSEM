@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '335'
+version: '0'
+event(fields): GpuVirtualAddressAllocatorDCStart(Pointer pVaAllocator, Pointer hProcessId,
+  Pointer pDxgAdapter)
+opcode: DC_Start
+keywords: GPUVA
+task: GpuVirtualAddressAllocator
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pVaAllocator
+- field_type: Pointer
+  field_name: hProcessId
+- field_type: Pointer
+  field_name: pDxgAdapter

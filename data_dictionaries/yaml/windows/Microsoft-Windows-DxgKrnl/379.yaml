@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '379'
+version: '0'
+event(fields): CreatePeriodicFrameNotification(Pointer pVidSchSyncObject, UInt32 VidPnSourceID,
+  UInt64 TimeOffset, UInt64 RefreshPeriod, UInt32 NotificationID, Pointer hNotification,
+  Pointer pHighResolutionTimer)
+opcode: ''
+keywords: GPUScheduler
+task: CreatePeriodicFrameNotification
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pVidSchSyncObject
+- field_type: UInt32
+  field_name: VidPnSourceID
+- field_type: UInt64
+  field_name: TimeOffset
+- field_type: UInt64
+  field_name: RefreshPeriod
+- field_type: UInt32
+  field_name: NotificationID
+- field_type: Pointer
+  field_name: hNotification
+- field_type: Pointer
+  field_name: pHighResolutionTimer

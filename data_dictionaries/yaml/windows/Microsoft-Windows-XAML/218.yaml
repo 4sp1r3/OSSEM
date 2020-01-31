@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-XAML
+event_id: '218'
+version: '0'
+event(fields): PresentControllerGetFrameStatistics(UInt64 ControllerId, UInt32 PresentId,
+  UInt32 VBlankId, UInt32 SyncRefreshCount, UInt64 SyncQPCTime, UInt32 QueuedPresentCount)
+opcode: ''
+keywords: Rendering
+task: PresentControllerGetFrameStatistics
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ControllerId
+- field_type: UInt32
+  field_name: PresentId
+- field_type: UInt32
+  field_name: VBlankId
+- field_type: UInt32
+  field_name: SyncRefreshCount
+- field_type: UInt64
+  field_name: SyncQPCTime
+- field_type: UInt32
+  field_name: QueuedPresentCount

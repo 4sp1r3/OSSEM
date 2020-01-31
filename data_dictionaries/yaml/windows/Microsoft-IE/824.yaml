@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '824'
+version: '0'
+event(fields): Mshtml_Gwnd_Task_Queued(AnsiString TaskName, Pointer ObjectPointer)
+opcode: ''
+keywords: gwnd
+task: Mshtml_Gwnd_Task_Queued
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: TaskName
+- field_type: Pointer
+  field_name: ObjectPointer

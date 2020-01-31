@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DSC
+event_id: '4307'
+version: '0'
+event(fields): task_04307(UInt32 ConsistencyTimerValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ConsistencyTimerValue

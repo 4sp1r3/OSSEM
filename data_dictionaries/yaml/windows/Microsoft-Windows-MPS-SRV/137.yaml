@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '137'
+version: '0'
+event(fields): DynDataNLA1stPhase_InitializeStart()
+opcode: Start
+keywords: Service
+task: DynDataNLA1stPhase_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

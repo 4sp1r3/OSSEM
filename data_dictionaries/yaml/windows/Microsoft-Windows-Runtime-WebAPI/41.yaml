@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Runtime-WebAPI
+event_id: '41'
+version: '0'
+event(fields): APIsAPIExit41(UInt32 runtimeClass, UInt32 api, UInt32 hresult, Int32
+  errorMessage)
+opcode: APIExit
+keywords: keywords.API
+task: APIs
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: runtimeClass
+- field_type: UInt32
+  field_name: api
+- field_type: UInt32
+  field_name: hresult
+- field_type: Int32
+  field_name: errorMessage

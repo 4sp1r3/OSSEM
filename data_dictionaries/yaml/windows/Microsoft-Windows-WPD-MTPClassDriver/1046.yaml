@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1046'
+version: '0'
+event(fields): DeviceError1046(UnicodeString PKeyGuid, UInt32 PKeyId, UInt32 CurrentCode,
+  UInt32 OriginalCode)
+opcode: ''
+keywords: ''
+task: DeviceError
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PKeyGuid
+- field_type: UInt32
+  field_name: PKeyId
+- field_type: UInt32
+  field_name: CurrentCode
+- field_type: UInt32
+  field_name: OriginalCode

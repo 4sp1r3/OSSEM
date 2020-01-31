@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6013'
+version: '0'
+event(fields): LoadStop()
+opcode: Stop
+keywords: ''
+task: Load
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

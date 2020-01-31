@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62000'
+version: '0'
+event(fields): PlaylistFolder_DataSource_Created()
+opcode: ''
+keywords: Shell
+task: PlaylistFolder_DataSource_Created
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

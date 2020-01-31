@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1051'
+version: '0'
+event(fields): PerfTrackModernWorkingSet(UInt32 PrivateWS, UInt32 TotalPrivate, UInt32
+  TotalWS, HexInt32 ProcessAgeMHiandAppStateLo, UnicodeString ProcessName)
+opcode: ''
+keywords: ''
+task: PerfTrackModernWorkingSet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PrivateWS
+- field_type: UInt32
+  field_name: TotalPrivate
+- field_type: UInt32
+  field_name: TotalWS
+- field_type: HexInt32
+  field_name: ProcessAgeMHiandAppStateLo
+- field_type: UnicodeString
+  field_name: ProcessName

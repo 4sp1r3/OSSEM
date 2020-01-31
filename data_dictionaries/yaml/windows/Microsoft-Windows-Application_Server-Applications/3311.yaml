@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3311'
+version: '0'
+event(fields): DispatchMessageStop(UnicodeString OperationName, UnicodeString HostReference,
+  UnicodeString AppDomain)
+opcode: Stop
+keywords: ServiceModel
+task: DispatchMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: OperationName
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

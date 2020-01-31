@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '272'
+version: '0'
+event(fields): DxgkCbIndicateChildStatus(Pointer FunctionalDeviceObject, UInt32 ChildUid,
+  UInt32 Type, Boolean Connected, UInt32 MiracastMonitorType)
+opcode: ''
+keywords: Base Miracast
+task: DxgkCbIndicateChildStatus
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FunctionalDeviceObject
+- field_type: UInt32
+  field_name: ChildUid
+- field_type: UInt32
+  field_name: Type
+- field_type: Boolean
+  field_name: Connected
+- field_type: UInt32
+  field_name: MiracastMonitorType

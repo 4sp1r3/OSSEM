@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '770'
+version: '0'
+event(fields): Mshtml_Ortc_Set_Video_Size_Preference(UInt32 Width, UInt32 Height,
+  Pointer VideoElement, Pointer RemoteMediaStreamTrack, Pointer ThisPtr)
+opcode: ''
+keywords: mshtml
+task: Mshtml_Ortc_Set_Video_Size_Preference
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: Pointer
+  field_name: VideoElement
+- field_type: Pointer
+  field_name: RemoteMediaStreamTrack
+- field_type: Pointer
+  field_name: ThisPtr

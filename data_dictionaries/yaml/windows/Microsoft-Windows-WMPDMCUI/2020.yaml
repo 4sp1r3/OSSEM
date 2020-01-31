@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPDMCUI
+event_id: '2020'
+version: '0'
+event(fields): PLAYTO_LAUNCHUIStop(Int32 result, Int32 failureReason)
+opcode: Stop
+keywords: ''
+task: PLAYTO_LAUNCHUI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: result
+- field_type: Int32
+  field_name: failureReason

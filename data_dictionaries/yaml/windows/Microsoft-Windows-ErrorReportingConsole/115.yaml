@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ErrorReportingConsole
+event_id: '115'
+version: '0'
+event(fields): PrsResponseDownloadTimeOfEventStart()
+opcode: Start
+keywords: ''
+task: PrsResponseDownloadTimeOfEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4026'
+version: '0'
+event(fields): Remove_AppvPublishingServerStart()
+opcode: Start
+keywords: ''
+task: Remove_AppvPublishingServer
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

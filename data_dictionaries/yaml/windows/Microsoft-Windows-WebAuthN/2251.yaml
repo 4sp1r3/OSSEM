@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2251'
+version: '0'
+event(fields): CtapBleProviderThreadStop(GUID TransactionId)
+opcode: Stop
+keywords: Ctap Ble
+task: CtapBleProviderThread
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId

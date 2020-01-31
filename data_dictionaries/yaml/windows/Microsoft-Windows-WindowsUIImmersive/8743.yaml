@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WindowsUIImmersive
+event_id: '8743'
+version: '0'
+event(fields): LightDismiss8743()
+opcode: ''
+keywords: ''
+task: LightDismiss
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

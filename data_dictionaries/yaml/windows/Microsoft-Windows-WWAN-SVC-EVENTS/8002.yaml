@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '8002'
+version: '0'
+event(fields): USSD8002(GUID InterfaceGuid, UInt32 EventType, UInt32 SessionState,
+  UInt8 DataCodingScheme, UInt8 StringLength)
+opcode: ''
+keywords: ''
+task: USSD
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: EventType
+- field_type: UInt32
+  field_name: SessionState
+- field_type: UInt8
+  field_name: DataCodingScheme
+- field_type: UInt8
+  field_name: StringLength

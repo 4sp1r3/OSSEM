@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '510'
+version: '0'
+event(fields): SpmStatusUpdate(UInt8 SpmStatus)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SpmStatusUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: SpmStatus

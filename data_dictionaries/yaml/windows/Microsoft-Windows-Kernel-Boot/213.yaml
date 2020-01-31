@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '213'
+version: '0'
+event(fields): RegistryModification(UInt16 PathLength, UnicodeString Path)
+opcode: ''
+keywords: SoftRestart
+task: RegistryModification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: PathLength
+- field_type: UnicodeString
+  field_name: Path

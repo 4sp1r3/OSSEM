@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6005'
+version: '0'
+event(fields): GetPackagesStop6005(UnicodeString str)
+opcode: Stop
+keywords: ''
+task: GetPackages
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str

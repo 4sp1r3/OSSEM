@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AAD
+event_id: '1100'
+version: '0'
+event(fields): AadAdalrtOperation(UInt32 Error, UnicodeString ErrorMessage, UnicodeString
+  AdditionalInformation)
+opcode: ''
+keywords: Operational Warning
+task: AadAdalrtOperation
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: AdditionalInformation

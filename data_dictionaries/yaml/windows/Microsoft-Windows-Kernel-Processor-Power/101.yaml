@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '101'
+version: '0'
+event(fields): HeteroDistributeUtility(UInt16 Group, Pointer Affinity, UInt8 Class0FloorPerf,
+  UInt8 Class1MinimumPerf)
+opcode: ''
+keywords: Algorithm
+task: HeteroDistributeUtility
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: Pointer
+  field_name: Affinity
+- field_type: UInt8
+  field_name: Class0FloorPerf
+- field_type: UInt8
+  field_name: Class1MinimumPerf

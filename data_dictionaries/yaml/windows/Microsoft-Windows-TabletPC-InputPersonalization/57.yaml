@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '57'
+version: '0'
+event(fields): IPS_SettingsManager_GetTrainerCountStart()
+opcode: Start
+keywords: ''
+task: IPS_SettingsManager_GetTrainerCount
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Audio
+event_id: '152'
+version: '0'
+event(fields): AETimestamp(Pointer objInstance, UInt32 ucType, UInt64 Flag, UInt64
+  Padding, UInt64 QPCPos, UInt64 DevPos, UInt64 StrmPos)
+opcode: ''
+keywords: ''
+task: AETimestamp
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objInstance
+- field_type: UInt32
+  field_name: ucType
+- field_type: UInt64
+  field_name: Flag
+- field_type: UInt64
+  field_name: Padding
+- field_type: UInt64
+  field_name: QPCPos
+- field_type: UInt64
+  field_name: DevPos
+- field_type: UInt64
+  field_name: StrmPos

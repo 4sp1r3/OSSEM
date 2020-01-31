@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5503'
+version: '0'
+event(fields): task_05503(UInt32 AddrLength, Binary Prefix, UInt32 PrefixLength, UInt32
+  Status)
+opcode: ''
+keywords: damultisite
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AddrLength
+- field_type: Binary
+  field_name: Prefix
+- field_type: UInt32
+  field_name: PrefixLength
+- field_type: UInt32
+  field_name: Status

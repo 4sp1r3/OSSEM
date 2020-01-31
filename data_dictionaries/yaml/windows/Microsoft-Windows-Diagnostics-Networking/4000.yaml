@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Diagnostics-Networking
+event_id: '4000'
+version: '0'
+event(fields): DiagnosisSuccess(UnicodeString RepairOption, GUID RepairGUID, UInt32
+  SecondsRequired, UInt32 SIDTypeRequired)
+opcode: ''
+keywords: ndf:NDFCoreEvents
+task: DiagnosisSuccess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RepairOption
+- field_type: GUID
+  field_name: RepairGUID
+- field_type: UInt32
+  field_name: SecondsRequired
+- field_type: UInt32
+  field_name: SIDTypeRequired

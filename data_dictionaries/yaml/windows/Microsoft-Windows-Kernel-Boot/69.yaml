@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '69'
+version: '0'
+event(fields): MeasuredLaunchMleHeaderTooOld(UInt32 AcmMinMleHeaderVer, UInt32 MleHeaderVersion)
+opcode: MleHeaderTooOld
+keywords: keyword_80000000000
+task: MeasuredLaunch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AcmMinMleHeaderVer
+- field_type: UInt32
+  field_name: MleHeaderVersion

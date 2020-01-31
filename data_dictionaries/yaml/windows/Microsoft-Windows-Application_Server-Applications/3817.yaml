@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3817'
+version: '0'
+event(fields): RoutingServiceTransactionCommittingTransaction(UnicodeString data1,
+  UnicodeString AppDomain)
+opcode: CommittingTransaction
+keywords: RoutingServices
+task: RoutingServiceTransaction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

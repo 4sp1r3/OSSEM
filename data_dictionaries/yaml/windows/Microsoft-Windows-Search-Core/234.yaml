@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '234'
+version: '0'
+event(fields): CSearchCrawlScopeManager_SaveAllStart()
+opcode: Start
+keywords: CSM
+task: CSearchCrawlScopeManager_SaveAll
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

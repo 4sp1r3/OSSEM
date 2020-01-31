@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14002'
+version: '0'
+event(fields): PreviewPane_CommitChangeStop()
+opcode: Stop
+keywords: Shell
+task: PreviewPane_CommitChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

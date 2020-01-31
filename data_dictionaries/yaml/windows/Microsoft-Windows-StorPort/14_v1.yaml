@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorPort
+event_id: '14'
+version: '1'
+event(fields): None_V1(UnicodeString Field, UnicodeString PivotField, HexInt32 PivotValue,
+  UInt32 OriginalValue, UInt32 NewValue)
+opcode: ''
+keywords: Config
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Field
+- field_type: UnicodeString
+  field_name: PivotField
+- field_type: HexInt32
+  field_name: PivotValue
+- field_type: UInt32
+  field_name: OriginalValue
+- field_type: UInt32
+  field_name: NewValue

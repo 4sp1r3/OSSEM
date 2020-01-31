@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '87'
+version: '0'
+event(fields): PlatformIdleVetoRundown(UInt32 StateIndex, UInt32 VetoReason, UInt32
+  VetoCount)
+opcode: ''
+keywords: Diag
+task: PlatformIdleVetoRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StateIndex
+- field_type: UInt32
+  field_name: VetoReason
+- field_type: UInt32
+  field_name: VetoCount

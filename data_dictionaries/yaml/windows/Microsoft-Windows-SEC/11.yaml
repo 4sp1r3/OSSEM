@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-SEC
+event_id: '11'
+version: '0'
+event(fields): task_011(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime,
+  HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString Key, UnicodeString
+  Hive, HexInt32 RestoreFlags, UInt64 ProcessStartKey)
+opcode: ''
+keywords: Event11
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: HexInt32
+  field_name: ProcessId
+- field_type: Int64
+  field_name: ProcessTime
+- field_type: HexInt32
+  field_name: ThreadId
+- field_type: SID
+  field_name: UserSid
+- field_type: HexInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: Key
+- field_type: UnicodeString
+  field_name: Hive
+- field_type: HexInt32
+  field_name: RestoreFlags
+- field_type: UInt64
+  field_name: ProcessStartKey

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-General
+event_id: '16'
+version: '0'
+event(fields): task_016(UInt16 HiveNameLength, UnicodeString HiveName, UInt32 KeysUpdated,
+  UInt32 DirtyPages)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: HiveNameLength
+- field_type: UnicodeString
+  field_name: HiveName
+- field_type: UInt32
+  field_name: KeysUpdated
+- field_type: UInt32
+  field_name: DirtyPages

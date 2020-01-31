@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3020'
+version: '0'
+event(fields): TileImageDownload(UInt32 RequestId)
+opcode: ''
+keywords: wpnui
+task: TileImageDownload
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestId

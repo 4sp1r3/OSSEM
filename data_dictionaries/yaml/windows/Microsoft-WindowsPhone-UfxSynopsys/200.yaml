@@ -1,0 +1,38 @@
+provider: Microsoft-WindowsPhone-UfxSynopsys
+event_id: '200'
+version: '0'
+event(fields): Transfer(AnsiString Stage, Pointer Endpoint, UInt32 PhysicalEndpoint,
+  Pointer Request, Pointer Transaction, UInt32 BytesRequested, UInt32 BytesProgrammed,
+  UInt32 BytesTransferred, UInt32 SgProgrammed, UInt32 SgLength, UInt32 TrbProgrammed,
+  UInt32 TrbLength)
+opcode: ''
+keywords: Endpoint
+task: Transfer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Stage
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: PhysicalEndpoint
+- field_type: Pointer
+  field_name: Request
+- field_type: Pointer
+  field_name: Transaction
+- field_type: UInt32
+  field_name: BytesRequested
+- field_type: UInt32
+  field_name: BytesProgrammed
+- field_type: UInt32
+  field_name: BytesTransferred
+- field_type: UInt32
+  field_name: SgProgrammed
+- field_type: UInt32
+  field_name: SgLength
+- field_type: UInt32
+  field_name: TrbProgrammed
+- field_type: UInt32
+  field_name: TrbLength

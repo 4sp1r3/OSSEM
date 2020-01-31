@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '282'
+version: '0'
+event(fields): task_0282(HexInt32 ActivationType, HexInt32 ApplicationType, HexInt32
+  ErrorCode, Int32 Cookie)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ActivationType
+- field_type: HexInt32
+  field_name: ApplicationType
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: Int32
+  field_name: Cookie

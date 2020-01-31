@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1019'
+version: '0'
+event(fields): Wininet_PreNet_CacheMiss(Pointer Request)
+opcode: ''
+keywords: WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG
+task: Wininet_PreNet_CacheMiss
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request

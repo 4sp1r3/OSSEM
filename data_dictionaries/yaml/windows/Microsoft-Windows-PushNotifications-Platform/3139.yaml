@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3139'
+version: '0'
+event(fields): task_03139(Int32 ErrorCode)
+opcode: ''
+keywords: wpnui
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ErrorCode

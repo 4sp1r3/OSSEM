@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2200'
+version: '0'
+event(fields): task_02200(UInt32 RequestFlags, UnicodeString AppUserModelId)
+opcode: ''
+keywords: wpnend
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestFlags
+- field_type: UnicodeString
+  field_name: AppUserModelId

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-wmvdecod
+event_id: '40'
+version: '0'
+event(fields): wmvdecod_MFMessages_EndStreamingStart()
+opcode: Start
+keywords: ''
+task: wmvdecod_MFMessages_EndStreaming
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

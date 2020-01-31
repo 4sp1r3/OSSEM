@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7807'
+version: '0'
+event(fields): PnP_DMRC_UnpackPackageStop()
+opcode: Stop
+keywords: UserPnp
+task: PnP_DMRC_UnpackPackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

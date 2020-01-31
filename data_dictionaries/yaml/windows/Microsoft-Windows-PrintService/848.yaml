@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintService
+event_id: '848'
+version: '0'
+event(fields): SharingaprinterSpoolerOperationSucceeded(UnicodeString PrinterName,
+  UnicodeString ShareName)
+opcode: SpoolerOperationSucceeded
+keywords: SPOOLER_KEYWORD_PRINTER
+task: Sharingaprinter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PrinterName
+- field_type: UnicodeString
+  field_name: ShareName

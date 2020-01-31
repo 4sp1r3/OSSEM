@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '390'
+version: '0'
+event(fields): task_0390(UnicodeString IdType, UnicodeString RACertificateId, UnicodeString
+  DeviceCeritifcateId, UnicodeString ServerRequestId, UnicodeString ServerTime)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: IdType
+- field_type: UnicodeString
+  field_name: RACertificateId
+- field_type: UnicodeString
+  field_name: DeviceCeritifcateId
+- field_type: UnicodeString
+  field_name: ServerRequestId
+- field_type: UnicodeString
+  field_name: ServerTime

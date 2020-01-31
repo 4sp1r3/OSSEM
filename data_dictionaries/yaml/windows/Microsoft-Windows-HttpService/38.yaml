@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HttpService
+event_id: '38'
+version: '0'
+event(fields): HTTPSSLTraceTaskSslRcvClientCertFailed(UInt32 Status, Pointer ConnectionObj)
+opcode: SslRcvClientCertFailed
+keywords: HTTP_KEYWORD_SSL
+task: HTTPSSLTraceTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: Pointer
+  field_name: ConnectionObj

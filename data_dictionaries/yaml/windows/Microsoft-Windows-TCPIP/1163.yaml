@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1163'
+version: '0'
+event(fields): TcpCTcpAssignedBlocks(UInt32 AssignedBlocks, UInt32 AllocatedBlocks)
+opcode: ''
+keywords: ut:TcpipCtcp ut:SendPath
+task: TcpCTcpAssignedBlocks
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AssignedBlocks
+- field_type: UInt32
+  field_name: AllocatedBlocks

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Program-Compatibility-Assistant
+event_id: '104'
+version: '0'
+event(fields): PCA_MonitorProcessStop()
+opcode: Stop
+keywords: ''
+task: PCA_MonitorProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

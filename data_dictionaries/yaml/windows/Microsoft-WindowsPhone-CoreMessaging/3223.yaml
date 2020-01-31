@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3223'
+version: '0'
+event(fields): Dispatcher_CallDispatchCallbackStop(UInt64 unParam)
+opcode: Stop
+keywords: MessagingPerformance Dispatcher
+task: Dispatcher_CallDispatchCallback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: unParam

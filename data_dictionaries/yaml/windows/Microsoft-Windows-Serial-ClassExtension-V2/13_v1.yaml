@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Serial-ClassExtension-V2
+event_id: '13'
+version: '1'
+event(fields): I/Orequest.I/OStateMachineoperation.13_V1(Pointer TransferSmContext,
+  HexInt32 FromState, HexInt32 Event, HexInt32 ToState)
+opcode: I/OStateMachineoperation.
+keywords: TransferStateMachine ReceiveTransferStateMachine
+task: I/Orequest.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TransferSmContext
+- field_type: HexInt32
+  field_name: FromState
+- field_type: HexInt32
+  field_name: Event
+- field_type: HexInt32
+  field_name: ToState

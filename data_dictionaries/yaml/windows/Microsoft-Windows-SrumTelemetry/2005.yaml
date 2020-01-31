@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SrumTelemetry
+event_id: '2005'
+version: '0'
+event(fields): task_02005(UInt32 PowerInMilliwatts, UInt32 CpuStatsBitpack, UInt32
+  DiskAndNetStatsBitPack, UInt32 DurationBitPack, UnicodeString ModernAppPackageName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PowerInMilliwatts
+- field_type: UInt32
+  field_name: CpuStatsBitpack
+- field_type: UInt32
+  field_name: DiskAndNetStatsBitPack
+- field_type: UInt32
+  field_name: DurationBitPack
+- field_type: UnicodeString
+  field_name: ModernAppPackageName

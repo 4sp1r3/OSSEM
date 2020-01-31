@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '51'
+version: '0'
+event(fields): task_051()
+opcode: ''
+keywords: WDI
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

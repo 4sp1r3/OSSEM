@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '54'
+version: '0'
+event(fields): WaitForProcessesStop()
+opcode: Stop
+keywords: po:Performance po:PerformanceLight
+task: WaitForProcesses
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

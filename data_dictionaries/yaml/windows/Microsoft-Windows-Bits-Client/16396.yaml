@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '16396'
+version: '0'
+event(fields): task_016396(UnicodeString rule, Boolean enabled, UInt32 status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: rule
+- field_type: Boolean
+  field_name: enabled
+- field_type: UInt32
+  field_name: status

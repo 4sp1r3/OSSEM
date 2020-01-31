@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '80'
+version: '0'
+event(fields): DismRemoveProvisionedAppxPackageStop(UInt32 SessionId, UnicodeString
+  String)
+opcode: Stop
+keywords: DismApiEvent
+task: DismRemoveProvisionedAppxPackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: String

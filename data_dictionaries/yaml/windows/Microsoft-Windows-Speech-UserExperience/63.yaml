@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '63'
+version: '0'
+event(fields): SpuxUI_VisibleStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: SpuxUI_Visible
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

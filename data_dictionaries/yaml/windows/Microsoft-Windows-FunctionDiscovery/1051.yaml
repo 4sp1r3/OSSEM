@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FunctionDiscovery
+event_id: '1051'
+version: '0'
+event(fields): FunDisc_ProviderPropertiesGetAtStop(UnicodeString FunctionInstanceID)
+opcode: Stop
+keywords: ''
+task: FunDisc_ProviderPropertiesGetAt
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FunctionInstanceID

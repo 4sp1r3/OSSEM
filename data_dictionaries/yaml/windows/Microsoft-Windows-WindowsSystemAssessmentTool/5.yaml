@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-WindowsSystemAssessmentTool
+event_id: '5'
+version: '0'
+event(fields): Application5(HexInt32 FailingHresult, GUID FailingInterfaceCLSID, UInt16
+  SourceSize, UnicodeString Source, UInt16 InfterfaceSize, UnicodeString Interface,
+  UInt16 ErrorMsgSize, UnicodeString ErrorMsg, UInt16 CantMsgSize, UnicodeString CantMsg)
+opcode: ''
+keywords: ''
+task: Application
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: FailingHresult
+- field_type: GUID
+  field_name: FailingInterfaceCLSID
+- field_type: UInt16
+  field_name: SourceSize
+- field_type: UnicodeString
+  field_name: Source
+- field_type: UInt16
+  field_name: InfterfaceSize
+- field_type: UnicodeString
+  field_name: Interface
+- field_type: UInt16
+  field_name: ErrorMsgSize
+- field_type: UnicodeString
+  field_name: ErrorMsg
+- field_type: UInt16
+  field_name: CantMsgSize
+- field_type: UnicodeString
+  field_name: CantMsg

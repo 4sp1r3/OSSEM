@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '6'
+version: '0'
+event(fields): RemoteFXmoduleInitialize6(UInt32 NumMonitors, UnicodeString RequestedMode,
+  UnicodeString AppliedMode)
+opcode: Initialize
+keywords: ''
+task: RemoteFXmodule
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NumMonitors
+- field_type: UnicodeString
+  field_name: RequestedMode
+- field_type: UnicodeString
+  field_name: AppliedMode

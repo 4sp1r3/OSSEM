@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '46'
+version: '0'
+event(fields): IOThreadRetirementStart(UInt32 IOThreadCount, UInt32 RetiredIOThreads)
+opcode: Start
+keywords: ThreadingKeyword
+task: IOThreadRetirement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IOThreadCount
+- field_type: UInt32
+  field_name: RetiredIOThreads

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '32'
+version: '0'
+event(fields): TransformCreation32(UInt32 CdmType, UnicodeString CdmFileName, UInt32
+  CamType, UnicodeString CamFileName, UInt32 GmmType, UnicodeString GmmFileName, UInt32
+  Access, UInt32 Share, UInt32 Creation)
+opcode: ''
+keywords: ''
+task: TransformCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CdmType
+- field_type: UnicodeString
+  field_name: CdmFileName
+- field_type: UInt32
+  field_name: CamType
+- field_type: UnicodeString
+  field_name: CamFileName
+- field_type: UInt32
+  field_name: GmmType
+- field_type: UnicodeString
+  field_name: GmmFileName
+- field_type: UInt32
+  field_name: Access
+- field_type: UInt32
+  field_name: Share
+- field_type: UInt32
+  field_name: Creation

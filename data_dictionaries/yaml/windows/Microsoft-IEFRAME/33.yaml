@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '33'
+version: '0'
+event(fields): Shdocvw_PanningTool_GetPanningPropertiesStop()
+opcode: Stop
+keywords: primarynav
+task: Shdocvw_PanningTool_GetPanningProperties
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

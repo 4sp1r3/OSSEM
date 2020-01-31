@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27056'
+version: '1'
+event(fields): HandleSettingChangedActivityStop_V1()
+opcode: Stop
+keywords: ''
+task: HandleSettingChangedActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '10'
+version: '0'
+event(fields): peerneighborlist(server)_listeningforclientsStart()
+opcode: Start
+keywords: ''
+task: peerneighborlist(server)_listeningforclients
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

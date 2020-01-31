@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '83'
+version: '0'
+event(fields): PlatformIdleVetoIncrement(UInt32 StateIndex, UInt32 VetoReason)
+opcode: ''
+keywords: Diag
+task: PlatformIdleVetoIncrement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StateIndex
+- field_type: UInt32
+  field_name: VetoReason

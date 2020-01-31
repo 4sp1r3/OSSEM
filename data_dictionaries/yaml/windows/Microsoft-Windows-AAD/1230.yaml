@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AAD
+event_id: '1230'
+version: '0'
+event(fields): AuthHelper(UnicodeString API, UInt32 Result)
+opcode: ''
+keywords: Error Operational
+task: AuthHelper
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: API
+- field_type: UInt32
+  field_name: Result

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4017'
+version: '0'
+event(fields): AssociationLaunch_FileLaunch_DesktopAppsDisabled()
+opcode: ''
+keywords: ''
+task: AssociationLaunch_FileLaunch_DesktopAppsDisabled
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

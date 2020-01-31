@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '164'
+version: '0'
+event(fields): Userauthentication164(UnicodeString destinationMachine)
+opcode: ''
+keywords: Keyword.Client Keyword.Security
+task: Userauthentication
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: destinationMachine

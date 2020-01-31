@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8064'
+version: '1'
+event(fields): TransactionCompleteStart_V1()
+opcode: Start
+keywords: ''
+task: TransactionComplete
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

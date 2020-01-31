@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-GPIO-ClassExtension
+event_id: '1013'
+version: '1'
+event(fields): GPIObankinterruptflowthroughMSGPIOCLXInterruptInvokeDeviceIsrComplete_V1()
+opcode: InterruptInvokeDeviceIsrComplete
+keywords: ''
+task: GPIObankinterruptflowthroughMSGPIOCLX
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

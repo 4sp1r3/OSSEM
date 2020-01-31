@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3056'
+version: '0'
+event(fields): task_03056(UInt32 NotificationType, UnicodeString AppUserModelId, UInt32
+  SessionId, Int32 ErrorCode, Int32 SessionErrorCode)
+opcode: ''
+keywords: wpnui wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage
+  wpnperf_NewCloudNotificationArrival wpnperf_NewCloudNotificationArrivalWithCloudImage
+  wpntroubleshoot wpndebug_cloudtile_isolate wpndebug_localtile_isolate wpndev_NotificationE2E
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NotificationType
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: Int32
+  field_name: ErrorCode
+- field_type: Int32
+  field_name: SessionErrorCode

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-USBHUB
+event_id: '3'
+version: '0'
+event(fields): USBHubInformation(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, Binary
+  fid_USBHUB_Hub_State, Pointer fid_USB_HubDescriptor)
+opcode: Information
+keywords: Diagnostics
+task: USBHub
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: fid_USBHUB_HC
+- field_type: Int64
+  field_name: fid_USBHUB_Hub
+- field_type: Binary
+  field_name: fid_USBHUB_Hub_State
+- field_type: Pointer
+  field_name: fid_USB_HubDescriptor

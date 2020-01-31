@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '30021'
+version: '0'
+event(fields): task_0Stop30021(GUID InterfaceGuid, UInt32 WLANStatusCode, UInt32 DetailedStatusCode,
+  UInt32 ConnectionInformation, UnicodeString DeviceID)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: WLANStatusCode
+- field_type: UInt32
+  field_name: DetailedStatusCode
+- field_type: UInt32
+  field_name: ConnectionInformation
+- field_type: UnicodeString
+  field_name: DeviceID

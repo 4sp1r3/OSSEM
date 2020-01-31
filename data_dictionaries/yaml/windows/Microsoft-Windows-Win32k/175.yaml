@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '175'
+version: '0'
+event(fields): THQAEventStop()
+opcode: Stop
+keywords: MessagePumpInternalAndInput
+task: THQAEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

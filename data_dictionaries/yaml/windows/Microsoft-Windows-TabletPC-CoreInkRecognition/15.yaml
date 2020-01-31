@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '15'
+version: '0'
+event(fields): RECO_API_DestroyRecognizerStart()
+opcode: Start
+keywords: ''
+task: RECO_API_DestroyRecognizer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

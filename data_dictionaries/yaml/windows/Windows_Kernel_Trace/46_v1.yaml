@@ -1,0 +1,15 @@
+provider: Windows Kernel Trace
+category: '{ce1dbfb4-137e-4da6-87b0-3f59aa102cbc}'
+event_id: '46'
+version: '1'
+event(fields): SampledProfile_V1(UInt32 InstructionPointer, UInt32 ThreadId, UInt16
+  Count)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: InstructionPointer
+- field_type: UInt32
+  field_name: ThreadId
+- field_type: UInt16
+  field_name: Count

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '144'
+version: '0'
+event(fields): BatchoperationStart(Pointer object)
+opcode: Start
+keywords: ''
+task: Batchoperation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

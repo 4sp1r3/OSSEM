@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9801'
+version: '0'
+event(fields): Explorer_MinimizeAllThread()
+opcode: ''
+keywords: Shell
+task: Explorer_MinimizeAllThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

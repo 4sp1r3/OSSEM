@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '226'
+version: '0'
+event(fields): DLM_Resume_TimeStart()
+opcode: Start
+keywords: primarynav
+task: DLM_Resume_Time
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

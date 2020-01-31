@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Minstore
+event_id: '22'
+version: '1'
+event(fields): AllocationAllocationrange_V1(Boolean IsMetadata, UInt32 RequestedTier,
+  UInt32 ActualTier, UInt64 RequestedStartOfRange, UInt64 RequestedCountOfRange, UInt64
+  AllocatedStartOfRange, UInt64 AllocatedCountOfRange)
+opcode: Allocationrange
+keywords: ''
+task: Allocation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsMetadata
+- field_type: UInt32
+  field_name: RequestedTier
+- field_type: UInt32
+  field_name: ActualTier
+- field_type: UInt64
+  field_name: RequestedStartOfRange
+- field_type: UInt64
+  field_name: RequestedCountOfRange
+- field_type: UInt64
+  field_name: AllocatedStartOfRange
+- field_type: UInt64
+  field_name: AllocatedCountOfRange

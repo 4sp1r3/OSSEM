@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Narrator
+event_id: '251'
+version: '0'
+event(fields): NarratorProcessQueueTrigger(UnicodeString Trigger)
+opcode: ''
+keywords: PerfInstrumentation
+task: NarratorProcessQueueTrigger
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Trigger

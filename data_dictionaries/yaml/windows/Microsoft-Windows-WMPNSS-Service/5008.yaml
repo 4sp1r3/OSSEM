@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '5008'
+version: '0'
+event(fields): WMC_On_Content_Prov_RemovedStop(Pointer Address, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: WMC_On_Content_Prov_Removed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Address
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '487'
+version: '0'
+event(fields): Mshtml_CDoc_OnMouseMessageStart(Pointer CDoc, UInt32 MsgID, UInt32
+  x, UInt32 y)
+opcode: Start
+keywords: mshtml
+task: Mshtml_CDoc_OnMouseMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CDoc
+- field_type: UInt32
+  field_name: MsgID
+- field_type: UInt32
+  field_name: x
+- field_type: UInt32
+  field_name: y

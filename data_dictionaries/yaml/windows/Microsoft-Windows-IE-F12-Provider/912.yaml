@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IE-F12-Provider
+event_id: '912'
+version: '0'
+event(fields): Shell_LaunchTool_ConsoleStop(UnicodeString TraceDescription)
+opcode: Stop
+keywords: ''
+task: Shell_LaunchTool_Console
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceDescription

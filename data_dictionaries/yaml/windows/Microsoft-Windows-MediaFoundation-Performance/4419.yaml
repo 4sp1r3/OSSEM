@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4419'
+version: '0'
+event(fields): PropertyHandlerCommitStop(AnsiString tag, Pointer object, UInt32 contentType)
+opcode: Stop
+keywords: ''
+task: PropertyHandlerCommit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: contentType

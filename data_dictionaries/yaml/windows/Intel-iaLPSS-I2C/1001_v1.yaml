@@ -1,0 +1,13 @@
+provider: Intel-iaLPSS-I2C
+event_id: '1001'
+version: '1'
+event(fields): EnumerationofSPBCxdriver_V1(Pointer FxDevice)
+opcode: ''
+keywords: ''
+task: EnumerationofSPBCxdriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FxDevice

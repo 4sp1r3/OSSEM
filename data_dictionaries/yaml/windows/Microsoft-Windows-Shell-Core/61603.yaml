@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61603'
+version: '0'
+event(fields): DataPackage_GetAvailableFormatsStop()
+opcode: Stop
+keywords: Shell
+task: DataPackage_GetAvailableFormats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '3'
+version: '0'
+event(fields): Window_Maximized()
+opcode: ''
+keywords: primarynav
+task: Window_Maximized
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

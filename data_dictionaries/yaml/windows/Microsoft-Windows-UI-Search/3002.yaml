@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UI-Search
+event_id: '3002'
+version: '0'
+event(fields): PerfTrack_SearchPaneOpenStop()
+opcode: Stop
+keywords: ''
+task: PerfTrack_SearchPaneOpen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '202'
+version: '0'
+event(fields): DisplayWelcomeScreenStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: DisplayWelcomeScreen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

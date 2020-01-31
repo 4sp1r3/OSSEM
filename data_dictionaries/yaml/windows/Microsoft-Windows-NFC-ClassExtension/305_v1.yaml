@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NFC-ClassExtension
+event_id: '305'
+version: '1'
+event(fields): RFfirmwaredownload.Stop_V1(UInt32 Status)
+opcode: Stop
+keywords: RF
+task: RFfirmwaredownload.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

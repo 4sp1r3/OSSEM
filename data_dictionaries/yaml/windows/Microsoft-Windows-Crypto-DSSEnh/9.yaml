@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Crypto-DSSEnh
+event_id: '9'
+version: '0'
+event(fields): DeleteFileW(UnicodeString ProcessName, UnicodeString FilePath, UInt32
+  Status, UnicodeString ErrorDescription)
+opcode: ''
+keywords: ''
+task: DeleteFileW
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: FilePath
+- field_type: UInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: ErrorDescription

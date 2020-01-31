@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '190'
+version: '0'
+event(fields): ReclaimAllocation(Pointer hAllocationHandle, UInt8 Priority, UInt8
+  State)
+opcode: ''
+keywords: Base
+task: ReclaimAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAllocationHandle
+- field_type: UInt8
+  field_name: Priority
+- field_type: UInt8
+  field_name: State

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '38'
+version: '0'
+event(fields): task_038(Pointer Process, Pointer Endpoint, UInt32 Address, UInt16
+  Port, Int32 BytesIndicated)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: Address
+- field_type: UInt16
+  field_name: Port
+- field_type: Int32
+  field_name: BytesIndicated

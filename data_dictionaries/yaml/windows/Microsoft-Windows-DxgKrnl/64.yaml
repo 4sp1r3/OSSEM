@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '64'
+version: '0'
+event(fields): RenameAllocationStart(Pointer hAllocationGlobalHandle, Pointer hAllocationHandle,
+  UInt32 Count, UInt32 Status)
+opcode: Start
+keywords: Resource
+task: RenameAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: Pointer
+  field_name: hAllocationHandle
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt32
+  field_name: Status

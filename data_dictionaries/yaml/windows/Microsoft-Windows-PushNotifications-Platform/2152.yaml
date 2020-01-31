@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2152'
+version: '0'
+event(fields): task_02152(UnicodeString AppUserModelId, UInt32 SettingType, Boolean
+  Enabled)
+opcode: ''
+keywords: wpnend
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: SettingType
+- field_type: Boolean
+  field_name: Enabled

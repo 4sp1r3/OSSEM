@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2483'
+version: '0'
+event(fields): PLM_TerminateAppStop(UnicodeString PsmKey)
+opcode: Stop
+keywords: PLMComponent keyword_200000000000
+task: PLM_TerminateApp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey

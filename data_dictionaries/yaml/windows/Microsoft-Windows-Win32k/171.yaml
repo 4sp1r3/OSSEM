@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '171'
+version: '0'
+event(fields): EdgyDetectionStop(UInt32 Info)
+opcode: Stop
+keywords: UserActivity PointerInput
+task: EdgyDetection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Info

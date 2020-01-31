@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Audio
+event_id: '127'
+version: '0'
+event(fields): StreamCreationStart(UnicodeString EndpointId, UInt32 category, Boolean
+  Raw, Boolean MatchFormat, UInt32 ConnectorType)
+opcode: Start
+keywords: ''
+task: StreamCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EndpointId
+- field_type: UInt32
+  field_name: category
+- field_type: Boolean
+  field_name: Raw
+- field_type: Boolean
+  field_name: MatchFormat
+- field_type: UInt32
+  field_name: ConnectorType

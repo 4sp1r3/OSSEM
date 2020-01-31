@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '1008'
+version: '0'
+event(fields): task_01008(GUID InterfaceGUID, Boolean InternetConnectivityv4, Boolean
+  InternetConnectivityv6, Boolean InternetProbeCompletev4, Boolean InternetProbeCompletev6,
+  Boolean DomainConnectivity, Boolean DomainProbeComplete)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGUID
+- field_type: Boolean
+  field_name: InternetConnectivityv4
+- field_type: Boolean
+  field_name: InternetConnectivityv6
+- field_type: Boolean
+  field_name: InternetProbeCompletev4
+- field_type: Boolean
+  field_name: InternetProbeCompletev6
+- field_type: Boolean
+  field_name: DomainConnectivity
+- field_type: Boolean
+  field_name: DomainProbeComplete

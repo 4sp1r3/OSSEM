@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceSyncProvider
+event_id: '410'
+version: '0'
+event(fields): WPDProvider_GetMetadataStoreStart()
+opcode: Start
+keywords: ''
+task: WPDProvider_GetMetadataStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5062'
+version: '0'
+event(fields): VMT_VID_GPA_MAPStart(UInt64 StartGpaPage, UInt64 StartMbp, UInt64 MbpCount,
+  UInt32 InterceptOverrideFlags, GUID PartitionGuid)
+opcode: Start
+keywords: VMK_GPA
+task: VMT_VID_GPA_MAP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: StartGpaPage
+- field_type: UInt64
+  field_name: StartMbp
+- field_type: UInt64
+  field_name: MbpCount
+- field_type: UInt32
+  field_name: InterceptOverrideFlags
+- field_type: GUID
+  field_name: PartitionGuid

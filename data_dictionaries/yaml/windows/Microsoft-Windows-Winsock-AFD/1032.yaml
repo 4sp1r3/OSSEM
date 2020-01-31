@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '1032'
+version: '0'
+event(fields): AfdAbortAborted(UInt32 EnterExit, UInt32 Location, Pointer Process,
+  Pointer Endpoint, UInt32 Reason)
+opcode: Aborted
+keywords: AFD_KW_SOURCE_WINSOCK
+task: AfdAbort
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EnterExit
+- field_type: UInt32
+  field_name: Location
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: Reason

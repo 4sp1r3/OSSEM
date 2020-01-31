@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '8205'
+version: '0'
+event(fields): AppXDeployment.Task.Server.VolumeManager8205(HexInt32 ErrorCode, UInt32
+  VolumeKey, UnicodeString VolumeName, UnicodeString VolumeMountPoint)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.VolumeManager
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: VolumeKey
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UnicodeString
+  field_name: VolumeMountPoint

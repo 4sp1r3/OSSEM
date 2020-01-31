@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '227'
+version: '0'
+event(fields): Mshtml_MediaEngine_AudioMediaType(UInt32 MediaEngineID, UInt32 numchannels,
+  UInt32 samplespersec, UInt32 bitspersample)
+opcode: ''
+keywords: mediaengine
+task: Mshtml_MediaEngine_AudioMediaType
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaEngineID
+- field_type: UInt32
+  field_name: numchannels
+- field_type: UInt32
+  field_name: samplespersec
+- field_type: UInt32
+  field_name: bitspersample

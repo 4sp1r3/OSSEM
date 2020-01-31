@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '72'
+version: '0'
+event(fields): TASKBARStart()
+opcode: Start
+keywords: mediaplayer
+task: TASKBAR
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

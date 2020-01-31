@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '148'
+version: '0'
+event(fields): RemoteFXmodule_4CloseConnection148(UnicodeString ChannelName, UInt32
+  TunnelID)
+opcode: CloseConnection
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ChannelName
+- field_type: UInt32
+  field_name: TunnelID

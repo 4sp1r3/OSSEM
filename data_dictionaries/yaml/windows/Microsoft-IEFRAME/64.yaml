@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '64'
+version: '0'
+event(fields): CtrlLeftButtonAction(UInt32 Message)
+opcode: ''
+keywords: primarynav
+task: CtrlLeftButtonAction
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Message

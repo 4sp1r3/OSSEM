@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '10092'
+version: '0'
+event(fields): WWANServiceSuspendStop()
+opcode: Stop
+keywords: keyword_200000000000
+task: WWANServiceSuspend
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

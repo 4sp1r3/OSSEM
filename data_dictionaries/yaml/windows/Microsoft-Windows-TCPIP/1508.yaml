@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1508'
+version: '0'
+event(fields): IpAncillaryData(UInt32 Reason, UInt32 SocketLevel, UInt32 SocketOption)
+opcode: ''
+keywords: ut:TcpipDiagnosis
+task: IpAncillaryData
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: SocketLevel
+- field_type: UInt32
+  field_name: SocketOption

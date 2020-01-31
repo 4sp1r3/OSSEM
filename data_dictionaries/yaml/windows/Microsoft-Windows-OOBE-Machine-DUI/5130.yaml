@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-Machine-DUI
+event_id: '5130'
+version: '0'
+event(fields): RtfReader_ChangeColor()
+opcode: ''
+keywords: msoobe
+task: RtfReader_ChangeColor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

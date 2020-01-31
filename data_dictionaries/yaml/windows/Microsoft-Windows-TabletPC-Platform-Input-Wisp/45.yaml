@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Wisp
+event_id: '45'
+version: '0'
+event(fields): TABLET_INPUT_Wisptis_Drag_Scroll_DecisionStart()
+opcode: Start
+keywords: ''
+task: TABLET_INPUT_Wisptis_Drag_Scroll_Decision
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

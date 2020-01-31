@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '200'
+version: '0'
+event(fields): ServiceUsageAudit(UnicodeString ChannelName, UInt8 ChannelType, Boolean
+  Enabled)
+opcode: ''
+keywords: el:Audit
+task: ServiceUsageAudit
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ChannelName
+- field_type: UInt8
+  field_name: ChannelType
+- field_type: Boolean
+  field_name: Enabled

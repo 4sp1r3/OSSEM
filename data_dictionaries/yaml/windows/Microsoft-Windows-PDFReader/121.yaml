@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '121'
+version: '0'
+event(fields): LaunchURI121()
+opcode: ''
+keywords: Reader
+task: LaunchURI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

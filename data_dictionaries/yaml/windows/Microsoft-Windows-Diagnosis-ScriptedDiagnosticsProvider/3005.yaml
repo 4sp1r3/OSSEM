@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '3005'
+version: '0'
+event(fields): task_03005(UnicodeString Hostname, UnicodeString Url, UInt32 ResponseCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Hostname
+- field_type: UnicodeString
+  field_name: Url
+- field_type: UInt32
+  field_name: ResponseCode

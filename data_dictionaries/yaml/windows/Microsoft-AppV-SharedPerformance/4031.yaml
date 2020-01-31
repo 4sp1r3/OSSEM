@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4031'
+version: '0'
+event(fields): Add_AppvClientConnectionGroupStop()
+opcode: Stop
+keywords: ''
+task: Add_AppvClientConnectionGroup
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

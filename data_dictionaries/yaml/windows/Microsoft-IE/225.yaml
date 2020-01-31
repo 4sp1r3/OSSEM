@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '225'
+version: '0'
+event(fields): Mshtml_MediaEngine_StreamInfo(UInt32 MediaEngineID, GUID majortype,
+  GUID subtype)
+opcode: ''
+keywords: mediaengine
+task: Mshtml_MediaEngine_StreamInfo
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaEngineID
+- field_type: GUID
+  field_name: majortype
+- field_type: GUID
+  field_name: subtype

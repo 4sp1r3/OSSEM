@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '26'
+version: '0'
+event(fields): Upload_SevilleBandwidth_Throttled(UnicodeString Environment, UInt64
+  UploadQuota)
+opcode: ''
+keywords: Upload
+task: Upload_SevilleBandwidth_Throttled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: UInt64
+  field_name: UploadQuota

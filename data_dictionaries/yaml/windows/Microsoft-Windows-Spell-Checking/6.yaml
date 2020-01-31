@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Spell-Checking
+event_id: '6'
+version: '0'
+event(fields): GetSuggestionsReceive()
+opcode: Receive
+keywords: ''
+task: GetSuggestions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

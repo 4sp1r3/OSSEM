@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '71'
+version: '0'
+event(fields): ThreadRunning(Pointer ID, UInt16 ClrInstanceID)
+opcode: Running
+keywords: ThreadingKeyword ThreadTransferKeyword
+task: Thread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ID
+- field_type: UInt16
+  field_name: ClrInstanceID

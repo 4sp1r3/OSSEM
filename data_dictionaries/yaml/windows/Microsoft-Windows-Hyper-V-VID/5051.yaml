@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5051'
+version: '0'
+event(fields): VMT_VID_MEMORY_BLOCK_RESTOREStop(UInt64 MbpArraySize, UInt32 KsrRunCount,
+  UInt64 Status)
+opcode: Stop
+keywords: VMK_MEMORY_BLOCK
+task: VMT_VID_MEMORY_BLOCK_RESTORE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MbpArraySize
+- field_type: UInt32
+  field_name: KsrRunCount
+- field_type: UInt64
+  field_name: Status

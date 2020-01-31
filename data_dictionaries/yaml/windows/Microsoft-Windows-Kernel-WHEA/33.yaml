@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-WHEA
+event_id: '33'
+version: '0'
+event(fields): task_033(UInt32 SqmType, GUID SqmSessionGuid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SqmType
+- field_type: GUID
+  field_name: SqmSessionGuid

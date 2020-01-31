@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '173'
+version: '1'
+event(fields): TOUCH_FIRST_FRAME_EVENT173_V1(UInt64 UniqueKey, UInt16 SurfaceWidth,
+  UInt16 SurfaceHeight, UInt64 DwmFrame, UInt32 MonitorCount, Int64 PrimaryAdapterLuid,
+  Boolean PrimaryAdapterIsWarp, Boolean InParallelMode, UnicodeString AppUserModelId)
+opcode: ''
+keywords: DwmCore LowOverheadSmoothnessTracking DwmInput
+task: TOUCH_FIRST_FRAME_EVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueKey
+- field_type: UInt16
+  field_name: SurfaceWidth
+- field_type: UInt16
+  field_name: SurfaceHeight
+- field_type: UInt64
+  field_name: DwmFrame
+- field_type: UInt32
+  field_name: MonitorCount
+- field_type: Int64
+  field_name: PrimaryAdapterLuid
+- field_type: Boolean
+  field_name: PrimaryAdapterIsWarp
+- field_type: Boolean
+  field_name: InParallelMode
+- field_type: UnicodeString
+  field_name: AppUserModelId

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '38'
+version: '0'
+event(fields): GCGCBulkRootStaticVar(UInt32 Count, UInt64 AppDomainID, UInt16 ClrInstanceID,
+  UInt8 Values)
+opcode: GCBulkRootStaticVar
+keywords: GCHeapDumpKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt64
+  field_name: AppDomainID
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: UInt8
+  field_name: Values

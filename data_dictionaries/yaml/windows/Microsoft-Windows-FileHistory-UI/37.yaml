@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '37'
+version: '0'
+event(fields): SettingsDialogOpensFromToolbarStop()
+opcode: Stop
+keywords: ''
+task: SettingsDialogOpensFromToolbar
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

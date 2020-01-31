@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Backup
+event_id: '19'
+version: '3'
+event(fields): task_019_V3(HexInt32 HRESULT, FILETIME BackupTime, UnicodeString BackupTarget,
+  UInt32 NumOfVolumes, UnicodeString VolumeNames, UnicodeString ErrorMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: FILETIME
+  field_name: BackupTime
+- field_type: UnicodeString
+  field_name: BackupTarget
+- field_type: UInt32
+  field_name: NumOfVolumes
+- field_type: UnicodeString
+  field_name: VolumeNames
+- field_type: UnicodeString
+  field_name: ErrorMessage

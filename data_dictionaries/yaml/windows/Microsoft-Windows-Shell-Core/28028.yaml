@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28028'
+version: '0'
+event(fields): Shell32_RegistryPackageChangeListener_RescanStart(UnicodeString Identity)
+opcode: Start
+keywords: Shell
+task: Shell32_RegistryPackageChangeListener_Rescan
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Identity

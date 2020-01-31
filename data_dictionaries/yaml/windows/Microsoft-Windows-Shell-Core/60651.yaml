@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60651'
+version: '0'
+event(fields): ItemsView_ItemDevirtualizer_FullDevirtualization()
+opcode: ''
+keywords: Shell
+task: ItemsView_ItemDevirtualizer_FullDevirtualization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-User-ControlPanel
+event_id: '7005'
+version: '0'
+event(fields): UserAccount_Taskflow_EmailPage()
+opcode: ''
+keywords: ''
+task: UserAccount_Taskflow_EmailPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

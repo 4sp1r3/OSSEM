@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WinINet
+event_id: '201'
+version: '0'
+event(fields): WININET_HTTP_REQUESTStop(Pointer RequestHandle, Pointer SocketHandle,
+  UInt16 _VerbLength, AnsiString Verb, Boolean Cookie)
+opcode: Stop
+keywords: WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG
+task: WININET_HTTP_REQUEST
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestHandle
+- field_type: Pointer
+  field_name: SocketHandle
+- field_type: UInt16
+  field_name: _VerbLength
+- field_type: AnsiString
+  field_name: Verb
+- field_type: Boolean
+  field_name: Cookie

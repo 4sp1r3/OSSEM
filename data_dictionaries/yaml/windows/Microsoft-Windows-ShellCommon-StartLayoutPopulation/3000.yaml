@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '3000'
+version: '0'
+event(fields): RetailDemoProvider_LayoutInitializationStart()
+opcode: Start
+keywords: ''
+task: RetailDemoProvider_LayoutInitialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

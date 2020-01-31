@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '8304'
+version: '0'
+event(fields): ODB_TaskCompleted(GUID WorkItemId, GUID TaskInstanceId, UInt32 HRESULT)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular ODB
+task: ODB_TaskCompleted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: WorkItemId
+- field_type: GUID
+  field_name: TaskInstanceId
+- field_type: UInt32
+  field_name: HRESULT

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-ModernDeployment-Diagnostics-Provider
+event_id: '707'
+version: '0'
+event(fields): task_0707(HexInt32 HRESULT, UnicodeString Message1, UnicodeString Message2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: UnicodeString
+  field_name: Message1
+- field_type: UnicodeString
+  field_name: Message2

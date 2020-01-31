@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '11028'
+version: '1'
+event(fields): task_0OID_Handling11028_V1(GUID InterfaceGuid, UInt32 RequestId, UInt32
+  WwanStatus, UInt32 Version, UInt32 SegmentSize, UInt32 MaxFlushTime, UnicodeString
+  LevelConfig)
+opcode: OID_Handling
+keywords: LwtDiagnostic WwanOid InterfaceEnum keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: WwanStatus
+- field_type: UInt32
+  field_name: Version
+- field_type: UInt32
+  field_name: SegmentSize
+- field_type: UInt32
+  field_name: MaxFlushTime
+- field_type: UnicodeString
+  field_name: LevelConfig

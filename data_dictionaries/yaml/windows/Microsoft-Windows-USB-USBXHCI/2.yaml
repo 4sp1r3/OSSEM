@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '2'
+version: '0'
+event(fields): USBXHCIDriverRundownStop()
+opcode: Stop
+keywords: Default Rundown
+task: USBXHCIDriverRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

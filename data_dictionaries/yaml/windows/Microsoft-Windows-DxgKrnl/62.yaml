@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '62'
+version: '0'
+event(fields): Preparation(UInt32 uiPass)
+opcode: ''
+keywords: Base
+task: Preparation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: uiPass

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Documents
+event_id: '1608'
+version: '0'
+event(fields): DocPerf_Task_XpsPrint_Callback_DocumentCompletedStart(UInt32 DocumentNumber)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_XpsPrint_Callback_DocumentCompleted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DocumentNumber

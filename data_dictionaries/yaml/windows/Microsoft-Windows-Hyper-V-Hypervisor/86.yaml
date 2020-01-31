@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '86'
+version: '0'
+event(fields): task_086(UInt32 ExpectedVersion, UInt32 ActualVersion, UInt32 ExpectedFunctionTableSize,
+  UInt32 ActualFunctionTableSize, UnicodeString UpdateDllName)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ExpectedVersion
+- field_type: UInt32
+  field_name: ActualVersion
+- field_type: UInt32
+  field_name: ExpectedFunctionTableSize
+- field_type: UInt32
+  field_name: ActualFunctionTableSize
+- field_type: UnicodeString
+  field_name: UpdateDllName

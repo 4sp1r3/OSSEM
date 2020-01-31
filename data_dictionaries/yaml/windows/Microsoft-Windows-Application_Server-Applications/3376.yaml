@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3376'
+version: '0'
+event(fields): TransportReceiveStart3376(UnicodeString AppDomain)
+opcode: Start
+keywords: HTTP
+task: TransportReceive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

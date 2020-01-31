@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '205'
+version: '0'
+event(fields): CellService205()
+opcode: ''
+keywords: Trace
+task: CellService
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

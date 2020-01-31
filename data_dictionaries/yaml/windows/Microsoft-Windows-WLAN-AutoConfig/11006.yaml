@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '11006'
+version: '0'
+event(fields): MsmSecurityFailure_24012_199(UnicodeString Adapter, GUID DeviceGuid,
+  UnicodeString LocalMac, UnicodeString SSID, UnicodeString BSSType, UnicodeString
+  PeerMac, UnicodeString ReasonText, HexInt32 ReasonCode, HexInt32 ErrorCode, Pointer
+  ConnectionId)
+opcode: Failure_24012_199
+keywords: WlanConnect LwtDiagnostic
+task: MsmSecurity
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UnicodeString
+  field_name: PeerMac
+- field_type: UnicodeString
+  field_name: ReasonText
+- field_type: HexInt32
+  field_name: ReasonCode
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: Pointer
+  field_name: ConnectionId

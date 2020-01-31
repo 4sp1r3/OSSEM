@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4033'
+version: '0'
+event(fields): ActivationRoutingTableLookupStart(UnicodeString AppDomain)
+opcode: Start
+keywords: ActivationServices
+task: ActivationRoutingTableLookup
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

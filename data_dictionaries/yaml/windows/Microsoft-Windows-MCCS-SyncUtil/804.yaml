@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-SyncUtil
+event_id: '804'
+version: '0'
+event(fields): task_0804(HexInt32 Prop_HexInt32, UnicodeString Prop_String)
+opcode: ''
+keywords: Error
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_HexInt32
+- field_type: UnicodeString
+  field_name: Prop_String

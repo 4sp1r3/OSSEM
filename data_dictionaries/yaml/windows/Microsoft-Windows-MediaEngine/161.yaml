@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '161'
+version: '0'
+event(fields): MediaEnginePurgedFrames(Pointer object, Int32 Count)
+opcode: ''
+keywords: ''
+task: MediaEnginePurgedFrames
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: Count

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '200'
+version: '0'
+event(fields): VirtualizationMeasureStop()
+opcode: Stop
+keywords: Layout
+task: VirtualizationMeasure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

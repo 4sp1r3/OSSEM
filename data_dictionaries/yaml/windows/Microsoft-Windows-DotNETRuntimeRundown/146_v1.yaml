@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DotNETRuntimeRundown
+event_id: '146'
+version: '1'
+event(fields): MethodDCStopComplete_V1(UInt16 ClrInstanceID)
+opcode: DCStopComplete
+keywords: LoaderRundownKeyword JitRundownKeyword NGenRundownKeyword JittedMethodILToNativeMapRundownKeyword
+task: Method
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClrInstanceID

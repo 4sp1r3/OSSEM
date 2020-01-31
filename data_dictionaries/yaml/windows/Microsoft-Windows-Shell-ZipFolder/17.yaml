@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-ZipFolder
+event_id: '17'
+version: '0'
+event(fields): ZipFolder_OpenItemStart()
+opcode: Start
+keywords: ''
+task: ZipFolder_OpenItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

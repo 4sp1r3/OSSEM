@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '97'
+version: '0'
+event(fields): RemoteFXmodule_4ProtocolExchange(UnicodeString ComponentName, UInt32
+  ErrorCode)
+opcode: ProtocolExchange
+keywords: ''
+task: RemoteFXmodule_4
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ComponentName
+- field_type: UInt32
+  field_name: ErrorCode

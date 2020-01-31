@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppLocker
+event_id: '8036'
+version: '0'
+event(fields): task_08036(Boolean IsApproved, GUID CLSID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsApproved
+- field_type: GUID
+  field_name: CLSID

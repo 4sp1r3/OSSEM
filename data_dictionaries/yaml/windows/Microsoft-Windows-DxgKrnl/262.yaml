@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '262'
+version: '0'
+event(fields): CalibrateGpuClockTask(Pointer hAdapter, UInt32 NodeOrdinal, UInt32
+  EngineOrdinal, UInt64 GpuFrequency, UInt64 GpuClock, UInt64 CpuClock)
+opcode: ''
+keywords: Profiler
+task: CalibrateGpuClockTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAdapter
+- field_type: UInt32
+  field_name: NodeOrdinal
+- field_type: UInt32
+  field_name: EngineOrdinal
+- field_type: UInt64
+  field_name: GpuFrequency
+- field_type: UInt64
+  field_name: GpuClock
+- field_type: UInt64
+  field_name: CpuClock

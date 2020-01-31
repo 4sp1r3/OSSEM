@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1037'
+version: '0'
+event(fields): MiracastUmdReportProtocolEvent(UInt64 MiracastLuid, UInt32 ProtocolEvent)
+opcode: ''
+keywords: Miracast
+task: MiracastUmdReportProtocolEvent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UInt32
+  field_name: ProtocolEvent

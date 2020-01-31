@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebIO
+event_id: '208'
+version: '0'
+event(fields): ConnectionNameResolutionRequest(Pointer DnsQuery, Pointer CacheEntry)
+opcode: ''
+keywords: ''
+task: ConnectionNameResolutionRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DnsQuery
+- field_type: Pointer
+  field_name: CacheEntry

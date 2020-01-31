@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '223'
+version: '0'
+event(fields): RuntimePowerManagement223(Pointer AdapterHandle, UInt32 ComponentIndex,
+  UInt32 FState, UInt32 NominalPower, UInt64 TransitionLatency, UInt64 ResidencyRequirement)
+opcode: ''
+keywords: DxgKrnl_Power
+task: RuntimePowerManagement
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdapterHandle
+- field_type: UInt32
+  field_name: ComponentIndex
+- field_type: UInt32
+  field_name: FState
+- field_type: UInt32
+  field_name: NominalPower
+- field_type: UInt64
+  field_name: TransitionLatency
+- field_type: UInt64
+  field_name: ResidencyRequirement

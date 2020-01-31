@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Directory-Services-SAM
+event_id: '16944'
+version: '0'
+event(fields): task_016944(UnicodeString OID, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: OID
+- field_type: UInt32
+  field_name: ErrorCode

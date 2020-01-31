@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SmartCard-DeviceEnum
+event_id: '101'
+version: '0'
+event(fields): task_0101(UnicodeString InstancePath, UInt32 SessionId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InstancePath
+- field_type: UInt32
+  field_name: SessionId

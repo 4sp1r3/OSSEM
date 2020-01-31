@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1061'
+version: '1'
+event(fields): PrefetchStartCallback_V1(HexInt32 AppKey, UnicodeString FullPackageName,
+  FILETIME PreviousPrefetchTime, UInt32 PrefetchCount)
+opcode: ''
+keywords: PfAp
+task: PrefetchStartCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: AppKey
+- field_type: UnicodeString
+  field_name: FullPackageName
+- field_type: FILETIME
+  field_name: PreviousPrefetchTime
+- field_type: UInt32
+  field_name: PrefetchCount

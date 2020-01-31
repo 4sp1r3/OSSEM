@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '17014'
+version: '0'
+event(fields): StageallpackagesStart()
+opcode: Start
+keywords: ''
+task: Stageallpackages
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

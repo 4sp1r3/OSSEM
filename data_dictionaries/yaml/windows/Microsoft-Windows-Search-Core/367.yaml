@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '367'
+version: '0'
+event(fields): ScopeChangeNotification_RegisterStart(UnicodeString UserSid, UnicodeString
+  PackageFamilyName, GUID EventId, UInt32 Count, UnicodeString Paths)
+opcode: Start
+keywords: ''
+task: ScopeChangeNotification_Register
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: PackageFamilyName
+- field_type: GUID
+  field_name: EventId
+- field_type: UInt32
+  field_name: Count
+- field_type: UnicodeString
+  field_name: Paths

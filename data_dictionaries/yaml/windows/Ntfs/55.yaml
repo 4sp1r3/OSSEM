@@ -1,0 +1,49 @@
+provider: Ntfs
+event_id: '55'
+version: '0'
+event(fields): task_0(UnicodeString DriveName, UnicodeString DeviceName, HexInt32
+  CorruptionState, HexInt32 HeaderFlags, UnicodeString Severity, UnicodeString Origin,
+  UnicodeString Verb, UnicodeString Description, HexInt32 Signature, UnicodeString
+  Outcome, UInt16 SampleLength, Binary SampleData, HexInt32 SourceFile, UInt16 SourceLine,
+  UInt32 SourceTag, HexInt32 AdditionalInfo, AnsiString CallStack)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DriveName
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: HexInt32
+  field_name: CorruptionState
+- field_type: HexInt32
+  field_name: HeaderFlags
+- field_type: UnicodeString
+  field_name: Severity
+- field_type: UnicodeString
+  field_name: Origin
+- field_type: UnicodeString
+  field_name: Verb
+- field_type: UnicodeString
+  field_name: Description
+- field_type: HexInt32
+  field_name: Signature
+- field_type: UnicodeString
+  field_name: Outcome
+- field_type: UInt16
+  field_name: SampleLength
+- field_type: Binary
+  field_name: SampleData
+- field_type: HexInt32
+  field_name: SourceFile
+- field_type: UInt16
+  field_name: SourceLine
+- field_type: UInt32
+  field_name: SourceTag
+- field_type: HexInt32
+  field_name: AdditionalInfo
+- field_type: AnsiString
+  field_name: CallStack

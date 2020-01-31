@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDC
+event_id: '33'
+version: '0'
+event(fields): CsPowerButtonHandler()
+opcode: ''
+keywords: Cs
+task: CsPowerButtonHandler
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

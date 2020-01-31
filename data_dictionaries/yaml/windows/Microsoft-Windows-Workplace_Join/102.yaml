@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Workplace Join
+event_id: '102'
+version: '0'
+event(fields): task_0102(HexInt32 ExitCode, UnicodeString ErrorMessage, UnicodeString
+  ServiceUri)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ExitCode
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: ServiceUri

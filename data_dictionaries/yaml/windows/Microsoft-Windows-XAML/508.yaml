@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '508'
+version: '0'
+event(fields): PlaceElementStop()
+opcode: Stop
+keywords: Core
+task: PlaceElement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

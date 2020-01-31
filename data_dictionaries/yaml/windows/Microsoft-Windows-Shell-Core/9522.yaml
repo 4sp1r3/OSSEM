@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9522'
+version: '0'
+event(fields): Explorer_StartMenu_HideStop()
+opcode: Stop
+keywords: Shell WDI
+task: Explorer_StartMenu_Hide
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

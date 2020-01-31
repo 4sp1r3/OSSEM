@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25053'
+version: '0'
+event(fields): Logon_AutoLogon_IsLocalNoPasswordUserStart()
+opcode: Start
+keywords: ''
+task: Logon_AutoLogon_IsLocalNoPasswordUser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

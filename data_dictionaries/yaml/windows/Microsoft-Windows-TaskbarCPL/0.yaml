@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TaskbarCPL
+event_id: '0'
+version: '0'
+event(fields): TaskbarCPL_OpenStart()
+opcode: Start
+keywords: ''
+task: TaskbarCPL_Open
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

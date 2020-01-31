@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '12001'
+version: '0'
+event(fields): ShutdownCleanup(GUID ObjectGUID, UInt32 ObjectType)
+opcode: Cleanup
+keywords: keyword_400000000000
+task: Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ObjectGUID
+- field_type: UInt32
+  field_name: ObjectType

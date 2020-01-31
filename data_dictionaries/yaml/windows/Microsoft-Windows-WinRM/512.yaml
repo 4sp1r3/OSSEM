@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '512'
+version: '0'
+event(fields): Auto_detectingproxysettingsStart()
+opcode: Start
+keywords: Keyword.Client
+task: Auto_detectingproxysettings
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '65'
+version: '0'
+event(fields): Agent_IdleStateChange(UnicodeString Environment, UnicodeString AgentId,
+  Boolean IsIdle, UInt64 IdleDurationMillis)
+opcode: ''
+keywords: Agent
+task: Agent_IdleStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: UnicodeString
+  field_name: AgentId
+- field_type: Boolean
+  field_name: IsIdle
+- field_type: UInt64
+  field_name: IdleDurationMillis

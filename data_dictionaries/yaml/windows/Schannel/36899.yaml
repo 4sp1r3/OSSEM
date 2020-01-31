@@ -1,0 +1,11 @@
+provider: Schannel
+event_id: '36899'
+version: '0'
+event(fields): task_036899()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

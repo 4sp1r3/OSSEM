@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '119'
+version: '0'
+event(fields): Notify_ShutdownStart()
+opcode: Start
+keywords: Service
+task: Notify_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

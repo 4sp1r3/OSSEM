@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Serial-ClassExtension-V2
+event_id: '23'
+version: '1'
+event(fields): I/Orequest.23_V1(Pointer Device, UInt32 BytesSaved, UInt32 TotalBytes)
+opcode: ''
+keywords: IO ReceiveIO
+task: I/Orequest.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Device
+- field_type: UInt32
+  field_name: BytesSaved
+- field_type: UInt32
+  field_name: TotalBytes

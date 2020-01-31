@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '21'
+version: '0'
+event(fields): SecondaryTileInitialization_InitializeSecondaryTileStop21(AnsiString
+  failureDetails)
+opcode: Stop
+keywords: ''
+task: SecondaryTileInitialization_InitializeSecondaryTile
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: failureDetails

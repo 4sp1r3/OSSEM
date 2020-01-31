@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1494'
+version: '0'
+event(fields): IpReassembly1494(UInt32 InterfaceIndex, UInt32 AddressFamily)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:ReceivePath
+task: IpReassembly
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UInt32
+  field_name: AddressFamily

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2618'
+version: '0'
+event(fields): Settings_PermissionsLoadItems(UInt32 Result)
+opcode: ''
+keywords: ''
+task: Settings_PermissionsLoadItems
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

@@ -1,0 +1,19 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '250'
+version: '0'
+event(fields): CellPE(UInt32 ARFCN, UInt32 BaseStationID, UInt32 CellID, UInt32 LocationAreaCode)
+opcode: ''
+keywords: Selfhost CellPe
+task: CellPE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ARFCN
+- field_type: UInt32
+  field_name: BaseStationID
+- field_type: UInt32
+  field_name: CellID
+- field_type: UInt32
+  field_name: LocationAreaCode

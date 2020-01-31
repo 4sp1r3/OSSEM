@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '29013'
+version: '1'
+event(fields): StartSubsystemRuntimeTask.Stop_V1()
+opcode: Stop
+keywords: ''
+task: StartSubsystemRuntimeTask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

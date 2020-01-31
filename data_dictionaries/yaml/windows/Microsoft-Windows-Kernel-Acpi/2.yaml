@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Acpi
+event_id: '2'
+version: '0'
+event(fields): GpeEventHandling(UInt32 GpeRegister, UInt8 UnexpectedEventMap)
+opcode: ''
+keywords: acpi:Diagnostic
+task: GpeEventHandling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: GpeRegister
+- field_type: UInt8
+  field_name: UnexpectedEventMap

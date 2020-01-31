@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '55'
+version: '0'
+event(fields): AppBarOpenStop()
+opcode: Stop
+keywords: ''
+task: AppBarOpen
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

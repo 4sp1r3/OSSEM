@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '1078'
+version: '0'
+event(fields): task_01078(UInt32 p1_UInt32)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular Activation
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p1_UInt32

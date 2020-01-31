@@ -1,0 +1,16 @@
+provider: Microsoft-JScript
+event_id: '228'
+version: '0'
+event(fields): Memprotect_GC_FinishConcurrentWaitStart(Pointer RecyclerID, UInt32
+  Timeout)
+opcode: Start
+keywords: MemProtectGarbageCollection
+task: Memprotect_GC_FinishConcurrentWait
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID
+- field_type: UInt32
+  field_name: Timeout

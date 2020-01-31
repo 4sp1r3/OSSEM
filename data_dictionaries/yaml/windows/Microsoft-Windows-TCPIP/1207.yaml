@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1207'
+version: '0'
+event(fields): TcpWsdInitializationErrors(UInt32 TcpWsdEtwPoint, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Global
+task: TcpWsdInitializationErrors
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TcpWsdEtwPoint
+- field_type: UInt32
+  field_name: Status

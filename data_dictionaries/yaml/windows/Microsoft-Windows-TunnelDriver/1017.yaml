@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TunnelDriver
+event_id: '1017'
+version: '0'
+event(fields): task_01017(UInt32 TunnelType, UInt32 Index, UInt32 InterfaceOperation)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TunnelType
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: InterfaceOperation

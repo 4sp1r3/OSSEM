@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-XAML
+event_id: '255'
+version: '0'
+event(fields): PresentControllerFrameStatisticsInconsistentVBlank(UInt64 ControllerId,
+  UInt64 PreviousQPC, UInt32 PreviousVBlank, UInt64 ReportedQPC, Float QPCTicksPerVBlank,
+  UInt32 CalculatedVBlank, UInt32 ReportedVBlank)
+opcode: ''
+keywords: Rendering
+task: PresentControllerFrameStatisticsInconsistentVBlank
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ControllerId
+- field_type: UInt64
+  field_name: PreviousQPC
+- field_type: UInt32
+  field_name: PreviousVBlank
+- field_type: UInt64
+  field_name: ReportedQPC
+- field_type: Float
+  field_name: QPCTicksPerVBlank
+- field_type: UInt32
+  field_name: CalculatedVBlank
+- field_type: UInt32
+  field_name: ReportedVBlank

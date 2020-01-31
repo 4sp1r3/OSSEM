@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '23110'
+version: '0'
+event(fields): SendTo_PopulateStart()
+opcode: Start
+keywords: Shell
+task: SendTo_Populate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

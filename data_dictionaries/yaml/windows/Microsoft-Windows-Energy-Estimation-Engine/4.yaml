@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '4'
+version: '0'
+event(fields): QueryStatsStart()
+opcode: Start
+keywords: CodePath
+task: QueryStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

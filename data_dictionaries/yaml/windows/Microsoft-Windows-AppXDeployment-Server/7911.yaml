@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '7911'
+version: '0'
+event(fields): AppXDeployment.Task.Server.ExtensionsStop7911(UnicodeString PackageFamilyName,
+  HexInt32 ErrorCode)
+opcode: Stop
+keywords: USERDATAACCESS_EXTENSION_KEYWORD
+task: AppXDeployment.Task.Server.Extensions
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFamilyName
+- field_type: HexInt32
+  field_name: ErrorCode

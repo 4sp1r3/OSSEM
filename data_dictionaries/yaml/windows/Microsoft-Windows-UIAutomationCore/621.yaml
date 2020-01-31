@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '621'
+version: '0'
+event(fields): IA2TextRange_MoveEndpointByRangeStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: IA2TextRange_MoveEndpointByRange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

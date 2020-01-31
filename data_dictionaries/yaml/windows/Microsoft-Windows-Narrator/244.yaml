@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '244'
+version: '0'
+event(fields): ContinuousReading_ProcessSingleChunkStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ContinuousReading_ProcessSingleChunk
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

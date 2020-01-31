@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '2005'
+version: '0'
+event(fields): task_02005(GUID InterfaceGuid)
+opcode: ''
+keywords: LwtDiagnostic ut:L2ConnectPath
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

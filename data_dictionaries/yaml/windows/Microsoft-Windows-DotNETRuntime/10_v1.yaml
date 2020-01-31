@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '10'
+version: '1'
+event(fields): GCAllocationTick_V1(UInt32 AllocationAmount, UInt32 AllocationKind,
+  UInt16 ClrInstanceID)
+opcode: AllocationTick
+keywords: GCKeyword
+task: GC
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AllocationAmount
+- field_type: UInt32
+  field_name: AllocationKind
+- field_type: UInt16
+  field_name: ClrInstanceID

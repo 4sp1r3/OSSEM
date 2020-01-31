@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1615'
+version: '0'
+event(fields): task_01615(UInt32 dwIndex1, UInt32 dwIndex2, AnsiString szNetwork,
+  UInt32 dwAuth, UInt32 dwCipher, UInt32 LinkQ, Float Score, UInt32 dwFlags)
+opcode: ''
+keywords: ScnEvt
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwIndex1
+- field_type: UInt32
+  field_name: dwIndex2
+- field_type: AnsiString
+  field_name: szNetwork
+- field_type: UInt32
+  field_name: dwAuth
+- field_type: UInt32
+  field_name: dwCipher
+- field_type: UInt32
+  field_name: LinkQ
+- field_type: Float
+  field_name: Score
+- field_type: UInt32
+  field_name: dwFlags

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4450'
+version: '0'
+event(fields): MFMediaSourcesamplereceived(Pointer Sample, UInt32 StreamIndex, UInt64
+  SampleTimestamp, UInt64 AdjustedTimestamp)
+opcode: ''
+keywords: ''
+task: MFMediaSourcesamplereceived
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Sample
+- field_type: UInt32
+  field_name: StreamIndex
+- field_type: UInt64
+  field_name: SampleTimestamp
+- field_type: UInt64
+  field_name: AdjustedTimestamp

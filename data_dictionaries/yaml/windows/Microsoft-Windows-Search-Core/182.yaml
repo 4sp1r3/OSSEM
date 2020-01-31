@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '182'
+version: '0'
+event(fields): CEnumSearchRoots_DestructorStop()
+opcode: Stop
+keywords: CSM
+task: CEnumSearchRoots_Destructor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,72 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '3014'
+version: '0'
+event(fields): task_03014(Int32 OSMajorVersion, Int32 OSMinorVersion, Int16 ServicePackMajor,
+  Int16 ServicePackMinor, Int32 BuildNumber, Int32 ProductType, Int16 ProcessorArchitecture,
+  UnicodeString Culture, Int8 SystemType, UnicodeString OEM, UnicodeString Model,
+  Boolean IsMobilePc, Boolean IsInternal, Int32 GeoId, UnicodeString Family, UnicodeString
+  OEMSKU, UnicodeString Version, UnicodeString BaseBoardOEM, UnicodeString BaseBoardModel,
+  UnicodeString BaseBoardVersion, UnicodeString BIOSVendor, UnicodeString BIOSVersion,
+  UnicodeString BIOSReleaseDate, UInt8 BIOSMajorRelease, UInt8 BIOSMinorRelease, UInt8
+  ECFirmwareMajorRelease, UInt8 ECFirmwareMinorRelease)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: OSMajorVersion
+- field_type: Int32
+  field_name: OSMinorVersion
+- field_type: Int16
+  field_name: ServicePackMajor
+- field_type: Int16
+  field_name: ServicePackMinor
+- field_type: Int32
+  field_name: BuildNumber
+- field_type: Int32
+  field_name: ProductType
+- field_type: Int16
+  field_name: ProcessorArchitecture
+- field_type: UnicodeString
+  field_name: Culture
+- field_type: Int8
+  field_name: SystemType
+- field_type: UnicodeString
+  field_name: OEM
+- field_type: UnicodeString
+  field_name: Model
+- field_type: Boolean
+  field_name: IsMobilePc
+- field_type: Boolean
+  field_name: IsInternal
+- field_type: Int32
+  field_name: GeoId
+- field_type: UnicodeString
+  field_name: Family
+- field_type: UnicodeString
+  field_name: OEMSKU
+- field_type: UnicodeString
+  field_name: Version
+- field_type: UnicodeString
+  field_name: BaseBoardOEM
+- field_type: UnicodeString
+  field_name: BaseBoardModel
+- field_type: UnicodeString
+  field_name: BaseBoardVersion
+- field_type: UnicodeString
+  field_name: BIOSVendor
+- field_type: UnicodeString
+  field_name: BIOSVersion
+- field_type: UnicodeString
+  field_name: BIOSReleaseDate
+- field_type: UInt8
+  field_name: BIOSMajorRelease
+- field_type: UInt8
+  field_name: BIOSMinorRelease
+- field_type: UInt8
+  field_name: ECFirmwareMajorRelease
+- field_type: UInt8
+  field_name: ECFirmwareMinorRelease

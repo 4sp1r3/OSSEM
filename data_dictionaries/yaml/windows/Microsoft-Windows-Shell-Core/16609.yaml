@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16609'
+version: '0'
+event(fields): FileFolderInnateStore_GetValueStop(GUID FMTID, UInt32 PID)
+opcode: Stop
+keywords: Properties
+task: FileFolderInnateStore_GetValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: FMTID
+- field_type: UInt32
+  field_name: PID

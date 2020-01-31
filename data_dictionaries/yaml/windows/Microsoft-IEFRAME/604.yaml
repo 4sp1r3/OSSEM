@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '604'
+version: '0'
+event(fields): TabRoaming_FindRoamedTabsStart()
+opcode: Start
+keywords: roaming
+task: TabRoaming_FindRoamedTabs
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

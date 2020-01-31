@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-mobsync
+event_id: '60122'
+version: '0'
+event(fields): SyncMgrTraceId_FolderItemCacheLoadStop()
+opcode: Stop
+keywords: ''
+task: SyncMgrTraceId_FolderItemCacheLoad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

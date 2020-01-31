@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '7019'
+version: '0'
+event(fields): task_07019()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

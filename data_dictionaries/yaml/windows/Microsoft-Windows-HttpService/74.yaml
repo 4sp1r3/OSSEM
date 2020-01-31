@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-HttpService
+event_id: '74'
+version: '0'
+event(fields): HTTPRequestTraceTaskResponseRangeProcessingOK(UInt64 RequestId, UInt64
+  ContentBytes, UInt32 NumberOfRanges, UInt64 Range1Start, UInt64 Range1End, UInt64
+  Range2Start, UInt64 Range2End)
+opcode: ResponseRangeProcessingOK
+keywords: HTTP_KEYWORD_RESPONSE
+task: HTTPRequestTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RequestId
+- field_type: UInt64
+  field_name: ContentBytes
+- field_type: UInt32
+  field_name: NumberOfRanges
+- field_type: UInt64
+  field_name: Range1Start
+- field_type: UInt64
+  field_name: Range1End
+- field_type: UInt64
+  field_name: Range2Start
+- field_type: UInt64
+  field_name: Range2End

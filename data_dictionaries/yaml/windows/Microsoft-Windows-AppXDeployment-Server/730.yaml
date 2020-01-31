@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '730'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment730(UnicodeString FileName, UInt32
+  Count, UInt32 MaxCount)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt32
+  field_name: MaxCount

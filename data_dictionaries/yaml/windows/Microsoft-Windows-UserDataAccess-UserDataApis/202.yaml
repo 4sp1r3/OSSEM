@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '202'
+version: '0'
+event(fields): StartCallStop()
+opcode: Stop
+keywords: Performance
+task: StartCall
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

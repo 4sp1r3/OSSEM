@@ -1,0 +1,52 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '200'
+version: '1'
+event(fields): ShutdownPerformanceMonitoringShutdownInformation_V1(UInt32 ShutdownTsVersion,
+  FILETIME ShutdownStartTime, FILETIME ShutdownEndTime, UInt32 ShutdownTime, UInt32
+  ShutdownUserSessionTime, UInt32 ShutdownUserPolicyTime, UInt32 ShutdownUserProfilesTime,
+  UInt32 ShutdownSystemSessionsTime, UInt32 ShutdownPreShutdownNotificationsTime,
+  UInt32 ShutdownServicesTime, UInt32 ShutdownKernelTime, UInt32 ShutdownRootCauseStepImprovementBits,
+  UInt32 ShutdownRootCauseGradualImprovementBits, UInt32 ShutdownRootCauseStepDegradationBits,
+  UInt32 ShutdownRootCauseGradualDegradationBits, Boolean ShutdownIsDegradation, Int32
+  ShutdownTimeChange)
+opcode: ShutdownInformation
+keywords: EventLog
+task: ShutdownPerformanceMonitoring
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ShutdownTsVersion
+- field_type: FILETIME
+  field_name: ShutdownStartTime
+- field_type: FILETIME
+  field_name: ShutdownEndTime
+- field_type: UInt32
+  field_name: ShutdownTime
+- field_type: UInt32
+  field_name: ShutdownUserSessionTime
+- field_type: UInt32
+  field_name: ShutdownUserPolicyTime
+- field_type: UInt32
+  field_name: ShutdownUserProfilesTime
+- field_type: UInt32
+  field_name: ShutdownSystemSessionsTime
+- field_type: UInt32
+  field_name: ShutdownPreShutdownNotificationsTime
+- field_type: UInt32
+  field_name: ShutdownServicesTime
+- field_type: UInt32
+  field_name: ShutdownKernelTime
+- field_type: UInt32
+  field_name: ShutdownRootCauseStepImprovementBits
+- field_type: UInt32
+  field_name: ShutdownRootCauseGradualImprovementBits
+- field_type: UInt32
+  field_name: ShutdownRootCauseStepDegradationBits
+- field_type: UInt32
+  field_name: ShutdownRootCauseGradualDegradationBits
+- field_type: Boolean
+  field_name: ShutdownIsDegradation
+- field_type: Int32
+  field_name: ShutdownTimeChange

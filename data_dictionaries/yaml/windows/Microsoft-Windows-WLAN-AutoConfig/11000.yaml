@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '11000'
+version: '0'
+event(fields): MsmAssociationStart_24011_193(UnicodeString Adapter, GUID DeviceGuid,
+  UnicodeString LocalMac, UnicodeString SSID, UnicodeString BSSType, UnicodeString
+  Auth, UnicodeString Cipher, UInt32 OnexEnabled, UnicodeString IhvConnectivitySetting,
+  Pointer ConnectionId)
+opcode: Start_24011_193
+keywords: WlanConnect LwtDiagnostic
+task: MsmAssociation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UnicodeString
+  field_name: Auth
+- field_type: UnicodeString
+  field_name: Cipher
+- field_type: UInt32
+  field_name: OnexEnabled
+- field_type: UnicodeString
+  field_name: IhvConnectivitySetting
+- field_type: Pointer
+  field_name: ConnectionId

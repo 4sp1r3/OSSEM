@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '315'
+version: '0'
+event(fields): AppReadiness_ExecuteTask315(UnicodeString User, UnicodeString PackageFamilyName,
+  UnicodeString Reason)
+opcode: ''
+keywords: Tasks
+task: AppReadiness_ExecuteTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: PackageFamilyName
+- field_type: UnicodeString
+  field_name: Reason

@@ -1,0 +1,16 @@
+provider: Microsoft-AppV-Client
+event_id: '1046'
+version: '1'
+event(fields): ConfigureVirtualApplicationConnectionGroup1046_V1(GUID ConnectionGroup,
+  GUID Version)
+opcode: ''
+keywords: Publishing
+task: ConfigureVirtualApplicationConnectionGroup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConnectionGroup
+- field_type: GUID
+  field_name: Version

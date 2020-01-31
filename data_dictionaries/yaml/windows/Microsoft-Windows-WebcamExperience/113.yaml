@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebcamExperience
+event_id: '113'
+version: '0'
+event(fields): Webcam_PageNavigationStop(UInt32 PageMode)
+opcode: Stop
+keywords: ''
+task: Webcam_PageNavigation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PageMode

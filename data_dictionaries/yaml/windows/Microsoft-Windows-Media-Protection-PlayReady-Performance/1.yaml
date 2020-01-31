@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '1'
+version: '0'
+event(fields): UpdateOutputDataBufferQueue(Pointer CMFTAsyncSimpleBase_ptr, UInt32
+  NewCount)
+opcode: ''
+keywords: ''
+task: UpdateOutputDataBufferQueue
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMFTAsyncSimpleBase_ptr
+- field_type: UInt32
+  field_name: NewCount

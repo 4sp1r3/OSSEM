@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '153'
+version: '0'
+event(fields): ImmersiveShellLayoutUpdate(UInt32 BandID, Int32 OuterWorkArea_left,
+  Int32 OuterWorkArea_top, Int32 OuterWorkArea_right, Int32 OuterWorkArea_bottom,
+  Int32 InnerWorkArea_left, Int32 InnerWorkArea_top, Int32 InnerWorkArea_right, Int32
+  InnerWorkArea_bottom)
+opcode: ''
+keywords: ''
+task: ImmersiveShellLayoutUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BandID
+- field_type: Int32
+  field_name: OuterWorkArea_left
+- field_type: Int32
+  field_name: OuterWorkArea_top
+- field_type: Int32
+  field_name: OuterWorkArea_right
+- field_type: Int32
+  field_name: OuterWorkArea_bottom
+- field_type: Int32
+  field_name: InnerWorkArea_left
+- field_type: Int32
+  field_name: InnerWorkArea_top
+- field_type: Int32
+  field_name: InnerWorkArea_right
+- field_type: Int32
+  field_name: InnerWorkArea_bottom

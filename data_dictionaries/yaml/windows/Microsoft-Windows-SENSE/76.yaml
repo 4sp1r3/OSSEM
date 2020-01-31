@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SENSE
+event_id: '76'
+version: '0'
+event(fields): task_076(UInt32 UInt1)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UInt1

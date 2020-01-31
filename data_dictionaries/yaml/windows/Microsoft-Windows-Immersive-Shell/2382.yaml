@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2382'
+version: '0'
+event(fields): PerfTrack_AppSearch_ViewCompleteStop2382()
+opcode: Stop
+keywords: ''
+task: PerfTrack_AppSearch_ViewComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

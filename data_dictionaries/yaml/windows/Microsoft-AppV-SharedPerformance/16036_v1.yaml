@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '16036'
+version: '1'
+event(fields): PublishaGroupStart_V1()
+opcode: Start
+keywords: ''
+task: PublishaGroup
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

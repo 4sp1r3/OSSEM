@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '46'
+version: '0'
+event(fields): AdaptiveStandbyStandbyBudgetReset(UInt32 ActualTimeRange, UInt32 RemainingBatteryPercentage)
+opcode: StandbyBudgetReset
+keywords: AdaptiveStandby
+task: AdaptiveStandby
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ActualTimeRange
+- field_type: UInt32
+  field_name: RemainingBatteryPercentage

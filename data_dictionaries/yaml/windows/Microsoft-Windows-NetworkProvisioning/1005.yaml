@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '1005'
+version: '0'
+event(fields): CreateDocument1005(UInt64 StreamSize, UInt64 StreamSizeLimit)
+opcode: ''
+keywords: XmlValidation ut:Configuration
+task: CreateDocument
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: StreamSize
+- field_type: UInt64
+  field_name: StreamSizeLimit

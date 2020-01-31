@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '501'
+version: '0'
+event(fields): Geolocation501(Pointer GeolocationClass, HexInt32 Status)
+opcode: ''
+keywords: Selfhost FixSession ClientApi
+task: Geolocation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: GeolocationClass
+- field_type: HexInt32
+  field_name: Status

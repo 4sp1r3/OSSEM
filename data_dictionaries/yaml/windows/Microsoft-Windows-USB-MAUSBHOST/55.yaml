@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '55'
+version: '0'
+event(fields): PALManagementChannelInformation55(Pointer fid_Controller, UInt32 fid_ExpectedSubtype,
+  UInt32 fid_ActualSubtype)
+opcode: Information
+keywords: Default HWVerifyHost
+task: PALManagementChannel
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: UInt32
+  field_name: fid_ExpectedSubtype
+- field_type: UInt32
+  field_name: fid_ActualSubtype

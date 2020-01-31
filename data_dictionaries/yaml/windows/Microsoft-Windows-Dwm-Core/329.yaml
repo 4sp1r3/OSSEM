@@ -1,0 +1,83 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '329'
+version: '0'
+event(fields): TOUCH_INTERACTION_DEBUG_EVENTS329(UnicodeString AppUserModelId, UInt64
+  UniqueKey, UInt32 InputType, UInt32 InteractionLibraryType, UInt32 InteractionType,
+  UInt32 InteractionContext, UInt16 cMaxContacts, UInt16 SurfaceWidth, UInt16 SurfaceHeight,
+  UInt32 cFrames, UInt32 MonitorCount, 31 PrimaryAdapterLuid, Boolean PrimaryAdapterIsWarp,
+  UInt32 SumOsLatenciesMs, UInt32 SumKernelInputLatenciesUs, UInt32 SumAppInputLatenciesUs,
+  UInt32 SumAppCommitLatenciesMs, UInt32 SumDwmRenderLatenciesMs, UInt32 SumDwmPresentLatenciesMs,
+  UInt32 MaxOsLatencyMs, UInt32 MaxKernelInputLatencyUs, UInt32 MaxAppInputLatencyUs,
+  UInt32 MaxAppCommitLatencyMs, UInt32 MaxDwmRenderLatencyMs, UInt32 MaxDwmPresentLatencyMs,
+  UInt32 FirstFrameOsLatencyMs, UInt32 FirstFrameKernelInputLatencyUs, UInt32 FirstFrameAppInputLatencyUs,
+  UInt32 FirstFrameAppCommitLatencyMs, UInt32 FirstFrameDwmRenderLatencyMs, UInt32
+  FirstFrameDwmPresentLatencyMs)
+opcode: ''
+keywords: DwmCore DwmInput
+task: TOUCH_INTERACTION_DEBUG_EVENTS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt64
+  field_name: UniqueKey
+- field_type: UInt32
+  field_name: InputType
+- field_type: UInt32
+  field_name: InteractionLibraryType
+- field_type: UInt32
+  field_name: InteractionType
+- field_type: UInt32
+  field_name: InteractionContext
+- field_type: UInt16
+  field_name: cMaxContacts
+- field_type: UInt16
+  field_name: SurfaceWidth
+- field_type: UInt16
+  field_name: SurfaceHeight
+- field_type: UInt32
+  field_name: cFrames
+- field_type: UInt32
+  field_name: MonitorCount
+- field_type: '31'
+  field_name: PrimaryAdapterLuid
+- field_type: Boolean
+  field_name: PrimaryAdapterIsWarp
+- field_type: UInt32
+  field_name: SumOsLatenciesMs
+- field_type: UInt32
+  field_name: SumKernelInputLatenciesUs
+- field_type: UInt32
+  field_name: SumAppInputLatenciesUs
+- field_type: UInt32
+  field_name: SumAppCommitLatenciesMs
+- field_type: UInt32
+  field_name: SumDwmRenderLatenciesMs
+- field_type: UInt32
+  field_name: SumDwmPresentLatenciesMs
+- field_type: UInt32
+  field_name: MaxOsLatencyMs
+- field_type: UInt32
+  field_name: MaxKernelInputLatencyUs
+- field_type: UInt32
+  field_name: MaxAppInputLatencyUs
+- field_type: UInt32
+  field_name: MaxAppCommitLatencyMs
+- field_type: UInt32
+  field_name: MaxDwmRenderLatencyMs
+- field_type: UInt32
+  field_name: MaxDwmPresentLatencyMs
+- field_type: UInt32
+  field_name: FirstFrameOsLatencyMs
+- field_type: UInt32
+  field_name: FirstFrameKernelInputLatencyUs
+- field_type: UInt32
+  field_name: FirstFrameAppInputLatencyUs
+- field_type: UInt32
+  field_name: FirstFrameAppCommitLatencyMs
+- field_type: UInt32
+  field_name: FirstFrameDwmRenderLatencyMs
+- field_type: UInt32
+  field_name: FirstFrameDwmPresentLatencyMs

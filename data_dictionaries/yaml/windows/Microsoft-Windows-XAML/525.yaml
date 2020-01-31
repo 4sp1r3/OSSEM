@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '525'
+version: '0'
+event(fields): KeyUpHandlerStop(Boolean Handled)
+opcode: Stop
+keywords: ''
+task: KeyUpHandler
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Handled

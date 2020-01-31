@@ -1,0 +1,15 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1101'
+version: '0'
+event(fields): iaLPSS2_I2CControllerroutines1101(UInt32 HwStatus, UInt32 SwStatus)
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CControllerroutines
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HwStatus
+- field_type: UInt32
+  field_name: SwStatus

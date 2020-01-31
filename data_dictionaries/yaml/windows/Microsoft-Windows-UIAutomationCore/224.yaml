@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '224'
+version: '0'
+event(fields): CUIAutomation_ElementFromPointStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CUIAutomation_ElementFromPoint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9600'
+version: '0'
+event(fields): BasicViewAdapter()
+opcode: ''
+keywords: BasicViewAdapter
+task: BasicViewAdapter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

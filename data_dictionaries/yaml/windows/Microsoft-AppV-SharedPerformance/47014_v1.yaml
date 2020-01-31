@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '47014'
+version: '1'
+event(fields): ShellExtensionsPublishing_UnpublishPackageStart_V1()
+opcode: Start
+keywords: ''
+task: ShellExtensionsPublishing_UnpublishPackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

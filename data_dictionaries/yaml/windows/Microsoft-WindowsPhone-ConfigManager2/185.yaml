@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '185'
+version: '0'
+event(fields): None185(UInt32 Result)
+opcode: ''
+keywords: Error Trace
+task: None
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

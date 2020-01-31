@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Search
+event_id: '3095'
+version: '0'
+event(fields): task_0PCODE_64pcode_643095(UnicodeString ExtraInfo, UnicodeString Domain,
+  UnicodeString Account, UnicodeString Users, UnicodeString MaxUsers)
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtraInfo
+- field_type: UnicodeString
+  field_name: Domain
+- field_type: UnicodeString
+  field_name: Account
+- field_type: UnicodeString
+  field_name: Users
+- field_type: UnicodeString
+  field_name: MaxUsers

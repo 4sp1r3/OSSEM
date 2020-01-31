@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '4154'
+version: '0'
+event(fields): task_04154(UInt32 AddrLength, UInt32 ProtocolType, UnicodeString InterfaceName,
+  UInt32 RouterIPv4Address, UInt32 Reachable)
+opcode: ''
+keywords: isatap
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AddrLength
+- field_type: UInt32
+  field_name: ProtocolType
+- field_type: UnicodeString
+  field_name: InterfaceName
+- field_type: UInt32
+  field_name: RouterIPv4Address
+- field_type: UInt32
+  field_name: Reachable

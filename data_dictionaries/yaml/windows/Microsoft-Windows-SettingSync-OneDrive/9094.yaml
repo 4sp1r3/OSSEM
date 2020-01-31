@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9094'
+version: '0'
+event(fields): Perf_WLRoamGlobalEnableStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamGlobalEnable
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

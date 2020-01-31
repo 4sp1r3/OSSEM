@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '506'
+version: '3'
+event(fields): CsEnterReason_V3(UInt32 Reason, Boolean LidOpenState, Boolean ExternalMonitorConnectedState,
+  UInt8 ScenarioInstanceId, UInt32 BatteryRemainingCapacityOnEnter, UInt32 BatteryFullChargeCapacityOnEnter,
+  UInt64 ScenarioInstanceIdV2, UInt32 BootId)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: CsEnterReason
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: Boolean
+  field_name: LidOpenState
+- field_type: Boolean
+  field_name: ExternalMonitorConnectedState
+- field_type: UInt8
+  field_name: ScenarioInstanceId
+- field_type: UInt32
+  field_name: BatteryRemainingCapacityOnEnter
+- field_type: UInt32
+  field_name: BatteryFullChargeCapacityOnEnter
+- field_type: UInt64
+  field_name: ScenarioInstanceIdV2
+- field_type: UInt32
+  field_name: BootId

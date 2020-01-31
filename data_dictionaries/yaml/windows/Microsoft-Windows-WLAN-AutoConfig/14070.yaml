@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14070'
+version: '0'
+event(fields): task_014070(GUID InterfaceGuid)
+opcode: ''
+keywords: IntfContext
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

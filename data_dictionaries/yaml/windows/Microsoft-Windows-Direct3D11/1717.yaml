@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1717'
+version: '0'
+event(fields): IDXGIDevice2_ReclaimResourcesStop(UInt32 m_Ret, UInt32 pDiscarded)
+opcode: Stop
+keywords: ''
+task: IDXGIDevice2_ReclaimResources
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret
+- field_type: UInt32
+  field_name: pDiscarded

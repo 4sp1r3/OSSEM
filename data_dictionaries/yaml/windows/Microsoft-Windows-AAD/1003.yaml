@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AAD
+event_id: '1003'
+version: '0'
+event(fields): AadCloudAPPluginOperationStart1003()
+opcode: Start
+keywords: Analytic
+task: AadCloudAPPluginOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

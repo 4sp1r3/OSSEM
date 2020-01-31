@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50091'
+version: '0'
+event(fields): NetworkParameterStateEventParamRequest(HexInt64 InterfaceLUID, UInt32
+  ClassIDSize, Binary ClassID, UInt32 StandardOptListSize, Binary StandardOptList,
+  UInt32 VendorOptListSize, Binary VendorOptList)
+opcode: ParamRequest
+keywords: ''
+task: NetworkParameterStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: InterfaceLUID
+- field_type: UInt32
+  field_name: ClassIDSize
+- field_type: Binary
+  field_name: ClassID
+- field_type: UInt32
+  field_name: StandardOptListSize
+- field_type: Binary
+  field_name: StandardOptList
+- field_type: UInt32
+  field_name: VendorOptListSize
+- field_type: Binary
+  field_name: VendorOptList

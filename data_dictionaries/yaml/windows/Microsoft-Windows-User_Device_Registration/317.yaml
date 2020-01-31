@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '317'
+version: '0'
+event(fields): task_0317(UnicodeString KeyName, Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: Int32
+  field_name: ErrorCode

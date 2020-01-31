@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3404'
+version: '0'
+event(fields): RemoteRegistrarClient_RegisterAlpcPortStart()
+opcode: Start
+keywords: MessagingPerformance RegistrarClient
+task: RemoteRegistrarClient_RegisterAlpcPort
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

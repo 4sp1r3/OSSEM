@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1507'
+version: '0'
+event(fields): IpReassembly1507(UInt32 IfIndex, UInt32 ReassemblyId, UInt32 IPv4SourceAddress,
+  UInt32 IPv4DestinationAddress, UInt32 IpAddrLength, Binary IPv6SourceAddress, Binary
+  IPv6DestinationAddress)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:ReceivePath
+task: IpReassembly
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: ReassemblyId
+- field_type: UInt32
+  field_name: IPv4SourceAddress
+- field_type: UInt32
+  field_name: IPv4DestinationAddress
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: Binary
+  field_name: IPv6SourceAddress
+- field_type: Binary
+  field_name: IPv6DestinationAddress

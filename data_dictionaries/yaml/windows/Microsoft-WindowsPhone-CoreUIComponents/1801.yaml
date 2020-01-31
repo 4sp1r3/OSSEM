@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1801'
+version: '0'
+event(fields): RotationManagerRMSetTaskSupportedOrientations(UInt32 hex)
+opcode: RMSetTaskSupportedOrientations
+keywords: NavigationPerformance RotationManager
+task: RotationManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex

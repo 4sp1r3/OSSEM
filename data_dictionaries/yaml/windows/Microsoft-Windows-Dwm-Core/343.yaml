@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '343'
+version: '0'
+event(fields): HOLOGRAPHICCLIENT_TEXTUREUPDATEWAITFAILED(UInt64 TotalUpdateCount,
+  UInt64 SuccessCount, UInt64 PendingCount, UInt32 WaitResult)
+opcode: ''
+keywords: DwmCore DwmHolographic
+task: HOLOGRAPHICCLIENT_TEXTUREUPDATEWAITFAILED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TotalUpdateCount
+- field_type: UInt64
+  field_name: SuccessCount
+- field_type: UInt64
+  field_name: PendingCount
+- field_type: UInt32
+  field_name: WaitResult

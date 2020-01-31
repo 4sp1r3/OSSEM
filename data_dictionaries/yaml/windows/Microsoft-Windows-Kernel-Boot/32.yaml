@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '32'
+version: '0'
+event(fields): UserInputTime(UInt64 BitlockerUserInputTime)
+opcode: ''
+keywords: ''
+task: UserInputTime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: BitlockerUserInputTime

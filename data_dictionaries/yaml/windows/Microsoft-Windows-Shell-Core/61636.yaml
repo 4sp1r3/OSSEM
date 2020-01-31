@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61636'
+version: '0'
+event(fields): DataPackage_SetBitmapStart()
+opcode: Start
+keywords: Shell
+task: DataPackage_SetBitmap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

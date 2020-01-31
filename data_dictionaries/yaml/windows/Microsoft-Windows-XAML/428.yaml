@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '428'
+version: '0'
+event(fields): DCompAppendChild(UInt64 Parent, UInt64 Visual)
+opcode: ''
+keywords: ''
+task: DCompAppendChild
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Parent
+- field_type: UInt64
+  field_name: Visual

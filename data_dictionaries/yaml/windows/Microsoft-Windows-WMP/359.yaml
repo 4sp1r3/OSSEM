@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '359'
+version: '0'
+event(fields): HME_RME_CLIENT_CONSUME_METADATA_RESPONSE_ENDStop(UnicodeString ID)
+opcode: Stop
+keywords: mediaplayer
+task: HME_RME_CLIENT_CONSUME_METADATA_RESPONSE_END
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ID

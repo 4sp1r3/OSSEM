@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1027'
+version: '0'
+event(fields): WinNatMStaticMappingAddition(UnicodeString InstanceName, UInt32 TransportProtocol,
+  UInt32 MappingType, UInt32 AddressLength, Binary ExternalTransportAddress, Binary
+  InternalTransportAddress, GUID InternalRoutingDomainId, UInt32 CompartmentId, Binary
+  RemoteAddressPrefix, UInt32 RemoteAddressPrefixLength)
+opcode: ''
+keywords: ut:Configuration
+task: WinNatMStaticMappingAddition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InstanceName
+- field_type: UInt32
+  field_name: TransportProtocol
+- field_type: UInt32
+  field_name: MappingType
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: Binary
+  field_name: ExternalTransportAddress
+- field_type: Binary
+  field_name: InternalTransportAddress
+- field_type: GUID
+  field_name: InternalRoutingDomainId
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: Binary
+  field_name: RemoteAddressPrefix
+- field_type: UInt32
+  field_name: RemoteAddressPrefixLength

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3424'
+version: '0'
+event(fields): TransportReceiveStart3424(Int32 websocketId, UnicodeString AppDomain)
+opcode: Start
+keywords: HTTP
+task: TransportReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: websocketId
+- field_type: UnicodeString
+  field_name: AppDomain

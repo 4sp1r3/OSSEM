@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30114'
+version: '0'
+event(fields): task_030114(UInt32 Status, Pointer VcEndpoint)
+opcode: ''
+keywords: Smb_Perf
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: Pointer
+  field_name: VcEndpoint

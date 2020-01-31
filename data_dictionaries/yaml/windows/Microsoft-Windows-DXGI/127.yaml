@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '127'
+version: '0'
+event(fields): IDXGIOutput_AddRefStop(UInt32 m_Ret)
+opcode: Stop
+keywords: ''
+task: IDXGIOutput_AddRef
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret

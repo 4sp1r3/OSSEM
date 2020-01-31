@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '125'
+version: '0'
+event(fields): ETWGUID_STEREO_RIGHTCHANNELRENDEREVENTStart()
+opcode: Start
+keywords: DwmCore
+task: ETWGUID_STEREO_RIGHTCHANNELRENDEREVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

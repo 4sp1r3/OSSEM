@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60021'
+version: '0'
+event(fields): IE_CompressThumbnailStop()
+opcode: Stop
+keywords: InternetExplorer
+task: IE_CompressThumbnail
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

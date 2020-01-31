@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '214'
+version: '0'
+event(fields): TextSelectionChangedEventProcessingStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: TextSelectionChangedEventProcessing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

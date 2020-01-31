@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '12013'
+version: '1'
+event(fields): VEMgrProcessLaunchStop_V1(UInt32 pid)
+opcode: Stop
+keywords: ''
+task: VEMgrProcessLaunch
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: pid

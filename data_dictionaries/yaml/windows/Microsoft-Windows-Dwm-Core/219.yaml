@@ -1,0 +1,49 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '219'
+version: '0'
+event(fields): OVERLAY_CHECKSUPPORT(UInt64 hResource, UInt32 Flags, Int32 SrcRectLeft,
+  Int32 SrcRectTop, Int32 SrcRectRight, Int32 SrcRectBottom, Int32 DstRectLeft, Int32
+  DstRectTop, Int32 DstRectRight, Int32 DstRectBottom, Int32 ClipRectLeft, Int32 ClipRectTop,
+  Int32 ClipRectRight, Int32 ClipRectBottom, UInt32 Rotation, UInt32 Blend, UInt32
+  ColorSpace)
+opcode: ''
+keywords: DwmCore
+task: OVERLAY_CHECKSUPPORT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hResource
+- field_type: UInt32
+  field_name: Flags
+- field_type: Int32
+  field_name: SrcRectLeft
+- field_type: Int32
+  field_name: SrcRectTop
+- field_type: Int32
+  field_name: SrcRectRight
+- field_type: Int32
+  field_name: SrcRectBottom
+- field_type: Int32
+  field_name: DstRectLeft
+- field_type: Int32
+  field_name: DstRectTop
+- field_type: Int32
+  field_name: DstRectRight
+- field_type: Int32
+  field_name: DstRectBottom
+- field_type: Int32
+  field_name: ClipRectLeft
+- field_type: Int32
+  field_name: ClipRectTop
+- field_type: Int32
+  field_name: ClipRectRight
+- field_type: Int32
+  field_name: ClipRectBottom
+- field_type: UInt32
+  field_name: Rotation
+- field_type: UInt32
+  field_name: Blend
+- field_type: UInt32
+  field_name: ColorSpace

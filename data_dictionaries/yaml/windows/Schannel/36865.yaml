@@ -1,0 +1,15 @@
+provider: Schannel
+event_id: '36865'
+version: '0'
+event(fields): task_036865(UnicodeString ModuleName, HexInt32 Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ModuleName
+- field_type: HexInt32
+  field_name: Error

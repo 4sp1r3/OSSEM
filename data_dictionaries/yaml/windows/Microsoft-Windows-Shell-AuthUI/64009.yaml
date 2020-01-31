@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '64009'
+version: '0'
+event(fields): LockScreenCall_EvictCallStart(GUID guid)
+opcode: Start
+keywords: ''
+task: LockScreenCall_EvictCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: guid

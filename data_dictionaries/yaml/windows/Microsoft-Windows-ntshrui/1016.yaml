@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ntshrui
+event_id: '1016'
+version: '0'
+event(fields): Sharing_Add_User_To_Sharing_PermissionsStop()
+opcode: Stop
+keywords: ''
+task: Sharing_Add_User_To_Sharing_Permissions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

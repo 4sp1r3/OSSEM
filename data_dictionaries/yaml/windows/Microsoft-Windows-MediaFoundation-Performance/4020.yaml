@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4020'
+version: '0'
+event(fields): ProcessOutput(AnsiString tag, Pointer object, UInt8 objectCategory,
+  Pointer sample, UInt32 byteCount, Int64 sampleTime, Int64 processTime)
+opcode: Output
+keywords: ''
+task: Process
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: UInt8
+  field_name: objectCategory
+- field_type: Pointer
+  field_name: sample
+- field_type: UInt32
+  field_name: byteCount
+- field_type: Int64
+  field_name: sampleTime
+- field_type: Int64
+  field_name: processTime

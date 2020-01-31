@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '1014'
+version: '0'
+event(fields): DMR_GetMFSupportedPlaybackDLNAProfilesStart()
+opcode: Start
+keywords: ''
+task: DMR_GetMFSupportedPlaybackDLNAProfiles
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

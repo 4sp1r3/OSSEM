@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3048'
+version: '1'
+event(fields): PublishPackageGroupCompleteStop_V1()
+opcode: Stop
+keywords: ''
+task: PublishPackageGroupComplete
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

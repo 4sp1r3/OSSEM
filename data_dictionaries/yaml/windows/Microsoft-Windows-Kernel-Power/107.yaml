@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '107'
+version: '0'
+event(fields): PostSleepNotification(UInt32 TargetState, UInt32 EffectiveState, UInt32
+  WakeFromState)
+opcode: ''
+keywords: po:Diagnostic po:PerfTrackContext po:DiagnosticLight
+task: PostSleepNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TargetState
+- field_type: UInt32
+  field_name: EffectiveState
+- field_type: UInt32
+  field_name: WakeFromState

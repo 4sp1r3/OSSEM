@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3553'
+version: '0'
+event(fields): XamlServicesLoadStart(UnicodeString AppDomain)
+opcode: Start
+keywords: WebHost
+task: XamlServicesLoad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

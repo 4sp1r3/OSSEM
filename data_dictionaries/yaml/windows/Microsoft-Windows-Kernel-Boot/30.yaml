@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '30'
+version: '0'
+event(fields): FirmwareBootData(UInt64 ResetEndStart, UInt64 LoadOSImageStart, UInt64
+  StartOSImageStart, UInt64 ExitBootServicesEntry, UInt64 ExitBootServicesExit)
+opcode: ''
+keywords: ''
+task: FirmwareBootData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ResetEndStart
+- field_type: UInt64
+  field_name: LoadOSImageStart
+- field_type: UInt64
+  field_name: StartOSImageStart
+- field_type: UInt64
+  field_name: ExitBootServicesEntry
+- field_type: UInt64
+  field_name: ExitBootServicesExit

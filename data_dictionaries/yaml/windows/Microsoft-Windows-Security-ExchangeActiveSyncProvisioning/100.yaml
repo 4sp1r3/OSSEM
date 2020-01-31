@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-ExchangeActiveSyncProvisioning
+event_id: '100'
+version: '0'
+event(fields): ExchangeActiveSyncProvisioningPerformanceStart()
+opcode: Start
+keywords: ''
+task: ExchangeActiveSyncProvisioningPerformance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

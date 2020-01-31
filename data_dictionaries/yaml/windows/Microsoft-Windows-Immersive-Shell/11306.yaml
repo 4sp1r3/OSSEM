@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11306'
+version: '0'
+event(fields): LockScreenCallBroker_VisualsChanged(GUID ConnectionGUID, Pointer NewHWND,
+  Boolean NewHWNDIsSplashScreen, Boolean CrossFaded)
+opcode: ''
+keywords: LockScreenCallBroker
+task: LockScreenCallBroker_VisualsChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: Pointer
+  field_name: NewHWND
+- field_type: Boolean
+  field_name: NewHWNDIsSplashScreen
+- field_type: Boolean
+  field_name: CrossFaded

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-CFE
+event_id: '4'
+version: '0'
+event(fields): Launch_Browser()
+opcode: ''
+keywords: Wwan_Performance
+task: Launch_Browser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

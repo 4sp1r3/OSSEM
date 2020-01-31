@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DSC
+event_id: '4348'
+version: '0'
+event(fields): task_04348(UnicodeString resourceName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: resourceName

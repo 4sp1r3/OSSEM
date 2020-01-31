@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '115'
+version: '0'
+event(fields): AuthApps_ShutdownStart()
+opcode: Start
+keywords: Service
+task: AuthApps_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

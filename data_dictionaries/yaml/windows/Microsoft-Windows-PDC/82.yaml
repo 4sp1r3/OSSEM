@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PDC
+event_id: '82'
+version: '0'
+event(fields): TaskDereference(Pointer TaskClient, UInt32 At, UInt32 ReferenceDereference)
+opcode: ''
+keywords: tasks
+task: TaskDereference
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TaskClient
+- field_type: UInt32
+  field_name: At
+- field_type: UInt32
+  field_name: ReferenceDereference

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3103'
+version: '0'
+event(fields): ClearToastNotificationsStart3103()
+opcode: Start
+keywords: wpnui wpndev_NotificationE2E
+task: ClearToastNotifications
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

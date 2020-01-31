@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2218'
+version: '0'
+event(fields): SharingManager_ActivateTargetStart()
+opcode: Start
+keywords: ''
+task: SharingManager_ActivateTarget
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

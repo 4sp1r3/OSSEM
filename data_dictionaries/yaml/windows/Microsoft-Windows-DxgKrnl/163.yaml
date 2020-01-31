@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '163'
+version: '0'
+event(fields): DdiLinkDeviceStop(Pointer PhysicalDeviceObject, Pointer MiniportDeviceContext,
+  UInt32 ChainUid, UInt32 NumberOfLinksInChain, Boolean LeadLink, UInt32 Status)
+opcode: Stop
+keywords: Base
+task: DdiLinkDevice
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PhysicalDeviceObject
+- field_type: Pointer
+  field_name: MiniportDeviceContext
+- field_type: UInt32
+  field_name: ChainUid
+- field_type: UInt32
+  field_name: NumberOfLinksInChain
+- field_type: Boolean
+  field_name: LeadLink
+- field_type: UInt32
+  field_name: Status

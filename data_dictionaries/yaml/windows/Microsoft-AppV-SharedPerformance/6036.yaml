@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6036'
+version: '0'
+event(fields): LoadAllPackagesStart()
+opcode: Start
+keywords: ''
+task: LoadAllPackages
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4205'
+version: '0'
+event(fields): GatewayResolutionFailed(GUID InterfaceGuid, UnicodeString GatewayIpAddress,
+  UInt32 ErrorCode)
+opcode: Failed
+keywords: Resolver LwtDiagnostic
+task: GatewayResolution
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: GatewayIpAddress
+- field_type: UInt32
+  field_name: ErrorCode

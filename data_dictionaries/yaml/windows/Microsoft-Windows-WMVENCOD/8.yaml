@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WMVENCOD
+event_id: '8'
+version: '0'
+event(fields): VC1ENC_FRAME_MODECOST_INFO(Double MixedMVCost, Double OneMVQPBicubicCost,
+  Double OneMVHPBicubicCost, Double OneMVHPBilinearCost, Double IntraCost, Int64 SampleTime,
+  Pointer EncoderInstance)
+opcode: ''
+keywords: ''
+task: VC1ENC_FRAME_MODECOST_INFO
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Double
+  field_name: MixedMVCost
+- field_type: Double
+  field_name: OneMVQPBicubicCost
+- field_type: Double
+  field_name: OneMVHPBicubicCost
+- field_type: Double
+  field_name: OneMVHPBilinearCost
+- field_type: Double
+  field_name: IntraCost
+- field_type: Int64
+  field_name: SampleTime
+- field_type: Pointer
+  field_name: EncoderInstance

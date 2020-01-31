@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Networking-BackgroundTransfer
+event_id: '19'
+version: '0'
+event(fields): BackgroundTransfer19(GUID NotificationId, UInt32 LocationId)
+opcode: ''
+keywords: keywords.KW_ALL
+task: BackgroundTransfer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: NotificationId
+- field_type: UInt32
+  field_name: LocationId

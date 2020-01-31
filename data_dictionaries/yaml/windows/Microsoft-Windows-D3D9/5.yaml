@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-D3D9
+event_id: '5'
+version: '0'
+event(fields): BindToDWM(UInt64 LogicalSurfaceHandle, UInt16 BackBufferCount, UInt32
+  SharedHandles)
+opcode: ''
+keywords: Events
+task: BindToDWM
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: LogicalSurfaceHandle
+- field_type: UInt16
+  field_name: BackBufferCount
+- field_type: UInt32
+  field_name: SharedHandles

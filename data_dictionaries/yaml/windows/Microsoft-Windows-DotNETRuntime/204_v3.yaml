@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '204'
+version: '3'
+event(fields): GCPerHeapHistory_V3(UInt16 ClrInstanceID, Pointer FreeListAllocated,
+  Pointer FreeListRejected, Pointer EndOfSegAllocated, Pointer CondemnedAllocated,
+  Pointer PinnedAllocated, Pointer PinnedAllocatedAdvance, UInt32 RunningFreeListEfficiency,
+  UInt32 CondemnReasons0, UInt32 CondemnReasons1, UInt32 CompactMechanisms, UInt32
+  ExpandMechanisms, UInt32 HeapIndex, Pointer ExtraGen0Commit, UInt32 Count, Pointer
+  Values)
+opcode: PerHeapHistory
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: Pointer
+  field_name: FreeListAllocated
+- field_type: Pointer
+  field_name: FreeListRejected
+- field_type: Pointer
+  field_name: EndOfSegAllocated
+- field_type: Pointer
+  field_name: CondemnedAllocated
+- field_type: Pointer
+  field_name: PinnedAllocated
+- field_type: Pointer
+  field_name: PinnedAllocatedAdvance
+- field_type: UInt32
+  field_name: RunningFreeListEfficiency
+- field_type: UInt32
+  field_name: CondemnReasons0
+- field_type: UInt32
+  field_name: CondemnReasons1
+- field_type: UInt32
+  field_name: CompactMechanisms
+- field_type: UInt32
+  field_name: ExpandMechanisms
+- field_type: UInt32
+  field_name: HeapIndex
+- field_type: Pointer
+  field_name: ExtraGen0Commit
+- field_type: UInt32
+  field_name: Count
+- field_type: Pointer
+  field_name: Values

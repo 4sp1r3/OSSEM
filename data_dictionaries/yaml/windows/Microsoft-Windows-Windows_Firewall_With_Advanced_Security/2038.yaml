@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2038'
+version: '0'
+event(fields): task_02038(UnicodeString ID, UnicodeString Name, UnicodeString Reason,
+  UInt32 RuleStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ID
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Reason
+- field_type: UInt32
+  field_name: RuleStatus

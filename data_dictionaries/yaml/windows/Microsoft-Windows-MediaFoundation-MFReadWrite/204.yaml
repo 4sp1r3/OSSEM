@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-MFReadWrite
+event_id: '204'
+version: '0'
+event(fields): Transform_ProcessMessage(Pointer Object, UInt32 StreamIndex, Pointer
+  Transform, UInt32 Message, Pointer Param)
+opcode: ''
+keywords: ''
+task: Transform_ProcessMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: StreamIndex
+- field_type: Pointer
+  field_name: Transform
+- field_type: UInt32
+  field_name: Message
+- field_type: Pointer
+  field_name: Param

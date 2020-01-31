@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '302'
+version: '0'
+event(fields): MPS_SVC_BFE_EngineOpenStop()
+opcode: Stop
+keywords: Service
+task: MPS_SVC_BFE_EngineOpen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

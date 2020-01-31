@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4824'
+version: '0'
+event(fields): task_04824(UnicodeString TargetUserName, SID TargetSid, UnicodeString
+  ServiceName, HexInt32 TicketOptions, HexInt32 Status, UnicodeString PreAuthType,
+  UnicodeString IpAddress, UnicodeString IpPort, UnicodeString CertIssuerName, UnicodeString
+  CertSerialNumber, UnicodeString CertThumbprint)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TargetUserName
+- field_type: SID
+  field_name: TargetSid
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: HexInt32
+  field_name: TicketOptions
+- field_type: HexInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: PreAuthType
+- field_type: UnicodeString
+  field_name: IpAddress
+- field_type: UnicodeString
+  field_name: IpPort
+- field_type: UnicodeString
+  field_name: CertIssuerName
+- field_type: UnicodeString
+  field_name: CertSerialNumber
+- field_type: UnicodeString
+  field_name: CertThumbprint

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '11006'
+version: '0'
+event(fields): FilterControl_ShowStop()
+opcode: Stop
+keywords: Shell
+task: FilterControl_Show
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

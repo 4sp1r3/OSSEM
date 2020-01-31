@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-wmvdecod
+event_id: '4'
+version: '0'
+event(fields): wmvdecod_setExtendedFormatStart(UInt32 FormatSize, Binary Format)
+opcode: Start
+keywords: ''
+task: wmvdecod_setExtendedFormat
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FormatSize
+- field_type: Binary
+  field_name: Format

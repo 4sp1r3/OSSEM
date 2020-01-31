@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '196'
+version: '0'
+event(fields): IDXGISwapChain_GetLastPresentCountStart(Pointer pThis, Pointer pLastPresentCount)
+opcode: Start
+keywords: ''
+task: IDXGISwapChain_GetLastPresentCount
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pLastPresentCount

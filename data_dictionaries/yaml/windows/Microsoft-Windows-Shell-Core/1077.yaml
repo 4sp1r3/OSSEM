@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1077'
+version: '0'
+event(fields): DataLayer_RSMImmediateIndexStop(UInt32 Index)
+opcode: Stop
+keywords: Shell
+task: DataLayer_RSMImmediateIndex
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index

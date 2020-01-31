@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinRM
+event_id: '193'
+version: '0'
+event(fields): Userauthorization193(UnicodeString param1, UnicodeString param2, UnicodeString
+  param3, UnicodeString param4)
+opcode: ''
+keywords: Keyword.Server Keyword.Security
+task: Userauthorization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2
+- field_type: UnicodeString
+  field_name: param3
+- field_type: UnicodeString
+  field_name: param4

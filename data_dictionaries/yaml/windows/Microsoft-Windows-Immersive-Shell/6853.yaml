@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6853'
+version: '0'
+event(fields): SecondaryTileQuota_EnforceQuotaStop(UInt32 HRESULT, UInt32 BytesReclaimed)
+opcode: Stop
+keywords: ''
+task: SecondaryTileQuota_EnforceQuota
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: BytesReclaimed

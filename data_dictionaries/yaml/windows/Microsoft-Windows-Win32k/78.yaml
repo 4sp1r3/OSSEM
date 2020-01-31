@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '78'
+version: '0'
+event(fields): WakeRIT(Int8 CallbackCount, Int32 WakeReason)
+opcode: ''
+keywords: MessagePumpInternalAndInput
+task: WakeRIT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: CallbackCount
+- field_type: Int32
+  field_name: WakeReason

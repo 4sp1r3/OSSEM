@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PhotoAcq
+event_id: '3'
+version: '0'
+event(fields): TransferItemStart()
+opcode: Start
+keywords: ''
+task: TransferItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

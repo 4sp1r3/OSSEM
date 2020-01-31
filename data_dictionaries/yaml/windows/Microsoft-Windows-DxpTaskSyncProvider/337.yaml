@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxpTaskSyncProvider
+event_id: '337'
+version: '0'
+event(fields): DxpTaskSync_SyncOperationStop()
+opcode: Stop
+keywords: ''
+task: DxpTaskSync_SyncOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

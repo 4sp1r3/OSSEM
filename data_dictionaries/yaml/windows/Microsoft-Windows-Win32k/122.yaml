@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '122'
+version: '0'
+event(fields): RenderingGetDxAccum(UInt64 hSprite, Pointer hWnd)
+opcode: GetDxAccum
+keywords: Rendering
+task: Rendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hSprite
+- field_type: Pointer
+  field_name: hWnd

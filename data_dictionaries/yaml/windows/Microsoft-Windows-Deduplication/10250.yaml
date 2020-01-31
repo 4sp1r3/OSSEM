@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '10250'
+version: '0'
+event(fields): task_010250(UInt64 MaxSize, UInt64 CurrentSize, UInt32 RemainingRanges,
+  UInt32 ErrorCode, UnicodeString ErrorMessage, UnicodeString Description, UnicodeString
+  SourceFile, UInt32 LineNumber)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MaxSize
+- field_type: UInt64
+  field_name: CurrentSize
+- field_type: UInt32
+  field_name: RemainingRanges
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: Description
+- field_type: UnicodeString
+  field_name: SourceFile
+- field_type: UInt32
+  field_name: LineNumber

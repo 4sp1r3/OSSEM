@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Windows Defender
+event_id: '5004'
+version: '0'
+event(fields): task_05004(UnicodeString ProductName, UnicodeString ProductVersion,
+  UnicodeString FeatureName, UnicodeString Configuration, UnicodeString Unused, UnicodeString
+  FeatureID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UnicodeString
+  field_name: ProductVersion
+- field_type: UnicodeString
+  field_name: FeatureName
+- field_type: UnicodeString
+  field_name: Configuration
+- field_type: UnicodeString
+  field_name: Unused
+- field_type: UnicodeString
+  field_name: FeatureID

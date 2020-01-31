@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1245'
+version: '0'
+event(fields): task_01245(UnicodeString HostName, UInt16 Port, UnicodeString ProxyHostName)
+opcode: ''
+keywords: wnptrans
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HostName
+- field_type: UInt16
+  field_name: Port
+- field_type: UnicodeString
+  field_name: ProxyHostName

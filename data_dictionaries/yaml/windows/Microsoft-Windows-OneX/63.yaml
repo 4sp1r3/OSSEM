@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OneX
+event_id: '63'
+version: '0'
+event(fields): User63(UInt32 Result)
+opcode: ''
+keywords: OneXUI ut:Authentication
+task: User
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

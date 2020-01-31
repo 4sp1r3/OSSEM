@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '2024'
+version: '1'
+event(fields): CreatePackageGroupDescriptorDocumentFromFileStop_V1()
+opcode: Stop
+keywords: ''
+task: CreatePackageGroupDescriptorDocumentFromFile
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '28062'
+version: '1'
+event(fields): TransportrunrequestoperationStop28062_V1()
+opcode: Stop
+keywords: ''
+task: Transportrunrequestoperation
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

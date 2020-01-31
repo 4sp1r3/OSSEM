@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '73'
+version: '0'
+event(fields): PlatformParkingPreference(UInt16 Group, Pointer Affinity, UInt8 UnparkCount,
+  Pointer OSPreferencePark, Pointer OSPreferenceUnpark, Pointer PlatformPreferencePark,
+  Pointer PlatformPreferenceUnpark)
+opcode: ''
+keywords: Diag
+task: PlatformParkingPreference
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: Pointer
+  field_name: Affinity
+- field_type: UInt8
+  field_name: UnparkCount
+- field_type: Pointer
+  field_name: OSPreferencePark
+- field_type: Pointer
+  field_name: OSPreferenceUnpark
+- field_type: Pointer
+  field_name: PlatformPreferencePark
+- field_type: Pointer
+  field_name: PlatformPreferenceUnpark

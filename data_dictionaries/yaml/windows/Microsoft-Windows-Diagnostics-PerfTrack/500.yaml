@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '500'
+version: '0'
+event(fields): SqmLogger_AddToScenarioStream(UInt32 CanAddToScenarioStream, UInt32
+  ScenarioId, UInt32 ScenarioDuration, UInt32 ScenarioPackedContext, UInt32 MoshTimeValue,
+  UnicodeString ScenarioMetadata)
+opcode: ''
+keywords: SQMStatus
+task: SqmLogger_AddToScenarioStream
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CanAddToScenarioStream
+- field_type: UInt32
+  field_name: ScenarioId
+- field_type: UInt32
+  field_name: ScenarioDuration
+- field_type: UInt32
+  field_name: ScenarioPackedContext
+- field_type: UInt32
+  field_name: MoshTimeValue
+- field_type: UnicodeString
+  field_name: ScenarioMetadata

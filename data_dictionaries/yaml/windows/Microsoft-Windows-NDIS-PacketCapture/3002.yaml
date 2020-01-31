@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NDIS-PacketCapture
+event_id: '3002'
+version: '0'
+event(fields): LayerLoadLoadingState3002(UInt8 PreviousState, UInt8 NextState, UInt32
+  Location, UInt32 Context)
+opcode: LoadingState
+keywords: ut:Global keyword_200000000000
+task: LayerLoad
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: PreviousState
+- field_type: UInt8
+  field_name: NextState
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context

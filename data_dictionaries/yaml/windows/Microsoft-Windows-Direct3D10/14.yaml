@@ -1,0 +1,53 @@
+provider: Microsoft-Windows-Direct3D10
+event_id: '14'
+version: '0'
+event(fields): Texture2DDCStart(Pointer pID3D10Resource, Pointer pIDXGISurface, Pointer
+  pID3D10Device, UInt32 Dimension, UInt32 Usage, UInt32 Width, UInt32 Height, UInt32
+  Depth, UInt32 MipLevels, UInt32 ArraySize, UInt32 Format, UInt32 SampleCount, UInt32
+  SampleQuality, UInt32 BindFlags, UInt32 CPUAccessFlags, UInt32 MiscFlags, UInt32
+  hKMResource, Pointer hUMResource, UInt32 UMResourceMiscFlags)
+opcode: DC_Start
+keywords: Resources
+task: Texture2D
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D10Resource
+- field_type: Pointer
+  field_name: pIDXGISurface
+- field_type: Pointer
+  field_name: pID3D10Device
+- field_type: UInt32
+  field_name: Dimension
+- field_type: UInt32
+  field_name: Usage
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: Depth
+- field_type: UInt32
+  field_name: MipLevels
+- field_type: UInt32
+  field_name: ArraySize
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: SampleCount
+- field_type: UInt32
+  field_name: SampleQuality
+- field_type: UInt32
+  field_name: BindFlags
+- field_type: UInt32
+  field_name: CPUAccessFlags
+- field_type: UInt32
+  field_name: MiscFlags
+- field_type: UInt32
+  field_name: hKMResource
+- field_type: Pointer
+  field_name: hUMResource
+- field_type: UInt32
+  field_name: UMResourceMiscFlags

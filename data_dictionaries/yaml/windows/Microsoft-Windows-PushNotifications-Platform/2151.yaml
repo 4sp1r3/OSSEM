@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2151'
+version: '0'
+event(fields): task_02151(Boolean Enabled)
+opcode: ''
+keywords: wpnend wpntroubleshoot
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Enabled

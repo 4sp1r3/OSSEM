@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '31'
+version: '0'
+event(fields): ApipDetachMilContentStart()
+opcode: Start
+keywords: DwmApi
+task: ApipDetachMilContent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,51 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1147'
+version: '0'
+event(fields): IpRoutePropertyChange(Pointer Route, UInt32 Interface, UInt32 DestinationPrefixAddressLength,
+  UInt32 NextHopAddressLength, AnsiString Protocol, UInt32 DestinationPrefixLength,
+  Binary DestinationPrefix, Binary NextHopAddress, UInt64 ValidLifetime, UInt64 PreferredLifetime,
+  UInt32 Metric, UInt32 Loopback, UInt32 AutoconfigureAddress, UInt32 Publish, UInt32
+  Immortal, UInt32 IPv4DestinationPrefix, UInt32 IPv4NextHopAddress, UInt32 IPProtocol)
+opcode: ''
+keywords: ut:TcpipRoute ut:TcpipDiagnosis ut:Configuration
+task: IpRoutePropertyChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Route
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: DestinationPrefixAddressLength
+- field_type: UInt32
+  field_name: NextHopAddressLength
+- field_type: AnsiString
+  field_name: Protocol
+- field_type: UInt32
+  field_name: DestinationPrefixLength
+- field_type: Binary
+  field_name: DestinationPrefix
+- field_type: Binary
+  field_name: NextHopAddress
+- field_type: UInt64
+  field_name: ValidLifetime
+- field_type: UInt64
+  field_name: PreferredLifetime
+- field_type: UInt32
+  field_name: Metric
+- field_type: UInt32
+  field_name: Loopback
+- field_type: UInt32
+  field_name: AutoconfigureAddress
+- field_type: UInt32
+  field_name: Publish
+- field_type: UInt32
+  field_name: Immortal
+- field_type: UInt32
+  field_name: IPv4DestinationPrefix
+- field_type: UInt32
+  field_name: IPv4NextHopAddress
+- field_type: UInt32
+  field_name: IPProtocol

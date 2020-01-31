@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UxInit
+event_id: '11'
+version: '0'
+event(fields): ThemeServiceStart()
+opcode: ''
+keywords: ''
+task: ThemeServiceStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

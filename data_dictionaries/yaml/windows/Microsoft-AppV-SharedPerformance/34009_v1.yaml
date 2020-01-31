@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '34009'
+version: '1'
+event(fields): VFSprocessgetconfigurationStop_V1()
+opcode: Stop
+keywords: ''
+task: VFSprocessgetconfiguration
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

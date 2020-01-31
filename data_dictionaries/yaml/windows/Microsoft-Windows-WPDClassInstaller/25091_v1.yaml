@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WPDClassInstaller
+event_id: '25091'
+version: '1'
+event(fields): task_0PCODE_192pcode_19225091_V1()
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

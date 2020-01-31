@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '64'
+version: '0'
+event(fields): ProcessorPerformanceRundown(UInt16 Group, UInt8 Number, Boolean Parked,
+  UInt32 BiosCap, UInt32 ThermalCap, UInt32 DesiredPerformance, UInt32 NominalFrequency)
+opcode: ''
+keywords: Diag
+task: ProcessorPerformanceRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: Boolean
+  field_name: Parked
+- field_type: UInt32
+  field_name: BiosCap
+- field_type: UInt32
+  field_name: ThermalCap
+- field_type: UInt32
+  field_name: DesiredPerformance
+- field_type: UInt32
+  field_name: NominalFrequency

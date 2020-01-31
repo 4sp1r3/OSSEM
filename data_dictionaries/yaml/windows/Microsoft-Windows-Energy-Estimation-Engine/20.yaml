@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '20'
+version: '0'
+event(fields): DisplayEnergyPolicyBrightness(UInt8 PreviousValue, UInt8 CurrentValue)
+opcode: PolicyBrightness
+keywords: ''
+task: DisplayEnergy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: PreviousValue
+- field_type: UInt8
+  field_name: CurrentValue

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-ESE
+event_id: '113'
+version: '0'
+event(fields): ESE_TransactionRollback_Trace(Pointer SessionNumber, Pointer TransactionNumber,
+  UInt8 TransactionLevel)
+opcode: ''
+keywords: Transaction
+task: ESE_TransactionRollback_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SessionNumber
+- field_type: Pointer
+  field_name: TransactionNumber
+- field_type: UInt8
+  field_name: TransactionLevel

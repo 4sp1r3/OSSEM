@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '676'
+version: '0'
+event(fields): Mshtml_CDMCrossSlideDraggableTouchTargetHandler_UpdateCrossSlideOffset(Float
+  ViewportOffsetWidth, Float ViewportOffsetHeight, Float ZoomLevel, Pointer CDMCrossSlideDraggableTouchTargetHandler)
+opcode: ''
+keywords: draganddrop touch
+task: Mshtml_CDMCrossSlideDraggableTouchTargetHandler_UpdateCrossSlideOffset
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: ViewportOffsetWidth
+- field_type: Float
+  field_name: ViewportOffsetHeight
+- field_type: Float
+  field_name: ZoomLevel
+- field_type: Pointer
+  field_name: CDMCrossSlideDraggableTouchTargetHandler

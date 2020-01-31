@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '50'
+version: '0'
+event(fields): PALManagementChannelInformation(Pointer fid_Controller, Pointer fid_WdfRequest,
+  UInt8 fid_SubType, UInt16 fid_DeviceHandle, UInt8 fid_DeviceAddress, UInt8 fid_Ssid,
+  UInt8 fid_StatusCode, UInt16 fid_DialogToken, UInt32 fid_NtStatus)
+opcode: Information
+keywords: Default
+task: PALManagementChannel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: Pointer
+  field_name: fid_WdfRequest
+- field_type: UInt8
+  field_name: fid_SubType
+- field_type: UInt16
+  field_name: fid_DeviceHandle
+- field_type: UInt8
+  field_name: fid_DeviceAddress
+- field_type: UInt8
+  field_name: fid_Ssid
+- field_type: UInt8
+  field_name: fid_StatusCode
+- field_type: UInt16
+  field_name: fid_DialogToken
+- field_type: UInt32
+  field_name: fid_NtStatus

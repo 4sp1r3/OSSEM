@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '1307'
+version: '0'
+event(fields): APPCLOSEStart()
+opcode: Start
+keywords: mediaplayer
+task: APPCLOSE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

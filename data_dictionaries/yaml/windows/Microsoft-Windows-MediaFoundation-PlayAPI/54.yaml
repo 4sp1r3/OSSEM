@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '54'
+version: '0'
+event(fields): MFPlayStart54(Pointer Object, UInt32 AspectRatioFlags)
+opcode: Start
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: AspectRatioFlags

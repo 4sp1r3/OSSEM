@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AAD
+event_id: '1227'
+version: '0'
+event(fields): AuthHelperStop1227(HexInt32 Status)
+opcode: Stop
+keywords: Analytic
+task: AuthHelper
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

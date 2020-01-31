@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '4016'
+version: '0'
+event(fields): task_0Start4016(UnicodeString Hostname, UnicodeString Url)
+opcode: Start
+keywords: search
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Hostname
+- field_type: UnicodeString
+  field_name: Url

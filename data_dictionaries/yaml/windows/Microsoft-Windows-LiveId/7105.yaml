@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LiveId
+event_id: '7105'
+version: '0'
+event(fields): task_07105(UnicodeString value)
+opcode: ''
+keywords: WlidModern Credentials
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value

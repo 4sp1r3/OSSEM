@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '48'
+version: '0'
+event(fields): ColorTranslation48(HexInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: ColorTranslation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

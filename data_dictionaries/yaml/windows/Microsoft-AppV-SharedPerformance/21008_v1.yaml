@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '21008'
+version: '1'
+event(fields): ParsingShortcutFilesSearchingForLinkFilesStart_V1()
+opcode: Start
+keywords: ''
+task: ParsingShortcutFilesSearchingForLinkFiles
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

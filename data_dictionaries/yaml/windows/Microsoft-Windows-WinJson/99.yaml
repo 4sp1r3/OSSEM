@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinJson
+event_id: '99'
+version: '0'
+event(fields): None99(AnsiString szString)
+opcode: ''
+keywords: Trace
+task: None
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: szString

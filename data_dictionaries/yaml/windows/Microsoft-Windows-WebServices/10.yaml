@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebServices
+event_id: '10'
+version: '0'
+event(fields): IOOperationsIOFailed(UInt32 operation, UInt32 error)
+opcode: IOFailed
+keywords: keywords.IO
+task: IOOperations
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: operation
+- field_type: UInt32
+  field_name: error

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '309'
+version: '0'
+event(fields): Engineorphaned(UInt32 TaskCount, UnicodeString TaskEngineName)
+opcode: ''
+keywords: ''
+task: Engineorphaned
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TaskCount
+- field_type: UnicodeString
+  field_name: TaskEngineName

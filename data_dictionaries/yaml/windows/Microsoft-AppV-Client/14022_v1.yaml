@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '14022'
+version: '1'
+event(fields): Streaming14022_V1(Int32 Error)
+opcode: ''
+keywords: Streaming
+task: Streaming
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Error

@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1310'
+version: '0'
+event(fields): ServerSessionCreateStart()
+opcode: Start
+keywords: NavigationPerformance ServerSession
+task: ServerSessionCreate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

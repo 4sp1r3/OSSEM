@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-EnhancedStorage-EhStorTcgDrv
+event_id: '202'
+version: '0'
+event(fields): ExecuteSiloCmdStart(AnsiString Context, HexInt64 SiloCmd, AnsiString
+  TcgCmd, HexInt64 Status, HexInt64 Param1, HexInt64 Param2, HexInt64 Param3, HexInt64
+  Param4)
+opcode: Start
+keywords: ''
+task: ExecuteSiloCmd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Context
+- field_type: HexInt64
+  field_name: SiloCmd
+- field_type: AnsiString
+  field_name: TcgCmd
+- field_type: HexInt64
+  field_name: Status
+- field_type: HexInt64
+  field_name: Param1
+- field_type: HexInt64
+  field_name: Param2
+- field_type: HexInt64
+  field_name: Param3
+- field_type: HexInt64
+  field_name: Param4

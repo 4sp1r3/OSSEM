@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-ReadyBoost
+event_id: '1016'
+version: '1'
+event(fields): ReadyBoot1016_V1(FILETIME BootPlanTimestamp, UInt32 ErrorCode, UInt16
+  Durationms, UInt8 Reason)
+opcode: ''
+keywords: ReadyBoot
+task: ReadyBoot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: BootPlanTimestamp
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt16
+  field_name: Durationms
+- field_type: UInt8
+  field_name: Reason

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DXGI
+event_id: '71'
+version: '0'
+event(fields): BindBackBuffersToDwm(Pointer pIDXGISwapchain, UInt8 BackbufferCount,
+  Pointer BackbufferHandles)
+opcode: ''
+keywords: Events
+task: BindBackBuffersToDwm
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapchain
+- field_type: UInt8
+  field_name: BackbufferCount
+- field_type: Pointer
+  field_name: BackbufferHandles

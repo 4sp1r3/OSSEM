@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '318'
+version: '0'
+event(fields): Prioritization_Complete(UInt64 RequestID, UInt32 Priority, UInt32 Indexed,
+  UInt32 OutstandingAdds, UInt32 OutstandingModifies)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: Prioritization_Complete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RequestID
+- field_type: UInt32
+  field_name: Priority
+- field_type: UInt32
+  field_name: Indexed
+- field_type: UInt32
+  field_name: OutstandingAdds
+- field_type: UInt32
+  field_name: OutstandingModifies

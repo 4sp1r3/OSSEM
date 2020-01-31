@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '76'
+version: '0'
+event(fields): AddDmaBufferStart(Pointer hContext, Pointer pDxgAdapter, Pointer pDmaBuffer,
+  UInt64 DmaSize, UInt64 AllocationListSize, UInt64 PatchLocationListSize, Pointer
+  hAllocationGlobalHandle)
+opcode: Start
+keywords: Base
+task: AddDmaBuffer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: pDmaBuffer
+- field_type: UInt64
+  field_name: DmaSize
+- field_type: UInt64
+  field_name: AllocationListSize
+- field_type: UInt64
+  field_name: PatchLocationListSize
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle

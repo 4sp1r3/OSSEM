@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DXGI
+event_id: '854'
+version: '0'
+event(fields): IDXGISwapChainPartner_PresentBufferStart(Pointer pThis, UInt32 BufferToPresent,
+  UInt32 SyncInterval, UInt32 Flags)
+opcode: Start
+keywords: ''
+task: IDXGISwapChainPartner_PresentBuffer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: BufferToPresent
+- field_type: UInt32
+  field_name: SyncInterval
+- field_type: UInt32
+  field_name: Flags

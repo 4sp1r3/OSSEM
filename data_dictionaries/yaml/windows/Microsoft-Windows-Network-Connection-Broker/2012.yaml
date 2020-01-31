@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Network-Connection-Broker
+event_id: '2012'
+version: '0'
+event(fields): task_02012(UnicodeString AppName, Int32 Status, Int32 NumSockets)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppName
+- field_type: Int32
+  field_name: Status
+- field_type: Int32
+  field_name: NumSockets

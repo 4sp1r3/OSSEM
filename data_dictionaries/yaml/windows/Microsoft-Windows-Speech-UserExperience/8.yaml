@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '8'
+version: '0'
+event(fields): MSAA_CmdFindGroupedWindowsStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: MSAA_CmdFindGroupedWindows
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

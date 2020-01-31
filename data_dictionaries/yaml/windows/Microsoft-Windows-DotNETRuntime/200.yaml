@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '200'
+version: '0'
+event(fields): GCIncreaseMemoryPressure(UInt64 BytesAllocated, UInt16 ClrInstanceID)
+opcode: IncreaseMemoryPressure
+keywords: GCKeyword
+task: GC
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: BytesAllocated
+- field_type: UInt16
+  field_name: ClrInstanceID

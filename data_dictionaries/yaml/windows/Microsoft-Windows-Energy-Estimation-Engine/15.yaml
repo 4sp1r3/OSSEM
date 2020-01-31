@@ -1,0 +1,54 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '15'
+version: '0'
+event(fields): QueryStatsProcessInfo(UInt32 SessionId, UInt32 UniqueProcessId, UnicodeString
+  ImageName, UInt32 NumberOfThreads, UInt64 CycleTime, UInt64 ReadOperationCount,
+  UInt64 BytesRead, UInt64 WriteOperationCount, UInt64 BytesWritten, UInt64 DiskEnergy,
+  UInt64 NetworkTailEnergy, UInt64 MBBTailEnergy, UInt64 NetworkTxRxBytes, UInt64
+  MBBTxRxBytes, UInt32 BucketCount, SID BucketedCycles, UInt32 WindowInformation,
+  UInt64 ForegroundReportTimestamp, UInt64 ForegroundTime)
+opcode: ProcessInfo
+keywords: SystemInformation
+task: QueryStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: UniqueProcessId
+- field_type: UnicodeString
+  field_name: ImageName
+- field_type: UInt32
+  field_name: NumberOfThreads
+- field_type: UInt64
+  field_name: CycleTime
+- field_type: UInt64
+  field_name: ReadOperationCount
+- field_type: UInt64
+  field_name: BytesRead
+- field_type: UInt64
+  field_name: WriteOperationCount
+- field_type: UInt64
+  field_name: BytesWritten
+- field_type: UInt64
+  field_name: DiskEnergy
+- field_type: UInt64
+  field_name: NetworkTailEnergy
+- field_type: UInt64
+  field_name: MBBTailEnergy
+- field_type: UInt64
+  field_name: NetworkTxRxBytes
+- field_type: UInt64
+  field_name: MBBTxRxBytes
+- field_type: UInt32
+  field_name: BucketCount
+- field_type: SID
+  field_name: BucketedCycles
+- field_type: UInt32
+  field_name: WindowInformation
+- field_type: UInt64
+  field_name: ForegroundReportTimestamp
+- field_type: UInt64
+  field_name: ForegroundTime

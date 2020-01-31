@@ -1,0 +1,18 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '4074'
+version: '0'
+event(fields): Local/remotechangemanager,offlinefilesAppAgent4074(UnicodeString String1,
+  UnicodeString String2, Int32 Int)
+opcode: AppAgent
+keywords: ''
+task: Local/remotechangemanager,offlinefiles
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String1
+- field_type: UnicodeString
+  field_name: String2
+- field_type: Int32
+  field_name: Int

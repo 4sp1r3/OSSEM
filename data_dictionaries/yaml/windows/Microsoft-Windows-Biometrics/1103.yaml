@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Biometrics
+event_id: '1103'
+version: '0'
+event(fields): WBioSrvc1103(UnicodeString BiometricSensor, HexInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: WBioSrvc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: BiometricSensor
+- field_type: HexInt32
+  field_name: ErrorCode

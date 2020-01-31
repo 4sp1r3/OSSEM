@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Developer
+event_id: '1109'
+version: '0'
+event(fields): ToastDismissedStop()
+opcode: Stop
+keywords: ''
+task: ToastDismissed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DUI
+event_id: '95'
+version: '0'
+event(fields): DirectUI_ModernProgressBarState(UInt32 PreviousState, UInt32 NewState)
+opcode: ''
+keywords: Default
+task: DirectUI_ModernProgressBarState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PreviousState
+- field_type: UInt32
+  field_name: NewState

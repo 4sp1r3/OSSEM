@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1006'
+version: '1'
+event(fields): ProcessinglpksetupunattendedexecutionfromthecommandlineValidateunattendedparameters1006_V1(UnicodeString
+  Language)
+opcode: Validateunattendedparameters
+keywords: ''
+task: Processinglpksetupunattendedexecutionfromthecommandline
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language

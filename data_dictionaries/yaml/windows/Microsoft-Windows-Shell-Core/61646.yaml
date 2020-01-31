@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61646'
+version: '0'
+event(fields): DataObjectProvider_SetDataObjectStart()
+opcode: Start
+keywords: Shell
+task: DataObjectProvider_SetDataObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

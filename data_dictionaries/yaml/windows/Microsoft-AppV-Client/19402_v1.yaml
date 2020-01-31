@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '19402'
+version: '1'
+event(fields): PublishingRefresh19402_V1(UInt32 Value, UnicodeString String)
+opcode: ''
+keywords: PublishingRefresh
+task: PublishingRefresh
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value
+- field_type: UnicodeString
+  field_name: String

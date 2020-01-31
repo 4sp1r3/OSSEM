@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25064'
+version: '0'
+event(fields): Logon_LaunchToAnimationCompleteStop()
+opcode: Stop
+keywords: ''
+task: Logon_LaunchToAnimationComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

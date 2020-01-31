@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '63'
+version: '0'
+event(fields): Service_PowerLimitExceeded(UnicodeString Environment, Boolean State)
+opcode: ''
+keywords: Service
+task: Service_PowerLimitExceeded
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: Boolean
+  field_name: State

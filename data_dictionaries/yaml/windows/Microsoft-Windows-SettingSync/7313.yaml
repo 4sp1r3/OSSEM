@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7313'
+version: '0'
+event(fields): Perf_BootstrapRestoreDownloadCriticalCollectionsStart()
+opcode: Start
+keywords: BootstrapRestore
+task: Perf_BootstrapRestoreDownloadCriticalCollections
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

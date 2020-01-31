@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-LiveId
+event_id: '6117'
+version: '0'
+event(fields): task_06117(AnsiString ResourceURI, SYSTEMTIME Created, SYSTEMTIME Expires,
+  AnsiString TokenType, Int32 AuthRequired, Int32 RequestStatus, Boolean HasFlowUrl,
+  Boolean HasAuthUrl, Boolean HasEndAuthUrl)
+opcode: ''
+keywords: WlidSvc SOAP
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: ResourceURI
+- field_type: SYSTEMTIME
+  field_name: Created
+- field_type: SYSTEMTIME
+  field_name: Expires
+- field_type: AnsiString
+  field_name: TokenType
+- field_type: Int32
+  field_name: AuthRequired
+- field_type: Int32
+  field_name: RequestStatus
+- field_type: Boolean
+  field_name: HasFlowUrl
+- field_type: Boolean
+  field_name: HasAuthUrl
+- field_type: Boolean
+  field_name: HasEndAuthUrl

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '715'
+version: '0'
+event(fields): SPERF_TAG_FETCH_DOCINFOStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_FETCH_DOCINFO
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

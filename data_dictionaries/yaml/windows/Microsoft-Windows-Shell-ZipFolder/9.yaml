@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-ZipFolder
+event_id: '9'
+version: '0'
+event(fields): ZipFolder_QueryCMStart()
+opcode: Start
+keywords: ''
+task: ZipFolder_QueryCM
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

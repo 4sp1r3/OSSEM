@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '14'
+version: '1'
+event(fields): ParkCore_V1(UInt64 PpmCheckTime, UInt16 Group, UInt8 Number, Boolean
+  SoftParked)
+opcode: ''
+keywords: Perf Diag
+task: ParkCore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PpmCheckTime
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: Boolean
+  field_name: SoftParked

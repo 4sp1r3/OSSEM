@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UxTheme
+event_id: '26'
+version: '0'
+event(fields): GetClientSessionDataStart()
+opcode: Start
+keywords: ''
+task: GetClientSessionData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

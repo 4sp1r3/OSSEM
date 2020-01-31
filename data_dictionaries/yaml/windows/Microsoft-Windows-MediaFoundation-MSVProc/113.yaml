@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '113'
+version: '0'
+event(fields): MSVideoProcessoftMFT_ResizerStart(HexInt32 fourCC, UInt32 srcWidth,
+  UInt32 srcHeight, UInt32 dstWidth, UInt32 dstHeight)
+opcode: Start
+keywords: ''
+task: MSVideoProcessoftMFT_Resizer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: fourCC
+- field_type: UInt32
+  field_name: srcWidth
+- field_type: UInt32
+  field_name: srcHeight
+- field_type: UInt32
+  field_name: dstWidth
+- field_type: UInt32
+  field_name: dstHeight

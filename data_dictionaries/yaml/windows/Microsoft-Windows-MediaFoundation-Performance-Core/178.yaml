@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '178'
+version: '0'
+event(fields): MFAudio_Render_EngineStreamTaskAudEngineStream_FillRenderBuffer_FirstReleaseBuffer(Pointer
+  object, Int32 u32FramesToRender)
+opcode: AudEngineStream_FillRenderBuffer_FirstReleaseBuffer
+keywords: ''
+task: MFAudio_Render_EngineStreamTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: u32FramesToRender

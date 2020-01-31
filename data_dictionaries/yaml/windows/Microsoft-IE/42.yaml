@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '42'
+version: '0'
+event(fields): Mshtml_CHtmPre_SpeculativeRejected(Pointer DOC, UnicodeString HtmlTag)
+opcode: ''
+keywords: primarynav
+task: Mshtml_CHtmPre_SpeculativeRejected
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DOC
+- field_type: UnicodeString
+  field_name: HtmlTag

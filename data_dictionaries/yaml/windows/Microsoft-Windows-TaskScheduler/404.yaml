@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '404'
+version: '0'
+event(fields): ServiceRPCerror(UnicodeString ErrorDescription, UInt32 ResultCode)
+opcode: ''
+keywords: ''
+task: ServiceRPCerror
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ErrorDescription
+- field_type: UInt32
+  field_name: ResultCode

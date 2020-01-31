@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '515'
+version: '0'
+event(fields): CoalesceWinEvent(UnicodeString Method, HexInt32 HWND, UnicodeString
+  WindowClassName, HexInt32 EventId, UInt32 CoalescedEvents)
+opcode: ''
+keywords: PerfInstrumentation
+task: CoalesceWinEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Method
+- field_type: HexInt32
+  field_name: HWND
+- field_type: UnicodeString
+  field_name: WindowClassName
+- field_type: HexInt32
+  field_name: EventId
+- field_type: UInt32
+  field_name: CoalescedEvents

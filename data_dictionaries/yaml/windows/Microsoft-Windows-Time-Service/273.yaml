@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '273'
+version: '0'
+event(fields): task_0273(UnicodeString Action, UnicodeString UtcTime, UnicodeString
+  LocalTime, UnicodeString TimeProvider, UInt64 TickCount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Action
+- field_type: UnicodeString
+  field_name: UtcTime
+- field_type: UnicodeString
+  field_name: LocalTime
+- field_type: UnicodeString
+  field_name: TimeProvider
+- field_type: UInt64
+  field_name: TickCount

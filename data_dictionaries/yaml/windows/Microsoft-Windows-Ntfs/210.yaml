@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '210'
+version: '0'
+event(fields): TPMapBitNotSet(UnicodeString VolumeId, UnicodeString DeviceName, HexInt64
+  StartingLCN, HexInt64 EndingLCN)
+opcode: ''
+keywords: TPMapBitNotSet
+task: TPMapBitNotSet
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VolumeId
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: HexInt64
+  field_name: StartingLCN
+- field_type: HexInt64
+  field_name: EndingLCN

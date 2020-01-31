@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '86'
+version: '0'
+event(fields): AppDomainResourceManagementThreadTerminated(UInt64 ManagedThreadID,
+  UInt64 AppDomainID, UInt16 ClrInstanceID)
+opcode: ThreadTerminated
+keywords: AppDomainResourceManagementKeyword ThreadingKeyword
+task: AppDomainResourceManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ManagedThreadID
+- field_type: UInt64
+  field_name: AppDomainID
+- field_type: UInt16
+  field_name: ClrInstanceID

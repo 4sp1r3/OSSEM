@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '362'
+version: '0'
+event(fields): GetHalfTabDataStart()
+opcode: Start
+keywords: tabhydration
+task: GetHalfTabData
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

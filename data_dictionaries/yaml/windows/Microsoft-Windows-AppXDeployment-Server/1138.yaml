@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1138'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.CleanupManagerPreDeploymentStop()
+opcode: Stop
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.CleanupManagerPreDeployment
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

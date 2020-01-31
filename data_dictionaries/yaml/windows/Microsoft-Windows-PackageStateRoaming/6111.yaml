@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PackageStateRoaming
+event_id: '6111'
+version: '0'
+event(fields): Debug_PLMMonitor_EndQuiescentPeriodStart(UnicodeString PackageFullName)
+opcode: Start
+keywords: ''
+task: Debug_PLMMonitor_EndQuiescentPeriod
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName

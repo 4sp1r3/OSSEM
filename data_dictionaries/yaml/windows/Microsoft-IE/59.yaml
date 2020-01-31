@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '59'
+version: '0'
+event(fields): Mshtml_CMarkup_SwitchMarkupStart(Pointer Markup, UInt32 Zero)
+opcode: Start
+keywords: subsystem pageloadbreakdown
+task: Mshtml_CMarkup_SwitchMarkup
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Markup
+- field_type: UInt32
+  field_name: Zero

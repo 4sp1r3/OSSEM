@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2607'
+version: '0'
+event(fields): Settings_SettingsLoadAppWidgetsBGStart()
+opcode: Start
+keywords: ''
+task: Settings_SettingsLoadAppWidgetsBG
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

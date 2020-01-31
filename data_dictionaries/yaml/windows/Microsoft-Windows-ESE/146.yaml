@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-ESE
+event_id: '146'
+version: '0'
+event(fields): ESE_ResMgrInit_Trace(UInt32 tick, Int32 K, Double csecCorrelatedTouch,
+  Double csecTimeout, Double csecUncertainty, Double dblHashLoadFactor, Double dblHashUniformity,
+  Double dblSpeedSizeTradeoff)
+opcode: ''
+keywords: BFRESMGR
+task: ESE_ResMgrInit_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: tick
+- field_type: Int32
+  field_name: K
+- field_type: Double
+  field_name: csecCorrelatedTouch
+- field_type: Double
+  field_name: csecTimeout
+- field_type: Double
+  field_name: csecUncertainty
+- field_type: Double
+  field_name: dblHashLoadFactor
+- field_type: Double
+  field_name: dblHashUniformity
+- field_type: Double
+  field_name: dblSpeedSizeTradeoff

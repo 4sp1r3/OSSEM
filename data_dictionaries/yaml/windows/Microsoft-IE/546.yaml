@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '546'
+version: '0'
+event(fields): Mshtml_Prerendering546(UnicodeString Prefetch_or_Prerender_URL, UInt32
+  Termination_Reason)
+opcode: ''
+keywords: mshtml
+task: Mshtml_Prerendering
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prefetch_or_Prerender_URL
+- field_type: UInt32
+  field_name: Termination_Reason

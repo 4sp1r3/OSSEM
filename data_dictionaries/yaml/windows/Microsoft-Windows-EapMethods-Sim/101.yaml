@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-EapMethods-Sim
+event_id: '101'
+version: '0'
+event(fields): SIMbasedauthenticationfailedevent(UnicodeString MethodName, UnicodeString
+  ErrorCause)
+opcode: ''
+keywords: ''
+task: SIMbasedauthenticationfailedevent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: UnicodeString
+  field_name: ErrorCause

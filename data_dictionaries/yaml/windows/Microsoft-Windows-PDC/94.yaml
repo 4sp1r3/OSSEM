@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PDC
+event_id: '94'
+version: '0'
+event(fields): SpmScenarioStateChange(Pointer Scenario, UInt8 PreviousState, UInt8
+  NextState)
+opcode: ''
+keywords: SPM
+task: SpmScenarioStateChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Scenario
+- field_type: UInt8
+  field_name: PreviousState
+- field_type: UInt8
+  field_name: NextState

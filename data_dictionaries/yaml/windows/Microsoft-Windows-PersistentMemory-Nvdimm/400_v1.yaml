@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-PersistentMemory-Nvdimm
+event_id: '400'
+version: '1'
+event(fields): task_0400_V1(GUID DeviceGuid, HexInt32 NfitHandle, Boolean LostDataPersistence,
+  Boolean LostWritePersistence, Boolean FatalError, Boolean LostDataPersistenceImminent,
+  Boolean LostWritePersistenceImminent, Boolean FatalErrorImminent, Boolean NvdimmNotArmed)
+opcode: ''
+keywords: ''
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: HexInt32
+  field_name: NfitHandle
+- field_type: Boolean
+  field_name: LostDataPersistence
+- field_type: Boolean
+  field_name: LostWritePersistence
+- field_type: Boolean
+  field_name: FatalError
+- field_type: Boolean
+  field_name: LostDataPersistenceImminent
+- field_type: Boolean
+  field_name: LostWritePersistenceImminent
+- field_type: Boolean
+  field_name: FatalErrorImminent
+- field_type: Boolean
+  field_name: NvdimmNotArmed

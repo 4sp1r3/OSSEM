@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WebIO
+event_id: '26'
+version: '0'
+event(fields): RequestConfigurationSet26(Pointer Request, UInt64 RequestHandle, UInt32
+  Flags, Pointer InformationRoutine, Pointer InformationContext, UInt32 Error)
+opcode: Set
+keywords: Keyword.API Keyword.CONFIGURATION
+task: RequestConfiguration
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: UInt64
+  field_name: RequestHandle
+- field_type: UInt32
+  field_name: Flags
+- field_type: Pointer
+  field_name: InformationRoutine
+- field_type: Pointer
+  field_name: InformationContext
+- field_type: UInt32
+  field_name: Error

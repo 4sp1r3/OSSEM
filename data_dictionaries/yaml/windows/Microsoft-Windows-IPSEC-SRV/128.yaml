@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IPSEC-SRV
+event_id: '128'
+version: '0'
+event(fields): ApplyLocalPolicyStop()
+opcode: Stop
+keywords: PolicyAgent
+task: ApplyLocalPolicy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

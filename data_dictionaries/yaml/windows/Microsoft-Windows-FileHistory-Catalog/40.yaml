@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '40'
+version: '0'
+event(fields): MoveNextStop(UnicodeString IteratorName)
+opcode: Stop
+keywords: ''
+task: MoveNext
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: IteratorName

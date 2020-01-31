@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10108'
+version: '0'
+event(fields): Indication10108(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32
+  ChangeType)
+opcode: ''
+keywords: Indication
+task: Indication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: NetLuid
+- field_type: UInt32
+  field_name: ChangeType

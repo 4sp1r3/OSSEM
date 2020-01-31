@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25096'
+version: '0'
+event(fields): LogonUI_PerfTrack_LockStop()
+opcode: Stop
+keywords: ''
+task: LogonUI_PerfTrack_Lock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

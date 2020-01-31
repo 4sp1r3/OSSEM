@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '93'
+version: '1'
+event(fields): ChangePowerRequest_V1(Pointer Token, UInt32 SystemCount, UInt32 DisplayCount,
+  UInt32 AwayModeCount, UInt32 ExecutionRequiredCount, UInt32 PerformanceBoostCount,
+  UInt32 FullScreenVideoCount)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: ChangePowerRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token
+- field_type: UInt32
+  field_name: SystemCount
+- field_type: UInt32
+  field_name: DisplayCount
+- field_type: UInt32
+  field_name: AwayModeCount
+- field_type: UInt32
+  field_name: ExecutionRequiredCount
+- field_type: UInt32
+  field_name: PerformanceBoostCount
+- field_type: UInt32
+  field_name: FullScreenVideoCount

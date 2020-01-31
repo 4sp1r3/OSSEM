@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '187'
+version: '0'
+event(fields): RuntimeStart(UInt16 ClrInstanceID, UInt16 Sku, UInt16 BclMajorVersion,
+  UInt16 BclMinorVersion, UInt16 BclBuildNumber, UInt16 BclQfeNumber, UInt16 VMMajorVersion,
+  UInt16 VMMinorVersion, UInt16 VMBuildNumber, UInt16 VMQfeNumber, UInt32 StartupFlags,
+  UInt8 StartupMode, UnicodeString CommandLine, GUID ComObjectGuid, UnicodeString
+  RuntimeDllPath)
+opcode: Start
+keywords: ''
+task: Runtime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: UInt16
+  field_name: Sku
+- field_type: UInt16
+  field_name: BclMajorVersion
+- field_type: UInt16
+  field_name: BclMinorVersion
+- field_type: UInt16
+  field_name: BclBuildNumber
+- field_type: UInt16
+  field_name: BclQfeNumber
+- field_type: UInt16
+  field_name: VMMajorVersion
+- field_type: UInt16
+  field_name: VMMinorVersion
+- field_type: UInt16
+  field_name: VMBuildNumber
+- field_type: UInt16
+  field_name: VMQfeNumber
+- field_type: UInt32
+  field_name: StartupFlags
+- field_type: UInt8
+  field_name: StartupMode
+- field_type: UnicodeString
+  field_name: CommandLine
+- field_type: GUID
+  field_name: ComObjectGuid
+- field_type: UnicodeString
+  field_name: RuntimeDllPath

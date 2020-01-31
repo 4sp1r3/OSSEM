@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '240'
+version: '0'
+event(fields): Mshtml_CPaintController_NotReadyToPaint()
+opcode: ''
+keywords: subsystem
+task: Mshtml_CPaintController_NotReadyToPaint
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

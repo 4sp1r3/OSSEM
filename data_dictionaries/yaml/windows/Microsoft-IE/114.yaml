@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '114'
+version: '0'
+event(fields): Mshtml_CStorageListHelper_LoadStop(Pointer StorageListHelper)
+opcode: Stop
+keywords: subsystem
+task: Mshtml_CStorageListHelper_Load
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: StorageListHelper

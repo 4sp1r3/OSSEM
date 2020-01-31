@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '1001'
+version: '0'
+event(fields): AfdCloseClosed(UInt32 EnterExit, UInt32 Location, Pointer Process,
+  Pointer Endpoint, UInt32 Status)
+opcode: Closed
+keywords: AFD_KW_SOURCE_WINSOCK
+task: AfdClose
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EnterExit
+- field_type: UInt32
+  field_name: Location
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: Status

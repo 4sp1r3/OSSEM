@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '430'
+version: '0'
+event(fields): task_0430(UnicodeString DeviceInstanceId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceInstanceId

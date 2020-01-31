@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-IPxlatCfg
+event_id: '1103'
+version: '0'
+event(fields): task_01103(UInt64 InterfaceLuid, Binary Prefix, UInt32 PrefixLength)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: InterfaceLuid
+- field_type: Binary
+  field_name: Prefix
+- field_type: UInt32
+  field_name: PrefixLength

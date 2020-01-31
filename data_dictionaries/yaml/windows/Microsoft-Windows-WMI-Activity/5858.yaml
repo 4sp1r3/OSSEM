@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WMI-Activity
+event_id: '5858'
+version: '0'
+event(fields): task_05858(UnicodeString Id, UnicodeString ClientMachine, UnicodeString
+  User, UInt32 ClientProcessId, UnicodeString Component, UnicodeString Operation,
+  HexInt32 ResultCode, UnicodeString PossibleCause)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Id
+- field_type: UnicodeString
+  field_name: ClientMachine
+- field_type: UnicodeString
+  field_name: User
+- field_type: UInt32
+  field_name: ClientProcessId
+- field_type: UnicodeString
+  field_name: Component
+- field_type: UnicodeString
+  field_name: Operation
+- field_type: HexInt32
+  field_name: ResultCode
+- field_type: UnicodeString
+  field_name: PossibleCause

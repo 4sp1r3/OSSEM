@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RTWorkQueue-Extended
+event_id: '14'
+version: '0'
+event(fields): WorkQueue:TimerCallbackStart(Pointer workqueue, UInt32 WorkQueueID,
+  UInt32 Mode)
+opcode: Start
+keywords: ''
+task: WorkQueue:TimerCallback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: workqueue
+- field_type: UInt32
+  field_name: WorkQueueID
+- field_type: UInt32
+  field_name: Mode

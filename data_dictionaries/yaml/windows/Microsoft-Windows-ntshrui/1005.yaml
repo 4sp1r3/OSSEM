@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ntshrui
+event_id: '1005'
+version: '0'
+event(fields): SMB_SharingStart()
+opcode: Start
+keywords: ''
+task: SMB_Sharing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

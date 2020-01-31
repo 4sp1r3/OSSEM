@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '8'
+version: '0'
+event(fields): BrowserThreadProc_Prior()
+opcode: ''
+keywords: primarynav
+task: BrowserThreadProc_Prior
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

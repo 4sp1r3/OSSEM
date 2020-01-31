@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WSC-SRV
+event_id: '110'
+version: '0'
+event(fields): EnableAntiSpywareStart()
+opcode: Start
+keywords: UI
+task: EnableAntiSpyware
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

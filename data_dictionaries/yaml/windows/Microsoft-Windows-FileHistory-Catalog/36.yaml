@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '36'
+version: '0'
+event(fields): FindAllLibraryRecordsStop()
+opcode: Stop
+keywords: ''
+task: FindAllLibraryRecords
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

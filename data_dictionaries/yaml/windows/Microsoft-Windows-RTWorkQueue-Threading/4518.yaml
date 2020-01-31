@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4518'
+version: '0'
+event(fields): TaskGroupStop(Pointer TaskGroup)
+opcode: Stop
+keywords: ''
+task: TaskGroup
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TaskGroup

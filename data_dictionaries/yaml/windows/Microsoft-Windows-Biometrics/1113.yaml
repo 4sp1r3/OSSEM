@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Biometrics
+event_id: '1113'
+version: '0'
+event(fields): WBioSrvc1113(UnicodeString ModulePath)
+opcode: ''
+keywords: ''
+task: WBioSrvc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ModulePath

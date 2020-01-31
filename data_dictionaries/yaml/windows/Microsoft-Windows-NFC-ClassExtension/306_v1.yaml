@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NFC-ClassExtension
+event_id: '306'
+version: '1'
+event(fields): task_0306_V1(UInt32 RfArrivalDepartureEvent)
+opcode: ''
+keywords: RF
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RfArrivalDepartureEvent

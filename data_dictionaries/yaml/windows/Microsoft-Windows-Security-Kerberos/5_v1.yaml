@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Security-Kerberos
+event_id: '5'
+version: '1'
+event(fields): task_05_V1(UnicodeString Error, UInt32 __binLength, Binary binary)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Error
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: binary

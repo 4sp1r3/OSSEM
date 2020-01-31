@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SENSE
+event_id: '1800'
+version: '0'
+event(fields): task_01800(UInt32 UInt1, UnicodeString Message1)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UInt1
+- field_type: UnicodeString
+  field_name: Message1

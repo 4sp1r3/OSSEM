@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-ZipFolder
+event_id: '19'
+version: '0'
+event(fields): ZipFolder_RemoveItemStart()
+opcode: Start
+keywords: ''
+task: ZipFolder_RemoveItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

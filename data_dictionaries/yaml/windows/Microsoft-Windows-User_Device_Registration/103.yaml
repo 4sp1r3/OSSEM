@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '103'
+version: '0'
+event(fields): task_0103(UnicodeString AuthToken)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AuthToken

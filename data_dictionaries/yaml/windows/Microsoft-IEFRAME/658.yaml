@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '658'
+version: '0'
+event(fields): HistoryJournalStart(UnicodeString String)
+opcode: Start
+keywords: primarynav
+task: HistoryJournal
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String

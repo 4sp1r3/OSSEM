@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '5003'
+version: '0'
+event(fields): UserBoot(UInt32 SessionId)
+opcode: ''
+keywords: PerfDiagnostics
+task: UserBoot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId

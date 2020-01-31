@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DUSER
+event_id: '56'
+version: '0'
+event(fields): DUser_TransitionComplete(UInt32 hGadget, UInt32 nCode, Boolean fCopy,
+  Boolean fRemainLayered)
+opcode: ''
+keywords: Default
+task: DUser_TransitionComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hGadget
+- field_type: UInt32
+  field_name: nCode
+- field_type: Boolean
+  field_name: fCopy
+- field_type: Boolean
+  field_name: fRemainLayered

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '7'
+version: '0'
+event(fields): PluginManager7(UnicodeString FourCC, UnicodeString dllName)
+opcode: ''
+keywords: ''
+task: PluginManager
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FourCC
+- field_type: UnicodeString
+  field_name: dllName

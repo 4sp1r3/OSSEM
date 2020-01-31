@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '40'
+version: '1'
+event(fields): ProcessTagEnergyEstimate_V1(UnicodeString AppName, UnicodeString Tag,
+  UInt64 CpuEnergy, UInt64 DiskEnergy, UInt64 NetworkEnergy, UInt64 MbbEnergy, UInt32
+  Time, UInt32 RecordFlags)
+opcode: ''
+keywords: ProcessTag
+task: ProcessTagEnergyEstimate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppName
+- field_type: UnicodeString
+  field_name: Tag
+- field_type: UInt64
+  field_name: CpuEnergy
+- field_type: UInt64
+  field_name: DiskEnergy
+- field_type: UInt64
+  field_name: NetworkEnergy
+- field_type: UInt64
+  field_name: MbbEnergy
+- field_type: UInt32
+  field_name: Time
+- field_type: UInt32
+  field_name: RecordFlags

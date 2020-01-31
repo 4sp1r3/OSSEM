@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '19'
+version: '0'
+event(fields): task_019(UnicodeString FileName, Int32 ExceptionCode)
+opcode: ''
+keywords: Process
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: Int32
+  field_name: ExceptionCode

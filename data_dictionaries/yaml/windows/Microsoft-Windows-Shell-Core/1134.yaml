@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1134'
+version: '0'
+event(fields): DataLayer_StackThumbnails_PickPicturesStart()
+opcode: Start
+keywords: Shell
+task: DataLayer_StackThumbnails_PickPictures
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

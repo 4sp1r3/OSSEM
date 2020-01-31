@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Developer
+event_id: '1114'
+version: '0'
+event(fields): ToastActivatedStart()
+opcode: Start
+keywords: ''
+task: ToastActivated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1102'
+version: '0'
+event(fields): DataLayer_RSMRealizationCancelled()
+opcode: ''
+keywords: Shell
+task: DataLayer_RSMRealizationCancelled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

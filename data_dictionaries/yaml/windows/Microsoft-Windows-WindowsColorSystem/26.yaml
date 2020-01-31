@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '26'
+version: '0'
+event(fields): TransformCreation26(Float RMin, Float RMax, Float GMin, Float GMax,
+  Float BMin, Float BMax)
+opcode: ''
+keywords: wcse:Cite
+task: TransformCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: RMin
+- field_type: Float
+  field_name: RMax
+- field_type: Float
+  field_name: GMin
+- field_type: Float
+  field_name: GMax
+- field_type: Float
+  field_name: BMin
+- field_type: Float
+  field_name: BMax

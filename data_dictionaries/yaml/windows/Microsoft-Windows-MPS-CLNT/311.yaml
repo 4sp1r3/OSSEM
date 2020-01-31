@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '311'
+version: '0'
+event(fields): MPS_CLNT_API_QueryCryptoSetsStop()
+opcode: Stop
+keywords: Client
+task: MPS_CLNT_API_QueryCryptoSets
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '135'
+version: '0'
+event(fields): task_0135(UInt32 DisplayState)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight keyword_200000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DisplayState

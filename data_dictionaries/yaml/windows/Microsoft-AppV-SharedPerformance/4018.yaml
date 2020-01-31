@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4018'
+version: '0'
+event(fields): CancelMount_AppvPackageStart(GUID Guid)
+opcode: Start
+keywords: ''
+task: CancelMount_AppvPackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Guid

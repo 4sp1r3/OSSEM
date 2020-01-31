@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '543'
+version: '0'
+event(fields): DripsWakeAccountingSummary(UInt8 CsSessionId, UInt32 Count, UInt64
+  IdleMinDurationInUs, UInt64 IdleMaxDurationInUs, UInt64 IdleTotalDurationInUs, UInt32
+  ReasonDescriptionLength, UnicodeString ReasonDescription, UInt16 GroupCount, Int64
+  Group)
+opcode: ''
+keywords: po:Diagnostic po:SleepStudy
+task: DripsWakeAccountingSummary
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: CsSessionId
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt64
+  field_name: IdleMinDurationInUs
+- field_type: UInt64
+  field_name: IdleMaxDurationInUs
+- field_type: UInt64
+  field_name: IdleTotalDurationInUs
+- field_type: UInt32
+  field_name: ReasonDescriptionLength
+- field_type: UnicodeString
+  field_name: ReasonDescription
+- field_type: UInt16
+  field_name: GroupCount
+- field_type: Int64
+  field_name: Group

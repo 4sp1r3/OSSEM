@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSMPEG2ADEC
+event_id: '15'
+version: '0'
+event(fields): AUD_RESYNC(UInt32 dwordarg)
+opcode: ''
+keywords: ''
+task: AUD_RESYNC
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwordarg

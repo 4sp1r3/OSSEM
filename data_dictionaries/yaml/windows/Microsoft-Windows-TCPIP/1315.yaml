@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1315'
+version: '0'
+event(fields): TcpCreateNotificationChannelRequestProcessing(Pointer Tcb, UInt32 IsRedirected,
+  UInt32 WfpFailure, UInt32 Status, UInt32 WaitStatus, UInt32 IpAddrLength, UInt32
+  LocalIPv4Address, Binary LocalIPv6Address, UInt32 IPProtocol, UInt32 RemoteIPv4Address,
+  Binary RemoteIPv6Address, UInt16 SrcPort, UInt16 DestPort)
+opcode: ''
+keywords: ut:TcpipCsDiag ut:ConnectPath ut:Global
+task: TcpCreateNotificationChannelRequestProcessing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: IsRedirected
+- field_type: UInt32
+  field_name: WfpFailure
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: WaitStatus
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: UInt32
+  field_name: LocalIPv4Address
+- field_type: Binary
+  field_name: LocalIPv6Address
+- field_type: UInt32
+  field_name: IPProtocol
+- field_type: UInt32
+  field_name: RemoteIPv4Address
+- field_type: Binary
+  field_name: RemoteIPv6Address
+- field_type: UInt16
+  field_name: SrcPort
+- field_type: UInt16
+  field_name: DestPort

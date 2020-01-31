@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '7'
+version: '1'
+event(fields): APIRequestSend_V1(Int32 Error)
+opcode: Send
+keywords: API
+task: APIRequest
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Error

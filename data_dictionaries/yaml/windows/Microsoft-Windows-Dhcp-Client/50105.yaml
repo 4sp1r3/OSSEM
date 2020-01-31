@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50105'
+version: '0'
+event(fields): ServiceStateEventServiceShutdown50105()
+opcode: ServiceShutdown
+keywords: ''
+task: ServiceStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

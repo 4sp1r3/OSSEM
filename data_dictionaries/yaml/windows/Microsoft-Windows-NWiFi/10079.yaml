@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10079'
+version: '0'
+event(fields): task_010079(GUID AdapterGuid, Int32 DisconnectInStandby, Int32 EnforceDs)
+opcode: ''
+keywords: DisconnectedStandby
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: AdapterGuid
+- field_type: Int32
+  field_name: DisconnectInStandby
+- field_type: Int32
+  field_name: EnforceDs

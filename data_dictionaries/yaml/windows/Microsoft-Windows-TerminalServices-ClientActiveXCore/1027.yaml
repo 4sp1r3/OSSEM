@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1027'
+version: '0'
+event(fields): ConnectionSequenceThiseventisraisedduringtheconnectionprocess1027(UnicodeString
+  DomainName, UInt32 SessionId)
+opcode: Thiseventisraisedduringtheconnectionprocess
+keywords: ''
+task: ConnectionSequence
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DomainName
+- field_type: UInt32
+  field_name: SessionId

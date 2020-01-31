@@ -1,0 +1,20 @@
+provider: Intel-iaLPSS2-GPIO2
+event_id: '1139'
+version: '0'
+event(fields): iaLPSS_GPIO2GpioIoroutines1139(AnsiString BankName, UInt32 PinNo, UInt32
+  PinIoModeCurrent, UInt32 PinIoModeRequested)
+opcode: ''
+keywords: ''
+task: iaLPSS_GPIO2GpioIoroutines
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: BankName
+- field_type: UInt32
+  field_name: PinNo
+- field_type: UInt32
+  field_name: PinIoModeCurrent
+- field_type: UInt32
+  field_name: PinIoModeRequested

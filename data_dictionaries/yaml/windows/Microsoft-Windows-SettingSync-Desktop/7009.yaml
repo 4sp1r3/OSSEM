@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync-Desktop
+event_id: '7009'
+version: '0'
+event(fields): Perf_MicroImageCompressionStop()
+opcode: Stop
+keywords: RoamingSettings
+task: Perf_MicroImageCompression
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

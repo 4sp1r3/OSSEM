@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '13001'
+version: '0'
+event(fields): NamespaceControl_ChangeNotifyStart()
+opcode: Start
+keywords: Shell
+task: NamespaceControl_ChangeNotify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

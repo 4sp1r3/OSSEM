@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '5045'
+version: '0'
+event(fields): AppReadiness_ExecuteTask5045(UnicodeString User, Int32 Result)
+opcode: ''
+keywords: Tasks
+task: AppReadiness_ExecuteTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: Int32
+  field_name: Result

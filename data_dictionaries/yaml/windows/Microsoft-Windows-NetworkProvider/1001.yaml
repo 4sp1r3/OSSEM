@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NetworkProvider
+event_id: '1001'
+version: '0'
+event(fields): UNCHardeningConfigurationInvalidUNCPath(UInt16 UncPathLength, UnicodeString
+  UncPath, UInt32 UncHardeningConfigurationLength, UnicodeString UncHardeningConfiguration)
+opcode: InvalidUNCPath
+keywords: UncHardening
+task: UNCHardeningConfiguration
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: UncPathLength
+- field_type: UnicodeString
+  field_name: UncPath
+- field_type: UInt32
+  field_name: UncHardeningConfigurationLength
+- field_type: UnicodeString
+  field_name: UncHardeningConfiguration

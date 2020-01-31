@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '606'
+version: '0'
+event(fields): WebHostRequestStop606(UnicodeString Data, UnicodeString AppDomain)
+opcode: Stop
+keywords: WebHost
+task: WebHostRequest
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Data
+- field_type: UnicodeString
+  field_name: AppDomain

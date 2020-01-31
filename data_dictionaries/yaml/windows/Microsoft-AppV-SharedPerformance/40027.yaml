@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40027'
+version: '0'
+event(fields): VReg.SetValueStop()
+opcode: Stop
+keywords: ''
+task: VReg.SetValue
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

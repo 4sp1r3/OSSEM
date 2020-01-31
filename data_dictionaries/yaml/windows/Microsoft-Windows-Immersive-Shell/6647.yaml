@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6647'
+version: '0'
+event(fields): ConnectCharm_PlaytoSourceEvaluateStart()
+opcode: Start
+keywords: ''
+task: ConnectCharm_PlaytoSourceEvaluate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

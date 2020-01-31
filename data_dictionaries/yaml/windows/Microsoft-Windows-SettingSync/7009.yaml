@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7009'
+version: '0'
+event(fields): Perf_FileSystemHandler_ApplyUnitStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_FileSystemHandler_ApplyUnit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

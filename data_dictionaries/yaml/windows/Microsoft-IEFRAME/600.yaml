@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '600'
+version: '0'
+event(fields): TabRoaming_FindRoamedMachinesStart()
+opcode: Start
+keywords: roaming
+task: TabRoaming_FindRoamedMachines
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

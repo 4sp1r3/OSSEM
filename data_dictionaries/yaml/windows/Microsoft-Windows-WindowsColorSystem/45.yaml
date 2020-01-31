@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '45'
+version: '0'
+event(fields): ColorTranslation45(HexInt32 HXform, UInt32 NumColors, UInt32 NumInChannels,
+  UInt32 InDataType, UInt32 NumInBytes, UInt32 NumOutChannels, UInt32 OutDataType,
+  UInt32 NumOutBytes)
+opcode: ''
+keywords: ''
+task: ColorTranslation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HXform
+- field_type: UInt32
+  field_name: NumColors
+- field_type: UInt32
+  field_name: NumInChannels
+- field_type: UInt32
+  field_name: InDataType
+- field_type: UInt32
+  field_name: NumInBytes
+- field_type: UInt32
+  field_name: NumOutChannels
+- field_type: UInt32
+  field_name: OutDataType
+- field_type: UInt32
+  field_name: NumOutBytes

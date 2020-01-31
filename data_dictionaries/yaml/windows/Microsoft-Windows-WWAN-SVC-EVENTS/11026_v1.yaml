@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '11026'
+version: '1'
+event(fields): task_0OID_Handling11026_V1(GUID InterfaceGuid, UInt32 RequestId, UInt32
+  WwanStatus, Int32 Version, Int32 StatusWord1, Int32 StatusWord2, AnsiString FileAccessibility,
+  AnsiString FileType, AnsiString FileStructure, Int32 ItemCount, Int32 ItemSize)
+opcode: OID_Handling
+keywords: LwtDiagnostic WwanOid InterfaceEnum keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: WwanStatus
+- field_type: Int32
+  field_name: Version
+- field_type: Int32
+  field_name: StatusWord1
+- field_type: Int32
+  field_name: StatusWord2
+- field_type: AnsiString
+  field_name: FileAccessibility
+- field_type: AnsiString
+  field_name: FileType
+- field_type: AnsiString
+  field_name: FileStructure
+- field_type: Int32
+  field_name: ItemCount
+- field_type: Int32
+  field_name: ItemSize

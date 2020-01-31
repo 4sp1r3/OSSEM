@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '406'
+version: '0'
+event(fields): Browseui_HangUI_SetVisible(Boolean Show, UInt32 TabID)
+opcode: ''
+keywords: hang
+task: Browseui_HangUI_SetVisible
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Show
+- field_type: UInt32
+  field_name: TabID

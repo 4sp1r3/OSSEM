@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1257'
+version: '0'
+event(fields): Ndkpi_Flush(Pointer NdkQp)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Flush
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkQp

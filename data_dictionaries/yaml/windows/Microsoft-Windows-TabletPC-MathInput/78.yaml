@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '78'
+version: '0'
+event(fields): MathmlRendererGetSizeStart()
+opcode: Start
+keywords: ''
+task: MathmlRendererGetSize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

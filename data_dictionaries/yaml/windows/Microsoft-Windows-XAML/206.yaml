@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '206'
+version: '0'
+event(fields): GenerateContainerStop()
+opcode: Stop
+keywords: Layout
+task: GenerateContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

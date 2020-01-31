@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '400'
+version: '0'
+event(fields): DeviceSetupTaskStart(GUID Prop_ContainerId)
+opcode: Start
+keywords: ''
+task: DeviceSetupTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Prop_ContainerId

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4957'
+version: '0'
+event(fields): task_04957(UnicodeString RuleId, UnicodeString RuleName, UnicodeString
+  RuleAttr)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RuleId
+- field_type: UnicodeString
+  field_name: RuleName
+- field_type: UnicodeString
+  field_name: RuleAttr

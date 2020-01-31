@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsUIImmersive
+event_id: '8705'
+version: '0'
+event(fields): PopupGeneral8705(UInt32 CommandID)
+opcode: ''
+keywords: ''
+task: PopupGeneral
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CommandID

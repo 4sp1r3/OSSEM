@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDC
+event_id: '74'
+version: '0'
+event(fields): CsFilterInput()
+opcode: ''
+keywords: Cs
+task: CsFilterInput
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

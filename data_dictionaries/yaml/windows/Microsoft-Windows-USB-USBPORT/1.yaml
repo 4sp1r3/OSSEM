@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '1'
+version: '0'
+event(fields): HostControllerAdd(UnicodeString fid_USBPORT_HC)
+opcode: Add
+keywords: Diagnostic PowerDiagnostics keyword_400000000000
+task: HostController
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: fid_USBPORT_HC

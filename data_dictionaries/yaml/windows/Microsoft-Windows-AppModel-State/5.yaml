@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '5'
+version: '0'
+event(fields): task_05(UnicodeString ErrorString, Int32 Error)
+opcode: ''
+keywords: DataStoreError
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ErrorString
+- field_type: Int32
+  field_name: Error

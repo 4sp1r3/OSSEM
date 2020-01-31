@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1231'
+version: '0'
+event(fields): ForegroundTaskManagerResumeTaskStop(UInt32 unParam, UInt32 appLayer)
+opcode: Stop
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerResumeTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: appLayer

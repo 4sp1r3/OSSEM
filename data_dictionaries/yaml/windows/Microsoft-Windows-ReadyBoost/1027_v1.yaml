@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-ReadyBoost
+event_id: '1027'
+version: '1'
+event(fields): ReadyBoot1027_V1(UInt32 ErrorCode, UInt32 UniqueIdLength, Binary VolumeUniqueId)
+opcode: ''
+keywords: ReadyBoot
+task: ReadyBoot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: UniqueIdLength
+- field_type: Binary
+  field_name: VolumeUniqueId

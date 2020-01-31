@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '15001'
+version: '0'
+event(fields): Common_UserList_TileEnumerationStart()
+opcode: Start
+keywords: ''
+task: Common_UserList_TileEnumeration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

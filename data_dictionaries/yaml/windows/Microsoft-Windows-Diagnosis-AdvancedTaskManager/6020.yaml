@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '6020'
+version: '0'
+event(fields): Actions_ChangeViewStop()
+opcode: Stop
+keywords: ui
+task: Actions_ChangeView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

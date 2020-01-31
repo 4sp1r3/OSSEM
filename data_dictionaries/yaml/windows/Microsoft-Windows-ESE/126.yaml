@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ESE
+event_id: '126'
+version: '0'
+event(fields): ESE_TimerQueueSchedule_Trace(Pointer pfnTask, Pointer pvTaskContext,
+  Pointer dwContext, UInt32 dtickDelay, UInt32 dtickPeriod)
+opcode: ''
+keywords: Task
+task: ESE_TimerQueueSchedule_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pfnTask
+- field_type: Pointer
+  field_name: pvTaskContext
+- field_type: Pointer
+  field_name: dwContext
+- field_type: UInt32
+  field_name: dtickDelay
+- field_type: UInt32
+  field_name: dtickPeriod

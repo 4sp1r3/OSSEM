@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceStatusProvider
+event_id: '504'
+version: '0'
+event(fields): WPDSourcesCreationStart()
+opcode: Start
+keywords: ''
+task: WPDSourcesCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

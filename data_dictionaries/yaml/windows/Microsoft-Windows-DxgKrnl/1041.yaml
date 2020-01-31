@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1041'
+version: '0'
+event(fields): MiracastUmdQoSDataRate(UInt32 Status, UInt64 EncoderBitRate, UInt64
+  CurrentMaxTxDataRate, UInt64 FailedFrameCount, UInt64 MultipleRetryFrameCount, UInt64
+  RetriedFrameCount, UInt64 TransmittedFrameCount)
+opcode: ''
+keywords: Miracast
+task: MiracastUmdQoSDataRate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt64
+  field_name: EncoderBitRate
+- field_type: UInt64
+  field_name: CurrentMaxTxDataRate
+- field_type: UInt64
+  field_name: FailedFrameCount
+- field_type: UInt64
+  field_name: MultipleRetryFrameCount
+- field_type: UInt64
+  field_name: RetriedFrameCount
+- field_type: UInt64
+  field_name: TransmittedFrameCount

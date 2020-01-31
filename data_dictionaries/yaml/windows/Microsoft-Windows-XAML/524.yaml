@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '524'
+version: '0'
+event(fields): KeyUpHandlerStart(UInt64 RegisteredOn, UInt32 KeyCode, UInt64 OriginalSource)
+opcode: Start
+keywords: ''
+task: KeyUpHandler
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RegisteredOn
+- field_type: UInt32
+  field_name: KeyCode
+- field_type: UInt64
+  field_name: OriginalSource

@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-ESE
+event_id: '119'
+version: '0'
+event(fields): ESE_IorunDequeue_Trace(UInt64 iFile, UInt64 ibOffset, UInt32 cbData,
+  UInt32 tidAlloc, UInt32 fHeapA, UInt32 fWrite, UInt32 Iorp, UInt32 Iors, UInt32
+  Ioru, UInt32 Iorf, UInt32 grbitQos, UInt64 cmsecTimeInQueue, UInt32 EngineFileType,
+  UInt64 EngineFileId, UInt64 cDispatchPass, UInt16 cIorunCombined, UInt32 cusecDequeueLatency)
+opcode: ''
+keywords: IO
+task: ESE_IorunDequeue_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: iFile
+- field_type: UInt64
+  field_name: ibOffset
+- field_type: UInt32
+  field_name: cbData
+- field_type: UInt32
+  field_name: tidAlloc
+- field_type: UInt32
+  field_name: fHeapA
+- field_type: UInt32
+  field_name: fWrite
+- field_type: UInt32
+  field_name: Iorp
+- field_type: UInt32
+  field_name: Iors
+- field_type: UInt32
+  field_name: Ioru
+- field_type: UInt32
+  field_name: Iorf
+- field_type: UInt32
+  field_name: grbitQos
+- field_type: UInt64
+  field_name: cmsecTimeInQueue
+- field_type: UInt32
+  field_name: EngineFileType
+- field_type: UInt64
+  field_name: EngineFileId
+- field_type: UInt64
+  field_name: cDispatchPass
+- field_type: UInt16
+  field_name: cIorunCombined
+- field_type: UInt32
+  field_name: cusecDequeueLatency

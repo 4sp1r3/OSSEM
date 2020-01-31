@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25107'
+version: '0'
+event(fields): Logon_BackButtonNotificationFlyoutStop()
+opcode: Stop
+keywords: ''
+task: Logon_BackButtonNotificationFlyout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

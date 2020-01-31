@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10052'
+version: '0'
+event(fields): PnP10052(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Oid, UInt32
+  Status, UInt32 Location)
+opcode: ''
+keywords: PnP
+task: PnP
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: NetLuid
+- field_type: UInt32
+  field_name: Oid
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Location

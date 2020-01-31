@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '362'
+version: '0'
+event(fields): AppXPackaging.Task.Manifest.LookupCapabilityDisplayNameStart(SID capabilitySid)
+opcode: Start
+keywords: ''
+task: AppXPackaging.Task.Manifest.LookupCapabilityDisplayName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: capabilitySid

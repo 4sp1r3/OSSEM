@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '70'
+version: '0'
+event(fields): SendMessageStop(Int8 CallbackCount, Pointer pqmsg)
+opcode: Stop
+keywords: MessagePump
+task: SendMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: CallbackCount
+- field_type: Pointer
+  field_name: pqmsg

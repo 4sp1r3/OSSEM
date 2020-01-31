@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '12108'
+version: '0'
+event(fields): Shlwapi_SHGetSignatureInfo_WinVerifyTrustStop()
+opcode: Stop
+keywords: Shell
+task: Shlwapi_SHGetSignatureInfo_WinVerifyTrust
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

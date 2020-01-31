@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathRecognizer
+event_id: '2'
+version: '0'
+event(fields): RecognitionStop()
+opcode: Stop
+keywords: ''
+task: Recognition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14067'
+version: '0'
+event(fields): task_014067(Boolean IsOn)
+opcode: ''
+keywords: State
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsOn

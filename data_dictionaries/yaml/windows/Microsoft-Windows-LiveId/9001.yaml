@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-LiveId
+event_id: '9001'
+version: '0'
+event(fields): task_09001(AnsiString FileName, UInt32 LineNumber, UnicodeString description)
+opcode: ''
+keywords: Error WlidProv
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: FileName
+- field_type: UInt32
+  field_name: LineNumber
+- field_type: UnicodeString
+  field_name: description

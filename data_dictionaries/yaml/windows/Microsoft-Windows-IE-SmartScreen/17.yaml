@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '17'
+version: '0'
+event(fields): TelemetryCheck17(UnicodeString FrameURL, UnicodeString RawFrameURL,
+  UnicodeString FramePCL, UnicodeString FrameTricks, UnicodeString Framekeywords,
+  UnicodeString FrameUrlType, UnicodeString FrameIP, UnicodeString Signature)
+opcode: ''
+keywords: functionality
+task: TelemetryCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FrameURL
+- field_type: UnicodeString
+  field_name: RawFrameURL
+- field_type: UnicodeString
+  field_name: FramePCL
+- field_type: UnicodeString
+  field_name: FrameTricks
+- field_type: UnicodeString
+  field_name: Framekeywords
+- field_type: UnicodeString
+  field_name: FrameUrlType
+- field_type: UnicodeString
+  field_name: FrameIP
+- field_type: UnicodeString
+  field_name: Signature

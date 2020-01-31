@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '203'
+version: '0'
+event(fields): Mshtml_AlignedTimer_Fire(UInt64 Object, UInt32 TimerId, Int32 DeltaMs,
+  Int32 PeriodMs, UInt64 CurrentTimeMs)
+opcode: ''
+keywords: paintbeat
+task: Mshtml_AlignedTimer_Fire
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object
+- field_type: UInt32
+  field_name: TimerId
+- field_type: Int32
+  field_name: DeltaMs
+- field_type: Int32
+  field_name: PeriodMs
+- field_type: UInt64
+  field_name: CurrentTimeMs

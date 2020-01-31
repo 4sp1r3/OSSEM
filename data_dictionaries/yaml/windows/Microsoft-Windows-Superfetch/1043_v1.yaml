@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1043'
+version: '1'
+event(fields): PrelaunchStart_V1(UInt32 Reason, UnicodeString AUMID)
+opcode: Start
+keywords: PfAp
+task: Prelaunch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: UnicodeString
+  field_name: AUMID

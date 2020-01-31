@@ -1,0 +1,25 @@
+provider: Microsoft-IEFRAME
+event_id: '593'
+version: '0'
+event(fields): Browseui_BringBrowserTabAlternateOwnerForwardStop(Int32 TabID, Boolean
+  IsActive, Pointer hwndAlternateOwner, Boolean fDestroyingHangUI, Pointer hwndNext,
+  Pointer hwndPrev)
+opcode: Stop
+keywords: ''
+task: Browseui_BringBrowserTabAlternateOwnerForward
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: TabID
+- field_type: Boolean
+  field_name: IsActive
+- field_type: Pointer
+  field_name: hwndAlternateOwner
+- field_type: Boolean
+  field_name: fDestroyingHangUI
+- field_type: Pointer
+  field_name: hwndNext
+- field_type: Pointer
+  field_name: hwndPrev

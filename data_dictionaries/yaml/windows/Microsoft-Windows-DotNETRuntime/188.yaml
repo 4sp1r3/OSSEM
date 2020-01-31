@@ -1,0 +1,39 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '188'
+version: '0'
+event(fields): MethodTailCallSucceeded(UnicodeString MethodBeingCompiledNamespace,
+  UnicodeString MethodBeingCompiledName, UnicodeString MethodBeingCompiledNameSignature,
+  UnicodeString CallerNamespace, UnicodeString CallerName, UnicodeString CallerNameSignature,
+  UnicodeString CalleeNamespace, UnicodeString CalleeName, UnicodeString CalleeNameSignature,
+  Boolean TailPrefix, UInt32 TailCallType, UInt16 ClrInstanceID)
+opcode: TailCallSucceeded
+keywords: JitTracingKeyword
+task: Method
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MethodBeingCompiledNamespace
+- field_type: UnicodeString
+  field_name: MethodBeingCompiledName
+- field_type: UnicodeString
+  field_name: MethodBeingCompiledNameSignature
+- field_type: UnicodeString
+  field_name: CallerNamespace
+- field_type: UnicodeString
+  field_name: CallerName
+- field_type: UnicodeString
+  field_name: CallerNameSignature
+- field_type: UnicodeString
+  field_name: CalleeNamespace
+- field_type: UnicodeString
+  field_name: CalleeName
+- field_type: UnicodeString
+  field_name: CalleeNameSignature
+- field_type: Boolean
+  field_name: TailPrefix
+- field_type: UInt32
+  field_name: TailCallType
+- field_type: UInt16
+  field_name: ClrInstanceID

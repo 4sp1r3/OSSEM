@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '22009'
+version: '1'
+event(fields): ShellNotifyUnpinShortcutStop_V1()
+opcode: Stop
+keywords: ''
+task: ShellNotifyUnpinShortcut
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

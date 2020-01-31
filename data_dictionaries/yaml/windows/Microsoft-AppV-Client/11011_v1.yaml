@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '11011'
+version: '1'
+event(fields): PublishPackage11011_V1(UnicodeString Item, UInt32 Error)
+opcode: ''
+keywords: ClientCoExistence
+task: PublishPackage
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Item
+- field_type: UInt32
+  field_name: Error

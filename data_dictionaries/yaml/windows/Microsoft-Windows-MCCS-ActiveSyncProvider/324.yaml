@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '324'
+version: '0'
+event(fields): task_0324(HexInt32 Prop_Dword, UnicodeString Prop_String)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_Dword
+- field_type: UnicodeString
+  field_name: Prop_String

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '7320'
+version: '0'
+event(fields): task_07320(UnicodeString ErrorDescription, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ErrorDescription
+- field_type: UInt32
+  field_name: ErrorCode

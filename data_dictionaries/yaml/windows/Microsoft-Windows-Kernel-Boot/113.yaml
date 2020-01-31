@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '113'
+version: '0'
+event(fields): ClaimPersistedMemoryStart(GUID ApplicationId, UInt64 BlockId, UInt32
+  Flags)
+opcode: Start
+keywords: MemoryPreservation
+task: ClaimPersistedMemory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ApplicationId
+- field_type: UInt64
+  field_name: BlockId
+- field_type: UInt32
+  field_name: Flags

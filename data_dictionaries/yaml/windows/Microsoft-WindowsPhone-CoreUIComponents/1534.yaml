@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1534'
+version: '0'
+event(fields): ServerTask1534(UInt32 unParam, Boolean fBool1, Boolean fBool2)
+opcode: ''
+keywords: ServerTask
+task: ServerTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: Boolean
+  field_name: fBool1
+- field_type: Boolean
+  field_name: fBool2

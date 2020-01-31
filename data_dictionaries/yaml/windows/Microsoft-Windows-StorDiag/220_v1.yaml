@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '220'
+version: '1'
+event(fields): ClassQueue_relatedoperation._V1(UInt32 DeviceNumber, HexInt32 QueueTag,
+  UInt8 Operation, HexInt32 Status)
+opcode: Queue_relatedoperation.
+keywords: Queue
+task: Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: HexInt32
+  field_name: QueueTag
+- field_type: UInt8
+  field_name: Operation
+- field_type: HexInt32
+  field_name: Status

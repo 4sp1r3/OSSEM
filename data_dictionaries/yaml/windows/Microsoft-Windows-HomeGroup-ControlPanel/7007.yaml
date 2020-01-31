@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HomeGroup-ControlPanel
+event_id: '7007'
+version: '0'
+event(fields): Initialization_ConfirmPageStart()
+opcode: Start
+keywords: HomeGroup
+task: Initialization_ConfirmPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

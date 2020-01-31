@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-NDF-HelperClassDiscovery
+event_id: '1011'
+version: '0'
+event(fields): LoadHelperClass1011(UInt32 ErrorCode, UInt32 Location, UnicodeString
+  Name)
+opcode: ''
+keywords: ''
+task: LoadHelperClass
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: Location
+- field_type: UnicodeString
+  field_name: Name

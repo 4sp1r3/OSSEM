@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '31'
+version: '0'
+event(fields): SmartUserPresencePrediction(UInt64 UserAwayEndSystemTime)
+opcode: ''
+keywords: SmartUserPresence
+task: SmartUserPresencePrediction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UserAwayEndSystemTime

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '221'
+version: '0'
+event(fields): task_0221(GUID CorrelationId, UnicodeString HostReference, UnicodeString
+  AppDomain)
+opcode: ''
+keywords: TransportGeneral EndToEndMonitoring Troubleshooting
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CorrelationId
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

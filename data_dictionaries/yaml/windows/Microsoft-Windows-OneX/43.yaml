@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-OneX
+event_id: '43'
+version: '0'
+event(fields): MSM43(UInt32 PortId, UInt32 Reason)
+opcode: ''
+keywords: Supplicant LwtDiagnostic ut:Authentication
+task: MSM
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId
+- field_type: UInt32
+  field_name: Reason

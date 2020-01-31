@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '508'
+version: '0'
+event(fields): CLine508(UInt32 DwordName1, UInt32 DwordName2)
+opcode: ''
+keywords: Information
+task: CLine
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName1
+- field_type: UInt32
+  field_name: DwordName2

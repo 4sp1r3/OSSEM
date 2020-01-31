@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '320'
+version: '0'
+event(fields): AppReadiness_ExecuteTask320(UnicodeString Key, UInt32 Result)
+opcode: ''
+keywords: Tasks keyword_400000000000
+task: AppReadiness_ExecuteTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Key
+- field_type: UInt32
+  field_name: Result

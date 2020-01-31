@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '42004'
+version: '1'
+event(fields): VShell.StartupProcessRuntimeStart_V1()
+opcode: Start
+keywords: ''
+task: VShell.StartupProcessRuntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

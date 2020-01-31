@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '279'
+version: '0'
+event(fields): DCompRemoveChild(UInt64 ParentDCompVisual, UInt64 ChildDCompVisual)
+opcode: ''
+keywords: DComp
+task: DCompRemoveChild
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ParentDCompVisual
+- field_type: UInt64
+  field_name: ChildDCompVisual

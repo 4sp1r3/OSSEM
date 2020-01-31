@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2312'
+version: '0'
+event(fields): CtapNfcReaderThreadStop2312(GUID TransactionId, UnicodeString Reader,
+  GUID AAGuid, Boolean U2fProtocol, UInt32 State, HexInt32 Status, HexInt32 Error,
+  HexInt32 Win32Error)
+opcode: Stop
+keywords: Ctap Nfc
+task: CtapNfcReaderThread
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UnicodeString
+  field_name: Reader
+- field_type: GUID
+  field_name: AAGuid
+- field_type: Boolean
+  field_name: U2fProtocol
+- field_type: UInt32
+  field_name: State
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: Error
+- field_type: HexInt32
+  field_name: Win32Error

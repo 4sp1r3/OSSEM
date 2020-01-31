@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1609'
+version: '0'
+event(fields): task_01609(UInt32 QueryType, UInt32 QuerySources, UInt32 dwNetworkOut,
+  UInt32 dwNetworksIn, UInt32 dwFlags, UInt32 dwACEnabled, UInt32 ConfScanTO, UInt32
+  MinLinkQ, Float MinScore, UInt32 dwScoreWt, UInt32 dwSignalWt, UInt32 OverlapP,
+  UInt32 dwRetries)
+opcode: ''
+keywords: ScnEvt
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: QueryType
+- field_type: UInt32
+  field_name: QuerySources
+- field_type: UInt32
+  field_name: dwNetworkOut
+- field_type: UInt32
+  field_name: dwNetworksIn
+- field_type: UInt32
+  field_name: dwFlags
+- field_type: UInt32
+  field_name: dwACEnabled
+- field_type: UInt32
+  field_name: ConfScanTO
+- field_type: UInt32
+  field_name: MinLinkQ
+- field_type: Float
+  field_name: MinScore
+- field_type: UInt32
+  field_name: dwScoreWt
+- field_type: UInt32
+  field_name: dwSignalWt
+- field_type: UInt32
+  field_name: OverlapP
+- field_type: UInt32
+  field_name: dwRetries

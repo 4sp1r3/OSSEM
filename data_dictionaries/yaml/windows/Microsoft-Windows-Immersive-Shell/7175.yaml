@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7175'
+version: '0'
+event(fields): ConnectedSearch_LogAttributionClick(UInt32 Result, UnicodeString ImpressionGUID,
+  UnicodeString TargetId)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogAttributionClick
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ImpressionGUID
+- field_type: UnicodeString
+  field_name: TargetId

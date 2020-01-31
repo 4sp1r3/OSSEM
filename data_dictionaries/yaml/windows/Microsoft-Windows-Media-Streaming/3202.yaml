@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '3202'
+version: '0'
+event(fields): Populate_ContextMenuStop(UInt32 MenuItemCount, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Populate_ContextMenu
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MenuItemCount
+- field_type: UInt32
+  field_name: ErrorCode

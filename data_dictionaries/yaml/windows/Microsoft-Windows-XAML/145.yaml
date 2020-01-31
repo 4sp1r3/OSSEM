@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '145'
+version: '0'
+event(fields): ImageCacheDecodeStart(UnicodeString URI)
+opcode: Start
+keywords: Images
+task: ImageCacheDecode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URI

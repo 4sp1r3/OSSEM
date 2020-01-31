@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ACL-UI
+event_id: '4008'
+version: '0'
+event(fields): DownloadCentralAccessPolicyIDsStart()
+opcode: Start
+keywords: ''
+task: DownloadCentralAccessPolicyIDs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

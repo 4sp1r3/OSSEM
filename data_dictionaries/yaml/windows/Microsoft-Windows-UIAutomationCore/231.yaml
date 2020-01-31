@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '231'
+version: '0'
+event(fields): CUIAutomation_GetPatternProgrammaticNameStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CUIAutomation_GetPatternProgrammaticName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4600'
+version: '0'
+event(fields): MFContentProtectionDeviceCreateStarttaskStart(GUID system)
+opcode: Start
+keywords: ''
+task: MFContentProtectionDeviceCreateStarttask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: system

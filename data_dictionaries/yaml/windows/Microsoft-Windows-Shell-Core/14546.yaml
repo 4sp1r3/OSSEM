@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14546'
+version: '0'
+event(fields): Properties_RatingsControl_SetValueStop()
+opcode: Stop
+keywords: Controls
+task: Properties_RatingsControl_SetValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

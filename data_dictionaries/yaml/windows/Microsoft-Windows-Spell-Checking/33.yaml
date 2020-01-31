@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Spell-Checking
+event_id: '33'
+version: '0'
+event(fields): SpellcheckingReceive33()
+opcode: Receive
+keywords: ''
+task: Spellchecking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '39'
+version: '1'
+event(fields): PowerTransition_V1(UInt32 SleepTime, UInt32 ResumeTime, UInt32 DriverWakeTime,
+  UInt32 HiberWriteTime, UInt32 HiberReadTime, UInt32 HiberPagesWritten, UInt32 BiosInitTime,
+  UInt32 CheckpointTime)
+opcode: ''
+keywords: po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:SleepDiagnostic
+  po:WdiDiagnostic
+task: PowerTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SleepTime
+- field_type: UInt32
+  field_name: ResumeTime
+- field_type: UInt32
+  field_name: DriverWakeTime
+- field_type: UInt32
+  field_name: HiberWriteTime
+- field_type: UInt32
+  field_name: HiberReadTime
+- field_type: UInt32
+  field_name: HiberPagesWritten
+- field_type: UInt32
+  field_name: BiosInitTime
+- field_type: UInt32
+  field_name: CheckpointTime

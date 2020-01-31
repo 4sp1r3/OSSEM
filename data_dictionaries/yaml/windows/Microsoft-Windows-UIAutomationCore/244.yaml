@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '244'
+version: '0'
+event(fields): CUIAutomation_RemoveEventHandlerStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CUIAutomation_RemoveEventHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

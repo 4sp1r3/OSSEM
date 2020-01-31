@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '47'
+version: '0'
+event(fields): StopTrackingForTimeSyncInformation(Pointer fid_UcxController, Pointer
+  fid_TimeTrackingHandle, Boolean fid_IsCloseHandleFromClient, UInt32 fid_RequestorMode,
+  UInt32 fid_NtStatus, UInt32 fid_NumberOfGetFrameQpcCalls, UInt32 fid_NumberOfFrameQpcTranslations)
+opcode: Information
+keywords: Default keyword_400000000000
+task: StopTrackingForTimeSync
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: Pointer
+  field_name: fid_TimeTrackingHandle
+- field_type: Boolean
+  field_name: fid_IsCloseHandleFromClient
+- field_type: UInt32
+  field_name: fid_RequestorMode
+- field_type: UInt32
+  field_name: fid_NtStatus
+- field_type: UInt32
+  field_name: fid_NumberOfGetFrameQpcCalls
+- field_type: UInt32
+  field_name: fid_NumberOfFrameQpcTranslations

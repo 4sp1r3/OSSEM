@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-RasServer
+event_id: '50018'
+version: '0'
+event(fields): task_050018()
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

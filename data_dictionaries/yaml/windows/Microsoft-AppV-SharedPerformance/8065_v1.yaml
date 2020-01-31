@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8065'
+version: '1'
+event(fields): TransactionCompleteStop_V1()
+opcode: Stop
+keywords: ''
+task: TransactionComplete
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

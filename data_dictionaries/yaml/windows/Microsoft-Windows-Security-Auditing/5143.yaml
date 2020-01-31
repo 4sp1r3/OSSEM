@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5143'
+version: '0'
+event(fields): task_05143(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString ObjectType, UnicodeString
+  ShareName, UnicodeString ShareLocalPath, UnicodeString OldRemark, UnicodeString
+  NewRemark, HexInt32 OldMaxUsers, HexInt32 NewMaxUsers, HexInt32 OldShareFlags, HexInt32
+  NewShareFlags, UnicodeString OldSD, UnicodeString NewSD)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: ObjectType
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UnicodeString
+  field_name: ShareLocalPath
+- field_type: UnicodeString
+  field_name: OldRemark
+- field_type: UnicodeString
+  field_name: NewRemark
+- field_type: HexInt32
+  field_name: OldMaxUsers
+- field_type: HexInt32
+  field_name: NewMaxUsers
+- field_type: HexInt32
+  field_name: OldShareFlags
+- field_type: HexInt32
+  field_name: NewShareFlags
+- field_type: UnicodeString
+  field_name: OldSD
+- field_type: UnicodeString
+  field_name: NewSD

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6050'
+version: '0'
+event(fields): task_06050(UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

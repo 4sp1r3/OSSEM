@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UxTheme
+event_id: '30'
+version: '0'
+event(fields): HandleServerConnectionRequestStart()
+opcode: Start
+keywords: ''
+task: HandleServerConnectionRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

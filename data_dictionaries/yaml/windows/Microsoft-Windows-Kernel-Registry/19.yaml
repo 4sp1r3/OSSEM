@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '19'
+version: '0'
+event(fields): Thisgroupofeventstrackstheperformanceofmountinghivesfromexistingfiles.Stop(HexInt32
+  StatusCode)
+opcode: Stop
+keywords: ''
+task: Thisgroupofeventstrackstheperformanceofmountinghivesfromexistingfiles.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: StatusCode

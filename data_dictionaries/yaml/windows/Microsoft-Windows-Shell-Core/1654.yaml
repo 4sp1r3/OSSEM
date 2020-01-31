@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1654'
+version: '0'
+event(fields): ShellTask_MtPtRemote_UpdateInfoThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_MtPtRemote_UpdateInfoThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

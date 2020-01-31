@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Ncasvc
+event_id: '10008'
+version: '0'
+event(fields): NcaSvc_PerfTrack_SmartcardRequired_SmartcardEnteredStop(UInt32 MachineIdentifier,
+  UInt32 SessionIdentifier, UInt32 DeploymentIdentifier, UInt32 StopState)
+opcode: Stop
+keywords: ''
+task: NcaSvc_PerfTrack_SmartcardRequired_SmartcardEntered
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MachineIdentifier
+- field_type: UInt32
+  field_name: SessionIdentifier
+- field_type: UInt32
+  field_name: DeploymentIdentifier
+- field_type: UInt32
+  field_name: StopState

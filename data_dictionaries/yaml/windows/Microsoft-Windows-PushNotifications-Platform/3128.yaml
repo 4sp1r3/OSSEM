@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3128'
+version: '0'
+event(fields): AFCDismissActivitiesStart()
+opcode: Start
+keywords: wpnui
+task: AFCDismissActivities
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '651'
+version: '0'
+event(fields): Smb2FileDisconnect(GUID OpenGUID)
+opcode: ''
+keywords: File
+task: Smb2FileDisconnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: OpenGUID

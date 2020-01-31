@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '4018'
+version: '0'
+event(fields): task_0Start4018(UnicodeString PrincipalSamName, UInt32 ScriptType,
+  Boolean IsScriptHidden, Boolean IsScriptSync, Boolean IsScriptMinimized, UInt32
+  SessionId)
+opcode: Start
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PrincipalSamName
+- field_type: UInt32
+  field_name: ScriptType
+- field_type: Boolean
+  field_name: IsScriptHidden
+- field_type: Boolean
+  field_name: IsScriptSync
+- field_type: Boolean
+  field_name: IsScriptMinimized
+- field_type: UInt32
+  field_name: SessionId

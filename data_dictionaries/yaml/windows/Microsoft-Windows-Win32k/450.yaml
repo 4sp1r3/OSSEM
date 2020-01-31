@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-Win32k
+event_id: '450'
+version: '0'
+event(fields): DCompCreateImplicitInteraction(UInt32 Channel, UInt32 VisualInternalHandle,
+  UInt32 InteractionInternalHandle, UInt64 VisualInternalHandleAndChannel, UInt64
+  InteractionInternalHandleAndChannel, UInt32 ResourceType, Boolean DefaultInteraction,
+  UnicodeString Reason)
+opcode: ''
+keywords: DCompInput
+task: DCompCreateImplicitInteraction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Channel
+- field_type: UInt32
+  field_name: VisualInternalHandle
+- field_type: UInt32
+  field_name: InteractionInternalHandle
+- field_type: UInt64
+  field_name: VisualInternalHandleAndChannel
+- field_type: UInt64
+  field_name: InteractionInternalHandleAndChannel
+- field_type: UInt32
+  field_name: ResourceType
+- field_type: Boolean
+  field_name: DefaultInteraction
+- field_type: UnicodeString
+  field_name: Reason

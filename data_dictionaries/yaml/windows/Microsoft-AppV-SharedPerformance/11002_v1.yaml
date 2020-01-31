@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '11002'
+version: '1'
+event(fields): ManifestCreateManifestDocumentFromDocumentStop_V1()
+opcode: Stop
+keywords: ''
+task: ManifestCreateManifestDocumentFromDocument
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '20'
+version: '0'
+event(fields): task_0Offeringcontenttohostedcache.20(UnicodeString HostedCacheLocation)
+opcode: Offeringcontenttohostedcache.
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HostedCacheLocation

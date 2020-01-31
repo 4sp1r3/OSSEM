@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '315'
+version: '0'
+event(fields): task_0315(UnicodeString UserSid, UnicodeString IdpDomain, UnicodeString
+  TenantDomain, UnicodeString UserId, UInt32 Flags, Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: IdpDomain
+- field_type: UnicodeString
+  field_name: TenantDomain
+- field_type: UnicodeString
+  field_name: UserId
+- field_type: UInt32
+  field_name: Flags
+- field_type: Int32
+  field_name: ErrorCode

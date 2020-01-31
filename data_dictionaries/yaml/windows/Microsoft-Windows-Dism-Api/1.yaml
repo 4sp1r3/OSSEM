@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '1'
+version: '0'
+event(fields): DismInitializeStart()
+opcode: Start
+keywords: DismApiEvent
+task: DismInitialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

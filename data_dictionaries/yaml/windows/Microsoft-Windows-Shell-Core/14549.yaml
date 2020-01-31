@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14549'
+version: '0'
+event(fields): Properties_SingleLineEditControl_CreateStart()
+opcode: Start
+keywords: Controls
+task: Properties_SingleLineEditControl_Create
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

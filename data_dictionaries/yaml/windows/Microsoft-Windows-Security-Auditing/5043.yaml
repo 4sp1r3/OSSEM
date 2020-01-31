@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5043'
+version: '0'
+event(fields): task_05043(UnicodeString ProfileChanged, UnicodeString ConnectionSecurityRuleId,
+  UnicodeString ConnectionSecurityRuleName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProfileChanged
+- field_type: UnicodeString
+  field_name: ConnectionSecurityRuleId
+- field_type: UnicodeString
+  field_name: ConnectionSecurityRuleName

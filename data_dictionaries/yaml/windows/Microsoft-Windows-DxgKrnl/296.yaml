@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '296'
+version: '0'
+event(fields): SignalSynchronizationObjectFromCpu(Pointer hDevice, UInt32 ObjectCount,
+  Pointer ObjectArray, UInt64 MonitoredFenceValue)
+opcode: ''
+keywords: Base
+task: SignalSynchronizationObjectFromCpu
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hDevice
+- field_type: UInt32
+  field_name: ObjectCount
+- field_type: Pointer
+  field_name: ObjectArray
+- field_type: UInt64
+  field_name: MonitoredFenceValue

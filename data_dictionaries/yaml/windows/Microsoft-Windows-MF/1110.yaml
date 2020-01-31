@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MF
+event_id: '1110'
+version: '0'
+event(fields): MediaFoundationIMFSampleProtection_GetProtectionCertificate(UInt32
+  value, HexInt32 hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationIMFSampleProtection_GetProtectionCertificate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: value
+- field_type: HexInt32
+  field_name: hr

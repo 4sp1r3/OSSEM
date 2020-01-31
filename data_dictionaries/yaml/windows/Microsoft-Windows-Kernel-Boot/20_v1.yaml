@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '20'
+version: '1'
+event(fields): DirtyBootShutdown_V1(Boolean LastShutdownGood, Boolean LastBootGood,
+  UInt32 LastBootId, UInt32 BootStatusPolicy)
+opcode: ''
+keywords: ''
+task: DirtyBootShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: LastShutdownGood
+- field_type: Boolean
+  field_name: LastBootGood
+- field_type: UInt32
+  field_name: LastBootId
+- field_type: UInt32
+  field_name: BootStatusPolicy

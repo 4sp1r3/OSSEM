@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6001'
+version: '0'
+event(fields): CommandModule_ChangeNotifyStart()
+opcode: Start
+keywords: Shell
+task: CommandModule_ChangeNotify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

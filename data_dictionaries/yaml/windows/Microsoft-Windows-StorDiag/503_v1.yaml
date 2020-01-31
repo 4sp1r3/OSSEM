@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '503'
+version: '1'
+event(fields): ClassCompletionofrequest.503_V1(GUID DeviceGUID, UInt32 DeviceNumber,
+  AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber,
+  HexInt32 IrpStatus, HexInt64 LBA, UInt64 TransferByteCount, UInt8 NvCachePriority,
+  UInt32 PagingPriority)
+opcode: Completionofrequest.
+keywords: Write PagingWrite
+task: Class
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGUID
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: AnsiString
+  field_name: Vendor
+- field_type: AnsiString
+  field_name: Model
+- field_type: AnsiString
+  field_name: FirmwareVersion
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: HexInt32
+  field_name: IrpStatus
+- field_type: HexInt64
+  field_name: LBA
+- field_type: UInt64
+  field_name: TransferByteCount
+- field_type: UInt8
+  field_name: NvCachePriority
+- field_type: UInt32
+  field_name: PagingPriority

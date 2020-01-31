@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Resource-Exhaustion-Detector
+event_id: '1002'
+version: '0'
+event(fields): LifecycleEventsEventsloggedwhentheresourceexhaustiondetectorisstopped.()
+opcode: Eventsloggedwhentheresourceexhaustiondetectorisstopped.
+keywords: RDR_DET_KEYWORD_LIFECYCLE
+task: LifecycleEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

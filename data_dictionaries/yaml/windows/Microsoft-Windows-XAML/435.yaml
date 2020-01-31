@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-XAML
+event_id: '435'
+version: '0'
+event(fields): DecodeStreamForImage(UInt64 ImageId, UInt32 DecodeWidth, UInt32 DecodeHeight,
+  UInt32 NaturalWidth, UInt32 NaturalHeight, Boolean RetrievedFromCache)
+opcode: ''
+keywords: Images
+task: DecodeStreamForImage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ImageId
+- field_type: UInt32
+  field_name: DecodeWidth
+- field_type: UInt32
+  field_name: DecodeHeight
+- field_type: UInt32
+  field_name: NaturalWidth
+- field_type: UInt32
+  field_name: NaturalHeight
+- field_type: Boolean
+  field_name: RetrievedFromCache

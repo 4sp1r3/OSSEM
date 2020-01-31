@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62153'
+version: '0'
+event(fields): TileManagement_PackageInfo_Remove_Folder(UnicodeString PackageFamilyName,
+  UInt32 ErrorCode)
+opcode: ''
+keywords: Shell
+task: TileManagement_PackageInfo_Remove_Folder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFamilyName
+- field_type: UInt32
+  field_name: ErrorCode

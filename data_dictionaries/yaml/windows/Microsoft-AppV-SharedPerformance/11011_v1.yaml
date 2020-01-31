@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '11011'
+version: '1'
+event(fields): ManifestValidateAppXNamespaceStop_V1()
+opcode: Stop
+keywords: ''
+task: ManifestValidateAppXNamespace
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

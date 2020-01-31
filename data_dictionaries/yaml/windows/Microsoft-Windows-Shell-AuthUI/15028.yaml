@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '15028'
+version: '0'
+event(fields): Common_Credential_GetUserSid(UInt32 DWORD1, UnicodeString message1,
+  UnicodeString message2)
+opcode: ''
+keywords: ''
+task: Common_Credential_GetUserSid
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DWORD1
+- field_type: UnicodeString
+  field_name: message1
+- field_type: UnicodeString
+  field_name: message2

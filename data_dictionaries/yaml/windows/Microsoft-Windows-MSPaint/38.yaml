@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-MSPaint
+event_id: '38'
+version: '0'
+event(fields): ResizeSkewOperationStop(Int32 ResizeskewOperationresult, Int32 Widthofthecanvas,
+  Int32 Heightofthecanvas, Int32 Horizontalresizepercentage, Int32 Verticalresizepercentage,
+  Int32 Horizontalskewangle, Int32 Verticalskewangle)
+opcode: Stop
+keywords: ''
+task: ResizeSkewOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ResizeskewOperationresult
+- field_type: Int32
+  field_name: Widthofthecanvas
+- field_type: Int32
+  field_name: Heightofthecanvas
+- field_type: Int32
+  field_name: Horizontalresizepercentage
+- field_type: Int32
+  field_name: Verticalresizepercentage
+- field_type: Int32
+  field_name: Horizontalskewangle
+- field_type: Int32
+  field_name: Verticalskewangle

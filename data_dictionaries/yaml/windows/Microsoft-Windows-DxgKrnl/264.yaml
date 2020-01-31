@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '264'
+version: '0'
+event(fields): YieldDueToStarvationThresholdExceeded(UInt64 HighestPriorityLevelOfThresholdExceeded,
+  UInt64 HighestPriorityLevel, UInt64 RemainingYieldBudget, UInt32 ThresholdExceededPriorityMapBits,
+  UInt64 TickFrequency)
+opcode: ''
+keywords: Base
+task: YieldDueToStarvationThresholdExceeded
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: HighestPriorityLevelOfThresholdExceeded
+- field_type: UInt64
+  field_name: HighestPriorityLevel
+- field_type: UInt64
+  field_name: RemainingYieldBudget
+- field_type: UInt32
+  field_name: ThresholdExceededPriorityMapBits
+- field_type: UInt64
+  field_name: TickFrequency

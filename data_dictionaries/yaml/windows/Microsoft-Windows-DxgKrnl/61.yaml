@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '61'
+version: '0'
+event(fields): PreparationStart(Pointer hContext, Pointer pDmaBuffer, UInt32 uiAllocationListLength)
+opcode: Start
+keywords: Base
+task: Preparation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: Pointer
+  field_name: pDmaBuffer
+- field_type: UInt32
+  field_name: uiAllocationListLength

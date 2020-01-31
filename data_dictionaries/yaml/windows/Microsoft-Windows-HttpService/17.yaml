@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HttpService
+event_id: '17'
+version: '0'
+event(fields): HTTPRequestTraceTaskCachedNotModified(Pointer RequestObj, UInt32 SiteId,
+  UInt32 BytesSent)
+opcode: CachedNotModified
+keywords: HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_CACHE
+task: HTTPRequestTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestObj
+- field_type: UInt32
+  field_name: SiteId
+- field_type: UInt32
+  field_name: BytesSent

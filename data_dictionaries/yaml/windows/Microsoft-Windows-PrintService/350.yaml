@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintService
+event_id: '350'
+version: '0'
+event(fields): PrintingadocumentSpoolerOperationFailed350(UnicodeString param1, UnicodeString
+  param2)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC
+task: Printingadocument
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2

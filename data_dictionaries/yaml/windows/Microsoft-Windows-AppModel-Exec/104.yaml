@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '104'
+version: '0'
+event(fields): task_0104(Boolean Removal, UnicodeString SrcPsmKey, UnicodeString TargetPsmKey,
+  UInt32 Type, HexInt32 Error)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Removal
+- field_type: UnicodeString
+  field_name: SrcPsmKey
+- field_type: UnicodeString
+  field_name: TargetPsmKey
+- field_type: UInt32
+  field_name: Type
+- field_type: HexInt32
+  field_name: Error

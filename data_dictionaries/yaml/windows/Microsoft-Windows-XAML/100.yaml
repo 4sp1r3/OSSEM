@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '100'
+version: '0'
+event(fields): SubmitFrameStart()
+opcode: Start
+keywords: Rendering
+task: SubmitFrame
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

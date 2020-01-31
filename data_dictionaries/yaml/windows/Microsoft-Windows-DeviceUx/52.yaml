@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '52'
+version: '0'
+event(fields): DevicePairing_CeremonyDiscoverStart()
+opcode: Start
+keywords: ''
+task: DevicePairing_CeremonyDiscover
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-FunctionDiscovery
+event_id: '1021'
+version: '0'
+event(fields): FunDisc_FunctionInstanceCollectionQueryStop(UnicodeString Category,
+  UnicodeString Subcategory)
+opcode: Stop
+keywords: ''
+task: FunDisc_FunctionInstanceCollectionQueryStop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Category
+- field_type: UnicodeString
+  field_name: Subcategory

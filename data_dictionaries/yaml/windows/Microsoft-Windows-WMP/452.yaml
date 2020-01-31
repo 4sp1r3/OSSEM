@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WMP
+event_id: '452'
+version: '0'
+event(fields): PLAYSINGLE_PH_RESOLVEStop(Pointer ProtocolHandler, Pointer IInternetProtocolSink,
+  UnicodeString UDN, UnicodeString ServiceID, UnicodeString ObjectID, UInt32 HResult)
+opcode: Stop
+keywords: mediaplayer
+task: PLAYSINGLE_PH_RESOLVE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ProtocolHandler
+- field_type: Pointer
+  field_name: IInternetProtocolSink
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: UnicodeString
+  field_name: ServiceID
+- field_type: UnicodeString
+  field_name: ObjectID
+- field_type: UInt32
+  field_name: HResult

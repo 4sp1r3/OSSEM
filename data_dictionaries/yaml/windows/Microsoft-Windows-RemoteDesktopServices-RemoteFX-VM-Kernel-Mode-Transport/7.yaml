@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RemoteFX-VM-Kernel-Mode-Transport
+event_id: '7'
+version: '0'
+event(fields): task_0Stop7(UnicodeString function, UnicodeString task)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: function
+- field_type: UnicodeString
+  field_name: task

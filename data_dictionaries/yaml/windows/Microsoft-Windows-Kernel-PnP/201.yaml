@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '201'
+version: '0'
+event(fields): BootStartStop()
+opcode: Stop
+keywords: Performance
+task: BootStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

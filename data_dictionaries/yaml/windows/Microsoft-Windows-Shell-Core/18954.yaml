@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18954'
+version: '0'
+event(fields): Shell32_SHChangeNotify_Deregister_ClientStart(UInt32 ID)
+opcode: Start
+keywords: Shell
+task: Shell32_SHChangeNotify_Deregister_Client
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ID

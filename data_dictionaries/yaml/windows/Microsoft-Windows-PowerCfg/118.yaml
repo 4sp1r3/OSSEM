@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerCfg
+event_id: '118'
+version: '0'
+event(fields): PowerCpl_ComboOverrideTimeStop()
+opcode: Stop
+keywords: PowerCpl
+task: PowerCpl_ComboOverrideTime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

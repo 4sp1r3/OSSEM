@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-USBHUB
+event_id: '102'
+version: '0'
+event(fields): USBDeviceInformation(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Device,
+  GUID fid_USBHUB_Device_State, Pointer fid_DeviceDescriptor)
+opcode: Information
+keywords: Diagnostics
+task: USBDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: fid_USBHUB_HC
+- field_type: Int64
+  field_name: fid_USBHUB_Device
+- field_type: GUID
+  field_name: fid_USBHUB_Device_State
+- field_type: Pointer
+  field_name: fid_DeviceDescriptor

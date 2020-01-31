@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-L2NACP
+event_id: '13004'
+version: '0'
+event(fields): task_013004(UInt32 Result, GUID InterfaceGuid, UnicodeString ProfileName)
+opcode: ''
+keywords: Credential ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: ProfileName

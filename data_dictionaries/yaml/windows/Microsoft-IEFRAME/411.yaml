@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '411'
+version: '0'
+event(fields): Browseui_HangUI_ScriptRecoveryTimeout(UInt32 TabID)
+opcode: ''
+keywords: hang
+task: Browseui_HangUI_ScriptRecoveryTimeout
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID

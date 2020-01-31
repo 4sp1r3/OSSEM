@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '46'
+version: '0'
+event(fields): FontResourceLoadStart()
+opcode: Start
+keywords: Reader
+task: FontResourceLoad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

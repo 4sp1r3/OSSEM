@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3022'
+version: '1'
+event(fields): PublishPackage_111Stop_V1()
+opcode: Stop
+keywords: ''
+task: PublishPackage_111
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

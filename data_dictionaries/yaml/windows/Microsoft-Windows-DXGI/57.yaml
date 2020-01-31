@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DXGI
+event_id: '57'
+version: '0'
+event(fields): CheckMultiplaneOverlaySupportStart(Pointer pIDXGISwapChain, UInt32
+  NumPlanes)
+opcode: Start
+keywords: Events
+task: CheckMultiplaneOverlaySupport
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: UInt32
+  field_name: NumPlanes

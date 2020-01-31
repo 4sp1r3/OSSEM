@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-LimitsManagement
+event_id: '7'
+version: '0'
+event(fields): MitigationEvent(UInt32 Event, UInt32 Type, UInt32 LowerThreshold, UInt32
+  UpperThreshold, UInt32 Value, UnicodeString Initiator)
+opcode: ''
+keywords: ''
+task: MitigationEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Event
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: LowerThreshold
+- field_type: UInt32
+  field_name: UpperThreshold
+- field_type: UInt32
+  field_name: Value
+- field_type: UnicodeString
+  field_name: Initiator

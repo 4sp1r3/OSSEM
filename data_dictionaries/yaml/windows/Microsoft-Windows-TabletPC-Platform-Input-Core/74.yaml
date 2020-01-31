@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Core
+event_id: '74'
+version: '0'
+event(fields): TABLET_INPUT_OverPan_SlideWindow_WithMomentumStop()
+opcode: Stop
+keywords: ''
+task: TABLET_INPUT_OverPan_SlideWindow_WithMomentum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

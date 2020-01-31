@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7202'
+version: '0'
+event(fields): ConnectedSearch_ServiceLoadStop()
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_ServiceLoad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

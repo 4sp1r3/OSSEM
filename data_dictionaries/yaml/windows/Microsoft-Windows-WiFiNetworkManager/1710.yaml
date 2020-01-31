@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1710'
+version: '0'
+event(fields): task_01710(UInt32 state)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: state

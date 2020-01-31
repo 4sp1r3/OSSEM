@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '92'
+version: '0'
+event(fields): Mshtml_OffscreenBufferCreated(Pointer Buffer, UInt32 Depth, UInt32
+  Width, UInt32 Height)
+opcode: ''
+keywords: primarynav mshtml
+task: Mshtml_OffscreenBufferCreated
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: Depth
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height

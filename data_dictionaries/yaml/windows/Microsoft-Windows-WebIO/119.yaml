@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-WebIO
+event_id: '119'
+version: '0'
+event(fields): ResponseConnectionBufferReceiveReallocate(Pointer Connection, Pointer
+  OldBuffer, UInt32 OldBufferLength, UInt32 BufferLengthData, Pointer NewBuffer, UInt32
+  NewBufferLength)
+opcode: Reallocate
+keywords: Keyword.RECEIVE
+task: ResponseConnectionBufferReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: OldBuffer
+- field_type: UInt32
+  field_name: OldBufferLength
+- field_type: UInt32
+  field_name: BufferLengthData
+- field_type: Pointer
+  field_name: NewBuffer
+- field_type: UInt32
+  field_name: NewBufferLength

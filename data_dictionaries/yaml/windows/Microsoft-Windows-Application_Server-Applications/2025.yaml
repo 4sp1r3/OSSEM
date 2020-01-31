@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '2025'
+version: '0'
+event(fields): InternalCacheMetadataStop(UnicodeString id, UnicodeString AppDomain)
+opcode: Stop
+keywords: WFRuntime
+task: InternalCacheMetadata
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: id
+- field_type: UnicodeString
+  field_name: AppDomain

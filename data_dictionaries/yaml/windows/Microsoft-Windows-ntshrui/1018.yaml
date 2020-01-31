@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ntshrui
+event_id: '1018'
+version: '0'
+event(fields): SharingWizard_DisplayStop()
+opcode: Stop
+keywords: ''
+task: SharingWizard_Display
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '390'
+version: '0'
+event(fields): HME_ServiceAdded(Pointer IHMEService, UnicodeString UDN)
+opcode: ''
+keywords: mediaplayer
+task: HME_ServiceAdded
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: IHMEService
+- field_type: UnicodeString
+  field_name: UDN

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '126'
+version: '0'
+event(fields): SpuxCPL_PageLoadStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: SpuxCPL_PageLoad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-StorPort
+event_id: '5'
+version: '1'
+event(fields): LinkdownnotificationOpCodeLinkDown_V1(Pointer MiniportExtension, UInt32
+  PortNumber, UInt32 LinkDownTime)
+opcode: OpCodeLinkDown
+keywords: PortNotification
+task: Linkdownnotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportExtension
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt32
+  field_name: LinkDownTime

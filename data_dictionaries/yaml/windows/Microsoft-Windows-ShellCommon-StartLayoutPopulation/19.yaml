@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '19'
+version: '0'
+event(fields): SecondaryTileInitialization_InitializeSecondaryTileStart(UnicodeString
+  tileData)
+opcode: Start
+keywords: ''
+task: SecondaryTileInitialization_InitializeSecondaryTile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: tileData

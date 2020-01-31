@@ -1,0 +1,114 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '100'
+version: '2'
+event(fields): BootPerformanceMonitoringBootInformation_V2(UInt32 BootTsVersion, FILETIME
+  BootStartTime, FILETIME BootEndTime, UInt32 SystemBootInstance, UInt32 UserBootInstance,
+  UInt32 BootTime, UInt32 MainPathBootTime, UInt32 BootKernelInitTime, UInt32 BootDriverInitTime,
+  UInt32 BootDevicesInitTime, UInt32 BootPrefetchInitTime, UInt32 BootPrefetchBytes,
+  UInt32 BootAutoChkTime, UInt32 BootSmssInitTime, UInt32 BootCriticalServicesInitTime,
+  UInt32 BootUserProfileProcessingTime, UInt32 BootMachineProfileProcessingTime, UInt32
+  BootExplorerInitTime, UInt32 BootNumStartupApps, UInt32 BootPostBootTime, Boolean
+  BootIsRebootAfterInstall, UInt32 BootRootCauseStepImprovementBits, UInt32 BootRootCauseGradualImprovementBits,
+  UInt32 BootRootCauseStepDegradationBits, UInt32 BootRootCauseGradualDegradationBits,
+  Boolean BootIsDegradation, Boolean BootIsStepDegradation, Boolean BootIsGradualDegradation,
+  UInt32 BootImprovementDelta, UInt32 BootDegradationDelta, Boolean BootIsRootCauseIdentified,
+  UInt32 OSLoaderDuration, UInt32 BootPNPInitStartTimeMS, UInt32 BootPNPInitDuration,
+  UInt32 OtherKernelInitDuration, UInt32 SystemPNPInitStartTimeMS, UInt32 SystemPNPInitDuration,
+  UInt32 SessionInitStartTimeMS, UInt32 Session0InitDuration, UInt32 Session1InitDuration,
+  UInt32 SessionInitOtherDuration, UInt32 WinLogonStartTimeMS, UInt32 OtherLogonInitActivityDuration,
+  UInt32 UserLogonWaitDuration)
+opcode: BootInformation
+keywords: EventLog
+task: BootPerformanceMonitoring
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BootTsVersion
+- field_type: FILETIME
+  field_name: BootStartTime
+- field_type: FILETIME
+  field_name: BootEndTime
+- field_type: UInt32
+  field_name: SystemBootInstance
+- field_type: UInt32
+  field_name: UserBootInstance
+- field_type: UInt32
+  field_name: BootTime
+- field_type: UInt32
+  field_name: MainPathBootTime
+- field_type: UInt32
+  field_name: BootKernelInitTime
+- field_type: UInt32
+  field_name: BootDriverInitTime
+- field_type: UInt32
+  field_name: BootDevicesInitTime
+- field_type: UInt32
+  field_name: BootPrefetchInitTime
+- field_type: UInt32
+  field_name: BootPrefetchBytes
+- field_type: UInt32
+  field_name: BootAutoChkTime
+- field_type: UInt32
+  field_name: BootSmssInitTime
+- field_type: UInt32
+  field_name: BootCriticalServicesInitTime
+- field_type: UInt32
+  field_name: BootUserProfileProcessingTime
+- field_type: UInt32
+  field_name: BootMachineProfileProcessingTime
+- field_type: UInt32
+  field_name: BootExplorerInitTime
+- field_type: UInt32
+  field_name: BootNumStartupApps
+- field_type: UInt32
+  field_name: BootPostBootTime
+- field_type: Boolean
+  field_name: BootIsRebootAfterInstall
+- field_type: UInt32
+  field_name: BootRootCauseStepImprovementBits
+- field_type: UInt32
+  field_name: BootRootCauseGradualImprovementBits
+- field_type: UInt32
+  field_name: BootRootCauseStepDegradationBits
+- field_type: UInt32
+  field_name: BootRootCauseGradualDegradationBits
+- field_type: Boolean
+  field_name: BootIsDegradation
+- field_type: Boolean
+  field_name: BootIsStepDegradation
+- field_type: Boolean
+  field_name: BootIsGradualDegradation
+- field_type: UInt32
+  field_name: BootImprovementDelta
+- field_type: UInt32
+  field_name: BootDegradationDelta
+- field_type: Boolean
+  field_name: BootIsRootCauseIdentified
+- field_type: UInt32
+  field_name: OSLoaderDuration
+- field_type: UInt32
+  field_name: BootPNPInitStartTimeMS
+- field_type: UInt32
+  field_name: BootPNPInitDuration
+- field_type: UInt32
+  field_name: OtherKernelInitDuration
+- field_type: UInt32
+  field_name: SystemPNPInitStartTimeMS
+- field_type: UInt32
+  field_name: SystemPNPInitDuration
+- field_type: UInt32
+  field_name: SessionInitStartTimeMS
+- field_type: UInt32
+  field_name: Session0InitDuration
+- field_type: UInt32
+  field_name: Session1InitDuration
+- field_type: UInt32
+  field_name: SessionInitOtherDuration
+- field_type: UInt32
+  field_name: WinLogonStartTimeMS
+- field_type: UInt32
+  field_name: OtherLogonInitActivityDuration
+- field_type: UInt32
+  field_name: UserLogonWaitDuration

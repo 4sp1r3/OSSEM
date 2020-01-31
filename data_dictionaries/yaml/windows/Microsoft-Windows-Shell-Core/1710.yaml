@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1710'
+version: '0'
+event(fields): ShellTask_ExecUnknown_InstallAppThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_ExecUnknown_InstallAppThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

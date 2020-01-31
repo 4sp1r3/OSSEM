@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '10252'
+version: '0'
+event(fields): task_010252(UInt32 JobType, UnicodeString VolumeGuidPath, UnicodeString
+  VolumeDisplayName, UInt64 UnoptimizedBytes, UInt64 IndexMinEntries, UInt64 IndexMaxEntries,
+  UInt32 IndexMinRequiredMb, UInt32 IndexMaxRequiredMb, UInt32 PipelineMinMb, UInt32
+  PipelineMaxMb, UInt32 ChunkStoreBatchBufferMemoryMb, UInt32 ChunkStoreContainerListMb,
+  UInt32 CorruptionTableMemoryMb, UInt32 HotspotRequiredMb)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobType
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UnicodeString
+  field_name: VolumeDisplayName
+- field_type: UInt64
+  field_name: UnoptimizedBytes
+- field_type: UInt64
+  field_name: IndexMinEntries
+- field_type: UInt64
+  field_name: IndexMaxEntries
+- field_type: UInt32
+  field_name: IndexMinRequiredMb
+- field_type: UInt32
+  field_name: IndexMaxRequiredMb
+- field_type: UInt32
+  field_name: PipelineMinMb
+- field_type: UInt32
+  field_name: PipelineMaxMb
+- field_type: UInt32
+  field_name: ChunkStoreBatchBufferMemoryMb
+- field_type: UInt32
+  field_name: ChunkStoreContainerListMb
+- field_type: UInt32
+  field_name: CorruptionTableMemoryMb
+- field_type: UInt32
+  field_name: HotspotRequiredMb

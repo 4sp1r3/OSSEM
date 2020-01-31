@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '42'
+version: '0'
+event(fields): DirectUI_ElementCalcRectDrawTextStop()
+opcode: Stop
+keywords: Default
+task: DirectUI_ElementCalcRectDrawText
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

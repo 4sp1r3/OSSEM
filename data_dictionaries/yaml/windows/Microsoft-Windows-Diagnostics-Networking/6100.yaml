@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Diagnostics-Networking
+event_id: '6100'
+version: '0'
+event(fields): HelperClassInfo6100(UnicodeString HelperClassName, UnicodeString EventDescription,
+  UInt16 EventVerbosity)
+opcode: ''
+keywords: ndf:NDFHelperClassEvents keyword_400000000000
+task: HelperClassInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HelperClassName
+- field_type: UnicodeString
+  field_name: EventDescription
+- field_type: UInt16
+  field_name: EventVerbosity

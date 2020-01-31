@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '471'
+version: '0'
+event(fields): Mshtml_CJScript9Holder_TypeSystem_InitStop(Pointer CActiveScriptHolder,
+  Pointer CMarkup, UInt32 HR)
+opcode: Stop
+keywords: mshtml
+task: Mshtml_CJScript9Holder_TypeSystem_Init
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CActiveScriptHolder
+- field_type: Pointer
+  field_name: CMarkup
+- field_type: UInt32
+  field_name: HR

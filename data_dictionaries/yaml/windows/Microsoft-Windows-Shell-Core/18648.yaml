@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18648'
+version: '0'
+event(fields): Shell32_SHGetFolderPathExStop()
+opcode: Stop
+keywords: APICalls
+task: Shell32_SHGetFolderPathEx
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '161'
+version: '0'
+event(fields): DdiQueryInterfaceStop(Pointer MiniportContext, GUID InterfaceType,
+  UInt32 Status)
+opcode: Stop
+keywords: Base
+task: DdiQueryInterface
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportContext
+- field_type: GUID
+  field_name: InterfaceType
+- field_type: UInt32
+  field_name: Status

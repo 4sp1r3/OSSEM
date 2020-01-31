@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ATAPort
+event_id: '114'
+version: '1'
+event(fields): Port114_V1(Pointer Irp, UInt8 TransferModeChangeType)
+opcode: ''
+keywords: Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt8
+  field_name: TransferModeChangeType

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '36'
+version: '0'
+event(fields): SuspendDevicesPhaseStop()
+opcode: PhaseStop
+keywords: po:Performance po:PerformanceLight
+task: SuspendDevices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

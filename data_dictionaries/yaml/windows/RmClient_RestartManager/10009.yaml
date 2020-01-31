@@ -1,0 +1,24 @@
+provider: RmClient_RestartManager
+event_id: '10009'
+version: '0'
+event(fields): task_010009(UInt32 RmSessionId, UInt32 SvcHostPid, UInt32 nFiles, UInt32
+  nServices, UnicodeString FileName, UnicodeString Service)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RmSessionId
+- field_type: UInt32
+  field_name: SvcHostPid
+- field_type: UInt32
+  field_name: nFiles
+- field_type: UInt32
+  field_name: nServices
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UnicodeString
+  field_name: Service

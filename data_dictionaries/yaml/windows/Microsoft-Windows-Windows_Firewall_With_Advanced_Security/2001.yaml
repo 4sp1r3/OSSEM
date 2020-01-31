@@ -1,0 +1,60 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2001'
+version: '0'
+event(fields): task_02001(UInt32 Profile, UInt32 OpMode, UInt32 DisableStealthMode,
+  UInt32 BlockAllInbound, UInt32 DisableUnicastResponseToMultiCastBroadCast, UInt32
+  LogDroppedPackets, UInt32 LogSuccessfulConnections, UInt32 LogIgnoredRules, UInt32
+  DisableInboundNotifications, UInt32 AllowUserPrefMergeForApps, UInt32 AllowUserPrefMergeForGlobalPorts,
+  UInt32 AllowLocalPolicyMerge, UInt32 AllowIPSecPolicyMerge, UInt32 DefaultOutboundAction,
+  UInt32 DefaultInboundAction, UInt32 RemoteAdministrationEnabled, UInt32 MaxLogFileSize,
+  UnicodeString LogFilePath, UInt32 DisabledInterfacesSize, Binary DisabledInterfaces,
+  UInt32 DisableStealthModeIPsecSecuredPacketExemption)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Profile
+- field_type: UInt32
+  field_name: OpMode
+- field_type: UInt32
+  field_name: DisableStealthMode
+- field_type: UInt32
+  field_name: BlockAllInbound
+- field_type: UInt32
+  field_name: DisableUnicastResponseToMultiCastBroadCast
+- field_type: UInt32
+  field_name: LogDroppedPackets
+- field_type: UInt32
+  field_name: LogSuccessfulConnections
+- field_type: UInt32
+  field_name: LogIgnoredRules
+- field_type: UInt32
+  field_name: DisableInboundNotifications
+- field_type: UInt32
+  field_name: AllowUserPrefMergeForApps
+- field_type: UInt32
+  field_name: AllowUserPrefMergeForGlobalPorts
+- field_type: UInt32
+  field_name: AllowLocalPolicyMerge
+- field_type: UInt32
+  field_name: AllowIPSecPolicyMerge
+- field_type: UInt32
+  field_name: DefaultOutboundAction
+- field_type: UInt32
+  field_name: DefaultInboundAction
+- field_type: UInt32
+  field_name: RemoteAdministrationEnabled
+- field_type: UInt32
+  field_name: MaxLogFileSize
+- field_type: UnicodeString
+  field_name: LogFilePath
+- field_type: UInt32
+  field_name: DisabledInterfacesSize
+- field_type: Binary
+  field_name: DisabledInterfaces
+- field_type: UInt32
+  field_name: DisableStealthModeIPsecSecuredPacketExemption

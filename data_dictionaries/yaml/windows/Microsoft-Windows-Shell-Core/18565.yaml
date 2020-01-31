@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18565'
+version: '0'
+event(fields): Shell32_DefView_RightClickContextMenu()
+opcode: ''
+keywords: Shell
+task: Shell32_DefView_RightClickContextMenu
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

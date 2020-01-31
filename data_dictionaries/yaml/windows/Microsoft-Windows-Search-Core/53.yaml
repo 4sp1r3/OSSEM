@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '53'
+version: '0'
+event(fields): MergeItemStart(UInt64 Value)
+opcode: Start
+keywords: Indexing IndexPI
+task: MergeItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Value

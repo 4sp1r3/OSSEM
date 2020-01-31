@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4500'
+version: '0'
+event(fields): SETPROPSStart()
+opcode: Start
+keywords: Performance
+task: SETPROPS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

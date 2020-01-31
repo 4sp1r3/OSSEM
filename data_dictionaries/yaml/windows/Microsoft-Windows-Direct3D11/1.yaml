@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1'
+version: '0'
+event(fields): Name(Pointer pObject, UInt32 CchOldDebugObjectName, AnsiString OldDebugObjectName,
+  UInt32 CchNewDebugObjectName, AnsiString NewDebugObjectName)
+opcode: ''
+keywords: Names
+task: Name
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pObject
+- field_type: UInt32
+  field_name: CchOldDebugObjectName
+- field_type: AnsiString
+  field_name: OldDebugObjectName
+- field_type: UInt32
+  field_name: CchNewDebugObjectName
+- field_type: AnsiString
+  field_name: NewDebugObjectName

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OneX
+event_id: '11'
+version: '0'
+event(fields): EAP11(UInt32 PortId)
+opcode: ''
+keywords: EAP LwtDiagnostic ut:Authentication
+task: EAP
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceGuard
+event_id: '6000'
+version: '0'
+event(fields): task_0ManageCI(UnicodeString PolicyFilePath, HexInt32 ErrorCode)
+opcode: ManageCI
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PolicyFilePath
+- field_type: HexInt32
+  field_name: ErrorCode

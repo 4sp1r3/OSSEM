@@ -1,0 +1,20 @@
+provider: Microsoft-JScript
+event_id: '98'
+version: '0'
+event(fields): Jscript_Method_JitQueue(UInt32 MethodID, UnicodeString MethodName,
+  Pointer ScriptContext, UInt32 InterpretedCount)
+opcode: Queue
+keywords: JscriptJit
+task: Jscript_Method_Jit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MethodID
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: Pointer
+  field_name: ScriptContext
+- field_type: UInt32
+  field_name: InterpretedCount

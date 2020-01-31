@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60601'
+version: '0'
+event(fields): ItemsView_UIItemsView_BatchFirstEvent()
+opcode: ''
+keywords: Shell
+task: ItemsView_UIItemsView_BatchFirstEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

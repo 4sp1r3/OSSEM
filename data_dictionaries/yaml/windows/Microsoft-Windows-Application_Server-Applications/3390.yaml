@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3390'
+version: '0'
+event(fields): ClientSendPreambleStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: Channel
+task: ClientSendPreamble
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

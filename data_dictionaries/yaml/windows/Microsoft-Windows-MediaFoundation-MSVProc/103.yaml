@@ -1,0 +1,49 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '103'
+version: '0'
+event(fields): MSVideoProcessoftMFT(D3D11)_VideoProcessorBltStart(Pointer Object,
+  Pointer InputSample, UInt32 InputViewIndex, Pointer OutputSample, UInt32 InputFrameOrField,
+  UInt32 OutputIndex, UInt32 OutputFrame, Int32 SrcWidth, Int32 SrcHeight, Int32 DestWidth,
+  Int32 DestHeight, UInt32 SourceFormat, UInt32 DestFormat, UInt32 Rotation, UInt32
+  Mirrored, UInt32 MaxLuminanceIn, UInt32 MaxLuminanceOut)
+opcode: Start
+keywords: ''
+task: MSVideoProcessoftMFT(D3D11)_VideoProcessorBlt
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: InputSample
+- field_type: UInt32
+  field_name: InputViewIndex
+- field_type: Pointer
+  field_name: OutputSample
+- field_type: UInt32
+  field_name: InputFrameOrField
+- field_type: UInt32
+  field_name: OutputIndex
+- field_type: UInt32
+  field_name: OutputFrame
+- field_type: Int32
+  field_name: SrcWidth
+- field_type: Int32
+  field_name: SrcHeight
+- field_type: Int32
+  field_name: DestWidth
+- field_type: Int32
+  field_name: DestHeight
+- field_type: UInt32
+  field_name: SourceFormat
+- field_type: UInt32
+  field_name: DestFormat
+- field_type: UInt32
+  field_name: Rotation
+- field_type: UInt32
+  field_name: Mirrored
+- field_type: UInt32
+  field_name: MaxLuminanceIn
+- field_type: UInt32
+  field_name: MaxLuminanceOut

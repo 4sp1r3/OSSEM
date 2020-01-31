@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '16395'
+version: '0'
+event(fields): task_016395()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

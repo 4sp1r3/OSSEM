@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3018'
+version: '1'
+event(fields): ValidatePageHashStop_V1(HexInt32 Status)
+opcode: Stop
+keywords: ''
+task: ValidatePageHash
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

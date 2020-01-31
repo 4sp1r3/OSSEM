@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4014'
+version: '0'
+event(fields): AfdRioRangeCheck(Pointer RegistrationDomain, Pointer RioState, Pointer
+  Buffer, UInt32 BufferOffset, UInt32 BufferLength)
+opcode: ''
+keywords: AFD_KW_RIO
+task: AfdRioRangeCheck
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RegistrationDomain
+- field_type: Pointer
+  field_name: RioState
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: BufferOffset
+- field_type: UInt32
+  field_name: BufferLength

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4002'
+version: '0'
+event(fields): AudioStarvation(AnsiString tag, Pointer object, UInt64 byteCount)
+opcode: ''
+keywords: ''
+task: AudioStarvation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: UInt64
+  field_name: byteCount

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WebcamExperience
+event_id: '106'
+version: '0'
+event(fields): Webcam_VideoPlaybackStart()
+opcode: Start
+keywords: ''
+task: Webcam_VideoPlayback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

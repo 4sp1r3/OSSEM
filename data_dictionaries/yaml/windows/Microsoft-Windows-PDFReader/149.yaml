@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '149'
+version: '0'
+event(fields): ThumbnailHandler.ShowStop()
+opcode: Stop
+keywords: Reader
+task: ThumbnailHandler.Show
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

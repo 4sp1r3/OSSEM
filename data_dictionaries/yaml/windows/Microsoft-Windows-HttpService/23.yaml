@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HttpService
+event_id: '23'
+version: '0'
+event(fields): HTTPConnectionTraceTaskConnClose(Pointer ConnectionObj, UInt32 Abortive)
+opcode: ConnClose
+keywords: HTTP_KEYWORD_CONNECTION
+task: HTTPConnectionTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionObj
+- field_type: UInt32
+  field_name: Abortive

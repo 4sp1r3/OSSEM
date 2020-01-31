@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '11'
+version: '0'
+event(fields): HostControllerPeriodicScheduleDisable(UnicodeString fid_USBPORT_HC)
+opcode: Disable
+keywords: Diagnostic PowerDiagnostics
+task: HostControllerPeriodicSchedule
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: fid_USBPORT_HC

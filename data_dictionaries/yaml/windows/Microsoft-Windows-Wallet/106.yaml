@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wallet
+event_id: '106'
+version: '0'
+event(fields): Item_DeleteStart()
+opcode: Start
+keywords: Performance
+task: Item_Delete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Security-Kerberos
+event_id: '19'
+version: '0'
+event(fields): task_0PCODE_128pcode_12819(UnicodeString ErrorCode)
+opcode: opcode_128
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ErrorCode

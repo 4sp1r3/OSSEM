@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1019'
+version: '0'
+event(fields): ApplicationActivateEventStart(UnicodeString PackageFullName, UnicodeString
+  AppID, UnicodeString ContractID, UInt32 IsReactivation)
+opcode: Start
+keywords: WwaHost
+task: ApplicationActivateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UnicodeString
+  field_name: ContractID
+- field_type: UInt32
+  field_name: IsReactivation

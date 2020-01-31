@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20502'
+version: '0'
+event(fields): GetoffsetfromchunkcontainerredirectiontableStart(UInt32 ContainerId,
+  UInt32 Generation)
+opcode: Start
+keywords: KmChunkContainer
+task: Getoffsetfromchunkcontainerredirectiontable
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ContainerId
+- field_type: UInt32
+  field_name: Generation

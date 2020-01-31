@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-LinkLayerDiscoveryProtocol
+event_id: '10042'
+version: '0'
+event(fields): task_010042(UInt32 IfIndex, UInt32 SequenceNumber, UInt32 PacketDiscardReason)
+opcode: ''
+keywords: ut:ReceivePath
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: SequenceNumber
+- field_type: UInt32
+  field_name: PacketDiscardReason

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '123'
+version: '0'
+event(fields): BatteryMeter_DisplayHelpTopicStart()
+opcode: Start
+keywords: BatteryMeter
+task: BatteryMeter_DisplayHelpTopic
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

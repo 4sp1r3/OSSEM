@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '46016'
+version: '0'
+event(fields): DeserializeExtensionPointsStart(UnicodeString ustring)
+opcode: Start
+keywords: ''
+task: DeserializeExtensionPoints
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ustring

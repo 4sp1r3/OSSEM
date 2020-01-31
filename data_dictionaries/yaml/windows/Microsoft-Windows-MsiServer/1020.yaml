@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MsiServer
+event_id: '1020'
+version: '0'
+event(fields): task_01020()
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '13006'
+version: '0'
+event(fields): NamespaceControl_Plus_CalculationStop()
+opcode: Stop
+keywords: Shell
+task: NamespaceControl_Plus_Calculation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

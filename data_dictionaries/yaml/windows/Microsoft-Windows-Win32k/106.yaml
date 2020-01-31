@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Win32k
+event_id: '106'
+version: '0'
+event(fields): TouchTargetingOffset(Int32 ptOffsetX, Int32 ptOffsetY, Int32 pointerId,
+  Int32 cursorId)
+opcode: ''
+keywords: MessagePumpInternalAndInput
+task: TouchTargetingOffset
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ptOffsetX
+- field_type: Int32
+  field_name: ptOffsetY
+- field_type: Int32
+  field_name: pointerId
+- field_type: Int32
+  field_name: cursorId

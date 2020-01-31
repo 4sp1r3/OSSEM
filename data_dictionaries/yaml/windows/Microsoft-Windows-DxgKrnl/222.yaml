@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '222'
+version: '0'
+event(fields): RuntimePowerManagement222(Pointer AdapterHandle, UInt32 ComponentIndex,
+  UInt32 ComponentType, UInt32 ComponentTypeId, UInt32 NumberOfIdleStates, GUID ControlGuid,
+  UnicodeString Name, UInt32 Flags, UInt32 CurrentFState, UInt64 CurrentLatencyTolerance)
+opcode: ''
+keywords: DxgKrnl_Power
+task: RuntimePowerManagement
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdapterHandle
+- field_type: UInt32
+  field_name: ComponentIndex
+- field_type: UInt32
+  field_name: ComponentType
+- field_type: UInt32
+  field_name: ComponentTypeId
+- field_type: UInt32
+  field_name: NumberOfIdleStates
+- field_type: GUID
+  field_name: ControlGuid
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: CurrentFState
+- field_type: UInt64
+  field_name: CurrentLatencyTolerance

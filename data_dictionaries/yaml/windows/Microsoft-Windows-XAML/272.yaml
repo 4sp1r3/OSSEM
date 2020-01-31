@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '272'
+version: '0'
+event(fields): UIThreadWaitGPUWorkStart()
+opcode: Start
+keywords: Rendering
+task: UIThreadWaitGPUWork
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

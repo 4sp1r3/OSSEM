@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '652'
+version: '0'
+event(fields): Smb2FileReconnect(GUID OpenGUID, GUID TreeConnectGUID, GUID SessionGUID,
+  GUID ConnectionGUID)
+opcode: ''
+keywords: File
+task: Smb2FileReconnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: OpenGUID
+- field_type: GUID
+  field_name: TreeConnectGUID
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: ConnectionGUID

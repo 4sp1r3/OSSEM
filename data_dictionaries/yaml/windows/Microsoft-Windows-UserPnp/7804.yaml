@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7804'
+version: '0'
+event(fields): PnP_DMRC_SearchLocalIndexStart()
+opcode: Start
+keywords: UserPnp
+task: PnP_DMRC_SearchLocalIndex
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

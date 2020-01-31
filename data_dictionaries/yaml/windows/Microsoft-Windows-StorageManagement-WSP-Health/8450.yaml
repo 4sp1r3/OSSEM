@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-StorageManagement-WSP-Health
+event_id: '8450'
+version: '0'
+event(fields): Health8450(UnicodeString Parameter1)
+opcode: ''
+keywords: ''
+task: Health
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Parameter1

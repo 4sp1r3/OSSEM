@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IE-F12-Provider
+event_id: '119'
+version: '0'
+event(fields): Timeline_GridUpdatedForFilterNameStart(UnicodeString TraceDescription)
+opcode: Start
+keywords: ''
+task: Timeline_GridUpdatedForFilterName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceDescription

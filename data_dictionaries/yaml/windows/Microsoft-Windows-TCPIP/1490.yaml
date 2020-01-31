@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1490'
+version: '0'
+event(fields): IpSessionMulticastOperation1490(UInt32 RequestType, UInt32 IPv4Address,
+  UInt32 IPv4SourceAddress, UInt32 IpAddrLength, UInt32 IpSourceAddrLength, Binary
+  IPv6Address, Binary IPv6SourceAddress)
+opcode: ''
+keywords: keyword_80000000000
+task: IpSessionMulticastOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestType
+- field_type: UInt32
+  field_name: IPv4Address
+- field_type: UInt32
+  field_name: IPv4SourceAddress
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: UInt32
+  field_name: IpSourceAddrLength
+- field_type: Binary
+  field_name: IPv6Address
+- field_type: Binary
+  field_name: IPv6SourceAddress

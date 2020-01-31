@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4303'
+version: '0'
+event(fields): CTX_GETSTOREMANAGERStop()
+opcode: Stop
+keywords: Performance
+task: CTX_GETSTOREMANAGER
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

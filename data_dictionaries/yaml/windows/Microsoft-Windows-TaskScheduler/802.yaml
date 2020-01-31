@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '802'
+version: '0'
+event(fields): Maintenancere_configurationfailed(UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: Maintenancere_configurationfailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '148'
+version: '0'
+event(fields): DecodeSwapchainDestroyed(Pointer object, Pointer Swapchain, UInt32
+  SwapchainState)
+opcode: ''
+keywords: ''
+task: DecodeSwapchainDestroyed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: Swapchain
+- field_type: UInt32
+  field_name: SwapchainState

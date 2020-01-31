@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '13004'
+version: '1'
+event(fields): PreCleanupStop_V1()
+opcode: Stop
+keywords: ''
+task: PreCleanup
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

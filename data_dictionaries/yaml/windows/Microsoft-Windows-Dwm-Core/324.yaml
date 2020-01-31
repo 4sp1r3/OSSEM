@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '324'
+version: '0'
+event(fields): ETWGUID_HW_PROTECTED_ENTITY_CHANGE(UInt32 OldCount, UInt32 NewCount)
+opcode: ''
+keywords: DwmCore
+task: ETWGUID_HW_PROTECTED_ENTITY_CHANGE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OldCount
+- field_type: UInt32
+  field_name: NewCount

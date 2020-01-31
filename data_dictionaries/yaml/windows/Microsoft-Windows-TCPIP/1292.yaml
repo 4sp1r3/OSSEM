@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1292'
+version: '0'
+event(fields): Ndkpi_Invalidate(Pointer NdkQp, Pointer RequestContext, Pointer NdkObject,
+  UInt32 NdkObjectType, UInt32 Flags)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Invalidate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkQp
+- field_type: Pointer
+  field_name: RequestContext
+- field_type: Pointer
+  field_name: NdkObject
+- field_type: UInt32
+  field_name: NdkObjectType
+- field_type: UInt32
+  field_name: Flags

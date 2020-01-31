@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '3'
+version: '0'
+event(fields): Tenant_UpdateDailyUploadQuota(UnicodeString Environment, UnicodeString
+  IKey, UInt32 DailyUploadQuotaInBytes, UInt32 HRESULT)
+opcode: ''
+keywords: Tenant
+task: Tenant_UpdateDailyUploadQuota
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: UnicodeString
+  field_name: IKey
+- field_type: UInt32
+  field_name: DailyUploadQuotaInBytes
+- field_type: UInt32
+  field_name: HRESULT

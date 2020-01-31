@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14047'
+version: '0'
+event(fields): task_014047(Pointer ConnectionId, Boolean Active, Boolean Console)
+opcode: ''
+keywords: Session
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionId
+- field_type: Boolean
+  field_name: Active
+- field_type: Boolean
+  field_name: Console

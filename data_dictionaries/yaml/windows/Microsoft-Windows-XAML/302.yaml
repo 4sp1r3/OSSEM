@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '302'
+version: '0'
+event(fields): SetTemplateOwner(UInt64 TemplateId, UInt64 OwnerId, Boolean OwnerIsStyle)
+opcode: ''
+keywords: Templates
+task: SetTemplateOwner
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TemplateId
+- field_type: UInt64
+  field_name: OwnerId
+- field_type: Boolean
+  field_name: OwnerIsStyle

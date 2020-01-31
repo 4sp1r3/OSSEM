@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7222'
+version: '0'
+event(fields): ConnectedSearch_LogLocalClickStart()
+opcode: Start
+keywords: ''
+task: ConnectedSearch_LogLocalClick
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

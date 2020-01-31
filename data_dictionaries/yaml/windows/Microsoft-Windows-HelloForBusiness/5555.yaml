@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '5555'
+version: '0'
+event(fields): ContainerCreationInformational(UInt32 TpmSupport, UInt32 HardwarePolicy,
+  Boolean IsTpm12Excluded, UInt32 TpmVersion, Boolean IsTpmFIPS, Boolean IsTpmLockedOut,
+  Boolean IsKeyPregenPoolSatisfactory, UInt32 KeyProvider, HexInt32 Result)
+opcode: Informational
+keywords: Internal
+task: ContainerCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TpmSupport
+- field_type: UInt32
+  field_name: HardwarePolicy
+- field_type: Boolean
+  field_name: IsTpm12Excluded
+- field_type: UInt32
+  field_name: TpmVersion
+- field_type: Boolean
+  field_name: IsTpmFIPS
+- field_type: Boolean
+  field_name: IsTpmLockedOut
+- field_type: Boolean
+  field_name: IsKeyPregenPoolSatisfactory
+- field_type: UInt32
+  field_name: KeyProvider
+- field_type: HexInt32
+  field_name: Result

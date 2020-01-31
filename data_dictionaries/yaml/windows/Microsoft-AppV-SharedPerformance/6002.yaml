@@ -1,0 +1,17 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6002'
+version: '0'
+event(fields): GetPackagesStart6002(UnicodeString str1, GUID guid1, GUID guid2)
+opcode: Start
+keywords: ''
+task: GetPackages
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str1
+- field_type: GUID
+  field_name: guid1
+- field_type: GUID
+  field_name: guid2

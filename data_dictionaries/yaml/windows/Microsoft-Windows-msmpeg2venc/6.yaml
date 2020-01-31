@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-msmpeg2venc
+event_id: '6'
+version: '0'
+event(fields): Configurationoftheencoder(UInt64 OldBitrate, UInt64 NewBitrate)
+opcode: ''
+keywords: keyword_400000000000
+task: Configurationoftheencoder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OldBitrate
+- field_type: UInt64
+  field_name: NewBitrate

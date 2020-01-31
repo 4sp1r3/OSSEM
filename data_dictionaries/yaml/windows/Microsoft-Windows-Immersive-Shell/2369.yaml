@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2369'
+version: '0'
+event(fields): Launcher_Apps_SwitchToStartViewFromAllAppsViewStop()
+opcode: Stop
+keywords: ''
+task: Launcher_Apps_SwitchToStartViewFromAllAppsView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

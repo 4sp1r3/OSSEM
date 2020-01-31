@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceGuard
+event_id: '7012'
+version: '0'
+event(fields): task_0DeviceGuard7012(HexInt32 Status, UnicodeString ErrorMessage)
+opcode: DeviceGuard
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: ErrorMessage

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PhotoAcq
+event_id: '2'
+version: '0'
+event(fields): EnumerateItemsStop()
+opcode: Stop
+keywords: ''
+task: EnumerateItems
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

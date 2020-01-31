@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7456'
+version: '0'
+event(fields): ConnectedSearch_Settings_MeteredConnection7456(UInt32 ChangeTo, UInt32
+  ErrorResult)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_Settings_MeteredConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ChangeTo
+- field_type: UInt32
+  field_name: ErrorResult

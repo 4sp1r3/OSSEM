@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '171'
+version: '0'
+event(fields): Packagereader(UnicodeString packageFullName)
+opcode: ''
+keywords: ''
+task: Packagereader
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: packageFullName

@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6045'
+version: '0'
+event(fields): GetPublishingServersStop6045(UnicodeString str)
+opcode: Stop
+keywords: ''
+task: GetPublishingServers
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str

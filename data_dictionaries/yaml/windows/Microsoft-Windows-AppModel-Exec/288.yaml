@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '288'
+version: '0'
+event(fields): task_0288()
+opcode: ''
+keywords: PLM ExecProductionCircular ExecDevPlatCircular
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

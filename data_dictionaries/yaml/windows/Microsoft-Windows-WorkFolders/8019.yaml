@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '8019'
+version: '0'
+event(fields): SyncPartnership8019(UnicodeString LocalReplicaRoot)
+opcode: ''
+keywords: SyncPartnership
+task: SyncPartnership
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalReplicaRoot

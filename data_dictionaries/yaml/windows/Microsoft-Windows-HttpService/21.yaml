@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-HttpService
+event_id: '21'
+version: '0'
+event(fields): HTTPConnectionTraceTaskConnConnect(Pointer ConnectionObj, UInt32 LocalAddrLength,
+  Binary LocalAddr, UInt32 RemoteAddrLength, Binary RemoteAddr)
+opcode: ConnConnect
+keywords: HTTP_KEYWORD_CONNECTION
+task: HTTPConnectionTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionObj
+- field_type: UInt32
+  field_name: LocalAddrLength
+- field_type: Binary
+  field_name: LocalAddr
+- field_type: UInt32
+  field_name: RemoteAddrLength
+- field_type: Binary
+  field_name: RemoteAddr

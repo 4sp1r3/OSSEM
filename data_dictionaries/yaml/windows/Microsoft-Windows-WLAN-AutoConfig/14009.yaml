@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14009'
+version: '0'
+event(fields): task_014009(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  Pointer ConnectionId)
+opcode: ''
+keywords: IntfContext LwtDiagnostic ut:Configuration
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: Pointer
+  field_name: ConnectionId

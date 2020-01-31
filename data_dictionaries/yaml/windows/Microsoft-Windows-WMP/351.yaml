@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WMP
+event_id: '351'
+version: '0'
+event(fields): RME_CLIENT_RESOLVE_SERVER_URL_RESPONSEStop(UnicodeString URL, UInt32
+  HRESULT)
+opcode: Stop
+keywords: mediaplayer
+task: RME_CLIENT_RESOLVE_SERVER_URL_RESPONSE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt32
+  field_name: HRESULT

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40019'
+version: '0'
+event(fields): VReg.NotifyChangeMultipleKeysStop()
+opcode: Stop
+keywords: ''
+task: VReg.NotifyChangeMultipleKeys
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

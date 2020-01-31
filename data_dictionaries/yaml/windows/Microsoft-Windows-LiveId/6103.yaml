@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LiveId
+event_id: '6103'
+version: '0'
+event(fields): task_06103(UnicodeString value)
+opcode: ''
+keywords: WlidSvc Credentials
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4475'
+version: '0'
+event(fields): DXGIMapSurfaceSleepStart(Pointer surface)
+opcode: Start
+keywords: ''
+task: DXGIMapSurfaceSleep
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: surface

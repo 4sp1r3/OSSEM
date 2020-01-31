@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '362'
+version: '0'
+event(fields): VidMmWorkerThreadWake(Int64 Timeout, UInt32 WakeReason)
+opcode: ''
+keywords: VidMmWorkerThread
+task: VidMmWorkerThreadWake
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: Timeout
+- field_type: UInt32
+  field_name: WakeReason

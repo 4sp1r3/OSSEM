@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '103'
+version: '0'
+event(fields): WorkflowTracking(GUID InstanceId, Int64 RecordNumber, FILETIME EventTime,
+  UnicodeString State, UnicodeString Name, UnicodeString ActivityId, UnicodeString
+  ActivityInstanceId, UnicodeString ActivityTypeName, UnicodeString Arguments, UnicodeString
+  Variables, UnicodeString Annotations, UnicodeString ProfileName, UnicodeString HostReference,
+  UnicodeString AppDomain)
+opcode: ''
+keywords: WFTracking EndToEndMonitoring HealthMonitoring Troubleshooting
+task: WorkflowTracking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InstanceId
+- field_type: Int64
+  field_name: RecordNumber
+- field_type: FILETIME
+  field_name: EventTime
+- field_type: UnicodeString
+  field_name: State
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: ActivityId
+- field_type: UnicodeString
+  field_name: ActivityInstanceId
+- field_type: UnicodeString
+  field_name: ActivityTypeName
+- field_type: UnicodeString
+  field_name: Arguments
+- field_type: UnicodeString
+  field_name: Variables
+- field_type: UnicodeString
+  field_name: Annotations
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

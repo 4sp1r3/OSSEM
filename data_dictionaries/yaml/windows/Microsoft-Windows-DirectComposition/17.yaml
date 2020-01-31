@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '17'
+version: '0'
+event(fields): ATLAS_FREE(UInt64 Id)
+opcode: ''
+keywords: DCompDiagnostic DCompMemory
+task: ATLAS_FREE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id

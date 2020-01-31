@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintService
+event_id: '602'
+version: '0'
+event(fields): Client_siderenderingSpoolerOperationFailed602(UnicodeString RegistryKey1,
+  UnicodeString RegistryKey2)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_CSR
+task: Client_siderendering
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RegistryKey1
+- field_type: UnicodeString
+  field_name: RegistryKey2

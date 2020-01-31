@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '508'
+version: '0'
+event(fields): HostedTransportConfigurationManagerConfigInitStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: WebHost
+task: HostedTransportConfigurationManagerConfigInit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '20021'
+version: '0'
+event(fields): AuthenticatethepeersassociatedtothehostednetworkStop20021(GUID InterfaceGuid,
+  UInt32 ErrorCode, UnicodeString ErrorMsg, UnicodeString InterfaceDescription, UnicodeString
+  SSID, UnicodeString LocalMAC)
+opcode: Stop
+keywords: SOFTAP MSAM ut:Authentication
+task: Authenticatethepeersassociatedtothehostednetwork
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMsg
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: LocalMAC

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '463'
+version: '0'
+event(fields): CreateResourceManagerStart()
+opcode: Start
+keywords: Core
+task: CreateResourceManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

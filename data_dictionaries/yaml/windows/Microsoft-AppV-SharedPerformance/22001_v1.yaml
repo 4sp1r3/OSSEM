@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '22001'
+version: '1'
+event(fields): ShellNotifyRpcServerStart22001_V1()
+opcode: Start
+keywords: ''
+task: ShellNotifyRpcServer
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

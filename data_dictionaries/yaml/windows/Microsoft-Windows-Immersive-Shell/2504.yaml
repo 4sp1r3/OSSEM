@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2504'
+version: '0'
+event(fields): PerfTrack_UserSwitchingStart()
+opcode: Start
+keywords: ''
+task: PerfTrack_UserSwitching
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

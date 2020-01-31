@@ -1,0 +1,73 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '6'
+version: '1'
+event(fields): USB3.0HubDriverRundownInformation6_V1(Pointer fid_HubDevice, Pointer
+  fid_UsbDevice, UInt32 fid_PortNumber, UnicodeString fid_DeviceDescription, UnicodeString
+  fid_DeviceInterfacePath, 27 fid_DeviceDescriptor, UInt16 fid_ConfigurationDescriptorLength,
+  UInt8 fid_ConfigurationDescriptor, UnicodeString fid_PdoName, UInt8 fid_Suspended,
+  UInt32 fid_PortPathDepth, UInt32 fid_PortPath, UInt32 fid_PciBus, UInt32 fid_PciDevice,
+  UInt32 fid_PciFunction, UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId,
+  UInt32 fid_CurrentWdfPowerDeviceState, UInt32 fid_Usb20LpmStatus, UInt32 fid_ControllerParentBusType,
+  AnsiString fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId,
+  UInt8 fid_PortFlagAcpiUpcValid, UInt8 fid_PortConnectorType, UInt64 fid_UcmConnectorId)
+opcode: Information
+keywords: Default Rundown
+task: USB3.0HubDriverRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_HubDevice
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt32
+  field_name: fid_PortNumber
+- field_type: UnicodeString
+  field_name: fid_DeviceDescription
+- field_type: UnicodeString
+  field_name: fid_DeviceInterfacePath
+- field_type: '27'
+  field_name: fid_DeviceDescriptor
+- field_type: UInt16
+  field_name: fid_ConfigurationDescriptorLength
+- field_type: UInt8
+  field_name: fid_ConfigurationDescriptor
+- field_type: UnicodeString
+  field_name: fid_PdoName
+- field_type: UInt8
+  field_name: fid_Suspended
+- field_type: UInt32
+  field_name: fid_PortPathDepth
+- field_type: UInt32
+  field_name: fid_PortPath
+- field_type: UInt32
+  field_name: fid_PciBus
+- field_type: UInt32
+  field_name: fid_PciDevice
+- field_type: UInt32
+  field_name: fid_PciFunction
+- field_type: UInt32
+  field_name: fid_PciVendorId
+- field_type: UInt32
+  field_name: fid_PciDeviceId
+- field_type: UInt32
+  field_name: fid_PciRevisionId
+- field_type: UInt32
+  field_name: fid_CurrentWdfPowerDeviceState
+- field_type: UInt32
+  field_name: fid_Usb20LpmStatus
+- field_type: UInt32
+  field_name: fid_ControllerParentBusType
+- field_type: AnsiString
+  field_name: fid_AcpiVendorId
+- field_type: AnsiString
+  field_name: fid_AcpiDeviceId
+- field_type: AnsiString
+  field_name: fid_AcpiRevisionId
+- field_type: UInt8
+  field_name: fid_PortFlagAcpiUpcValid
+- field_type: UInt8
+  field_name: fid_PortConnectorType
+- field_type: UInt64
+  field_name: fid_UcmConnectorId

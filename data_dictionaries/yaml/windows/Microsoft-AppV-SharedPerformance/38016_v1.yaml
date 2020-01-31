@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '38016'
+version: '1'
+event(fields): VObjects.ServiceLoadExclusionsStart_V1()
+opcode: Start
+keywords: ''
+task: VObjects.ServiceLoadExclusions
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

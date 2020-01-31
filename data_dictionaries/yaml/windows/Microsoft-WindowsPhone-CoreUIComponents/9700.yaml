@@ -1,0 +1,27 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9700'
+version: '0'
+event(fields): ClientViewCreatorCreate(UInt32 hex, UInt32 unParam, UnicodeString pwsz,
+  UnicodeString pwsz2, UnicodeString pwsz3, UInt32 ViewActivationFlags, UnicodeString
+  pwsz4)
+opcode: ''
+keywords: ClientViewCreator
+task: ClientViewCreatorCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex
+- field_type: UInt32
+  field_name: unParam
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UnicodeString
+  field_name: pwsz2
+- field_type: UnicodeString
+  field_name: pwsz3
+- field_type: UInt32
+  field_name: ViewActivationFlags
+- field_type: UnicodeString
+  field_name: pwsz4

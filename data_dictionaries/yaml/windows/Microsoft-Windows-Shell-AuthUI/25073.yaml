@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25073'
+version: '0'
+event(fields): LogonUI_SubmitCredentialToExitStop(UInt32 UserType, UInt32 CredProvCount,
+  UInt32 IsLogonScenario, UInt32 IsFirstLogon)
+opcode: Stop
+keywords: ''
+task: LogonUI_SubmitCredentialToExit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UserType
+- field_type: UInt32
+  field_name: CredProvCount
+- field_type: UInt32
+  field_name: IsLogonScenario
+- field_type: UInt32
+  field_name: IsFirstLogon

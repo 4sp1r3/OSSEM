@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AAD
+event_id: '1134'
+version: '0'
+event(fields): AadCloudAPPluginOperation1134(UnicodeString API, UInt32 Result)
+opcode: ''
+keywords: Analytic
+task: AadCloudAPPluginOperation
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: API
+- field_type: UInt32
+  field_name: Result

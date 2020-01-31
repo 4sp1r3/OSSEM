@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27151'
+version: '0'
+event(fields): PerfTrack_HoverUI_FadeInStart()
+opcode: Start
+keywords: Shell WDI
+task: PerfTrack_HoverUI_FadeIn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

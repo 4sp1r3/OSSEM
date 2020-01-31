@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '32784'
+version: '1'
+event(fields): task_0Open(async)32784_V1(UnicodeString SessionId, UnicodeString PipelineId,
+  UnicodeString ErrorCode, UnicodeString ErrorMessage, UnicodeString StackTrace)
+opcode: Open(async)
+keywords: Transport
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: PipelineId
+- field_type: UnicodeString
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: StackTrace

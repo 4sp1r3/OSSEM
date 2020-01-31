@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider
+event_id: '2409'
+version: '0'
+event(fields): task_02409(HexInt32 HexInt1, HexInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HexInt1
+- field_type: HexInt32
+  field_name: HRESULT

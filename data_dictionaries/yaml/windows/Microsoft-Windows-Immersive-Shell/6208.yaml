@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6208'
+version: '0'
+event(fields): AccessibilityDocking_QueryWorkAreaStart()
+opcode: Start
+keywords: ''
+task: AccessibilityDocking_QueryWorkArea
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

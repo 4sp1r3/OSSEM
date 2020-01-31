@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-VHDMP
+event_id: '7'
+version: '0'
+event(fields): task_07(GUID ParentLastWriteGUID, GUID ExpectedParentLastWriteGUID1,
+  GUID ExpectedParentLastWriteGUID2, UnicodeString VhdFileName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ParentLastWriteGUID
+- field_type: GUID
+  field_name: ExpectedParentLastWriteGUID1
+- field_type: GUID
+  field_name: ExpectedParentLastWriteGUID2
+- field_type: UnicodeString
+  field_name: VhdFileName

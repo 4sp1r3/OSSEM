@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AsynchronousCausality
+event_id: '20817'
+version: '1'
+event(fields): task_020817_V1()
+opcode: ''
+keywords: OperationWork LibraryOperation
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '32867'
+version: '1'
+event(fields): task_0Receive(Async)32867_V1(Int64 ObjectId, Int64 FragmentId, Int32
+  sFlag, Int32 eFlag, UInt32 FragmentLength, UnicodeString FragmentPayload)
+opcode: Receive(Async)
+keywords: Transport
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: ObjectId
+- field_type: Int64
+  field_name: FragmentId
+- field_type: Int32
+  field_name: sFlag
+- field_type: Int32
+  field_name: eFlag
+- field_type: UInt32
+  field_name: FragmentLength
+- field_type: UnicodeString
+  field_name: FragmentPayload

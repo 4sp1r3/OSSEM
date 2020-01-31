@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PackageStateRoaming
+event_id: '6151'
+version: '0'
+event(fields): task_06151(UnicodeString CollectionId, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UInt32
+  field_name: HRESULT

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '9405'
+version: '0'
+event(fields): task_0Stop()
+opcode: Stop
+keywords: OSIM_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

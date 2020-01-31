@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '94'
+version: '0'
+event(fields): USBPORT_URB_INVALID_NULL_TRANSFER_BUFFER_AND_MDLDispatch(Int32 fid_USBPORT_HC,
+  Boolean fid_USBPORT_Device, HexInt32 fid_USBPORT_Endpoint, CountedMbcsString fid_USBPORT_Endpoint_Descriptor,
+  Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, 29 fid_USBPORT_URB_HEADER)
+opcode: Dispatch
+keywords: Diagnostic
+task: USBPORT_URB_INVALID_NULL_TRANSFER_BUFFER_AND_MDL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: fid_USBPORT_HC
+- field_type: Boolean
+  field_name: fid_USBPORT_Device
+- field_type: HexInt32
+  field_name: fid_USBPORT_Endpoint
+- field_type: CountedMbcsString
+  field_name: fid_USBPORT_Endpoint_Descriptor
+- field_type: Pointer
+  field_name: fid_IRP_Ptr
+- field_type: Pointer
+  field_name: fid_URB_Ptr
+- field_type: '29'
+  field_name: fid_USBPORT_URB_HEADER

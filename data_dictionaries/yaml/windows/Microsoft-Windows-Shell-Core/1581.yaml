@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1581'
+version: '0'
+event(fields): ShellTask_Library_RemoveLocationThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_Library_RemoveLocationThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4019'
+version: '0'
+event(fields): AssociationLaunch_UriLaunch_DesktopAppsDisabled()
+opcode: ''
+keywords: ''
+task: AssociationLaunch_UriLaunch_DesktopAppsDisabled
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '88'
+version: '0'
+event(fields): CNodeWrapper_RollbackAddDCStop(UInt32 Result)
+opcode: DC_Stop
+keywords: Performance Trace
+task: CNodeWrapper_RollbackAdd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '101'
+version: '0'
+event(fields): ShutdownComponentsStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ShutdownComponents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

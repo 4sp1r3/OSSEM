@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '10002'
+version: '1'
+event(fields): Installationorupdateofdevicedrivers.10002_V1(UnicodeString ServiceName,
+  GUID CLSID, UnicodeString FxVersion, Boolean Upgrade)
+opcode: ''
+keywords: ''
+task: Installationorupdateofdevicedrivers.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: GUID
+  field_name: CLSID
+- field_type: UnicodeString
+  field_name: FxVersion
+- field_type: Boolean
+  field_name: Upgrade

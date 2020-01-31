@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUSER
+event_id: '11'
+version: '0'
+event(fields): DUser_InputStart11()
+opcode: Start
+keywords: Default
+task: DUser_Input
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

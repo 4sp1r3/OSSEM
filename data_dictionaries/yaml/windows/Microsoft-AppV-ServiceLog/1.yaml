@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-ServiceLog
+event_id: '1'
+version: '0'
+event(fields): task_0(UnicodeString stringValue1)
+opcode: ''
+keywords: DebugTrace
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1

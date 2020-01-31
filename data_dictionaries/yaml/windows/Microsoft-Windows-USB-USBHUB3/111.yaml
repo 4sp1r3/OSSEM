@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '111'
+version: '0'
+event(fields): StateMachineError(Pointer fid_UsbDevice, Pointer fid_Context, UInt32
+  fid_StartIndex, UInt32 fid_State, UInt32 fid_Event, UInt32 fid_Depth)
+opcode: Error
+keywords: Default
+task: StateMachine
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Pointer
+  field_name: fid_Context
+- field_type: UInt32
+  field_name: fid_StartIndex
+- field_type: UInt32
+  field_name: fid_State
+- field_type: UInt32
+  field_name: fid_Event
+- field_type: UInt32
+  field_name: fid_Depth

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '8222'
+version: '0'
+event(fields): BackStackMusicPlay_Mark_NonInteractive(UnicodeString AppId)
+opcode: ''
+keywords: ''
+task: BackStackMusicPlay_Mark_NonInteractive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId

@@ -1,0 +1,20 @@
+provider: Microsoft-AppV-Client
+event_id: '15003'
+version: '1'
+event(fields): StopPackageorConnectionGroup_V1(GUID VirtualEnvironmentId, GUID VirtualEnvironmentVersion,
+  UInt64 ErrorHigh, UInt64 ErrorLow)
+opcode: ''
+keywords: ClientStreamingUX
+task: StopPackageorConnectionGroup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VirtualEnvironmentId
+- field_type: GUID
+  field_name: VirtualEnvironmentVersion
+- field_type: UInt64
+  field_name: ErrorHigh
+- field_type: UInt64
+  field_name: ErrorLow

@@ -1,0 +1,17 @@
+provider: Microsoft-AppV-Client
+event_id: '14017'
+version: '1'
+event(fields): Streaming14017_V1(GUID Package, GUID Version, UInt32 Hresult)
+opcode: ''
+keywords: Streaming
+task: Streaming
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Package
+- field_type: GUID
+  field_name: Version
+- field_type: UInt32
+  field_name: Hresult

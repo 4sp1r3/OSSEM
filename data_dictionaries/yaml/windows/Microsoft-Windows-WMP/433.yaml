@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '433'
+version: '0'
+event(fields): STREAMING_MENU_RENDER_ACTIONStart()
+opcode: Start
+keywords: mediaplayer
+task: STREAMING_MENU_RENDER_ACTION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-QoS-Pacer
+event_id: '4'
+version: '0'
+event(fields): task_04(Binary NetLuid, UInt32 NdisMediumType, UnicodeString FriendlyName,
+  UnicodeString DeviceName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: NetLuid
+- field_type: UInt32
+  field_name: NdisMediumType
+- field_type: UnicodeString
+  field_name: FriendlyName
+- field_type: UnicodeString
+  field_name: DeviceName

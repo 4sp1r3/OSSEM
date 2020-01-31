@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '20'
+version: '0'
+event(fields): PsIoRateControlStop(UInt32 JobID, Pointer IoRateControl, UInt32 ControlType,
+  UInt32 RateType, UInt32 RateAmount, UInt32 StatusCode)
+opcode: Stop
+keywords: WINEVENT_KEYWORD_JOB_IO
+task: PsIoRateControl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobID
+- field_type: Pointer
+  field_name: IoRateControl
+- field_type: UInt32
+  field_name: ControlType
+- field_type: UInt32
+  field_name: RateType
+- field_type: UInt32
+  field_name: RateAmount
+- field_type: UInt32
+  field_name: StatusCode

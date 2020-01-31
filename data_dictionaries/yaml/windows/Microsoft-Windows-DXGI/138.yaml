@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '138'
+version: '0'
+event(fields): IDXGIOutput_GetDescStart(Pointer pThis, Binary pDesc)
+opcode: Start
+keywords: ''
+task: IDXGIOutput_GetDesc
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Binary
+  field_name: pDesc

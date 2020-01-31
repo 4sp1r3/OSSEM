@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Firewall-CPL
+event_id: '115'
+version: '0'
+event(fields): QUUnblockStart()
+opcode: Start
+keywords: FirewallCpl
+task: QUUnblock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

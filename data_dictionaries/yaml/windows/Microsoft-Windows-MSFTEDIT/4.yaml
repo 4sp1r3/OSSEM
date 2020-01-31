@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSFTEDIT
+event_id: '4'
+version: '0'
+event(fields): SelectingWord()
+opcode: ''
+keywords: ''
+task: SelectingWord
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

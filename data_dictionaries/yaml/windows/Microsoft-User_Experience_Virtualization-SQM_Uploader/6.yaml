@@ -1,0 +1,17 @@
+provider: Microsoft-User Experience Virtualization-SQM Uploader
+event_id: '6'
+version: '0'
+event(fields): task_06(UInt32 hr, UnicodeString filename, Int32 http)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr
+- field_type: UnicodeString
+  field_name: filename
+- field_type: Int32
+  field_name: http

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-XAML
+event_id: '242'
+version: '0'
+event(fields): CommitDCompCommand(UInt32 CommandBatchId, UInt32 CommandId, UInt32
+  CommandVBlankNumber)
+opcode: ''
+keywords: Rendering
+task: CommitDCompCommand
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CommandBatchId
+- field_type: UInt32
+  field_name: CommandId
+- field_type: UInt32
+  field_name: CommandVBlankNumber

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '166'
+version: '0'
+event(fields): IDXGISwapChain_ReleaseStart(Pointer pThis)
+opcode: Start
+keywords: ''
+task: IDXGISwapChain_Release
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis

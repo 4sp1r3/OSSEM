@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Smartcard-Server
+event_id: '621'
+version: '0'
+event(fields): task_0621(UnicodeString Message)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message

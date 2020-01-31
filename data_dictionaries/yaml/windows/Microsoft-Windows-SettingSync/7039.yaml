@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7039'
+version: '0'
+event(fields): Perf_WLRoamLocalSyncSaveSettingUnitStart(UnicodeString SettingUnitId,
+  UnicodeString CollectionId)
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamLocalSyncSaveSettingUnit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SettingUnitId
+- field_type: UnicodeString
+  field_name: CollectionId

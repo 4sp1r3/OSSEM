@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-OverlayFilter
+event_id: '24848'
+version: '0'
+event(fields): WIMintegrityverificationIntegrityFileOpen24848(UInt16 FileNameLength,
+  UnicodeString FileNameBuffer, Int64 DataSourceId)
+opcode: IntegrityFileOpen
+keywords: ''
+task: WIMintegrityverification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer
+- field_type: Int64
+  field_name: DataSourceId

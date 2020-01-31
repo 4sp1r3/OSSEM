@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '10246'
+version: '0'
+event(fields): task_010246(UInt32 Operation, UInt32 NumberOfRetries, UInt64 FileId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Operation
+- field_type: UInt32
+  field_name: NumberOfRetries
+- field_type: UInt64
+  field_name: FileId

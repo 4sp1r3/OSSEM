@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2119'
+version: '0'
+event(fields): PageManager2119(UInt32 unParam)
+opcode: ''
+keywords: PageManager
+task: PageManager
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

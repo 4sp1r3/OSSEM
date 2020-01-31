@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '534'
+version: '0'
+event(fields): Browseui_Prerender_Closing_Prerendered_Page(UnicodeString PrerenderURL)
+opcode: ''
+keywords: mshtml
+task: Browseui_Prerender_Closing_Prerendered_Page
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PrerenderURL

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1386'
+version: '0'
+event(fields): TcpTailLossProbe1386(Pointer Tcb, UInt32 TlpEvent)
+opcode: ''
+keywords: ut:SendPath
+task: TcpTailLossProbe
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: TlpEvent

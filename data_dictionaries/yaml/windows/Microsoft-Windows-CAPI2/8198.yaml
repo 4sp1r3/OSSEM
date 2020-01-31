@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '8198'
+version: '0'
+event(fields): RebuildasubsystemoftheCatalogDatabaseStart(UnicodeString Subsystem)
+opcode: Start
+keywords: Catalog
+task: RebuildasubsystemoftheCatalogDatabase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Subsystem

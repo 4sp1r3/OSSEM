@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '417'
+version: '0'
+event(fields): DisplayConfigPostCompositionChange(Pointer pDxgAdapter, UInt32 VidPnSourceId,
+  Boolean Enabled, UInt32 SrcRectleft, UInt32 SrcRecttop, UInt32 SrcRectright, UInt32
+  SrcRectbottom, UInt32 DstRectleft, UInt32 DstRecttop, UInt32 DstRectright, UInt32
+  DstRectbottom)
+opcode: ''
+keywords: Base
+task: DisplayConfigPostCompositionChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: Boolean
+  field_name: Enabled
+- field_type: UInt32
+  field_name: SrcRectleft
+- field_type: UInt32
+  field_name: SrcRecttop
+- field_type: UInt32
+  field_name: SrcRectright
+- field_type: UInt32
+  field_name: SrcRectbottom
+- field_type: UInt32
+  field_name: DstRectleft
+- field_type: UInt32
+  field_name: DstRecttop
+- field_type: UInt32
+  field_name: DstRectright
+- field_type: UInt32
+  field_name: DstRectbottom

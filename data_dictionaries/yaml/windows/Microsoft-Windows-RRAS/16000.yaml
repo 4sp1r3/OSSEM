@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RRAS
+event_id: '16000'
+version: '0'
+event(fields): task_016000(UnicodeString DebugString)
+opcode: ''
+keywords: ut:Rasppp
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DebugString

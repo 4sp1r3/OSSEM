@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Spellchecking-Host
+event_id: '0'
+version: '0'
+event(fields): task_0(GUID clsid, UInt32 hresult)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: clsid
+- field_type: UInt32
+  field_name: hresult

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '383'
+version: '0'
+event(fields): DmContentValuesUpdateStart(UInt64 ViewportId, UInt64 ContentId)
+opcode: Start
+keywords: Input
+task: DmContentValuesUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ViewportId
+- field_type: UInt64
+  field_name: ContentId

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '20'
+version: '0'
+event(fields): RetrieveThird_PartyRootCertificatefromNetworkStop(UnicodeString EventWriteData)
+opcode: Stop
+keywords: PathDiscovery Retrieval AutoRootUpdate
+task: RetrieveThird_PartyRootCertificatefromNetwork
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventWriteData

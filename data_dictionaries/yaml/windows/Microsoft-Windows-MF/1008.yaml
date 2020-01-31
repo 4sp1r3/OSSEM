@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1008'
+version: '0'
+event(fields): MediaFoundationHandleStreamEventStart(Pointer Bitpump, UInt32 Type)
+opcode: Start
+keywords: ''
+task: MediaFoundationHandleStreamEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Bitpump
+- field_type: UInt32
+  field_name: Type

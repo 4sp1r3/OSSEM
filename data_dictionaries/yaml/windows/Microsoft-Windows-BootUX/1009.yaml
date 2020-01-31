@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-BootUX
+event_id: '1009'
+version: '0'
+event(fields): PageConstructionStop()
+opcode: Stop
+keywords: ''
+task: PageConstruction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

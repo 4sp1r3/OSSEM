@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4029'
+version: '0'
+event(fields): ActivationPipeListenerListeningStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: ActivationServices
+task: ActivationPipeListenerListening
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

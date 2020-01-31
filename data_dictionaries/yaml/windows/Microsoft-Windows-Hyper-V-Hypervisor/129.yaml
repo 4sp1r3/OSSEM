@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '129'
+version: '0'
+event(fields): task_0129(Boolean HardwarePresent, Boolean HardwareEnabled, HexInt64
+  Policy, HexInt64 EnabledFeatures, HexInt64 InternalInfo, HexInt64 Problems, HexInt64
+  AdditionalInfo)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: HardwarePresent
+- field_type: Boolean
+  field_name: HardwareEnabled
+- field_type: HexInt64
+  field_name: Policy
+- field_type: HexInt64
+  field_name: EnabledFeatures
+- field_type: HexInt64
+  field_name: InternalInfo
+- field_type: HexInt64
+  field_name: Problems
+- field_type: HexInt64
+  field_name: AdditionalInfo

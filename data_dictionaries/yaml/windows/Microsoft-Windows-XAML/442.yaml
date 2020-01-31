@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '442'
+version: '0'
+event(fields): CCoreServicesStartSoftSuspendTimer()
+opcode: ''
+keywords: Rendering
+task: CCoreServicesStartSoftSuspendTimer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

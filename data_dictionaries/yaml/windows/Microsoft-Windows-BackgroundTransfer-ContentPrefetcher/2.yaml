@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-BackgroundTransfer-ContentPrefetcher
+event_id: '2'
+version: '0'
+event(fields): URIFetch(UnicodeString uri)
+opcode: ''
+keywords: ''
+task: URIFetch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: uri

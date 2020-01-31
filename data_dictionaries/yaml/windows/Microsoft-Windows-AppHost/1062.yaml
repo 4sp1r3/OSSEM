@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1062'
+version: '0'
+event(fields): WinRTAsyncCallStop(Int32 Priority, Pointer Id)
+opcode: Stop
+keywords: WwaHost
+task: WinRTAsyncCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Priority
+- field_type: Pointer
+  field_name: Id

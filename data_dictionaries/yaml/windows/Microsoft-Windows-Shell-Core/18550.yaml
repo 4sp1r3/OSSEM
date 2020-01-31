@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18550'
+version: '0'
+event(fields): Shell32_DefView_EnumerationStop(UInt32 Count)
+opcode: Stop
+keywords: Shell
+task: Shell32_DefView_Enumeration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count

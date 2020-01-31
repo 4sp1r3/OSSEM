@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1011'
+version: '0'
+event(fields): MiracastStopMiracastSession(Pointer MiniportContext, UInt64 MiracastLuid,
+  UnicodeString SqmStringEntry, UInt32 MiracastStopSessionReason, UInt32 StatusForStopReason)
+opcode: ''
+keywords: Miracast
+task: MiracastStopMiracastSession
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportContext
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UnicodeString
+  field_name: SqmStringEntry
+- field_type: UInt32
+  field_name: MiracastStopSessionReason
+- field_type: UInt32
+  field_name: StatusForStopReason

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-CertPolEng
+event_id: '43'
+version: '0'
+event(fields): task_043()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

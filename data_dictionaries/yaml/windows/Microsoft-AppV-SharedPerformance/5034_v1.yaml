@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '5034'
+version: '1'
+event(fields): UserMaintenanceStop5034_V1()
+opcode: Stop
+keywords: ''
+task: UserMaintenance
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22042'
+version: '0'
+event(fields): Taskbar_AnimationStop(UInt64 pObj, UInt32 nAnimType)
+opcode: Stop
+keywords: Shell
+task: Taskbar_Animation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: pObj
+- field_type: UInt32
+  field_name: nAnimType

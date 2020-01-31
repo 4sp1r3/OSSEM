@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WPD-CompositeClassDriver
+event_id: '311'
+version: '0'
+event(fields): TransportManagement311(UInt32 Value)
+opcode: ''
+keywords: ''
+task: TransportManagement
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

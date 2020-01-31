@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '7014'
+version: '0'
+event(fields): AccountManagement7014(UnicodeString mbnInterface)
+opcode: ''
+keywords: ''
+task: AccountManagement
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: mbnInterface

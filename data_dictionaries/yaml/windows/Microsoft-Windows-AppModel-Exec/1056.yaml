@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '1056'
+version: '0'
+event(fields): task_01056(UInt32 p1_UInt32, UInt64 p2_UInt32, UInt32 p3_UInt32)
+opcode: ''
+keywords: ExecProductionCircular ExecSelfHostCircular ExecDevPlatCircular Activation
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p1_UInt32
+- field_type: UInt64
+  field_name: p2_UInt32
+- field_type: UInt32
+  field_name: p3_UInt32

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '28'
+version: '1'
+event(fields): ReadyBootPeriodicStats_V1(UInt32 Size, Binary Data)
+opcode: ''
+keywords: ReadyBoot
+task: ReadyBootPeriodicStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Size
+- field_type: Binary
+  field_name: Data

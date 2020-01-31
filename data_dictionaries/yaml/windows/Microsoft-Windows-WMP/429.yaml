@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '429'
+version: '0'
+event(fields): RECEIVE_MEDIA_MENU_ACTIONStart()
+opcode: Start
+keywords: mediaplayer
+task: RECEIVE_MEDIA_MENU_ACTION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

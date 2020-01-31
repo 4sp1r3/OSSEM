@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-WebIO
+event_id: '707'
+version: '0'
+event(fields): SSLEncryptMessageStop(Pointer Connection, Pointer SslIOContext, UInt64
+  CredHandleHigh, UInt64 CredHandleLow, Pointer DataChunks, UInt32 Index, Pointer
+  Buffer, UInt64 Length, UInt32 Flags, UInt32 Error)
+opcode: Stop
+keywords: Keyword.SEND Keyword.SECURITY
+task: SSLEncryptMessage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: SslIOContext
+- field_type: UInt64
+  field_name: CredHandleHigh
+- field_type: UInt64
+  field_name: CredHandleLow
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: UInt32
+  field_name: Index
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt64
+  field_name: Length
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Error

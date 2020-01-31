@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DesktopActivityModerator
+event_id: '31'
+version: '0'
+event(fields): ProcessActivityStart(UInt32 ProcessId, UInt32 SessionId, UInt16 ImageFileNameLength,
+  UnicodeString ImageFileName, UInt16 CommandLineLength, UnicodeString CommandLine)
+opcode: Start
+keywords: ProcessActivity
+task: ProcessActivity
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt16
+  field_name: ImageFileNameLength
+- field_type: UnicodeString
+  field_name: ImageFileName
+- field_type: UInt16
+  field_name: CommandLineLength
+- field_type: UnicodeString
+  field_name: CommandLine

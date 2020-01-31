@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4018'
+version: '0'
+event(fields): FOLDER_COPYMESSAGESStop()
+opcode: Stop
+keywords: Performance
+task: FOLDER_COPYMESSAGES
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

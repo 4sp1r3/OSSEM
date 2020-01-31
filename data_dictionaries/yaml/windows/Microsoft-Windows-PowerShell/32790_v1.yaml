@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '32790'
+version: '1'
+event(fields): task_0Send(Async)32790_V1(UnicodeString SessionId, UnicodeString PipelineId)
+opcode: Send(Async)
+keywords: Transport
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: PipelineId

@@ -1,0 +1,37 @@
+provider: Microsoft-Windows-PrintService
+event_id: '215'
+version: '0'
+event(fields): InstallingaprinterdriverSpoolerOperationFailed(UnicodeString Label,
+  UnicodeString Message, UnicodeString AdditionalInfo, UnicodeString InfPath, UnicodeString
+  DriverName, UnicodeString InstallSection, UnicodeString ProcessorArchitecture, UnicodeString
+  PackageAware, UnicodeString CoreDriverDependencies, HexInt32 LastError, HexInt32
+  HResult)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP
+task: Installingaprinterdriver
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Label
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UnicodeString
+  field_name: AdditionalInfo
+- field_type: UnicodeString
+  field_name: InfPath
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UnicodeString
+  field_name: InstallSection
+- field_type: UnicodeString
+  field_name: ProcessorArchitecture
+- field_type: UnicodeString
+  field_name: PackageAware
+- field_type: UnicodeString
+  field_name: CoreDriverDependencies
+- field_type: HexInt32
+  field_name: LastError
+- field_type: HexInt32
+  field_name: HResult

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1064'
+version: '0'
+event(fields): IndirectSwapChainGetMetaData(Pointer pSwapChain, UInt32 Status, Int32
+  bProducer, Int32 bGlobal, UInt32 DataCopied, UInt32 MetaDataDword1, UInt32 MetaDataDword2,
+  UInt32 MetaDataDword3, UInt32 MetaDataDword4)
+opcode: ''
+keywords: IndirectSwapChain
+task: IndirectSwapChainGetMetaData
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pSwapChain
+- field_type: UInt32
+  field_name: Status
+- field_type: Int32
+  field_name: bProducer
+- field_type: Int32
+  field_name: bGlobal
+- field_type: UInt32
+  field_name: DataCopied
+- field_type: UInt32
+  field_name: MetaDataDword1
+- field_type: UInt32
+  field_name: MetaDataDword2
+- field_type: UInt32
+  field_name: MetaDataDword3
+- field_type: UInt32
+  field_name: MetaDataDword4

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '287'
+version: '0'
+event(fields): CddStandardAllocation287(Pointer pDxgAdapterAllocation, UInt32 Flags,
+  UInt32 Width, UInt32 Height, UInt32 Format, UInt32 GdiSurfaceType, UInt32 GdiSurfaceFlags,
+  UInt32 Pitch)
+opcode: ''
+keywords: Base
+task: CddStandardAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapterAllocation
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: GdiSurfaceType
+- field_type: UInt32
+  field_name: GdiSurfaceFlags
+- field_type: UInt32
+  field_name: Pitch

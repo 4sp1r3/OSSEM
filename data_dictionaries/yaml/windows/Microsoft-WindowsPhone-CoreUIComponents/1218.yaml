@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1218'
+version: '0'
+event(fields): ForegroundTaskManagerResumePrerequisitePhaseStop(UInt32 unParam, UInt32
+  appLayer, Boolean fBool)
+opcode: Stop
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerResumePrerequisitePhase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: appLayer
+- field_type: Boolean
+  field_name: fBool

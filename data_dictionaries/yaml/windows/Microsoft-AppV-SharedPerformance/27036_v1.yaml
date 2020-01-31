@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27036'
+version: '1'
+event(fields): HandleVirtualEnvironmentCreatedCompleteActivityStart_V1()
+opcode: Start
+keywords: ''
+task: HandleVirtualEnvironmentCreatedCompleteActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

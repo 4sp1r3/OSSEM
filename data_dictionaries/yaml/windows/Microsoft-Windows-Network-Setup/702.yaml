@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Network-Setup
+event_id: '702'
+version: '0'
+event(fields): INetCfgNotifyObjectStop702(Int32 Code)
+opcode: Stop
+keywords: ''
+task: INetCfgNotifyObject
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Code

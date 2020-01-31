@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '211'
+version: '0'
+event(fields): ProcessHookMessageStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ProcessHookMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

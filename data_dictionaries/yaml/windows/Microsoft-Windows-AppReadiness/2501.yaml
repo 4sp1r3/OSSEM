@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '2501'
+version: '0'
+event(fields): AppReadiness_BrokerSessionStop(UnicodeString User, UInt32 Result)
+opcode: Stop
+keywords: BrokerSession
+task: AppReadiness_BrokerSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UInt32
+  field_name: Result

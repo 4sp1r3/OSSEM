@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '404'
+version: '0'
+event(fields): BuildDriverListTaskStart(UnicodeString Prop_PackagePath)
+opcode: Start
+keywords: ''
+task: BuildDriverListTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_PackagePath

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '148'
+version: '0'
+event(fields): FreePersistedMemoryBlockStop(UInt32 Status)
+opcode: Stop
+keywords: MemoryPreservation
+task: FreePersistedMemoryBlock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

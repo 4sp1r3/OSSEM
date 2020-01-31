@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '4051'
+version: '0'
+event(fields): task_0(UInt32 IpAddrLength, UInt32 ServiceType, UInt32 TeredoPacketType,
+  Binary SourceIPAddress, Binary DestinationIPAddress)
+opcode: ''
+keywords: teredo
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: UInt32
+  field_name: ServiceType
+- field_type: UInt32
+  field_name: TeredoPacketType
+- field_type: Binary
+  field_name: SourceIPAddress
+- field_type: Binary
+  field_name: DestinationIPAddress

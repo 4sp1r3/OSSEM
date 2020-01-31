@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '16'
+version: '1'
+event(fields): RundownOverridePowerSetting_V1(GUID SchemeGuid, GUID SubgroupGuid,
+  GUID SettingGuid, UInt32 Flags, UInt32 DataType, UInt32 DataSize, Binary Data, GUID
+  ProfileGuid)
+opcode: ''
+keywords: ''
+task: RundownOverridePowerSetting
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SchemeGuid
+- field_type: GUID
+  field_name: SubgroupGuid
+- field_type: GUID
+  field_name: SettingGuid
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: DataType
+- field_type: UInt32
+  field_name: DataSize
+- field_type: Binary
+  field_name: Data
+- field_type: GUID
+  field_name: ProfileGuid

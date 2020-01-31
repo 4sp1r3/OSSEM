@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSPaint
+event_id: '28'
+version: '0'
+event(fields): OpenImageStop()
+opcode: Stop
+keywords: ''
+task: OpenImage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

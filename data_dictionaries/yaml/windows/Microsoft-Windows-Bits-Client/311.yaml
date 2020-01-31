@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '311'
+version: '0'
+event(fields): task_0311(GUID JobId, UnicodeString JobName, UnicodeString url, UInt32
+  ErrorCode, UInt8 ErrorContext, UInt64 bytesTransferredFromPeer, UInt64 PeerProtocolFlags)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: JobName
+- field_type: UnicodeString
+  field_name: url
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt8
+  field_name: ErrorContext
+- field_type: UInt64
+  field_name: bytesTransferredFromPeer
+- field_type: UInt64
+  field_name: PeerProtocolFlags

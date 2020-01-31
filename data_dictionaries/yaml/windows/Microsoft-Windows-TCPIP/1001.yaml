@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1001'
+version: '0'
+event(fields): TcpEndpointCreation(UInt32 Status, Pointer Endpoint, UInt32 AddressFamily,
+  UInt32 Pid)
+opcode: ''
+keywords: ut:Endpoint
+task: TcpEndpointCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: Pid

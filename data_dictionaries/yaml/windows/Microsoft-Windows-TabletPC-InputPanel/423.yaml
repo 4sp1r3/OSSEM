@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '423'
+version: '0'
+event(fields): IHM_SlideOutStart(Int32 StoryBoardID)
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: IHM_SlideOut
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: StoryBoardID

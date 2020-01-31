@@ -1,0 +1,38 @@
+provider: Microsoft-IE
+event_id: '700'
+version: '0'
+event(fields): Mshtml_CTouchHelper_HandleTouchMessage_Info(HexInt32 Msg, UInt64 TimeStamp,
+  UInt32 PointerId, UInt32 FrameId, UInt32 PointerType, UInt32 ScreenX, UInt32 ScreenY,
+  UInt32 ClientX, UInt32 ClientY, UInt32 ButtonChanged, HexInt32 ButtonState, HexInt32
+  PointerFlags)
+opcode: ''
+keywords: touch
+task: Mshtml_CTouchHelper_HandleTouchMessage_Info
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Msg
+- field_type: UInt64
+  field_name: TimeStamp
+- field_type: UInt32
+  field_name: PointerId
+- field_type: UInt32
+  field_name: FrameId
+- field_type: UInt32
+  field_name: PointerType
+- field_type: UInt32
+  field_name: ScreenX
+- field_type: UInt32
+  field_name: ScreenY
+- field_type: UInt32
+  field_name: ClientX
+- field_type: UInt32
+  field_name: ClientY
+- field_type: UInt32
+  field_name: ButtonChanged
+- field_type: HexInt32
+  field_name: ButtonState
+- field_type: HexInt32
+  field_name: PointerFlags

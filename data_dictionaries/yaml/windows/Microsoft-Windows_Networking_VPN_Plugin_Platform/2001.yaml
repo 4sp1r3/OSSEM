@@ -1,0 +1,17 @@
+provider: Microsoft-Windows Networking VPN Plugin Platform
+event_id: '2001'
+version: '0'
+event(fields): task_0(SID Plugin, UnicodeString Profile, UInt32 Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: Plugin
+- field_type: UnicodeString
+  field_name: Profile
+- field_type: UInt32
+  field_name: Error

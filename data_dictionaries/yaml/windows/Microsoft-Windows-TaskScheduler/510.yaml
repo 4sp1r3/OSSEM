@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '510'
+version: '0'
+event(fields): IdleTaskPerfTrackResourceConsumption(UInt32 NoIdleReason, UInt32 DATA1,
+  UInt32 DATA2)
+opcode: ''
+keywords: ForcedIdleProcessing
+task: IdleTaskPerfTrackResourceConsumption
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NoIdleReason
+- field_type: UInt32
+  field_name: DATA1
+- field_type: UInt32
+  field_name: DATA2

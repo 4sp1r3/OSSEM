@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1104'
+version: '0'
+event(fields): TcpSetTcpOption(Pointer Tcb, UInt32 OptionType, UInt32 SoOptionType)
+opcode: ''
+keywords: ut:TcpipTcb ut:Endpoint ut:Configuration
+task: TcpSetTcpOption
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: OptionType
+- field_type: UInt32
+  field_name: SoOptionType

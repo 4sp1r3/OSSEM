@@ -1,0 +1,24 @@
+provider: Microsoft-JScript
+event_id: '66'
+version: '0'
+event(fields): ParseMethodStop(UInt64 SourceID, Pointer ScriptContextID, UInt32 MethodID,
+  UInt32 ASTSize, Boolean IsDeferred, UnicodeString MethodName)
+opcode: Stop
+keywords: JScriptFrontend
+task: ParseMethod
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SourceID
+- field_type: Pointer
+  field_name: ScriptContextID
+- field_type: UInt32
+  field_name: MethodID
+- field_type: UInt32
+  field_name: ASTSize
+- field_type: Boolean
+  field_name: IsDeferred
+- field_type: UnicodeString
+  field_name: MethodName

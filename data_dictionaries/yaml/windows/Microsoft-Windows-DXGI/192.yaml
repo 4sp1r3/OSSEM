@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '192'
+version: '0'
+event(fields): IDXGISwapChain_GetContainingOutputStart(Pointer pThis, Pointer ppOutput)
+opcode: Start
+keywords: ''
+task: IDXGISwapChain_GetContainingOutput
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: ppOutput

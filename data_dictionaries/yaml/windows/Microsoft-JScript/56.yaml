@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '56'
+version: '0'
+event(fields): Jscript_Projection_WriteInspectableStop(Boolean IsBoxed)
+opcode: Stop
+keywords: JScriptProjection
+task: Jscript_Projection_WriteInspectable
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsBoxed

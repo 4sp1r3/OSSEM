@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7221'
+version: '0'
+event(fields): ConnectedSearch_HTTPRequestFailure(UInt32 ErrorResult)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_HTTPRequestFailure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorResult

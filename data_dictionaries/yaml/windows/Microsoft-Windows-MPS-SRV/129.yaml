@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '129'
+version: '0'
+event(fields): Writer_InitializeStart()
+opcode: Start
+keywords: Service
+task: Writer_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

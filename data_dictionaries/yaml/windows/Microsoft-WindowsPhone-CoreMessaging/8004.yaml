@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '8004'
+version: '0'
+event(fields): IoCompletionPort8004(Pointer ptr1, Pointer ptr2)
+opcode: ''
+keywords: MessagingPerformance
+task: IoCompletionPort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ptr1
+- field_type: Pointer
+  field_name: ptr2

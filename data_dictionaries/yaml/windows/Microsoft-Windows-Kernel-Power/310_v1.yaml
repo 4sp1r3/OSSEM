@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '310'
+version: '1'
+event(fields): ComponentRegistration_V1(Pointer Token, UInt32 Component, Boolean Active,
+  UInt32 IdleState, UInt32 IdleStateCount, UInt16 IdleStates)
+opcode: ''
+keywords: po:RuntimeFx
+task: ComponentRegistration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token
+- field_type: UInt32
+  field_name: Component
+- field_type: Boolean
+  field_name: Active
+- field_type: UInt32
+  field_name: IdleState
+- field_type: UInt32
+  field_name: IdleStateCount
+- field_type: UInt16
+  field_name: IdleStates

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '195'
+version: '0'
+event(fields): IDXGISwapChain_GetFrameStatisticsStop(UInt32 m_Ret)
+opcode: Stop
+keywords: ''
+task: IDXGISwapChain_GetFrameStatistics
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret

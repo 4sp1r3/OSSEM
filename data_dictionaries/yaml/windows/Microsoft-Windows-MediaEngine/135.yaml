@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '135'
+version: '0'
+event(fields): SaveimageStart(Pointer object)
+opcode: Start
+keywords: ''
+task: Saveimage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

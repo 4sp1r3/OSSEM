@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '20000'
+version: '0'
+event(fields): ThrownException(UnicodeString pwsz, UInt32 hex, UnicodeString pwsz2)
+opcode: ''
+keywords: MessagingPerformance Proxy keyword_80000000000
+task: ThrownException
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UInt32
+  field_name: hex
+- field_type: UnicodeString
+  field_name: pwsz2

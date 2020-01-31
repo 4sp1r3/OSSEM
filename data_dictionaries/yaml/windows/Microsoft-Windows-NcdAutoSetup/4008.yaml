@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NcdAutoSetup
+event_id: '4008'
+version: '0'
+event(fields): DeviceDisqualified4008(UnicodeString String1)
+opcode: ''
+keywords: ''
+task: DeviceDisqualified
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String1

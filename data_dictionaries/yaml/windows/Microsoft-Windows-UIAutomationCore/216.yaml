@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '216'
+version: '0'
+event(fields): CUIAutomation_ElementFromHandleStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CUIAutomation_ElementFromHandle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

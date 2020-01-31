@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Iphlpsvc
+event_id: '4202'
+version: '0'
+event(fields): task_04202(UInt32 ProtocolType, UnicodeString Interface, UInt32 UpdateType,
+  UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProtocolType
+- field_type: UnicodeString
+  field_name: Interface
+- field_type: UInt32
+  field_name: UpdateType
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winsrv
+event_id: '12010'
+version: '1'
+event(fields): ShutdownProcessStop_V1(UInt32 ProcessId, UInt32 Status)
+opcode: Stop
+keywords: Perf
+task: ShutdownProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: Status

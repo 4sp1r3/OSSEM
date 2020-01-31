@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1472'
+version: '0'
+event(fields): DragVisual_ModeChange()
+opcode: ''
+keywords: ''
+task: DragVisual_ModeChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

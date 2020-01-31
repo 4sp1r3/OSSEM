@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '78'
+version: '0'
+event(fields): Mshtml_CImgTask_ReadYieldStop(Pointer CImgTaskPtr, UInt32 cbRead)
+opcode: Stop
+keywords: primarynav
+task: Mshtml_CImgTask_ReadYield
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CImgTaskPtr
+- field_type: UInt32
+  field_name: cbRead

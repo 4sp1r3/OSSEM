@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors-Core-Performance
+event_id: '1007'
+version: '0'
+event(fields): CollectionListDeserializationTaskStart(UInt32 PayloadSize)
+opcode: Start
+keywords: ''
+task: CollectionListDeserializationTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PayloadSize

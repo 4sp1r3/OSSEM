@@ -1,0 +1,26 @@
+provider: Microsoft-IE
+event_id: '465'
+version: '0'
+event(fields): Mshtml_Composition_Layer_PaintRect(Pointer DispNode, Pointer DispLayer,
+  Int32 left, Int32 top, Int32 right, Int32 bottom, UInt64 ElementDDTId)
+opcode: ''
+keywords: subsystem composition
+task: Mshtml_Composition_Layer_PaintRect
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DispNode
+- field_type: Pointer
+  field_name: DispLayer
+- field_type: Int32
+  field_name: left
+- field_type: Int32
+  field_name: top
+- field_type: Int32
+  field_name: right
+- field_type: Int32
+  field_name: bottom
+- field_type: UInt64
+  field_name: ElementDDTId

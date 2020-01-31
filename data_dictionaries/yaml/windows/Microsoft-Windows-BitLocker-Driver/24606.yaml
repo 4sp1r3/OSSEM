@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-BitLocker-Driver
+event_id: '24606'
+version: '0'
+event(fields): task_024606(HexInt32 ErrorCode, UnicodeString Volume, HexInt32 WritePhase,
+  GUID VolumeGUID, GUID OptionalGUID, HexInt32 Flags)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: Volume
+- field_type: HexInt32
+  field_name: WritePhase
+- field_type: GUID
+  field_name: VolumeGUID
+- field_type: GUID
+  field_name: OptionalGUID
+- field_type: HexInt32
+  field_name: Flags

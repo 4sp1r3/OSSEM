@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '148'
+version: '0'
+event(fields): EnergySaverState(Int32 State, Int32 Reason)
+opcode: ''
+keywords: po:Scenario po:Performance po:PerformanceLight
+task: EnergySaverState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: State
+- field_type: Int32
+  field_name: Reason

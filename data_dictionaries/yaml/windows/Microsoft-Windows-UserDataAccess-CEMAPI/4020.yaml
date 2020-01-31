@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4020'
+version: '0'
+event(fields): FOLDER_GETHIERARCHYTABLEStop()
+opcode: Stop
+keywords: Performance
+task: FOLDER_GETHIERARCHYTABLE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

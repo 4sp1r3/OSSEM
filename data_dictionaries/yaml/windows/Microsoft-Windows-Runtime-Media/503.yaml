@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '503'
+version: '0'
+event(fields): WinRTMediaStreamSourceSampleRequestTaskStart(Pointer MediaStreamSource,
+  Pointer EventObject, UInt32 StreamId)
+opcode: Start
+keywords: keyword_200000000000
+task: WinRTMediaStreamSourceSampleRequestTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MediaStreamSource
+- field_type: Pointer
+  field_name: EventObject
+- field_type: UInt32
+  field_name: StreamId

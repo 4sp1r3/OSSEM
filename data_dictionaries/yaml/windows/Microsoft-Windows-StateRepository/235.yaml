@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '235'
+version: '0'
+event(fields): StateRepository.Task.Migrate235(Int32 MachineDisposition, Int32 PreviousMachineVersion,
+  Int32 DeploymentDisposition, Int32 PreviousDeploymentVersion, Int32 MigratorErrors)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD keyword_200000000000
+task: StateRepository.Task.Migrate
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: MachineDisposition
+- field_type: Int32
+  field_name: PreviousMachineVersion
+- field_type: Int32
+  field_name: DeploymentDisposition
+- field_type: Int32
+  field_name: PreviousDeploymentVersion
+- field_type: Int32
+  field_name: MigratorErrors

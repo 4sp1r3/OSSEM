@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MPEG2_DLNA-Encoder
+event_id: '7'
+version: '0'
+event(fields): AudioEncodeSessionConfig(UInt32 MaxBitRate, Int32 SampleRate, UInt8
+  InputFormat)
+opcode: ''
+keywords: ''
+task: AudioEncodeSessionConfig
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MaxBitRate
+- field_type: Int32
+  field_name: SampleRate
+- field_type: UInt8
+  field_name: InputFormat

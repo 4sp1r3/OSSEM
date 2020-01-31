@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '6'
+version: '0'
+event(fields): PlatformShutdown6()
+opcode: ''
+keywords: wpnplat wpnperf_Shutdown
+task: PlatformShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

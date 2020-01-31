@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '392'
+version: '0'
+event(fields): task_0392(UnicodeString UserSid, UnicodeString UserKeyName, UInt32
+  ContainerStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: UserKeyName
+- field_type: UInt32
+  field_name: ContainerStatus

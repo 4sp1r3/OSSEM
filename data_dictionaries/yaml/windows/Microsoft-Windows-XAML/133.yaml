@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '133'
+version: '0'
+event(fields): ProcessRetargetStop()
+opcode: Stop
+keywords: Rendering
+task: ProcessRetarget
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

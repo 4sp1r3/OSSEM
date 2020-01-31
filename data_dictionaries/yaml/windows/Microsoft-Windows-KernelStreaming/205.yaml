@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-KernelStreaming
+event_id: '205'
+version: '0'
+event(fields): KS_CameraGrabStop(HexInt32 Status)
+opcode: Stop
+keywords: ''
+task: KS_CameraGrab
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1308'
+version: '0'
+event(fields): SensorAPIcalltogetsensorpropertyvaluesStop(GUID SENSOR_ID)
+opcode: Stop
+keywords: SensPerf
+task: SensorAPIcalltogetsensorpropertyvalues
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SENSOR_ID

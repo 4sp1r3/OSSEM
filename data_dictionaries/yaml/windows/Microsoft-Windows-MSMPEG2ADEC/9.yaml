@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2ADEC
+event_id: '9'
+version: '0'
+event(fields): GETOUTPUT()
+opcode: ''
+keywords: ''
+task: GETOUTPUT
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

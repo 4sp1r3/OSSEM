@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '101'
+version: '0'
+event(fields): TaskStartFailedLaunchFailure(UnicodeString TaskName, UnicodeString
+  UserContext, UInt32 ResultCode)
+opcode: LaunchFailure
+keywords: ForcedIdleProcessing
+task: TaskStartFailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UnicodeString
+  field_name: UserContext
+- field_type: UInt32
+  field_name: ResultCode

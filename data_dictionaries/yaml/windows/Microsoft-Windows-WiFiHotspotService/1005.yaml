@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WiFiHotspotService
+event_id: '1005'
+version: '0'
+event(fields): HotspotService1005(Pointer Ptr1, Pointer Ptr2)
+opcode: ''
+keywords: Performance
+task: HotspotService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Ptr1
+- field_type: Pointer
+  field_name: Ptr2

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '131'
+version: '0'
+event(fields): UnifiedListView_DefaultAction()
+opcode: ''
+keywords: unifiedlistview
+task: UnifiedListView_DefaultAction
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

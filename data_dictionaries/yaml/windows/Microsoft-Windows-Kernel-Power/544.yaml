@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '544'
+version: '0'
+event(fields): DirectedDripsDisengageMaskChange(UInt32 OldMask, UInt32 NewMask, UInt32
+  SetFlags, UInt32 ClearedFlags)
+opcode: ''
+keywords: po:Diagnostic
+task: DirectedDripsDisengageMaskChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OldMask
+- field_type: UInt32
+  field_name: NewMask
+- field_type: UInt32
+  field_name: SetFlags
+- field_type: UInt32
+  field_name: ClearedFlags

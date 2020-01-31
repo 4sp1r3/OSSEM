@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '200'
+version: '0'
+event(fields): task_0200()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

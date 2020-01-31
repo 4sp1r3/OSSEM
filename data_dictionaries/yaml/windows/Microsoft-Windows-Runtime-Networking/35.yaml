@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '35'
+version: '0'
+event(fields): APIsAPIExit(UInt32 runtimeClass, UInt32 api)
+opcode: APIExit
+keywords: keywords.API
+task: APIs
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: runtimeClass
+- field_type: UInt32
+  field_name: api

@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '366'
+version: '0'
+event(fields): VidMmProcessBudgetChange(UInt64 NewBudget, UInt64 OldBudget, Pointer
+  pDxgAdapter, UInt32 ProcessId, UInt16 PhysicalAdapterIndex, UInt8 NewPriorityBand,
+  UInt8 OldPriorityBand, UInt8 NewVisibilityState, UInt8 OldVisibilityState, UInt8
+  MemorySegmentGroup)
+opcode: ''
+keywords: References
+task: VidMmProcessBudgetChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: NewBudget
+- field_type: UInt64
+  field_name: OldBudget
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt16
+  field_name: PhysicalAdapterIndex
+- field_type: UInt8
+  field_name: NewPriorityBand
+- field_type: UInt8
+  field_name: OldPriorityBand
+- field_type: UInt8
+  field_name: NewVisibilityState
+- field_type: UInt8
+  field_name: OldVisibilityState
+- field_type: UInt8
+  field_name: MemorySegmentGroup

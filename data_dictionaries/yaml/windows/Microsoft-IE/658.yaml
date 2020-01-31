@@ -1,0 +1,41 @@
+provider: Microsoft-IE
+event_id: '658'
+version: '0'
+event(fields): Mshtml_CView_UpdateRootScrollerSizeAndZoom(Pointer CView, Int32 VisualViewportWidth,
+  Int32 VisualViewportHeight, Int32 LayoutViewportWidth, Int32 LayoutViewportHeight,
+  Float BaseOpticalZoom, Boolean IsClamping, Boolean HasAtViewportRule, Boolean HasDeviceWidthOrHeight,
+  Boolean ViewportControllerEnabled, Boolean HasHorizontalScrollbar, Boolean HasVerticalScrollbar,
+  Boolean UpdateUnitInfoZoomOnly)
+opcode: ''
+keywords: mshtml
+task: Mshtml_CView_UpdateRootScrollerSizeAndZoom
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CView
+- field_type: Int32
+  field_name: VisualViewportWidth
+- field_type: Int32
+  field_name: VisualViewportHeight
+- field_type: Int32
+  field_name: LayoutViewportWidth
+- field_type: Int32
+  field_name: LayoutViewportHeight
+- field_type: Float
+  field_name: BaseOpticalZoom
+- field_type: Boolean
+  field_name: IsClamping
+- field_type: Boolean
+  field_name: HasAtViewportRule
+- field_type: Boolean
+  field_name: HasDeviceWidthOrHeight
+- field_type: Boolean
+  field_name: ViewportControllerEnabled
+- field_type: Boolean
+  field_name: HasHorizontalScrollbar
+- field_type: Boolean
+  field_name: HasVerticalScrollbar
+- field_type: Boolean
+  field_name: UpdateUnitInfoZoomOnly

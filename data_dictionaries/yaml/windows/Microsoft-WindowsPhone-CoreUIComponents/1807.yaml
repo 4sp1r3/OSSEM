@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1807'
+version: '0'
+event(fields): RotationManager1807(Boolean fBool, UInt32 hex)
+opcode: ''
+keywords: RotationManager
+task: RotationManager
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fBool
+- field_type: UInt32
+  field_name: hex

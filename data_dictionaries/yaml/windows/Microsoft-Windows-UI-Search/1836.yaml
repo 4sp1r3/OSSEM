@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UI-Search
+event_id: '1836'
+version: '0'
+event(fields): GetSearchLaunchModeForWindow_Result(UInt32 HRESULT, UInt32 LaunchMode)
+opcode: ''
+keywords: ''
+task: GetSearchLaunchModeForWindow_Result
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: LaunchMode

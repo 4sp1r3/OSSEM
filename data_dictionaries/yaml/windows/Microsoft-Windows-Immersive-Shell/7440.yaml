@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7440'
+version: '0'
+event(fields): ConnectedSearch_BadSignature(UnicodeString Path, Boolean Validation)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_BadSignature
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path
+- field_type: Boolean
+  field_name: Validation

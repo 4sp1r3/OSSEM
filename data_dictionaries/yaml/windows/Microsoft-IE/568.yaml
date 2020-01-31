@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '568'
+version: '0'
+event(fields): Mshtml_FormatDetection_EntityHighlightingStop()
+opcode: Stop
+keywords: mshtml
+task: Mshtml_FormatDetection_EntityHighlighting
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

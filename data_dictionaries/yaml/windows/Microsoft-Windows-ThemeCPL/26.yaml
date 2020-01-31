@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ThemeCPL
+event_id: '26'
+version: '0'
+event(fields): ThemeCPL_AccColorCplPageApplyStart(UInt32 dwColorsChanged)
+opcode: Start
+keywords: ThemeCPL
+task: ThemeCPL_AccColorCplPageApply
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwColorsChanged

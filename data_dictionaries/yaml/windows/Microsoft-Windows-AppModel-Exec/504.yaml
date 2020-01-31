@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '504'
+version: '0'
+event(fields): BackgroundManagerTrace504(Pointer Message)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BackgroundManagerTrace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Message

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-IO
+event_id: '3'
+version: '0'
+event(fields): VolumeMountStop3(GUID VolumeGuid, UInt16 VolumeNameLength, UnicodeString
+  VolumeName, HexInt32 Error)
+opcode: Stop
+keywords: VolumeMounts
+task: VolumeMount
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VolumeGuid
+- field_type: UInt16
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: HexInt32
+  field_name: Error

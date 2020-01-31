@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AsynchronousCausality
+event_id: '20752'
+version: '1'
+event(fields): task_020752_V1()
+opcode: ''
+keywords: OperationWork SystemOperation
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

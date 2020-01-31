@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-Machine-DUI
+event_id: '5132'
+version: '0'
+event(fields): TimezoneModule_PopulateTimezonesStart()
+opcode: Start
+keywords: msoobe
+task: TimezoneModule_PopulateTimezones
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

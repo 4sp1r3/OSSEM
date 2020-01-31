@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '39'
+version: '1'
+event(fields): COM_ClientSyncCallStart_V1(UInt32 CallTraceId, UInt32 TargetProcessId,
+  UInt32 TargetThreadId, GUID CausalityId, UInt32 TargetMethod, GUID TargetInterface,
+  Pointer ProxyInterfacePointer, Pointer ProxyManagerIUnknown, GUID IPID, UInt64 OID,
+  GUID CallerLogicalThreadId, Pointer CallerReturnAddress, UInt32 WinrtAsyncPatternMethodIndicator,
+  Boolean FakeSync)
+opcode: Start
+keywords: ''
+task: COM_ClientSyncCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CallTraceId
+- field_type: UInt32
+  field_name: TargetProcessId
+- field_type: UInt32
+  field_name: TargetThreadId
+- field_type: GUID
+  field_name: CausalityId
+- field_type: UInt32
+  field_name: TargetMethod
+- field_type: GUID
+  field_name: TargetInterface
+- field_type: Pointer
+  field_name: ProxyInterfacePointer
+- field_type: Pointer
+  field_name: ProxyManagerIUnknown
+- field_type: GUID
+  field_name: IPID
+- field_type: UInt64
+  field_name: OID
+- field_type: GUID
+  field_name: CallerLogicalThreadId
+- field_type: Pointer
+  field_name: CallerReturnAddress
+- field_type: UInt32
+  field_name: WinrtAsyncPatternMethodIndicator
+- field_type: Boolean
+  field_name: FakeSync

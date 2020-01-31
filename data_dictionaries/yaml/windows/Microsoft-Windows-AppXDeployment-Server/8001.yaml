@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '8001'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Service8001(UInt32 ServiceStatus, Int32
+  ErrorCode)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Service
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ServiceStatus
+- field_type: Int32
+  field_name: ErrorCode

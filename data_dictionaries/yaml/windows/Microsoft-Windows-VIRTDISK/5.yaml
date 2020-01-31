@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-VIRTDISK
+event_id: '5'
+version: '0'
+event(fields): Detachvirtualdisk.Start(Pointer VhdHandle)
+opcode: Start
+keywords: ''
+task: Detachvirtualdisk.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: VhdHandle

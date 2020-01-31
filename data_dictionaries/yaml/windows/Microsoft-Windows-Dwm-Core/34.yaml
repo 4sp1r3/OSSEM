@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '34'
+version: '0'
+event(fields): ETWGUID_COPYFRONTTOBACKBUFFEREVENTStart()
+opcode: Start
+keywords: DwmCore
+task: ETWGUID_COPYFRONTTOBACKBUFFEREVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

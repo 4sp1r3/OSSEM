@@ -1,0 +1,24 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '701'
+version: '0'
+event(fields): GeofenceTracking701(UInt32 Tracker, UInt32 AppId, UInt32 GeofenceId,
+  UInt32 State, Double Latitude, Double Longitude)
+opcode: ''
+keywords: Selfhost GeofenceTracking
+task: GeofenceTracking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Tracker
+- field_type: UInt32
+  field_name: AppId
+- field_type: UInt32
+  field_name: GeofenceId
+- field_type: UInt32
+  field_name: State
+- field_type: Double
+  field_name: Latitude
+- field_type: Double
+  field_name: Longitude

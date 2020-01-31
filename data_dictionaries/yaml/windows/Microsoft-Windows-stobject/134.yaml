@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '134'
+version: '0'
+event(fields): KeepAwake_ResumeDisplayStop()
+opcode: Stop
+keywords: BatteryMeter
+task: KeepAwake_ResumeDisplay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

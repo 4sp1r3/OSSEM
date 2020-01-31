@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '135'
+version: '0'
+event(fields): SubmitAlphaModeUpdateStop(UInt32 Transparent)
+opcode: Stop
+keywords: Rendering
+task: SubmitAlphaModeUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Transparent

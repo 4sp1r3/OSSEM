@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61430'
+version: '0'
+event(fields): FileAccessAPI_EnumeratePersistedItemTokensStart()
+opcode: Start
+keywords: Shell
+task: FileAccessAPI_EnumeratePersistedItemTokens
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

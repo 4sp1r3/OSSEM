@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Win32k
+event_id: '35'
+version: '0'
+event(fields): WaitCursor(UInt32 CursorThreadId, UInt32 CursorProcessId, UInt32 SessionId,
+  UInt32 CursorType, UInt32 DisplayTimeMs)
+opcode: ''
+keywords: UIUnresponsiveness
+task: WaitCursor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CursorThreadId
+- field_type: UInt32
+  field_name: CursorProcessId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: CursorType
+- field_type: UInt32
+  field_name: DisplayTimeMs

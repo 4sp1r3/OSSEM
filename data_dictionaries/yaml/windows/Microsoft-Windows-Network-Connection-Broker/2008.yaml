@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Network-Connection-Broker
+event_id: '2008'
+version: '0'
+event(fields): task_02008(GUID BrokerEventId, UnicodeString AppName, Int32 CallReason)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BrokerEventId
+- field_type: UnicodeString
+  field_name: AppName
+- field_type: Int32
+  field_name: CallReason

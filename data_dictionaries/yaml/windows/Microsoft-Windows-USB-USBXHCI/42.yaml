@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '42'
+version: '0'
+event(fields): task_042(UInt32 fid_InterrupterNumber)
+opcode: ''
+keywords: Default Performance
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: fid_InterrupterNumber

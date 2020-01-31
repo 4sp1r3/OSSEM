@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DSC
+event_id: '4168'
+version: '0'
+event(fields): task_04168(UnicodeString JobId, UnicodeString FunctionName, UnicodeString
+  ClassName, UnicodeString MethodName, UnicodeString Namespace)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: FunctionName
+- field_type: UnicodeString
+  field_name: ClassName
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: UnicodeString
+  field_name: Namespace

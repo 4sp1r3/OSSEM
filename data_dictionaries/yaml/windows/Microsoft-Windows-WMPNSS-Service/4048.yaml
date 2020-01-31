@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4048'
+version: '0'
+event(fields): Obj_Pop_Artist_AuthorStart(UInt32 WMPAtom, UInt32 ReturnedCount, UInt32
+  ErrorCode)
+opcode: Start
+keywords: ''
+task: Obj_Pop_Artist_Author
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WMPAtom
+- field_type: UInt32
+  field_name: ReturnedCount
+- field_type: UInt32
+  field_name: ErrorCode

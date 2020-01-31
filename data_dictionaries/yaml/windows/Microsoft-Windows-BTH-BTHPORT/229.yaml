@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-BTH-BTHPORT
+event_id: '229'
+version: '0'
+event(fields): task_0229(UInt8 SentStatus, UInt8 Code, UInt8 Identifier, UInt16 Length,
+  UInt16 DCID, UInt16 SCID, UInt16 Result, UInt16 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: SentStatus
+- field_type: UInt8
+  field_name: Code
+- field_type: UInt8
+  field_name: Identifier
+- field_type: UInt16
+  field_name: Length
+- field_type: UInt16
+  field_name: DCID
+- field_type: UInt16
+  field_name: SCID
+- field_type: UInt16
+  field_name: Result
+- field_type: UInt16
+  field_name: Status

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-Netvsc
+event_id: '39'
+version: '0'
+event(fields): VfBindAdapter(UInt32 Status, UInt32 failureReason)
+opcode: ''
+keywords: ''
+task: VfBindAdapter
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: failureReason

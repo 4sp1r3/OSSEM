@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '226'
+version: '0'
+event(fields): MediaSync_InitializeDevicesStart()
+opcode: Start
+keywords: ''
+task: MediaSync_InitializeDevices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

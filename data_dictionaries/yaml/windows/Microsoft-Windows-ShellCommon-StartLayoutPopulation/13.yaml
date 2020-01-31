@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '13'
+version: '0'
+event(fields): DefaultLayoutManager_PostProcessSelectedLayoutStop13()
+opcode: Stop
+keywords: ''
+task: DefaultLayoutManager_PostProcessSelectedLayout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

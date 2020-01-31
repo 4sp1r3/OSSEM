@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '12'
+version: '1'
+event(fields): GCTerminateConcurrentThread_V1(UInt16 ClrInstanceID)
+opcode: TerminateConcurrentThread
+keywords: GCKeyword ThreadingKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClrInstanceID

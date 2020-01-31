@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2224'
+version: '0'
+event(fields): CtapUsbConnectInformational(GUID TransactionId, UnicodeString DevicePath,
+  UnicodeString Manufacturer, UnicodeString Product, HexInt32 DeviceErr, HexInt32
+  Status, HexInt32 Error, HexInt32 Win32Error)
+opcode: Informational
+keywords: Ctap Usb
+task: CtapUsbConnect
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UnicodeString
+  field_name: DevicePath
+- field_type: UnicodeString
+  field_name: Manufacturer
+- field_type: UnicodeString
+  field_name: Product
+- field_type: HexInt32
+  field_name: DeviceErr
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: Error
+- field_type: HexInt32
+  field_name: Win32Error

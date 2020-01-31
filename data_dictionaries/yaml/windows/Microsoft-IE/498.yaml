@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '498'
+version: '0'
+event(fields): Mshtml_HoverDeferral_Undeferred(Pointer Doc, Int32 PointerID, Boolean
+  Timer)
+opcode: ''
+keywords: mshtml
+task: Mshtml_HoverDeferral_Undeferred
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Doc
+- field_type: Int32
+  field_name: PointerID
+- field_type: Boolean
+  field_name: Timer

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4488'
+version: '0'
+event(fields): WorkQueue:LongRunningStop(UInt32 WorkQueueID, UInt32 TaskGroupID)
+opcode: Stop
+keywords: ''
+task: WorkQueue:LongRunning
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WorkQueueID
+- field_type: UInt32
+  field_name: TaskGroupID

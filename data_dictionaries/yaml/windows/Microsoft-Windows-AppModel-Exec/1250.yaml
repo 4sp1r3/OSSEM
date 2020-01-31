@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '1250'
+version: '0'
+event(fields): FM_TaskCompletionBatterySaverState(UInt32 p1_UInt32)
+opcode: ''
+keywords: FM ExecProductionCircular ExecDevPlatCircular
+task: FM_TaskCompletionBatterySaverState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p1_UInt32

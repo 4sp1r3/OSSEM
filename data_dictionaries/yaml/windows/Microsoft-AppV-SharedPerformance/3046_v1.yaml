@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3046'
+version: '1'
+event(fields): PublishPackageGroupUnpublishOldVersionStop_V1()
+opcode: Stop
+keywords: ''
+task: PublishPackageGroupUnpublishOldVersion
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

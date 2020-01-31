@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXP
+event_id: '33'
+version: '0'
+event(fields): LayoutInitialized33(UnicodeString DeviceID)
+opcode: ''
+keywords: ''
+task: LayoutInitialized
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceID

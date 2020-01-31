@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Perflib
+event_id: '2001'
+version: '1'
+event(fields): task_02001_V1(UnicodeString Service, UInt32 Win32Error, UInt32 NTSTATUS)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Service
+- field_type: UInt32
+  field_name: Win32Error
+- field_type: UInt32
+  field_name: NTSTATUS

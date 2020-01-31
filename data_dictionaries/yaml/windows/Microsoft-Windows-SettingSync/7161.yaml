@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7161'
+version: '0'
+event(fields): Perf_AppSyncGetRoamedCollectionStart()
+opcode: Start
+keywords: AppSync
+task: Perf_AppSyncGetRoamedCollection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

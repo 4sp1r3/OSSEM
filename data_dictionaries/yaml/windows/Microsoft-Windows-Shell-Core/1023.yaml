@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1023'
+version: '0'
+event(fields): AutoLists_ProcessNextBatchStart()
+opcode: Start
+keywords: Shell
+task: AutoLists_ProcessNextBatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '2101'
+version: '1'
+event(fields): PnporPowerManagementoperationtoaparticulardevice.Stop_V1(GUID LifetimeId,
+  UnicodeString InstanceId, UInt8 MajorCode, UInt8 MinorCode, Pointer Argument1, Pointer
+  Argument2, Pointer Argument3, Pointer Argument4, UInt32 Status)
+opcode: Stop
+keywords: ''
+task: PnporPowerManagementoperationtoaparticulardevice.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId
+- field_type: UnicodeString
+  field_name: InstanceId
+- field_type: UInt8
+  field_name: MajorCode
+- field_type: UInt8
+  field_name: MinorCode
+- field_type: Pointer
+  field_name: Argument1
+- field_type: Pointer
+  field_name: Argument2
+- field_type: Pointer
+  field_name: Argument3
+- field_type: Pointer
+  field_name: Argument4
+- field_type: UInt32
+  field_name: Status

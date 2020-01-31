@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Resource-Exhaustion-Resolver
+event_id: '1014'
+version: '0'
+event(fields): LeakDiagnosisEventsEventsloggedafteranattempttolaunchtheleakdiagnoserismade.(UnicodeString
+  ProcessImageName, UInt32 PID, FILETIME CreationTime, UInt32 DropReasonCode)
+opcode: Eventsloggedafteranattempttolaunchtheleakdiagnoserismade.
+keywords: RDR_RES_KEYWORD_LEAK_DIAGNOSIS
+task: LeakDiagnosisEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessImageName
+- field_type: UInt32
+  field_name: PID
+- field_type: FILETIME
+  field_name: CreationTime
+- field_type: UInt32
+  field_name: DropReasonCode

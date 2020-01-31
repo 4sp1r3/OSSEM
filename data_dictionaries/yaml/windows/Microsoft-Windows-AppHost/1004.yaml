@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1004'
+version: '0'
+event(fields): MswwaProtocol.PackageToFileUriStop()
+opcode: Stop
+keywords: WwaHost
+task: MswwaProtocol.PackageToFileUri
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

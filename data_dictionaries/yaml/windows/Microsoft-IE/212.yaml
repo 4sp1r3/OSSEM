@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '212'
+version: '0'
+event(fields): Mshtml_MsPerformance_Measure(UnicodeString Name, UnicodeString StartMark,
+  UnicodeString EndMark, UInt64 Duration)
+opcode: ''
+keywords: primarynav
+task: Mshtml_MsPerformance_Measure
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: StartMark
+- field_type: UnicodeString
+  field_name: EndMark
+- field_type: UInt64
+  field_name: Duration

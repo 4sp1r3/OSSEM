@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '6350'
+version: '0'
+event(fields): GlobalMemStats(UInt64 CommitTotal, UInt64 CommitLimit, UInt64 CommitPeak,
+  UInt64 PhysicalTotal, UInt64 PhysicalAvailable, UInt64 SystemCache, UInt64 KernelTotal,
+  UInt64 KernelPaged, UInt64 KernelNonpaged, UInt64 PageSize, UInt64 HandleCount,
+  UInt64 ProcessCount, UInt64 ThreadCount)
+opcode: ''
+keywords: ExecMan ExecDevPlatCircular
+task: GlobalMemStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CommitTotal
+- field_type: UInt64
+  field_name: CommitLimit
+- field_type: UInt64
+  field_name: CommitPeak
+- field_type: UInt64
+  field_name: PhysicalTotal
+- field_type: UInt64
+  field_name: PhysicalAvailable
+- field_type: UInt64
+  field_name: SystemCache
+- field_type: UInt64
+  field_name: KernelTotal
+- field_type: UInt64
+  field_name: KernelPaged
+- field_type: UInt64
+  field_name: KernelNonpaged
+- field_type: UInt64
+  field_name: PageSize
+- field_type: UInt64
+  field_name: HandleCount
+- field_type: UInt64
+  field_name: ProcessCount
+- field_type: UInt64
+  field_name: ThreadCount

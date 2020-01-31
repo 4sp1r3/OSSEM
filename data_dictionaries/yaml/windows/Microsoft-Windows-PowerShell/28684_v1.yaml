@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '28684'
+version: '1'
+event(fields): SerializeordeserializeremotingpayloadTobeusedwhenanexceptionisraised28684_V1(UnicodeString
+  TypeOfObjectWithMissingProperty, UnicodeString PropertyName)
+opcode: Tobeusedwhenanexceptionisraised
+keywords: Serializer
+task: Serializeordeserializeremotingpayload
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeOfObjectWithMissingProperty
+- field_type: UnicodeString
+  field_name: PropertyName

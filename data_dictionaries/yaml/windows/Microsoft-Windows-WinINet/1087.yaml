@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1087'
+version: '0'
+event(fields): Wininet_AppCacheHandleStart1087(Pointer Object)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_AppCacheHandle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WPD-CompositeClassDriver
+event_id: '300'
+version: '0'
+event(fields): DriverFailure()
+opcode: ''
+keywords: ''
+task: DriverFailure
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

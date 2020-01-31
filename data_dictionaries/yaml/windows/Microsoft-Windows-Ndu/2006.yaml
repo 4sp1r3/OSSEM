@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Ndu
+event_id: '2006'
+version: '0'
+event(fields): PerInterfaceStats2006(UInt64 _IfLuid, UInt32 _ProfileId, UInt32 _BytesSent,
+  UInt32 _BytesRecvd)
+opcode: ''
+keywords: KeywordNduPerInterfaceStats
+task: PerInterfaceStats
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: _IfLuid
+- field_type: UInt32
+  field_name: _ProfileId
+- field_type: UInt32
+  field_name: _BytesSent
+- field_type: UInt32
+  field_name: _BytesRecvd

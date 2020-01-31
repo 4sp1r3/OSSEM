@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4512'
+version: '0'
+event(fields): SINK_ONNOTIFYStart()
+opcode: Start
+keywords: Performance
+task: SINK_ONNOTIFY
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

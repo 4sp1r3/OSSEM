@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '705'
+version: '0'
+event(fields): CodeInjectionAgentService705(UInt32 Ulong1)
+opcode: AgentService
+keywords: ''
+task: CodeInjection
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Ulong1

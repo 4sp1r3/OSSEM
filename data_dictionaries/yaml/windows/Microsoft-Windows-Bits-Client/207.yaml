@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '207'
+version: '0'
+event(fields): task_0207(UnicodeString jobName, UnicodeString url)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: jobName
+- field_type: UnicodeString
+  field_name: url

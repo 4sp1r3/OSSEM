@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4609'
+version: '0'
+event(fields): EnsureTrustStart()
+opcode: Start
+keywords: ''
+task: EnsureTrust
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

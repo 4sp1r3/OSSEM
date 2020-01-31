@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Network-Setup
+event_id: '301'
+version: '0'
+event(fields): ExternalAPIStop(GUID TransactionGuid, UInt32 Api, Int32 Code)
+opcode: Stop
+keywords: ''
+task: ExternalAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionGuid
+- field_type: UInt32
+  field_name: Api
+- field_type: Int32
+  field_name: Code

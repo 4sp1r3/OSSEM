@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '599'
+version: '0'
+event(fields): Browseui_HungTabHeartBeat_Timer_Invisible(Int32 TabID, Boolean IsActive)
+opcode: ''
+keywords: ''
+task: Browseui_HungTabHeartBeat_Timer_Invisible
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: TabID
+- field_type: Boolean
+  field_name: IsActive

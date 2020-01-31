@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1384'
+version: '0'
+event(fields): IpRouteBlocked(UInt32 CompartmentId, UInt32 DestinationAddressLength,
+  Binary DestinationAddress, UInt32 DestinationPrefixLength, UInt32 DestinationPrefixAddressLength,
+  Binary DestinationPrefix, UInt32 NextHopAddressLength, Binary NextHopAddress, UInt32
+  InterfaceIndex, UInt32 RouteMetric, UInt32 ConstrainInterfaceIndex, UInt32 ConstrainScope,
+  UInt32 BlockReason)
+opcode: ''
+keywords: ut:TcpipRoute
+task: IpRouteBlocked
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: DestinationAddressLength
+- field_type: Binary
+  field_name: DestinationAddress
+- field_type: UInt32
+  field_name: DestinationPrefixLength
+- field_type: UInt32
+  field_name: DestinationPrefixAddressLength
+- field_type: Binary
+  field_name: DestinationPrefix
+- field_type: UInt32
+  field_name: NextHopAddressLength
+- field_type: Binary
+  field_name: NextHopAddress
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UInt32
+  field_name: RouteMetric
+- field_type: UInt32
+  field_name: ConstrainInterfaceIndex
+- field_type: UInt32
+  field_name: ConstrainScope
+- field_type: UInt32
+  field_name: BlockReason

@@ -1,0 +1,14 @@
+provider: Microsoft-JScript
+event_id: '128'
+version: '0'
+event(fields): Jscript_Recycler_AllocationFree_WinRT_PropertyValue_Object(Pointer
+  MemoryAddress)
+opcode: Free_WinRT_PropertyValue_Object
+keywords: JScriptObjectAllocation
+task: Jscript_Recycler_Allocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MemoryAddress

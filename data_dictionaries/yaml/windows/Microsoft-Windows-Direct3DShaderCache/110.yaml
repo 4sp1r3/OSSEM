@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '110'
+version: '0'
+event(fields): InitIndexFile(UnicodeString Filename, UInt32 FileCreateDisposition)
+opcode: ''
+keywords: Events
+task: InitIndexFile
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Filename
+- field_type: UInt32
+  field_name: FileCreateDisposition

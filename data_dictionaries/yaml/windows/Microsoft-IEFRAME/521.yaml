@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '521'
+version: '0'
+event(fields): NewTabPageData_BuildStart()
+opcode: Start
+keywords: primarynav
+task: NewTabPageData_Build
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

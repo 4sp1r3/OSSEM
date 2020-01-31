@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '290'
+version: '0'
+event(fields): DISPLAYSURFACE_REJECTCANDIDATE(UInt64 surfaceLuid, UInt32 RejectReason)
+opcode: ''
+keywords: DwmCore
+task: DISPLAYSURFACE_REJECTCANDIDATE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: surfaceLuid
+- field_type: UInt32
+  field_name: RejectReason

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '410'
+version: '0'
+event(fields): FaultInBehaviorStop()
+opcode: Stop
+keywords: Parser
+task: FaultInBehavior
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

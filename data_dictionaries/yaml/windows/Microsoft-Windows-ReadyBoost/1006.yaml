@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ReadyBoost
+event_id: '1006'
+version: '0'
+event(fields): ReadyBoost1006(UnicodeString DeviceName, UInt32 ErrorCode)
+opcode: ''
+keywords: ReadyBoost
+task: ReadyBoost
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: UInt32
+  field_name: ErrorCode

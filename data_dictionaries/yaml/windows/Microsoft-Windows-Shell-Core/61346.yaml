@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61346'
+version: '0'
+event(fields): OperationManager_EnthusiastMode_TileRateChartRescale(UInt32 TileID)
+opcode: ''
+keywords: Shell
+task: OperationManager_EnthusiastMode_TileRateChartRescale
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TileID

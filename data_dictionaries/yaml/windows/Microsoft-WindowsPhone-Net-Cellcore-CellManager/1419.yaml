@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1419'
+version: '0'
+event(fields): SettingMigrate1419(UnicodeString wszString1)
+opcode: ''
+keywords: Trace
+task: SettingMigrate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: wszString1

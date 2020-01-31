@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '1040'
+version: '0'
+event(fields): task_01040(UnicodeString AppID, UInt32 ProcessID, UInt32 OnDemandType,
+  UnicodeString OnDemandInfo, UnicodeString ProviderID, UInt32 Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: UInt32
+  field_name: OnDemandType
+- field_type: UnicodeString
+  field_name: OnDemandInfo
+- field_type: UnicodeString
+  field_name: ProviderID
+- field_type: UInt32
+  field_name: Error

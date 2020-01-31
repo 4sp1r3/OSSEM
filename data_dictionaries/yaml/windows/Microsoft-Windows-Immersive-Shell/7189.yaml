@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7189'
+version: '0'
+event(fields): ConnectedSearch_AppBarClickBGStop()
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_AppBarClickBG
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

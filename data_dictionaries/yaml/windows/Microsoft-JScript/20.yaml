@@ -1,0 +1,16 @@
+provider: Microsoft-JScript
+event_id: '20'
+version: '0'
+event(fields): Jscript_Projection_RawMethodCallStop(UnicodeString TypeName, UnicodeString
+  MethodName)
+opcode: Stop
+keywords: JScriptProjection
+task: Jscript_Projection_RawMethodCall
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeName
+- field_type: UnicodeString
+  field_name: MethodName

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '509'
+version: '0'
+event(fields): UIThreadCallbackStart()
+opcode: Start
+keywords: Core
+task: UIThreadCallback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

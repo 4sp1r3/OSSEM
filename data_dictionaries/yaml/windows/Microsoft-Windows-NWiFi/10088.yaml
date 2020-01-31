@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10088'
+version: '0'
+event(fields): task_010088(AnsiString CommitFrameError, UInt32 CommitFrameSize, UInt32
+  MinCommitFrameSize, UInt32 AlgorithmNumber, UInt32 ExpectedAlgorithmNumber, UInt32
+  TransactionId, UInt32 ExpectedTransactionId)
+opcode: ''
+keywords: AssocMgr ut:L2ConnectPath
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: CommitFrameError
+- field_type: UInt32
+  field_name: CommitFrameSize
+- field_type: UInt32
+  field_name: MinCommitFrameSize
+- field_type: UInt32
+  field_name: AlgorithmNumber
+- field_type: UInt32
+  field_name: ExpectedAlgorithmNumber
+- field_type: UInt32
+  field_name: TransactionId
+- field_type: UInt32
+  field_name: ExpectedTransactionId

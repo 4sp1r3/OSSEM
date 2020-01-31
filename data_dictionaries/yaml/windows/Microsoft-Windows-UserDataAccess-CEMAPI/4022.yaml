@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4022'
+version: '0'
+event(fields): FOLDER_GETCONTENTSTABLEStop()
+opcode: Stop
+keywords: Performance
+task: FOLDER_GETCONTENTSTABLE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8054'
+version: '0'
+event(fields): PrerequisitesCheckStop8054()
+opcode: Stop
+keywords: Internal
+task: PrerequisitesCheck
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '87'
+version: '0'
+event(fields): Requesthandling87(UInt32 errorCode)
+opcode: ''
+keywords: Keyword.Server
+task: Requesthandling
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: errorCode

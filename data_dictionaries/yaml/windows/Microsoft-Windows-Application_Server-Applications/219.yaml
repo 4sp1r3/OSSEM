@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '219'
+version: '0'
+event(fields): DispatchMessage(UnicodeString ExceptionToString, UnicodeString ExceptionTypeName,
+  UnicodeString HostReference, UnicodeString AppDomain)
+opcode: ''
+keywords: ServiceModel EndToEndMonitoring HealthMonitoring Troubleshooting
+task: DispatchMessage
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExceptionToString
+- field_type: UnicodeString
+  field_name: ExceptionTypeName
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

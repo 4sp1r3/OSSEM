@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '12'
+version: '0'
+event(fields): RetrieveIssuerCertificatefromCacheStart(UnicodeString EventWriteData)
+opcode: Start
+keywords: PathDiscovery Cache
+task: RetrieveIssuerCertificatefromCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventWriteData

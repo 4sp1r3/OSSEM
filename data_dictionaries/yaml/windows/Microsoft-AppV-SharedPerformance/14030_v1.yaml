@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14030'
+version: '1'
+event(fields): PublishPackageFinalize_1015Stop_V1()
+opcode: Stop
+keywords: ''
+task: PublishPackageFinalize_1015
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,21 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3024'
+version: '0'
+event(fields): TileImageDownloadStop(UInt32 NotificationId, UInt32 Flag, UInt32 Count,
+  UInt8 URLComplete)
+opcode: Stop
+keywords: wpnui wpnperf_FirstCloudNotificationWithCloudImage wpnperf_NewCloudNotificationArrivalWithCloudImage
+  wpnperf_MoGoPanningWithCloudImage wpndev_NotificationE2E
+task: TileImageDownload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NotificationId
+- field_type: UInt32
+  field_name: Flag
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt8
+  field_name: URLComplete

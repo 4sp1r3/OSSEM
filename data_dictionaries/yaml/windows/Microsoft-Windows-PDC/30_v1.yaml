@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-PDC
+event_id: '30'
+version: '1'
+event(fields): CsMonitorContext_V1(UInt32 ConnectedSessionCount, UInt32 ConsoleSessionId,
+  UInt32 SessionId, UInt32 OnRequestCurrent, UInt32 OnRequestProcessed, UInt32 OffRequestCurrent,
+  UInt32 OffRequestProcessed, Boolean BlockingActive, UInt32 BlockingScenarioCount,
+  UInt32 BlockingEscapeCount, UInt32 BlockingPowerPressCount)
+opcode: ''
+keywords: Cs
+task: CsMonitorContext
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ConnectedSessionCount
+- field_type: UInt32
+  field_name: ConsoleSessionId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: OnRequestCurrent
+- field_type: UInt32
+  field_name: OnRequestProcessed
+- field_type: UInt32
+  field_name: OffRequestCurrent
+- field_type: UInt32
+  field_name: OffRequestProcessed
+- field_type: Boolean
+  field_name: BlockingActive
+- field_type: UInt32
+  field_name: BlockingScenarioCount
+- field_type: UInt32
+  field_name: BlockingEscapeCount
+- field_type: UInt32
+  field_name: BlockingPowerPressCount

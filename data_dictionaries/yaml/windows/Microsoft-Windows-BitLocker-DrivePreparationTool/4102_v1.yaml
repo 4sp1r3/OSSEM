@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-BitLocker-DrivePreparationTool
+event_id: '4102'
+version: '1'
+event(fields): task_0Initialization4102_V1(UnicodeString VolumeName, UnicodeString
+  DriveLetter, UInt32 DiskNumber, UInt32 PartitionNumber)
+opcode: Initialization
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UnicodeString
+  field_name: DriveLetter
+- field_type: UInt32
+  field_name: DiskNumber
+- field_type: UInt32
+  field_name: PartitionNumber

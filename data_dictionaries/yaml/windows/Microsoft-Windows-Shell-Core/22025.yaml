@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22025'
+version: '0'
+event(fields): Taskbar_SetProgressStart(UInt32 HWND)
+opcode: Start
+keywords: Shell
+task: Taskbar_SetProgress
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HWND

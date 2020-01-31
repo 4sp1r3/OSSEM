@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '20'
+version: '0'
+event(fields): ProcessorFirmwareRundown(UInt32 FeaturesPresent, UInt32 FeaturesAccessed,
+  UInt32 FeaturesValidated, UInt16 Group, UInt8 Number)
+opcode: ''
+keywords: Diag PowerDiagnostics
+task: ProcessorFirmwareRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FeaturesPresent
+- field_type: UInt32
+  field_name: FeaturesAccessed
+- field_type: UInt32
+  field_name: FeaturesValidated
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number

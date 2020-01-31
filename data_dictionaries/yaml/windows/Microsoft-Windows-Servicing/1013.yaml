@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Servicing
+event_id: '1013'
+version: '0'
+event(fields): task_01013(UInt32 detectionType, UInt32 triggerType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: detectionType
+- field_type: UInt32
+  field_name: triggerType

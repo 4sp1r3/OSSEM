@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WSC-SRV
+event_id: '116'
+version: '0'
+event(fields): GenericMarkerStart116()
+opcode: Start
+keywords: Service
+task: GenericMarker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

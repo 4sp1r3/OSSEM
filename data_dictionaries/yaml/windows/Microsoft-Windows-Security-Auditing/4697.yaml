@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4697'
+version: '0'
+event(fields): task_04697(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString ServiceName, UnicodeString
+  ServiceFileName, HexInt32 ServiceType, UInt32 ServiceStartType, UnicodeString ServiceAccount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: UnicodeString
+  field_name: ServiceFileName
+- field_type: HexInt32
+  field_name: ServiceType
+- field_type: UInt32
+  field_name: ServiceStartType
+- field_type: UnicodeString
+  field_name: ServiceAccount

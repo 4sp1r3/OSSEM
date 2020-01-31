@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2102'
+version: '0'
+event(fields): Picker_PickerReady()
+opcode: ''
+keywords: ''
+task: Picker_PickerReady
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

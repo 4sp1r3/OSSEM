@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '13'
+version: '0'
+event(fields): JobStart(GUID ContainerID, UInt32 JobID, UInt32 StatusCode)
+opcode: Start
+keywords: WINEVENT_KEYWORD_JOB
+task: JobStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ContainerID
+- field_type: UInt32
+  field_name: JobID
+- field_type: UInt32
+  field_name: StatusCode

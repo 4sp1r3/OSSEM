@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '45'
+version: '0'
+event(fields): DXVA_ExecuteStop()
+opcode: Stop
+keywords: ''
+task: DXVA_Execute
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PersistentMemory-PmemDisk
+event_id: '213'
+version: '0'
+event(fields): task_0213(GUID PersistentMemoryDiskGuid, AnsiString VendorId, AnsiString
+  ProductId, AnsiString SerialNumber)
+opcode: ''
+keywords: ''
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PersistentMemoryDiskGuid
+- field_type: AnsiString
+  field_name: VendorId
+- field_type: AnsiString
+  field_name: ProductId
+- field_type: AnsiString
+  field_name: SerialNumber

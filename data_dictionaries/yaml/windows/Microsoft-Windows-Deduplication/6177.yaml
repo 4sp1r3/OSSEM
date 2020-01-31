@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '6177'
+version: '0'
+event(fields): DataDeduplicationOptimizationTask(GUID JobInstanceId, UnicodeString
+  VolumeGuidPath, UnicodeString VolumeDisplayName)
+opcode: ''
+keywords: ''
+task: DataDeduplicationOptimizationTask
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: JobInstanceId
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UnicodeString
+  field_name: VolumeDisplayName

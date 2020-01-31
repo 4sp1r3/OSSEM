@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ModernDeployment-Diagnostics-Provider
+event_id: '176'
+version: '0'
+event(fields): task_0176(UInt32 ServerState, UInt32 ClientState)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ServerState
+- field_type: UInt32
+  field_name: ClientState

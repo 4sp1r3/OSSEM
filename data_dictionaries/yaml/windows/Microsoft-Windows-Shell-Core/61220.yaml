@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61220'
+version: '0'
+event(fields): Shell32_SyncIntegration_Manager_GetStatus(GUID CLSID, UInt32 State)
+opcode: ''
+keywords: Shell
+task: Shell32_SyncIntegration_Manager_GetStatus
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CLSID
+- field_type: UInt32
+  field_name: State

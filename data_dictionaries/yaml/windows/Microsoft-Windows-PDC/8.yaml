@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDC
+event_id: '8'
+version: '0'
+event(fields): ActivatorAcknowledgement(UInt32 Status, UInt32 State)
+opcode: ''
+keywords: activators
+task: ActivatorAcknowledgement
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: State

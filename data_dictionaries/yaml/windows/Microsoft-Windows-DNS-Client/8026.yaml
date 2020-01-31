@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '8026'
+version: '0'
+event(fields): DnsRegistration8026(UnicodeString AdapterName, UnicodeString HostName,
+  UnicodeString AdapterSuffixName, UnicodeString DnsServerList, UnicodeString SentUpdateServer,
+  UnicodeString Ipaddress, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: DnsRegistration
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AdapterName
+- field_type: UnicodeString
+  field_name: HostName
+- field_type: UnicodeString
+  field_name: AdapterSuffixName
+- field_type: UnicodeString
+  field_name: DnsServerList
+- field_type: UnicodeString
+  field_name: SentUpdateServer
+- field_type: UnicodeString
+  field_name: Ipaddress
+- field_type: UInt32
+  field_name: ErrorCode

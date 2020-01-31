@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '53'
+version: '0'
+event(fields): GeneraloperationPrintBRMoperationfailure53(UnicodeString FunctionName,
+  UnicodeString ComputerName, HexInt32 ErrorCode)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_BRM_KEYWORD
+task: Generaloperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FunctionName
+- field_type: UnicodeString
+  field_name: ComputerName
+- field_type: HexInt32
+  field_name: ErrorCode

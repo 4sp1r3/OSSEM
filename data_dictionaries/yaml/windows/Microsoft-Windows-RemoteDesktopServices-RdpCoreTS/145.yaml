@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '145'
+version: '0'
+event(fields): RemoteFXmodule_4Runtime(UInt32 IdleSeconds, UInt32 IdleSeconds1, UInt32
+  IdleSeconds2)
+opcode: Runtime
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IdleSeconds
+- field_type: UInt32
+  field_name: IdleSeconds1
+- field_type: UInt32
+  field_name: IdleSeconds2

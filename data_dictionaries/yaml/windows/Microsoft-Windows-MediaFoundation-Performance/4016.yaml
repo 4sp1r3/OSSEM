@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4016'
+version: '0'
+event(fields): BufferOutput(AnsiString tag, Pointer object, UInt8 objectCategory,
+  Pointer stream, Int64 timestamp, Pointer clock, Pointer sample, UInt32 bufferSize,
+  UInt32 sampleSize, Int64 duration)
+opcode: Output
+keywords: ''
+task: Buffer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: UInt8
+  field_name: objectCategory
+- field_type: Pointer
+  field_name: stream
+- field_type: Int64
+  field_name: timestamp
+- field_type: Pointer
+  field_name: clock
+- field_type: Pointer
+  field_name: sample
+- field_type: UInt32
+  field_name: bufferSize
+- field_type: UInt32
+  field_name: sampleSize
+- field_type: Int64
+  field_name: duration

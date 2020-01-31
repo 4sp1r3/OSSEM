@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2106'
+version: '0'
+event(fields): Picker_View_ItemToggled()
+opcode: ''
+keywords: ''
+task: Picker_View_ItemToggled
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

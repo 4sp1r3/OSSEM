@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4662'
+version: '0'
+event(fields): task_04662(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString ObjectServer, UnicodeString
+  ObjectType, UnicodeString ObjectName, UnicodeString OperationType, Pointer HandleId,
+  UnicodeString AccessList, HexInt32 AccessMask, UnicodeString Properties, UnicodeString
+  AdditionalInfo, UnicodeString AdditionalInfo2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: ObjectServer
+- field_type: UnicodeString
+  field_name: ObjectType
+- field_type: UnicodeString
+  field_name: ObjectName
+- field_type: UnicodeString
+  field_name: OperationType
+- field_type: Pointer
+  field_name: HandleId
+- field_type: UnicodeString
+  field_name: AccessList
+- field_type: HexInt32
+  field_name: AccessMask
+- field_type: UnicodeString
+  field_name: Properties
+- field_type: UnicodeString
+  field_name: AdditionalInfo
+- field_type: UnicodeString
+  field_name: AdditionalInfo2

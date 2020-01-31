@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1016'
+version: '0'
+event(fields): SensPerf_Task_SetStateStart(UnicodeString SensorObjectId, UInt32 SensorState)
+opcode: Start
+keywords: SensPerf
+task: SensPerf_Task_SetState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SensorObjectId
+- field_type: UInt32
+  field_name: SensorState

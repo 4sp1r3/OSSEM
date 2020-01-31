@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-AccountAccessor
+event_id: '103'
+version: '0'
+event(fields): SPERF_TAG_AA_SAVEStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_AA_SAVE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

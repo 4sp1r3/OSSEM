@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9002'
+version: '0'
+event(fields): task_09002(UnicodeString Message)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-SPP
+event_id: '5'
+version: '0'
+event(fields): SLSvcInit_TokenStoreStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: SLSvcInit_TokenStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

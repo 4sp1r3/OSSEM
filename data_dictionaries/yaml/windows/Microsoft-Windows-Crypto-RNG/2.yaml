@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Crypto-RNG
+event_id: '2'
+version: '0'
+event(fields): GatherentropyforthesystemrandomnumbergeneratorStop(UInt64 SourceNumber,
+  UnicodeString SourceName)
+opcode: Stop
+keywords: KEYWORD_SYSTEMRNG_ENTROPY_REGISTRATION
+task: Gatherentropyforthesystemrandomnumbergenerator
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SourceNumber
+- field_type: UnicodeString
+  field_name: SourceName

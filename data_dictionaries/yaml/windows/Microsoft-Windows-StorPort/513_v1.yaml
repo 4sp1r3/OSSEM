@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-StorPort
+event_id: '513'
+version: '1'
+event(fields): Port513_V1(UnicodeString AdapterName, Int32 PortNumber, UInt32 AllocationPolicy,
+  UInt32 DeviceMinSizeInBytes, UInt32 DevicePreferredSizeInBytes, UInt32 PolicyMaxInBytes,
+  UInt32 TargetAllocationSizeInBytes, UInt32 ActualAllocationSizeInBytes, UInt32 RangesAllocated,
+  UInt32 Success, UInt32 FailReason)
+opcode: ''
+keywords: keyword_200000000000
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AdapterName
+- field_type: Int32
+  field_name: PortNumber
+- field_type: UInt32
+  field_name: AllocationPolicy
+- field_type: UInt32
+  field_name: DeviceMinSizeInBytes
+- field_type: UInt32
+  field_name: DevicePreferredSizeInBytes
+- field_type: UInt32
+  field_name: PolicyMaxInBytes
+- field_type: UInt32
+  field_name: TargetAllocationSizeInBytes
+- field_type: UInt32
+  field_name: ActualAllocationSizeInBytes
+- field_type: UInt32
+  field_name: RangesAllocated
+- field_type: UInt32
+  field_name: Success
+- field_type: UInt32
+  field_name: FailReason

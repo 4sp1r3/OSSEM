@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4087'
+version: '0'
+event(fields): NetworkSessionOpenStart(AnsiString tag, Pointer object, HexInt32 hr)
+opcode: Start
+keywords: ''
+task: NetworkSessionOpen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: HexInt32
+  field_name: hr

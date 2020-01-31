@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4657'
+version: '0'
+event(fields): task_04657(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString ObjectName, UnicodeString
+  ObjectValueName, Pointer HandleId, UnicodeString OperationType, UnicodeString OldValueType,
+  UnicodeString OldValue, UnicodeString NewValueType, UnicodeString NewValue, Pointer
+  ProcessId, UnicodeString ProcessName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: ObjectName
+- field_type: UnicodeString
+  field_name: ObjectValueName
+- field_type: Pointer
+  field_name: HandleId
+- field_type: UnicodeString
+  field_name: OperationType
+- field_type: UnicodeString
+  field_name: OldValueType
+- field_type: UnicodeString
+  field_name: OldValue
+- field_type: UnicodeString
+  field_name: NewValueType
+- field_type: UnicodeString
+  field_name: NewValue
+- field_type: Pointer
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ProcessName

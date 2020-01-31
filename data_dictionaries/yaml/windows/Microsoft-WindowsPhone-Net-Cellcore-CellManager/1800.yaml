@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1800'
+version: '0'
+event(fields): ApnSettingsStore(AnsiString AnsiStringName, Int32 HResultName, UInt32
+  IccIdLength, UInt8 IccId)
+opcode: ''
+keywords: Trace
+task: ApnSettingsStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: AnsiStringName
+- field_type: Int32
+  field_name: HResultName
+- field_type: UInt32
+  field_name: IccIdLength
+- field_type: UInt8
+  field_name: IccId

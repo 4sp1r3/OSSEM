@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppID
+event_id: '4008'
+version: '0'
+event(fields): task_04008(UInt16 CallingFunctionNameLength, UnicodeString CallingFunctionName,
+  UInt16 FunctionCallNameLength, UnicodeString FunctionCallName, HexInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: CallingFunctionNameLength
+- field_type: UnicodeString
+  field_name: CallingFunctionName
+- field_type: UInt16
+  field_name: FunctionCallNameLength
+- field_type: UnicodeString
+  field_name: FunctionCallName
+- field_type: HexInt32
+  field_name: Status

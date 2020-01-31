@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Direct3D10_1
+event_id: '18'
+version: '0'
+event(fields): Texture2D(UInt32 Resources, Pointer pIDXGISurfaces, UInt32 hNewKMResources)
+opcode: ''
+keywords: Resources
+task: Texture2D
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Resources
+- field_type: Pointer
+  field_name: pIDXGISurfaces
+- field_type: UInt32
+  field_name: hNewKMResources

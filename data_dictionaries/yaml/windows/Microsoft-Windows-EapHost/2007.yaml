@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EapHost
+event_id: '2007'
+version: '0'
+event(fields): Peer2007()
+opcode: ''
+keywords: ''
+task: Peer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

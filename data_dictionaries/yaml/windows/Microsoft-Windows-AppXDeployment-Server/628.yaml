@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '628'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Dependency628(UnicodeString PackageName,
+  UnicodeString DependencyName, UnicodeString DependencyPublisher, UInt32 DependencyArchitecture,
+  UnicodeString DependencyMinVersion, UnicodeString FrameworkList)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Dependency
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UnicodeString
+  field_name: DependencyName
+- field_type: UnicodeString
+  field_name: DependencyPublisher
+- field_type: UInt32
+  field_name: DependencyArchitecture
+- field_type: UnicodeString
+  field_name: DependencyMinVersion
+- field_type: UnicodeString
+  field_name: FrameworkList

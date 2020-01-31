@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '644'
+version: '0'
+event(fields): History_Journal_Write_Command(Int32 CommandType, Int32 EventType)
+opcode: ''
+keywords: HistoryJournal
+task: History_Journal_Write_Command
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: CommandType
+- field_type: Int32
+  field_name: EventType

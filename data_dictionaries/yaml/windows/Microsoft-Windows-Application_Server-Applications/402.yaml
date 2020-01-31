@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '402'
+version: '0'
+event(fields): SignpostStart(UnicodeString ExtendedData, UnicodeString AppDomain)
+opcode: Start
+keywords: ServiceModel Troubleshooting
+task: Signpost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtendedData
+- field_type: UnicodeString
+  field_name: AppDomain

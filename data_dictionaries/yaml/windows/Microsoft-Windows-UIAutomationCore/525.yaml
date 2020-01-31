@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '525'
+version: '0'
+event(fields): ProcessIncomingRequest_ContextChangeStart(UInt32 InstanceId)
+opcode: Start
+keywords: PerfInstrumentation
+task: ProcessIncomingRequest_ContextChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InstanceId

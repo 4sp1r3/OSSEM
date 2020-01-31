@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMPDMCUI
+event_id: '2002'
+version: '0'
+event(fields): STOP_BUTTONStart()
+opcode: Start
+keywords: ''
+task: STOP_BUTTON
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '121'
+version: '0'
+event(fields): AppModel.Task.State.LoadAppHiveStop()
+opcode: Stop
+keywords: Structured
+task: AppModel.Task.State.LoadAppHive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

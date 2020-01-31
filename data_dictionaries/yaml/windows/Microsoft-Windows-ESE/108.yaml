@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-ESE
+event_id: '108'
+version: '0'
+event(fields): ESE_CacheRequestPage_Trace(UInt32 tick, UInt32 ifmp, UInt32 pgno, UInt32
+  bflf, UInt32 objid, UInt32 PageFlags, UInt32 bflt, UInt32 pctPriority, UInt32 bfrtf,
+  UInt8 ClientType)
+opcode: ''
+keywords: BF BFRESMGR
+task: ESE_CacheRequestPage_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: tick
+- field_type: UInt32
+  field_name: ifmp
+- field_type: UInt32
+  field_name: pgno
+- field_type: UInt32
+  field_name: bflf
+- field_type: UInt32
+  field_name: objid
+- field_type: UInt32
+  field_name: PageFlags
+- field_type: UInt32
+  field_name: bflt
+- field_type: UInt32
+  field_name: pctPriority
+- field_type: UInt32
+  field_name: bfrtf
+- field_type: UInt8
+  field_name: ClientType

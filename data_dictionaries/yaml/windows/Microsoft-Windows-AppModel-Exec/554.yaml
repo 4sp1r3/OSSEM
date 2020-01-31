@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '554'
+version: '0'
+event(fields): BM_DPLKeyStateChanged(Boolean OldState, Boolean NewState)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BM_DPLKeyStateChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: OldState
+- field_type: Boolean
+  field_name: NewState

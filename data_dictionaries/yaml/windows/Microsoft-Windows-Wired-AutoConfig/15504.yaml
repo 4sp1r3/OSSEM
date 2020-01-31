@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Wired-AutoConfig
+event_id: '15504'
+version: '0'
+event(fields): task_015504(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  Pointer ConnectionID, UnicodeString RestartReason)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: Pointer
+  field_name: ConnectionID
+- field_type: UnicodeString
+  field_name: RestartReason

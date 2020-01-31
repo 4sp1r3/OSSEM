@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '144'
+version: '0'
+event(fields): ThermalEvent(UInt16 InitiatorLength, UnicodeString Initiator, UInt32
+  Type, UInt32 Temperature, UInt32 TripPointTemperature)
+opcode: ''
+keywords: po:Thermal
+task: ThermalEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: InitiatorLength
+- field_type: UnicodeString
+  field_name: Initiator
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Temperature
+- field_type: UInt32
+  field_name: TripPointTemperature

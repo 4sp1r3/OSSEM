@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PrintService
+event_id: '808'
+version: '0'
+event(fields): InitializingSpoolerOperationFailed808(UnicodeString PluginDllName,
+  HexInt32 ErrorCode, Int16 Context)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD
+task: Initializing
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PluginDllName
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: Int16
+  field_name: Context

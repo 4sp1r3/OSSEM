@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1205'
+version: '0'
+event(fields): TcpipReceiveSlowPath(Pointer Nbl, UInt32 IPTransportProtocol, UInt32
+  AddressFamily, UInt32 SourceIPv4Address, UInt32 DestIPv4Address, UInt32 IPv6SourceIpAddrLength,
+  Binary IPv6SourceAddress, UInt32 IPv6DestIpAddrLength, Binary IPv6DestAddress, UInt32
+  Reason, UInt32 NblCount, UInt32 IPProtocol)
+opcode: ''
+keywords: ut:ReceivePath
+task: TcpipReceiveSlowPath
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Nbl
+- field_type: UInt32
+  field_name: IPTransportProtocol
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: SourceIPv4Address
+- field_type: UInt32
+  field_name: DestIPv4Address
+- field_type: UInt32
+  field_name: IPv6SourceIpAddrLength
+- field_type: Binary
+  field_name: IPv6SourceAddress
+- field_type: UInt32
+  field_name: IPv6DestIpAddrLength
+- field_type: Binary
+  field_name: IPv6DestAddress
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: NblCount
+- field_type: UInt32
+  field_name: IPProtocol

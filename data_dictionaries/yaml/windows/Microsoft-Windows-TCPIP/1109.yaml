@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1109'
+version: '0'
+event(fields): TcpMemoryFailures(UnicodeString AllocationObjectString)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Global
+task: TcpMemoryFailures
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AllocationObjectString

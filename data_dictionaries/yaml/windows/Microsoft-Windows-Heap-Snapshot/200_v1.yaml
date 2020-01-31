@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Heap-Snapshot
+event_id: '200'
+version: '1'
+event(fields): task_0200_V1(UInt32 HeapSnapshotInstance, UInt32 TotalData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapSnapshotInstance
+- field_type: UInt32
+  field_name: TotalData

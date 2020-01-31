@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-User Profiles Service
+event_id: '51'
+version: '0'
+event(fields): task_051(UnicodeString UserSid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserSid

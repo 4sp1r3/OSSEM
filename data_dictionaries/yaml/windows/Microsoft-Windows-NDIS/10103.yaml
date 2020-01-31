@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10103'
+version: '0'
+event(fields): WorkItem10103(GUID IfGuid, UInt8 State, UInt32 Location)
+opcode: ''
+keywords: WorkItem
+task: WorkItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt8
+  field_name: State
+- field_type: UInt32
+  field_name: Location

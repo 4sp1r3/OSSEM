@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1099'
+version: '0'
+event(fields): DdiQueryConnectionChangeStop(Pointer MiniportDeviceContext, UInt64
+  ConnectionChangeId, UInt32 TargetId, UInt32 ConnectionStatus, UInt32 TargetType,
+  UInt32 NewTargetId, UInt32 Status)
+opcode: Stop
+keywords: Base
+task: DdiQueryConnectionChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportDeviceContext
+- field_type: UInt64
+  field_name: ConnectionChangeId
+- field_type: UInt32
+  field_name: TargetId
+- field_type: UInt32
+  field_name: ConnectionStatus
+- field_type: UInt32
+  field_name: TargetType
+- field_type: UInt32
+  field_name: NewTargetId
+- field_type: UInt32
+  field_name: Status

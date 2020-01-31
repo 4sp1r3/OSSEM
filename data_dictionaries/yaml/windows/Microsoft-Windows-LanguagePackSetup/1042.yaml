@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1042'
+version: '0'
+event(fields): RemovinglanguagepackValidatethatlanguagepackcanberemoved1042(UnicodeString
+  Language)
+opcode: Validatethatlanguagepackcanberemoved
+keywords: ''
+task: Removinglanguagepack
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language

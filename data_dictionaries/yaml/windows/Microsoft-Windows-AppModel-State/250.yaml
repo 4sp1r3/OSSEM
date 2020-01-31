@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '250'
+version: '0'
+event(fields): AppModel.Task.StateWinRT.ApplicationDataContainerServer_GetContainersStart()
+opcode: Start
+keywords: WinRT
+task: AppModel.Task.StateWinRT.ApplicationDataContainerServer_GetContainers
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3320'
+version: '0'
+event(fields): ConnectionAcceptStop(Int32 ListenerHashCode, Int32 SocketHashCode,
+  UnicodeString AppDomain)
+opcode: Stop
+keywords: TCP
+task: ConnectionAccept
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ListenerHashCode
+- field_type: Int32
+  field_name: SocketHashCode
+- field_type: UnicodeString
+  field_name: AppDomain

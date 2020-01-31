@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WebIO
+event_id: '59994'
+version: '0'
+event(fields): ThreadTokenGet(UInt64 Token, SID SID, UInt32 Error)
+opcode: Get
+keywords: ''
+task: ThreadToken
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Token
+- field_type: SID
+  field_name: SID
+- field_type: UInt32
+  field_name: Error

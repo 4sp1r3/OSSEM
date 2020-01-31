@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '153'
+version: '0'
+event(fields): Find_FindHitsStart()
+opcode: Start
+keywords: primarynav
+task: Find_FindHits
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

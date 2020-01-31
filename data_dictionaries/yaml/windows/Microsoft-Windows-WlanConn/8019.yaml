@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WlanConn
+event_id: '8019'
+version: '0'
+event(fields): WisprSignupStop()
+opcode: Stop
+keywords: WlanCfe_Performance
+task: WisprSignup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

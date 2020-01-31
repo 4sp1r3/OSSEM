@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '2003'
+version: '1'
+event(fields): UserLogon2003_V1(UnicodeString LastFolder, UnicodeString ReqFolder)
+opcode: ''
+keywords: Startup Logon Catalog
+task: UserLogon
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LastFolder
+- field_type: UnicodeString
+  field_name: ReqFolder

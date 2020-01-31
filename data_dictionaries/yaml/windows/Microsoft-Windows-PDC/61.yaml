@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PDC
+event_id: '61'
+version: '0'
+event(fields): CsSuspendResumeEvent(UInt32 Session, UInt32 Suspend, UInt32 AppsSvcs,
+  UInt32 User)
+opcode: ''
+keywords: suspendresume
+task: CsSuspendResumeEvent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Session
+- field_type: UInt32
+  field_name: Suspend
+- field_type: UInt32
+  field_name: AppsSvcs
+- field_type: UInt32
+  field_name: User

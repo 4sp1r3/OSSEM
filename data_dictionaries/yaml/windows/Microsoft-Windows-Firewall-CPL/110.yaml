@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Firewall-CPL
+event_id: '110'
+version: '0'
+event(fields): AddAppExceptionStop()
+opcode: Stop
+keywords: FirewallCpl
+task: AddAppException
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

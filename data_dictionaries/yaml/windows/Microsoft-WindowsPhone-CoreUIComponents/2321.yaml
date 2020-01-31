@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2321'
+version: '0'
+event(fields): ExecutionManagerClientReportTaskRunningStop()
+opcode: Stop
+keywords: NavigationPerformance ExecutionManagerClient
+task: ExecutionManagerClientReportTaskRunning
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

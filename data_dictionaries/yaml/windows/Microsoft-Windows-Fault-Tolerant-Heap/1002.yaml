@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Fault-Tolerant-Heap
+event_id: '1002'
+version: '0'
+event(fields): LifecycleEventsEventsloggedwhentheFTH(faulttolerantheap)serviceisstopped.()
+opcode: EventsloggedwhentheFTH(faulttolerantheap)serviceisstopped.
+keywords: FTH_EVENT_KEYWORD_LIFECYCLE
+task: LifecycleEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '404'
+version: '0'
+event(fields): ContentOffsets(Int32 ContentType, Float OffsetX, Float OffseY)
+opcode: ''
+keywords: Input
+task: ContentOffsets
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ContentType
+- field_type: Float
+  field_name: OffsetX
+- field_type: Float
+  field_name: OffseY

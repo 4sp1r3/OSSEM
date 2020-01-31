@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '602'
+version: '0'
+event(fields): Mshtml_View_LinkHighlightStartFromQueryContinueStop()
+opcode: Stop
+keywords: subsystem mshtml touch
+task: Mshtml_View_LinkHighlightStartFromQueryContinue
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

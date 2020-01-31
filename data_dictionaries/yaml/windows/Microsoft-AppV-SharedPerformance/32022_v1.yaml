@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '32022'
+version: '1'
+event(fields): VENV.ProcessWriteEnvVarStart_V1()
+opcode: Start
+keywords: ''
+task: VENV.ProcessWriteEnvVar
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

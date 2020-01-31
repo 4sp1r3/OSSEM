@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '10'
+version: '0'
+event(fields): Mshtml_CMarkup_LoadEvent_Stop(UnicodeString AddressName)
+opcode: Stop
+keywords: primarynav pageloadbreakdown
+task: Mshtml_CMarkup_LoadEvent_Stop
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AddressName

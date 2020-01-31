@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '173'
+version: '0'
+event(fields): CommitPendingEvents(UInt32 Status)
+opcode: ''
+keywords: SoftRestart
+task: CommitPendingEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

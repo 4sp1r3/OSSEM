@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shsvcs
+event_id: '11508'
+version: '0'
+event(fields): HDSrv_Volume_RemovedStop()
+opcode: Stop
+keywords: ''
+task: HDSrv_Volume_Removed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

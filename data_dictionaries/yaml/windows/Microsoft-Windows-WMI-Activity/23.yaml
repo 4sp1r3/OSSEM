@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-WMI-Activity
+event_id: '23'
+version: '0'
+event(fields): task_023(UnicodeString CorrelationId, UInt32 GroupOperationId, UInt32
+  OperationId, UnicodeString Commandline, UInt32 CreatedProcessId, UInt64 CreatedProcessCreationTime,
+  UnicodeString ClientMachine, UnicodeString ClientMachineFQDN, UnicodeString User,
+  UInt32 ClientProcessId, UInt64 ClientProcessCreationTime, Boolean IsLocal)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CorrelationId
+- field_type: UInt32
+  field_name: GroupOperationId
+- field_type: UInt32
+  field_name: OperationId
+- field_type: UnicodeString
+  field_name: Commandline
+- field_type: UInt32
+  field_name: CreatedProcessId
+- field_type: UInt64
+  field_name: CreatedProcessCreationTime
+- field_type: UnicodeString
+  field_name: ClientMachine
+- field_type: UnicodeString
+  field_name: ClientMachineFQDN
+- field_type: UnicodeString
+  field_name: User
+- field_type: UInt32
+  field_name: ClientProcessId
+- field_type: UInt64
+  field_name: ClientProcessCreationTime
+- field_type: Boolean
+  field_name: IsLocal

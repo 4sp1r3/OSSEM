@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wordpad
+event_id: '34'
+version: '0'
+event(fields): Wordpad_ZoomStop()
+opcode: Stop
+keywords: ''
+task: Wordpad_Zoom
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

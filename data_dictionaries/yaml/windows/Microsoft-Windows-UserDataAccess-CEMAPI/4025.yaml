@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4025'
+version: '0'
+event(fields): FOLDER_COPYFOLDERStart()
+opcode: Start
+keywords: Performance
+task: FOLDER_COPYFOLDER
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

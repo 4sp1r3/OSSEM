@@ -1,0 +1,21 @@
+provider: Windows Kernel Trace
+category: '{90cbdc39-4a3e-11d1-84f4-0000f80464e3}'
+event_id: '97'
+version: '3'
+event(fields): FltIoInit(UInt32 RoutineAddr, UInt32 FileObject, UInt32 FileContext,
+  UInt32 IrpPtr, UInt32 CallbackDataPtr, UInt32 MajorFunction)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: RoutineAddr
+- field_type: UInt32
+  field_name: FileObject
+- field_type: UInt32
+  field_name: FileContext
+- field_type: UInt32
+  field_name: IrpPtr
+- field_type: UInt32
+  field_name: CallbackDataPtr
+- field_type: UInt32
+  field_name: MajorFunction

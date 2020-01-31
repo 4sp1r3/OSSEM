@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinQuic
+event_id: '6'
+version: '0'
+event(fields): task_06(Pointer Connection, UInt32 Type)
+opcode: ''
+keywords: ut:Connection ut:Scheduling
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: UInt32
+  field_name: Type

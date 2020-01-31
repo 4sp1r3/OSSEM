@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-MSDE
+event_id: '1002'
+version: '0'
+event(fields): PerfTrack_MSDT_EscalationStart()
+opcode: Start
+keywords: ''
+task: PerfTrack_MSDT_Escalation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

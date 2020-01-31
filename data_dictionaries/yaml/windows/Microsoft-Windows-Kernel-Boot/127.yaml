@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '127'
+version: '0'
+event(fields): AllocatePhysicalPagesForMdlStop(Pointer Mdl)
+opcode: Stop
+keywords: SoftRestart PhysicalMemory
+task: AllocatePhysicalPagesForMdl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Mdl

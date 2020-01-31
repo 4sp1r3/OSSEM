@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3391'
+version: '0'
+event(fields): TransportReceiveStart3391(UnicodeString AppDomain)
+opcode: Start
+keywords: HTTP
+task: TransportReceive
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

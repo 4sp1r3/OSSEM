@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPNSSUI
+event_id: '3001'
+version: '0'
+event(fields): LaunchMediaSharing_LaunchSharingCPLStart(UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: LaunchMediaSharing_LaunchSharingCPL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

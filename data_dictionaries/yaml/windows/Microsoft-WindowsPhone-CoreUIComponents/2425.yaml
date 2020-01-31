@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2425'
+version: '0'
+event(fields): NavigationWindowPullProxyStop()
+opcode: Stop
+keywords: NavigationPerformance NavigationWindow
+task: NavigationWindowPullProxy
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

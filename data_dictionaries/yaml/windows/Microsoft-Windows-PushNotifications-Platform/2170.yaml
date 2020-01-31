@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2170'
+version: '0'
+event(fields): task_02170(UnicodeString PackageFamilyName, UnicodeString CollectionId)
+opcode: ''
+keywords: wpnend
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFamilyName
+- field_type: UnicodeString
+  field_name: CollectionId

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60116'
+version: '0'
+event(fields): StructuredQuery_FindMatchesStop()
+opcode: Stop
+keywords: StructuredQuery
+task: StructuredQuery_FindMatches
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

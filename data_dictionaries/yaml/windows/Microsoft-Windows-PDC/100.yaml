@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PDC
+event_id: '100'
+version: '0'
+event(fields): SpmClientControlStateRundown(UInt32 PdcId, UInt32 ReferenceCount, UInt32
+  ClientNameLength, UnicodeString ClientName)
+opcode: ''
+keywords: SPM
+task: SpmClientControlStateRundown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PdcId
+- field_type: UInt32
+  field_name: ReferenceCount
+- field_type: UInt32
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName

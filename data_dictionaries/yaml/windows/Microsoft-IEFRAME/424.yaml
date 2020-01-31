@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '424'
+version: '0'
+event(fields): AutoSuggest_DropDown_HideStop()
+opcode: Stop
+keywords: primarynav
+task: AutoSuggest_DropDown_Hide
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

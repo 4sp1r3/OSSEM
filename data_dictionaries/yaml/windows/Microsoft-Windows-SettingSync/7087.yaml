@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7087'
+version: '0'
+event(fields): Perf_WLRoamPayload1SyncStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamPayload1Sync
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

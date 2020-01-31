@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '48'
+version: '0'
+event(fields): BindLogicalSurfaceRH(UInt64 hLogicalSurf, UInt64 bCreated)
+opcode: ''
+keywords: Updates
+task: BindLogicalSurfaceRH
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hLogicalSurf
+- field_type: UInt64
+  field_name: bCreated

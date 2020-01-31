@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1363'
+version: '0'
+event(fields): IpWolContextChange(UInt32 Interface, UInt32 IpAddrLength, UInt32 WolHandle,
+  Binary DestinationIPAddress, Binary TargetIPAddress1, Binary TargetIPAddress2, UInt32
+  Flags, UInt32 WoLEvent, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipCsDiag
+task: IpWolContextChange
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: UInt32
+  field_name: WolHandle
+- field_type: Binary
+  field_name: DestinationIPAddress
+- field_type: Binary
+  field_name: TargetIPAddress1
+- field_type: Binary
+  field_name: TargetIPAddress2
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: WoLEvent
+- field_type: UInt32
+  field_name: Status

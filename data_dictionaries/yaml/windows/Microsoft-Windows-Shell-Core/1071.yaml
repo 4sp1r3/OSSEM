@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1071'
+version: '0'
+event(fields): DataLayer_RowsetCountForGroupStop(UInt32 Count)
+opcode: Stop
+keywords: Shell
+task: DataLayer_RowsetCountForGroup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count

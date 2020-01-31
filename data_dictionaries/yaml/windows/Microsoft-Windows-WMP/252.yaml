@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '252'
+version: '0'
+event(fields): RADIOAdded(UnicodeString Name, UnicodeString Value)
+opcode: Added
+keywords: mediaplayer
+task: RADIO
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Value

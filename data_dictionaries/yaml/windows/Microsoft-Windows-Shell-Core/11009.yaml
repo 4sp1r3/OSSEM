@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '11009'
+version: '0'
+event(fields): FilterControl_InsertFiltersStart()
+opcode: Start
+keywords: Shell
+task: FilterControl_InsertFilters
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

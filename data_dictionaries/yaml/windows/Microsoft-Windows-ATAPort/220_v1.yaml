@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-ATAPort
+event_id: '220'
+version: '1'
+event(fields): PortQueue_relatedoperation._V1(HexInt32 QueueTag, UInt8 Operation,
+  HexInt32 Status)
+opcode: Queue_relatedoperation.
+keywords: Queue
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: QueueTag
+- field_type: UInt8
+  field_name: Operation
+- field_type: HexInt32
+  field_name: Status

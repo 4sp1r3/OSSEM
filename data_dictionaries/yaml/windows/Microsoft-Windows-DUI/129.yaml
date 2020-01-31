@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '129'
+version: '0'
+event(fields): DirectUI_CreateElementStop129()
+opcode: Stop
+keywords: Default
+task: DirectUI_CreateElement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

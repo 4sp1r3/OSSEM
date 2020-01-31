@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '5003'
+version: '1'
+event(fields): VirtualFileSystemRedirection5003_V1(UnicodeString Item)
+opcode: ''
+keywords: VFS
+task: VirtualFileSystemRedirection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Item

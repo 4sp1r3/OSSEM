@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Crypto-NCrypt
+event_id: '4'
+version: '0'
+event(fields): KeyCreationFailure(UnicodeString ProviderName, UnicodeString KeyName,
+  UnicodeString AlgorithmName, HexInt32 Flags, HexInt32 Status, UnicodeString ProcessName)
+opcode: ''
+keywords: ETW_KEYWORD_NCRYPT_OPERATION
+task: KeyCreationFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProviderName
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: UnicodeString
+  field_name: AlgorithmName
+- field_type: HexInt32
+  field_name: Flags
+- field_type: HexInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: ProcessName

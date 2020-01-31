@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Remotefs-Rdbss
+event_id: '30019'
+version: '0'
+event(fields): task_030019(Pointer RxContext, UInt16 LogicalPathFromLength, UnicodeString
+  LogicalPathFrom, UInt16 PhysicalPathFromLength, UnicodeString PhysicalPathFrom,
+  UInt16 LogicalPathToLength, UnicodeString LogicalPathTo, UInt16 PhysicalPathToLength,
+  UnicodeString PhysicalPathTo)
+opcode: ''
+keywords: Rdbss_Perf
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RxContext
+- field_type: UInt16
+  field_name: LogicalPathFromLength
+- field_type: UnicodeString
+  field_name: LogicalPathFrom
+- field_type: UInt16
+  field_name: PhysicalPathFromLength
+- field_type: UnicodeString
+  field_name: PhysicalPathFrom
+- field_type: UInt16
+  field_name: LogicalPathToLength
+- field_type: UnicodeString
+  field_name: LogicalPathTo
+- field_type: UInt16
+  field_name: PhysicalPathToLength
+- field_type: UnicodeString
+  field_name: PhysicalPathTo

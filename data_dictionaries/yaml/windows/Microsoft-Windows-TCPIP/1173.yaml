@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1173'
+version: '0'
+event(fields): TcpDeliveryInjectingData(Pointer Tcb, Pointer Delivery, Pointer Request,
+  Pointer NumBytes, UInt32 RequestFlags, Pointer Length, UInt32 RequestStatus, UInt32
+  IsUrgentDelivery, UInt32 FullySatisfiedORDelayedPush, UInt32 RcvNxt)
+opcode: ''
+keywords: ut:ReceivePath
+task: TcpDeliveryInjectingData
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: Pointer
+  field_name: Delivery
+- field_type: Pointer
+  field_name: Request
+- field_type: Pointer
+  field_name: NumBytes
+- field_type: UInt32
+  field_name: RequestFlags
+- field_type: Pointer
+  field_name: Length
+- field_type: UInt32
+  field_name: RequestStatus
+- field_type: UInt32
+  field_name: IsUrgentDelivery
+- field_type: UInt32
+  field_name: FullySatisfiedORDelayedPush
+- field_type: UInt32
+  field_name: RcvNxt

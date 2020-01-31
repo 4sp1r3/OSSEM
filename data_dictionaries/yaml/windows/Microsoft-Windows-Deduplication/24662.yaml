@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '24662'
+version: '0'
+event(fields): FlushdedupfileafterrecallStart(Pointer FileObject)
+opcode: Start
+keywords: Filter
+task: Flushdedupfileafterrecall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FileObject

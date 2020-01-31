@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1070'
+version: '1'
+event(fields): ReportSyncObjectStart_V1(Pointer pSyncObject, Pointer KMTHandle, Pointer
+  pDxgDevice)
+opcode: Start
+keywords: Base
+task: ReportSyncObject
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pSyncObject
+- field_type: Pointer
+  field_name: KMTHandle
+- field_type: Pointer
+  field_name: pDxgDevice

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DXGI
+event_id: '61'
+version: '0'
+event(fields): CheckMultiplaneOverlaySupportFail(Pointer pIDXGISwapChain, Boolean
+  KernelSupport, Boolean DriverFailed, Boolean InvalidParam, UInt32 NumPlanes)
+opcode: ''
+keywords: Events
+task: CheckMultiplaneOverlaySupportFail
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: Boolean
+  field_name: KernelSupport
+- field_type: Boolean
+  field_name: DriverFailed
+- field_type: Boolean
+  field_name: InvalidParam
+- field_type: UInt32
+  field_name: NumPlanes

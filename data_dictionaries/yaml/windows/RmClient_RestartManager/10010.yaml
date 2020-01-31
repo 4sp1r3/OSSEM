@@ -1,0 +1,31 @@
+provider: RmClient_RestartManager
+event_id: '10010'
+version: '0'
+event(fields): task_010010(UInt32 RmSessionId, UInt32 Pid, UnicodeString FullPath,
+  UnicodeString DisplayName, UInt32 AppVersion, UInt32 AppType, UInt32 TSSessionId,
+  UInt32 Status, UInt32 Reason)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RmSessionId
+- field_type: UInt32
+  field_name: Pid
+- field_type: UnicodeString
+  field_name: FullPath
+- field_type: UnicodeString
+  field_name: DisplayName
+- field_type: UInt32
+  field_name: AppVersion
+- field_type: UInt32
+  field_name: AppType
+- field_type: UInt32
+  field_name: TSSessionId
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Reason

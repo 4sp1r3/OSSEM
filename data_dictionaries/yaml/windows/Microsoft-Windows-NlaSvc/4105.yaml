@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4105'
+version: '0'
+event(fields): TriggerQuarantineStateChange()
+opcode: QuarantineStateChange
+keywords: Trigger
+task: Trigger
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FeatureConfiguration
+event_id: '1006'
+version: '0'
+event(fields): FeatureConfigurationEventsOpCodeforre_settingfeaturestate(UInt32 FeatureId)
+opcode: OpCodeforre_settingfeaturestate
+keywords: ''
+task: FeatureConfigurationEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FeatureId

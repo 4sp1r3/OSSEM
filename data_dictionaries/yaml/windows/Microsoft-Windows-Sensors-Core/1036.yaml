@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1036'
+version: '0'
+event(fields): SensorsCxRundownTask(Pointer WdfDevice, Pointer SENSOROBJECT, GUID
+  Type, GUID Category, GUID SubType, GUID PeristentUniqueId, UnicodeString Name, UnicodeString
+  Model, UnicodeString Manufacturer)
+opcode: ''
+keywords: ''
+task: SensorsCxRundownTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: Pointer
+  field_name: SENSOROBJECT
+- field_type: GUID
+  field_name: Type
+- field_type: GUID
+  field_name: Category
+- field_type: GUID
+  field_name: SubType
+- field_type: GUID
+  field_name: PeristentUniqueId
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Model
+- field_type: UnicodeString
+  field_name: Manufacturer

@@ -1,0 +1,12 @@
+provider: Windows Kernel Trace
+category: '{90cbdc39-4a3e-11d1-84f4-0000f80464e3}'
+event_id: '36'
+version: '3'
+event(fields): FileIo_Name(UInt32 FileObject, String FileName)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: FileObject
+- field_type: String
+  field_name: FileName

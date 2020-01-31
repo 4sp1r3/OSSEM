@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27236'
+version: '0'
+event(fields): PerfTrack_StartMenu_Pictures_NetworkStop()
+opcode: Stop
+keywords: Shell
+task: PerfTrack_StartMenu_Pictures_Network
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

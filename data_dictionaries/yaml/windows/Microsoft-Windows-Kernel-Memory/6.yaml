@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Memory
+event_id: '6'
+version: '0'
+event(fields): WorkingSetInSwapStart(UInt32 ProcessId)
+opcode: Start
+keywords: KERNEL_MEM_KEYWORD_WS_SWAP
+task: WorkingSetInSwap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId

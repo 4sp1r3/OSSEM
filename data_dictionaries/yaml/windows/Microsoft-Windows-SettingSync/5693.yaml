@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '5693'
+version: '0'
+event(fields): task_05693(UnicodeString CollectionId, UInt32 Value, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UInt32
+  field_name: Value
+- field_type: UInt32
+  field_name: HRESULT

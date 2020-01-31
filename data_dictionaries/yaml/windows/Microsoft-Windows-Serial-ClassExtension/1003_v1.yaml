@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Serial-ClassExtension
+event_id: '1003'
+version: '1'
+event(fields): IOControlreceivedbytheserialclassextensionStop_V1(Pointer Request,
+  UnicodeString IoControlCodeString)
+opcode: Stop
+keywords: ''
+task: IOControlreceivedbytheserialclassextension
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: UnicodeString
+  field_name: IoControlCodeString

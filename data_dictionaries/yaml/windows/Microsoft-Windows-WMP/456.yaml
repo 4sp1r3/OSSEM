@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WMP
+event_id: '456'
+version: '0'
+event(fields): PLAYCONTAINER_CREATE_PLAYLISTStart(Pointer PlaylistMgr, UnicodeString
+  URL)
+opcode: Start
+keywords: mediaplayer
+task: PLAYCONTAINER_CREATE_PLAYLIST
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PlaylistMgr
+- field_type: UnicodeString
+  field_name: URL

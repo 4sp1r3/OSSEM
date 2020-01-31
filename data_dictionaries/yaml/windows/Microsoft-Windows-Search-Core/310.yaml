@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '310'
+version: '0'
+event(fields): Wordlist_BeginResource_InvalidatedPreviousDoc(UInt32 DocID, UInt64
+  CBID)
+opcode: ''
+keywords: Indexing IndexPI
+task: Wordlist_BeginResource_InvalidatedPreviousDoc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DocID
+- field_type: UInt64
+  field_name: CBID

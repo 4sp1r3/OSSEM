@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10036'
+version: '0'
+event(fields): task_010036(Pointer ContextHandle, GUID AdapterGuid, Boolean Enabled)
+opcode: ''
+keywords: Ioctls ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextHandle
+- field_type: GUID
+  field_name: AdapterGuid
+- field_type: Boolean
+  field_name: Enabled

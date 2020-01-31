@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '659'
+version: '0'
+event(fields): SoftKeyboard_OutputManager_TypedAlternatesProcessed(Int64 SequenceNumber,
+  UnicodeString RawText, UnicodeString TextBeingReplaced, UnicodeString FixedText,
+  UnicodeString FixedTextSuffix, UnicodeString FluidText, UnicodeString FixedTextAlternates)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_OutputManager_TypedAlternatesProcessed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: SequenceNumber
+- field_type: UnicodeString
+  field_name: RawText
+- field_type: UnicodeString
+  field_name: TextBeingReplaced
+- field_type: UnicodeString
+  field_name: FixedText
+- field_type: UnicodeString
+  field_name: FixedTextSuffix
+- field_type: UnicodeString
+  field_name: FluidText
+- field_type: UnicodeString
+  field_name: FixedTextAlternates

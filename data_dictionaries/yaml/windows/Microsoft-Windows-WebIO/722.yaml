@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-WebIO
+event_id: '722'
+version: '0'
+event(fields): SSLDecryptMessageStart(Pointer Connection, UInt64 ContextHandleHigh,
+  UInt64 ContextHandleLow, Pointer Buffer, UInt32 BufferLengthData, UInt32 BufferLengthRemaining,
+  Pointer PlainData, UInt32 PlainDataLength, UInt32 SecStatus, UInt32 Error)
+opcode: Start
+keywords: Keyword.RECEIVE
+task: SSLDecryptMessage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: UInt64
+  field_name: ContextHandleHigh
+- field_type: UInt64
+  field_name: ContextHandleLow
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: BufferLengthData
+- field_type: UInt32
+  field_name: BufferLengthRemaining
+- field_type: Pointer
+  field_name: PlainData
+- field_type: UInt32
+  field_name: PlainDataLength
+- field_type: UInt32
+  field_name: SecStatus
+- field_type: UInt32
+  field_name: Error

@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-DVD
+event_id: '7'
+version: '0'
+event(fields): NavParsePCI(Pointer Object, Int32 HaveRun, Int32 IsRunning, Int32 UsedGetTime,
+  Int32 SetTimeToNow, Int32 CellTimeDisc, Int64 rtNow, Int64 rtTime0, Int64 rtNow_Time0,
+  Int64 VOBULen)
+opcode: ''
+keywords: ''
+task: NavParsePCI
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: HaveRun
+- field_type: Int32
+  field_name: IsRunning
+- field_type: Int32
+  field_name: UsedGetTime
+- field_type: Int32
+  field_name: SetTimeToNow
+- field_type: Int32
+  field_name: CellTimeDisc
+- field_type: Int64
+  field_name: rtNow
+- field_type: Int64
+  field_name: rtTime0
+- field_type: Int64
+  field_name: rtNow_Time0
+- field_type: Int64
+  field_name: VOBULen

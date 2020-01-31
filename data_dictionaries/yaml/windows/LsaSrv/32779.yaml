@@ -1,0 +1,13 @@
+provider: LsaSrv
+event_id: '32779'
+version: '0'
+event(fields): task_032779(GUID SubCategoryGuid)
+opcode: ''
+keywords: WPDBusEnumStartTrigger
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SubCategoryGuid

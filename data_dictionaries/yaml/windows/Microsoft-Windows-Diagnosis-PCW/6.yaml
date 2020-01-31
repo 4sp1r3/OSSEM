@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-PCW
+event_id: '6'
+version: '0'
+event(fields): task_06(GUID ProviderGuid, UInt32 Size)
+opcode: ''
+keywords: notifications
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderGuid
+- field_type: UInt32
+  field_name: Size

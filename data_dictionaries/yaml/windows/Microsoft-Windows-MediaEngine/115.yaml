@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '115'
+version: '0'
+event(fields): MediaFoundationPresentedFrame(UInt32 id, Int64 pts, Int64 clock)
+opcode: ''
+keywords: ''
+task: MediaFoundationPresentedFrame
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id
+- field_type: Int64
+  field_name: pts
+- field_type: Int64
+  field_name: clock

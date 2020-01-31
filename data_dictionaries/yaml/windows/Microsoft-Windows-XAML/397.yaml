@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '397'
+version: '0'
+event(fields): RealizeDeferredElementStart(UInt64 DeferredElementId)
+opcode: Start
+keywords: Templates
+task: RealizeDeferredElement
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DeferredElementId

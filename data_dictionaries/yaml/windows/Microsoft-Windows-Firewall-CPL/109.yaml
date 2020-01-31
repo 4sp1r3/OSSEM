@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Firewall-CPL
+event_id: '109'
+version: '0'
+event(fields): AddAppExceptionStart()
+opcode: Start
+keywords: FirewallCpl
+task: AddAppException
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

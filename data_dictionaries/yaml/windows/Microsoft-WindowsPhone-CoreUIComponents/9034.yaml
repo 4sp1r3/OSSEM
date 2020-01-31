@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9034'
+version: '0'
+event(fields): ViewManagerUserLogoffComplete(UInt64 unParam)
+opcode: UserLogoffComplete
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: unParam

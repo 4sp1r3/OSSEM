@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebServices
+event_id: '17'
+version: '0'
+event(fields): MessageExchangeReceivedMessageStart(UInt64 correlationId)
+opcode: ReceivedMessageStart
+keywords: keywords.Message
+task: MessageExchange
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: correlationId

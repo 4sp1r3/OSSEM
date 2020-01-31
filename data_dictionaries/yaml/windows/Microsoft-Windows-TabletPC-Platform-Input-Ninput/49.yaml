@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '49'
+version: '0'
+event(fields): NinputICOutputCallbackStop()
+opcode: Stop
+keywords: ''
+task: NinputICOutputCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

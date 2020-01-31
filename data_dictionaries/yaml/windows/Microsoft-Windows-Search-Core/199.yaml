@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '199'
+version: '0'
+event(fields): CEnumSearchScopeRules_Next_Fetch(UnicodeString ScopeRuleURL)
+opcode: ''
+keywords: CSM
+task: CEnumSearchScopeRules_Next_Fetch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ScopeRuleURL

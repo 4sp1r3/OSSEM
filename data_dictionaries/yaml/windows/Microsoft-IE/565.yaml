@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '565'
+version: '0'
+event(fields): Mshtml_FormatDetection_EntityExtractionStart()
+opcode: Start
+keywords: mshtml
+task: Mshtml_FormatDetection_EntityExtraction
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

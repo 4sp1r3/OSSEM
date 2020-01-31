@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '540'
+version: '0'
+event(fields): HWCompNodeUpdateStart(UInt64 ElementId)
+opcode: Start
+keywords: ''
+task: HWCompNodeUpdate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '207'
+version: '0'
+event(fields): MLS207(UnicodeString SourceFile)
+opcode: ''
+keywords: mls
+task: MLS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SourceFile

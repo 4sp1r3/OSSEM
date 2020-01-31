@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '538'
+version: '0'
+event(fields): TravelLogScreenshotNav_OldTab_CancelingSwitch()
+opcode: ''
+keywords: TravelLogScreenshotNav
+task: TravelLogScreenshotNav_OldTab_CancelingSwitch
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

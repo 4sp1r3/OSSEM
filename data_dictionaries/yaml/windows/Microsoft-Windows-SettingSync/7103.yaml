@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7103'
+version: '0'
+event(fields): Perf_BackupRequestedByLocalSystemStart(UnicodeString CollectionId,
+  UInt32 BACKUPSETTINGDISPOSITION)
+opcode: Start
+keywords: RoamingSettings
+task: Perf_BackupRequestedByLocalSystem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UInt32
+  field_name: BACKUPSETTINGDISPOSITION

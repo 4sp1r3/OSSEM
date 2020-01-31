@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30612'
+version: '1'
+event(fields): ManifestSerializeStop_V1()
+opcode: Stop
+keywords: ''
+task: ManifestSerialize
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

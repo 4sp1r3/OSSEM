@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5201'
+version: '0'
+event(fields): PerfTrack_TM8_LaunchStop()
+opcode: Stop
+keywords: ''
+task: PerfTrack_TM8_Launch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

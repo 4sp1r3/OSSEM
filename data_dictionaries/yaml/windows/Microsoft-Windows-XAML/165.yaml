@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAML
+event_id: '165'
+version: '0'
+event(fields): ProcessPointerInputStart(UInt32 PointerId, UInt32 MsgId, Float X, Float
+  Y)
+opcode: Start
+keywords: Input
+task: ProcessPointerInput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PointerId
+- field_type: UInt32
+  field_name: MsgId
+- field_type: Float
+  field_name: X
+- field_type: Float
+  field_name: Y

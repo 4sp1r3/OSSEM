@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Battery
+event_id: '8'
+version: '0'
+event(fields): BstUpdated(Pointer Handle, UInt32 State, UInt32 PresentRate, UInt32
+  RemainingCapacity, UInt32 PresentVoltage)
+opcode: ''
+keywords: ''
+task: BstUpdated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Handle
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: PresentRate
+- field_type: UInt32
+  field_name: RemainingCapacity
+- field_type: UInt32
+  field_name: PresentVoltage

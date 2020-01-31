@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ComDlg32
+event_id: '40070'
+version: '0'
+event(fields): FontChooserCommonDialogChooseFontgetfamilies1start()
+opcode: ChooseFontgetfamilies1start
+keywords: ''
+task: FontChooserCommonDialog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1160'
+version: '0'
+event(fields): MediaFoundationPMPServerProxy_LaunchedProcess(UInt32 ProcessID)
+opcode: ''
+keywords: ''
+task: MediaFoundationPMPServerProxy_LaunchedProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessID

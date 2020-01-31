@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-PLA
+event_id: '1005'
+version: '0'
+event(fields): task_01005(UnicodeString Name)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name

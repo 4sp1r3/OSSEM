@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '20009'
+version: '0'
+event(fields): ConnecttosamenetworkonresumeStop20009(GUID InterfaceGuid)
+opcode: Stop
+keywords: ''
+task: Connecttosamenetworkonresume
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

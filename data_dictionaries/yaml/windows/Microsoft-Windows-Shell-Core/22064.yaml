@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22064'
+version: '0'
+event(fields): Taskbar_Item_Flashing(Pointer HWND, UInt32 IsFlashed, UInt32 SourceType)
+opcode: ''
+keywords: Shell
+task: Taskbar_Item_Flashing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HWND
+- field_type: UInt32
+  field_name: IsFlashed
+- field_type: UInt32
+  field_name: SourceType

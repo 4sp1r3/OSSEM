@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '528'
+version: '0'
+event(fields): KeyUpStart(UInt32 KeyCode, UInt32 RepeatCount)
+opcode: Start
+keywords: ''
+task: KeyUp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: KeyCode
+- field_type: UInt32
+  field_name: RepeatCount

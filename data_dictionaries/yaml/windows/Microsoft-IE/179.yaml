@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '179'
+version: '0'
+event(fields): Mshtml_Dx_TargetSurfaceEnsureStop(Pointer RenderTarget)
+opcode: Stop
+keywords: subsystem pageloadbreakdown
+task: Mshtml_Dx_TargetSurfaceEnsure
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RenderTarget

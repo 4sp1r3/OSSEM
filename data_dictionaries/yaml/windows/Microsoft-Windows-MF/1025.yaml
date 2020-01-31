@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MF
+event_id: '1025'
+version: '0'
+event(fields): MediaFoundationMediaProcSourceManagerOnStreamSampleStop(Pointer MP,
+  UInt32 hr)
+opcode: Stop
+keywords: ''
+task: MediaFoundationMediaProcSourceManagerOnStreamSample
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MP
+- field_type: UInt32
+  field_name: hr

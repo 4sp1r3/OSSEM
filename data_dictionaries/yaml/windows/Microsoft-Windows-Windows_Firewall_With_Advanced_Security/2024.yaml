@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2024'
+version: '0'
+event(fields): task_02024(UnicodeString SetId, UnicodeString SetName, UnicodeString
+  EmbeddedContext, UInt32 Origin, UInt32 CryptoSetFlags, UInt32 Pfs, UInt32 NumSuites,
+  UInt32 SuitesBinaryLength, Binary CryptoSuites, SID ModifyingUser, UnicodeString
+  ModifyingApplication, UInt16 SchemaVersion, UInt32 RuleStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SetId
+- field_type: UnicodeString
+  field_name: SetName
+- field_type: UnicodeString
+  field_name: EmbeddedContext
+- field_type: UInt32
+  field_name: Origin
+- field_type: UInt32
+  field_name: CryptoSetFlags
+- field_type: UInt32
+  field_name: Pfs
+- field_type: UInt32
+  field_name: NumSuites
+- field_type: UInt32
+  field_name: SuitesBinaryLength
+- field_type: Binary
+  field_name: CryptoSuites
+- field_type: SID
+  field_name: ModifyingUser
+- field_type: UnicodeString
+  field_name: ModifyingApplication
+- field_type: UInt16
+  field_name: SchemaVersion
+- field_type: UInt32
+  field_name: RuleStatus

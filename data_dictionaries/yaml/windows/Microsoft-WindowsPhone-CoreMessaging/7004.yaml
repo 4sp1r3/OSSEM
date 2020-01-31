@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '7004'
+version: '0'
+event(fields): SelfHostInfo_MaxConversationClientsConnected(UnicodeString pwsz)
+opcode: ''
+keywords: keyword_40000000000
+task: SelfHostInfo_MaxConversationClientsConnected
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-wmvdecod
+event_id: '2'
+version: '0'
+event(fields): wmvdecod_InitStart(UInt32 FourCC, Int32 Width, Int32 Height)
+opcode: Start
+keywords: ''
+task: wmvdecod_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FourCC
+- field_type: Int32
+  field_name: Width
+- field_type: Int32
+  field_name: Height

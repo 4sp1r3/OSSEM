@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PrintService
+event_id: '373'
+version: '0'
+event(fields): PrintingadocumentSpoolerOperationFailed373()
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC
+task: Printingadocument
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

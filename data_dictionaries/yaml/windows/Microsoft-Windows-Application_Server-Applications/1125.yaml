@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1125'
+version: '0'
+event(fields): InvokeMethodIsNotStatic(UnicodeString data1, UnicodeString AppDomain)
+opcode: IsNotStatic
+keywords: WFRuntime
+task: InvokeMethod
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

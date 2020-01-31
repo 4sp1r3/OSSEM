@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '2009'
+version: '0'
+event(fields): InstallinglanguagepackPasscontroltoCBStoinstallthelanguagepack2009(UnicodeString
+  Language)
+opcode: PasscontroltoCBStoinstallthelanguagepack
+keywords: ''
+task: Installinglanguagepack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language

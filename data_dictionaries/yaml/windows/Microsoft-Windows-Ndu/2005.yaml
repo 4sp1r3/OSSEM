@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Ndu
+event_id: '2005'
+version: '0'
+event(fields): PerFlowStats2005(UInt64 _FlowHandle, UnicodeString _RefDeref)
+opcode: ''
+keywords: KeywordNduPerFlowStats
+task: PerFlowStats
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: _FlowHandle
+- field_type: UnicodeString
+  field_name: _RefDeref

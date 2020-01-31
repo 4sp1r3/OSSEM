@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '205'
+version: '0'
+event(fields): EMEKeyMessage(UnicodeString sessionId, UInt16 code, UInt32 systemError)
+opcode: ''
+keywords: ''
+task: EMEKeyMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: sessionId
+- field_type: UInt16
+  field_name: code
+- field_type: UInt32
+  field_name: systemError

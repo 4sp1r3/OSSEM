@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '305'
+version: '0'
+event(fields): CAutomationElement_FindAllBuildCacheStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CAutomationElement_FindAllBuildCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

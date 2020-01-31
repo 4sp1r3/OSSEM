@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19604'
+version: '0'
+event(fields): Shell32_ControlPanel_LoadAppletsStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_ControlPanel_LoadApplets
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

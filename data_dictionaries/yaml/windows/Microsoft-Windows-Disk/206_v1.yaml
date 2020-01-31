@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Disk
+event_id: '206'
+version: '1'
+event(fields): ClassDispatchingofrequest.206_V1(UInt32 DeviceNumber, Pointer Irp,
+  UInt8 Command, UInt64 LengthOfTransfer, HexInt64 LBA)
+opcode: Dispatchingofrequest.
+keywords: Read LowMemoryRead
+task: Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt8
+  field_name: Command
+- field_type: UInt64
+  field_name: LengthOfTransfer
+- field_type: HexInt64
+  field_name: LBA

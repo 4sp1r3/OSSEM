@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-ClientUSBDevices
+event_id: '44'
+version: '0'
+event(fields): RemoteDesktopUSBHubFilter44()
+opcode: ''
+keywords: ''
+task: RemoteDesktopUSBHubFilter
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

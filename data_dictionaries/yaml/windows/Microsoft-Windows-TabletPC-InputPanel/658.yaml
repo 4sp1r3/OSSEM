@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '658'
+version: '0'
+event(fields): SoftKeyboard_OutputManager_SetPredictionMode(Int32 KeyboardState)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_OutputManager_SetPredictionMode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: KeyboardState

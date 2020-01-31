@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '445'
+version: '1'
+event(fields): CreateVirtualGpu_V1(Pointer pDxgAdapter, UInt32 VirtualFunctionIndex,
+  Boolean bSecure, UInt32 Status, UInt32 FailureType)
+opcode: ''
+keywords: Base
+task: CreateVirtualGpu
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: VirtualFunctionIndex
+- field_type: Boolean
+  field_name: bSecure
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: FailureType

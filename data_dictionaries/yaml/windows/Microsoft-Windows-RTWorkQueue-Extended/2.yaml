@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-RTWorkQueue-Extended
+event_id: '2'
+version: '0'
+event(fields): WorkQueue:ExtendedLongRunning(UInt32 WorkQueueID, UInt32 RefCount)
+opcode: ''
+keywords: ''
+task: WorkQueue:ExtendedLongRunning
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WorkQueueID
+- field_type: UInt32
+  field_name: RefCount

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '109'
+version: '0'
+event(fields): SetPointerPosition(Pointer DxgAdapter, UInt32 VidPnSourceId, UInt32
+  X, UInt32 Y, UInt32 Flags)
+opcode: ''
+keywords: Base
+task: SetPointerPosition
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DxgAdapter
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: X
+- field_type: UInt32
+  field_name: Y
+- field_type: UInt32
+  field_name: Flags

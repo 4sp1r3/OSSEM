@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '22'
+version: '0'
+event(fields): JobServerSiloStart(GUID ContainerID, UInt32 JobID, UInt16 State)
+opcode: ''
+keywords: WINEVENT_KEYWORD_JOB_SILO
+task: JobServerSiloStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ContainerID
+- field_type: UInt32
+  field_name: JobID
+- field_type: UInt16
+  field_name: State

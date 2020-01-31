@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '34'
+version: '0'
+event(fields): OPMDestroyProtectedOutput()
+opcode: DestroyProtectedOutput
+keywords: DdiCallbacks
+task: OPM
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '885'
+version: '0'
+event(fields): IDXGISwapChainPartner_SetPresentDurationStop(UInt32 m_Ret)
+opcode: Stop
+keywords: ''
+task: IDXGISwapChainPartner_SetPresentDuration
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret

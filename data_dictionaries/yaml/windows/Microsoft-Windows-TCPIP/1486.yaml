@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1486'
+version: '0'
+event(fields): TcpipStatusIndication(UInt32 IfIndex, UInt32 AddressFamily, UInt32
+  NdisStatus)
+opcode: ''
+keywords: ut:TcpipInterface
+task: TcpipStatusIndication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: NdisStatus

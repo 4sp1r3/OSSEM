@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-BranchCacheSMB
+event_id: '3003'
+version: '0'
+event(fields): task_03003(UnicodeString Path, UnicodeString ContentHandle, UnicodeString
+  ResultCode, UnicodeString Result)
+opcode: ''
+keywords: CscEvtKeywd_SMBBranchCache
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UnicodeString
+  field_name: ContentHandle
+- field_type: UnicodeString
+  field_name: ResultCode
+- field_type: UnicodeString
+  field_name: Result

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NcdAutoSetup
+event_id: '5002'
+version: '0'
+event(fields): NetworkDisqualified(UnicodeString String1)
+opcode: ''
+keywords: ''
+task: NetworkDisqualified
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String1

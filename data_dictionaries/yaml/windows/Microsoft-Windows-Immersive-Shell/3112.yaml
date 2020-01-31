@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '3112'
+version: '0'
+event(fields): AutoPlay_Broker_DeviceStop()
+opcode: Stop
+keywords: ''
+task: AutoPlay_Broker_Device
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

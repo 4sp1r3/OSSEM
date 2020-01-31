@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '375'
+version: '0'
+event(fields): PeriodicMonitoredFenceStart(Pointer hAdapter, Pointer hSyncObject,
+  UInt32 Reason, UInt32 Flags, Pointer SharedHandle, Pointer hNotificationAdapter,
+  UInt32 VidPnTargetId, Int64 TimeOffset)
+opcode: Start
+keywords: Base
+task: PeriodicMonitoredFence
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAdapter
+- field_type: Pointer
+  field_name: hSyncObject
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Flags
+- field_type: Pointer
+  field_name: SharedHandle
+- field_type: Pointer
+  field_name: hNotificationAdapter
+- field_type: UInt32
+  field_name: VidPnTargetId
+- field_type: Int64
+  field_name: TimeOffset

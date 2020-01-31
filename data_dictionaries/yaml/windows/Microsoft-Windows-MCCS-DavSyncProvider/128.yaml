@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-DavSyncProvider
+event_id: '128'
+version: '0'
+event(fields): task_0128(UInt32 Prop_Dword)
+opcode: ''
+keywords: Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_Dword

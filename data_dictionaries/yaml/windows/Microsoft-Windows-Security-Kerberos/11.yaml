@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-Kerberos
+event_id: '11'
+version: '0'
+event(fields): task_0PCODE_192pcode_19211()
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

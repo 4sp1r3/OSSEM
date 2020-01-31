@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6612'
+version: '0'
+event(fields): ConnectCharm_PlayStop(UnicodeString DeviceInstanceID, Boolean Connected)
+opcode: Stop
+keywords: ''
+task: ConnectCharm_Play
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceInstanceID
+- field_type: Boolean
+  field_name: Connected

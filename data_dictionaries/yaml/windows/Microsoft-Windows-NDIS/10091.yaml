@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10091'
+version: '0'
+event(fields): Power10091(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)
+opcode: ''
+keywords: Power
+task: Power
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: IfLuid
+- field_type: UInt32
+  field_name: ReferenceContext

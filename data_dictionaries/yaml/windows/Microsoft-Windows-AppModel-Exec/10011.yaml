@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '10011'
+version: '0'
+event(fields): LogTrace10011(GUID WorkItemId, UnicodeString UserSid, UnicodeString
+  PackageFullName, UnicodeString EntryPoint, UInt32 HRESULT)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular
+task: LogTrace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: WorkItemId
+- field_type: UnicodeString
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: EntryPoint
+- field_type: UInt32
+  field_name: HRESULT

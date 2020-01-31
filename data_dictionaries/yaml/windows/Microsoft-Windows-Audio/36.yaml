@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Audio
+event_id: '36'
+version: '0'
+event(fields): Audio_Glitch_DetectionKSEndpointGlitch:IOMGRNoOutstandingPackets(Pointer
+  pOwner, UInt32 NextStreamingPacketToComplete, UInt32 MaxPacketCount)
+opcode: IOMGRNoOutstandingPackets
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pOwner
+- field_type: UInt32
+  field_name: NextStreamingPacketToComplete
+- field_type: UInt32
+  field_name: MaxPacketCount

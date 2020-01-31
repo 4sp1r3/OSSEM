@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '217'
+version: '0'
+event(fields): InteractiveControlRenderStop()
+opcode: Stop
+keywords: Reader
+task: InteractiveControlRender
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

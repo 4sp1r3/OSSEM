@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-HAL
+event_id: '12'
+version: '0'
+event(fields): task_012(UInt32 Count, UInt32 FirstPage, UInt32 LastPage)
+opcode: ''
+keywords: halDiagnostic
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt32
+  field_name: FirstPage
+- field_type: UInt32
+  field_name: LastPage

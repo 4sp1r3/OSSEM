@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Redir
+event_id: '12'
+version: '0'
+event(fields): RedirProcessLPCMessageStop(UInt32 Enum)
+opcode: Stop
+keywords: DwmRedir DwmInput DwmInputPerf
+task: RedirProcessLPCMessage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Enum

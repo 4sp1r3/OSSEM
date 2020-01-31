@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '178'
+version: '1'
+event(fields): TOUCH_INTERACTION_DEBUG_EVENTS178_V1(UInt64 UniqueKey, UInt64 Frame)
+opcode: ''
+keywords: DwmCore DwmInput
+task: TOUCH_INTERACTION_DEBUG_EVENTS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueKey
+- field_type: UInt64
+  field_name: Frame

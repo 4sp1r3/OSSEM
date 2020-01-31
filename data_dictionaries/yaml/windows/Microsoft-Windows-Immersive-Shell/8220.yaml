@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '8220'
+version: '0'
+event(fields): BackStackMusicPlay_Playback_Started()
+opcode: ''
+keywords: ''
+task: BackStackMusicPlay_Playback_Started
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

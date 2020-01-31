@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '1050'
+version: '0'
+event(fields): System_OutOfMemory()
+opcode: ''
+keywords: Error
+task: System_OutOfMemory
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

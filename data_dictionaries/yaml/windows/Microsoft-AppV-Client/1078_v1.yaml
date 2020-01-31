@@ -1,0 +1,20 @@
+provider: Microsoft-AppV-Client
+event_id: '1078'
+version: '1'
+event(fields): PublishPackage1078_V1(GUID PackageId, GUID PackageVersion, GUID GroupId,
+  GUID GroupVersion)
+opcode: ''
+keywords: Publishing
+task: PublishPackage
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PackageId
+- field_type: GUID
+  field_name: PackageVersion
+- field_type: GUID
+  field_name: GroupId
+- field_type: GUID
+  field_name: GroupVersion

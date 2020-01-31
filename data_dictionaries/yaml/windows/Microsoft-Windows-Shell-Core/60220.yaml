@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60220'
+version: '0'
+event(fields): SearchBox_SearchConversionList_BeginUIElement(UInt32 ElemId, Boolean
+  IsUILess, Boolean IsIntegratable)
+opcode: ''
+keywords: Shell
+task: SearchBox_SearchConversionList_BeginUIElement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ElemId
+- field_type: Boolean
+  field_name: IsUILess
+- field_type: Boolean
+  field_name: IsIntegratable

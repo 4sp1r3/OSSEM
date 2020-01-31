@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '504'
+version: '0'
+event(fields): FileReadStop(UInt32 FileType, UInt64 NumBytes)
+opcode: Stop
+keywords: Profiling
+task: FileRead
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FileType
+- field_type: UInt64
+  field_name: NumBytes

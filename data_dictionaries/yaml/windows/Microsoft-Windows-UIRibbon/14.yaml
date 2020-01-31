@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIRibbon
+event_id: '14'
+version: '0'
+event(fields): ScenicUiaGetObjectStop()
+opcode: Stop
+keywords: Default
+task: ScenicUiaGetObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

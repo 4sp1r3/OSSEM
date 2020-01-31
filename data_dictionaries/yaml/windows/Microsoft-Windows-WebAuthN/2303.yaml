@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2303'
+version: '0'
+event(fields): CtapNfcProviderThreadStop2303(GUID TransactionId, HexInt32 Error, HexInt32
+  Win32Error)
+opcode: Stop
+keywords: Ctap Nfc
+task: CtapNfcProviderThread
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: HexInt32
+  field_name: Error
+- field_type: HexInt32
+  field_name: Win32Error

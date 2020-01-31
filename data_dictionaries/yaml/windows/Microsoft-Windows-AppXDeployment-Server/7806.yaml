@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '7806'
+version: '0'
+event(fields): AppXDeployment.Task.Server.OSIMStop7806(UnicodeString PackageName)
+opcode: Stop
+keywords: OSIM_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD APPSYNC_DEH_KEYWORD
+task: AppXDeployment.Task.Server.OSIM
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName

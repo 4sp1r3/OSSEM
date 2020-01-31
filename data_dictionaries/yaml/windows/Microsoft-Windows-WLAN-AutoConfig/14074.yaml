@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14074'
+version: '0'
+event(fields): task_014074(GUID InterfaceGuid, Boolean IsReachable)
+opcode: ''
+keywords: State
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: Boolean
+  field_name: IsReachable

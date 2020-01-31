@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-BitLocker-Driver-Performance
+event_id: '23'
+version: '0'
+event(fields): fve:ConversionStepStart(Pointer DevObjPtr, UInt64 Offset, UInt32 Size,
+  UInt32 Command)
+opcode: Start
+keywords: fve:Performance
+task: fve:ConversionStep
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DevObjPtr
+- field_type: UInt64
+  field_name: Offset
+- field_type: UInt32
+  field_name: Size
+- field_type: UInt32
+  field_name: Command

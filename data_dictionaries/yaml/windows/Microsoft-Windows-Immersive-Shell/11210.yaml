@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11210'
+version: '0'
+event(fields): Accounts_Launch_CommandStart(UInt32 Result)
+opcode: Start
+keywords: ''
+task: Accounts_Launch_Command
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

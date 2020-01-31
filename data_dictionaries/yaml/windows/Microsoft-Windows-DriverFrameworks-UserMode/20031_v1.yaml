@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '20031'
+version: '1'
+event(fields): PowerTransition_DriverStop_V1(Pointer Irp, Pointer Device)
+opcode: Stop
+keywords: umdf:PowerTransition
+task: PowerTransition_Driver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: Device

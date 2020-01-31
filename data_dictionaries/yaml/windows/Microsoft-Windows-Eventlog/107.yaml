@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '107'
+version: '0'
+event(fields): task_0107(UInt32 ErrorCode, UnicodeString ProviderName, GUID PublisherGuid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ProviderName
+- field_type: GUID
+  field_name: PublisherGuid

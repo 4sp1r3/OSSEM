@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '11'
+version: '0'
+event(fields): AppReadiness_Error11(Int32 Error, AnsiString Expression, AnsiString
+  Function, AnsiString File, Int32 Line)
+opcode: ''
+keywords: Error
+task: AppReadiness_Error
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Error
+- field_type: AnsiString
+  field_name: Expression
+- field_type: AnsiString
+  field_name: Function
+- field_type: AnsiString
+  field_name: File
+- field_type: Int32
+  field_name: Line

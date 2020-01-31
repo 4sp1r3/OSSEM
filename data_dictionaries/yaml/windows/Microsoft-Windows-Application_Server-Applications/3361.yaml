@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3361'
+version: '0'
+event(fields): TransportReceive(UnicodeString AppDomain)
+opcode: ''
+keywords: HTTP
+task: TransportReceive
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Ncasvc
+event_id: '8'
+version: '0'
+event(fields): task_08(UInt32 Type, UInt64 Code, UInt64 Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt64
+  field_name: Code
+- field_type: UInt64
+  field_name: Error

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-ProtocolHandlers
+event_id: '62'
+version: '0'
+event(fields): FilterOplockFail(UnicodeString Description)
+opcode: ''
+keywords: IndexingItem FilePH
+task: FilterOplockFail
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Description

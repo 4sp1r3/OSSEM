@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1564'
+version: '0'
+event(fields): ServerTaskNSTSetCompleted(UInt32 unParam, Boolean fBool)
+opcode: NSTSetCompleted
+keywords: NavigationPerformance ServerTask
+task: ServerTask
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: Boolean
+  field_name: fBool

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1250'
+version: '0'
+event(fields): Ndkpi_Close_Obj(Pointer NdkObject, UInt32 NdkObjectType, Pointer RequestContext)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Close_Obj
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkObject
+- field_type: UInt32
+  field_name: NdkObjectType
+- field_type: Pointer
+  field_name: RequestContext

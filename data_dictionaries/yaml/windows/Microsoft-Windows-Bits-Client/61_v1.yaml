@@ -1,0 +1,49 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '61'
+version: '1'
+event(fields): task_0Stop61_V1(GUID transferId, UnicodeString name, GUID Id, UnicodeString
+  url, UnicodeString peer, UInt32 hr, FILETIME fileTime, UInt64 fileLength, UInt64
+  bytesTotal, UInt64 bytesTransferred, UnicodeString proxy, UInt64 peerProtocolFlags,
+  UInt64 bytesTransferredFromPeer, UInt32 AdditionalInfoHr, UInt32 PeerContextInfo,
+  UInt64 bandwidthLimit, Boolean ignoreBandwidthLimitsOnLan)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: transferId
+- field_type: UnicodeString
+  field_name: name
+- field_type: GUID
+  field_name: Id
+- field_type: UnicodeString
+  field_name: url
+- field_type: UnicodeString
+  field_name: peer
+- field_type: UInt32
+  field_name: hr
+- field_type: FILETIME
+  field_name: fileTime
+- field_type: UInt64
+  field_name: fileLength
+- field_type: UInt64
+  field_name: bytesTotal
+- field_type: UInt64
+  field_name: bytesTransferred
+- field_type: UnicodeString
+  field_name: proxy
+- field_type: UInt64
+  field_name: peerProtocolFlags
+- field_type: UInt64
+  field_name: bytesTransferredFromPeer
+- field_type: UInt32
+  field_name: AdditionalInfoHr
+- field_type: UInt32
+  field_name: PeerContextInfo
+- field_type: UInt64
+  field_name: bandwidthLimit
+- field_type: Boolean
+  field_name: ignoreBandwidthLimitsOnLan

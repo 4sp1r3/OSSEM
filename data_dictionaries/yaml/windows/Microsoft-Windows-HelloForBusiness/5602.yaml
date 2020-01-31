@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '5602'
+version: '0'
+event(fields): ContainerDeletionInformational5602()
+opcode: Informational
+keywords: Internal
+task: ContainerDeletion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

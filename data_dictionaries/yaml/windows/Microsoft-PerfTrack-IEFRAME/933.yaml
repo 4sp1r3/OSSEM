@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '933'
+version: '0'
+event(fields): EUPP_HPNavigationTriggerProtection_PerftrackStop(UInt32 TriggerProtectionHResult)
+opcode: Stop
+keywords: nonPerfTrack
+task: EUPP_HPNavigationTriggerProtection_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TriggerProtectionHResult

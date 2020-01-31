@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '19'
+version: '0'
+event(fields): TASK_SWITCHStart()
+opcode: Start
+keywords: mediaplayer
+task: TASK_SWITCH
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

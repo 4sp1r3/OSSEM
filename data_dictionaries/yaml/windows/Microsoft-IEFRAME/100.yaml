@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '100'
+version: '0'
+event(fields): Frame_LinksBandCreateStart()
+opcode: Start
+keywords: primarynav
+task: Frame_LinksBandCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

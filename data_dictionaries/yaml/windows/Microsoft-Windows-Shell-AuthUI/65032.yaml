@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '65032'
+version: '0'
+event(fields): LockscreenNotifications_NotificationArrivedStart(UInt32 NotificationType,
+  UInt32 Operation, UnicodeString AppId)
+opcode: Start
+keywords: ''
+task: LockscreenNotifications_NotificationArrived
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NotificationType
+- field_type: UInt32
+  field_name: Operation
+- field_type: UnicodeString
+  field_name: AppId

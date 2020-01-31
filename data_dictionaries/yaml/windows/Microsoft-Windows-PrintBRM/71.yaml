@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '71'
+version: '0'
+event(fields): GeneraloperationPrintBRMoperationfailure71(UnicodeString ComputerName,
+  HexInt32 ErrorCode)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_BRM_KEYWORD
+task: Generaloperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ComputerName
+- field_type: HexInt32
+  field_name: ErrorCode

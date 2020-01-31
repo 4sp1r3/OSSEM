@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '44'
+version: '0'
+event(fields): IPS_MainStop()
+opcode: Stop
+keywords: ''
+task: IPS_Main
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

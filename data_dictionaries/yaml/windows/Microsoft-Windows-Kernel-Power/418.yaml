@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '418'
+version: '0'
+event(fields): PolicyChange(UInt32 SensorDisplayTimeout, UInt32 DisplayTimeout, UInt32
+  SensorInputTimeout, UInt32 InputTimeout, UInt32 SessionLockedTimeout, UInt32 SensorEnabled)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: PolicyChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SensorDisplayTimeout
+- field_type: UInt32
+  field_name: DisplayTimeout
+- field_type: UInt32
+  field_name: SensorInputTimeout
+- field_type: UInt32
+  field_name: InputTimeout
+- field_type: UInt32
+  field_name: SessionLockedTimeout
+- field_type: UInt32
+  field_name: SensorEnabled

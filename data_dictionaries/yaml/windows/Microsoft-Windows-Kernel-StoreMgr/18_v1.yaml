@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-StoreMgr
+event_id: '18'
+version: '1'
+event(fields): CacheTermination_V1(UInt8 Reason, HexInt32 FailStatus, UInt16 DeviceDescLength,
+  UnicodeString DeviceDescription, UInt16 ObjectPathLength, UnicodeString ObjectPath)
+opcode: ''
+keywords: StoreOps StoreDiag
+task: CacheTermination
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Reason
+- field_type: HexInt32
+  field_name: FailStatus
+- field_type: UInt16
+  field_name: DeviceDescLength
+- field_type: UnicodeString
+  field_name: DeviceDescription
+- field_type: UInt16
+  field_name: ObjectPathLength
+- field_type: UnicodeString
+  field_name: ObjectPath

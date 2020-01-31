@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-Machine-Core
+event_id: '5042'
+version: '0'
+event(fields): MandatoryTasksStop()
+opcode: Stop
+keywords: msoobe
+task: MandatoryTasks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

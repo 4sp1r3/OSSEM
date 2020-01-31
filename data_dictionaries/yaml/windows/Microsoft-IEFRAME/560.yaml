@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '560'
+version: '0'
+event(fields): Browseui_SelectTabTimerCreated(Int32 SelectTabAsyncTabID, UInt32 SelectTabAsyncFlags)
+opcode: ''
+keywords: ''
+task: Browseui_SelectTabTimerCreated
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: SelectTabAsyncTabID
+- field_type: UInt32
+  field_name: SelectTabAsyncFlags

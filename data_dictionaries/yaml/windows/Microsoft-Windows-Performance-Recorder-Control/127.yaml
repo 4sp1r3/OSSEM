@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Performance-Recorder-Control
+event_id: '127'
+version: '0'
+event(fields): Perf_SaveProfilesStop()
+opcode: Stop
+keywords: PerfStatus
+task: Perf_SaveProfiles
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

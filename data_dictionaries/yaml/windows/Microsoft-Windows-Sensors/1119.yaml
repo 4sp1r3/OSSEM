@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1119'
+version: '0'
+event(fields): SensorServicesettingquadrantangleinaggregatedsensorStart(Float QuadrantAngle)
+opcode: Start
+keywords: SensPerf
+task: SensorServicesettingquadrantangleinaggregatedsensor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: QuadrantAngle

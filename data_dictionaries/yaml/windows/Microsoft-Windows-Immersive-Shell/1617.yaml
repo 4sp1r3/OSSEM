@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1617'
+version: '0'
+event(fields): AppsFolder_DualModeVerbStart()
+opcode: Start
+keywords: ''
+task: AppsFolder_DualModeVerb
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

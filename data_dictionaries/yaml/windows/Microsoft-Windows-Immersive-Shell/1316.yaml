@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1316'
+version: '0'
+event(fields): LayoutCache_LayoutShownStop()
+opcode: Stop
+keywords: ''
+task: LayoutCache_LayoutShown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

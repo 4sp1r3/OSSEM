@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7457'
+version: '0'
+event(fields): ConnectedSearch_SetTracingData(UInt32 Result, UnicodeString ImpressionGUID)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_SetTracingData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ImpressionGUID

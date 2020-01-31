@@ -1,0 +1,59 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '225'
+version: '0'
+event(fields): task_0Information225(Pointer fid_Controller, UInt8 fid_HeaderVersion,
+  UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp,
+  UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle,
+  UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode,
+  UInt16 fid_HeaderDialogToken, UInt16 fid_NumberOfEndpoints, UInt8 fid_NumberOfDevices,
+  UInt8 fid_NumberOfStreams, UInt8 fid_DeviceType, UInt8 fid_DescriptorCount, UInt32
+  fid_DescriptorLength, UInt16 fid_MaxOutstandingTransferRequests, UInt16 fid_MaxOutstandingManagementRequests)
+opcode: Information
+keywords: MAUSBTraffic
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: UInt8
+  field_name: fid_HeaderVersion
+- field_type: UInt8
+  field_name: fid_HeaderFlagBitHost
+- field_type: UInt8
+  field_name: fid_HeaderFlagBitRetry
+- field_type: UInt8
+  field_name: fid_HeaderFlagBitTimeStamp
+- field_type: UInt8
+  field_name: fid_HeaderSubType
+- field_type: UInt8
+  field_name: fid_HeaderType
+- field_type: UInt16
+  field_name: fid_HeaderLength
+- field_type: UInt16
+  field_name: fid_HeaderDeviceHandle
+- field_type: UInt8
+  field_name: fid_HeaderDeviceAddress
+- field_type: UInt8
+  field_name: fid_HeaderSSID
+- field_type: UInt8
+  field_name: fid_HeaderStatusCode
+- field_type: UInt16
+  field_name: fid_HeaderDialogToken
+- field_type: UInt16
+  field_name: fid_NumberOfEndpoints
+- field_type: UInt8
+  field_name: fid_NumberOfDevices
+- field_type: UInt8
+  field_name: fid_NumberOfStreams
+- field_type: UInt8
+  field_name: fid_DeviceType
+- field_type: UInt8
+  field_name: fid_DescriptorCount
+- field_type: UInt32
+  field_name: fid_DescriptorLength
+- field_type: UInt16
+  field_name: fid_MaxOutstandingTransferRequests
+- field_type: UInt16
+  field_name: fid_MaxOutstandingManagementRequests

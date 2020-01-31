@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '28'
+version: '0'
+event(fields): task_028(UInt32 MessageCode)
+opcode: ''
+keywords: wpnplat wpntroubleshoot
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MessageCode

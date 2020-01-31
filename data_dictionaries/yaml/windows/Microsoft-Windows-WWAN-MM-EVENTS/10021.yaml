@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-MM-EVENTS
+event_id: '10021'
+version: '0'
+event(fields): WWANMMWritetoUCMspacetaskStart()
+opcode: Start
+keywords: ut:L2ConnectPath keyword_200000000000
+task: WWANMMWritetoUCMspacetask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

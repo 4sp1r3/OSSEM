@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-WDI
+event_id: '33'
+version: '0'
+event(fields): SEMScenarioLifecycleScenarioenddisablescontextproviderstotheWDIcontextlogger.(GUID
+  ProviderID, UInt16 EventID, UInt32 DroppedEventCount, UInt8 ActionCount, Int16 SemActions)
+opcode: ScenarioenddisablescontextproviderstotheWDIcontextlogger.
+keywords: context
+task: SEMScenarioLifecycle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderID
+- field_type: UInt16
+  field_name: EventID
+- field_type: UInt32
+  field_name: DroppedEventCount
+- field_type: UInt8
+  field_name: ActionCount
+- field_type: Int16
+  field_name: SemActions

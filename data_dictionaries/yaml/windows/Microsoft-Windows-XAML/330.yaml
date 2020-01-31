@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '330'
+version: '0'
+event(fields): CommitMainDeviceStop()
+opcode: Stop
+keywords: Rendering
+task: CommitMainDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27194'
+version: '0'
+event(fields): PerfTrack_FilterMenu_ListEnumeratesRangeStop()
+opcode: Stop
+keywords: Shell WDI
+task: PerfTrack_FilterMenu_ListEnumeratesRange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

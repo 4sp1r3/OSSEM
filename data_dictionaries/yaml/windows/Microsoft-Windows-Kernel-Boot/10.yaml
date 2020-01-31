@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '10'
+version: '0'
+event(fields): task_010(UInt64 FwStartPage, UInt64 FwPageCount, UInt32 FwMemoryType,
+  UInt32 FwMemoryAttributes, UInt64 BlStartPage, UInt64 BlPageCount, UInt32 BlMemoryType,
+  UInt32 BlMemoryAttributes)
+opcode: ''
+keywords: keyword_200000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: FwStartPage
+- field_type: UInt64
+  field_name: FwPageCount
+- field_type: UInt32
+  field_name: FwMemoryType
+- field_type: UInt32
+  field_name: FwMemoryAttributes
+- field_type: UInt64
+  field_name: BlStartPage
+- field_type: UInt64
+  field_name: BlPageCount
+- field_type: UInt32
+  field_name: BlMemoryType
+- field_type: UInt32
+  field_name: BlMemoryAttributes

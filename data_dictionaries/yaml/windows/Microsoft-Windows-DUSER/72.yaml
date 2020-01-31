@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DUSER
+event_id: '72'
+version: '0'
+event(fields): DUser_DestroySurface(Pointer pRegionSurface, Pointer pSurface)
+opcode: ''
+keywords: DUserSurface
+task: DUser_DestroySurface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pRegionSurface
+- field_type: Pointer
+  field_name: pSurface

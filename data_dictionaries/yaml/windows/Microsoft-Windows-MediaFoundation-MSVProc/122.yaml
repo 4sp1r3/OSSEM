@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '122'
+version: '0'
+event(fields): MSVideoProcessoftMFT_ConfigureOutputHDRMetadata(Pointer MSVProcObj,
+  Float RedPrimaryX, Float RedPrimaryY, Float GreenPrimaryX, Float GreenPrimaryY,
+  Float BluePrimaryX, Float BluePrimaryY, Float WhitePrimaryX, Float WhitePrimaryY,
+  UInt32 MaxLuminance, UInt32 MinLuminance)
+opcode: ''
+keywords: ''
+task: MSVideoProcessoftMFT_ConfigureOutputHDRMetadata
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MSVProcObj
+- field_type: Float
+  field_name: RedPrimaryX
+- field_type: Float
+  field_name: RedPrimaryY
+- field_type: Float
+  field_name: GreenPrimaryX
+- field_type: Float
+  field_name: GreenPrimaryY
+- field_type: Float
+  field_name: BluePrimaryX
+- field_type: Float
+  field_name: BluePrimaryY
+- field_type: Float
+  field_name: WhitePrimaryX
+- field_type: Float
+  field_name: WhitePrimaryY
+- field_type: UInt32
+  field_name: MaxLuminance
+- field_type: UInt32
+  field_name: MinLuminance

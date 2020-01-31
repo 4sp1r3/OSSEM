@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '341'
+version: '0'
+event(fields): DCompAddPrimitiveToRenderDataList(UInt64 Primitive, UInt64 PCRenderDataList)
+opcode: ''
+keywords: DComp
+task: DCompAddPrimitiveToRenderDataList
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Primitive
+- field_type: UInt64
+  field_name: PCRenderDataList

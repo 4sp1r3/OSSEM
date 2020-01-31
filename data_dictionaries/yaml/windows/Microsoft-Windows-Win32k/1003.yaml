@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Win32k
+event_id: '1003'
+version: '0'
+event(fields): task_01003(UInt32 PID, UInt32 MsSinceLastKeyEvent, UInt32 BackgroundCallCount)
+opcode: ''
+keywords: AuditApiCalls
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PID
+- field_type: UInt32
+  field_name: MsSinceLastKeyEvent
+- field_type: UInt32
+  field_name: BackgroundCallCount

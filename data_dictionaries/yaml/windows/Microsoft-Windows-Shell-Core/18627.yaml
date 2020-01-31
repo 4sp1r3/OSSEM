@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18627'
+version: '0'
+event(fields): Shell32_MountPoint_WMDeviceChange_MediaRemovalStart()
+opcode: Start
+keywords: Shell
+task: Shell32_MountPoint_WMDeviceChange_MediaRemoval
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

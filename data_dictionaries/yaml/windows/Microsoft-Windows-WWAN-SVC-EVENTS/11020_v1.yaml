@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '11020'
+version: '1'
+event(fields): task_0OID_Handling11020_V1(GUID InterfaceGuid, UInt32 RequestId, GUID
+  DeviceServiceGuid, UInt32 WwanDeviceServiceResponse, UInt32 Executors, UInt32 ActiveExecutors,
+  UInt32 ActiveDataExecutors)
+opcode: OID_Handling
+keywords: LwtDiagnostic WwanOid keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RequestId
+- field_type: GUID
+  field_name: DeviceServiceGuid
+- field_type: UInt32
+  field_name: WwanDeviceServiceResponse
+- field_type: UInt32
+  field_name: Executors
+- field_type: UInt32
+  field_name: ActiveExecutors
+- field_type: UInt32
+  field_name: ActiveDataExecutors

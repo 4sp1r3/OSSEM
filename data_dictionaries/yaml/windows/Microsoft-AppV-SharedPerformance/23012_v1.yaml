@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23012'
+version: '1'
+event(fields): PackagingRegistryReadStart_V1()
+opcode: Start
+keywords: ''
+task: PackagingRegistryRead
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

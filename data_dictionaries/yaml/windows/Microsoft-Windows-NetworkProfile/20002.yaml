@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NetworkProfile
+event_id: '20002'
+version: '0'
+event(fields): task_020002(GUID ProfileGuid, GUID InterfaceGuid, UInt32 Category,
+  Int32 ErrorCodev4, Int32 ErrorCodev6, UInt32 Context)
+opcode: ''
+keywords: LwtDiagnostic
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProfileGuid
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: Category
+- field_type: Int32
+  field_name: ErrorCodev4
+- field_type: Int32
+  field_name: ErrorCodev6
+- field_type: UInt32
+  field_name: Context

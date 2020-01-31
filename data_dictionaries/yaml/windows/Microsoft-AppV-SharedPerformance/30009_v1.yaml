@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30009'
+version: '1'
+event(fields): Unpublishing_3904Start_V1()
+opcode: Start
+keywords: ''
+task: Unpublishing_3904
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

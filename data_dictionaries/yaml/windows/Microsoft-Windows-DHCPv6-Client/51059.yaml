@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51059'
+version: '0'
+event(fields): ProtocolStateEventInvalidMessageDiscarded()
+opcode: InvalidMessageDiscarded
+keywords: ''
+task: ProtocolStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '171'
+version: '0'
+event(fields): Userauthentication171()
+opcode: ''
+keywords: Keyword.Client Keyword.Security
+task: Userauthentication
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

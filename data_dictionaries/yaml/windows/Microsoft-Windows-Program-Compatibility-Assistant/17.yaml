@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Program-Compatibility-Assistant
+event_id: '17'
+version: '0'
+event(fields): task_017(UnicodeString ExePath, UnicodeString ResolverName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExePath
+- field_type: UnicodeString
+  field_name: ResolverName

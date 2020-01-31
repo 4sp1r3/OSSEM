@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '379'
+version: '0'
+event(fields): task_0379(Int32 ExitCode, UnicodeString RequestId, UnicodeString Time,
+  UInt32 HttpStatus, UnicodeString ErrorCode, UnicodeString ErrorSubCode, UnicodeString
+  ServerErrorMessage, UnicodeString ServerResponse)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ExitCode
+- field_type: UnicodeString
+  field_name: RequestId
+- field_type: UnicodeString
+  field_name: Time
+- field_type: UInt32
+  field_name: HttpStatus
+- field_type: UnicodeString
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorSubCode
+- field_type: UnicodeString
+  field_name: ServerErrorMessage
+- field_type: UnicodeString
+  field_name: ServerResponse

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9904'
+version: '0'
+event(fields): ExplorerFrame_FirstPage_RealizeGroupPass1Stop(UnicodeString psz)
+opcode: Stop
+keywords: Shell
+task: ExplorerFrame_FirstPage_RealizeGroupPass1
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

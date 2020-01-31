@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '3009'
+version: '0'
+event(fields): ComCtl32_TaskDialog_OpenStart()
+opcode: Start
+keywords: Shell
+task: ComCtl32_TaskDialog_Open
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

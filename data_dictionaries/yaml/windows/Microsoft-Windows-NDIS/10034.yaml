@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10034'
+version: '0'
+event(fields): PnP10034(UInt32 ErrorCode, UInt32 Location, UInt32 Context, UnicodeString
+  DeviceName)
+opcode: ''
+keywords: PnP
+task: PnP
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context
+- field_type: UnicodeString
+  field_name: DeviceName

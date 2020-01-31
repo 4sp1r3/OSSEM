@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '266'
+version: '1'
+event(fields): IndependentFlip_V1(Pointer hContext, UInt32 SubmitSequence, UInt32
+  VidPnSourceId, Pointer FlipToAllocation, UInt32 FlipInterval, UInt32 PlaneIndex,
+  UInt32 SwapChainIndex, UInt64 CompositionSurfaceLuid, UInt64 BindId, UInt32 PresentCount,
+  UInt32 FlipTrueImmediate)
+opcode: ''
+keywords: Base
+task: IndependentFlip
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: SubmitSequence
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: Pointer
+  field_name: FlipToAllocation
+- field_type: UInt32
+  field_name: FlipInterval
+- field_type: UInt32
+  field_name: PlaneIndex
+- field_type: UInt32
+  field_name: SwapChainIndex
+- field_type: UInt64
+  field_name: CompositionSurfaceLuid
+- field_type: UInt64
+  field_name: BindId
+- field_type: UInt32
+  field_name: PresentCount
+- field_type: UInt32
+  field_name: FlipTrueImmediate

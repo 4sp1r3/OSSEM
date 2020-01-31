@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1864'
+version: '0'
+event(fields): TileNotifications_ImageDownloadFailed(UnicodeString AppID, UInt32 NotificationID)
+opcode: ''
+keywords: NotificationE2E
+task: TileNotifications_ImageDownloadFailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UInt32
+  field_name: NotificationID

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Spellchecking-Host
+event_id: '1'
+version: '0'
+event(fields): task_01(UnicodeString string, UInt32 hresult)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: string
+- field_type: UInt32
+  field_name: hresult

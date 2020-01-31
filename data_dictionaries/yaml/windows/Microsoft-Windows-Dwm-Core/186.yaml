@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '186'
+version: '0'
+event(fields): ETWGUID_DIRECTFLIP_CANDIDATERECORDEVENT(UInt64 hCompSurf)
+opcode: ''
+keywords: DwmCore
+task: ETWGUID_DIRECTFLIP_CANDIDATERECORDEVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hCompSurf

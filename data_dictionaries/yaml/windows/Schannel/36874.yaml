@@ -1,0 +1,13 @@
+provider: Schannel
+event_id: '36874'
+version: '0'
+event(fields): task_036874(UnicodeString Protocol)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Protocol

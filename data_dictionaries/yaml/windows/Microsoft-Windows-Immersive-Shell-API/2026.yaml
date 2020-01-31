@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2026'
+version: '0'
+event(fields): CoreApplicationLeavingBackgroundStart()
+opcode: Start
+keywords: ''
+task: CoreApplicationLeavingBackground
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

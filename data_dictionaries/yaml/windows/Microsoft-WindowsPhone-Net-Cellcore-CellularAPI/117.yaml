@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '117'
+version: '0'
+event(fields): CellularAPI117(UInt32 DwordName1, Int32 HResultName)
+opcode: ''
+keywords: Error
+task: CellularAPI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName1
+- field_type: Int32
+  field_name: HResultName

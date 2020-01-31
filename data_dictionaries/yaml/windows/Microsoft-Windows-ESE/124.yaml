@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ESE
+event_id: '124'
+version: '0'
+event(fields): ESE_EventLogWarn_Trace(UnicodeString szTrace)
+opcode: ''
+keywords: Trace
+task: ESE_EventLogWarn_Trace
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: szTrace

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18881'
+version: '0'
+event(fields): Shell32_DefView_CreateNewCollectionStart()
+opcode: Start
+keywords: Shell
+task: Shell32_DefView_CreateNewCollection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

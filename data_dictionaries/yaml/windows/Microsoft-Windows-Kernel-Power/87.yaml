@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '87'
+version: '0'
+event(fields): S4TripPointExceededDiagnostic(UInt16 ThermalZoneDeviceInstanceLength,
+  UnicodeString ThermalZoneDeviceInstance, FILETIME HibernateTime, UInt32 _HOT)
+opcode: ''
+keywords: po:Thermal
+task: S4TripPointExceededDiagnostic
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ThermalZoneDeviceInstanceLength
+- field_type: UnicodeString
+  field_name: ThermalZoneDeviceInstance
+- field_type: FILETIME
+  field_name: HibernateTime
+- field_type: UInt32
+  field_name: _HOT

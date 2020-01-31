@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '526'
+version: '0'
+event(fields): IntelliForms_Evaluate_AutoStuffStart()
+opcode: Start
+keywords: primarynav
+task: IntelliForms_Evaluate_AutoStuff
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

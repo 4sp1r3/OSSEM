@@ -1,0 +1,10 @@
+provider: Windows Kernel Trace
+category: '{ce1dbfb4-137e-4da6-87b0-3f59aa102cbc}'
+event_id: '51'
+version: '2'
+event(fields): SysCallEnter(UInt32 SysCallAddress)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: SysCallAddress

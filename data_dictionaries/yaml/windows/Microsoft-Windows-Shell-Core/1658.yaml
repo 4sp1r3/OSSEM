@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1658'
+version: '0'
+event(fields): ShellTask_ShellBrowser_CancelNavigationReportThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_ShellBrowser_CancelNavigationReportThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

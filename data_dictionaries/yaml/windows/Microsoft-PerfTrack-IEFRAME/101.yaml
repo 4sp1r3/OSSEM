@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '101'
+version: '0'
+event(fields): TabSwitch_NotAccountingForInputDelayStart(UInt64 HWND)
+opcode: Start
+keywords: ''
+task: TabSwitch_NotAccountingForInputDelay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: HWND

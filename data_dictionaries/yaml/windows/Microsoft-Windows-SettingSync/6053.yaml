@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6053'
+version: '0'
+event(fields): task_06053(UnicodeString CollectionId, FILETIME Timestamp, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: FILETIME
+  field_name: Timestamp
+- field_type: UInt32
+  field_name: HRESULT

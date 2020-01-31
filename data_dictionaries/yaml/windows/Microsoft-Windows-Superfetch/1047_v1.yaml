@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1047'
+version: '1'
+event(fields): PrelaunchWorkerStart_V1()
+opcode: Start
+keywords: PfAp
+task: PrelaunchWorker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

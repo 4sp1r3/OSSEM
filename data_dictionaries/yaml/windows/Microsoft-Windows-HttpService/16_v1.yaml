@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-HttpService
+event_id: '16'
+version: '1'
+event(fields): HTTPRequestTraceTaskSrvdFrmCache_V1(Pointer RequestObj, UInt32 SiteId,
+  UInt32 BytesSent, UInt64 RequestId, AnsiString Encoding)
+opcode: SrvdFrmCache
+keywords: HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_CACHE
+task: HTTPRequestTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestObj
+- field_type: UInt32
+  field_name: SiteId
+- field_type: UInt32
+  field_name: BytesSent
+- field_type: UInt64
+  field_name: RequestId
+- field_type: AnsiString
+  field_name: Encoding

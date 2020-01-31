@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '4057'
+version: '0'
+event(fields): task_04057(UInt32 IpAddrV4Length, UInt32 IpAddrV6Length, Binary SourceIpv6Address,
+  Binary DestinationIPv6Address, UInt32 SourceIPv4Address, UInt32 DestinationIPv4Address,
+  UInt16 SourcePort, UInt16 DestinationPort)
+opcode: ''
+keywords: teredo
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IpAddrV4Length
+- field_type: UInt32
+  field_name: IpAddrV6Length
+- field_type: Binary
+  field_name: SourceIpv6Address
+- field_type: Binary
+  field_name: DestinationIPv6Address
+- field_type: UInt32
+  field_name: SourceIPv4Address
+- field_type: UInt32
+  field_name: DestinationIPv4Address
+- field_type: UInt16
+  field_name: SourcePort
+- field_type: UInt16
+  field_name: DestinationPort

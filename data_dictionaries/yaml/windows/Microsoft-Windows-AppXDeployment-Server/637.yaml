@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '637'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment637(UnicodeString runningAppsList,
+  UnicodeString directlyServicedPackagesList, UnicodeString indirectlyServicedPackagesList,
+  UInt64 numAttempts, Boolean isSessionLocked)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD keyword_400000000000
+task: AppXDeployment.Task.Server.Deployment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: runningAppsList
+- field_type: UnicodeString
+  field_name: directlyServicedPackagesList
+- field_type: UnicodeString
+  field_name: indirectlyServicedPackagesList
+- field_type: UInt64
+  field_name: numAttempts
+- field_type: Boolean
+  field_name: isSessionLocked

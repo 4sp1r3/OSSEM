@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TPM-WMI
+event_id: '1026'
+version: '0'
+event(fields): task_01026(Int32 ErrorCode, HexInt32 StatusInformation)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ErrorCode
+- field_type: HexInt32
+  field_name: StatusInformation

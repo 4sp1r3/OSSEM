@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '6017'
+version: '0'
+event(fields): task_06017()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

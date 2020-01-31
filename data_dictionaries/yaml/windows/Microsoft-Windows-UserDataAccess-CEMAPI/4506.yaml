@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4506'
+version: '0'
+event(fields): OPENSTREAMPROPERTYStart()
+opcode: Start
+keywords: Performance
+task: OPENSTREAMPROPERTY
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

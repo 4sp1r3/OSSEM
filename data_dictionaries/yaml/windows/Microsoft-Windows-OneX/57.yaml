@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-OneX
+event_id: '57'
+version: '0'
+event(fields): User57(UInt32 PortId, UInt32 Reason, UInt32 SessionId)
+opcode: ''
+keywords: User LwtDiagnostic ut:Authentication
+task: User
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: SessionId

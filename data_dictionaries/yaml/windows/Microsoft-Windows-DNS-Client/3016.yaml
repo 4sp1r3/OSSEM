@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '3016'
+version: '0'
+event(fields): task_03016(UnicodeString QueryName, UInt32 QueryType, UInt64 QueryOptions,
+  UInt32 InterfaceIndex)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: QueryName
+- field_type: UInt32
+  field_name: QueryType
+- field_type: UInt64
+  field_name: QueryOptions
+- field_type: UInt32
+  field_name: InterfaceIndex

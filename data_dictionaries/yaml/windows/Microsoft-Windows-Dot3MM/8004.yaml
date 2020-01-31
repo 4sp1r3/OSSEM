@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dot3MM
+event_id: '8004'
+version: '0'
+event(fields): EnumerateStop()
+opcode: Stop
+keywords: ''
+task: Enumerate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

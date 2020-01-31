@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-ATAPort
+event_id: '219'
+version: '1'
+event(fields): PortCompletionofrequest.219_V1(Pointer Irp, UInt32 NumberOfChildren,
+  HexInt32 Status)
+opcode: Completionofrequest.
+keywords: PnP Enum
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt32
+  field_name: NumberOfChildren
+- field_type: HexInt32
+  field_name: Status

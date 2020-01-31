@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4479'
+version: '0'
+event(fields): WorkQueue:UpdateDeadlinesStop(Pointer WorkQueuePointer, UInt32 WorkQueueID,
+  UInt32 TaskID, Int64 PreviousDeadline, Int64 NextDeadline, Int32 lDelay_ms, Int32
+  lPreDelay_ms)
+opcode: Stop
+keywords: ''
+task: WorkQueue:UpdateDeadlines
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WorkQueuePointer
+- field_type: UInt32
+  field_name: WorkQueueID
+- field_type: UInt32
+  field_name: TaskID
+- field_type: Int64
+  field_name: PreviousDeadline
+- field_type: Int64
+  field_name: NextDeadline
+- field_type: Int32
+  field_name: lDelay_ms
+- field_type: Int32
+  field_name: lPreDelay_ms

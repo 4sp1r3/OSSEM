@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '7015'
+version: '0'
+event(fields): task_07015(UnicodeString PackageFullName, UnicodeString PackageRelativeApplicationId,
+  Int32 ApplicationIndex, UInt32 PropertyId, UnicodeString Value, UInt32 Type, HexInt32
+  ErrorCode, UnicodeString ErrorText)
+opcode: ''
+keywords: RUNTIME_DEH_KEYWORD
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: PackageRelativeApplicationId
+- field_type: Int32
+  field_name: ApplicationIndex
+- field_type: UInt32
+  field_name: PropertyId
+- field_type: UnicodeString
+  field_name: Value
+- field_type: UInt32
+  field_name: Type
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorText

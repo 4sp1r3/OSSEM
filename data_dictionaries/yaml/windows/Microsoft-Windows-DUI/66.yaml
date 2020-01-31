@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DUI
+event_id: '66'
+version: '0'
+event(fields): DirectUI_AnimationTrapStoryboardStop(UInt32 id, UInt32 type)
+opcode: Stop
+keywords: Default
+task: DirectUI_AnimationTrapStoryboard
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id
+- field_type: UInt32
+  field_name: type

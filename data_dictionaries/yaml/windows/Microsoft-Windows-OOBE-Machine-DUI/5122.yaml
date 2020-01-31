@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OOBE-Machine-DUI
+event_id: '5122'
+version: '0'
+event(fields): WirelessWizardPage_SectionReady(UnicodeString Text)
+opcode: ''
+keywords: msoobe
+task: WirelessWizardPage_SectionReady
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Text

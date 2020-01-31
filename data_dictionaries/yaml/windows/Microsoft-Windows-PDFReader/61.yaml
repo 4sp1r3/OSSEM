@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '61'
+version: '0'
+event(fields): ChangeLayoutStop()
+opcode: Stop
+keywords: Reader
+task: ChangeLayout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

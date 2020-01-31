@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '55009'
+version: '0'
+event(fields): CredentialProviderUser_EnumerateLocalAdminsStart()
+opcode: Start
+keywords: ''
+task: CredentialProviderUser_EnumerateLocalAdmins
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

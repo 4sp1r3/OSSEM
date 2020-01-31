@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8034'
+version: '1'
+event(fields): UserLogoffStart_V1(UnicodeString ustring)
+opcode: Start
+keywords: ''
+task: UserLogoff
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ustring

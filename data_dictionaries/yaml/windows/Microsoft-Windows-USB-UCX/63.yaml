@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-UCX
+event_id: '63'
+version: '0'
+event(fields): ENDPOINT_STATE_MACHINE_TRANSITIONInformation(Pointer fid_Endpoint,
+  Pointer fid_URB_PipeHandle, UInt32 fid_State, UInt32 fid_Event)
+opcode: Information
+keywords: StateMachine
+task: ENDPOINT_STATE_MACHINE_TRANSITION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Endpoint
+- field_type: Pointer
+  field_name: fid_URB_PipeHandle
+- field_type: UInt32
+  field_name: fid_State
+- field_type: UInt32
+  field_name: fid_Event

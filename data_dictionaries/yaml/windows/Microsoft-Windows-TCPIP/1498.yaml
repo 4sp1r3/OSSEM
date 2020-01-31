@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1498'
+version: '0'
+event(fields): IpFlUpdateAddressList(UInt32 IfIndex, UInt32 AddressFamily, UInt32
+  Status)
+opcode: ''
+keywords: keyword_80000000000
+task: IpFlUpdateAddressList
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: Status

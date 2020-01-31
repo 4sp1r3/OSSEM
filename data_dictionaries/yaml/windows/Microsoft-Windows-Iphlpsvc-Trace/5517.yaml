@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5517'
+version: '0'
+event(fields): task_05517(UnicodeString SiteUrl, UInt32 ErrorCode, UInt32 HttpStatus,
+  UInt64 Timestamp)
+opcode: ''
+keywords: damultisite
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SiteUrl
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: HttpStatus
+- field_type: UInt64
+  field_name: Timestamp

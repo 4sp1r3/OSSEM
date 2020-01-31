@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Provisioning-Diagnostics-Provider
+event_id: '94'
+version: '0'
+event(fields): task_094(HexInt32 HRESULT, UnicodeString Message1)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: UnicodeString
+  field_name: Message1

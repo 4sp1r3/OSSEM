@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '144'
+version: '0'
+event(fields): RemoteFXmodule_4EstablishConnection144()
+opcode: EstablishConnection
+keywords: ''
+task: RemoteFXmodule_4
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

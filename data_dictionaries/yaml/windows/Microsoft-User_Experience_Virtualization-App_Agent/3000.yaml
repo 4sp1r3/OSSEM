@@ -1,0 +1,17 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '3000'
+version: '0'
+event(fields): Packager_30AppAgent(UnicodeString String1, UInt32 Int1, UInt32 Int2)
+opcode: AppAgent
+keywords: ''
+task: Packager_30
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String1
+- field_type: UInt32
+  field_name: Int1
+- field_type: UInt32
+  field_name: Int2

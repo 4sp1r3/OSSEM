@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14028'
+version: '0'
+event(fields): task_014028(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UnicodeString OldProfileName, UnicodeString NewProfileName)
+opcode: ''
+keywords: IntfContext ut:Configuration
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UnicodeString
+  field_name: OldProfileName
+- field_type: UnicodeString
+  field_name: NewProfileName

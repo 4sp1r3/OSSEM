@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '306'
+version: '0'
+event(fields): MediaFoundationMFTEnumStop306(HexInt32 hr, UInt32 numMFTs, HexInt32
+  adapterVendorId, HexInt32 adapterDeviceId, HexInt32 adapterSubSysId, HexInt32 adapterRevision)
+opcode: Stop
+keywords: ''
+task: MediaFoundationMFTEnum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: hr
+- field_type: UInt32
+  field_name: numMFTs
+- field_type: HexInt32
+  field_name: adapterVendorId
+- field_type: HexInt32
+  field_name: adapterDeviceId
+- field_type: HexInt32
+  field_name: adapterSubSysId
+- field_type: HexInt32
+  field_name: adapterRevision

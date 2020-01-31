@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '73'
+version: '0'
+event(fields): USBTransferInformation73(Pointer fid_Controller, Pointer fid_UsbDevice,
+  Pointer fid_Endpoint, Pointer fid_UsbTransferRequest, UInt16 fid_EndpointHandle,
+  UInt32 fid_TransferType, UInt32 fid_TransferDirection, UInt8 fid_RequestId, UInt32
+  fid_SequenceNumber, UInt32 fid_MaUsbStatus)
+opcode: Information
+keywords: IRP MAUSBTraffic
+task: USBTransfer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Pointer
+  field_name: fid_Endpoint
+- field_type: Pointer
+  field_name: fid_UsbTransferRequest
+- field_type: UInt16
+  field_name: fid_EndpointHandle
+- field_type: UInt32
+  field_name: fid_TransferType
+- field_type: UInt32
+  field_name: fid_TransferDirection
+- field_type: UInt8
+  field_name: fid_RequestId
+- field_type: UInt32
+  field_name: fid_SequenceNumber
+- field_type: UInt32
+  field_name: fid_MaUsbStatus

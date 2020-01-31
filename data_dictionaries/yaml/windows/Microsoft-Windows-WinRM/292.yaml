@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WinRM
+event_id: '292'
+version: '0'
+event(fields): WSManAPIcall292(UnicodeString username, UInt32 errorCode, UInt32 maxAllowedConcurrentShells,
+  UInt32 maxAllowedConcurrentOperations, UInt32 timeslotSize, UInt32 maxAllowedOperationsPerTimeslot)
+opcode: ''
+keywords: Keyword.Server
+task: WSManAPIcall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: username
+- field_type: UInt32
+  field_name: errorCode
+- field_type: UInt32
+  field_name: maxAllowedConcurrentShells
+- field_type: UInt32
+  field_name: maxAllowedConcurrentOperations
+- field_type: UInt32
+  field_name: timeslotSize
+- field_type: UInt32
+  field_name: maxAllowedOperationsPerTimeslot

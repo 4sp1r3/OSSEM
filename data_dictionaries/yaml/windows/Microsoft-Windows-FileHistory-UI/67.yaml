@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '67'
+version: '0'
+event(fields): RestoreCompletedStop()
+opcode: Stop
+keywords: ''
+task: RestoreCompleted
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

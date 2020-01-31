@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '510'
+version: '0'
+event(fields): ServiceHostOpenStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: ServiceHost
+task: ServiceHostOpen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

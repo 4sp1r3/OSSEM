@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1513'
+version: '0'
+event(fields): ShellTask_FileFldr_GetFindDataThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_FileFldr_GetFindDataThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

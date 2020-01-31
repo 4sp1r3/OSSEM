@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '150'
+version: '0'
+event(fields): ShutdownTouchMonitorStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ShutdownTouchMonitor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1108'
+version: '0'
+event(fields): SensorServiceprocessingsensordatafororientation,pitchangletestresult(UInt32
+  IsPitchGreaterThanThreshold, Float PitchAngle, Float PitchThreshold, Float PitchCalibration)
+opcode: ''
+keywords: SensPerf
+task: SensorServiceprocessingsensordatafororientation,pitchangletestresult
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IsPitchGreaterThanThreshold
+- field_type: Float
+  field_name: PitchAngle
+- field_type: Float
+  field_name: PitchThreshold
+- field_type: Float
+  field_name: PitchCalibration

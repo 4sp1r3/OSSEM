@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '149'
+version: '0'
+event(fields): StateLockStop(Pointer CMFTAsyncSimpleBase_StateLock)
+opcode: Stop
+keywords: ''
+task: StateLock
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMFTAsyncSimpleBase_StateLock

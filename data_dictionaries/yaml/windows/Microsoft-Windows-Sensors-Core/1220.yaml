@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1220'
+version: '0'
+event(fields): SensorsHidReportParsingTask(Pointer WdfDevice, UInt8 ReportIdInReport)
+opcode: ''
+keywords: ''
+task: SensorsHidReportParsingTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: UInt8
+  field_name: ReportIdInReport

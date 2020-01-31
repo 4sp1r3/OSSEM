@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '308'
+version: '0'
+event(fields): AppReadiness_ExecuteTask308(UnicodeString User, UnicodeString PackageFamilyName,
+  UInt32 Source, Int32 Result)
+opcode: ''
+keywords: Tasks
+task: AppReadiness_ExecuteTask
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: PackageFamilyName
+- field_type: UInt32
+  field_name: Source
+- field_type: Int32
+  field_name: Result

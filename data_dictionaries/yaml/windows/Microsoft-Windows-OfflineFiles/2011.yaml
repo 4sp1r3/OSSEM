@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-OfflineFiles
+event_id: '2011'
+version: '0'
+event(fields): task_02011(UnicodeString SourcePath, UnicodeString TargetPath)
+opcode: ''
+keywords: CscEvtKeywd_ExcludedFileType
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SourcePath
+- field_type: UnicodeString
+  field_name: TargetPath

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10053'
+version: '0'
+event(fields): task_010053(Pointer ContextHandle, GUID AdapterGuid, Pointer Irp)
+opcode: ''
+keywords: AssocMgr ut:L2ConnectPath
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextHandle
+- field_type: GUID
+  field_name: AdapterGuid
+- field_type: Pointer
+  field_name: Irp

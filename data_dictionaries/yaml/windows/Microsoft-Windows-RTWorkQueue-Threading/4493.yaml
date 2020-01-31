@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4493'
+version: '0'
+event(fields): UpdateSelectWorkQueuesCpuGroupMaskStart(UInt64 ProcessorGroup, UInt64
+  ProcessorMask)
+opcode: Start
+keywords: ''
+task: UpdateSelectWorkQueuesCpuGroupMask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ProcessorGroup
+- field_type: UInt64
+  field_name: ProcessorMask

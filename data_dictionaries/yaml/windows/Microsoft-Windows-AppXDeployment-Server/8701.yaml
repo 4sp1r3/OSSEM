@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '8701'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Extensions8701()
+opcode: ''
+keywords: keyword_80000000000
+task: AppXDeployment.Task.Server.Extensions
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '12'
+version: '0'
+event(fields): ThemesOnLogonPreStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ThemesOnLogonPre
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

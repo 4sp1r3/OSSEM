@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Win32k
+event_id: '55'
+version: '0'
+event(fields): SwapChainBindingOpen(UInt64 hLogicalSurfSwapChainBinding, UInt64 luidAdapter,
+  UInt32 nWidth, UInt32 nHeight, UInt32 DxgiColorFormat, UInt64 hmonAssociation, UInt64
+  uiPresentLimitSemaphoreId, UInt32 cBuffers, Int64 BindingInfoHandle)
+opcode: ''
+keywords: Updates
+task: SwapChainBindingOpen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hLogicalSurfSwapChainBinding
+- field_type: UInt64
+  field_name: luidAdapter
+- field_type: UInt32
+  field_name: nWidth
+- field_type: UInt32
+  field_name: nHeight
+- field_type: UInt32
+  field_name: DxgiColorFormat
+- field_type: UInt64
+  field_name: hmonAssociation
+- field_type: UInt64
+  field_name: uiPresentLimitSemaphoreId
+- field_type: UInt32
+  field_name: cBuffers
+- field_type: Int64
+  field_name: BindingInfoHandle

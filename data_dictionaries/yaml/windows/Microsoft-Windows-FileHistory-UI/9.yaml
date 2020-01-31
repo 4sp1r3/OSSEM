@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '9'
+version: '0'
+event(fields): UpButtonNavigationStop()
+opcode: Stop
+keywords: ''
+task: UpButtonNavigation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

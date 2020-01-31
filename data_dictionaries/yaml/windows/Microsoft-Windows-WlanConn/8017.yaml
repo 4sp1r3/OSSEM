@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WlanConn
+event_id: '8017'
+version: '0'
+event(fields): Unsecure_Connect_No_ProfileStop()
+opcode: Stop
+keywords: ''
+task: Unsecure_Connect_No_Profile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1030'
+version: '0'
+event(fields): SensorsCxStartHistoryRetrievalTask(Pointer WdfDevice, Pointer SENSOROBJECT,
+  Pointer pHistoryCollection, UInt32 Size, UInt32 NtStatus)
+opcode: ''
+keywords: ''
+task: SensorsCxStartHistoryRetrievalTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: Pointer
+  field_name: SENSOROBJECT
+- field_type: Pointer
+  field_name: pHistoryCollection
+- field_type: UInt32
+  field_name: Size
+- field_type: UInt32
+  field_name: NtStatus

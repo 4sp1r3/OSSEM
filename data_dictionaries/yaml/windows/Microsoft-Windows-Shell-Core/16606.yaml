@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16606'
+version: '0'
+event(fields): FilePropertyStoreFactory_GetDesktopIniStoreStart()
+opcode: Start
+keywords: Properties
+task: FilePropertyStoreFactory_GetDesktopIniStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

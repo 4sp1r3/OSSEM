@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5501'
+version: '0'
+event(fields): task_05501(UInt32 SiteSelectionMethod, UnicodeString SiteName, UnicodeString
+  IphttpsProfileName, UInt32 TeredoServerIp, UInt32 AddrLength, Binary SiteIpv6Address,
+  UnicodeString AdSiteName, UnicodeString CorporateRanges)
+opcode: ''
+keywords: damultisite
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SiteSelectionMethod
+- field_type: UnicodeString
+  field_name: SiteName
+- field_type: UnicodeString
+  field_name: IphttpsProfileName
+- field_type: UInt32
+  field_name: TeredoServerIp
+- field_type: UInt32
+  field_name: AddrLength
+- field_type: Binary
+  field_name: SiteIpv6Address
+- field_type: UnicodeString
+  field_name: AdSiteName
+- field_type: UnicodeString
+  field_name: CorporateRanges

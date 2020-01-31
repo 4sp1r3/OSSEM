@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27213'
+version: '0'
+event(fields): PerfTrack_Shell32_CopyEngine_CancelDlgStart()
+opcode: Start
+keywords: Shell WDI
+task: PerfTrack_Shell32_CopyEngine_CancelDlg
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

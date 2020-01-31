@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20003'
+version: '0'
+event(fields): StartMenu_PinItemToMenuStart()
+opcode: Start
+keywords: Shell
+task: StartMenu_PinItemToMenu
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

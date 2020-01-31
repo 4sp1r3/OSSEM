@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '121'
+version: '0'
+event(fields): BatteryMeter_DismissFlyoutStart()
+opcode: Start
+keywords: BatteryMeter
+task: BatteryMeter_DismissFlyout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

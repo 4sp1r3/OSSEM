@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '60'
+version: '0'
+event(fields): SocketSendWritecomplete60(UInt32 asyncOperation, Pointer obj, UInt32
+  length)
+opcode: Writecomplete
+keywords: keywords.Socket
+task: SocketSend
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: asyncOperation
+- field_type: Pointer
+  field_name: obj
+- field_type: UInt32
+  field_name: length

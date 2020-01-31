@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '159'
+version: '0'
+event(fields): RemoveEnclavePagesStart(UInt64 BasePage, UInt64 PageCount)
+opcode: Start
+keywords: MemoryPreservation
+task: RemoveEnclavePages
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: BasePage
+- field_type: UInt64
+  field_name: PageCount

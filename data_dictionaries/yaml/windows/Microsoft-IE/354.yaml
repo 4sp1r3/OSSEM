@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '354'
+version: '0'
+event(fields): Mshtml_MediaElement_VolumeChangeStart354(UInt32 MediaElementId, Double
+  PositionInPercentage)
+opcode: Start
+keywords: subsystem mshtml
+task: Mshtml_MediaElement_VolumeChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaElementId
+- field_type: Double
+  field_name: PositionInPercentage

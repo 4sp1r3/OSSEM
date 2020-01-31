@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '3106'
+version: '0'
+event(fields): MediaDeliveryEngine_getthesourcemetadataStop(Pointer Object, UInt32
+  ErrorCode)
+opcode: Stop
+keywords: ''
+task: MediaDeliveryEngine_getthesourcemetadata
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: ErrorCode

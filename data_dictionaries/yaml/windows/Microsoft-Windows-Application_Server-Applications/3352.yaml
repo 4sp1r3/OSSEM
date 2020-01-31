@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3352'
+version: '0'
+event(fields): Connect3352(Int32 SocketId, UnicodeString Uri, UnicodeString AppDomain)
+opcode: ''
+keywords: TCP
+task: Connect
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: SocketId
+- field_type: UnicodeString
+  field_name: Uri
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ModernDeployment-Diagnostics-Provider
+event_id: '205'
+version: '0'
+event(fields): task_0205()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

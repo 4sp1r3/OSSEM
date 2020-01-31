@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60615'
+version: '0'
+event(fields): ItemsView_UICollection_OnCollectionEventStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: ItemsView_UICollection_OnCollectionEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

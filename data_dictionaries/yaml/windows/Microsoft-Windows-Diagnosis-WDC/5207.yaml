@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-WDC
+event_id: '5207'
+version: '0'
+event(fields): PerfTrack_ColumnSortStop(UInt32 TableId, UInt32 ColumnId)
+opcode: Stop
+keywords: ''
+task: PerfTrack_ColumnSort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TableId
+- field_type: UInt32
+  field_name: ColumnId

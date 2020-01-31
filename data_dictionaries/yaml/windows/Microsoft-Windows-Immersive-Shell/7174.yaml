@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7174'
+version: '0'
+event(fields): ConnectedSearch_DetailsViewVisibility(UInt32 Result, UnicodeString
+  ImpressionGUID, Boolean IsVisible)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_DetailsViewVisibility
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ImpressionGUID
+- field_type: Boolean
+  field_name: IsVisible

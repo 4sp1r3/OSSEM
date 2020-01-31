@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '543'
+version: '0'
+event(fields): TravelLogScreenshotNav_NewTab_NowReadyToSwitch()
+opcode: ''
+keywords: TravelLogScreenshotNav
+task: TravelLogScreenshotNav_NewTab_NowReadyToSwitch
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '143'
+version: '0'
+event(fields): MethodLoadVerbose(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress,
+  UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags, UnicodeString MethodNamespace,
+  UnicodeString MethodName, UnicodeString MethodSignature)
+opcode: LoadVerbose
+keywords: JitKeyword NGenKeyword
+task: Method
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MethodID
+- field_type: UInt64
+  field_name: ModuleID
+- field_type: UInt64
+  field_name: MethodStartAddress
+- field_type: UInt32
+  field_name: MethodSize
+- field_type: UInt32
+  field_name: MethodToken
+- field_type: UInt32
+  field_name: MethodFlags
+- field_type: UnicodeString
+  field_name: MethodNamespace
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: UnicodeString
+  field_name: MethodSignature

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1303'
+version: '0'
+event(fields): SensorAPIcalltogetsensordatareportStart(GUID SENSOR_ID)
+opcode: Start
+keywords: SensPerf
+task: SensorAPIcalltogetsensordatareport
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SENSOR_ID

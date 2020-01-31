@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '39'
+version: '0'
+event(fields): RuntimeMarker(UInt64 CPUFrequency, UInt64 FirstAPISequenceNumber, Pointer
+  pID3D12CommandList, UInt32 CPUTimeHigh, UInt8 ThreadIDCount, UInt32 ThreadIDs, UInt32
+  DataSize, UInt8 Data)
+opcode: ''
+keywords: RenderOperationMarkers
+task: RuntimeMarker
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CPUFrequency
+- field_type: UInt64
+  field_name: FirstAPISequenceNumber
+- field_type: Pointer
+  field_name: pID3D12CommandList
+- field_type: UInt32
+  field_name: CPUTimeHigh
+- field_type: UInt8
+  field_name: ThreadIDCount
+- field_type: UInt32
+  field_name: ThreadIDs
+- field_type: UInt32
+  field_name: DataSize
+- field_type: UInt8
+  field_name: Data

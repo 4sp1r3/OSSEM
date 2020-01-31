@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '222'
+version: '0'
+event(fields): SAPIOneCorePopulateAudio()
+opcode: ''
+keywords: PerfInstrumentation
+task: SAPIOneCorePopulateAudio
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

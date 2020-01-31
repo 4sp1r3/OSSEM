@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20903'
+version: '0'
+event(fields): UserTile_Store_CommitStop()
+opcode: Stop
+keywords: Shell
+task: UserTile_Store_Commit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '5'
+version: '0'
+event(fields): LogonTask_FirstLogonInitializationStop(UInt32 TaskHResultValue)
+opcode: Stop
+keywords: ''
+task: LogonTask_FirstLogonInitialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TaskHResultValue

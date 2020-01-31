@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-PDC
+event_id: '65'
+version: '0'
+event(fields): ExitFromConnectedStandbyEnd(UInt32 ResiliencyExitToLowPowerEpochEntry,
+  UInt32 ResiliencyExitToDAMEntry, UInt32 ResiliencyExitToPLMEntry, UInt32 PhaseTimesResiliencyAndResiliencyNotification,
+  UInt32 PhaseTimesLowPowerAndDam, UInt32 PhaseTimesPlmAndPresence, UInt32 PhaseTimesConnectionAndMaintenanceAndScreenOn,
+  UInt32 CsDuration)
+opcode: ''
+keywords: Cs CsDiag sleepstudy
+task: ExitFromConnectedStandbyEnd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ResiliencyExitToLowPowerEpochEntry
+- field_type: UInt32
+  field_name: ResiliencyExitToDAMEntry
+- field_type: UInt32
+  field_name: ResiliencyExitToPLMEntry
+- field_type: UInt32
+  field_name: PhaseTimesResiliencyAndResiliencyNotification
+- field_type: UInt32
+  field_name: PhaseTimesLowPowerAndDam
+- field_type: UInt32
+  field_name: PhaseTimesPlmAndPresence
+- field_type: UInt32
+  field_name: PhaseTimesConnectionAndMaintenanceAndScreenOn
+- field_type: UInt32
+  field_name: CsDuration

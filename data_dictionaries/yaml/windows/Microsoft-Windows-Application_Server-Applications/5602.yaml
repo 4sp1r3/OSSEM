@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '5602'
+version: '0'
+event(fields): FederationMessageCreation(UnicodeString HostReference, UnicodeString
+  AppDomain)
+opcode: ''
+keywords: Security
+task: FederationMessageCreation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

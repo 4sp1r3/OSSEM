@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '412'
+version: '0'
+event(fields): CTextRange_GetAttributeValueStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CTextRange_GetAttributeValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '51'
+version: '0'
+event(fields): ApipQueryThumbnailSourceSizeStart()
+opcode: Start
+keywords: DwmApi
+task: ApipQueryThumbnailSourceSize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '18'
+version: '0'
+event(fields): WorkerThreadStart(Pointer pDxgAdapter, UInt32 EventId)
+opcode: Start
+keywords: Base
+task: WorkerThread
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: EventId

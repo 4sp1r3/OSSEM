@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '61'
+version: '0'
+event(fields): Service_OnBatterySaver(UnicodeString Environment, Boolean State)
+opcode: ''
+keywords: Service
+task: Service_OnBatterySaver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: Boolean
+  field_name: State

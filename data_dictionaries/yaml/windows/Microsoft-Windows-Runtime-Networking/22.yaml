@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '22'
+version: '0'
+event(fields): WebSocketConnectHTTPoperation22(Pointer obj, UnicodeString statusDescription)
+opcode: HTTPoperation
+keywords: keywords.Http
+task: WebSocketConnect
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: obj
+- field_type: UnicodeString
+  field_name: statusDescription

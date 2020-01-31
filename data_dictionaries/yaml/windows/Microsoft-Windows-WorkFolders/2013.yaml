@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '2013'
+version: '0'
+event(fields): task_02013(Boolean ConcurrencyConflict, UnicodeString SourceItemName,
+  GUID SourceSyncGID, UnicodeString DestinationItemName, GUID DestinationSyncGID,
+  UnicodeString DataWinner, UnicodeString NamespaceWinner, UnicodeString AttributesWinner,
+  UnicodeString TieBreakerWinner)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: ConcurrencyConflict
+- field_type: UnicodeString
+  field_name: SourceItemName
+- field_type: GUID
+  field_name: SourceSyncGID
+- field_type: UnicodeString
+  field_name: DestinationItemName
+- field_type: GUID
+  field_name: DestinationSyncGID
+- field_type: UnicodeString
+  field_name: DataWinner
+- field_type: UnicodeString
+  field_name: NamespaceWinner
+- field_type: UnicodeString
+  field_name: AttributesWinner
+- field_type: UnicodeString
+  field_name: TieBreakerWinner

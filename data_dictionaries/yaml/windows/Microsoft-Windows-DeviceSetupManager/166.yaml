@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '166'
+version: '0'
+event(fields): task_0166(UnicodeString Prop_DeviceInstanceId, UnicodeString Prop_SoftwareLinks)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_DeviceInstanceId
+- field_type: UnicodeString
+  field_name: Prop_SoftwareLinks

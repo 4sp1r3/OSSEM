@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '1014'
+version: '0'
+event(fields): DnsAllServersTimeoutSystem(UnicodeString QueryName, UInt32 AddressLength,
+  Binary Address)
+opcode: ''
+keywords: ut:DnsAutoLogKeyword
+task: DnsAllServersTimeoutSystem
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: QueryName
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: Binary
+  field_name: Address

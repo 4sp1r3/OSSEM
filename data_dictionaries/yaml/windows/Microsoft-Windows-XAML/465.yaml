@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-XAML
+event_id: '465'
+version: '0'
+event(fields): TickPausedAnimation(UInt64 TargetId, UnicodeString TargetName, UnicodeString
+  TargetProperty)
+opcode: ''
+keywords: Animation
+task: TickPausedAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TargetId
+- field_type: UnicodeString
+  field_name: TargetName
+- field_type: UnicodeString
+  field_name: TargetProperty

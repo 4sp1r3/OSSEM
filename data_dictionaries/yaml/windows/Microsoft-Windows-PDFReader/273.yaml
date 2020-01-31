@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '273'
+version: '0'
+event(fields): CreateWindowStart()
+opcode: Start
+keywords: Reader
+task: CreateWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

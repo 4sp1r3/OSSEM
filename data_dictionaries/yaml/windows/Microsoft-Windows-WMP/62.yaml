@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '62'
+version: '0'
+event(fields): PARSE_CMD_LINEStart(UnicodeString CmdLine)
+opcode: Start
+keywords: mediaplayer
+task: PARSE_CMD_LINE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CmdLine

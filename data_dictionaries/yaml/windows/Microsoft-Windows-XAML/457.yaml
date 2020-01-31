@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '457'
+version: '0'
+event(fields): ThemeChangedStart()
+opcode: Start
+keywords: Core
+task: ThemeChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

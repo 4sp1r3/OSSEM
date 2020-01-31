@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1244'
+version: '0'
+event(fields): ForegroundTaskManagerIsTaskBeingDebuggedStart(UInt32 unParam)
+opcode: Start
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerIsTaskBeingDebugged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

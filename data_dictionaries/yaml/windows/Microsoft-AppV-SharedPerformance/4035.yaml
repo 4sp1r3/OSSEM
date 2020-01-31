@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4035'
+version: '0'
+event(fields): Enable_AppvClientConnectionGroupStop()
+opcode: Stop
+keywords: ''
+task: Enable_AppvClientConnectionGroup
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

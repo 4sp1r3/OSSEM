@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Magnification
+event_id: '9'
+version: '0'
+event(fields): UpdateRedirectionSurfacesStart(UInt64 hWndLensCtx, UInt64 UpdateId)
+opcode: Start
+keywords: Magnification
+task: UpdateRedirectionSurfaces
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hWndLensCtx
+- field_type: UInt64
+  field_name: UpdateId

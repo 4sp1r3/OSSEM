@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '1030'
+version: '0'
+event(fields): task_01030(UnicodeString ProfileName, GUID InterfaceGuid, UnicodeString
+  ProfileUpdatedorDeleted)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: ProfileUpdatedorDeleted

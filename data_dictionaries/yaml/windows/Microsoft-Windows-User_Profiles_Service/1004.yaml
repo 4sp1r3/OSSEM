@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-User Profiles Service
+event_id: '1004'
+version: '0'
+event(fields): task_01004(UInt32 MeasuredBandwidth, UInt32 BandwidthThreshold)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MeasuredBandwidth
+- field_type: UInt32
+  field_name: BandwidthThreshold

@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '15'
+version: '0'
+event(fields): DeviceInformation(UInt16 fid_USBPORT_HC, Double fid_USBPORT_Device,
+  SID fid_USBPORT_Device_Descriptor, UnicodeString fid_USBPORT_Device_Driver_Name,
+  UInt32 fid_USBPORT_Device_Idle_State, UnicodeString fid_USBPORT_Device_Pdo_Name)
+opcode: Information
+keywords: Diagnostic PowerDiagnostics
+task: Device
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: fid_USBPORT_HC
+- field_type: Double
+  field_name: fid_USBPORT_Device
+- field_type: SID
+  field_name: fid_USBPORT_Device_Descriptor
+- field_type: UnicodeString
+  field_name: fid_USBPORT_Device_Driver_Name
+- field_type: UInt32
+  field_name: fid_USBPORT_Device_Idle_State
+- field_type: UnicodeString
+  field_name: fid_USBPORT_Device_Pdo_Name

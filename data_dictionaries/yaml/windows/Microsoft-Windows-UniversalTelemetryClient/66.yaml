@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '66'
+version: '0'
+event(fields): Service_OptInApiEventlog_Info(UInt32 OldLevel, UInt32 NewLevel, UnicodeString
+  Source)
+opcode: ''
+keywords: Upload
+task: Service_OptInApiEventlog_Info
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OldLevel
+- field_type: UInt32
+  field_name: NewLevel
+- field_type: UnicodeString
+  field_name: Source

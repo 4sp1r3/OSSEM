@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '23'
+version: '0'
+event(fields): RestorePrintBRMoperationsuccess23(UnicodeString DriverName, UnicodeString
+  Architecture)
+opcode: PrintBRMoperationsuccess
+keywords: PRINT_DRIVER_KEYWORD
+task: Restore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UnicodeString
+  field_name: Architecture

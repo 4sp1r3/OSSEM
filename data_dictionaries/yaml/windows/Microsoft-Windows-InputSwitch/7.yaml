@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-InputSwitch
+event_id: '7'
+version: '0'
+event(fields): HideInputSwitchStart()
+opcode: Start
+keywords: Perf InputSwitch_Keyword
+task: HideInputSwitch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '35010'
+version: '0'
+event(fields): CredUI_ModernDialog_CreatedStart()
+opcode: Start
+keywords: ''
+task: CredUI_ModernDialog_Created
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

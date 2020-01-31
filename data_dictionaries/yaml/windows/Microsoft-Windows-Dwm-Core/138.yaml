@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '138'
+version: '0'
+event(fields): SCHEDULE_NEW_EFFECTIVE_REFRESH_PERIOD(UInt32 DisplayID, Float OldEffectivePeriod,
+  Float NewEffectivePeriod)
+opcode: ''
+keywords: DwmCore DwmFrameRate
+task: SCHEDULE_NEW_EFFECTIVE_REFRESH_PERIOD
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DisplayID
+- field_type: Float
+  field_name: OldEffectivePeriod
+- field_type: Float
+  field_name: NewEffectivePeriod

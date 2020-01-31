@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '280'
+version: '0'
+event(fields): VidMmUnmapViewAsyncStop(Pointer EProcess, Pointer Section, Pointer
+  VirtualAddress)
+opcode: Stop
+keywords: Base
+task: VidMmUnmapViewAsync
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: EProcess
+- field_type: Pointer
+  field_name: Section
+- field_type: Pointer
+  field_name: VirtualAddress

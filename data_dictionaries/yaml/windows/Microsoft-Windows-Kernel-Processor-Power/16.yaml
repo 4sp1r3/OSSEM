@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '16'
+version: '0'
+event(fields): PerfCheckStop(UInt64 PpmCheckTime)
+opcode: Stop
+keywords: Diag
+task: PerfCheck
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PpmCheckTime

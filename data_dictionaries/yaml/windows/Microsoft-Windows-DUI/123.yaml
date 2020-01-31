@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '123'
+version: '0'
+event(fields): DirectUI_TouchScrollViewer_TileManagement123()
+opcode: ''
+keywords: Default
+task: DirectUI_TouchScrollViewer_TileManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

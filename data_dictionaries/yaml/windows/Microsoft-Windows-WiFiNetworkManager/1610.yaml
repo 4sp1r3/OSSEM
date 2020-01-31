@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1610'
+version: '0'
+event(fields): task_01610(UInt32 AllNetworks, UInt32 ConnNetworks, UInt32 dwGblFlags,
+  UInt32 dwMngFlags, UInt32 dwUserFlags, UInt32 dwWPSFlags)
+opcode: ''
+keywords: ScnEvt
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AllNetworks
+- field_type: UInt32
+  field_name: ConnNetworks
+- field_type: UInt32
+  field_name: dwGblFlags
+- field_type: UInt32
+  field_name: dwMngFlags
+- field_type: UInt32
+  field_name: dwUserFlags
+- field_type: UInt32
+  field_name: dwWPSFlags

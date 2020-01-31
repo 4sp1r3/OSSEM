@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EQoS
+event_id: '100'
+version: '0'
+event(fields): task_0100()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

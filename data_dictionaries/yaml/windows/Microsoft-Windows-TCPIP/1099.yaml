@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1099'
+version: '0'
+event(fields): TcpConnectionOffloadStateChange(UInt32 TcbState, UInt32 OcbState, UInt32
+  SndNxt, UInt32 RcvNxt, Pointer Tcb, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipTcb ut:TcpipDiagnosis ut:Endpoint
+task: TcpConnectionOffloadStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TcbState
+- field_type: UInt32
+  field_name: OcbState
+- field_type: UInt32
+  field_name: SndNxt
+- field_type: UInt32
+  field_name: RcvNxt
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Status

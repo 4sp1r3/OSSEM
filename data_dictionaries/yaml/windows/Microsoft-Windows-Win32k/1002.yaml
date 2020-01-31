@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Win32k
+event_id: '1002'
+version: '0'
+event(fields): task_01002(UInt32 FilterType, UnicodeString pstrLib, Pointer hmod,
+  Pointer pfnFilterProc, UInt32 ReturnValue)
+opcode: ''
+keywords: AuditApiCalls
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FilterType
+- field_type: UnicodeString
+  field_name: pstrLib
+- field_type: Pointer
+  field_name: hmod
+- field_type: Pointer
+  field_name: pfnFilterProc
+- field_type: UInt32
+  field_name: ReturnValue

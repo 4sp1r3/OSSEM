@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '90'
+version: '0'
+event(fields): X509Objects(UnicodeString EventWriteData)
+opcode: ''
+keywords: CertificateDetails
+task: X509Objects
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventWriteData

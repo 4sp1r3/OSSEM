@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '216'
+version: '0'
+event(fields): IDXGIFactory_GetWindowAssociationStart(Pointer pThis, UInt64 phWnd)
+opcode: Start
+keywords: ''
+task: IDXGIFactory_GetWindowAssociation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt64
+  field_name: phWnd

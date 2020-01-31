@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '20001'
+version: '0'
+event(fields): task_020001(UInt8 CurrentOrNextState, UInt32 Context)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: CurrentOrNextState
+- field_type: UInt32
+  field_name: Context

@@ -1,0 +1,23 @@
+provider: Windows Kernel Trace
+category: '{bf3a50c5-a9c9-4988-a005-2df0b7c80f80}'
+event_id: '11'
+version: '0'
+event(fields): UdpIp_V0_TypeGroup1(UInt32 context, Object saddr, Object sport, UInt16
+  size, Object daddr, Object dport, UInt16 dsize)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: context
+- field_type: Object
+  field_name: saddr
+- field_type: Object
+  field_name: sport
+- field_type: UInt16
+  field_name: size
+- field_type: Object
+  field_name: daddr
+- field_type: Object
+  field_name: dport
+- field_type: UInt16
+  field_name: dsize

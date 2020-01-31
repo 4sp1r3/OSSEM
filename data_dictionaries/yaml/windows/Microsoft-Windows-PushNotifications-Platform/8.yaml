@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '8'
+version: '0'
+event(fields): SwitchPrivilegeStart(UInt32 NewPrivilege)
+opcode: Start
+keywords: wpnplat
+task: SwitchPrivilege
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NewPrivilege

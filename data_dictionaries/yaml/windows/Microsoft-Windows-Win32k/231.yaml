@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '231'
+version: '0'
+event(fields): DitTerminated()
+opcode: ''
+keywords: MessagePumpInternalAndInput ComponentHosting
+task: DitTerminated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

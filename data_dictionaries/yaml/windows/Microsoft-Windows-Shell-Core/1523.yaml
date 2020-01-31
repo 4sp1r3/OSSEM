@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1523'
+version: '0'
+event(fields): ShellTask_Desktop_LocalServerThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_Desktop_LocalServerThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

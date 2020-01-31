@@ -1,0 +1,22 @@
+provider: WINSATAPI_ETW_PROVIDER
+event_id: '7'
+version: '0'
+event(fields): Application7(HexInt32 FailingHresult, UInt16 ErrorMsgSize, UnicodeString
+  ErrorMsg, UInt16 CantMsgSize, UnicodeString CantMsg)
+opcode: ''
+keywords: ''
+task: Application
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: FailingHresult
+- field_type: UInt16
+  field_name: ErrorMsgSize
+- field_type: UnicodeString
+  field_name: ErrorMsg
+- field_type: UInt16
+  field_name: CantMsgSize
+- field_type: UnicodeString
+  field_name: CantMsg

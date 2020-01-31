@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '263'
+version: '0'
+event(fields): MFCaptureEngine_SourceInfoTask(Pointer SourcePointer, UInt32 SourceStreamIndex,
+  UInt32 StreamType)
+opcode: ''
+keywords: ''
+task: MFCaptureEngine_SourceInfoTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SourcePointer
+- field_type: UInt32
+  field_name: SourceStreamIndex
+- field_type: UInt32
+  field_name: StreamType

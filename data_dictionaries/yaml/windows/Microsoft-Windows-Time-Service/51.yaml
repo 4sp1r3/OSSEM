@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '51'
+version: '0'
+event(fields): task_051(UnicodeString Peer, UnicodeString TimeDifferenceSeconds, UInt32
+  TransmissionDelayMilliseconds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Peer
+- field_type: UnicodeString
+  field_name: TimeDifferenceSeconds
+- field_type: UInt32
+  field_name: TransmissionDelayMilliseconds

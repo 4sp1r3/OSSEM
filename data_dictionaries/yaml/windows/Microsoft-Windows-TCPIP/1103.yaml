@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1103'
+version: '0'
+event(fields): TcpZeroWindowProbingEnd(Pointer Tcb, UInt32 SndUna, UInt32 SndMax)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:SendPath
+task: TcpZeroWindowProbingEnd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: SndUna
+- field_type: UInt32
+  field_name: SndMax

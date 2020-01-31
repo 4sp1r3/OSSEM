@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6006'
+version: '0'
+event(fields): GetConnectionGroupsStart()
+opcode: Start
+keywords: ''
+task: GetConnectionGroups
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

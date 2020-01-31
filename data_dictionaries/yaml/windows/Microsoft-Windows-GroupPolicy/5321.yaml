@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '5321'
+version: '0'
+event(fields): task_05321(UnicodeString InfoDescription, UnicodeString OperationParameter1)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InfoDescription
+- field_type: UnicodeString
+  field_name: OperationParameter1

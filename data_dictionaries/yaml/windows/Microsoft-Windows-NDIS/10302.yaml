@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10302'
+version: '0'
+event(fields): Power10302(UInt32 NetLuidIndex, UInt32 ResumeReason)
+opcode: ''
+keywords: Power
+task: Power
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NetLuidIndex
+- field_type: UInt32
+  field_name: ResumeReason

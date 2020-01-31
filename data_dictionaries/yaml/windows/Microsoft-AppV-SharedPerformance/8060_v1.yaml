@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8060'
+version: '1'
+event(fields): TransactionExecuteStart_V1()
+opcode: Start
+keywords: ''
+task: TransactionExecute
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

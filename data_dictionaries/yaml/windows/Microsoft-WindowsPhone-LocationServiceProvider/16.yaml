@@ -1,0 +1,24 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '16'
+version: '0'
+event(fields): task_016(UInt32 HR, UnicodeString CustomMessage, AnsiString Function,
+  AnsiString CallingCode, AnsiString Filename, UInt32 Line)
+opcode: ''
+keywords: Error Selfhost
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HR
+- field_type: UnicodeString
+  field_name: CustomMessage
+- field_type: AnsiString
+  field_name: Function
+- field_type: AnsiString
+  field_name: CallingCode
+- field_type: AnsiString
+  field_name: Filename
+- field_type: UInt32
+  field_name: Line

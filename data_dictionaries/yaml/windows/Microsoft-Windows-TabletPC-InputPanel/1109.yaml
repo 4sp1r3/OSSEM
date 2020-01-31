@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '1109'
+version: '0'
+event(fields): Handwriting_Insert_Key_Pressed()
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: Handwriting_Insert_Key_Pressed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

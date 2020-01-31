@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4024'
+version: '0'
+event(fields): CorporateConnectivityDetectionStop4024(GUID InterfaceGuid)
+opcode: Stop
+keywords: LwtDiagnostic keyword_200000000000
+task: CorporateConnectivityDetection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

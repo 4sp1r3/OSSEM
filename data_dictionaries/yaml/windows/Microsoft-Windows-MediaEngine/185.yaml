@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '185'
+version: '0'
+event(fields): MediaFoundationME_GetCurrentTimeStart(Pointer object)
+opcode: Start
+keywords: ''
+task: MediaFoundationME_GetCurrentTime
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

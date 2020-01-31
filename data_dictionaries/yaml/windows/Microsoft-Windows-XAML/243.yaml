@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '243'
+version: '0'
+event(fields): RenderThreadLogTimeToNextWork(UInt32 TimeToNextWorkInMilliseconds)
+opcode: ''
+keywords: Rendering
+task: RenderThreadLogTimeToNextWork
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimeToNextWorkInMilliseconds

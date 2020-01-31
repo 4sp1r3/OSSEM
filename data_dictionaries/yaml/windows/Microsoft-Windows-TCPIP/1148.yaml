@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1148'
+version: '0'
+event(fields): IpNeighborUnreachable(UInt32 Interface, UInt32 DlAddrLength, Binary
+  DlAddress, UInt32 IpAddrLength, UInt32 IPv4Address, Binary IPv6Address, UInt32 IPProtocol)
+opcode: ''
+keywords: ut:TcpipRoute ut:TcpipDiagnosis
+task: IpNeighborUnreachable
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: DlAddrLength
+- field_type: Binary
+  field_name: DlAddress
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: UInt32
+  field_name: IPv4Address
+- field_type: Binary
+  field_name: IPv6Address
+- field_type: UInt32
+  field_name: IPProtocol

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Backup
+event_id: '519'
+version: '0'
+event(fields): task_0519(FILETIME BackupTime, UnicodeString FailedVolumeNames, UInt32
+  ErrorCode, UnicodeString ErrorMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: BackupTime
+- field_type: UnicodeString
+  field_name: FailedVolumeNames
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

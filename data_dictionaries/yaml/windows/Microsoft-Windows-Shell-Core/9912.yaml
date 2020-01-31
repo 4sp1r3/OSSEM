@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9912'
+version: '0'
+event(fields): Shell32_ObservableCollection_OnGetCountDone()
+opcode: ''
+keywords: Shell
+task: Shell32_ObservableCollection_OnGetCountDone
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

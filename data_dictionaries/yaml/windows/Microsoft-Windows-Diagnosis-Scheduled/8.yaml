@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-Scheduled
+event_id: '8'
+version: '0'
+event(fields): task_08(UnicodeString PackageID, Int32 RootCauseCount)
+opcode: ''
+keywords: lifecycle
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageID
+- field_type: Int32
+  field_name: RootCauseCount

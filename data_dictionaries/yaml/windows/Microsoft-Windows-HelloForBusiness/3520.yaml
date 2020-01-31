@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '3520'
+version: '0'
+event(fields): DeviceUnlockStart(UnicodeString DeviceUnlockProvider, UnicodeString
+  DeviceUnlockGroupA, UnicodeString DeviceUnlockGroupB)
+opcode: Start
+keywords: Internal
+task: DeviceUnlock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceUnlockProvider
+- field_type: UnicodeString
+  field_name: DeviceUnlockGroupA
+- field_type: UnicodeString
+  field_name: DeviceUnlockGroupB

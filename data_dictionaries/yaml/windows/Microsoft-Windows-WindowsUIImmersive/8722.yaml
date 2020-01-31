@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WindowsUIImmersive
+event_id: '8722'
+version: '0'
+event(fields): PopupLightDismiss(Pointer HWND, UInt32 DismissReason)
+opcode: ''
+keywords: ''
+task: PopupLightDismiss
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HWND
+- field_type: UInt32
+  field_name: DismissReason

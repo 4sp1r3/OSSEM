@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SENSE
+event_id: '84'
+version: '0'
+event(fields): task_084(Boolean forcePassiveMode, HexInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: forcePassiveMode
+- field_type: HexInt32
+  field_name: HRESULT

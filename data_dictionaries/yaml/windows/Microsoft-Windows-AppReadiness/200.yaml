@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '200'
+version: '0'
+event(fields): AppReadiness_User_ProcessTasksStart(UnicodeString User)
+opcode: Start
+keywords: User
+task: AppReadiness_User_ProcessTasks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User

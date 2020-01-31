@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TunnelDriver
+event_id: '1024'
+version: '0'
+event(fields): task_01024(UInt32 TunnelType, UInt32 TunnelInterfaceIndex, UInt32 IPv4Address,
+  UInt32 YesorNo, UInt32 InterfaceIndex)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TunnelType
+- field_type: UInt32
+  field_name: TunnelInterfaceIndex
+- field_type: UInt32
+  field_name: IPv4Address
+- field_type: UInt32
+  field_name: YesorNo
+- field_type: UInt32
+  field_name: InterfaceIndex

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '195'
+version: '0'
+event(fields): DocViewAnimation195()
+opcode: ''
+keywords: Reader
+task: DocViewAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

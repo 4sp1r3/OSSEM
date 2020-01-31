@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '194'
+version: '0'
+event(fields): RemoteFXmodule_4Runtime194()
+opcode: Runtime
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '12'
+version: '0'
+event(fields): task_012(UInt32 ErrorCode)
+opcode: ''
+keywords: Process
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

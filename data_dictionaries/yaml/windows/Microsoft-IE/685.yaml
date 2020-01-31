@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '685'
+version: '0'
+event(fields): Mshtml_CDMDraggableTouchTargetHandler_OnDragInitiated(Pointer CElement,
+  Pointer CDMDraggableTouchTargetHandler)
+opcode: ''
+keywords: draganddrop touch
+task: Mshtml_CDMDraggableTouchTargetHandler_OnDragInitiated
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CElement
+- field_type: Pointer
+  field_name: CDMDraggableTouchTargetHandler

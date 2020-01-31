@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TerminalServices-ServerUSBDevices
+event_id: '32'
+version: '0'
+event(fields): task_032(Pointer objectPointer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objectPointer

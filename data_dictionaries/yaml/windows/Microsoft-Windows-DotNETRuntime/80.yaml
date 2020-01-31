@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '80'
+version: '0'
+event(fields): ExceptionStart()
+opcode: Start
+keywords: ''
+task: Exception
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

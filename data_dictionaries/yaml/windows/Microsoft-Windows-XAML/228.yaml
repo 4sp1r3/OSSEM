@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '228'
+version: '0'
+event(fields): PresentControllerShouldProduceMultipleFramesPerVBlank(UInt64 ControllerId)
+opcode: ''
+keywords: Rendering
+task: PresentControllerShouldProduceMultipleFramesPerVBlank
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ControllerId

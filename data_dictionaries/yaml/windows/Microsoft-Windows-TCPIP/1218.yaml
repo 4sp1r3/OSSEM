@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1218'
+version: '0'
+event(fields): TcpMppStopEpisode(UInt32 LowNppEventState, UInt32 HighNppEventState,
+  UInt64 EpisodeStartTick, UInt64 EpisodeStopTick, UInt32 ReentryWatermark)
+opcode: ''
+keywords: ut:Global
+task: TcpMppStopEpisode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LowNppEventState
+- field_type: UInt32
+  field_name: HighNppEventState
+- field_type: UInt64
+  field_name: EpisodeStartTick
+- field_type: UInt64
+  field_name: EpisodeStopTick
+- field_type: UInt32
+  field_name: ReentryWatermark

@@ -1,0 +1,26 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1565'
+version: '0'
+event(fields): ServerTask1565(UInt32 unParam, UnicodeString pwsz, Boolean fBool1,
+  Boolean fBool2, Boolean fBool3, UInt32 unParam2, UnicodeString pwsz2)
+opcode: ''
+keywords: ServerTask
+task: ServerTask
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: Boolean
+  field_name: fBool1
+- field_type: Boolean
+  field_name: fBool2
+- field_type: Boolean
+  field_name: fBool3
+- field_type: UInt32
+  field_name: unParam2
+- field_type: UnicodeString
+  field_name: pwsz2

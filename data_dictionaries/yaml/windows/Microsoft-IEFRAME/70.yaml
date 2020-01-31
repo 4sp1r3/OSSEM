@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '70'
+version: '0'
+event(fields): ExtensionShowDWStop(GUID CLSID, Boolean Show)
+opcode: Stop
+keywords: primarynav
+task: ExtensionShowDW
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CLSID
+- field_type: Boolean
+  field_name: Show

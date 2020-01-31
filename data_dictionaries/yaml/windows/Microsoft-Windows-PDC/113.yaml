@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-PDC
+event_id: '113'
+version: '0'
+event(fields): PDCV2ActivationClientDeactivate(UInt32 ClientId, UInt32 TaskNameLength,
+  UnicodeString TaskName, UInt32 SubTaskLength, UnicodeString SubTaskName, UInt32
+  ActivationCount, UInt32 ActivationsUpCounter, UInt64 ActivationDuration, UInt32
+  Status, Pointer ActivationHandle, UInt32 PdcVersion, UInt32 ModuleNameLength, UnicodeString
+  ModuleName, UInt32 BrokeredForPID)
+opcode: ''
+keywords: PdcClient
+task: PDCV2ActivationClientDeactivate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ClientId
+- field_type: UInt32
+  field_name: TaskNameLength
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UInt32
+  field_name: SubTaskLength
+- field_type: UnicodeString
+  field_name: SubTaskName
+- field_type: UInt32
+  field_name: ActivationCount
+- field_type: UInt32
+  field_name: ActivationsUpCounter
+- field_type: UInt64
+  field_name: ActivationDuration
+- field_type: UInt32
+  field_name: Status
+- field_type: Pointer
+  field_name: ActivationHandle
+- field_type: UInt32
+  field_name: PdcVersion
+- field_type: UInt32
+  field_name: ModuleNameLength
+- field_type: UnicodeString
+  field_name: ModuleName
+- field_type: UInt32
+  field_name: BrokeredForPID

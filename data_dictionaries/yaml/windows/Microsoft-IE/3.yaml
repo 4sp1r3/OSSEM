@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '3'
+version: '0'
+event(fields): Mshtml_CMarkup_LayoutStart(Pointer View, UInt32 grfLAYOUT)
+opcode: Start
+keywords: primarynav pageloadbreakdown
+task: Mshtml_CMarkup_Layout
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: View
+- field_type: UInt32
+  field_name: grfLAYOUT

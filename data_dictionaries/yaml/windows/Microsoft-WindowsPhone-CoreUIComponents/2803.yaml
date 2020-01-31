@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2803'
+version: '0'
+event(fields): TimeoutInfo2803(UnicodeString pwsz, UInt32 unParam)
+opcode: ''
+keywords: TimeoutInfo
+task: TimeoutInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UInt32
+  field_name: unParam

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-VHDMP
+event_id: '16'
+version: '0'
+event(fields): task_016(Pointer VirtualDisk)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: VirtualDisk

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1202'
+version: '0'
+event(fields): SensorsHidInitializationTask1202(Pointer WdfDevice, UInt16 SensorUsage,
+  UInt8 ReportIdInCaps, UInt8 ReportIdInReport)
+opcode: ''
+keywords: ''
+task: SensorsHidInitializationTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: UInt16
+  field_name: SensorUsage
+- field_type: UInt8
+  field_name: ReportIdInCaps
+- field_type: UInt8
+  field_name: ReportIdInReport

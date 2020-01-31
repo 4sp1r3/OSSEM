@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-ShimEngine
+event_id: '11'
+version: '1'
+event(fields): task_011_V1(Pointer DriverObject, Pointer DriverBase)
+opcode: ''
+keywords: DriverScopeGeneral
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DriverObject
+- field_type: Pointer
+  field_name: DriverBase

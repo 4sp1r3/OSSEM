@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9017'
+version: '0'
+event(fields): Perf_WLRoamRegisterCollectionInterestNetworkRequestStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamRegisterCollectionInterestNetworkRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

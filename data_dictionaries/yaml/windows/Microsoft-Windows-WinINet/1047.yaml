@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1047'
+version: '0'
+event(fields): Wininet_LookupConnectionStart(Pointer Request)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_LookupConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request

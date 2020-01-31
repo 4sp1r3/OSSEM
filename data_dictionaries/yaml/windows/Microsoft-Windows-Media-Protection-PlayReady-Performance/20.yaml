@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '20'
+version: '0'
+event(fields): OemTeeProxyMethodInvokeStart(UInt32 FunctionMapOEMValue)
+opcode: Start
+keywords: ''
+task: OemTeeProxyMethodInvoke
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FunctionMapOEMValue

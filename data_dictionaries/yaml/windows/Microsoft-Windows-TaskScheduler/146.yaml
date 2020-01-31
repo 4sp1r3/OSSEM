@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '146'
+version: '0'
+event(fields): Taskloadingatservicestartupfailed(UnicodeString TaskName, UInt32 ResultCode)
+opcode: ''
+keywords: ''
+task: Taskloadingatservicestartupfailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UInt32
+  field_name: ResultCode

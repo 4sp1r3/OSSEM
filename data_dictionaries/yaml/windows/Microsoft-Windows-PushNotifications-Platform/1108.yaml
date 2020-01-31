@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1108'
+version: '0'
+event(fields): task_01108(AnsiString Namespace, AnsiString UserId, UInt32 PayloadSize,
+  UInt64 MsgId, Boolean Ack)
+opcode: ''
+keywords: wpnprv
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Namespace
+- field_type: AnsiString
+  field_name: UserId
+- field_type: UInt32
+  field_name: PayloadSize
+- field_type: UInt64
+  field_name: MsgId
+- field_type: Boolean
+  field_name: Ack

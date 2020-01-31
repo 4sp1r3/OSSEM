@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1002'
+version: '0'
+event(fields): Smb2RkfFailure(UInt16 ServerNameLength, UnicodeString ServerName, UInt16
+  ShareNameLength, UnicodeString ShareName, UInt16 FileNameLength, UnicodeString FileName)
+opcode: ''
+keywords: Operational
+task: Smb2RkfFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName

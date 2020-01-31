@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1325'
+version: '1'
+event(fields): IpNeighborDiscovery_V1(UInt32 Interface, UInt32 IpAddrLength, Binary
+  SourceIPAddress, Binary TargetIPAddress, UInt32 NeighborEvent, UInt32 CompartmentId)
+opcode: ''
+keywords: ut:TcpipRoute
+task: IpNeighborDiscovery
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: Binary
+  field_name: SourceIPAddress
+- field_type: Binary
+  field_name: TargetIPAddress
+- field_type: UInt32
+  field_name: NeighborEvent
+- field_type: UInt32
+  field_name: CompartmentId

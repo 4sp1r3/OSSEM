@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-QoS-Pacer
+event_id: '12'
+version: '0'
+event(fields): task_012(Binary NetLuid, UInt64 CurrentTime, UInt32 ActiveFlows, UInt32
+  ActiveWeight, UInt32 NewSendWindow)
+opcode: ''
+keywords: ut:SendPath
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: NetLuid
+- field_type: UInt64
+  field_name: CurrentTime
+- field_type: UInt32
+  field_name: ActiveFlows
+- field_type: UInt32
+  field_name: ActiveWeight
+- field_type: UInt32
+  field_name: NewSendWindow

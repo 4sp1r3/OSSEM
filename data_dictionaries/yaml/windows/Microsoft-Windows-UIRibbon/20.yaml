@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIRibbon
+event_id: '20'
+version: '0'
+event(fields): ScenicRaisePropertyChangeEventStop()
+opcode: Stop
+keywords: Default
+task: ScenicRaisePropertyChangeEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

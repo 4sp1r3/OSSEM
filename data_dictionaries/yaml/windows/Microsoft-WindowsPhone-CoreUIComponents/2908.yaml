@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2908'
+version: '0'
+event(fields): CoreUIService2908(UnicodeString pwsz)
+opcode: ''
+keywords: CoreUIService
+task: CoreUIService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz

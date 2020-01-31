@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '220'
+version: '0'
+event(fields): CacheSessionStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CacheSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4867'
+version: '0'
+event(fields): task_04867(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString ForestRoot, SID ForestRootSid,
+  HexInt64 OperationId, UInt32 EntryType, UInt32 Flags, UnicodeString TopLevelName,
+  UnicodeString DnsName, UnicodeString NetbiosName, SID DomainSid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: ForestRoot
+- field_type: SID
+  field_name: ForestRootSid
+- field_type: HexInt64
+  field_name: OperationId
+- field_type: UInt32
+  field_name: EntryType
+- field_type: UInt32
+  field_name: Flags
+- field_type: UnicodeString
+  field_name: TopLevelName
+- field_type: UnicodeString
+  field_name: DnsName
+- field_type: UnicodeString
+  field_name: NetbiosName
+- field_type: SID
+  field_name: DomainSid

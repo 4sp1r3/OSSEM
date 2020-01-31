@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1461'
+version: '0'
+event(fields): TcpFastopenFallbackUpdate(Pointer Tcb, UInt32 FastopenState, UInt64
+  DataBytesIn, UInt32 ShutdownStatus, UInt32 ProbeStatus)
+opcode: ''
+keywords: ut:Configuration
+task: TcpFastopenFallbackUpdate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: FastopenState
+- field_type: UInt64
+  field_name: DataBytesIn
+- field_type: UInt32
+  field_name: ShutdownStatus
+- field_type: UInt32
+  field_name: ProbeStatus

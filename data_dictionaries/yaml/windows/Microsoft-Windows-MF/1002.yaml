@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1002'
+version: '0'
+event(fields): MediaFoundationLoadTopology(UnicodeString CLSID, HexInt32 hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationLoadTopology
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CLSID
+- field_type: HexInt32
+  field_name: hr

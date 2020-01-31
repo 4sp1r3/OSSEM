@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '261'
+version: '1'
+event(fields): SubmitNotifyWindowLayoutCompleted_V1(UInt64 Window)
+opcode: ''
+keywords: Rendering
+task: SubmitNotifyWindowLayoutCompleted
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Window

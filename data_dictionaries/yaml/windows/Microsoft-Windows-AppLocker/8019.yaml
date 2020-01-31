@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppLocker
+event_id: '8019'
+version: '0'
+event(fields): SrpPolicyLoadStop8019()
+opcode: Stop
+keywords: ''
+task: SrpPolicyLoad
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

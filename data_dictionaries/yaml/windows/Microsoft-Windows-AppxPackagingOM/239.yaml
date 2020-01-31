@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '239'
+version: '0'
+event(fields): AppInstaller239(HexInt32 errorCode)
+opcode: ''
+keywords: ''
+task: AppInstaller
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '7002'
+version: '0'
+event(fields): WinSqmUserLogoff(UInt32 TSId, SID UserSid)
+opcode: ''
+keywords: keyword_200000000000
+task: WinSqmUserLogoff
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TSId
+- field_type: SID
+  field_name: UserSid

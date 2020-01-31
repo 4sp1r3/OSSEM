@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '3'
+version: '0'
+event(fields): BackgroundTaskProxy(GUID WorkItemId, GUID BrokerId, UInt64 StateName)
+opcode: ''
+keywords: BackgroundTask
+task: BackgroundTaskProxy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: WorkItemId
+- field_type: GUID
+  field_name: BrokerId
+- field_type: UInt64
+  field_name: StateName

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '204'
+version: '0'
+event(fields): MediaFoundationSourceResolver204(Pointer Context, HexInt32 hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationSourceResolver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Context
+- field_type: HexInt32
+  field_name: hr

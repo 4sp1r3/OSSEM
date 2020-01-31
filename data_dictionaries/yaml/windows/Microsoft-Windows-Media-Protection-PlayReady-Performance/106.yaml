@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '106'
+version: '0'
+event(fields): MFTProcessingLoopStateResolveWaitingState100msRetryStart(Pointer CMFTAsyncSimpleBase_ptr)
+opcode: Start
+keywords: ''
+task: MFTProcessingLoopStateResolveWaitingState100msRetry
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMFTAsyncSimpleBase_ptr

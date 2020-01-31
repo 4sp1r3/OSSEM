@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1702'
+version: '0'
+event(fields): ShellTask_AutoPlay_ProcessDevicesEventsThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_AutoPlay_ProcessDevicesEventsThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

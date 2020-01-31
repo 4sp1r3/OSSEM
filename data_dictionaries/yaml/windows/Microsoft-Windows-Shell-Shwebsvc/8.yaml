@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Shwebsvc
+event_id: '8'
+version: '0'
+event(fields): InitServicesStop()
+opcode: Stop
+keywords: ''
+task: InitServices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

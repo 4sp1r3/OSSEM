@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '633'
+version: '0'
+event(fields): Browseui_VirtualTab_PreNewFrameTabCreate633()
+opcode: ''
+keywords: primarynav
+task: Browseui_VirtualTab_PreNewFrameTabCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

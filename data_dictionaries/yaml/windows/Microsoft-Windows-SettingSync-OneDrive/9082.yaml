@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9082'
+version: '0'
+event(fields): Perf_WLRoamUploadBatchStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamUploadBatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

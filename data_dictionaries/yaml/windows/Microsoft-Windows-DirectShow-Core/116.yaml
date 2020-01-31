@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '116'
+version: '0'
+event(fields): DirectShowFilterGraphConnectDirectStart(Pointer context, Pointer pinOutput,
+  UnicodeString pinOutputName, Pointer pinInput, UnicodeString pinInputName)
+opcode: Start
+keywords: ''
+task: DirectShowFilterGraphConnectDirect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: context
+- field_type: Pointer
+  field_name: pinOutput
+- field_type: UnicodeString
+  field_name: pinOutputName
+- field_type: Pointer
+  field_name: pinInput
+- field_type: UnicodeString
+  field_name: pinInputName

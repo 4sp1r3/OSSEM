@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '869'
+version: '0'
+event(fields): Edgehtml_Extensions_Script_ExecutionStart(UnicodeString ExtensionId,
+  UInt32 ScriptType, UnicodeString CorrelationId)
+opcode: Start
+keywords: mshtml extensions
+task: Edgehtml_Extensions_Script_Execution
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtensionId
+- field_type: UInt32
+  field_name: ScriptType
+- field_type: UnicodeString
+  field_name: CorrelationId

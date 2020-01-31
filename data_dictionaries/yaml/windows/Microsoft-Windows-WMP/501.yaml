@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '501'
+version: '0'
+event(fields): WMPSyncTranscodeMatrixUsingtheMP3transcodematrix()
+opcode: UsingtheMP3transcodematrix
+keywords: mediaplayer
+task: WMPSyncTranscodeMatrix
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

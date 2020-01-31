@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '172'
+version: '0'
+event(fields): MediaFoundationPresent_GetCorrelatedTimeStop(Pointer object, Int64
+  QPCnow_us, Int64 ClockTime0_us, Int64 QPC0_us, Int64 ApproxClockJitter_us)
+opcode: Stop
+keywords: ''
+task: MediaFoundationPresent_GetCorrelatedTime
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: QPCnow_us
+- field_type: Int64
+  field_name: ClockTime0_us
+- field_type: Int64
+  field_name: QPC0_us
+- field_type: Int64
+  field_name: ApproxClockJitter_us

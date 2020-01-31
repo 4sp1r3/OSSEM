@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9811'
+version: '0'
+event(fields): Explorer_PinDefaultItems_RetrievePidlFailure(UnicodeString AppID, UInt32
+  HRESULT)
+opcode: ''
+keywords: Shell
+task: Explorer_PinDefaultItems_RetrievePidlFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UInt32
+  field_name: HRESULT

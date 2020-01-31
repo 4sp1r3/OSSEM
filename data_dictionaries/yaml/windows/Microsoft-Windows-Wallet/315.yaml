@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wallet
+event_id: '315'
+version: '0'
+event(fields): Core_ProcessGeofencingStart()
+opcode: Start
+keywords: Performance
+task: Core_ProcessGeofencing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

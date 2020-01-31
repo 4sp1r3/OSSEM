@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-NetworkProvider
+event_id: '1000'
+version: '0'
+event(fields): UNCHardeningConfigurationUnsupportedRegistryValueType(UInt16 RegistryKeyLength,
+  UnicodeString RegistryKey, UInt16 RegistryValueNameLength, UnicodeString RegistryValueName,
+  UInt32 RegistryValueType)
+opcode: UnsupportedRegistryValueType
+keywords: UncHardening
+task: UNCHardeningConfiguration
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: RegistryKeyLength
+- field_type: UnicodeString
+  field_name: RegistryKey
+- field_type: UInt16
+  field_name: RegistryValueNameLength
+- field_type: UnicodeString
+  field_name: RegistryValueName
+- field_type: UInt32
+  field_name: RegistryValueType

@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '690'
+version: '0'
+event(fields): Mshtml_CStorage690(UInt32 FailureReason, HexInt32 FailureHresult, UnicodeString
+  TargetURL, UInt32 EmulationMode)
+opcode: ''
+keywords: mshtml
+task: Mshtml_CStorage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FailureReason
+- field_type: HexInt32
+  field_name: FailureHresult
+- field_type: UnicodeString
+  field_name: TargetURL
+- field_type: UInt32
+  field_name: EmulationMode

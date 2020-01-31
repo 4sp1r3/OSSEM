@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-GPIO-ClassExtension
+event_id: '1027'
+version: '1'
+event(fields): task_0SpuriousInterruptDetected_V1(UInt16 PinNumber, UInt32 Gsiv)
+opcode: SpuriousInterruptDetected
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: PinNumber
+- field_type: UInt32
+  field_name: Gsiv

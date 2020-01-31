@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-InputSwitch
+event_id: '19'
+version: '0'
+event(fields): ModalitySelectedOneHanded()
+opcode: ''
+keywords: Perf InputSwitch_Keyword
+task: ModalitySelectedOneHanded
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

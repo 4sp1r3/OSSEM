@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-User-Loader
+event_id: '5'
+version: '0'
+event(fields): task_05(UInt32 ProcessId, UInt32 SuspendProcessRequest, UnicodeString
+  DLLName)
+opcode: ''
+keywords: USER_LOADER_KEYWORD_COMPONENT_ON_DEMAND
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: SuspendProcessRequest
+- field_type: UnicodeString
+  field_name: DLLName

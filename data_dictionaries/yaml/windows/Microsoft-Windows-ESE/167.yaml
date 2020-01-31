@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ESE
+event_id: '167'
+version: '0'
+event(fields): ESE_IOLatencySpikeNotice_Trace(UInt32 dwDiskNumber, UInt32 dtickSpikeLength)
+opcode: ''
+keywords: StallLatencies
+task: ESE_IOLatencySpikeNotice_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwDiskNumber
+- field_type: UInt32
+  field_name: dtickSpikeLength

@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-Windows Defender
+event_id: '2002'
+version: '0'
+event(fields): task_02002(UnicodeString ProductName, UnicodeString ProductVersion,
+  UnicodeString CurrentEngineVersion, UnicodeString PreviousEngineVersion, UnicodeString
+  Unused, UnicodeString Unused2, UnicodeString Unused3, UnicodeString Domain, UnicodeString
+  User, UnicodeString SID, UnicodeString Unused4, UnicodeString Unused5, UnicodeString
+  FeatureIndex, UnicodeString FeatureName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UnicodeString
+  field_name: ProductVersion
+- field_type: UnicodeString
+  field_name: CurrentEngineVersion
+- field_type: UnicodeString
+  field_name: PreviousEngineVersion
+- field_type: UnicodeString
+  field_name: Unused
+- field_type: UnicodeString
+  field_name: Unused2
+- field_type: UnicodeString
+  field_name: Unused3
+- field_type: UnicodeString
+  field_name: Domain
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: SID
+- field_type: UnicodeString
+  field_name: Unused4
+- field_type: UnicodeString
+  field_name: Unused5
+- field_type: UnicodeString
+  field_name: FeatureIndex
+- field_type: UnicodeString
+  field_name: FeatureName

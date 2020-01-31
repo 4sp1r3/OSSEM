@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '1740'
+version: '0'
+event(fields): DocPerf_Task_PS_GetPrintConfigStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_PS_GetPrintConfig
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-KernelStreaming
+event_id: '206'
+version: '0'
+event(fields): KS_WNF()
+opcode: ''
+keywords: ''
+task: KS_WNF
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

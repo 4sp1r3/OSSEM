@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-User Profiles General
+event_id: '77'
+version: '0'
+event(fields): task_077(UnicodeString EffectiveSid, UInt32 Location, UInt32 Code)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EffectiveSid
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Code

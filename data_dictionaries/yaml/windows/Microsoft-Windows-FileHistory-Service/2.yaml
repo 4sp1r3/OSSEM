@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FileHistory-Service
+event_id: '2'
+version: '0'
+event(fields): ConfigurationLoadStop(Int32 Result, UnicodeString ConfigFilePath)
+opcode: Stop
+keywords: ''
+task: ConfigurationLoad
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ConfigFilePath

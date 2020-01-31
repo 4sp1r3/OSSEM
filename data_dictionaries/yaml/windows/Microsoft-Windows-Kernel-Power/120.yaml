@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '120'
+version: '0'
+event(fields): PowerTransition120(UInt32 HiberfileSizeKB, UInt32 TotalHibernateTime,
+  UInt32 HiberHiberFileTime)
+opcode: ''
+keywords: po:Scenario po:Performance po:PerformanceLight
+task: PowerTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HiberfileSizeKB
+- field_type: UInt32
+  field_name: TotalHibernateTime
+- field_type: UInt32
+  field_name: HiberHiberFileTime

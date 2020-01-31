@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '107'
+version: '0'
+event(fields): RemoteFXmodule_4CloseConnection107()
+opcode: CloseConnection
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

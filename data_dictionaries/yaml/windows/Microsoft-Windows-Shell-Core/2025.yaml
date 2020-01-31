@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2025'
+version: '0'
+event(fields): Browseui_Tabs_AddTabButton()
+opcode: ''
+keywords: Shell
+task: Browseui_Tabs_AddTabButton
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

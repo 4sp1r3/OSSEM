@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '165'
+version: '0'
+event(fields): DigitalSignatureVerifying165(HexInt32 errorCode, UInt64 fileId)
+opcode: Verifying
+keywords: ''
+task: DigitalSignature
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UInt64
+  field_name: fileId

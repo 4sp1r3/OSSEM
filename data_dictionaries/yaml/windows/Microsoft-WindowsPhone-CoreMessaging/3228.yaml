@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3228'
+version: '0'
+event(fields): Adapter_OnUserDispatchStop(Boolean fBool)
+opcode: Stop
+keywords: MessagingPerformance Dispatcher
+task: Adapter_OnUserDispatch
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fBool

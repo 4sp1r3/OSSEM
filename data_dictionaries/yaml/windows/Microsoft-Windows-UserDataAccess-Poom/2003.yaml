@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserDataAccess-Poom
+event_id: '2003'
+version: '0'
+event(fields): task_02003(UInt32 Prop_Handle, UInt32 Prop_HRESULT)
+opcode: ''
+keywords: POOM
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_Handle
+- field_type: UInt32
+  field_name: Prop_HRESULT

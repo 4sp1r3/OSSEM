@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '6'
+version: '0'
+event(fields): BackNaviagation_Requested()
+opcode: ''
+keywords: primarynav
+task: BackNaviagation_Requested
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

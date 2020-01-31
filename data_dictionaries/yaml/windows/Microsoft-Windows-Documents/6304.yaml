@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Documents
+event_id: '6304'
+version: '0'
+event(fields): DocPerf_Task_WSDMon_RestorePortStop(UnicodeString DeviceId, UnicodeString
+  ServiceId)
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_WSDMon_RestorePort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceId
+- field_type: UnicodeString
+  field_name: ServiceId

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '587'
+version: '0'
+event(fields): Immersive_Travellog_NavigationComplete_TimeOut()
+opcode: ''
+keywords: TravelLogScreenshotNav
+task: Immersive_Travellog_NavigationComplete_TimeOut
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

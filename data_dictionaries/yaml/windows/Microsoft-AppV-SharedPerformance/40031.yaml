@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40031'
+version: '0'
+event(fields): VReg.CloseKeyStop()
+opcode: Stop
+keywords: ''
+task: VReg.CloseKey
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

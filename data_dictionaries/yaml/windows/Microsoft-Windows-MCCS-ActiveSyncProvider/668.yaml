@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '668'
+version: '0'
+event(fields): SPERF_TAG_SMART_REPLYStart()
+opcode: Start
+keywords: Performance
+task: SPERF_TAG_SMART_REPLY
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

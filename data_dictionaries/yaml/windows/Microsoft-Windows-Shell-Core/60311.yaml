@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60311'
+version: '0'
+event(fields): TryHarder_Internet_RolloverStart()
+opcode: Start
+keywords: Shell
+task: TryHarder_Internet_Rollover
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

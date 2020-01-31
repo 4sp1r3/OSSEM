@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1315'
+version: '0'
+event(fields): LayoutCache_LayoutShownStart()
+opcode: Start
+keywords: ''
+task: LayoutCache_LayoutShown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

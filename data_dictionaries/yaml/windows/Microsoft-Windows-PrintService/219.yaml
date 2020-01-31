@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-PrintService
+event_id: '219'
+version: '0'
+event(fields): CopyingaprinterdriverpackageSpoolerOperationFailed(UnicodeString Label,
+  UnicodeString Message, UnicodeString AdditionalInfo, UnicodeString Server, UnicodeString
+  InfPath, UnicodeString DestInfPath, UnicodeString ProcessorArchitecture, HexInt32
+  LastError, HexInt32 HResult)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP
+task: Copyingaprinterdriverpackage
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Label
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UnicodeString
+  field_name: AdditionalInfo
+- field_type: UnicodeString
+  field_name: Server
+- field_type: UnicodeString
+  field_name: InfPath
+- field_type: UnicodeString
+  field_name: DestInfPath
+- field_type: UnicodeString
+  field_name: ProcessorArchitecture
+- field_type: HexInt32
+  field_name: LastError
+- field_type: HexInt32
+  field_name: HResult

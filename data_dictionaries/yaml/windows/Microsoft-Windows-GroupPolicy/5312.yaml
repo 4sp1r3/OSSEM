@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '5312'
+version: '0'
+event(fields): task_05312(UnicodeString DescriptionString, UnicodeString GPOInfoList)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DescriptionString
+- field_type: UnicodeString
+  field_name: GPOInfoList

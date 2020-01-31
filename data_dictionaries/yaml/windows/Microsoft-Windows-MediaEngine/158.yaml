@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '158'
+version: '0'
+event(fields): MediaFoundationUpdateVideo(Pointer object, Int32 Dst_left, Int32 Dst_top,
+  Int32 Dst_right, Int32 Dst_bottom, Float Src_left, Float Src_top, Float Src_right,
+  Float Src_bottom, Int32 flags)
+opcode: ''
+keywords: ''
+task: MediaFoundationUpdateVideo
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: Dst_left
+- field_type: Int32
+  field_name: Dst_top
+- field_type: Int32
+  field_name: Dst_right
+- field_type: Int32
+  field_name: Dst_bottom
+- field_type: Float
+  field_name: Src_left
+- field_type: Float
+  field_name: Src_top
+- field_type: Float
+  field_name: Src_right
+- field_type: Float
+  field_name: Src_bottom
+- field_type: Int32
+  field_name: flags

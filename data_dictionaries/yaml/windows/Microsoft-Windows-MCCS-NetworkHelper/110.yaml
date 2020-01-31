@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '110'
+version: '0'
+event(fields): task_0110(AnsiString P1_String, UInt32 P2_UInt32, UInt32 P3_UInt32)
+opcode: ''
+keywords: Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: P1_String
+- field_type: UInt32
+  field_name: P2_UInt32
+- field_type: UInt32
+  field_name: P3_UInt32

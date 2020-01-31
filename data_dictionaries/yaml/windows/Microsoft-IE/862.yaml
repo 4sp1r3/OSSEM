@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '862'
+version: '0'
+event(fields): Mshtml_Canvas_CommandList(UInt32 FlushReason)
+opcode: ''
+keywords: subsystem composition
+task: Mshtml_Canvas_CommandList
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FlushReason

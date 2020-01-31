@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '263'
+version: '0'
+event(fields): HistoryBuffer(Pointer hContext, UInt32 RenderCbSequence, UInt32 DmaSubmissionSequence,
+  UInt32 Precision, UInt32 HistoryBufferSize, UInt8 HistoryBuffer)
+opcode: ''
+keywords: Profiler
+task: HistoryBuffer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: RenderCbSequence
+- field_type: UInt32
+  field_name: DmaSubmissionSequence
+- field_type: UInt32
+  field_name: Precision
+- field_type: UInt32
+  field_name: HistoryBufferSize
+- field_type: UInt8
+  field_name: HistoryBuffer

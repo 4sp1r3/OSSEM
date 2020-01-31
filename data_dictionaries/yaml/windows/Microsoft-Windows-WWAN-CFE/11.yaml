@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-CFE
+event_id: '11'
+version: '0'
+event(fields): Task_SetHomeProviderStop()
+opcode: Stop
+keywords: ''
+task: Task_SetHomeProvider
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

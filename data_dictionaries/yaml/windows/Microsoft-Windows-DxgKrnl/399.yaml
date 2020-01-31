@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '399'
+version: '0'
+event(fields): GpuPartitioningStart(Pointer AdapterHandle, UnicodeString Function,
+  UnicodeString Parameters, UInt32 Status)
+opcode: Start
+keywords: VirtualGpu
+task: GpuPartitioning
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdapterHandle
+- field_type: UnicodeString
+  field_name: Function
+- field_type: UnicodeString
+  field_name: Parameters
+- field_type: UInt32
+  field_name: Status

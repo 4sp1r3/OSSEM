@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2216'
+version: '0'
+event(fields): SharingManager_GetQuickShareTargetStart(UInt32 Index)
+opcode: Start
+keywords: ''
+task: SharingManager_GetQuickShareTarget
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index

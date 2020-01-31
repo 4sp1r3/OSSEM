@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '3010'
+version: '0'
+event(fields): task_03010(UInt32 Prop_ErrorCode, UInt32 Prop_FullKnowledgeSize, UInt32
+  Prop_LoggedKnowledgeSize, Binary Prop_Knowledge)
+opcode: ''
+keywords: Unified_Store
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_ErrorCode
+- field_type: UInt32
+  field_name: Prop_FullKnowledgeSize
+- field_type: UInt32
+  field_name: Prop_LoggedKnowledgeSize
+- field_type: Binary
+  field_name: Prop_Knowledge

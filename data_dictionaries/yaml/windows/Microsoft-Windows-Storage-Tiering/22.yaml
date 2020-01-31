@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Storage-Tiering
+event_id: '22'
+version: '0'
+event(fields): task_022(UInt16 VolumeNameLength, UnicodeString VolumeName, UnicodeString
+  Report, UnicodeString FasterTierSize, UInt16 TotalIOPercentFromPerfTier, UnicodeString
+  SizeOfPerfTierPinnedFiles, UInt16 PercentOfPerfTierPinnedFilesIO, UnicodeString
+  SizeOfCapacityTierPinnedFiles, UInt16 PercentOfCapacityTierPinnedFilesIO)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UnicodeString
+  field_name: Report
+- field_type: UnicodeString
+  field_name: FasterTierSize
+- field_type: UInt16
+  field_name: TotalIOPercentFromPerfTier
+- field_type: UnicodeString
+  field_name: SizeOfPerfTierPinnedFiles
+- field_type: UInt16
+  field_name: PercentOfPerfTierPinnedFilesIO
+- field_type: UnicodeString
+  field_name: SizeOfCapacityTierPinnedFiles
+- field_type: UInt16
+  field_name: PercentOfCapacityTierPinnedFilesIO

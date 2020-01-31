@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '339'
+version: '0'
+event(fields): Frame_AddFirstTab()
+opcode: ''
+keywords: primarynav
+task: Frame_AddFirstTab
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

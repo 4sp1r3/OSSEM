@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '2001'
+version: '0'
+event(fields): NonPerfEventsStart()
+opcode: Start
+keywords: ''
+task: NonPerfEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

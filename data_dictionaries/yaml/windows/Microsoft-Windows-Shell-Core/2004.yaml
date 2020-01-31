@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2004'
+version: '0'
+event(fields): Browseui_CBrowserFrame_CloseStop()
+opcode: Stop
+keywords: Shell
+task: Browseui_CBrowserFrame_Close
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

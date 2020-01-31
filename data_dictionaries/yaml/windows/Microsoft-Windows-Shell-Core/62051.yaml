@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62051'
+version: '0'
+event(fields): Shell32_MountPoint_VolumeAddedOrUpdatedStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_MountPoint_VolumeAddedOrUpdated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

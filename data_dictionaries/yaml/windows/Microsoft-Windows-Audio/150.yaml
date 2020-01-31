@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Audio
+event_id: '150'
+version: '0'
+event(fields): AEEndpoint(Pointer objInstance, UInt32 ucType, UInt64 PinHandle, UInt32
+  FormatTag, UInt32 SampleRate, UInt32 BitsPerSample, UInt32 Channels, UInt32 Period,
+  UInt32 Latency, UInt32 BufferSize)
+opcode: ''
+keywords: ''
+task: AEEndpoint
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objInstance
+- field_type: UInt32
+  field_name: ucType
+- field_type: UInt64
+  field_name: PinHandle
+- field_type: UInt32
+  field_name: FormatTag
+- field_type: UInt32
+  field_name: SampleRate
+- field_type: UInt32
+  field_name: BitsPerSample
+- field_type: UInt32
+  field_name: Channels
+- field_type: UInt32
+  field_name: Period
+- field_type: UInt32
+  field_name: Latency
+- field_type: UInt32
+  field_name: BufferSize

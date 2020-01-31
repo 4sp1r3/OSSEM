@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '6115'
+version: '0'
+event(fields): DocPerf_Task_Setup_FillWindowsUpdateCatalogStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Setup_FillWindowsUpdateCatalog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

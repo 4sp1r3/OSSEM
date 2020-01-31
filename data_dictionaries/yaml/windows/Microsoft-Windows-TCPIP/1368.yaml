@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1368'
+version: '0'
+event(fields): TcpipTeredoOpen(UInt64 PID, UInt32 LocalAddressLength, Binary LocalAddress,
+  UInt32 AddressType, UInt32 ScopeLevel, UInt32 Port, Pointer EndpointRecord)
+opcode: ''
+keywords: ut:Teredo
+task: TcpipTeredoOpen
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PID
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: AddressType
+- field_type: UInt32
+  field_name: ScopeLevel
+- field_type: UInt32
+  field_name: Port
+- field_type: Pointer
+  field_name: EndpointRecord

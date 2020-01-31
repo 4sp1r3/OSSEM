@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '1007'
+version: '0'
+event(fields): AddressConfigurationStateEventAutoconfigurationSuccess(UInt32 HWLength,
+  Binary HWAddress, UInt32 Address)
+opcode: AutoconfigurationSuccess
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HWLength
+- field_type: Binary
+  field_name: HWAddress
+- field_type: UInt32
+  field_name: Address

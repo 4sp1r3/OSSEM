@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7205'
+version: '0'
+event(fields): Perf_AppSyncDrainDEHQueueStart()
+opcode: Start
+keywords: AppSync
+task: Perf_AppSyncDrainDEHQueue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

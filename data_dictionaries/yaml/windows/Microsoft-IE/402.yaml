@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '402'
+version: '0'
+event(fields): Mshtml_CTouchHelper_DispatchGestureEventStart402()
+opcode: Start
+keywords: mshtml touch
+task: Mshtml_CTouchHelper_DispatchGestureEvent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

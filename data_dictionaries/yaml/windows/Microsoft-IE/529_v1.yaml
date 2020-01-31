@@ -1,0 +1,31 @@
+provider: Microsoft-IE
+event_id: '529'
+version: '1'
+event(fields): Mshtml_EventDebug_DOM_Event_Invoke_CallbackStop_V1(UnicodeString EventType,
+  Pointer EventParam, Pointer EventTarget, UInt16 EventPhase, UInt32 PropagationStatus,
+  Boolean ListenerUsesCapture, UInt32 FunctionId, UInt64 Object, UInt64 ScriptContextId)
+opcode: Stop
+keywords: eventsandtimers
+task: Mshtml_EventDebug_DOM_Event_Invoke_Callback
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventType
+- field_type: Pointer
+  field_name: EventParam
+- field_type: Pointer
+  field_name: EventTarget
+- field_type: UInt16
+  field_name: EventPhase
+- field_type: UInt32
+  field_name: PropagationStatus
+- field_type: Boolean
+  field_name: ListenerUsesCapture
+- field_type: UInt32
+  field_name: FunctionId
+- field_type: UInt64
+  field_name: Object
+- field_type: UInt64
+  field_name: ScriptContextId

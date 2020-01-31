@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '3001'
+version: '0'
+event(fields): task_03001(UInt64 Prop_UInt64, UInt32 Prop_Hex_UInt32)
+opcode: ''
+keywords: Unified_Store Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Prop_UInt64
+- field_type: UInt32
+  field_name: Prop_Hex_UInt32

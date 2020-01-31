@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1130'
+version: '0'
+event(fields): MediaFoundationAsyncWrapperHaveOutput(Pointer WrapperPtr, UInt32 OutputQueueLength)
+opcode: ''
+keywords: ''
+task: MediaFoundationAsyncWrapperHaveOutput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WrapperPtr
+- field_type: UInt32
+  field_name: OutputQueueLength

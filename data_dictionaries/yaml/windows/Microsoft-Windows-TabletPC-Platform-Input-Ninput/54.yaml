@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '54'
+version: '0'
+event(fields): NinputConfigurePTPScrolling54(UInt32 scrollMode)
+opcode: ''
+keywords: ''
+task: NinputConfigurePTPScrolling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: scrollMode

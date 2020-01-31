@@ -1,0 +1,13 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1192'
+version: '0'
+event(fields): iaLPSS2_I2CControllerroutines1192(UInt32 Status)
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CControllerroutines
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

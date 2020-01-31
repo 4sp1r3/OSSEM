@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '27'
+version: '0'
+event(fields): QueryInterface(Pointer pThis, GUID riid, UInt32 m_Ret, Pointer ppvObject)
+opcode: ''
+keywords: ''
+task: QueryInterface
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: GUID
+  field_name: riid
+- field_type: UInt32
+  field_name: m_Ret
+- field_type: Pointer
+  field_name: ppvObject

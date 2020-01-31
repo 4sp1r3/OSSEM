@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppXDeployment
+event_id: '327'
+version: '0'
+event(fields): task_0327(UnicodeString InstallPackageList, UnicodeString RemovePackageList)
+opcode: ''
+keywords: AppXDeployment
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InstallPackageList
+- field_type: UnicodeString
+  field_name: RemovePackageList

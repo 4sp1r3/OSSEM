@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '14345'
+version: '0'
+event(fields): task_014345(UnicodeString ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ErrorCode

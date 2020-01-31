@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ErrorReportingConsole
+event_id: '108'
+version: '0'
+event(fields): PrsSolutionRenderTimeStop()
+opcode: Stop
+keywords: ''
+task: PrsSolutionRenderTime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

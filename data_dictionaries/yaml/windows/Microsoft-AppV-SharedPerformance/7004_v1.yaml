@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '7004'
+version: '1'
+event(fields): PublishPackageFinalize_510Stop_V1()
+opcode: Stop
+keywords: ''
+task: PublishPackageFinalize_510
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

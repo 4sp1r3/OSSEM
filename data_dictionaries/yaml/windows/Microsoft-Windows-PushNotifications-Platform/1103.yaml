@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1103'
+version: '0'
+event(fields): task_01103(Int32 TransactionId, UInt32 TrID)
+opcode: ''
+keywords: wpnprv
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: TransactionId
+- field_type: UInt32
+  field_name: TrID

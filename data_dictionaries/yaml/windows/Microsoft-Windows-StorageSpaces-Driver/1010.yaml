@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1010'
+version: '0'
+event(fields): task_01010(GUID Id, UInt64 Offset, UInt32 Length)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UInt64
+  field_name: Offset
+- field_type: UInt32
+  field_name: Length

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '30'
+version: '0'
+event(fields): DragLeaveStart(UInt64 RegisterdOn, UInt64 OriginalSource)
+opcode: Start
+keywords: Input
+task: DragLeave
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RegisterdOn
+- field_type: UInt64
+  field_name: OriginalSource

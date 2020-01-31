@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAML
+event_id: '195'
+version: '0'
+event(fields): FeedSwipeRecognizer(UInt32 PointerId, UInt32 MsgId, Float X, Float
+  Y)
+opcode: ''
+keywords: Input
+task: FeedSwipeRecognizer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PointerId
+- field_type: UInt32
+  field_name: MsgId
+- field_type: Float
+  field_name: X
+- field_type: Float
+  field_name: Y

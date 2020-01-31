@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceStatusProvider
+event_id: '511'
+version: '0'
+event(fields): GetDeviceStatusServiceStop()
+opcode: Stop
+keywords: ''
+task: GetDeviceStatusService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

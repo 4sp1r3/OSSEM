@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '159'
+version: '0'
+event(fields): DdiUnloadStop()
+opcode: Stop
+keywords: Base
+task: DdiUnload
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

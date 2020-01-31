@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '46019'
+version: '0'
+event(fields): PublishPackage_4503Stop()
+opcode: Stop
+keywords: ''
+task: PublishPackage_4503
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

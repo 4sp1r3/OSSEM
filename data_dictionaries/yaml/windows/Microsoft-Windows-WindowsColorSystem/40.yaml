@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '40'
+version: '0'
+event(fields): TransformCreation40(UInt32 LcsCSType, UInt32 LcsIntent, UnicodeString
+  SourceProfileName, UInt32 DestProfileType, UnicodeString DestProfileName, UInt32
+  TargetProfileType, UnicodeString TargetProfileName, HexInt32 Flags)
+opcode: ''
+keywords: ''
+task: TransformCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LcsCSType
+- field_type: UInt32
+  field_name: LcsIntent
+- field_type: UnicodeString
+  field_name: SourceProfileName
+- field_type: UInt32
+  field_name: DestProfileType
+- field_type: UnicodeString
+  field_name: DestProfileName
+- field_type: UInt32
+  field_name: TargetProfileType
+- field_type: UnicodeString
+  field_name: TargetProfileName
+- field_type: HexInt32
+  field_name: Flags

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2270'
+version: '0'
+event(fields): CtapBleFunctionInformational(AnsiString Function, AnsiString Location,
+  HexInt32 Error, HexInt32 Win32Error)
+opcode: Informational
+keywords: Ctap Ble
+task: CtapBleFunction
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Function
+- field_type: AnsiString
+  field_name: Location
+- field_type: HexInt32
+  field_name: Error
+- field_type: HexInt32
+  field_name: Win32Error

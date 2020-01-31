@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '104'
+version: '0'
+event(fields): RemoteFXmodule_4EstablishConnection104(UnicodeString TimezoneBiasHour)
+opcode: EstablishConnection
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TimezoneBiasHour

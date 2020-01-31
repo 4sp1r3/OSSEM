@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3421'
+version: '0'
+event(fields): RemoteRegistrarClient_UnregisterObjectStop()
+opcode: Stop
+keywords: MessagingPerformance RegistrarClient
+task: RemoteRegistrarClient_UnregisterObject
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '22'
+version: '0'
+event(fields): DShow_SetOutputAttribute(Int64 SampleTime, Int64 SampleDuration)
+opcode: ''
+keywords: ''
+task: DShow_SetOutputAttribute
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: SampleTime
+- field_type: Int64
+  field_name: SampleDuration

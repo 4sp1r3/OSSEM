@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceSyncProvider
+event_id: '401'
+version: '0'
+event(fields): WPDProvider_DLLLifetimeStop()
+opcode: Stop
+keywords: ''
+task: WPDProvider_DLLLifetime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

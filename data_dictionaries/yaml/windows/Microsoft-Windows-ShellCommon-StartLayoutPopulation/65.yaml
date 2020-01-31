@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '65'
+version: '0'
+event(fields): CollectionInitializedWithoutPermission(UnicodeString value1, UnicodeString
+  value2)
+opcode: ''
+keywords: ''
+task: CollectionInitializedWithoutPermission
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value1
+- field_type: UnicodeString
+  field_name: value2

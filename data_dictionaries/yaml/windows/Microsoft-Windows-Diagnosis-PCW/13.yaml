@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-PCW
+event_id: '13'
+version: '0'
+event(fields): task_013(GUID ProviderGuid, UInt64 Id)
+opcode: ''
+keywords: queries
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderGuid
+- field_type: UInt64
+  field_name: Id

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '4001'
+version: '0'
+event(fields): RefreshTask(Int32 Result)
+opcode: ''
+keywords: XmlProcessing ut:Configuration
+task: RefreshTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Result

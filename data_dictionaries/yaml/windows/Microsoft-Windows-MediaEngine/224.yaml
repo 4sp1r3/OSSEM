@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '224'
+version: '0'
+event(fields): OPMOpenStart()
+opcode: Start
+keywords: ''
+task: OPMOpen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

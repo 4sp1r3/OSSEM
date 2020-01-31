@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Folder Redirection
+event_id: '510'
+version: '0'
+event(fields): task_0510()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

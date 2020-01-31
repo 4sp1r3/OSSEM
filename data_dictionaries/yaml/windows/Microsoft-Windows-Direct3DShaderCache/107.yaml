@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '107'
+version: '0'
+event(fields): L1Free(UInt32 NumEntries, UInt64 CurrentMemoryUsage, UInt32 DeltaSize)
+opcode: ''
+keywords: Events
+task: L1Free
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NumEntries
+- field_type: UInt64
+  field_name: CurrentMemoryUsage
+- field_type: UInt32
+  field_name: DeltaSize

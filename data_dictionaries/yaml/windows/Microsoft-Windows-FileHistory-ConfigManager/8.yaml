@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-ConfigManager
+event_id: '8'
+version: '0'
+event(fields): ReassociationStop8()
+opcode: Stop
+keywords: ''
+task: Reassociation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

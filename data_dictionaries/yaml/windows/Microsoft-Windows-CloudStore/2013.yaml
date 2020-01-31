@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CloudStore
+event_id: '2013'
+version: '0'
+event(fields): task_02013(AnsiString QualifiedTypeName, AnsiString Base64String)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: QualifiedTypeName
+- field_type: AnsiString
+  field_name: Base64String

@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '607'
+version: '0'
+event(fields): TabRoaming_LoadRoamedTabStop(UnicodeString FileName)
+opcode: Stop
+keywords: roaming
+task: TabRoaming_LoadRoamedTab
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

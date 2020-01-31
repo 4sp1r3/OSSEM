@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1594'
+version: '0'
+event(fields): ShellTask_Enum_EnumThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_Enum_EnumThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

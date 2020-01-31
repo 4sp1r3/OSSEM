@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '327'
+version: '0'
+event(fields): task_0327(UnicodeString szConnName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: szConnName

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-COM-RundownInstrumentation
+event_id: '19'
+version: '0'
+event(fields): RundownInstrumentation19(UInt64 OID, UInt64 TokenModifiedLuid, UInt64
+  SetIdIfKnown)
+opcode: ''
+keywords: RundownInstrumentation
+task: RundownInstrumentation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OID
+- field_type: UInt64
+  field_name: TokenModifiedLuid
+- field_type: UInt64
+  field_name: SetIdIfKnown

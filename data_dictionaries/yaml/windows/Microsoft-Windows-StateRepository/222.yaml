@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '222'
+version: '0'
+event(fields): StateRepository.Task.WinRTAPI222(HexInt32 ErrorCode, Int32 Partition,
+  UnicodeString Filename, Int32 Disposition, Int32 FoundSchemaVersion, Int32 CreatedSchemaVersion)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD keyword_400000000000
+task: StateRepository.Task.WinRTAPI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: Int32
+  field_name: Partition
+- field_type: UnicodeString
+  field_name: Filename
+- field_type: Int32
+  field_name: Disposition
+- field_type: Int32
+  field_name: FoundSchemaVersion
+- field_type: Int32
+  field_name: CreatedSchemaVersion

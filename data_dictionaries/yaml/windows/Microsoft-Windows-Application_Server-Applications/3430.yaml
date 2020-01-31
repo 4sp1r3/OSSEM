@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3430'
+version: '0'
+event(fields): Connect3430(UnicodeString clientWebSocketFactoryType, UnicodeString
+  AppDomain)
+opcode: ''
+keywords: HTTP
+task: Connect
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: clientWebSocketFactoryType
+- field_type: UnicodeString
+  field_name: AppDomain

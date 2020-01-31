@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9910'
+version: '0'
+event(fields): SearchFolder_CreateItemCollectionStop(UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: SearchFolder_CreateItemCollection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

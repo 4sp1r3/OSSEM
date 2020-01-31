@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '214'
+version: '0'
+event(fields): Winrmservicestart/stop214()
+opcode: ''
+keywords: Keyword.Client Keyword.Security
+task: Winrmservicestart/stop
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

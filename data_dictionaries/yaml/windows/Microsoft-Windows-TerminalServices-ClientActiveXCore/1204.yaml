@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1204'
+version: '0'
+event(fields): RdClientRADCworkspaceThiseventisraisedwhentheusertriestologininADALpageusingdifferentusername.()
+opcode: ThiseventisraisedwhentheusertriestologininADALpageusingdifferentusername.
+keywords: ''
+task: RdClientRADCworkspace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

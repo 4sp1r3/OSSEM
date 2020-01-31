@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '56'
+version: '0'
+event(fields): ThreadPoolWorkerThreadAdjustmentStats(Double Duration, Double Throughput,
+  Double ThreadWave, Double ThroughputWave, Double ThroughputErrorEstimate, Double
+  AverageThroughputErrorEstimate, Double ThroughputRatio, Double Confidence, Double
+  NewControlSetting, UInt16 NewThreadWaveMagnitude, UInt16 ClrInstanceID)
+opcode: Stats
+keywords: ThreadingKeyword
+task: ThreadPoolWorkerThreadAdjustment
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Double
+  field_name: Duration
+- field_type: Double
+  field_name: Throughput
+- field_type: Double
+  field_name: ThreadWave
+- field_type: Double
+  field_name: ThroughputWave
+- field_type: Double
+  field_name: ThroughputErrorEstimate
+- field_type: Double
+  field_name: AverageThroughputErrorEstimate
+- field_type: Double
+  field_name: ThroughputRatio
+- field_type: Double
+  field_name: Confidence
+- field_type: Double
+  field_name: NewControlSetting
+- field_type: UInt16
+  field_name: NewThreadWaveMagnitude
+- field_type: UInt16
+  field_name: ClrInstanceID

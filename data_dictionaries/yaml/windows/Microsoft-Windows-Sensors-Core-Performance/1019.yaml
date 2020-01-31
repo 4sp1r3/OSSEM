@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Sensors-Core-Performance
+event_id: '1019'
+version: '0'
+event(fields): CxToNativeReadTransferTaskStart(Pointer SensorObj, Pointer CollectionListPtr)
+opcode: Start
+keywords: ''
+task: CxToNativeReadTransferTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SensorObj
+- field_type: Pointer
+  field_name: CollectionListPtr

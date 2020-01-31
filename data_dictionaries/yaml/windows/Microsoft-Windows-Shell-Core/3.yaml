@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '3'
+version: '0'
+event(fields): AggregatePropertyProvider_GetValueObjectStart(GUID FMTID, UInt32 PID)
+opcode: Start
+keywords: Shell
+task: AggregatePropertyProvider_GetValueObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: FMTID
+- field_type: UInt32
+  field_name: PID

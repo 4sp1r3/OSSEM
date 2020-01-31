@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PDC
+event_id: '12'
+version: '0'
+event(fields): InvalidNotification(Pointer Client, UInt32 AssumedPdcSequence, UInt32
+  ReceivedPdcSequence)
+opcode: ''
+keywords: PdcErrors notifications
+task: InvalidNotification
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: UInt32
+  field_name: AssumedPdcSequence
+- field_type: UInt32
+  field_name: ReceivedPdcSequence

@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '12828'
+version: '0'
+event(fields): DataDeduplicationScrubbingTask12828(GUID JobInstanceId, UnicodeString
+  VolumeGuidPath, UInt64 ParentDirectoryId, UInt64 FileId, UnicodeString VolumeDisplayName,
+  UnicodeString ParentDirectoryPath, UnicodeString FileName, UInt32 ErrorCode, UnicodeString
+  ErrorMessage)
+opcode: ''
+keywords: Reporting
+task: DataDeduplicationScrubbingTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: JobInstanceId
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UInt64
+  field_name: ParentDirectoryId
+- field_type: UInt64
+  field_name: FileId
+- field_type: UnicodeString
+  field_name: VolumeDisplayName
+- field_type: UnicodeString
+  field_name: ParentDirectoryPath
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

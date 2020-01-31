@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5071'
+version: '0'
+event(fields): UdwmAnimationEngine(UInt32 AnimationID, Float x0, Float y0, Float x1,
+  Float y1)
+opcode: ''
+keywords: Udwm
+task: UdwmAnimationEngine
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AnimationID
+- field_type: Float
+  field_name: x0
+- field_type: Float
+  field_name: y0
+- field_type: Float
+  field_name: x1
+- field_type: Float
+  field_name: y1

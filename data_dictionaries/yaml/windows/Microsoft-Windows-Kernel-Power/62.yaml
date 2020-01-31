@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '62'
+version: '0'
+event(fields): SetExecutionState(UInt32 ExecutionState, UInt16 AppNameLength, UnicodeString
+  AppName)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SetExecutionState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ExecutionState
+- field_type: UInt16
+  field_name: AppNameLength
+- field_type: UnicodeString
+  field_name: AppName

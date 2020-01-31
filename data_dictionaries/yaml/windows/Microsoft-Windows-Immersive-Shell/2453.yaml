@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2453'
+version: '0'
+event(fields): PLM_UserLogoff()
+opcode: ''
+keywords: PLMComponent
+task: PLM_UserLogoff
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

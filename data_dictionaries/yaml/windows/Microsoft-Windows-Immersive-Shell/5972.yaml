@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5972'
+version: '0'
+event(fields): AppActivation_Log_RemediationBinaryInformation5972(UnicodeString AppId,
+  UnicodeString ContractId, UInt32 ErrorCode, UnicodeString FailedBinary)
+opcode: ''
+keywords: ''
+task: AppActivation_Log_RemediationBinaryInformation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId
+- field_type: UnicodeString
+  field_name: ContractId
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: FailedBinary

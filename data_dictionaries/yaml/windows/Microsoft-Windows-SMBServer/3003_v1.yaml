@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '3003'
+version: '1'
+event(fields): task_03003_V1(UInt32 Days)
+opcode: ''
+keywords: Connection
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Days

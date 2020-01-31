@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1057'
+version: '0'
+event(fields): IndirectSwapChainOpen(Pointer pSwapChain, UInt32 Status, Int32 bProducer,
+  UInt32 hDevice, Pointer hBufferAvailableEvent, Pointer hNtSwapChain)
+opcode: ''
+keywords: IndirectSwapChain MixedReality
+task: IndirectSwapChainOpen
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pSwapChain
+- field_type: UInt32
+  field_name: Status
+- field_type: Int32
+  field_name: bProducer
+- field_type: UInt32
+  field_name: hDevice
+- field_type: Pointer
+  field_name: hBufferAvailableEvent
+- field_type: Pointer
+  field_name: hNtSwapChain

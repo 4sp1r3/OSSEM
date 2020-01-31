@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SystemEventsBroker
+event_id: '18'
+version: '1'
+event(fields): SebEventDrop_V1(GUID BrokeredEventId)
+opcode: Drop
+keywords: TraceSebEvent
+task: SebEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BrokeredEventId

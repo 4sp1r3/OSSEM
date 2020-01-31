@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '108'
+version: '0'
+event(fields): MediaFoundationPlayStop(UInt32 id, HexInt32 hr)
+opcode: Stop
+keywords: ''
+task: MediaFoundationPlay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id
+- field_type: HexInt32
+  field_name: hr

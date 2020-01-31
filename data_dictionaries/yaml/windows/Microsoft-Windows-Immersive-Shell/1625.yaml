@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1625'
+version: '0'
+event(fields): Launcher_Uninstall_StartingThread()
+opcode: ''
+keywords: ''
+task: Launcher_Uninstall_StartingThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

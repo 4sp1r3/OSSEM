@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '104'
+version: '0'
+event(fields): DownloadRequestStop()
+opcode: Stop
+keywords: Detailed
+task: DownloadRequest
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

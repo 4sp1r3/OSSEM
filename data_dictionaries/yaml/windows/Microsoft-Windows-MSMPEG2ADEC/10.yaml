@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSMPEG2ADEC
+event_id: '10'
+version: '0'
+event(fields): AUD_DUALMONO_CHANGE(UInt32 dwordarg)
+opcode: ''
+keywords: ''
+task: AUD_DUALMONO_CHANGE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwordarg

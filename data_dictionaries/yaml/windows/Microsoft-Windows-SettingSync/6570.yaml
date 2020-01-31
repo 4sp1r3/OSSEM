@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6570'
+version: '0'
+event(fields): task_06570(UnicodeString CollectionId, UnicodeString ProviderName,
+  UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UnicodeString
+  field_name: ProviderName
+- field_type: UInt32
+  field_name: HRESULT

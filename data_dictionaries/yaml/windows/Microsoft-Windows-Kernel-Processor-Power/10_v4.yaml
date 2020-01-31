@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '10'
+version: '4'
+event(fields): ProcessorPerfStateChange_V4(UInt32 State, UInt32 Speed, UInt16 Group,
+  UInt8 Number, UInt32 Performance, UInt32 TolerancePercent, UInt32 MinPercent, UInt32
+  MaxPercent, UInt32 EppPercent, UInt32 ActivityWindow, Boolean Autonomous, Boolean
+  Initiated, UInt32 QosClass)
+opcode: ''
+keywords: Perf
+task: ProcessorPerfStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Speed
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: Performance
+- field_type: UInt32
+  field_name: TolerancePercent
+- field_type: UInt32
+  field_name: MinPercent
+- field_type: UInt32
+  field_name: MaxPercent
+- field_type: UInt32
+  field_name: EppPercent
+- field_type: UInt32
+  field_name: ActivityWindow
+- field_type: Boolean
+  field_name: Autonomous
+- field_type: Boolean
+  field_name: Initiated
+- field_type: UInt32
+  field_name: QosClass

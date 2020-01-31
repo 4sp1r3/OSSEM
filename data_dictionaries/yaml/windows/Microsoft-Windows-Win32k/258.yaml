@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Win32k
+event_id: '258'
+version: '0'
+event(fields): FocusedProcessChangeGained(UInt32 SessionId, UInt32 NewProcessId, FILETIME
+  NewProcessCreateTime)
+opcode: ''
+keywords: UserActivity
+task: FocusedProcessChangeGained
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: NewProcessId
+- field_type: FILETIME
+  field_name: NewProcessCreateTime

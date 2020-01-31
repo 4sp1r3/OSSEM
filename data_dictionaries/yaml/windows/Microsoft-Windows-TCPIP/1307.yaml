@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1307'
+version: '0'
+event(fields): TcpCreateNotificationChannelRequestProcessed(Pointer Tcb, Pointer NcmContext,
+  UInt32 Pid, UInt32 Status, GUID PushNotificationGuid)
+opcode: ''
+keywords: ut:TcpipCsDiag ut:ConnectPath ut:Global
+task: TcpCreateNotificationChannelRequestProcessed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: Pointer
+  field_name: NcmContext
+- field_type: UInt32
+  field_name: Pid
+- field_type: UInt32
+  field_name: Status
+- field_type: GUID
+  field_name: PushNotificationGuid

@@ -1,0 +1,20 @@
+provider: Microsoft-JScript
+event_id: '95'
+version: '0'
+event(fields): Jscript_Backend_Inline(UInt32 CallerMethodID, UInt32 InlineeMethodID,
+  UnicodeString Caller, UnicodeString Inlinee)
+opcode: ''
+keywords: JscriptBackend
+task: Jscript_Backend_Inline
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CallerMethodID
+- field_type: UInt32
+  field_name: InlineeMethodID
+- field_type: UnicodeString
+  field_name: Caller
+- field_type: UnicodeString
+  field_name: Inlinee

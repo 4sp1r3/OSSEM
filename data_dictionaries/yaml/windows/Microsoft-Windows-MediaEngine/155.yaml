@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '155'
+version: '0'
+event(fields): CustomRefreshRateStart(Pointer object, UInt64 RequestedRefreshDuration,
+  UInt64 ActualRefreshDuration)
+opcode: Start
+keywords: ''
+task: CustomRefreshRate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt64
+  field_name: RequestedRefreshDuration
+- field_type: UInt64
+  field_name: ActualRefreshDuration

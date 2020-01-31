@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '89'
+version: '0'
+event(fields): ElementAccessibility(UInt64 ElementId, UInt64 ParentId, UnicodeString
+  Name, UnicodeString Type)
+opcode: ''
+keywords: ''
+task: ElementAccessibility
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UInt64
+  field_name: ParentId
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Type

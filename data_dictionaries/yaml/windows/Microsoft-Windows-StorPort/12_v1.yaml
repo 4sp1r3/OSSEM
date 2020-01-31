@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-StorPort
+event_id: '12'
+version: '1'
+event(fields): BuschangedetectnotificationOpCodeBusChangeDetected_V1(Pointer MiniportExtension,
+  UInt32 PortNumber)
+opcode: OpCodeBusChangeDetected
+keywords: PortNotification
+task: Buschangedetectnotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportExtension
+- field_type: UInt32
+  field_name: PortNumber

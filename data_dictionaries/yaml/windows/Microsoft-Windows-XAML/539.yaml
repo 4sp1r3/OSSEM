@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '539'
+version: '0'
+event(fields): RenderElementStop()
+opcode: Stop
+keywords: ''
+task: RenderElement
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3108'
+version: '0'
+event(fields): ClearToastNotificationRolloverStart()
+opcode: Start
+keywords: wpnui wpndev_NotificationE2E
+task: ClearToastNotificationRollover
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '413'
+version: '0'
+event(fields): Mshtml_HTMLSpell_NotifyStop()
+opcode: Stop
+keywords: subsystem mshtml
+task: Mshtml_HTMLSpell_Notify
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

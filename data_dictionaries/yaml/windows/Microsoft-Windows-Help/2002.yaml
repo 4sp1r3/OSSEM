@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '2002'
+version: '0'
+event(fields): NonPerfEventsStop()
+opcode: Stop
+keywords: ''
+task: NonPerfEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

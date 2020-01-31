@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '142'
+version: '0'
+event(fields): User_ModeIOCTLStop142(Pointer fid_UsbDevice, UInt32 fid_PortNumber,
+  UInt32 fid_NtStatus)
+opcode: Stop
+keywords: Default IRP
+task: User_ModeIOCTL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt32
+  field_name: fid_PortNumber
+- field_type: UInt32
+  field_name: fid_NtStatus

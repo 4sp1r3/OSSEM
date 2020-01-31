@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsSystemAssessmentTool
+event_id: '1'
+version: '0'
+event(fields): ApplicationStart(FILETIME StartTimeOfDay)
+opcode: Start
+keywords: ''
+task: Application
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: StartTimeOfDay

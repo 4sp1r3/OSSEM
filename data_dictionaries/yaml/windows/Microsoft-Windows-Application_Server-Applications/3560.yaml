@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3560'
+version: '0'
+event(fields): Quotas3560(UInt64 availableMemoryBytes, UnicodeString AppDomain)
+opcode: ''
+keywords: Quota
+task: Quotas
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: availableMemoryBytes
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SPB-ClassExtension
+event_id: '1024'
+version: '1'
+event(fields): I/OoperationflowthroughSPBCxIoSpbPayloadTdStop_V1()
+opcode: IoSpbPayloadTdStop
+keywords: ''
+task: I/OoperationflowthroughSPBCx
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

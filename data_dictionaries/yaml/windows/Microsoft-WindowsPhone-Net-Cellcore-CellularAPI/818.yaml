@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '818'
+version: '0'
+event(fields): CSms818(UInt32 cbBytes, UInt8 Bytes, UInt64 Pointer)
+opcode: ''
+keywords: Information
+task: CSms
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: cbBytes
+- field_type: UInt8
+  field_name: Bytes
+- field_type: UInt64
+  field_name: Pointer

@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '320'
+version: '0'
+event(fields): APMService320(UInt32 apmState, UInt32 hexCode)
+opcode: ''
+keywords: StateChange
+task: APMService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: apmState
+- field_type: UInt32
+  field_name: hexCode

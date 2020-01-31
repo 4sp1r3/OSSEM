@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4425'
+version: '0'
+event(fields): PropertyHandlerWithKeySetValueStop(AnsiString tag, Pointer object,
+  UInt32 contentType, GUID propertyKeyGuid, UInt32 propertyKeyFmtId)
+opcode: Stop
+keywords: ''
+task: PropertyHandlerWithKeySetValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: contentType
+- field_type: GUID
+  field_name: propertyKeyGuid
+- field_type: UInt32
+  field_name: propertyKeyFmtId

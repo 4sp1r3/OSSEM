@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '301'
+version: '0'
+event(fields): WinRTTranscode_Stage1_TaskStart(Pointer Object)
+opcode: Start
+keywords: keyword_400000000000
+task: WinRTTranscode_Stage1_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

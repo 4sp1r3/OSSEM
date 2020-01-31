@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61503'
+version: '0'
+event(fields): SetUserDefaults_ProgramAssociationsPopulatedStart()
+opcode: Start
+keywords: Shell
+task: SetUserDefaults_ProgramAssociationsPopulated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

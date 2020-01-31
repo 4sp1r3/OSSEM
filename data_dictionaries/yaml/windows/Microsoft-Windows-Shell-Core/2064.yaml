@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2064'
+version: '0'
+event(fields): Browseui_AutoComplete_OnSearchCompleteStop(UnicodeString Path)
+opcode: Stop
+keywords: Shell
+task: Browseui_AutoComplete_OnSearchComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path

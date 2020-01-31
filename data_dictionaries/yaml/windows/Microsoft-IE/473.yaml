@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '473'
+version: '0'
+event(fields): Mshtml_CScriptCollection_WebOC_FirstScriptExecutionEventStop(Pointer
+  CScriptCollection, Pointer CMarkup)
+opcode: Stop
+keywords: mshtml
+task: Mshtml_CScriptCollection_WebOC_FirstScriptExecutionEvent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CScriptCollection
+- field_type: Pointer
+  field_name: CMarkup

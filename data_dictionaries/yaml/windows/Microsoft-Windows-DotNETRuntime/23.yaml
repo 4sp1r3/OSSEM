@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '23'
+version: '0'
+event(fields): GCGCGenerationRange(UInt8 Generation, Pointer RangeStart, UInt64 RangeUsedLength,
+  UInt64 RangeReservedLength, UInt16 ClrInstanceID)
+opcode: GCGenerationRange
+keywords: GCHeapSurvivalAndMovementKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Generation
+- field_type: Pointer
+  field_name: RangeStart
+- field_type: UInt64
+  field_name: RangeUsedLength
+- field_type: UInt64
+  field_name: RangeReservedLength
+- field_type: UInt16
+  field_name: ClrInstanceID

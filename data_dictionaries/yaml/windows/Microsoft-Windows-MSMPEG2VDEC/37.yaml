@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '37'
+version: '0'
+event(fields): DXVA_CreateVideoDecoderStop(GUID DecoderGUID, UInt32 NumSurfaces, UInt32
+  Width, UInt32 Height, UInt32 RenderTarget, UInt32 D3DFormat)
+opcode: Stop
+keywords: ''
+task: DXVA_CreateVideoDecoder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DecoderGUID
+- field_type: UInt32
+  field_name: NumSurfaces
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: RenderTarget
+- field_type: UInt32
+  field_name: D3DFormat

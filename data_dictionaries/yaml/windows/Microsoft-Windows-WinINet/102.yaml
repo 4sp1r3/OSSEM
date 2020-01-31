@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WinINet
+event_id: '102'
+version: '0'
+event(fields): WININET_OPEN_URL_HANDLE_CREATED(Pointer ConnectionHandle, Pointer ParentHandle,
+  UInt16 _URLLength, AnsiString URL, UInt16 _HeadersLength, AnsiString Headers, UInt32
+  Flags)
+opcode: ''
+keywords: WININET_KEYWORD_HANDLES
+task: WININET_OPEN_URL_HANDLE_CREATED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionHandle
+- field_type: Pointer
+  field_name: ParentHandle
+- field_type: UInt16
+  field_name: _URLLength
+- field_type: AnsiString
+  field_name: URL
+- field_type: UInt16
+  field_name: _HeadersLength
+- field_type: AnsiString
+  field_name: Headers
+- field_type: UInt32
+  field_name: Flags

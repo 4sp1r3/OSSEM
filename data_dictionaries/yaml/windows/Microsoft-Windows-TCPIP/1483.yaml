@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1483'
+version: '0'
+event(fields): UdpUsoFallback(Pointer Endpoint, UInt32 FailureReason, UInt32 SegmentSize,
+  UInt32 LocalSockAddrLength, Binary LocalSockAddr, UInt32 RemoteSockAddrLength, Binary
+  RemoteSockAddr)
+opcode: ''
+keywords: ut:SendPath
+task: UdpUsoFallback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: FailureReason
+- field_type: UInt32
+  field_name: SegmentSize
+- field_type: UInt32
+  field_name: LocalSockAddrLength
+- field_type: Binary
+  field_name: LocalSockAddr
+- field_type: UInt32
+  field_name: RemoteSockAddrLength
+- field_type: Binary
+  field_name: RemoteSockAddr

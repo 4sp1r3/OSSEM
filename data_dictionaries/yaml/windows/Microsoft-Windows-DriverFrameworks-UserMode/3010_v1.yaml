@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '3010'
+version: '1'
+event(fields): PnporPowerManagementoperationtoaparticulardriverinadevicestack.Start3010_V1(GUID
+  LifetimeId, UnicodeString InstanceId, UInt32 Level, UInt32 StateMachine, UInt32
+  CurrentState, UInt32 Event, UInt32 NewState)
+opcode: Start
+keywords: ''
+task: PnporPowerManagementoperationtoaparticulardriverinadevicestack.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId
+- field_type: UnicodeString
+  field_name: InstanceId
+- field_type: UInt32
+  field_name: Level
+- field_type: UInt32
+  field_name: StateMachine
+- field_type: UInt32
+  field_name: CurrentState
+- field_type: UInt32
+  field_name: Event
+- field_type: UInt32
+  field_name: NewState

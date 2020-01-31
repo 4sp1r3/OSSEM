@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '152'
+version: '0'
+event(fields): LoaderModuleLoad(UInt64 ModuleID, UInt64 AssemblyID, UInt32 ModuleFlags,
+  UInt32 Reserved1, UnicodeString ModuleILPath, UnicodeString ModuleNativePath)
+opcode: ModuleLoad
+keywords: LoaderKeyword
+task: Loader
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ModuleID
+- field_type: UInt64
+  field_name: AssemblyID
+- field_type: UInt32
+  field_name: ModuleFlags
+- field_type: UInt32
+  field_name: Reserved1
+- field_type: UnicodeString
+  field_name: ModuleILPath
+- field_type: UnicodeString
+  field_name: ModuleNativePath

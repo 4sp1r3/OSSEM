@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1024'
+version: '0'
+event(fields): task_01024(GUID SpaceId, UInt32 Limit)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SpaceId
+- field_type: UInt32
+  field_name: Limit

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1347'
+version: '0'
+event(fields): TcpSpuriousRtoDetectionEnd1347(Pointer Tcb, UInt32 SeqNo)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:SendPath
+task: TcpSpuriousRtoDetectionEnd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: SeqNo

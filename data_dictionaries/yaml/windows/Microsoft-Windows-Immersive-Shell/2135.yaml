@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2135'
+version: '0'
+event(fields): PerfTrack_Picker_Launch_Open_Thumbnail_ResponsiveStop()
+opcode: Stop
+keywords: ''
+task: PerfTrack_Picker_Launch_Open_Thumbnail_Responsive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

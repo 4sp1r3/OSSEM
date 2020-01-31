@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '524'
+version: '0'
+event(fields): SoftKeyboard_Gesture_MovePredictionSelectionNext()
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_Gesture_MovePredictionSelectionNext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

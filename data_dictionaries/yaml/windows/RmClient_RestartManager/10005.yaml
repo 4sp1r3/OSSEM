@@ -1,0 +1,20 @@
+provider: RmClient_RestartManager
+event_id: '10005'
+version: '0'
+event(fields): task_010005(UInt32 RmSessionId, UInt32 nApplications, UnicodeString
+  Applications, UInt32 dwRebootReasons)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RmSessionId
+- field_type: UInt32
+  field_name: nApplications
+- field_type: UnicodeString
+  field_name: Applications
+- field_type: UInt32
+  field_name: dwRebootReasons

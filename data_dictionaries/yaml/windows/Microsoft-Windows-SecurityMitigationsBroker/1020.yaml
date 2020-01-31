@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-SecurityMitigationsBroker
+event_id: '1020'
+version: '0'
+event(fields): SecurityMitigationsBroker.Task.NotifyDisplayDriverUpdate1020(UInt64
+  DriverId, UInt32 ProcessId)
+opcode: ''
+keywords: SECURITYMITIGATIONBROKER_KEYWORD_ACG
+task: SecurityMitigationsBroker.Task.NotifyDisplayDriverUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DriverId
+- field_type: UInt32
+  field_name: ProcessId

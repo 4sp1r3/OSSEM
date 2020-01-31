@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '43098'
+version: '1'
+event(fields): UnpublishExtensionPointStop_V1()
+opcode: Stop
+keywords: ''
+task: UnpublishExtensionPoint
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

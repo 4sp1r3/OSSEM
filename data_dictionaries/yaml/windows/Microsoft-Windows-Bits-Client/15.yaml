@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '15'
+version: '0'
+event(fields): listenviaWS_DiscoveryforserverannouncementsStop15()
+opcode: Stop
+keywords: ''
+task: listenviaWS_Discoveryforserverannouncements
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

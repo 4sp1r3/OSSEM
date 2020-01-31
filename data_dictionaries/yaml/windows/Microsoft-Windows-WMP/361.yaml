@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMP
+event_id: '361'
+version: '0'
+event(fields): HME_SERVER_UPDATEOBJECTStop(UnicodeString DeviceID, UnicodeString ObjectID,
+  UInt32 HRESULT)
+opcode: Stop
+keywords: mediaplayer
+task: HME_SERVER_UPDATEOBJECT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceID
+- field_type: UnicodeString
+  field_name: ObjectID
+- field_type: UInt32
+  field_name: HRESULT

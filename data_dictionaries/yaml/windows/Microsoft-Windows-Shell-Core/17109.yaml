@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17109'
+version: '0'
+event(fields): Shake_RestoreStart()
+opcode: Start
+keywords: Shell
+task: Shake_Restore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3421'
+version: '0'
+event(fields): Connect3421(Int32 websocketId, UnicodeString AppDomain)
+opcode: ''
+keywords: HTTP
+task: Connect
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: websocketId
+- field_type: UnicodeString
+  field_name: AppDomain

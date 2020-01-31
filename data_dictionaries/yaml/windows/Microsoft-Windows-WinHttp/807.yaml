@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '807'
+version: '0'
+event(fields): WINHTTP_AUTOPROXY_DNSFail(UInt32 DetectFlags, UInt32 Error)
+opcode: Fail
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_AUTOPROXY_DNS
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DetectFlags
+- field_type: UInt32
+  field_name: Error

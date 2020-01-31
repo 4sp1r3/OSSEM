@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ThemeCPL
+event_id: '23'
+version: '0'
+event(fields): ThemeCPL_AccColorCplPageInitStop()
+opcode: Stop
+keywords: ThemeCPL
+task: ThemeCPL_AccColorCplPageInit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

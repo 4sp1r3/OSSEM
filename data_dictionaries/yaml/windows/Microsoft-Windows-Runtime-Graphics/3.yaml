@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Runtime-Graphics
+event_id: '3'
+version: '0'
+event(fields): DisplayProperties3()
+opcode: ''
+keywords: DisplayProperties
+task: DisplayProperties
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

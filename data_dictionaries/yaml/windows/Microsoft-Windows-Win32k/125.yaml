@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '125'
+version: '0'
+event(fields): PointerDeviceDiscoveryStart()
+opcode: Start
+keywords: MessagePumpInternalAndInput
+task: PointerDeviceDiscovery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

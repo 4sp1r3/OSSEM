@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '355'
+version: '0'
+event(fields): YieldStartNode(Pointer pDxgAdapter, UInt32 NodeOrdinal, UInt64 YieldExpirationInterval,
+  UInt64 YieldTimerExpirationInterval)
+opcode: ''
+keywords: Base
+task: YieldStartNode
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: NodeOrdinal
+- field_type: UInt64
+  field_name: YieldExpirationInterval
+- field_type: UInt64
+  field_name: YieldTimerExpirationInterval

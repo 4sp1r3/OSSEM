@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '12014'
+version: '0'
+event(fields): OneXAuthenticationRestart(UnicodeString Adapter, GUID DeviceGuid, UnicodeString
+  LocalMac, UnicodeString SSID, UnicodeString BSSType, UInt32 EapType, UInt32 VendorID,
+  UInt32 VendorType, UInt32 AuthorID, UnicodeString RestartReason, Pointer ConnectionId)
+opcode: Restart
+keywords: WlanConnect LwtDiagnostic
+task: OneXAuthentication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UInt32
+  field_name: EapType
+- field_type: UInt32
+  field_name: VendorID
+- field_type: UInt32
+  field_name: VendorType
+- field_type: UInt32
+  field_name: AuthorID
+- field_type: UnicodeString
+  field_name: RestartReason
+- field_type: Pointer
+  field_name: ConnectionId

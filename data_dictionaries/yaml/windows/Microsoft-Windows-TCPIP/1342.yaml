@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1342'
+version: '0'
+event(fields): TcpRttResiliencyDetection1342(Pointer Tcb, UInt32 RttSample, UInt32
+  RttVar, UInt32 SRTT)
+opcode: ''
+keywords: ut:Global
+task: TcpRttResiliencyDetection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: RttSample
+- field_type: UInt32
+  field_name: RttVar
+- field_type: UInt32
+  field_name: SRTT

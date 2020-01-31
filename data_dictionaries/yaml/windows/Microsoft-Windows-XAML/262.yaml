@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '262'
+version: '0'
+event(fields): ProcessNotifyWindowLayoutCompleted(UInt32 ApplicationViewState)
+opcode: ''
+keywords: Rendering
+task: ProcessNotifyWindowLayoutCompleted
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ApplicationViewState

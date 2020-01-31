@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-JPAPI
+event_id: '60'
+version: '0'
+event(fields): TaskID:IMEAPIStart()
+opcode: Start
+keywords: ''
+task: TaskID:IMEAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

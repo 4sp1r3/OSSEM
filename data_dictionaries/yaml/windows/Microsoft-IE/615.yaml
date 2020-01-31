@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '615'
+version: '0'
+event(fields): Mshtml_MessagePortStop(Pointer Object)
+opcode: Stop
+keywords: mshtml
+task: Mshtml_MessagePort
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

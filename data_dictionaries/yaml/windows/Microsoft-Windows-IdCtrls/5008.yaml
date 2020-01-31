@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-IdCtrls
+event_id: '5008'
+version: '0'
+event(fields): task_05008(UInt32 DISPID, UInt32 ArgErr, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DISPID
+- field_type: UInt32
+  field_name: ArgErr
+- field_type: UInt32
+  field_name: HRESULT

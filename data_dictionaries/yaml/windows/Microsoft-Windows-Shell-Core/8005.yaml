@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '8005'
+version: '0'
+event(fields): DetailsPropertyPage_SaveStart()
+opcode: Start
+keywords: Shell
+task: DetailsPropertyPage_Save
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

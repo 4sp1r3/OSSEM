@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '106'
+version: '0'
+event(fields): SI_Device_ConnectionStart()
+opcode: Start
+keywords: ''
+task: SI_Device_Connection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

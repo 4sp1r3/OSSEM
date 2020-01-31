@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Spellchecking-Host
+event_id: '2'
+version: '0'
+event(fields): task_02(UInt32 Wordlist, UnicodeString String, UInt32 Hresult)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Wordlist
+- field_type: UnicodeString
+  field_name: String
+- field_type: UInt32
+  field_name: Hresult

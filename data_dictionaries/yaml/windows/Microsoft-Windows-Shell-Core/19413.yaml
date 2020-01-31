@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19413'
+version: '0'
+event(fields): FileClassStore_SetFileClassIntStart()
+opcode: Start
+keywords: FileClassStoreAndIconCache
+task: FileClassStore_SetFileClassInt
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '111'
+version: '0'
+event(fields): Mshtml_CStorageHelper_MergeFromDiskStart(Pointer StorageHelper, UnicodeString
+  Domain)
+opcode: Start
+keywords: subsystem
+task: Mshtml_CStorageHelper_MergeFromDisk
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: StorageHelper
+- field_type: UnicodeString
+  field_name: Domain

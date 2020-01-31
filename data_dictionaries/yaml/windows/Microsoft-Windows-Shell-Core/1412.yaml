@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1412'
+version: '0'
+event(fields): OpenSearch_ParseResultsPageStop()
+opcode: Stop
+keywords: Shell
+task: OpenSearch_ParseResultsPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

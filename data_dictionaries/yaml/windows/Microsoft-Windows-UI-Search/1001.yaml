@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UI-Search
+event_id: '1001'
+version: '0'
+event(fields): XamlHostWindow_VisibilityChanged(UInt32 Visibility, UInt32 XAMLView)
+opcode: ''
+keywords: ''
+task: XamlHostWindow_VisibilityChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Visibility
+- field_type: UInt32
+  field_name: XAMLView

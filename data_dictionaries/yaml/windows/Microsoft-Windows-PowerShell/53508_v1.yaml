@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '53508'
+version: '1'
+event(fields): PowerShellNamedPipeIPCClose(Async)53508_V1(UnicodeString param1, UnicodeString
+  param2, UnicodeString param3)
+opcode: Close(Async)
+keywords: Transport
+task: PowerShellNamedPipeIPC
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2
+- field_type: UnicodeString
+  field_name: param3

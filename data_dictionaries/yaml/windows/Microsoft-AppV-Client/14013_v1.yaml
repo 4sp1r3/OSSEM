@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '14013'
+version: '1'
+event(fields): ConfigurePackage14013_V1(GUID Package, GUID Version)
+opcode: ''
+keywords: Publishing
+task: ConfigurePackage
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Package
+- field_type: GUID
+  field_name: Version

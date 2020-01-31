@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '6'
+version: '0'
+event(fields): ProfileManagement6(UnicodeString Device, Boolean Setting)
+opcode: ''
+keywords: ''
+task: ProfileManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Device
+- field_type: Boolean
+  field_name: Setting

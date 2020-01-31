@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '5'
+version: '0'
+event(fields): RECO_API_AdviseInkChangeStart()
+opcode: Start
+keywords: ''
+task: RECO_API_AdviseInkChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DCLocator
+event_id: '8'
+version: '0'
+event(fields): task_08(UnicodeString Message)
+opcode: ''
+keywords: mailslot_text
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message

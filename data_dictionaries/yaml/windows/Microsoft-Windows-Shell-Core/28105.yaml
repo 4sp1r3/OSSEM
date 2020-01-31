@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28105'
+version: '0'
+event(fields): Shell32_WindowPropStore_ValueRemoved()
+opcode: ''
+keywords: Shell
+task: Shell32_WindowPropStore_ValueRemoved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60648'
+version: '0'
+event(fields): ItemsView_UIItemsView_BlockRedrawStop(UInt32 SetRedrawCount)
+opcode: Stop
+keywords: Shell
+task: ItemsView_UIItemsView_BlockRedraw
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SetRedrawCount

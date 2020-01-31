@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '8502'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Extensions8502(UnicodeString MofFile, Int32
+  PhaseError, Int32 ObjectNum, Int32 FirstLine, Int32 LastLine)
+opcode: ''
+keywords: keyword_20000000000
+task: AppXDeployment.Task.Server.Extensions
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MofFile
+- field_type: Int32
+  field_name: PhaseError
+- field_type: Int32
+  field_name: ObjectNum
+- field_type: Int32
+  field_name: FirstLine
+- field_type: Int32
+  field_name: LastLine

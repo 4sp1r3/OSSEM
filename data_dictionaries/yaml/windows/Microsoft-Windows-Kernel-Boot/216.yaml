@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '216'
+version: '0'
+event(fields): SoftRebootStart216()
+opcode: Start
+keywords: SoftRestart
+task: SoftReboot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '2021'
+version: '0'
+event(fields): DocPerf_Task_XpsRas_RasterizeRectStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_XpsRas_RasterizeRect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1432'
+version: '0'
+event(fields): IpUpdateInterfaceNetworkCategoryState(UInt32 IfIndex, UInt32 CompartmentId,
+  UInt32 AddressFamily, UInt32 NetworkCategory, UInt32 DomainNetworkLocation, UInt32
+  DomainType, GUID NetworkSignature)
+opcode: ''
+keywords: ut:TcpipInterface
+task: IpUpdateInterfaceNetworkCategoryState
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: NetworkCategory
+- field_type: UInt32
+  field_name: DomainNetworkLocation
+- field_type: UInt32
+  field_name: DomainType
+- field_type: GUID
+  field_name: NetworkSignature

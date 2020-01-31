@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9095'
+version: '0'
+event(fields): Perf_WLRoamGlobalEnableStop(UInt32 HRESULT)
+opcode: Stop
+keywords: RoamingSettings
+task: Perf_WLRoamGlobalEnable
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

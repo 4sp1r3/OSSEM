@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '298'
+version: '0'
+event(fields): MPS_CLNT_API_SetMainModeRuleStart()
+opcode: Start
+keywords: Client
+task: MPS_CLNT_API_SetMainModeRule
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

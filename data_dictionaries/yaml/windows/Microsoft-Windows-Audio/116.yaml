@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Audio
+event_id: '116'
+version: '0'
+event(fields): Pump:settingdeadline(Pointer PumpInstance, Int64 deadlineHns)
+opcode: ''
+keywords: ''
+task: Pump:settingdeadline
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PumpInstance
+- field_type: Int64
+  field_name: deadlineHns

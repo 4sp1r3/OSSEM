@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2302'
+version: '0'
+event(fields): Launcher_Apps_ShowStart(UInt32 ShowMethod)
+opcode: Start
+keywords: ''
+task: Launcher_Apps_Show
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ShowMethod

@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '530'
+version: '0'
+event(fields): Mshtml_EventDebug_Timer_Invoke_CallbackStart(UInt32 TimerType, UInt32
+  CallbackCookie, UInt32 FunctionId)
+opcode: Start
+keywords: eventsandtimers
+task: Mshtml_EventDebug_Timer_Invoke_Callback
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimerType
+- field_type: UInt32
+  field_name: CallbackCookie
+- field_type: UInt32
+  field_name: FunctionId

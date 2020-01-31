@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-PrintService
+event_id: '823'
+version: '0'
+event(fields): ChangingthedefaultprinterSpoolerOperationSucceeded(UInt32 DefaultPrinterSelectedBySpooler,
+  UnicodeString OldDefaultPrinter, UnicodeString NewDefaultPrinter, HexInt32 Status,
+  UnicodeString Module)
+opcode: SpoolerOperationSucceeded
+keywords: SPOOLER_KEYWORD
+task: Changingthedefaultprinter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DefaultPrinterSelectedBySpooler
+- field_type: UnicodeString
+  field_name: OldDefaultPrinter
+- field_type: UnicodeString
+  field_name: NewDefaultPrinter
+- field_type: HexInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: Module

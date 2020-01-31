@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5926'
+version: '0'
+event(fields): AppActivation_RPCTimeout5926(UnicodeString PsmKey)
+opcode: ''
+keywords: ''
+task: AppActivation_RPCTimeout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey

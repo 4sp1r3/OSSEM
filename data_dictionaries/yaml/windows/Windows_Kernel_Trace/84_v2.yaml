@@ -1,0 +1,17 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d0-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '84'
+version: '2'
+event(fields): Process_V2_TypeGroup4(UInt32 Object, UInt32 Tag, UInt32 ProcessId,
+  UInt32 Count)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: Object
+- field_type: UInt32
+  field_name: Tag
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: Count

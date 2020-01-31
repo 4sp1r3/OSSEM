@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DXGI
+event_id: '188'
+version: '0'
+event(fields): IDXGISwapChain_ResizeBuffersStart(Pointer pThis, UInt32 BufferCount,
+  UInt32 Width, UInt32 Height, UInt32 NewFormat, UInt32 SwapChainFalgs)
+opcode: Start
+keywords: ''
+task: IDXGISwapChain_ResizeBuffers
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: BufferCount
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: NewFormat
+- field_type: UInt32
+  field_name: SwapChainFalgs

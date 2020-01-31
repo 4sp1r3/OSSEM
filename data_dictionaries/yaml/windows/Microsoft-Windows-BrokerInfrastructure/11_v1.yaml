@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '11'
+version: '1'
+event(fields): PackageStateChangeStart_V1(UnicodeString PackageFullName, UnicodeString
+  UserAccountName, UInt64 UserContextId, UInt32 PackageState)
+opcode: Start
+keywords: BackgroundTask
+task: PackageStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: UserAccountName
+- field_type: UInt64
+  field_name: UserContextId
+- field_type: UInt32
+  field_name: PackageState

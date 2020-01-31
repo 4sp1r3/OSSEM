@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2177'
+version: '0'
+event(fields): Picker_CachedFileUpdater_FileUpdateRequestStart(UnicodeString ContentId)
+opcode: Start
+keywords: ''
+task: Picker_CachedFileUpdater_FileUpdateRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContentId

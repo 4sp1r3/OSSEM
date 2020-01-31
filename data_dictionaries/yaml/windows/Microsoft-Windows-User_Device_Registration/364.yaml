@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '364'
+version: '0'
+event(fields): task_0364(GUID SavedKeyId, UnicodeString SavedKeyName, UnicodeString
+  SavedIdpDomain, UnicodeString SavedTenantId, UnicodeString SavedUserEmail, UnicodeString
+  KeyName, UnicodeString IdpDomain, UnicodeString TenantId, UnicodeString UserEmail)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SavedKeyId
+- field_type: UnicodeString
+  field_name: SavedKeyName
+- field_type: UnicodeString
+  field_name: SavedIdpDomain
+- field_type: UnicodeString
+  field_name: SavedTenantId
+- field_type: UnicodeString
+  field_name: SavedUserEmail
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: UnicodeString
+  field_name: IdpDomain
+- field_type: UnicodeString
+  field_name: TenantId
+- field_type: UnicodeString
+  field_name: UserEmail

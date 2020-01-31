@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '15'
+version: '0'
+event(fields): TypeBulkType(UInt32 Count, UInt16 ClrInstanceID, Int8 Values)
+opcode: BulkType
+keywords: TypeKeyword
+task: Type
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: Int8
+  field_name: Values

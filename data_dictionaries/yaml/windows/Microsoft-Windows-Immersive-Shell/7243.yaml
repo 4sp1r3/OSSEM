@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7243'
+version: '0'
+event(fields): ConnectedSearch_LogAppVisibilityBGStart()
+opcode: Start
+keywords: ''
+task: ConnectedSearch_LogAppVisibilityBG
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

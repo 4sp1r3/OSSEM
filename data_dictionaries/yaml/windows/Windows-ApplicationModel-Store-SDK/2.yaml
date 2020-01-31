@@ -1,0 +1,22 @@
+provider: Windows-ApplicationModel-Store-SDK
+event_id: '2'
+version: '0'
+event(fields): StorefrontClient_2(UnicodeString Message, UInt32 LineNumber, UnicodeString
+  FileName, UnicodeString Function, UnicodeString ExceptionDetails)
+opcode: ''
+keywords: StorefrontClient
+task: StorefrontClient_2
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UInt32
+  field_name: LineNumber
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UnicodeString
+  field_name: Function
+- field_type: UnicodeString
+  field_name: ExceptionDetails

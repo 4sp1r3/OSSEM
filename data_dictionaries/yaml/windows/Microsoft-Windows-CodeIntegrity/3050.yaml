@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3050'
+version: '0'
+event(fields): GetFileCache(HexInt32 Status)
+opcode: ''
+keywords: ''
+task: GetFileCache
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

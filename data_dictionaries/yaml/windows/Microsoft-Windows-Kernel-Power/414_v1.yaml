@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '414'
+version: '1'
+event(fields): UserGlobalStatus_V1(UInt32 SessionId, UInt32 State, UInt32 TransitionCount)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: UserGlobalStatus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: TransitionCount

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-StoreMgr
+event_id: '4'
+version: '1'
+event(fields): StoreDelete_V1(Pointer StoreKey)
+opcode: ''
+keywords: StoreOps
+task: StoreDelete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: StoreKey

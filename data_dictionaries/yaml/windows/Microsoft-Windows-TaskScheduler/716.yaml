@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '716'
+version: '0'
+event(fields): Compatibilitymoduletasksupgradefailed716(UInt32 ResultCode)
+opcode: ''
+keywords: ''
+task: Compatibilitymoduletasksupgradefailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ResultCode

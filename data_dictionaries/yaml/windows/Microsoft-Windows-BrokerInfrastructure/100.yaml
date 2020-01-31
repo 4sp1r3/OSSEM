@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '100'
+version: '0'
+event(fields): BackgroundTaskPerfTrackStop(UInt32 ElapsedTime, UInt32 TaskThrottleCount,
+  UInt32 EventType, UnicodeString PackageFullName, UnicodeString EntryPoint)
+opcode: Stop
+keywords: ''
+task: BackgroundTaskPerfTrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ElapsedTime
+- field_type: UInt32
+  field_name: TaskThrottleCount
+- field_type: UInt32
+  field_name: EventType
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: EntryPoint

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '311'
+version: '0'
+event(fields): PagingOpUpdateContextAllocation(Pointer pDxgAdapter, Pointer hDmaBuffer,
+  Boolean ContinueNextBuffer, Pointer hAllocationGlobalHandle, UInt64 ContextAllocation,
+  UInt64 ContextAllocationSize, Pointer pDriverPrivateData, UInt32 DriverPrivateDataSize)
+opcode: ''
+keywords: Resource
+task: PagingOpUpdateContextAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: hDmaBuffer
+- field_type: Boolean
+  field_name: ContinueNextBuffer
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt64
+  field_name: ContextAllocation
+- field_type: UInt64
+  field_name: ContextAllocationSize
+- field_type: Pointer
+  field_name: pDriverPrivateData
+- field_type: UInt32
+  field_name: DriverPrivateDataSize

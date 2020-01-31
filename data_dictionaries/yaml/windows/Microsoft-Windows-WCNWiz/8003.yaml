@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WCNWiz
+event_id: '8003'
+version: '0'
+event(fields): PINPageStart()
+opcode: Start
+keywords: ''
+task: PINPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

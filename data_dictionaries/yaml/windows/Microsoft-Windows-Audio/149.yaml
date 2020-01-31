@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Audio
+event_id: '149'
+version: '0'
+event(fields): AEIRP(Pointer objInstance, UInt32 ucType, UInt32 Index, UInt32 OutStandingCount,
+  UInt64 FrameExtent)
+opcode: ''
+keywords: ''
+task: AEIRP
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objInstance
+- field_type: UInt32
+  field_name: ucType
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: OutStandingCount
+- field_type: UInt64
+  field_name: FrameExtent

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MF
+event_id: '1211'
+version: '0'
+event(fields): MediaFoundationAsyncProcessInput(MFT)Start(Pointer WrapperPtr, UInt32
+  StreamID, Pointer SamplePtr, UInt32 RemainingInputRequests, UInt32 RemainingQueuedInputSamples)
+opcode: Start
+keywords: ''
+task: MediaFoundationAsyncProcessInput(MFT)
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WrapperPtr
+- field_type: UInt32
+  field_name: StreamID
+- field_type: Pointer
+  field_name: SamplePtr
+- field_type: UInt32
+  field_name: RemainingInputRequests
+- field_type: UInt32
+  field_name: RemainingQueuedInputSamples

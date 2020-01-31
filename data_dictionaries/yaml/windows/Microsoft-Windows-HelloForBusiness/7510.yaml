@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7510'
+version: '0'
+event(fields): KeyRegistrationStop(HexInt32 Error)
+opcode: Stop
+keywords: Component
+task: KeyRegistration
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error

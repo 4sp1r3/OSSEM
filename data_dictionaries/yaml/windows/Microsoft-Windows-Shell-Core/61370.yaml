@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61370'
+version: '0'
+event(fields): FileAccessAPI_StreamAccess_GetStreamStart()
+opcode: Start
+keywords: Shell
+task: FileAccessAPI_StreamAccess_GetStream
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

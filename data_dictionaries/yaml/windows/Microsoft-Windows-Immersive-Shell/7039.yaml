@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7039'
+version: '0'
+event(fields): Launcher_Apps_SwitchToAllAppsViewFromSearchStart()
+opcode: Start
+keywords: ''
+task: Launcher_Apps_SwitchToAllAppsViewFromSearch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '45'
+version: '0'
+event(fields): Manipulation_ViewportAbandonStart(Pointer ViewportPointer)
+opcode: Start
+keywords: ''
+task: Manipulation_ViewportAbandon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ViewportPointer

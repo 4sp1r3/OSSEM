@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '234'
+version: '0'
+event(fields): AppReadiness_User_ProcessTasksStop234(HexInt32 ExitCode)
+opcode: Stop
+keywords: User
+task: AppReadiness_User_ProcessTasks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ExitCode

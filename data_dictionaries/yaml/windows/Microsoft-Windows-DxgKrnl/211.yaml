@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '211'
+version: '0'
+event(fields): DdiStopDeviceAndReleasePostDisplayOwnershipStop(Pointer MiniportDeviceContext,
+  UInt32 TargetId, UInt32 Width, UInt32 Height, UInt32 Pitch, UInt32 ColorFormat,
+  UInt32 Status)
+opcode: Stop
+keywords: Base
+task: DdiStopDeviceAndReleasePostDisplayOwnership
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportDeviceContext
+- field_type: UInt32
+  field_name: TargetId
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: Pitch
+- field_type: UInt32
+  field_name: ColorFormat
+- field_type: UInt32
+  field_name: Status

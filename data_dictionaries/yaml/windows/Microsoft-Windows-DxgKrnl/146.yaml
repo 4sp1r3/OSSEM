@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '146'
+version: '0'
+event(fields): DdiProtectedCallbackStart(Pointer MiniportContext, Pointer ProtectedCallbackContext,
+  UInt32 ProtectionStatus)
+opcode: Start
+keywords: Base
+task: DdiProtectedCallback
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportContext
+- field_type: Pointer
+  field_name: ProtectedCallbackContext
+- field_type: UInt32
+  field_name: ProtectionStatus

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '782'
+version: '0'
+event(fields): Requesthandling782()
+opcode: ''
+keywords: Keyword.Server
+task: Requesthandling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

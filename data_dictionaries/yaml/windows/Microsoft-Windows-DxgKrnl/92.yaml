@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '92'
+version: '0'
+event(fields): FenceStart(Pointer hAdapter, Pointer hSyncObject, UInt32 Reason, UInt32
+  Flags, Pointer SharedHandle, UInt64 InitialValue)
+opcode: Start
+keywords: Base
+task: Fence
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAdapter
+- field_type: Pointer
+  field_name: hSyncObject
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Flags
+- field_type: Pointer
+  field_name: SharedHandle
+- field_type: UInt64
+  field_name: InitialValue

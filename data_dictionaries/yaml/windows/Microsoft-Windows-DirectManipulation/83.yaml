@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '83'
+version: '0'
+event(fields): Manipulation_InputHandled(UInt32 PointerId, UInt32 FrameId, UInt32
+  Message)
+opcode: ''
+keywords: ''
+task: Manipulation_InputHandled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PointerId
+- field_type: UInt32
+  field_name: FrameId
+- field_type: UInt32
+  field_name: Message

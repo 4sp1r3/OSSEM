@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '10'
+version: '0'
+event(fields): APIStop(UInt64 ApiHandle, AnsiString Api, UInt32 Result)
+opcode: Stop
+keywords: Keyword.API
+task: API
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ApiHandle
+- field_type: AnsiString
+  field_name: Api
+- field_type: UInt32
+  field_name: Result

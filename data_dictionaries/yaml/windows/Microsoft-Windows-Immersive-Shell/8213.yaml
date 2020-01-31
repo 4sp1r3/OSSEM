@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '8213'
+version: '0'
+event(fields): BackStackMusicPlay_Revoke_Data_Source_Service()
+opcode: ''
+keywords: ''
+task: BackStackMusicPlay_Revoke_Data_Source_Service
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

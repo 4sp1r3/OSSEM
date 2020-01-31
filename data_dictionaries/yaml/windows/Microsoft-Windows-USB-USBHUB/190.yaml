@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-USBHUB
+event_id: '190'
+version: '0'
+event(fields): USBHubPowerDispatch190(UInt8 fid_USBHUB_HC, Int64 fid_USBHUB_Hub, UInt32
+  fid_PowerState, UInt32 fid_Status)
+opcode: Dispatch
+keywords: Diagnostics
+task: USBHubPower
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: fid_USBHUB_HC
+- field_type: Int64
+  field_name: fid_USBHUB_Hub
+- field_type: UInt32
+  field_name: fid_PowerState
+- field_type: UInt32
+  field_name: fid_Status

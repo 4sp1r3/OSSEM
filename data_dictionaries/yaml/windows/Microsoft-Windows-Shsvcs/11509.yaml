@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shsvcs
+event_id: '11509'
+version: '0'
+event(fields): HDSrv_NonVolume_NotifyShellStart(UnicodeString ContainerIdentifier,
+  UnicodeString DeviceIdentifier)
+opcode: Start
+keywords: ''
+task: HDSrv_NonVolume_NotifyShell
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContainerIdentifier
+- field_type: UnicodeString
+  field_name: DeviceIdentifier

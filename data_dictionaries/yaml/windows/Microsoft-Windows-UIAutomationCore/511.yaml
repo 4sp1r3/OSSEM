@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '511'
+version: '0'
+event(fields): CSelectionPattern_GetCurrentSelectionStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CSelectionPattern_GetCurrentSelection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

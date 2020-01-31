@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40005'
+version: '0'
+event(fields): VReg.EnumKeyStop()
+opcode: Stop
+keywords: ''
+task: VReg.EnumKey
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

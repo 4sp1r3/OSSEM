@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '177'
+version: '0'
+event(fields): UpdateDeadlineoperation(Pointer object, Int64 deadline, Int64 hnsDeltaFromNow)
+opcode: ''
+keywords: ''
+task: UpdateDeadlineoperation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: deadline
+- field_type: Int64
+  field_name: hnsDeltaFromNow

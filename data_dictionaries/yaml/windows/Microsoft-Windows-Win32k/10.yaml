@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Win32k
+event_id: '10'
+version: '0'
+event(fields): PowerDisplayChange(UInt32 SessionId, UInt32 PreviousStateTime, UInt16
+  PreviousState, UInt16 NewState, UInt16 IsConsoleSession)
+opcode: ''
+keywords: win32Power
+task: PowerDisplayChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: PreviousStateTime
+- field_type: UInt16
+  field_name: PreviousState
+- field_type: UInt16
+  field_name: NewState
+- field_type: UInt16
+  field_name: IsConsoleSession

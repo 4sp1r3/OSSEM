@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '67'
+version: '1'
+event(fields): ProcessorIdleRundown_V1(UInt16 Group, UInt8 Number, UInt32 Type, UInt32
+  StateCount, Int16 States)
+opcode: ''
+keywords: Diag
+task: ProcessorIdleRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: StateCount
+- field_type: Int16
+  field_name: States

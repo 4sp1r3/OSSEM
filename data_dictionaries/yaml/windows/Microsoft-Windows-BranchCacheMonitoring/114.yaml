@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-BranchCacheMonitoring
+event_id: '114'
+version: '0'
+event(fields): task_0114(UInt32 SegmentIdSize, Binary SegmentId, UInt32 BlockId, UInt32
+  BlockSize, UnicodeString HostName, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SegmentIdSize
+- field_type: Binary
+  field_name: SegmentId
+- field_type: UInt32
+  field_name: BlockId
+- field_type: UInt32
+  field_name: BlockSize
+- field_type: UnicodeString
+  field_name: HostName
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-EapHost
+event_id: '1021'
+version: '0'
+event(fields): Authenticator1021(UnicodeString RegistryKey, Int8 ErrorCode)
+opcode: ''
+keywords: Reg
+task: Authenticator
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RegistryKey
+- field_type: Int8
+  field_name: ErrorCode

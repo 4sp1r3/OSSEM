@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '213'
+version: '0'
+event(fields): FavCenterCloseStart(UInt64 Object)
+opcode: Start
+keywords: ''
+task: FavCenterClose
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

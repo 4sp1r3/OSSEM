@@ -1,0 +1,34 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '41'
+version: '2'
+event(fields): SpinLock(UInt32 SpinLockAddress, UInt32 CallerAddress, UInt64 AcquireTime,
+  UInt64 ReleaseTime, UInt32 WaitTimeInCycles, UInt32 SpinCount, UInt32 ThreadId,
+  UInt32 InterruptCount, UInt8 Irql, UInt8 AcquireDepth, UInt8 Flag, UInt8 Reserved)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: SpinLockAddress
+- field_type: UInt32
+  field_name: CallerAddress
+- field_type: UInt64
+  field_name: AcquireTime
+- field_type: UInt64
+  field_name: ReleaseTime
+- field_type: UInt32
+  field_name: WaitTimeInCycles
+- field_type: UInt32
+  field_name: SpinCount
+- field_type: UInt32
+  field_name: ThreadId
+- field_type: UInt32
+  field_name: InterruptCount
+- field_type: UInt8
+  field_name: Irql
+- field_type: UInt8
+  field_name: AcquireDepth
+- field_type: UInt8
+  field_name: Flag
+- field_type: UInt8
+  field_name: Reserved

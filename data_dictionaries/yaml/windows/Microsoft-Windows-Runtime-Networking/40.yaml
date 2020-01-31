@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '40'
+version: '0'
+event(fields): SocketReceiveProcessingafterread(Pointer obj, UInt32 hresult, Int32
+  errorMessage)
+opcode: Processingafterread
+keywords: keywords.Socket
+task: SocketReceive
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: obj
+- field_type: UInt32
+  field_name: hresult
+- field_type: Int32
+  field_name: errorMessage

@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '59'
+version: '1'
+event(fields): task_0Start59_V1(GUID transferId, UnicodeString name, GUID Id, UnicodeString
+  url, UnicodeString peer, FILETIME fileTime, UInt64 fileLength, UInt64 bytesTotal,
+  UInt64 bytesTransferred, UInt64 bytesTransferredFromPeer)
+opcode: Start
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: transferId
+- field_type: UnicodeString
+  field_name: name
+- field_type: GUID
+  field_name: Id
+- field_type: UnicodeString
+  field_name: url
+- field_type: UnicodeString
+  field_name: peer
+- field_type: FILETIME
+  field_name: fileTime
+- field_type: UInt64
+  field_name: fileLength
+- field_type: UInt64
+  field_name: bytesTotal
+- field_type: UInt64
+  field_name: bytesTransferred
+- field_type: UInt64
+  field_name: bytesTransferredFromPeer

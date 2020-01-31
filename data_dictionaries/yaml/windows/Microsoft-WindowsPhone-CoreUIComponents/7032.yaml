@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '7032'
+version: '0'
+event(fields): NavigationClientRunMessageSessionStart(UInt32 unParam)
+opcode: Start
+keywords: NavigationClient
+task: NavigationClientRunMessageSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '2004'
+version: '0'
+event(fields): LogTrace2004(GUID p0, UnicodeString p1, UInt32 p2)
+opcode: ''
+keywords: ExecDevPlatCircular
+task: LogTrace
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: p0
+- field_type: UnicodeString
+  field_name: p1
+- field_type: UInt32
+  field_name: p2

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7145'
+version: '0'
+event(fields): Perf_WLRoamEnumerateDeviceBackupsStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamEnumerateDeviceBackups
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

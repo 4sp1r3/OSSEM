@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-EFS
+event_id: '258'
+version: '0'
+event(fields): task_0258(UInt32 CertValidated, UInt32 cbHash, AnsiString pbHash, UnicodeString
+  ContainerName, UnicodeString ProviderName, UnicodeString DisplayInformation, AnsiString
+  dwCapabilities, AnsiString bIsCurrentKey, AnsiString eKeyType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CertValidated
+- field_type: UInt32
+  field_name: cbHash
+- field_type: AnsiString
+  field_name: pbHash
+- field_type: UnicodeString
+  field_name: ContainerName
+- field_type: UnicodeString
+  field_name: ProviderName
+- field_type: UnicodeString
+  field_name: DisplayInformation
+- field_type: AnsiString
+  field_name: dwCapabilities
+- field_type: AnsiString
+  field_name: bIsCurrentKey
+- field_type: AnsiString
+  field_name: eKeyType

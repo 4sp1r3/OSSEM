@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuth
+event_id: '1002'
+version: '0'
+event(fields): NavigationStart1002(UnicodeString Url)
+opcode: Start
+keywords: AuthHost
+task: NavigationStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Url

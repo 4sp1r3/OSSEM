@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Wired-AutoConfig
+event_id: '21027'
+version: '0'
+event(fields): MSM21027(UInt32 ErrorCode, UInt32 Location, UInt32 Context, GUID InterfaceGuid,
+  UnicodeString InterfaceDescription)
+opcode: ''
+keywords: MSM ut:Authentication
+task: MSM
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription

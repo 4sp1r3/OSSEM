@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '395'
+version: '0'
+event(fields): VmBusProcessPacketDpcStart(Pointer VmBusChannel, UInt64 CommandId,
+  UInt32 CommandType)
+opcode: Start
+keywords: VirtualGpu
+task: VmBusProcessPacketDpc
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: VmBusChannel
+- field_type: UInt64
+  field_name: CommandId
+- field_type: UInt32
+  field_name: CommandType

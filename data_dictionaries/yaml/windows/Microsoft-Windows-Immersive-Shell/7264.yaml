@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7264'
+version: '0'
+event(fields): ConnectedSearch_LogHttpErrorStart()
+opcode: Start
+keywords: ''
+task: ConnectedSearch_LogHttpError
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

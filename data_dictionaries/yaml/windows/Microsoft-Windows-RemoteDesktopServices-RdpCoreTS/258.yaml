@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '258'
+version: '0'
+event(fields): RemoteFXmodule_4AdvancedRemoteAppNotEnabled()
+opcode: AdvancedRemoteAppNotEnabled
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

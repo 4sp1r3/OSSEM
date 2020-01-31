@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ReadyBoost
+event_id: '1028'
+version: '1'
+event(fields): HybridDrive_V1(UInt32 DiskNumber)
+opcode: ''
+keywords: ReadyBoost
+task: HybridDrive
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DiskNumber

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '1008'
+version: '0'
+event(fields): AddressConfigurationStateEventInitNetworkInterfaceFailed(UInt32 StatusCode)
+opcode: InitNetworkInterfaceFailed
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StatusCode

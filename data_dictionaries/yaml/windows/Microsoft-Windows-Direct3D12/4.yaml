@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '4'
+version: '0'
+event(fields): DeviceStop(Pointer pID3D12Device, UInt32 FeatureLevel, UInt32 hKMAdapter,
+  Pointer hUMAdapter, UInt64 UMAdapterVersion, UInt32 hKMDevice, UInt64 UMDeviceVersion)
+opcode: Stop
+keywords: Devices ObjectLifetime
+task: Device
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: UInt32
+  field_name: FeatureLevel
+- field_type: UInt32
+  field_name: hKMAdapter
+- field_type: Pointer
+  field_name: hUMAdapter
+- field_type: UInt64
+  field_name: UMAdapterVersion
+- field_type: UInt32
+  field_name: hKMDevice
+- field_type: UInt64
+  field_name: UMDeviceVersion

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1069'
+version: '0'
+event(fields): Wininet_FileIOStart(Pointer Handle, UInt32 Operation, UInt32 ClientType,
+  UInt32 ThreadInfoUIType, Boolean IsSync)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_FileIO
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Handle
+- field_type: UInt32
+  field_name: Operation
+- field_type: UInt32
+  field_name: ClientType
+- field_type: UInt32
+  field_name: ThreadInfoUIType
+- field_type: Boolean
+  field_name: IsSync

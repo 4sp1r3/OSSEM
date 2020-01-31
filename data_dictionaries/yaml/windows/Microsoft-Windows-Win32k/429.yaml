@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '429'
+version: '0'
+event(fields): PowerWatchdogStart(UInt64 Instance, UInt32 WatchdogType)
+opcode: Start
+keywords: win32Power
+task: PowerWatchdog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Instance
+- field_type: UInt32
+  field_name: WatchdogType

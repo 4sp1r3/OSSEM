@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-LockScreenContent
+event_id: '26'
+version: '0'
+event(fields): LockScreenContent_Slideshow_SlideshowManager_Destroyed()
+opcode: ''
+keywords: LockScreenContent
+task: LockScreenContent_Slideshow_SlideshowManager_Destroyed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

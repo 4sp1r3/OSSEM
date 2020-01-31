@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4508'
+version: '0'
+event(fields): Platform:InitStop(Pointer Platform)
+opcode: Stop
+keywords: ''
+task: Platform:Init
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Platform

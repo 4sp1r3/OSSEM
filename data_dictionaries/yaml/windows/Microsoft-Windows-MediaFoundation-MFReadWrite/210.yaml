@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-MediaFoundation-MFReadWrite
+event_id: '210'
+version: '0'
+event(fields): Transform_ProcessStop(Pointer Object, UInt32 StreamIndex, Pointer Transform,
+  UInt32 OutputStreamIndex, Pointer Sample, UInt64 Timestamp, UInt64 Duration, UInt32
+  Size, Boolean Discontinuity, Boolean CleanPoint, UInt32 TransformType)
+opcode: Stop
+keywords: ''
+task: Transform_Process
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: StreamIndex
+- field_type: Pointer
+  field_name: Transform
+- field_type: UInt32
+  field_name: OutputStreamIndex
+- field_type: Pointer
+  field_name: Sample
+- field_type: UInt64
+  field_name: Timestamp
+- field_type: UInt64
+  field_name: Duration
+- field_type: UInt32
+  field_name: Size
+- field_type: Boolean
+  field_name: Discontinuity
+- field_type: Boolean
+  field_name: CleanPoint
+- field_type: UInt32
+  field_name: TransformType

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WFP
+event_id: '1037'
+version: '0'
+event(fields): task_01037(UInt32 Counter)
+opcode: ''
+keywords: ut:Global
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Counter

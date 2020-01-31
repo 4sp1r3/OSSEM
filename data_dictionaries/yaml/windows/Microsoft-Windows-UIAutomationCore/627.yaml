@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '627'
+version: '0'
+event(fields): IA2TextRange_FindTextStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: IA2TextRange_FindText
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

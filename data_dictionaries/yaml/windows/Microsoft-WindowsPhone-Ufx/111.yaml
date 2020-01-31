@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-Ufx
+event_id: '111'
+version: '0'
+event(fields): StateMachine111(AnsiString Machine, AnsiString Event, Pointer Payload)
+opcode: ''
+keywords: StateMachine
+task: StateMachine
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Machine
+- field_type: AnsiString
+  field_name: Event
+- field_type: Pointer
+  field_name: Payload

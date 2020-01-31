@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-OfflineFiles
+event_id: '2001'
+version: '0'
+event(fields): task_02001(UnicodeString Path, Boolean ClientIsDir, Boolean ClientChanged,
+  Boolean ClientIsSparse, Boolean ClientCreatedOffline, Boolean ClientDeletedOffline,
+  FILETIME ClientLastWriteTime, FILETIME ClientChangeTime, UInt32 ClientAttributes,
+  UInt64 ClientSize, Boolean ServerDeleted, UInt32 SyncState, UnicodeString SyncStateText)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path
+- field_type: Boolean
+  field_name: ClientIsDir
+- field_type: Boolean
+  field_name: ClientChanged
+- field_type: Boolean
+  field_name: ClientIsSparse
+- field_type: Boolean
+  field_name: ClientCreatedOffline
+- field_type: Boolean
+  field_name: ClientDeletedOffline
+- field_type: FILETIME
+  field_name: ClientLastWriteTime
+- field_type: FILETIME
+  field_name: ClientChangeTime
+- field_type: UInt32
+  field_name: ClientAttributes
+- field_type: UInt64
+  field_name: ClientSize
+- field_type: Boolean
+  field_name: ServerDeleted
+- field_type: UInt32
+  field_name: SyncState
+- field_type: UnicodeString
+  field_name: SyncStateText

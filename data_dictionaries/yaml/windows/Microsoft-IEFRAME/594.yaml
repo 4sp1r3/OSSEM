@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '594'
+version: '0'
+event(fields): Browseui_BringBrowserTabAlternateOwnerForward_Hung(UInt32 TabID)
+opcode: ''
+keywords: ''
+task: Browseui_BringBrowserTabAlternateOwnerForward_Hung
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID

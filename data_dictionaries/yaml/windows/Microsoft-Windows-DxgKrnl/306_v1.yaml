@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '306'
+version: '1'
+event(fields): PagingOpVirtualTransfer_V1(Pointer pDxgAdapter, Pointer hDmaBuffer,
+  Boolean ContinueNextBuffer, Pointer hAllocationGlobalHandle, UInt64 AllocationOffset,
+  UInt64 TransferSize, UInt32 SourceSegmentId, UInt32 DestinationSegmentId, UInt64
+  SourceVirtualAddress, UInt64 DestinationVirtualAddress, UInt64 SourcePageTable,
+  UInt32 TransferDirection, UInt32 TransferFlags, UInt64 DestinationPageTable, UInt64
+  SourceSegmentOffset, UInt64 DestinationSegmentOffset)
+opcode: ''
+keywords: Resource
+task: PagingOpVirtualTransfer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: hDmaBuffer
+- field_type: Boolean
+  field_name: ContinueNextBuffer
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt64
+  field_name: AllocationOffset
+- field_type: UInt64
+  field_name: TransferSize
+- field_type: UInt32
+  field_name: SourceSegmentId
+- field_type: UInt32
+  field_name: DestinationSegmentId
+- field_type: UInt64
+  field_name: SourceVirtualAddress
+- field_type: UInt64
+  field_name: DestinationVirtualAddress
+- field_type: UInt64
+  field_name: SourcePageTable
+- field_type: UInt32
+  field_name: TransferDirection
+- field_type: UInt32
+  field_name: TransferFlags
+- field_type: UInt64
+  field_name: DestinationPageTable
+- field_type: UInt64
+  field_name: SourceSegmentOffset
+- field_type: UInt64
+  field_name: DestinationSegmentOffset

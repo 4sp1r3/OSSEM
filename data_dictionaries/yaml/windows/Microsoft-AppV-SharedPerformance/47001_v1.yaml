@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '47001'
+version: '1'
+event(fields): ShellExtensionsPackagingStop_V1()
+opcode: Stop
+keywords: ''
+task: ShellExtensionsPackaging
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

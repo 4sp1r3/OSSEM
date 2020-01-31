@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1075'
+version: '0'
+event(fields): OutputDuplicationReleaseFrame(Pointer ContextPtr, UInt32 KeyedMutexIdx,
+  UInt32 PresentUpdateStatusCurrent, Boolean bAccumulatedFrameUpdated, Boolean bKeyMutexTriggered,
+  UInt32 Status)
+opcode: ''
+keywords: Base
+task: OutputDuplicationReleaseFrame
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextPtr
+- field_type: UInt32
+  field_name: KeyedMutexIdx
+- field_type: UInt32
+  field_name: PresentUpdateStatusCurrent
+- field_type: Boolean
+  field_name: bAccumulatedFrameUpdated
+- field_type: Boolean
+  field_name: bKeyMutexTriggered
+- field_type: UInt32
+  field_name: Status

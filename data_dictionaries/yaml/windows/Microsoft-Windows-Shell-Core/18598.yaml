@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18598'
+version: '0'
+event(fields): Shell32_List_EnumStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_List_Enum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

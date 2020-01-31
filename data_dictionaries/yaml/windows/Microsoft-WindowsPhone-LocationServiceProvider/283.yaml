@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '283'
+version: '0'
+event(fields): Crowdsource283(UInt32 rawDataListSize, Boolean IsCollectionStateActive)
+opcode: ''
+keywords: Selfhost Crowdsource
+task: Crowdsource
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: rawDataListSize
+- field_type: Boolean
+  field_name: IsCollectionStateActive

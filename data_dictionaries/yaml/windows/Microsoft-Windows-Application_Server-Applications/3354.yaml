@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3354'
+version: '0'
+event(fields): SecurityNegotiation(UnicodeString AppDomain)
+opcode: ''
+keywords: Security
+task: SecurityNegotiation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-NFC-ClassExtension
+event_id: '307'
+version: '1'
+event(fields): RFNDEFtagread.Start_V1()
+opcode: Start
+keywords: RF
+task: RFNDEFtagread.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

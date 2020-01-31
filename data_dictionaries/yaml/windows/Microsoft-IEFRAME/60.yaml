@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '60'
+version: '0'
+event(fields): CompressThumbnailStart()
+opcode: Start
+keywords: primarynav
+task: CompressThumbnail
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

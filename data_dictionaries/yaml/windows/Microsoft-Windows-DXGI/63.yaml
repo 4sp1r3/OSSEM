@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DXGI
+event_id: '63'
+version: '0'
+event(fields): CreateDirectFlipResource(Pointer pIDXGISwapChain, UInt32 Width, UInt32
+  Height, UInt32 DXGIFormat)
+opcode: ''
+keywords: Events
+task: CreateDirectFlipResource
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: DXGIFormat

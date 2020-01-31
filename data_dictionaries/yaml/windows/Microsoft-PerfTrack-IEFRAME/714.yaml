@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '714'
+version: '0'
+event(fields): Find_MatchAndHighlightHits_PerftrackStart(UInt64 Object)
+opcode: Start
+keywords: ''
+task: Find_MatchAndHighlightHits_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

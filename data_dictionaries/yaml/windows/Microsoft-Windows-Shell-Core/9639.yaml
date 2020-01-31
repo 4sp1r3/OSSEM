@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9639'
+version: '0'
+event(fields): Explorer_IconCache_ImageListSize(UnicodeString psz)
+opcode: ''
+keywords: Shell
+task: Explorer_IconCache_ImageListSize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

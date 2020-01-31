@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '118'
+version: '0'
+event(fields): Mshtml_DOM_Marshalling_GetDispIDStop(Pointer Thunk, UInt32 hr, UInt32
+  DispID, UInt32 Versioned)
+opcode: Stop
+keywords: marshalling
+task: Mshtml_DOM_Marshalling_GetDispID
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Thunk
+- field_type: UInt32
+  field_name: hr
+- field_type: UInt32
+  field_name: DispID
+- field_type: UInt32
+  field_name: Versioned

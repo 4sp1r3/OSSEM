@@ -1,0 +1,17 @@
+provider: Microsoft-IE
+event_id: '198'
+version: '0'
+event(fields): Mshtml_SAM_Free(Pointer Allocator, Pointer Allocation, UInt32 Size)
+opcode: ''
+keywords: verbose
+task: Mshtml_SAM_Free
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Allocator
+- field_type: Pointer
+  field_name: Allocation
+- field_type: UInt32
+  field_name: Size

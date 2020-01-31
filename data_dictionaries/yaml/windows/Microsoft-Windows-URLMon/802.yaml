@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-URLMon
+event_id: '802'
+version: '0'
+event(fields): URLMON_Process_Queued_Msg(UInt32 Msg, UnicodeString URL)
+opcode: ''
+keywords: URLMON_KEYWORD
+task: URLMON_Process_Queued_Msg
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Msg
+- field_type: UnicodeString
+  field_name: URL

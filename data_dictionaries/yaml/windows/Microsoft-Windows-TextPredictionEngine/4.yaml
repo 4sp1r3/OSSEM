@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TextPredictionEngine
+event_id: '4'
+version: '0'
+event(fields): TPLangMod_API_SetContextStop()
+opcode: Stop
+keywords: ''
+task: TPLangMod_API_SetContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

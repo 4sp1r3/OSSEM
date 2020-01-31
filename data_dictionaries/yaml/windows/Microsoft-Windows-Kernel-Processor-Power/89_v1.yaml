@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '89'
+version: '1'
+event(fields): StaticPolicyRundown_V1(Boolean PerfBoostAtGuaranteed, UInt32 PerfIdealAggressiveIncreasePolicyThreshold,
+  UInt32 PerfSingleStepSize, UInt32 PerfCalculateActualUtilization, Boolean PerfArtificialDomain,
+  UInt32 LowLatencyScalingPercentage, Boolean ParkWithCoreGranularity, UInt32 MultiparkGranularity,
+  Boolean QosManagesIdleProcessors, UInt32 QosHysteresis)
+opcode: ''
+keywords: Diag
+task: StaticPolicyRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: PerfBoostAtGuaranteed
+- field_type: UInt32
+  field_name: PerfIdealAggressiveIncreasePolicyThreshold
+- field_type: UInt32
+  field_name: PerfSingleStepSize
+- field_type: UInt32
+  field_name: PerfCalculateActualUtilization
+- field_type: Boolean
+  field_name: PerfArtificialDomain
+- field_type: UInt32
+  field_name: LowLatencyScalingPercentage
+- field_type: Boolean
+  field_name: ParkWithCoreGranularity
+- field_type: UInt32
+  field_name: MultiparkGranularity
+- field_type: Boolean
+  field_name: QosManagesIdleProcessors
+- field_type: UInt32
+  field_name: QosHysteresis

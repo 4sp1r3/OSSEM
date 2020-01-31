@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MSMPEG2ADEC
+event_id: '4'
+version: '0'
+event(fields): AUD_BINDING_BLOB_TYPE(UInt32 BlobVer, UInt32 LicensorIndex)
+opcode: ''
+keywords: ''
+task: AUD_BINDING_BLOB_TYPE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BlobVer
+- field_type: UInt32
+  field_name: LicensorIndex

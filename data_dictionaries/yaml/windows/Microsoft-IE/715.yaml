@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '715'
+version: '0'
+event(fields): Mshtml_CDragPreview_CreateSurfaceStop(Pointer DragPreview, HexInt32
+  FailureHresult)
+opcode: Stop
+keywords: draganddrop touch
+task: Mshtml_CDragPreview_CreateSurface
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DragPreview
+- field_type: HexInt32
+  field_name: FailureHresult

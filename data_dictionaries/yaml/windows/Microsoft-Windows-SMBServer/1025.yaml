@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1025'
+version: '0'
+event(fields): SrvNullSessionsAllowed()
+opcode: ''
+keywords: Operational
+task: SrvNullSessionsAllowed
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

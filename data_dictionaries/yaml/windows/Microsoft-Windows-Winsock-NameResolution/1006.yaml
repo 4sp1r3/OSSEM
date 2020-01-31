@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Winsock-NameResolution
+event_id: '1006'
+version: '0'
+event(fields): WinsockGai1006(GUID ProviderGUID, UnicodeString QueryName, GUID ServiceGUID,
+  UInt32 InterfaceIndex, UInt32 ControlFlags)
+opcode: ''
+keywords: ''
+task: WinsockGai
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderGUID
+- field_type: UnicodeString
+  field_name: QueryName
+- field_type: GUID
+  field_name: ServiceGUID
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UInt32
+  field_name: ControlFlags

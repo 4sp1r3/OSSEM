@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '190'
+version: '0'
+event(fields): AsyncRenderViewRequest()
+opcode: ''
+keywords: Reader
+task: AsyncRenderViewRequest
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

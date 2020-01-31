@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '20012'
+version: '0'
+event(fields): ConnecttonetworkonresumeafterinterveningdisconnectStart20012(GUID InterfaceGuid)
+opcode: Start
+keywords: ''
+task: Connecttonetworkonresumeafterinterveningdisconnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

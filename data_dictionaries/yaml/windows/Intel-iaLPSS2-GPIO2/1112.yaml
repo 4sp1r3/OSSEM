@@ -1,0 +1,20 @@
+provider: Intel-iaLPSS2-GPIO2
+event_id: '1112'
+version: '0'
+event(fields): iaLPSS_GPIO2Controllerroutines1112(UInt32 MBAR, UInt64 PA, UInt32 LEN,
+  UInt32 Status)
+opcode: ''
+keywords: ''
+task: iaLPSS_GPIO2Controllerroutines
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MBAR
+- field_type: UInt64
+  field_name: PA
+- field_type: UInt32
+  field_name: LEN
+- field_type: UInt32
+  field_name: Status

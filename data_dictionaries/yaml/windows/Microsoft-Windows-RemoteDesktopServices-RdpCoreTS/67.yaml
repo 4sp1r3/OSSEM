@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '67'
+version: '0'
+event(fields): RemoteFXmodule_4RCMProtocolImpl67(UnicodeString ConnectionName, HexInt32
+  ErrorCode)
+opcode: RCMProtocolImpl
+keywords: ''
+task: RemoteFXmodule_4
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ConnectionName
+- field_type: HexInt32
+  field_name: ErrorCode

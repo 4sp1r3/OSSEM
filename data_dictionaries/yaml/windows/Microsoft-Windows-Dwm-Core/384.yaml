@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '384'
+version: '0'
+event(fields): COMPUTESCRIBBLE_UNSUPPORTEDCHECK(Boolean NoDisplay, Boolean OffscreenDisplay,
+  Boolean StereoDisplay, Boolean NoSwapChain, Boolean SingleBufferSwapChain, Boolean
+  DetachedSwapChain, Boolean IncompatibleSwapChain, Boolean NoSurface, Boolean KillSwitch,
+  Boolean NonWhitelistedVendor, Boolean BlacklistedDriver, Boolean NoCapability)
+opcode: ''
+keywords: DwmCore
+task: COMPUTESCRIBBLE_UNSUPPORTEDCHECK
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: NoDisplay
+- field_type: Boolean
+  field_name: OffscreenDisplay
+- field_type: Boolean
+  field_name: StereoDisplay
+- field_type: Boolean
+  field_name: NoSwapChain
+- field_type: Boolean
+  field_name: SingleBufferSwapChain
+- field_type: Boolean
+  field_name: DetachedSwapChain
+- field_type: Boolean
+  field_name: IncompatibleSwapChain
+- field_type: Boolean
+  field_name: NoSurface
+- field_type: Boolean
+  field_name: KillSwitch
+- field_type: Boolean
+  field_name: NonWhitelistedVendor
+- field_type: Boolean
+  field_name: BlacklistedDriver
+- field_type: Boolean
+  field_name: NoCapability

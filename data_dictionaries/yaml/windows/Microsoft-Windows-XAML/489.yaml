@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '489'
+version: '0'
+event(fields): SetupCCCStart(Int32 ItemIndex)
+opcode: Start
+keywords: Controls
+task: SetupCCC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ItemIndex

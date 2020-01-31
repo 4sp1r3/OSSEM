@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '126'
+version: '0'
+event(fields): AllocatePhysicalPagesForMdlStart(UInt64 LowAddress, UInt64 HighAddress,
+  UInt64 SkipBytes, UInt64 TotalBytes, UInt32 CacheType, UInt32 Flags)
+opcode: Start
+keywords: SoftRestart PhysicalMemory
+task: AllocatePhysicalPagesForMdl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: LowAddress
+- field_type: UInt64
+  field_name: HighAddress
+- field_type: UInt64
+  field_name: SkipBytes
+- field_type: UInt64
+  field_name: TotalBytes
+- field_type: UInt32
+  field_name: CacheType
+- field_type: UInt32
+  field_name: Flags

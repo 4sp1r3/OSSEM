@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-Engine
+event_id: '13'
+version: '0'
+event(fields): ScanAndBackupStop()
+opcode: Stop
+keywords: ''
+task: ScanAndBackup
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

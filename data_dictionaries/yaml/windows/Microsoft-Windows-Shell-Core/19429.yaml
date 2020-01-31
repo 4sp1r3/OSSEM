@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19429'
+version: '0'
+event(fields): IconCache_AddIconStart()
+opcode: Start
+keywords: FileClassStoreAndIconCache
+task: IconCache_AddIcon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

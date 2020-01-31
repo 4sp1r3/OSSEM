@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '5289'
+version: '0'
+event(fields): task_05289(HexInt32 Error, UnicodeString PackageMoniker, UnicodeString
+  SettingName, UnicodeString SettingValue, UInt32 Index)
+opcode: ''
+keywords: STATE_DEH_KEYWORD
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: PackageMoniker
+- field_type: UnicodeString
+  field_name: SettingName
+- field_type: UnicodeString
+  field_name: SettingValue
+- field_type: UInt32
+  field_name: Index

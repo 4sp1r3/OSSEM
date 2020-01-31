@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '38'
+version: '0'
+event(fields): RemoteFXmodule_4Initialize38()
+opcode: Initialize
+keywords: ''
+task: RemoteFXmodule_4
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14061'
+version: '1'
+event(fields): CoordinateActivityStart_V1(UInt64 ActivityId)
+opcode: Start
+keywords: ''
+task: CoordinateActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ActivityId

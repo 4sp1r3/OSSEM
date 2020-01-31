@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1130'
+version: '0'
+event(fields): DataLayer_ReuseCachedStart(UInt32 Count)
+opcode: Start
+keywords: Shell
+task: DataLayer_ReuseCached
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count

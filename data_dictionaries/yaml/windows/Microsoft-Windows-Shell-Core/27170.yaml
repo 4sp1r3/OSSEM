@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27170'
+version: '0'
+event(fields): PerfTrack_Explorer_NetworkFolderHighDPIStop(UInt32 BrowserId, UInt32
+  ItemCount)
+opcode: Stop
+keywords: Shell WDI
+task: PerfTrack_Explorer_NetworkFolderHighDPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BrowserId
+- field_type: UInt32
+  field_name: ItemCount

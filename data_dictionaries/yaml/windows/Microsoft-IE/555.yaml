@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '555'
+version: '0'
+event(fields): Mshtml_RenderTask_Queued(Pointer RenderTask, UInt32 QueueDepth, Boolean
+  OnUIThread, Boolean Async, UnicodeString Description)
+opcode: ''
+keywords: subsystem composition
+task: Mshtml_RenderTask_Queued
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RenderTask
+- field_type: UInt32
+  field_name: QueueDepth
+- field_type: Boolean
+  field_name: OnUIThread
+- field_type: Boolean
+  field_name: Async
+- field_type: UnicodeString
+  field_name: Description

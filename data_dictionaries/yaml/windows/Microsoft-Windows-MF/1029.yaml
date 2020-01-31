@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MF
+event_id: '1029'
+version: '0'
+event(fields): MediaProc:SourceNode_ProcessSampleStop(Pointer object, Pointer node,
+  UInt32 result)
+opcode: Stop
+keywords: ''
+task: MediaProc:SourceNode_ProcessSample
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: node
+- field_type: UInt32
+  field_name: result

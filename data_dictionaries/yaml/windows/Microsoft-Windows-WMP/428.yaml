@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '428'
+version: '0'
+event(fields): CONFIGURE_STREAMING_MENU_ACTIONStop(UInt32 result)
+opcode: Stop
+keywords: mediaplayer
+task: CONFIGURE_STREAMING_MENU_ACTION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: result

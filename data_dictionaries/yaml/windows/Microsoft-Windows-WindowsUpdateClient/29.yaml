@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '29'
+version: '0'
+event(fields): WindowsUpdateAgentStateChange_1_17()
+opcode: StateChange_1_17
+keywords: connection
+task: WindowsUpdateAgent
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

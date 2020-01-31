@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '118'
+version: '0'
+event(fields): UIAutomationCoreAPI_UiaProviderFromIAccessibleStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: UIAutomationCoreAPI_UiaProviderFromIAccessible
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

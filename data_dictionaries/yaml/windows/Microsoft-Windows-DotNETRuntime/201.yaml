@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '201'
+version: '0'
+event(fields): GCDecreaseMemoryPressure(UInt64 BytesFreed, UInt16 ClrInstanceID)
+opcode: DecreaseMemoryPressure
+keywords: GCKeyword
+task: GC
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: BytesFreed
+- field_type: UInt16
+  field_name: ClrInstanceID

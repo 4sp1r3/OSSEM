@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '405'
+version: '0'
+event(fields): Browseui_HangUI_CreateCoverWindow(UInt32 TabID, UInt32 HRESULT)
+opcode: ''
+keywords: hang
+task: Browseui_HangUI_CreateCoverWindow
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID
+- field_type: UInt32
+  field_name: HRESULT

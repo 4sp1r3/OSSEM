@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '8005'
+version: '0'
+event(fields): StartthedevicenetworkStart(GUID InterfaceGuid, AnsiString SSID)
+opcode: Start
+keywords: SOFTAP
+task: Startthedevicenetwork
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: AnsiString
+  field_name: SSID

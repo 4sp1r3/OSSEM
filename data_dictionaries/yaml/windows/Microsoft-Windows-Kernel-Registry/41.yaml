@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '41'
+version: '0'
+event(fields): Thisgroupofeventstrackstheperformanceofexportinghives.Start(UnicodeString
+  SourceKeyPath)
+opcode: Start
+keywords: ''
+task: Thisgroupofeventstrackstheperformanceofexportinghives.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SourceKeyPath

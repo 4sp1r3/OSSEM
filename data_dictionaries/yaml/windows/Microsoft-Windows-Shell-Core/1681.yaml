@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1681'
+version: '0'
+event(fields): ShellTask_MultiComplete_WorkThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_MultiComplete_WorkThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

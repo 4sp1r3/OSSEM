@@ -1,0 +1,24 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '213'
+version: '0'
+event(fields): LocationSession213(UInt32 SessionId, UInt32 Pe, GUID ProductId, UnicodeString
+  UserSid, UnicodeString PackageId, UnicodeString CallerName)
+opcode: ''
+keywords: Selfhost Position FixSession
+task: LocationSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: Pe
+- field_type: GUID
+  field_name: ProductId
+- field_type: UnicodeString
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: PackageId
+- field_type: UnicodeString
+  field_name: CallerName

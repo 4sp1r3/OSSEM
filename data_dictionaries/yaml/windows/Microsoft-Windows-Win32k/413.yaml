@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Win32k
+event_id: '413'
+version: '0'
+event(fields): TokenIndependentFlipSkipComplete(UInt32 SyncRefreshCount, UInt32 PresentCount,
+  UInt64 CompositionSurfaceLuid, UInt64 BindId)
+opcode: ''
+keywords: Updates
+task: TokenIndependentFlipSkipComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SyncRefreshCount
+- field_type: UInt32
+  field_name: PresentCount
+- field_type: UInt64
+  field_name: CompositionSurfaceLuid
+- field_type: UInt64
+  field_name: BindId

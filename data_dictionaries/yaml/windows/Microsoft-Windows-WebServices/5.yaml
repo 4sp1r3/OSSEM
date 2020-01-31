@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebServices
+event_id: '5'
+version: '0'
+event(fields): APIsAPIExitAsyncSuccess(UInt32 api, UInt32 result)
+opcode: APIExitAsyncSuccess
+keywords: keywords.API
+task: APIs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: api
+- field_type: UInt32
+  field_name: result

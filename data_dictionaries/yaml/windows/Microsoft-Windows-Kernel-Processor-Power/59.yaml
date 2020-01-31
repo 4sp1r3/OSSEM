@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '59'
+version: '0'
+event(fields): PepQueryCapabilities(UInt16 Group, UInt8 Number, UInt32 FeedbackCounterCount,
+  UInt32 IdleStateCount, Boolean PerformanceStatesSupported, Boolean ParkingSupported)
+opcode: ''
+keywords: Diag
+task: PepQueryCapabilities
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: FeedbackCounterCount
+- field_type: UInt32
+  field_name: IdleStateCount
+- field_type: Boolean
+  field_name: PerformanceStatesSupported
+- field_type: Boolean
+  field_name: ParkingSupported

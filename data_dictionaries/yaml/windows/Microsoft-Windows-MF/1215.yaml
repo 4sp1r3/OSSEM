@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1215'
+version: '0'
+event(fields): MediaFoundationNodeInfoSetWorkQueue(Pointer ObjectPtr, UInt32 WorkQueueID)
+opcode: ''
+keywords: ''
+task: MediaFoundationNodeInfoSetWorkQueue
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ObjectPtr
+- field_type: UInt32
+  field_name: WorkQueueID

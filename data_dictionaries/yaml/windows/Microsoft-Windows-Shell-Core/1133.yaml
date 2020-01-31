@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1133'
+version: '0'
+event(fields): DataLayer_StackThumbnails_RenderingStop()
+opcode: Stop
+keywords: Shell
+task: DataLayer_StackThumbnails_Rendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '120'
+version: '0'
+event(fields): HealthCenter_IconProcessNotificationStart()
+opcode: Start
+keywords: ''
+task: HealthCenter_IconProcessNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

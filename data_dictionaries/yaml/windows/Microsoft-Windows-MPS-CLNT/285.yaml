@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '285'
+version: '0'
+event(fields): MPS_CLNT_API_FreePhase2SAsStop()
+opcode: Stop
+keywords: Client
+task: MPS_CLNT_API_FreePhase2SAs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

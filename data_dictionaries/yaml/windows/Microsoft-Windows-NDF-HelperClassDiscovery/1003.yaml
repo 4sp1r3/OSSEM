@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NDF-HelperClassDiscovery
+event_id: '1003'
+version: '0'
+event(fields): LoadHelperClass1003(UnicodeString HelperClassName)
+opcode: ''
+keywords: ''
+task: LoadHelperClass
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HelperClassName

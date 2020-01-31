@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '509'
+version: '1'
+event(fields): ClassCompletionofrequest.509_V1(GUID DeviceGUID, UInt32 DeviceNumber,
+  AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber,
+  HexInt32 IrpStatus, UInt8 IrpMinorFunction, UInt32 PnPType, Boolean PnPUsageInPath,
+  UInt32 CurrentPnpState, UInt32 PreviousPnpState, UInt32 PagingPathUsageCount, UInt32
+  HibernationPathUsageCount, UInt32 DumpPathUsageCount)
+opcode: Completionofrequest.
+keywords: PnP
+task: Class
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGUID
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: AnsiString
+  field_name: Vendor
+- field_type: AnsiString
+  field_name: Model
+- field_type: AnsiString
+  field_name: FirmwareVersion
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: HexInt32
+  field_name: IrpStatus
+- field_type: UInt8
+  field_name: IrpMinorFunction
+- field_type: UInt32
+  field_name: PnPType
+- field_type: Boolean
+  field_name: PnPUsageInPath
+- field_type: UInt32
+  field_name: CurrentPnpState
+- field_type: UInt32
+  field_name: PreviousPnpState
+- field_type: UInt32
+  field_name: PagingPathUsageCount
+- field_type: UInt32
+  field_name: HibernationPathUsageCount
+- field_type: UInt32
+  field_name: DumpPathUsageCount

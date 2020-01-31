@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '8354'
+version: '0'
+event(fields): task_08354(UInt32 CurrentOperation, HexInt32 ErrorCode)
+opcode: ''
+keywords: AOWAPP_DEH_KEYWORD
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CurrentOperation
+- field_type: HexInt32
+  field_name: ErrorCode

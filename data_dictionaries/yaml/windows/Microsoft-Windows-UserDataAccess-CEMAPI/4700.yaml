@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4700'
+version: '0'
+event(fields): SHARECONTENTStart()
+opcode: Start
+keywords: Performance
+task: SHARECONTENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

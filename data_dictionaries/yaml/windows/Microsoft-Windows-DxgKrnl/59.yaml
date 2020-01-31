@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '59'
+version: '0'
+event(fields): PagingOpUnmapApertureSegment(Pointer pDxgAdapter, Pointer hDmaBuffer,
+  Boolean ContinueNextBuffer, Pointer hAllocationGlobalHandle, UInt32 SegmentId, UInt64
+  OffsetInPages, UInt64 NumberOfPages, Boolean EvictionResource)
+opcode: ''
+keywords: Resource
+task: PagingOpUnmapApertureSegment
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: hDmaBuffer
+- field_type: Boolean
+  field_name: ContinueNextBuffer
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt32
+  field_name: SegmentId
+- field_type: UInt64
+  field_name: OffsetInPages
+- field_type: UInt64
+  field_name: NumberOfPages
+- field_type: Boolean
+  field_name: EvictionResource

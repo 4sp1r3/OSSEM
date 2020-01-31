@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2523'
+version: '0'
+event(fields): TaskNTNavigateTo2523(UInt32 unParam)
+opcode: NTNavigateTo
+keywords: Task
+task: Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

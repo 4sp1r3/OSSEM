@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '60'
+version: '0'
+event(fields): BackoffThreadWaitStop(UInt32 Value)
+opcode: Stop
+keywords: Performance Backoff
+task: BackoffThreadWait
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

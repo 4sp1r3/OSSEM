@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-PDC
+event_id: '90'
+version: '0'
+event(fields): SpmClientMessage(Pointer PdcMessage, Pointer Client, UInt32 PdcId,
+  UInt32 OperationStatus, Boolean Active, UInt32 ReferenceCount)
+opcode: ''
+keywords: SPM
+task: SpmClientMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PdcMessage
+- field_type: Pointer
+  field_name: Client
+- field_type: UInt32
+  field_name: PdcId
+- field_type: UInt32
+  field_name: OperationStatus
+- field_type: Boolean
+  field_name: Active
+- field_type: UInt32
+  field_name: ReferenceCount

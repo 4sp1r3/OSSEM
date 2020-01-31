@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Deduplication-Change
+event_id: '16458'
+version: '1'
+event(fields): task_016458_V1(UInt8 ChunkStoreType, UnicodeString FileName, UInt32
+  ContainerId, UInt32 Generation, UInt32 FileCopyLevel)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ChunkStoreType
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: ContainerId
+- field_type: UInt32
+  field_name: Generation
+- field_type: UInt32
+  field_name: FileCopyLevel

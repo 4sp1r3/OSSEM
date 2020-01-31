@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45089'
+version: '1'
+event(fields): WorkflowExecutionTobeusedwhenoperationisjustexecutingamethod45089_V1(GUID
+  workflowId, UnicodeString activityName, UnicodeString failureDescription)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: PSWorkflow
+task: WorkflowExecution
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: workflowId
+- field_type: UnicodeString
+  field_name: activityName
+- field_type: UnicodeString
+  field_name: failureDescription

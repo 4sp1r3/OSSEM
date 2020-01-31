@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NdisImPlatformEventProvider
+event_id: '30'
+version: '0'
+event(fields): task_030(UnicodeString TeamNic, UnicodeString Member, Int32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TeamNic
+- field_type: UnicodeString
+  field_name: Member
+- field_type: Int32
+  field_name: Status

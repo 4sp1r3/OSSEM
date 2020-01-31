@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Crypto-RNG
+event_id: '3'
+version: '0'
+event(fields): Gatherentropyforthesystemrandomnumbergenerator(UInt64 SourceNumber,
+  UInt32 BytesProvided, Int32 EntropyEstimate, UInt32 nData, Binary Data)
+opcode: ''
+keywords: KEYWORD_SYSTEMRNG_ENTROPY_DATA
+task: Gatherentropyforthesystemrandomnumbergenerator
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SourceNumber
+- field_type: UInt32
+  field_name: BytesProvided
+- field_type: Int32
+  field_name: EntropyEstimate
+- field_type: UInt32
+  field_name: nData
+- field_type: Binary
+  field_name: Data

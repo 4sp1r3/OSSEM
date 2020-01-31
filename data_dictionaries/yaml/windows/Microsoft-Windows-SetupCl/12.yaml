@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SetupCl
+event_id: '12'
+version: '0'
+event(fields): SetupCltaskStart12(UnicodeString HiveName)
+opcode: Start
+keywords: keyPerformance
+task: SetupCltask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HiveName

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4669'
+version: '0'
+event(fields): Tiles_Cache_Entry_CRC_Failure(UInt32 EntryID)
+opcode: ''
+keywords: NotificationE2E
+task: Tiles_Cache_Entry_CRC_Failure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EntryID

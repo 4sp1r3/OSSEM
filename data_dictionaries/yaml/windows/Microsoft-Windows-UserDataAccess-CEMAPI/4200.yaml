@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4200'
+version: '0'
+event(fields): STORE_GETIDSFROMNAMESStart()
+opcode: Start
+keywords: Performance
+task: STORE_GETIDSFROMNAMES
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

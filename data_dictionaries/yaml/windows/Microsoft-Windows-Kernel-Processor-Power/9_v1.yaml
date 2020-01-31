@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '9'
+version: '1'
+event(fields): DomainPerfStateChange_V1(UInt32 State, UInt32 Speed, UInt16 GroupCount,
+  Int16 Group, UInt32 Performance)
+opcode: ''
+keywords: Perf
+task: DomainPerfStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Speed
+- field_type: UInt16
+  field_name: GroupCount
+- field_type: Int16
+  field_name: Group
+- field_type: UInt32
+  field_name: Performance

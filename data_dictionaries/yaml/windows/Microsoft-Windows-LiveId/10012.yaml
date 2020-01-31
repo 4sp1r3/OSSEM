@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LiveId
+event_id: '10012'
+version: '0'
+event(fields): task_010012(UnicodeString ProcessName)
+opcode: ''
+keywords: Error WlidBho
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25066'
+version: '0'
+event(fields): Logon_RequestCredentialsToCancelAfterEnumerateStop(UInt32 CredProvUsageScenario)
+opcode: Stop
+keywords: ''
+task: Logon_RequestCredentialsToCancelAfterEnumerate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CredProvUsageScenario

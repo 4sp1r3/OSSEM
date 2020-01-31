@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-RPC-Proxy-LBS
+event_id: '2'
+version: '1'
+event(fields): task_0Stop_V1(UnicodeString ServerName, UInt32 Status)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt32
+  field_name: Status

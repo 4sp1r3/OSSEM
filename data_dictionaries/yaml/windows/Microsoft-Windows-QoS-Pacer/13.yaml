@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-QoS-Pacer
+event_id: '13'
+version: '0'
+event(fields): task_013(UInt32 FlowConformanceEvent, UInt64 CurrentTime, UInt64 LastConformanceTime,
+  UInt64 PeakConformanceTime, UInt64 Tokens, UInt64 MaxTokens, UInt64 Rate, UInt32
+  LastConformanceCredits)
+opcode: ''
+keywords: ut:SendPath
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FlowConformanceEvent
+- field_type: UInt64
+  field_name: CurrentTime
+- field_type: UInt64
+  field_name: LastConformanceTime
+- field_type: UInt64
+  field_name: PeakConformanceTime
+- field_type: UInt64
+  field_name: Tokens
+- field_type: UInt64
+  field_name: MaxTokens
+- field_type: UInt64
+  field_name: Rate
+- field_type: UInt32
+  field_name: LastConformanceCredits

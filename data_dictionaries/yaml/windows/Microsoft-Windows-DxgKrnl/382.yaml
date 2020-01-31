@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '382'
+version: '0'
+event(fields): HSyncDPCMultiPlane(Pointer pDxgAdapter, UInt32 PlaneCount, UInt64 ScannedPhysicalAddress,
+  UInt32 VidPnSourceId, UInt32 FrameNumber, UInt32 FlipEntryCount, UInt64 FlipSubmitSequence)
+opcode: ''
+keywords: Base
+task: HSyncDPCMultiPlane
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: PlaneCount
+- field_type: UInt64
+  field_name: ScannedPhysicalAddress
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: FrameNumber
+- field_type: UInt32
+  field_name: FlipEntryCount
+- field_type: UInt64
+  field_name: FlipSubmitSequence

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '361'
+version: '0'
+event(fields): AbortQueuePacket(Pointer QueuePacket, Pointer hContext)
+opcode: ''
+keywords: Base
+task: AbortQueuePacket
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: QueuePacket
+- field_type: Pointer
+  field_name: hContext

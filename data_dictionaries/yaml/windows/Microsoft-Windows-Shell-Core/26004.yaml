@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '26004'
+version: '0'
+event(fields): CTrackEvents_StartTimedOperationStop()
+opcode: Stop
+keywords: Shell
+task: CTrackEvents_StartTimedOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '100'
+version: '0'
+event(fields): GROVELER100(UnicodeString Name, UnicodeString Value)
+opcode: ''
+keywords: mediaplayer
+task: GROVELER
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Value

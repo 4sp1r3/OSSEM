@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1000'
+version: '0'
+event(fields): SrvS4U2SelfFailure(UInt16 UserNameLength, UnicodeString UserName, UInt16
+  DomainNameLength, UnicodeString DomainName, UInt32 Status)
+opcode: ''
+keywords: Operational
+task: SrvS4U2SelfFailure
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: UserNameLength
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UInt16
+  field_name: DomainNameLength
+- field_type: UnicodeString
+  field_name: DomainName
+- field_type: UInt32
+  field_name: Status

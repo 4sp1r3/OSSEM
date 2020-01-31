@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18825'
+version: '0'
+event(fields): Shell32_AppDestList_Custom_CommitStart()
+opcode: Start
+keywords: Shell
+task: Shell32_AppDestList_Custom_Commit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

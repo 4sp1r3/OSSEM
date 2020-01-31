@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '201'
+version: '1'
+event(fields): Class201_V1(UInt32 DeviceNumber, UInt64 RequestDurationin100ns, Pointer
+  Irp, UInt8 Command, UInt8 SrbStatus, Pointer OriginalIrp)
+opcode: ''
+keywords: IO_Performance
+task: Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: UInt64
+  field_name: RequestDurationin100ns
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt8
+  field_name: Command
+- field_type: UInt8
+  field_name: SrbStatus
+- field_type: Pointer
+  field_name: OriginalIrp

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '40'
+version: '0'
+event(fields): task_040(Int32 ErrorCode, UInt32 PdcType, UInt32 PdcScenario, Int64
+  PdcNetRefCount, Int64 PdcPlatRefCount)
+opcode: ''
+keywords: wpnplat wpntroubleshoot
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: PdcType
+- field_type: UInt32
+  field_name: PdcScenario
+- field_type: Int64
+  field_name: PdcNetRefCount
+- field_type: Int64
+  field_name: PdcPlatRefCount

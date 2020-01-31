@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WMI-Activity
+event_id: '17'
+version: '0'
+event(fields): task_017(UnicodeString CorrelationId, UInt32 ProcessId, UnicodeString
+  Protocol, UnicodeString Operation, UnicodeString User, UnicodeString Namespace)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CorrelationId
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: Protocol
+- field_type: UnicodeString
+  field_name: Operation
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: Namespace

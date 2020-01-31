@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TerminalServices-RemoteConnectionManager
+event_id: '272'
+version: '0'
+event(fields): ConnectionTimeStart(UnicodeString Param1)
+opcode: Start
+keywords: PerfInstrumentation
+task: ConnectionTime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Param1

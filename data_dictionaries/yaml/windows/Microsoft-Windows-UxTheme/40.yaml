@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UxTheme
+event_id: '40'
+version: '0'
+event(fields): CallTimedOut(Int32 HangingThreadId, Int32 TimeoutUsed)
+opcode: ''
+keywords: ''
+task: CallTimedOut
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HangingThreadId
+- field_type: Int32
+  field_name: TimeoutUsed

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4517'
+version: '0'
+event(fields): TaskGroupStart(Pointer TaskGroup)
+opcode: Start
+keywords: ''
+task: TaskGroup
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TaskGroup

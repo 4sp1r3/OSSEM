@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1462'
+version: '0'
+event(fields): FeatureFallbackNcsiNoConnectivity(UInt32 CompartmentId, UInt32 IfIndex,
+  UInt32 Feature, UInt32 ConnectivityStatus)
+opcode: ''
+keywords: ut:Configuration
+task: FeatureFallbackNcsiNoConnectivity
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: Feature
+- field_type: UInt32
+  field_name: ConnectivityStatus

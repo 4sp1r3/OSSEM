@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceManagement-Pushrouter
+event_id: '122'
+version: '0'
+event(fields): task_0122(HexInt32 HexInt1, HexInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HexInt1
+- field_type: HexInt32
+  field_name: HRESULT

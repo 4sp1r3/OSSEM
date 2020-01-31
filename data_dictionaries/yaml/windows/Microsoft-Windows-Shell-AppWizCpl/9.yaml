@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AppWizCpl
+event_id: '9'
+version: '0'
+event(fields): AppWizCpl_SoftwareExplorer_NewProgramsViewStop()
+opcode: Stop
+keywords: ''
+task: AppWizCpl_SoftwareExplorer_NewProgramsView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

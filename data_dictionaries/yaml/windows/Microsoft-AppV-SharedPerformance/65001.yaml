@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '65001'
+version: '0'
+event(fields): Generic.AppLaunchStart()
+opcode: Start
+keywords: ''
+task: Generic.AppLaunch
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

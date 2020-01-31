@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1266'
+version: '0'
+event(fields): Ndkpi_Complete_Connect(Pointer NdkConnector, Pointer DisconnectEventContext,
+  Pointer RequestContext)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Complete_Connect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkConnector
+- field_type: Pointer
+  field_name: DisconnectEventContext
+- field_type: Pointer
+  field_name: RequestContext

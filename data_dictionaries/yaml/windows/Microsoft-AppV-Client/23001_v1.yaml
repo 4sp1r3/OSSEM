@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client
+event_id: '23001'
+version: '1'
+event(fields): Streaming23001_V1()
+opcode: ''
+keywords: Streaming
+task: Streaming
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

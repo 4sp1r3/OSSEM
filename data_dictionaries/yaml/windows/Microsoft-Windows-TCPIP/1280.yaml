@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1280'
+version: '0'
+event(fields): Ndkpi_Cq_Notification_Callback(Pointer CqNotificationContext, UInt32
+  CqStatus)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Cq_Notification_Callback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CqNotificationContext
+- field_type: UInt32
+  field_name: CqStatus

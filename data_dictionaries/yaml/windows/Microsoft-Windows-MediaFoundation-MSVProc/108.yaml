@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '108'
+version: '0'
+event(fields): MSVideoProcessoftMFT_ProcessInputStop(Pointer MSVProcObj, HexInt32
+  hr)
+opcode: Stop
+keywords: ''
+task: MSVideoProcessoftMFT_ProcessInput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MSVProcObj
+- field_type: HexInt32
+  field_name: hr

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4010'
+version: '0'
+event(fields): AfdRioRegisterBufferOpen(Pointer Buffer, Pointer RegistrationDomain,
+  Pointer UserAddress, Pointer SystemAddress, UInt32 BufferSize, UInt32 BufferId,
+  UInt32 Status)
+opcode: Open
+keywords: AFD_KW_RIO
+task: AfdRioRegisterBuffer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Buffer
+- field_type: Pointer
+  field_name: RegistrationDomain
+- field_type: Pointer
+  field_name: UserAddress
+- field_type: Pointer
+  field_name: SystemAddress
+- field_type: UInt32
+  field_name: BufferSize
+- field_type: UInt32
+  field_name: BufferId
+- field_type: UInt32
+  field_name: Status

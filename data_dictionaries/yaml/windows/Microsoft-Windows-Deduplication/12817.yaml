@@ -1,0 +1,59 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '12817'
+version: '0'
+event(fields): DataDeduplicationScrubbingTask12817(Boolean Full, GUID JobInstanceId,
+  UnicodeString VolumeGuidPath, UnicodeString VolumeDisplayName, UInt32 TotalChunkStoreCorruptedItemCount,
+  UInt32 DataChunkStoreCorruptedItemCount, UInt32 DataChunkStoreCorruptedContainerCount,
+  UInt32 DataChunkStoreFixedItemCount, UInt32 StreamMapChunkStoreCorruptedItemCount,
+  UInt32 StreamMapChunkStoreCorruptedContainerCount, UInt32 StreamMapChunkStoreFixedItemCount,
+  UInt32 HotspotChunkStoreCorruptedItemCount, UInt32 HotspotChunkStoreCorruptedContainerCount,
+  UInt32 HotspotChunkStoreFixedItemCount, UInt32 CorruptedReparsePointCount, UInt32
+  RecallBitmapCorruptedItemCount, UInt32 RecallBitmapFixedItemCount, UInt32 TotalCorruptedItemCount,
+  UInt32 CorruptedUserFileCount, UInt32 FixedUserFileCount)
+opcode: ''
+keywords: Reporting
+task: DataDeduplicationScrubbingTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Full
+- field_type: GUID
+  field_name: JobInstanceId
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UnicodeString
+  field_name: VolumeDisplayName
+- field_type: UInt32
+  field_name: TotalChunkStoreCorruptedItemCount
+- field_type: UInt32
+  field_name: DataChunkStoreCorruptedItemCount
+- field_type: UInt32
+  field_name: DataChunkStoreCorruptedContainerCount
+- field_type: UInt32
+  field_name: DataChunkStoreFixedItemCount
+- field_type: UInt32
+  field_name: StreamMapChunkStoreCorruptedItemCount
+- field_type: UInt32
+  field_name: StreamMapChunkStoreCorruptedContainerCount
+- field_type: UInt32
+  field_name: StreamMapChunkStoreFixedItemCount
+- field_type: UInt32
+  field_name: HotspotChunkStoreCorruptedItemCount
+- field_type: UInt32
+  field_name: HotspotChunkStoreCorruptedContainerCount
+- field_type: UInt32
+  field_name: HotspotChunkStoreFixedItemCount
+- field_type: UInt32
+  field_name: CorruptedReparsePointCount
+- field_type: UInt32
+  field_name: RecallBitmapCorruptedItemCount
+- field_type: UInt32
+  field_name: RecallBitmapFixedItemCount
+- field_type: UInt32
+  field_name: TotalCorruptedItemCount
+- field_type: UInt32
+  field_name: CorruptedUserFileCount
+- field_type: UInt32
+  field_name: FixedUserFileCount

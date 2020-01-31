@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51050'
+version: '0'
+event(fields): DNSStateEventDnsRegistrationDone(UInt32 InterfaceId, UInt32 StatusCode,
+  UInt32 Dword)
+opcode: DnsRegistrationDone
+keywords: ''
+task: DNSStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: StatusCode
+- field_type: UInt32
+  field_name: Dword

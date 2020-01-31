@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WER-SystemErrorReporting
+event_id: '1018'
+version: '0'
+event(fields): task_0PCODE_64pcode_641018(UnicodeString param1, UnicodeString param2)
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2

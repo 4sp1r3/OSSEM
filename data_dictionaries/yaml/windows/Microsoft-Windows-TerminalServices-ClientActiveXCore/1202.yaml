@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1202'
+version: '0'
+event(fields): RdClientRADCworkspaceThiseventisraisedwhentheusertriestosignoutfromtheOOBclient.()
+opcode: ThiseventisraisedwhentheusertriestosignoutfromtheOOBclient.
+keywords: ''
+task: RdClientRADCworkspace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

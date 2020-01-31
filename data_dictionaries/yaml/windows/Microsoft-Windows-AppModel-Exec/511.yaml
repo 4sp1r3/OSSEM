@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '511'
+version: '0'
+event(fields): BM_TaskActivating(GUID WorkItemId, GUID TaskInstanceId)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BM_TaskActivating
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: WorkItemId
+- field_type: GUID
+  field_name: TaskInstanceId

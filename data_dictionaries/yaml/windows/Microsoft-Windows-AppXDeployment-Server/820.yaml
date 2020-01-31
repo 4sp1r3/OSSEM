@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '820'
+version: '0'
+event(fields): AppXDeployment.Task.Server.AppxAllUserStore820(HexInt32 ErrorCode)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.AppxAllUserStore
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

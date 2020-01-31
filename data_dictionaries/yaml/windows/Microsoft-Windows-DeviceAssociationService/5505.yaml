@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceAssociationService
+event_id: '5505'
+version: '0'
+event(fields): das_QueryStop5505(UnicodeString ProviderName, Pointer DasContext)
+opcode: Stop
+keywords: DeviceAssociationService query
+task: das_Query
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProviderName
+- field_type: Pointer
+  field_name: DasContext

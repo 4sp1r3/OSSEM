@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '136'
+version: '0'
+event(fields): MFMFAudio_Render_StreamSinkAudStreamSink_CheckAllocationLimits_NeedMoreData(Pointer
+  object, Int32 MaxPendingRequestSample, Int32 NumContainers, Int64 DurationInUse,
+  Int64 hnsMinAllocation)
+opcode: AudStreamSink_CheckAllocationLimits_NeedMoreData
+keywords: ''
+task: MFMFAudio_Render_StreamSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: MaxPendingRequestSample
+- field_type: Int32
+  field_name: NumContainers
+- field_type: Int64
+  field_name: DurationInUse
+- field_type: Int64
+  field_name: hnsMinAllocation

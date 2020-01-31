@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment
+event_id: '1032'
+version: '0'
+event(fields): AppXDeployment.Task.Client.DeploymentStart1032()
+opcode: Start
+keywords: AppXDeployment
+task: AppXDeployment.Task.Client.Deployment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

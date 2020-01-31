@@ -1,0 +1,165 @@
+provider: Microsoft-Windows-StorPort
+event_id: '505'
+version: '4'
+event(fields): Port505_V4(UInt32 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN,
+  GUID ClassDeviceGuid, GUID AdapterGuid, UInt32 BusType, UnicodeString MiniportName,
+  UInt32 IoTimeout_s, AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber,
+  UInt64 SystemUptime_s, UInt8 Version, UInt64 TotalIoCount, UInt64 TotalDeviceQueueIoCount,
+  UInt32 MaxDeviceQueueCount, UInt32 MaxOutstandingCount, UInt64 TotalDeviceQueueIoWaitDuration_100ns,
+  UInt64 MaxDeviceQueueIoWaitDuration_100ns, UInt64 DeviceQueueIoWaitExceededTimeoutCount,
+  UInt64 DeviceQueueIoBusyCount, UInt64 DeviceQueueIoPausedCount, UInt64 DeviceQueueIoUntaggedCommandOutstandingCount,
+  UInt64 DeviceQueueIoPausedForUntaggedCount, UInt32 MaxReadWriteLatency_100ns, UInt32
+  MaxFlushLatency_100ns, UInt32 MaxUnmapLatency_100ns, UnicodeString IoLatencyBuckets,
+  UInt64 BucketIoSuccess1, UInt64 BucketIoSuccess2, UInt64 BucketIoSuccess3, UInt64
+  BucketIoSuccess4, UInt64 BucketIoSuccess5, UInt64 BucketIoSuccess6, UInt64 BucketIoSuccess7,
+  UInt64 BucketIoSuccess8, UInt64 BucketIoSuccess9, UInt64 BucketIoSuccess10, UInt64
+  BucketIoSuccess11, UInt64 BucketIoSuccess12, UInt64 BucketIoFailed1, UInt64 BucketIoFailed2,
+  UInt64 BucketIoFailed3, UInt64 BucketIoFailed4, UInt64 BucketIoFailed5, UInt64 BucketIoFailed6,
+  UInt64 BucketIoFailed7, UInt64 BucketIoFailed8, UInt64 BucketIoFailed9, UInt64 BucketIoFailed10,
+  UInt64 BucketIoFailed11, UInt64 BucketIoFailed12, UInt64 BucketIoLatency1_100ns,
+  UInt64 BucketIoLatency2_100ns, UInt64 BucketIoLatency3_100ns, UInt64 BucketIoLatency4_100ns,
+  UInt64 BucketIoLatency5_100ns, UInt64 BucketIoLatency6_100ns, UInt64 BucketIoLatency7_100ns,
+  UInt64 BucketIoLatency8_100ns, UInt64 BucketIoLatency9_100ns, UInt64 BucketIoLatency10_100ns,
+  UInt64 BucketIoLatency11_100ns, UInt64 BucketIoLatency12_100ns, UInt64 TotalReadBytes,
+  UInt64 TotalWriteBytes)
+opcode: ''
+keywords: Read Write
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: PathID
+- field_type: UInt8
+  field_name: TargetID
+- field_type: UInt8
+  field_name: LUN
+- field_type: GUID
+  field_name: ClassDeviceGuid
+- field_type: GUID
+  field_name: AdapterGuid
+- field_type: UInt32
+  field_name: BusType
+- field_type: UnicodeString
+  field_name: MiniportName
+- field_type: UInt32
+  field_name: IoTimeout_s
+- field_type: AnsiString
+  field_name: VendorId
+- field_type: AnsiString
+  field_name: ProductId
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: UInt64
+  field_name: SystemUptime_s
+- field_type: UInt8
+  field_name: Version
+- field_type: UInt64
+  field_name: TotalIoCount
+- field_type: UInt64
+  field_name: TotalDeviceQueueIoCount
+- field_type: UInt32
+  field_name: MaxDeviceQueueCount
+- field_type: UInt32
+  field_name: MaxOutstandingCount
+- field_type: UInt64
+  field_name: TotalDeviceQueueIoWaitDuration_100ns
+- field_type: UInt64
+  field_name: MaxDeviceQueueIoWaitDuration_100ns
+- field_type: UInt64
+  field_name: DeviceQueueIoWaitExceededTimeoutCount
+- field_type: UInt64
+  field_name: DeviceQueueIoBusyCount
+- field_type: UInt64
+  field_name: DeviceQueueIoPausedCount
+- field_type: UInt64
+  field_name: DeviceQueueIoUntaggedCommandOutstandingCount
+- field_type: UInt64
+  field_name: DeviceQueueIoPausedForUntaggedCount
+- field_type: UInt32
+  field_name: MaxReadWriteLatency_100ns
+- field_type: UInt32
+  field_name: MaxFlushLatency_100ns
+- field_type: UInt32
+  field_name: MaxUnmapLatency_100ns
+- field_type: UnicodeString
+  field_name: IoLatencyBuckets
+- field_type: UInt64
+  field_name: BucketIoSuccess1
+- field_type: UInt64
+  field_name: BucketIoSuccess2
+- field_type: UInt64
+  field_name: BucketIoSuccess3
+- field_type: UInt64
+  field_name: BucketIoSuccess4
+- field_type: UInt64
+  field_name: BucketIoSuccess5
+- field_type: UInt64
+  field_name: BucketIoSuccess6
+- field_type: UInt64
+  field_name: BucketIoSuccess7
+- field_type: UInt64
+  field_name: BucketIoSuccess8
+- field_type: UInt64
+  field_name: BucketIoSuccess9
+- field_type: UInt64
+  field_name: BucketIoSuccess10
+- field_type: UInt64
+  field_name: BucketIoSuccess11
+- field_type: UInt64
+  field_name: BucketIoSuccess12
+- field_type: UInt64
+  field_name: BucketIoFailed1
+- field_type: UInt64
+  field_name: BucketIoFailed2
+- field_type: UInt64
+  field_name: BucketIoFailed3
+- field_type: UInt64
+  field_name: BucketIoFailed4
+- field_type: UInt64
+  field_name: BucketIoFailed5
+- field_type: UInt64
+  field_name: BucketIoFailed6
+- field_type: UInt64
+  field_name: BucketIoFailed7
+- field_type: UInt64
+  field_name: BucketIoFailed8
+- field_type: UInt64
+  field_name: BucketIoFailed9
+- field_type: UInt64
+  field_name: BucketIoFailed10
+- field_type: UInt64
+  field_name: BucketIoFailed11
+- field_type: UInt64
+  field_name: BucketIoFailed12
+- field_type: UInt64
+  field_name: BucketIoLatency1_100ns
+- field_type: UInt64
+  field_name: BucketIoLatency2_100ns
+- field_type: UInt64
+  field_name: BucketIoLatency3_100ns
+- field_type: UInt64
+  field_name: BucketIoLatency4_100ns
+- field_type: UInt64
+  field_name: BucketIoLatency5_100ns
+- field_type: UInt64
+  field_name: BucketIoLatency6_100ns
+- field_type: UInt64
+  field_name: BucketIoLatency7_100ns
+- field_type: UInt64
+  field_name: BucketIoLatency8_100ns
+- field_type: UInt64
+  field_name: BucketIoLatency9_100ns
+- field_type: UInt64
+  field_name: BucketIoLatency10_100ns
+- field_type: UInt64
+  field_name: BucketIoLatency11_100ns
+- field_type: UInt64
+  field_name: BucketIoLatency12_100ns
+- field_type: UInt64
+  field_name: TotalReadBytes
+- field_type: UInt64
+  field_name: TotalWriteBytes

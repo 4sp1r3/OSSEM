@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '200'
+version: '0'
+event(fields): AudStreamSink_Dejitterer_TaskAudStreamSink_Dejitterer_ClockSmooth(Pointer
+  object, Int64 ClockTime0_us, Int64 QPC0_us, Int64 SmoothedQPC0_us, Int64 QPCDelta_us,
+  Int32 WindowCount, Int64 WindowWidth_us, Boolean Accepted)
+opcode: AudStreamSink_Dejitterer_ClockSmooth
+keywords: ''
+task: AudStreamSink_Dejitterer_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: ClockTime0_us
+- field_type: Int64
+  field_name: QPC0_us
+- field_type: Int64
+  field_name: SmoothedQPC0_us
+- field_type: Int64
+  field_name: QPCDelta_us
+- field_type: Int32
+  field_name: WindowCount
+- field_type: Int64
+  field_name: WindowWidth_us
+- field_type: Boolean
+  field_name: Accepted

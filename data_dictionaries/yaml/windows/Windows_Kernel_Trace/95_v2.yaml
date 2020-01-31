@@ -1,0 +1,19 @@
+provider: Windows Kernel Trace
+category: '{ce1dbfb4-137e-4da6-87b0-3f59aa102cbc}'
+event_id: '95'
+version: '2'
+event(fields): ISR(Object InitialTime, UInt32 Routine, UInt8 ReturnValue, UInt16 Vector,
+  UInt8 Reserved)
+event_type: ''
+description: ''
+event_fields:
+- field_type: Object
+  field_name: InitialTime
+- field_type: UInt32
+  field_name: Routine
+- field_type: UInt8
+  field_name: ReturnValue
+- field_type: UInt16
+  field_name: Vector
+- field_type: UInt8
+  field_name: Reserved

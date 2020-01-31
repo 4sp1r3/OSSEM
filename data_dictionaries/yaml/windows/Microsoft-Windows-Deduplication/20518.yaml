@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20518'
+version: '0'
+event(fields): ReadunderlyingfilecachedataStart(Pointer CacheFileObject, Pointer UnderlyingFileObject,
+  UInt64 Offset, UInt32 Length)
+opcode: Start
+keywords: KmFileCache
+task: Readunderlyingfilecachedata
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CacheFileObject
+- field_type: Pointer
+  field_name: UnderlyingFileObject
+- field_type: UInt64
+  field_name: Offset
+- field_type: UInt32
+  field_name: Length

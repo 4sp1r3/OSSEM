@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '33'
+version: '0'
+event(fields): USBXHCICommandInformation33(Pointer fid_UcxController, Pointer fid_CrbPointer,
+  Binary fid_Command_TRB, UInt32 fid_CompletionStatus, UInt8 fid_CompletionCode)
+opcode: Information
+keywords: Default ControllerCommand
+task: USBXHCICommand
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: Pointer
+  field_name: fid_CrbPointer
+- field_type: Binary
+  field_name: fid_Command_TRB
+- field_type: UInt32
+  field_name: fid_CompletionStatus
+- field_type: UInt8
+  field_name: fid_CompletionCode

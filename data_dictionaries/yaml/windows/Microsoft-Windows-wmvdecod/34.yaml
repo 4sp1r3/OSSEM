@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-wmvdecod
+event_id: '34'
+version: '0'
+event(fields): wmvdecod_DXVA2_MFSampleReturnStart(UInt32 SampleIndex)
+opcode: Start
+keywords: ''
+task: wmvdecod_DXVA2_MFSampleReturn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SampleIndex

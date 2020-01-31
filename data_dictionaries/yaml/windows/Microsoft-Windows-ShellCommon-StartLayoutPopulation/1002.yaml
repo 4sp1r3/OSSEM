@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '1002'
+version: '0'
+event(fields): CuratedTileCollectionTransformer_LayoutInitialization(UnicodeString
+  itemName, GUID itemId)
+opcode: ''
+keywords: ''
+task: CuratedTileCollectionTransformer_LayoutInitialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: itemName
+- field_type: GUID
+  field_name: itemId

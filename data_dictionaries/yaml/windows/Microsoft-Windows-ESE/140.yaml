@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ESE
+event_id: '140'
+version: '0'
+event(fields): ESE_CacheVersionCopyPage_Trace(UInt32 ifmp, UInt32 pgno)
+opcode: ''
+keywords: Performance BF
+task: ESE_CacheVersionCopyPage_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ifmp
+- field_type: UInt32
+  field_name: pgno

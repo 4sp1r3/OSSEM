@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PDC
+event_id: '99'
+version: '0'
+event(fields): SpmClientControlStateChange(UInt32 PdcId, UInt8 PreviousState, UInt8
+  NextState)
+opcode: ''
+keywords: SPM
+task: SpmClientControlStateChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PdcId
+- field_type: UInt8
+  field_name: PreviousState
+- field_type: UInt8
+  field_name: NextState

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1026'
+version: '0'
+event(fields): ScheduleWorkItemScheduleTransactionContext(UnicodeString data1, UnicodeString
+  data2, UnicodeString data3, UnicodeString AppDomain)
+opcode: ScheduleTransactionContext
+keywords: WFRuntime
+task: ScheduleWorkItem
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: data2
+- field_type: UnicodeString
+  field_name: data3
+- field_type: UnicodeString
+  field_name: AppDomain

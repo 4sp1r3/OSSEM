@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Iphlpsvc
+event_id: '4302'
+version: '0'
+event(fields): task_04302(UInt32 ErrorCode, UInt32 IpHTTPSReasonCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: IpHTTPSReasonCode

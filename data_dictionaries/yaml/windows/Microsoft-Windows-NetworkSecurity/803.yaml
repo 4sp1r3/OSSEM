@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-NetworkSecurity
+event_id: '803'
+version: '0'
+event(fields): task_0803(UInt64 SaContextID, UnicodeString LocalAddr, UnicodeString
+  LocalMask, UInt16 LocalPort, UnicodeString RemoteAddress, UnicodeString RemoteMask,
+  UInt16 RemotePort, UInt8 IPProtocol, UnicodeString LocalTunnelEndpt, UnicodeString
+  RemoteTunnelEndpt)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SaContextID
+- field_type: UnicodeString
+  field_name: LocalAddr
+- field_type: UnicodeString
+  field_name: LocalMask
+- field_type: UInt16
+  field_name: LocalPort
+- field_type: UnicodeString
+  field_name: RemoteAddress
+- field_type: UnicodeString
+  field_name: RemoteMask
+- field_type: UInt16
+  field_name: RemotePort
+- field_type: UInt8
+  field_name: IPProtocol
+- field_type: UnicodeString
+  field_name: LocalTunnelEndpt
+- field_type: UnicodeString
+  field_name: RemoteTunnelEndpt

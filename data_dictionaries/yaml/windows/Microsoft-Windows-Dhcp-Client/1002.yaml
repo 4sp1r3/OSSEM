@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '1002'
+version: '0'
+event(fields): AddressConfigurationStateEventIpLeaseDenied(UInt32 Address1, UInt32
+  HWLength, Binary HWAddress, UInt32 Address2)
+opcode: IpLeaseDenied
+keywords: DHCP_AOAC
+task: AddressConfigurationStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Address1
+- field_type: UInt32
+  field_name: HWLength
+- field_type: Binary
+  field_name: HWAddress
+- field_type: UInt32
+  field_name: Address2

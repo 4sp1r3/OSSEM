@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '403'
+version: '0'
+event(fields): CompositePE403(UInt32 hr)
+opcode: ''
+keywords: Selfhost CompositePe
+task: CompositePE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr

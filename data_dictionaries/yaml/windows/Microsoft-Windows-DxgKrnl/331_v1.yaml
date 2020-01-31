@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '331'
+version: '1'
+event(fields): GpuVirtualAddressRangeStart_V1(Pointer pVaAllocator, UInt32 Flags,
+  UInt64 StartAddress, UInt64 EndAddress)
+opcode: Start
+keywords: GPUVA
+task: GpuVirtualAddressRange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pVaAllocator
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt64
+  field_name: StartAddress
+- field_type: UInt64
+  field_name: EndAddress

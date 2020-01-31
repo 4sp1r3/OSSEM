@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '358'
+version: '0'
+event(fields): CandidateView_CloudConsentHyperlink_Click()
+opcode: ''
+keywords: TSF_UIManager
+task: CandidateView_CloudConsentHyperlink_Click
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

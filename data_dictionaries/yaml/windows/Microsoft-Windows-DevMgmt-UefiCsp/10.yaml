@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DevMgmt-UefiCsp
+event_id: '10'
+version: '0'
+event(fields): None(UnicodeString FunctionName)
+opcode: ''
+keywords: Api
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FunctionName

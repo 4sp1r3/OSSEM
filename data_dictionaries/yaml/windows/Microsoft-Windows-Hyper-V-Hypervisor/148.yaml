@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '148'
+version: '0'
+event(fields): task_0148(HexInt64 DeviceId, HexInt64 UnitBaseAddress, UInt64 PartitionId)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: DeviceId
+- field_type: HexInt64
+  field_name: UnitBaseAddress
+- field_type: UInt64
+  field_name: PartitionId

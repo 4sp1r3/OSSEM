@@ -1,0 +1,15 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1171'
+version: '0'
+event(fields): iaLPSS2_I2CControllerroutines1171(UInt32 Current, UInt32 Expected)
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CControllerroutines
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Current
+- field_type: UInt32
+  field_name: Expected

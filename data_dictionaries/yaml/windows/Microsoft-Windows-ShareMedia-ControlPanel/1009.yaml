@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ShareMedia-ControlPanel
+event_id: '1009'
+version: '0'
+event(fields): UpdateDeviceStart(UnicodeString ID, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: UpdateDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ID
+- field_type: UInt32
+  field_name: ErrorCode

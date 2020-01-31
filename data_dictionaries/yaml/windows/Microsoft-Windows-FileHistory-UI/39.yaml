@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '39'
+version: '0'
+event(fields): AllVisiblePreviewsVisuallyReadyStop()
+opcode: Stop
+keywords: ''
+task: AllVisiblePreviewsVisuallyReady
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

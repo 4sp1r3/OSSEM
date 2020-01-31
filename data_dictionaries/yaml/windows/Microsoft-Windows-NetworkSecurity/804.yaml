@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NetworkSecurity
+event_id: '804'
+version: '0'
+event(fields): task_0804(UInt64 SaContextID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SaContextID

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '180'
+version: '1'
+event(fields): QueuePacketStop_V1(Pointer hContext, UInt32 PacketType, UInt32 SubmitSequence,
+  Boolean bPreempted, Boolean bTimeouted, Pointer pQueuePacket)
+opcode: Stop
+keywords: Base
+task: QueuePacket
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: PacketType
+- field_type: UInt32
+  field_name: SubmitSequence
+- field_type: Boolean
+  field_name: bPreempted
+- field_type: Boolean
+  field_name: bTimeouted
+- field_type: Pointer
+  field_name: pQueuePacket

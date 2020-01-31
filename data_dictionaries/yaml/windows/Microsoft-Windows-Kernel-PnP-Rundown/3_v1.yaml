@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-PnP-Rundown
+event_id: '3'
+version: '1'
+event(fields): ParentDevNode_V1(Pointer DevNode, Pointer ParentDevNode, UInt32 InstancePathLength,
+  UnicodeString InstancePath)
+opcode: ''
+keywords: SleepStudy
+task: ParentDevNode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DevNode
+- field_type: Pointer
+  field_name: ParentDevNode
+- field_type: UInt32
+  field_name: InstancePathLength
+- field_type: UnicodeString
+  field_name: InstancePath

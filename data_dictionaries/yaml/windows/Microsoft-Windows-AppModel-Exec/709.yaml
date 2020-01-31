@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '709'
+version: '0'
+event(fields): BAM_SanitizePackageReregister(UnicodeString PackageFullName, UInt32
+  HRESULT)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular keyword_200000000000
+task: BAM_SanitizePackageReregister
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UInt32
+  field_name: HRESULT

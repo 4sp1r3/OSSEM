@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '49'
+version: '0'
+event(fields): FREE_FROM_SHARED_MEMORY_SECTION()
+opcode: ''
+keywords: DCompDiagnostic DCompSharedMemory
+task: FREE_FROM_SHARED_MEMORY_SECTION
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

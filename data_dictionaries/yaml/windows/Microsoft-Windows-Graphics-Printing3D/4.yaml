@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Graphics-Printing3D
+event_id: '4'
+version: '0'
+event(fields): PrintTask_EnsureDocumentSourceStop(UInt32 HResult)
+opcode: Stop
+keywords: ''
+task: PrintTask_EnsureDocumentSource
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HResult

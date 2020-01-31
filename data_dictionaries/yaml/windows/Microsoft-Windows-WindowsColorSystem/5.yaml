@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '5'
+version: '0'
+event(fields): ProfileManagement5(UnicodeString Profile, UnicodeString Device, UInt32
+  Scope)
+opcode: ''
+keywords: ''
+task: ProfileManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Profile
+- field_type: UnicodeString
+  field_name: Device
+- field_type: UInt32
+  field_name: Scope

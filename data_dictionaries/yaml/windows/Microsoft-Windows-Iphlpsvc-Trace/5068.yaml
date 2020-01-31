@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5068'
+version: '0'
+event(fields): task_05068(Pointer Value)
+opcode: ''
+keywords: iphttps
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Value

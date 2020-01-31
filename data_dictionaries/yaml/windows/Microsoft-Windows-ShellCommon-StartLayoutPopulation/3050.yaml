@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '3050'
+version: '0'
+event(fields): RetailDemoProvider_LayoutInitialization3050()
+opcode: ''
+keywords: ''
+task: RetailDemoProvider_LayoutInitialization
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-SQM Uploader
+event_id: '14'
+version: '0'
+event(fields): task_014(UInt32 error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: error

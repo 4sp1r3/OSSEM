@@ -1,0 +1,10 @@
+provider: Thread Pool
+category: '{c861d0e2-a2c1-4d36-9f9c-970bab943a12}'
+event_id: '33'
+version: '2'
+event(fields): TP_V2_CBDequeue(UInt32 TaskId)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: TaskId

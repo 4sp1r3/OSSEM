@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '61'
+version: '0'
+event(fields): LocalXmlStartCollectionProvider_GetCollection61()
+opcode: ''
+keywords: ''
+task: LocalXmlStartCollectionProvider_GetCollection
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

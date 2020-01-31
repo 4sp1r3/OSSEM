@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '239'
+version: '0'
+event(fields): Initialization239(UInt32 InjectionType, UInt32 BlobFormat)
+opcode: ''
+keywords: Selfhost Init Gnss
+task: Initialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InjectionType
+- field_type: UInt32
+  field_name: BlobFormat

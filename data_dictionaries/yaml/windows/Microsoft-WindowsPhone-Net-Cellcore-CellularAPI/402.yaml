@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '402'
+version: '0'
+event(fields): CUICCApp402(UInt32 DwordName)
+opcode: ''
+keywords: Information UICC
+task: CUICCApp
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName

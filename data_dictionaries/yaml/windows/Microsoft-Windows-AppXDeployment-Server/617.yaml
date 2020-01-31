@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '617'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment617(UnicodeString PackageFullName,
+  HexInt32 StatusToClear, HexInt32 StatusToSet, UInt32 CallOrigin)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: HexInt32
+  field_name: StatusToClear
+- field_type: HexInt32
+  field_name: StatusToSet
+- field_type: UInt32
+  field_name: CallOrigin

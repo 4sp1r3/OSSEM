@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1016'
+version: '0'
+event(fields): InstallinglanguagepackValidatethatlanguagepackcanbeinstalled1016(UnicodeString
+  Language1, UnicodeString Language2)
+opcode: Validatethatlanguagepackcanbeinstalled
+keywords: ''
+task: Installinglanguagepack
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language1
+- field_type: UnicodeString
+  field_name: Language2

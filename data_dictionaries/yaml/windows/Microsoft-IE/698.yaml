@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '698'
+version: '0'
+event(fields): Mshtml_Animations_Instance(Pointer AnimationClientObject, Pointer AnimationInstanceObject,
+  UInt32 DISPID)
+opcode: ''
+keywords: animation
+task: Mshtml_Animations_Instance
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AnimationClientObject
+- field_type: Pointer
+  field_name: AnimationInstanceObject
+- field_type: UInt32
+  field_name: DISPID

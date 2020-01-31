@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '20'
+version: '1'
+event(fields): WindowsUpdateAgentInstallation20_V1(HexInt32 errorCode, UnicodeString
+  updateTitle, GUID updateGuid, UInt32 updateRevisionNumber, GUID serviceGuid)
+opcode: Installation
+keywords: install failure
+task: WindowsUpdateAgent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: updateTitle
+- field_type: GUID
+  field_name: updateGuid
+- field_type: UInt32
+  field_name: updateRevisionNumber
+- field_type: GUID
+  field_name: serviceGuid

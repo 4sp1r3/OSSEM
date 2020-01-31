@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '58'
+version: '0'
+event(fields): ShowUIPhaseStop()
+opcode: PhaseStop
+keywords: po:Performance po:PerformanceLight
+task: ShowUI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

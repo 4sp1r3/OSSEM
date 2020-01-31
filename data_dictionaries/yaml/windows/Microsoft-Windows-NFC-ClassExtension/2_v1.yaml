@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NFC-ClassExtension
+event_id: '2'
+version: '1'
+event(fields): task_02_V1(UInt8 MessageType, UInt8 PacketBoundaryFlag, UInt16 PacketSize,
+  UInt8 RawPacket)
+opcode: ''
+keywords: Payload NCI
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: MessageType
+- field_type: UInt8
+  field_name: PacketBoundaryFlag
+- field_type: UInt16
+  field_name: PacketSize
+- field_type: UInt8
+  field_name: RawPacket

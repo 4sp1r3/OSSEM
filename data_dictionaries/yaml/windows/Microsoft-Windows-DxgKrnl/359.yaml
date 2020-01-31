@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '359'
+version: '0'
+event(fields): YieldConditionEvaluation(Pointer pDxgAdapter, UInt32 YieldCondition,
+  UInt64 Parameter0, UInt64 Parameter1, UInt64 Parameter2, UInt64 Parameter3)
+opcode: ''
+keywords: Base
+task: YieldConditionEvaluation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: YieldCondition
+- field_type: UInt64
+  field_name: Parameter0
+- field_type: UInt64
+  field_name: Parameter1
+- field_type: UInt64
+  field_name: Parameter2
+- field_type: UInt64
+  field_name: Parameter3

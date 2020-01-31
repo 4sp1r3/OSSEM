@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-COMRuntime
+event_id: '7'
+version: '0'
+event(fields): PrematureStubRundown(GUID IID, UInt32 Method, GUID IPID, UInt32 CallType)
+opcode: ''
+keywords: PrematureStubRundown
+task: PrematureStubRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IID
+- field_type: UInt32
+  field_name: Method
+- field_type: GUID
+  field_name: IPID
+- field_type: UInt32
+  field_name: CallType

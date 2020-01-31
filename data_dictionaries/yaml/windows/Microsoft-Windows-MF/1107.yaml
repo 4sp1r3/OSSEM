@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1107'
+version: '0'
+event(fields): MediaFoundationDecrypt(UInt32 bytes, HexInt32 hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationDecrypt
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: bytes
+- field_type: HexInt32
+  field_name: hr

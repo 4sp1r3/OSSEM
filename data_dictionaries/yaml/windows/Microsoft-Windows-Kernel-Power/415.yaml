@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '415'
+version: '0'
+event(fields): SensorInputChanged(UInt32 Old, UInt32 New)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SensorInputChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Old
+- field_type: UInt32
+  field_name: New

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '128'
+version: '0'
+event(fields): ChangeSource_ShutdownStop()
+opcode: Stop
+keywords: Service
+task: ChangeSource_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

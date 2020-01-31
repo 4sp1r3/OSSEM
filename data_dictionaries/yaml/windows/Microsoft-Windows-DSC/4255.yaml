@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DSC
+event_id: '4255'
+version: '0'
+event(fields): task_04255(UnicodeString JobId, UnicodeString activity, UnicodeString
+  currentOperation, UnicodeString statusDescription, UInt32 percentComplete, UInt32
+  secondsRemaining)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: activity
+- field_type: UnicodeString
+  field_name: currentOperation
+- field_type: UnicodeString
+  field_name: statusDescription
+- field_type: UInt32
+  field_name: percentComplete
+- field_type: UInt32
+  field_name: secondsRemaining

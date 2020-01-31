@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4028'
+version: '0'
+event(fields): Inside/Outsidedetectionverification()
+opcode: ''
+keywords: NlaDiagnostics
+task: Inside/Outsidedetectionverification
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

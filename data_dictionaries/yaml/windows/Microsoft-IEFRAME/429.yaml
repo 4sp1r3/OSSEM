@@ -1,0 +1,24 @@
+provider: Microsoft-IEFRAME
+event_id: '429'
+version: '0'
+event(fields): Iso_Dependencies_AddDependency(UInt32 Target, UInt32 TargetPID, UInt32
+  Dependent, UInt32 DependentPID, UInt32 Flags, UInt32 Reason)
+opcode: ''
+keywords: tabhydration
+task: Iso_Dependencies_AddDependency
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Target
+- field_type: UInt32
+  field_name: TargetPID
+- field_type: UInt32
+  field_name: Dependent
+- field_type: UInt32
+  field_name: DependentPID
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Reason

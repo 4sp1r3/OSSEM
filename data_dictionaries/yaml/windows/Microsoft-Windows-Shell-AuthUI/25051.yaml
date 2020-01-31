@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25051'
+version: '0'
+event(fields): Logon_AutoLogon_IsSingleUserNoPasswordStart()
+opcode: Start
+keywords: ''
+task: Logon_AutoLogon_IsSingleUserNoPassword
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5982'
+version: '0'
+event(fields): PerfTrack_ModernApp_ResizeResponsiveStart(UInt32 Reserved, UInt32 ViewId)
+opcode: Start
+keywords: ''
+task: PerfTrack_ModernApp_ResizeResponsive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reserved
+- field_type: UInt32
+  field_name: ViewId

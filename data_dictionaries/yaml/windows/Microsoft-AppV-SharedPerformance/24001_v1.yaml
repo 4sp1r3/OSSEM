@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '24001'
+version: '1'
+event(fields): Packaging_3800Stop_V1()
+opcode: Stop
+keywords: ''
+task: Packaging_3800
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

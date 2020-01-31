@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WindowsSystemAssessmentTool
+event_id: '4'
+version: '0'
+event(fields): Application4(UInt32 Win32Error, UInt16 CantMsgSize, UnicodeString CantMsg)
+opcode: ''
+keywords: ''
+task: Application
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Win32Error
+- field_type: UInt16
+  field_name: CantMsgSize
+- field_type: UnicodeString
+  field_name: CantMsg

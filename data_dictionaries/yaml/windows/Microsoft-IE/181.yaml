@@ -1,0 +1,33 @@
+provider: Microsoft-IE
+event_id: '181'
+version: '0'
+event(fields): Mshtml_CImgCacheEntry_Attach(Pointer ImgCacheEntry, Pointer ImgInfo,
+  UInt32 FrameIndex, Pointer ImgBits, UInt32 ImgBitsSize, UInt32 Width, UInt32 Height,
+  UInt8 BitCount, UInt8 IsSolidColor, UInt8 IsTransparent)
+opcode: ''
+keywords: subsystem
+task: Mshtml_CImgCacheEntry_Attach
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ImgCacheEntry
+- field_type: Pointer
+  field_name: ImgInfo
+- field_type: UInt32
+  field_name: FrameIndex
+- field_type: Pointer
+  field_name: ImgBits
+- field_type: UInt32
+  field_name: ImgBitsSize
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt8
+  field_name: BitCount
+- field_type: UInt8
+  field_name: IsSolidColor
+- field_type: UInt8
+  field_name: IsTransparent

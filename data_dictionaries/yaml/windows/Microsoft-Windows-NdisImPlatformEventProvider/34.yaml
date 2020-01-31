@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NdisImPlatformEventProvider
+event_id: '34'
+version: '0'
+event(fields): task_034(UnicodeString Team, UnicodeString Member, Int32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Team
+- field_type: UnicodeString
+  field_name: Member
+- field_type: Int32
+  field_name: Status

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62073'
+version: '0'
+event(fields): OperationManager_TileAnimation_Frame_Updated(UInt32 TileAutomationID,
+  UInt32 TransitionType)
+opcode: ''
+keywords: Shell
+task: OperationManager_TileAnimation_Frame_Updated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TileAutomationID
+- field_type: UInt32
+  field_name: TransitionType

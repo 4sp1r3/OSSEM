@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '183'
+version: '0'
+event(fields): GetDevicePresentState(Pointer hDevice, UInt32 VidPnSourceId, UInt32
+  PresentCount, UInt32 PresentRefreshCount, UInt32 SyncRefreshCount, UInt64 SyncQPCTime,
+  UInt64 SyncGPUTime)
+opcode: ''
+keywords: Base
+task: GetDevicePresentState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hDevice
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: PresentCount
+- field_type: UInt32
+  field_name: PresentRefreshCount
+- field_type: UInt32
+  field_name: SyncRefreshCount
+- field_type: UInt64
+  field_name: SyncQPCTime
+- field_type: UInt64
+  field_name: SyncGPUTime

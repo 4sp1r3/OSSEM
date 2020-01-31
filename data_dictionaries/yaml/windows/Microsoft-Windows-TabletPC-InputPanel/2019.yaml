@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '2019'
+version: '0'
+event(fields): PKMWin32kCallout()
+opcode: ''
+keywords: ''
+task: PKMWin32kCallout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

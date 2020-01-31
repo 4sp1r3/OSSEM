@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '5'
+version: '0'
+event(fields): DismOpenSessionStart(UnicodeString String)
+opcode: Start
+keywords: DismApiEvent
+task: DismOpenSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String

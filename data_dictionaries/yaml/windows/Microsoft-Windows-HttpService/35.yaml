@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HttpService
+event_id: '35'
+version: '0'
+event(fields): HTTPSSLTraceTaskSslInitiateHandshake(Pointer ConnectionObj)
+opcode: SslInitiateHandshake
+keywords: HTTP_KEYWORD_SSL
+task: HTTPSSLTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionObj

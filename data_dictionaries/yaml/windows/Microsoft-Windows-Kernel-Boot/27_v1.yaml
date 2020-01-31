@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '27'
+version: '1'
+event(fields): BootType_V1(UInt32 BootType, AnsiString LoadOptions)
+opcode: ''
+keywords: ''
+task: BootType
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BootType
+- field_type: AnsiString
+  field_name: LoadOptions

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DUSER
+event_id: '24'
+version: '0'
+event(fields): DUser_LayerGadgetStart(UInt32 hGadget)
+opcode: Start
+keywords: Default
+task: DUser_LayerGadget
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hGadget

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '512'
+version: '0'
+event(fields): SpmPolicyAliasRundown(GUID PolicyGuid, UInt16 PolicyAliasLength, UnicodeString
+  PolicyAlias)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SpmPolicyAliasRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PolicyGuid
+- field_type: UInt16
+  field_name: PolicyAliasLength
+- field_type: UnicodeString
+  field_name: PolicyAlias

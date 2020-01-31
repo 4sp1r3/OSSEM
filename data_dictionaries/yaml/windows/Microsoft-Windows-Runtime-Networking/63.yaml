@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '63'
+version: '0'
+event(fields): APIsRtcCompleteDelivery63(UInt32 runtimeClass, UInt32 pendingOperations,
+  UInt32 winsockPendingOperations, Boolean winsockDataAvailable)
+opcode: RtcCompleteDelivery
+keywords: keywords.Rtc
+task: APIs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: runtimeClass
+- field_type: UInt32
+  field_name: pendingOperations
+- field_type: UInt32
+  field_name: winsockPendingOperations
+- field_type: Boolean
+  field_name: winsockDataAvailable

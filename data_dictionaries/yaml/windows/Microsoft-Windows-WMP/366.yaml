@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '366'
+version: '0'
+event(fields): HME_SERVER_WAKEUP_FAILED(UnicodeString ID)
+opcode: ''
+keywords: mediaplayer
+task: HME_SERVER_WAKEUP_FAILED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ID

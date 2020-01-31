@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '250'
+version: '0'
+event(fields): DeviceConfigStart(UInt16 DeviceInstanceLength, UnicodeString DeviceInstance)
+opcode: Start
+keywords: DeviceConfig
+task: DeviceConfig
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: DeviceInstanceLength
+- field_type: UnicodeString
+  field_name: DeviceInstance

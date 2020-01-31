@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-SPP
+event_id: '1033'
+version: '0'
+event(fields): task_0PCODE_64pcode_641033()
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

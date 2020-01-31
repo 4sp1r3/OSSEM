@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client-StreamingUX
+event_id: '140'
+version: '1'
+event(fields): task_0140_V1()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

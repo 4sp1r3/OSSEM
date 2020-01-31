@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14509'
+version: '0'
+event(fields): Properties_CalendarControl_SetValueStart()
+opcode: Start
+keywords: Controls
+task: Properties_CalendarControl_SetValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

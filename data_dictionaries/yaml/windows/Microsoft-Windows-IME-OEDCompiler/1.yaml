@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-OEDCompiler
+event_id: '1'
+version: '0'
+event(fields): TaskID:OEDCompilerStart()
+opcode: Start
+keywords: ''
+task: TaskID:OEDCompiler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

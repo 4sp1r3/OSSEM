@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '225'
+version: '0'
+event(fields): Correlation(GUID InstanceKey, UnicodeString Values, UnicodeString ParentScope,
+  UnicodeString HostReference, UnicodeString AppDomain)
+opcode: ''
+keywords: Troubleshooting WFServices
+task: Correlation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InstanceKey
+- field_type: UnicodeString
+  field_name: Values
+- field_type: UnicodeString
+  field_name: ParentScope
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

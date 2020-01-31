@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60013'
+version: '0'
+event(fields): IE_LegacyHistoryQueryStop()
+opcode: Stop
+keywords: InternetExplorer
+task: IE_LegacyHistoryQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

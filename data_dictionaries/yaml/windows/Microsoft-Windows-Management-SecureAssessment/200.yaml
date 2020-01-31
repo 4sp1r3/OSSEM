@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Management-SecureAssessment
+event_id: '200'
+version: '0'
+event(fields): Lockdown(Boolean Enable, Boolean CurrentlyEnabled)
+opcode: ''
+keywords: SecureAssessment
+task: Lockdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Enable
+- field_type: Boolean
+  field_name: CurrentlyEnabled

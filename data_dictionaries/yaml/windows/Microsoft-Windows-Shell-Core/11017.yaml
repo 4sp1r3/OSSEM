@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '11017'
+version: '0'
+event(fields): FilterControl_Stack()
+opcode: ''
+keywords: Shell
+task: FilterControl_Stack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

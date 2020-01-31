@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '612'
+version: '0'
+event(fields): Recovery_WriteInitialStoreStart(UnicodeString FileName)
+opcode: Start
+keywords: verbose
+task: Recovery_WriteInitialStore
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

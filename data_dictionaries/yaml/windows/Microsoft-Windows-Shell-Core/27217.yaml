@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27217'
+version: '0'
+event(fields): PerfTrack_InspectorGadget(UInt32 PerfTrackId)
+opcode: ''
+keywords: Shell WDI
+task: PerfTrack_InspectorGadget
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PerfTrackId

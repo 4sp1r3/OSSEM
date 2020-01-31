@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '175'
+version: '0'
+event(fields): IDXGISwapChain_GetParentStop(UInt32 m_Ret, Pointer ppvObject)
+opcode: Stop
+keywords: ''
+task: IDXGISwapChain_GetParent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret
+- field_type: Pointer
+  field_name: ppvObject

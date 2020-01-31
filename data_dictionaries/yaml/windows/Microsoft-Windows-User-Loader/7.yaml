@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-User-Loader
+event_id: '7'
+version: '0'
+event(fields): task_07(UnicodeString FileName)
+opcode: ''
+keywords: USER_LOADER_KEYWORD_LOAD_FATAL_ERROR
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

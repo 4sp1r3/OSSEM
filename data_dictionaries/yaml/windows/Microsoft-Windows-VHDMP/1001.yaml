@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-VHDMP
+event_id: '1001'
+version: '0'
+event(fields): IOrequestStartinganIO.(UnicodeString VhdId, UInt32 VhdIoType, UInt32
+  VhdSrbType, UInt64 Offset, UInt32 Length)
+opcode: StartinganIO.
+keywords: ''
+task: IOrequest
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VhdId
+- field_type: UInt32
+  field_name: VhdIoType
+- field_type: UInt32
+  field_name: VhdSrbType
+- field_type: UInt64
+  field_name: Offset
+- field_type: UInt32
+  field_name: Length

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18903'
+version: '0'
+event(fields): Shell32_CopyEngine_ProgressUpdate(UInt64 PointsCurrent, UInt64 PointsTotal,
+  UInt64 SizeCurrent, UInt64 SizeTotal, UInt64 ItemsCurrent, UInt64 ItemsTotal)
+opcode: ''
+keywords: Shell
+task: Shell32_CopyEngine_ProgressUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PointsCurrent
+- field_type: UInt64
+  field_name: PointsTotal
+- field_type: UInt64
+  field_name: SizeCurrent
+- field_type: UInt64
+  field_name: SizeTotal
+- field_type: UInt64
+  field_name: ItemsCurrent
+- field_type: UInt64
+  field_name: ItemsTotal

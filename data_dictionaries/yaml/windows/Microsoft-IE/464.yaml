@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '464'
+version: '0'
+event(fields): Mshtml_IndependentAnimation_Candidacy_Failure(Pointer AnimationID)
+opcode: ''
+keywords: animation
+task: Mshtml_IndependentAnimation_Candidacy_Failure
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AnimationID

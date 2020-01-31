@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4467'
+version: '0'
+event(fields): MFCopyImageStart(Pointer SrcPtr, Pointer DstPtr, Int32 Width, Int32
+  Height)
+opcode: Start
+keywords: ''
+task: MFCopyImage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SrcPtr
+- field_type: Pointer
+  field_name: DstPtr
+- field_type: Int32
+  field_name: Width
+- field_type: Int32
+  field_name: Height

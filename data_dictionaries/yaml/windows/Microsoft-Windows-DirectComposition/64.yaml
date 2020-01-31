@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '64'
+version: '0'
+event(fields): FLIP_PRODUCE_PRESENTStart()
+opcode: Start
+keywords: FlipManager
+task: FLIP_PRODUCE_PRESENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

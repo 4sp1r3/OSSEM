@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '1012'
+version: '0'
+event(fields): UnpublishEpStart()
+opcode: Start
+keywords: ''
+task: UnpublishEp
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

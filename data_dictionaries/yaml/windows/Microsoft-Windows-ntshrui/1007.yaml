@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ntshrui
+event_id: '1007'
+version: '0'
+event(fields): SMB_StopSharingStart()
+opcode: Start
+keywords: ''
+task: SMB_StopSharing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

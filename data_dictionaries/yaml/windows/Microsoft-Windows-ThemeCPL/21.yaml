@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ThemeCPL
+event_id: '21'
+version: '0'
+event(fields): Personalization_HubPageReloadStop()
+opcode: Stop
+keywords: ''
+task: Personalization_HubPageReload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

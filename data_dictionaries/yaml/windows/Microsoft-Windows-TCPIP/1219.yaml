@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1219'
+version: '0'
+event(fields): TcpMppStartEpoch(UInt32 Epoch, UInt32 LowNppEventState, UInt32 HighNppEventState,
+  UInt64 EpochStartTick, UInt64 EpochStopTick, UInt32 OldSynDropRate, UInt32 NewSynDropRate,
+  UInt32 OldTcbAbortionRate, UInt32 NewTcbAbortionRate, UInt32 CurrentWatermark)
+opcode: ''
+keywords: ut:Global
+task: TcpMppStartEpoch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Epoch
+- field_type: UInt32
+  field_name: LowNppEventState
+- field_type: UInt32
+  field_name: HighNppEventState
+- field_type: UInt64
+  field_name: EpochStartTick
+- field_type: UInt64
+  field_name: EpochStopTick
+- field_type: UInt32
+  field_name: OldSynDropRate
+- field_type: UInt32
+  field_name: NewSynDropRate
+- field_type: UInt32
+  field_name: OldTcbAbortionRate
+- field_type: UInt32
+  field_name: NewTcbAbortionRate
+- field_type: UInt32
+  field_name: CurrentWatermark

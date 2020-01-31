@@ -1,0 +1,36 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '1100'
+version: '0'
+event(fields): Permissions(Pointer ClientID, UInt32 UnconditionalPermissions, UInt32
+  PolicyPermissions, UInt32 WinLegacyPolicyPermission, UInt32 MasterPermissions, UInt32
+  UserPermissions, UInt32 UserWinLegacyPolicyPermissions, UInt32 AppPermissions, Boolean
+  IsAppContainer, UnicodeString UserSid, UnicodeString PackageFamilyName)
+opcode: ''
+keywords: Selfhost
+task: Permissions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ClientID
+- field_type: UInt32
+  field_name: UnconditionalPermissions
+- field_type: UInt32
+  field_name: PolicyPermissions
+- field_type: UInt32
+  field_name: WinLegacyPolicyPermission
+- field_type: UInt32
+  field_name: MasterPermissions
+- field_type: UInt32
+  field_name: UserPermissions
+- field_type: UInt32
+  field_name: UserWinLegacyPolicyPermissions
+- field_type: UInt32
+  field_name: AppPermissions
+- field_type: Boolean
+  field_name: IsAppContainer
+- field_type: UnicodeString
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: PackageFamilyName

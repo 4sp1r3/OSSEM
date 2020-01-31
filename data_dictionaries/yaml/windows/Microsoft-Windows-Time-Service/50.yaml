@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '50'
+version: '0'
+event(fields): task_050(UInt32 TimeDifferenceMilliseconds, UInt32 TimeSampleSeconds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimeDifferenceMilliseconds
+- field_type: UInt32
+  field_name: TimeSampleSeconds

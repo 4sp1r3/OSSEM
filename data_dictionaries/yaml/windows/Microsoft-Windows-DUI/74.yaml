@@ -1,0 +1,44 @@
+provider: Microsoft-Windows-DUI
+event_id: '74'
+version: '0'
+event(fields): DirectUI_DUserTransition(UnicodeString atomname, UInt32 hGadChange,
+  UInt32 hGadClone, Float flDelay, Float flDuration, Int32 zOrder, UInt32 nProperty,
+  UInt32 nFlags, Float flInitScalar, Float flInitX, Float flInitY, Float flInitZ,
+  Float flInitOriginX, Float flInitOriginY, Float flInitOriginZ)
+opcode: ''
+keywords: Default
+task: DirectUI_DUserTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: atomname
+- field_type: UInt32
+  field_name: hGadChange
+- field_type: UInt32
+  field_name: hGadClone
+- field_type: Float
+  field_name: flDelay
+- field_type: Float
+  field_name: flDuration
+- field_type: Int32
+  field_name: zOrder
+- field_type: UInt32
+  field_name: nProperty
+- field_type: UInt32
+  field_name: nFlags
+- field_type: Float
+  field_name: flInitScalar
+- field_type: Float
+  field_name: flInitX
+- field_type: Float
+  field_name: flInitY
+- field_type: Float
+  field_name: flInitZ
+- field_type: Float
+  field_name: flInitOriginX
+- field_type: Float
+  field_name: flInitOriginY
+- field_type: Float
+  field_name: flInitOriginZ

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '1500'
+version: '1'
+event(fields): MainPath_HybridBoot_V1(UInt32 MainPathHybridbootTimeMs, UInt32 PostTimeMs,
+  UInt32 ResumeTimeMs, UInt32 AdditionalMetadata, UInt32 ReadyBootTrainingCountSinceLastServicing)
+opcode: ''
+keywords: ''
+task: MainPath_HybridBoot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MainPathHybridbootTimeMs
+- field_type: UInt32
+  field_name: PostTimeMs
+- field_type: UInt32
+  field_name: ResumeTimeMs
+- field_type: UInt32
+  field_name: AdditionalMetadata
+- field_type: UInt32
+  field_name: ReadyBootTrainingCountSinceLastServicing

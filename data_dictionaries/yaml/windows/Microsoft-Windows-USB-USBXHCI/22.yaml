@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '22'
+version: '0'
+event(fields): USBXHCIControllerD0ExitStart(Pointer fid_UcxController, UInt32 fid_DeviceState,
+  UInt32 fid_PowerAction, UInt16 fid_WaitWakePending)
+opcode: Start
+keywords: Default Power
+task: USBXHCIControllerD0Exit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: UInt32
+  field_name: fid_DeviceState
+- field_type: UInt32
+  field_name: fid_PowerAction
+- field_type: UInt16
+  field_name: fid_WaitWakePending

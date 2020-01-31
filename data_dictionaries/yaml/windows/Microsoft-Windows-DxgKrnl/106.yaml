@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '106'
+version: '0'
+event(fields): ProfilerStop(UInt32 Function)
+opcode: Stop
+keywords: Profiler
+task: Profiler
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Function

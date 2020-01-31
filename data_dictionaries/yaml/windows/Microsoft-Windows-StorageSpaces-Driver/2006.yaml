@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '2006'
+version: '0'
+event(fields): task_02006(GUID SpaceId, Pointer TopPacketIrp, Pointer TopPacket, GUID
+  DriveId, Pointer Irp, Pointer Packet, UInt64 Offset, UInt32 Length, UInt8 Function,
+  UInt32 HistoryCount, Float History)
+opcode: ''
+keywords: Io
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SpaceId
+- field_type: Pointer
+  field_name: TopPacketIrp
+- field_type: Pointer
+  field_name: TopPacket
+- field_type: GUID
+  field_name: DriveId
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: Packet
+- field_type: UInt64
+  field_name: Offset
+- field_type: UInt32
+  field_name: Length
+- field_type: UInt8
+  field_name: Function
+- field_type: UInt32
+  field_name: HistoryCount
+- field_type: Float
+  field_name: History

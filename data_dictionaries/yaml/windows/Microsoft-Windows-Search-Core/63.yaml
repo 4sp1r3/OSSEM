@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '63'
+version: '0'
+event(fields): ServiceStatusUpdate(UInt32 WaitHint, UInt32 State, UInt32 CheckPoint)
+opcode: ''
+keywords: Service
+task: ServiceStatusUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WaitHint
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: CheckPoint

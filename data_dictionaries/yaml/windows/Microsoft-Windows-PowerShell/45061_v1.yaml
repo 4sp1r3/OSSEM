@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45061'
+version: '1'
+event(fields): None45061_V1(UnicodeString param1)
+opcode: ''
+keywords: ''
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

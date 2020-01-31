@@ -1,0 +1,46 @@
+provider: Microsoft-Windows-Kernel-WHEA
+event_id: '3'
+version: '0'
+event(fields): task_03(UInt32 Signature, UInt16 Revision, UInt16 Reserved1, UInt16
+  Reserved2, UInt16 SectionCount, UInt32 Severity, UInt32 ValidationBits, UInt32 Length,
+  UInt64 Timestamp, GUID PlatformId, GUID PartitionId, GUID CreatorId, GUID NotifyType,
+  UInt64 RecordId, UInt32 Flags, Binary RawData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Signature
+- field_type: UInt16
+  field_name: Revision
+- field_type: UInt16
+  field_name: Reserved1
+- field_type: UInt16
+  field_name: Reserved2
+- field_type: UInt16
+  field_name: SectionCount
+- field_type: UInt32
+  field_name: Severity
+- field_type: UInt32
+  field_name: ValidationBits
+- field_type: UInt32
+  field_name: Length
+- field_type: UInt64
+  field_name: Timestamp
+- field_type: GUID
+  field_name: PlatformId
+- field_type: GUID
+  field_name: PartitionId
+- field_type: GUID
+  field_name: CreatorId
+- field_type: GUID
+  field_name: NotifyType
+- field_type: UInt64
+  field_name: RecordId
+- field_type: UInt32
+  field_name: Flags
+- field_type: Binary
+  field_name: RawData

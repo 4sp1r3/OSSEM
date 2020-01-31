@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3018'
+version: '1'
+event(fields): ConfigurePackageFinalizeStop_V1()
+opcode: Stop
+keywords: ''
+task: ConfigurePackageFinalize
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

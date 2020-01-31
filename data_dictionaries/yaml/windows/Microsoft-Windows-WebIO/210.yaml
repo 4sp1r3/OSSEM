@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebIO
+event_id: '210'
+version: '0'
+event(fields): ConnectionNameResolutionRequest210(Pointer ReferenceContext)
+opcode: ''
+keywords: ''
+task: ConnectionNameResolutionRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ReferenceContext

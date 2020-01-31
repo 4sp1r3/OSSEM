@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '927'
+version: '0'
+event(fields): CellularModemContainer927(UInt32 rilRegStat, UInt32 rilSystemType,
+  UnicodeString szString)
+opcode: ''
+keywords: Trace
+task: CellularModemContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: rilRegStat
+- field_type: UInt32
+  field_name: rilSystemType
+- field_type: UnicodeString
+  field_name: szString

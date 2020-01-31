@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1023'
+version: '0'
+event(fields): CompleteWorkItemCompleteBookmark(UnicodeString data1, UnicodeString
+  data2, UnicodeString data3, UnicodeString data4, UnicodeString data5, UnicodeString
+  AppDomain)
+opcode: CompleteBookmark
+keywords: WFRuntime
+task: CompleteWorkItem
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: data2
+- field_type: UnicodeString
+  field_name: data3
+- field_type: UnicodeString
+  field_name: data4
+- field_type: UnicodeString
+  field_name: data5
+- field_type: UnicodeString
+  field_name: AppDomain

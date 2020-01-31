@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DXGI
+event_id: '206'
+version: '0'
+event(fields): IDXGIFactory_SetPrivateDataInterfaceStart(Pointer pThis, Binary Name,
+  Pointer pInterface)
+opcode: Start
+keywords: ''
+task: IDXGIFactory_SetPrivateDataInterface
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Binary
+  field_name: Name
+- field_type: Pointer
+  field_name: pInterface

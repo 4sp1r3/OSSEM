@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Acpi
+event_id: '22'
+version: '0'
+event(fields): AMLIError(UnicodeString Scope, UnicodeString Object, UInt32 Status)
+opcode: ''
+keywords: acpi:Diagnostic
+task: AMLIError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Scope
+- field_type: UnicodeString
+  field_name: Object
+- field_type: UInt32
+  field_name: Status

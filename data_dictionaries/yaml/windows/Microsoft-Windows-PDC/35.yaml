@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDC
+event_id: '35'
+version: '0'
+event(fields): CsDisplayNotification()
+opcode: ''
+keywords: Cs CsDiag
+task: CsDisplayNotification
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

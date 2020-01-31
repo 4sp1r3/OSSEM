@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61650'
+version: '0'
+event(fields): Clipboard_GetContentStart()
+opcode: Start
+keywords: Shell
+task: Clipboard_GetContent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

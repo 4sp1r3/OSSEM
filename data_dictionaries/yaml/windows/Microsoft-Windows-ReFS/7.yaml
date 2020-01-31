@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ReFS
+event_id: '7'
+version: '0'
+event(fields): task_07(Pointer Context, UInt8 MajorVersionExpected, UInt8 MinorVersionExpected,
+  UInt8 MajorVersionOnDisk, UInt8 MinorVersionOnDisk)
+opcode: ''
+keywords: VolumeMount
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Context
+- field_type: UInt8
+  field_name: MajorVersionExpected
+- field_type: UInt8
+  field_name: MinorVersionExpected
+- field_type: UInt8
+  field_name: MajorVersionOnDisk
+- field_type: UInt8
+  field_name: MinorVersionOnDisk

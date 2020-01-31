@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '170'
+version: '0'
+event(fields): CNodeWrapper_RollbackSetValueStop170(UInt32 Result)
+opcode: Stop
+keywords: Error Performance Trace
+task: CNodeWrapper_RollbackSetValue
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

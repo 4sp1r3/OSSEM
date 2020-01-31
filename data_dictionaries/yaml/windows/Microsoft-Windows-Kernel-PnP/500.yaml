@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '500'
+version: '0'
+event(fields): DevQuery_QueryProcessingQueryStart(Pointer QueryAddress, UInt32 ProcessId,
+  UnicodeString ObjectType, UnicodeString QueryType, UnicodeString ObjectId, UnicodeString
+  QueryFlags, UnicodeString PreferredLanguages, UnicodeString RequestedProperties,
+  UnicodeString FilterExpression)
+opcode: QueryStart
+keywords: DevQuery ObjectLists
+task: DevQuery_QueryProcessing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: QueryAddress
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ObjectType
+- field_type: UnicodeString
+  field_name: QueryType
+- field_type: UnicodeString
+  field_name: ObjectId
+- field_type: UnicodeString
+  field_name: QueryFlags
+- field_type: UnicodeString
+  field_name: PreferredLanguages
+- field_type: UnicodeString
+  field_name: RequestedProperties
+- field_type: UnicodeString
+  field_name: FilterExpression

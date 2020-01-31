@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '47'
+version: '0'
+event(fields): Manipulation_DCompCompositorOnViewportStatusChangedStart(Pointer CompositorPointer,
+  Pointer ViewportPointer, Int32 CurrentStatus, Int32 PreviousStatus)
+opcode: Start
+keywords: ''
+task: Manipulation_DCompCompositorOnViewportStatusChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CompositorPointer
+- field_type: Pointer
+  field_name: ViewportPointer
+- field_type: Int32
+  field_name: CurrentStatus
+- field_type: Int32
+  field_name: PreviousStatus

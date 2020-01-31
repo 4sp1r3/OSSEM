@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBWitnessClient
+event_id: '14'
+version: '0'
+event(fields): task_014(UnicodeString NetName, UnicodeString ShareName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: NetName
+- field_type: UnicodeString
+  field_name: ShareName

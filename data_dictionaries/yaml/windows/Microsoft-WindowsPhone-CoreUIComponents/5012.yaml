@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '5012'
+version: '0'
+event(fields): ProxyPushNewProxy(UnicodeString pwsz, UInt32 unParam, UInt32 unParam2)
+opcode: ''
+keywords: MessagingPerformance Proxy
+task: ProxyPushNewProxy
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2

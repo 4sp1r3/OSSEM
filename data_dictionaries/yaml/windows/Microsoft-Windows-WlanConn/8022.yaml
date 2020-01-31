@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WlanConn
+event_id: '8022'
+version: '0'
+event(fields): TetheredConnectStop8022()
+opcode: Stop
+keywords: WlanCfe_Performance
+task: TetheredConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

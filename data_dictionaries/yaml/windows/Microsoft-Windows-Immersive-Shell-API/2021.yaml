@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2021'
+version: '0'
+event(fields): CoreApplicationCreateNewViewStop()
+opcode: Stop
+keywords: ''
+task: CoreApplicationCreateNewView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

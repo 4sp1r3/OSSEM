@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1028'
+version: '0'
+event(fields): CellRPCHandler1028(GUID guidCode1, GUID guidCode2, UInt32 rilCDMAAvoidReqType)
+opcode: ''
+keywords: Trace
+task: CellRPCHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: guidCode1
+- field_type: GUID
+  field_name: guidCode2
+- field_type: UInt32
+  field_name: rilCDMAAvoidReqType

@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3230'
+version: '0'
+event(fields): Adapter_IntegratedLoopWaitStop()
+opcode: Stop
+keywords: MessagingPerformance Dispatcher
+task: Adapter_IntegratedLoopWait
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

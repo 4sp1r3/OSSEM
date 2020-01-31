@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '200'
+version: '0'
+event(fields): EMENeedKey(UInt32 length, Binary data)
+opcode: ''
+keywords: ''
+task: EMENeedKey
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: length
+- field_type: Binary
+  field_name: data

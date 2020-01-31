@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '67'
+version: '0'
+event(fields): KeyboardUI_ApplyLabelsStart()
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: KeyboardUI_ApplyLabels
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

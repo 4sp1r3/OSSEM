@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4037'
+version: '0'
+event(fields): Obj_InitializeStop(UInt32 Index, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Obj_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: ErrorCode

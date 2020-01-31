@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '29'
+version: '0'
+event(fields): USBXHCIControllerInternalResetStop(Pointer fid_UcxController, UInt32
+  fid_NtStatus)
+opcode: Stop
+keywords: Default
+task: USBXHCIControllerInternalReset
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: UInt32
+  field_name: fid_NtStatus

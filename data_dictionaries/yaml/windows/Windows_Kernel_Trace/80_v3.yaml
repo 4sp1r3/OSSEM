@@ -1,0 +1,23 @@
+provider: Windows Kernel Trace
+category: '{90cbdc39-4a3e-11d1-84f4-0000f80464e3}'
+event_id: '80'
+version: '3'
+event(fields): FileIo_PathOperation(UInt32 IrpPtr, UInt32 FileObject, UInt32 FileKey,
+  UInt32 ExtraInfo, UInt32 TTID, UInt32 InfoClass, String FileName)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: IrpPtr
+- field_type: UInt32
+  field_name: FileObject
+- field_type: UInt32
+  field_name: FileKey
+- field_type: UInt32
+  field_name: ExtraInfo
+- field_type: UInt32
+  field_name: TTID
+- field_type: UInt32
+  field_name: InfoClass
+- field_type: String
+  field_name: FileName

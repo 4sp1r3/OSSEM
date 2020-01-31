@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '194'
+version: '0'
+event(fields): FeedSwipeRecognizerStop()
+opcode: Stop
+keywords: Input
+task: FeedSwipeRecognizer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '146'
+version: '0'
+event(fields): ConnectSecureLoader(UInt32 Status)
+opcode: ''
+keywords: SoftRestart
+task: ConnectSecureLoader
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

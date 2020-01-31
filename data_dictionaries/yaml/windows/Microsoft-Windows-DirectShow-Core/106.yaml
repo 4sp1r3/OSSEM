@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '106'
+version: '0'
+event(fields): DirectShowFilterGraphAddFilter(Pointer context, Pointer filter, UnicodeString
+  filterName, UnicodeString name, HexInt32 hr)
+opcode: ''
+keywords: ''
+task: DirectShowFilterGraphAddFilter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: context
+- field_type: Pointer
+  field_name: filter
+- field_type: UnicodeString
+  field_name: filterName
+- field_type: UnicodeString
+  field_name: name
+- field_type: HexInt32
+  field_name: hr

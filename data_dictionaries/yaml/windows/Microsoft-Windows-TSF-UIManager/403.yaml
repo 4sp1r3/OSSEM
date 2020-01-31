@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '403'
+version: '0'
+event(fields): TsfCandidateList_SetSelectionStop()
+opcode: Stop
+keywords: TSF_UIManager
+task: TsfCandidateList_SetSelection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

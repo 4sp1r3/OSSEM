@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '337'
+version: '0'
+event(fields): GpuVirtualAddressAllocatorStop(Pointer pVaAllocator, Pointer hProcessId,
+  Pointer pDxgAdapter)
+opcode: Stop
+keywords: GPUVA
+task: GpuVirtualAddressAllocator
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pVaAllocator
+- field_type: Pointer
+  field_name: hProcessId
+- field_type: Pointer
+  field_name: pDxgAdapter

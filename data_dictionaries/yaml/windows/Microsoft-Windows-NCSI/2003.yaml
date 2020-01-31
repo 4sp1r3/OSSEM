@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NCSI
+event_id: '2003'
+version: '0'
+event(fields): CheckCorporateInside/outsideLocation(UInt8 CorpCheckDisabledReason)
+opcode: ''
+keywords: LwtDiagnostic ut:L3ConnectPath
+task: CheckCorporateInside/outsideLocation
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: CorpCheckDisabledReason

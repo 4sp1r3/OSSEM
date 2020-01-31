@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '860'
+version: '0'
+event(fields): Mshtml_Canvas_CommandListStart(Pointer CommandList, UInt32 NumCommands,
+  UInt32 BytesUsed)
+opcode: Start
+keywords: subsystem composition
+task: Mshtml_Canvas_CommandList
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CommandList
+- field_type: UInt32
+  field_name: NumCommands
+- field_type: UInt32
+  field_name: BytesUsed

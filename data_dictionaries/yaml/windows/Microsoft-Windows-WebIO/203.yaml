@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WebIO
+event_id: '203'
+version: '0'
+event(fields): ConnectionSocketCreate(Pointer Connection, UInt64 SocketHandle, UInt32
+  Error)
+opcode: ''
+keywords: ''
+task: ConnectionSocketCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: UInt64
+  field_name: SocketHandle
+- field_type: UInt32
+  field_name: Error

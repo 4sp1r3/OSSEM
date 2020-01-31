@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SetupCl
+event_id: '28'
+version: '0'
+event(fields): SetupCltaskStop28()
+opcode: Stop
+keywords: keyPerformance
+task: SetupCltask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Backup
+event_id: '9'
+version: '2'
+event(fields): task_09_V2(FILETIME BackupStartTime, GUID BackupSetId, HexInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: BackupStartTime
+- field_type: GUID
+  field_name: BackupSetId
+- field_type: HexInt32
+  field_name: HRESULT

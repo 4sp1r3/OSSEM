@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '58'
+version: '0'
+event(fields): MFMFAudio_Render_StreamSinkAudStreamSink_ShouldSampleBeDropped(Pointer
+  object, Int64 hnsSampleTime, Int64 hnsSampleDuration)
+opcode: AudStreamSink_ShouldSampleBeDropped
+keywords: ''
+task: MFMFAudio_Render_StreamSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: hnsSampleTime
+- field_type: Int64
+  field_name: hnsSampleDuration

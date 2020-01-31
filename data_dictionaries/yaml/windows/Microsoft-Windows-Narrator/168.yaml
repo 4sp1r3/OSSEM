@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '168'
+version: '0'
+event(fields): CancellationCheckStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CancellationCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

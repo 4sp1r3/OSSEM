@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '813'
+version: '0'
+event(fields): QSA_PopulateTile_PerftrackStop(UInt64 Object)
+opcode: Stop
+keywords: nonPerfTrack
+task: QSA_PopulateTile_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

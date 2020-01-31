@@ -1,0 +1,37 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1481'
+version: '0'
+event(fields): TcpPrrSend(Pointer Tcb, UInt32 SackIsLostSeq, UInt32 SackInFlight,
+  UInt32 SackBytes, UInt32 SackIsLost, UInt32 SsThresh, UInt32 HeadSeq, UInt32 AckedData,
+  UInt32 BytesInFlight, Int64 BytesToSend, UInt32 PrrDelivered, UInt32 PrrOut)
+opcode: ''
+keywords: ut:TcpipDiagnosis
+task: TcpPrrSend
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: SackIsLostSeq
+- field_type: UInt32
+  field_name: SackInFlight
+- field_type: UInt32
+  field_name: SackBytes
+- field_type: UInt32
+  field_name: SackIsLost
+- field_type: UInt32
+  field_name: SsThresh
+- field_type: UInt32
+  field_name: HeadSeq
+- field_type: UInt32
+  field_name: AckedData
+- field_type: UInt32
+  field_name: BytesInFlight
+- field_type: Int64
+  field_name: BytesToSend
+- field_type: UInt32
+  field_name: PrrDelivered
+- field_type: UInt32
+  field_name: PrrOut

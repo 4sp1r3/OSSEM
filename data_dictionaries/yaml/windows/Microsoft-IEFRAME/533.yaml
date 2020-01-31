@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '533'
+version: '0'
+event(fields): DownloadWindow_Items_Removed(UInt32 Uint32Val)
+opcode: ''
+keywords: DownloadWindow
+task: DownloadWindow_Items_Removed
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Uint32Val

@@ -1,0 +1,37 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '108'
+version: '0'
+event(fields): PowerTransition108(UInt64 CopyBytes, UInt32 ElapsedTime, UInt32 IoTime,
+  UInt32 InitTime, UInt32 CopyTime, UInt32 PagesWritten, UInt32 PagesProcessed, UInt32
+  DumpCount, UInt32 FileRuns, UInt32 ReadTime, UInt32 ResumeAppTime, UInt32 CompressTime)
+opcode: ''
+keywords: po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight
+task: PowerTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CopyBytes
+- field_type: UInt32
+  field_name: ElapsedTime
+- field_type: UInt32
+  field_name: IoTime
+- field_type: UInt32
+  field_name: InitTime
+- field_type: UInt32
+  field_name: CopyTime
+- field_type: UInt32
+  field_name: PagesWritten
+- field_type: UInt32
+  field_name: PagesProcessed
+- field_type: UInt32
+  field_name: DumpCount
+- field_type: UInt32
+  field_name: FileRuns
+- field_type: UInt32
+  field_name: ReadTime
+- field_type: UInt32
+  field_name: ResumeAppTime
+- field_type: UInt32
+  field_name: CompressTime

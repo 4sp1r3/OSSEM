@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '5'
+version: '0'
+event(fields): CheckWindowsLicenseStatusStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CheckWindowsLicenseStatus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

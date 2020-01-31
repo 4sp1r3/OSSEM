@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Win32k
+event_id: '10002'
+version: '0'
+event(fields): WindowLayoutChangeStop(UInt32 hWnd, UInt32 Packed_High_Height_Low_Width,
+  UnicodeString PRAID, UnicodeString PackageFullName)
+opcode: Stop
+keywords: ''
+task: WindowLayoutChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hWnd
+- field_type: UInt32
+  field_name: Packed_High_Height_Low_Width
+- field_type: UnicodeString
+  field_name: PRAID
+- field_type: UnicodeString
+  field_name: PackageFullName

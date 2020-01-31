@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '24'
+version: '0'
+event(fields): NinputWmGestureGlobalStart()
+opcode: Start
+keywords: ''
+task: NinputWmGestureGlobal
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

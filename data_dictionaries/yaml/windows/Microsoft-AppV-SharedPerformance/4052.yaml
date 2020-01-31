@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4052'
+version: '0'
+event(fields): Set_AppvClientConfigurationStart()
+opcode: Start
+keywords: ''
+task: Set_AppvClientConfiguration
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

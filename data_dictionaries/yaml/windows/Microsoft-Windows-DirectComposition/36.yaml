@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '36'
+version: '0'
+event(fields): RECLUMPStop(UInt64 surfacePointer)
+opcode: Stop
+keywords: DCompDiagnostic DCompMemory
+task: RECLUMP
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: surfacePointer

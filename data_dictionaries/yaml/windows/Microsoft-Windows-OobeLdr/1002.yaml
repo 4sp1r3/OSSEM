@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OobeLdr
+event_id: '1002'
+version: '0'
+event(fields): RunOobeLdrStop(UInt32 ErrorCode)
+opcode: Stop
+keywords: keyPerformance keyword_200000000000
+task: RunOobeLdr
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

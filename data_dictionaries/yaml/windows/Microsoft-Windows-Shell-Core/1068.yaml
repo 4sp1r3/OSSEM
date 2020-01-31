@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1068'
+version: '0'
+event(fields): DataLayer_RowsetFindIndexStart()
+opcode: Start
+keywords: Shell
+task: DataLayer_RowsetFindIndex
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

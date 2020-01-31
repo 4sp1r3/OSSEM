@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '232'
+version: '0'
+event(fields): task_0232(UnicodeString Prop_ContainerId, UnicodeString Prop_PackageId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_ContainerId
+- field_type: UnicodeString
+  field_name: Prop_PackageId

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6042'
+version: '0'
+event(fields): GetPublishingServersStart()
+opcode: Start
+keywords: ''
+task: GetPublishingServers
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

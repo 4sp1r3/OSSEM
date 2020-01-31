@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '40'
+version: '0'
+event(fields): task_040(UnicodeString HCClientAddress, UInt32 CurrentUploads, UInt32
+  MaxUploads)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HCClientAddress
+- field_type: UInt32
+  field_name: CurrentUploads
+- field_type: UInt32
+  field_name: MaxUploads

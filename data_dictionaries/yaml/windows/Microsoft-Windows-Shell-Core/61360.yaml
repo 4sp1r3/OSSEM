@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61360'
+version: '0'
+event(fields): FileAccessAPI_EnumerationStart(GUID TopViewId, UInt32 NumExtensionFilters,
+  UnicodeString AppQuery, UnicodeString UserQuery, UInt32 FolderDepth, UInt32 IndexerOption,
+  UInt32 NumSortEntries)
+opcode: Start
+keywords: Shell
+task: FileAccessAPI_Enumeration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TopViewId
+- field_type: UInt32
+  field_name: NumExtensionFilters
+- field_type: UnicodeString
+  field_name: AppQuery
+- field_type: UnicodeString
+  field_name: UserQuery
+- field_type: UInt32
+  field_name: FolderDepth
+- field_type: UInt32
+  field_name: IndexerOption
+- field_type: UInt32
+  field_name: NumSortEntries

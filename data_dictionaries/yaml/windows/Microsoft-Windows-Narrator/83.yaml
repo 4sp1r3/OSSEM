@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '83'
+version: '0'
+event(fields): InitializeGlobalsStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: InitializeGlobals
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

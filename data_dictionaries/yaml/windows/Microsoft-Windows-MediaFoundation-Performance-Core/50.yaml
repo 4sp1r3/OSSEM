@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '50'
+version: '0'
+event(fields): AudEngineStream_CMFPump_Stop_TaskStart(Pointer object)
+opcode: Start
+keywords: ''
+task: AudEngineStream_CMFPump_Stop_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

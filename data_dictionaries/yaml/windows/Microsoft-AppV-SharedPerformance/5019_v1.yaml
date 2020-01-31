@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '5019'
+version: '1'
+event(fields): GlobalMaintenanceStart_V1()
+opcode: Start
+keywords: ''
+task: GlobalMaintenance
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

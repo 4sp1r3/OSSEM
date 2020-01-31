@@ -1,0 +1,12 @@
+provider: Windows Notification Facility Provider
+category: '{42695762-ea50-497a-9068-5cbbb35e0b95}'
+event_id: '36'
+version: '2'
+event(fields): WNFNameSubRundown(UInt64 StateName, UInt32 NameSub)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt64
+  field_name: StateName
+- field_type: UInt32
+  field_name: NameSub

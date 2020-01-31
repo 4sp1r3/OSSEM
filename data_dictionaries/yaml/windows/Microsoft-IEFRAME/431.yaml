@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '431'
+version: '0'
+event(fields): DataModel_QueryEntry(UInt32 QueryID)
+opcode: ''
+keywords: primarynav
+task: DataModel_QueryEntry
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: QueryID

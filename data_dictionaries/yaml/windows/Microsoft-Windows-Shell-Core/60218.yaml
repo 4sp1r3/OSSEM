@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60218'
+version: '0'
+event(fields): SearchBox_SearchConversionList_AnimationStart(UInt32 AnimId)
+opcode: Start
+keywords: Shell
+task: SearchBox_SearchConversionList_Animation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AnimId

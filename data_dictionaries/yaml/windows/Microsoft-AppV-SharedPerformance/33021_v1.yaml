@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '33021'
+version: '1'
+event(fields): VFONTS.ProcessInstallFontsStop_V1()
+opcode: Stop
+keywords: ''
+task: VFONTS.ProcessInstallFonts
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

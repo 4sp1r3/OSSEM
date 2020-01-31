@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DSC
+event_id: '4103'
+version: '0'
+event(fields): task_04103(UnicodeString JobId, UnicodeString ComponentName, UnicodeString
+  OperationCmd, UnicodeString ProviderName, UnicodeString FullyQualifiedErrorId, UnicodeString
+  ErrorMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: ComponentName
+- field_type: UnicodeString
+  field_name: OperationCmd
+- field_type: UnicodeString
+  field_name: ProviderName
+- field_type: UnicodeString
+  field_name: FullyQualifiedErrorId
+- field_type: UnicodeString
+  field_name: ErrorMessage

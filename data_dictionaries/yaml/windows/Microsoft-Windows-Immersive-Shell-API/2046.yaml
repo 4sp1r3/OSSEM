@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2046'
+version: '0'
+event(fields): CoreApplicationSuspendingDeferralStart()
+opcode: Start
+keywords: Deferral
+task: CoreApplicationSuspendingDeferral
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

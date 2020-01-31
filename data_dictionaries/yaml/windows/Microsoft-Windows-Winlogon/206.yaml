@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '206'
+version: '0'
+event(fields): ThemesOnCreateSessionStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ThemesOnCreateSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1098'
+version: '0'
+event(fields): MediaFoundationOPMPoll(GUID fromtype)
+opcode: ''
+keywords: ''
+task: MediaFoundationOPMPoll
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: fromtype

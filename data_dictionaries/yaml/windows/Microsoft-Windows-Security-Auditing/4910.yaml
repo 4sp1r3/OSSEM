@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4910'
+version: '0'
+event(fields): task_04910(UInt32 OldIgnoreDefaultSettings, UInt32 NewIgnoreDefaultSettings,
+  UInt32 OldIgnoreLocalSettings, UInt32 NewIgnoreLocalSettings, UnicodeString OldBlockedOrdinals,
+  UnicodeString NewBlockedOrdinals)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OldIgnoreDefaultSettings
+- field_type: UInt32
+  field_name: NewIgnoreDefaultSettings
+- field_type: UInt32
+  field_name: OldIgnoreLocalSettings
+- field_type: UInt32
+  field_name: NewIgnoreLocalSettings
+- field_type: UnicodeString
+  field_name: OldBlockedOrdinals
+- field_type: UnicodeString
+  field_name: NewBlockedOrdinals

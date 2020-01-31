@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '568'
+version: '0'
+event(fields): CreateInstanceStop(UInt64 Runtime, UnicodeString Type)
+opcode: Stop
+keywords: Core
+task: CreateInstance
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Runtime
+- field_type: UnicodeString
+  field_name: Type

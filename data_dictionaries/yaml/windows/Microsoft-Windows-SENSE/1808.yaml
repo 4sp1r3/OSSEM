@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SENSE
+event_id: '1808'
+version: '0'
+event(fields): task_01808(UInt64 offboardingBlobHash, Boolean isDefaultOffboardingBlob)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: offboardingBlobHash
+- field_type: Boolean
+  field_name: isDefaultOffboardingBlob

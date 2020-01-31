@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1402'
+version: '0'
+event(fields): BackstackManager_GetBackstack(UnicodeString AppUserModelID)
+opcode: ''
+keywords: ''
+task: BackstackManager_GetBackstack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelID

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7096'
+version: '0'
+event(fields): Perf_LocalDeleteCollectionStop(UnicodeString CollectionId, UInt32 HRESULT)
+opcode: Stop
+keywords: ''
+task: Perf_LocalDeleteCollection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UInt32
+  field_name: HRESULT

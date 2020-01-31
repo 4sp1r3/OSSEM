@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30803'
+version: '2'
+event(fields): task_030803_V2(UInt32 Reason, UInt32 Status, UInt16 ServerNameLength,
+  UnicodeString ServerName, UInt32 AddressLength, Binary RemoteAddress, Binary LocalAddress,
+  UInt16 InstanceNameLength, UnicodeString InstanceName, UInt32 ConnectionType)
+opcode: ''
+keywords: Smb_Connectivity
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt16
+  field_name: InstanceNameLength
+- field_type: UnicodeString
+  field_name: InstanceName
+- field_type: UInt32
+  field_name: ConnectionType

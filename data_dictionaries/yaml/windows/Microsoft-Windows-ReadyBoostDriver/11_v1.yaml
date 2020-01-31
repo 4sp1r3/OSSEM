@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '11'
+version: '1'
+event(fields): StoreIgnoredIO_V1(Pointer Irp, UInt16 Reason, UInt16 Flags)
+opcode: ''
+keywords: StoreOps
+task: StoreIgnoredIO
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt16
+  field_name: Reason
+- field_type: UInt16
+  field_name: Flags

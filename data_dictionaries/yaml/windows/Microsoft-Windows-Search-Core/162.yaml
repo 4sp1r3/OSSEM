@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '162'
+version: '0'
+event(fields): Gatherer_OnDataChangeStart(UInt64 Resource, UInt32 ChangeAdvice)
+opcode: Start
+keywords: IndexingItem Gatherer
+task: Gatherer_OnDataChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Resource
+- field_type: UInt32
+  field_name: ChangeAdvice

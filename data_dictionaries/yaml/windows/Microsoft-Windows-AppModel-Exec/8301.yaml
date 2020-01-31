@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '8301'
+version: '0'
+event(fields): ODB_CancelTask(SID UserSid, UInt32 SessionId, GUID WorkItemId, Boolean
+  RudeTerminate, UInt32 CancelationReason, UInt32 HRESULT)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular ODB
+task: ODB_CancelTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: UserSid
+- field_type: UInt32
+  field_name: SessionId
+- field_type: GUID
+  field_name: WorkItemId
+- field_type: Boolean
+  field_name: RudeTerminate
+- field_type: UInt32
+  field_name: CancelationReason
+- field_type: UInt32
+  field_name: HRESULT

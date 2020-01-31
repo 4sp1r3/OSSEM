@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Audio
+event_id: '157'
+version: '0'
+event(fields): AEMemory_164(Pointer objInstance, UInt32 ucType, UInt64 u64Param1,
+  UInt64 u64Param2, UInt64 u64Param3, UInt64 u64Param4)
+opcode: ''
+keywords: ''
+task: AEMemory_164
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objInstance
+- field_type: UInt32
+  field_name: ucType
+- field_type: UInt64
+  field_name: u64Param1
+- field_type: UInt64
+  field_name: u64Param2
+- field_type: UInt64
+  field_name: u64Param3
+- field_type: UInt64
+  field_name: u64Param4

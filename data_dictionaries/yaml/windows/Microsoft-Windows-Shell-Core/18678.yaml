@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18678'
+version: '0'
+event(fields): Shell32_ItemThumbnail_SetItemsStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_ItemThumbnail_SetItems
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

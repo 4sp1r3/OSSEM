@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '4005'
+version: '0'
+event(fields): task_04005(GUID InterfaceGuid, UInt32 RegisteredType)
+opcode: ''
+keywords: ut:Configuration
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RegisteredType

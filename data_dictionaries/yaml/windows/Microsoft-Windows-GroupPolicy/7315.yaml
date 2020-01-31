@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '7315'
+version: '0'
+event(fields): task_07315()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

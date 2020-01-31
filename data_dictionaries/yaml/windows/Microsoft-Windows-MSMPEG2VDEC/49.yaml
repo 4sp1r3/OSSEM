@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '49'
+version: '0'
+event(fields): MPEG2_EncryptInputStop()
+opcode: Stop
+keywords: ''
+task: MPEG2_EncryptInput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

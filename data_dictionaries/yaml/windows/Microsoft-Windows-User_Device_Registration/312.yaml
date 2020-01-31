@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '312'
+version: '0'
+event(fields): task_0312(UnicodeString UserSid, UnicodeString IdpDomain, UnicodeString
+  TenantDomain)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: IdpDomain
+- field_type: UnicodeString
+  field_name: TenantDomain

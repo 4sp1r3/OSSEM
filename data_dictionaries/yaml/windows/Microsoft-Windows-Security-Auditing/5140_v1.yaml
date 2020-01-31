@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5140'
+version: '1'
+event(fields): task_05140_V1(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString ObjectType, UnicodeString
+  IpAddress, UnicodeString IpPort, UnicodeString ShareName, UnicodeString ShareLocalPath,
+  HexInt32 AccessMask, UnicodeString AccessList)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: ObjectType
+- field_type: UnicodeString
+  field_name: IpAddress
+- field_type: UnicodeString
+  field_name: IpPort
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UnicodeString
+  field_name: ShareLocalPath
+- field_type: HexInt32
+  field_name: AccessMask
+- field_type: UnicodeString
+  field_name: AccessList

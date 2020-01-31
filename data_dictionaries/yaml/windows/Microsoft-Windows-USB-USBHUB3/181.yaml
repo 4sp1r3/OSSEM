@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '181'
+version: '0'
+event(fields): USBDeviceEnumerationError181(Pointer fid_UsbDevice, UInt32 fid_PortNumber,
+  UInt32 fid_UsbdStatus, UInt32 fid_NtStatus)
+opcode: Error
+keywords: Default Enumeration HWVerifyDevice
+task: USBDeviceEnumeration
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt32
+  field_name: fid_PortNumber
+- field_type: UInt32
+  field_name: fid_UsbdStatus
+- field_type: UInt32
+  field_name: fid_NtStatus

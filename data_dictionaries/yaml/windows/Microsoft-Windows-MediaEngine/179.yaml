@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '179'
+version: '0'
+event(fields): MediaEngineGetEngineStatisticsStop(UInt32 id, HexInt32 hr)
+opcode: Stop
+keywords: ''
+task: MediaEngineGetEngineStatistics
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id
+- field_type: HexInt32
+  field_name: hr

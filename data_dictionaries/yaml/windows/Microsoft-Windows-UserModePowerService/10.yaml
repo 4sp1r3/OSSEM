@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '10'
+version: '0'
+event(fields): RundownBrightnessCapability(Boolean BrightnessCapable)
+opcode: ''
+keywords: ''
+task: RundownBrightnessCapability
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: BrightnessCapable

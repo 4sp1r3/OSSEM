@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1031'
+version: '0'
+event(fields): SensorsCxCancelHistoryRetrievalTask(Pointer WdfDevice, Pointer SENSOROBJECT,
+  Pointer pBytesWritten, UInt32 NtStatus)
+opcode: ''
+keywords: ''
+task: SensorsCxCancelHistoryRetrievalTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: Pointer
+  field_name: SENSOROBJECT
+- field_type: Pointer
+  field_name: pBytesWritten
+- field_type: UInt32
+  field_name: NtStatus

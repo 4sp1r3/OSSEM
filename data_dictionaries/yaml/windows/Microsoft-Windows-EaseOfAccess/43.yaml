@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-EaseOfAccess
+event_id: '43'
+version: '0'
+event(fields): Magnify_MouseMoveStart(Int32 InitialX, Int32 InitialY, Int32 DestinationX,
+  Int32 DestinationY, Boolean IsTracking)
+opcode: Start
+keywords: PerfInstrumentation
+task: Magnify_MouseMove
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: InitialX
+- field_type: Int32
+  field_name: InitialY
+- field_type: Int32
+  field_name: DestinationX
+- field_type: Int32
+  field_name: DestinationY
+- field_type: Boolean
+  field_name: IsTracking

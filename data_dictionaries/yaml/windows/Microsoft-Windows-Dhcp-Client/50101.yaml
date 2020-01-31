@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50101'
+version: '0'
+event(fields): NetworkParameterStateEventNotifyCSEntry()
+opcode: NotifyCSEntry
+keywords: ''
+task: NetworkParameterStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

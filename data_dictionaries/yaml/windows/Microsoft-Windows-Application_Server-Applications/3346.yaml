@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3346'
+version: '0'
+event(fields): Connect3346(UnicodeString FaultString, UnicodeString AppDomain)
+opcode: ''
+keywords: Channel
+task: Connect
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FaultString
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '184'
+version: '0'
+event(fields): Moneis_ShutdownStop()
+opcode: Stop
+keywords: Service
+task: Moneis_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

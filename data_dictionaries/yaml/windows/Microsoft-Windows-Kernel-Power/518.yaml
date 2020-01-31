@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '518'
+version: '0'
+event(fields): IoShutdownFileSystemsStart()
+opcode: Start
+keywords: po:Performance po:PerformanceLight
+task: IoShutdownFileSystems
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '20'
+version: '0'
+event(fields): UpdateContextStatus(Pointer hContext, UInt32 Status, UInt32 Line)
+opcode: ''
+keywords: GPUScheduler
+task: UpdateContextStatus
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Line

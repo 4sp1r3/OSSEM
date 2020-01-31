@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '283'
+version: '0'
+event(fields): DCompSplitPrimitiveGroup(UInt64 SplitAfter, UInt64 NewPrimitiveGroup)
+opcode: ''
+keywords: DComp
+task: DCompSplitPrimitiveGroup
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SplitAfter
+- field_type: UInt64
+  field_name: NewPrimitiveGroup

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '30'
+version: '0'
+event(fields): ActivateAssemblyStop(UInt32 LANGID)
+opcode: Stop
+keywords: Perf
+task: ActivateAssembly
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LANGID

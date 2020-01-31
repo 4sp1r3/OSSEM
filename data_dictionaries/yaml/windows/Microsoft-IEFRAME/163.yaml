@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '163'
+version: '0'
+event(fields): Search_SuggestionsProcessingStart()
+opcode: Start
+keywords: primarynav
+task: Search_SuggestionsProcessing
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

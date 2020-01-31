@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '6108'
+version: '0'
+event(fields): DeviceRemovedStop(UInt32 ServerOrRenderer, UnicodeString UDN, UInt32
+  ErrorCode, UInt32 FailureReason)
+opcode: Stop
+keywords: ''
+task: DeviceRemoved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ServerOrRenderer
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: FailureReason

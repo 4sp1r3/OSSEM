@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '95'
+version: '0'
+event(fields): MILEVENT_MEDIA_UCE_PROCESSDEFERREDTOKENSStop()
+opcode: Stop
+keywords: DwmCore
+task: MILEVENT_MEDIA_UCE_PROCESSDEFERREDTOKENS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

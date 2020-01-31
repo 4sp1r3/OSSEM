@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ThemeCPL
+event_id: '19'
+version: '0'
+event(fields): ColorCPL_SetDWMColorStop()
+opcode: Stop
+keywords: ''
+task: ColorCPL_SetDWMColor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

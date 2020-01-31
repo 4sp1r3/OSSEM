@@ -1,0 +1,36 @@
+provider: TPM
+event_id: '27'
+version: '0'
+event(fields): task_027(HexInt32 locationCode, HexInt32 TPM_PT_MANUFACTURER, HexInt32
+  TPM_PT_VENDOR_STRING_1, HexInt32 TPM_PT_VEDNOR_STRING_2, HexInt32 TPM_PT_VEDNOR_STRING_3,
+  HexInt32 TPM_PT_VEDNOR_STRING_4, HexInt32 TPM_PT_VEDNOR_TPM_TYPE, HexInt32 TPM_PT_FIRMWARE_VERSION_1,
+  HexInt32 TPM_PT_FIRMWARE_VERSION_2, UInt16 DataSize, UInt8 GetTestResult_Data)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: locationCode
+- field_type: HexInt32
+  field_name: TPM_PT_MANUFACTURER
+- field_type: HexInt32
+  field_name: TPM_PT_VENDOR_STRING_1
+- field_type: HexInt32
+  field_name: TPM_PT_VEDNOR_STRING_2
+- field_type: HexInt32
+  field_name: TPM_PT_VEDNOR_STRING_3
+- field_type: HexInt32
+  field_name: TPM_PT_VEDNOR_STRING_4
+- field_type: HexInt32
+  field_name: TPM_PT_VEDNOR_TPM_TYPE
+- field_type: HexInt32
+  field_name: TPM_PT_FIRMWARE_VERSION_1
+- field_type: HexInt32
+  field_name: TPM_PT_FIRMWARE_VERSION_2
+- field_type: UInt16
+  field_name: DataSize
+- field_type: UInt8
+  field_name: GetTestResult_Data

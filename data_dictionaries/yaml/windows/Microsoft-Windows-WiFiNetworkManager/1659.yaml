@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1659'
+version: '0'
+event(fields): task_01659(UInt32 Context1, Float PCD, UInt32 Context2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Context1
+- field_type: Float
+  field_name: PCD
+- field_type: UInt32
+  field_name: Context2

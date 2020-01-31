@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '2017'
+version: '0'
+event(fields): Svc_Register_Device_Start_DetectionStart(UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Svc_Register_Device_Start_Detection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

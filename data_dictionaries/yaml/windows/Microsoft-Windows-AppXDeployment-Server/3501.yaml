@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '3501'
+version: '0'
+event(fields): AppXDeployment.Task.Server.ExtensionsStop()
+opcode: Stop
+keywords: OSIM_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.Extensions
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

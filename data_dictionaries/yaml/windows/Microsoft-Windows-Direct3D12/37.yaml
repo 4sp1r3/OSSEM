@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '37'
+version: '0'
+event(fields): MarkerStop(Pointer pID3D12CommandQueue)
+opcode: Stop
+keywords: Markers
+task: Marker
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12CommandQueue

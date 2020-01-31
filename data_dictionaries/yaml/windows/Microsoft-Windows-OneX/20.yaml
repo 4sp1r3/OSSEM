@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-OneX
+event_id: '20'
+version: '0'
+event(fields): MSM(UInt32 PortId, UInt32 UIRequestCode)
+opcode: ''
+keywords: OneXUI LwtDiagnostic ut:Authentication
+task: MSM
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId
+- field_type: UInt32
+  field_name: UIRequestCode

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-Netvsc
+event_id: '6'
+version: '0'
+event(fields): RndisStatusChange(UInt32 MiniportNameLen, UnicodeString MiniportName)
+opcode: ''
+keywords: ''
+task: RndisStatusChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MiniportNameLen
+- field_type: UnicodeString
+  field_name: MiniportName

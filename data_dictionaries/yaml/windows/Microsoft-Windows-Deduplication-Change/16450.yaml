@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Deduplication-Change
+event_id: '16450'
+version: '0'
+event(fields): task_016450(UInt8 ChunkStoreType, UInt32 ContainerId, UInt32 Generation,
+  UInt64 WriteOffset, Boolean IsBatched, Boolean IsCorrupted, UInt32 DataSize, UInt32
+  Header)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ChunkStoreType
+- field_type: UInt32
+  field_name: ContainerId
+- field_type: UInt32
+  field_name: Generation
+- field_type: UInt64
+  field_name: WriteOffset
+- field_type: Boolean
+  field_name: IsBatched
+- field_type: Boolean
+  field_name: IsCorrupted
+- field_type: UInt32
+  field_name: DataSize
+- field_type: UInt32
+  field_name: Header

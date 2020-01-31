@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '3065'
+version: '0'
+event(fields): HelloProvisioningStart3065(UInt32 HelloScenarioType)
+opcode: Start
+keywords: Internal
+task: HelloProvisioning
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HelloScenarioType

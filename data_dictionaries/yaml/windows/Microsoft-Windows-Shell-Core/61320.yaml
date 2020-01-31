@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61320'
+version: '0'
+event(fields): Shell32_LibraryManagementDialog_CreateIconStart()
+opcode: Start
+keywords: Shell
+task: Shell32_LibraryManagementDialog_CreateIcon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

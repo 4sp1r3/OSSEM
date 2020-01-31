@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PersistentMemory-Nvdimm
+event_id: '202'
+version: '1'
+event(fields): task_0202_V1(GUID DeviceGuid, HexInt32 NfitHandle)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: HexInt32
+  field_name: NfitHandle

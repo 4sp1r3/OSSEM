@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-WinRM
+event_id: '163'
+version: '0'
+event(fields): Userauthentication163(UnicodeString authClient, UnicodeString authServer1,
+  UnicodeString authServer2, UnicodeString authServer3, UnicodeString authServer4,
+  UnicodeString authServer5)
+opcode: ''
+keywords: Keyword.Client Keyword.Security
+task: Userauthentication
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: authClient
+- field_type: UnicodeString
+  field_name: authServer1
+- field_type: UnicodeString
+  field_name: authServer2
+- field_type: UnicodeString
+  field_name: authServer3
+- field_type: UnicodeString
+  field_name: authServer4
+- field_type: UnicodeString
+  field_name: authServer5

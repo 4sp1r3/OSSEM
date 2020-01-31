@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4203'
+version: '0'
+event(fields): LockWorkflowInstance(UnicodeString AppDomain)
+opcode: ''
+keywords: WFInstanceStore
+task: LockWorkflowInstance
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

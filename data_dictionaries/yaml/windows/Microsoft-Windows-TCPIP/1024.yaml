@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1024'
+version: '0'
+event(fields): TcpConnectTcbCheckRateLimit(UInt32 LocalAddressLength, Binary LocalAddress,
+  UInt32 RemoteAddressLength, Binary RemoteAddress, UInt32 Status, UInt32 ProcessId,
+  UInt32 Compartment, Pointer Tcb)
+opcode: ''
+keywords: ut:TcpipTcb ut:TcpipDiagnosis ut:Endpoint ut:ConnectPath
+task: TcpConnectTcbCheckRateLimit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: Compartment
+- field_type: Pointer
+  field_name: Tcb

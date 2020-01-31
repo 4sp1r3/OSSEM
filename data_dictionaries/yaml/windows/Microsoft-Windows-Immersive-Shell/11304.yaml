@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11304'
+version: '0'
+event(fields): LockScreenCallBroker_EndCallStop(GUID ConnectionGUID, UInt32 DeadlineHigh,
+  UInt32 DeadlineLow)
+opcode: Stop
+keywords: LockScreenCallBroker
+task: LockScreenCallBroker_EndCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: UInt32
+  field_name: DeadlineHigh
+- field_type: UInt32
+  field_name: DeadlineLow

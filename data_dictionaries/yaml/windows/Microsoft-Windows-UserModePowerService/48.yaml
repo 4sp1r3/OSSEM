@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '48'
+version: '0'
+event(fields): GpuAdapterCount(UInt8 Id, UInt8 GpuCount)
+opcode: ''
+keywords: KwSleepStudy
+task: GpuAdapterCount
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Id
+- field_type: UInt8
+  field_name: GpuCount

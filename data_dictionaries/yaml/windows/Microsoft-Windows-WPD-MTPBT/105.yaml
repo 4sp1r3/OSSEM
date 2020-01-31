@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPD-MTPBT
+event_id: '105'
+version: '0'
+event(fields): task_0105(UInt32 MTPBTEventLength, Binary MTPBTEventData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MTPBTEventLength
+- field_type: Binary
+  field_name: MTPBTEventData

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '52'
+version: '0'
+event(fields): RetrieveObjectfromNetworkStart(UnicodeString EventWriteData)
+opcode: Start
+keywords: PathDiscovery Revocation Retrieval AutoRootUpdate
+task: RetrieveObjectfromNetwork
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventWriteData

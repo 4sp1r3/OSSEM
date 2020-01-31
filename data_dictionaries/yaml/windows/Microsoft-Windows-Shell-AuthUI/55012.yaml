@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '55012'
+version: '0'
+event(fields): CredentialProviderUser_Init_CredentialProviderUserArrayStop()
+opcode: Stop
+keywords: ''
+task: CredentialProviderUser_Init_CredentialProviderUserArray
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

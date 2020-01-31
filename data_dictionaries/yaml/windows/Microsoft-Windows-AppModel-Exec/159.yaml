@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '159'
+version: '0'
+event(fields): task_0159(UnicodeString PackageFullName, Boolean plmKnowsPackage, HexInt32
+  ErrorCode)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: Boolean
+  field_name: plmKnowsPackage
+- field_type: HexInt32
+  field_name: ErrorCode

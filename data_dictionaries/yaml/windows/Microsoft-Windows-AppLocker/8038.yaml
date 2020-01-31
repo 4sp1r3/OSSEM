@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-AppLocker
+event_id: '8038'
+version: '0'
+event(fields): task_08038(UInt32 TotalSignatureCount, UInt32 Signature, UInt16 PublisherNameLength,
+  UnicodeString PublisherName, UInt16 IssuerNameLength, UnicodeString IssuerName,
+  UInt32 PublisherTBSHashSize, Binary PublisherTBSHash, UInt32 IssuerTBSHashSize,
+  Binary IssuerTBSHash)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TotalSignatureCount
+- field_type: UInt32
+  field_name: Signature
+- field_type: UInt16
+  field_name: PublisherNameLength
+- field_type: UnicodeString
+  field_name: PublisherName
+- field_type: UInt16
+  field_name: IssuerNameLength
+- field_type: UnicodeString
+  field_name: IssuerName
+- field_type: UInt32
+  field_name: PublisherTBSHashSize
+- field_type: Binary
+  field_name: PublisherTBSHash
+- field_type: UInt32
+  field_name: IssuerTBSHashSize
+- field_type: Binary
+  field_name: IssuerTBSHash

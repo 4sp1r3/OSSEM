@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Security-Audit-Configuration-Client
+event_id: '205'
+version: '0'
+event(fields): task_0205(UnicodeString GPOName, UnicodeString GPOID, UnicodeString
+  SysvolPath)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: GPOName
+- field_type: UnicodeString
+  field_name: GPOID
+- field_type: UnicodeString
+  field_name: SysvolPath

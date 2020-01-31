@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Remotefs-Rdbss
+event_id: '30005'
+version: '0'
+event(fields): task_030005(Pointer RxContext)
+opcode: ''
+keywords: Rdbss_Perf
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RxContext

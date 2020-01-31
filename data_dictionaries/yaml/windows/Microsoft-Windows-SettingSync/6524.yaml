@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6524'
+version: '0'
+event(fields): Debug_WLRoamMaintenanceStart()
+opcode: Start
+keywords: ''
+task: Debug_WLRoamMaintenance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

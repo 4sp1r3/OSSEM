@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIRibbon
+event_id: '18'
+version: '0'
+event(fields): ScenicRaiseRoutedEventStop()
+opcode: Stop
+keywords: Default
+task: ScenicRaiseRoutedEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

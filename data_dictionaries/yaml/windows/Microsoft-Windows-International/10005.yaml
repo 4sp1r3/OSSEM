@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-International
+event_id: '10005'
+version: '0'
+event(fields): NLSUnattendedRegionalandLanguageOptionsNLSoperations10005(UnicodeString
+  AltSort, UnicodeString Locale)
+opcode: NLSoperations
+keywords: ''
+task: NLSUnattendedRegionalandLanguageOptions
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AltSort
+- field_type: UnicodeString
+  field_name: Locale

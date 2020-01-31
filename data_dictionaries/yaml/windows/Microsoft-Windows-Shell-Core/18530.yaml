@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18530'
+version: '0'
+event(fields): Shell32_CGrepQuery_CrawlStop()
+opcode: Stop
+keywords: Grep
+task: Shell32_CGrepQuery_Crawl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

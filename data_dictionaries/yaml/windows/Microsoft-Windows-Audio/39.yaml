@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Audio
+event_id: '39'
+version: '0'
+event(fields): Audio_Glitch_DetectionKSEndpointGlitch:BASEInputNullLastBufferwithLockedData!=LoopedBuffer(Pointer
+  pCAudioBasePin, Pointer LockedDataPointer)
+opcode: BASEInputNullLastBufferwithLockedData!=LoopedBuffer
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCAudioBasePin
+- field_type: Pointer
+  field_name: LockedDataPointer

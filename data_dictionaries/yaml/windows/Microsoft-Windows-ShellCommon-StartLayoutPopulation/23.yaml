@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '23'
+version: '0'
+event(fields): PlaceholderTile_ClickInstallStart(UnicodeString tileIdentifier)
+opcode: Start
+keywords: ''
+task: PlaceholderTile_ClickInstall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: tileIdentifier

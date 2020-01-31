@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '34'
+version: '0'
+event(fields): TelemetryCheck34(UnicodeString FrameURL, UnicodeString ScriptSource)
+opcode: ''
+keywords: functionality
+task: TelemetryCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FrameURL
+- field_type: UnicodeString
+  field_name: ScriptSource

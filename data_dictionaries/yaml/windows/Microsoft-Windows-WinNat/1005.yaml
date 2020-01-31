@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1005'
+version: '0'
+event(fields): WinNatSessionDelete(UInt32 InternalAddrLen, Binary InternalSrcAddr,
+  Binary InternalDstAddr, UInt32 ExternalAddrLen, Binary ExternalSrcAddr, Binary ExternalDstAddr,
+  UInt32 TransportProtocol, UInt32 Lifetime, UInt32 TcpSessionState)
+opcode: ''
+keywords: ut:Session
+task: WinNatSessionDelete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InternalAddrLen
+- field_type: Binary
+  field_name: InternalSrcAddr
+- field_type: Binary
+  field_name: InternalDstAddr
+- field_type: UInt32
+  field_name: ExternalAddrLen
+- field_type: Binary
+  field_name: ExternalSrcAddr
+- field_type: Binary
+  field_name: ExternalDstAddr
+- field_type: UInt32
+  field_name: TransportProtocol
+- field_type: UInt32
+  field_name: Lifetime
+- field_type: UInt32
+  field_name: TcpSessionState

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8067'
+version: '0'
+event(fields): CertificateEnrollmentInformational8067(UnicodeString KeyName, UInt32
+  CertificateType)
+opcode: Informational
+keywords: Internal
+task: CertificateEnrollment
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: UInt32
+  field_name: CertificateType

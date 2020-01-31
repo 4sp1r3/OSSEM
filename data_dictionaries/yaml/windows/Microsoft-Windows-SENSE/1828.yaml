@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-SENSE
+event_id: '1828'
+version: '0'
+event(fields): task_01828(Boolean isServiceRunning, UInt64 previousOffboardingBlobHash,
+  Boolean isDefaultOffboardingBlob, UInt32 onboardingState, Boolean isDefaultOnboardingState,
+  UInt64 newOffboardingBlobHash)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: isServiceRunning
+- field_type: UInt64
+  field_name: previousOffboardingBlobHash
+- field_type: Boolean
+  field_name: isDefaultOffboardingBlob
+- field_type: UInt32
+  field_name: onboardingState
+- field_type: Boolean
+  field_name: isDefaultOnboardingState
+- field_type: UInt64
+  field_name: newOffboardingBlobHash

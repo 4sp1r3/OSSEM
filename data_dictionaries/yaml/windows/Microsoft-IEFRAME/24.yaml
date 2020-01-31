@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '24'
+version: '0'
+event(fields): Browseui_Tabs_CloseOtherTabsStart()
+opcode: Start
+keywords: primarynav
+task: Browseui_Tabs_CloseOtherTabs
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

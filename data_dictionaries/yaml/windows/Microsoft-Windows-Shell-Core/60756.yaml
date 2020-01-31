@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60756'
+version: '0'
+event(fields): Shell32_ActiveSetup_RunOneInstallStubStop(UnicodeString pszKeyName,
+  Boolean activeSetupDisabled, Boolean allowTaskOverride, Boolean taskEnabled)
+opcode: Stop
+keywords: Shell ActiveSetup
+task: Shell32_ActiveSetup_RunOneInstallStub
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pszKeyName
+- field_type: Boolean
+  field_name: activeSetupDisabled
+- field_type: Boolean
+  field_name: allowTaskOverride
+- field_type: Boolean
+  field_name: taskEnabled

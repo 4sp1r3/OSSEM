@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '1128'
+version: '0'
+event(fields): task_0(UInt32 SupportInfo1, UInt32 SupportInfo2, UnicodeString ExtensionName,
+  UnicodeString ExtensionId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SupportInfo1
+- field_type: UInt32
+  field_name: SupportInfo2
+- field_type: UnicodeString
+  field_name: ExtensionName
+- field_type: UnicodeString
+  field_name: ExtensionId

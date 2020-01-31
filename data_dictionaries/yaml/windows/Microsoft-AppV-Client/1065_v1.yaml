@@ -1,0 +1,18 @@
+provider: Microsoft-AppV-Client
+event_id: '1065'
+version: '1'
+event(fields): PublishVirtualApplicationConnectionGroup1065_V1(GUID ConnectionGroup,
+  GUID Version, UInt64 ActivityID)
+opcode: ''
+keywords: Publishing
+task: PublishVirtualApplicationConnectionGroup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConnectionGroup
+- field_type: GUID
+  field_name: Version
+- field_type: UInt64
+  field_name: ActivityID

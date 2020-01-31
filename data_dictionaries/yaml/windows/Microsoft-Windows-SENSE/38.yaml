@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SENSE
+event_id: '38'
+version: '0'
+event(fields): task_038(UInt16 pollingInterval, Boolean meteredConnectionState, Boolean
+  internetAvailabilityState, Boolean freeNetworkAvailabilityState, Boolean proxyDefined)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: pollingInterval
+- field_type: Boolean
+  field_name: meteredConnectionState
+- field_type: Boolean
+  field_name: internetAvailabilityState
+- field_type: Boolean
+  field_name: freeNetworkAvailabilityState
+- field_type: Boolean
+  field_name: proxyDefined

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider
+event_id: '228'
+version: '0'
+event(fields): task_0228(UnicodeString Message1, AnsiString Message2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message1
+- field_type: AnsiString
+  field_name: Message2

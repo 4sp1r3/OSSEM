@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TunnelDriver
+event_id: '1003'
+version: '0'
+event(fields): task_01003(UInt32 InterfaceIndex, UInt32 Forwarding, UInt32 WeakHostReceive)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UInt32
+  field_name: Forwarding
+- field_type: UInt32
+  field_name: WeakHostReceive

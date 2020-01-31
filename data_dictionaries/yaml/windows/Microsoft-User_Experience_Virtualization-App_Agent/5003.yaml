@@ -1,0 +1,18 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '5003'
+version: '0'
+event(fields): Packager_30AppAgent5003(UnicodeString RecipeID, Int32 ErrorCode, UnicodeString
+  AdditionalInformation)
+opcode: AppAgent
+keywords: ''
+task: Packager_30
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RecipeID
+- field_type: Int32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: AdditionalInformation

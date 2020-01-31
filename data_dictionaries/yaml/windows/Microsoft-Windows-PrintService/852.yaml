@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PrintService
+event_id: '852'
+version: '0'
+event(fields): InstallingaprinterdriverSpoolerOperationFailed852(UnicodeString OriginalDriver,
+  UnicodeString NewDriver, UnicodeString PrinterName)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_DRIVER
+task: Installingaprinterdriver
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: OriginalDriver
+- field_type: UnicodeString
+  field_name: NewDriver
+- field_type: UnicodeString
+  field_name: PrinterName

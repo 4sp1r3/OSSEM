@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1010'
+version: '0'
+event(fields): SensorsCxInitializationTask1010(Pointer WdfDevice, Pointer SENSOROBJECT,
+  GUID FmtId, UInt32 Pid)
+opcode: ''
+keywords: ''
+task: SensorsCxInitializationTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: Pointer
+  field_name: SENSOROBJECT
+- field_type: GUID
+  field_name: FmtId
+- field_type: UInt32
+  field_name: Pid

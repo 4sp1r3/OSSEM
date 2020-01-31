@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-BranchCacheMonitoring
+event_id: '103'
+version: '0'
+event(fields): task_0103(UInt32 ContentIdSize, Binary ContentId, UnicodeString StringContentId,
+  UInt32 SegmentIdSize, Binary SegmentId, UInt64 SegmentOffsetInContent, UInt64 SegmentSize,
+  UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ContentIdSize
+- field_type: Binary
+  field_name: ContentId
+- field_type: UnicodeString
+  field_name: StringContentId
+- field_type: UInt32
+  field_name: SegmentIdSize
+- field_type: Binary
+  field_name: SegmentId
+- field_type: UInt64
+  field_name: SegmentOffsetInContent
+- field_type: UInt64
+  field_name: SegmentSize
+- field_type: UInt32
+  field_name: ErrorCode

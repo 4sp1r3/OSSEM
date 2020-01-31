@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-EapHost
+event_id: '2008'
+version: '0'
+event(fields): Peer2008(UnicodeString ConnectionName, Int32 SessionID)
+opcode: ''
+keywords: ''
+task: Peer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ConnectionName
+- field_type: Int32
+  field_name: SessionID

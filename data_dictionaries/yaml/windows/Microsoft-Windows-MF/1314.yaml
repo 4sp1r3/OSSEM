@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1314'
+version: '0'
+event(fields): SrcPrefetchTimeoutStart(Pointer Object)
+opcode: Start
+keywords: ''
+task: SrcPrefetchTimeout
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

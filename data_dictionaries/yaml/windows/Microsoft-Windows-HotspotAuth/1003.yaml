@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HotspotAuth
+event_id: '1003'
+version: '0'
+event(fields): HotspotAuthenticationStop1003(GUID InterfaceGuid, Int32 Result, UInt32
+  ResponseCode)
+opcode: Stop
+keywords: ut:Authentication
+task: HotspotAuthentication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: Int32
+  field_name: Result
+- field_type: UInt32
+  field_name: ResponseCode

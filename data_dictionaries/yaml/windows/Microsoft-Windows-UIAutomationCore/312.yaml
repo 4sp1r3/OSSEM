@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '312'
+version: '0'
+event(fields): CAutomationElement_GetCachedChildrenStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CAutomationElement_GetCachedChildren
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

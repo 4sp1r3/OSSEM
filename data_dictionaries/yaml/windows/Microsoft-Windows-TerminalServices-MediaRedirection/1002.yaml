@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TerminalServices-MediaRedirection
+event_id: '1002'
+version: '0'
+event(fields): FormatCheck(GUID Guid1, UnicodeString String1, GUID Guid2, UnicodeString
+  String2, UInt32 UInt32_1, UInt32 SessionID)
+opcode: ''
+keywords: ''
+task: FormatCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Guid1
+- field_type: UnicodeString
+  field_name: String1
+- field_type: GUID
+  field_name: Guid2
+- field_type: UnicodeString
+  field_name: String2
+- field_type: UInt32
+  field_name: UInt32_1
+- field_type: UInt32
+  field_name: SessionID

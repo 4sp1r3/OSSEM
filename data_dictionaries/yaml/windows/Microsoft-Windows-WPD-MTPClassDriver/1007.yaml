@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1007'
+version: '0'
+event(fields): DriverOperation1007(UInt32 Code, UInt32 hr)
+opcode: ''
+keywords: ''
+task: DriverOperation
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Code
+- field_type: UInt32
+  field_name: hr

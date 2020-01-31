@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '398'
+version: '0'
+event(fields): RealizeDeferredElementStop(UInt64 DeferredElementId, UInt64 RealizedElementId)
+opcode: Stop
+keywords: Templates
+task: RealizeDeferredElement
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DeferredElementId
+- field_type: UInt64
+  field_name: RealizedElementId

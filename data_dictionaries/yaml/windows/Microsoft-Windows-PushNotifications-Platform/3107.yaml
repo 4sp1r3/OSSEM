@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3107'
+version: '0'
+event(fields): task_03107(UnicodeString ChannelId, UnicodeString NotificationType,
+  UInt32 TrackingId, UnicodeString AppUserModelId, Int32 ErrorCode)
+opcode: ''
+keywords: wpnend wpntroubleshoot
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ChannelId
+- field_type: UnicodeString
+  field_name: NotificationType
+- field_type: UInt32
+  field_name: TrackingId
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: Int32
+  field_name: ErrorCode

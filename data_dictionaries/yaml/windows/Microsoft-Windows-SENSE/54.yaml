@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SENSE
+event_id: '54'
+version: '0'
+event(fields): task_054(HexInt32 Value1, HexInt32 Value2, UnicodeString Value3)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Value1
+- field_type: HexInt32
+  field_name: Value2
+- field_type: UnicodeString
+  field_name: Value3

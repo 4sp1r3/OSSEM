@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2203'
+version: '0'
+event(fields): SharingManager_GetSharableItemCountStop(UInt32 AppItemCount, UInt32
+  TotalItemCount, UInt32 Result)
+opcode: Stop
+keywords: ''
+task: SharingManager_GetSharableItemCount
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AppItemCount
+- field_type: UInt32
+  field_name: TotalItemCount
+- field_type: UInt32
+  field_name: Result

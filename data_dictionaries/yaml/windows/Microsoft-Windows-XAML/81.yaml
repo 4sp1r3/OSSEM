@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '81'
+version: '0'
+event(fields): HitTestStop()
+opcode: Stop
+keywords: Input
+task: HitTest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

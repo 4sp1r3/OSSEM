@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '1504'
+version: '0'
+event(fields): PerfTrack_moTrigger_metadata(UInt32 Duration, UInt32 ScenarioId, UInt32
+  ControlFlags, UnicodeString ScenarioName, UnicodeString PackageFullName, UnicodeString
+  PRAID, UInt32 Dword1, UInt32 Dword2, UInt32 Dword3, UInt32 Dword4, UInt32 Dword5,
+  UnicodeString String1, UnicodeString String2)
+opcode: ''
+keywords: ''
+task: PerfTrack_moTrigger_metadata
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Duration
+- field_type: UInt32
+  field_name: ScenarioId
+- field_type: UInt32
+  field_name: ControlFlags
+- field_type: UnicodeString
+  field_name: ScenarioName
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: PRAID
+- field_type: UInt32
+  field_name: Dword1
+- field_type: UInt32
+  field_name: Dword2
+- field_type: UInt32
+  field_name: Dword3
+- field_type: UInt32
+  field_name: Dword4
+- field_type: UInt32
+  field_name: Dword5
+- field_type: UnicodeString
+  field_name: String1
+- field_type: UnicodeString
+  field_name: String2

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '11007'
+version: '0'
+event(fields): FilterControl_UserCheckedFilter()
+opcode: ''
+keywords: Shell
+task: FilterControl_UserCheckedFilter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

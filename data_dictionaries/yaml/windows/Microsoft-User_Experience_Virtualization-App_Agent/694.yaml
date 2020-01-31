@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '694'
+version: '0'
+event(fields): AgentService694(UnicodeString stringValue1)
+opcode: AgentService
+keywords: ''
+task: AgentService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1

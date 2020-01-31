@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client
+event_id: '9007'
+version: '1'
+event(fields): PSObjectInvokeMethod_V1()
+opcode: ''
+keywords: ClientManagement
+task: PSObjectInvokeMethod
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

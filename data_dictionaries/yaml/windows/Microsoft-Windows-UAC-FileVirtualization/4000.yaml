@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-UAC-FileVirtualization
+event_id: '4000'
+version: '0'
+event(fields): task_04000(UInt32 Flags, UInt32 SidLength, SID Sid, UInt16 FileNameLength,
+  UnicodeString FileNameBuffer, UInt16 ProcessImageNameLength, UnicodeString ProcessImageNameBuffer,
+  UInt32 CreateOptions, UInt32 DesiredAccess, UInt8 IrpMajorFunction)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: SidLength
+- field_type: SID
+  field_name: Sid
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer
+- field_type: UInt16
+  field_name: ProcessImageNameLength
+- field_type: UnicodeString
+  field_name: ProcessImageNameBuffer
+- field_type: UInt32
+  field_name: CreateOptions
+- field_type: UInt32
+  field_name: DesiredAccess
+- field_type: UInt8
+  field_name: IrpMajorFunction

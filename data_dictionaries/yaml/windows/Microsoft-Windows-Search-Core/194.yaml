@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '194'
+version: '0'
+event(fields): CEnumSearchScopeRules_Reset()
+opcode: ''
+keywords: CSM
+task: CEnumSearchScopeRules_Reset
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '6'
+version: '0'
+event(fields): task_0DeleteValueKey(Pointer KeyObject, UInt32 Status, UnicodeString
+  KeyName, UnicodeString ValueName)
+opcode: DeleteValueKey
+keywords: DeleteValueKey
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: KeyObject
+- field_type: UInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: UnicodeString
+  field_name: ValueName

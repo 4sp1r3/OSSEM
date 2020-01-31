@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '6'
+version: '0'
+event(fields): AsyncOperationAsyncoperationclose(UInt32 asyncOperation, Pointer asyncObject)
+opcode: Asyncoperationclose
+keywords: keywords.AsyncOperation
+task: AsyncOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: asyncOperation
+- field_type: Pointer
+  field_name: asyncObject

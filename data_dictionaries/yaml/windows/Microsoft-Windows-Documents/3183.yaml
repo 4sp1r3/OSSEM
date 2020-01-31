@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '3183'
+version: '0'
+event(fields): DocPerf_Task_HomeGroup_ClientAddPrinterStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_HomeGroup_ClientAddPrinter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

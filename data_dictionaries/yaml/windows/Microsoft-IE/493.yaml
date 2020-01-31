@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '493'
+version: '0'
+event(fields): Mshtml_Animations_AnimatingStop493(Pointer AnimationClientObject, Pointer
+  TreeNode)
+opcode: Stop
+keywords: animation
+task: Mshtml_Animations_Animating
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AnimationClientObject
+- field_type: Pointer
+  field_name: TreeNode

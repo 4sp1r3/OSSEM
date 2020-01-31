@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '224'
+version: '0'
+event(fields): DeviceEjectStop(UInt16 DriverNameLength, UnicodeString DriverName,
+  UInt32 Status, UInt16 FailureNameLength, UnicodeString FailureName, UInt32 Version)
+opcode: Stop
+keywords: DeviceEject
+task: DeviceEject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: DriverNameLength
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt16
+  field_name: FailureNameLength
+- field_type: UnicodeString
+  field_name: FailureName
+- field_type: UInt32
+  field_name: Version

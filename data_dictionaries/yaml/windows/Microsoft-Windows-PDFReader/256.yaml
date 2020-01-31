@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '256'
+version: '0'
+event(fields): ExecuteJavascriptStart(UInt32 ScriptUniqueIdentifier, UnicodeString
+  ScriptMetadata)
+opcode: Start
+keywords: Reader
+task: ExecuteJavascript
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScriptUniqueIdentifier
+- field_type: UnicodeString
+  field_name: ScriptMetadata

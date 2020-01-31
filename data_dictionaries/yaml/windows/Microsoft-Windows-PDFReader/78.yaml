@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '78'
+version: '0'
+event(fields): Find.ActionStart()
+opcode: Start
+keywords: Reader
+task: Find.Action
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '104'
+version: '0'
+event(fields): SleepDisableReasonRundown(UInt8 AffectedState, UInt32 PowerReasonCode,
+  UInt32 PowerReasonLength, Binary PowerReasonInfo)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SleepDisableReasonRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: AffectedState
+- field_type: UInt32
+  field_name: PowerReasonCode
+- field_type: UInt32
+  field_name: PowerReasonLength
+- field_type: Binary
+  field_name: PowerReasonInfo

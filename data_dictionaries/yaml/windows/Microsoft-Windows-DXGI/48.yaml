@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DXGI
+event_id: '48'
+version: '0'
+event(fields): ResizeTargetStop(Pointer pIDXGISwapChain, UInt32 ReturnValue, Pointer
+  pNewPrimary, Pointer pNewProxyPrimary, UInt8 NewWinFlipProxyBufferCount)
+opcode: Stop
+keywords: Events
+task: ResizeTarget
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: UInt32
+  field_name: ReturnValue
+- field_type: Pointer
+  field_name: pNewPrimary
+- field_type: Pointer
+  field_name: pNewProxyPrimary
+- field_type: UInt8
+  field_name: NewWinFlipProxyBufferCount

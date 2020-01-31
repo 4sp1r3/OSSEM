@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-RTWorkQueue-Extended
+event_id: '10'
+version: '0'
+event(fields): WorkQueue:SetAVModeStart(Pointer handle, UInt32 Mode)
+opcode: Start
+keywords: ''
+task: WorkQueue:SetAVMode
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: handle
+- field_type: UInt32
+  field_name: Mode

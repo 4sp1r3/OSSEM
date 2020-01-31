@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '26030'
+version: '2'
+event(fields): Createfilemessagetask.Start_V2()
+opcode: Start
+keywords: ''
+task: Createfilemessagetask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

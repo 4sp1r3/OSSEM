@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '126'
+version: '0'
+event(fields): task_0Stop126(UnicodeString URI, HexInt32 NodeOptions, UInt32 Result)
+opcode: Stop
+keywords: Error Performance Trace
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URI
+- field_type: HexInt32
+  field_name: NodeOptions
+- field_type: UInt32
+  field_name: Result

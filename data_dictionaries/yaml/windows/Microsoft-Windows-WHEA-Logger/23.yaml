@@ -1,0 +1,66 @@
+provider: Microsoft-Windows-WHEA-Logger
+event_id: '23'
+version: '0'
+event(fields): task_023(UInt32 ErrorSource, GUID FRUId, AnsiString FRUText, HexInt64
+  ValidBits, HexInt64 ErrorStatus, HexInt64 PhysicalAddress, HexInt64 PhysicalAddressMask,
+  HexInt32 Node, HexInt32 Card, HexInt32 Module, HexInt32 Bank, HexInt32 Device, HexInt32
+  Row, HexInt32 Column, HexInt32 BitPosition, HexInt64 RequesterId, HexInt64 ResponderId,
+  HexInt64 TargetId, UInt8 ErrorType, UInt32 Extended, UInt32 RankNumber, UInt32 CardHandle,
+  UInt32 ModuleHandle, UInt32 Length, Binary RawData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorSource
+- field_type: GUID
+  field_name: FRUId
+- field_type: AnsiString
+  field_name: FRUText
+- field_type: HexInt64
+  field_name: ValidBits
+- field_type: HexInt64
+  field_name: ErrorStatus
+- field_type: HexInt64
+  field_name: PhysicalAddress
+- field_type: HexInt64
+  field_name: PhysicalAddressMask
+- field_type: HexInt32
+  field_name: Node
+- field_type: HexInt32
+  field_name: Card
+- field_type: HexInt32
+  field_name: Module
+- field_type: HexInt32
+  field_name: Bank
+- field_type: HexInt32
+  field_name: Device
+- field_type: HexInt32
+  field_name: Row
+- field_type: HexInt32
+  field_name: Column
+- field_type: HexInt32
+  field_name: BitPosition
+- field_type: HexInt64
+  field_name: RequesterId
+- field_type: HexInt64
+  field_name: ResponderId
+- field_type: HexInt64
+  field_name: TargetId
+- field_type: UInt8
+  field_name: ErrorType
+- field_type: UInt32
+  field_name: Extended
+- field_type: UInt32
+  field_name: RankNumber
+- field_type: UInt32
+  field_name: CardHandle
+- field_type: UInt32
+  field_name: ModuleHandle
+- field_type: UInt32
+  field_name: Length
+- field_type: Binary
+  field_name: RawData

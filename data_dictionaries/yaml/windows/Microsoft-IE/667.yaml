@@ -1,0 +1,25 @@
+provider: Microsoft-IE
+event_id: '667'
+version: '0'
+event(fields): Mshtml_CDMScrollableTouchTargetHandler_ContentState(Float ViewportOffsetWidth,
+  Float ViewportOffsetHeight, Float LayoutViewportOffsetWidth, Float LayoutViewportOffsetHeight,
+  Float ZoomLevel, Pointer CDMScrollableTouchTargetHandler)
+opcode: ''
+keywords: touch
+task: Mshtml_CDMScrollableTouchTargetHandler_ContentState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: ViewportOffsetWidth
+- field_type: Float
+  field_name: ViewportOffsetHeight
+- field_type: Float
+  field_name: LayoutViewportOffsetWidth
+- field_type: Float
+  field_name: LayoutViewportOffsetHeight
+- field_type: Float
+  field_name: ZoomLevel
+- field_type: Pointer
+  field_name: CDMScrollableTouchTargetHandler

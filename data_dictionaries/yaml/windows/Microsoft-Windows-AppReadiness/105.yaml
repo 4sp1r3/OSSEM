@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '105'
+version: '0'
+event(fields): AppReadiness_Service105(Boolean IsIdle, UnicodeString Reason)
+opcode: ''
+keywords: Service
+task: AppReadiness_Service
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsIdle
+- field_type: UnicodeString
+  field_name: Reason

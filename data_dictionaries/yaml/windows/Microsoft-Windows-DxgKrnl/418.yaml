@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '418'
+version: '0'
+event(fields): VidMmVprDefragmentCheck(Pointer pDxgAdapter, UInt16 PhysicalAdapterIndex,
+  UInt16 DriverSegmentIndex, UInt16 VprIndex, UInt64 Commit, UInt64 Size, UInt32 GrowRatio,
+  UInt32 CurrentRatio, UInt64 Capacity)
+opcode: ''
+keywords: References
+task: VidMmVprDefragmentCheck
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt16
+  field_name: PhysicalAdapterIndex
+- field_type: UInt16
+  field_name: DriverSegmentIndex
+- field_type: UInt16
+  field_name: VprIndex
+- field_type: UInt64
+  field_name: Commit
+- field_type: UInt64
+  field_name: Size
+- field_type: UInt32
+  field_name: GrowRatio
+- field_type: UInt32
+  field_name: CurrentRatio
+- field_type: UInt64
+  field_name: Capacity

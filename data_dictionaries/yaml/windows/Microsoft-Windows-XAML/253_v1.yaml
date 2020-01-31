@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-XAML
+event_id: '253'
+version: '1'
+event(fields): DCompSetClip_V1(UInt64 Visual, Float Left, Float Top, Float Right,
+  Float Bottom)
+opcode: ''
+keywords: DComp
+task: DCompSetClip
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Visual
+- field_type: Float
+  field_name: Left
+- field_type: Float
+  field_name: Top
+- field_type: Float
+  field_name: Right
+- field_type: Float
+  field_name: Bottom

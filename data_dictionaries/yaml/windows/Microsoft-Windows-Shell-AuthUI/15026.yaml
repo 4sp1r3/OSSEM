@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '15026'
+version: '0'
+event(fields): Common_GetCredentialCount(UnicodeString message1, UInt32 DWORD1, UInt32
+  DWORD2, Boolean Boolean1)
+opcode: ''
+keywords: ''
+task: Common_GetCredentialCount
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: message1
+- field_type: UInt32
+  field_name: DWORD1
+- field_type: UInt32
+  field_name: DWORD2
+- field_type: Boolean
+  field_name: Boolean1

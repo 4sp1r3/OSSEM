@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11201'
+version: '0'
+event(fields): Accounts_LoadAppWidgetsStart()
+opcode: Start
+keywords: ''
+task: Accounts_LoadAppWidgets
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

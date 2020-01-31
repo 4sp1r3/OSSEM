@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Program-Compatibility-Assistant
+event_id: '32'
+version: '0'
+event(fields): task_032(UnicodeString DriverName, UnicodeString ServiceName, UnicodeString
+  PublisherName, UnicodeString DriverPath, UnicodeString DriverVersion)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: UnicodeString
+  field_name: PublisherName
+- field_type: UnicodeString
+  field_name: DriverPath
+- field_type: UnicodeString
+  field_name: DriverVersion

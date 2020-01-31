@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinINet
+event_id: '308'
+version: '0'
+event(fields): WININET_NETWORK_CHANGE_DETECTED(Pointer Handle)
+opcode: ''
+keywords: WININET_KEYWORD_CONNECTION
+task: WININET_NETWORK_CHANGE_DETECTED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Handle

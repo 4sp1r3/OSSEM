@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '124'
+version: '0'
+event(fields): ImmersiveShellAppManagerZbandNotificationStop(Int32 ZbandFrom, Int32
+  ZbandTo)
+opcode: Stop
+keywords: ''
+task: ImmersiveShellAppManagerZbandNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ZbandFrom
+- field_type: Int32
+  field_name: ZbandTo

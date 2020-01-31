@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '742'
+version: '0'
+event(fields): Mshtml_MemoryProtector_SyncMarkStart(Pointer CMemoryProtector, UInt64
+  StackSize, UInt64 Blocks, UInt64 Bytes)
+opcode: Start
+keywords: mshtml
+task: Mshtml_MemoryProtector_SyncMark
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMemoryProtector
+- field_type: UInt64
+  field_name: StackSize
+- field_type: UInt64
+  field_name: Blocks
+- field_type: UInt64
+  field_name: Bytes

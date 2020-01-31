@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '84'
+version: '0'
+event(fields): AppDomainResourceManagementMemSurvived(UInt64 AppDomainID, UInt64 Survived,
+  UInt64 ProcessSurvived, UInt16 ClrInstanceID)
+opcode: MemSurvived
+keywords: AppDomainResourceManagementKeyword
+task: AppDomainResourceManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: AppDomainID
+- field_type: UInt64
+  field_name: Survived
+- field_type: UInt64
+  field_name: ProcessSurvived
+- field_type: UInt16
+  field_name: ClrInstanceID

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPD-CompositeClassDriver
+event_id: '303'
+version: '0'
+event(fields): TransportManagement303(UInt64 ExpectedSize, UInt64 ActualSize)
+opcode: ''
+keywords: ''
+task: TransportManagement
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ExpectedSize
+- field_type: UInt64
+  field_name: ActualSize

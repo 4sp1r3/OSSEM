@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Win32k
+event_id: '4'
+version: '0'
+event(fields): UIPIHookError(UInt16 UIPI_Trace_Header, Int32 HookID, Int8 Flags, Int32
+  nCode, UInt64 wParam, UInt64 lParam)
+opcode: ''
+keywords: UIPI
+task: UIPIHookError
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: UIPI_Trace_Header
+- field_type: Int32
+  field_name: HookID
+- field_type: Int8
+  field_name: Flags
+- field_type: Int32
+  field_name: nCode
+- field_type: UInt64
+  field_name: wParam
+- field_type: UInt64
+  field_name: lParam

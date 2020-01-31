@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '24620'
+version: '0'
+event(fields): ReadchunkmetadataStart(Pointer Stream, UInt64 CurrentOffset, UInt64
+  AdjFinalOffset, UInt64 FirstChunkByteOffset, UInt64 ChunkRequestsEndOffset, Pointer
+  TlCache)
+opcode: Start
+keywords: Filter
+task: Readchunkmetadata
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Stream
+- field_type: UInt64
+  field_name: CurrentOffset
+- field_type: UInt64
+  field_name: AdjFinalOffset
+- field_type: UInt64
+  field_name: FirstChunkByteOffset
+- field_type: UInt64
+  field_name: ChunkRequestsEndOffset
+- field_type: Pointer
+  field_name: TlCache

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '3241'
+version: '0'
+event(fields): LogTraceStart3241(GUID p1_GUID)
+opcode: Start
+keywords: ExecMan ExecDevPlatCircular
+task: LogTrace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: p1_GUID

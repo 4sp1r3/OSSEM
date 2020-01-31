@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4504'
+version: '0'
+event(fields): DELETEPROPSStart()
+opcode: Start
+keywords: Performance
+task: DELETEPROPS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

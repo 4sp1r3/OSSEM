@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '7500'
+version: '0'
+event(fields): task_07500(UnicodeString PackageName, UnicodeString ErrorText, HexInt32
+  ErrorCode)
+opcode: ''
+keywords: RESTRICTED_LAUNCH_DEH_KEYWORD
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UnicodeString
+  field_name: ErrorText
+- field_type: HexInt32
+  field_name: ErrorCode

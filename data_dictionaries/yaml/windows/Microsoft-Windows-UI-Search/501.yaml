@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UI-Search
+event_id: '501'
+version: '0'
+event(fields): ViewServiceInitStart(UInt32 ServiceIndex)
+opcode: Start
+keywords: ''
+task: ViewServiceInit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ServiceIndex

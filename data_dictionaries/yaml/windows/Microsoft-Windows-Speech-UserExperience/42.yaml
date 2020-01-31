@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '42'
+version: '0'
+event(fields): DisNumUI_ShowNumbersStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: DisNumUI_ShowNumbers
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

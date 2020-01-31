@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Proximity-Common
+event_id: '20'
+version: '0'
+event(fields): Proximity_SessionProtocolStart(UnicodeString String)
+opcode: Start
+keywords: ''
+task: Proximity_SessionProtocol
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String

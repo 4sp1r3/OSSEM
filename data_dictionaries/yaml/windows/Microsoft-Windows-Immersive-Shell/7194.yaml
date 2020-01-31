@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7194'
+version: '0'
+event(fields): ConnectedSearch_DirectQueryInst(UInt32 Result, UnicodeString PartialQuery,
+  UInt32 SelectedPosition, UInt32 MaxQueryLengthWithSuggestion, UnicodeString Payload)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_DirectQueryInst
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: PartialQuery
+- field_type: UInt32
+  field_name: SelectedPosition
+- field_type: UInt32
+  field_name: MaxQueryLengthWithSuggestion
+- field_type: UnicodeString
+  field_name: Payload

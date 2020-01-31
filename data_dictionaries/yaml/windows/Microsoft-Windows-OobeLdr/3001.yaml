@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OobeLdr
+event_id: '3001'
+version: '0'
+event(fields): LaunchOobeStart()
+opcode: Start
+keywords: keyPerformance keyword_200000000000
+task: LaunchOobe
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

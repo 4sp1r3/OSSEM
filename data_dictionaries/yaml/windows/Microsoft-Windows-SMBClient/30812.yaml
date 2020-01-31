@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30812'
+version: '0'
+event(fields): task_030812(UInt16 ServerNameLength, UnicodeString ServerName)
+opcode: ''
+keywords: Smb_Connectivity
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName

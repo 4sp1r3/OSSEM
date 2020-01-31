@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '17'
+version: '0'
+event(fields): DefaultLayoutManager_WriteStartLayoutToStorage17(UnicodeString tileIdentifier,
+  AnsiString failureDetails)
+opcode: ''
+keywords: ''
+task: DefaultLayoutManager_WriteStartLayoutToStorage
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: tileIdentifier
+- field_type: AnsiString
+  field_name: failureDetails

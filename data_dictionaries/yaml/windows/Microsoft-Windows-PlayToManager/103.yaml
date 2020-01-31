@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PlayToManager
+event_id: '103'
+version: '0'
+event(fields): PlayToManager_GetSourceFromAppStop()
+opcode: Stop
+keywords: ''
+task: PlayToManager_GetSourceFromApp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

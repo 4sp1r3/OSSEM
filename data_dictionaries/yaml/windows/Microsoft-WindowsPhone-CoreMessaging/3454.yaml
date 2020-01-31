@@ -1,0 +1,16 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3454'
+version: '0'
+event(fields): RemoteRegistrarClient_ReleaseConversationClientStart(UnicodeString
+  pwsz, UInt32 unParam)
+opcode: Start
+keywords: MessagingPerformance RegistrarClient
+task: RemoteRegistrarClient_ReleaseConversationClient
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UInt32
+  field_name: unParam

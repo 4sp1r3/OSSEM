@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '63'
+version: '0'
+event(fields): UpdateRegistrySettingsStop()
+opcode: Stop
+keywords: ''
+task: UpdateRegistrySettings
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

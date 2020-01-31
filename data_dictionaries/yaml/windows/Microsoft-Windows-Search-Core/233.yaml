@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '233'
+version: '0'
+event(fields): CSearchCrawlScopeManager_RevertToDefaultScopesStop(UInt32 hr)
+opcode: Stop
+keywords: CSM
+task: CSearchCrawlScopeManager_RevertToDefaultScopes
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr

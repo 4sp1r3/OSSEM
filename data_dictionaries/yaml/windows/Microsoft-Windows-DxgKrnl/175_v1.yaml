@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '175'
+version: '1'
+event(fields): DmaPacketStart_V1(Pointer hContext, Pointer hQueuePacketContext, UInt32
+  PacketType, UInt64 uliSubmissionId, UInt32 ulQueueSubmitSequence, Pointer pDmaBuffer,
+  UInt32 QuantumStatus)
+opcode: Start
+keywords: Base
+task: DmaPacket
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: Pointer
+  field_name: hQueuePacketContext
+- field_type: UInt32
+  field_name: PacketType
+- field_type: UInt64
+  field_name: uliSubmissionId
+- field_type: UInt32
+  field_name: ulQueueSubmitSequence
+- field_type: Pointer
+  field_name: pDmaBuffer
+- field_type: UInt32
+  field_name: QuantumStatus

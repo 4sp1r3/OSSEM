@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4818'
+version: '0'
+event(fields): task_04818(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString ObjectServer, UnicodeString
+  ObjectType, UnicodeString ObjectName, Pointer HandleId, Pointer ProcessId, UnicodeString
+  ProcessName, UnicodeString AccessReason, UnicodeString StagingReason)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: ObjectServer
+- field_type: UnicodeString
+  field_name: ObjectType
+- field_type: UnicodeString
+  field_name: ObjectName
+- field_type: Pointer
+  field_name: HandleId
+- field_type: Pointer
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: AccessReason
+- field_type: UnicodeString
+  field_name: StagingReason

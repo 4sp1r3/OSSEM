@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1858'
+version: '0'
+event(fields): TileNotifications_InitializeWPNFailure(UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: TileNotifications_InitializeWPNFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '812'
+version: '0'
+event(fields): task_0812(HexInt32 Prop_Dword_1)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_Dword_1

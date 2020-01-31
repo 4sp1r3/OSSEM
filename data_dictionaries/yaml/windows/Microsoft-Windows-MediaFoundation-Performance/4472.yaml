@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4472'
+version: '0'
+event(fields): 2D:Flush(Pointer Object, Pointer Sample, Int32 Free, Int32 Allocated,
+  Int32 MinSampleCount)
+opcode: ''
+keywords: ''
+task: 2D:Flush
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: Sample
+- field_type: Int32
+  field_name: Free
+- field_type: Int32
+  field_name: Allocated
+- field_type: Int32
+  field_name: MinSampleCount

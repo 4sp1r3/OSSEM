@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '44'
+version: '0'
+event(fields): ProcessALPCMessageStop44()
+opcode: Stop
+keywords: ALPC
+task: ProcessALPCMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

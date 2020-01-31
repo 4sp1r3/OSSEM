@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1027'
+version: '0'
+event(fields): Wininet_AutodialIfNotLocalHostStart(Pointer Request, AnsiString HostName)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_AutodialIfNotLocalHost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: AnsiString
+  field_name: HostName

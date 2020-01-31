@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60711'
+version: '0'
+event(fields): Shell32_AutoColorization_ColorChosen(UInt32 dwColorChosen, UnicodeString
+  pszFilePath)
+opcode: ''
+keywords: Shell
+task: Shell32_AutoColorization_ColorChosen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwColorChosen
+- field_type: UnicodeString
+  field_name: pszFilePath

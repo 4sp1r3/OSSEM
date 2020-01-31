@@ -1,0 +1,22 @@
+provider: Microsoft-AppV-Client
+event_id: '13008'
+version: '1'
+event(fields): ApplicationLaunch13008_V1(UInt64 ErrorHigh, UInt64 ErrorLow, UInt64
+  ProcessID, GUID PackageId, GUID PackageVersion)
+opcode: ''
+keywords: VirtualAppLaunch
+task: ApplicationLaunch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ErrorHigh
+- field_type: UInt64
+  field_name: ErrorLow
+- field_type: UInt64
+  field_name: ProcessID
+- field_type: GUID
+  field_name: PackageId
+- field_type: GUID
+  field_name: PackageVersion

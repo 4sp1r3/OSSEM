@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60633'
+version: '0'
+event(fields): ItemsView_AnimationManager_FinishAnimationSetupStart(UInt32 ANIMATIONTYPE)
+opcode: Start
+keywords: Shell
+task: ItemsView_AnimationManager_FinishAnimationSetup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ANIMATIONTYPE

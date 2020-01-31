@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '232'
+version: '0'
+event(fields): ManifestParseManifest232(UInt32 lineNumber, UInt32 columnNumber, UnicodeString
+  ignoredElement, UnicodeString xpathToRequiredChildElement)
+opcode: ParseManifest
+keywords: ''
+task: Manifest
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: lineNumber
+- field_type: UInt32
+  field_name: columnNumber
+- field_type: UnicodeString
+  field_name: ignoredElement
+- field_type: UnicodeString
+  field_name: xpathToRequiredChildElement

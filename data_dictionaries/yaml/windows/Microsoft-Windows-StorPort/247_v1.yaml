@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-StorPort
+event_id: '247'
+version: '1'
+event(fields): PortEventQueuerelatedoperation.247_V1(Pointer QueueID, UInt32 QueueTag,
+  UInt8 Operation, UInt8 EnqueueReason, UInt32 QueuedIoCount, UInt32 OutstandingIoCount,
+  HexInt32 NTStatus)
+opcode: EventQueuerelatedoperation.
+keywords: Queue
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: QueueID
+- field_type: UInt32
+  field_name: QueueTag
+- field_type: UInt8
+  field_name: Operation
+- field_type: UInt8
+  field_name: EnqueueReason
+- field_type: UInt32
+  field_name: QueuedIoCount
+- field_type: UInt32
+  field_name: OutstandingIoCount
+- field_type: HexInt32
+  field_name: NTStatus

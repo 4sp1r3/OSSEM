@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '327'
+version: '0'
+event(fields): task_0327(UnicodeString PsmKey, HexInt32 ErrorCode)
+opcode: ''
+keywords: PLM ExecProductionCircular ExecDevPlatCircular
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: HexInt32
+  field_name: ErrorCode

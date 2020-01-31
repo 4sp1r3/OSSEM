@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40002'
+version: '0'
+event(fields): VReg.OpenKeyStart()
+opcode: Start
+keywords: ''
+task: VReg.OpenKey
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

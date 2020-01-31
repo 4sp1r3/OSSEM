@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '222'
+version: '0'
+event(fields): DeviceEnumStop(UInt16 DriverNameLength, UnicodeString DriverName)
+opcode: Stop
+keywords: Performance DeviceEnum
+task: DeviceEnum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: DriverNameLength
+- field_type: UnicodeString
+  field_name: DriverName

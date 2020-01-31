@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '1104'
+version: '0'
+event(fields): task_0Start1104(UInt32 SupportInfo1, UInt32 SupportInfo2, UInt32 ProcessingMode,
+  UInt32 ProcessingTimeInMilliseconds, UInt32 ErrorCode, UnicodeString ErrorDescription,
+  UnicodeString DCName, UnicodeString GPOCNName)
+opcode: Start
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SupportInfo1
+- field_type: UInt32
+  field_name: SupportInfo2
+- field_type: UInt32
+  field_name: ProcessingMode
+- field_type: UInt32
+  field_name: ProcessingTimeInMilliseconds
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorDescription
+- field_type: UnicodeString
+  field_name: DCName
+- field_type: UnicodeString
+  field_name: GPOCNName

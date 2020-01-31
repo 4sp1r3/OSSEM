@@ -1,0 +1,36 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '210'
+version: '0'
+event(fields): LocationSessionStart210(UInt32 SessionId, UInt32 Pe, UInt32 SessionType,
+  UInt32 AccuracyType, UInt32 AccuracyValue, UInt32 RequestParameter, UInt32 AgeValue,
+  Boolean IsVenueMandatory, Boolean IsClientSession, UInt32 AttachedAcquireId, UInt32
+  OwnerId)
+opcode: Start
+keywords: Selfhost FixSession
+task: LocationSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: Pe
+- field_type: UInt32
+  field_name: SessionType
+- field_type: UInt32
+  field_name: AccuracyType
+- field_type: UInt32
+  field_name: AccuracyValue
+- field_type: UInt32
+  field_name: RequestParameter
+- field_type: UInt32
+  field_name: AgeValue
+- field_type: Boolean
+  field_name: IsVenueMandatory
+- field_type: Boolean
+  field_name: IsClientSession
+- field_type: UInt32
+  field_name: AttachedAcquireId
+- field_type: UInt32
+  field_name: OwnerId

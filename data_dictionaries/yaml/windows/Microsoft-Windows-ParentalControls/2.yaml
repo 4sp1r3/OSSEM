@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '2'
+version: '0'
+event(fields): GameStartLaunch(GUID AppID, GUID InstanceID, UnicodeString Version,
+  UnicodeString Path, UnicodeString Rating, GUID RatingsSystem, UInt32 Reason, UInt32
+  DescriptorCount, UnicodeString Descriptor, UInt32 PID)
+opcode: Launch
+keywords: WPC ThirdParty
+task: GameStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: AppID
+- field_type: GUID
+  field_name: InstanceID
+- field_type: UnicodeString
+  field_name: Version
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UnicodeString
+  field_name: Rating
+- field_type: GUID
+  field_name: RatingsSystem
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: DescriptorCount
+- field_type: UnicodeString
+  field_name: Descriptor
+- field_type: UInt32
+  field_name: PID

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '38'
+version: '0'
+event(fields): TransformCreation38(UInt32 LutType)
+opcode: ''
+keywords: wcse:Cite
+task: TransformCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LutType

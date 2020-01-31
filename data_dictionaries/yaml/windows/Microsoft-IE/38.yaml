@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '38'
+version: '0'
+event(fields): Mshtml_CDwnBindData_OnProgressStop(Pointer DOC, UInt32 dwCode)
+opcode: Stop
+keywords: primarynav
+task: Mshtml_CDwnBindData_OnProgress
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DOC
+- field_type: UInt32
+  field_name: dwCode

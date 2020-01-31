@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3810'
+version: '0'
+event(fields): RoutingServiceConfigurationApplied(UnicodeString AppDomain)
+opcode: ConfigurationApplied
+keywords: RoutingServices
+task: RoutingService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

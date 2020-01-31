@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '17008'
+version: '0'
+event(fields): StagekeyondemandStart()
+opcode: Start
+keywords: ''
+task: Stagekeyondemand
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

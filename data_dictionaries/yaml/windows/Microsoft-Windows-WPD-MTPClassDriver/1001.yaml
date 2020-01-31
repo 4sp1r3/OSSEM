@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1001'
+version: '0'
+event(fields): DriverInitialization1001(UInt32 Seconds)
+opcode: ''
+keywords: ''
+task: DriverInitialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Seconds

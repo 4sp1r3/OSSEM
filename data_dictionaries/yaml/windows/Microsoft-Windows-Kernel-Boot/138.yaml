@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '138'
+version: '0'
+event(fields): MemoryPartitionRestoreStop(GUID Identifier, UInt64 PartitionPageCount,
+  UInt64 AllocatedBlockCount, UInt64 AllocatedRunCount, UInt64 AllocatedPageCount,
+  UInt32 Status)
+opcode: Stop
+keywords: SoftRestart MemoryPreservation
+task: MemoryPartitionRestore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Identifier
+- field_type: UInt64
+  field_name: PartitionPageCount
+- field_type: UInt64
+  field_name: AllocatedBlockCount
+- field_type: UInt64
+  field_name: AllocatedRunCount
+- field_type: UInt64
+  field_name: AllocatedPageCount
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DUSER
+event_id: '83'
+version: '0'
+event(fields): DUser_LeafNodeOpacity_PossibleLayerPush(Pointer hGadget, Int32 nWidth,
+  Int32 nHeight, Pointer hAncestorGadget, Int32 nAncestorWidth, Int32 nAncestorHeight)
+opcode: ''
+keywords: Default
+task: DUser_LeafNodeOpacity_PossibleLayerPush
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hGadget
+- field_type: Int32
+  field_name: nWidth
+- field_type: Int32
+  field_name: nHeight
+- field_type: Pointer
+  field_name: hAncestorGadget
+- field_type: Int32
+  field_name: nAncestorWidth
+- field_type: Int32
+  field_name: nAncestorHeight

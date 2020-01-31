@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1005'
+version: '0'
+event(fields): WFApplicationStateChangeIdled(UnicodeString data1, UnicodeString AppDomain)
+opcode: Idled
+keywords: WFRuntime
+task: WFApplicationStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

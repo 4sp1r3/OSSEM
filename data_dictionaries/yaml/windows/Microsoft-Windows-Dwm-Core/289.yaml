@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '289'
+version: '0'
+event(fields): DISPLAYSURFACE_SWAPCHAINCANDIDATE(UInt64 surfaceLuid, Int32 IsDirectFlipCompatible,
+  Int32 IsAdvancedDirectFlipCompatible, Int32 IsOverlayCompatible, Int32 IsOverlayRequired,
+  Int32 BoundsLeft, Int32 BoundsTop, Int32 BoundsRight, Int32 BoundsBottom)
+opcode: ''
+keywords: DwmCore
+task: DISPLAYSURFACE_SWAPCHAINCANDIDATE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: surfaceLuid
+- field_type: Int32
+  field_name: IsDirectFlipCompatible
+- field_type: Int32
+  field_name: IsAdvancedDirectFlipCompatible
+- field_type: Int32
+  field_name: IsOverlayCompatible
+- field_type: Int32
+  field_name: IsOverlayRequired
+- field_type: Int32
+  field_name: BoundsLeft
+- field_type: Int32
+  field_name: BoundsTop
+- field_type: Int32
+  field_name: BoundsRight
+- field_type: Int32
+  field_name: BoundsBottom

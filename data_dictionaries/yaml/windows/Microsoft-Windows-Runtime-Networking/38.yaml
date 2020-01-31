@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '38'
+version: '0'
+event(fields): APIsAPIExit38(Pointer obj, UInt32 errorCode, UInt32 errorMessage)
+opcode: APIExit
+keywords: keywords.API
+task: APIs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: obj
+- field_type: UInt32
+  field_name: errorCode
+- field_type: UInt32
+  field_name: errorMessage

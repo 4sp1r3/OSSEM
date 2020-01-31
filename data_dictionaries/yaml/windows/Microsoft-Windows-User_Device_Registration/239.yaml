@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '239'
+version: '0'
+event(fields): task_0239(Int32 ExitCode, Int32 JoinType, UnicodeString JoinTypeSymbolicName,
+  UnicodeString TenantId, UnicodeString UPN)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ExitCode
+- field_type: Int32
+  field_name: JoinType
+- field_type: UnicodeString
+  field_name: JoinTypeSymbolicName
+- field_type: UnicodeString
+  field_name: TenantId
+- field_type: UnicodeString
+  field_name: UPN

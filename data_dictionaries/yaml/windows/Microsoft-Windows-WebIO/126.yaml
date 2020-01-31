@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-WebIO
+event_id: '126'
+version: '0'
+event(fields): ResponseParser(Pointer Request, Pointer DataChunks, Pointer ChunkData,
+  UInt32 ChunkDataLength, UInt32 Error, Pointer CompletionContext, UInt64 CompletionInformation)
+opcode: ''
+keywords: Keyword.RECEIVE
+task: ResponseParser
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: Pointer
+  field_name: ChunkData
+- field_type: UInt32
+  field_name: ChunkDataLength
+- field_type: UInt32
+  field_name: Error
+- field_type: Pointer
+  field_name: CompletionContext
+- field_type: UInt64
+  field_name: CompletionInformation

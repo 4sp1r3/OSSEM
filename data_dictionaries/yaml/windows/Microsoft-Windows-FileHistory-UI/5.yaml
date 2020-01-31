@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '5'
+version: '0'
+event(fields): BackButtonNavigationStop()
+opcode: Stop
+keywords: ''
+task: BackButtonNavigation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

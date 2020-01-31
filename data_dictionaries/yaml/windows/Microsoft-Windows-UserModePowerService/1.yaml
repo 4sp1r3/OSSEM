@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '1'
+version: '0'
+event(fields): RundownPlatformRole(UInt32 PlatformRole)
+opcode: ''
+keywords: ''
+task: RundownPlatformRole
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PlatformRole

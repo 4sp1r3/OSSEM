@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3425'
+version: '0'
+event(fields): RemoteRegistrarClient_FindObjectStop()
+opcode: Stop
+keywords: MessagingPerformance RegistrarClient
+task: RemoteRegistrarClient_FindObject
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

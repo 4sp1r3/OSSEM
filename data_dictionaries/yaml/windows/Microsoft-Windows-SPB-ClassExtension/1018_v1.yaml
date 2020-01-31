@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SPB-ClassExtension
+event_id: '1018'
+version: '1'
+event(fields): I/OoperationflowthroughSPBCxIoSpbDirection_V1(UInt8 Data)
+opcode: IoSpbDirection
+keywords: ''
+task: I/OoperationflowthroughSPBCx
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Data

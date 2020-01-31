@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-AppCompat
+event_id: '6'
+version: '0'
+event(fields): CompatCacheQueryStart()
+opcode: Start
+keywords: ''
+task: CompatCacheQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

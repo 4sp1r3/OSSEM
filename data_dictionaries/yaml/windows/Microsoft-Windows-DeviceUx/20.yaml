@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '20'
+version: '0'
+event(fields): BWContextHandler_PopulatePropertiesStart()
+opcode: Start
+keywords: DeviceUX
+task: BWContextHandler_PopulateProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

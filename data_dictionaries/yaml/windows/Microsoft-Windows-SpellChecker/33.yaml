@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SpellChecker
+event_id: '33'
+version: '0'
+event(fields): Setup(UnicodeString First, UnicodeString Second, Int32 hr)
+opcode: ''
+keywords: ''
+task: Setup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: First
+- field_type: UnicodeString
+  field_name: Second
+- field_type: Int32
+  field_name: hr

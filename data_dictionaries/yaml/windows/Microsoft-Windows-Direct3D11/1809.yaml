@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1809'
+version: '0'
+event(fields): ID3D11VideoContext_NegotiateCryptoSessionKeyExchangeStop(UInt32 m_Ret)
+opcode: Stop
+keywords: ''
+task: ID3D11VideoContext_NegotiateCryptoSessionKeyExchange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret

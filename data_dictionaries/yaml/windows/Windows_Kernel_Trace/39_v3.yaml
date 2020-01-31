@@ -1,0 +1,28 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d0-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '39'
+version: '3'
+event(fields): Process_V3_TypeGroup1(UInt32 UniqueProcessKey, UInt32 ProcessId, UInt32
+  ParentId, UInt32 SessionId, SInt32 ExitStatus, UInt32 DirectoryTableBase, Object
+  UserSID, String ImageFileName, String CommandLine)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: UniqueProcessKey
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: ParentId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: SInt32
+  field_name: ExitStatus
+- field_type: UInt32
+  field_name: DirectoryTableBase
+- field_type: Object
+  field_name: UserSID
+- field_type: String
+  field_name: ImageFileName
+- field_type: String
+  field_name: CommandLine

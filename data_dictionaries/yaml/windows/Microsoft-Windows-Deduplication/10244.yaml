@@ -1,0 +1,52 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '10244'
+version: '0'
+event(fields): task_010244(UInt32 JobType, UnicodeString VolumeGuidPath, UnicodeString
+  VolumeDisplayName, UInt64 UnoptimizedBytes, UInt64 MftCacheSizeMB, UInt64 GrovelerLogBufferMB,
+  UInt64 DirectoryTableMB, UInt64 DirectoryNamesMB, UInt64 IndexMinEntries, UInt64
+  IndexMaxEntries, UInt32 IndexMinRequiredMB, UInt32 IndexMaxRequiredMB, UInt32 PipelineMinMB,
+  UInt32 PipelineMaxMB, UInt32 ChunkStoreBatchBufferMemoryMB, UInt32 ChunkStoreContainerListMB,
+  UInt32 CorruptionTableMemoryMB, UInt32 HotspotRequiredMB)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobType
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UnicodeString
+  field_name: VolumeDisplayName
+- field_type: UInt64
+  field_name: UnoptimizedBytes
+- field_type: UInt64
+  field_name: MftCacheSizeMB
+- field_type: UInt64
+  field_name: GrovelerLogBufferMB
+- field_type: UInt64
+  field_name: DirectoryTableMB
+- field_type: UInt64
+  field_name: DirectoryNamesMB
+- field_type: UInt64
+  field_name: IndexMinEntries
+- field_type: UInt64
+  field_name: IndexMaxEntries
+- field_type: UInt32
+  field_name: IndexMinRequiredMB
+- field_type: UInt32
+  field_name: IndexMaxRequiredMB
+- field_type: UInt32
+  field_name: PipelineMinMB
+- field_type: UInt32
+  field_name: PipelineMaxMB
+- field_type: UInt32
+  field_name: ChunkStoreBatchBufferMemoryMB
+- field_type: UInt32
+  field_name: ChunkStoreContainerListMB
+- field_type: UInt32
+  field_name: CorruptionTableMemoryMB
+- field_type: UInt32
+  field_name: HotspotRequiredMB

@@ -1,0 +1,44 @@
+provider: Microsoft-Windows-WFP
+event_id: '1025'
+version: '0'
+event(fields): task_01025(AnsiString ICookie, AnsiString RCookie, AnsiString ExchangeType,
+  UInt32 Length, AnsiString NextPayload, UInt8 Flags, UInt32 MessageID, UnicodeString
+  LocalAddress, UInt32 LocalPort, UInt32 LocalProtocol, UnicodeString RemoteAddress,
+  UInt32 RemotePort, UInt32 RemoteProtocol, UInt64 InterfaceLuid, UInt32 ProfileId)
+opcode: ''
+keywords: ut:ReceivePath
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: ICookie
+- field_type: AnsiString
+  field_name: RCookie
+- field_type: AnsiString
+  field_name: ExchangeType
+- field_type: UInt32
+  field_name: Length
+- field_type: AnsiString
+  field_name: NextPayload
+- field_type: UInt8
+  field_name: Flags
+- field_type: UInt32
+  field_name: MessageID
+- field_type: UnicodeString
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: LocalPort
+- field_type: UInt32
+  field_name: LocalProtocol
+- field_type: UnicodeString
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: RemotePort
+- field_type: UInt32
+  field_name: RemoteProtocol
+- field_type: UInt64
+  field_name: InterfaceLuid
+- field_type: UInt32
+  field_name: ProfileId

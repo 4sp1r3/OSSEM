@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6037'
+version: '0'
+event(fields): LoadAllPackagesStop()
+opcode: Stop
+keywords: ''
+task: LoadAllPackages
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '289'
+version: '0'
+event(fields): task_0289()
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

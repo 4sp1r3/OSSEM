@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '5011'
+version: '0'
+event(fields): ProxyPullProxyStop()
+opcode: Stop
+keywords: MessagingPerformance Proxy
+task: ProxyPullProxy
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AsynchronousCausality
+event_id: '20530'
+version: '1'
+event(fields): task_020530_V1()
+opcode: ''
+keywords: SynchronousWorkItem ApplicationOperation
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WebIO
+event_id: '128'
+version: '0'
+event(fields): ResponseDirectReceiveEntityStop(Pointer Request, Pointer DataChunks,
+  UInt32 BytesToReceive, UInt32 Error, Pointer CompletionContext, UInt64 CompletionInformation)
+opcode: Stop
+keywords: Keyword.RECEIVE
+task: ResponseDirectReceiveEntity
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: UInt32
+  field_name: BytesToReceive
+- field_type: UInt32
+  field_name: Error
+- field_type: Pointer
+  field_name: CompletionContext
+- field_type: UInt64
+  field_name: CompletionInformation

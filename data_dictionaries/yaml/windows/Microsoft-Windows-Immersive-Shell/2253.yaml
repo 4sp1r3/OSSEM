@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2253'
+version: '0'
+event(fields): Share_RunningShareEntry2253()
+opcode: ''
+keywords: ''
+task: Share_RunningShareEntry
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '414'
+version: '0'
+event(fields): Browseui_Tabs_MakeBlockingCallToTab(UInt32 TabID)
+opcode: ''
+keywords: hang
+task: Browseui_Tabs_MakeBlockingCallToTab
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID

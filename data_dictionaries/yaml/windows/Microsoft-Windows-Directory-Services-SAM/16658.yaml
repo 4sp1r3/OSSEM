@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Directory-Services-SAM
+event_id: '16658'
+version: '0'
+event(fields): task_016658(UInt32 RemainingRids)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RemainingRids

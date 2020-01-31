@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SruMon
+event_id: '2002'
+version: '0'
+event(fields): SruMonDebugTrace2002(UnicodeString _FunctionName, UInt32 _Status)
+opcode: ''
+keywords: KeywordSruMonDebugTrace KeywordSruMonDebugSequenceTrace
+task: SruMonDebugTrace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: _FunctionName
+- field_type: UInt32
+  field_name: _Status

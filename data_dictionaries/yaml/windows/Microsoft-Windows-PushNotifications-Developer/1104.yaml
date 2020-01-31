@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Developer
+event_id: '1104'
+version: '0'
+event(fields): task_01104(UnicodeString AppID, UInt32 NotificationType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UInt32
+  field_name: NotificationType

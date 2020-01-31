@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '374'
+version: '0'
+event(fields): VidMmMakeResidentDCStart(Pointer pVidMmAlloc, UInt32 ResidencyCount)
+opcode: DC_Start
+keywords: References
+task: VidMmMakeResident
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pVidMmAlloc
+- field_type: UInt32
+  field_name: ResidencyCount

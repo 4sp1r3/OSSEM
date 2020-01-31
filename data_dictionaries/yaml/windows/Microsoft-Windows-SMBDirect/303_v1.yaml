@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '303'
+version: '1'
+event(fields): task_0303_V1(GUID SocketID, UInt32 LocalAddressLength, Binary LocalAddress,
+  UInt32 RemoteAddressLength, Binary RemoteAddress)
+opcode: ''
+keywords: Connect
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SocketID
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress

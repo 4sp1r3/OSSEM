@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2166'
+version: '0'
+event(fields): task_02166(FILETIME WakeupTime, Boolean IsValid)
+opcode: ''
+keywords: wpnend
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: WakeupTime
+- field_type: Boolean
+  field_name: IsValid

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14035'
+version: '0'
+event(fields): task_014035(UnicodeString SSID)
+opcode: ''
+keywords: IntfMgr
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SSID

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '3'
+version: '0'
+event(fields): StartLayout_LayoutSelectionDataUsedStart(UnicodeString layoutSelectionSerializedString)
+opcode: Start
+keywords: ''
+task: StartLayout_LayoutSelectionDataUsed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: layoutSelectionSerializedString

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Dwm
+event_id: '2'
+version: '0'
+event(fields): CompositionStateOutput(UInt32 State)
+opcode: ''
+keywords: DwmExe
+task: CompositionStateOutput
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: State

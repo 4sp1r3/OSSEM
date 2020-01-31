@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1039'
+version: '0'
+event(fields): WinNatMTaskGenericEventError(UnicodeString Info)
+opcode: ''
+keywords: ut:NatGeneric
+task: WinNatMTaskGenericEventError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Info

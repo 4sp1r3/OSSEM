@@ -1,0 +1,20 @@
+provider: Intel-iaLPSS-I2C
+event_id: '1022'
+version: '1'
+event(fields): DevicePowerFlow_V1(UnicodeString MonitorState, UInt64 IdleTimeout,
+  Pointer WDFDevice, HexInt64 MMIO)
+opcode: ''
+keywords: ''
+task: DevicePowerFlow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MonitorState
+- field_type: UInt64
+  field_name: IdleTimeout
+- field_type: Pointer
+  field_name: WDFDevice
+- field_type: HexInt64
+  field_name: MMIO

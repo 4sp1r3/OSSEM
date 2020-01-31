@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3013'
+version: '0'
+event(fields): ReloadCatalogsStart()
+opcode: Start
+keywords: ''
+task: ReloadCatalogs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

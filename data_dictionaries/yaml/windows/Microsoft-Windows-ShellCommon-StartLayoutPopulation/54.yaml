@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '54'
+version: '0'
+event(fields): StartTileCollection_TDLMigration54(UnicodeString groupData)
+opcode: ''
+keywords: ''
+task: StartTileCollection_TDLMigration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: groupData

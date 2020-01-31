@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '17009'
+version: '0'
+event(fields): StagekeyondemandStop()
+opcode: Stop
+keywords: ''
+task: Stagekeyondemand
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-LockScreenContent
+event_id: '11'
+version: '0'
+event(fields): LockScreenContent_Repository_InitializeStop(UInt32 ImageCount, UInt32
+  Result)
+opcode: Stop
+keywords: LockScreenContent
+task: LockScreenContent_Repository_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ImageCount
+- field_type: UInt32
+  field_name: Result

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19627'
+version: '0'
+event(fields): Shell32_ControlPanel_TypeAheadSearch_NotFound()
+opcode: ''
+keywords: Shell
+task: Shell32_ControlPanel_TypeAheadSearch_NotFound
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '45002'
+version: '0'
+event(fields): Shutdown_ShutdownChoices_UserHasShutdownRightsStop()
+opcode: Stop
+keywords: ''
+task: Shutdown_ShutdownChoices_UserHasShutdownRights
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

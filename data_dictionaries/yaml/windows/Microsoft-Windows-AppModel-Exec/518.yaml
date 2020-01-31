@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '518'
+version: '0'
+event(fields): BM_TryAcquireHostResourceSet(UnicodeString String, UInt32 HRESULT)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BM_TryAcquireHostResourceSet
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String
+- field_type: UInt32
+  field_name: HRESULT

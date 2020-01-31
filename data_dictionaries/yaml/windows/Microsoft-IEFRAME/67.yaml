@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '67'
+version: '0'
+event(fields): ExtensionSetSiteStart(GUID CLSID)
+opcode: Start
+keywords: primarynav
+task: ExtensionSetSite
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CLSID

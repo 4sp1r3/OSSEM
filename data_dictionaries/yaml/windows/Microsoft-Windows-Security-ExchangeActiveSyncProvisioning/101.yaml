@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Security-ExchangeActiveSyncProvisioning
+event_id: '101'
+version: '0'
+event(fields): ExchangeActiveSyncProvisioningPerformanceStop(UInt32 TimeSpent)
+opcode: Stop
+keywords: ''
+task: ExchangeActiveSyncProvisioningPerformance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimeSpent

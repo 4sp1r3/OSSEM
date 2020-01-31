@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '137'
+version: '0'
+event(fields): task_0137(UInt32 SleepState)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SleepState

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Security-EnterpriseData-FileRevocationManager
+event_id: '20'
+version: '0'
+event(fields): task_0Delegationoperation.(UnicodeString PolicyString)
+opcode: Delegationoperation.
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PolicyString

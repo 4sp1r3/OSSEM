@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '92'
+version: '0'
+event(fields): DispatchMessageStart(Int8 CallbackCount, UInt32 message)
+opcode: Start
+keywords: MessagePump
+task: DispatchMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: CallbackCount
+- field_type: UInt32
+  field_name: message

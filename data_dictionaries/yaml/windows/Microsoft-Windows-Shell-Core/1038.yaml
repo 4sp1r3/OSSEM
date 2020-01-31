@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1038'
+version: '0'
+event(fields): DataLayer_CreateResultSetsStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: DataLayer_CreateResultSets
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HealthCenterCPL
+event_id: '109'
+version: '0'
+event(fields): Perftrack_HealthCenter_OpenUsingIconFlyoutStop()
+opcode: Stop
+keywords: ''
+task: Perftrack_HealthCenter_OpenUsingIconFlyout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

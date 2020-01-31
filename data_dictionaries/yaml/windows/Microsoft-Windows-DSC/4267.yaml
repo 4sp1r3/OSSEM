@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DSC
+event_id: '4267'
+version: '0'
+event(fields): task_04267(UnicodeString JobId, UnicodeString PartialConfigurationName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: PartialConfigurationName

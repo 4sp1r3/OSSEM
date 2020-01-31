@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '48'
+version: '0'
+event(fields): ConfigureEndpointInformation(Pointer fid_UcxController, Pointer fid_UsbDevice,
+  UInt32 fid_ConfigurationValue, UInt32 fid_InterfaceNumber, UInt32 fid_AlternateSetting,
+  UInt32 fid_LastConfigureEndpointStatus)
+opcode: Information
+keywords: Default
+task: ConfigureEndpoint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt32
+  field_name: fid_ConfigurationValue
+- field_type: UInt32
+  field_name: fid_InterfaceNumber
+- field_type: UInt32
+  field_name: fid_AlternateSetting
+- field_type: UInt32
+  field_name: fid_LastConfigureEndpointStatus

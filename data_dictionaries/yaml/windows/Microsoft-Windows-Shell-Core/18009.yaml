@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18009'
+version: '0'
+event(fields): Shdocvw_PanningTool_GetPanningPropertiesStart()
+opcode: Start
+keywords: Shell
+task: Shdocvw_PanningTool_GetPanningProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17504'
+version: '0'
+event(fields): ResolveUserNames_ResolveStringSidStop()
+opcode: Stop
+keywords: Properties
+task: ResolveUserNames_ResolveStringSid
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

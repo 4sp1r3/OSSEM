@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DUI
+event_id: '81'
+version: '0'
+event(fields): DirectUI_ModernProgressBarSize(UInt32 width, UInt32 height)
+opcode: ''
+keywords: Default
+task: DirectUI_ModernProgressBarSize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: width
+- field_type: UInt32
+  field_name: height

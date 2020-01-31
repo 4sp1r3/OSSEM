@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MF
+event_id: '29'
+version: '0'
+event(fields): task_029(UnicodeString DeviceStreamName, UInt32 DeviceStreamId, UInt32
+  MFTStreamId, UInt32 DriverQueueDepth)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceStreamName
+- field_type: UInt32
+  field_name: DeviceStreamId
+- field_type: UInt32
+  field_name: MFTStreamId
+- field_type: UInt32
+  field_name: DriverQueueDepth

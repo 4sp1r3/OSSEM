@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '2027'
+version: '0'
+event(fields): task_02027(UnicodeString FileName, UnicodeString HResultStr, Int32
+  HResult)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UnicodeString
+  field_name: HResultStr
+- field_type: Int32
+  field_name: HResult

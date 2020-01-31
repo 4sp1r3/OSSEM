@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDC
+event_id: '67'
+version: '0'
+event(fields): AbortConnectedStandbyEnd()
+opcode: ''
+keywords: Cs
+task: AbortConnectedStandbyEnd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

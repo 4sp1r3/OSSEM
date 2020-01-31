@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '68'
+version: '0'
+event(fields): RESTORE_FROM_SKINStart()
+opcode: Start
+keywords: mediaplayer
+task: RESTORE_FROM_SKIN
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

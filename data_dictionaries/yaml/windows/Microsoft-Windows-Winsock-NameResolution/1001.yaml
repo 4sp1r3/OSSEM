@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Winsock-NameResolution
+event_id: '1001'
+version: '0'
+event(fields): WinsockGai1001(UnicodeString NodeName, UInt32 Status, UnicodeString
+  Result)
+opcode: ''
+keywords: ''
+task: WinsockGai
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: NodeName
+- field_type: UInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: Result

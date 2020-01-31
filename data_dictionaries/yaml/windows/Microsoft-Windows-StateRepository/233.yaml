@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '233'
+version: '0'
+event(fields): StateRepository.Task.Migrate(Int32 MachineDisposition, Int32 PreviousMachineVersion,
+  Int32 DeploymentDisposition, Int32 PreviousDeploymentVersion)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD
+task: StateRepository.Task.Migrate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: MachineDisposition
+- field_type: Int32
+  field_name: PreviousMachineVersion
+- field_type: Int32
+  field_name: DeploymentDisposition
+- field_type: Int32
+  field_name: PreviousDeploymentVersion

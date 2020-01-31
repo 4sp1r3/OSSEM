@@ -1,0 +1,18 @@
+provider: Microsoft-AppV-ServiceLog
+event_id: '3'
+version: '0'
+event(fields): DebugAppVClientAppVClientService3(UnicodeString Message, UnicodeString
+  Function, UInt32 Line)
+opcode: AppVClientService
+keywords: DebugTrace
+task: DebugAppVClient
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UnicodeString
+  field_name: Function
+- field_type: UInt32
+  field_name: Line

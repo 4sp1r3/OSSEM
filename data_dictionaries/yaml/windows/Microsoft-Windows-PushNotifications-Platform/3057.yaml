@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3057'
+version: '0'
+event(fields): TileSessionCloseStart3057(UInt32 SessionId)
+opcode: Start
+keywords: wpnui
+task: TileSessionClose
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Smartcard-Server
+event_id: '514'
+version: '0'
+event(fields): task_0514(UnicodeString Message, UnicodeString Reader)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UnicodeString
+  field_name: Reader

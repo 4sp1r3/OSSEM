@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1130'
+version: '1'
+event(fields): FramingIfOperStatus_V1(UInt32 Interface, UInt32 OperationalStatus,
+  UInt64 Status, UInt32 CompartmentId)
+opcode: ''
+keywords: ut:TcpipInterface ut:Global
+task: FramingIfOperStatus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: OperationalStatus
+- field_type: UInt64
+  field_name: Status
+- field_type: UInt32
+  field_name: CompartmentId

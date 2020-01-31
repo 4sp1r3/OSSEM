@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '3682'
+version: '0'
+event(fields): LogTrace3682()
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular
+task: LogTrace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

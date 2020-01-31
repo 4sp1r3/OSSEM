@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WinINet
+event_id: '206'
+version: '0'
+event(fields): WININET_KEEP_ALIVE_CONNECTION_REUSED(Pointer ConnectionHandle, Pointer
+  SocketHandle)
+opcode: ''
+keywords: WININET_KEYWORD_HTTP
+task: WININET_KEEP_ALIVE_CONNECTION_REUSED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionHandle
+- field_type: Pointer
+  field_name: SocketHandle

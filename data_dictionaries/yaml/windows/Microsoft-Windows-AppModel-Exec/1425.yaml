@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '1425'
+version: '0'
+event(fields): FM_GetProductIdFromProcessId(GUID p1_GUID, UInt32 p2_UInt32, UInt32
+  p3_UInt32)
+opcode: ''
+keywords: FM ExecDevPlatCircular
+task: FM_GetProductIdFromProcessId
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: p1_GUID
+- field_type: UInt32
+  field_name: p2_UInt32
+- field_type: UInt32
+  field_name: p3_UInt32

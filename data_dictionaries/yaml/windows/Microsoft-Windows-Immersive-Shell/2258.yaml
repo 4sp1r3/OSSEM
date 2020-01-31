@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2258'
+version: '0'
+event(fields): PerfTrack_Share_InvokeToApplistShownStart()
+opcode: Start
+keywords: ''
+task: PerfTrack_Share_InvokeToApplistShown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

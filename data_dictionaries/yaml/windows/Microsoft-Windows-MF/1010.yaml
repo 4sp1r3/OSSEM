@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1010'
+version: '0'
+event(fields): MediaFoundationHandleMFTEventStart(Pointer MFT, UInt32 Type)
+opcode: Start
+keywords: ''
+task: MediaFoundationHandleMFTEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MFT
+- field_type: UInt32
+  field_name: Type

@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '375'
+version: '0'
+event(fields): Mshtml_CElement_GetTooltipText(Pointer Element, UnicodeString Tooltip)
+opcode: ''
+keywords: subsystem mshtml
+task: Mshtml_CElement_GetTooltipText
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Element
+- field_type: UnicodeString
+  field_name: Tooltip

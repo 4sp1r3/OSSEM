@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '24'
+version: '0'
+event(fields): Index_MergeStart(UInt32 Value)
+opcode: Start
+keywords: Performance Indexing IndexPI
+task: Index_Merge
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

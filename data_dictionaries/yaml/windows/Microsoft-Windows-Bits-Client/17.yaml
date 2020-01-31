@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '17'
+version: '0'
+event(fields): task_017(Boolean peerCacheEnabled, Boolean peerClientEnabled, Boolean
+  peerServerEnabled, UInt32 maxPeers, UInt32 maxClients, UInt32 maxContentAge, UInt32
+  maxCacheSize, UInt32 minCacheDiskSize, UnicodeString cacheDenyUrls, UInt8 denyUrlCount,
+  UnicodeString denyUrls)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: peerCacheEnabled
+- field_type: Boolean
+  field_name: peerClientEnabled
+- field_type: Boolean
+  field_name: peerServerEnabled
+- field_type: UInt32
+  field_name: maxPeers
+- field_type: UInt32
+  field_name: maxClients
+- field_type: UInt32
+  field_name: maxContentAge
+- field_type: UInt32
+  field_name: maxCacheSize
+- field_type: UInt32
+  field_name: minCacheDiskSize
+- field_type: UnicodeString
+  field_name: cacheDenyUrls
+- field_type: UInt8
+  field_name: denyUrlCount
+- field_type: UnicodeString
+  field_name: denyUrls

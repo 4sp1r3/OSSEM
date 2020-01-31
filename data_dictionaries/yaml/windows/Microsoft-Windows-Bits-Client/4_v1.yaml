@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '4'
+version: '1'
+event(fields): task_04_V1(UnicodeString User, UnicodeString jobTitle, GUID jobId,
+  UnicodeString jobOwner, UInt64 fileCount, UInt64 bytesTransferred, UInt64 bytesTransferredFromPeer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: jobTitle
+- field_type: GUID
+  field_name: jobId
+- field_type: UnicodeString
+  field_name: jobOwner
+- field_type: UInt64
+  field_name: fileCount
+- field_type: UInt64
+  field_name: bytesTransferred
+- field_type: UInt64
+  field_name: bytesTransferredFromPeer

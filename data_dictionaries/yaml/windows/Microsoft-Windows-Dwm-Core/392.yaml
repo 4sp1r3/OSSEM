@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '392'
+version: '0'
+event(fields): COMPUTESCRIBBLE_DRAWINFO(UInt32 PointerID, UInt32 FirstFrameID, UInt32
+  LastFrameID, UInt64 BeginQPC, UInt64 EndQPC)
+opcode: ''
+keywords: DwmCore
+task: COMPUTESCRIBBLE_DRAWINFO
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PointerID
+- field_type: UInt32
+  field_name: FirstFrameID
+- field_type: UInt32
+  field_name: LastFrameID
+- field_type: UInt64
+  field_name: BeginQPC
+- field_type: UInt64
+  field_name: EndQPC

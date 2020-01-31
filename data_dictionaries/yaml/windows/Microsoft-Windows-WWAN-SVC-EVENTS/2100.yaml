@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '2100'
+version: '0'
+event(fields): task_02100()
+opcode: ''
+keywords: LwtDiagnostic InterfaceEnum ut:L2ConnectPath keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

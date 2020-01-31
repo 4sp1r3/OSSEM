@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '3611'
+version: '0'
+event(fields): ContainerDeletionStart3611()
+opcode: Start
+keywords: Internal
+task: ContainerDeletion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '163'
+version: '0'
+event(fields): MediaEngineGPUSwapchainWaitStart(Pointer object)
+opcode: Start
+keywords: ''
+task: MediaEngineGPUSwapchainWait
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

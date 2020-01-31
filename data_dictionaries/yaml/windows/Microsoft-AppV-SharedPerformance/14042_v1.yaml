@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14042'
+version: '1'
+event(fields): ConfigurePackageGroupFinalize_1021Stop_V1()
+opcode: Stop
+keywords: ''
+task: ConfigurePackageGroupFinalize_1021
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

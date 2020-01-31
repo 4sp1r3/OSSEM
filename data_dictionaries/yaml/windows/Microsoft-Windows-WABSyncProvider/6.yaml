@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WABSyncProvider
+event_id: '6'
+version: '0'
+event(fields): GetIdParameterStop()
+opcode: Stop
+keywords: ''
+task: GetIdParameter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

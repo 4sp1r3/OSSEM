@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '223'
+version: '0'
+event(fields): NarratorTouchInterpretationStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: NarratorTouchInterpretation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

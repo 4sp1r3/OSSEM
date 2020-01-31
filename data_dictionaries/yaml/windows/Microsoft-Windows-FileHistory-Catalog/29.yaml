@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '29'
+version: '0'
+event(fields): FindLibraryTimelineStart(UnicodeString LibraryName)
+opcode: Start
+keywords: ''
+task: FindLibraryTimeline
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LibraryName

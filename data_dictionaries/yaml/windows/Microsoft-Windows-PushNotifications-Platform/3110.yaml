@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3110'
+version: '0'
+event(fields): AFCForwardToast(Boolean IsFwdToCdpEnabled, Boolean IsMirrorMasterSwitchEnabled,
+  Boolean MirroringEnabled)
+opcode: ''
+keywords: ''
+task: AFCForwardToast
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsFwdToCdpEnabled
+- field_type: Boolean
+  field_name: IsMirrorMasterSwitchEnabled
+- field_type: Boolean
+  field_name: MirroringEnabled

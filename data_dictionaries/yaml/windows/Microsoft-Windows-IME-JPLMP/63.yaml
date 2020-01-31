@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-JPLMP
+event_id: '63'
+version: '0'
+event(fields): TaskID:IMECandidateOpenStart()
+opcode: Start
+keywords: ''
+task: TaskID:IMECandidateOpen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '138'
+version: '0'
+event(fields): Tab_InitializeBrowserStateStop()
+opcode: Stop
+keywords: primarynav
+task: Tab_InitializeBrowserState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

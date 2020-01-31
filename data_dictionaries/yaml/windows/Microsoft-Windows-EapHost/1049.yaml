@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-EapHost
+event_id: '1049'
+version: '0'
+event(fields): Authenticator1049(UInt8 PacketId, UInt16 PacketLength)
+opcode: ''
+keywords: ''
+task: Authenticator
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: PacketId
+- field_type: UInt16
+  field_name: PacketLength

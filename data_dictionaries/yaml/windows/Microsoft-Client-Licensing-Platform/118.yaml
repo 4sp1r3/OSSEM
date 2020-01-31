@@ -1,0 +1,18 @@
+provider: Microsoft-Client-Licensing-Platform
+event_id: '118'
+version: '0'
+event(fields): task_0118(UnicodeString LicenseId, UnicodeString AssociateId, UnicodeString
+  DeviceId)
+opcode: ''
+keywords: SERVICE_KEYWORD
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LicenseId
+- field_type: UnicodeString
+  field_name: AssociateId
+- field_type: UnicodeString
+  field_name: DeviceId

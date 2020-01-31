@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '333'
+version: '0'
+event(fields): task_0333(UnicodeString Prop_String1, UInt32 Prop_Dword1, UnicodeString
+  Prop_String2, UInt32 Prop_Dword2, UnicodeString Prop_String3, UInt32 Prop_Dword3)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_String1
+- field_type: UInt32
+  field_name: Prop_Dword1
+- field_type: UnicodeString
+  field_name: Prop_String2
+- field_type: UInt32
+  field_name: Prop_Dword2
+- field_type: UnicodeString
+  field_name: Prop_String3
+- field_type: UInt32
+  field_name: Prop_Dword3

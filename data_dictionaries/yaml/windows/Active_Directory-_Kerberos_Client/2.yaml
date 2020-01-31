@@ -1,0 +1,14 @@
+provider: 'Active Directory: Kerberos Client'
+category: '{c55e606b-334a-488b-b907-384abaa97b04}'
+event_id: '2'
+version: '0'
+event(fields): KerbChangePassword_End(UInt32 Status, String AccountName, String DomainName)
+event_type: End
+description: Kerberos Change Password
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: String
+  field_name: AccountName
+- field_type: String
+  field_name: DomainName

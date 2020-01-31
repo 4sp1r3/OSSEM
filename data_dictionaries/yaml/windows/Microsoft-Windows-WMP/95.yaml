@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '95'
+version: '0'
+event(fields): FULLSCREEN_LOADINGUI_FADEStart()
+opcode: Start
+keywords: mediaplayer
+task: FULLSCREEN_LOADINGUI_FADE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

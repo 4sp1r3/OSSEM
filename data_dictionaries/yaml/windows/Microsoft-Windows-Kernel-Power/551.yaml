@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '551'
+version: '0'
+event(fields): SystemIdleRundown(UInt32 ScanInterval)
+opcode: ''
+keywords: po:Diagnostic
+task: SystemIdleRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScanInterval

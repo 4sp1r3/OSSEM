@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '547'
+version: '0'
+event(fields): DirectedPowerTransitionStart(Pointer DeviceNode, Boolean PowerDown)
+opcode: ''
+keywords: po:Diagnostic
+task: DirectedPowerTransitionStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DeviceNode
+- field_type: Boolean
+  field_name: PowerDown

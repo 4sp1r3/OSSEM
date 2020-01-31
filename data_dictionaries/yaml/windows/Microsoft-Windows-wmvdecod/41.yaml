@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-wmvdecod
+event_id: '41'
+version: '0'
+event(fields): wmvdecod_MFMessages_DrainStart()
+opcode: Start
+keywords: ''
+task: wmvdecod_MFMessages_Drain
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

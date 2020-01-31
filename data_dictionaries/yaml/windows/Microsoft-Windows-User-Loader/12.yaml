@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-User-Loader
+event_id: '12'
+version: '0'
+event(fields): task_012(UnicodeString ProcessImagePath, UnicodeString CurDirDllPath)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessImagePath
+- field_type: UnicodeString
+  field_name: CurDirDllPath

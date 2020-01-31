@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '63'
+version: '1'
+event(fields): PropertyChanged_V1(UInt64 ElementId, UInt64 ParentId, UnicodeString
+  PropertyName, UInt32 PropertyEffect, UInt64 ValueInt, UnicodeString ValueString,
+  Double ValueDouble)
+opcode: ''
+keywords: ''
+task: PropertyChanged
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UInt64
+  field_name: ParentId
+- field_type: UnicodeString
+  field_name: PropertyName
+- field_type: UInt32
+  field_name: PropertyEffect
+- field_type: UInt64
+  field_name: ValueInt
+- field_type: UnicodeString
+  field_name: ValueString
+- field_type: Double
+  field_name: ValueDouble

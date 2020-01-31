@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Kernel-Prefetch
+event_id: '2'
+version: '1'
+event(fields): PrefetchSectionsStop_V1(UInt16 ScenarioNameLength, UnicodeString ScenarioName,
+  UInt32 ScenarioHashId, UInt32 ScenarioType, UInt32 PrefetchPhaseMask, UInt32 PrefetchType,
+  UInt8 IsTricklePhase, UInt64 NumPagesPrefetched, UInt32 NumReadLists)
+opcode: Stop
+keywords: BasicInformation
+task: PrefetchSections
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ScenarioNameLength
+- field_type: UnicodeString
+  field_name: ScenarioName
+- field_type: UInt32
+  field_name: ScenarioHashId
+- field_type: UInt32
+  field_name: ScenarioType
+- field_type: UInt32
+  field_name: PrefetchPhaseMask
+- field_type: UInt32
+  field_name: PrefetchType
+- field_type: UInt8
+  field_name: IsTricklePhase
+- field_type: UInt64
+  field_name: NumPagesPrefetched
+- field_type: UInt32
+  field_name: NumReadLists

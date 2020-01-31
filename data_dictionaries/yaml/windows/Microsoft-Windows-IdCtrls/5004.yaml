@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-IdCtrls
+event_id: '5004'
+version: '0'
+event(fields): task_05004(UnicodeString URL, UnicodeString ReferrerUrl, UInt32 Flags)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UnicodeString
+  field_name: ReferrerUrl
+- field_type: UInt32
+  field_name: Flags

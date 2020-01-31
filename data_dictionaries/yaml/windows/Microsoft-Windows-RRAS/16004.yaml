@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-RRAS
+event_id: '16004'
+version: '0'
+event(fields): task_016004(UnicodeString DebugString, UInt32 BufferSize, Binary Buffer)
+opcode: ''
+keywords: ut:Rasppp
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DebugString
+- field_type: UInt32
+  field_name: BufferSize
+- field_type: Binary
+  field_name: Buffer

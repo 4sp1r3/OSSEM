@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '6'
+version: '0'
+event(fields): CreateStop(UnicodeString CatalogPath, UnicodeString CatalogPath2)
+opcode: Stop
+keywords: ''
+task: Create
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CatalogPath
+- field_type: UnicodeString
+  field_name: CatalogPath2

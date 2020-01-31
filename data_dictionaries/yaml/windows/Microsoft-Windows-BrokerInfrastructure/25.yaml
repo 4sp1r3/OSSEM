@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '25'
+version: '0'
+event(fields): PackagePackageWatchdog(UInt32 SessionId, UInt32 StateFlags, UInt32
+  ActiveTaskCount, Boolean LockScreen, UnicodeString PackageFullName, SID UserSid,
+  UnicodeString ActiveTasks)
+opcode: PackageWatchdog
+keywords: Watchdog
+task: Package
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: StateFlags
+- field_type: UInt32
+  field_name: ActiveTaskCount
+- field_type: Boolean
+  field_name: LockScreen
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: SID
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: ActiveTasks

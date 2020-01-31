@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Spell-Checking
+event_id: '14'
+version: '0'
+event(fields): task_0Receive14()
+opcode: Receive
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

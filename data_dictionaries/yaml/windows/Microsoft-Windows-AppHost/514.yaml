@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppHost
+event_id: '514'
+version: '0'
+event(fields): Activation.ModuleInitializationAppHostInformation(UnicodeString PackageFullName,
+  HexInt64 OSVersion, HexInt64 WebPlatformVersion, HexInt32 ScriptProjectionVersion)
+opcode: AppHostInformation
+keywords: WWAHOST_KEYWORD
+task: Activation.ModuleInitialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: HexInt64
+  field_name: OSVersion
+- field_type: HexInt64
+  field_name: WebPlatformVersion
+- field_type: HexInt32
+  field_name: ScriptProjectionVersion

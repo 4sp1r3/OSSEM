@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '58'
+version: '0'
+event(fields): DesktopResolutionFailure(UInt32 ProcessId, UInt32 FailureStatus)
+opcode: ''
+keywords: Updates
+task: DesktopResolutionFailure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: FailureStatus

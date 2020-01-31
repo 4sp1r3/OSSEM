@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '249'
+version: '0'
+event(fields): AllocationTerminationListTimer()
+opcode: ''
+keywords: Base
+task: AllocationTerminationListTimer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

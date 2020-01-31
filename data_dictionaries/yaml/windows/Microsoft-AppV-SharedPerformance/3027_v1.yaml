@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3027'
+version: '1'
+event(fields): PublishPackageUnpublishOldVersionStart_V1()
+opcode: Start
+keywords: ''
+task: PublishPackageUnpublishOldVersion
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18653'
+version: '0'
+event(fields): Shell32_DefView_Keydown()
+opcode: ''
+keywords: Shell
+task: Shell32_DefView_Keydown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PDC
+event_id: '3'
+version: '0'
+event(fields): NotificationRegistration(Pointer Client, UInt32 PdcId, UInt32 Status,
+  UInt32 ClientNameLength, UnicodeString ClientName)
+opcode: ''
+keywords: notifications
+task: NotificationRegistration
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: UInt32
+  field_name: PdcId
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName

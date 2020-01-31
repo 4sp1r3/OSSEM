@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '7111'
+version: '0'
+event(fields): AppHistory_AddDesktopApplicationStop(UnicodeString ExePath)
+opcode: Stop
+keywords: datamonitor
+task: AppHistory_AddDesktopApplication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExePath

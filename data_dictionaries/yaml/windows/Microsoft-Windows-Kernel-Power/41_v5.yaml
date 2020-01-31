@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '41'
+version: '5'
+event(fields): DirtyTransition_V5(UInt32 BugcheckCode, Pointer BugcheckParameter1,
+  Pointer BugcheckParameter2, Pointer BugcheckParameter3, Pointer BugcheckParameter4,
+  UInt32 SleepInProgress, UInt64 PowerButtonTimestamp, UInt32 BootAppStatus, UInt8
+  Checkpoint, Boolean ConnectedStandbyInProgress, UInt32 SystemSleepTransitionsToOn,
+  UInt8 CsEntryScenarioInstanceId, Boolean BugcheckInfoFromEFI)
+opcode: ''
+keywords: po:Simple keyword_400000000000
+task: DirtyTransition
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BugcheckCode
+- field_type: Pointer
+  field_name: BugcheckParameter1
+- field_type: Pointer
+  field_name: BugcheckParameter2
+- field_type: Pointer
+  field_name: BugcheckParameter3
+- field_type: Pointer
+  field_name: BugcheckParameter4
+- field_type: UInt32
+  field_name: SleepInProgress
+- field_type: UInt64
+  field_name: PowerButtonTimestamp
+- field_type: UInt32
+  field_name: BootAppStatus
+- field_type: UInt8
+  field_name: Checkpoint
+- field_type: Boolean
+  field_name: ConnectedStandbyInProgress
+- field_type: UInt32
+  field_name: SystemSleepTransitionsToOn
+- field_type: UInt8
+  field_name: CsEntryScenarioInstanceId
+- field_type: Boolean
+  field_name: BugcheckInfoFromEFI

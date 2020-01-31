@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '339'
+version: '0'
+event(fields): MakeResidentStop(UInt32 Status, UInt64 NumBytesToTrim, UInt64 PagingFenceValue)
+opcode: Stop
+keywords: References
+task: MakeResident
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt64
+  field_name: NumBytesToTrim
+- field_type: UInt64
+  field_name: PagingFenceValue

@@ -1,0 +1,23 @@
+provider: Microsoft-IE
+event_id: '645'
+version: '0'
+event(fields): Mshtml_EventDebug_MutationObserverCallback(UInt64 TargetElementDdtId,
+  UInt16 Type, UnicodeString ChangedAttributeName, UInt32 AddedChildCount, UInt32
+  RemovedChildCount)
+opcode: ''
+keywords: eventsandtimers
+task: Mshtml_EventDebug_MutationObserverCallback
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TargetElementDdtId
+- field_type: UInt16
+  field_name: Type
+- field_type: UnicodeString
+  field_name: ChangedAttributeName
+- field_type: UInt32
+  field_name: AddedChildCount
+- field_type: UInt32
+  field_name: RemovedChildCount

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NDIS-PacketCapture
+event_id: '1011'
+version: '0'
+event(fields): Rules(UInt32 RulesCount)
+opcode: ''
+keywords: ut:Configuration ut:Global
+task: Rules
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RulesCount

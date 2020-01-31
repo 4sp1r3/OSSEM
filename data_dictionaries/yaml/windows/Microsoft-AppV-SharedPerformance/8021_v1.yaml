@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8021'
+version: '1'
+event(fields): InitializeStop_V1()
+opcode: Stop
+keywords: ''
+task: Initialize
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

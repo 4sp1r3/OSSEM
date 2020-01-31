@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '101'
+version: '0'
+event(fields): task_0101(UnicodeString Prop_String, Int32 Prop_HResult)
+opcode: ''
+keywords: Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_String
+- field_type: Int32
+  field_name: Prop_HResult

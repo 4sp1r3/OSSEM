@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '17'
+version: '0'
+event(fields): RestorePrintBRMoperationsuccess17(UnicodeString LanguageMonitor)
+opcode: PrintBRMoperationsuccess
+keywords: PRINT_LANG_MON_KEYWORD
+task: Restore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LanguageMonitor

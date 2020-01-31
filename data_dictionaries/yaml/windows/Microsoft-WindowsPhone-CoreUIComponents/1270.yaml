@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1270'
+version: '0'
+event(fields): ForegroundTaskManagerStart()
+opcode: Start
+keywords: ForegroundTaskManager
+task: ForegroundTaskManager
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

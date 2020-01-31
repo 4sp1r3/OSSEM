@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7248'
+version: '0'
+event(fields): ConnectedSearch_LogAppResizeBGStop()
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_LogAppResizeBG
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

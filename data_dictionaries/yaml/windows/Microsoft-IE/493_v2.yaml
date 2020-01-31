@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '493'
+version: '2'
+event(fields): Mshtml_Animations_AnimatingStop493_V2(Pointer AnimationClientObject,
+  Pointer TreeNode, UInt32 ReasonCode, UnicodeString Description)
+opcode: Stop
+keywords: animation
+task: Mshtml_Animations_Animating
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AnimationClientObject
+- field_type: Pointer
+  field_name: TreeNode
+- field_type: UInt32
+  field_name: ReasonCode
+- field_type: UnicodeString
+  field_name: Description

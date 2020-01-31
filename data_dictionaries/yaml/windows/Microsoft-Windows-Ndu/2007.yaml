@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Ndu
+event_id: '2007'
+version: '0'
+event(fields): PerFlowStats2007(UInt64 _IfLuid, UInt64 _FlowHandle, UInt32 _BytesSent,
+  UInt32 _BytesRecvd)
+opcode: ''
+keywords: KeywordNduPerFlowStats
+task: PerFlowStats
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: _IfLuid
+- field_type: UInt64
+  field_name: _FlowHandle
+- field_type: UInt32
+  field_name: _BytesSent
+- field_type: UInt32
+  field_name: _BytesRecvd

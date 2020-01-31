@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '11003'
+version: '1'
+event(fields): task_0OID_Handling11003_V1(GUID InterfaceGuid, UInt32 RequestId, UInt32
+  WwanStatus, UInt32 HwRadioState, UInt32 SwRadioState)
+opcode: OID_Handling
+keywords: LwtDiagnostic WwanOid keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: WwanStatus
+- field_type: UInt32
+  field_name: HwRadioState
+- field_type: UInt32
+  field_name: SwRadioState

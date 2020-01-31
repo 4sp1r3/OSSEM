@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DUSER
+event_id: '75'
+version: '0'
+event(fields): DUser_ProcessPendingStoryboards(Float flProcessingDelay, Int32 nNumberOfStoryboards,
+  Int32 nNumberOfVisuals)
+opcode: ''
+keywords: Default
+task: DUser_ProcessPendingStoryboards
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: flProcessingDelay
+- field_type: Int32
+  field_name: nNumberOfStoryboards
+- field_type: Int32
+  field_name: nNumberOfVisuals

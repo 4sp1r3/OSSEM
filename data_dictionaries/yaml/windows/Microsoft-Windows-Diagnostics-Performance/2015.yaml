@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '2015'
+version: '0'
+event(fields): Scenario_TroubleShootStart(GUID ScenarioGUID, UInt32 HResult)
+opcode: Start
+keywords: ScenarioStatus
+task: Scenario_TroubleShoot
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ScenarioGUID
+- field_type: UInt32
+  field_name: HResult

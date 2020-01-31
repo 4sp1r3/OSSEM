@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '7751'
+version: '0'
+event(fields): task_07751(UnicodeString PackageName, HexInt32 ErrorCode, UnicodeString
+  ErrorText)
+opcode: ''
+keywords: INDEXEDDB_DEH_KEYWORD
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorText

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60106'
+version: '0'
+event(fields): StructuredQuery_InitQueryParserStop()
+opcode: Stop
+keywords: StructuredQuery
+task: StructuredQuery_InitQueryParser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

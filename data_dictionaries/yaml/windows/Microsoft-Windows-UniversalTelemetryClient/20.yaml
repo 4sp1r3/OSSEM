@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '20'
+version: '0'
+event(fields): Upload_UrlChanged(UnicodeString Environment, UnicodeString Url)
+opcode: ''
+keywords: Upload
+task: Upload_UrlChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: UnicodeString
+  field_name: Url

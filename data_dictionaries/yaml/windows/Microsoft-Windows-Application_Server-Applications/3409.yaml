@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3409'
+version: '0'
+event(fields): TransportReceiveStop3409(UnicodeString AppDomain)
+opcode: Stop
+keywords: HTTP
+task: TransportReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

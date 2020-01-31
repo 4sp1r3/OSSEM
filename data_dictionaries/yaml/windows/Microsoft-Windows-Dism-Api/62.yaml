@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '62'
+version: '0'
+event(fields): DismGetDriverInfoStop(UInt32 SessionId, UnicodeString String)
+opcode: Stop
+keywords: DismApiEvent
+task: DismGetDriverInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: String

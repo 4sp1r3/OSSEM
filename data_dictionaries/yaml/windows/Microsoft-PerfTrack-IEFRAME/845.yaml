@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '845'
+version: '0'
+event(fields): Snippet_BOLLExtraction_PerftrackStop(UInt64 Object)
+opcode: Stop
+keywords: nonPerfTrack
+task: Snippet_BOLLExtraction_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

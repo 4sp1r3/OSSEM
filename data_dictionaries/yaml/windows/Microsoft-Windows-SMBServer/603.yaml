@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '603'
+version: '0'
+event(fields): Smb2TreeConnectFailedDueToPending(GUID SessionGUID, GUID ConnectionGUID,
+  UInt16 ShareNameLength, UnicodeString ShareName, UInt16 ScopeNameLength, UnicodeString
+  ScopeName, UInt32 Status)
+opcode: ''
+keywords: TreeConnect
+task: Smb2TreeConnectFailedDueToPending
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt16
+  field_name: ScopeNameLength
+- field_type: UnicodeString
+  field_name: ScopeName
+- field_type: UInt32
+  field_name: Status

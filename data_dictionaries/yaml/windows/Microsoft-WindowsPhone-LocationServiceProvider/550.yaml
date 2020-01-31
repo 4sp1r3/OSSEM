@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '550'
+version: '0'
+event(fields): Geofencing550(AnsiString Operation, HexInt32 Status)
+opcode: ''
+keywords: Selfhost ClientApi
+task: Geofencing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Operation
+- field_type: HexInt32
+  field_name: Status

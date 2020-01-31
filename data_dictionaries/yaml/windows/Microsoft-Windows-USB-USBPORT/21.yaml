@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '21'
+version: '0'
+event(fields): URB_FUNCTION_SELECT_CONFIGURATIONDispatch(UInt32 fid_USBPORT_HC, Binary
+  fid_USBPORT_Device, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt16 fid_URB_Length,
+  UInt8 fid_URB, UInt16 fid_Configuration_Descriptor_Length, UInt8 fid_Configuration_Descriptor)
+opcode: Dispatch
+keywords: Diagnostic
+task: URB_FUNCTION_SELECT_CONFIGURATION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: fid_USBPORT_HC
+- field_type: Binary
+  field_name: fid_USBPORT_Device
+- field_type: Pointer
+  field_name: fid_IRP_Ptr
+- field_type: Pointer
+  field_name: fid_URB_Ptr
+- field_type: UInt16
+  field_name: fid_URB_Length
+- field_type: UInt8
+  field_name: fid_URB
+- field_type: UInt16
+  field_name: fid_Configuration_Descriptor_Length
+- field_type: UInt8
+  field_name: fid_Configuration_Descriptor

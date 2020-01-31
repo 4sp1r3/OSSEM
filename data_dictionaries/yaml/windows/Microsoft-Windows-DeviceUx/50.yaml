@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '50'
+version: '0'
+event(fields): DevicePairing_PairDeviceStart()
+opcode: Start
+keywords: ''
+task: DevicePairing_PairDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

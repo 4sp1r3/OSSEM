@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-USB-UCX
+event_id: '9'
+version: '0'
+event(fields): UCXControllerDeleteInformation(Pointer fid_UcxController, UInt32 fid_ParentBusType,
+  UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction, UInt32 fid_PciVendorId,
+  UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString fid_AcpiVendorId, AnsiString
+  fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UnicodeString fid_DeviceInterfacePath)
+opcode: Information
+keywords: Default
+task: UCXControllerDelete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: UInt32
+  field_name: fid_ParentBusType
+- field_type: UInt32
+  field_name: fid_PciBus
+- field_type: UInt32
+  field_name: fid_PciDevice
+- field_type: UInt32
+  field_name: fid_PciFunction
+- field_type: UInt32
+  field_name: fid_PciVendorId
+- field_type: UInt32
+  field_name: fid_PciDeviceId
+- field_type: UInt32
+  field_name: fid_PciRevisionId
+- field_type: AnsiString
+  field_name: fid_AcpiVendorId
+- field_type: AnsiString
+  field_name: fid_AcpiDeviceId
+- field_type: AnsiString
+  field_name: fid_AcpiRevisionId
+- field_type: UnicodeString
+  field_name: fid_DeviceInterfacePath

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '503'
+version: '0'
+event(fields): WluiServerShutdownStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: WluiServerShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

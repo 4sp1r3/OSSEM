@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4061'
+version: '0'
+event(fields): Enable_AppVStop()
+opcode: Stop
+keywords: ''
+task: Enable_AppV
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

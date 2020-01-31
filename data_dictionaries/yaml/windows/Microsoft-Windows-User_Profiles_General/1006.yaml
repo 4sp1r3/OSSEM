@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-User Profiles General
+event_id: '1006'
+version: '0'
+event(fields): task_01006(UnicodeString FileName, UInt64 FileSizeInKb, UnicodeString
+  SourceLocation, UnicodeString DestinationLocation, UInt64 CopyTimeInSec)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt64
+  field_name: FileSizeInKb
+- field_type: UnicodeString
+  field_name: SourceLocation
+- field_type: UnicodeString
+  field_name: DestinationLocation
+- field_type: UInt64
+  field_name: CopyTimeInSec

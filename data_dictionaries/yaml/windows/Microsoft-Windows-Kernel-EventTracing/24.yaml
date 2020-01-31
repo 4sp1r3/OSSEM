@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '24'
+version: '0'
+event(fields): GUIDEntry(GUID GUID, UInt32 FilterFlags, UInt16 LastEnableLoggerId)
+opcode: ''
+keywords: ETW_KEYWORD_PROVIDER ETW_KEYWORD_CAPTURE_STATE
+task: GUIDEntry
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: GUID
+- field_type: UInt32
+  field_name: FilterFlags
+- field_type: UInt16
+  field_name: LastEnableLoggerId

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Help
+event_id: '1002'
+version: '0'
+event(fields): NonPerfEvents1002(UnicodeString url)
+opcode: ''
+keywords: ''
+task: NonPerfEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: url

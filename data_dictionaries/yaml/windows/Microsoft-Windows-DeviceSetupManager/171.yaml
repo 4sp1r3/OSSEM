@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '171'
+version: '0'
+event(fields): task_0171(UnicodeString Prop_ProductId, UnicodeString Prop_InstallType,
+  UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_ProductId
+- field_type: UnicodeString
+  field_name: Prop_InstallType
+- field_type: UInt32
+  field_name: ErrorCode

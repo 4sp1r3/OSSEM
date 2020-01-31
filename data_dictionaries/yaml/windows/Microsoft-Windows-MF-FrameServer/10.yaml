@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-MF-FrameServer
+event_id: '10'
+version: '0'
+event(fields): FrameServerCaptureStatisticsStart(UInt32 StreamId, UInt32 StatSource,
+  UInt32 Flags, UInt64 Requests, UInt64 Input, UInt64 Output, UInt64 Dropped, Double
+  FrameDelayRMSAccumulator, UInt32 FrameDelayRMSCounter, UInt64 ExpectedFrameDelay,
+  HexInt32 hr, UnicodeString SymbolicLink)
+opcode: Start
+keywords: ''
+task: FrameServerCaptureStatistics
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StreamId
+- field_type: UInt32
+  field_name: StatSource
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt64
+  field_name: Requests
+- field_type: UInt64
+  field_name: Input
+- field_type: UInt64
+  field_name: Output
+- field_type: UInt64
+  field_name: Dropped
+- field_type: Double
+  field_name: FrameDelayRMSAccumulator
+- field_type: UInt32
+  field_name: FrameDelayRMSCounter
+- field_type: UInt64
+  field_name: ExpectedFrameDelay
+- field_type: HexInt32
+  field_name: hr
+- field_type: UnicodeString
+  field_name: SymbolicLink

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-OverlayFilter
+event_id: '24837'
+version: '0'
+event(fields): TheWindowsOverlayTaskCreateHashFile(UnicodeString wimHashFile, UnicodeString
+  wimFile)
+opcode: CreateHashFile
+keywords: ''
+task: TheWindowsOverlayTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: wimHashFile
+- field_type: UnicodeString
+  field_name: wimFile

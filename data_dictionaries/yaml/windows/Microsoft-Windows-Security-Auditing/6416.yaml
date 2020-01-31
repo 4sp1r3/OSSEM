@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '6416'
+version: '0'
+event(fields): task_06416(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, GUID ClassId, UnicodeString VendorIds,
+  UnicodeString CompatibleIds, UnicodeString LocationInformation)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: GUID
+  field_name: ClassId
+- field_type: UnicodeString
+  field_name: VendorIds
+- field_type: UnicodeString
+  field_name: CompatibleIds
+- field_type: UnicodeString
+  field_name: LocationInformation

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '147'
+version: '0'
+event(fields): TaskimagerecoveredafterOSmigration(UnicodeString TaskName)
+opcode: ''
+keywords: ''
+task: TaskimagerecoveredafterOSmigration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName

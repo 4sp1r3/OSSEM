@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2025'
+version: '0'
+event(fields): task_02025(UInt32 TrackingId)
+opcode: ''
+keywords: wpnend
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TrackingId

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7621'
+version: '0'
+event(fields): CertificateEnrollmentInformational7621(HexInt32 Error)
+opcode: Informational
+keywords: Internal
+task: CertificateEnrollment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '8009'
+version: '0'
+event(fields): Shutdown_LoadConfigFailed(UInt32 HResult)
+opcode: Failed
+keywords: ShutdownStatus
+task: Shutdown_LoadConfig
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HResult

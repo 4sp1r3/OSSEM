@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '4045'
+version: '0'
+event(fields): task_04045(Pointer Prop_ptr, Int32 Prop_int)
+opcode: ''
+keywords: Debug
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Prop_ptr
+- field_type: Int32
+  field_name: Prop_int

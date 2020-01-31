@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1029'
+version: '0'
+event(fields): InputPanelShowStart()
+opcode: Start
+keywords: WwaHost
+task: InputPanelShow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

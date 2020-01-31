@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IPSEC-SRV
+event_id: '106'
+version: '0'
+event(fields): ApplyDomainPolicyStop()
+opcode: Stop
+keywords: PolicyAgent
+task: ApplyDomainPolicy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

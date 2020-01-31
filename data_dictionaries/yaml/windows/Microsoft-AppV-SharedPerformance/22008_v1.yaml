@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '22008'
+version: '1'
+event(fields): ShellNotifyUnpinShortcutStart_V1()
+opcode: Start
+keywords: ''
+task: ShellNotifyUnpinShortcut
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

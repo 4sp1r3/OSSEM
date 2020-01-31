@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62401'
+version: '0'
+event(fields): CloudExperienceHost_AppActivityStop(UnicodeString Result)
+opcode: Stop
+keywords: Shell CloudExperienceHost
+task: CloudExperienceHost_AppActivity
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Result

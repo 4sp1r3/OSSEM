@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1006'
+version: '0'
+event(fields): MediaFoundationDispatchDelayedEventsStart(Pointer Bitpump, UInt32 Count)
+opcode: Start
+keywords: ''
+task: MediaFoundationDispatchDelayedEvents
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Bitpump
+- field_type: UInt32
+  field_name: Count

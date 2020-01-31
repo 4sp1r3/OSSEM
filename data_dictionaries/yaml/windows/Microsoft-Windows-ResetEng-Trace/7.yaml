@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ResetEng-Trace
+event_id: '7'
+version: '0'
+event(fields): PBR_InitialUiPhase7()
+opcode: ''
+keywords: ResetEngTrace
+task: PBR_InitialUiPhase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

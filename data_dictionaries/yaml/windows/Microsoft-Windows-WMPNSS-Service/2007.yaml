@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '2007'
+version: '0'
+event(fields): Svc_Query_MediaserverStart(Boolean IsAllowed, Boolean IsValidated,
+  UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Svc_Query_Mediaserver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsAllowed
+- field_type: Boolean
+  field_name: IsValidated
+- field_type: UInt32
+  field_name: ErrorCode

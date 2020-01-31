@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60302'
+version: '0'
+event(fields): TryHarder_Draw_AllStop()
+opcode: Stop
+keywords: Shell
+task: TryHarder_Draw_All
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

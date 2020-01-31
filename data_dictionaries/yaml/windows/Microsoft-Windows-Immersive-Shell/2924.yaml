@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2924'
+version: '0'
+event(fields): TDBN_AudioFlyout_DisplayStart()
+opcode: Start
+keywords: ''
+task: TDBN_AudioFlyout_Display
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

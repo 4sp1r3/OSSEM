@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-Poom
+event_id: '6005'
+version: '0'
+event(fields): SODA_ActivitySnapshot_MergeFeedStop()
+opcode: Stop
+keywords: Performance
+task: SODA_ActivitySnapshot_MergeFeed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

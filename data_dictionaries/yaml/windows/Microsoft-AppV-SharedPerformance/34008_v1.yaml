@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '34008'
+version: '1'
+event(fields): VFSprocessgetconfigurationStart_V1()
+opcode: Start
+keywords: ''
+task: VFSprocessgetconfiguration
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

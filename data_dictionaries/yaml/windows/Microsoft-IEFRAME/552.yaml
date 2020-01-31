@@ -1,0 +1,22 @@
+provider: Microsoft-IEFRAME
+event_id: '552'
+version: '0'
+event(fields): PinnedSites_OfferedImage(UnicodeString ImageUrl, UInt32 ImageType,
+  UInt32 DIType, UInt32 DIConfidence, UInt32 TileSize)
+opcode: ''
+keywords: ''
+task: PinnedSites_OfferedImage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ImageUrl
+- field_type: UInt32
+  field_name: ImageType
+- field_type: UInt32
+  field_name: DIType
+- field_type: UInt32
+  field_name: DIConfidence
+- field_type: UInt32
+  field_name: TileSize

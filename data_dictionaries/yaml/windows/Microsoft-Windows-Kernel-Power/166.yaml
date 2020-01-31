@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '166'
+version: '0'
+event(fields): SystemIdle166(UInt32 AccumulatedIdleTime, Boolean SystemIdle, UInt32
+  Flags, UInt32 Action, UInt32 MinState, UInt32 DozeS4Timeout)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SystemIdle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AccumulatedIdleTime
+- field_type: Boolean
+  field_name: SystemIdle
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Action
+- field_type: UInt32
+  field_name: MinState
+- field_type: UInt32
+  field_name: DozeS4Timeout

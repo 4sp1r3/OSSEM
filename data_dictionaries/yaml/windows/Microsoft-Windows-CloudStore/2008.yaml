@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-CloudStore
+event_id: '2008'
+version: '0'
+event(fields): task_02008(AnsiString QualifiedTypeName, UInt64 OriginalVersion, UInt64
+  TheirsVersion, UInt64 YoursVersion, UInt64 ResolvedVersion)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: QualifiedTypeName
+- field_type: UInt64
+  field_name: OriginalVersion
+- field_type: UInt64
+  field_name: TheirsVersion
+- field_type: UInt64
+  field_name: YoursVersion
+- field_type: UInt64
+  field_name: ResolvedVersion

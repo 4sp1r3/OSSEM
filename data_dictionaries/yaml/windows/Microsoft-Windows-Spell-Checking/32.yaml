@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Spell-Checking
+event_id: '32'
+version: '0'
+event(fields): SpellcheckingSend32()
+opcode: Send
+keywords: ''
+task: Spellchecking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

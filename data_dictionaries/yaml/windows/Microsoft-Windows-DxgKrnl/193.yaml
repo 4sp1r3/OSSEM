@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '193'
+version: '0'
+event(fields): Dxgk_Diag_OutputDupl_Destroy(UInt32 PacketIndex, UInt32 WdLogIndex,
+  UInt32 VidPnSourceId, UInt32 ContextIndex, UInt32 DestroyReason)
+opcode: ''
+keywords: Base
+task: Dxgk_Diag_OutputDupl_Destroy
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PacketIndex
+- field_type: UInt32
+  field_name: WdLogIndex
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: ContextIndex
+- field_type: UInt32
+  field_name: DestroyReason

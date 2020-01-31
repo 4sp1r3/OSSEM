@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Audio
+event_id: '136'
+version: '0'
+event(fields): Pump:YieldStart(Pointer PumpInstance, UInt32 uEventMask)
+opcode: Start
+keywords: ''
+task: Pump:Yield
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PumpInstance
+- field_type: UInt32
+  field_name: uEventMask

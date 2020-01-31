@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '7001'
+version: '1'
+event(fields): SettingChanges_V1(UInt32 Error)
+opcode: ''
+keywords: Settings
+task: SettingChanges
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error

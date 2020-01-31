@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '21005'
+version: '1'
+event(fields): ManifestWritingStop_V1()
+opcode: Stop
+keywords: ''
+task: ManifestWriting
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

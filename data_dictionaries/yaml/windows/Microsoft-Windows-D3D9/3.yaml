@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-D3D9
+event_id: '3'
+version: '0'
+event(fields): ResetStart(Pointer pSwapchain, UInt32 Width, UInt32 Height, UInt32
+  BackbufferFormat, UInt32 BackbufferCount, UInt32 SwapEffect, Boolean Windowed, UInt32
+  PresentationInterval, Boolean AdditionalSwapchain)
+opcode: Start
+keywords: Events
+task: Reset
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pSwapchain
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: BackbufferFormat
+- field_type: UInt32
+  field_name: BackbufferCount
+- field_type: UInt32
+  field_name: SwapEffect
+- field_type: Boolean
+  field_name: Windowed
+- field_type: UInt32
+  field_name: PresentationInterval
+- field_type: Boolean
+  field_name: AdditionalSwapchain

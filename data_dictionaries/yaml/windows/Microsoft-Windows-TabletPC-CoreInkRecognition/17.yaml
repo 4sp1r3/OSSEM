@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '17'
+version: '0'
+event(fields): RECO_API_DestroyWordListStart()
+opcode: Start
+keywords: ''
+task: RECO_API_DestroyWordList
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

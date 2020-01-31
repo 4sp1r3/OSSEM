@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '223'
+version: '0'
+event(fields): IoSpaceMemoryAllocationFailure(UInt32 Phase, UInt32 Status, UInt32
+  Tries, UInt32 RemainingNodesCount, Int16 RemainingNodes)
+opcode: AllocationFailure
+keywords: ''
+task: IoSpaceMemory
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Phase
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Tries
+- field_type: UInt32
+  field_name: RemainingNodesCount
+- field_type: Int16
+  field_name: RemainingNodes

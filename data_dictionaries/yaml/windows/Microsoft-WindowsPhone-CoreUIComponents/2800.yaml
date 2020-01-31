@@ -1,0 +1,19 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2800'
+version: '0'
+event(fields): TimeoutInfo(Boolean fBool1, Boolean fBool2, Boolean fBool3, Int32 Param)
+opcode: ''
+keywords: TimeoutInfo
+task: TimeoutInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fBool1
+- field_type: Boolean
+  field_name: fBool2
+- field_type: Boolean
+  field_name: fBool3
+- field_type: Int32
+  field_name: Param

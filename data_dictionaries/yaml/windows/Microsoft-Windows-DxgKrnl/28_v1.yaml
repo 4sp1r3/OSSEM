@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '28'
+version: '1'
+event(fields): DeviceStop_V1(Pointer hProcessId, Pointer pDxgAdapter, UInt32 ClientType,
+  Pointer hDevice, Boolean RequestVSync, Boolean DisableGpuTimeout, UInt32 hThunkHandle)
+opcode: Stop
+keywords: Resource LongHaul
+task: Device
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hProcessId
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: ClientType
+- field_type: Pointer
+  field_name: hDevice
+- field_type: Boolean
+  field_name: RequestVSync
+- field_type: Boolean
+  field_name: DisableGpuTimeout
+- field_type: UInt32
+  field_name: hThunkHandle

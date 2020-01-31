@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7422'
+version: '0'
+event(fields): ConnectedSearch_LogRequestSentStart()
+opcode: Start
+keywords: ''
+task: ConnectedSearch_LogRequestSent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

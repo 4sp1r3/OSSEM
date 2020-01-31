@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3032'
+version: '0'
+event(fields): ClearAllTilesStart()
+opcode: Start
+keywords: wpnui
+task: ClearAllTiles
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

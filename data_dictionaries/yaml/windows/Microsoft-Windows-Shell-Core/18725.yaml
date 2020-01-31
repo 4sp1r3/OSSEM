@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18725'
+version: '0'
+event(fields): Shell32_StartMenuQueryFactory_FilesStart()
+opcode: Start
+keywords: Shell
+task: Shell32_StartMenuQueryFactory_Files
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

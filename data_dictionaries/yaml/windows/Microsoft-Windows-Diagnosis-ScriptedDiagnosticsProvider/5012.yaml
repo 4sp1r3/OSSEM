@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '5012'
+version: '0'
+event(fields): task_05012(AnsiString Method, UInt32 Error)
+opcode: ''
+keywords: errors
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Method
+- field_type: UInt32
+  field_name: Error

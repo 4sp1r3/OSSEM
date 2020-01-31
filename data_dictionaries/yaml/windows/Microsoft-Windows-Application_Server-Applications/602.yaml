@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '602'
+version: '0'
+event(fields): task_0602(UnicodeString IncomingAddress, UnicodeString AppDomain)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: IncomingAddress
+- field_type: UnicodeString
+  field_name: AppDomain

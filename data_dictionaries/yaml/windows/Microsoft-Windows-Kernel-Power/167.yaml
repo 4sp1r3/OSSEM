@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '167'
+version: '0'
+event(fields): SystemIdle167(UInt32 Reason, Boolean S0LowPowerDozeTimerCancelled)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SystemIdle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: Boolean
+  field_name: S0LowPowerDozeTimerCancelled

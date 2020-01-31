@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19502'
+version: '0'
+event(fields): CDesktopFolder_ParseDisplayNameStop(UnicodeString Name, UInt32 HRESULT,
+  UInt64 PIDL_out, UInt32 HWND, UInt64 IBindCtx, UInt32 cbEaten, UInt32 dwAttributes)
+opcode: Stop
+keywords: Shell
+task: CDesktopFolder_ParseDisplayName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UInt64
+  field_name: PIDL_out
+- field_type: UInt32
+  field_name: HWND
+- field_type: UInt64
+  field_name: IBindCtx
+- field_type: UInt32
+  field_name: cbEaten
+- field_type: UInt32
+  field_name: dwAttributes

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '2003'
+version: '0'
+event(fields): task_02003(UInt32 SessionID, UInt32 TransactionID, UInt32 MTP_Response_Retrieval_HR_From_Transport,
+  UInt16 MTP_Response_Code, UInt32 MTP_Response_Param_count, UInt32 MTP_Response_Params)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionID
+- field_type: UInt32
+  field_name: TransactionID
+- field_type: UInt32
+  field_name: MTP_Response_Retrieval_HR_From_Transport
+- field_type: UInt16
+  field_name: MTP_Response_Code
+- field_type: UInt32
+  field_name: MTP_Response_Param_count
+- field_type: UInt32
+  field_name: MTP_Response_Params

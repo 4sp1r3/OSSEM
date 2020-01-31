@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '35001'
+version: '0'
+event(fields): CredUI_Prompt_Called()
+opcode: ''
+keywords: ''
+task: CredUI_Prompt_Called
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

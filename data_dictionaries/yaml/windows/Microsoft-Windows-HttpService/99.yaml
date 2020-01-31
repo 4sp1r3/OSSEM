@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HttpService
+event_id: '99'
+version: '0'
+event(fields): HTTPRequestTraceTaskHttp11Required(UInt32 Verb, UInt32 FaultCode)
+opcode: Http11Required
+keywords: HTTP_KEYWORD_REQUEST
+task: HTTPRequestTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Verb
+- field_type: UInt32
+  field_name: FaultCode

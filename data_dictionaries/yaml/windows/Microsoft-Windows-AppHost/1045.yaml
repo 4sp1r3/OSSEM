@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1045'
+version: '0'
+event(fields): InputPanelResizeViewportStart()
+opcode: Start
+keywords: WwaHost
+task: InputPanelResizeViewport
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

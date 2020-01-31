@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-StorPort
+event_id: '1'
+version: '1'
+event(fields): LogicalUnitresetOpCodeLUReset_V1(UInt32 PortNumber, UInt8 PathID, UInt8
+  TargetID, UInt8 LUN)
+opcode: OpCodeLUReset
+keywords: Reset
+task: LogicalUnitreset
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: PathID
+- field_type: UInt8
+  field_name: TargetID
+- field_type: UInt8
+  field_name: LUN

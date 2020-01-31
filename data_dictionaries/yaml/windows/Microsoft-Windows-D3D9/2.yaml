@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-D3D9
+event_id: '2'
+version: '0'
+event(fields): PresentStop(UInt32 Result)
+opcode: Stop
+keywords: Events
+task: Present
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

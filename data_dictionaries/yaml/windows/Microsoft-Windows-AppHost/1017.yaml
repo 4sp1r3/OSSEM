@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1017'
+version: '0'
+event(fields): Infrastructure.Host.UptimeStart()
+opcode: Start
+keywords: WwaHost
+task: Infrastructure.Host.Uptime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1010'
+version: '0'
+event(fields): DriverOperation1010(UInt32 ExpectedValue, UInt32 ActualValue)
+opcode: ''
+keywords: ''
+task: DriverOperation
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ExpectedValue
+- field_type: UInt32
+  field_name: ActualValue

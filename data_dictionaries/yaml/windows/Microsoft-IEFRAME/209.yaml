@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '209'
+version: '0'
+event(fields): DLM_Security_WVTStart()
+opcode: Start
+keywords: primarynav
+task: DLM_Security_WVT
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

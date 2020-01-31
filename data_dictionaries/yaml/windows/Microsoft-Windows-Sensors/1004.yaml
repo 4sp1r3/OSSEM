@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1004'
+version: '0'
+event(fields): SensPerf_Task_EventLatencyStop(UInt32 SensorType)
+opcode: Stop
+keywords: SensPerf
+task: SensPerf_Task_EventLatency
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SensorType

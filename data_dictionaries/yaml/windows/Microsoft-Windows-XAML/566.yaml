@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '566'
+version: '0'
+event(fields): SetNameOnCurrentInstanceStop()
+opcode: Stop
+keywords: Core
+task: SetNameOnCurrentInstance
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

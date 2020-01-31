@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '12'
+version: '0'
+event(fields): TraceMessage(Pointer Message)
+opcode: ''
+keywords: Error Selfhost
+task: TraceMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Message

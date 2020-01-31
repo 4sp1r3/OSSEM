@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '3004'
+version: '0'
+event(fields): task_03004(UInt32 Prop_Handle, UInt32 Prop_HRESULT, UInt32 Prop_UINT)
+opcode: ''
+keywords: Unified_Store
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_Handle
+- field_type: UInt32
+  field_name: Prop_HRESULT
+- field_type: UInt32
+  field_name: Prop_UINT

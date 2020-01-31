@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AAD
+event_id: '1118'
+version: '0'
+event(fields): AadCloudAPPluginOperation1118(HexInt32 Status, UnicodeString CorrelationID)
+opcode: ''
+keywords: Error Operational
+task: AadCloudAPPluginOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: CorrelationID

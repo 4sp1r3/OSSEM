@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '11002'
+version: '0'
+event(fields): Standby_ChangedState(UInt32 NewState)
+opcode: ''
+keywords: StandbyStatus
+task: Standby_ChangedState
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NewState

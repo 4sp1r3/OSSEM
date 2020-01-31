@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '29'
+version: '0'
+event(fields): AppInteractivityState29(UInt64 UniqueApplicationId, UInt32 InteractivityState)
+opcode: ''
+keywords: ''
+task: AppInteractivityState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueApplicationId
+- field_type: UInt32
+  field_name: InteractivityState

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27036'
+version: '0'
+event(fields): PerfTrack_Explorer_PicturesLibrary_Network_PageCompletedStop(UInt32
+  BrowserId, UInt32 ItemCount)
+opcode: Stop
+keywords: Shell
+task: PerfTrack_Explorer_PicturesLibrary_Network_PageCompleted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BrowserId
+- field_type: UInt32
+  field_name: ItemCount

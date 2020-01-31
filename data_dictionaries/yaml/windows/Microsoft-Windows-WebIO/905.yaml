@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WebIO
+event_id: '905'
+version: '0'
+event(fields): CloseProtocolHandleStart905(Pointer ApiObject, UInt64 ApiHandle, UInt64
+  Flags, UInt32 Error)
+opcode: Start
+keywords: Keyword.API
+task: CloseProtocolHandle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ApiObject
+- field_type: UInt64
+  field_name: ApiHandle
+- field_type: UInt64
+  field_name: Flags
+- field_type: UInt32
+  field_name: Error

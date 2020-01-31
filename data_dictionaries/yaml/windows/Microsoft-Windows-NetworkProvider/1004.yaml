@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-NetworkProvider
+event_id: '1004'
+version: '0'
+event(fields): UNCHardeningConfigurationUnsupportedPropertyName1004(UInt16 UncPathLength,
+  UnicodeString UncPath, UInt32 UncHardeningConfigurationLength, UnicodeString UncHardeningConfiguration,
+  UInt16 PropertyNameLength, UnicodeString PropertyName, UInt16 PropertyValueLength,
+  UnicodeString PropertyValue)
+opcode: UnsupportedPropertyName
+keywords: UncHardening
+task: UNCHardeningConfiguration
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: UncPathLength
+- field_type: UnicodeString
+  field_name: UncPath
+- field_type: UInt32
+  field_name: UncHardeningConfigurationLength
+- field_type: UnicodeString
+  field_name: UncHardeningConfiguration
+- field_type: UInt16
+  field_name: PropertyNameLength
+- field_type: UnicodeString
+  field_name: PropertyName
+- field_type: UInt16
+  field_name: PropertyValueLength
+- field_type: UnicodeString
+  field_name: PropertyValue

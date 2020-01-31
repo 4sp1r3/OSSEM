@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-LockScreenContent
+event_id: '64'
+version: '0'
+event(fields): LockScreenContent_Bucket_ImageVerification(Boolean MeetsLayoutConstraints,
+  Boolean MeetsTimeConstraints, Boolean MeetsSlideReuseConstraints)
+opcode: ''
+keywords: LockScreenContent
+task: LockScreenContent_Bucket_ImageVerification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: MeetsLayoutConstraints
+- field_type: Boolean
+  field_name: MeetsTimeConstraints
+- field_type: Boolean
+  field_name: MeetsSlideReuseConstraints

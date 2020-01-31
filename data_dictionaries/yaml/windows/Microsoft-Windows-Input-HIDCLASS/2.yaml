@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Input-HIDCLASS
+event_id: '2'
+version: '0'
+event(fields): HIDCLASSRundownStop()
+opcode: Stop
+keywords: Default
+task: HIDCLASSRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

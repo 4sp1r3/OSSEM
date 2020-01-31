@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '710'
+version: '0'
+event(fields): BAM_SanitizePackageUnregister(UnicodeString PackageFullName, UInt32
+  HRESULT)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular
+task: BAM_SanitizePackageUnregister
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UInt32
+  field_name: HRESULT

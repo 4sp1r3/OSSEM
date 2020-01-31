@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '8192'
+version: '0'
+event(fields): AddaSecurityCatalogtotheCatalogDatabaseStart(UnicodeString Subsystem,
+  UnicodeString FileName)
+opcode: Start
+keywords: Catalog
+task: AddaSecurityCatalogtotheCatalogDatabase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Subsystem
+- field_type: UnicodeString
+  field_name: FileName

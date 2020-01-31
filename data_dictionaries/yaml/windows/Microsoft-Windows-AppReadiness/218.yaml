@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '218'
+version: '0'
+event(fields): AppReadiness_User_ProcessTasks218(UnicodeString User, UnicodeString
+  Package, UInt32 Operation, Int32 Error, FILETIME AttemptAfter)
+opcode: ''
+keywords: User
+task: AppReadiness_User_ProcessTasks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: Package
+- field_type: UInt32
+  field_name: Operation
+- field_type: Int32
+  field_name: Error
+- field_type: FILETIME
+  field_name: AttemptAfter

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PDC
+event_id: '96'
+version: '0'
+event(fields): SpmClientInformationRundown(UInt32 ClientId, Boolean TestClient, UInt32
+  ClientNameLength, UnicodeString ClientName)
+opcode: ''
+keywords: SPM
+task: SpmClientInformationRundown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ClientId
+- field_type: Boolean
+  field_name: TestClient
+- field_type: UInt32
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName

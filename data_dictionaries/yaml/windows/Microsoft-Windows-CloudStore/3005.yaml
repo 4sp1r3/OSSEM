@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CloudStore
+event_id: '3005'
+version: '0'
+event(fields): task_03005(AnsiString Id, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Id
+- field_type: UInt32
+  field_name: ErrorCode

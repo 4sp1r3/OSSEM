@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2100'
+version: '0'
+event(fields): Picker_PickerLaunched(UInt32 PickerType, UInt32 Mode)
+opcode: ''
+keywords: ''
+task: Picker_PickerLaunched
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PickerType
+- field_type: UInt32
+  field_name: Mode

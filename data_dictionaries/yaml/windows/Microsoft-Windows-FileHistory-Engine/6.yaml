@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FileHistory-Engine
+event_id: '6'
+version: '0'
+event(fields): BackupAllFilesStop(Int64 TotalSize, UInt64 TotalFiles)
+opcode: Stop
+keywords: ''
+task: BackupAllFiles
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: TotalSize
+- field_type: UInt64
+  field_name: TotalFiles

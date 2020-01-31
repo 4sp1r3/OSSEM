@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Narrator
+event_id: '11'
+version: '0'
+event(fields): NarratorCommandGeneratedStart(Int32 Command)
+opcode: Start
+keywords: PerfInstrumentation
+task: NarratorCommandGenerated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Command

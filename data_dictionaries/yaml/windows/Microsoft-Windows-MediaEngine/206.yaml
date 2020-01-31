@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '206'
+version: '0'
+event(fields): EMEKeyMessageStop(UnicodeString sessionId)
+opcode: Stop
+keywords: ''
+task: EMEKeyMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: sessionId

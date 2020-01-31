@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '2300'
+version: '0'
+event(fields): task_02300(GUID SpaceId, UInt32 Operation, UInt32 Length, UInt64 DiskOffset,
+  UInt64 RelativeOffset, UInt64 CacheOffset, UInt32 Status)
+opcode: ''
+keywords: ReadCache
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SpaceId
+- field_type: UInt32
+  field_name: Operation
+- field_type: UInt32
+  field_name: Length
+- field_type: UInt64
+  field_name: DiskOffset
+- field_type: UInt64
+  field_name: RelativeOffset
+- field_type: UInt64
+  field_name: CacheOffset
+- field_type: UInt32
+  field_name: Status

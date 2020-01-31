@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '104'
+version: '0'
+event(fields): AppReadiness_Service(UInt32 Status, HexInt32 ExitCode)
+opcode: ''
+keywords: Service
+task: AppReadiness_Service
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: ExitCode

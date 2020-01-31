@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5007'
+version: '0'
+event(fields): UdwmProcessSetIconicThumbnailStart(Pointer hwnd)
+opcode: Start
+keywords: Udwm
+task: UdwmProcessSetIconicThumbnail
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwnd

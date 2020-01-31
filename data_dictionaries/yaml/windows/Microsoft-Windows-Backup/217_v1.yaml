@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-Backup
+event_id: '217'
+version: '1'
+event(fields): task_0217_V1(GUID BackupSetId, FILETIME BackupSetTime, GUID RestoreEventId,
+  UnicodeString FileRestoreTargetPath, Int32 RestoreState, HexInt32 HRESULT, HexInt32
+  DetailedHRESULT, UInt32 NumOfFiles, UnicodeString FilesInfo, FILETIME RestoreTime,
+  UnicodeString FileSuccessLogPath, UnicodeString FileFailureLogPath, UInt32 MountVhdTime,
+  UInt32 PreparePassTime, UInt32 WriteFilesTime, UnicodeString BackupLocation, UInt64
+  TotalDataTransferred)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BackupSetId
+- field_type: FILETIME
+  field_name: BackupSetTime
+- field_type: GUID
+  field_name: RestoreEventId
+- field_type: UnicodeString
+  field_name: FileRestoreTargetPath
+- field_type: Int32
+  field_name: RestoreState
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: HexInt32
+  field_name: DetailedHRESULT
+- field_type: UInt32
+  field_name: NumOfFiles
+- field_type: UnicodeString
+  field_name: FilesInfo
+- field_type: FILETIME
+  field_name: RestoreTime
+- field_type: UnicodeString
+  field_name: FileSuccessLogPath
+- field_type: UnicodeString
+  field_name: FileFailureLogPath
+- field_type: UInt32
+  field_name: MountVhdTime
+- field_type: UInt32
+  field_name: PreparePassTime
+- field_type: UInt32
+  field_name: WriteFilesTime
+- field_type: UnicodeString
+  field_name: BackupLocation
+- field_type: UInt64
+  field_name: TotalDataTransferred

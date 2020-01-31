@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14053'
+version: '1'
+event(fields): PublishPackageGroupFinalize_1027Start_V1()
+opcode: Start
+keywords: ''
+task: PublishPackageGroupFinalize_1027
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

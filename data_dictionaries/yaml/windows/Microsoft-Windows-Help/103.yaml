@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Help
+event_id: '103'
+version: '0'
+event(fields): ContentSessionDataRetrievalStop(UnicodeString url)
+opcode: Stop
+keywords: PerfEvent
+task: ContentSessionDataRetrieval
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: url

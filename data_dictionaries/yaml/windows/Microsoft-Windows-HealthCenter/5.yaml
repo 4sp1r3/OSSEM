@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '5'
+version: '0'
+event(fields): HealthCenter_SetState(UInt32 StateID, UnicodeString CanonicalName)
+opcode: ''
+keywords: ''
+task: HealthCenter_SetState
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StateID
+- field_type: UnicodeString
+  field_name: CanonicalName

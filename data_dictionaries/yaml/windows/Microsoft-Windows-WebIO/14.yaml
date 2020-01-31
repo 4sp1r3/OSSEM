@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WebIO
+event_id: '14'
+version: '0'
+event(fields): WebIOAPIStop14(UInt64 ApiHandle, AnsiString Api, UInt32 Result)
+opcode: Stop
+keywords: Keyword.API
+task: WebIOAPI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ApiHandle
+- field_type: AnsiString
+  field_name: Api
+- field_type: UInt32
+  field_name: Result

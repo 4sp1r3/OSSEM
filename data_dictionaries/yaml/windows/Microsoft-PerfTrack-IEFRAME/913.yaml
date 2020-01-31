@@ -1,0 +1,11 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '913'
+version: '0'
+event(fields): FlipAhead_RulesFileUpdateStart()
+opcode: Start
+keywords: ''
+task: FlipAhead_RulesFileUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

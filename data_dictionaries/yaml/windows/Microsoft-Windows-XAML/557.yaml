@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '557'
+version: '0'
+event(fields): SetValueOnCurrentInstanceStart()
+opcode: Start
+keywords: Core
+task: SetValueOnCurrentInstance
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

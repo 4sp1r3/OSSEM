@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62003'
+version: '0'
+event(fields): PlaylistFolder_DataSource_DocumentParseStart()
+opcode: Start
+keywords: Shell
+task: PlaylistFolder_DataSource_DocumentParse
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

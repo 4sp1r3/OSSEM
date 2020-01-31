@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-OneX
+event_id: '4'
+version: '0'
+event(fields): EAP(UInt32 PortId, UInt32 WinError, UInt32 ReasonCode, UInt8 EAPMethodType,
+  UnicodeString RootCauseString)
+opcode: ''
+keywords: EAP LwtDiagnostic ut:Authentication
+task: EAP
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId
+- field_type: UInt32
+  field_name: WinError
+- field_type: UInt32
+  field_name: ReasonCode
+- field_type: UInt8
+  field_name: EAPMethodType
+- field_type: UnicodeString
+  field_name: RootCauseString

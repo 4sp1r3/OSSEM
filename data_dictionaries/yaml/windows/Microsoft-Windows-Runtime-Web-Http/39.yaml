@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Web-Http
+event_id: '39'
+version: '0'
+event(fields): HttpCct39(UInt32 hresult, Int32 errorMessage)
+opcode: ''
+keywords: ''
+task: HttpCct
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hresult
+- field_type: Int32
+  field_name: errorMessage

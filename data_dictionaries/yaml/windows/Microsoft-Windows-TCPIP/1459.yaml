@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1459'
+version: '0'
+event(fields): FeatureFallback1459(Pointer Fallback, UInt32 Feature, UInt32 Failed,
+  UInt32 Succeeded, UInt32 InProbe, UInt32 PathsProbed, UInt32 Status)
+opcode: ''
+keywords: ut:Configuration
+task: FeatureFallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Fallback
+- field_type: UInt32
+  field_name: Feature
+- field_type: UInt32
+  field_name: Failed
+- field_type: UInt32
+  field_name: Succeeded
+- field_type: UInt32
+  field_name: InProbe
+- field_type: UInt32
+  field_name: PathsProbed
+- field_type: UInt32
+  field_name: Status

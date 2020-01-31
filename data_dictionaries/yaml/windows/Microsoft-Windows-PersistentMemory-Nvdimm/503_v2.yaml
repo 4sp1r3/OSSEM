@@ -1,0 +1,71 @@
+provider: Microsoft-Windows-PersistentMemory-Nvdimm
+event_id: '503'
+version: '2'
+event(fields): task_0503_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber,
+  AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString
+  Location, Boolean FatalStatus, Boolean CriticalStatus, Boolean NonCriticalStatus,
+  UInt32 SpareBlocksRemainingPercentage, UInt32 LifetimePercentageUsed, Boolean AlarmTrip_SpareBlocksRemaining,
+  Boolean AlarmTrip_MediaTemperature, Boolean AlarmTrip_ControllerTemperature, Int32
+  MediaTemperatureInMultiple, Int32 ControllerTemperatureInMultiple, UInt32 UnsafeShutdownCount,
+  UInt32 AitDramStatus, UInt32 LastShutdownStatus, UInt32 HealthCheckStatus, Boolean
+  IsEnergyBacked, UInt32 EnergySourceFailed, UInt32 EnergySourceHealthCheckStatus,
+  UInt32 VendorSpecificDataSize, Binary VendorSpecificData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: HexInt32
+  field_name: NfitHandle
+- field_type: UInt32
+  field_name: SlotNumber
+- field_type: AnsiString
+  field_name: VendorId
+- field_type: AnsiString
+  field_name: ProductId
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: UnicodeString
+  field_name: Location
+- field_type: Boolean
+  field_name: FatalStatus
+- field_type: Boolean
+  field_name: CriticalStatus
+- field_type: Boolean
+  field_name: NonCriticalStatus
+- field_type: UInt32
+  field_name: SpareBlocksRemainingPercentage
+- field_type: UInt32
+  field_name: LifetimePercentageUsed
+- field_type: Boolean
+  field_name: AlarmTrip_SpareBlocksRemaining
+- field_type: Boolean
+  field_name: AlarmTrip_MediaTemperature
+- field_type: Boolean
+  field_name: AlarmTrip_ControllerTemperature
+- field_type: Int32
+  field_name: MediaTemperatureInMultiple
+- field_type: Int32
+  field_name: ControllerTemperatureInMultiple
+- field_type: UInt32
+  field_name: UnsafeShutdownCount
+- field_type: UInt32
+  field_name: AitDramStatus
+- field_type: UInt32
+  field_name: LastShutdownStatus
+- field_type: UInt32
+  field_name: HealthCheckStatus
+- field_type: Boolean
+  field_name: IsEnergyBacked
+- field_type: UInt32
+  field_name: EnergySourceFailed
+- field_type: UInt32
+  field_name: EnergySourceHealthCheckStatus
+- field_type: UInt32
+  field_name: VendorSpecificDataSize
+- field_type: Binary
+  field_name: VendorSpecificData

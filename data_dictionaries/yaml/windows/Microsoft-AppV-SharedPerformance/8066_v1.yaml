@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8066'
+version: '1'
+event(fields): TransactionUndoStart_V1()
+opcode: Start
+keywords: ''
+task: TransactionUndo
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

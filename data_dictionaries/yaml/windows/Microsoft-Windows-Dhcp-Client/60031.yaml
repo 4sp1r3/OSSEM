@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '60031'
+version: '0'
+event(fields): AddressConfigurationStateEventCreateRenewTimerFailed(UInt32 StatusCode)
+opcode: CreateRenewTimerFailed
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StatusCode

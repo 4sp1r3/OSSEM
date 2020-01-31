@@ -1,0 +1,71 @@
+provider: Microsoft-Windows-ESE
+event_id: '120'
+version: '0'
+event(fields): ESE_IOCompletion_Trace(UInt64 iFile, UInt32 fMultiIor, UInt8 fWrite,
+  UInt32 UserId, UInt8 OperationId, UInt8 OperationType, UInt8 ClientType, UInt8 Flags,
+  UInt32 CorrelationId, UInt8 Iorp, UInt8 Iors, UInt8 Iort, UInt8 Ioru, UInt8 Iorf,
+  UInt8 ParentObjectClass, UInt64 ibOffset, UInt32 cbTransfer, UInt32 error, UInt32
+  qosHighestFirst, UInt64 cmsecIOElapsed, UInt32 dtickCompletionDelay, UInt32 tidAlloc,
+  UInt32 EngineFileType, UInt64 EngineFileId, UInt32 fmfFile, UInt32 DiskNumber, UInt32
+  dwEngineObjid)
+opcode: ''
+keywords: IO
+task: ESE_IOCompletion_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: iFile
+- field_type: UInt32
+  field_name: fMultiIor
+- field_type: UInt8
+  field_name: fWrite
+- field_type: UInt32
+  field_name: UserId
+- field_type: UInt8
+  field_name: OperationId
+- field_type: UInt8
+  field_name: OperationType
+- field_type: UInt8
+  field_name: ClientType
+- field_type: UInt8
+  field_name: Flags
+- field_type: UInt32
+  field_name: CorrelationId
+- field_type: UInt8
+  field_name: Iorp
+- field_type: UInt8
+  field_name: Iors
+- field_type: UInt8
+  field_name: Iort
+- field_type: UInt8
+  field_name: Ioru
+- field_type: UInt8
+  field_name: Iorf
+- field_type: UInt8
+  field_name: ParentObjectClass
+- field_type: UInt64
+  field_name: ibOffset
+- field_type: UInt32
+  field_name: cbTransfer
+- field_type: UInt32
+  field_name: error
+- field_type: UInt32
+  field_name: qosHighestFirst
+- field_type: UInt64
+  field_name: cmsecIOElapsed
+- field_type: UInt32
+  field_name: dtickCompletionDelay
+- field_type: UInt32
+  field_name: tidAlloc
+- field_type: UInt32
+  field_name: EngineFileType
+- field_type: UInt64
+  field_name: EngineFileId
+- field_type: UInt32
+  field_name: fmfFile
+- field_type: UInt32
+  field_name: DiskNumber
+- field_type: UInt32
+  field_name: dwEngineObjid

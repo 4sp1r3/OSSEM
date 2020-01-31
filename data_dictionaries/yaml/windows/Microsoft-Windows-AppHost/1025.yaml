@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1025'
+version: '0'
+event(fields): ResumingStart()
+opcode: Start
+keywords: WwaHost
+task: Resuming
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

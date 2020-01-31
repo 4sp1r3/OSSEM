@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1413'
+version: '0'
+event(fields): OpenSearch_PreConnectStart()
+opcode: Start
+keywords: Shell
+task: OpenSearch_PreConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

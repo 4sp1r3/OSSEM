@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '554'
+version: '0'
+event(fields): DirectedDripsDeviceStats(UInt8 CsSessionId, Pointer DeviceNode, UInt32
+  FriendlyNameLength, UnicodeString FriendlyName, UInt32 HardwareIdLength, UnicodeString
+  HardwareId, UInt32 DeviceClassNameLength, UnicodeString DeviceClassName, UInt32
+  DeviceClassGuidLength, UnicodeString DeviceClassGuid, UInt32 BroadcastTreeId, UInt32
+  DfxTransitionCount, UInt32 Ps4TransitionCount, UInt32 Flags)
+opcode: ''
+keywords: po:Diagnostic
+task: DirectedDripsDeviceStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: CsSessionId
+- field_type: Pointer
+  field_name: DeviceNode
+- field_type: UInt32
+  field_name: FriendlyNameLength
+- field_type: UnicodeString
+  field_name: FriendlyName
+- field_type: UInt32
+  field_name: HardwareIdLength
+- field_type: UnicodeString
+  field_name: HardwareId
+- field_type: UInt32
+  field_name: DeviceClassNameLength
+- field_type: UnicodeString
+  field_name: DeviceClassName
+- field_type: UInt32
+  field_name: DeviceClassGuidLength
+- field_type: UnicodeString
+  field_name: DeviceClassGuid
+- field_type: UInt32
+  field_name: BroadcastTreeId
+- field_type: UInt32
+  field_name: DfxTransitionCount
+- field_type: UInt32
+  field_name: Ps4TransitionCount
+- field_type: UInt32
+  field_name: Flags

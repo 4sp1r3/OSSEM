@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CertPolEng
+event_id: '27'
+version: '0'
+event(fields): task_027(GUID Provider, UInt32 LastError)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Provider
+- field_type: UInt32
+  field_name: LastError

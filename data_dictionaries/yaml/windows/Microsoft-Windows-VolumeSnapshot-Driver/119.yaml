@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-VolumeSnapshot-Driver
+event_id: '119'
+version: '0'
+event(fields): task_0Stop119(GUID TargetVolumeGuid, UInt16 PersistentDeleteReason,
+  HexInt32 PersistentDeleteStatus, HexInt32 SourceFile, UInt16 SourceLine, UInt32
+  SourceTag)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TargetVolumeGuid
+- field_type: UInt16
+  field_name: PersistentDeleteReason
+- field_type: HexInt32
+  field_name: PersistentDeleteStatus
+- field_type: HexInt32
+  field_name: SourceFile
+- field_type: UInt16
+  field_name: SourceLine
+- field_type: UInt32
+  field_name: SourceTag

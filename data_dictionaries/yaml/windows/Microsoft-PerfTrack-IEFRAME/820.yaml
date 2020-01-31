@@ -1,0 +1,11 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '820'
+version: '0'
+event(fields): Immersive_Travellog_PerftrackStart()
+opcode: Start
+keywords: nonPerfTrack
+task: Immersive_Travellog_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

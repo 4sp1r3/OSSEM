@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WMP
+event_id: '377'
+version: '0'
+event(fields): HME_UPnPDeviceAddedCallback(Pointer IUPnPDevice, UnicodeString UDN,
+  UnicodeString FriendlyName, UInt32 HRESULT)
+opcode: ''
+keywords: mediaplayer
+task: HME_UPnPDeviceAddedCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: IUPnPDevice
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: UnicodeString
+  field_name: FriendlyName
+- field_type: UInt32
+  field_name: HRESULT

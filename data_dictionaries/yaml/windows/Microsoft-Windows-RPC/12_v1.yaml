@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-RPC
+event_id: '12'
+version: '1'
+event(fields): DebugStart_V1(UInt32 ObjectType, UInt32 Operation, UInt64 Address,
+  UInt64 Data)
+opcode: Start
+keywords: ''
+task: Debug
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ObjectType
+- field_type: UInt32
+  field_name: Operation
+- field_type: UInt64
+  field_name: Address
+- field_type: UInt64
+  field_name: Data

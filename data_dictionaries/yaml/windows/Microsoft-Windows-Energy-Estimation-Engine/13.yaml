@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '13'
+version: '0'
+event(fields): MergeStatsEnergyEstimate(UnicodeString AppName, UInt16 UserId, UInt64
+  CpuEnergy, UInt64 SocEnergy, UInt64 DisplayEnergy, UInt64 DiskEnergy, UInt64 NetworkEnergy,
+  UInt64 MbbEnergy, UInt64 OtherEnergy, UInt32 RecordFlags)
+opcode: EnergyEstimate
+keywords: EnergyEstimation
+task: MergeStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppName
+- field_type: UInt16
+  field_name: UserId
+- field_type: UInt64
+  field_name: CpuEnergy
+- field_type: UInt64
+  field_name: SocEnergy
+- field_type: UInt64
+  field_name: DisplayEnergy
+- field_type: UInt64
+  field_name: DiskEnergy
+- field_type: UInt64
+  field_name: NetworkEnergy
+- field_type: UInt64
+  field_name: MbbEnergy
+- field_type: UInt64
+  field_name: OtherEnergy
+- field_type: UInt32
+  field_name: RecordFlags

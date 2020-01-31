@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TSF-msutb
+event_id: '1'
+version: '0'
+event(fields): CreateLanguageBarStart(UInt32 param)
+opcode: Start
+keywords: Perf
+task: CreateLanguageBar
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: param

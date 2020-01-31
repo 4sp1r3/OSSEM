@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Narrator
+event_id: '9'
+version: '0'
+event(fields): ModeChange(Int32 NewMode)
+opcode: ''
+keywords: PerfInstrumentation
+task: ModeChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: NewMode

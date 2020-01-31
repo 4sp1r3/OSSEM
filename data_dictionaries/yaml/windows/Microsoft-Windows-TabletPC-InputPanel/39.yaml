@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '39'
+version: '0'
+event(fields): KeyboardUI_KeyBoardLKeyPaintStart()
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: KeyboardUI_KeyBoardLKeyPaint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

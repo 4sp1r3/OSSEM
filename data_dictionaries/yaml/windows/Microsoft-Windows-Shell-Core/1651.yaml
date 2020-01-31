@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1651'
+version: '0'
+event(fields): ShellTask_Library_CommitScopeChangesThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_Library_CommitScopeChangesThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1499'
+version: '0'
+event(fields): IpTemporaryAddressCreation(UInt32 IfIndex, UInt32 IPv4Address, UInt32
+  IpAddrLength, Binary IPv6Address)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis keyword_80000000000
+task: IpTemporaryAddressCreation
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: IPv4Address
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: Binary
+  field_name: IPv6Address

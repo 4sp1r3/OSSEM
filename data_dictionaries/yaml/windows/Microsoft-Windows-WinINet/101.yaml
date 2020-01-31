@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-WinINet
+event_id: '101'
+version: '0'
+event(fields): WININET_ROOT_HANDLE_CREATED(Pointer HINTERNET, UInt16 _UserAgentLength,
+  AnsiString UserAgent, UInt16 _AccessTypeLength, AnsiString AccessType, UInt16 _ProxyListLength,
+  AnsiString ProxyList, UInt16 _ProxyBypassListLength, AnsiString ProxyBypassList,
+  UInt32 Flags)
+opcode: ''
+keywords: WININET_KEYWORD_HANDLES
+task: WININET_ROOT_HANDLE_CREATED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HINTERNET
+- field_type: UInt16
+  field_name: _UserAgentLength
+- field_type: AnsiString
+  field_name: UserAgent
+- field_type: UInt16
+  field_name: _AccessTypeLength
+- field_type: AnsiString
+  field_name: AccessType
+- field_type: UInt16
+  field_name: _ProxyListLength
+- field_type: AnsiString
+  field_name: ProxyList
+- field_type: UInt16
+  field_name: _ProxyBypassListLength
+- field_type: AnsiString
+  field_name: ProxyBypassList
+- field_type: UInt32
+  field_name: Flags

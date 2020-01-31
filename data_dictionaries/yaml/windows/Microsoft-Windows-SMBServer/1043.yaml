@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1043'
+version: '0'
+event(fields): task_01043(UInt64 CloseOperationDurationInMillieconds, UInt32 TransportNameLength,
+  UnicodeString TransportName, UInt8 EndpointShutdown, UInt8 EndpointRemoved)
+opcode: ''
+keywords: Operational
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CloseOperationDurationInMillieconds
+- field_type: UInt32
+  field_name: TransportNameLength
+- field_type: UnicodeString
+  field_name: TransportName
+- field_type: UInt8
+  field_name: EndpointShutdown
+- field_type: UInt8
+  field_name: EndpointRemoved

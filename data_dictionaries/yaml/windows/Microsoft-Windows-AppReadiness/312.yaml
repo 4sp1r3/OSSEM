@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '312'
+version: '0'
+event(fields): AppReadiness_ExecuteTask312(UnicodeString User, UInt32 Source, UInt32
+  NumPackages, UnicodeString PackageFamilyName)
+opcode: ''
+keywords: Tasks
+task: AppReadiness_ExecuteTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UInt32
+  field_name: Source
+- field_type: UInt32
+  field_name: NumPackages
+- field_type: UnicodeString
+  field_name: PackageFamilyName

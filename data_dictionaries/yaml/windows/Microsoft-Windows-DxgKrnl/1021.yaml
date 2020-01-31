@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1021'
+version: '0'
+event(fields): MiracastUmdDriverCreateMiracastContextStop(UInt64 MiracastLuid, Pointer
+  hMiracastDeviceHandle, Pointer pMiracastCallbacks, UInt32 ReturnStatus)
+opcode: Stop
+keywords: Miracast
+task: MiracastUmdDriverCreateMiracastContext
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: Pointer
+  field_name: hMiracastDeviceHandle
+- field_type: Pointer
+  field_name: pMiracastCallbacks
+- field_type: UInt32
+  field_name: ReturnStatus

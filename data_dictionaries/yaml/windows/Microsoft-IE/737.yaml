@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '737'
+version: '0'
+event(fields): Mshtml_WebOCEvents_NavigateRedirected(Pointer CMarkup, UnicodeString
+  RedirectURL, UInt32 StatusCode, Boolean Canceled)
+opcode: ''
+keywords: webocevents
+task: Mshtml_WebOCEvents_NavigateRedirected
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMarkup
+- field_type: UnicodeString
+  field_name: RedirectURL
+- field_type: UInt32
+  field_name: StatusCode
+- field_type: Boolean
+  field_name: Canceled

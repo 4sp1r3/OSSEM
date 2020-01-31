@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '828'
+version: '0'
+event(fields): TabWindowManager_DehydrateTabsOnSuspend_PerftrackStart(UInt64 Object)
+opcode: Start
+keywords: nonPerfTrack
+task: TabWindowManager_DehydrateTabsOnSuspend_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

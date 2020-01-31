@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMP
+event_id: '413'
+version: '0'
+event(fields): PLAYTOMENU_ENUMERATIONStop(UInt32 numberofDMRsFound, UInt32 result,
+  UInt32 failureReason)
+opcode: Stop
+keywords: mediaplayer
+task: PLAYTOMENU_ENUMERATION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: numberofDMRsFound
+- field_type: UInt32
+  field_name: result
+- field_type: UInt32
+  field_name: failureReason

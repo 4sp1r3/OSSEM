@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AAD
+event_id: '1092'
+version: '0'
+event(fields): AadCloudAPPluginOperation1092(UnicodeString CorrelationID, Int32 RetryNumber)
+opcode: ''
+keywords: Operational Warning
+task: AadCloudAPPluginOperation
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CorrelationID
+- field_type: Int32
+  field_name: RetryNumber

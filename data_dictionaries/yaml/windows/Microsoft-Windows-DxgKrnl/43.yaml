@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '43'
+version: '0'
+event(fields): ReferenceAllocations(Pointer hContext, Pointer pDmaBuffer, UInt32 uiNbAllocations,
+  Pointer Allocations, Boolean Write)
+opcode: ''
+keywords: References
+task: ReferenceAllocations
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: Pointer
+  field_name: pDmaBuffer
+- field_type: UInt32
+  field_name: uiNbAllocations
+- field_type: Pointer
+  field_name: Allocations
+- field_type: Boolean
+  field_name: Write

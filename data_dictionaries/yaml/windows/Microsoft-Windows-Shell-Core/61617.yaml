@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61617'
+version: '0'
+event(fields): DataPackage_SetTextStop()
+opcode: Stop
+keywords: Shell
+task: DataPackage_SetText
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3116'
+version: '0'
+event(fields): AFCMakeActivityStart()
+opcode: Start
+keywords: wpnui
+task: AFCMakeActivity
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '42'
+version: '0'
+event(fields): TransformCreation42(HexInt32 HXform)
+opcode: ''
+keywords: ''
+task: TransformCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HXform

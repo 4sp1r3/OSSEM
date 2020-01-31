@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-CFE
+event_id: '18'
+version: '0'
+event(fields): WWAN_CFE_FAIL()
+opcode: ''
+keywords: Wwan_Performance
+task: WWAN_CFE_FAIL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

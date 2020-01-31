@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '396'
+version: '0'
+event(fields): Bundlemanifest396(HexInt32 errorCode, UnicodeString currentFileName,
+  UnicodeString currentPackageFullName, UnicodeString attributeName, UnicodeString
+  expectedValue)
+opcode: ''
+keywords: ''
+task: Bundlemanifest
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: currentFileName
+- field_type: UnicodeString
+  field_name: currentPackageFullName
+- field_type: UnicodeString
+  field_name: attributeName
+- field_type: UnicodeString
+  field_name: expectedValue

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DXGI
+event_id: '2'
+version: '0'
+event(fields): FactoryStop(Pointer pIDXGIFactory, UInt32 Mode, UInt32 BlockedAdapters,
+  UnicodeString PnPID, UnicodeString DriverVersion)
+opcode: Stop
+keywords: Objects
+task: Factory
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGIFactory
+- field_type: UInt32
+  field_name: Mode
+- field_type: UInt32
+  field_name: BlockedAdapters
+- field_type: UnicodeString
+  field_name: PnPID
+- field_type: UnicodeString
+  field_name: DriverVersion

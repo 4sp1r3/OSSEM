@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1641'
+version: '0'
+event(fields): ShellTask_Library_ShareUnshareLocationThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_Library_ShareUnshareLocationThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

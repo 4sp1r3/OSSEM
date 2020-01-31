@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '23'
+version: '0'
+event(fields): KMDDeviceCreateStop()
+opcode: Stop
+keywords: Devices
+task: KMDDeviceCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

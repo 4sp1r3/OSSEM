@@ -1,0 +1,11 @@
+provider: LsaSrv
+event_id: '40964'
+version: '0'
+event(fields): task_040964()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

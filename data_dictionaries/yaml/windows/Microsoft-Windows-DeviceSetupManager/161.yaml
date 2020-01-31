@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '161'
+version: '0'
+event(fields): task_0161(UnicodeString Prop_SoftwareName, UInt32 Prop_HiHighPartNew,
+  UInt32 Prop_LoHighPartNew, UInt32 Prop_HiLowPartNew, UInt32 Prop_LoLowPartNew, UInt32
+  Prop_HiHighPartOld, UInt32 Prop_LoHighPartOld, UInt32 Prop_HiLowPartOld, UInt32
+  Prop_LoLowPartOld)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_SoftwareName
+- field_type: UInt32
+  field_name: Prop_HiHighPartNew
+- field_type: UInt32
+  field_name: Prop_LoHighPartNew
+- field_type: UInt32
+  field_name: Prop_HiLowPartNew
+- field_type: UInt32
+  field_name: Prop_LoLowPartNew
+- field_type: UInt32
+  field_name: Prop_HiHighPartOld
+- field_type: UInt32
+  field_name: Prop_LoHighPartOld
+- field_type: UInt32
+  field_name: Prop_HiLowPartOld
+- field_type: UInt32
+  field_name: Prop_LoLowPartOld

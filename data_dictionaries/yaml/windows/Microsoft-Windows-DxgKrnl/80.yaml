@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '80'
+version: '0'
+event(fields): ReportCommittedAllocation(Pointer hProcessId, Pointer hDevice, Pointer
+  hAllocationHandle, Boolean Pinned, Boolean EvictionResource, UInt64 Size, UInt32
+  ulSegmentId, UInt64 SegmentOffset)
+opcode: ''
+keywords: Base
+task: ReportCommittedAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hProcessId
+- field_type: Pointer
+  field_name: hDevice
+- field_type: Pointer
+  field_name: hAllocationHandle
+- field_type: Boolean
+  field_name: Pinned
+- field_type: Boolean
+  field_name: EvictionResource
+- field_type: UInt64
+  field_name: Size
+- field_type: UInt32
+  field_name: ulSegmentId
+- field_type: UInt64
+  field_name: SegmentOffset

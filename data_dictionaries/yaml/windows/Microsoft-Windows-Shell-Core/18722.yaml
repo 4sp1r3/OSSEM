@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18722'
+version: '0'
+event(fields): Shell32_StartMenuQueryFactory_Internet_FavoritesStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_StartMenuQueryFactory_Internet_Favorites
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

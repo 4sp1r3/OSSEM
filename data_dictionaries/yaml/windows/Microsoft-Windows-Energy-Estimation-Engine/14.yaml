@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '14'
+version: '0'
+event(fields): QueryStatsCpuPowerInfo(UInt32 CpuId, UInt8 CurrentFrequency, UInt8
+  LastBusyFrequency, UInt64 Energy)
+opcode: CpuPowerInfo
+keywords: SystemInformation
+task: QueryStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CpuId
+- field_type: UInt8
+  field_name: CurrentFrequency
+- field_type: UInt8
+  field_name: LastBusyFrequency
+- field_type: UInt64
+  field_name: Energy

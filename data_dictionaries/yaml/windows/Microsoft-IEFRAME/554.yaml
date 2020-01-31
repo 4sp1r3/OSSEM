@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '554'
+version: '0'
+event(fields): TabRoaming_DeleteInvalidOrExpiredTabFile()
+opcode: ''
+keywords: roaming
+task: TabRoaming_DeleteInvalidOrExpiredTabFile
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

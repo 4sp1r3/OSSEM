@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1236'
+version: '0'
+event(fields): RssProcessorUnassignment(UInt32 PreviousAdapterIndex, UInt32 ProcessorIndex)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Rss ut:Global
+task: RssProcessorUnassignment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PreviousAdapterIndex
+- field_type: UInt32
+  field_name: ProcessorIndex

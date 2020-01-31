@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '4028'
+version: '0'
+event(fields): task_04028(HexInt32 Status)
+opcode: ''
+keywords: LwtDiagnostic
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

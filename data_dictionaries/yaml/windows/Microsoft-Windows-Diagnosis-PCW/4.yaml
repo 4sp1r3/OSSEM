@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Diagnosis-PCW
+event_id: '4'
+version: '0'
+event(fields): task_04(GUID ProviderGuid, UInt32 CallbackReason, UnicodeString MachineName,
+  UInt32 MachineNameSize)
+opcode: ''
+keywords: callouts
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderGuid
+- field_type: UInt32
+  field_name: CallbackReason
+- field_type: UnicodeString
+  field_name: MachineName
+- field_type: UInt32
+  field_name: MachineNameSize

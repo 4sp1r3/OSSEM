@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '12037'
+version: '1'
+event(fields): ConnectTobeusedwhenoperationisjustexecutingamethod12037_V1()
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: Runspace
+task: Connect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

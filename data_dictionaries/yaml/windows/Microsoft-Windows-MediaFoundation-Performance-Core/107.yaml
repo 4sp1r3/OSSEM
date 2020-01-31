@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '107'
+version: '0'
+event(fields): AudStreamSink_SubmitSilence_TaskStart(Pointer object, Int32 dwSamples)
+opcode: Start
+keywords: ''
+task: AudStreamSink_SubmitSilence_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: dwSamples

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1024'
+version: '0'
+event(fields): SrvSmb2Disabled()
+opcode: ''
+keywords: Operational
+task: SrvSmb2Disabled
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

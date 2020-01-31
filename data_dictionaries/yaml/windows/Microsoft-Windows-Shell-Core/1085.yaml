@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1085'
+version: '0'
+event(fields): DataLayer_CollectionCountTaskPending(UInt32 Type, UInt32 Cookie)
+opcode: ''
+keywords: Shell
+task: DataLayer_CollectionCountTaskPending
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Cookie

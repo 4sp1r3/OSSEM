@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '707'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment707(UInt32 DeploymentOperation,
+  UnicodeString PackageFullName, UnicodeString Path, HexInt32 ErrorCode)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeploymentOperation
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: Path
+- field_type: HexInt32
+  field_name: ErrorCode

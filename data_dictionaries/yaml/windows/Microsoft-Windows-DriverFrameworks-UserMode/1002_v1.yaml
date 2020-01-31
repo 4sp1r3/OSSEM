@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '1002'
+version: '1'
+event(fields): Startupofthedrivermanagerservice.Stop1002_V1()
+opcode: Stop
+keywords: ''
+task: Startupofthedrivermanagerservice.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

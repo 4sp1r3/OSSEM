@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorPort
+event_id: '11'
+version: '1'
+event(fields): PortresumedeviceOpCodePortResumeDevice_V1(Pointer MiniportExtension,
+  UInt32 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN)
+opcode: OpCodePortResumeDevice
+keywords: PauseResume
+task: Portresumedevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportExtension
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: PathID
+- field_type: UInt8
+  field_name: TargetID
+- field_type: UInt8
+  field_name: LUN

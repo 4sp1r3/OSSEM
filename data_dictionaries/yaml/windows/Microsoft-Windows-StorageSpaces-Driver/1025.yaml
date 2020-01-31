@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1025'
+version: '0'
+event(fields): task_01025(GUID SpaceId, UInt8 Operation, UInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SpaceId
+- field_type: UInt8
+  field_name: Operation
+- field_type: UInt32
+  field_name: Status

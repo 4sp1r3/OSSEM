@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '72'
+version: '0'
+event(fields): ExtensionCloseDWStop(GUID CLSID)
+opcode: Stop
+keywords: primarynav
+task: ExtensionCloseDW
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CLSID

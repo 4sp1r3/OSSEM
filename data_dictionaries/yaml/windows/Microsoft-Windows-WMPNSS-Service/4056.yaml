@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4056'
+version: '0'
+event(fields): WMP_On_Content_Prov_AddedStart(Pointer Address, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: WMP_On_Content_Prov_Added
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Address
+- field_type: UInt32
+  field_name: ErrorCode

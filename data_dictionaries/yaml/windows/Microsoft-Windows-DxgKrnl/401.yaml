@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '401'
+version: '0'
+event(fields): DestroyDisplayedAllocation(Pointer pDxgAdapter, Pointer Allocation,
+  UInt32 VidPnSourceId, UInt32 PlaneIndex, Boolean VidPnSourceVisibilty)
+opcode: ''
+keywords: Base
+task: DestroyDisplayedAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: Allocation
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: PlaneIndex
+- field_type: Boolean
+  field_name: VidPnSourceVisibilty

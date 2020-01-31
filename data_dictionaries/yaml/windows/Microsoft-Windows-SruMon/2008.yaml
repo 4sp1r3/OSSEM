@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SruMon
+event_id: '2008'
+version: '0'
+event(fields): SruMonDebugSequenceTrace2008(UnicodeString _Status)
+opcode: ''
+keywords: KeywordSruMonDebugSequenceTrace KeywordSruMonDebugSequenceErrorTrace
+task: SruMonDebugSequenceTrace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: _Status

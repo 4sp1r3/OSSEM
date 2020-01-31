@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '129'
+version: '0'
+event(fields): FirewallAppContainerCreationStop129(UnicodeString AppContainerName)
+opcode: Stop
+keywords: AppContainer
+task: FirewallAppContainerCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppContainerName

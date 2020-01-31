@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1615'
+version: '0'
+event(fields): ShellTask_CDBurn_EraseThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_CDBurn_EraseThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

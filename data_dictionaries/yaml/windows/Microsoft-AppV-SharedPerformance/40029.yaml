@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40029'
+version: '0'
+event(fields): VReg.DeleteValueStop()
+opcode: Stop
+keywords: ''
+task: VReg.DeleteValue
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

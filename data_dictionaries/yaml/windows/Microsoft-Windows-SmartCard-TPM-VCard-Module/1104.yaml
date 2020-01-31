@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SmartCard-TPM-VCard-Module
+event_id: '1104'
+version: '0'
+event(fields): task_01104(UInt32 WinError)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WinError

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-NTLM
+event_id: '100'
+version: '0'
+event(fields): task_0(UnicodeString AccountName, UnicodeString DeviceName, HexInt32
+  Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AccountName
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: HexInt32
+  field_name: Status

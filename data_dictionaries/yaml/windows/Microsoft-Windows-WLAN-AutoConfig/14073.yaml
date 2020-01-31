@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14073'
+version: '0'
+event(fields): task_014073(UInt8 RecoveryType, UInt8 EventType, HexInt32 EventData)
+opcode: ''
+keywords: State
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: RecoveryType
+- field_type: UInt8
+  field_name: EventType
+- field_type: HexInt32
+  field_name: EventData

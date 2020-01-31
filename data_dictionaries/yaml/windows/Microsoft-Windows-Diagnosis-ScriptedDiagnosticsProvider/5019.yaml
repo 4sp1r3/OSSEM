@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '5019'
+version: '0'
+event(fields): task_05019(UInt32 Parameter, UnicodeString Value)
+opcode: ''
+keywords: search
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Parameter
+- field_type: UnicodeString
+  field_name: Value

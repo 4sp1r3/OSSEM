@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '3'
+version: '0'
+event(fields): LoadFileStart()
+opcode: Start
+keywords: Reader
+task: LoadFile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

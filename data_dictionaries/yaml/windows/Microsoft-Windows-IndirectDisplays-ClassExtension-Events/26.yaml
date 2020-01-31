@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '26'
+version: '0'
+event(fields): SwapChainReportFrameStatistics(Pointer SwapChainPointer, UInt32 PresentationFrameNumber,
+  UInt32 FrameStatus, UInt32 ReencodeNumber, UInt32 FrameSliceTotal, UInt32 CurrentSlice,
+  UInt64 FrameAcquireQpcTime, UInt32 FrameProcessingStepsCount, UInt64 SendStartQpcTime,
+  UInt64 SendStopQpcTime, UInt64 SendCompleteQpcTime, UInt32 Flags, UInt32 ProcessedPixelCount,
+  UInt32 FrameSizeInBytes)
+opcode: ReportFrameStatistics
+keywords: DdiCallbacks
+task: SwapChain
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SwapChainPointer
+- field_type: UInt32
+  field_name: PresentationFrameNumber
+- field_type: UInt32
+  field_name: FrameStatus
+- field_type: UInt32
+  field_name: ReencodeNumber
+- field_type: UInt32
+  field_name: FrameSliceTotal
+- field_type: UInt32
+  field_name: CurrentSlice
+- field_type: UInt64
+  field_name: FrameAcquireQpcTime
+- field_type: UInt32
+  field_name: FrameProcessingStepsCount
+- field_type: UInt64
+  field_name: SendStartQpcTime
+- field_type: UInt64
+  field_name: SendStopQpcTime
+- field_type: UInt64
+  field_name: SendCompleteQpcTime
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ProcessedPixelCount
+- field_type: UInt32
+  field_name: FrameSizeInBytes

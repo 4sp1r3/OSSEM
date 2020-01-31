@@ -1,0 +1,54 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '40002'
+version: '0'
+event(fields): AcmConnection40002(GUID InterfaceGuid, UInt32 DisconnectExtensions,
+  UInt32 RoamExtensions, UInt32 SuspectDurationMs, Boolean BssidChanged, UInt32 DetectionLinkQuality,
+  UInt32 CurrentLinkQuality, Int32 MacTxUnicastCount, Int32 MacRxUnicastCount, Int32
+  MacRxMulticastCount, Int32 MacRxUnicastDecryptSuccess, Int32 MacRxUnicastDecryptFailure,
+  Int32 PhyTxFailedCount, Int32 PhyTxFrameCount, Int32 PhyTxRetryCount, Int32 PhyRxFrameCount,
+  Int32 PhyRxFcsErrorCount, UInt32 CurrentTxRate, UInt32 CurrentRxRate)
+opcode: ''
+keywords: LwtDiagnostic
+task: AcmConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: DisconnectExtensions
+- field_type: UInt32
+  field_name: RoamExtensions
+- field_type: UInt32
+  field_name: SuspectDurationMs
+- field_type: Boolean
+  field_name: BssidChanged
+- field_type: UInt32
+  field_name: DetectionLinkQuality
+- field_type: UInt32
+  field_name: CurrentLinkQuality
+- field_type: Int32
+  field_name: MacTxUnicastCount
+- field_type: Int32
+  field_name: MacRxUnicastCount
+- field_type: Int32
+  field_name: MacRxMulticastCount
+- field_type: Int32
+  field_name: MacRxUnicastDecryptSuccess
+- field_type: Int32
+  field_name: MacRxUnicastDecryptFailure
+- field_type: Int32
+  field_name: PhyTxFailedCount
+- field_type: Int32
+  field_name: PhyTxFrameCount
+- field_type: Int32
+  field_name: PhyTxRetryCount
+- field_type: Int32
+  field_name: PhyRxFrameCount
+- field_type: Int32
+  field_name: PhyRxFcsErrorCount
+- field_type: UInt32
+  field_name: CurrentTxRate
+- field_type: UInt32
+  field_name: CurrentRxRate

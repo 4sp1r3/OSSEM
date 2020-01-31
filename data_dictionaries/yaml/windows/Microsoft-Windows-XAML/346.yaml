@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '346'
+version: '0'
+event(fields): DCompCreateTransform(UInt64 TransformMainDevice, UInt64 TransformSecondaryDevice)
+opcode: ''
+keywords: DComp
+task: DCompCreateTransform
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TransformMainDevice
+- field_type: UInt64
+  field_name: TransformSecondaryDevice

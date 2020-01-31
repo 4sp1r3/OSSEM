@@ -1,0 +1,24 @@
+provider: Microsoft-AppV-Client
+event_id: '10001'
+version: '1'
+event(fields): SubsystemStartup_V1(UInt32 PID, GUID Package, GUID Version, UnicodeString
+  SubsystemName, UInt32 ErrorHigh, UInt32 ErrorLow)
+opcode: ''
+keywords: Subsystems
+task: SubsystemStartup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PID
+- field_type: GUID
+  field_name: Package
+- field_type: GUID
+  field_name: Version
+- field_type: UnicodeString
+  field_name: SubsystemName
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow

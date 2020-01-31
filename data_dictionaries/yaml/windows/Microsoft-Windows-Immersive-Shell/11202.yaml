@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11202'
+version: '0'
+event(fields): Accounts_LoadAppWidgets(UInt32 Result)
+opcode: ''
+keywords: ''
+task: Accounts_LoadAppWidgets
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

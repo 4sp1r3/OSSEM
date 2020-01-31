@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxpTaskSyncProvider
+event_id: '348'
+version: '0'
+event(fields): DxpTaskSync_InitErrorPageStart()
+opcode: Start
+keywords: ''
+task: DxpTaskSync_InitErrorPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

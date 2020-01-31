@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '6404'
+version: '0'
+event(fields): task_06404(UnicodeString HostedCacheName, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HostedCacheName
+- field_type: UInt32
+  field_name: ErrorCode

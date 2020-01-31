@@ -1,0 +1,24 @@
+provider: Microsoft-IE
+event_id: '536'
+version: '0'
+event(fields): Mshtml_DMTouchTarget_SetContentRect(Int32 left, Int32 top, Int32 right,
+  Int32 bottom, Pointer TouchTarget, UInt32 Scenario)
+opcode: ''
+keywords: mshtml
+task: Mshtml_DMTouchTarget_SetContentRect
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: left
+- field_type: Int32
+  field_name: top
+- field_type: Int32
+  field_name: right
+- field_type: Int32
+  field_name: bottom
+- field_type: Pointer
+  field_name: TouchTarget
+- field_type: UInt32
+  field_name: Scenario

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-IME-CustomerFeedbackManager
+event_id: '16'
+version: '0'
+event(fields): IME_SQMsender16(UnicodeString pattern, UnicodeString result)
+opcode: ''
+keywords: ''
+task: IME_SQMsender
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pattern
+- field_type: UnicodeString
+  field_name: result

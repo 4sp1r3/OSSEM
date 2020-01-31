@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDC
+event_id: '122'
+version: '0'
+event(fields): PdcTargetPhaseReached(UInt8 Phase)
+opcode: ''
+keywords: Cs CsDiag
+task: PdcTargetPhaseReached
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Phase

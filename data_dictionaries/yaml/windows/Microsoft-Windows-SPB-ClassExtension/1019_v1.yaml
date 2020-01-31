@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SPB-ClassExtension
+event_id: '1019'
+version: '1'
+event(fields): I/OoperationflowthroughSPBCxIoLockWatchdogTimeout_V1(Pointer Controller,
+  UnicodeString TargetName, UnicodeString ScopeTag, Pointer File)
+opcode: IoLockWatchdogTimeout
+keywords: ''
+task: I/OoperationflowthroughSPBCx
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Controller
+- field_type: UnicodeString
+  field_name: TargetName
+- field_type: UnicodeString
+  field_name: ScopeTag
+- field_type: Pointer
+  field_name: File

@@ -1,0 +1,62 @@
+provider: Microsoft-Windows-DateTimeControlPanel
+event_id: '30002'
+version: '0'
+event(fields): Date/TimeControlPanelApplettimezonefunctionalityDate/TimeControlPanelAppletoperations30002(Int32
+  Bias, UnicodeString StandardName, UInt16 SystemDatewYear, UInt16 SystemDatewMonth,
+  UInt16 SystemDatewDayOfWeek, UInt16 SystemDatewDay, UInt16 SystemDatewHour, UInt16
+  SystemDatewMinute, UInt16 SystemDatewSecond, UInt16 SystemDatewMilliseconds, Int32
+  StandardBias, UnicodeString DaylightName, UInt16 DaylightDatewYear, UInt16 DaylightDatewMonth,
+  UInt16 DaylightDatewDayOfWeek, UInt16 DaylightDatewDay, UInt16 DaylightDatewHour,
+  UInt16 DaylightDatewMinute, UInt16 DaylightDatewSecond, UInt16 DaylightDatewMilliseconds,
+  Int32 DaylightBias, UnicodeString TimeZoneKeyName)
+opcode: Date/TimeControlPanelAppletoperations
+keywords: ''
+task: Date/TimeControlPanelApplettimezonefunctionality
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Bias
+- field_type: UnicodeString
+  field_name: StandardName
+- field_type: UInt16
+  field_name: SystemDatewYear
+- field_type: UInt16
+  field_name: SystemDatewMonth
+- field_type: UInt16
+  field_name: SystemDatewDayOfWeek
+- field_type: UInt16
+  field_name: SystemDatewDay
+- field_type: UInt16
+  field_name: SystemDatewHour
+- field_type: UInt16
+  field_name: SystemDatewMinute
+- field_type: UInt16
+  field_name: SystemDatewSecond
+- field_type: UInt16
+  field_name: SystemDatewMilliseconds
+- field_type: Int32
+  field_name: StandardBias
+- field_type: UnicodeString
+  field_name: DaylightName
+- field_type: UInt16
+  field_name: DaylightDatewYear
+- field_type: UInt16
+  field_name: DaylightDatewMonth
+- field_type: UInt16
+  field_name: DaylightDatewDayOfWeek
+- field_type: UInt16
+  field_name: DaylightDatewDay
+- field_type: UInt16
+  field_name: DaylightDatewHour
+- field_type: UInt16
+  field_name: DaylightDatewMinute
+- field_type: UInt16
+  field_name: DaylightDatewSecond
+- field_type: UInt16
+  field_name: DaylightDatewMilliseconds
+- field_type: Int32
+  field_name: DaylightBias
+- field_type: UnicodeString
+  field_name: TimeZoneKeyName

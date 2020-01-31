@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '2024'
+version: '0'
+event(fields): InternalCacheMetadataStart(UnicodeString id, UnicodeString AppDomain)
+opcode: Start
+keywords: WFRuntime
+task: InternalCacheMetadata
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: id
+- field_type: UnicodeString
+  field_name: AppDomain

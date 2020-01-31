@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-PersistentMemory-PmemDisk
+event_id: '103'
+version: '0'
+event(fields): task_0103(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, Pointer
+  Irp, UInt8 IRPMJ, UInt64 LengthOfTransfer, HexInt64 LBA)
+opcode: ''
+keywords: Read PagingRead
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PersistentMemoryDiskGuid
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt8
+  field_name: IRPMJ
+- field_type: UInt64
+  field_name: LengthOfTransfer
+- field_type: HexInt64
+  field_name: LBA

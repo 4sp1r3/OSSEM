@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-XAML
+event_id: '323'
+version: '0'
+event(fields): VirtualizedCollectionUpdated(UInt64 ScrollViewerId, Float Left, Float
+  Top, Float Width, Float Height, Float ViewportWidth, Float ViewportHeight, Float
+  ExtentWidth, Float ExtentHeight, Boolean HasPlaceholders)
+opcode: ''
+keywords: Input
+task: VirtualizedCollectionUpdated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ScrollViewerId
+- field_type: Float
+  field_name: Left
+- field_type: Float
+  field_name: Top
+- field_type: Float
+  field_name: Width
+- field_type: Float
+  field_name: Height
+- field_type: Float
+  field_name: ViewportWidth
+- field_type: Float
+  field_name: ViewportHeight
+- field_type: Float
+  field_name: ExtentWidth
+- field_type: Float
+  field_name: ExtentHeight
+- field_type: Boolean
+  field_name: HasPlaceholders

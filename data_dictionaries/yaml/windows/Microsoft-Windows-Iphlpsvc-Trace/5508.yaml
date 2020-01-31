@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5508'
+version: '0'
+event(fields): task_05508(UnicodeString SortingSiteName, UInt32 SortingMetric, UInt32
+  AddressFamily, UnicodeString ProbingSiteName)
+opcode: ''
+keywords: damultisite
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SortingSiteName
+- field_type: UInt32
+  field_name: SortingMetric
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UnicodeString
+  field_name: ProbingSiteName

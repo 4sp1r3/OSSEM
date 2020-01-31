@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10075'
+version: '0'
+event(fields): Bind10075(UInt32 ErrorCode, UInt32 Location, UInt32 Context)
+opcode: ''
+keywords: Bind
+task: Bind
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context

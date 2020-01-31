@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '94'
+version: '0'
+event(fields): ClosePowerRequest(Pointer Token)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: ClosePowerRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token

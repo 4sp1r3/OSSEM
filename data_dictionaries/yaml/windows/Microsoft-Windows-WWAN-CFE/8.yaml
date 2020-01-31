@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-CFE
+event_id: '8'
+version: '0'
+event(fields): CreateProfile_UserInput_DurationStart()
+opcode: Start
+keywords: Wwan_Performance
+task: CreateProfile_UserInput_Duration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '518'
+version: '0'
+event(fields): ReferenceTrackingStartedStart()
+opcode: Start
+keywords: Core
+task: ReferenceTrackingStarted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

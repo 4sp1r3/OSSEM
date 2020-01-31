@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '6010'
+version: '0'
+event(fields): Actions_EndTask_ServiceStop(UnicodeString ServiceName)
+opcode: Stop
+keywords: ui
+task: Actions_EndTask_Service
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServiceName

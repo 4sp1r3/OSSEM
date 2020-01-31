@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '157'
+version: '0'
+event(fields): task_0157(Float RectLeft, Float RectTop, Float RectRight, Float RectBottom)
+opcode: ''
+keywords: Reader
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: RectLeft
+- field_type: Float
+  field_name: RectTop
+- field_type: Float
+  field_name: RectRight
+- field_type: Float
+  field_name: RectBottom

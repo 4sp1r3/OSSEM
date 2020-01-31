@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '5'
+version: '0'
+event(fields): task_05(UnicodeString SyncUrl, Boolean AutoProvision, Int32 GhostingPolicy)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SyncUrl
+- field_type: Boolean
+  field_name: AutoProvision
+- field_type: Int32
+  field_name: GhostingPolicy

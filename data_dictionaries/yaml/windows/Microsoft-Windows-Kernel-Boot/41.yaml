@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '41'
+version: '0'
+event(fields): task_041(UInt32 Status)
+opcode: ''
+keywords: keyword_200000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

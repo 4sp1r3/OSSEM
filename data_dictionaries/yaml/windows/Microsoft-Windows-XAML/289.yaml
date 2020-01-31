@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '289'
+version: '0'
+event(fields): CompTreeRemoveChild(UInt64 Parent, UInt64 Child)
+opcode: ''
+keywords: DComp
+task: CompTreeRemoveChild
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Parent
+- field_type: UInt64
+  field_name: Child

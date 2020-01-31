@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9708'
+version: '0'
+event(fields): Explorer_ExecutingFromRunKeyStop(UInt32 PID, UnicodeString Command)
+opcode: Stop
+keywords: Shell StartupPerf
+task: Explorer_ExecutingFromRunKey
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PID
+- field_type: UnicodeString
+  field_name: Command

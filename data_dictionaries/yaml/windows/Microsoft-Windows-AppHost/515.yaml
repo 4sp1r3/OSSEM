@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-AppHost
+event_id: '515'
+version: '0'
+event(fields): Infrastructure.LifecycleAppHostInformation515(UInt64 MainWebInstanceInitializeTime,
+  UInt64 AppSuspendHandlerInvoked, UInt64 AppSuspendHandlerCompleted, Boolean WebPlatformSuspendDownloadPending,
+  Int32 WebPlatformSuspendDownloadCount, UInt64 WebPlatformSuspendDownloadWaitStart,
+  Boolean WebPlatformCleanupPending, UInt64 WebPlatformCleanupStart, Int32 CurrentSuspendingTimeout,
+  Int32 NewSuspendingTimeout, Int32 PID, UnicodeString PackageFullName, UnicodeString
+  AppUserModelId)
+opcode: AppHostInformation
+keywords: WWAHOST_KEYWORD
+task: Infrastructure.Lifecycle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MainWebInstanceInitializeTime
+- field_type: UInt64
+  field_name: AppSuspendHandlerInvoked
+- field_type: UInt64
+  field_name: AppSuspendHandlerCompleted
+- field_type: Boolean
+  field_name: WebPlatformSuspendDownloadPending
+- field_type: Int32
+  field_name: WebPlatformSuspendDownloadCount
+- field_type: UInt64
+  field_name: WebPlatformSuspendDownloadWaitStart
+- field_type: Boolean
+  field_name: WebPlatformCleanupPending
+- field_type: UInt64
+  field_name: WebPlatformCleanupStart
+- field_type: Int32
+  field_name: CurrentSuspendingTimeout
+- field_type: Int32
+  field_name: NewSuspendingTimeout
+- field_type: Int32
+  field_name: PID
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppUserModelId

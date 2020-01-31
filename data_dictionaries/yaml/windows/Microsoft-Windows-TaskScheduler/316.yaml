@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '316'
+version: '0'
+event(fields): EnginefailedtosendmessagetoserviceFailure(UnicodeString TaskEngineName,
+  UInt32 ResultCode)
+opcode: Failure
+keywords: ''
+task: Enginefailedtosendmessagetoservice
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskEngineName
+- field_type: UInt32
+  field_name: ResultCode

@@ -1,0 +1,37 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '212'
+version: '0'
+event(fields): LocationSession212(UInt32 SessionId, UInt32 Pe, UInt32 Status, UInt32
+  SourcePe, FILETIME Timestamp, Boolean IsIntermediate, Double Latitude, Double Longitude,
+  UInt32 HorizontalAccuracy, Double Speed, UnicodeString Floor, UnicodeString VenueId)
+opcode: ''
+keywords: Selfhost Position FixSession
+task: LocationSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: Pe
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: SourcePe
+- field_type: FILETIME
+  field_name: Timestamp
+- field_type: Boolean
+  field_name: IsIntermediate
+- field_type: Double
+  field_name: Latitude
+- field_type: Double
+  field_name: Longitude
+- field_type: UInt32
+  field_name: HorizontalAccuracy
+- field_type: Double
+  field_name: Speed
+- field_type: UnicodeString
+  field_name: Floor
+- field_type: UnicodeString
+  field_name: VenueId

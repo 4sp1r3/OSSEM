@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1231'
+version: '0'
+event(fields): Wininet_UrlCacheContainerStart1231(UnicodeString RootPath)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_UrlCacheContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RootPath

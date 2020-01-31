@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-International
+event_id: '10111'
+version: '0'
+event(fields): NLSUnattendedRegionalandLanguageOptionsNLSoperations10111(UInt32 StatusCode)
+opcode: NLSoperations
+keywords: ''
+task: NLSUnattendedRegionalandLanguageOptions
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StatusCode

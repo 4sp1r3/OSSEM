@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-QoS-qWAVE
+event_id: '13'
+version: '0'
+event(fields): task_013(UInt32 LocalCollectionError, UInt32 RemoteCollectionError,
+  UInt32 CrossTrafficCollectionError, UInt32 PathAnalysisResult, UInt32 RemoteAnalysisResult,
+  UInt32 LocalAnalysisResult)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LocalCollectionError
+- field_type: UInt32
+  field_name: RemoteCollectionError
+- field_type: UInt32
+  field_name: CrossTrafficCollectionError
+- field_type: UInt32
+  field_name: PathAnalysisResult
+- field_type: UInt32
+  field_name: RemoteAnalysisResult
+- field_type: UInt32
+  field_name: LocalAnalysisResult

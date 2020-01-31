@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Proximity-Common
+event_id: '13'
+version: '0'
+event(fields): Proximity_OOBMessageProcessingStop(Pointer Pointer1, UnicodeString
+  String2, UnicodeString String3)
+opcode: Stop
+keywords: ''
+task: Proximity_OOBMessageProcessing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Pointer1
+- field_type: UnicodeString
+  field_name: String2
+- field_type: UnicodeString
+  field_name: String3

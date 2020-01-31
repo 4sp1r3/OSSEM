@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShareMedia-ControlPanel
+event_id: '1017'
+version: '0'
+event(fields): ShowWarningPageStart(UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: ShowWarningPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

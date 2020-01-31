@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2427'
+version: '0'
+event(fields): NavigationWindowRegisterStop()
+opcode: Stop
+keywords: NavigationPerformance NavigationWindow
+task: NavigationWindowRegister
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

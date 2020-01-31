@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '89'
+version: '0'
+event(fields): Animation(UInt64 ElementId, UnicodeString PropertyName)
+opcode: ''
+keywords: Animation
+task: Animation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UnicodeString
+  field_name: PropertyName

@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1007'
+version: '0'
+event(fields): LanguagePackSetupWorkerClassfunctionalityLanguagePackSetupinitializationoperation1007(UnicodeString
+  Parameter)
+opcode: LanguagePackSetupinitializationoperation
+keywords: ''
+task: LanguagePackSetupWorkerClassfunctionality
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Parameter

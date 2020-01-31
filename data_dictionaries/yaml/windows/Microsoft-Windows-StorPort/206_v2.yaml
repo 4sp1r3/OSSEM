@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-StorPort
+event_id: '206'
+version: '2'
+event(fields): PortDispatchingofrequest.206_V2(Pointer Irp, UInt8 Command, UInt64
+  LengthOfTransferinblocks, HexInt64 LBA, Pointer OriginalIrp, UInt8 NvCachePriority)
+opcode: Dispatchingofrequest.
+keywords: Read LowMemoryRead
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt8
+  field_name: Command
+- field_type: UInt64
+  field_name: LengthOfTransferinblocks
+- field_type: HexInt64
+  field_name: LBA
+- field_type: Pointer
+  field_name: OriginalIrp
+- field_type: UInt8
+  field_name: NvCachePriority

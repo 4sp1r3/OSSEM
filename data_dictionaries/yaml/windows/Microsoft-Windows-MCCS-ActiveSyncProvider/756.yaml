@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '756'
+version: '0'
+event(fields): SPERF_TAG_PERSONS_MERGEStart()
+opcode: Start
+keywords: Performance
+task: SPERF_TAG_PERSONS_MERGE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

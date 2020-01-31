@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1022'
+version: '0'
+event(fields): GatewayConnectionSequenceThiseventisraisedinthegatewaytransport1022(UnicodeString
+  TraceMessage)
+opcode: Thiseventisraisedinthegatewaytransport
+keywords: ''
+task: GatewayConnectionSequence
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceMessage

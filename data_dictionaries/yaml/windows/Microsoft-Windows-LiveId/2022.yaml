@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LiveId
+event_id: '2022'
+version: '0'
+event(fields): WLIDCredProvOperationStop2022(Int32 Result)
+opcode: Stop
+keywords: Analytic
+task: WLIDCredProvOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Result

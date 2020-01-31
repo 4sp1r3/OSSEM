@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1320'
+version: '0'
+event(fields): TcpipTimerDpcFiredEvent(UInt32 Component, UInt32 TargetProcessor, UInt32
+  CurrentTick, UInt32 NextExpiration, UInt64 CurrentInterruptTime, UInt64 ScheduledExpirationTime,
+  UInt32 ExternalTrigger)
+opcode: ''
+keywords: ut:Global
+task: TcpipTimerDpcFiredEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Component
+- field_type: UInt32
+  field_name: TargetProcessor
+- field_type: UInt32
+  field_name: CurrentTick
+- field_type: UInt32
+  field_name: NextExpiration
+- field_type: UInt64
+  field_name: CurrentInterruptTime
+- field_type: UInt64
+  field_name: ScheduledExpirationTime
+- field_type: UInt32
+  field_name: ExternalTrigger

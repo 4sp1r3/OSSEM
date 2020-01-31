@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1252'
+version: '0'
+event(fields): Ndkpi_Resize_Cq(Pointer NdkCq, UInt32 CqDepth, Pointer RequestContext)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Resize_Cq
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkCq
+- field_type: UInt32
+  field_name: CqDepth
+- field_type: Pointer
+  field_name: RequestContext

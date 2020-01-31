@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WebServices
+event_id: '14'
+version: '0'
+event(fields): MessageExchangeReceivedMessage_Text(UInt64 correlationId, UInt16 length,
+  UnicodeString message)
+opcode: ReceivedMessage_Text
+keywords: keywords.Message
+task: MessageExchange
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: correlationId
+- field_type: UInt16
+  field_name: length
+- field_type: UnicodeString
+  field_name: message

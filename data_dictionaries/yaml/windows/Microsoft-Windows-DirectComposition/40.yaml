@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '40'
+version: '0'
+event(fields): BLOCK_FOR_EXCESSIVE_PENDINGStart(UInt64 Id)
+opcode: Start
+keywords: DCompDiagnostic DCompMemory
+task: BLOCK_FOR_EXCESSIVE_PENDING
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id

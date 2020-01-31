@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Services
+event_id: '104'
+version: '0'
+event(fields): StartingGroupStop(UnicodeString GroupName)
+opcode: Stop
+keywords: Performance
+task: StartingGroup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: GroupName

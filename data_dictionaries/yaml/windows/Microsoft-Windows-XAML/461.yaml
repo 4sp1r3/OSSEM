@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '461'
+version: '0'
+event(fields): InitializeTextStart()
+opcode: Start
+keywords: Text
+task: InitializeText
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

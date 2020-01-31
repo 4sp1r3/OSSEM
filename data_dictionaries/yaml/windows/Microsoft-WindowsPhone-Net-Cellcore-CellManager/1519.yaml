@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1519'
+version: '0'
+event(fields): CellManagerArd1519()
+opcode: ''
+keywords: Error
+task: CellManagerArd
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

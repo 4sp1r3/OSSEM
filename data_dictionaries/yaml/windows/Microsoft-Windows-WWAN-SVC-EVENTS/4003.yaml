@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '4003'
+version: '0'
+event(fields): task_04003(GUID InterfaceGuid, Int32 ModemIndex, Int32 ExecutorIndex,
+  UInt32 ProfileUpdateType, UnicodeString ProfileName, UnicodeString oldProfileName)
+opcode: ''
+keywords: ut:Configuration
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: Int32
+  field_name: ModemIndex
+- field_type: Int32
+  field_name: ExecutorIndex
+- field_type: UInt32
+  field_name: ProfileUpdateType
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UnicodeString
+  field_name: oldProfileName

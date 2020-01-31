@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '8005'
+version: '0'
+event(fields): task_08005()
+opcode: ''
+keywords: UserPnp
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

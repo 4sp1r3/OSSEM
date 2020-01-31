@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '315'
+version: '0'
+event(fields): CAutomationElement_GetCachedPatternStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CAutomationElement_GetCachedPattern
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

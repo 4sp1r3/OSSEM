@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Wisp
+event_id: '66'
+version: '0'
+event(fields): TABLET_INPUT_Transform_Packet_For_MagnifierStop()
+opcode: Stop
+keywords: ''
+task: TABLET_INPUT_Transform_Packet_For_Magnifier
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

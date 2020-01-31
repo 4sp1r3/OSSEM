@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1337'
+version: '0'
+event(fields): UdpSignalNotificationChannelEvent(Pointer UdpEndpoint, Pointer NcmContext,
+  UInt32 Pid, UInt32 Delivered, UInt32 FinalEvent)
+opcode: ''
+keywords: ut:Global
+task: UdpSignalNotificationChannelEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: UdpEndpoint
+- field_type: Pointer
+  field_name: NcmContext
+- field_type: UInt32
+  field_name: Pid
+- field_type: UInt32
+  field_name: Delivered
+- field_type: UInt32
+  field_name: FinalEvent

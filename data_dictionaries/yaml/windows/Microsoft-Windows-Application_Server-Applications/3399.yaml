@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3399'
+version: '0'
+event(fields): ListenerOpen3399(UnicodeString pipeName, UnicodeString AppDomain)
+opcode: ''
+keywords: Channel
+task: ListenerOpen
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pipeName
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,15 @@
+provider: LsaSrv
+event_id: '6036'
+version: '0'
+event(fields): task_06036(UnicodeString PID, UnicodeString Program)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PID
+- field_type: UnicodeString
+  field_name: Program

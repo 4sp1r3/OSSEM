@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '1512'
+version: '0'
+event(fields): ChatMessageManagerGetTransportsAsync_START()
+opcode: Start
+keywords: Performance
+task: ChatMessageManagerGetTransportsAsync_START
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

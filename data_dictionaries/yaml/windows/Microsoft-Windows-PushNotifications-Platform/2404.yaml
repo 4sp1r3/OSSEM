@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2404'
+version: '0'
+event(fields): task_02404(UnicodeString AppUserModelId, GUID PhoneVoipAgentId)
+opcode: ''
+keywords: wpnend
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: GUID
+  field_name: PhoneVoipAgentId

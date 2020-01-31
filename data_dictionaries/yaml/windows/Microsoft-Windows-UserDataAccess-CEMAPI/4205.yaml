@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4205'
+version: '0'
+event(fields): STORE_OPENMESSAGEStop()
+opcode: Stop
+keywords: Performance
+task: STORE_OPENMESSAGE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

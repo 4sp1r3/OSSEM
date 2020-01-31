@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-WiFiHotspotService
+event_id: '4003'
+version: '0'
+event(fields): HotspotService4003(UInt32 Dword1, UInt32 Dword2, AnsiString aString1,
+  UInt32 Dword3, UInt32 Dword4, UInt32 Dword5, UnicodeString uString1)
+opcode: ''
+keywords: Status
+task: HotspotService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Dword1
+- field_type: UInt32
+  field_name: Dword2
+- field_type: AnsiString
+  field_name: aString1
+- field_type: UInt32
+  field_name: Dword3
+- field_type: UInt32
+  field_name: Dword4
+- field_type: UInt32
+  field_name: Dword5
+- field_type: UnicodeString
+  field_name: uString1

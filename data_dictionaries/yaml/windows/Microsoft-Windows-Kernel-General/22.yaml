@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-General
+event_id: '22'
+version: '0'
+event(fields): TimeZoneBiasChange(Int32 NewBias, Int32 OldBias)
+opcode: ''
+keywords: KERNEL_GENERAL_KEYWORD_TIME
+task: TimeZoneBiasChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: NewBias
+- field_type: Int32
+  field_name: OldBias

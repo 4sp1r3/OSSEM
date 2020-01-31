@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1099'
+version: '0'
+event(fields): MediaFoundationOPMPoll_1099(Boolean exitPolling)
+opcode: ''
+keywords: ''
+task: MediaFoundationOPMPoll_1099
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: exitPolling

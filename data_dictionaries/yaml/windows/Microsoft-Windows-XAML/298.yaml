@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-XAML
+event_id: '298'
+version: '0'
+event(fields): ResourceDictionaryRemove(UInt64 ResourceDictionaryId, UnicodeString
+  Key, Boolean KeyIsType)
+opcode: ''
+keywords: Core
+task: ResourceDictionaryRemove
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ResourceDictionaryId
+- field_type: UnicodeString
+  field_name: Key
+- field_type: Boolean
+  field_name: KeyIsType

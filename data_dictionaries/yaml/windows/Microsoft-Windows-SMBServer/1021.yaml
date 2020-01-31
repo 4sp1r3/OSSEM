@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1021'
+version: '0'
+event(fields): SrvLmCompatibilityLevelNonDefault(UInt32 ConfiguredLmCompatibilityLevel,
+  UInt32 DefaultLmCompatibilityLevel)
+opcode: ''
+keywords: Operational
+task: SrvLmCompatibilityLevelNonDefault
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ConfiguredLmCompatibilityLevel
+- field_type: UInt32
+  field_name: DefaultLmCompatibilityLevel

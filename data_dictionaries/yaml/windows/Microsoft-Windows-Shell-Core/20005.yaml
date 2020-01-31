@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20005'
+version: '0'
+event(fields): StartMenu_Fill_MenuCacheStart()
+opcode: Start
+keywords: Shell
+task: StartMenu_Fill_MenuCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

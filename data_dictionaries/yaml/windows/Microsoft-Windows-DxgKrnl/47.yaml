@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '47'
+version: '0'
+event(fields): MigrateAllocationStart(Pointer hAllocationGlobalHandle, UInt32 Priority)
+opcode: Start
+keywords: Base
+task: MigrateAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt32
+  field_name: Priority

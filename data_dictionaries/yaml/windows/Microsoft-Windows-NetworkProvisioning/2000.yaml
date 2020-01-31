@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '2000'
+version: '0'
+event(fields): ProvisioningDocumentStart()
+opcode: Start
+keywords: XmlProcessing ut:Configuration
+task: ProvisioningDocument
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

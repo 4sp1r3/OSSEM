@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '6004'
+version: '0'
+event(fields): Actions_RightClickPopupStop(UInt64 ItemType)
+opcode: Stop
+keywords: ui
+task: Actions_RightClickPopup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ItemType

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2222'
+version: '0'
+event(fields): SharingTargetCallback_DoneTransferStart()
+opcode: Start
+keywords: ''
+task: SharingTargetCallback_DoneTransfer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

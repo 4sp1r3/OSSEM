@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search
+event_id: '10026'
+version: '0'
+event(fields): task_0PCODE_128pcode_12810026(UnicodeString ExtraInfo)
+opcode: opcode_128
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtraInfo

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '562'
+version: '0'
+event(fields): SetCustomRuntimeDataOnCurrentInstanceStop()
+opcode: Stop
+keywords: Core
+task: SetCustomRuntimeDataOnCurrentInstance
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

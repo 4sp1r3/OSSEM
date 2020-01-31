@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1272'
+version: '0'
+event(fields): Ndkpi_Create_Qp(Pointer NdkPd, Pointer ReceiveCq, Pointer InitiatorCq,
+  Pointer QPContext, UInt32 ReceiveQueueDepth, UInt32 InitiatorQueueDepth, UInt32
+  MaxReceiveRequestSge, UInt32 MaxInitiatorRequestSge, Pointer RequestContext, Pointer
+  NdkSrq)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Create_Qp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkPd
+- field_type: Pointer
+  field_name: ReceiveCq
+- field_type: Pointer
+  field_name: InitiatorCq
+- field_type: Pointer
+  field_name: QPContext
+- field_type: UInt32
+  field_name: ReceiveQueueDepth
+- field_type: UInt32
+  field_name: InitiatorQueueDepth
+- field_type: UInt32
+  field_name: MaxReceiveRequestSge
+- field_type: UInt32
+  field_name: MaxInitiatorRequestSge
+- field_type: Pointer
+  field_name: RequestContext
+- field_type: Pointer
+  field_name: NdkSrq

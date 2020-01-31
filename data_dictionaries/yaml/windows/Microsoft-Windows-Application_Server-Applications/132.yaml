@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '132'
+version: '0'
+event(fields): BufferPoolingTune(Int32 PoolSize, Int32 Delta, UnicodeString AppDomain)
+opcode: Tune
+keywords: Infrastructure
+task: BufferPooling
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: PoolSize
+- field_type: Int32
+  field_name: Delta
+- field_type: UnicodeString
+  field_name: AppDomain

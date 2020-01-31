@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3311'
+version: '0'
+event(fields): RegistrarClient_ConnectToRegistrarServerStop()
+opcode: Stop
+keywords: MessagingPerformance RegistrarClient
+task: RegistrarClient_ConnectToRegistrarServer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '1100'
+version: '0'
+event(fields): Handwriting_Writing_Started()
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: Handwriting_Writing_Started
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

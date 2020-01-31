@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '35004'
+version: '0'
+event(fields): CredUI_UserList_TileEnumeration()
+opcode: ''
+keywords: ''
+task: CredUI_UserList_TileEnumeration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

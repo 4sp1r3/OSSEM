@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '2003'
+version: '0'
+event(fields): NonPerfEventsSuspend()
+opcode: Suspend
+keywords: ''
+task: NonPerfEvents
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

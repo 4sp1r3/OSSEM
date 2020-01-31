@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '191'
+version: '0'
+event(fields): DynDataNLA0thPhase_ShutdownStart()
+opcode: Start
+keywords: Service
+task: DynDataNLA0thPhase_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

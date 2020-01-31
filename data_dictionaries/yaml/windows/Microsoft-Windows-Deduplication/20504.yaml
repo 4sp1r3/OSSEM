@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20504'
+version: '0'
+event(fields): ReadchunkcontainerblockStart(UInt32 ContainerId, UInt32 Generation,
+  Pointer Buffer, UInt32 Offset, UInt32 Length, UInt32 IoType, Boolean Synchronous)
+opcode: Start
+keywords: KmChunkContainer
+task: Readchunkcontainerblock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ContainerId
+- field_type: UInt32
+  field_name: Generation
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: Offset
+- field_type: UInt32
+  field_name: Length
+- field_type: UInt32
+  field_name: IoType
+- field_type: Boolean
+  field_name: Synchronous

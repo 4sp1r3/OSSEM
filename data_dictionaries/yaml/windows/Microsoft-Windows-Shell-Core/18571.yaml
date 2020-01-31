@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18571'
+version: '0'
+event(fields): Shell32_CollectionLock_GetSingleQueueItem(GUID TaskID, Int32 QueueItemCount)
+opcode: ''
+keywords: Shell
+task: Shell32_CollectionLock_GetSingleQueueItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TaskID
+- field_type: Int32
+  field_name: QueueItemCount

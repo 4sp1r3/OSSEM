@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SENSE
+event_id: '43'
+version: '0'
+event(fields): task_043(AnsiString Component, UnicodeString Operation, AnsiString
+  ExceptionType, HexInt32 ExceptionErrorCode, AnsiString ExceptionMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Component
+- field_type: UnicodeString
+  field_name: Operation
+- field_type: AnsiString
+  field_name: ExceptionType
+- field_type: HexInt32
+  field_name: ExceptionErrorCode
+- field_type: AnsiString
+  field_name: ExceptionMessage

@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '457'
+version: '0'
+event(fields): Mshtml_OleSite_Immersive_Incompatible(GUID Clsid, UnicodeString Url)
+opcode: ''
+keywords: subsystem mshtml
+task: Mshtml_OleSite_Immersive_Incompatible
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Clsid
+- field_type: UnicodeString
+  field_name: Url

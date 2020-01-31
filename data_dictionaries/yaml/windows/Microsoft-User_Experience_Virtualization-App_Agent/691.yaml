@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '691'
+version: '0'
+event(fields): AgentService691(UnicodeString stringValue1)
+opcode: AgentService
+keywords: ''
+task: AgentService
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '611'
+version: '0'
+event(fields): AdaptiveMediaSourceDownload(Pointer AdaptiveMediaSource, Int64 BytesTransferred,
+  Int64 BytesTotal)
+opcode: ''
+keywords: keyword_100000000000
+task: AdaptiveMediaSourceDownload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdaptiveMediaSource
+- field_type: Int64
+  field_name: BytesTransferred
+- field_type: Int64
+  field_name: BytesTotal

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '3079'
+version: '0'
+event(fields): MiniportStopComplete3079(UnicodeString fid_USBPORT_HC)
+opcode: Complete
+keywords: Diagnostic
+task: MiniportStop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: fid_USBPORT_HC

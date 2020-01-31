@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-WDC
+event_id: '5205'
+version: '0'
+event(fields): PerfTrack_HandleSearchStop(UInt32 RequestCookie)
+opcode: Stop
+keywords: ''
+task: PerfTrack_HandleSearch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestCookie

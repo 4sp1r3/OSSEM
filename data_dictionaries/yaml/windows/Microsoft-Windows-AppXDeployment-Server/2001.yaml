@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '2001'
+version: '0'
+event(fields): AppXDeployment.Perftrack.Task.UninstallStop(UnicodeString packageFullName,
+  UnicodeString returnCode)
+opcode: Stop
+keywords: ''
+task: AppXDeployment.Perftrack.Task.Uninstall
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: packageFullName
+- field_type: UnicodeString
+  field_name: returnCode

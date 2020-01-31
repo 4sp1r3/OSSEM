@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '85'
+version: '0'
+event(fields): ApiRenderGestureStart(UInt32 Enum)
+opcode: Start
+keywords: DwmApi
+task: ApiRenderGesture
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Enum

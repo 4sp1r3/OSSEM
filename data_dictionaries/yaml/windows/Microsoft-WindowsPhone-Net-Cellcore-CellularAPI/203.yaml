@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '203'
+version: '0'
+event(fields): CSlot203(Boolean BooleanName, UInt32 DwordName1, UInt32 DwordName2,
+  UInt32 DwordName3)
+opcode: ''
+keywords: Error UICC
+task: CSlot
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: BooleanName
+- field_type: UInt32
+  field_name: DwordName1
+- field_type: UInt32
+  field_name: DwordName2
+- field_type: UInt32
+  field_name: DwordName3

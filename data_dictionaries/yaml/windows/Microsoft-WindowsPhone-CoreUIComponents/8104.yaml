@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '8104'
+version: '0'
+event(fields): ForegroundSessionLayerUpdateVisibleTask(UInt32 appLayer, UInt32 unParam,
+  UInt32 unParam2, UInt32 unParam3, Boolean fBool)
+opcode: ''
+keywords: SessionLayer
+task: ForegroundSessionLayerUpdateVisibleTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: appLayer
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2
+- field_type: UInt32
+  field_name: unParam3
+- field_type: Boolean
+  field_name: fBool

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4505'
+version: '0'
+event(fields): NetworkRIO_PendingReceivesStart4505(Pointer Object, Int32 PendingReceives,
+  UInt32 BytesReceived)
+opcode: Start
+keywords: ''
+task: NetworkRIO_PendingReceives
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: PendingReceives
+- field_type: UInt32
+  field_name: BytesReceived

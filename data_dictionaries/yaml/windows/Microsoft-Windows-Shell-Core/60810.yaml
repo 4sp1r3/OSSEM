@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60810'
+version: '0'
+event(fields): ShellLib_DUIControls_CandidateList_ResumeFill()
+opcode: ''
+keywords: Controls
+task: ShellLib_DUIControls_CandidateList_ResumeFill
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

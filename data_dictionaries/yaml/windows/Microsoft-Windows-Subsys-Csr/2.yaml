@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Subsys-Csr
+event_id: '2'
+version: '0'
+event(fields): csr:ShutdownProcessesStop()
+opcode: Stop
+keywords: csr:Diagnostics
+task: csr:ShutdownProcesses
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

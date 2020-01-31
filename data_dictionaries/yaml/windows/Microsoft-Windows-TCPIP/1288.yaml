@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1288'
+version: '0'
+event(fields): Ndkpi_Get_Connect_Data(Pointer NdkConnector, UInt32 IRD, UInt32 ORD,
+  UInt32 PrivateDataLength, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Get_Connect_Data
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkConnector
+- field_type: UInt32
+  field_name: IRD
+- field_type: UInt32
+  field_name: ORD
+- field_type: UInt32
+  field_name: PrivateDataLength
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1371'
+version: '0'
+event(fields): TcpipSrcAddrLookup(UInt32 IpAddrLength, Binary DestinationAddress,
+  Binary ConstrainSourceAddress, UInt32 ConstrainInterfaceIndex, UInt32 OutgoingInterfaceIndex,
+  UInt32 ReturnConstrained, Binary SelectedSourceAddress)
+opcode: ''
+keywords: ut:TcpipRoute
+task: TcpipSrcAddrLookup
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: Binary
+  field_name: DestinationAddress
+- field_type: Binary
+  field_name: ConstrainSourceAddress
+- field_type: UInt32
+  field_name: ConstrainInterfaceIndex
+- field_type: UInt32
+  field_name: OutgoingInterfaceIndex
+- field_type: UInt32
+  field_name: ReturnConstrained
+- field_type: Binary
+  field_name: SelectedSourceAddress

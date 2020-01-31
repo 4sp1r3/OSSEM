@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Audio
+event_id: '5'
+version: '0'
+event(fields): AudioServer_Fail_AudioDG_Failed_Startup(UInt32 dwAudioDgStartupFailureCode)
+opcode: ''
+keywords: ''
+task: AudioServer_Fail_AudioDG_Failed_Startup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwAudioDgStartupFailureCode

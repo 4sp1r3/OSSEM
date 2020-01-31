@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataUtils
+event_id: '301'
+version: '0'
+event(fields): task_0301(Int32 P1_HexInt32, UInt32 Prop_Handle, UInt32 Prop_Handle2)
+opcode: ''
+keywords: Error
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: P1_HexInt32
+- field_type: UInt32
+  field_name: Prop_Handle
+- field_type: UInt32
+  field_name: Prop_Handle2

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '132'
+version: '0'
+event(fields): FirmwarePlatformRoleRundown(UInt32 PlatformRole)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: FirmwarePlatformRoleRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PlatformRole

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '5720'
+version: '0'
+event(fields): task_05720(FILETIME UpdatedTimestamp, FILETIME InitialTimestamp, UnicodeString
+  CollectionId, UnicodeString SettingUnitId, UnicodeString Operation)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: UpdatedTimestamp
+- field_type: FILETIME
+  field_name: InitialTimestamp
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UnicodeString
+  field_name: SettingUnitId
+- field_type: UnicodeString
+  field_name: Operation

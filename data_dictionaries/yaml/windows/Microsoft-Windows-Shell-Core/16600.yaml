@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16600'
+version: '0'
+event(fields): FilePropertyStoreFactory_GetPropertyHandlerStart()
+opcode: Start
+keywords: Properties
+task: FilePropertyStoreFactory_GetPropertyHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

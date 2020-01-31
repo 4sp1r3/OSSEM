@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceUpdateAgent
+event_id: '303'
+version: '0'
+event(fields): task_0303(UInt32 Win32Error, UnicodeString Prop_UnicodeString)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Win32Error
+- field_type: UnicodeString
+  field_name: Prop_UnicodeString

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-PersistentMemory-Nvdimm
+event_id: '509'
+version: '1'
+event(fields): task_0509_V1(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber,
+  AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString
+  Location, UInt32 SecurityState)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: HexInt32
+  field_name: NfitHandle
+- field_type: UInt32
+  field_name: SlotNumber
+- field_type: AnsiString
+  field_name: VendorId
+- field_type: AnsiString
+  field_name: ProductId
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: UnicodeString
+  field_name: Location
+- field_type: UInt32
+  field_name: SecurityState

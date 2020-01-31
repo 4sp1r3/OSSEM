@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-WinRM
+event_id: '172'
+version: '0'
+event(fields): Userauthentication172(UnicodeString machineName, UnicodeString port,
+  UnicodeString error1, UnicodeString error2, UnicodeString error3, UnicodeString
+  error4, UnicodeString error5, UnicodeString error6, UnicodeString error7, UnicodeString
+  error8)
+opcode: ''
+keywords: Keyword.Client Keyword.Security
+task: Userauthentication
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: machineName
+- field_type: UnicodeString
+  field_name: port
+- field_type: UnicodeString
+  field_name: error1
+- field_type: UnicodeString
+  field_name: error2
+- field_type: UnicodeString
+  field_name: error3
+- field_type: UnicodeString
+  field_name: error4
+- field_type: UnicodeString
+  field_name: error5
+- field_type: UnicodeString
+  field_name: error6
+- field_type: UnicodeString
+  field_name: error7
+- field_type: UnicodeString
+  field_name: error8

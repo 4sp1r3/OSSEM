@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '9073'
+version: '0'
+event(fields): AppXDeployment.Task.Server.OSIMStart9073(UnicodeString PackageName)
+opcode: Start
+keywords: OSIM_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.OSIM
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName

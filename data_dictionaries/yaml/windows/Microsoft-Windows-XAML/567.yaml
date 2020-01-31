@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '567'
+version: '0'
+event(fields): CreateInstanceStart()
+opcode: Start
+keywords: Core
+task: CreateInstance
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

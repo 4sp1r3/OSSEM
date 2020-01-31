@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-OfflineFiles
+event_id: '1004'
+version: '0'
+event(fields): task_01004(UnicodeString Path, UInt64 Latency, UInt64 Bandwidth)
+opcode: ''
+keywords: CscEvtKeywd_Transition
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UInt64
+  field_name: Latency
+- field_type: UInt64
+  field_name: Bandwidth

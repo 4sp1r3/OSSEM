@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5089'
+version: '0'
+event(fields): UdwmAnimatedTransitionVisual(Int32 StoryboardId, Int32 TargetId, Int32
+  BeginLeft, Int32 BeginTop, Int32 BeginRight, Int32 BeginBottom, Int32 EndLeft, Int32
+  EndTop, Int32 EndRight, Int32 EndBottom, Float BeginOpacity, Float EndOpacity, Float
+  BeginDepth, Float EndDepth, UInt32 ResourceHandle, UInt32 StaggerOrder, UInt32 AnimationId)
+opcode: ''
+keywords: Udwm
+task: UdwmAnimatedTransitionVisual
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: StoryboardId
+- field_type: Int32
+  field_name: TargetId
+- field_type: Int32
+  field_name: BeginLeft
+- field_type: Int32
+  field_name: BeginTop
+- field_type: Int32
+  field_name: BeginRight
+- field_type: Int32
+  field_name: BeginBottom
+- field_type: Int32
+  field_name: EndLeft
+- field_type: Int32
+  field_name: EndTop
+- field_type: Int32
+  field_name: EndRight
+- field_type: Int32
+  field_name: EndBottom
+- field_type: Float
+  field_name: BeginOpacity
+- field_type: Float
+  field_name: EndOpacity
+- field_type: Float
+  field_name: BeginDepth
+- field_type: Float
+  field_name: EndDepth
+- field_type: UInt32
+  field_name: ResourceHandle
+- field_type: UInt32
+  field_name: StaggerOrder
+- field_type: UInt32
+  field_name: AnimationId

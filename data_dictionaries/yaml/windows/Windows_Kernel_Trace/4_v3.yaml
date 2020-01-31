@@ -1,0 +1,39 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '4'
+version: '3'
+event(fields): Thread_V3_TypeGroup1(UInt32 ProcessId, UInt32 TThreadId, UInt32 StackBase,
+  UInt32 StackLimit, UInt32 UserStackBase, UInt32 UserStackLimit, UInt32 Affinity,
+  UInt32 Win32StartAddr, UInt32 TebBase, UInt32 SubProcessTag, UInt8 BasePriority,
+  UInt8 PagePriority, UInt8 IoPriority, UInt8 ThreadFlags)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: TThreadId
+- field_type: UInt32
+  field_name: StackBase
+- field_type: UInt32
+  field_name: StackLimit
+- field_type: UInt32
+  field_name: UserStackBase
+- field_type: UInt32
+  field_name: UserStackLimit
+- field_type: UInt32
+  field_name: Affinity
+- field_type: UInt32
+  field_name: Win32StartAddr
+- field_type: UInt32
+  field_name: TebBase
+- field_type: UInt32
+  field_name: SubProcessTag
+- field_type: UInt8
+  field_name: BasePriority
+- field_type: UInt8
+  field_name: PagePriority
+- field_type: UInt8
+  field_name: IoPriority
+- field_type: UInt8
+  field_name: ThreadFlags

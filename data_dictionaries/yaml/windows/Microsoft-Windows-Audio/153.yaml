@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Audio
+event_id: '153'
+version: '0'
+event(fields): AEPerformance(Pointer objInstance, UInt32 ucType, UInt64 Custom1, UInt64
+  Custom2)
+opcode: ''
+keywords: ''
+task: AEPerformance
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objInstance
+- field_type: UInt32
+  field_name: ucType
+- field_type: UInt64
+  field_name: Custom1
+- field_type: UInt64
+  field_name: Custom2

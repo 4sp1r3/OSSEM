@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1463'
+version: '0'
+event(fields): FeatureFallbackLoopback(UInt32 Feature)
+opcode: ''
+keywords: ut:Configuration
+task: FeatureFallbackLoopback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Feature

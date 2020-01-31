@@ -1,0 +1,17 @@
+provider: Microsoft-AppV-Client
+event_id: '13002'
+version: '1'
+event(fields): UserStateDeletion13002_V1(GUID Package, UInt32 ErrorHigh, UInt32 ErrorLow)
+opcode: ''
+keywords: VFS
+task: UserStateDeletion
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Package
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow

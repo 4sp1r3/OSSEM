@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WinRM
+event_id: '513'
+version: '0'
+event(fields): Auto_detectingproxysettingsStop(UnicodeString proxyList, UnicodeString
+  bypassList)
+opcode: Stop
+keywords: Keyword.Client
+task: Auto_detectingproxysettings
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: proxyList
+- field_type: UnicodeString
+  field_name: bypassList

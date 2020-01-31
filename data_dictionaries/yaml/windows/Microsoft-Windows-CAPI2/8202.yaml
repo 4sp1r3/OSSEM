@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '8202'
+version: '0'
+event(fields): SyncaSecurityCatalogwiththeCatalogDatabaseStart8202(UnicodeString Subsystem)
+opcode: Start
+keywords: Catalog
+task: SyncaSecurityCatalogwiththeCatalogDatabase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Subsystem

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-FileHistory-Service
+event_id: '4'
+version: '0'
+event(fields): CatalogLoadStop(Int32 Result, UnicodeString CatalogPath1, UnicodeString
+  CatalogPath2)
+opcode: Stop
+keywords: ''
+task: CatalogLoad
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: CatalogPath1
+- field_type: UnicodeString
+  field_name: CatalogPath2

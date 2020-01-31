@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-CertificateServicesClient-CredentialRoaming
+event_id: '1008'
+version: '0'
+event(fields): task_01008()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

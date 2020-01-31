@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '266'
+version: '0'
+event(fields): task_0266(UInt64 ReasonCode, UInt64 TickCount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ReasonCode
+- field_type: UInt64
+  field_name: TickCount

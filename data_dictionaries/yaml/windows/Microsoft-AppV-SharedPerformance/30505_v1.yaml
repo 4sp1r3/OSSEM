@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30505'
+version: '1'
+event(fields): PolicyRead_4002Start_V1()
+opcode: Start
+keywords: ''
+task: PolicyRead_4002
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

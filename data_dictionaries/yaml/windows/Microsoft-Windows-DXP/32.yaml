@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXP
+event_id: '32'
+version: '0'
+event(fields): LayoutInitializedStop(UInt64 Object)
+opcode: Stop
+keywords: ''
+task: LayoutInitialized
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

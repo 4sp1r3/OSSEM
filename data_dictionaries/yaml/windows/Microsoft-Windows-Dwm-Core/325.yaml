@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '325'
+version: '0'
+event(fields): EVTDESC_SCHEDULE_COMPOSITIONPASS(UInt32 fQueueDueToRoundTripRequest,
+  UInt32 fAnimateUpdatesRequired, UInt32 fExpressionUpdatesRequired, UInt32 fCaptureBitsResponsePending)
+opcode: ''
+keywords: DwmCore
+task: EVTDESC_SCHEDULE_COMPOSITIONPASS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: fQueueDueToRoundTripRequest
+- field_type: UInt32
+  field_name: fAnimateUpdatesRequired
+- field_type: UInt32
+  field_name: fExpressionUpdatesRequired
+- field_type: UInt32
+  field_name: fCaptureBitsResponsePending

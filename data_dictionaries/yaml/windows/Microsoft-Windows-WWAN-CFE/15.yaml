@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WWAN-CFE
+event_id: '15'
+version: '0'
+event(fields): Task_WwanApnDatabaseParsingDurationStop(UnicodeString ProviderName)
+opcode: Stop
+keywords: ''
+task: Task_WwanApnDatabaseParsingDuration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProviderName

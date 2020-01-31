@@ -1,0 +1,21 @@
+provider: Heap Trace Provider
+category: '{222962ab-6180-4b88-a825-346b75f2a24a}'
+event_id: '34'
+version: '2'
+event(fields): HeapRealloc(UInt32 HeapHandle, UInt32 NewAllocAddress, UInt32 OldAllocAddress,
+  Object NewAllocSize, Object OldAllocSize, UInt32 SourceId)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapHandle
+- field_type: UInt32
+  field_name: NewAllocAddress
+- field_type: UInt32
+  field_name: OldAllocAddress
+- field_type: Object
+  field_name: NewAllocSize
+- field_type: Object
+  field_name: OldAllocSize
+- field_type: UInt32
+  field_name: SourceId

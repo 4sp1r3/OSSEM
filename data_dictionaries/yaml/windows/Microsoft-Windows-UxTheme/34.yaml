@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UxTheme
+event_id: '34'
+version: '0'
+event(fields): QueuingThreadpoolWorker(UInt32 status)
+opcode: ''
+keywords: ''
+task: QueuingThreadpoolWorker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: status

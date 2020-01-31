@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WCN-Config-Registrar
+event_id: '8011'
+version: '0'
+event(fields): task_08011(GUID SessionGuid, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SessionGuid
+- field_type: UInt32
+  field_name: ErrorCode

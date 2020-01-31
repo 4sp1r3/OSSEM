@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '29'
+version: '0'
+event(fields): ProviderJoinProviderGroup(GUID ProviderGuid, GUID ProviderGroupGuid)
+opcode: JoinProviderGroup
+keywords: ETW_KEYWORD_PROVIDER ETW_KEYWORD_REGISTRATION ETW_KEYWORD_GROUP
+task: Provider
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderGuid
+- field_type: GUID
+  field_name: ProviderGroupGuid

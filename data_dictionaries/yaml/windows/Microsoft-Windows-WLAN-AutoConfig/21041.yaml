@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '21041'
+version: '0'
+event(fields): task_021041()
+opcode: ''
+keywords: MSMSEC ut:Authentication ut:Global
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

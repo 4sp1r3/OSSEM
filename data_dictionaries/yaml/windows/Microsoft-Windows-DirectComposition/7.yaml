@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '7'
+version: '0'
+event(fields): TRIMStop()
+opcode: Stop
+keywords: DCompBasic
+task: TRIM
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

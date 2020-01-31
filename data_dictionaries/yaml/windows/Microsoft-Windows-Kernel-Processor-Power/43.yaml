@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '43'
+version: '0'
+event(fields): BiosPStatesRundown(UInt16 Group, UInt8 Number, UInt32 PBlockAddress,
+  UInt8 PBlockLength, UInt32 ProcessorId, UInt32 ApicId, UInt32 Ppc, Float PctControl,
+  Pointer PctStatus, UInt32 StateCount, HexInt64 PssStates)
+opcode: ''
+keywords: Diag PowerDiagnostics
+task: BiosPStatesRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: PBlockAddress
+- field_type: UInt8
+  field_name: PBlockLength
+- field_type: UInt32
+  field_name: ProcessorId
+- field_type: UInt32
+  field_name: ApicId
+- field_type: UInt32
+  field_name: Ppc
+- field_type: Float
+  field_name: PctControl
+- field_type: Pointer
+  field_name: PctStatus
+- field_type: UInt32
+  field_name: StateCount
+- field_type: HexInt64
+  field_name: PssStates

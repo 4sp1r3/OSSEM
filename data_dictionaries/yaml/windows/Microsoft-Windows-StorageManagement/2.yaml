@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-StorageManagement
+event_id: '2'
+version: '0'
+event(fields): task_02(UnicodeString Message, HexInt32 ErrorCode, AnsiString FileName,
+  UInt32 LineNumber)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: AnsiString
+  field_name: FileName
+- field_type: UInt32
+  field_name: LineNumber

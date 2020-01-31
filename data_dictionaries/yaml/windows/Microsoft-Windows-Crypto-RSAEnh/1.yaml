@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Crypto-RSAEnh
+event_id: '1'
+version: '0'
+event(fields): OperationFailed(UInt32 OperationType, UnicodeString ProcessName, HexInt32
+  Status)
+opcode: ''
+keywords: ''
+task: OperationFailed
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OperationType
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: HexInt32
+  field_name: Status

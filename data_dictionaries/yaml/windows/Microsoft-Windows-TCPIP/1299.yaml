@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1299'
+version: '0'
+event(fields): Ndkpi_Close_Adapter_Exit(Pointer NdkAdapter)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Close_Adapter_Exit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkAdapter

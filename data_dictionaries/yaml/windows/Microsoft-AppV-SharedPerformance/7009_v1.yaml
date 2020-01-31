@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '7009'
+version: '1'
+event(fields): VirtualProcessTerminatedStart_V1()
+opcode: Start
+keywords: ''
+task: VirtualProcessTerminated
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

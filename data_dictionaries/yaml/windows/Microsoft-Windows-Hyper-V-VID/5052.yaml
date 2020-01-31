@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5052'
+version: '0'
+event(fields): VMT_KSR_MEMORY_BLOCK_PERSISTStart(UInt32 KsrMemoryRunCount, GUID PartitionGuid)
+opcode: Start
+keywords: VMK_MEMORY_BLOCK
+task: VMT_KSR_MEMORY_BLOCK_PERSIST
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: KsrMemoryRunCount
+- field_type: GUID
+  field_name: PartitionGuid

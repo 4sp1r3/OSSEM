@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '3'
+version: '0'
+event(fields): RundownAcPowerSetting(GUID SubgroupGuid, GUID SettingGuid, UInt32 ValueIndex,
+  UInt32 Type, UInt32 DataSize, Binary Data)
+opcode: ''
+keywords: ''
+task: RundownAcPowerSetting
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SubgroupGuid
+- field_type: GUID
+  field_name: SettingGuid
+- field_type: UInt32
+  field_name: ValueIndex
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: DataSize
+- field_type: Binary
+  field_name: Data

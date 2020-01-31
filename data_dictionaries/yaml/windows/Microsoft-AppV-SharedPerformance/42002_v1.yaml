@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '42002'
+version: '1'
+event(fields): VShell.ShutdownRuntimeStart_V1()
+opcode: Start
+keywords: ''
+task: VShell.ShutdownRuntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

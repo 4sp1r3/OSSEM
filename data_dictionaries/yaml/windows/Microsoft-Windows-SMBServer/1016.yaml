@@ -1,0 +1,58 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1016'
+version: '0'
+event(fields): SrvReopenFailure(HexInt32 Status, HexInt32 TranslatedStatus, HexInt32
+  RKFStatus, HexInt32 TranslatedRKFStatus, GUID ConnectionGUID, UInt16 ClientNameLength,
+  UnicodeString ClientName, UInt16 ClientAddressLength, Binary ClientAddress, UInt16
+  ShareNameLength, UnicodeString ShareName, UInt16 UserNameLength, UnicodeString UserName,
+  HexInt64 SessionId, UInt16 FileNameLength, UnicodeString FileName, Boolean DurableHandle,
+  Boolean ResilientHandle, Boolean PersistentHandle, GUID ResumeKey, UInt32 Reason)
+opcode: ''
+keywords: Operational
+task: SrvReopenFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: TranslatedStatus
+- field_type: HexInt32
+  field_name: RKFStatus
+- field_type: HexInt32
+  field_name: TranslatedRKFStatus
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: UInt16
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName
+- field_type: UInt16
+  field_name: ClientAddressLength
+- field_type: Binary
+  field_name: ClientAddress
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt16
+  field_name: UserNameLength
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: HexInt64
+  field_name: SessionId
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: Boolean
+  field_name: DurableHandle
+- field_type: Boolean
+  field_name: ResilientHandle
+- field_type: Boolean
+  field_name: PersistentHandle
+- field_type: GUID
+  field_name: ResumeKey
+- field_type: UInt32
+  field_name: Reason

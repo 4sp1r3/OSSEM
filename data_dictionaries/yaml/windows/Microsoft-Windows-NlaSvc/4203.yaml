@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4203'
+version: '0'
+event(fields): GatewayResolutionStart4203(GUID InterfaceGuid, UnicodeString GatewayIpAddress)
+opcode: Start
+keywords: Resolver
+task: GatewayResolution
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: GatewayIpAddress

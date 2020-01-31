@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '255'
+version: '0'
+event(fields): DXPresentStop(Pointer Object, UInt32 Index, UInt32 hrResult)
+opcode: Stop
+keywords: ''
+task: DXPresent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: hrResult

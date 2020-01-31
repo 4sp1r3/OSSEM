@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '103'
+version: '0'
+event(fields): Frame_NavBarCreateStop()
+opcode: Stop
+keywords: primarynav
+task: Frame_NavBarCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

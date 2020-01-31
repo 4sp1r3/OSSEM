@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '2007'
+version: '0'
+event(fields): VOIP_LaunchVoipRtcTask(UInt32 PID, UnicodeString PsmKey, UnicodeString
+  TaskEntryPoint, Pointer WnfStateName, UInt32 HRESULT)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular
+task: VOIP_LaunchVoipRtcTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PID
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UnicodeString
+  field_name: TaskEntryPoint
+- field_type: Pointer
+  field_name: WnfStateName
+- field_type: UInt32
+  field_name: HRESULT

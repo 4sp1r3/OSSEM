@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '555'
+version: '0'
+event(fields): ExecutePowerAction(UInt32 Reason, UInt32 TriggerFlags, UInt32 UserNotify,
+  UInt32 PowerAction, UInt32 PowerActionFlags, UInt32 PowerActionEventCode, UInt32
+  MinState, UInt32 SubstitutionPolicy)
+opcode: ''
+keywords: po:Diagnostic
+task: ExecutePowerAction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: TriggerFlags
+- field_type: UInt32
+  field_name: UserNotify
+- field_type: UInt32
+  field_name: PowerAction
+- field_type: UInt32
+  field_name: PowerActionFlags
+- field_type: UInt32
+  field_name: PowerActionEventCode
+- field_type: UInt32
+  field_name: MinState
+- field_type: UInt32
+  field_name: SubstitutionPolicy

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '24668'
+version: '0'
+event(fields): OpendedupfileStart(UnicodeString FilePath)
+opcode: Start
+keywords: Filter
+task: Opendedupfile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FilePath

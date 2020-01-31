@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '61003'
+version: '0'
+event(fields): PicturePassword_EnrollmentUXImageConfirmationShown()
+opcode: ''
+keywords: ''
+task: PicturePassword_EnrollmentUXImageConfirmationShown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

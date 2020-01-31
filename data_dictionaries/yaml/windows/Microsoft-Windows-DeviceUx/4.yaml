@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '4'
+version: '0'
+event(fields): DeviceUx_DeviceCenter_StorageHandler_CollectShellItemsStop()
+opcode: Stop
+keywords: DeviceUX
+task: DeviceUx_DeviceCenter_StorageHandler_CollectShellItems
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

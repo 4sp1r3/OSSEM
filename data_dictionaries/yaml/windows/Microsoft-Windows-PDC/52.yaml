@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDC
+event_id: '52'
+version: '0'
+event(fields): ResumeAppsEnter()
+opcode: ''
+keywords: suspendresume
+task: ResumeAppsEnter
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

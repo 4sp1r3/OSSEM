@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '54'
+version: '0'
+event(fields): ATLAS_RESIZE(UInt32 TargetX, UInt32 TargetY, UInt32 MinX, UInt32 MinY,
+  UInt32 MaxX, UInt32 MaxY, UInt32 RequestX, UInt32 RequestY, UInt32 ShrinkX, UInt32
+  ShrinkY, UInt32 GrowX, UInt32 GrowY, UInt32 AtlasX, UInt32 AtlasY)
+opcode: ''
+keywords: DCompDiagnostic DCompMemory
+task: ATLAS_RESIZE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TargetX
+- field_type: UInt32
+  field_name: TargetY
+- field_type: UInt32
+  field_name: MinX
+- field_type: UInt32
+  field_name: MinY
+- field_type: UInt32
+  field_name: MaxX
+- field_type: UInt32
+  field_name: MaxY
+- field_type: UInt32
+  field_name: RequestX
+- field_type: UInt32
+  field_name: RequestY
+- field_type: UInt32
+  field_name: ShrinkX
+- field_type: UInt32
+  field_name: ShrinkY
+- field_type: UInt32
+  field_name: GrowX
+- field_type: UInt32
+  field_name: GrowY
+- field_type: UInt32
+  field_name: AtlasX
+- field_type: UInt32
+  field_name: AtlasY

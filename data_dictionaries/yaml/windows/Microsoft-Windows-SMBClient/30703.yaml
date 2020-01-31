@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30703'
+version: '0'
+event(fields): task_030703(UInt16 ServerNameLength, UnicodeString ServerName, UInt32
+  LocalAddressLength, Binary LocalAddress, UInt32 RemoteAddressLength, Binary RemoteAddress,
+  UInt32 Status)
+opcode: ''
+keywords: Smb_MultiChannel
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: Status

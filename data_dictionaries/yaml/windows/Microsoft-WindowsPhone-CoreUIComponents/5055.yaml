@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '5055'
+version: '0'
+event(fields): ProxyPropertyUpdateStop()
+opcode: Stop
+keywords: MessagingPerformance Proxy
+task: ProxyPropertyUpdate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

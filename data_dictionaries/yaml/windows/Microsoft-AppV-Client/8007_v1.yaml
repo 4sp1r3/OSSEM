@@ -1,0 +1,20 @@
+provider: Microsoft-AppV-Client
+event_id: '8007'
+version: '1'
+event(fields): ConfigureVirtualApplicationConnectionGroup8007_V1(GUID Package, GUID
+  Version, UInt32 ErrorHigh, UInt32 ErrorLow)
+opcode: ''
+keywords: DynamicConfiguration
+task: ConfigureVirtualApplicationConnectionGroup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Package
+- field_type: GUID
+  field_name: Version
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow

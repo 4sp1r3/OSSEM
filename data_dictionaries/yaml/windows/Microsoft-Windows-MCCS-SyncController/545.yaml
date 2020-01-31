@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '545'
+version: '0'
+event(fields): task_0545(GUID P1_Guid, UInt32 P2_UInt)
+opcode: ''
+keywords: StateTransition
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: P1_Guid
+- field_type: UInt32
+  field_name: P2_UInt

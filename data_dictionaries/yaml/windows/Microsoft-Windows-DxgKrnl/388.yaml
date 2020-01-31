@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '388'
+version: '0'
+event(fields): VGPUEtwSessionStart()
+opcode: Start
+keywords: VirtualGpu
+task: VGPUEtwSession
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

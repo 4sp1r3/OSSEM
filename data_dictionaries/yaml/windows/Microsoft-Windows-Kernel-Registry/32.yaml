@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '32'
+version: '0'
+event(fields): Thisgroupofeventstrackstheperformanceofregistryshutdown.Start()
+opcode: Start
+keywords: ''
+task: Thisgroupofeventstrackstheperformanceofregistryshutdown.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '133'
+version: '0'
+event(fields): DCOMPEVENT_RESOURCE(UInt32 channelHandle, UInt32 resourceHandle, UInt64
+  resourceInternalHandleAndChannel, UInt32 resourceType, UInt64 resourcePointer)
+opcode: ''
+keywords: DwmCore FrameVisualization DwmInput
+task: DCOMPEVENT_RESOURCE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: channelHandle
+- field_type: UInt32
+  field_name: resourceHandle
+- field_type: UInt64
+  field_name: resourceInternalHandleAndChannel
+- field_type: UInt32
+  field_name: resourceType
+- field_type: UInt64
+  field_name: resourcePointer

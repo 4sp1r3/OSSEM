@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintService-USBMon
+event_id: '12'
+version: '0'
+event(fields): ExecutingaJavaScriptExtensionfunctionwithintheUSBPortMonitor12(HexInt32
+  HResult, UnicodeString ErrorText)
+opcode: ''
+keywords: ''
+task: ExecutingaJavaScriptExtensionfunctionwithintheUSBPortMonitor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HResult
+- field_type: UnicodeString
+  field_name: ErrorText

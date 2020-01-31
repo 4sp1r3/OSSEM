@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '1106'
+version: '0'
+event(fields): Eventprocessing1106(HexInt32 Reason)
+opcode: ''
+keywords: ''
+task: Eventprocessing
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Reason

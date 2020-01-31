@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '411'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment411(UnicodeString PackageMoniker,
+  UInt32 RequestedVersionMajor, UInt32 RequestedVersionMinor, UInt32 RequestedVersionAppModel,
+  UInt32 OSVersionMajor, UInt32 OSVersionMinor, UInt32 OSVersionAppModel)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageMoniker
+- field_type: UInt32
+  field_name: RequestedVersionMajor
+- field_type: UInt32
+  field_name: RequestedVersionMinor
+- field_type: UInt32
+  field_name: RequestedVersionAppModel
+- field_type: UInt32
+  field_name: OSVersionMajor
+- field_type: UInt32
+  field_name: OSVersionMinor
+- field_type: UInt32
+  field_name: OSVersionAppModel

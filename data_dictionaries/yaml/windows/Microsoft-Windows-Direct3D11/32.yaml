@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '32'
+version: '0'
+event(fields): UMD10CreateDeviceStop()
+opcode: Stop
+keywords: Devices
+task: UMD10CreateDevice
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

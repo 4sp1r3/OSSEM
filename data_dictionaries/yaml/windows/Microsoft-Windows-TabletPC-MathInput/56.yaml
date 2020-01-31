@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '56'
+version: '0'
+event(fields): CachedBitmapCreateStart()
+opcode: Start
+keywords: ''
+task: CachedBitmapCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

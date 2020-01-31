@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Deduplication-Change
+event_id: '16454'
+version: '0'
+event(fields): task_016454(UInt8 ChunkStoreType, UInt32 ContainerId, UInt32 Generation,
+  UInt64 WriteOffset, UInt32 BatchChunkCount, UInt32 BatchDataSize)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ChunkStoreType
+- field_type: UInt32
+  field_name: ContainerId
+- field_type: UInt32
+  field_name: Generation
+- field_type: UInt64
+  field_name: WriteOffset
+- field_type: UInt32
+  field_name: BatchChunkCount
+- field_type: UInt32
+  field_name: BatchDataSize

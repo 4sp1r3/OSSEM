@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7251'
+version: '0'
+event(fields): ConnectedSearch_LogAppResize(UInt32 Result, UnicodeString ImpressionGUID,
+  UInt32 Orientation, UnicodeString FirstItemId, UnicodeString LastItemId, UInt32
+  ViewportFlags)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogAppResize
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ImpressionGUID
+- field_type: UInt32
+  field_name: Orientation
+- field_type: UnicodeString
+  field_name: FirstItemId
+- field_type: UnicodeString
+  field_name: LastItemId
+- field_type: UInt32
+  field_name: ViewportFlags

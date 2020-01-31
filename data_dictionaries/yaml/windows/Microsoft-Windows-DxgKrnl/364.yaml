@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '364'
+version: '0'
+event(fields): LockAllocationBackingStore(UInt64 hProcessId, UInt64 hVidMmGlobalAlloc,
+  UInt32 PageCount, UInt64 Pages)
+opcode: ''
+keywords: References
+task: LockAllocationBackingStore
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hProcessId
+- field_type: UInt64
+  field_name: hVidMmGlobalAlloc
+- field_type: UInt32
+  field_name: PageCount
+- field_type: UInt64
+  field_name: Pages

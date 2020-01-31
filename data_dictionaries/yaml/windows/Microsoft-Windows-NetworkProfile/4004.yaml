@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-NetworkProfile
+event_id: '4004'
+version: '0'
+event(fields): task_0(Boolean NewInternetConnectionProfile, Boolean ConnectionCostChanged,
+  Boolean DomainConnectivityLevelChanged, Boolean NetworkConnectivityLevelChanged,
+  Boolean HostNameChanged, Boolean WwanRegistrationStateChanged, Boolean TetheringOperationalStateChanged,
+  Boolean TetheringClientCountChanged)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: NewInternetConnectionProfile
+- field_type: Boolean
+  field_name: ConnectionCostChanged
+- field_type: Boolean
+  field_name: DomainConnectivityLevelChanged
+- field_type: Boolean
+  field_name: NetworkConnectivityLevelChanged
+- field_type: Boolean
+  field_name: HostNameChanged
+- field_type: Boolean
+  field_name: WwanRegistrationStateChanged
+- field_type: Boolean
+  field_name: TetheringOperationalStateChanged
+- field_type: Boolean
+  field_name: TetheringClientCountChanged

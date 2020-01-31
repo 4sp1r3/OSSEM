@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '252'
+version: '0'
+event(fields): Mshtml_GlyphRun_Draw(Float DestRight, Float DestBottom)
+opcode: ''
+keywords: subsystem pageloadbreakdown
+task: Mshtml_GlyphRun_Draw
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: DestRight
+- field_type: Float
+  field_name: DestBottom

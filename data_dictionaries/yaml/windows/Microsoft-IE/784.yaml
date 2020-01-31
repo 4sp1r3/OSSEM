@@ -1,0 +1,25 @@
+provider: Microsoft-IE
+event_id: '784'
+version: '0'
+event(fields): Mshtml_Media_Capture_Sample_Delivered(UInt64 SampleRequstedCount, UInt64
+  SampleDeliveredCount, UInt64 SampleReceivedCount, UInt64 SampleDroppedCount, UInt32
+  TrackKind, Pointer ThisPtr)
+opcode: ''
+keywords: mshtml
+task: Mshtml_Media_Capture_Sample_Delivered
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SampleRequstedCount
+- field_type: UInt64
+  field_name: SampleDeliveredCount
+- field_type: UInt64
+  field_name: SampleReceivedCount
+- field_type: UInt64
+  field_name: SampleDroppedCount
+- field_type: UInt32
+  field_name: TrackKind
+- field_type: Pointer
+  field_name: ThisPtr

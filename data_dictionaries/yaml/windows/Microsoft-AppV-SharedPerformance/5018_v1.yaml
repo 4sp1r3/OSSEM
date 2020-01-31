@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '5018'
+version: '1'
+event(fields): QueueClientEventStop_V1(UInt32 ClientEvent)
+opcode: Stop
+keywords: ''
+task: QueueClientEvent
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ClientEvent

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '500'
+version: '0'
+event(fields): SoftKeyboard_Geometry_GetNumberOfKeys(UInt32 NumberOfKeys)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_Geometry_GetNumberOfKeys
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NumberOfKeys

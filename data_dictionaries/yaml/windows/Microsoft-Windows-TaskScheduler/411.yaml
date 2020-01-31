@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '411'
+version: '0'
+event(fields): Servicesignaledtimechange()
+opcode: ''
+keywords: ''
+task: Servicesignaledtimechange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

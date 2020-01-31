@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '9403'
+version: '0'
+event(fields): task_09403(HexInt32 ErrorCode, UnicodeString Path, Boolean ForMove)
+opcode: ''
+keywords: STATE_DEH_KEYWORD
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: Path
+- field_type: Boolean
+  field_name: ForMove

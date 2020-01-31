@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '20005'
+version: '0'
+event(fields): SelfHostError_ConversationNotFound(UnicodeString pwsz)
+opcode: ''
+keywords: keyword_80000000000
+task: SelfHostError_ConversationNotFound
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz

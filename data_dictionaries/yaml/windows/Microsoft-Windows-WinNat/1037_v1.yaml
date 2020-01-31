@@ -1,0 +1,44 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1037'
+version: '1'
+event(fields): WinNatMInstanceCreationWithNoMatchingPrefix_V1(UnicodeString InstanceName,
+  GUID InternalRoutingDomainId, UInt32 PrefixLength, UInt32 AddressPrefix, UInt32
+  CompartmentId, UInt32 ExternalInterfaceIndex, UInt32 UdpIdleSessionTimeout, UInt32
+  TcpTransientConnectionTimeout, UInt32 TcpEstablishedConnectionTimeout, UInt32 IcmpQueryTimeout,
+  UInt32 TcpFilteringBehavior, UInt32 UdpFilteringBehavior, Boolean UdpInboundRefresh,
+  UInt32 InstanceType)
+opcode: ''
+keywords: ut:Configuration
+task: WinNatMInstanceCreationWithNoMatchingPrefix
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InstanceName
+- field_type: GUID
+  field_name: InternalRoutingDomainId
+- field_type: UInt32
+  field_name: PrefixLength
+- field_type: UInt32
+  field_name: AddressPrefix
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: ExternalInterfaceIndex
+- field_type: UInt32
+  field_name: UdpIdleSessionTimeout
+- field_type: UInt32
+  field_name: TcpTransientConnectionTimeout
+- field_type: UInt32
+  field_name: TcpEstablishedConnectionTimeout
+- field_type: UInt32
+  field_name: IcmpQueryTimeout
+- field_type: UInt32
+  field_name: TcpFilteringBehavior
+- field_type: UInt32
+  field_name: UdpFilteringBehavior
+- field_type: Boolean
+  field_name: UdpInboundRefresh
+- field_type: UInt32
+  field_name: InstanceType

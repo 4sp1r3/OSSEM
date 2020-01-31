@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4011'
+version: '0'
+event(fields): AfdRioDeregisterBufferClosed(Pointer Buffer, UInt32 References)
+opcode: Closed
+keywords: AFD_KW_RIO
+task: AfdRioDeregisterBuffer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: References

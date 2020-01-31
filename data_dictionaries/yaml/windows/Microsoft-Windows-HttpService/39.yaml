@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HttpService
+event_id: '39'
+version: '0'
+event(fields): HTTPSSLTraceTaskSslRcvdRawData(UInt32 DataLength, Pointer ConnectionObj)
+opcode: SslRcvdRawData
+keywords: HTTP_KEYWORD_REQUEST HTTP_KEYWORD_CONNECTION HTTP_KEYWORD_SSL
+task: HTTPSSLTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DataLength
+- field_type: Pointer
+  field_name: ConnectionObj

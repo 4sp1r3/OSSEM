@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '62'
+version: '0'
+event(fields): Manipulation_ImplicitHitTestStop(UInt32 ContactId)
+opcode: Stop
+keywords: ''
+task: Manipulation_ImplicitHitTest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ContactId

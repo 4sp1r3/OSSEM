@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EapMethods-Ttls
+event_id: '203'
+version: '0'
+event(fields): PerformancemetriceventStop203()
+opcode: Stop
+keywords: ''
+task: Performancemetricevent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

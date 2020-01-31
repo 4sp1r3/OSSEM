@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1017'
+version: '0'
+event(fields): ConnectionSequenceThiseventisraisedwhiletryingtogetavalidlicense1017(UnicodeString
+  TraceMessage, UInt32 ErrorCode)
+opcode: Thiseventisraisedwhiletryingtogetavalidlicense
+keywords: ''
+task: ConnectionSequence
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceMessage
+- field_type: UInt32
+  field_name: ErrorCode

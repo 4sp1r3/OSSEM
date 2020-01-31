@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '501'
+version: '0'
+event(fields): WluiServerStartupStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: WluiServerStartup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

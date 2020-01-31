@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '27'
+version: '0'
+event(fields): Manipulation_SetInputStop(UInt32 PointerId, UInt32 ContactId)
+opcode: Stop
+keywords: ''
+task: Manipulation_SetInput
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PointerId
+- field_type: UInt32
+  field_name: ContactId

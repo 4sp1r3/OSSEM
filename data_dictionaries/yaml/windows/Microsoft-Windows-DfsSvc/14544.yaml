@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DfsSvc
+event_id: '14544'
+version: '0'
+event(fields): task_0PCODE_192pcode_19214544(UnicodeString DFSNamespace, UnicodeString
+  DFSLink1, UnicodeString DFSLink2)
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DFSNamespace
+- field_type: UnicodeString
+  field_name: DFSLink1
+- field_type: UnicodeString
+  field_name: DFSLink2

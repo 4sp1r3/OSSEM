@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceStatusProvider
+event_id: '501'
+version: '0'
+event(fields): DLLLifetimeStop()
+opcode: Stop
+keywords: ''
+task: DLLLifetime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '156'
+version: '0'
+event(fields): ThermalRequestAdd(UInt8 Throttle, Boolean ActiveEngaged, Pointer Token,
+  UInt16 DeviceIdLength, UInt16 CallerLength, UInt16 ContextLength, UInt16 PolicyLength,
+  UnicodeString DeviceId, UnicodeString Caller, UnicodeString Context, Binary Policy)
+opcode: ''
+keywords: po:Thermal
+task: ThermalRequestAdd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Throttle
+- field_type: Boolean
+  field_name: ActiveEngaged
+- field_type: Pointer
+  field_name: Token
+- field_type: UInt16
+  field_name: DeviceIdLength
+- field_type: UInt16
+  field_name: CallerLength
+- field_type: UInt16
+  field_name: ContextLength
+- field_type: UInt16
+  field_name: PolicyLength
+- field_type: UnicodeString
+  field_name: DeviceId
+- field_type: UnicodeString
+  field_name: Caller
+- field_type: UnicodeString
+  field_name: Context
+- field_type: Binary
+  field_name: Policy

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2100'
+version: '0'
+event(fields): CtapCommandStart(UnicodeString Command, GUID TransactionId, HexInt32
+  Flags, UInt32 TimeoutMilliseconds, UInt32 TicketLength, Binary Ticket, UInt32 RequestLength,
+  Binary Request)
+opcode: Start
+keywords: Ctap
+task: CtapCommand
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Command
+- field_type: GUID
+  field_name: TransactionId
+- field_type: HexInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: TimeoutMilliseconds
+- field_type: UInt32
+  field_name: TicketLength
+- field_type: Binary
+  field_name: Ticket
+- field_type: UInt32
+  field_name: RequestLength
+- field_type: Binary
+  field_name: Request

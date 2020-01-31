@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DateTimeControlPanel
+event_id: '30010'
+version: '0'
+event(fields): PerfTrack_DisplayClockFlyoutStart()
+opcode: Start
+keywords: ''
+task: PerfTrack_DisplayClockFlyout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

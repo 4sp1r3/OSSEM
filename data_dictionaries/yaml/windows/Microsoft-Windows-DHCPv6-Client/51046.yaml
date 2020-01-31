@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51046'
+version: '0'
+event(fields): ServiceStateEventServiceStart()
+opcode: ServiceStart
+keywords: ''
+task: ServiceStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

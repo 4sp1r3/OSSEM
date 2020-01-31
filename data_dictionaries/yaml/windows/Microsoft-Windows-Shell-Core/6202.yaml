@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6202'
+version: '0'
+event(fields): Thumbnails_ExtractStop(UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: Thumbnails_Extract
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

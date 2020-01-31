@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '275'
+version: '0'
+event(fields): ProcessIdleEDRTasksStop(Pointer Object)
+opcode: Stop
+keywords: ''
+task: ProcessIdleEDRTasks
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8088'
+version: '1'
+event(fields): DeserializeExtensionsApplyPoliciesStart_V1()
+opcode: Start
+keywords: ''
+task: DeserializeExtensionsApplyPolicies
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '71'
+version: '0'
+event(fields): Manipulation_Prediction(UInt64 time, UInt64 processTime, UInt64 compositionTime,
+  UInt64 predictedTimeGap, Float predictionX, Float predictionY)
+opcode: ''
+keywords: ''
+task: Manipulation_Prediction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: time
+- field_type: UInt64
+  field_name: processTime
+- field_type: UInt64
+  field_name: compositionTime
+- field_type: UInt64
+  field_name: predictedTimeGap
+- field_type: Float
+  field_name: predictionX
+- field_type: Float
+  field_name: predictionY

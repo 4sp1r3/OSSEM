@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9505'
+version: '0'
+event(fields): Explorer_StartPane_AllProgram_Folder_OpenStart()
+opcode: Start
+keywords: Shell
+task: Explorer_StartPane_AllProgram_Folder_Open
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

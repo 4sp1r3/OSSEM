@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '203'
+version: '2'
+event(fields): GCGCJoin_V2(UInt32 Heap, UInt32 JoinTime, UInt32 JoinType, UInt16 ClrInstanceID,
+  UInt32 JoinID)
+opcode: GCJoin
+keywords: GCKeyword
+task: GC
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Heap
+- field_type: UInt32
+  field_name: JoinTime
+- field_type: UInt32
+  field_name: JoinType
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: UInt32
+  field_name: JoinID

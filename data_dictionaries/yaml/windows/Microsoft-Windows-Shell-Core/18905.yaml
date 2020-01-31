@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18905'
+version: '0'
+event(fields): Shell32_CopyEngine_FileOperation_Info(UnicodeString pszSource, UnicodeString
+  pszDest, UInt32 SourceType, UInt32 DestinationType, UInt32 FileOp, UInt64 FileSize)
+opcode: ''
+keywords: Shell
+task: Shell32_CopyEngine_FileOperation_Info
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pszSource
+- field_type: UnicodeString
+  field_name: pszDest
+- field_type: UInt32
+  field_name: SourceType
+- field_type: UInt32
+  field_name: DestinationType
+- field_type: UInt32
+  field_name: FileOp
+- field_type: UInt64
+  field_name: FileSize

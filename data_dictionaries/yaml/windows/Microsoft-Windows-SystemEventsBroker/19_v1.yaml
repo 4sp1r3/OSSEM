@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SystemEventsBroker
+event_id: '19'
+version: '1'
+event(fields): SebEventSessionConnected_V1(UInt32 SessionID, SID UserSID)
+opcode: SessionConnected
+keywords: TraceSebEvent
+task: SebEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionID
+- field_type: SID
+  field_name: UserSID

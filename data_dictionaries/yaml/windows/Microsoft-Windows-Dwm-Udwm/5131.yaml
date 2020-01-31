@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5131'
+version: '0'
+event(fields): UdwmAnimationClockStart5131(GUID clockId, Int64 time)
+opcode: Start
+keywords: Udwm
+task: UdwmAnimationClock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: clockId
+- field_type: Int64
+  field_name: time

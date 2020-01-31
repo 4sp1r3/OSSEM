@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '6409'
+version: '0'
+event(fields): task_06409(UnicodeString GUID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: GUID

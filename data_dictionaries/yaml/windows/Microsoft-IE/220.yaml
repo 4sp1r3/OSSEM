@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '220'
+version: '0'
+event(fields): Mshtml_MediaEngine_PauseStop(UInt32 MediaEngineID)
+opcode: Stop
+keywords: mediaengine
+task: Mshtml_MediaEngine_Pause
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaEngineID

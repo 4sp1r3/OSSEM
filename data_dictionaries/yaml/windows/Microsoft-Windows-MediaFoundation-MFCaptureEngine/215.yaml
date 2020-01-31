@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '215'
+version: '0'
+event(fields): MFCaptureEngineSourceMessageStop(Pointer Source, Pointer Sample, UInt64
+  Timestamp, UInt64 RefTimestamp, UInt32 StreamIndex, UInt32 StreamFlags, UInt32 hrStatus)
+opcode: Stop
+keywords: ''
+task: MFCaptureEngineSourceMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Source
+- field_type: Pointer
+  field_name: Sample
+- field_type: UInt64
+  field_name: Timestamp
+- field_type: UInt64
+  field_name: RefTimestamp
+- field_type: UInt32
+  field_name: StreamIndex
+- field_type: UInt32
+  field_name: StreamFlags
+- field_type: UInt32
+  field_name: hrStatus

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '25'
+version: '0'
+event(fields): RundownSessionUser(UInt64 UserContextToken, UInt32 SessionId, SID UserSid)
+opcode: ''
+keywords: ''
+task: RundownSessionUser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UserContextToken
+- field_type: UInt32
+  field_name: SessionId
+- field_type: SID
+  field_name: UserSid

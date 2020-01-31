@@ -1,0 +1,28 @@
+provider: Microsoft-IE
+event_id: '664'
+version: '0'
+event(fields): Mshtml_CDMTouchTarget_InputTransform(Boolean IsIHTThread, Float mat_11,
+  Float mat_12, Float mat_21, Float mat_22, Float mat_31, Float mat_32, Pointer CDMTouchTarget)
+opcode: ''
+keywords: touch
+task: Mshtml_CDMTouchTarget_InputTransform
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsIHTThread
+- field_type: Float
+  field_name: mat_11
+- field_type: Float
+  field_name: mat_12
+- field_type: Float
+  field_name: mat_21
+- field_type: Float
+  field_name: mat_22
+- field_type: Float
+  field_name: mat_31
+- field_type: Float
+  field_name: mat_32
+- field_type: Pointer
+  field_name: CDMTouchTarget

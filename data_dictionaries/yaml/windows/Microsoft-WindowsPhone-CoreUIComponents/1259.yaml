@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1259'
+version: '0'
+event(fields): ForegroundTaskManagerGetTaskDefaultTransitionStart()
+opcode: Start
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerGetTaskDefaultTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

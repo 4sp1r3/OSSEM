@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60202'
+version: '0'
+event(fields): SearchBox_ColorAQSStop()
+opcode: Stop
+keywords: Shell
+task: SearchBox_ColorAQS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '264'
+version: '0'
+event(fields): BootDriverReinitStart()
+opcode: Start
+keywords: Performance
+task: BootDriverReinit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

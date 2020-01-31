@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '700'
+version: '0'
+event(fields): CfgMgr_DeviceListStart(UnicodeString Filter, UnicodeString FilterBy,
+  Boolean OnlyPresent)
+opcode: Start
+keywords: CfgMgr ObjectLists
+task: CfgMgr_DeviceList
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Filter
+- field_type: UnicodeString
+  field_name: FilterBy
+- field_type: Boolean
+  field_name: OnlyPresent

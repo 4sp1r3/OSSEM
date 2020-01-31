@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '21'
+version: '0'
+event(fields): Correction_LaunchAlternatesPanelStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: Correction_LaunchAlternatesPanel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

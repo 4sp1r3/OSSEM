@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msutb
+event_id: '6'
+version: '0'
+event(fields): CloseDeskbandStop()
+opcode: Stop
+keywords: Perf
+task: CloseDeskband
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

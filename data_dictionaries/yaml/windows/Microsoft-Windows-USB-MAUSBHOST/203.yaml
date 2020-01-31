@@ -1,0 +1,75 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '203'
+version: '0'
+event(fields): task_0Information203(Pointer fid_Controller, UInt8 fid_HeaderVersion,
+  UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp,
+  UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle,
+  UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode,
+  UInt16 fid_HeaderDialogToken, UInt8 fid_RouteStringPort1, UInt8 fid_RouteStringPort2,
+  UInt8 fid_RouteStringPort3, UInt8 fid_RouteStringPort4, UInt8 fid_RouteStringPort5,
+  UInt8 fid_USBSpeed, UInt16 fid_HubDeviceHandle, UInt16 fid_ParentHSHubDeviceHandle,
+  UInt8 fid_ParentHSHubPort, UInt8 fid_MTT, UInt8 fid_LaneSpeedExponent, UInt8 fid_SublinkType,
+  UInt8 fid_LaneCount, UInt8 fid_LinkProtocol, UInt16 fid_LaneSpeedMantissa)
+opcode: Information
+keywords: MAUSBTraffic
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: UInt8
+  field_name: fid_HeaderVersion
+- field_type: UInt8
+  field_name: fid_HeaderFlagBitHost
+- field_type: UInt8
+  field_name: fid_HeaderFlagBitRetry
+- field_type: UInt8
+  field_name: fid_HeaderFlagBitTimeStamp
+- field_type: UInt8
+  field_name: fid_HeaderSubType
+- field_type: UInt8
+  field_name: fid_HeaderType
+- field_type: UInt16
+  field_name: fid_HeaderLength
+- field_type: UInt16
+  field_name: fid_HeaderDeviceHandle
+- field_type: UInt8
+  field_name: fid_HeaderDeviceAddress
+- field_type: UInt8
+  field_name: fid_HeaderSSID
+- field_type: UInt8
+  field_name: fid_HeaderStatusCode
+- field_type: UInt16
+  field_name: fid_HeaderDialogToken
+- field_type: UInt8
+  field_name: fid_RouteStringPort1
+- field_type: UInt8
+  field_name: fid_RouteStringPort2
+- field_type: UInt8
+  field_name: fid_RouteStringPort3
+- field_type: UInt8
+  field_name: fid_RouteStringPort4
+- field_type: UInt8
+  field_name: fid_RouteStringPort5
+- field_type: UInt8
+  field_name: fid_USBSpeed
+- field_type: UInt16
+  field_name: fid_HubDeviceHandle
+- field_type: UInt16
+  field_name: fid_ParentHSHubDeviceHandle
+- field_type: UInt8
+  field_name: fid_ParentHSHubPort
+- field_type: UInt8
+  field_name: fid_MTT
+- field_type: UInt8
+  field_name: fid_LaneSpeedExponent
+- field_type: UInt8
+  field_name: fid_SublinkType
+- field_type: UInt8
+  field_name: fid_LaneCount
+- field_type: UInt8
+  field_name: fid_LinkProtocol
+- field_type: UInt16
+  field_name: fid_LaneSpeedMantissa

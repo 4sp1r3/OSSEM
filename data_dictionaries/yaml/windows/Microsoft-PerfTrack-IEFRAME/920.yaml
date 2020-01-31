@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '920'
+version: '0'
+event(fields): CIMContextMenuBar_Show_PerftrackStop(UInt64 Object)
+opcode: Stop
+keywords: nonPerfTrack
+task: CIMContextMenuBar_Show_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '7104'
+version: '0'
+event(fields): SuspendApps_ResolverLoopback()
+opcode: ''
+keywords: ResolverLoopback
+task: SuspendApps_ResolverLoopback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5449'
+version: '0'
+event(fields): task_05449(UInt32 ProcessId, SID UserSid, UnicodeString UserName, GUID
+  ProviderKey, UnicodeString ProviderName, UnicodeString ChangeType, GUID ProviderContextKey,
+  UnicodeString ProviderContextName, UnicodeString ProviderContextType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: SID
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: GUID
+  field_name: ProviderKey
+- field_type: UnicodeString
+  field_name: ProviderName
+- field_type: UnicodeString
+  field_name: ChangeType
+- field_type: GUID
+  field_name: ProviderContextKey
+- field_type: UnicodeString
+  field_name: ProviderContextName
+- field_type: UnicodeString
+  field_name: ProviderContextType

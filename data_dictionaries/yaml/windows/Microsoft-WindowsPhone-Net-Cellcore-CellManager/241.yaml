@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '241'
+version: '0'
+event(fields): CellServiceStart()
+opcode: Start
+keywords: Trace
+task: CellService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

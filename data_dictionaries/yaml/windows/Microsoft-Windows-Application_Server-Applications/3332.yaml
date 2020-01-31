@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3332'
+version: '0'
+event(fields): SecureMessageStart(UnicodeString AppDomain)
+opcode: Start
+keywords: Security
+task: SecureMessage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

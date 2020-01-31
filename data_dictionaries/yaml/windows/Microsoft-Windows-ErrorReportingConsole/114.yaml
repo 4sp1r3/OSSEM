@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ErrorReportingConsole
+event_id: '114'
+version: '0'
+event(fields): PrsApplicabilityMonitorRepopulationStop()
+opcode: Stop
+keywords: ''
+task: PrsApplicabilityMonitorRepopulation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

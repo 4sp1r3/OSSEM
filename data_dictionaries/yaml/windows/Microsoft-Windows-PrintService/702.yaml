@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-PrintService
+event_id: '702'
+version: '0'
+event(fields): ExecutingprintfiltersinthespoolerpipelineSpoolerOperationFailed702(HexInt32
+  HResult)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_PIPELINE
+task: Executingprintfiltersinthespoolerpipeline
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HResult

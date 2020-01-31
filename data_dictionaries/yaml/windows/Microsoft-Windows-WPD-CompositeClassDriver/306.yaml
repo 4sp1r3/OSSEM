@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WPD-CompositeClassDriver
+event_id: '306'
+version: '0'
+event(fields): TransportManagement306()
+opcode: ''
+keywords: ''
+task: TransportManagement
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

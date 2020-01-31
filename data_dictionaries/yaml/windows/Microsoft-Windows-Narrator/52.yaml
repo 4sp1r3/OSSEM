@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Narrator
+event_id: '52'
+version: '0'
+event(fields): ProcessInputEventStart(UnicodeString EventType, Int32 EventId)
+opcode: Start
+keywords: PerfInstrumentation
+task: ProcessInputEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventType
+- field_type: Int32
+  field_name: EventId

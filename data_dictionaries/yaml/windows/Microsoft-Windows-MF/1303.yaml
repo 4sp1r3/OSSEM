@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MF
+event_id: '1303'
+version: '0'
+event(fields): MFDSQueueSample(Pointer Object, Int32 StreamID, Pointer Sample, Int64
+  TimeStamp, Int32 QueueLen)
+opcode: ''
+keywords: ''
+task: MFDSQueueSample
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: StreamID
+- field_type: Pointer
+  field_name: Sample
+- field_type: Int64
+  field_name: TimeStamp
+- field_type: Int32
+  field_name: QueueLen

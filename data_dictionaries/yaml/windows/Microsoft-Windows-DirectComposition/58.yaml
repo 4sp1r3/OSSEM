@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '58'
+version: '0'
+event(fields): INTERACTION_CONFIGURATION(UInt32 Channel, UInt32 interactionHandle,
+  UInt64 interactionAndChannelHandle, UInt32 propertyId)
+opcode: ''
+keywords: DCompInput
+task: INTERACTION_CONFIGURATION
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Channel
+- field_type: UInt32
+  field_name: interactionHandle
+- field_type: UInt64
+  field_name: interactionAndChannelHandle
+- field_type: UInt32
+  field_name: propertyId

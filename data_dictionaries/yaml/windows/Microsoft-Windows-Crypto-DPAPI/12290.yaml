@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Crypto-DPAPI
+event_id: '12290'
+version: '0'
+event(fields): CredentialKeyOperation12290()
+opcode: ''
+keywords: ETW_TASK_CREDKEY_OPERATION
+task: CredentialKeyOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

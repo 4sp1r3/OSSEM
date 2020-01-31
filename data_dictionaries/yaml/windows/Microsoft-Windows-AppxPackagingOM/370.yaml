@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '370'
+version: '0'
+event(fields): AppXPackaging.Task.BundleWriter.CloseStart()
+opcode: Start
+keywords: keyword_400000000000
+task: AppXPackaging.Task.BundleWriter.Close
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

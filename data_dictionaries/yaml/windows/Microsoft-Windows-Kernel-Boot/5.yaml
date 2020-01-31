@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '5'
+version: '0'
+event(fields): BootTotalIo(GUID ApplicationGuid, UInt64 BytesRead, UInt64 BytesWritten)
+opcode: ''
+keywords: keyword_200000000000
+task: BootTotalIo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ApplicationGuid
+- field_type: UInt64
+  field_name: BytesRead
+- field_type: UInt64
+  field_name: BytesWritten

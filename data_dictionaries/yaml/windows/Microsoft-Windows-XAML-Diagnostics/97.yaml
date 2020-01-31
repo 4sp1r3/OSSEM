@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '97'
+version: '0'
+event(fields): UpdateViewState(UInt32 ViewId, UnicodeString State)
+opcode: ''
+keywords: DesignerAppManager
+task: UpdateViewState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ViewId
+- field_type: UnicodeString
+  field_name: State

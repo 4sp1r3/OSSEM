@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '208'
+version: '0'
+event(fields): task_0208(UnicodeString jobName, UnicodeString url)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: jobName
+- field_type: UnicodeString
+  field_name: url

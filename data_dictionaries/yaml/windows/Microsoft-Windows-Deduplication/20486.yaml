@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20486'
+version: '0'
+event(fields): ReadchunksStart(Pointer Stream, UInt64 FileId, UInt32 IoType, Binary
+  FirstRequestChunkId, Pointer NextRequest)
+opcode: Start
+keywords: KmStreamStore
+task: Readchunks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Stream
+- field_type: UInt64
+  field_name: FileId
+- field_type: UInt32
+  field_name: IoType
+- field_type: Binary
+  field_name: FirstRequestChunkId
+- field_type: Pointer
+  field_name: NextRequest

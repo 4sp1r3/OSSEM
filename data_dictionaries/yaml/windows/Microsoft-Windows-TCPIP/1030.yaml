@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1030'
+version: '0'
+event(fields): TcpConnectTcbFailInsertion(Pointer Tcb, UInt32 LocalAddressLength,
+  Binary LocalAddress, UInt32 RemoteAddressLength, Binary RemoteAddress, UInt32 NewState,
+  UInt32 RexmitCount)
+opcode: ''
+keywords: ut:TcpipTcb ut:TcpipDiagnosis ut:Endpoint ut:ConnectPath
+task: TcpConnectTcbFailInsertion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: NewState
+- field_type: UInt32
+  field_name: RexmitCount

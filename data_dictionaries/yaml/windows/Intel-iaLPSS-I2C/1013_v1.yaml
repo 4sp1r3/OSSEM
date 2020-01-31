@@ -1,0 +1,15 @@
+provider: Intel-iaLPSS-I2C
+event_id: '1013'
+version: '1'
+event(fields): TasktotrackDPCStart_V1(Pointer WDFDEVICE, HexInt64 MMIO)
+opcode: Start
+keywords: ''
+task: TasktotrackDPC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WDFDEVICE
+- field_type: HexInt64
+  field_name: MMIO

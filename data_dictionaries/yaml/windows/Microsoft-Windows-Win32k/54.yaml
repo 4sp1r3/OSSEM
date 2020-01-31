@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Win32k
+event_id: '54'
+version: '0'
+event(fields): SwapChainGetStats(UInt64 hLogicalSurfSwapChainBind, UInt32 ConfirmReason,
+  UInt32 LastPresentId, UInt32 LastFrameCount, UInt32 SyncFrameCount, UInt64 LastFrameTime)
+opcode: ''
+keywords: Updates
+task: SwapChainGetStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hLogicalSurfSwapChainBind
+- field_type: UInt32
+  field_name: ConfirmReason
+- field_type: UInt32
+  field_name: LastPresentId
+- field_type: UInt32
+  field_name: LastFrameCount
+- field_type: UInt32
+  field_name: SyncFrameCount
+- field_type: UInt64
+  field_name: LastFrameTime

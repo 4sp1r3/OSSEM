@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23004'
+version: '1'
+event(fields): UnpublishPackage_3702Start_V1()
+opcode: Start
+keywords: ''
+task: UnpublishPackage_3702
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

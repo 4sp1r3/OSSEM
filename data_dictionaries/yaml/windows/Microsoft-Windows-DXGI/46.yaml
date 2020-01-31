@@ -1,0 +1,52 @@
+provider: Microsoft-Windows-DXGI
+event_id: '46'
+version: '0'
+event(fields): ResizeBuffersStop(Pointer pIDXGISwapChain, UInt32 ReturnValue, UInt8
+  NewUserBackbufferCount, UInt8 NewBackbufferCount, Pointer ppNewBackBuffers, Pointer
+  pNewPrimary, Pointer pNewProxyPrimary, UInt32 NewWidth, UInt32 NewHeight, UInt32
+  NewFormat, UInt32 NewFlags, Boolean NewRedirected, UInt64 NewLogicalSurfaceHandle,
+  Pointer NewBackbufferHandles, Pointer NewFenceHandle, UInt64 NewFenceValue, UInt8
+  NewActualbufferCount, UInt8 NewWinFlipProxyBufferCount)
+opcode: Stop
+keywords: Events
+task: ResizeBuffers
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: UInt32
+  field_name: ReturnValue
+- field_type: UInt8
+  field_name: NewUserBackbufferCount
+- field_type: UInt8
+  field_name: NewBackbufferCount
+- field_type: Pointer
+  field_name: ppNewBackBuffers
+- field_type: Pointer
+  field_name: pNewPrimary
+- field_type: Pointer
+  field_name: pNewProxyPrimary
+- field_type: UInt32
+  field_name: NewWidth
+- field_type: UInt32
+  field_name: NewHeight
+- field_type: UInt32
+  field_name: NewFormat
+- field_type: UInt32
+  field_name: NewFlags
+- field_type: Boolean
+  field_name: NewRedirected
+- field_type: UInt64
+  field_name: NewLogicalSurfaceHandle
+- field_type: Pointer
+  field_name: NewBackbufferHandles
+- field_type: Pointer
+  field_name: NewFenceHandle
+- field_type: UInt64
+  field_name: NewFenceValue
+- field_type: UInt8
+  field_name: NewActualbufferCount
+- field_type: UInt8
+  field_name: NewWinFlipProxyBufferCount

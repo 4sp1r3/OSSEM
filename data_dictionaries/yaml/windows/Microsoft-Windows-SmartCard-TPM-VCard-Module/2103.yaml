@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SmartCard-TPM-VCard-Module
+event_id: '2103'
+version: '0'
+event(fields): task_02103(Pointer Context, UInt32 WinError)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Context
+- field_type: UInt32
+  field_name: WinError

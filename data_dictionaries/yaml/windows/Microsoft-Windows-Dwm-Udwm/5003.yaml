@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5003'
+version: '0'
+event(fields): UdwmAnimationStop(UInt32 AnimationType, Pointer Hwnd)
+opcode: Stop
+keywords: Udwm
+task: UdwmAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AnimationType
+- field_type: Pointer
+  field_name: Hwnd

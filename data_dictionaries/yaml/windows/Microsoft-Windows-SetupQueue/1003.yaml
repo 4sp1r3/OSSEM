@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SetupQueue
+event_id: '1003'
+version: '0'
+event(fields): ExecutecommandqueueentryStop1003(UInt32 ErrorCode)
+opcode: Stop
+keywords: keyPerformance
+task: Executecommandqueueentry
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

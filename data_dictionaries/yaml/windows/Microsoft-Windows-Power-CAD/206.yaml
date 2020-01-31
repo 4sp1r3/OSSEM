@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Power-CAD
+event_id: '206'
+version: '0'
+event(fields): Notify206(UInt32 Capacity, UInt32 FullChargedCapacity, UInt32 Voltage,
+  Int32 Rate)
+opcode: ''
+keywords: Notify
+task: Notify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Capacity
+- field_type: UInt32
+  field_name: FullChargedCapacity
+- field_type: UInt32
+  field_name: Voltage
+- field_type: Int32
+  field_name: Rate

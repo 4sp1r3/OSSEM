@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1100'
+version: '0'
+event(fields): TraceAdapterLockStart(Pointer DxgAdapter, Boolean Exclusive)
+opcode: Start
+keywords: AdapterLock
+task: TraceAdapterLock
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DxgAdapter
+- field_type: Boolean
+  field_name: Exclusive

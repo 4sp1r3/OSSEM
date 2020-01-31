@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51076'
+version: '0'
+event(fields): NetworkParameterStateEventNotifyCSExit()
+opcode: NotifyCSExit
+keywords: ''
+task: NetworkParameterStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

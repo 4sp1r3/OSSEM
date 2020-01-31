@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '158'
+version: '0'
+event(fields): IDXGIOutput_GetDisplaySurfaceDataStart(Pointer pThis, Pointer pScanoutSurface)
+opcode: Start
+keywords: ''
+task: IDXGIOutput_GetDisplaySurfaceData
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pScanoutSurface

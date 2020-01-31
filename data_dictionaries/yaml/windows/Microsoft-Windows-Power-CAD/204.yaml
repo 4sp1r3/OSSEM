@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Power-CAD
+event_id: '204'
+version: '0'
+event(fields): Notify204(UInt32 PowerSourceId)
+opcode: ''
+keywords: Notify
+task: Notify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PowerSourceId

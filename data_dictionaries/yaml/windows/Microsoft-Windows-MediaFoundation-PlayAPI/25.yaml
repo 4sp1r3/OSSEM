@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '25'
+version: '0'
+event(fields): MFPlayStop25(Pointer Object, UInt32 ErrorCode, Int32 State)
+opcode: Stop
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: Int32
+  field_name: State

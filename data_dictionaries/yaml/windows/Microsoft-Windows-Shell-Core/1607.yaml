@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1607'
+version: '0'
+event(fields): ShellTask_CloseSession_CloseThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_CloseSession_CloseThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

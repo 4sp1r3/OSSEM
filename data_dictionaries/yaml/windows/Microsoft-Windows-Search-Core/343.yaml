@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '343'
+version: '0'
+event(fields): CreateStemmerStart(UInt32 Locale)
+opcode: Start
+keywords: Indexing
+task: CreateStemmer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Locale

@@ -1,0 +1,22 @@
+provider: Service Control Manager
+event_id: '7045'
+version: '0'
+event(fields): task_0PCODE_64pcode_647045(UnicodeString ServiceName, UnicodeString
+  ImagePath, UnicodeString ServiceType, UnicodeString StartType, UnicodeString AccountName)
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: UnicodeString
+  field_name: ImagePath
+- field_type: UnicodeString
+  field_name: ServiceType
+- field_type: UnicodeString
+  field_name: StartType
+- field_type: UnicodeString
+  field_name: AccountName

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '40'
+version: '0'
+event(fields): RuntimeDroppedCall(Pointer pID3D11DeviceContext, UInt32 Type)
+opcode: ''
+keywords: ''
+task: RuntimeDroppedCall
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D11DeviceContext
+- field_type: UInt32
+  field_name: Type

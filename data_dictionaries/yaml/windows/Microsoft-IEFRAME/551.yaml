@@ -1,0 +1,18 @@
+provider: Microsoft-IEFRAME
+event_id: '551'
+version: '0'
+event(fields): LCIEDownloader_CreateIsoComponent551(UInt32 ComponentType, UInt32 PID,
+  UInt32 TID)
+opcode: ''
+keywords: LCIEDownloader
+task: LCIEDownloader_CreateIsoComponent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ComponentType
+- field_type: UInt32
+  field_name: PID
+- field_type: UInt32
+  field_name: TID

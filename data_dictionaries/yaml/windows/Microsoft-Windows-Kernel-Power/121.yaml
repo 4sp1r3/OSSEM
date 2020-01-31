@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '121'
+version: '0'
+event(fields): PowerTransition121(UInt32 DriverWakeTime, UInt32 TotalResumeTime, UInt32
+  BiosInitTime)
+opcode: ''
+keywords: po:Scenario po:Performance po:PerformanceLight
+task: PowerTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DriverWakeTime
+- field_type: UInt32
+  field_name: TotalResumeTime
+- field_type: UInt32
+  field_name: BiosInitTime

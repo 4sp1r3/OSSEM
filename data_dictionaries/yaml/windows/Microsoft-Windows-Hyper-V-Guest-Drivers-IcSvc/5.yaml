@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Hyper-V-Guest-Drivers-IcSvc
+event_id: '5'
+version: '0'
+event(fields): task_05(UnicodeString Volume)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Volume

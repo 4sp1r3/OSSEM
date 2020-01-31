@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '304'
+version: '0'
+event(fields): task_0304(Int32 ExitCode, UnicodeString ServerErrorMessage, UnicodeString
+  TenantType, UnicodeString JoinType, UnicodeString DebugOutput)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ExitCode
+- field_type: UnicodeString
+  field_name: ServerErrorMessage
+- field_type: UnicodeString
+  field_name: TenantType
+- field_type: UnicodeString
+  field_name: JoinType
+- field_type: UnicodeString
+  field_name: DebugOutput

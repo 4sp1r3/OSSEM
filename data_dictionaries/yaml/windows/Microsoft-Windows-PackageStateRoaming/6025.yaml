@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PackageStateRoaming
+event_id: '6025'
+version: '0'
+event(fields): task_06025(UnicodeString PackageFullName, FILETIME ConsistencyHypothesis)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: FILETIME
+  field_name: ConsistencyHypothesis

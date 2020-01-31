@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '11041'
+version: '1'
+event(fields): ManifestNormalizeManifestStop_V1()
+opcode: Stop
+keywords: ''
+task: ManifestNormalizeManifest
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

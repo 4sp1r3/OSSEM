@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '8'
+version: '0'
+event(fields): IMJoinLaunch(UnicodeString Application, UnicodeString Version, UnicodeString
+  AccountName, UnicodeString ConversationID, UnicodeString JoiningIP, UnicodeString
+  JoiningUser, UInt32 Reason, UInt32 MemberCount, UnicodeString Member, UnicodeString
+  Sender)
+opcode: Launch
+keywords: WPC ThirdParty
+task: IMJoin
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Application
+- field_type: UnicodeString
+  field_name: Version
+- field_type: UnicodeString
+  field_name: AccountName
+- field_type: UnicodeString
+  field_name: ConversationID
+- field_type: UnicodeString
+  field_name: JoiningIP
+- field_type: UnicodeString
+  field_name: JoiningUser
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: MemberCount
+- field_type: UnicodeString
+  field_name: Member
+- field_type: UnicodeString
+  field_name: Sender

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '6112'
+version: '0'
+event(fields): RMEClientEnumLibQueryStart(UnicodeString RMEClientID)
+opcode: Start
+keywords: ''
+task: RMEClientEnumLibQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RMEClientID

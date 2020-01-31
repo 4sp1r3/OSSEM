@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AssignedAccessBroker
+event_id: '30011'
+version: '0'
+event(fields): ReportUnresponsiveAssignedAccessApplication()
+opcode: ''
+keywords: ''
+task: ReportUnresponsiveAssignedAccessApplication
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

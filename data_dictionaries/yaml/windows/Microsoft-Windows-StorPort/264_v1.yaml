@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-StorPort
+event_id: '264'
+version: '1'
+event(fields): Port264_V1(UInt32 PortNumber, UInt8 Bus, UInt8 Target, UInt8 LUN, UInt32
+  CurrentD3IdleTimeout, UInt32 NewD3IdleTimeout, Boolean IoCoalescingOn, Boolean OnBatteryPower)
+opcode: ''
+keywords: Power
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: Bus
+- field_type: UInt8
+  field_name: Target
+- field_type: UInt8
+  field_name: LUN
+- field_type: UInt32
+  field_name: CurrentD3IdleTimeout
+- field_type: UInt32
+  field_name: NewD3IdleTimeout
+- field_type: Boolean
+  field_name: IoCoalescingOn
+- field_type: Boolean
+  field_name: OnBatteryPower

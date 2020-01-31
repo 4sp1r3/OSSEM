@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-wmvdecod
+event_id: '35'
+version: '0'
+event(fields): wmvdecod_FormatChangeStart(Int32 OrigWidth, Int32 OrigHeight, UInt32
+  OrigAspectRatioX, UInt32 OrigAspectRatioY, Int32 NewWidth, Int32 NewHeight, UInt32
+  NewAspectRatioX, UInt32 NewAspectRatioY)
+opcode: Start
+keywords: ''
+task: wmvdecod_FormatChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: OrigWidth
+- field_type: Int32
+  field_name: OrigHeight
+- field_type: UInt32
+  field_name: OrigAspectRatioX
+- field_type: UInt32
+  field_name: OrigAspectRatioY
+- field_type: Int32
+  field_name: NewWidth
+- field_type: Int32
+  field_name: NewHeight
+- field_type: UInt32
+  field_name: NewAspectRatioX
+- field_type: UInt32
+  field_name: NewAspectRatioY

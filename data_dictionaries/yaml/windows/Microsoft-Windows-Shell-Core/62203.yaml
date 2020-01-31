@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62203'
+version: '0'
+event(fields): Activation_Watermark_Failed_To_Get_Genuine_Status(UInt32 Result)
+opcode: ''
+keywords: ''
+task: Activation_Watermark_Failed_To_Get_Genuine_Status
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

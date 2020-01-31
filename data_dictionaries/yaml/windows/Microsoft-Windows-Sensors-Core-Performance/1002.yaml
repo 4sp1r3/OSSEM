@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Sensors-Core-Performance
+event_id: '1002'
+version: '0'
+event(fields): SensorsIoctlTaskStop(UInt32 IoctlType, Pointer SensorObj)
+opcode: Stop
+keywords: ''
+task: SensorsIoctlTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IoctlType
+- field_type: Pointer
+  field_name: SensorObj

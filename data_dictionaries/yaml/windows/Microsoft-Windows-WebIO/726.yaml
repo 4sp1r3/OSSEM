@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WebIO
+event_id: '726'
+version: '0'
+event(fields): SSLConnectionBufferReceive(Pointer Connection, Pointer Buffer, UInt32
+  BufferLengthData, UInt32 BufferLengthRemaining, Binary Data, Boolean DummyWorkaroundVal)
+opcode: ''
+keywords: Keyword.RECEIVE
+task: SSLConnectionBufferReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: BufferLengthData
+- field_type: UInt32
+  field_name: BufferLengthRemaining
+- field_type: Binary
+  field_name: Data
+- field_type: Boolean
+  field_name: DummyWorkaroundVal

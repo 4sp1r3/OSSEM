@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '193'
+version: '0'
+event(fields): Mshtml_Scroll_SetOffsetStop()
+opcode: Stop
+keywords: scroll
+task: Mshtml_Scroll_SetOffset
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

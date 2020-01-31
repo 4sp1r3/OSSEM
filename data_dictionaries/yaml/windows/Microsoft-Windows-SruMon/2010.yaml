@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-SruMon
+event_id: '2010'
+version: '0'
+event(fields): SruMonNWAggregationTrace(UnicodeString _FunctionName, UnicodeString
+  _ApplicationName, UInt64 _InterfaceLuid, Boolean _Costed, UInt64 _BytesSent, UInt64
+  _BytesReceived)
+opcode: ''
+keywords: KeywordSruMonNWAggregationTrace
+task: SruMonNWAggregationTrace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: _FunctionName
+- field_type: UnicodeString
+  field_name: _ApplicationName
+- field_type: UInt64
+  field_name: _InterfaceLuid
+- field_type: Boolean
+  field_name: _Costed
+- field_type: UInt64
+  field_name: _BytesSent
+- field_type: UInt64
+  field_name: _BytesReceived

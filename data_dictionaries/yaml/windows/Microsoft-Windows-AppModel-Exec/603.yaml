@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '603'
+version: '0'
+event(fields): task_0603(UInt32 HRESULT)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

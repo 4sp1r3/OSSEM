@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '350'
+version: '0'
+event(fields): RenderThreadSimulateVBlankStart()
+opcode: Start
+keywords: Rendering
+task: RenderThreadSimulateVBlank
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

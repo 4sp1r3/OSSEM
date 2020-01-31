@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1065'
+version: '0'
+event(fields): LayoutChangedStop()
+opcode: Stop
+keywords: WwaHost
+task: LayoutChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

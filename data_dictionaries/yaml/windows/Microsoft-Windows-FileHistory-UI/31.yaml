@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '31'
+version: '0'
+event(fields): FolderDoubleClickNavigationStop()
+opcode: Stop
+keywords: ''
+task: FolderDoubleClickNavigation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

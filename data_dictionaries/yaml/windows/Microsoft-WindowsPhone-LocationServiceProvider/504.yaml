@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '504'
+version: '0'
+event(fields): Geolocation504(Int32 State)
+opcode: ''
+keywords: ClientApi
+task: Geolocation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: State

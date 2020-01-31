@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1121'
+version: '0'
+event(fields): MediaFoundationValidateApplicationCertificateStop(HexInt32 hr)
+opcode: Stop
+keywords: ''
+task: MediaFoundationValidateApplicationCertificate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: hr

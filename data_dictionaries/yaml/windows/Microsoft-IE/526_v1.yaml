@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '526'
+version: '1'
+event(fields): Mshtml_EventDebug_DOM_Event_DispatchStart_V1(UnicodeString EventType,
+  Pointer EventParam, Pointer EventTarget, UInt64 EventContextId)
+opcode: Start
+keywords: eventsandtimers
+task: Mshtml_EventDebug_DOM_Event_Dispatch
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventType
+- field_type: Pointer
+  field_name: EventParam
+- field_type: Pointer
+  field_name: EventTarget
+- field_type: UInt64
+  field_name: EventContextId

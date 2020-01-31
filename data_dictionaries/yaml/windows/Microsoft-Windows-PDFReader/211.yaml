@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '211'
+version: '0'
+event(fields): TextCopyStart()
+opcode: Start
+keywords: Reader
+task: TextCopy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

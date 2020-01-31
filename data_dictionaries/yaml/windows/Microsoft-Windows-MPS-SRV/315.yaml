@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '315'
+version: '0'
+event(fields): MPS_SVC_BFE_FilterAddStart()
+opcode: Start
+keywords: Service
+task: MPS_SVC_BFE_FilterAdd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

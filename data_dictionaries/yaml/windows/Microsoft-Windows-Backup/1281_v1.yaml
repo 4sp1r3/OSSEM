@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Backup
+event_id: '1281'
+version: '1'
+event(fields): task_01281_V1(GUID SnapinId, UnicodeString StatusInfo)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SnapinId
+- field_type: UnicodeString
+  field_name: StatusInfo

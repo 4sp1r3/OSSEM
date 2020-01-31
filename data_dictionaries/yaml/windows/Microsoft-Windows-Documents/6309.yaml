@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Documents
+event_id: '6309'
+version: '0'
+event(fields): DocPerf_Task_WSDMon_CancelDocStart(UInt32 JobId)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_WSDMon_CancelDoc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobId

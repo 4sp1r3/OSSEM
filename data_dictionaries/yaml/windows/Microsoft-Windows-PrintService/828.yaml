@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintService
+event_id: '828'
+version: '0'
+event(fields): ExecutingXPSPrintAPIcallsXPSPrintAPIfailure828(UInt32 JobId, HexInt32
+  ErrorCode)
+opcode: XPSPrintAPIfailure
+keywords: XPS_PRINT_API_KEYWORD
+task: ExecutingXPSPrintAPIcalls
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobId
+- field_type: HexInt32
+  field_name: ErrorCode

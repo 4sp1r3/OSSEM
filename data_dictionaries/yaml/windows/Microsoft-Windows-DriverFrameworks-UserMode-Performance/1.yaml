@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode-Performance
+event_id: '1'
+version: '0'
+event(fields): FxRequestTaskStart(UInt8 Type, Pointer DrvPtr, Pointer DevPtr)
+opcode: Start
+keywords: ''
+task: FxRequestTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Type
+- field_type: Pointer
+  field_name: DrvPtr
+- field_type: Pointer
+  field_name: DevPtr

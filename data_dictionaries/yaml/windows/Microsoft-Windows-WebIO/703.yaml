@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-WebIO
+event_id: '703'
+version: '0'
+event(fields): SSLInitializeSecurityContextStop(Pointer Connection, UInt64 SecurityHandleHigh,
+  UInt64 SecurityHandleLow, UInt64 CredHandleHigh, UInt64 CredHandleLow, UnicodeString
+  HostName, UInt32 InputFlags, Pointer Buffer, UInt32 BufferLengthData, UInt32 BufferLengthRemaining,
+  UInt32 OutputFlags, Pointer DataChunks, UInt32 DataChunkBufferLength, UInt32 Result)
+opcode: Stop
+keywords: Keyword.SECURITY
+task: SSLInitializeSecurityContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: UInt64
+  field_name: SecurityHandleHigh
+- field_type: UInt64
+  field_name: SecurityHandleLow
+- field_type: UInt64
+  field_name: CredHandleHigh
+- field_type: UInt64
+  field_name: CredHandleLow
+- field_type: UnicodeString
+  field_name: HostName
+- field_type: UInt32
+  field_name: InputFlags
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: BufferLengthData
+- field_type: UInt32
+  field_name: BufferLengthRemaining
+- field_type: UInt32
+  field_name: OutputFlags
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: UInt32
+  field_name: DataChunkBufferLength
+- field_type: UInt32
+  field_name: Result

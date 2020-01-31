@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '35'
+version: '0'
+event(fields): Thisgroupofeventstrackstheperformanceofregistryshutdown.RegPerfOpShutdownFlushStop()
+opcode: RegPerfOpShutdownFlushStop
+keywords: ''
+task: Thisgroupofeventstrackstheperformanceofregistryshutdown.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Sdbus
+event_id: '103'
+version: '0'
+event(fields): Retune(HexInt64 SDHostPhysicalAddress, UInt64 RetuneCount)
+opcode: ''
+keywords: Emmc
+task: Retune
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: SDHostPhysicalAddress
+- field_type: UInt64
+  field_name: RetuneCount

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10029'
+version: '0'
+event(fields): Init10029(UnicodeString FilterName, UInt32 Reason)
+opcode: ''
+keywords: Init ut:Global
+task: Init
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FilterName
+- field_type: UInt32
+  field_name: Reason

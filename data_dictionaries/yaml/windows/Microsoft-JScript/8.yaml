@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '8'
+version: '0'
+event(fields): ScriptContextRundownScriptContextDCEnd(Pointer ScriptContextID)
+opcode: ScriptContextDCEnd
+keywords: JScriptEndRundown
+task: ScriptContextRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ScriptContextID

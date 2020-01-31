@@ -1,0 +1,16 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9509'
+version: '0'
+event(fields): ViewActivatorShouldWaitForCloseCompletion(UnicodeString pwsz, Boolean
+  fBool)
+opcode: ''
+keywords: ViewActivator
+task: ViewActivatorShouldWaitForCloseCompletion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: Boolean
+  field_name: fBool

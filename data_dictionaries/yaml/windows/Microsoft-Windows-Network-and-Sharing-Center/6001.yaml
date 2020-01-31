@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Network-and-Sharing-Center
+event_id: '6001'
+version: '0'
+event(fields): Initialization_CoreStart()
+opcode: Start
+keywords: ''
+task: Initialization_Core
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

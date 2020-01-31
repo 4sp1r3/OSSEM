@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '9'
+version: '0'
+event(fields): FindValueStop(Int32 Return, Pointer FoundValue, UInt32 FoundValueSize)
+opcode: Stop
+keywords: APIs Profiling
+task: FindValue
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Return
+- field_type: Pointer
+  field_name: FoundValue
+- field_type: UInt32
+  field_name: FoundValueSize

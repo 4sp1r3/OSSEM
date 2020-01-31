@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '512'
+version: '0'
+event(fields): IdleCheckPoint(UInt32 DetectionResult, UInt32 Reason)
+opcode: ''
+keywords: ForcedIdleProcessing
+task: IdleCheckPoint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DetectionResult
+- field_type: UInt32
+  field_name: Reason

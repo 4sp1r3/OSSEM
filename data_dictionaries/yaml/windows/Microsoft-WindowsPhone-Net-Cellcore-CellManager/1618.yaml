@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1618'
+version: '0'
+event(fields): WPRegistrationPolicy1618(UInt32 dwCode1, UInt32 dwCode2)
+opcode: ''
+keywords: Error
+task: WPRegistrationPolicy
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwCode1
+- field_type: UInt32
+  field_name: dwCode2

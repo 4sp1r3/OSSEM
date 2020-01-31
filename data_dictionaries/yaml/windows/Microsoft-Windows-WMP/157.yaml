@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '157'
+version: '0'
+event(fields): RAMCACHEStart(UInt32 Value)
+opcode: Start
+keywords: ramcache
+task: RAMCACHE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

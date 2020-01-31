@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-StoreMgr
+event_id: '10'
+version: '1'
+event(fields): UnpersistFailure_V1(UInt32 FailReason, HexInt32 FailStatus, UInt16
+  ObjectPathLength, UnicodeString ObjectPath)
+opcode: ''
+keywords: StoreOps StoreDiag
+task: UnpersistFailure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FailReason
+- field_type: HexInt32
+  field_name: FailStatus
+- field_type: UInt16
+  field_name: ObjectPathLength
+- field_type: UnicodeString
+  field_name: ObjectPath

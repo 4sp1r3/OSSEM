@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4934'
+version: '0'
+event(fields): task_04934(UInt32 SessionID, UnicodeString Object, UnicodeString Attribute,
+  UInt32 TypeOfChange, UnicodeString NewValue, UnicodeString USN, UInt32 StatusCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionID
+- field_type: UnicodeString
+  field_name: Object
+- field_type: UnicodeString
+  field_name: Attribute
+- field_type: UInt32
+  field_name: TypeOfChange
+- field_type: UnicodeString
+  field_name: NewValue
+- field_type: UnicodeString
+  field_name: USN
+- field_type: UInt32
+  field_name: StatusCode

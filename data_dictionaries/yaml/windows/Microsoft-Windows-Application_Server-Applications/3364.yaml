@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3364'
+version: '0'
+event(fields): ActivationListenerOpenStart(UnicodeString Uri, UnicodeString AppDomain)
+opcode: Start
+keywords: ActivationServices
+task: ActivationListenerOpen
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Uri
+- field_type: UnicodeString
+  field_name: AppDomain

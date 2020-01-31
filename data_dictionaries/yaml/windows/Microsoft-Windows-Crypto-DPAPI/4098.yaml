@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Crypto-DPAPI
+event_id: '4098'
+version: '0'
+event(fields): BackUpServiceOperation4098()
+opcode: ''
+keywords: ETW_TASK_BACKUPSERVICE_OPERATION
+task: BackUpServiceOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

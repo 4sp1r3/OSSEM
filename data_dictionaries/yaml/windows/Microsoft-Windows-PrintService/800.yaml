@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintService
+event_id: '800'
+version: '0'
+event(fields): PrintjobdiagnosticsStart(UInt32 JobId)
+opcode: Start
+keywords: ''
+task: Printjobdiagnostics
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobId

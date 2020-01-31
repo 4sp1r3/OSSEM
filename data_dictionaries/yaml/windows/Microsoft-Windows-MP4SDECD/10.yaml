@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MP4SDECD
+event_id: '10'
+version: '0'
+event(fields): MP4SDECD_ProcessOutputStop(Int64 SampleTime, Int64 SampleDuration)
+opcode: Stop
+keywords: ''
+task: MP4SDECD_ProcessOutput
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: SampleTime
+- field_type: Int64
+  field_name: SampleDuration

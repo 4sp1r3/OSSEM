@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '226'
+version: '0'
+event(fields): DriverInitStart(UInt16 DriverNameLength, UnicodeString DriverName)
+opcode: Start
+keywords: Performance DriverInit
+task: DriverInit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: DriverNameLength
+- field_type: UnicodeString
+  field_name: DriverName

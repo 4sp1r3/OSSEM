@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-MUI
+event_id: '3012'
+version: '0'
+event(fields): MUIresourcecachebuilderUpdateresourcecachemanifest3012(UnicodeString
+  FileName)
+opcode: Updateresourcecachemanifest
+keywords: ''
+task: MUIresourcecachebuilder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

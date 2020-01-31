@@ -1,0 +1,97 @@
+provider: Microsoft-Windows-Windows Defender
+event_id: '1015'
+version: '0'
+event(fields): task_01015(UnicodeString ProductName, UnicodeString ProductVersion,
+  UnicodeString DetectionID, UnicodeString DetectionSourceIndex, UnicodeString DetectionSource,
+  UnicodeString Unused, UnicodeString ProcessName, UnicodeString Domain, UnicodeString
+  User, UnicodeString SID, UnicodeString ThreatName, UnicodeString ThreatID, UnicodeString
+  SeverityID, UnicodeString CategoryID, UnicodeString FWLink, UnicodeString PathFound,
+  UnicodeString DetectionOriginIndex, UnicodeString DetectionOrigin, UnicodeString
+  ExecutionStatusIndex, UnicodeString ExecutionStatus, UnicodeString DetectionTypeIndex,
+  UnicodeString DetectionType, UnicodeString Unused2, UnicodeString Unused3, UnicodeString
+  SeverityName, UnicodeString CategoryName, UnicodeString SecurityintelligenceVersion,
+  UnicodeString EngineVersion, UnicodeString ProcessID, UnicodeString SecurityintelligenceID,
+  UnicodeString FidelityValue, UnicodeString FidelityLabel, UnicodeString ImageFileHash,
+  UnicodeString Unused4, UnicodeString Unused5, UnicodeString TargetFileName, UnicodeString
+  TargetFileHash)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UnicodeString
+  field_name: ProductVersion
+- field_type: UnicodeString
+  field_name: DetectionID
+- field_type: UnicodeString
+  field_name: DetectionSourceIndex
+- field_type: UnicodeString
+  field_name: DetectionSource
+- field_type: UnicodeString
+  field_name: Unused
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: Domain
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: SID
+- field_type: UnicodeString
+  field_name: ThreatName
+- field_type: UnicodeString
+  field_name: ThreatID
+- field_type: UnicodeString
+  field_name: SeverityID
+- field_type: UnicodeString
+  field_name: CategoryID
+- field_type: UnicodeString
+  field_name: FWLink
+- field_type: UnicodeString
+  field_name: PathFound
+- field_type: UnicodeString
+  field_name: DetectionOriginIndex
+- field_type: UnicodeString
+  field_name: DetectionOrigin
+- field_type: UnicodeString
+  field_name: ExecutionStatusIndex
+- field_type: UnicodeString
+  field_name: ExecutionStatus
+- field_type: UnicodeString
+  field_name: DetectionTypeIndex
+- field_type: UnicodeString
+  field_name: DetectionType
+- field_type: UnicodeString
+  field_name: Unused2
+- field_type: UnicodeString
+  field_name: Unused3
+- field_type: UnicodeString
+  field_name: SeverityName
+- field_type: UnicodeString
+  field_name: CategoryName
+- field_type: UnicodeString
+  field_name: SecurityintelligenceVersion
+- field_type: UnicodeString
+  field_name: EngineVersion
+- field_type: UnicodeString
+  field_name: ProcessID
+- field_type: UnicodeString
+  field_name: SecurityintelligenceID
+- field_type: UnicodeString
+  field_name: FidelityValue
+- field_type: UnicodeString
+  field_name: FidelityLabel
+- field_type: UnicodeString
+  field_name: ImageFileHash
+- field_type: UnicodeString
+  field_name: Unused4
+- field_type: UnicodeString
+  field_name: Unused5
+- field_type: UnicodeString
+  field_name: TargetFileName
+- field_type: UnicodeString
+  field_name: TargetFileHash

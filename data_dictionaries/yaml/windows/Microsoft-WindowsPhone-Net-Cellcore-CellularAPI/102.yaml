@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '102'
+version: '0'
+event(fields): CellularAPI(AnsiString AnsiStringName, Int32 Int32Name)
+opcode: ''
+keywords: Error
+task: CellularAPI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: AnsiStringName
+- field_type: Int32
+  field_name: Int32Name

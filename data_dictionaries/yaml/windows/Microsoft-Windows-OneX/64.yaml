@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-OneX
+event_id: '64'
+version: '0'
+event(fields): EAP64(UInt32 PortId, UInt16 PacketLength, UInt32 PacketType, UInt8
+  Identifier, UInt32 EapMethodType)
+opcode: ''
+keywords: EAP EAPPacket LwtDiagnostic ut:Authentication
+task: EAP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId
+- field_type: UInt16
+  field_name: PacketLength
+- field_type: UInt32
+  field_name: PacketType
+- field_type: UInt8
+  field_name: Identifier
+- field_type: UInt32
+  field_name: EapMethodType

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1030'
+version: '0'
+event(fields): DeviceError1030(UInt32 Expected, UInt32 Actual)
+opcode: ''
+keywords: ''
+task: DeviceError
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Expected
+- field_type: UInt32
+  field_name: Actual

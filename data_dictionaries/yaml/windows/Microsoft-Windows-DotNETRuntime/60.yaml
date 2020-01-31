@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '60'
+version: '0'
+event(fields): ThreadPoolWorkingThreadCountStart(UInt32 Count, UInt16 ClrInstanceID)
+opcode: Start
+keywords: ThreadingKeyword
+task: ThreadPoolWorkingThreadCount
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt16
+  field_name: ClrInstanceID

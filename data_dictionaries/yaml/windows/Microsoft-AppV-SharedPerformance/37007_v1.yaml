@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '37007'
+version: '1'
+event(fields): RunTask.VIRTMAN.Stop_V1()
+opcode: Stop
+keywords: ''
+task: RunTask.VIRTMAN.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

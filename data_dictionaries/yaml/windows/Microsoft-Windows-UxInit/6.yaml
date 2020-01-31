@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UxInit
+event_id: '6'
+version: '0'
+event(fields): InitializeUserThemeStart(Int32 monitorConfig, Boolean fPolicyCheckOnly)
+opcode: Start
+keywords: ''
+task: InitializeUserTheme
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: monitorConfig
+- field_type: Boolean
+  field_name: fPolicyCheckOnly

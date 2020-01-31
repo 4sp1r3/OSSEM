@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '3003'
+version: '0'
+event(fields): Watermark_GenuineImage_Blend_Error(UInt32 Result)
+opcode: ''
+keywords: ''
+task: Watermark_GenuineImage_Blend_Error
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

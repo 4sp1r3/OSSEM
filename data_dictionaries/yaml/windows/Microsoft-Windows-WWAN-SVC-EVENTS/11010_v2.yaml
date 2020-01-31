@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '11010'
+version: '2'
+event(fields): task_0OID_Handling11010_V2(GUID InterfaceGuid, UInt32 RequestId, UInt32
+  ConnectionId, UInt32 ActivationCommand, UnicodeString AccessString, UInt32 Compression,
+  UInt32 AuthProtocol, UInt32 IPType, UInt32 MediaPreference, UInt32 ConnectionMediaSource,
+  UInt32 ErrorCode)
+opcode: OID_Handling
+keywords: LwtDiagnostic WwanOid ContextLifeCycle keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: ConnectionId
+- field_type: UInt32
+  field_name: ActivationCommand
+- field_type: UnicodeString
+  field_name: AccessString
+- field_type: UInt32
+  field_name: Compression
+- field_type: UInt32
+  field_name: AuthProtocol
+- field_type: UInt32
+  field_name: IPType
+- field_type: UInt32
+  field_name: MediaPreference
+- field_type: UInt32
+  field_name: ConnectionMediaSource
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '124'
+version: '0'
+event(fields): VirtualHeterogeneityRundown(Boolean VirtualHeterogeneitySupported,
+  Boolean VirtualHeterogeneityOn, UInt32 DisableReasons)
+opcode: ''
+keywords: Diag PerfDiag
+task: VirtualHeterogeneityRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: VirtualHeterogeneitySupported
+- field_type: Boolean
+  field_name: VirtualHeterogeneityOn
+- field_type: UInt32
+  field_name: DisableReasons

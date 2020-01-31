@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '284'
+version: '0'
+event(fields): THUMBNAIL_TOOLTIP_CHANGED(UnicodeString Tooltip)
+opcode: ''
+keywords: mediaplayer
+task: THUMBNAIL_TOOLTIP_CHANGED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Tooltip

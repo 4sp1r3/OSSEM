@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-PDC
+event_id: '126'
+version: '0'
+event(fields): PdcPhaseNotificationCallback(UInt8 CurrentPhase, UInt8 CurrentPhaseNotificationsState,
+  UInt32 CurrentPhaseNotificationsStatus, UInt32 CurrentPhasePdcSequence, UInt32 CallbackStatus,
+  UInt32 CallbackPdcSequence)
+opcode: ''
+keywords: Cs CsDiag
+task: PdcPhaseNotificationCallback
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: CurrentPhase
+- field_type: UInt8
+  field_name: CurrentPhaseNotificationsState
+- field_type: UInt32
+  field_name: CurrentPhaseNotificationsStatus
+- field_type: UInt32
+  field_name: CurrentPhasePdcSequence
+- field_type: UInt32
+  field_name: CallbackStatus
+- field_type: UInt32
+  field_name: CallbackPdcSequence

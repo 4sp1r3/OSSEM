@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinINet
+event_id: '306'
+version: '0'
+event(fields): WININET_DNS_QUERYFail(UInt16 _HostNameLength, AnsiString HostName,
+  Pointer RequestHandle, UInt32 Error)
+opcode: Fail
+keywords: WININET_KEYWORD_CONNECTION WININET_KEYWORD_AOAC
+task: WININET_DNS_QUERY
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _HostNameLength
+- field_type: AnsiString
+  field_name: HostName
+- field_type: Pointer
+  field_name: RequestHandle
+- field_type: UInt32
+  field_name: Error

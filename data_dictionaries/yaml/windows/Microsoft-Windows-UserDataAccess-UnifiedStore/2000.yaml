@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '2000'
+version: '0'
+event(fields): task_02000(HexInt32 Arg1, UInt32 Arg2, UInt32 Arg3)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Arg1
+- field_type: UInt32
+  field_name: Arg2
+- field_type: UInt32
+  field_name: Arg3

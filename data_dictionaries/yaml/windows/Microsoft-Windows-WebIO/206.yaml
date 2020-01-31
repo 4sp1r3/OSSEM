@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-WebIO
+event_id: '206'
+version: '0'
+event(fields): ConnectionNameResolutionRequestStop(Pointer DnsQuery, UnicodeString
+  FQDN, UnicodeString CanonicalName, UInt32 AddressCount, UInt32 SockaddrLength, Binary
+  SockAddr)
+opcode: Stop
+keywords: ''
+task: ConnectionNameResolutionRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DnsQuery
+- field_type: UnicodeString
+  field_name: FQDN
+- field_type: UnicodeString
+  field_name: CanonicalName
+- field_type: UInt32
+  field_name: AddressCount
+- field_type: UInt32
+  field_name: SockaddrLength
+- field_type: Binary
+  field_name: SockAddr

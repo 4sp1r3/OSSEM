@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '603'
+version: '0'
+event(fields): Mshtml_View_LinkHighlightTimerPaintStop()
+opcode: Stop
+keywords: subsystem mshtml touch
+task: Mshtml_View_LinkHighlightTimerPaint
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

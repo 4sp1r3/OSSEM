@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '52'
+version: '0'
+event(fields): CBlackboxWithTEEEnsureInitedStart(Pointer Object, UInt32 HResult)
+opcode: Start
+keywords: ''
+task: CBlackboxWithTEEEnsureInited
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: HResult

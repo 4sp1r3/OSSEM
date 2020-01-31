@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '161'
+version: '0'
+event(fields): DigitalSignatureSigning161(HexInt32 errorCode, UnicodeString expectedValue,
+  UnicodeString actualValue)
+opcode: Signing
+keywords: ''
+task: DigitalSignature
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: expectedValue
+- field_type: UnicodeString
+  field_name: actualValue

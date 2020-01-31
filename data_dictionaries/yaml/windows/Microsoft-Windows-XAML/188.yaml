@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-XAML
+event_id: '188'
+version: '0'
+event(fields): TouchHitTestingStop(Float X, Float Y, Float Width, Float Height)
+opcode: Stop
+keywords: Input
+task: TouchHitTesting
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: X
+- field_type: Float
+  field_name: Y
+- field_type: Float
+  field_name: Width
+- field_type: Float
+  field_name: Height

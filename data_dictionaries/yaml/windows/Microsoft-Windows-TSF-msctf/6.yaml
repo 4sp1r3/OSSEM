@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '6'
+version: '0'
+event(fields): ActivateCiceroForThread()
+opcode: ''
+keywords: Perf
+task: ActivateCiceroForThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '302'
+version: '0'
+event(fields): DevicePreparation(Pointer Token, Pointer Plugin, UInt16 IdLength, UnicodeString
+  Id, Boolean Prepared)
+opcode: ''
+keywords: po:RuntimeFx
+task: DevicePreparation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token
+- field_type: Pointer
+  field_name: Plugin
+- field_type: UInt16
+  field_name: IdLength
+- field_type: UnicodeString
+  field_name: Id
+- field_type: Boolean
+  field_name: Prepared

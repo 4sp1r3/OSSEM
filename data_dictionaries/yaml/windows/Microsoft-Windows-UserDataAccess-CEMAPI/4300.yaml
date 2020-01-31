@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4300'
+version: '0'
+event(fields): MAPILOGONEXStart()
+opcode: Start
+keywords: Performance
+task: MAPILOGONEX
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

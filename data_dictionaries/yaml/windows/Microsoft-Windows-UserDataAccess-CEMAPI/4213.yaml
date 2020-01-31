@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4213'
+version: '0'
+event(fields): STORE_RUNRULESStop()
+opcode: Stop
+keywords: Performance
+task: STORE_RUNRULES
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

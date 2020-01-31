@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62441'
+version: '0'
+event(fields): AppDefaults_ResetToRecommended(UnicodeString ProgId, UnicodeString
+  ExtOrUriScheme)
+opcode: ''
+keywords: ''
+task: AppDefaults_ResetToRecommended
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProgId
+- field_type: UnicodeString
+  field_name: ExtOrUriScheme

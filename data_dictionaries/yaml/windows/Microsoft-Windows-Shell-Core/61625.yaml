@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61625'
+version: '0'
+event(fields): DataPackage_SetHtmlStop()
+opcode: Stop
+keywords: Shell
+task: DataPackage_SetHtml
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

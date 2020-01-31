@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1215'
+version: '0'
+event(fields): RdClientRADCworkspaceThiseventisraisedwhenallthefeedsoftheuserhavebeensubscribedorupdatedcompletely.Welogtheoveralltimeittooktodownloadallfeedsinparallel.(UInt32
+  refreshTime, UInt32 numberOfFeeds)
+opcode: Thiseventisraisedwhenallthefeedsoftheuserhavebeensubscribedorupdatedcompletely.Welogtheoveralltimeittooktodownloadallfeedsinparallel.
+keywords: ''
+task: RdClientRADCworkspace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: refreshTime
+- field_type: UInt32
+  field_name: numberOfFeeds

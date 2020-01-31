@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-XAML
+event_id: '141'
+version: '0'
+event(fields): TextureAtlasEntryFree(UInt64 AtlasId, UInt32 X, UInt32 Y, UInt32 Width,
+  UInt32 Height)
+opcode: ''
+keywords: Rendering
+task: TextureAtlasEntryFree
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: AtlasId
+- field_type: UInt32
+  field_name: X
+- field_type: UInt32
+  field_name: Y
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height

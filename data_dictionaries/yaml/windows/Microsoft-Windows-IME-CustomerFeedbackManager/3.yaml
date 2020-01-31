@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-CustomerFeedbackManager
+event_id: '3'
+version: '0'
+event(fields): IME_SQMsender3()
+opcode: ''
+keywords: ''
+task: IME_SQMsender
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

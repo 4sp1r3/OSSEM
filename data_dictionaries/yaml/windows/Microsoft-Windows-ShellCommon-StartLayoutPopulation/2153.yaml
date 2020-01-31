@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '2153'
+version: '0'
+event(fields): PlaceholderTileOnAppInstall2153(UnicodeString packageFamilyName, UInt32
+  InstallState)
+opcode: ''
+keywords: ''
+task: PlaceholderTileOnAppInstall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: packageFamilyName
+- field_type: UInt32
+  field_name: InstallState

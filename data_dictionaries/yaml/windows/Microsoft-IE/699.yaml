@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '699'
+version: '0'
+event(fields): Mshtml_Animations_Instance699(Pointer DispNode, Pointer IndAnimationInstanceObject,
+  UInt32 DISPID)
+opcode: ''
+keywords: animation
+task: Mshtml_Animations_Instance
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DispNode
+- field_type: Pointer
+  field_name: IndAnimationInstanceObject
+- field_type: UInt32
+  field_name: DISPID

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DXGI
+event_id: '51'
+version: '0'
+event(fields): FindClosestMatchingModeStart(Pointer pIDXGIOutput, UInt32 WidthToMatch,
+  UInt32 HeightToMatch, UInt32 RefreshNumeratorToMatch, UInt32 RefreshDenominatorToMatch,
+  UInt32 FormatToMatch, UInt32 ScanlineOrderingToMatch, UInt32 ScalingToMatch)
+opcode: Start
+keywords: Events
+task: FindClosestMatchingMode
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGIOutput
+- field_type: UInt32
+  field_name: WidthToMatch
+- field_type: UInt32
+  field_name: HeightToMatch
+- field_type: UInt32
+  field_name: RefreshNumeratorToMatch
+- field_type: UInt32
+  field_name: RefreshDenominatorToMatch
+- field_type: UInt32
+  field_name: FormatToMatch
+- field_type: UInt32
+  field_name: ScanlineOrderingToMatch
+- field_type: UInt32
+  field_name: ScalingToMatch

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18885'
+version: '0'
+event(fields): Shell32_DefView_ExecRefreshStart()
+opcode: Start
+keywords: Shell
+task: Shell32_DefView_ExecRefresh
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

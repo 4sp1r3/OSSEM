@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '13'
+version: '0'
+event(fields): task_013(UInt16 NewMaximumApplication)
+opcode: ''
+keywords: wpnplat
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: NewMaximumApplication

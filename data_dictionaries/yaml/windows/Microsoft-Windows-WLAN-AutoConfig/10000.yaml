@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '10000'
+version: '0'
+event(fields): task_010000(UnicodeString ExtensibleModulePath, UInt32 ErrorCode)
+opcode: ''
+keywords: Telemetry
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtensibleModulePath
+- field_type: UInt32
+  field_name: ErrorCode

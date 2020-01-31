@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '6145'
+version: '0'
+event(fields): DataDeduplicationUnoptimizationTask6145(GUID JobInstanceId, UnicodeString
+  VolumeGuidPath, UnicodeString VolumeDisplayName)
+opcode: ''
+keywords: Reporting
+task: DataDeduplicationUnoptimizationTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: JobInstanceId
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UnicodeString
+  field_name: VolumeDisplayName

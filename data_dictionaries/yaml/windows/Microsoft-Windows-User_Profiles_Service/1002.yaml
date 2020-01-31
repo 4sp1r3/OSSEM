@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-User Profiles Service
+event_id: '1002'
+version: '0'
+event(fields): ProfSvc_CreateNewProfileStop()
+opcode: Stop
+keywords: ''
+task: ProfSvc_CreateNewProfile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

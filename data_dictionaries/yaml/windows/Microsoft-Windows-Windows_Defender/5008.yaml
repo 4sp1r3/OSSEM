@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Windows Defender
+event_id: '5008'
+version: '0'
+event(fields): task_05008(UnicodeString ProductName, UnicodeString ProductVersion,
+  UnicodeString Resource, UnicodeString FailureTypeIndex, UnicodeString FailureType,
+  UnicodeString ExceptionCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UnicodeString
+  field_name: ProductVersion
+- field_type: UnicodeString
+  field_name: Resource
+- field_type: UnicodeString
+  field_name: FailureTypeIndex
+- field_type: UnicodeString
+  field_name: FailureType
+- field_type: UnicodeString
+  field_name: ExceptionCode

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '10000'
+version: '0'
+event(fields): task_010000(UnicodeString debugString)
+opcode: ''
+keywords: wpndbg
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: debugString

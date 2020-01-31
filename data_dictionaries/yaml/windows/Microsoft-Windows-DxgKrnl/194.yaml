@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '194'
+version: '0'
+event(fields): Dxgk_Diag_OutputDupl_Process_Present(UInt32 PacketIndex, UInt32 WdLogIndex,
+  UInt32 VidPnSourceId, UInt32 PresentFlags, UInt32 PresentRgnDirtyRectCount, UInt32
+  PresentRgnMoveRectCount, UInt32 DirtyRectIntCount, Int32 DirtyRects, UInt32 MoveRectIntCount,
+  Int32 MoveRects)
+opcode: ''
+keywords: Base
+task: Dxgk_Diag_OutputDupl_Process_Present
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PacketIndex
+- field_type: UInt32
+  field_name: WdLogIndex
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: PresentFlags
+- field_type: UInt32
+  field_name: PresentRgnDirtyRectCount
+- field_type: UInt32
+  field_name: PresentRgnMoveRectCount
+- field_type: UInt32
+  field_name: DirtyRectIntCount
+- field_type: Int32
+  field_name: DirtyRects
+- field_type: UInt32
+  field_name: MoveRectIntCount
+- field_type: Int32
+  field_name: MoveRects

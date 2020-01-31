@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27054'
+version: '1'
+event(fields): HandleVirtualEnvironmentTerminatedActivityStop_V1()
+opcode: Stop
+keywords: ''
+task: HandleVirtualEnvironmentTerminatedActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

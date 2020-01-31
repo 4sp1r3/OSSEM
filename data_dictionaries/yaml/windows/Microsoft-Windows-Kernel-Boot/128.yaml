@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '128'
+version: '0'
+event(fields): ExecuteTransitionStart(FILETIME StartTime)
+opcode: Start
+keywords: SoftRestart
+task: ExecuteTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: StartTime

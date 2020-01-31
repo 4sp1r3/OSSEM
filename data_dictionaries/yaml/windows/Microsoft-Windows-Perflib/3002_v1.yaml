@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Perflib
+event_id: '3002'
+version: '1'
+event(fields): task_03002_V1()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

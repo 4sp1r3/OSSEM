@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '216'
+version: '0'
+event(fields): DockState(UInt32 DockState)
+opcode: ''
+keywords: UserActivity
+task: DockState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DockState

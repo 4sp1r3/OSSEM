@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '158'
+version: '0'
+event(fields): PointerLeaveStop()
+opcode: Stop
+keywords: Input
+task: PointerLeave
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

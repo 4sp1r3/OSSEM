@@ -1,0 +1,8 @@
+provider: Windows Kernel Trace
+category: '{f8f10121-b617-4a56-868b-9df1b27fe32c}'
+event_id: '32'
+version: '0'
+event(fields): MMCSS_TypeGroup()
+event_type: ''
+description: ''
+event_fields: []

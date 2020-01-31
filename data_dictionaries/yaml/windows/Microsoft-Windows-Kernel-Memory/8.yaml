@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Memory
+event_id: '8'
+version: '0'
+event(fields): Acg(UInt32 AcgFlag)
+opcode: ''
+keywords: KERNEL_MEM_KEYWORD_ACG
+task: Acg
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AcgFlag

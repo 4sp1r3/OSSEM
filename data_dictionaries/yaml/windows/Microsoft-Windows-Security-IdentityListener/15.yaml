@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Security-IdentityListener
+event_id: '15'
+version: '0'
+event(fields): task_015(UnicodeString RemoteMachineName, UInt32 Errorcode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RemoteMachineName
+- field_type: UInt32
+  field_name: Errorcode

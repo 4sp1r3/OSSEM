@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '134'
+version: '0'
+event(fields): Startup_CSearchServiceObj_Initialize(UInt32 Value)
+opcode: ''
+keywords: Service
+task: Startup_CSearchServiceObj_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

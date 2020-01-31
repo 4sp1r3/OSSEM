@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22079'
+version: '0'
+event(fields): Taskbar_Settings_Changed()
+opcode: ''
+keywords: Shell
+task: Taskbar_Settings_Changed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

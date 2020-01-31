@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6501'
+version: '0'
+event(fields): WPNSettings_PermissionsUI(UnicodeString AppUserModelID, Boolean SettingValue)
+opcode: ''
+keywords: ''
+task: WPNSettings_PermissionsUI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelID
+- field_type: Boolean
+  field_name: SettingValue

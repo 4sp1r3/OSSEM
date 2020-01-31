@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '60'
+version: '0'
+event(fields): APP_LAUNCHStart()
+opcode: Start
+keywords: mediaplayer
+task: APP_LAUNCH
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

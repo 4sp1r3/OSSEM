@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '43'
+version: '0'
+event(fields): Mshtml_CHtmPre_ScriptStart(Pointer DOC, UInt32 Length, UnicodeString
+  SRC)
+opcode: ''
+keywords: primarynav
+task: Mshtml_CHtmPre_ScriptStart
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DOC
+- field_type: UInt32
+  field_name: Length
+- field_type: UnicodeString
+  field_name: SRC

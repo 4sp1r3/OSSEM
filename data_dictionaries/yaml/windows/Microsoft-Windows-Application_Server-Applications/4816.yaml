@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4816'
+version: '0'
+event(fields): DiscoveryClientChannelFindInitiated(UnicodeString AppDomain)
+opcode: FindInitiated
+keywords: Discovery
+task: DiscoveryClientChannel
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

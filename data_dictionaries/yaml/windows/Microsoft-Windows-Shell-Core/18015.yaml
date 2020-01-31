@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18015'
+version: '0'
+event(fields): ExplorerFrame_FrameFirstVisible()
+opcode: ''
+keywords: Shell
+task: ExplorerFrame_FrameFirstVisible
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

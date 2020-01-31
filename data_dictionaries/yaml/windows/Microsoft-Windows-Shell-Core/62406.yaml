@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62406'
+version: '0'
+event(fields): CloudExperienceHost_WebAppEvent1(UnicodeString Name)
+opcode: ''
+keywords: Shell CloudExperienceHost
+task: CloudExperienceHost_WebAppEvent1
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name

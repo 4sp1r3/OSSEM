@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '179'
+version: '0'
+event(fields): MFMFAudio_Render_MediaSink_TaskAudioMediaSink_GetCorrelatedTime(Pointer
+  object, Int64 ClockTime, Int64 CorrelatedTime, Boolean IsStreamInvalidating, UInt32
+  hResult)
+opcode: AudioMediaSink_GetCorrelatedTime
+keywords: ''
+task: MFMFAudio_Render_MediaSink_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: ClockTime
+- field_type: Int64
+  field_name: CorrelatedTime
+- field_type: Boolean
+  field_name: IsStreamInvalidating
+- field_type: UInt32
+  field_name: hResult

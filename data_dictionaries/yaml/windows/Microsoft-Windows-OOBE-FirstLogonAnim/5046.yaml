@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-FirstLogonAnim
+event_id: '5046'
+version: '0'
+event(fields): WebPlatformCreateStop()
+opcode: Stop
+keywords: FirstLogonAnim
+task: WebPlatformCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

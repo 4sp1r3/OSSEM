@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1154'
+version: '0'
+event(fields): TcpCtcpDataTransferEcn(Pointer Tcb, UInt32 Cwnd, UInt32 SSThresh, UInt32
+  SndUna, UInt32 Mss, UInt32 ThAck, UInt32 DWnd, UInt32 BaseRtt)
+opcode: ''
+keywords: ut:ReceivePath
+task: TcpCtcpDataTransferEcn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Cwnd
+- field_type: UInt32
+  field_name: SSThresh
+- field_type: UInt32
+  field_name: SndUna
+- field_type: UInt32
+  field_name: Mss
+- field_type: UInt32
+  field_name: ThAck
+- field_type: UInt32
+  field_name: DWnd
+- field_type: UInt32
+  field_name: BaseRtt

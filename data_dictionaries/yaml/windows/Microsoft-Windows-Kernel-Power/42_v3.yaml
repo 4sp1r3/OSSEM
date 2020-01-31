@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '42'
+version: '3'
+event(fields): PreSleepNotification_V3(UInt32 TargetState, UInt32 EffectiveState,
+  UInt32 Reason, UInt32 Flags, UInt32 TransitionsToOn)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: PreSleepNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TargetState
+- field_type: UInt32
+  field_name: EffectiveState
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: TransitionsToOn

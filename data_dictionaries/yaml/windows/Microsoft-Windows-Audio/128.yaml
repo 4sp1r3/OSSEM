@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Audio
+event_id: '128'
+version: '0'
+event(fields): StreamCreationStop()
+opcode: Stop
+keywords: ''
+task: StreamCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

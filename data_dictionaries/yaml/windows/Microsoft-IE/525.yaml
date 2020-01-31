@@ -1,0 +1,29 @@
+provider: Microsoft-IE
+event_id: '525'
+version: '0'
+event(fields): Mshtml_Canvas_Operation(Pointer CHTMLCanvasElement, UInt32 Operation,
+  UInt32 canvasWidth, UInt32 canvasHeight, Float DestLeft, Float DestTop, Float ScaledSizeWidth,
+  Float ScaledSizeHeight)
+opcode: ''
+keywords: canvas
+task: Mshtml_Canvas_Operation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CHTMLCanvasElement
+- field_type: UInt32
+  field_name: Operation
+- field_type: UInt32
+  field_name: canvasWidth
+- field_type: UInt32
+  field_name: canvasHeight
+- field_type: Float
+  field_name: DestLeft
+- field_type: Float
+  field_name: DestTop
+- field_type: Float
+  field_name: ScaledSizeWidth
+- field_type: Float
+  field_name: ScaledSizeHeight

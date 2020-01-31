@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Bluetooth-Bthmini
+event_id: '200'
+version: '0'
+event(fields): BthMini_DriverPnP(UInt32 Major, UInt32 Minor, UInt32 Service)
+opcode: ''
+keywords: _BTHMINI_KEYWORD
+task: BthMini_DriverPnP
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Major
+- field_type: UInt32
+  field_name: Minor
+- field_type: UInt32
+  field_name: Service

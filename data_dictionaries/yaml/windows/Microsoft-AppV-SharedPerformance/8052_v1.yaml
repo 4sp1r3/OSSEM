@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8052'
+version: '1'
+event(fields): ReintegrateVirtualApplicationsStart_V1(UInt64 ActivityId)
+opcode: Start
+keywords: ''
+task: ReintegrateVirtualApplications
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ActivityId

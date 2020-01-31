@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '403'
+version: '0'
+event(fields): TouchPadWMPointerProcessingStart()
+opcode: Start
+keywords: MessagePumpInternalAndInput
+task: TouchPadWMPointerProcessing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

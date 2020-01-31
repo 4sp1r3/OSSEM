@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '4002'
+version: '0'
+event(fields): UnifiedStore_OnBoot_UpdateIndexesStop()
+opcode: Stop
+keywords: Performance
+task: UnifiedStore_OnBoot_UpdateIndexes
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

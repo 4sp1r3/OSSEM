@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '68'
+version: '0'
+event(fields): MeasuredLaunchInvalidTxtHeapBiosDataSize(UInt64 BiosDataSize)
+opcode: InvalidTxtHeapBiosDataSize
+keywords: keyword_80000000000
+task: MeasuredLaunch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: BiosDataSize

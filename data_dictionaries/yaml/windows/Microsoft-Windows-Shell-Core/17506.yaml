@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17506'
+version: '0'
+event(fields): ResolveUserNames_SHResolveUserNamesStop()
+opcode: Stop
+keywords: Properties
+task: ResolveUserNames_SHResolveUserNames
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-EapHost
+event_id: '1023'
+version: '0'
+event(fields): Authenticator1023(UnicodeString RegKeyValue, UInt8 TypeId, UInt32 AuthorId,
+  UInt32 VendorId, UInt32 VendorType)
+opcode: ''
+keywords: Reg
+task: Authenticator
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RegKeyValue
+- field_type: UInt8
+  field_name: TypeId
+- field_type: UInt32
+  field_name: AuthorId
+- field_type: UInt32
+  field_name: VendorId
+- field_type: UInt32
+  field_name: VendorType

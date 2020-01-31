@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAudio2
+event_id: '98'
+version: '0'
+event(fields): ProcessingPerformanceWarning98(UInt32 Value)
+opcode: PerformanceWarning
+keywords: ''
+task: Processing
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

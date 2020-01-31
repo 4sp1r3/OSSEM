@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '84'
+version: '0'
+event(fields): ResourceDictionaryAddWithSource(UInt64 ResourceDictionaryId, UInt64
+  ResourceId, UnicodeString FileURI, UInt32 LineNumber, UInt32 ColumnNumber, UnicodeString
+  FileHash)
+opcode: ''
+keywords: ''
+task: ResourceDictionaryAddWithSource
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ResourceDictionaryId
+- field_type: UInt64
+  field_name: ResourceId
+- field_type: UnicodeString
+  field_name: FileURI
+- field_type: UInt32
+  field_name: LineNumber
+- field_type: UInt32
+  field_name: ColumnNumber
+- field_type: UnicodeString
+  field_name: FileHash

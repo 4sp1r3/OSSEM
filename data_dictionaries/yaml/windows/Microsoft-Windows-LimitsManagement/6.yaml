@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LimitsManagement
+event_id: '6'
+version: '0'
+event(fields): MonitorRemoved(UInt64 Token)
+opcode: ''
+keywords: ''
+task: MonitorRemoved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Token

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4026'
+version: '0'
+event(fields): FOLDER_COPYFOLDERStop()
+opcode: Stop
+keywords: Performance
+task: FOLDER_COPYFOLDER
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

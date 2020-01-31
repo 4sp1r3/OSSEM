@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61460'
+version: '0'
+event(fields): ShellOplocks_NotGranted(UInt64 Signature, UnicodeString szFilename)
+opcode: ''
+keywords: Shell
+task: ShellOplocks_NotGranted
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Signature
+- field_type: UnicodeString
+  field_name: szFilename

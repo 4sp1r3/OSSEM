@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '132'
+version: '0'
+event(fields): ParkNodeParkHintChange(UInt16 Group, Pointer Affinity, Pointer ParkHint)
+opcode: ''
+keywords: Diag
+task: ParkNodeParkHintChange
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: Pointer
+  field_name: Affinity
+- field_type: Pointer
+  field_name: ParkHint

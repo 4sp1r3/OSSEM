@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-File
+event_id: '19'
+version: '0'
+event(fields): Rename(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey,
+  Pointer ExtraInformation, UInt32 InfoClass)
+opcode: ''
+keywords: KERNEL_FILE_KEYWORD_FILEIO
+task: Rename
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: ThreadId
+- field_type: Pointer
+  field_name: FileObject
+- field_type: Pointer
+  field_name: FileKey
+- field_type: Pointer
+  field_name: ExtraInformation
+- field_type: UInt32
+  field_name: InfoClass

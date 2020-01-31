@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '21'
+version: '0'
+event(fields): task_021(UInt32 EventId, UInt32 Count)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EventId
+- field_type: UInt32
+  field_name: Count

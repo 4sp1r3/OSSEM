@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '24631'
+version: '0'
+event(fields): DecompresschunkdataStop(UInt32 CompletionStatus)
+opcode: Stop
+keywords: Filter
+task: Decompresschunkdata
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CompletionStatus

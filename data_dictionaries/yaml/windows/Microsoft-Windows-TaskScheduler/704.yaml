@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '704'
+version: '0'
+event(fields): CompatibilitymoduleLSAfailed(UInt32 ResultCode)
+opcode: ''
+keywords: ''
+task: CompatibilitymoduleLSAfailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ResultCode

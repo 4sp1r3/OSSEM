@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2617'
+version: '0'
+event(fields): Settings_PermissionsLoadItemsStart()
+opcode: Start
+keywords: ''
+task: Settings_PermissionsLoadItems
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

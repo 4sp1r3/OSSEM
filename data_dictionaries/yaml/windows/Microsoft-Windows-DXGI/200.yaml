@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '200'
+version: '0'
+event(fields): IDXGIFactory_AddRefStart(Pointer pThis)
+opcode: Start
+keywords: ''
+task: IDXGIFactory_AddRef
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis

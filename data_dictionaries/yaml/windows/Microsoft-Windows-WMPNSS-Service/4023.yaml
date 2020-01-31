@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4023'
+version: '0'
+event(fields): Results_Create_Browse_Children_InstStart(UInt32 StartingIndex, UInt32
+  RequestedCount, UInt32 SortItemCount, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Results_Create_Browse_Children_Inst
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StartingIndex
+- field_type: UInt32
+  field_name: RequestedCount
+- field_type: UInt32
+  field_name: SortItemCount
+- field_type: UInt32
+  field_name: ErrorCode

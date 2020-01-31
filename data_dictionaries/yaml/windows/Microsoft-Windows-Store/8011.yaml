@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Store
+event_id: '8011'
+version: '0'
+event(fields): LMStateMachineDispatchEvent(Pointer StateMachine, UInt32 ThreadID,
+  UnicodeString StateMachineName, AnsiString EventName, UnicodeString CurrentState)
+opcode: DispatchEvent
+keywords: keyword_200000000000
+task: LMStateMachine
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: StateMachine
+- field_type: UInt32
+  field_name: ThreadID
+- field_type: UnicodeString
+  field_name: StateMachineName
+- field_type: AnsiString
+  field_name: EventName
+- field_type: UnicodeString
+  field_name: CurrentState

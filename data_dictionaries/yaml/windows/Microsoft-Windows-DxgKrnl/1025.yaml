@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1025'
+version: '0'
+event(fields): MiracastUmdDriverStartMiracastSessionStop(UInt64 MiracastLuid, UInt64
+  CurrentBitRate, UInt64 LocalMaxBitRate, UInt64 RemoteMaxBitRate, UInt32 MiracastSessionInfo,
+  UInt32 ReturnStatus)
+opcode: Stop
+keywords: Miracast
+task: MiracastUmdDriverStartMiracastSession
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UInt64
+  field_name: CurrentBitRate
+- field_type: UInt64
+  field_name: LocalMaxBitRate
+- field_type: UInt64
+  field_name: RemoteMaxBitRate
+- field_type: UInt32
+  field_name: MiracastSessionInfo
+- field_type: UInt32
+  field_name: ReturnStatus

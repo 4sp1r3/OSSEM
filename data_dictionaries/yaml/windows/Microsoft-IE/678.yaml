@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '678'
+version: '0'
+event(fields): Mshtml_CDMDraggableTouchTarget_SetDragDropConfiguration(UInt32 DManipDragDropConfiguration,
+  Pointer CDMDraggableTouchTarget)
+opcode: ''
+keywords: draganddrop touch
+task: Mshtml_CDMDraggableTouchTarget_SetDragDropConfiguration
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DManipDragDropConfiguration
+- field_type: Pointer
+  field_name: CDMDraggableTouchTarget

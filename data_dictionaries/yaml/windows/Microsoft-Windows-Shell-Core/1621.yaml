@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1621'
+version: '0'
+event(fields): ShellTask_BitBucket_PurgeAllThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_BitBucket_PurgeAllThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

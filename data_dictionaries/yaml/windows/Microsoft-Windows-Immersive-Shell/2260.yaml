@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2260'
+version: '0'
+event(fields): PerfTrack_Share_InvokeToErrorShownStop(UnicodeString AppID)
+opcode: Stop
+keywords: ''
+task: PerfTrack_Share_InvokeToErrorShown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID

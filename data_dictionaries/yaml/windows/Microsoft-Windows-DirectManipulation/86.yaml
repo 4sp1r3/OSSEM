@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '86'
+version: '0'
+event(fields): Manipulation_Telemetry86(UInt64 UniqueKey, UInt32 InputType, UInt16
+  NumTouchPoints, UInt32 ManipulationFrameId, UInt32 FrameId, UInt32 InteractionType,
+  UInt64 KernelInputStartTime, UInt64 HostInputSendTime, UInt64 ContainerInputReceiveTime,
+  UInt64 QpcInteractionLibraryStart, UInt64 QpcInteractionLibraryStop, UInt64 HostPerformanceFrequency,
+  UInt16 ZoomToRectCalls, UInt32 CoalescedFrames)
+opcode: ''
+keywords: ''
+task: Manipulation_Telemetry
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueKey
+- field_type: UInt32
+  field_name: InputType
+- field_type: UInt16
+  field_name: NumTouchPoints
+- field_type: UInt32
+  field_name: ManipulationFrameId
+- field_type: UInt32
+  field_name: FrameId
+- field_type: UInt32
+  field_name: InteractionType
+- field_type: UInt64
+  field_name: KernelInputStartTime
+- field_type: UInt64
+  field_name: HostInputSendTime
+- field_type: UInt64
+  field_name: ContainerInputReceiveTime
+- field_type: UInt64
+  field_name: QpcInteractionLibraryStart
+- field_type: UInt64
+  field_name: QpcInteractionLibraryStop
+- field_type: UInt64
+  field_name: HostPerformanceFrequency
+- field_type: UInt16
+  field_name: ZoomToRectCalls
+- field_type: UInt32
+  field_name: CoalescedFrames

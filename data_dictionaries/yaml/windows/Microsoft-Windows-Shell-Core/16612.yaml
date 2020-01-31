@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16612'
+version: '0'
+event(fields): FileFolderInnateStore_GetAtStart()
+opcode: Start
+keywords: Properties
+task: FileFolderInnateStore_GetAt
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

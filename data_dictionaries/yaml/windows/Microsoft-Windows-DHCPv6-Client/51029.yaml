@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51029'
+version: '0'
+event(fields): ProtocolStateEventErrorCreatingPacket(UInt32 InterfaceId, UInt32 StatusCode)
+opcode: ErrorCreatingPacket
+keywords: ''
+task: ProtocolStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: StatusCode

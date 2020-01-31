@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2107'
+version: '0'
+event(fields): task_02107(UnicodeString AppUserModelId, UInt32 TrackingId, UInt32
+  NotificationType)
+opcode: ''
+keywords: wpnend wpndev_NotificationE2E
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: TrackingId
+- field_type: UInt32
+  field_name: NotificationType

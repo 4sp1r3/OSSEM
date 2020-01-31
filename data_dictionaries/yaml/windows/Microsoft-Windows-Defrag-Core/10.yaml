@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Defrag-Core
+event_id: '10'
+version: '0'
+event(fields): TierOptimizationStop10()
+opcode: Stop
+keywords: ''
+task: TierOptimization
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

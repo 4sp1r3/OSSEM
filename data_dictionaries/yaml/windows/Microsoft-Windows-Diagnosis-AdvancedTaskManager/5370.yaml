@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5370'
+version: '0'
+event(fields): Dashboard_DiskView_InitStop()
+opcode: Stop
+keywords: dashboard
+task: Dashboard_DiskView_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62326'
+version: '0'
+event(fields): ExtrinsicPropertyStore_CommitStart(UnicodeString FileName)
+opcode: Start
+keywords: Shell
+task: ExtrinsicPropertyStore_Commit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

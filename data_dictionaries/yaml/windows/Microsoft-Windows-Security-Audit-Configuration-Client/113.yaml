@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Security-Audit-Configuration-Client
+event_id: '113'
+version: '0'
+event(fields): task_0Stop113(UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

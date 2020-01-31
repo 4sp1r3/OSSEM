@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '805'
+version: '0'
+event(fields): WINHTTP_AUTOPROXY_DNSStart(UInt32 DetectFlags)
+opcode: Start
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_AUTOPROXY_DNS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DetectFlags

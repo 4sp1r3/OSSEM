@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '497'
+version: '0'
+event(fields): Mshtml_Composition_Max_ImplicitLayers_Exceeded()
+opcode: ''
+keywords: composition
+task: Mshtml_Composition_Max_ImplicitLayers_Exceeded
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

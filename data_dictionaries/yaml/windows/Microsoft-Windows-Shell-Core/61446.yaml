@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61446'
+version: '0'
+event(fields): FileAccessAPI_StreamedFile_Abandoned()
+opcode: ''
+keywords: Shell
+task: FileAccessAPI_StreamedFile_Abandoned
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

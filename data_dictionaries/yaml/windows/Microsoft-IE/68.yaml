@@ -1,0 +1,26 @@
+provider: Microsoft-IE
+event_id: '68'
+version: '0'
+event(fields): Mshtml_CDoc_Invalidate(UInt32 HRGN, UInt32 dwFlags, UInt32 left, UInt32
+  top, UInt32 right, UInt32 bottom, UInt32 NoUpdSink)
+opcode: ''
+keywords: subsystem
+task: Mshtml_CDoc_Invalidate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRGN
+- field_type: UInt32
+  field_name: dwFlags
+- field_type: UInt32
+  field_name: left
+- field_type: UInt32
+  field_name: top
+- field_type: UInt32
+  field_name: right
+- field_type: UInt32
+  field_name: bottom
+- field_type: UInt32
+  field_name: NoUpdSink

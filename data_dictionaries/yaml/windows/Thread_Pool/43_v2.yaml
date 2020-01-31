@@ -1,0 +1,12 @@
+provider: Thread Pool
+category: '{c861d0e2-a2c1-4d36-9f9c-970bab943a12}'
+event_id: '43'
+version: '2'
+event(fields): TP_V2_TimerCancelled(UInt32 SubQueue, UInt32 Timer)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: SubQueue
+- field_type: UInt32
+  field_name: Timer

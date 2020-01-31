@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '200'
+version: '1'
+event(fields): ActionstartedStart_V1(UnicodeString TaskName, UnicodeString ActionName,
+  GUID TaskInstanceId, UInt32 EnginePID)
+opcode: Start
+keywords: ''
+task: Actionstarted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UnicodeString
+  field_name: ActionName
+- field_type: GUID
+  field_name: TaskInstanceId
+- field_type: UInt32
+  field_name: EnginePID

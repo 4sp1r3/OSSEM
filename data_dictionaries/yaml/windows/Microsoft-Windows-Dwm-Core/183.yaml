@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '183'
+version: '0'
+event(fields): ETWGUID_COMPOSITION_SURFACE_DRAW(Pointer Visual, Pointer Surface, Pointer
+  Source, Float VisualLeft, Float VisualTop, Float VisualRight, Float VisualBottom)
+opcode: ''
+keywords: FrameVisualization
+task: ETWGUID_COMPOSITION_SURFACE_DRAW
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Visual
+- field_type: Pointer
+  field_name: Surface
+- field_type: Pointer
+  field_name: Source
+- field_type: Float
+  field_name: VisualLeft
+- field_type: Float
+  field_name: VisualTop
+- field_type: Float
+  field_name: VisualRight
+- field_type: Float
+  field_name: VisualBottom

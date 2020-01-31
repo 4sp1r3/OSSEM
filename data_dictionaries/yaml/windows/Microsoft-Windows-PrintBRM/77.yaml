@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '77'
+version: '0'
+event(fields): BackupPrintBRMoperationfailure77(UnicodeString PortName, HexInt32 ErrorCode)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_DRIVER_KEYWORD
+task: Backup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PortName
+- field_type: HexInt32
+  field_name: ErrorCode

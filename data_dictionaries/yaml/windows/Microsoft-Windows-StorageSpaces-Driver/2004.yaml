@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '2004'
+version: '0'
+event(fields): task_02004(GUID SpaceId, Pointer Irp, UInt32 Action, UInt32 RangesCount,
+  Int16 Ranges)
+opcode: ''
+keywords: Dsm
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SpaceId
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt32
+  field_name: Action
+- field_type: UInt32
+  field_name: RangesCount
+- field_type: Int16
+  field_name: Ranges

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '139'
+version: '0'
+event(fields): MemoryPartitionRestore(GUID Identifier, UInt32 Status)
+opcode: ''
+keywords: SoftRestart MemoryPreservation
+task: MemoryPartitionRestore
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Identifier
+- field_type: UInt32
+  field_name: Status

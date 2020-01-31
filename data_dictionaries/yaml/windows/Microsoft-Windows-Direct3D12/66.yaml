@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '66'
+version: '0'
+event(fields): DescriptorHeapStart(Pointer pID3D12Device, Pointer pID3D12DescriptorHeap,
+  UInt32 Type, UInt32 NumDescriptors, UInt32 Flags, UInt32 NodeMask)
+opcode: Start
+keywords: Resources ObjectLifetime
+task: DescriptorHeap
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12DescriptorHeap
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: NumDescriptors
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: NodeMask

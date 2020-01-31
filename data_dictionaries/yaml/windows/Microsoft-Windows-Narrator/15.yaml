@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Narrator
+event_id: '15'
+version: '0'
+event(fields): NarratorCursorUpdated(UnicodeString AutomationContext)
+opcode: ''
+keywords: PerfInstrumentation
+task: NarratorCursorUpdated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AutomationContext

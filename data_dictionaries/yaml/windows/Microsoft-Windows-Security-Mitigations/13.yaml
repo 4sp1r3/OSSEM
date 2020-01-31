@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-Security-Mitigations
+event_id: '13'
+version: '0'
+event(fields): USER_MITIGATION_TASK_EXPORT_ADDRESS_FILTER(UInt32 Subcode, UnicodeString
+  ProcessPath, UInt32 ProcessId, UnicodeString ModuleFullPath, Pointer ModuleBase,
+  Pointer ModuleAddress, Pointer MemAddress, UnicodeString MemModuleFullPath, Pointer
+  MemModuleBase, UnicodeString APIName, FILETIME ProcessStartTime, UInt32 ThreadId)
+opcode: ''
+keywords: ''
+task: USER_MITIGATION_TASK_EXPORT_ADDRESS_FILTER
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Subcode
+- field_type: UnicodeString
+  field_name: ProcessPath
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ModuleFullPath
+- field_type: Pointer
+  field_name: ModuleBase
+- field_type: Pointer
+  field_name: ModuleAddress
+- field_type: Pointer
+  field_name: MemAddress
+- field_type: UnicodeString
+  field_name: MemModuleFullPath
+- field_type: Pointer
+  field_name: MemModuleBase
+- field_type: UnicodeString
+  field_name: APIName
+- field_type: FILETIME
+  field_name: ProcessStartTime
+- field_type: UInt32
+  field_name: ThreadId

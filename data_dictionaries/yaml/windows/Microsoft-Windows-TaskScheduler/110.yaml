@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '110'
+version: '0'
+event(fields): Tasktriggeredbyuser(UnicodeString TaskName, GUID InstanceId, UnicodeString
+  UserContext)
+opcode: ''
+keywords: ''
+task: Tasktriggeredbyuser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: GUID
+  field_name: InstanceId
+- field_type: UnicodeString
+  field_name: UserContext

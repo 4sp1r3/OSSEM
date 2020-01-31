@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18568'
+version: '0'
+event(fields): Shell32_DefView_StackStop()
+opcode: Stop
+keywords: Shell ExplorerPerf
+task: Shell32_DefView_Stack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

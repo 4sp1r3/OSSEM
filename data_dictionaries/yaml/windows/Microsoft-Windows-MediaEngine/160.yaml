@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '160'
+version: '0'
+event(fields): MediaEngineSampleReceived(Pointer object, Pointer Sample, Int64 TimeStamp,
+  Int64 Duration, Int32 FirstFrameReady, Int32 Dropped)
+opcode: ''
+keywords: ''
+task: MediaEngineSampleReceived
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: Sample
+- field_type: Int64
+  field_name: TimeStamp
+- field_type: Int64
+  field_name: Duration
+- field_type: Int32
+  field_name: FirstFrameReady
+- field_type: Int32
+  field_name: Dropped

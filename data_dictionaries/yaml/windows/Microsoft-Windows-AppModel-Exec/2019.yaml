@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '2019'
+version: '0'
+event(fields): VOIP_NotifyIncomingCallDialogDismissed2019(GUID WorkItemId, UnicodeString
+  PsmKey, UInt32 HRESULT, Boolean InActiveCall, Boolean HasRTCTask, Boolean OnHold,
+  Boolean TaskCompletionApplied, Boolean InForeground)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular
+task: VOIP_NotifyIncomingCallDialogDismissed
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: WorkItemId
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: Boolean
+  field_name: InActiveCall
+- field_type: Boolean
+  field_name: HasRTCTask
+- field_type: Boolean
+  field_name: OnHold
+- field_type: Boolean
+  field_name: TaskCompletionApplied
+- field_type: Boolean
+  field_name: InForeground

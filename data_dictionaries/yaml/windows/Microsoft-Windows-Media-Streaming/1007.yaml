@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '1007'
+version: '0'
+event(fields): DMR_GetDMRUDNStop(UnicodeString UDN, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: DMR_GetDMRUDN
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: UInt32
+  field_name: ErrorCode

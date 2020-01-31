@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '7'
+version: '0'
+event(fields): KBMonitor_DeviceChangeStart()
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: KBMonitor_DeviceChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

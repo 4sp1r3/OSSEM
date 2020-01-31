@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dism-Cli
+event_id: '3'
+version: '0'
+event(fields): DismCliLoadDismStart()
+opcode: Start
+keywords: DismCliEvent
+task: DismCliLoadDism
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

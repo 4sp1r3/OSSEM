@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '105'
+version: '0'
+event(fields): AcDcStateChange(Boolean AcOnline)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: AcDcStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: AcOnline

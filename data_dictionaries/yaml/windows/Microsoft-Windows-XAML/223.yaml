@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '223'
+version: '0'
+event(fields): PresentControllerSkippedFrame(UInt64 ControllerId)
+opcode: ''
+keywords: Rendering
+task: PresentControllerSkippedFrame
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ControllerId

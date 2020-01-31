@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '24577'
+version: '1'
+event(fields): PowerShellISEOperation_V1(UnicodeString FileName)
+opcode: ''
+keywords: ''
+task: PowerShellISEOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

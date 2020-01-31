@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '226'
+version: '0'
+event(fields): DitWaitForRitDisEngagement()
+opcode: ''
+keywords: MessagePumpInternalAndInput ComponentHosting
+task: DitWaitForRitDisEngagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

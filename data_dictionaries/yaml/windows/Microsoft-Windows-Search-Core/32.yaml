@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '32'
+version: '0'
+event(fields): RetrieveValueStart(UInt32 Value)
+opcode: Start
+keywords: ''
+task: RetrieveValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

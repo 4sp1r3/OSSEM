@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '137'
+version: '0'
+event(fields): SCHEDULE_NEW_EFFECTIVE_REFRESH_PERIOD_DELTAS(UInt32 DisplayID, UInt64
+  SyncRefreshCountDelta, UInt64 SyncRefreshCountDeltaExpected, Float SyncTimeDeltaMS,
+  Float SyncPeriodMS)
+opcode: ''
+keywords: DwmCore
+task: SCHEDULE_NEW_EFFECTIVE_REFRESH_PERIOD_DELTAS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DisplayID
+- field_type: UInt64
+  field_name: SyncRefreshCountDelta
+- field_type: UInt64
+  field_name: SyncRefreshCountDeltaExpected
+- field_type: Float
+  field_name: SyncTimeDeltaMS
+- field_type: Float
+  field_name: SyncPeriodMS

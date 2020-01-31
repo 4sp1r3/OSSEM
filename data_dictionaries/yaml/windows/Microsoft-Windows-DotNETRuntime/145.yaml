@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '145'
+version: '0'
+event(fields): MethodJittingStarted(UInt64 MethodID, UInt64 ModuleID, UInt32 MethodToken,
+  UInt32 MethodILSize, UnicodeString MethodNamespace, UnicodeString MethodName, UnicodeString
+  MethodSignature)
+opcode: JittingStarted
+keywords: JitKeyword
+task: Method
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MethodID
+- field_type: UInt64
+  field_name: ModuleID
+- field_type: UInt32
+  field_name: MethodToken
+- field_type: UInt32
+  field_name: MethodILSize
+- field_type: UnicodeString
+  field_name: MethodNamespace
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: UnicodeString
+  field_name: MethodSignature

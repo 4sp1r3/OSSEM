@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7723'
+version: '0'
+event(fields): PnP_SetupAPI_PublishedInfDriverSearchStop()
+opcode: Stop
+keywords: UserPnp
+task: PnP_SetupAPI_PublishedInfDriverSearch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

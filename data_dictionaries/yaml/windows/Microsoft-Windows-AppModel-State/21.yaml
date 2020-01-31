@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '21'
+version: '0'
+event(fields): task_021(UnicodeString Operation, UnicodeString PackageFamily, Int32
+  OperationError, Int32 RepairTriggerError)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Operation
+- field_type: UnicodeString
+  field_name: PackageFamily
+- field_type: Int32
+  field_name: OperationError
+- field_type: Int32
+  field_name: RepairTriggerError

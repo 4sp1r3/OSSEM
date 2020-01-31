@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61610'
+version: '0'
+event(fields): DataPackage_SetDataStart()
+opcode: Start
+keywords: Shell
+task: DataPackage_SetData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

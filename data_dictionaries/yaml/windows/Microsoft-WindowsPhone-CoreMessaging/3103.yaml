@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3103'
+version: '0'
+event(fields): Session_CoreUICreate_InitializeCnContextStop()
+opcode: Stop
+keywords: MessagingPerformance Session
+task: Session_CoreUICreate_InitializeCnContext
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

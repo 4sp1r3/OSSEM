@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28101'
+version: '0'
+event(fields): Shell32_WindowPropStore_SetValue()
+opcode: ''
+keywords: Shell
+task: Shell32_WindowPropStore_SetValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-OOBE-FirstLogonAnim
+event_id: '5048'
+version: '0'
+event(fields): ShowAnimationRequest(Boolean fExistingUserOrPostZDP, Boolean fZDP,
+  Boolean fTouchDevice, Boolean fMouseDevice)
+opcode: ''
+keywords: FirstLogonAnim
+task: ShowAnimationRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fExistingUserOrPostZDP
+- field_type: Boolean
+  field_name: fZDP
+- field_type: Boolean
+  field_name: fTouchDevice
+- field_type: Boolean
+  field_name: fMouseDevice

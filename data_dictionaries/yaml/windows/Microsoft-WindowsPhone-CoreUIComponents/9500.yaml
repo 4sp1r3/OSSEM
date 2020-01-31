@@ -1,0 +1,31 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9500'
+version: '0'
+event(fields): ViewActivatorBrokerActivateModernStart(UInt32 hex, UInt32 unParam,
+  UnicodeString pwsz, UnicodeString pwsz2, UInt32 ViewActivationFlags, UInt64 un64Param,
+  UInt64 un64Param2, UInt64 un64Param3, UInt64 un64Param4)
+opcode: Start
+keywords: ViewActivator
+task: ViewActivatorBrokerActivateModern
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex
+- field_type: UInt32
+  field_name: unParam
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UnicodeString
+  field_name: pwsz2
+- field_type: UInt32
+  field_name: ViewActivationFlags
+- field_type: UInt64
+  field_name: un64Param
+- field_type: UInt64
+  field_name: un64Param2
+- field_type: UInt64
+  field_name: un64Param3
+- field_type: UInt64
+  field_name: un64Param4

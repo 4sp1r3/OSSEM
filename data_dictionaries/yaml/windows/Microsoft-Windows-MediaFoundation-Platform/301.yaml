@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '301'
+version: '0'
+event(fields): MediaFoundationMFTEnum(UnicodeString clsid)
+opcode: ''
+keywords: ''
+task: MediaFoundationMFTEnum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: clsid

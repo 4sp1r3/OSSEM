@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WinRM
+event_id: '165'
+version: '0'
+event(fields): Userauthentication165(UnicodeString authProxy1, UnicodeString authProxy2,
+  UnicodeString authProxy3, UnicodeString authProxy4, UnicodeString authProxy5)
+opcode: ''
+keywords: Keyword.Client Keyword.Security
+task: Userauthentication
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: authProxy1
+- field_type: UnicodeString
+  field_name: authProxy2
+- field_type: UnicodeString
+  field_name: authProxy3
+- field_type: UnicodeString
+  field_name: authProxy4
+- field_type: UnicodeString
+  field_name: authProxy5

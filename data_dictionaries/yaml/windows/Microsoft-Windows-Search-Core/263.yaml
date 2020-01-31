@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '263'
+version: '0'
+event(fields): Gatherer_DocIdTable_GetMaxId(UInt32 WorkId, UInt32 hr)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: Gatherer_DocIdTable_GetMaxId
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WorkId
+- field_type: UInt32
+  field_name: hr

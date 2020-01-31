@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Security-IdentityListener
+event_id: '2'
+version: '0'
+event(fields): task_02(SID Sid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: Sid

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '231'
+version: '0'
+event(fields): StateRepository.Task.WinRTAPI231(HexInt32 Options)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD
+task: StateRepository.Task.WinRTAPI
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Options

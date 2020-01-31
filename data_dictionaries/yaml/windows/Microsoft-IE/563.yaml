@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '563'
+version: '0'
+event(fields): Mshtml_FormatDetection_TextExtractionStart()
+opcode: Start
+keywords: mshtml
+task: Mshtml_FormatDetection_TextExtraction
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

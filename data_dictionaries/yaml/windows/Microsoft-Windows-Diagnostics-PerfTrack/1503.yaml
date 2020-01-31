@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '1503'
+version: '0'
+event(fields): PerfTrack_moStop(UInt32 ScenarioId, UInt32 ControlFlags, UnicodeString
+  MatchKey, UnicodeString ScenarioName, UnicodeString PackageFullName, UnicodeString
+  PRAID)
+opcode: Stop
+keywords: ''
+task: PerfTrack_moStop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScenarioId
+- field_type: UInt32
+  field_name: ControlFlags
+- field_type: UnicodeString
+  field_name: MatchKey
+- field_type: UnicodeString
+  field_name: ScenarioName
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: PRAID

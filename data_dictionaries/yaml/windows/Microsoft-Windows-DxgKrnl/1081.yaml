@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1081'
+version: '0'
+event(fields): OpmCreateProtectedOutput(Pointer MiniportDeviceContext, Boolean RedirectedForIndirectDisplay,
+  UInt32 VidPnTargetId, Pointer DriverProtectedOutputHandle, Pointer ExternalProtectedOutputHandle,
+  UInt32 Status)
+opcode: ''
+keywords: Base
+task: OpmCreateProtectedOutput
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportDeviceContext
+- field_type: Boolean
+  field_name: RedirectedForIndirectDisplay
+- field_type: UInt32
+  field_name: VidPnTargetId
+- field_type: Pointer
+  field_name: DriverProtectedOutputHandle
+- field_type: Pointer
+  field_name: ExternalProtectedOutputHandle
+- field_type: UInt32
+  field_name: Status

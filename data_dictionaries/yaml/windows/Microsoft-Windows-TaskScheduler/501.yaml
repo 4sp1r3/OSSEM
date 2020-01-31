@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '501'
+version: '0'
+event(fields): IdleTaskUnregister(UInt32 IdleTaskId, UInt32 ProcessId)
+opcode: ''
+keywords: ForcedIdleProcessing
+task: IdleTaskUnregister
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IdleTaskId
+- field_type: UInt32
+  field_name: ProcessId

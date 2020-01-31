@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '71'
+version: '0'
+event(fields): RECO_TRAINER_RecoTransferLayerStart()
+opcode: Start
+keywords: ''
+task: RECO_TRAINER_RecoTransferLayer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

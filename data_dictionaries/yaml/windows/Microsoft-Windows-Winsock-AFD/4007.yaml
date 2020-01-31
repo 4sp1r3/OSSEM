@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4007'
+version: '0'
+event(fields): AfdRioCloseRioStateClosed(Pointer RioState, UInt32 ReceiveQueueStart,
+  UInt32 ReceiveQueueEnd, UInt32 SendQueueStart, UInt32 SendQueueEnd)
+opcode: Closed
+keywords: AFD_KW_RIO
+task: AfdRioCloseRioState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RioState
+- field_type: UInt32
+  field_name: ReceiveQueueStart
+- field_type: UInt32
+  field_name: ReceiveQueueEnd
+- field_type: UInt32
+  field_name: SendQueueStart
+- field_type: UInt32
+  field_name: SendQueueEnd

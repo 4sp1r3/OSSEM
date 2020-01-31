@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '912'
+version: '0'
+event(fields): SoftKeyboard_CandidateManager_GetNextWordCandidateStart()
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_CandidateManager_GetNextWordCandidate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

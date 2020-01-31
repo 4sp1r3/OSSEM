@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61374'
+version: '0'
+event(fields): FileAccessAPI_StreamAccess_WriteStart(UInt32 CountBytesRequested)
+opcode: Start
+keywords: Shell
+task: FileAccessAPI_StreamAccess_Write
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CountBytesRequested

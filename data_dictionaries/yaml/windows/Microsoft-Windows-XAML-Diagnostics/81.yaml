@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '81'
+version: '0'
+event(fields): TimedTextTrackStart()
+opcode: Start
+keywords: ''
+task: TimedTextTrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

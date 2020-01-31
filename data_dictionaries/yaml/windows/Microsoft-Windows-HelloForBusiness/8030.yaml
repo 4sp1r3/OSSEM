@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8030'
+version: '0'
+event(fields): task_0Informational8030()
+opcode: Informational
+keywords: Internal
+task: task_0
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

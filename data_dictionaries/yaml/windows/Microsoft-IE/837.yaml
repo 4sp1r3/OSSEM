@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '837'
+version: '0'
+event(fields): Mshtml_EventLoop_PerformMicrotaskCheckpointStart(Boolean IsPerformingMicrotaskCheckpoint)
+opcode: Start
+keywords: gwnd
+task: Mshtml_EventLoop_PerformMicrotaskCheckpoint
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsPerformingMicrotaskCheckpoint

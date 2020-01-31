@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61006'
+version: '0'
+event(fields): Shell32_DefaultAssociationsProfileHandler_OnLoad_GroupPolicyStop(Int32
+  HRESULT)
+opcode: Stop
+keywords: Shell
+task: Shell32_DefaultAssociationsProfileHandler_OnLoad_GroupPolicy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HRESULT

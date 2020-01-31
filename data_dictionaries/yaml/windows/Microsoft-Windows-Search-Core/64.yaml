@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '64'
+version: '0'
+event(fields): SearchIndexerStart(UInt32 Value)
+opcode: Start
+keywords: Service
+task: SearchIndexer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

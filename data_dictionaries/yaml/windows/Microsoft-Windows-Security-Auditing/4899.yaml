@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4899'
+version: '0'
+event(fields): task_04899(UnicodeString TemplateInternalName, UnicodeString TemplateVersion,
+  UnicodeString TemplateSchemaVersion, UnicodeString TemplateOID, UnicodeString TemplateDSObjectFQDN,
+  UnicodeString DCDNSName, UnicodeString NewTemplateContent, UnicodeString OldTemplateContent)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TemplateInternalName
+- field_type: UnicodeString
+  field_name: TemplateVersion
+- field_type: UnicodeString
+  field_name: TemplateSchemaVersion
+- field_type: UnicodeString
+  field_name: TemplateOID
+- field_type: UnicodeString
+  field_name: TemplateDSObjectFQDN
+- field_type: UnicodeString
+  field_name: DCDNSName
+- field_type: UnicodeString
+  field_name: NewTemplateContent
+- field_type: UnicodeString
+  field_name: OldTemplateContent

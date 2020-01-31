@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '308'
+version: '0'
+event(fields): task_0308(UnicodeString PsmKey)
+opcode: ''
+keywords: PLM ExecProductionCircular ExecDevPlatCircular
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey

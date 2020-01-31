@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DSC
+event_id: '4409'
+version: '0'
+event(fields): task_04409(UnicodeString JobId, UnicodeString AgentId, UnicodeString
+  Server)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: AgentId
+- field_type: UnicodeString
+  field_name: Server

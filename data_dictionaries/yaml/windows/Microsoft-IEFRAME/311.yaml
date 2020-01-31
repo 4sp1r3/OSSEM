@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '311'
+version: '0'
+event(fields): IMTravelLogMVC_StateChange(UInt32 State, UnicodeString StateString)
+opcode: ''
+keywords: immersive
+task: IMTravelLogMVC_StateChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: State
+- field_type: UnicodeString
+  field_name: StateString

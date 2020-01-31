@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EapHost
+event_id: '1005'
+version: '0'
+event(fields): Authenticator1005()
+opcode: ''
+keywords: ''
+task: Authenticator
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

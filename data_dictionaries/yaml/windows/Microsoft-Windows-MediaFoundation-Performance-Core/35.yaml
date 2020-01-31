@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '35'
+version: '0'
+event(fields): AudEngineStream_StopLocalGraph_TaskStart(Pointer object, Boolean bReset)
+opcode: Start
+keywords: ''
+task: AudEngineStream_StopLocalGraph_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Boolean
+  field_name: bReset

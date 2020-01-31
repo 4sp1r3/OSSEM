@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '147'
+version: '2'
+event(fields): task_0147_V2(GUID VolumeCorrelationId, UInt32 VolumeNameLength, UnicodeString
+  VolumeName, Boolean IsBootVolume, UInt64 MaxLatencyMs, UInt32 ProcessId, AnsiString
+  ProcessName, UInt32 FileNameLength, UnicodeString FileName, UInt32 IoType, UInt32
+  IoSize, UInt64 FileOffset, UInt64 LatencyMs, UInt64 StartingLcn, UInt32 ClustersCount,
+  Int32 TableIndex)
+opcode: ''
+keywords: Statistics
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VolumeCorrelationId
+- field_type: UInt32
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: Boolean
+  field_name: IsBootVolume
+- field_type: UInt64
+  field_name: MaxLatencyMs
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: AnsiString
+  field_name: ProcessName
+- field_type: UInt32
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: IoType
+- field_type: UInt32
+  field_name: IoSize
+- field_type: UInt64
+  field_name: FileOffset
+- field_type: UInt64
+  field_name: LatencyMs
+- field_type: UInt64
+  field_name: StartingLcn
+- field_type: UInt32
+  field_name: ClustersCount
+- field_type: Int32
+  field_name: TableIndex

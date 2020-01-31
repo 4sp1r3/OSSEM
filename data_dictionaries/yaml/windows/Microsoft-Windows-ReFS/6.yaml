@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-ReFS
+event_id: '6'
+version: '0'
+event(fields): task_06(Pointer Context, UInt32 Progress, UInt32 StackCount, Pointer
+  Stack)
+opcode: ''
+keywords: VolumeMount
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Context
+- field_type: UInt32
+  field_name: Progress
+- field_type: UInt32
+  field_name: StackCount
+- field_type: Pointer
+  field_name: Stack

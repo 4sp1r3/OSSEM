@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '299'
+version: '0'
+event(fields): ResourceDictionaryClear(UInt64 ResourceDictionaryId)
+opcode: ''
+keywords: Core
+task: ResourceDictionaryClear
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ResourceDictionaryId

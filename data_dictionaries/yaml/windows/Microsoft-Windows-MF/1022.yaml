@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1022'
+version: '0'
+event(fields): MediaFoundationDispatchNodeInputEventStart(Pointer Node, UInt32 EventType)
+opcode: Start
+keywords: ''
+task: MediaFoundationDispatchNodeInputEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Node
+- field_type: UInt32
+  field_name: EventType

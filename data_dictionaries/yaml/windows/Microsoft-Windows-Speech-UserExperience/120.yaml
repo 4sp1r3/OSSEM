@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '120'
+version: '0'
+event(fields): FTUE_FTUECongratsToLaunchTutorialNavigationStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: FTUE_FTUECongratsToLaunchTutorialNavigation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

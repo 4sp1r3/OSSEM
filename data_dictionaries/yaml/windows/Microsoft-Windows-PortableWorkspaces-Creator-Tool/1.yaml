@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableWorkspaces-Creator-Tool
+event_id: '1'
+version: '0'
+event(fields): NavigationfromWelcomePagetotheDevicePage.Start()
+opcode: Start
+keywords: ''
+task: NavigationfromWelcomePagetotheDevicePage.
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

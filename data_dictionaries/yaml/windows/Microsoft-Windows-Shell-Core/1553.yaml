@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1553'
+version: '0'
+event(fields): ShellTask_ProgressDialog_SyncDialogThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_ProgressDialog_SyncDialogThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

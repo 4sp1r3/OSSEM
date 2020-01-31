@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '410'
+version: '0'
+event(fields): SPERF_TAG_BOOKKEEPER_BOOTSTRAP_ACCOUNTSStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_BOOKKEEPER_BOOTSTRAP_ACCOUNTS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

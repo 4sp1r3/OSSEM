@@ -1,0 +1,27 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9506'
+version: '0'
+event(fields): ViewActivatorNotifyBrokerActivateModernCompleted(UInt32 unParam, UInt32
+  unParam2, UInt32 unParam3, UInt32 hex, UInt32 reason, UnicodeString pwsz, Boolean
+  fBool)
+opcode: ''
+keywords: ViewActivator
+task: ViewActivatorNotifyBrokerActivateModernCompleted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2
+- field_type: UInt32
+  field_name: unParam3
+- field_type: UInt32
+  field_name: hex
+- field_type: UInt32
+  field_name: reason
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: Boolean
+  field_name: fBool

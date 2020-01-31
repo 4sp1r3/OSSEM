@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1442'
+version: '0'
+event(fields): IpRouteChangeNotification(UInt32 DestinationPrefixAddressLength, Binary
+  DestinationPrefix, UInt32 NextHopAddressLength, Binary NextHopAddress, UInt32 DestinationPrefixLength,
+  UInt32 CompartmentId, UInt32 IfIndex, UInt64 NotifyFlags)
+opcode: ''
+keywords: ut:TcpipRoute ut:NsiNotification
+task: IpRouteChangeNotification
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DestinationPrefixAddressLength
+- field_type: Binary
+  field_name: DestinationPrefix
+- field_type: UInt32
+  field_name: NextHopAddressLength
+- field_type: Binary
+  field_name: NextHopAddress
+- field_type: UInt32
+  field_name: DestinationPrefixLength
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: NotifyFlags

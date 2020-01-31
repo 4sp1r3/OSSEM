@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '3089'
+version: '0'
+event(fields): RunTimePowerManagementRunTimePMTransition(AnsiString fid_USBPORT_HC,
+  UInt32 fid_RunTimePmEvent)
+opcode: RunTimePMTransition
+keywords: Diagnostic
+task: RunTimePowerManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: fid_USBPORT_HC
+- field_type: UInt32
+  field_name: fid_RunTimePmEvent

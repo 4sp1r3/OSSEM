@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '131'
+version: '0'
+event(fields): ETWGUID_SLICER_CAPTUREStop(UInt64 hWndContext, Int32 cFramesCaptured)
+opcode: Stop
+keywords: DwmCore
+task: ETWGUID_SLICER_CAPTURE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hWndContext
+- field_type: Int32
+  field_name: cFramesCaptured

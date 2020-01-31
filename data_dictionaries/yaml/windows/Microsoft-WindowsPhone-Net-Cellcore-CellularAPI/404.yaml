@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '404'
+version: '0'
+event(fields): CUICCApp404(UInt32 DwordName)
+opcode: ''
+keywords: Error
+task: CUICCApp
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName

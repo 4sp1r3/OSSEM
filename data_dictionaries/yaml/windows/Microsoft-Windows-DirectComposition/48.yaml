@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '48'
+version: '0'
+event(fields): ALLOCATE_FROM_SHARED_MEMORY_SECTION(UInt64 section, UInt32 allocationSize,
+  UInt32 sectionSize, Boolean heap)
+opcode: ''
+keywords: DCompDiagnostic DCompSharedMemory
+task: ALLOCATE_FROM_SHARED_MEMORY_SECTION
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: section
+- field_type: UInt32
+  field_name: allocationSize
+- field_type: UInt32
+  field_name: sectionSize
+- field_type: Boolean
+  field_name: heap

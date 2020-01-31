@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30111'
+version: '0'
+event(fields): task_030111(Pointer MidWindow, UInt32 CurrentWindowSize, UInt32 CurrentWindowLimit,
+  UInt32 ThrottlingWindowLimit, UInt64 OldestPendingMid, UInt64 NextAvailableMid,
+  Int32 CreditsGranted)
+opcode: ''
+keywords: Smb_Perf
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MidWindow
+- field_type: UInt32
+  field_name: CurrentWindowSize
+- field_type: UInt32
+  field_name: CurrentWindowLimit
+- field_type: UInt32
+  field_name: ThrottlingWindowLimit
+- field_type: UInt64
+  field_name: OldestPendingMid
+- field_type: UInt64
+  field_name: NextAvailableMid
+- field_type: Int32
+  field_name: CreditsGranted

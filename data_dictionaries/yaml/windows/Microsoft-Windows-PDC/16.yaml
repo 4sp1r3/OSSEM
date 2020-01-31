@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PDC
+event_id: '16'
+version: '0'
+event(fields): NotificationMessage(Pointer Client, Pointer Message, UInt32 Control,
+  UInt32 Status, UInt32 PdcSequence)
+opcode: ''
+keywords: notifications CsDiag
+task: NotificationMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: Pointer
+  field_name: Message
+- field_type: UInt32
+  field_name: Control
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: PdcSequence

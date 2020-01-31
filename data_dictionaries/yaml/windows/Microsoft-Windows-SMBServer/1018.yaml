@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1018'
+version: '0'
+event(fields): SrvSessionInvalidate(HexInt64 SessionId, HexInt32 Status, HexInt32
+  TranslatedStatus, HexInt32 TaskStatus, HexInt32 TranslatedTaskStatus)
+opcode: ''
+keywords: Operational
+task: SrvSessionInvalidate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: SessionId
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: TranslatedStatus
+- field_type: HexInt32
+  field_name: TaskStatus
+- field_type: HexInt32
+  field_name: TranslatedTaskStatus

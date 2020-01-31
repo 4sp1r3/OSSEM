@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '123'
+version: '0'
+event(fields): SchedulingGroupStop(Pointer pID3D12Device, Pointer pID3D12SchedulingGroup)
+opcode: Stop
+keywords: Resources ObjectLifetime
+task: SchedulingGroup
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12SchedulingGroup

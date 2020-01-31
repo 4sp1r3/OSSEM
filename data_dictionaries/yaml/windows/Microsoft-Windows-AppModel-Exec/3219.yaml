@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '3219'
+version: '0'
+event(fields): LogTraceStart3219(UInt32 p1_UInt32)
+opcode: Start
+keywords: ExecMan ExecDevPlatCircular
+task: LogTrace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p1_UInt32

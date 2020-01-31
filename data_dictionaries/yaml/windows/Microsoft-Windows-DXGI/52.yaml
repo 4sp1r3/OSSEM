@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DXGI
+event_id: '52'
+version: '0'
+event(fields): FindClosestMatchingModeStop(Pointer pIDXGIOutput, UInt32 ReturnValue,
+  UInt32 WidthResult, UInt32 HeightResult, UInt32 RefreshNumeratorResult, UInt32 RefreshDenominatorResult,
+  UInt32 FormatResult, UInt32 ScanlineOrderingResult, UInt32 ScalingResult)
+opcode: Stop
+keywords: Events
+task: FindClosestMatchingMode
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGIOutput
+- field_type: UInt32
+  field_name: ReturnValue
+- field_type: UInt32
+  field_name: WidthResult
+- field_type: UInt32
+  field_name: HeightResult
+- field_type: UInt32
+  field_name: RefreshNumeratorResult
+- field_type: UInt32
+  field_name: RefreshDenominatorResult
+- field_type: UInt32
+  field_name: FormatResult
+- field_type: UInt32
+  field_name: ScanlineOrderingResult
+- field_type: UInt32
+  field_name: ScalingResult

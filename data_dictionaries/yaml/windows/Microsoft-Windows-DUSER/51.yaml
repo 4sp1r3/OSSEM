@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DUSER
+event_id: '51'
+version: '0'
+event(fields): DUser_ScheduleTransitionsStart(UInt32 dwTicket)
+opcode: Start
+keywords: Default
+task: DUser_ScheduleTransitions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwTicket

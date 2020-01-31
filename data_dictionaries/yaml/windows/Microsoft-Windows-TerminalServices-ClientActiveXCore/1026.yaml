@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1026'
+version: '0'
+event(fields): ConnectionSequenceThiseventisraisedduringthedisconnectionprocess1026(UnicodeString
+  Name, UInt32 Value, UnicodeString CustomLevel)
+opcode: Thiseventisraisedduringthedisconnectionprocess
+keywords: ''
+task: ConnectionSequence
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt32
+  field_name: Value
+- field_type: UnicodeString
+  field_name: CustomLevel

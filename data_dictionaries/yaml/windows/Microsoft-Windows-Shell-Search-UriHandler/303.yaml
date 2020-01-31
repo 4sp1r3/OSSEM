@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Search-UriHandler
+event_id: '303'
+version: '0'
+event(fields): ParseParameter303(UnicodeString Parameter, UnicodeString ParameterValue)
+opcode: ''
+keywords: ''
+task: ParseParameter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Parameter
+- field_type: UnicodeString
+  field_name: ParameterValue

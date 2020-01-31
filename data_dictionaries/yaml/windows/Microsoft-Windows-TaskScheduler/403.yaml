@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '403'
+version: '0'
+event(fields): ServicecriticalerrorFailure(UnicodeString ErrorDescription, UInt32
+  ResultCode)
+opcode: Failure
+keywords: ''
+task: Servicecriticalerror
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ErrorDescription
+- field_type: UInt32
+  field_name: ResultCode

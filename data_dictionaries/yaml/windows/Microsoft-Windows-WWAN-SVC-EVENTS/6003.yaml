@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '6003'
+version: '0'
+event(fields): ConnectionCost6003(UInt32 CostValue)
+opcode: ''
+keywords: ut:Configuration
+task: ConnectionCost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CostValue

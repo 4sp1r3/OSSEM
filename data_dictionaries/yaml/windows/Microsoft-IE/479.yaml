@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '479'
+version: '0'
+event(fields): Mshtml_CView_HitTest_InActiveView(Pointer View)
+opcode: ''
+keywords: mshtml
+task: Mshtml_CView_HitTest_InActiveView
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: View

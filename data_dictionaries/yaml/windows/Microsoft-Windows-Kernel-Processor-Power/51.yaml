@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '51'
+version: '0'
+event(fields): LogicalProcessorIdlingRundown(UInt32 Cap, Boolean IsApplied)
+opcode: ''
+keywords: Diag Lpi
+task: LogicalProcessorIdlingRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Cap
+- field_type: Boolean
+  field_name: IsApplied

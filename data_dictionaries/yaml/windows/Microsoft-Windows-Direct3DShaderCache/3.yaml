@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '3'
+version: '0'
+event(fields): ShaderCacheDCStart(Pointer Cache, UInt32 Type, UInt32 Flags)
+opcode: DC_Start
+keywords: Objects
+task: ShaderCache
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Cache
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Flags

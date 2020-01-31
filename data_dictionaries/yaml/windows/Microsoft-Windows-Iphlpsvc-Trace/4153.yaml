@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '4153'
+version: '0'
+event(fields): task_04153(UInt32 AddrLength, UInt32 ProtocolType, UInt32 DestinationIPv4Address,
+  UnicodeString Interface, UInt32 SourceIPv4Address, UInt32 NextHopIPv4Address)
+opcode: ''
+keywords: isatap sixto4
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AddrLength
+- field_type: UInt32
+  field_name: ProtocolType
+- field_type: UInt32
+  field_name: DestinationIPv4Address
+- field_type: UnicodeString
+  field_name: Interface
+- field_type: UInt32
+  field_name: SourceIPv4Address
+- field_type: UInt32
+  field_name: NextHopIPv4Address

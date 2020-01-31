@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '258'
+version: '0'
+event(fields): task_0258(UnicodeString CurrentTimeUTC, UInt64 TickCount, UnicodeString
+  ErrorMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CurrentTimeUTC
+- field_type: UInt64
+  field_name: TickCount
+- field_type: UnicodeString
+  field_name: ErrorMessage

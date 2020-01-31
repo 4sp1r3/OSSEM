@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MUI
+event_id: '3010'
+version: '0'
+event(fields): MUIresourcecachebuilderStart_31_353010(UnicodeString Name)
+opcode: Start_31_35
+keywords: ''
+task: MUIresourcecachebuilder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name

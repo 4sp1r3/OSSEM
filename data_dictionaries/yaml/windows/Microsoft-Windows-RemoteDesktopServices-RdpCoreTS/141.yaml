@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '141'
+version: '0'
+event(fields): RemoteFXmodule_4Initialize141(UInt32 InstanceID)
+opcode: Initialize
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InstanceID

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '19'
+version: '0'
+event(fields): MF_MFT_Hardware_Enumeration(UnicodeString LinkName, UnicodeString FriendlyName)
+opcode: ''
+keywords: ''
+task: MF_MFT_Hardware_Enumeration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LinkName
+- field_type: UnicodeString
+  field_name: FriendlyName

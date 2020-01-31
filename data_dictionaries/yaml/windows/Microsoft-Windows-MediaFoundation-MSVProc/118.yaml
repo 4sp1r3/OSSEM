@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '118'
+version: '0'
+event(fields): MSVideoProcessoftMFT_MirrorStop()
+opcode: Stop
+keywords: ''
+task: MSVideoProcessoftMFT_Mirror
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

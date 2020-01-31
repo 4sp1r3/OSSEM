@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '136'
+version: '0'
+event(fields): Responsehandling136()
+opcode: ''
+keywords: Keyword.Client
+task: Responsehandling
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

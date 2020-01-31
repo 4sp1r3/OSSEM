@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '125'
+version: '0'
+event(fields): L2ReadUnlock(UInt32 NumMappedValues, UInt64 MappedMemoryUsage)
+opcode: ''
+keywords: Events
+task: L2ReadUnlock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NumMappedValues
+- field_type: UInt64
+  field_name: MappedMemoryUsage

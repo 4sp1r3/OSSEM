@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8060'
+version: '0'
+event(fields): PINRecoveryStop8060(SID UserSid, UInt32 ProcessingTime)
+opcode: Stop
+keywords: Internal
+task: PINRecovery
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: UserSid
+- field_type: UInt32
+  field_name: ProcessingTime

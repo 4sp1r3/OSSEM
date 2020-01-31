@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '1404'
+version: '0'
+event(fields): FM_BeginResume_RehydrationPhase(UInt32 p1_UInt32)
+opcode: ''
+keywords: FM ExecDevPlatCircular
+task: FM_BeginResume_RehydrationPhase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p1_UInt32

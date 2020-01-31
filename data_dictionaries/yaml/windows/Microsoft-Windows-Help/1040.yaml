@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Help
+event_id: '1040'
+version: '0'
+event(fields): NonPerfEvents1040(UnicodeString Message, UnicodeString Url, UnicodeString
+  SrcText, UnicodeString Reason, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: NonPerfEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UnicodeString
+  field_name: Url
+- field_type: UnicodeString
+  field_name: SrcText
+- field_type: UnicodeString
+  field_name: Reason
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2014'
+version: '0'
+event(fields): Browseui_SHOpenFolderWindowStop()
+opcode: Stop
+keywords: Shell
+task: Browseui_SHOpenFolderWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

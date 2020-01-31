@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '229'
+version: '0'
+event(fields): Find_FindFirstHitStart()
+opcode: Start
+keywords: primarynav
+task: Find_FindFirstHit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

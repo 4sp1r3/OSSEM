@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '259'
+version: '0'
+event(fields): HandleMonitorChangeStop(Pointer Object)
+opcode: Stop
+keywords: ''
+task: HandleMonitorChange
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

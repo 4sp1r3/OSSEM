@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Sensors-Core-Performance
+event_id: '1022'
+version: '0'
+event(fields): SensorsCxReadTask(Pointer Sensor, Pointer DriverCollectionList)
+opcode: ''
+keywords: ''
+task: SensorsCxReadTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Sensor
+- field_type: Pointer
+  field_name: DriverCollectionList

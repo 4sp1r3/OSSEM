@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Crypto-RNG
+event_id: '32'
+version: '0'
+event(fields): Gatherentropyforthesystemrandomnumbergenerator32(UInt64 PoolReseedCount,
+  UInt32 ReseedType, UInt32 nData, Binary Data)
+opcode: ''
+keywords: KEYWORD_SYSTEMRNG_ENTROPY_DATA
+task: Gatherentropyforthesystemrandomnumbergenerator
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PoolReseedCount
+- field_type: UInt32
+  field_name: ReseedType
+- field_type: UInt32
+  field_name: nData
+- field_type: Binary
+  field_name: Data

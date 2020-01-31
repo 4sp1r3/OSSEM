@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Deduplication-Change
+event_id: '16436'
+version: '0'
+event(fields): task_016436(UnicodeString EntryToRemove, UnicodeString EntryToAdd)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EntryToRemove
+- field_type: UnicodeString
+  field_name: EntryToAdd

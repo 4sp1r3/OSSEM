@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '774'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment774(UnicodeString PackageName)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName

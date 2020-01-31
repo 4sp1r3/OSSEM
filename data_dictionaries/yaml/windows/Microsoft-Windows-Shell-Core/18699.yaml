@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18699'
+version: '0'
+event(fields): Shell32_DefView_GetEnumeratorStart()
+opcode: Start
+keywords: Shell
+task: Shell32_DefView_GetEnumerator
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

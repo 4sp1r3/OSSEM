@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceSyncProvider
+event_id: '406'
+version: '0'
+event(fields): WPDProvider_GetInstanceIdStart()
+opcode: Start
+keywords: ''
+task: WPDProvider_GetInstanceId
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

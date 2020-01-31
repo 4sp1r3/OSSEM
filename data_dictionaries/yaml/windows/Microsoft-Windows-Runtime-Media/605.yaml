@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '605'
+version: '0'
+event(fields): AdaptiveMediaSourceHTTPRequestStart(Pointer AdaptiveMediaSource)
+opcode: Start
+keywords: keyword_100000000000
+task: AdaptiveMediaSourceHTTPRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdaptiveMediaSource

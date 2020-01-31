@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3384'
+version: '0'
+event(fields): SessionUpgradeInitiate3384(UnicodeString AppDomain)
+opcode: Initiate
+keywords: Security
+task: SessionUpgrade
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

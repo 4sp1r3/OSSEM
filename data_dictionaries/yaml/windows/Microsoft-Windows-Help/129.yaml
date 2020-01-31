@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '129'
+version: '0'
+event(fields): ExpandCollapseStop()
+opcode: Stop
+keywords: PerfEvent
+task: ExpandCollapse
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

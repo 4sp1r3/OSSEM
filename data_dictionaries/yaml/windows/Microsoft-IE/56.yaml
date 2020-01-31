@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '56'
+version: '0'
+event(fields): Mshtml_CMarkup_InvalDoc(Pointer Markup)
+opcode: ''
+keywords: subsystem
+task: Mshtml_CMarkup_InvalDoc
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Markup

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '53'
+version: '0'
+event(fields): RECO_API_SetGuideStart()
+opcode: Start
+keywords: ''
+task: RECO_API_SetGuide
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-EQoS
+event_id: '13'
+version: '0'
+event(fields): task_013(UInt32 Hours, UInt32 Minutes, UInt32 Collisions)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Hours
+- field_type: UInt32
+  field_name: Minutes
+- field_type: UInt32
+  field_name: Collisions

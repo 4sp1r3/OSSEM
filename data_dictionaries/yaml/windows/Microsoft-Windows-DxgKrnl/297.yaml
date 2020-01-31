@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '297'
+version: '0'
+event(fields): WaitForSynchronizationObjectFromCpu(Pointer hDevice, UInt32 ObjectCount,
+  Pointer ObjectArray, UInt64 MonitoredFenceValue, Pointer hAsyncEvent, UInt32 Flags)
+opcode: ''
+keywords: Base
+task: WaitForSynchronizationObjectFromCpu
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hDevice
+- field_type: UInt32
+  field_name: ObjectCount
+- field_type: Pointer
+  field_name: ObjectArray
+- field_type: UInt64
+  field_name: MonitoredFenceValue
+- field_type: Pointer
+  field_name: hAsyncEvent
+- field_type: UInt32
+  field_name: Flags

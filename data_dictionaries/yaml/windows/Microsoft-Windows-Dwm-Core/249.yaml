@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '249'
+version: '0'
+event(fields): INPUT_SINK_TRANSFORM_UPDATE(Pointer inputSinkHandle, UInt64 inputSinkLuid,
+  Float _11, Float _12, Float _13, Float _14, Float _21, Float _22, Float _23, Float
+  _24, Float _31, Float _32, Float _33, Float _34, Float _41, Float _42, Float _43,
+  Float _44)
+opcode: ''
+keywords: DwmCore DwmInput
+task: INPUT_SINK_TRANSFORM_UPDATE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: inputSinkHandle
+- field_type: UInt64
+  field_name: inputSinkLuid
+- field_type: Float
+  field_name: _11
+- field_type: Float
+  field_name: _12
+- field_type: Float
+  field_name: _13
+- field_type: Float
+  field_name: _14
+- field_type: Float
+  field_name: _21
+- field_type: Float
+  field_name: _22
+- field_type: Float
+  field_name: _23
+- field_type: Float
+  field_name: _24
+- field_type: Float
+  field_name: _31
+- field_type: Float
+  field_name: _32
+- field_type: Float
+  field_name: _33
+- field_type: Float
+  field_name: _34
+- field_type: Float
+  field_name: _41
+- field_type: Float
+  field_name: _42
+- field_type: Float
+  field_name: _43
+- field_type: Float
+  field_name: _44

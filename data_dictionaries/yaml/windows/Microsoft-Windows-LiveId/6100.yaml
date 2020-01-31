@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LiveId
+event_id: '6100'
+version: '0'
+event(fields): task_06100(UnicodeString value)
+opcode: ''
+keywords: RequestStart WlidSvc
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value

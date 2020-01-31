@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4022'
+version: '0'
+event(fields): AssociationLaunch_UriLaunch_LocalZoneBlocked(UnicodeString UriSchemeOrFileExtension)
+opcode: ''
+keywords: ''
+task: AssociationLaunch_UriLaunch_LocalZoneBlocked
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UriSchemeOrFileExtension

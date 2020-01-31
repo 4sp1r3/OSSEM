@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '1006'
+version: '0'
+event(fields): task_01006(AnsiString FunctionCall, GUID InterfaceGuid, UnicodeString
+  Message)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: FunctionCall
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: Message

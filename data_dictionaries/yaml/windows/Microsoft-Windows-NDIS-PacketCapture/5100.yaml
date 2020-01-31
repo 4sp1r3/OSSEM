@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NDIS-PacketCapture
+event_id: '5100'
+version: '0'
+event(fields): task_05100(UInt8 SourceId, UInt32 RundownId, UInt64 Param1, UInt64
+  Param2, UnicodeString ParamStr, UnicodeString Description)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: SourceId
+- field_type: UInt32
+  field_name: RundownId
+- field_type: UInt64
+  field_name: Param1
+- field_type: UInt64
+  field_name: Param2
+- field_type: UnicodeString
+  field_name: ParamStr
+- field_type: UnicodeString
+  field_name: Description

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '49'
+version: '0'
+event(fields): SocketReceiveProcessingafterread49(Pointer obj, UInt32 size, Binary
+  address)
+opcode: Processingafterread
+keywords: keywords.Socket
+task: SocketReceive
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: obj
+- field_type: UInt32
+  field_name: size
+- field_type: Binary
+  field_name: address

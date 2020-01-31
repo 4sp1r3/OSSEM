@@ -1,0 +1,15 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '5314'
+version: '0'
+event(fields): Packager_30AppAgent5314(UnicodeString stringValue1, UnicodeString stringValue2)
+opcode: AppAgent
+keywords: ''
+task: Packager_30
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1
+- field_type: UnicodeString
+  field_name: stringValue2

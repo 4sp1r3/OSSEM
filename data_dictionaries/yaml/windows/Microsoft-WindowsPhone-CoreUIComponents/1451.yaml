@@ -1,0 +1,16 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1451'
+version: '0'
+event(fields): SessionManagerNSSMInitiateModernSessionActivationResult(UInt32 status,
+  UInt32 unParam)
+opcode: NSSMInitiateModernSessionActivationResult
+keywords: NavigationPerformance SessionManager
+task: SessionManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: status
+- field_type: UInt32
+  field_name: unParam

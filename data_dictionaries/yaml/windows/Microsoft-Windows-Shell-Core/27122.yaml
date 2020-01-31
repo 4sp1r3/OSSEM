@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27122'
+version: '0'
+event(fields): PerfTrack_CFD_VideosLibrary_Network_PageDisplayedStop(UInt32 BrowserId,
+  UInt32 ItemCount)
+opcode: Stop
+keywords: Shell
+task: PerfTrack_CFD_VideosLibrary_Network_PageDisplayed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BrowserId
+- field_type: UInt32
+  field_name: ItemCount

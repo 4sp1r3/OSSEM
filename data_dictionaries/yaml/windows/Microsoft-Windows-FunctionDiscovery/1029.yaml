@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FunctionDiscovery
+event_id: '1029'
+version: '0'
+event(fields): FunDisc_ProviderQueryStop(UnicodeString Category, UnicodeString Subcategory)
+opcode: Stop
+keywords: ''
+task: FunDisc_ProviderQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Category
+- field_type: UnicodeString
+  field_name: Subcategory

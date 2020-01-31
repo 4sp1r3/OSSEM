@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3106'
+version: '0'
+event(fields): Session_CoreUICreate_ExportSessionStart()
+opcode: Start
+keywords: MessagingPerformance Session
+task: Session_CoreUICreate_ExportSession
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

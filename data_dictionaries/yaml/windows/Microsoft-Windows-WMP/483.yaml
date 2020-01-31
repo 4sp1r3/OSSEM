@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '483'
+version: '0'
+event(fields): WMPDMR_RENDERING_CONTROL_ACTIONSStop483(UInt32 result)
+opcode: Stop
+keywords: mediaplayer
+task: WMPDMR_RENDERING_CONTROL_ACTIONS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: result

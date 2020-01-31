@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '531'
+version: '0'
+event(fields): KeyDownStop(UInt32 KeyCode, UInt32 RepeatCount, UInt32 CountBeforeSubmitFrame)
+opcode: Stop
+keywords: ''
+task: KeyDown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: KeyCode
+- field_type: UInt32
+  field_name: RepeatCount
+- field_type: UInt32
+  field_name: CountBeforeSubmitFrame

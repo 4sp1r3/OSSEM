@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61366'
+version: '0'
+event(fields): FileAccessAPI_Enumeration_GetAtStart()
+opcode: Start
+keywords: Shell
+task: FileAccessAPI_Enumeration_GetAt
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

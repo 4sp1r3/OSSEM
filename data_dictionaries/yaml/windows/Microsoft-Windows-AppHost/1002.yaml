@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1002'
+version: '0'
+event(fields): Navigation.NavigationDomain.DecisionStop()
+opcode: Stop
+keywords: WwaHost
+task: Navigation.NavigationDomain.Decision
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

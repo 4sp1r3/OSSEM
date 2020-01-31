@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14058'
+version: '0'
+event(fields): AcmConnectionT:ACTIVITYCONTEXTt:ActivityContext(UnicodeString ProfileName,
+  UnicodeString SSID)
+opcode: ActivityContext
+keywords: State
+task: AcmConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UnicodeString
+  field_name: SSID

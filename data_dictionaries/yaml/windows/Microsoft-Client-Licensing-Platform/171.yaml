@@ -1,0 +1,18 @@
+provider: Microsoft-Client-Licensing-Platform
+event_id: '171'
+version: '0'
+event(fields): task_0171(UnicodeString Namespace, UnicodeString VariableName, UInt32
+  HRESULT)
+opcode: ''
+keywords: SERVICE_KEYWORD
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Namespace
+- field_type: UnicodeString
+  field_name: VariableName
+- field_type: UInt32
+  field_name: HRESULT

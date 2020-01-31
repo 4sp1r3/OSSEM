@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '168'
+version: '0'
+event(fields): DmViewportStatus(UInt64 ViewportId, UInt32 OldStatus, UInt32 NewStatus)
+opcode: ''
+keywords: Input
+task: DmViewportStatus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ViewportId
+- field_type: UInt32
+  field_name: OldStatus
+- field_type: UInt32
+  field_name: NewStatus

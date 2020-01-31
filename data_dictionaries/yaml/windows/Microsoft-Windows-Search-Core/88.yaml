@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '88'
+version: '0'
+event(fields): Backoff_BatteryCheck(UInt8 ACLineStatus, UInt8 BatteryFlag, UInt8 BatteryLifePercent,
+  UInt32 LowBatteryThreshold, Boolean IsLow)
+opcode: ''
+keywords: Backoff
+task: Backoff_BatteryCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ACLineStatus
+- field_type: UInt8
+  field_name: BatteryFlag
+- field_type: UInt8
+  field_name: BatteryLifePercent
+- field_type: UInt32
+  field_name: LowBatteryThreshold
+- field_type: Boolean
+  field_name: IsLow

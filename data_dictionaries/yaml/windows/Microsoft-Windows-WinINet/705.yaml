@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinINet
+event_id: '705'
+version: '0'
+event(fields): WININET_HTTPS_SERVER_CERT_VALIDATED(Pointer RequestHandle, UInt16 _CertHashLength,
+  AnsiString CertHash, UInt32 WarningFlags)
+opcode: ''
+keywords: WININET_KEYWORD_HTTPS
+task: WININET_HTTPS_SERVER_CERT_VALIDATED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestHandle
+- field_type: UInt16
+  field_name: _CertHashLength
+- field_type: AnsiString
+  field_name: CertHash
+- field_type: UInt32
+  field_name: WarningFlags

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1001'
+version: '0'
+event(fields): SrvDisabled(UInt16 ClientNameLength, UnicodeString ClientName, UInt32
+  LogEventCount)
+opcode: ''
+keywords: Operational
+task: SrvDisabled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName
+- field_type: UInt32
+  field_name: LogEventCount

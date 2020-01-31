@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1101'
+version: '0'
+event(fields): SensorServicedataupdatedeventStop(GUID SENSOR_ID, SYSTEMTIME Timestamp)
+opcode: Stop
+keywords: SensPerf
+task: SensorServicedataupdatedevent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SENSOR_ID
+- field_type: SYSTEMTIME
+  field_name: Timestamp

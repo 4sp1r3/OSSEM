@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '855'
+version: '0'
+event(fields): CSms855(UInt32 DwordName1, UInt32 Result)
+opcode: ''
+keywords: Error
+task: CSms
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName1
+- field_type: UInt32
+  field_name: Result

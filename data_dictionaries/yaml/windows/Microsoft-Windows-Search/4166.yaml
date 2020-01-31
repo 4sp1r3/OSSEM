@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Search
+event_id: '4166'
+version: '0'
+event(fields): task_0PCODE_64pcode_644166(UnicodeString ExtraInfo, UnicodeString CatalogName,
+  UnicodeString ExpectedDocCount, UInt32 __binLength, Binary binary)
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtraInfo
+- field_type: UnicodeString
+  field_name: CatalogName
+- field_type: UnicodeString
+  field_name: ExpectedDocCount
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: binary

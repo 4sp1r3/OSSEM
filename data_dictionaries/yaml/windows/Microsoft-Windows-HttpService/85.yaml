@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HttpService
+event_id: '85'
+version: '0'
+event(fields): HTTPThreadPoolThreadPoolExtension(AnsiString PoolType, UInt16 ActivePools)
+opcode: ThreadPoolExtension
+keywords: HTTP_KEYWORD_THREAD_POOL
+task: HTTPThreadPool
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: PoolType
+- field_type: UInt16
+  field_name: ActivePools

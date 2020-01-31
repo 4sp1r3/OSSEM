@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-Kernel-WHEA
+event_id: '6'
+version: '0'
+event(fields): task_06(UInt32 TransactionType, UInt32 Participation, UInt32 RequestType,
+  UInt32 MemorIO, UInt32 MemHierarchyLvl, UInt64 Address, UInt32 Length, Binary RawData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TransactionType
+- field_type: UInt32
+  field_name: Participation
+- field_type: UInt32
+  field_name: RequestType
+- field_type: UInt32
+  field_name: MemorIO
+- field_type: UInt32
+  field_name: MemHierarchyLvl
+- field_type: UInt64
+  field_name: Address
+- field_type: UInt32
+  field_name: Length
+- field_type: Binary
+  field_name: RawData

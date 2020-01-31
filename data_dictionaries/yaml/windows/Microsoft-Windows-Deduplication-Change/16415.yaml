@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Deduplication-Change
+event_id: '16415'
+version: '0'
+event(fields): task_016415(UInt32 CompletionStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CompletionStatus

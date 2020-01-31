@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '31001'
+version: '0'
+event(fields): task_031001(UInt32 Reason, UInt32 Status, UInt32 SecurityStatus, UInt64
+  LogonId, UInt16 ServerNameLength, UnicodeString ServerName, UInt16 PrincipalNameLength,
+  UnicodeString PrincipalName, UInt16 UserNameLength, UnicodeString UserName)
+opcode: ''
+keywords: Smb_Authentication
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: SecurityStatus
+- field_type: UInt64
+  field_name: LogonId
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt16
+  field_name: PrincipalNameLength
+- field_type: UnicodeString
+  field_name: PrincipalName
+- field_type: UInt16
+  field_name: UserNameLength
+- field_type: UnicodeString
+  field_name: UserName

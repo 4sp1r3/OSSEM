@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18789'
+version: '0'
+event(fields): CDesktopBrowser_WallpaperAnimation_SetupStart()
+opcode: Start
+keywords: Shell
+task: CDesktopBrowser_WallpaperAnimation_Setup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

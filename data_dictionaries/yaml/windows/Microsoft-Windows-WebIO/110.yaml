@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WebIO
+event_id: '110'
+version: '0'
+event(fields): RequestEntityTrackerStart(Pointer Request, Pointer Connection, Pointer
+  DataChunks, UInt32 PendingSendCount, Boolean LastSend, UInt32 Error)
+opcode: Start
+keywords: Keyword.SEND
+task: RequestEntityTracker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: UInt32
+  field_name: PendingSendCount
+- field_type: Boolean
+  field_name: LastSend
+- field_type: UInt32
+  field_name: Error

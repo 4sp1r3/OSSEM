@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DSC
+event_id: '4340'
+version: '0'
+event(fields): task_04340(UInt32 ReportingTimerValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ReportingTimerValue

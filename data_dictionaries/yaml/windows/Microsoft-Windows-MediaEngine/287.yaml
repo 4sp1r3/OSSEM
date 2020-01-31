@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '287'
+version: '0'
+event(fields): FrameNotPresentedTask(Pointer object, Int64 Timestamp)
+opcode: ''
+keywords: ''
+task: FrameNotPresentedTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: Timestamp

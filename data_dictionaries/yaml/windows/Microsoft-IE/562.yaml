@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '562'
+version: '0'
+event(fields): Mshtml_FormatDetection_EntityFound(UInt32 EntityType, UInt32 StartIndex,
+  UInt32 EndIndex)
+opcode: ''
+keywords: verbose
+task: Mshtml_FormatDetection_EntityFound
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EntityType
+- field_type: UInt32
+  field_name: StartIndex
+- field_type: UInt32
+  field_name: EndIndex

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9707'
+version: '0'
+event(fields): Explorer_ExecutingFromRunKeyStart(UnicodeString Command)
+opcode: Start
+keywords: Shell StartupPerf
+task: Explorer_ExecutingFromRunKey
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Command

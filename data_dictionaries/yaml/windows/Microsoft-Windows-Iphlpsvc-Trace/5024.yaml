@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5024'
+version: '0'
+event(fields): task_05024(UInt32 PacketType, UnicodeString TargetAddress, UnicodeString
+  Prefix, Boolean DefaultRouter)
+opcode: ''
+keywords: iphttps
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PacketType
+- field_type: UnicodeString
+  field_name: TargetAddress
+- field_type: UnicodeString
+  field_name: Prefix
+- field_type: Boolean
+  field_name: DefaultRouter

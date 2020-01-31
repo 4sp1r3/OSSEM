@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '14'
+version: '0'
+event(fields): MFAudio_Render_EngineStreamTaskAudEngineStream_HandleStarvation_ReadForStreamSwitch(Pointer
+  object)
+opcode: AudEngineStream_HandleStarvation_ReadForStreamSwitch
+keywords: ''
+task: MFAudio_Render_EngineStreamTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

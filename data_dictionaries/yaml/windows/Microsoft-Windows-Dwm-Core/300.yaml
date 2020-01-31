@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '300'
+version: '0'
+event(fields): INTERACTION_TOUCHPAD_CONFIGURATION_CHANGED(Pointer Interaction, UInt32
+  updateType, UInt32 configurationCount, UInt8 configurations)
+opcode: ''
+keywords: DwmCore DwmInput
+task: INTERACTION_TOUCHPAD_CONFIGURATION_CHANGED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Interaction
+- field_type: UInt32
+  field_name: updateType
+- field_type: UInt32
+  field_name: configurationCount
+- field_type: UInt8
+  field_name: configurations

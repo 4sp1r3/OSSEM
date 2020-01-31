@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-AppHost
+event_id: '518'
+version: '0'
+event(fields): SuspendingGarbageCollectionAppHostInformation(Int32 WindowType, Boolean
+  WebPlatformSuspendDownloadPending, Boolean WebPlatformCleanupPending, Int32 PID,
+  Int32 TID, UnicodeString PackageFullName, UnicodeString AppUserModelId)
+opcode: AppHostInformation
+keywords: WWAHOST_KEYWORD
+task: SuspendingGarbageCollection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: WindowType
+- field_type: Boolean
+  field_name: WebPlatformSuspendDownloadPending
+- field_type: Boolean
+  field_name: WebPlatformCleanupPending
+- field_type: Int32
+  field_name: PID
+- field_type: Int32
+  field_name: TID
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppUserModelId

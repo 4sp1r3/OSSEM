@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18609'
+version: '0'
+event(fields): Shell32_MountPoint_SHHardwareEvent_MountPointArrivedStart()
+opcode: Start
+keywords: Shell
+task: Shell32_MountPoint_SHHardwareEvent_MountPointArrived
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

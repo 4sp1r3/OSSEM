@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '86'
+version: '0'
+event(fields): RemoveDeviceStart()
+opcode: Start
+keywords: DeviceUX_Performance
+task: RemoveDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

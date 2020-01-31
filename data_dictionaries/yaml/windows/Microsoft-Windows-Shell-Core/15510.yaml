@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '15510'
+version: '0'
+event(fields): PropertyDescription_SHGetPropertyDescriptionListFromStringStop()
+opcode: Stop
+keywords: Properties
+task: PropertyDescription_SHGetPropertyDescriptionListFromString
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

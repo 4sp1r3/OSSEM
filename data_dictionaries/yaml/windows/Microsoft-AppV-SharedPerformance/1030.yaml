@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '1030'
+version: '0'
+event(fields): Packaging_ManifestWrite_ExtensionPointStart()
+opcode: Start
+keywords: ''
+task: Packaging_ManifestWrite_ExtensionPoint
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

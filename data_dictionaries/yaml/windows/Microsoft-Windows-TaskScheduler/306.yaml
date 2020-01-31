@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '306'
+version: '0'
+event(fields): EnginefailedtoreceivethetaskFailure(UnicodeString TaskEngineName, UInt32
+  ResultCode)
+opcode: Failure
+keywords: ''
+task: Enginefailedtoreceivethetask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskEngineName
+- field_type: UInt32
+  field_name: ResultCode

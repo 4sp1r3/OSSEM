@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Documents
+event_id: '1648'
+version: '0'
+event(fields): DocPerf_Task_XpsPrint_API_EnterExitStart(UnicodeString FunctionName)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_XpsPrint_API_EnterExit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FunctionName

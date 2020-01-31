@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-XAML
+event_id: '357'
+version: '0'
+event(fields): DecodeGreaterThanRenderSize(UInt64 ImageId, UInt32 RenderWidth, UInt32
+  RenderHeight, UInt32 PreviousDecodeWidth, UInt32 PreviousDecodeHeight, UInt32 DecodeWidth,
+  UInt32 DecodeHeight, UInt32 NativeWidth, UInt32 NativeHeight, UInt32 LayoutWidth,
+  UInt32 LayoutHeight)
+opcode: ''
+keywords: Images
+task: DecodeGreaterThanRenderSize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ImageId
+- field_type: UInt32
+  field_name: RenderWidth
+- field_type: UInt32
+  field_name: RenderHeight
+- field_type: UInt32
+  field_name: PreviousDecodeWidth
+- field_type: UInt32
+  field_name: PreviousDecodeHeight
+- field_type: UInt32
+  field_name: DecodeWidth
+- field_type: UInt32
+  field_name: DecodeHeight
+- field_type: UInt32
+  field_name: NativeWidth
+- field_type: UInt32
+  field_name: NativeHeight
+- field_type: UInt32
+  field_name: LayoutWidth
+- field_type: UInt32
+  field_name: LayoutHeight

@@ -1,0 +1,20 @@
+provider: LsaSrv
+event_id: '32773'
+version: '0'
+event(fields): task_032773(UnicodeString Domain, UnicodeString TargetDomain, UInt32
+  __binLength, Binary status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Domain
+- field_type: UnicodeString
+  field_name: TargetDomain
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: status

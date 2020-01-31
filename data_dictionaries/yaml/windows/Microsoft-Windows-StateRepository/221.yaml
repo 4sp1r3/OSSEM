@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '221'
+version: '0'
+event(fields): StateRepository.Task.WinRTAPI221(Int32 Partition, UInt32 ProcessId)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD
+task: StateRepository.Task.WinRTAPI
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Partition
+- field_type: UInt32
+  field_name: ProcessId

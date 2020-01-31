@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7709'
+version: '0'
+event(fields): PnP_SetupAPI_StageDriverPackageStop()
+opcode: Stop
+keywords: ''
+task: PnP_SetupAPI_StageDriverPackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

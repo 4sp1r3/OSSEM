@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '259'
+version: '0'
+event(fields): CellPEAdvance(Boolean IsMulticellUsed)
+opcode: ''
+keywords: Selfhost CellPe
+task: CellPEAdvance
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsMulticellUsed

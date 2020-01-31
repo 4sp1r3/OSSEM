@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '701'
+version: '0'
+event(fields): BAM_RemovePackage(UnicodeString Package, UnicodeString UserSid)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular
+task: BAM_RemovePackage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Package
+- field_type: UnicodeString
+  field_name: UserSid

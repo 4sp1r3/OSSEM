@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '493'
+version: '0'
+event(fields): CDDVD_LAUNCHStop(UInt32 Key)
+opcode: Stop
+keywords: ''
+task: CDDVD_LAUNCH
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Key

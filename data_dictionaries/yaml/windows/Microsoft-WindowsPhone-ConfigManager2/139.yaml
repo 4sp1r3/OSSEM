@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '139'
+version: '0'
+event(fields): ICSPNode_GetChildNodeNames_TaskStop139(UInt32 ChildCount, UInt32 Result)
+opcode: Stop
+keywords: Error Performance Trace
+task: ICSPNode_GetChildNodeNames_Task
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ChildCount
+- field_type: UInt32
+  field_name: Result

@@ -1,0 +1,17 @@
+provider: Microsoft-IE
+event_id: '866'
+version: '0'
+event(fields): Mshtml_Container_Size(Pointer Container, UInt32 Capacity, UInt32 InUse)
+opcode: ''
+keywords: containers
+task: Mshtml_Container_Size
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Container
+- field_type: UInt32
+  field_name: Capacity
+- field_type: UInt32
+  field_name: InUse

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '57398'
+version: '0'
+event(fields): Throttles(Int32 limit, UnicodeString AppDomain)
+opcode: ''
+keywords: WFServices
+task: Throttles
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: limit
+- field_type: UnicodeString
+  field_name: AppDomain

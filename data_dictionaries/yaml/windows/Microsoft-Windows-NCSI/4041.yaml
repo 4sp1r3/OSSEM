@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4041'
+version: '0'
+event(fields): task_04041(GUID DisconnectedInterfaceGuid, UInt64 IfLuid)
+opcode: ''
+keywords: LwtDiagnostic ut:L3ConnectPath
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DisconnectedInterfaceGuid
+- field_type: UInt64
+  field_name: IfLuid

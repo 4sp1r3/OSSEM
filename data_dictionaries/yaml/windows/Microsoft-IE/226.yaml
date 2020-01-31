@@ -1,0 +1,24 @@
+provider: Microsoft-IE
+event_id: '226'
+version: '0'
+event(fields): Mshtml_MediaEngine_VideoMediaType(UInt32 MediaEngineID, UInt32 format,
+  UInt32 width, UInt32 height, UInt32 frameratenum, UInt32 framerateden)
+opcode: ''
+keywords: mediaengine
+task: Mshtml_MediaEngine_VideoMediaType
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaEngineID
+- field_type: UInt32
+  field_name: format
+- field_type: UInt32
+  field_name: width
+- field_type: UInt32
+  field_name: height
+- field_type: UInt32
+  field_name: frameratenum
+- field_type: UInt32
+  field_name: framerateden

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ComDlg32
+event_id: '40030'
+version: '0'
+event(fields): FontChooserCommonDialogChooseFontfinishedbuildingenumerator()
+opcode: ChooseFontfinishedbuildingenumerator
+keywords: ''
+task: FontChooserCommonDialog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

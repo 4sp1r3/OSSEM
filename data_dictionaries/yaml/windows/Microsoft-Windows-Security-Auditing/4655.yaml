@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4655'
+version: '0'
+event(fields): task_04655(UnicodeString LocalAddress, UnicodeString RemoteAddress,
+  UnicodeString KeyModName, UInt64 MMSAID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalAddress
+- field_type: UnicodeString
+  field_name: RemoteAddress
+- field_type: UnicodeString
+  field_name: KeyModName
+- field_type: UInt64
+  field_name: MMSAID

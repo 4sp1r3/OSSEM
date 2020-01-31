@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '639'
+version: '0'
+event(fields): Print_Dialog_PerftrackStart(UInt64 Object)
+opcode: Start
+keywords: ''
+task: Print_Dialog_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

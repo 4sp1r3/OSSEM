@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '113'
+version: '1'
+event(fields): PassiveCoolingDiagnostic113_V1(UInt16 ThermalZoneDeviceInstanceLength,
+  UnicodeString ThermalZoneDeviceInstance, FILETIME EventTime, UInt16 PassiveCoolingState,
+  UInt32 _PSV, UInt32 _TMP, UInt32 _TC1, UInt32 _TC2, UInt32 _TSP, Int32 DeltaP, Int32
+  MinimumThrottle)
+opcode: ''
+keywords: po:Thermal
+task: PassiveCoolingDiagnostic
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ThermalZoneDeviceInstanceLength
+- field_type: UnicodeString
+  field_name: ThermalZoneDeviceInstance
+- field_type: FILETIME
+  field_name: EventTime
+- field_type: UInt16
+  field_name: PassiveCoolingState
+- field_type: UInt32
+  field_name: _PSV
+- field_type: UInt32
+  field_name: _TMP
+- field_type: UInt32
+  field_name: _TC1
+- field_type: UInt32
+  field_name: _TC2
+- field_type: UInt32
+  field_name: _TSP
+- field_type: Int32
+  field_name: DeltaP
+- field_type: Int32
+  field_name: MinimumThrottle

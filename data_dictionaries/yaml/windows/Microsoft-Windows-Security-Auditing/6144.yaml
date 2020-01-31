@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '6144'
+version: '0'
+event(fields): task_06144(UInt32 ErrorCode, UnicodeString GPOList)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: GPOList

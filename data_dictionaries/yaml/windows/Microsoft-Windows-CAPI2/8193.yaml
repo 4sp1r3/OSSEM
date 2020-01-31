@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '8193'
+version: '0'
+event(fields): AddaSecurityCatalogtotheCatalogDatabaseStop(HexInt32 Status)
+opcode: Stop
+keywords: Catalog
+task: AddaSecurityCatalogtotheCatalogDatabase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

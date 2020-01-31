@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-NcdAutoSetup
+event_id: '6003'
+version: '0'
+event(fields): taskNetworkQualificationCheck()
+opcode: ''
+keywords: ''
+task: taskNetworkQualificationCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

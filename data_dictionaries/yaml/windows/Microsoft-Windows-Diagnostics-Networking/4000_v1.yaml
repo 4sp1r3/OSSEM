@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Diagnostics-Networking
+event_id: '4000'
+version: '1'
+event(fields): DiagnosisSuccess_V1(UnicodeString RootCause, GUID RootCauseGUID, UnicodeString
+  RepairOption, GUID RepairGUID, UInt32 SecondsRequired, UInt32 SIDTypeRequired, UnicodeString
+  HelperClassName, UnicodeString InterfaceDesc, GUID InterfaceGUID)
+opcode: ''
+keywords: ndf:NDFCoreEvents keyword_400000000000
+task: DiagnosisSuccess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RootCause
+- field_type: GUID
+  field_name: RootCauseGUID
+- field_type: UnicodeString
+  field_name: RepairOption
+- field_type: GUID
+  field_name: RepairGUID
+- field_type: UInt32
+  field_name: SecondsRequired
+- field_type: UInt32
+  field_name: SIDTypeRequired
+- field_type: UnicodeString
+  field_name: HelperClassName
+- field_type: UnicodeString
+  field_name: InterfaceDesc
+- field_type: GUID
+  field_name: InterfaceGUID

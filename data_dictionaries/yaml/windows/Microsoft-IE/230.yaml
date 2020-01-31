@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '230'
+version: '0'
+event(fields): Mshtml_MediaEngine_VideoQualityMessage(UInt32 MediaEngineID, Int64
+  lag)
+opcode: ''
+keywords: mediaengine
+task: Mshtml_MediaEngine_VideoQualityMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaEngineID
+- field_type: Int64
+  field_name: lag

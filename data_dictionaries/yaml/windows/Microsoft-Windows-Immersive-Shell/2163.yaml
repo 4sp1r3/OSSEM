@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2163'
+version: '0'
+event(fields): Picker_AppInstanceView_Closing(Boolean IsCancelled)
+opcode: ''
+keywords: ''
+task: Picker_AppInstanceView_Closing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsCancelled

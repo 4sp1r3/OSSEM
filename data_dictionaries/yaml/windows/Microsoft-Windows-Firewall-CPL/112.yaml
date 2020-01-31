@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Firewall-CPL
+event_id: '112'
+version: '0'
+event(fields): AddPortExceptionStop()
+opcode: Stop
+keywords: FirewallCpl
+task: AddPortException
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

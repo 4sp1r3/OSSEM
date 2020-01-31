@@ -1,0 +1,66 @@
+provider: Microsoft-Windows-WER-Diag
+event_id: '5'
+version: '0'
+event(fields): task_05(UnicodeString AppPath, UInt32 ProcessId, FILETIME ProcessStartTime,
+  Boolean Is64Bit, Pointer CallReturnAddress, UnicodeString CallReturnModName, UInt32
+  CallReturnModOffset, UInt32 CallReturnInstructionBytesLength, Binary CallReturnInstructionBytes,
+  Pointer CallReturnBaseAddress, Pointer CallReturnRegionSize, UInt32 CallReturnState,
+  UInt32 CallReturnProtect, UInt32 CallReturnType, Pointer TargetAddress, UnicodeString
+  TargetModName, UInt32 TargetModOffset, UInt32 TargetInstructionBytesLength, Binary
+  TargetInstructionBytes, Pointer TargetBaseAddress, Pointer TargetRegionSize, UInt32
+  TargetState, UInt32 TargetProtect, UInt32 TargetType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppPath
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: FILETIME
+  field_name: ProcessStartTime
+- field_type: Boolean
+  field_name: Is64Bit
+- field_type: Pointer
+  field_name: CallReturnAddress
+- field_type: UnicodeString
+  field_name: CallReturnModName
+- field_type: UInt32
+  field_name: CallReturnModOffset
+- field_type: UInt32
+  field_name: CallReturnInstructionBytesLength
+- field_type: Binary
+  field_name: CallReturnInstructionBytes
+- field_type: Pointer
+  field_name: CallReturnBaseAddress
+- field_type: Pointer
+  field_name: CallReturnRegionSize
+- field_type: UInt32
+  field_name: CallReturnState
+- field_type: UInt32
+  field_name: CallReturnProtect
+- field_type: UInt32
+  field_name: CallReturnType
+- field_type: Pointer
+  field_name: TargetAddress
+- field_type: UnicodeString
+  field_name: TargetModName
+- field_type: UInt32
+  field_name: TargetModOffset
+- field_type: UInt32
+  field_name: TargetInstructionBytesLength
+- field_type: Binary
+  field_name: TargetInstructionBytes
+- field_type: Pointer
+  field_name: TargetBaseAddress
+- field_type: Pointer
+  field_name: TargetRegionSize
+- field_type: UInt32
+  field_name: TargetState
+- field_type: UInt32
+  field_name: TargetProtect
+- field_type: UInt32
+  field_name: TargetType

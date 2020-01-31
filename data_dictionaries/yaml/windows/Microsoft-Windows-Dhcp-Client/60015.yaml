@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '60015'
+version: '0'
+event(fields): ProtocolStateEventPerfTrackToggleRequestAck60015(GUID InterfaceGuid,
+  UInt32 InterfaceId, UInt32 Address1, UInt32 Address2)
+opcode: PerfTrackToggleRequestAck
+keywords: ''
+task: ProtocolStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: Address1
+- field_type: UInt32
+  field_name: Address2

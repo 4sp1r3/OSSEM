@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14016'
+version: '0'
+event(fields): task_014016(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UInt32 ConnectionMode, UInt32 Flags, UnicodeString Profile, Pointer ConnectionId)
+opcode: ''
+keywords: IntfContext ut:L2ConnectPath
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UInt32
+  field_name: ConnectionMode
+- field_type: UInt32
+  field_name: Flags
+- field_type: UnicodeString
+  field_name: Profile
+- field_type: Pointer
+  field_name: ConnectionId

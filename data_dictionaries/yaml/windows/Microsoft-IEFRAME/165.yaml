@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '165'
+version: '0'
+event(fields): Search_ImageProcessingStart()
+opcode: Start
+keywords: primarynav
+task: Search_ImageProcessing
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

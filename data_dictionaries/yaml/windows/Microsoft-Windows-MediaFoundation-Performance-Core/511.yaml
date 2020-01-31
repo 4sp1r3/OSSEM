@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '511'
+version: '0'
+event(fields): AudCaptureStream_CreateCaptureStreamStart(Pointer object, Pointer m_spAudioClientForStreaming)
+opcode: Start
+keywords: ''
+task: AudCaptureStream_CreateCaptureStream
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: m_spAudioClientForStreaming

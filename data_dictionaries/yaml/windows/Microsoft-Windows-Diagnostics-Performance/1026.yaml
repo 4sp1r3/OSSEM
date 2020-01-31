@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '1026'
+version: '0'
+event(fields): Boot_RurLegacyResourceStart()
+opcode: Start
+keywords: BootStatus
+task: Boot_RurLegacyResource
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

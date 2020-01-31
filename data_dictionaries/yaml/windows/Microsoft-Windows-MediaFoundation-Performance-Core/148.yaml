@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '148'
+version: '0'
+event(fields): MFAudio_Render_StreamInvalidationTaskAudStreamSink_DoInvalidateAudEngineStream_ReleasePendingStream(Pointer
+  object, Int32 mfaOriginalStreamState)
+opcode: AudStreamSink_DoInvalidateAudEngineStream_ReleasePendingStream
+keywords: ''
+task: MFAudio_Render_StreamInvalidationTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: mfaOriginalStreamState

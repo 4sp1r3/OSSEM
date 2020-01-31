@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '3009'
+version: '0'
+event(fields): task_03009(UnicodeString Hostname, UnicodeString Url)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Hostname
+- field_type: UnicodeString
+  field_name: Url

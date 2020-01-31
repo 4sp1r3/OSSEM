@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1605'
+version: '0'
+event(fields): ShellTask_Collection_RealizeThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_Collection_RealizeThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

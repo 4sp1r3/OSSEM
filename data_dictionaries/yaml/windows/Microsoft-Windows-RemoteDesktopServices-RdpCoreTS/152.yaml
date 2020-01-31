@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '152'
+version: '0'
+event(fields): RemoteFXmodule_4Runtime152(UInt32 TimestampMs, UInt32 NumHeartbeats,
+  UInt32 LastDataPacketMs, UInt32 LastHeartbeatMs)
+opcode: Runtime
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimestampMs
+- field_type: UInt32
+  field_name: NumHeartbeats
+- field_type: UInt32
+  field_name: LastDataPacketMs
+- field_type: UInt32
+  field_name: LastHeartbeatMs

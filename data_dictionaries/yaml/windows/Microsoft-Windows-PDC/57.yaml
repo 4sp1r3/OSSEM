@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-PDC
+event_id: '57'
+version: '0'
+event(fields): SuspendResumeStarted(UInt32 Type, UInt32 Session, UInt32 Iteration,
+  Pointer ClientContext, UInt32 PdcSequence, UInt32 Value, UInt32 WaitTime)
+opcode: ''
+keywords: suspendresume
+task: SuspendResumeStarted
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Session
+- field_type: UInt32
+  field_name: Iteration
+- field_type: Pointer
+  field_name: ClientContext
+- field_type: UInt32
+  field_name: PdcSequence
+- field_type: UInt32
+  field_name: Value
+- field_type: UInt32
+  field_name: WaitTime

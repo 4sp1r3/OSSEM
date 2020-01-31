@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '315'
+version: '0'
+event(fields): ComponentResidency(Pointer Token, UInt32 Component, UInt64 Residency)
+opcode: ''
+keywords: po:RuntimeFx
+task: ComponentResidency
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token
+- field_type: UInt32
+  field_name: Component
+- field_type: UInt64
+  field_name: Residency

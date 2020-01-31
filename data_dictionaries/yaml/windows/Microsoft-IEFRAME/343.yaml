@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '343'
+version: '0'
+event(fields): FindBar_TermChange()
+opcode: ''
+keywords: primarynav
+task: FindBar_TermChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

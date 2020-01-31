@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '151'
+version: '0'
+event(fields): Crawl_AddStartPage(UInt32 CrawlNo, UnicodeString StartPageName, UInt32
+  StartPageRefID)
+opcode: ''
+keywords: Indexing Gatherer
+task: Crawl_AddStartPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CrawlNo
+- field_type: UnicodeString
+  field_name: StartPageName
+- field_type: UInt32
+  field_name: StartPageRefID

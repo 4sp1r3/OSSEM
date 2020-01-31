@@ -1,0 +1,17 @@
+provider: Microsoft-IE
+event_id: '88'
+version: '0'
+event(fields): Mshtml_HtmPost_ExecStart(Pointer PtrIn, UInt32 dwTimeout, UInt64 Object)
+opcode: Start
+keywords: primarynav mshtml pageloadbreakdown
+task: Mshtml_HtmPost_Exec
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PtrIn
+- field_type: UInt32
+  field_name: dwTimeout
+- field_type: UInt64
+  field_name: Object

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '3014'
+version: '0'
+event(fields): ComCtl32_Wizard_UserDismissStop()
+opcode: Stop
+keywords: Shell
+task: ComCtl32_Wizard_UserDismiss
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

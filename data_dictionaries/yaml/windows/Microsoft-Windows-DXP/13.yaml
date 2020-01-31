@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXP
+event_id: '13'
+version: '0'
+event(fields): LauncherStart(UnicodeString DeviceID)
+opcode: Start
+keywords: ''
+task: Launcher
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceID

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DotNETRuntimeRundown
+event_id: '156'
+version: '0'
+event(fields): LoaderAssemblyDCStop(UInt64 AssemblyID, UInt64 AppDomainID, UInt32
+  AssemblyFlags, UnicodeString FullyQualifiedAssemblyName)
+opcode: AssemblyDCStop
+keywords: LoaderRundownKeyword
+task: Loader
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: AssemblyID
+- field_type: UInt64
+  field_name: AppDomainID
+- field_type: UInt32
+  field_name: AssemblyFlags
+- field_type: UnicodeString
+  field_name: FullyQualifiedAssemblyName

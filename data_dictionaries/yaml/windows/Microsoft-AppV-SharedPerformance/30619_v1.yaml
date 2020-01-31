@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30619'
+version: '1'
+event(fields): UnpublishPackage_4109Start_V1()
+opcode: Start
+keywords: ''
+task: UnpublishPackage_4109
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

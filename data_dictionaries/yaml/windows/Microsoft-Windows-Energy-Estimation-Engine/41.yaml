@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '41'
+version: '0'
+event(fields): RpcSetProcessTag(UInt32 ProcessId, UInt64 CreateTime, UnicodeString
+  Tag, UInt64 DiskEnergy, UInt64 NetworkTailEnergy, UInt64 MBBTailEnergy, UInt64 NetworkTxRxBytes,
+  UInt64 MBBTxRxBytes, UInt32 BucketCount, Float BucketedCycles, UInt32 ErrorCode)
+opcode: ''
+keywords: ProcessTag
+task: RpcSetProcessTag
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt64
+  field_name: CreateTime
+- field_type: UnicodeString
+  field_name: Tag
+- field_type: UInt64
+  field_name: DiskEnergy
+- field_type: UInt64
+  field_name: NetworkTailEnergy
+- field_type: UInt64
+  field_name: MBBTailEnergy
+- field_type: UInt64
+  field_name: NetworkTxRxBytes
+- field_type: UInt64
+  field_name: MBBTxRxBytes
+- field_type: UInt32
+  field_name: BucketCount
+- field_type: Float
+  field_name: BucketedCycles
+- field_type: UInt32
+  field_name: ErrorCode

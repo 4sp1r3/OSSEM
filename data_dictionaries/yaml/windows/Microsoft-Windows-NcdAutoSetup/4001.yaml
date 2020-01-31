@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NcdAutoSetup
+event_id: '4001'
+version: '0'
+event(fields): DeviceQualified(UnicodeString String1, UnicodeString String2)
+opcode: ''
+keywords: ''
+task: DeviceQualified
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String1
+- field_type: UnicodeString
+  field_name: String2

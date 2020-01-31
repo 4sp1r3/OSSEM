@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '109'
+version: '0'
+event(fields): task_0109(UInt32 P1_UInt32, UInt32 P2_UInt32)
+opcode: ''
+keywords: Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: P1_UInt32
+- field_type: UInt32
+  field_name: P2_UInt32

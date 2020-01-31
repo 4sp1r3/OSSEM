@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7250'
+version: '0'
+event(fields): ConnectedSearch_LogAppVisibility(UInt32 Result, UnicodeString ImpressionGUID,
+  UInt32 NewVisibilityState)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogAppVisibility
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ImpressionGUID
+- field_type: UInt32
+  field_name: NewVisibilityState

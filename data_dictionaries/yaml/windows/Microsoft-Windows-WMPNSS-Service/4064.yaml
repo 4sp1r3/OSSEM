@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4064'
+version: '0'
+event(fields): Search_Remote_Address(UnicodeString RemoteMACAddress)
+opcode: ''
+keywords: ''
+task: Search_Remote_Address
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RemoteMACAddress

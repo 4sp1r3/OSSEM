@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '222'
+version: '0'
+event(fields): OrionSession222(UInt32 WinHttpResult, UInt32 OrionResult, Double Latitude,
+  Double Longitude, Double Accuracy)
+opcode: ''
+keywords: Selfhost Orion
+task: OrionSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WinHttpResult
+- field_type: UInt32
+  field_name: OrionResult
+- field_type: Double
+  field_name: Latitude
+- field_type: Double
+  field_name: Longitude
+- field_type: Double
+  field_name: Accuracy

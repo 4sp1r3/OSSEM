@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-WDI
+event_id: '43'
+version: '0'
+event(fields): task_0(UInt32 SqmType, SID SqmSid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SqmType
+- field_type: SID
+  field_name: SqmSid

@@ -1,0 +1,17 @@
+provider: Microsoft-IE
+event_id: '4'
+version: '1'
+event(fields): Mshtml_CMarkup_LayoutStop_V1(Pointer DOC, UInt32 Flags, UInt64 EventContextId)
+opcode: Stop
+keywords: primarynav pageloadbreakdown
+task: Mshtml_CMarkup_Layout
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DOC
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt64
+  field_name: EventContextId

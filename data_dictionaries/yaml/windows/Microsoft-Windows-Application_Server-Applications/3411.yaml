@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3411'
+version: '0'
+event(fields): Connect3411(UnicodeString AppDomain)
+opcode: ''
+keywords: HTTP
+task: Connect
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

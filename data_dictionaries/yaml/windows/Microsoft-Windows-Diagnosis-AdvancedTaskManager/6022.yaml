@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '6022'
+version: '0'
+event(fields): Monitor_ChangeViewStop()
+opcode: Stop
+keywords: ui
+task: Monitor_ChangeView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

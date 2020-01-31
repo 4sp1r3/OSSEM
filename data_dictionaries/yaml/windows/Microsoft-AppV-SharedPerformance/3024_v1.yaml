@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3024'
+version: '1'
+event(fields): PublishPackageGetOldPackageDataStop_V1()
+opcode: Stop
+keywords: ''
+task: PublishPackageGetOldPackageData
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-JScript
+event_id: '167'
+version: '0'
+event(fields): Jscript_Host_Native167(Pointer ModuleID, HexInt32 SerializationIndex,
+  UnicodeString Name, HexInt32 FunctionOffset, HexInt32 FunctionSize)
+opcode: ''
+keywords: JscriptJit
+task: Jscript_Host_Native
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ModuleID
+- field_type: HexInt32
+  field_name: SerializationIndex
+- field_type: UnicodeString
+  field_name: Name
+- field_type: HexInt32
+  field_name: FunctionOffset
+- field_type: HexInt32
+  field_name: FunctionSize

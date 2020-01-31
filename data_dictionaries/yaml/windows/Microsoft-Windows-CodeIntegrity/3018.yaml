@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3018'
+version: '0'
+event(fields): ValidatePageHashStop(UInt32 Status)
+opcode: Stop
+keywords: ''
+task: ValidatePageHash
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

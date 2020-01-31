@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '550'
+version: '0'
+event(fields): Mshtml_Composition_IR_Disabled(UInt64 ContentTypes)
+opcode: ''
+keywords: subsystem composition
+task: Mshtml_Composition_IR_Disabled
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ContentTypes

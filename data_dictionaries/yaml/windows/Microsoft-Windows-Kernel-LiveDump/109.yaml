@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-LiveDump
+event_id: '109'
+version: '0'
+event(fields): SizingWorkflowRemovePagesCallbacks109()
+opcode: RemovePagesCallbacks
+keywords: ''
+task: SizingWorkflow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

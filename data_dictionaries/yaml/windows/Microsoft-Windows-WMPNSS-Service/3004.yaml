@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '3004'
+version: '0'
+event(fields): Generate_Trans_Res_ElementStop(UInt32 ElementCount, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Generate_Trans_Res_Element
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ElementCount
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '3002'
+version: '0'
+event(fields): MediaRenderer(Pointer Object, UInt32 Value)
+opcode: ''
+keywords: ''
+task: MediaRenderer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: Value

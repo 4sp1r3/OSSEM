@@ -1,0 +1,11 @@
+provider: Intel-iaLPSS-GPIO
+event_id: '1030'
+version: '1'
+event(fields): task_0_V1()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

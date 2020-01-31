@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25072'
+version: '0'
+event(fields): LogonUI_SubmitCredentialToExitStart()
+opcode: Start
+keywords: keyword_200000000000
+task: LogonUI_SubmitCredentialToExit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

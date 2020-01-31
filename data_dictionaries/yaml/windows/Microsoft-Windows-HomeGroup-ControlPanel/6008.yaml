@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HomeGroup-ControlPanel
+event_id: '6008'
+version: '0'
+event(fields): Initialization_AdvancedPageStop()
+opcode: Stop
+keywords: ''
+task: Initialization_AdvancedPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

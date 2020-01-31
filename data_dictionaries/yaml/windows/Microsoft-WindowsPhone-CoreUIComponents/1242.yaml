@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1242'
+version: '0'
+event(fields): ForegroundTaskManagerShutdownStart()
+opcode: Start
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerShutdown
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '709'
+version: '0'
+event(fields): ServiceControlAgentService709()
+opcode: AgentService
+keywords: ''
+task: ServiceControl
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

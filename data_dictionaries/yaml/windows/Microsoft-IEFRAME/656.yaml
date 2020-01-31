@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '656'
+version: '0'
+event(fields): Device_Info_UtilStart(UnicodeString String)
+opcode: Start
+keywords: primarynav
+task: Device_Info_Util
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String

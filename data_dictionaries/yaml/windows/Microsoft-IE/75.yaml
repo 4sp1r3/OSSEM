@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '75'
+version: '0'
+event(fields): Mshtml_CImgTaskExecStart(Pointer CImgTaskPtr, UInt32 Flags)
+opcode: Start
+keywords: primarynav
+task: Mshtml_CImgTaskExec
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CImgTaskPtr
+- field_type: UInt32
+  field_name: Flags

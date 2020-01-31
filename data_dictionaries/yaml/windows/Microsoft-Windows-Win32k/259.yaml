@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Win32k
+event_id: '259'
+version: '0'
+event(fields): FocusedProcessChangeLost(UInt32 SessionId, UInt32 OldProcessId, FILETIME
+  OldProcessCreateTime)
+opcode: ''
+keywords: UserActivity
+task: FocusedProcessChangeLost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: OldProcessId
+- field_type: FILETIME
+  field_name: OldProcessCreateTime

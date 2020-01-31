@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1302'
+version: '0'
+event(fields): SensorServiceSdoRemoveTask(UnicodeString Interface)
+opcode: ''
+keywords: ''
+task: SensorServiceSdoRemoveTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Interface

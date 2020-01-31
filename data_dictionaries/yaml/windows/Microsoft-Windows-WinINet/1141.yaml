@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1141'
+version: '0'
+event(fields): Wininet_CacheClientCountersStart(Pointer Object, Pointer Handle)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_CacheClientCounters
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: Handle

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '3006'
+version: '0'
+event(fields): task_03006(UInt32 Prop_Handle, Int32 Prop_INT)
+opcode: ''
+keywords: Unified_Store Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_Handle
+- field_type: Int32
+  field_name: Prop_INT

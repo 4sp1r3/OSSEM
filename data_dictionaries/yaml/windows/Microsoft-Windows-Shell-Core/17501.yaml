@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17501'
+version: '0'
+event(fields): ResolveUserNames_ResolveSidsStart()
+opcode: Start
+keywords: Properties
+task: ResolveUserNames_ResolveSids
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

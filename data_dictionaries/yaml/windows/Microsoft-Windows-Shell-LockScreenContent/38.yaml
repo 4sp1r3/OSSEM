@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-LockScreenContent
+event_id: '38'
+version: '0'
+event(fields): LockScreenContent_ScheduleAnimation_TransitionStop(UInt32 EnterLayout,
+  UInt32 ExitLayout, UInt32 Cookie)
+opcode: Stop
+keywords: LockScreenContent
+task: LockScreenContent_ScheduleAnimation_Transition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EnterLayout
+- field_type: UInt32
+  field_name: ExitLayout
+- field_type: UInt32
+  field_name: Cookie

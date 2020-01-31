@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-CertPolEng
+event_id: '32'
+version: '0'
+event(fields): task_032(UInt32 LastError, UInt32 ChainIndex, UInt32 lElementIndex)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LastError
+- field_type: UInt32
+  field_name: ChainIndex
+- field_type: UInt32
+  field_name: lElementIndex

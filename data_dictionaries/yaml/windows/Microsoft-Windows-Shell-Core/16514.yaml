@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16514'
+version: '0'
+event(fields): PropertyStoreOverPropertySetStorage_CommitStop()
+opcode: Stop
+keywords: Shell
+task: PropertyStoreOverPropertySetStorage_Commit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

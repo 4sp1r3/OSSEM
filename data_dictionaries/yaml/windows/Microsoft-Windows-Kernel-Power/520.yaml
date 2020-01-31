@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '520'
+version: '0'
+event(fields): BrightnessEngineSwap()
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight keyword_400000000000
+task: BrightnessEngineSwap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

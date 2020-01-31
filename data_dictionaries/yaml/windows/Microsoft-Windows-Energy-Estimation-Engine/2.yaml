@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '2'
+version: '0'
+event(fields): InitializeProviderStop()
+opcode: Stop
+keywords: CodePath
+task: InitializeProvider
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

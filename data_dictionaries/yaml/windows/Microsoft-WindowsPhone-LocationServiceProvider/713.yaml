@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '713'
+version: '0'
+event(fields): GeofenceTracking713(UInt32 AppId, UInt32 GeofenceId, UInt32 TrackedGeofencesCount,
+  UInt32 InternalTrackedGeofencesCount)
+opcode: ''
+keywords: Selfhost GeofenceTracking
+task: GeofenceTracking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AppId
+- field_type: UInt32
+  field_name: GeofenceId
+- field_type: UInt32
+  field_name: TrackedGeofencesCount
+- field_type: UInt32
+  field_name: InternalTrackedGeofencesCount

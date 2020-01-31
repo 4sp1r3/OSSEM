@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '7'
+version: '1'
+event(fields): ClassCompletionofrequest._V1(UInt32 DeviceNumber, Pointer Irp, UInt64
+  TransferredLength, HexInt32 Flags, HexInt32 NTStatus)
+opcode: Completionofrequest.
+keywords: CopyOffload_Read CopyOffload_Write Read Write
+task: Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt64
+  field_name: TransferredLength
+- field_type: HexInt32
+  field_name: Flags
+- field_type: HexInt32
+  field_name: NTStatus

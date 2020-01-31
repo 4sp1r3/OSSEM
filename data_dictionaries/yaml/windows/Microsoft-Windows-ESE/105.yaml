@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-ESE
+event_id: '105'
+version: '0'
+event(fields): ESE_CachePrereadPage_Trace(UInt32 ifmp, UInt32 pgno, UInt32 UserId,
+  UInt8 OperationId, UInt8 OperationType, UInt8 ClientType, UInt8 Flags, UInt32 CorrelationId,
+  UInt8 Iorp, UInt8 Iors, UInt8 Iort, UInt8 Ioru, UInt8 Iorf, UInt8 ParentObjectClass)
+opcode: ''
+keywords: Performance BF
+task: ESE_CachePrereadPage_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ifmp
+- field_type: UInt32
+  field_name: pgno
+- field_type: UInt32
+  field_name: UserId
+- field_type: UInt8
+  field_name: OperationId
+- field_type: UInt8
+  field_name: OperationType
+- field_type: UInt8
+  field_name: ClientType
+- field_type: UInt8
+  field_name: Flags
+- field_type: UInt32
+  field_name: CorrelationId
+- field_type: UInt8
+  field_name: Iorp
+- field_type: UInt8
+  field_name: Iors
+- field_type: UInt8
+  field_name: Iort
+- field_type: UInt8
+  field_name: Ioru
+- field_type: UInt8
+  field_name: Iorf
+- field_type: UInt8
+  field_name: ParentObjectClass

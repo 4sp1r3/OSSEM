@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDC
+event_id: '37'
+version: '0'
+event(fields): CsEnableInput()
+opcode: ''
+keywords: Cs
+task: CsEnableInput
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

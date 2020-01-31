@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerCfg
+event_id: '101'
+version: '0'
+event(fields): PowerCpl_LoadAdvancedUIStart()
+opcode: Start
+keywords: PowerCpl
+task: PowerCpl_LoadAdvancedUI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

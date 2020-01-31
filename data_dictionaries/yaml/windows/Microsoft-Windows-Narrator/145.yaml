@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '145'
+version: '0'
+event(fields): ShutdownFocusMonitorStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: ShutdownFocusMonitor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '82'
+version: '0'
+event(fields): PlatformAccountingBucketIntervalsRundown(UInt32 IntervalLimitsCount,
+  Binary IntervalLimits)
+opcode: ''
+keywords: SleepStudy
+task: PlatformAccountingBucketIntervalsRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IntervalLimitsCount
+- field_type: Binary
+  field_name: IntervalLimits

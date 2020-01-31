@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4017'
+version: '0'
+event(fields): Stop_AppvPackageStop(GUID Guid)
+opcode: Stop
+keywords: ''
+task: Stop_AppvPackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Guid

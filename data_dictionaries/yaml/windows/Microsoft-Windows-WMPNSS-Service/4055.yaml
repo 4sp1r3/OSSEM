@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4055'
+version: '0'
+event(fields): CPR_Get_AttribStop(UInt32 Index, UInt32 WMPAtom, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: CPR_Get_Attrib
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: WMPAtom
+- field_type: UInt32
+  field_name: ErrorCode

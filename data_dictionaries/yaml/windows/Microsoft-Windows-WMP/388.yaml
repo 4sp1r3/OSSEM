@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '388'
+version: '0'
+event(fields): RME_CreateDeviceFinderStop(Pointer RMEDeviceFinder, UInt32 HRESULT)
+opcode: Stop
+keywords: mediaplayer
+task: RME_CreateDeviceFinder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RMEDeviceFinder
+- field_type: UInt32
+  field_name: HRESULT

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3024'
+version: '0'
+event(fields): SaveCatalogCacheUpdateCatalogCacheFailed(HexInt32 Status)
+opcode: UpdateCatalogCacheFailed
+keywords: ''
+task: SaveCatalogCache
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

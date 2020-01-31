@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '67'
+version: '0'
+event(fields): DwmpNotifyUserLogonStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: DwmpNotifyUserLogon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

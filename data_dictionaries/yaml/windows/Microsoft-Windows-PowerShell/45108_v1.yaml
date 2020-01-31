@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45108'
+version: '1'
+event(fields): WorkflowExecutionTobeusedwhenoperationisjustexecutingamethod45108_V1(GUID
+  parentJobId, GUID childJobId, GUID workflowId, UnicodeString error)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: PSWorkflow
+task: WorkflowExecution
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: parentJobId
+- field_type: GUID
+  field_name: childJobId
+- field_type: GUID
+  field_name: workflowId
+- field_type: UnicodeString
+  field_name: error

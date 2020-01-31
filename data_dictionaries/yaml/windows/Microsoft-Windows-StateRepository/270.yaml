@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '270'
+version: '0'
+event(fields): StateRepository.Task.WinRTAPI270(HexInt32 ErrorCode, HexInt32 Options)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD keyword_400000000000
+task: StateRepository.Task.WinRTAPI
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: HexInt32
+  field_name: Options

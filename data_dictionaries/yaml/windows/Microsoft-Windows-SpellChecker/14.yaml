@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SpellChecker
+event_id: '14'
+version: '0'
+event(fields): GetSuggestionsStop14()
+opcode: Stop
+keywords: ''
+task: GetSuggestions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

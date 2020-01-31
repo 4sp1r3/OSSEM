@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ESE
+event_id: '161'
+version: '0'
+event(fields): ESE_DiskOsDiskCacheInfo_Trace(UInt8 tsidr, Binary posdci)
+opcode: ''
+keywords: StationId
+task: ESE_DiskOsDiskCacheInfo_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: tsidr
+- field_type: Binary
+  field_name: posdci

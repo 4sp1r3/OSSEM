@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '642'
+version: '0'
+event(fields): BrowseUI_CStorage(UInt32 SharedMemoryHandle, HexInt32 FailureReason)
+opcode: ''
+keywords: mshtml
+task: BrowseUI_CStorage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SharedMemoryHandle
+- field_type: HexInt32
+  field_name: FailureReason

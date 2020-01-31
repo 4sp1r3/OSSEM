@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1025'
+version: '0'
+event(fields): SensorsCxGetDatafieldPropertiesTask(Pointer WdfDevice, Pointer SENSOROBJECT,
+  Pointer pDatafield, Pointer pProperties, Pointer pSize, UInt32 NtStatus)
+opcode: ''
+keywords: ''
+task: SensorsCxGetDatafieldPropertiesTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: Pointer
+  field_name: SENSOROBJECT
+- field_type: Pointer
+  field_name: pDatafield
+- field_type: Pointer
+  field_name: pProperties
+- field_type: Pointer
+  field_name: pSize
+- field_type: UInt32
+  field_name: NtStatus

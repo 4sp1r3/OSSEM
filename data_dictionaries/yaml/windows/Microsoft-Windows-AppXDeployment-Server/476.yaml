@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '476'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment476(UInt32 RequestCount, UInt32
+  QueueLength, UInt32 LazyFlushQueueLength, UInt32 IdleTaskInProgress)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestCount
+- field_type: UInt32
+  field_name: QueueLength
+- field_type: UInt32
+  field_name: LazyFlushQueueLength
+- field_type: UInt32
+  field_name: IdleTaskInProgress

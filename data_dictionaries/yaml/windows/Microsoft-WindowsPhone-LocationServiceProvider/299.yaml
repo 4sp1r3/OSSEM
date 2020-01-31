@@ -1,0 +1,26 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '299'
+version: '0'
+event(fields): CompositePE299(UInt32 PeCount, UInt32 Pe1, UInt32 Pe2, UInt32 Pe3,
+  UInt32 Pe4, UInt32 Pe5, UInt32 Pe6)
+opcode: ''
+keywords: Selfhost CompositePe
+task: CompositePE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PeCount
+- field_type: UInt32
+  field_name: Pe1
+- field_type: UInt32
+  field_name: Pe2
+- field_type: UInt32
+  field_name: Pe3
+- field_type: UInt32
+  field_name: Pe4
+- field_type: UInt32
+  field_name: Pe5
+- field_type: UInt32
+  field_name: Pe6

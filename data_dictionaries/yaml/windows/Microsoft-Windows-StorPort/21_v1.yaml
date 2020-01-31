@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-StorPort
+event_id: '21'
+version: '1'
+event(fields): None21_V1(HexInt32 HwInitializationDataSize, UInt32 AdapterInterfaceType,
+  HexInt32 DeviceExtensionSize, HexInt32 SpecificLuExtensionSize, HexInt32 SrbExtensionSize,
+  HexInt32 FeatureSupport, HexInt32 SrbTypeFlags, HexInt32 AddressTypeFlags, HexInt64
+  HwFreeAdapterResources, HexInt64 HwProcessServiceRequest, HexInt64 HwCompleteServiceIrp,
+  HexInt64 HwInitializeTracing, HexInt64 HwCleanupTracing)
+opcode: ''
+keywords: Config
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HwInitializationDataSize
+- field_type: UInt32
+  field_name: AdapterInterfaceType
+- field_type: HexInt32
+  field_name: DeviceExtensionSize
+- field_type: HexInt32
+  field_name: SpecificLuExtensionSize
+- field_type: HexInt32
+  field_name: SrbExtensionSize
+- field_type: HexInt32
+  field_name: FeatureSupport
+- field_type: HexInt32
+  field_name: SrbTypeFlags
+- field_type: HexInt32
+  field_name: AddressTypeFlags
+- field_type: HexInt64
+  field_name: HwFreeAdapterResources
+- field_type: HexInt64
+  field_name: HwProcessServiceRequest
+- field_type: HexInt64
+  field_name: HwCompleteServiceIrp
+- field_type: HexInt64
+  field_name: HwInitializeTracing
+- field_type: HexInt64
+  field_name: HwCleanupTracing

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27034'
+version: '1'
+event(fields): HandleVirtualEnvironmentCreatedActivityStart_V1()
+opcode: Start
+keywords: ''
+task: HandleVirtualEnvironmentCreatedActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

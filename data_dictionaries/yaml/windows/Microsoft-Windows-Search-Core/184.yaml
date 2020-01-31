@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '184'
+version: '0'
+event(fields): CEnumSearchRoots_CloneStart()
+opcode: Start
+keywords: CSM
+task: CEnumSearchRoots_Clone
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

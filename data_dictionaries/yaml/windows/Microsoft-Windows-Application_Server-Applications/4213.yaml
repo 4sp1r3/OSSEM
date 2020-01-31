@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4213'
+version: '0'
+event(fields): LockWorkflowInstance4213(UnicodeString SerializedException, UnicodeString
+  AppDomain)
+opcode: ''
+keywords: WFInstanceStore
+task: LockWorkflowInstance
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SerializedException
+- field_type: UnicodeString
+  field_name: AppDomain

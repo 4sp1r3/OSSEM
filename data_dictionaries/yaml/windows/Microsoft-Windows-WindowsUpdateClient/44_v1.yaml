@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '44'
+version: '1'
+event(fields): WindowsUpdateAgentDownload44_V1(UnicodeString updateTitle, GUID updateGuid,
+  UInt32 updateRevisionNumber)
+opcode: Download
+keywords: download started
+task: WindowsUpdateAgent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: updateTitle
+- field_type: GUID
+  field_name: updateGuid
+- field_type: UInt32
+  field_name: updateRevisionNumber

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1404'
+version: '0'
+event(fields): RdClientPipelineworkspaceThiseventisraisedifapipelineerrorisencounteredduringexecution.Welogthefaultingcomponent,function,anderrorcode.(UnicodeString
+  Component, UInt32 Function, UInt32 ErrorCode)
+opcode: Thiseventisraisedifapipelineerrorisencounteredduringexecution.Welogthefaultingcomponent,function,anderrorcode.
+keywords: ''
+task: RdClientPipelineworkspace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Component
+- field_type: UInt32
+  field_name: Function
+- field_type: UInt32
+  field_name: ErrorCode

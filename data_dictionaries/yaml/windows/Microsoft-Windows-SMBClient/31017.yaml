@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '31017'
+version: '0'
+event(fields): task_031017(UInt16 UserNameLength, UnicodeString UserName, UInt16 ServerNameLength,
+  UnicodeString ServerName)
+opcode: ''
+keywords: Smb_Authentication
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: UserNameLength
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName

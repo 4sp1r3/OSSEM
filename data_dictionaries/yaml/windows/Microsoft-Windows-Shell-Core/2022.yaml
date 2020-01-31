@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2022'
+version: '0'
+event(fields): Browseui_FrameMessagePump_KeyDown(UInt32 Message)
+opcode: ''
+keywords: Shell ExplorerPerf
+task: Browseui_FrameMessagePump_KeyDown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Message

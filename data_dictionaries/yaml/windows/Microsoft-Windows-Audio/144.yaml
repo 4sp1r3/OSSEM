@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Audio
+event_id: '144'
+version: '0'
+event(fields): AECPUUsage(Pointer objInstance, UInt32 ucType)
+opcode: ''
+keywords: ''
+task: AECPUUsage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objInstance
+- field_type: UInt32
+  field_name: ucType

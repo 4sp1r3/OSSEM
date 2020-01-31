@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '21'
+version: '0'
+event(fields): OptimizationFlagsStart(UInt32 dwType, UInt32 dwConfig)
+opcode: Start
+keywords: ''
+task: OptimizationFlags
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwType
+- field_type: UInt32
+  field_name: dwConfig

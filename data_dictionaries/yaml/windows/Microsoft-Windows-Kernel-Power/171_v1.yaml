@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '171'
+version: '1'
+event(fields): CsDeepSleepWatchdog_V1(UInt32 ResiliencyPhaseNonActivatedNoDeepSleepMs,
+  UInt32 NonActivatedCpuTimeMs, UInt32 DurationThisPeriodMs, Boolean OnAc, UInt32
+  ActionsTaken, Boolean PowerSettingPending)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: CsDeepSleepWatchdog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ResiliencyPhaseNonActivatedNoDeepSleepMs
+- field_type: UInt32
+  field_name: NonActivatedCpuTimeMs
+- field_type: UInt32
+  field_name: DurationThisPeriodMs
+- field_type: Boolean
+  field_name: OnAc
+- field_type: UInt32
+  field_name: ActionsTaken
+- field_type: Boolean
+  field_name: PowerSettingPending

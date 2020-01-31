@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '532'
+version: '0'
+event(fields): PowerAggregatorCompletionEvent(UInt32 SessionId, UInt32 Result)
+opcode: ''
+keywords: po:Diagnostic
+task: PowerAggregatorCompletionEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: Result

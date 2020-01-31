@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-VIRTDISK
+event_id: '1'
+version: '0'
+event(fields): Openvirtualdisk.Start(UnicodeString VhdFileName, UInt32 VhdVirtualStorageType)
+opcode: Start
+keywords: ''
+task: Openvirtualdisk.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VhdFileName
+- field_type: UInt32
+  field_name: VhdVirtualStorageType

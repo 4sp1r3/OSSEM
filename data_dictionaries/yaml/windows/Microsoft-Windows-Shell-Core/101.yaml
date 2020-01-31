@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '101'
+version: '0'
+event(fields): AutoplayCPL_PopulateUIStart(UnicodeString DeviceHandler)
+opcode: Start
+keywords: Shell
+task: AutoplayCPL_PopulateUI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceHandler

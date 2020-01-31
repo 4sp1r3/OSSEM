@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '62'
+version: '0'
+event(fields): MFMFAudio_Render_StreamSinkAudStreamSink_ProcessSample_PrerollDone(Pointer
+  object, UInt32 scenario, Boolean fSignalPrerolled, UInt32 m_cSamplesPrerolled, Int64
+  m_hnsPrerollDuration, UInt32 m_u32CurrentPrerolledBytes)
+opcode: AudStreamSink_ProcessSample_PrerollDone
+keywords: ''
+task: MFMFAudio_Render_StreamSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: scenario
+- field_type: Boolean
+  field_name: fSignalPrerolled
+- field_type: UInt32
+  field_name: m_cSamplesPrerolled
+- field_type: Int64
+  field_name: m_hnsPrerollDuration
+- field_type: UInt32
+  field_name: m_u32CurrentPrerolledBytes

@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6051'
+version: '0'
+event(fields): GetConfigurationStop6051(UnicodeString str)
+opcode: Stop
+keywords: ''
+task: GetConfiguration
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str

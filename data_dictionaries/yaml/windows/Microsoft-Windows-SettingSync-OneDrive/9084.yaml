@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9084'
+version: '0'
+event(fields): Perf_DeleteAllAppBackupsStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_DeleteAllAppBackups
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

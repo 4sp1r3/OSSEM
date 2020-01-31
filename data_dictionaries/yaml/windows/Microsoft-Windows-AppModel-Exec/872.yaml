@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '872'
+version: '0'
+event(fields): task_0872(UInt64 user, UnicodeString ApplicationId, UInt32 AppState)
+opcode: ''
+keywords: PLM ExecProductionCircular ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: user
+- field_type: UnicodeString
+  field_name: ApplicationId
+- field_type: UInt32
+  field_name: AppState

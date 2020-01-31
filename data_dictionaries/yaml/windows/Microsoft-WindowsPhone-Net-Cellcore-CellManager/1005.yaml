@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1005'
+version: '0'
+event(fields): CellRPCHandler1005(UInt32 hexCode1)
+opcode: ''
+keywords: Error
+task: CellRPCHandler
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hexCode1

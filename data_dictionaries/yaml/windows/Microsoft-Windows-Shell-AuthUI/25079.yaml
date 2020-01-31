@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25079'
+version: '0'
+event(fields): Logon_Background_GetBackgroundForUser(UInt32 DWORD1)
+opcode: ''
+keywords: ''
+task: Logon_Background_GetBackgroundForUser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DWORD1

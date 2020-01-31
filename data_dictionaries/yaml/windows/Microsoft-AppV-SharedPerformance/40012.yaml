@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40012'
+version: '0'
+event(fields): VReg.RenameKeyStart()
+opcode: Start
+keywords: ''
+task: VReg.RenameKey
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

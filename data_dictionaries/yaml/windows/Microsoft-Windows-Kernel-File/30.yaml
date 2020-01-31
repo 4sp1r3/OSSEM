@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Kernel-File
+event_id: '30'
+version: '0'
+event(fields): CreateNewFile(Pointer Irp, Pointer ThreadId, Pointer FileObject, UInt32
+  CreateOptions, UInt32 CreateAttributes, UInt32 ShareAccess, UnicodeString FileName)
+opcode: ''
+keywords: KERNEL_FILE_KEYWORD_CREATE_NEW_FILE
+task: CreateNewFile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: ThreadId
+- field_type: Pointer
+  field_name: FileObject
+- field_type: UInt32
+  field_name: CreateOptions
+- field_type: UInt32
+  field_name: CreateAttributes
+- field_type: UInt32
+  field_name: ShareAccess
+- field_type: UnicodeString
+  field_name: FileName

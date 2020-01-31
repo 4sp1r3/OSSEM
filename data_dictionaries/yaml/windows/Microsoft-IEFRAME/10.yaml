@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '10'
+version: '0'
+event(fields): Shdocvw_BaseBrowser_NavigateStart(UInt32 TabID, UInt32 TabState)
+opcode: Start
+keywords: primarynav pageloadbreakdown
+task: Shdocvw_BaseBrowser_Navigate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID
+- field_type: UInt32
+  field_name: TabState

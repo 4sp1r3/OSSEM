@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-International-RegionalOptionsControlPanel
+event_id: '16003'
+version: '0'
+event(fields): RegionandLanguagecontrolpanelRLOUIoperations16003()
+opcode: RLOUIoperations
+keywords: ''
+task: RegionandLanguagecontrolpanel
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

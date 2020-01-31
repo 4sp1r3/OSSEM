@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '22'
+version: '0'
+event(fields): BackgroundTaskInstanceDCStop(GUID WorkItemId, UInt64 ApplicationId,
+  UInt32 SessionId, UInt32 PsmActivationType, UInt16 CpuThrottleCount, UInt16 NetThrottleCount,
+  UnicodeString PackageFullName)
+opcode: DC_Stop
+keywords: BackgroundTask
+task: BackgroundTaskInstance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: WorkItemId
+- field_type: UInt64
+  field_name: ApplicationId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: PsmActivationType
+- field_type: UInt16
+  field_name: CpuThrottleCount
+- field_type: UInt16
+  field_name: NetThrottleCount
+- field_type: UnicodeString
+  field_name: PackageFullName

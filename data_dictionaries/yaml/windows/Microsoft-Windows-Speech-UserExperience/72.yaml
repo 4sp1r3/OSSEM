@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '72'
+version: '0'
+event(fields): WMP_PlayMusicStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: WMP_PlayMusic
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

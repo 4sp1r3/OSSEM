@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Backup
+event_id: '99'
+version: '1'
+event(fields): task_099_V1(UnicodeString UserName, GUID TemplateGuid, UnicodeString
+  ScheduleTimesList)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: GUID
+  field_name: TemplateGuid
+- field_type: UnicodeString
+  field_name: ScheduleTimesList

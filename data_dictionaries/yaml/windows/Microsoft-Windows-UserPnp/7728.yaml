@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7728'
+version: '0'
+event(fields): PnP_SetupAPI_FolderDriverSearchStart()
+opcode: Start
+keywords: UserPnp
+task: PnP_SetupAPI_FolderDriverSearch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

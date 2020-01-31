@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PDC
+event_id: '7'
+version: '0'
+event(fields): ActivatorMessage(Pointer Message, UInt32 StatusActive, UInt32 ActivityType)
+opcode: ''
+keywords: activators
+task: ActivatorMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Message
+- field_type: UInt32
+  field_name: StatusActive
+- field_type: UInt32
+  field_name: ActivityType

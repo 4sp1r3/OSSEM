@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60908'
+version: '0'
+event(fields): ShellTask_ExecAssoc_ZoneCheckFileStop60908(UnicodeString psz)
+opcode: Stop
+keywords: Shell
+task: ShellTask_ExecAssoc_ZoneCheckFile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '224'
+version: '0'
+event(fields): PresentControllerSetLatency(UInt64 ControllerId, UInt32 LatencyInVBlanks)
+opcode: ''
+keywords: Rendering
+task: PresentControllerSetLatency
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ControllerId
+- field_type: UInt32
+  field_name: LatencyInVBlanks

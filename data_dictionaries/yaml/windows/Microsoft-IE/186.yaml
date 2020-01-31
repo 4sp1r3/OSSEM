@@ -1,0 +1,40 @@
+provider: Microsoft-IE
+event_id: '186'
+version: '0'
+event(fields): Mshtml_Image_Draw(Pointer ImgCacheEntry, Float DestLeft, Float DestTop,
+  Float DestRight, Float DestBottom, Float ScaledSizeWidth, Float ScaledSizeHeight,
+  Float TranslateX, Float TranslateY, Float Opacity, UInt32 Tiled, UInt32 UnscaledSizeWidth,
+  UInt32 UnscaledSizeHeight)
+opcode: ''
+keywords: subsystem pageloadbreakdown
+task: Mshtml_Image_Draw
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ImgCacheEntry
+- field_type: Float
+  field_name: DestLeft
+- field_type: Float
+  field_name: DestTop
+- field_type: Float
+  field_name: DestRight
+- field_type: Float
+  field_name: DestBottom
+- field_type: Float
+  field_name: ScaledSizeWidth
+- field_type: Float
+  field_name: ScaledSizeHeight
+- field_type: Float
+  field_name: TranslateX
+- field_type: Float
+  field_name: TranslateY
+- field_type: Float
+  field_name: Opacity
+- field_type: UInt32
+  field_name: Tiled
+- field_type: UInt32
+  field_name: UnscaledSizeWidth
+- field_type: UInt32
+  field_name: UnscaledSizeHeight

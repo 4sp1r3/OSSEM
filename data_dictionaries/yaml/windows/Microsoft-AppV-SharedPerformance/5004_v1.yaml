@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '5004'
+version: '1'
+event(fields): ControllerStartupStop_V1()
+opcode: Stop
+keywords: ''
+task: ControllerStartup
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

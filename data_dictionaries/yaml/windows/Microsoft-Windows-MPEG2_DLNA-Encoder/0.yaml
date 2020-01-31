@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-MPEG2_DLNA-Encoder
+event_id: '0'
+version: '0'
+event(fields): MPEG_2Encode/MuxforDLNAStart(UnicodeString Region, UInt32 VideoX, UInt32
+  VideoY, UInt32 AudioChannels, UInt32 VideoBitRate, UInt32 AudioBitRate, Int64 SeekOffsetMs)
+opcode: Start
+keywords: ''
+task: MPEG_2Encode/MuxforDLNA
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Region
+- field_type: UInt32
+  field_name: VideoX
+- field_type: UInt32
+  field_name: VideoY
+- field_type: UInt32
+  field_name: AudioChannels
+- field_type: UInt32
+  field_name: VideoBitRate
+- field_type: UInt32
+  field_name: AudioBitRate
+- field_type: Int64
+  field_name: SeekOffsetMs

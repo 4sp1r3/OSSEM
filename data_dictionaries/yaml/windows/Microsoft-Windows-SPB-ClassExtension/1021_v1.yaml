@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-SPB-ClassExtension
+event_id: '1021'
+version: '1'
+event(fields): I/OoperationflowthroughSPBCxIoSpbPayloadStart_V1(UInt64 IoTotalByteCount,
+  UInt32 TransferCount)
+opcode: IoSpbPayloadStart
+keywords: ''
+task: I/OoperationflowthroughSPBCx
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: IoTotalByteCount
+- field_type: UInt32
+  field_name: TransferCount

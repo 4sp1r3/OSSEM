@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '22'
+version: '0'
+event(fields): FolderViewStyleSwitchToLargeIconsStart()
+opcode: Start
+keywords: ''
+task: FolderViewStyleSwitchToLargeIcons
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

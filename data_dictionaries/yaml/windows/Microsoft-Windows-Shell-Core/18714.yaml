@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18714'
+version: '0'
+event(fields): Shell32_StartMenuQueryFactory_Programs_RunStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_StartMenuQueryFactory_Programs_Run
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

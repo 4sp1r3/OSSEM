@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIRibbon
+event_id: '9'
+version: '0'
+event(fields): RibbonResized()
+opcode: ''
+keywords: Default
+task: RibbonResized
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

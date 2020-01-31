@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FailoverClustering-Client
+event_id: '1'
+version: '0'
+event(fields): task_0(UnicodeString Parameter1)
+opcode: ''
+keywords: Cluster
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Parameter1

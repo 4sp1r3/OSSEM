@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3222'
+version: '0'
+event(fields): Dispatcher_CallDispatchCallbackStart(Boolean fBool, UInt64 unParam)
+opcode: Start
+keywords: MessagingPerformance Dispatcher
+task: Dispatcher_CallDispatchCallback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fBool
+- field_type: UInt64
+  field_name: unParam

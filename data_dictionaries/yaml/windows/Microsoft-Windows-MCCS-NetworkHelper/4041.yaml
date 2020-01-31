@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '4041'
+version: '0'
+event(fields): task_04041(Pointer Message)
+opcode: ''
+keywords: Debug
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Message

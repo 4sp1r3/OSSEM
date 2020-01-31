@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30209'
+version: '0'
+event(fields): task_030209(Pointer VcEndpoint, Pointer Socket, Pointer Smb2Fobx, UInt32
+  Status)
+opcode: ''
+keywords: Networking_Perf
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: VcEndpoint
+- field_type: Pointer
+  field_name: Socket
+- field_type: Pointer
+  field_name: Smb2Fobx
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Win32k
+event_id: '20'
+version: '0'
+event(fields): IdleStatusTracing(UInt32 SessionId, UInt32 AccruedIdleTime, UInt32
+  DisplayTimeoutValueMs, UInt32 ScreenSaverTimeoutValueMs, UInt32 DimTimeoutValueMs,
+  UInt32 DimBrightnessValue, UInt32 NormalBrightnessValue)
+opcode: ''
+keywords: win32Power
+task: IdleStatusTracing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: AccruedIdleTime
+- field_type: UInt32
+  field_name: DisplayTimeoutValueMs
+- field_type: UInt32
+  field_name: ScreenSaverTimeoutValueMs
+- field_type: UInt32
+  field_name: DimTimeoutValueMs
+- field_type: UInt32
+  field_name: DimBrightnessValue
+- field_type: UInt32
+  field_name: NormalBrightnessValue

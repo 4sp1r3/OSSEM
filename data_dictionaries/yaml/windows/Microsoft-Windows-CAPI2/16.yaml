@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '16'
+version: '0'
+event(fields): InhibitIssuerCertificateRetrieval(UnicodeString EventWriteData)
+opcode: ''
+keywords: PathDiscovery Cache Retrieval
+task: InhibitIssuerCertificateRetrieval
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventWriteData

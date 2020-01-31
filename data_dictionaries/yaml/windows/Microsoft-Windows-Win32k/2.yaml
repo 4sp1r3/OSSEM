@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '2'
+version: '0'
+event(fields): FocusChange(UInt32 OldThreadId, UInt32 NewThreadId)
+opcode: ''
+keywords: Focus
+task: FocusChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OldThreadId
+- field_type: UInt32
+  field_name: NewThreadId

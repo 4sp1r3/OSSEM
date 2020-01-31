@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Wininit
+event_id: '17'
+version: '0'
+event(fields): task_017(UInt32 Level)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Level

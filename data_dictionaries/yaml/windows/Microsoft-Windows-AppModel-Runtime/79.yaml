@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '79'
+version: '0'
+event(fields): task_079(UnicodeString PackageFamilyName, HexInt32 ErrorCode)
+opcode: ''
+keywords: Process keyword_200000000000
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFamilyName
+- field_type: HexInt32
+  field_name: ErrorCode

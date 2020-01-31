@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1122'
+version: '0'
+event(fields): SensorServicestatechangedeventStop(GUID SENSOR_ID, UInt32 SensorState)
+opcode: Stop
+keywords: SensPerf
+task: SensorServicestatechangedevent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SENSOR_ID
+- field_type: UInt32
+  field_name: SensorState

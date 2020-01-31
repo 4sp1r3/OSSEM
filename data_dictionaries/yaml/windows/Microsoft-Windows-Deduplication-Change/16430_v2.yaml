@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Deduplication-Change
+event_id: '16430'
+version: '2'
+event(fields): task_016430_V2(UInt8 ChunkStoreType, UInt32 ContainerId, UInt32 LogNumber,
+  UInt32 MergeLogOffset, UInt32 StartIndex, UInt32 EntryCount, Int32 Entries)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ChunkStoreType
+- field_type: UInt32
+  field_name: ContainerId
+- field_type: UInt32
+  field_name: LogNumber
+- field_type: UInt32
+  field_name: MergeLogOffset
+- field_type: UInt32
+  field_name: StartIndex
+- field_type: UInt32
+  field_name: EntryCount
+- field_type: Int32
+  field_name: Entries

@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '3002'
+version: '0'
+event(fields): LanguagePackSetupWorkerClassfunctionalityLanguagePackSetupstandardoperation(UnicodeString
+  Language)
+opcode: LanguagePackSetupstandardoperation
+keywords: ''
+task: LanguagePackSetupWorkerClassfunctionality
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language

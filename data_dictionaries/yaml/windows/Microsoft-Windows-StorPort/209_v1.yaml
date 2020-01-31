@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-StorPort
+event_id: '209'
+version: '1'
+event(fields): PortRetryhandling._V1(Pointer Irp, UInt32 CurrentRetryCount)
+opcode: Retryhandling.
+keywords: Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt32
+  field_name: CurrentRetryCount

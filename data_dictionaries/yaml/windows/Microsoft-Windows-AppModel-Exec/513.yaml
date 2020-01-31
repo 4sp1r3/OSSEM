@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '513'
+version: '0'
+event(fields): BackgroundManagerTrace513(UnicodeString String, UInt32 HRESULT)
+opcode: ''
+keywords: BM ExecDevPlatCircular
+task: BackgroundManagerTrace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String
+- field_type: UInt32
+  field_name: HRESULT

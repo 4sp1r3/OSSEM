@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '15519'
+version: '0'
+event(fields): SemanticType_PSGetSemanticTypeByNameStart(UnicodeString CanonicalName)
+opcode: Start
+keywords: Properties
+task: SemanticType_PSGetSemanticTypeByName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CanonicalName

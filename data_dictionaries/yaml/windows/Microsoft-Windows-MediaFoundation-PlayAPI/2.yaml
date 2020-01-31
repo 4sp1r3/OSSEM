@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '2'
+version: '0'
+event(fields): MFPlayObjectconstructed(Pointer Object)
+opcode: Objectconstructed
+keywords: ''
+task: MFPlay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

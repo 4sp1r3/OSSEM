@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '152'
+version: '0'
+event(fields): MediaFoundationPresent_QualityNotify(Pointer object, UInt32 NumGlitches,
+  Int64 SampleTime, Int64 GlitchDuration)
+opcode: ''
+keywords: ''
+task: MediaFoundationPresent_QualityNotify
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: NumGlitches
+- field_type: Int64
+  field_name: SampleTime
+- field_type: Int64
+  field_name: GlitchDuration

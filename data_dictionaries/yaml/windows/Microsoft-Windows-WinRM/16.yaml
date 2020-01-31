@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '16'
+version: '0'
+event(fields): WSManAPIcallStart16()
+opcode: Start
+keywords: Keyword.Client
+task: WSManAPIcall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

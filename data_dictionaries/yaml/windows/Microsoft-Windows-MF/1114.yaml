@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1114'
+version: '0'
+event(fields): MediaFoundationContentEnablerEvent(GUID type, HexInt32 hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationContentEnablerEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: type
+- field_type: HexInt32
+  field_name: hr

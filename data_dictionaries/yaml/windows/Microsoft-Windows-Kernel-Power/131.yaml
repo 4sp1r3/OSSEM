@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '131'
+version: '0'
+event(fields): PowerTransition131(UInt32 ResumeCount, UInt32 FullResume, UInt32 AverageResume)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: PowerTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ResumeCount
+- field_type: UInt32
+  field_name: FullResume
+- field_type: UInt32
+  field_name: AverageResume

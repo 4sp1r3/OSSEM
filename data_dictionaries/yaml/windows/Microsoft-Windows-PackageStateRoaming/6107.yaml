@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-PackageStateRoaming
+event_id: '6107'
+version: '0'
+event(fields): Debug_PackageActivityMonitor_EndQuiescentPeriodStart(UnicodeString
+  PackageFamilyName)
+opcode: Start
+keywords: ''
+task: Debug_PackageActivityMonitor_EndQuiescentPeriod
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFamilyName

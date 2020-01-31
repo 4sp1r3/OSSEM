@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4354'
+version: '0'
+event(fields): ldap_bindStart(UnicodeString Addresses, UnicodeString DcName, UInt32
+  TryNumber, UInt32 TryCount, UInt32 ErrorCode)
+opcode: Start
+keywords: Resolver Intranet
+task: ldap_bind
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Addresses
+- field_type: UnicodeString
+  field_name: DcName
+- field_type: UInt32
+  field_name: TryNumber
+- field_type: UInt32
+  field_name: TryCount
+- field_type: UInt32
+  field_name: ErrorCode

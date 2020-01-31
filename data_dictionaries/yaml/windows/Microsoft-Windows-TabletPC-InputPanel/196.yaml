@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '196'
+version: '0'
+event(fields): TabTip_DRTCustomEventStart()
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: TabTip_DRTCustomEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

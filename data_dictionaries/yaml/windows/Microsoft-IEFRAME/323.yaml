@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '323'
+version: '0'
+event(fields): NotificationBar_HideStop()
+opcode: Stop
+keywords: notification
+task: NotificationBar_Hide
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1246'
+version: '0'
+event(fields): task_01246()
+opcode: ''
+keywords: wnptrans wpndebug_connectivity wpndebug_connectivity_error
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-XAML
+event_id: '377'
+version: '1'
+event(fields): VirtualizationIsEnabledByModernPanelUsage_V1(Boolean IsEnabled, UInt64
+  ElementId, UnicodeString Name, UnicodeString ClassType, UnicodeString PropertyType)
+opcode: ''
+keywords: Controls
+task: VirtualizationIsEnabledByModernPanelUsage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsEnabled
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: ClassType
+- field_type: UnicodeString
+  field_name: PropertyType

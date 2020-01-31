@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2301'
+version: '0'
+event(fields): CtapNfcProviderThreadStop(GUID TransactionId)
+opcode: Stop
+keywords: Ctap Nfc
+task: CtapNfcProviderThread
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId

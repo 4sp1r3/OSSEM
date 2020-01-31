@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '70'
+version: '0'
+event(fields): Manipulation_Behaviors70(Pointer content, Float restPointX, Float restPointY,
+  Float restPointZ, Int32 curveIdX, Int32 curveIdY, Int32 curveIdZ)
+opcode: ''
+keywords: ''
+task: Manipulation_Behaviors
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: content
+- field_type: Float
+  field_name: restPointX
+- field_type: Float
+  field_name: restPointY
+- field_type: Float
+  field_name: restPointZ
+- field_type: Int32
+  field_name: curveIdX
+- field_type: Int32
+  field_name: curveIdY
+- field_type: Int32
+  field_name: curveIdZ

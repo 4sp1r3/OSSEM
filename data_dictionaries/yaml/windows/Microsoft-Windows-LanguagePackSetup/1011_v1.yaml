@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1011'
+version: '1'
+event(fields): RunningthelpksetupWizardInitializetheLpkSetupwizard1011_V1()
+opcode: InitializetheLpkSetupwizard
+keywords: ''
+task: RunningthelpksetupWizard
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

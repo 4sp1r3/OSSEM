@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1418'
+version: '0'
+event(fields): MediaFoundationDeviceMFTInitializationStart1418(HexInt32 hr)
+opcode: Start
+keywords: ''
+task: MediaFoundationDeviceMFTInitialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: hr

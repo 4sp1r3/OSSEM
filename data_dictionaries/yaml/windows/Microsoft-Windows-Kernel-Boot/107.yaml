@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '107'
+version: '0'
+event(fields): PersistMemoryStop(UInt32 Status, UInt64 BlockId)
+opcode: Stop
+keywords: MemoryPreservation
+task: PersistMemory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt64
+  field_name: BlockId

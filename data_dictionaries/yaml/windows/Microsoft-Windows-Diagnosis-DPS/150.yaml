@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-DPS
+event_id: '150'
+version: '0'
+event(fields): DebugtaskThiseventisraisedwhentheDPSsignalsitsstatusasRUNNINGtotheSCM()
+opcode: ThiseventisraisedwhentheDPSsignalsitsstatusasRUNNINGtotheSCM
+keywords: perf
+task: Debugtask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BitLocker-Driver-Performance
+event_id: '31'
+version: '0'
+event(fields): fve:BCryptEncryptRequestStart(Pointer BufferPtr, UInt32 Size)
+opcode: Start
+keywords: fve:CryptoPerformance
+task: fve:BCryptEncryptRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: BufferPtr
+- field_type: UInt32
+  field_name: Size

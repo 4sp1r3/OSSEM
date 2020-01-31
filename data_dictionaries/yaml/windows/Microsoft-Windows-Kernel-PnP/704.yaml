@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '704'
+version: '0'
+event(fields): CfgMgr_QueryRemoveStart(HexInt32 QueryRemoveType, UnicodeString Device)
+opcode: Start
+keywords: CfgMgr
+task: CfgMgr_QueryRemove
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: QueryRemoveType
+- field_type: UnicodeString
+  field_name: Device

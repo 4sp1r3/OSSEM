@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60612'
+version: '0'
+event(fields): ItemsView_UIItemsView_PreProcessEventQueueStop(UInt32 Flushed, UInt32
+  Skipped, UInt32 Batched)
+opcode: Stop
+keywords: Shell ExplorerPerf
+task: ItemsView_UIItemsView_PreProcessEventQueue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flushed
+- field_type: UInt32
+  field_name: Skipped
+- field_type: UInt32
+  field_name: Batched

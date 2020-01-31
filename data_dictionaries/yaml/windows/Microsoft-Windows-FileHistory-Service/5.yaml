@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-Service
+event_id: '5'
+version: '0'
+event(fields): ConfigurationSaveStart(UnicodeString ConfigFilePath)
+opcode: Start
+keywords: ''
+task: ConfigurationSave
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ConfigFilePath

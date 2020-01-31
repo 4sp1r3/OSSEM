@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1507'
+version: '0'
+event(fields): task_01507()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

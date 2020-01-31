@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5403'
+version: '0'
+event(fields): Dashboard_ChartScaleChangedUpdate(UnicodeString ChartId, UInt32 FromScaleIndex,
+  UnicodeString FromScaleString, UInt32 ToScaleIndex, UnicodeString ToScaleString)
+opcode: Update
+keywords: dashboard
+task: Dashboard_ChartScaleChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ChartId
+- field_type: UInt32
+  field_name: FromScaleIndex
+- field_type: UnicodeString
+  field_name: FromScaleString
+- field_type: UInt32
+  field_name: ToScaleIndex
+- field_type: UnicodeString
+  field_name: ToScaleString

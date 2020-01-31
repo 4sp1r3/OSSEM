@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '151'
+version: '0'
+event(fields): RemoteFXmodule_4Runtime151(UInt32 HistoryMs, UInt32 NumHeartbeats,
+  UInt32 MaxRecentTimeNoPacketMs, UInt32 MaxTotalTimeNoDataMs, UInt32 MaxTotalTimeNoHeartbeatMs,
+  UInt32 MaxTotalTimeNoPacketMs, UInt32 TimeNoLastPacketMs)
+opcode: Runtime
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HistoryMs
+- field_type: UInt32
+  field_name: NumHeartbeats
+- field_type: UInt32
+  field_name: MaxRecentTimeNoPacketMs
+- field_type: UInt32
+  field_name: MaxTotalTimeNoDataMs
+- field_type: UInt32
+  field_name: MaxTotalTimeNoHeartbeatMs
+- field_type: UInt32
+  field_name: MaxTotalTimeNoPacketMs
+- field_type: UInt32
+  field_name: TimeNoLastPacketMs

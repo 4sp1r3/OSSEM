@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '483'
+version: '0'
+event(fields): Mshtml_CView_ExecuteInvalidationTasksStop(Pointer View, UInt32 UniqueSubtrees,
+  UInt32 UpdatedSubtrees)
+opcode: Stop
+keywords: mshtml
+task: Mshtml_CView_ExecuteInvalidationTasks
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: View
+- field_type: UInt32
+  field_name: UniqueSubtrees
+- field_type: UInt32
+  field_name: UpdatedSubtrees

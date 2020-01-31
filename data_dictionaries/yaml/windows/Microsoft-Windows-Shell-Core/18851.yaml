@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18851'
+version: '0'
+event(fields): Shell32_UA_RenameEntryStart()
+opcode: Start
+keywords: Shell
+task: Shell32_UA_RenameEntry
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

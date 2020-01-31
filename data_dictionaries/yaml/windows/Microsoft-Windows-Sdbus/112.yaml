@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sdbus
+event_id: '112'
+version: '0'
+event(fields): HPIWorkerProcess(HexInt64 Irp)
+opcode: ''
+keywords: Emmc
+task: HPIWorkerProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: Irp

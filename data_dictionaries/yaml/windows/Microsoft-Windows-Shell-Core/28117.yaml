@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28117'
+version: '0'
+event(fields): Shell32_AppResolverCache_UpdateShortcut(UnicodeString Name, UnicodeString
+  AppID, UInt32 Flags)
+opcode: ''
+keywords: Shell
+task: Shell32_AppResolverCache_UpdateShortcut
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UInt32
+  field_name: Flags

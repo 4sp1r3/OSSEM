@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1605'
+version: '0'
+event(fields): WPRegistrationPolicy1605(UInt32 dwCode1)
+opcode: ''
+keywords: Trace
+task: WPRegistrationPolicy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwCode1

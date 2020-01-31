@@ -1,0 +1,24 @@
+provider: Microsoft-AppV-Client
+event_id: '20002'
+version: '1'
+event(fields): PublishPackage20002_V1(GUID PackageId, GUID PackageVersion, GUID GroupId,
+  GUID GroupVersion, UInt32 ErrorHigh, UInt32 ErrorLow)
+opcode: ''
+keywords: DynamicConfiguration
+task: PublishPackage
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PackageId
+- field_type: GUID
+  field_name: PackageVersion
+- field_type: GUID
+  field_name: GroupId
+- field_type: GUID
+  field_name: GroupVersion
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow

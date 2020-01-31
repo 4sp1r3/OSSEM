@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '22'
+version: '0'
+event(fields): PDA_DISCOVERYStop()
+opcode: Stop
+keywords: mediaplayer
+task: PDA_DISCOVERY
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

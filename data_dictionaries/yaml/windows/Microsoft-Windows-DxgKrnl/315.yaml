@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '315'
+version: '0'
+event(fields): CheckMultiPlaneOverlaySuccess(UInt32 VidPnSourceId, UInt32 PlaneCount,
+  UInt32 Scenario, UInt32 SourceDimension, UInt32 DestDimension, UInt32 Status)
+opcode: ''
+keywords: Base
+task: CheckMultiPlaneOverlaySuccess
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: PlaneCount
+- field_type: UInt32
+  field_name: Scenario
+- field_type: UInt32
+  field_name: SourceDimension
+- field_type: UInt32
+  field_name: DestDimension
+- field_type: UInt32
+  field_name: Status

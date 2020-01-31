@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18017'
+version: '0'
+event(fields): ExplorerFrame_FrameFirstRedrawStart()
+opcode: Start
+keywords: Shell
+task: ExplorerFrame_FrameFirstRedraw
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

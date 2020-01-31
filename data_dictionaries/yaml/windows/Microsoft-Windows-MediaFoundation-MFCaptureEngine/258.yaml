@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '258'
+version: '0'
+event(fields): MFCaptureEngine_OnEvent_Task(GUID guidExtendedType, Int32 HResult,
+  UInt32 StreamIndex)
+opcode: ''
+keywords: ''
+task: MFCaptureEngine_OnEvent_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: guidExtendedType
+- field_type: Int32
+  field_name: HResult
+- field_type: UInt32
+  field_name: StreamIndex

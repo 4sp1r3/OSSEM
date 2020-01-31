@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5007'
+version: '0'
+event(fields): task_05007(Pointer Object, AnsiString FileName, UInt32 LineNumber)
+opcode: ''
+keywords: iphttps
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: AnsiString
+  field_name: FileName
+- field_type: UInt32
+  field_name: LineNumber

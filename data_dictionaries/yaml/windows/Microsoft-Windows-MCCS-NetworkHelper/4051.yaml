@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '4051'
+version: '0'
+event(fields): task_04051(UInt32 Prop_hexint)
+opcode: ''
+keywords: Debug
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_hexint

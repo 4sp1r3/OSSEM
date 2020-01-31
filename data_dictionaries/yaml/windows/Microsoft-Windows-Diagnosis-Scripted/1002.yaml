@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-Scripted
+event_id: '1002'
+version: '0'
+event(fields): SCRIPTED_DIAGNOSTICS_TASK_HOSTStop()
+opcode: Stop
+keywords: analytic
+task: SCRIPTED_DIAGNOSTICS_TASK_HOST
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

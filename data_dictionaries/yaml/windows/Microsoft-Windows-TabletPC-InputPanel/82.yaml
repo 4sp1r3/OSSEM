@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '82'
+version: '0'
+event(fields): SoftKeyboard_ChangeLanguageStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_ChangeLanguage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

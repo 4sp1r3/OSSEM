@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-LocalSessionManager
+event_id: '11'
+version: '0'
+event(fields): LogonProcessingStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: LogonProcessing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

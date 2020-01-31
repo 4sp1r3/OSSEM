@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '53'
+version: '0'
+event(fields): ITfThreadFocusSink_OnSetThreadFocusStop(UInt32 param)
+opcode: Stop
+keywords: TSFEvent
+task: ITfThreadFocusSink_OnSetThreadFocus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: param

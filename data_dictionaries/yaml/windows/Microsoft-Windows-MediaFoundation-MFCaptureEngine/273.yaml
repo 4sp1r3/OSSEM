@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '273'
+version: '0'
+event(fields): MFCaptureEngine_DiskFull_Condition.TaskMessageStop(Pointer RecordSink,
+  Pointer CaptureEngineObject)
+opcode: Stop
+keywords: ''
+task: MFCaptureEngine_DiskFull_Condition.TaskMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecordSink
+- field_type: Pointer
+  field_name: CaptureEngineObject

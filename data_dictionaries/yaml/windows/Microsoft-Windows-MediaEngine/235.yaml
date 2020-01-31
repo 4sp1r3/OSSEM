@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '235'
+version: '0'
+event(fields): TeardownStop()
+opcode: Stop
+keywords: ''
+task: Teardown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

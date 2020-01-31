@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '53'
+version: '0'
+event(fields): RetrieveObjectfromNetworkStop(UnicodeString EventWriteData)
+opcode: Stop
+keywords: PathDiscovery Revocation Retrieval AutoRootUpdate
+task: RetrieveObjectfromNetwork
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventWriteData

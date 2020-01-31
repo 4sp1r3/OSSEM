@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '126'
+version: '0'
+event(fields): GlobalMergeStart()
+opcode: Start
+keywords: PerfEvent
+task: GlobalMerge
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

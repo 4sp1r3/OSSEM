@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMP
+event_id: '398'
+version: '0'
+event(fields): HME_ProviderUpdateMessage(UInt32 RAMCacheId, Boolean IsAdding, Boolean
+  FireEvent)
+opcode: ''
+keywords: mediaplayer
+task: HME_ProviderUpdateMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RAMCacheId
+- field_type: Boolean
+  field_name: IsAdding
+- field_type: Boolean
+  field_name: FireEvent

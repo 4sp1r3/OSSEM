@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '125'
+version: '0'
+event(fields): BatteryMeter_PowerPlanDescriptionStart()
+opcode: Start
+keywords: BatteryMeter
+task: BatteryMeter_PowerPlanDescription
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

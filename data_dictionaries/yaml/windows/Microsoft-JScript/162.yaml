@@ -1,0 +1,76 @@
+provider: Microsoft-JScript
+event_id: '162'
+version: '0'
+event(fields): Jscript_Hosting_BinaryInconsistency(UInt32 Jscript9EngineSize, UInt32
+  MshtmlEngineSize, UInt32 Jscript9ContextSize, UInt32 MshtmlContextSize, UInt32 Jscript9LibrarySize,
+  UInt32 MshtmlLibrarySize, UInt32 Jscript9CEOSize, UInt32 MshtmlCEOSize, UInt32 Jscript9ScriptEngineOffset,
+  UInt32 MshtmlScriptEngineOffset, UInt32 Jscript9ScriptContextOffset, UInt32 MshtmlScriptContextOffset,
+  UInt32 Jscript9LibraryOffset, UInt32 MshtmlLibraryOffset, UInt32 Jscript9TypeOffset,
+  UInt32 MshtmlTypeOffset, UInt32 Jscript9TypeIdOffset, UInt32 MshtmlTypeIdOffset,
+  UInt32 Jscript9TaggedIntSize, UInt32 MshtmlTaggIntSize, UInt32 Jscript9NumberSize,
+  UInt32 MshtmlNumberSize, UInt32 Jscript9TypeIdLimit, UInt32 MshtmlTypeIdLimit, UInt32
+  JScript9NumberUtilitiesSize, UInt32 MsHtmlNumberUtilitiesSize, UInt32 JScript9NumberUtilitiesOffset,
+  UInt32 MsHtmlNumberUtilitiesOffset)
+opcode: ''
+keywords: JScriptHosting
+task: Jscript_Hosting_BinaryInconsistency
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Jscript9EngineSize
+- field_type: UInt32
+  field_name: MshtmlEngineSize
+- field_type: UInt32
+  field_name: Jscript9ContextSize
+- field_type: UInt32
+  field_name: MshtmlContextSize
+- field_type: UInt32
+  field_name: Jscript9LibrarySize
+- field_type: UInt32
+  field_name: MshtmlLibrarySize
+- field_type: UInt32
+  field_name: Jscript9CEOSize
+- field_type: UInt32
+  field_name: MshtmlCEOSize
+- field_type: UInt32
+  field_name: Jscript9ScriptEngineOffset
+- field_type: UInt32
+  field_name: MshtmlScriptEngineOffset
+- field_type: UInt32
+  field_name: Jscript9ScriptContextOffset
+- field_type: UInt32
+  field_name: MshtmlScriptContextOffset
+- field_type: UInt32
+  field_name: Jscript9LibraryOffset
+- field_type: UInt32
+  field_name: MshtmlLibraryOffset
+- field_type: UInt32
+  field_name: Jscript9TypeOffset
+- field_type: UInt32
+  field_name: MshtmlTypeOffset
+- field_type: UInt32
+  field_name: Jscript9TypeIdOffset
+- field_type: UInt32
+  field_name: MshtmlTypeIdOffset
+- field_type: UInt32
+  field_name: Jscript9TaggedIntSize
+- field_type: UInt32
+  field_name: MshtmlTaggIntSize
+- field_type: UInt32
+  field_name: Jscript9NumberSize
+- field_type: UInt32
+  field_name: MshtmlNumberSize
+- field_type: UInt32
+  field_name: Jscript9TypeIdLimit
+- field_type: UInt32
+  field_name: MshtmlTypeIdLimit
+- field_type: UInt32
+  field_name: JScript9NumberUtilitiesSize
+- field_type: UInt32
+  field_name: MsHtmlNumberUtilitiesSize
+- field_type: UInt32
+  field_name: JScript9NumberUtilitiesOffset
+- field_type: UInt32
+  field_name: MsHtmlNumberUtilitiesOffset

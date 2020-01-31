@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4411'
+version: '0'
+event(fields): MSG_SUBMITMESSAGEStop()
+opcode: Stop
+keywords: Performance
+task: MSG_SUBMITMESSAGE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

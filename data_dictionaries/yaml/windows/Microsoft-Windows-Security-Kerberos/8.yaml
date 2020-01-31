@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Security-Kerberos
+event_id: '8'
+version: '0'
+event(fields): task_0PCODE_192pcode_1928(UnicodeString Name, UnicodeString Message,
+  UInt32 __binLength, Binary binary)
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: binary

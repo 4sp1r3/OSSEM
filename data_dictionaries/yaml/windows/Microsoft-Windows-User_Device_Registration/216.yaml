@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '216'
+version: '0'
+event(fields): task_0216(UnicodeString FunctionName, UnicodeString ParameterName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FunctionName
+- field_type: UnicodeString
+  field_name: ParameterName

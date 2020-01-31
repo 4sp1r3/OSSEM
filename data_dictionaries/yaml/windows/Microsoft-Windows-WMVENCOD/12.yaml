@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMVENCOD
+event_id: '12'
+version: '0'
+event(fields): VC1ENC_ADAPTIVE_VIDEOBITRATE(UInt32 Bitrate, Pointer EncoderInstance)
+opcode: ''
+keywords: ''
+task: VC1ENC_ADAPTIVE_VIDEOBITRATE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Bitrate
+- field_type: Pointer
+  field_name: EncoderInstance

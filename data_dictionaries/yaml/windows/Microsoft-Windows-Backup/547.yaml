@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Backup
+event_id: '547'
+version: '0'
+event(fields): task_0547(FILETIME BackupTime, UnicodeString FailedVolumeNames, UnicodeString
+  BackupFailureLogPath)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: BackupTime
+- field_type: UnicodeString
+  field_name: FailedVolumeNames
+- field_type: UnicodeString
+  field_name: BackupFailureLogPath

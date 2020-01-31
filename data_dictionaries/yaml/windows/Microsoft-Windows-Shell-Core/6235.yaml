@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6235'
+version: '0'
+event(fields): Thumbnails_ExtractionTimeout()
+opcode: ''
+keywords: Shell
+task: Thumbnails_ExtractionTimeout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

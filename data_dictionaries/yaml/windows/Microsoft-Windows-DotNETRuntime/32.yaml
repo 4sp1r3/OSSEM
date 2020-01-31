@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '32'
+version: '0'
+event(fields): GCGCSampledObjectAllocation32(Pointer Address, Pointer TypeID, UInt32
+  ObjectCountForTypeSample, UInt64 TotalSizeForTypeSample, UInt16 ClrInstanceID)
+opcode: GCSampledObjectAllocation
+keywords: GCSampledObjectAllocationLowKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Address
+- field_type: Pointer
+  field_name: TypeID
+- field_type: UInt32
+  field_name: ObjectCountForTypeSample
+- field_type: UInt64
+  field_name: TotalSizeForTypeSample
+- field_type: UInt16
+  field_name: ClrInstanceID

@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-Wired-AutoConfig
+event_id: '15514'
+version: '0'
+event(fields): task_015514(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UnicodeString SwitchMAC, UnicodeString LocalMAC, Pointer ConnectionID, UnicodeString
+  Identity, UnicodeString User, UnicodeString Domain, HexInt32 ReasonCode, UnicodeString
+  ReasonText, HexInt32 ErrorCode, Boolean ExplicitCredentials)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UnicodeString
+  field_name: SwitchMAC
+- field_type: UnicodeString
+  field_name: LocalMAC
+- field_type: Pointer
+  field_name: ConnectionID
+- field_type: UnicodeString
+  field_name: Identity
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: Domain
+- field_type: HexInt32
+  field_name: ReasonCode
+- field_type: UnicodeString
+  field_name: ReasonText
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: Boolean
+  field_name: ExplicitCredentials

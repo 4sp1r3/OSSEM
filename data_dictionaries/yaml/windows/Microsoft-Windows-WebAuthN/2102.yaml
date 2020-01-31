@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2102'
+version: '0'
+event(fields): CtapCommandStop(UnicodeString Command, GUID TransactionId, UInt32 ResponseLength,
+  Binary Response)
+opcode: Stop
+keywords: Ctap
+task: CtapCommand
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Command
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UInt32
+  field_name: ResponseLength
+- field_type: Binary
+  field_name: Response

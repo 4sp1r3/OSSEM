@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '5126'
+version: '0'
+event(fields): task_05126(Boolean IsMachine, Boolean IsBackgroundProcessing, Boolean
+  IsAsyncProcessing, UInt32 NumberOfGPOsDownloaded, UInt32 NumberOfGPOsApplicable,
+  UInt32 GPODownloadTimeElapsedInMilliseconds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsMachine
+- field_type: Boolean
+  field_name: IsBackgroundProcessing
+- field_type: Boolean
+  field_name: IsAsyncProcessing
+- field_type: UInt32
+  field_name: NumberOfGPOsDownloaded
+- field_type: UInt32
+  field_name: NumberOfGPOsApplicable
+- field_type: UInt32
+  field_name: GPODownloadTimeElapsedInMilliseconds

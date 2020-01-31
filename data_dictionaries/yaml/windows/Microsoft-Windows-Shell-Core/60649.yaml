@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60649'
+version: '0'
+event(fields): ItemsView_UIItemsView_RunFirstPageResultsStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: ItemsView_UIItemsView_RunFirstPageResults
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

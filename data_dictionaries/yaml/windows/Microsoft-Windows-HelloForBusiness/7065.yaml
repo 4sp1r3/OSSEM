@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7065'
+version: '0'
+event(fields): HelloProvisioningStop7065(UnicodeString Error, UInt32 ProcessingTime)
+opcode: Stop
+keywords: Internal
+task: HelloProvisioning
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Error
+- field_type: UInt32
+  field_name: ProcessingTime

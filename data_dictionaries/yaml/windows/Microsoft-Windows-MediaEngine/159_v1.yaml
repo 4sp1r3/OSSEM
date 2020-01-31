@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '159'
+version: '1'
+event(fields): Normal(non_decode)SwapchainCreated_V1(Pointer object, Pointer Swapchain,
+  UInt32 Format, UInt32 Width, UInt32 Height, UInt32 Backbuffers, UInt32 Flags, UInt32
+  ColorSpaceType, UInt32 SwapChainType, UInt32 SwapChainRotation)
+opcode: ''
+keywords: ''
+task: Normal(non_decode)SwapchainCreated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: Swapchain
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: Backbuffers
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ColorSpaceType
+- field_type: UInt32
+  field_name: SwapChainType
+- field_type: UInt32
+  field_name: SwapChainRotation

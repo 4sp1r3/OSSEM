@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TextPredictionEngine
+event_id: '8'
+version: '0'
+event(fields): TPLangMod_API_KeyUnPressStop()
+opcode: Stop
+keywords: ''
+task: TPLangMod_API_KeyUnPress
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

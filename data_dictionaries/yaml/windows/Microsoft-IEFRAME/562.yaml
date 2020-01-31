@@ -1,0 +1,16 @@
+provider: Microsoft-IEFRAME
+event_id: '562'
+version: '0'
+event(fields): Browseui_SelectTabTimerCancelled(Int32 SelectTabAsyncTabID, UInt32
+  SelectTabAsyncFlags)
+opcode: ''
+keywords: ''
+task: Browseui_SelectTabTimerCancelled
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: SelectTabAsyncTabID
+- field_type: UInt32
+  field_name: SelectTabAsyncFlags

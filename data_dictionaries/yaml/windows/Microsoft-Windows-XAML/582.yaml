@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '582'
+version: '0'
+event(fields): SetViewportInteraction(Pointer UIElement, Pointer Interaction)
+opcode: ''
+keywords: Input
+task: SetViewportInteraction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: UIElement
+- field_type: Pointer
+  field_name: Interaction

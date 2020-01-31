@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '1024'
+version: '0'
+event(fields): WebAuthNNgcGetAssertionStop(GUID TransactionId)
+opcode: Stop
+keywords: WebAuthN Ngc
+task: WebAuthNNgcGetAssertion
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId

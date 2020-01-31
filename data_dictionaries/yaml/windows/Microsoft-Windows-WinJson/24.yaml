@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinJson
+event_id: '24'
+version: '0'
+event(fields): None24()
+opcode: ''
+keywords: Debug
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

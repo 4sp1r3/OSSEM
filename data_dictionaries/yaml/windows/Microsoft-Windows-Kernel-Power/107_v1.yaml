@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '107'
+version: '1'
+event(fields): PostSleepNotification_V1(UInt32 TargetState, UInt32 EffectiveState,
+  UInt32 WakeFromState, FILETIME ProgrammedWakeTimeAc, FILETIME ProgrammedWakeTimeDc,
+  UInt32 WakeRequesterTypeAc, UInt32 WakeRequesterTypeDc)
+opcode: ''
+keywords: po:Diagnostic po:PerfTrackContext po:DiagnosticLight
+task: PostSleepNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TargetState
+- field_type: UInt32
+  field_name: EffectiveState
+- field_type: UInt32
+  field_name: WakeFromState
+- field_type: FILETIME
+  field_name: ProgrammedWakeTimeAc
+- field_type: FILETIME
+  field_name: ProgrammedWakeTimeDc
+- field_type: UInt32
+  field_name: WakeRequesterTypeAc
+- field_type: UInt32
+  field_name: WakeRequesterTypeDc

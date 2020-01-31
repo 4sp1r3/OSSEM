@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '1'
+version: '0'
+event(fields): task_0(UInt32 ProcessID, FILETIME CreateTime, UInt32 ParentProcessID,
+  UnicodeString PackageFullName, UnicodeString ImageName, UnicodeString PackageRelativeApplicationId)
+opcode: ''
+keywords: Process
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: FILETIME
+  field_name: CreateTime
+- field_type: UInt32
+  field_name: ParentProcessID
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: ImageName
+- field_type: UnicodeString
+  field_name: PackageRelativeApplicationId

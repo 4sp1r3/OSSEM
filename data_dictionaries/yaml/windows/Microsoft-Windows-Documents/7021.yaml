@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Documents
+event_id: '7021'
+version: '0'
+event(fields): DocPerf_Task_XpsViewer_Thumbnails_LoadPageTextureStart(UInt32 PageIndex)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_XpsViewer_Thumbnails_LoadPageTexture
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PageIndex

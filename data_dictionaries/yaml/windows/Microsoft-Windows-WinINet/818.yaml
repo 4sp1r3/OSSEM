@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinINet
+event_id: '818'
+version: '0'
+event(fields): WININET_TRANSFER()
+opcode: ''
+keywords: WININET_KEYWORD_HANDLES
+task: WININET_TRANSFER
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

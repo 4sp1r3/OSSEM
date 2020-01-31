@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Audio
+event_id: '50'
+version: '0'
+event(fields): System_Effect_APO_Initialized(GUID APOCLSID, GUID AudioSignalProcessingMode,
+  Boolean InitializeForDiscoveryOnly)
+opcode: ''
+keywords: ''
+task: System_Effect_APO_Initialized
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: APOCLSID
+- field_type: GUID
+  field_name: AudioSignalProcessingMode
+- field_type: Boolean
+  field_name: InitializeForDiscoveryOnly

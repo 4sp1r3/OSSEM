@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '11'
+version: '0'
+event(fields): GCCreateConcurrentThread()
+opcode: CreateConcurrentThread
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

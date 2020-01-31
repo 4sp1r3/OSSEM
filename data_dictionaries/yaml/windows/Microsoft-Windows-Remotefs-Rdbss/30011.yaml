@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Remotefs-Rdbss
+event_id: '30011'
+version: '0'
+event(fields): task_030011(Pointer RxContext, Pointer FileObject)
+opcode: ''
+keywords: Rdbss_Perf
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RxContext
+- field_type: Pointer
+  field_name: FileObject

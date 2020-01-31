@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '10'
+version: '2'
+event(fields): ProcessorPerfStateChange_V2(UInt32 State, UInt32 Speed, UInt16 Group,
+  UInt8 Number, UInt32 Performance, UInt32 TolerancePercent)
+opcode: ''
+keywords: Perf
+task: ProcessorPerfStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Speed
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: Performance
+- field_type: UInt32
+  field_name: TolerancePercent

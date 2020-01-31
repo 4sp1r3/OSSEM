@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '1291'
+version: '0'
+event(fields): Userauthentication1291()
+opcode: ''
+keywords: Keyword.Client Keyword.Security
+task: Userauthentication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

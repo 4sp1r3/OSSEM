@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WebIO
+event_id: '109'
+version: '0'
+event(fields): RequestEntityTrackerQueue(Pointer Request, Pointer DataChunks, UInt64
+  TotalChunkLength, Boolean IsEntity, Boolean RequestEntityComplete)
+opcode: Queue
+keywords: Keyword.SEND
+task: RequestEntityTracker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: UInt64
+  field_name: TotalChunkLength
+- field_type: Boolean
+  field_name: IsEntity
+- field_type: Boolean
+  field_name: RequestEntityComplete

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3096'
+version: '1'
+event(fields): RefreshPolicyTaskRefreshPolicyOp3096_V1(UInt16 PolicyNameLength, UnicodeString
+  PolicyNameBuffer, UInt16 PolicyIdLength, UnicodeString PolicyIdBuffer, GUID PolicyGUID,
+  HexInt32 Status, HexInt32 Options, UInt32 PolicyHashSize, Binary PolicyHash)
+opcode: RefreshPolicyOp
+keywords: ''
+task: RefreshPolicyTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: PolicyNameLength
+- field_type: UnicodeString
+  field_name: PolicyNameBuffer
+- field_type: UInt16
+  field_name: PolicyIdLength
+- field_type: UnicodeString
+  field_name: PolicyIdBuffer
+- field_type: GUID
+  field_name: PolicyGUID
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: Options
+- field_type: UInt32
+  field_name: PolicyHashSize
+- field_type: Binary
+  field_name: PolicyHash

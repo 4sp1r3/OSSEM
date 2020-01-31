@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4052'
+version: '0'
+event(fields): CP_Get_AttribStart(UInt32 WMPAtom, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: CP_Get_Attrib
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WMPAtom
+- field_type: UInt32
+  field_name: ErrorCode

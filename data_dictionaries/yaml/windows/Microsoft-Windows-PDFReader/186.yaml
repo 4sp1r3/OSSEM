@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '186'
+version: '0'
+event(fields): InkUpdateStart()
+opcode: Start
+keywords: Reader
+task: InkUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

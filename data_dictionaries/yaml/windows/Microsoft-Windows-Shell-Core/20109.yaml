@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20109'
+version: '0'
+event(fields): TaskbarCPL_ApplyStop()
+opcode: Stop
+keywords: Shell
+task: TaskbarCPL_Apply
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

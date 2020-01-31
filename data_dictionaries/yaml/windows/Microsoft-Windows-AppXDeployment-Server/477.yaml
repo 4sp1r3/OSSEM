@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '477'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.SISOptimization(UnicodeString
+  SourceFilePath, UnicodeString LinkDestinationPath, HexInt32 ErrorCode)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.SISOptimization
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SourceFilePath
+- field_type: UnicodeString
+  field_name: LinkDestinationPath
+- field_type: HexInt32
+  field_name: ErrorCode

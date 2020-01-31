@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '5006'
+version: '0'
+event(fields): ProxyConnectExistingProxyStart(UInt32 unParam, UInt32 unParam2)
+opcode: Start
+keywords: MessagingPerformance Proxy
+task: ProxyConnectExistingProxy
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2

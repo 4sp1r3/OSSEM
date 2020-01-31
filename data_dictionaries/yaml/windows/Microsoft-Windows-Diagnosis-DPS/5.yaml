@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-DPS
+event_id: '5'
+version: '0'
+event(fields): DPSInitializationAdiagnosticscenariowasmisconfigured(GUID ScenarioId)
+opcode: Adiagnosticscenariowasmisconfigured
+keywords: lifecycle
+task: DPSInitialization
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ScenarioId

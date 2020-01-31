@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1039'
+version: '0'
+event(fields): task_01039(UInt32 NotificationType, UInt32 InterfaceIndex, UInt16 NdkOperationalState)
+opcode: ''
+keywords: Nsi
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NotificationType
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UInt16
+  field_name: NdkOperationalState

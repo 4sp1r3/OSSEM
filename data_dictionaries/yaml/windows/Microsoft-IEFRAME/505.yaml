@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '505'
+version: '0'
+event(fields): EmptyTab_Conversion_FinalNavigation_Failed(UInt32 TabID)
+opcode: ''
+keywords: primarynav
+task: EmptyTab_Conversion_FinalNavigation_Failed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID

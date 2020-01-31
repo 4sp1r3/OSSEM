@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '85'
+version: '0'
+event(fields): DeviceEnumerationStop()
+opcode: Stop
+keywords: DeviceUX_Performance
+task: DeviceEnumeration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

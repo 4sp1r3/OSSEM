@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Windows Defender
+event_id: '1002'
+version: '0'
+event(fields): task_01002(UnicodeString ProductName, UnicodeString ProductVersion,
+  UnicodeString ScanID, UnicodeString ScanTypeIndex, UnicodeString ScanType, UnicodeString
+  ScanParametersIndex, UnicodeString ScanParameters, UnicodeString Domain, UnicodeString
+  User, UnicodeString SID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UnicodeString
+  field_name: ProductVersion
+- field_type: UnicodeString
+  field_name: ScanID
+- field_type: UnicodeString
+  field_name: ScanTypeIndex
+- field_type: UnicodeString
+  field_name: ScanType
+- field_type: UnicodeString
+  field_name: ScanParametersIndex
+- field_type: UnicodeString
+  field_name: ScanParameters
+- field_type: UnicodeString
+  field_name: Domain
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: SID

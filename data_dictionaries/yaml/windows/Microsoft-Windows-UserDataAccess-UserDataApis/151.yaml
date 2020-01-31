@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '151'
+version: '0'
+event(fields): task_0151()
+opcode: ''
+keywords: PhoneCallFilter
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

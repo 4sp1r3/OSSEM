@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '213'
+version: '0'
+event(fields): DriverLoadStop(UInt16 ServiceNameLength, UnicodeString ServiceName,
+  UInt32 Status, UInt16 DriverNameLength, UnicodeString DriverName, UInt32 Version)
+opcode: Stop
+keywords: Performance DriverLoad
+task: DriverLoad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ServiceNameLength
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt16
+  field_name: DriverNameLength
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UInt32
+  field_name: Version

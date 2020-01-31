@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '310'
+version: '0'
+event(fields): WebproxyResponseInfo(UInt32 PayloadLengthInChars, AnsiString Payload)
+opcode: ''
+keywords: WebproxyTracing
+task: WebproxyResponseInfo
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PayloadLengthInChars
+- field_type: AnsiString
+  field_name: Payload

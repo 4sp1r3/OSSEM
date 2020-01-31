@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Audio
+event_id: '33'
+version: '0'
+event(fields): Audio_Glitch_DetectionEngineGlitch:CPServerInputEndpoint_Starvation(Pointer
+  pCCrossProcessServerInputEndpoint, UInt32 WriteOffset, UInt32 ReadOffset, UInt32
+  BufferSize, UInt32 BytesAvailable)
+opcode: CPServerInputEndpoint_Starvation
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCCrossProcessServerInputEndpoint
+- field_type: UInt32
+  field_name: WriteOffset
+- field_type: UInt32
+  field_name: ReadOffset
+- field_type: UInt32
+  field_name: BufferSize
+- field_type: UInt32
+  field_name: BytesAvailable

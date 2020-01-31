@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25004'
+version: '0'
+event(fields): Logon_ServerCallback_DisplayLockedStop()
+opcode: Stop
+keywords: ''
+task: Logon_ServerCallback_DisplayLocked
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

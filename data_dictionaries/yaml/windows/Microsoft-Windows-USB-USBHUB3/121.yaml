@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '121'
+version: '0'
+event(fields): HubResetStop(Pointer fid_UsbDevice, UInt32 fid_NtStatus)
+opcode: Stop
+keywords: Default
+task: HubReset
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt32
+  field_name: fid_NtStatus

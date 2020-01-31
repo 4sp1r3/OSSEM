@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '53'
+version: '0'
+event(fields): PRIMITIVE_GROUP_UPDATE(UInt32 channelHandle, UInt32 resourceHandle,
+  UInt32 flags, UInt32 batchCount, UInt32 totalPrimitiveCount, Float boundsLeft, Float
+  boundsTop, Float boundsRight, Float boundsBottom, UInt16 singlePrimitiveInfoLength,
+  UInt16 surfaceInfoLength, Binary surfaceInfo, UInt16 primitivesLength, Binary primitives)
+opcode: ''
+keywords: DCompPrimitives
+task: PRIMITIVE_GROUP_UPDATE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: channelHandle
+- field_type: UInt32
+  field_name: resourceHandle
+- field_type: UInt32
+  field_name: flags
+- field_type: UInt32
+  field_name: batchCount
+- field_type: UInt32
+  field_name: totalPrimitiveCount
+- field_type: Float
+  field_name: boundsLeft
+- field_type: Float
+  field_name: boundsTop
+- field_type: Float
+  field_name: boundsRight
+- field_type: Float
+  field_name: boundsBottom
+- field_type: UInt16
+  field_name: singlePrimitiveInfoLength
+- field_type: UInt16
+  field_name: surfaceInfoLength
+- field_type: Binary
+  field_name: surfaceInfo
+- field_type: UInt16
+  field_name: primitivesLength
+- field_type: Binary
+  field_name: primitives

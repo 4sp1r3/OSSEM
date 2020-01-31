@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '504'
+version: '0'
+event(fields): SystemLatencyUpdate(UInt32 SystemLatency)
+opcode: ''
+keywords: po:Diagnostic
+task: SystemLatencyUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SystemLatency

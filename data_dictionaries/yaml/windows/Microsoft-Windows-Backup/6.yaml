@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Backup
+event_id: '6'
+version: '0'
+event(fields): task_06()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

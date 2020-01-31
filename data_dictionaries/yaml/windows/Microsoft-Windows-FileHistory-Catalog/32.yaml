@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '32'
+version: '0'
+event(fields): FindPointInTimeLibrariesStop(Int32 BackupSetId)
+opcode: Stop
+keywords: ''
+task: FindPointInTimeLibraries
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: BackupSetId

@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '590'
+version: '0'
+event(fields): Immersive_Travellog_PageAvailable_Fired(Pointer BindContext)
+opcode: ''
+keywords: TravelLogScreenshotNav
+task: Immersive_Travellog_PageAvailable_Fired
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: BindContext

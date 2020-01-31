@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '76'
+version: '0'
+event(fields): BootDebuggerEnabled()
+opcode: Enabled
+keywords: ''
+task: BootDebugger
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '551'
+version: '1'
+event(fields): Smb2SessionAuthFailure_V1(GUID SessionGUID, GUID ConnectionGUID, HexInt32
+  Status, HexInt32 TranslatedStatus, UInt32 ClientAddressLength, Binary ClientAddress,
+  HexInt64 SessionId, UInt16 UserNameLength, UnicodeString UserName, UInt16 ClientNameLength,
+  UnicodeString ClientName)
+opcode: ''
+keywords: Operational
+task: Smb2SessionAuthFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: TranslatedStatus
+- field_type: UInt32
+  field_name: ClientAddressLength
+- field_type: Binary
+  field_name: ClientAddress
+- field_type: HexInt64
+  field_name: SessionId
+- field_type: UInt16
+  field_name: UserNameLength
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UInt16
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName

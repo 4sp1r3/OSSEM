@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Security-Kerberos
+event_id: '201'
+version: '0'
+event(fields): task_0201(UnicodeString TargetName, UnicodeString UserName, UnicodeString
+  DomainName, UInt32 CallerPID, UnicodeString ProcessName, HexInt64 ClientLUID, UnicodeString
+  ClientUserName, UnicodeString ClientDomainName, UnicodeString MechanismOID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TargetName
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UnicodeString
+  field_name: DomainName
+- field_type: UInt32
+  field_name: CallerPID
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: HexInt64
+  field_name: ClientLUID
+- field_type: UnicodeString
+  field_name: ClientUserName
+- field_type: UnicodeString
+  field_name: ClientDomainName
+- field_type: UnicodeString
+  field_name: MechanismOID

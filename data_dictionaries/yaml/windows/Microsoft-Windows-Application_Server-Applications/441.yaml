@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '441'
+version: '0'
+event(fields): SignpostStop441(UnicodeString ExtendedData, UnicodeString AppDomain)
+opcode: Stop
+keywords: Troubleshooting WFServices
+task: Signpost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtendedData
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '622'
+version: '0'
+event(fields): Shdocvw_VirtualTab_GetIWB2()
+opcode: ''
+keywords: primarynav
+task: Shdocvw_VirtualTab_GetIWB2
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

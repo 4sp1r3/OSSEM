@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '106'
+version: '0'
+event(fields): FavoritesSwitchViewStop(UInt64 Object)
+opcode: Stop
+keywords: ''
+task: FavoritesSwitchView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

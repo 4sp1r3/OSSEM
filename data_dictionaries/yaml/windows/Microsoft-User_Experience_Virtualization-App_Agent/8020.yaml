@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '8020'
+version: '0'
+event(fields): UEVGeneratorUE_VGenerator8020(UnicodeString stringValue1)
+opcode: UE_VGenerator
+keywords: ''
+task: UEVGenerator
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1

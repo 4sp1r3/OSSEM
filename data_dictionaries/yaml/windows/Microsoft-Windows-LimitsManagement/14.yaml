@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LimitsManagement
+event_id: '14'
+version: '0'
+event(fields): MitigationRemoved(UInt64 Token)
+opcode: ''
+keywords: ''
+task: MitigationRemoved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Token

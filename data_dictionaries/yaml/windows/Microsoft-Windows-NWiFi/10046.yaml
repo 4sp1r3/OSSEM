@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10046'
+version: '0'
+event(fields): task_010046(Pointer ContextHandle, GUID AdapterGuid, UInt32 SessionId,
+  Binary MAC, Boolean Controlled, Boolean Authorized)
+opcode: ''
+keywords: AssocMgr ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextHandle
+- field_type: GUID
+  field_name: AdapterGuid
+- field_type: UInt32
+  field_name: SessionId
+- field_type: Binary
+  field_name: MAC
+- field_type: Boolean
+  field_name: Controlled
+- field_type: Boolean
+  field_name: Authorized

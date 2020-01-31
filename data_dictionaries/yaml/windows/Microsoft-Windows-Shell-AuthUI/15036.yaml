@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '15036'
+version: '0'
+event(fields): Common_StartCredProvsForUsageScenario(UInt32 DWORD1, UInt32 DWORD2)
+opcode: ''
+keywords: ''
+task: Common_StartCredProvsForUsageScenario
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DWORD1
+- field_type: UInt32
+  field_name: DWORD2

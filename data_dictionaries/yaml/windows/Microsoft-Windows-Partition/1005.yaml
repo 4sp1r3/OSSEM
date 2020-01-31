@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Partition
+event_id: '1005'
+version: '0'
+event(fields): task_01005(UInt64 LocalLastCompTime, UInt64 SharedLastCompTime, UInt64
+  CompTime)
+opcode: ''
+keywords: power
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: LocalLastCompTime
+- field_type: UInt64
+  field_name: SharedLastCompTime
+- field_type: UInt64
+  field_name: CompTime

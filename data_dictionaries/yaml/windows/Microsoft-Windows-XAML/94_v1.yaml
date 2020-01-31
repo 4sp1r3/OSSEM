@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '94'
+version: '1'
+event(fields): RenderWalkStop_V1(Int32 Visited, Int32 Rendered)
+opcode: Stop
+keywords: Rendering
+task: RenderWalk
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Visited
+- field_type: Int32
+  field_name: Rendered

@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-Win32k
+event_id: '40'
+version: '0'
+event(fields): RenderingOldToNewRendering(Pointer hwndDst, Pointer hwndDstSprite,
+  Pointer hbmDst, UInt32 DstLeft, UInt32 DstTop, UInt32 DstRight, UInt32 DstBottom,
+  Pointer hwndSrc, Pointer hwndSrcSprite, Pointer hbmSrc, UInt32 SrcLeft, UInt32 SrcTop,
+  UInt32 SrcRight, UInt32 SrcBottom)
+opcode: OldToNewRendering
+keywords: Rendering
+task: Rendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwndDst
+- field_type: Pointer
+  field_name: hwndDstSprite
+- field_type: Pointer
+  field_name: hbmDst
+- field_type: UInt32
+  field_name: DstLeft
+- field_type: UInt32
+  field_name: DstTop
+- field_type: UInt32
+  field_name: DstRight
+- field_type: UInt32
+  field_name: DstBottom
+- field_type: Pointer
+  field_name: hwndSrc
+- field_type: Pointer
+  field_name: hwndSrcSprite
+- field_type: Pointer
+  field_name: hbmSrc
+- field_type: UInt32
+  field_name: SrcLeft
+- field_type: UInt32
+  field_name: SrcTop
+- field_type: UInt32
+  field_name: SrcRight
+- field_type: UInt32
+  field_name: SrcBottom

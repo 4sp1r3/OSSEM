@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '16'
+version: '0'
+event(fields): ATLAS_ALLOCATE(UInt64 Id, UInt32 Width, UInt32 Height, UInt32 BitDepth,
+  Boolean IsTexturingAtlas, UInt32 ChannelHandle, UInt32 PixelFormat)
+opcode: ''
+keywords: DCompDiagnostic DCompMemory
+task: ATLAS_ALLOCATE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: BitDepth
+- field_type: Boolean
+  field_name: IsTexturingAtlas
+- field_type: UInt32
+  field_name: ChannelHandle
+- field_type: UInt32
+  field_name: PixelFormat

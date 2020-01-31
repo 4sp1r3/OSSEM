@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5154'
+version: '0'
+event(fields): UdwmSystemAnimation5154(Pointer hwnd, Int32 left, Int32 top, Int32
+  right, Int32 bottom, UInt32 HRESULT)
+opcode: ''
+keywords: Udwm
+task: UdwmSystemAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwnd
+- field_type: Int32
+  field_name: left
+- field_type: Int32
+  field_name: top
+- field_type: Int32
+  field_name: right
+- field_type: Int32
+  field_name: bottom
+- field_type: UInt32
+  field_name: HRESULT

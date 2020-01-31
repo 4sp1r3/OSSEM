@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10044'
+version: '0'
+event(fields): task_010044(Pointer ContextHandle, GUID AdapterGuid, UInt32 SessionId)
+opcode: ''
+keywords: AssocMgr
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextHandle
+- field_type: GUID
+  field_name: AdapterGuid
+- field_type: UInt32
+  field_name: SessionId

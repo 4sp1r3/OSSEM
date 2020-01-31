@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1231'
+version: '0'
+event(fields): RssPortChange(UInt32 AdapterIndex, UInt32 InterfaceIndex, UInt32 PortNumber,
+  UInt32 Bind)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis ut:Rss ut:Global
+task: RssPortChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterIndex
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt32
+  field_name: Bind

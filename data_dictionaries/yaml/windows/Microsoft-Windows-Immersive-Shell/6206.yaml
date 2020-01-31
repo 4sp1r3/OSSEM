@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6206'
+version: '0'
+event(fields): AccessibilityDocking_UndockWindowStart()
+opcode: Start
+keywords: ''
+task: AccessibilityDocking_UndockWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Sensors-Core-Performance
+event_id: '1020'
+version: '0'
+event(fields): CxToNativeReadTransferTaskStop()
+opcode: Stop
+keywords: ''
+task: CxToNativeReadTransferTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-WebIO
+event_id: '213'
+version: '0'
+event(fields): ConnectionSocketSendStart(Pointer Connection, Pointer DataChunks, UInt64
+  SocketHandle, Pointer Buffer, Pointer Context, UInt32 Error, UInt64 Information)
+opcode: Start
+keywords: Keyword.SEND
+task: ConnectionSocketSend
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: UInt64
+  field_name: SocketHandle
+- field_type: Pointer
+  field_name: Buffer
+- field_type: Pointer
+  field_name: Context
+- field_type: UInt32
+  field_name: Error
+- field_type: UInt64
+  field_name: Information

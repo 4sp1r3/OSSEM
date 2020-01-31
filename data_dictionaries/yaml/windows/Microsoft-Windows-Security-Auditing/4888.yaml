@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4888'
+version: '0'
+event(fields): task_04888(UnicodeString RequestId, UnicodeString Requester, UnicodeString
+  Attributes, UnicodeString Disposition, UnicodeString SubjectKeyIdentifier, UnicodeString
+  Subject)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RequestId
+- field_type: UnicodeString
+  field_name: Requester
+- field_type: UnicodeString
+  field_name: Attributes
+- field_type: UnicodeString
+  field_name: Disposition
+- field_type: UnicodeString
+  field_name: SubjectKeyIdentifier
+- field_type: UnicodeString
+  field_name: Subject

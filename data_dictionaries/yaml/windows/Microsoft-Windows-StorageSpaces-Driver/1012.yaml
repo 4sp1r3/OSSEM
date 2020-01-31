@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1012'
+version: '0'
+event(fields): task_01012(GUID ConfigId, UInt32 ScmCount, UInt32 SsdCount, UInt32
+  HddCount, UInt32 TotalCount, UInt32 AddCount, UInt32 RemoveCount, UnicodeString
+  DriveIds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConfigId
+- field_type: UInt32
+  field_name: ScmCount
+- field_type: UInt32
+  field_name: SsdCount
+- field_type: UInt32
+  field_name: HddCount
+- field_type: UInt32
+  field_name: TotalCount
+- field_type: UInt32
+  field_name: AddCount
+- field_type: UInt32
+  field_name: RemoveCount
+- field_type: UnicodeString
+  field_name: DriveIds

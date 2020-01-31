@@ -1,0 +1,25 @@
+provider: Microsoft-JScript
+event_id: '97'
+version: '0'
+event(fields): Jscript_Method_JitStop_45_18(UInt32 MethodID, UnicodeString MethodName,
+  Pointer ScriptContext, UInt32 InterpretedCount, Pointer MethodStartAddress, UInt64
+  MethodSize)
+opcode: Stop_45_18
+keywords: JscriptJit
+task: Jscript_Method_Jit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MethodID
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: Pointer
+  field_name: ScriptContext
+- field_type: UInt32
+  field_name: InterpretedCount
+- field_type: Pointer
+  field_name: MethodStartAddress
+- field_type: UInt64
+  field_name: MethodSize

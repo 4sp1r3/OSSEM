@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '511'
+version: '0'
+event(fields): Mshtml_Animations_HighQualityScale_Limited()
+opcode: ''
+keywords: animation
+task: Mshtml_Animations_HighQualityScale_Limited
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

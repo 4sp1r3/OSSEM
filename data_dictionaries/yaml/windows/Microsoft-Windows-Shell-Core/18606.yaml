@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18606'
+version: '0'
+event(fields): Shell32_MountPoint_SHHardwareEvent_DeviceRemovedStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_MountPoint_SHHardwareEvent_DeviceRemoved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

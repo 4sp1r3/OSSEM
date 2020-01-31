@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2132'
+version: '0'
+event(fields): PerfTrack_Picker_Launch_Open_Tile_ViewCompleteStart(UnicodeString AppID,
+  UnicodeString PackageName)
+opcode: Start
+keywords: ''
+task: PerfTrack_Picker_Launch_Open_Tile_ViewComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UnicodeString
+  field_name: PackageName

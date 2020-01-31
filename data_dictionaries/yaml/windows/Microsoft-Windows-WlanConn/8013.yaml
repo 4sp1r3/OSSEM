@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WlanConn
+event_id: '8013'
+version: '0'
+event(fields): WisprStop8013()
+opcode: Stop
+keywords: ''
+task: Wispr
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

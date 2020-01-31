@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '178'
+version: '0'
+event(fields): DLM_DownloadWindow_ShowStop()
+opcode: Stop
+keywords: primarynav
+task: DLM_DownloadWindow_Show
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

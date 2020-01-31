@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '47003'
+version: '1'
+event(fields): ShellExtensionsManifestWriteStop_V1()
+opcode: Stop
+keywords: ''
+task: ShellExtensionsManifestWrite
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MUI
+event_id: '2012'
+version: '0'
+event(fields): MUIresourcecachebuilderBuildresourcecache(UInt32 ErrorCode)
+opcode: Buildresourcecache
+keywords: ''
+task: MUIresourcecachebuilder
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

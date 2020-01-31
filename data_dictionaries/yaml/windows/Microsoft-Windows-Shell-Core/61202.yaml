@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61202'
+version: '0'
+event(fields): Shell32_SyncIntegration_Manager_InitializeStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_SyncIntegration_Manager_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ESE
+event_id: '128'
+version: '0'
+event(fields): ESE_TimerQueueCancel_Trace(Pointer pfnTask, Pointer pvTaskContext)
+opcode: ''
+keywords: Task
+task: ESE_TimerQueueCancel_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pfnTask
+- field_type: Pointer
+  field_name: pvTaskContext

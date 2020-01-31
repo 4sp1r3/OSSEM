@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-Kernel-General
+event_id: '23'
+version: '0'
+event(fields): VsmPerformanceData(UInt64 VsmCleanupTime, UInt64 Mark0, UInt64 Mark1,
+  UInt64 Mark2, UInt64 Mark3, UInt64 Mark4, UInt64 Mark5, UInt64 Mark6, UInt64 Mark7)
+opcode: ''
+keywords: BootPerformance
+task: VsmPerformanceData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: VsmCleanupTime
+- field_type: UInt64
+  field_name: Mark0
+- field_type: UInt64
+  field_name: Mark1
+- field_type: UInt64
+  field_name: Mark2
+- field_type: UInt64
+  field_name: Mark3
+- field_type: UInt64
+  field_name: Mark4
+- field_type: UInt64
+  field_name: Mark5
+- field_type: UInt64
+  field_name: Mark6
+- field_type: UInt64
+  field_name: Mark7

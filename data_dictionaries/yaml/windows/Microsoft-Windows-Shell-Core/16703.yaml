@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16703'
+version: '0'
+event(fields): ShellItem_GetPropertyStoreForKeysStop()
+opcode: Stop
+keywords: Properties
+task: ShellItem_GetPropertyStoreForKeys
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

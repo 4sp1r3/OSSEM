@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4606'
+version: '0'
+event(fields): CONVERSATION_MSGPROPDELETEStart()
+opcode: Start
+keywords: Performance
+task: CONVERSATION_MSGPROPDELETE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '183'
+version: '0'
+event(fields): MediaFoundationPresent_HistoryRecordStop(Pointer object, Pointer pRecord,
+  Int64 PresentCount, Int32 ListCount)
+opcode: Stop
+keywords: ''
+task: MediaFoundationPresent_HistoryRecord
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: pRecord
+- field_type: Int64
+  field_name: PresentCount
+- field_type: Int32
+  field_name: ListCount

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '899'
+version: '0'
+event(fields): task_0899()
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

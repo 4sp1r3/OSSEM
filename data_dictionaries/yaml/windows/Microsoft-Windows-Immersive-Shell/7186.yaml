@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7186'
+version: '0'
+event(fields): ConnectedSearch_AppBarClickStart()
+opcode: Start
+keywords: ''
+task: ConnectedSearch_AppBarClick
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

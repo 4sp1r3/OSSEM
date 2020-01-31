@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Mprddm
+event_id: '2'
+version: '0'
+event(fields): None2(Pointer connectionID, UnicodeString userName, UnicodeString remoteIPv4Address,
+  UnicodeString remoteIPv6Address, UnicodeString ispAddress, UnicodeString portName,
+  UInt64 bytesIn, UInt64 bytesOut, FILETIME disconnectTime, UInt32 isS2SConnection)
+opcode: ''
+keywords: ''
+task: None
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: connectionID
+- field_type: UnicodeString
+  field_name: userName
+- field_type: UnicodeString
+  field_name: remoteIPv4Address
+- field_type: UnicodeString
+  field_name: remoteIPv6Address
+- field_type: UnicodeString
+  field_name: ispAddress
+- field_type: UnicodeString
+  field_name: portName
+- field_type: UInt64
+  field_name: bytesIn
+- field_type: UInt64
+  field_name: bytesOut
+- field_type: FILETIME
+  field_name: disconnectTime
+- field_type: UInt32
+  field_name: isS2SConnection

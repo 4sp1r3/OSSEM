@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '13008'
+version: '0'
+event(fields): NamespaceControl_RenderingStop()
+opcode: Stop
+keywords: Shell
+task: NamespaceControl_Rendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

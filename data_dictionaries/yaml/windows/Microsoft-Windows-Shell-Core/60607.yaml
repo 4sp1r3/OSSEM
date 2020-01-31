@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60607'
+version: '0'
+event(fields): ItemsView_UIItemsView_EndBatching()
+opcode: ''
+keywords: Shell
+task: ItemsView_UIItemsView_EndBatching
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

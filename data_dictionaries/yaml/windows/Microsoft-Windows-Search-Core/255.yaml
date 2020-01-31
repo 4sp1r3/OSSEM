@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '255'
+version: '0'
+event(fields): CSearchScopeRule_get_IsIncluded(UInt32 hr, Boolean Value)
+opcode: ''
+keywords: CSM
+task: CSearchScopeRule_get_IsIncluded
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr
+- field_type: Boolean
+  field_name: Value

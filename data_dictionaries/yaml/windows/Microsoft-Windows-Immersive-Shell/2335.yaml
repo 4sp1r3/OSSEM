@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2335'
+version: '0'
+event(fields): Launcher_ScenarioStart(UInt32 ScenarioId, UnicodeString ScenarioName)
+opcode: Start
+keywords: ''
+task: Launcher_Scenario
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScenarioId
+- field_type: UnicodeString
+  field_name: ScenarioName

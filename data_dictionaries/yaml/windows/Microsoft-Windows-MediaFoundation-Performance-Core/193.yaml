@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '193'
+version: '0'
+event(fields): AudEngineStream_CMFPump_DoWork_TaskAudEngineStream_CMFPump_Schedule_RetryDoWork(Pointer
+  object)
+opcode: AudEngineStream_CMFPump_Schedule_RetryDoWork
+keywords: ''
+task: AudEngineStream_CMFPump_DoWork_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

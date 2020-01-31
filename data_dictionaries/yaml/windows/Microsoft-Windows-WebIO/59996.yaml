@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebIO
+event_id: '59996'
+version: '0'
+event(fields): ThreadActionQueue(Pointer Context, UInt32 EtwQueueActionType)
+opcode: Queue
+keywords: ''
+task: ThreadAction
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Context
+- field_type: UInt32
+  field_name: EtwQueueActionType

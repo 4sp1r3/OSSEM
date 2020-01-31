@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '165'
+version: '0'
+event(fields): MediaEngineGetPresentStats(Pointer object, UInt32 hr, Int32 PresentCount,
+  Int32 PresentRefreshCount, Int32 SyncRefreshCount, UInt64 SyncQPC_us, Int32 CompMode,
+  Int32 Duration)
+opcode: ''
+keywords: ''
+task: MediaEngineGetPresentStats
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: hr
+- field_type: Int32
+  field_name: PresentCount
+- field_type: Int32
+  field_name: PresentRefreshCount
+- field_type: Int32
+  field_name: SyncRefreshCount
+- field_type: UInt64
+  field_name: SyncQPC_us
+- field_type: Int32
+  field_name: CompMode
+- field_type: Int32
+  field_name: Duration

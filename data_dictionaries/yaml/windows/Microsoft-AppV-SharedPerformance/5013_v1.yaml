@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '5013'
+version: '1'
+event(fields): ControllerUserLogonStart_V1(UInt32 SessionID)
+opcode: Start
+keywords: ''
+task: ControllerUserLogon
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionID

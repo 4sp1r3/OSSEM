@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '6'
+version: '0'
+event(fields): BackOff_MemStop()
+opcode: Stop
+keywords: ''
+task: BackOff_Mem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

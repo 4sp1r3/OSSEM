@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '819'
+version: '0'
+event(fields): AppXDeployment.Task.Server.AppxAllUserStore819(UnicodeString InstallPackageList,
+  UnicodeString EndOfLifePackageList)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.AppxAllUserStore
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InstallPackageList
+- field_type: UnicodeString
+  field_name: EndOfLifePackageList

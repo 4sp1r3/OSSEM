@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '442'
+version: '0'
+event(fields): Mshtml_TouchSelection_CaretShown()
+opcode: ''
+keywords: mshtml touch
+task: Mshtml_TouchSelection_CaretShown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

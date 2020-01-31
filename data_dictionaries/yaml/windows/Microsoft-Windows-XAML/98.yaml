@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '98'
+version: '0'
+event(fields): DrawFrameRateCounterStart()
+opcode: Start
+keywords: Rendering
+task: DrawFrameRateCounter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

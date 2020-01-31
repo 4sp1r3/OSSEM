@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60661'
+version: '0'
+event(fields): Shell32_CWallpaperWindow_CaptureWallpaper(UInt32 HRESULT)
+opcode: ''
+keywords: Shell
+task: Shell32_CWallpaperWindow_CaptureWallpaper
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

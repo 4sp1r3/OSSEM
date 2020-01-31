@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-QoS-Pacer
+event_id: '11'
+version: '0'
+event(fields): task_011(UInt64 CurrentTime, UInt32 BytesSent, UInt32 BytesDropped,
+  UInt32 NewSendWindow, UInt32 MinSendWindow, UInt32 Weight, Int64 SBytesRequested,
+  UInt32 DropRate, UInt64 IdleIntervals, UInt32 RcSendWindow, UInt32 RcEpisodeLength,
+  UInt32 RcStatMuxFactor, UInt32 RcExitThreshold, UInt32 AverageMaxBytesRequested)
+opcode: ''
+keywords: ut:SendPath
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CurrentTime
+- field_type: UInt32
+  field_name: BytesSent
+- field_type: UInt32
+  field_name: BytesDropped
+- field_type: UInt32
+  field_name: NewSendWindow
+- field_type: UInt32
+  field_name: MinSendWindow
+- field_type: UInt32
+  field_name: Weight
+- field_type: Int64
+  field_name: SBytesRequested
+- field_type: UInt32
+  field_name: DropRate
+- field_type: UInt64
+  field_name: IdleIntervals
+- field_type: UInt32
+  field_name: RcSendWindow
+- field_type: UInt32
+  field_name: RcEpisodeLength
+- field_type: UInt32
+  field_name: RcStatMuxFactor
+- field_type: UInt32
+  field_name: RcExitThreshold
+- field_type: UInt32
+  field_name: AverageMaxBytesRequested

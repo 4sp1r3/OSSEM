@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10069'
+version: '0'
+event(fields): Bind10069(UInt32 Layer, UnicodeString ProtocolName, UnicodeString DeviceName)
+opcode: ''
+keywords: Bind ut:Global
+task: Bind
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Layer
+- field_type: UnicodeString
+  field_name: ProtocolName
+- field_type: UnicodeString
+  field_name: DeviceName

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '8194'
+version: '0'
+event(fields): RemoveaSecurityCatalogfromtheCatalogDatabaseStart(UnicodeString Subsystem,
+  UnicodeString FileName)
+opcode: Start
+keywords: Catalog
+task: RemoveaSecurityCatalogfromtheCatalogDatabase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Subsystem
+- field_type: UnicodeString
+  field_name: FileName

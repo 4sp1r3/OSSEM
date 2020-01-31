@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SystemEventsBroker
+event_id: '16'
+version: '1'
+event(fields): SebEventDelete_V1(GUID BrokeredEventId)
+opcode: Delete
+keywords: TraceSebEvent
+task: SebEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BrokeredEventId

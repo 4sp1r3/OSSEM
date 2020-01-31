@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-LiveDump
+event_id: '251'
+version: '0'
+event(fields): LiveDumpDiscardDeferredDumpDataAPIAPIStart()
+opcode: APIStart
+keywords: ''
+task: LiveDumpDiscardDeferredDumpDataAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

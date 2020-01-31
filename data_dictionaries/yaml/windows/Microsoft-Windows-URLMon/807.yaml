@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-URLMon
+event_id: '807'
+version: '0'
+event(fields): URLMON_CINet_Binding(Pointer CInet, Pointer Binding)
+opcode: ''
+keywords: URLMON_KEYWORD URLMON_KEYWORD_HTTPDIAG
+task: URLMON_CINet_Binding
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CInet
+- field_type: Pointer
+  field_name: Binding

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3049'
+version: '1'
+event(fields): PublishFromServerStart_V1()
+opcode: Start
+keywords: ''
+task: PublishFromServer
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

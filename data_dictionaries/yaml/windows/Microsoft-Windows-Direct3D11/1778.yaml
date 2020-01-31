@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1778'
+version: '0'
+event(fields): ID3D11VideoContext_VideoProcessorBltStart(Pointer pThis, Pointer pVideoProcessor,
+  Pointer pView, UInt32 OutputFrame, UInt32 StreamCount, UInt16 pStreamsTID_D3D11_VIDEO_PROCESSOR_STREAM)
+opcode: Start
+keywords: ''
+task: ID3D11VideoContext_VideoProcessorBlt
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pVideoProcessor
+- field_type: Pointer
+  field_name: pView
+- field_type: UInt32
+  field_name: OutputFrame
+- field_type: UInt32
+  field_name: StreamCount
+- field_type: UInt16
+  field_name: pStreamsTID_D3D11_VIDEO_PROCESSOR_STREAM

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7137'
+version: '0'
+event(fields): Perf_WLRoamCreateAppBackupFolderStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamCreateAppBackupFolder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

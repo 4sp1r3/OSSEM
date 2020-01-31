@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4511'
+version: '0'
+event(fields): Platform:Shutdown(Pointer Platform)
+opcode: ''
+keywords: DiagTrack
+task: Platform:Shutdown
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Platform

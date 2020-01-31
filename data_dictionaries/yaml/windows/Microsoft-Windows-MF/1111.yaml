@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MF
+event_id: '1111'
+version: '0'
+event(fields): MediaFoundationIMFSampleProtection_InitInputProtection(UInt32 version,
+  UInt32 streamId, HexInt32 hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationIMFSampleProtection_InitInputProtection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: version
+- field_type: UInt32
+  field_name: streamId
+- field_type: HexInt32
+  field_name: hr

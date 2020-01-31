@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors-Core-Performance
+event_id: '1014'
+version: '0'
+event(fields): CxToNativeIoctlTransferTaskStop(UInt32 IoctlType)
+opcode: Stop
+keywords: ''
+task: CxToNativeIoctlTransferTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IoctlType

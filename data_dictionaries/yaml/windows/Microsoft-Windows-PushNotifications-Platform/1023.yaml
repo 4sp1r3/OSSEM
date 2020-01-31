@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1023'
+version: '0'
+event(fields): task_01023(UnicodeString WorkItemName)
+opcode: ''
+keywords: wpnconn wpntroubleshoot wpndebug_connectivity wpndebug_connectivity_isConnected
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: WorkItemName

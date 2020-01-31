@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1354'
+version: '0'
+event(fields): TcpSackUpdate(Pointer Tcb, UInt32 SndUna, UInt32 SndMax, UInt32 SackCount,
+  UInt32 SackBytes, UInt32 SackInFlight, UInt32 SackIsLost)
+opcode: ''
+keywords: ut:TcpipDiagnosis
+task: TcpSackUpdate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: SndUna
+- field_type: UInt32
+  field_name: SndMax
+- field_type: UInt32
+  field_name: SackCount
+- field_type: UInt32
+  field_name: SackBytes
+- field_type: UInt32
+  field_name: SackInFlight
+- field_type: UInt32
+  field_name: SackIsLost

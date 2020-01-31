@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Audio
+event_id: '4'
+version: '0'
+event(fields): AudioServer_Fail_AudioDG_Crashed(UInt32 dwAudioDgTerminationCode)
+opcode: ''
+keywords: ''
+task: AudioServer_Fail_AudioDG_Crashed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwAudioDgTerminationCode

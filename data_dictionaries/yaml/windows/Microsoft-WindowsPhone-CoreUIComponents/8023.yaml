@@ -1,0 +1,29 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '8023'
+version: '0'
+event(fields): SessionLayerNavigateToView(UInt32 appLayer, UInt32 unParam, UInt32
+  currentState, UInt32 targetState, UInt32 direction, UInt32 reason, UnicodeString
+  pwsz, Boolean firstActivation)
+opcode: ''
+keywords: NavigationPerformanceTriggers SessionLayer
+task: SessionLayerNavigateToView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: appLayer
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: currentState
+- field_type: UInt32
+  field_name: targetState
+- field_type: UInt32
+  field_name: direction
+- field_type: UInt32
+  field_name: reason
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: Boolean
+  field_name: firstActivation

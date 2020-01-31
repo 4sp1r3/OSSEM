@@ -1,0 +1,19 @@
+provider: Windows Kernel Trace
+category: '{ae53722e-c863-11d2-8659-00c04fa321a1}'
+event_id: '30'
+version: '2'
+event(fields): Registry_TxR(Object TxrGUID, UInt32 Status, UInt32 UowCount, UInt64
+  OperationTime, String Hive)
+event_type: ''
+description: ''
+event_fields:
+- field_type: Object
+  field_name: TxrGUID
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: UowCount
+- field_type: UInt64
+  field_name: OperationTime
+- field_type: String
+  field_name: Hive

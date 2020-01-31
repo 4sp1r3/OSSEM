@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-USB-UCX
+event_id: '25'
+version: '0'
+event(fields): URB_FUNCTION_CONTROL_TRANSFER_EXStop25(Pointer fid_UcxController, Pointer
+  fid_UsbDevice, Pointer fid_PipeHandle, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr,
+  Int64 fid_UCX_URB_CONTROL_TRANSFER_EX, UInt32 fid_IRP_NtStatus, UInt16 fid_URB_TransferDataLength,
+  UInt8 fid_URB_TransferData)
+opcode: Stop
+keywords: PartialDataBusTrace FullDataBusTrace
+task: URB_FUNCTION_CONTROL_TRANSFER_EX
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Pointer
+  field_name: fid_PipeHandle
+- field_type: Pointer
+  field_name: fid_IRP_Ptr
+- field_type: Pointer
+  field_name: fid_URB_Ptr
+- field_type: Int64
+  field_name: fid_UCX_URB_CONTROL_TRANSFER_EX
+- field_type: UInt32
+  field_name: fid_IRP_NtStatus
+- field_type: UInt16
+  field_name: fid_URB_TransferDataLength
+- field_type: UInt8
+  field_name: fid_URB_TransferData

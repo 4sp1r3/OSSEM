@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '53'
+version: '0'
+event(fields): DWMRedirection(Pointer pIDXGISwapChain, Boolean NewRedirected)
+opcode: ''
+keywords: Events
+task: DWMRedirection
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: Boolean
+  field_name: NewRedirected

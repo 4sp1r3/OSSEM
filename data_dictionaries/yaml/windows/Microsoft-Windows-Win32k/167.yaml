@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Win32k
+event_id: '167'
+version: '0'
+event(fields): ReleaseUserCrit(UInt64 HoldQpcCounts, UInt32 HoldTimeMs, UInt64 Token)
+opcode: ''
+keywords: Contention
+task: ReleaseUserCrit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: HoldQpcCounts
+- field_type: UInt32
+  field_name: HoldTimeMs
+- field_type: UInt64
+  field_name: Token

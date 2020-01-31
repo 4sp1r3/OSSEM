@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '124'
+version: '0'
+event(fields): Tutorial_Step()
+opcode: ''
+keywords: PerfInstrumentation
+task: Tutorial_Step
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Directory-Services-SAM
+event_id: '16969'
+version: '0'
+event(fields): task_016969(UInt32 Throttlewindow, UInt32 SuppressedMessageCount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Throttlewindow
+- field_type: UInt32
+  field_name: SuppressedMessageCount

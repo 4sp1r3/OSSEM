@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4774'
+version: '0'
+event(fields): task_04774(UnicodeString MappingBy, UnicodeString ClientUserName, UnicodeString
+  MappedName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MappingBy
+- field_type: UnicodeString
+  field_name: ClientUserName
+- field_type: UnicodeString
+  field_name: MappedName

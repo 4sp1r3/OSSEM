@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WinQuic
+event_id: '1005'
+version: '0'
+event(fields): task_01005(Pointer Connection, UInt32 SlowStartThreshold, UInt32 K,
+  UInt32 WindowMax, UInt32 WindowLastMax)
+opcode: ''
+keywords: ut:Connection ut:DataFlow
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: UInt32
+  field_name: SlowStartThreshold
+- field_type: UInt32
+  field_name: K
+- field_type: UInt32
+  field_name: WindowMax
+- field_type: UInt32
+  field_name: WindowLastMax

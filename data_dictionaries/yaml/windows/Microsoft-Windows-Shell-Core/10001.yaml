@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '10001'
+version: '0'
+event(fields): ExplorerTemplates_ChangeNotifyStart()
+opcode: Start
+keywords: Shell
+task: ExplorerTemplates_ChangeNotify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

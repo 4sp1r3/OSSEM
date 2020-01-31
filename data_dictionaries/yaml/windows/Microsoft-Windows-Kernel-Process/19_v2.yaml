@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '19'
+version: '2'
+event(fields): PsIoRateControlStart_V2(UInt32 JobID, Pointer IoRateControl, UInt64
+  MaxIops, UInt64 MaxBandwidth, UInt64 MaxTimePercent, UInt64 ReservationIops, UInt64
+  ReservationBandwidth, UInt64 ReservationTimePercent, UInt64 CriticalReservationIops,
+  UInt64 CriticalReservationBandwidth, UInt64 CriticalReservationTimePercent, UInt64
+  SoftMaxIops, UInt64 SoftMaxBandwidth, UInt64 SoftMaxTimePercent, UInt32 ControlFlags,
+  UnicodeString VolumeName, UInt32 StatusCode)
+opcode: Start
+keywords: WINEVENT_KEYWORD_JOB_IO
+task: PsIoRateControl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobID
+- field_type: Pointer
+  field_name: IoRateControl
+- field_type: UInt64
+  field_name: MaxIops
+- field_type: UInt64
+  field_name: MaxBandwidth
+- field_type: UInt64
+  field_name: MaxTimePercent
+- field_type: UInt64
+  field_name: ReservationIops
+- field_type: UInt64
+  field_name: ReservationBandwidth
+- field_type: UInt64
+  field_name: ReservationTimePercent
+- field_type: UInt64
+  field_name: CriticalReservationIops
+- field_type: UInt64
+  field_name: CriticalReservationBandwidth
+- field_type: UInt64
+  field_name: CriticalReservationTimePercent
+- field_type: UInt64
+  field_name: SoftMaxIops
+- field_type: UInt64
+  field_name: SoftMaxBandwidth
+- field_type: UInt64
+  field_name: SoftMaxTimePercent
+- field_type: UInt32
+  field_name: ControlFlags
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UInt32
+  field_name: StatusCode

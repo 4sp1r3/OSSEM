@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '140'
+version: '0'
+event(fields): PersistMemoryPartitionStart(GUID Identifier)
+opcode: Start
+keywords: SoftRestart MemoryPreservation
+task: PersistMemoryPartition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Identifier

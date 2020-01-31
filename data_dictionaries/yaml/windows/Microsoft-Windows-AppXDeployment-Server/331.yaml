@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '331'
+version: '0'
+event(fields): AppXDeployment.Task.Server.OSIM331(HexInt32 ErrorCode, UnicodeString
+  ErrorMessage, UnicodeString CategoryName)
+opcode: ''
+keywords: OSIM_KEYWORD
+task: AppXDeployment.Task.Server.OSIM
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: CategoryName

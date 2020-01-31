@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '27'
+version: '0'
+event(fields): StateModel_KeyActionStart()
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: StateModel_KeyAction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

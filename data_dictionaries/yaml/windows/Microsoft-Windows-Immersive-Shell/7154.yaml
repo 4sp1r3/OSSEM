@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7154'
+version: '0'
+event(fields): ConnectedSearch_Settings_DeleteLocalHistory()
+opcode: ''
+keywords: ''
+task: ConnectedSearch_Settings_DeleteLocalHistory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

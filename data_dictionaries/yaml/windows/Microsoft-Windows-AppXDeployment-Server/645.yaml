@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '645'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment645(HexInt32 ErrorCode)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD keyword_400000000000
+task: AppXDeployment.Task.Server.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

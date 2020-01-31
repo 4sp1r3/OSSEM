@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Magnification
+event_id: '15'
+version: '0'
+event(fields): RecreateTexturesStart(UInt64 hWndLensCtx, UInt32 Width, UInt32 Height)
+opcode: Start
+keywords: Magnification
+task: RecreateTextures
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hWndLensCtx
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height

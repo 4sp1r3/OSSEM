@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '2'
+version: '0'
+event(fields): NinputWmPointerStop(UInt32 frameId)
+opcode: Stop
+keywords: ''
+task: NinputWmPointer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: frameId

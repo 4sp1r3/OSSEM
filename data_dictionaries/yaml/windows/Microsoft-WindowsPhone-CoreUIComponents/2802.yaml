@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2802'
+version: '0'
+event(fields): TimeoutInfo2802(UInt32 hex)
+opcode: ''
+keywords: TimeoutInfo
+task: TimeoutInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex

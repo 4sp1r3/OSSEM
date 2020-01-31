@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4016'
+version: '0'
+event(fields): FOLDER_DELETEMESSAGESStop()
+opcode: Stop
+keywords: Performance
+task: FOLDER_DELETEMESSAGES
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '12213'
+version: '0'
+event(fields): WWANConnectionConnectionProfile12213(GUID InterfaceGuid, Int32 ModemIdx,
+  UInt32 execIdx, UnicodeString profileName, UnicodeString IccID)
+opcode: ConnectionProfile
+keywords: LwtDiagnostic ProfileManagement keyword_400000000000
+task: WWANConnection
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: Int32
+  field_name: ModemIdx
+- field_type: UInt32
+  field_name: execIdx
+- field_type: UnicodeString
+  field_name: profileName
+- field_type: UnicodeString
+  field_name: IccID

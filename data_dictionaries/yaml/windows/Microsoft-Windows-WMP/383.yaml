@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMP
+event_id: '383'
+version: '0'
+event(fields): HME_InitCDSThreadStart(UnicodeString UDN, Pointer IUPnPDevice, UInt32
+  HRESULT)
+opcode: Start
+keywords: mediaplayer
+task: HME_InitCDSThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: Pointer
+  field_name: IUPnPDevice
+- field_type: UInt32
+  field_name: HRESULT

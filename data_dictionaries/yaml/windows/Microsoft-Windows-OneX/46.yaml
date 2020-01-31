@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-OneX
+event_id: '46'
+version: '0'
+event(fields): Supplicant46(UInt32 PortId, UInt32 TimeTaken)
+opcode: ''
+keywords: Supplicant ut:Authentication
+task: Supplicant
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId
+- field_type: UInt32
+  field_name: TimeTaken

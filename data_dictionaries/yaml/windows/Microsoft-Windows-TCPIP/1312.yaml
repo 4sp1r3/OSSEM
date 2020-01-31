@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1312'
+version: '0'
+event(fields): TcpDeplumbWakePattern(Pointer Tcb, UInt32 SystemReserved, UInt32 WolHandle,
+  UInt32 Status)
+opcode: ''
+keywords: ut:TcpipInterface ut:Global
+task: TcpDeplumbWakePattern
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: SystemReserved
+- field_type: UInt32
+  field_name: WolHandle
+- field_type: UInt32
+  field_name: Status

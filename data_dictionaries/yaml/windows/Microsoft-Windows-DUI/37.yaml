@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '37'
+version: '0'
+event(fields): DirectUI_ElementGetContentSizeStart()
+opcode: Start
+keywords: Default
+task: DirectUI_ElementGetContentSize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

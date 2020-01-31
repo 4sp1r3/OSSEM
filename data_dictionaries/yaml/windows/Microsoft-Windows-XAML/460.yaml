@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '460'
+version: '0'
+event(fields): WrapHwndStop()
+opcode: Stop
+keywords: Appmodel
+task: WrapHwnd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

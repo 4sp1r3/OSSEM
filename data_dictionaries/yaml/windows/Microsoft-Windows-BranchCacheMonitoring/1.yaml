@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BranchCacheMonitoring
+event_id: '1'
+version: '0'
+event(fields): task_0(UnicodeString Registrar, UInt32 Mode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Registrar
+- field_type: UInt32
+  field_name: Mode

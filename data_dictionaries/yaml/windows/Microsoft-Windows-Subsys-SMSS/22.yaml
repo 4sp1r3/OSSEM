@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Subsys-SMSS
+event_id: '22'
+version: '0'
+event(fields): smss:SerializeBootStop(UInt32 Status)
+opcode: Stop
+keywords: smss:Diagnostics
+task: smss:SerializeBoot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

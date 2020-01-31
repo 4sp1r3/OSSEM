@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '24688'
+version: '0'
+event(fields): ReleasedatafromTLCacheStart()
+opcode: Start
+keywords: Filter
+task: ReleasedatafromTLCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

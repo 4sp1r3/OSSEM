@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-General
+event_id: '18'
+version: '0'
+event(fields): SoftBootInfo(FILETIME TransitionStartTime, FILETIME CurrentTime, UInt32
+  SoftRestartCount)
+opcode: ''
+keywords: BootPerformance
+task: SoftBootInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: TransitionStartTime
+- field_type: FILETIME
+  field_name: CurrentTime
+- field_type: UInt32
+  field_name: SoftRestartCount

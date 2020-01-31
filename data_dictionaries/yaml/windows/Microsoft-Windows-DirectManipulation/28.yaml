@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '28'
+version: '0'
+event(fields): Manipulation_SetContactStart(UInt32 PointerId, Pointer RegionPointer)
+opcode: Start
+keywords: ''
+task: Manipulation_SetContact
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PointerId
+- field_type: Pointer
+  field_name: RegionPointer

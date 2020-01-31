@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18818'
+version: '0'
+event(fields): Shell32_ReadingPaneModule_LoadStart()
+opcode: Start
+keywords: Shell
+task: Shell32_ReadingPaneModule_Load
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

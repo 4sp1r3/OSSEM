@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '8'
+version: '0'
+event(fields): IrpStop(Pointer Irp, UInt32 Status, UnicodeString FailedDriver)
+opcode: Stop
+keywords: po:Performance
+task: Irp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: FailedDriver

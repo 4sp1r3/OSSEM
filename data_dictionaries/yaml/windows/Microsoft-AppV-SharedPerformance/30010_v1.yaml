@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30010'
+version: '1'
+event(fields): Unpublishing_3904Stop_V1()
+opcode: Stop
+keywords: ''
+task: Unpublishing_3904
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

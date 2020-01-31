@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1008'
+version: '0'
+event(fields): CellRPCHandler1008(UInt32 apmState)
+opcode: ''
+keywords: Trace
+task: CellRPCHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: apmState

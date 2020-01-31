@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-PDC
+event_id: '106'
+version: '0'
+event(fields): PpmProfileClientRegistration(Pointer Client, UInt32 PdcId, GUID ProfileGuid,
+  UInt32 Status, UInt32 ClientNameLength, UnicodeString ClientName)
+opcode: ''
+keywords: SPM
+task: PpmProfileClientRegistration
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: UInt32
+  field_name: PdcId
+- field_type: GUID
+  field_name: ProfileGuid
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName

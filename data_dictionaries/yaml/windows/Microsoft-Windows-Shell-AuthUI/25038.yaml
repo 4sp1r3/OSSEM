@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25038'
+version: '0'
+event(fields): Logon_LogonFrame_CreateStyleParserStop()
+opcode: Stop
+keywords: ''
+task: Logon_LogonFrame_CreateStyleParser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

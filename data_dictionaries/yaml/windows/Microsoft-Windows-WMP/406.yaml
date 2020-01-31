@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '406'
+version: '0'
+event(fields): WMPSyncTranscodeMatrixStart(UnicodeString SourceFile, Boolean IsDRM)
+opcode: Start
+keywords: mediaplayer
+task: WMPSyncTranscodeMatrix
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SourceFile
+- field_type: Boolean
+  field_name: IsDRM

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18600'
+version: '0'
+event(fields): Shell32_List_RemoveStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_List_Remove
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

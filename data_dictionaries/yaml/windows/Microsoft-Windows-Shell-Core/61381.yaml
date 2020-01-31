@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61381'
+version: '0'
+event(fields): FileAccessAPI_PropertyAccess_GetPropertiesStop(UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: FileAccessAPI_PropertyAccess_GetProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

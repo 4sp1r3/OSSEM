@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '121'
+version: '0'
+event(fields): RestrictedAppContainerTerminateAllStart(UnicodeString AppContainerName)
+opcode: Start
+keywords: AppContainer
+task: RestrictedAppContainerTerminateAll
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppContainerName

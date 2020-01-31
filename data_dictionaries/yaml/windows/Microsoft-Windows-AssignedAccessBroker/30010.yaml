@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AssignedAccessBroker
+event_id: '30010'
+version: '0'
+event(fields): ClosePowerRequestHandleTask(Boolean Result)
+opcode: ''
+keywords: ''
+task: ClosePowerRequestHandleTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Result

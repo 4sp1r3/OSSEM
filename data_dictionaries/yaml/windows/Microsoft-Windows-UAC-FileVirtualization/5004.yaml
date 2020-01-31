@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-UAC-FileVirtualization
+event_id: '5004'
+version: '0'
+event(fields): task_05004(UInt32 Flags, UInt32 SidLength, SID Sid, UInt16 FileNameLength,
+  UnicodeString FileNameBuffer, UInt16 ProcessImageNameLength, UnicodeString ProcessImageNameBuffer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: SidLength
+- field_type: SID
+  field_name: Sid
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer
+- field_type: UInt16
+  field_name: ProcessImageNameLength
+- field_type: UnicodeString
+  field_name: ProcessImageNameBuffer

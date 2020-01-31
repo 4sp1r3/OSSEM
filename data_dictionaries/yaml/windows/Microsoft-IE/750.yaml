@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '750'
+version: '0'
+event(fields): Mshtml_CSP_CheckPolicyStop(Pointer CContentSecurityPolicy, UInt32 ResourceDirectiveType,
+  Boolean Allowed)
+opcode: Stop
+keywords: mshtml
+task: Mshtml_CSP_CheckPolicy
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CContentSecurityPolicy
+- field_type: UInt32
+  field_name: ResourceDirectiveType
+- field_type: Boolean
+  field_name: Allowed

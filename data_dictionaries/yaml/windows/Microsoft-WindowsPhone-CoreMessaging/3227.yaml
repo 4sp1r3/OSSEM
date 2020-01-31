@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3227'
+version: '0'
+event(fields): Adapter_OnUserDispatchStart(UInt32 UserPriority)
+opcode: Start
+keywords: MessagingPerformance Dispatcher
+task: Adapter_OnUserDispatch
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UserPriority

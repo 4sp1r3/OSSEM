@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PDC
+event_id: '20'
+version: '0'
+event(fields): ResiliencyMessage(Pointer Message, UInt32 TransactionId, UInt32 ClientState,
+  UInt32 ClientStatus)
+opcode: ''
+keywords: clients
+task: ResiliencyMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Message
+- field_type: UInt32
+  field_name: TransactionId
+- field_type: UInt32
+  field_name: ClientState
+- field_type: UInt32
+  field_name: ClientStatus

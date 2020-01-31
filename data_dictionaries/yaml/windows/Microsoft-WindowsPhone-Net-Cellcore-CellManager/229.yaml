@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '229'
+version: '0'
+event(fields): CellService229(UInt32 DwordName, Int32 HResultName, UInt32 IccIdLength,
+  UInt8 IccId)
+opcode: ''
+keywords: Error
+task: CellService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName
+- field_type: Int32
+  field_name: HResultName
+- field_type: UInt32
+  field_name: IccIdLength
+- field_type: UInt8
+  field_name: IccId

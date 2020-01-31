@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1613'
+version: '0'
+event(fields): ShellTask_CDBurn_WizardThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_CDBurn_WizardThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

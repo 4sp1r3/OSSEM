@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '20'
+version: '0'
+event(fields): TransformCreation20()
+opcode: ''
+keywords: wcse:Lino
+task: TransformCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

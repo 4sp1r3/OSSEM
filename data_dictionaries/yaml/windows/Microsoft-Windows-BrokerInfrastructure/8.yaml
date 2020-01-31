@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '8'
+version: '0'
+event(fields): TriggerSignalStop(GUID EventId, UInt32 EventType)
+opcode: Stop
+keywords: BackgroundTask
+task: TriggerSignal
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: EventId
+- field_type: UInt32
+  field_name: EventType

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '235'
+version: '0'
+event(fields): MFCaptureEnginesampleprobe235(Pointer Sample, UInt64 SampleTimestamp,
+  UInt64 RefTimestamp)
+opcode: ''
+keywords: ''
+task: MFCaptureEnginesampleprobe
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Sample
+- field_type: UInt64
+  field_name: SampleTimestamp
+- field_type: UInt64
+  field_name: RefTimestamp

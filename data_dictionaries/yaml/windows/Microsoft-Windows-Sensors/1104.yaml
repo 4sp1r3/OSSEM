@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1104'
+version: '0'
+event(fields): SensorServiceresultsfromqueryingasensor(GUID SENSOR_ID, SYSTEMTIME
+  Timestamp, UInt32 HRESULT, Pointer ReportPointer, UInt32 SensorStateThisSensor,
+  UInt32 SensorStateAccumulated)
+opcode: ''
+keywords: SensPerf
+task: SensorServiceresultsfromqueryingasensor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SENSOR_ID
+- field_type: SYSTEMTIME
+  field_name: Timestamp
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: Pointer
+  field_name: ReportPointer
+- field_type: UInt32
+  field_name: SensorStateThisSensor
+- field_type: UInt32
+  field_name: SensorStateAccumulated

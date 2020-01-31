@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1007'
+version: '0'
+event(fields): MediaFoundationDispatchDelayedEventsStop(Pointer QueuePtr)
+opcode: Stop
+keywords: ''
+task: MediaFoundationDispatchDelayedEvents
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: QueuePtr

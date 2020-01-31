@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '8194'
+version: '1'
+event(fields): ConnectOBEUSEDWHENANOBJECTISCONSTRUCTEDobeusedwhenanobjectisconstructed8194_V1(UnicodeString
+  InstanceId, UnicodeString MaxRunspaces, UnicodeString MinRunspaces)
+opcode: tobeusedwhenanobjectisconstructed
+keywords: Runspace
+task: Connect
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InstanceId
+- field_type: UnicodeString
+  field_name: MaxRunspaces
+- field_type: UnicodeString
+  field_name: MinRunspaces

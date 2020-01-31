@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1150'
+version: '0'
+event(fields): MediaFoundationVideoFrameConstrict(UInt64 bandwidthInPixels)
+opcode: ''
+keywords: ''
+task: MediaFoundationVideoFrameConstrict
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: bandwidthInPixels

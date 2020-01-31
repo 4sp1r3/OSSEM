@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '2006'
+version: '1'
+event(fields): ClientStartup2006_V1(GUID Package, GUID Version)
+opcode: ''
+keywords: Startup Catalog
+task: ClientStartup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Package
+- field_type: GUID
+  field_name: Version

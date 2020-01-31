@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataUtils
+event_id: '502'
+version: '0'
+event(fields): task_0502(Int32 P1_Int32)
+opcode: ''
+keywords: Error keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: P1_Int32

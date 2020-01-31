@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5501'
+version: '0'
+event(fields): UI_RenderStart(UInt32 TabId)
+opcode: Start
+keywords: ui
+task: UI_Render
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabId

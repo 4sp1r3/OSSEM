@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UI-Input-Inking
+event_id: '34'
+version: '0'
+event(fields): Inking_IInkManager_OnPointerUpStop()
+opcode: Stop
+keywords: InkStrokeBuilding
+task: Inking_IInkManager_OnPointerUp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

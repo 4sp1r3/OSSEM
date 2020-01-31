@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-RPC-Events
+event_id: '11'
+version: '0'
+event(fields): task_011(UnicodeString ApplicationName, UnicodeString ProcessId, GUID
+  InterfaceId, Int32 Method)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApplicationName
+- field_type: UnicodeString
+  field_name: ProcessId
+- field_type: GUID
+  field_name: InterfaceId
+- field_type: Int32
+  field_name: Method

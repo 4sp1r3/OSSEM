@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '413'
+version: '0'
+event(fields): CompositorSetMedia(UInt64 ContentNodeId, UInt64 SwapchainHandle)
+opcode: ''
+keywords: Media
+task: CompositorSetMedia
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ContentNodeId
+- field_type: UInt64
+  field_name: SwapchainHandle

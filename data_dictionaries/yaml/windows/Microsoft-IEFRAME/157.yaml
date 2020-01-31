@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '157'
+version: '0'
+event(fields): Find_HighlightHitsStatus(UInt32 Status, UInt32 Count)
+opcode: ''
+keywords: primarynav
+task: Find_HighlightHitsStatus
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Count

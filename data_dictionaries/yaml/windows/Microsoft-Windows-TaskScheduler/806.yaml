@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '806'
+version: '0'
+event(fields): Maintenancetaskprocessingerror(UnicodeString Task, UInt32 InfoCode)
+opcode: ''
+keywords: ''
+task: Maintenancetaskprocessingerror
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Task
+- field_type: UInt32
+  field_name: InfoCode

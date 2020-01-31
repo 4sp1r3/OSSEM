@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TSF-msutb
+event_id: '7'
+version: '0'
+event(fields): HandleLanguageBarStatusChangeStart(UInt32 flags_current, UInt32 flags_new)
+opcode: Start
+keywords: Perf
+task: HandleLanguageBarStatusChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: flags_current
+- field_type: UInt32
+  field_name: flags_new

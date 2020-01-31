@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '126'
+version: '0'
+event(fields): Mshtml_FormatCalculation_ComputeFormatsStop(Pointer TreeNode, UInt32
+  NodeType)
+opcode: Stop
+keywords: verbose
+task: Mshtml_FormatCalculation_ComputeFormats
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TreeNode
+- field_type: UInt32
+  field_name: NodeType

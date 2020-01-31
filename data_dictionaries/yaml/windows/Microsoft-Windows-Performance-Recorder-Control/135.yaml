@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Performance-Recorder-Control
+event_id: '135'
+version: '0'
+event(fields): Perf_DisableBootTracingStop()
+opcode: Stop
+keywords: PerfStatus
+task: Perf_DisableBootTracing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

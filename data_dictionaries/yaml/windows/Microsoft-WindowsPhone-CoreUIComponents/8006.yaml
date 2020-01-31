@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '8006'
+version: '0'
+event(fields): SessionLayerSetActivationLevel(UInt32 appLayer, UInt32 activationLevel1,
+  UInt32 activationLevel2)
+opcode: ''
+keywords: SessionLayer
+task: SessionLayerSetActivationLevel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: appLayer
+- field_type: UInt32
+  field_name: activationLevel1
+- field_type: UInt32
+  field_name: activationLevel2

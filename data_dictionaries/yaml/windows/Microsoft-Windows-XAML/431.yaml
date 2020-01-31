@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '431'
+version: '0'
+event(fields): PageRotationSnapshotTaken()
+opcode: ''
+keywords: Rendering
+task: PageRotationSnapshotTaken
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

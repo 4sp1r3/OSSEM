@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1235'
+version: '0'
+event(fields): AppXDeployment.Task.Server.StagingManagerStart1235(UnicodeString PackageName,
+  UnicodeString Path)
+opcode: Start
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.StagingManager
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UnicodeString
+  field_name: Path

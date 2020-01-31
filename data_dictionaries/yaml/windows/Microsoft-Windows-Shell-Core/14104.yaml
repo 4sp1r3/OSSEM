@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14104'
+version: '0'
+event(fields): StatusBarModule_GetPropertiesWorkItemDispatchStop()
+opcode: Stop
+keywords: Shell
+task: StatusBarModule_GetPropertiesWorkItemDispatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

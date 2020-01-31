@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '256'
+version: '0'
+event(fields): OfferSystemMemorySurface(UnicodeString State)
+opcode: ''
+keywords: Rendering
+task: OfferSystemMemorySurface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: State

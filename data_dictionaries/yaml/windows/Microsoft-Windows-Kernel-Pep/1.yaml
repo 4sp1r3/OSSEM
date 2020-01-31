@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Pep
+event_id: '1'
+version: '0'
+event(fields): PepRailRundown(UInt32 VoltageRailId, UnicodeString VoltageRailName,
+  UInt32 CurrentVoltageMv, UInt32 MaxVoltageMv)
+opcode: ''
+keywords: popep:Power
+task: PepRailRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: VoltageRailId
+- field_type: UnicodeString
+  field_name: VoltageRailName
+- field_type: UInt32
+  field_name: CurrentVoltageMv
+- field_type: UInt32
+  field_name: MaxVoltageMv

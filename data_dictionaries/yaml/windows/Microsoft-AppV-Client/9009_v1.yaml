@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '9009'
+version: '1'
+event(fields): PowershellProcess_V1(UnicodeString Item)
+opcode: ''
+keywords: ClientManagement
+task: PowershellProcess
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Item

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '7217'
+version: '0'
+event(fields): task_07217(Boolean IsMachine, UInt32 ErrorCode, UInt32 LoadFromCacheTimeElapsedInMilliseconds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsMachine
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: LoadFromCacheTimeElapsedInMilliseconds

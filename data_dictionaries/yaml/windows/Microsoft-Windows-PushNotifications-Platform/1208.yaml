@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1208'
+version: '0'
+event(fields): ConnectionEstablishmentStop1208(UInt32 ConnectionType, Int32 ErrorCode)
+opcode: Stop
+keywords: wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage
+  wnptrans
+task: ConnectionEstablishment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ConnectionType
+- field_type: Int32
+  field_name: ErrorCode

@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4005'
+version: '0'
+event(fields): AfdRioResizeCqModified(Pointer Cq, UInt32 OriginalEntryCount, UInt32
+  OriginalStart, UInt32 OriginalEnd, UInt32 Commit, UInt32 RequestedEntryCount, Pointer
+  UserAddress, Pointer SystemAddress, UInt32 BufferSize, UInt32 Status)
+opcode: Modified
+keywords: AFD_KW_RIO
+task: AfdRioResizeCq
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Cq
+- field_type: UInt32
+  field_name: OriginalEntryCount
+- field_type: UInt32
+  field_name: OriginalStart
+- field_type: UInt32
+  field_name: OriginalEnd
+- field_type: UInt32
+  field_name: Commit
+- field_type: UInt32
+  field_name: RequestedEntryCount
+- field_type: Pointer
+  field_name: UserAddress
+- field_type: Pointer
+  field_name: SystemAddress
+- field_type: UInt32
+  field_name: BufferSize
+- field_type: UInt32
+  field_name: Status

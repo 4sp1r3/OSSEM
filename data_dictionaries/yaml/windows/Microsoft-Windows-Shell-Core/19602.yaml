@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19602'
+version: '0'
+event(fields): Shell32_ControlPanel_HomePage_InitStop()
+opcode: Stop
+keywords: Shell WDI
+task: Shell32_ControlPanel_HomePage_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

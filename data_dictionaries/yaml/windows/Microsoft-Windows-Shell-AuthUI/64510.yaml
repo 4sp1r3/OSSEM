@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '64510'
+version: '0'
+event(fields): LockScreenCallBroker_AppExited(GUID guid)
+opcode: ''
+keywords: ''
+task: LockScreenCallBroker_AppExited
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: guid

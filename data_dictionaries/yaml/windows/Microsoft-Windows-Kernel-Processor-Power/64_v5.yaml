@@ -1,0 +1,53 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '64'
+version: '5'
+event(fields): ProcessorPerformanceRundown_V5(UInt16 Group, UInt8 Number, Boolean
+  Parked, UInt32 BiosCap, UInt32 ThermalCap, UInt32 DesiredPerformance, UInt32 NominalFrequency,
+  UInt32 MinPercent, UInt32 MaxPercent, UInt32 TolerancePercent, UInt32 DeliveredPerformance,
+  UInt8 EfficiencyClass, UInt8 SchedulingClass, Boolean Autonomous, UInt32 EppPercent,
+  UInt32 ActivityWindow, UInt32 QosClass, UInt32 RelativePerformance, UInt8 EfficiencySchedulingClass)
+opcode: ''
+keywords: Diag PerfDiag
+task: ProcessorPerformanceRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: Boolean
+  field_name: Parked
+- field_type: UInt32
+  field_name: BiosCap
+- field_type: UInt32
+  field_name: ThermalCap
+- field_type: UInt32
+  field_name: DesiredPerformance
+- field_type: UInt32
+  field_name: NominalFrequency
+- field_type: UInt32
+  field_name: MinPercent
+- field_type: UInt32
+  field_name: MaxPercent
+- field_type: UInt32
+  field_name: TolerancePercent
+- field_type: UInt32
+  field_name: DeliveredPerformance
+- field_type: UInt8
+  field_name: EfficiencyClass
+- field_type: UInt8
+  field_name: SchedulingClass
+- field_type: Boolean
+  field_name: Autonomous
+- field_type: UInt32
+  field_name: EppPercent
+- field_type: UInt32
+  field_name: ActivityWindow
+- field_type: UInt32
+  field_name: QosClass
+- field_type: UInt32
+  field_name: RelativePerformance
+- field_type: UInt8
+  field_name: EfficiencySchedulingClass

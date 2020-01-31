@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1615'
+version: '0'
+event(fields): AppsFolderItemState_NotifyChange(UnicodeString AppID, Int32 Event)
+opcode: ''
+keywords: ''
+task: AppsFolderItemState_NotifyChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: Int32
+  field_name: Event

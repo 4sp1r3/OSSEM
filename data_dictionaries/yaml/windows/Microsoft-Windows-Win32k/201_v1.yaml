@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Win32k
+event_id: '201'
+version: '1'
+event(fields): TokenCompositionSurfaceObject_V1(Pointer pToken, Pointer pCompositionSurfaceObject,
+  UInt32 SwapChainIndex, UInt64 PresentCount, UInt64 CompositionSurfaceLuid, UInt64
+  BindId, UInt32 FlipInterval, UInt32 DestWidth, UInt32 DestHeight)
+opcode: ''
+keywords: Updates Visualization
+task: TokenCompositionSurfaceObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pToken
+- field_type: Pointer
+  field_name: pCompositionSurfaceObject
+- field_type: UInt32
+  field_name: SwapChainIndex
+- field_type: UInt64
+  field_name: PresentCount
+- field_type: UInt64
+  field_name: CompositionSurfaceLuid
+- field_type: UInt64
+  field_name: BindId
+- field_type: UInt32
+  field_name: FlipInterval
+- field_type: UInt32
+  field_name: DestWidth
+- field_type: UInt32
+  field_name: DestHeight

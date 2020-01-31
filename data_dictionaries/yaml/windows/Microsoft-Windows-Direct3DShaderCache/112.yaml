@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '112'
+version: '0'
+event(fields): FileError(UInt32 LastError, UInt32 FileType, UInt32 FileOp)
+opcode: ''
+keywords: Events
+task: FileError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LastError
+- field_type: UInt32
+  field_name: FileType
+- field_type: UInt32
+  field_name: FileOp

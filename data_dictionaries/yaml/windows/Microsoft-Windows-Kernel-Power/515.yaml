@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '515'
+version: '0'
+event(fields): SpmScenarioStart(GUID ScenarioGuid, UInt8 ScenarioInstanceId)
+opcode: ''
+keywords: po:SleepStudy
+task: SpmScenarioStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ScenarioGuid
+- field_type: UInt8
+  field_name: ScenarioInstanceId

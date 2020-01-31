@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SPB-HIDI2C
+event_id: '1001'
+version: '1'
+event(fields): EnumerationoftheHIDI2Cdriver1001_V1(Pointer DeviceObject, UInt32 Status)
+opcode: ''
+keywords: ''
+task: EnumerationoftheHIDI2Cdriver
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DeviceObject
+- field_type: UInt32
+  field_name: Status

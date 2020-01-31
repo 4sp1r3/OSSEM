@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '29'
+version: '0'
+event(fields): ETWGUID_PUSH_INTERNAL_LAYER_EVENTStart(UInt32 left, UInt32 top, UInt32
+  right, UInt32 bottom)
+opcode: Start
+keywords: DwmCore
+task: ETWGUID_PUSH_INTERNAL_LAYER_EVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: left
+- field_type: UInt32
+  field_name: top
+- field_type: UInt32
+  field_name: right
+- field_type: UInt32
+  field_name: bottom

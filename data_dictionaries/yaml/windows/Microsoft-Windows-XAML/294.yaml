@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '294'
+version: '0'
+event(fields): CompTreeCleanupVisual(UInt64 Node, UInt32 VisualIndex)
+opcode: ''
+keywords: DComp
+task: CompTreeCleanupVisual
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Node
+- field_type: UInt32
+  field_name: VisualIndex

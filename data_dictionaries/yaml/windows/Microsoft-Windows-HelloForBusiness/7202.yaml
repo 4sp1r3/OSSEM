@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7202'
+version: '0'
+event(fields): PrerequisitesCheckInformational7202()
+opcode: Informational
+keywords: Internal
+task: PrerequisitesCheck
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

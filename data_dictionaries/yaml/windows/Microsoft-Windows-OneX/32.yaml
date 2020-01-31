@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-OneX
+event_id: '32'
+version: '0'
+event(fields): Profile32(UInt8 EAPMethodType, UnicodeString AuthMode)
+opcode: ''
+keywords: Profile ut:Authentication
+task: Profile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: EAPMethodType
+- field_type: UnicodeString
+  field_name: AuthMode

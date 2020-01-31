@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2224'
+version: '0'
+event(fields): QuickShareTargetList_SaveQuickShareTargetStart()
+opcode: Start
+keywords: ''
+task: QuickShareTargetList_SaveQuickShareTarget
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

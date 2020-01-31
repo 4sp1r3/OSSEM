@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '61021'
+version: '0'
+event(fields): PicturePassword_EnrollmentHandlerGetEnrollmentGesturesStop(UInt32 DWORD1)
+opcode: Stop
+keywords: ''
+task: PicturePassword_EnrollmentHandlerGetEnrollmentGestures
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DWORD1

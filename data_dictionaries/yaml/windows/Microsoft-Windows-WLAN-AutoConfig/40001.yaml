@@ -1,0 +1,106 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '40001'
+version: '0'
+event(fields): AcmConnection40001(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UInt32 ConnectionMode, UnicodeString SSID, UInt32 BSSType, UInt32 AuthAlgo, UInt32
+  CipherAlgo, UInt32 OnexEnabled, UInt32 IHVBitmap, Boolean NonBroadcast, UnicodeString
+  PeerMAC, UInt32 WLANStatusCode, UInt32 DetailedStatusCode, UInt32 AssocDuration,
+  UInt32 AssocRestartCount, UInt32 AuthDuration, UInt32 AuthRestartCount, UnicodeString
+  DeviceID, UnicodeString DriverVersion, UnicodeString DriverService, Int32 RSSI,
+  Int32 SignalQualityPercentage, Int32 Channel, Int32 InterferingAPCount, Int32 TotalVisibleAPCount,
+  UnicodeString APPhyType, Int32 APMaxChannelWidth, AnsiString APDescription, AnsiString
+  APManufacturer, AnsiString APModelName, AnsiString APModelNum, UInt32 DetailedStatusCodeOnRoam,
+  Int32 RxRate, Int32 TxRate, Int32 EAPType, UnicodeString OneXAuthMode, Boolean HotSpot20IEPresent,
+  UnicodeString DeviceMfg, Int32 ProfileTypeUsed, UInt32 SystemRandomizationStatus,
+  UInt32 ProfileRandomizationStatus, SYSTEMTIME DriverDate)
+opcode: ''
+keywords: LwtDiagnostic Measures
+task: AcmConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UInt32
+  field_name: ConnectionMode
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UInt32
+  field_name: BSSType
+- field_type: UInt32
+  field_name: AuthAlgo
+- field_type: UInt32
+  field_name: CipherAlgo
+- field_type: UInt32
+  field_name: OnexEnabled
+- field_type: UInt32
+  field_name: IHVBitmap
+- field_type: Boolean
+  field_name: NonBroadcast
+- field_type: UnicodeString
+  field_name: PeerMAC
+- field_type: UInt32
+  field_name: WLANStatusCode
+- field_type: UInt32
+  field_name: DetailedStatusCode
+- field_type: UInt32
+  field_name: AssocDuration
+- field_type: UInt32
+  field_name: AssocRestartCount
+- field_type: UInt32
+  field_name: AuthDuration
+- field_type: UInt32
+  field_name: AuthRestartCount
+- field_type: UnicodeString
+  field_name: DeviceID
+- field_type: UnicodeString
+  field_name: DriverVersion
+- field_type: UnicodeString
+  field_name: DriverService
+- field_type: Int32
+  field_name: RSSI
+- field_type: Int32
+  field_name: SignalQualityPercentage
+- field_type: Int32
+  field_name: Channel
+- field_type: Int32
+  field_name: InterferingAPCount
+- field_type: Int32
+  field_name: TotalVisibleAPCount
+- field_type: UnicodeString
+  field_name: APPhyType
+- field_type: Int32
+  field_name: APMaxChannelWidth
+- field_type: AnsiString
+  field_name: APDescription
+- field_type: AnsiString
+  field_name: APManufacturer
+- field_type: AnsiString
+  field_name: APModelName
+- field_type: AnsiString
+  field_name: APModelNum
+- field_type: UInt32
+  field_name: DetailedStatusCodeOnRoam
+- field_type: Int32
+  field_name: RxRate
+- field_type: Int32
+  field_name: TxRate
+- field_type: Int32
+  field_name: EAPType
+- field_type: UnicodeString
+  field_name: OneXAuthMode
+- field_type: Boolean
+  field_name: HotSpot20IEPresent
+- field_type: UnicodeString
+  field_name: DeviceMfg
+- field_type: Int32
+  field_name: ProfileTypeUsed
+- field_type: UInt32
+  field_name: SystemRandomizationStatus
+- field_type: UInt32
+  field_name: ProfileRandomizationStatus
+- field_type: SYSTEMTIME
+  field_name: DriverDate

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDC
+event_id: '64'
+version: '0'
+event(fields): ExitFromConnectedStandbyStart(UInt32 ExitReason)
+opcode: ''
+keywords: Cs CsDiag
+task: ExitFromConnectedStandbyStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ExitReason

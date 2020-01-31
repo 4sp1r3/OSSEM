@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Documents
+event_id: '1800'
+version: '0'
+event(fields): DocPerf_Task_WinspoolFunctionStart(UInt32 OpNum, Pointer Handle)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_WinspoolFunction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OpNum
+- field_type: Pointer
+  field_name: Handle

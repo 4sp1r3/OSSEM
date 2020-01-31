@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '133'
+version: '0'
+event(fields): MediaFoundationVisible133(UInt32 id, Int32 priority)
+opcode: ''
+keywords: ''
+task: MediaFoundationVisible
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id
+- field_type: Int32
+  field_name: priority

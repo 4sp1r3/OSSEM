@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '2907'
+version: '0'
+event(fields): CoreUIService_ServiceObjectServiceMain()
+opcode: ''
+keywords: CoreUIService
+task: CoreUIService_ServiceObjectServiceMain
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

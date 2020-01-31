@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '37'
+version: '0'
+event(fields): TransformCreation37(UInt32 Optimization)
+opcode: ''
+keywords: ''
+task: TransformCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Optimization

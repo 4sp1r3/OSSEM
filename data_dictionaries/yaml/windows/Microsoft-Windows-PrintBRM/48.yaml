@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '48'
+version: '0'
+event(fields): BackupPrintBRMoperationfailure48(UnicodeString PluginDllName, HexInt32
+  ErrorCode)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_BRM_KEYWORD
+task: Backup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PluginDllName
+- field_type: HexInt32
+  field_name: ErrorCode

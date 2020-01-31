@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUSER
+event_id: '7'
+version: '0'
+event(fields): DUser_EndDrawBitBltStart()
+opcode: Start
+keywords: Default
+task: DUser_EndDrawBitBlt
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

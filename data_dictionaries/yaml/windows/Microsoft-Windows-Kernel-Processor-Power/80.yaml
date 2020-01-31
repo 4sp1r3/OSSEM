@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '80'
+version: '0'
+event(fields): PepGetPlatformIdleStateRundown(UInt32 StateIndex, Int32 InitiatingProcessor,
+  Boolean OneInitiator, UInt32 Latency, UInt32 BreakEvenDuration, UInt32 DependencyCount,
+  Int64 Dependencies)
+opcode: ''
+keywords: Diag
+task: PepGetPlatformIdleStateRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StateIndex
+- field_type: Int32
+  field_name: InitiatingProcessor
+- field_type: Boolean
+  field_name: OneInitiator
+- field_type: UInt32
+  field_name: Latency
+- field_type: UInt32
+  field_name: BreakEvenDuration
+- field_type: UInt32
+  field_name: DependencyCount
+- field_type: Int64
+  field_name: Dependencies

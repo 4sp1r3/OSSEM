@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '1003'
+version: '1'
+event(fields): Creationofanewdriverhostprocess.Start_V1(GUID LifetimeId, UnicodeString
+  HostGuid, UnicodeString InstanceId)
+opcode: Start
+keywords: ''
+task: Creationofanewdriverhostprocess.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId
+- field_type: UnicodeString
+  field_name: HostGuid
+- field_type: UnicodeString
+  field_name: InstanceId

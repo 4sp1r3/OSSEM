@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-DPS
+event_id: '160'
+version: '0'
+event(fields): DebugtaskThiseventisraisedwhentheserviceissuccessfullystopped()
+opcode: Thiseventisraisedwhentheserviceissuccessfullystopped
+keywords: perf
+task: Debugtask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

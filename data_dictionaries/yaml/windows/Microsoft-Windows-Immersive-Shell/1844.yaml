@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1844'
+version: '0'
+event(fields): Tiles_MRT(UnicodeString Language)
+opcode: ''
+keywords: ''
+task: Tiles_MRT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language

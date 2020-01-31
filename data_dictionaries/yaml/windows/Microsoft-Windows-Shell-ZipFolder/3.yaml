@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-ZipFolder
+event_id: '3'
+version: '0'
+event(fields): ZipFolder_DeleteFileStart()
+opcode: Start
+keywords: ''
+task: ZipFolder_DeleteFile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

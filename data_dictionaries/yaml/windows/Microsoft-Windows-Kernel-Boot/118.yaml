@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '118'
+version: '0'
+event(fields): AttachPersistentPageDatabaseStop(UInt32 Status)
+opcode: Stop
+keywords: SoftRestart MemoryPreservation
+task: AttachPersistentPageDatabase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

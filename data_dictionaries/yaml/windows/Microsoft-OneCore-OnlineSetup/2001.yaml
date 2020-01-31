@@ -1,0 +1,13 @@
+provider: Microsoft-OneCore-OnlineSetup
+event_id: '2001'
+version: '0'
+event(fields): SetupProcessUnattendStart(UnicodeString Pass)
+opcode: Start
+keywords: keyPerformance
+task: SetupProcessUnattend
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Pass

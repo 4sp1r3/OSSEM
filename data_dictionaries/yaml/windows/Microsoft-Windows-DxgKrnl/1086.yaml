@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1086'
+version: '0'
+event(fields): OPMConfigureProtectedOutput(Pointer MiniportDeviceContext, Boolean
+  RedirectedForIndirectDisplay, Pointer DriverProtectedOutputHandle, GUID SettingGuid,
+  UInt32 AdditionalParametersSize, UInt32 Status)
+opcode: ''
+keywords: Base
+task: OPMConfigureProtectedOutput
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportDeviceContext
+- field_type: Boolean
+  field_name: RedirectedForIndirectDisplay
+- field_type: Pointer
+  field_name: DriverProtectedOutputHandle
+- field_type: GUID
+  field_name: SettingGuid
+- field_type: UInt32
+  field_name: AdditionalParametersSize
+- field_type: UInt32
+  field_name: Status

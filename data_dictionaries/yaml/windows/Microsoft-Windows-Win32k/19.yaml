@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '19'
+version: '0'
+event(fields): SwapChainUnBind(UInt64 hWnd, UInt64 hLogicalSurfSwapChainBind)
+opcode: ''
+keywords: Updates
+task: SwapChainUnBind
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hWnd
+- field_type: UInt64
+  field_name: hLogicalSurfSwapChainBind

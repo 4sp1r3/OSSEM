@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrimaryNetworkIcon
+event_id: '121'
+version: '0'
+event(fields): PrimaryNetworkIcon_Task_Disconnected(UInt32 IconResID)
+opcode: ''
+keywords: ''
+task: PrimaryNetworkIcon_Task_Disconnected
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IconResID

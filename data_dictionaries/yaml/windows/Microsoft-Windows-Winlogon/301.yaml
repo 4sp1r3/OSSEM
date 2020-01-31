@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '301'
+version: '0'
+event(fields): ReceivedLogoffRequest(UInt32 Flags)
+opcode: ''
+keywords: PerfInstrumentation
+task: ReceivedLogoffRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '1314'
+version: '0'
+event(fields): SKINPAINTStop1314()
+opcode: Stop
+keywords: mediaplayer
+task: SKINPAINT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

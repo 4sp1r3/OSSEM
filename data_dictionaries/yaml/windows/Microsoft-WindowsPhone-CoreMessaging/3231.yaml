@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3231'
+version: '0'
+event(fields): Adapter_PostMessageError_QueueFull()
+opcode: ''
+keywords: Error Dispatcher
+task: Adapter_PostMessageError_QueueFull
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

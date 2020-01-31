@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DUSER
+event_id: '16'
+version: '0'
+event(fields): DUser_DestroyPendingDCVisualsStop(Int32 nNumberOfPendingDeletions)
+opcode: Stop
+keywords: Default
+task: DUser_DestroyPendingDCVisuals
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: nNumberOfPendingDeletions

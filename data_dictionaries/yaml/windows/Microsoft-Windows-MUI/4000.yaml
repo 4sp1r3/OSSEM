@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MUI
+event_id: '4000'
+version: '0'
+event(fields): MUIresourcecachebuilderBuildresourcecache4000()
+opcode: Buildresourcecache
+keywords: ''
+task: MUIresourcecachebuilder
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

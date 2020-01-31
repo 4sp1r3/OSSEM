@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2522'
+version: '0'
+event(fields): TaskNTNavigateToComplete(UInt32 unParam)
+opcode: NTNavigateToComplete
+keywords: NavigationPerformance Task
+task: Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

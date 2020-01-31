@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40020'
+version: '0'
+event(fields): VReg.EnumValueStart()
+opcode: Start
+keywords: ''
+task: VReg.EnumValue
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

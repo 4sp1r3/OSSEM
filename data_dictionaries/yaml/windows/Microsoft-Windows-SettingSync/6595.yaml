@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6595'
+version: '0'
+event(fields): task_06595(GUID OperationId, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: OperationId
+- field_type: UInt32
+  field_name: HRESULT

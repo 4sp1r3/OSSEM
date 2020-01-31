@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-FunctionDiscovery
+event_id: '1033'
+version: '0'
+event(fields): FunDisc_ProviderInstancePropertyStoreValidateAccessStop(UnicodeString
+  FunctionInstanceID)
+opcode: Stop
+keywords: ''
+task: FunDisc_ProviderInstancePropertyStoreValidateAccess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FunctionInstanceID

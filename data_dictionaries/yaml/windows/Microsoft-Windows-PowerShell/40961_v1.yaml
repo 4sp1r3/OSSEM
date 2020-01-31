@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '40961'
+version: '1'
+event(fields): PowerShellConsoleStartupStart_V1()
+opcode: Start
+keywords: ''
+task: PowerShellConsoleStartup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

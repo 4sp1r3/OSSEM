@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '817'
+version: '0'
+event(fields): WebPlatStorageServer_Handle(UInt8 StorageCategory, UInt32 HandleType,
+  Pointer Handle)
+opcode: ''
+keywords: ''
+task: WebPlatStorageServer_Handle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: StorageCategory
+- field_type: UInt32
+  field_name: HandleType
+- field_type: Pointer
+  field_name: Handle

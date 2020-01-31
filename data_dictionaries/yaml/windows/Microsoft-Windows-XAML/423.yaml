@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '423'
+version: '0'
+event(fields): RebuildGraphicsDeviceResourcesStart()
+opcode: Start
+keywords: Rendering
+task: RebuildGraphicsDeviceResources
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

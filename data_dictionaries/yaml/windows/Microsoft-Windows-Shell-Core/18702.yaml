@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18702'
+version: '0'
+event(fields): Shell32_DefView_Thumbnail_EnumLookupStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_DefView_Thumbnail_EnumLookup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

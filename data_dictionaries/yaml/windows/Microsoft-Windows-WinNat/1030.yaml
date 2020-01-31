@@ -1,0 +1,53 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1030'
+version: '0'
+event(fields): WinNatMDroppedIPv4Packet(UInt32 ActionReason, UInt32 ArrivalCompartmentId,
+  UInt32 ArrivalInterfaceIndex, UInt32 ArrivalNetwork, UInt32 TransportProtocol, UInt32
+  ForwardCompartmentId, UInt32 ForwardInterfaceIndex, UInt32 PacketLength, UInt32
+  ContinuousLength, UInt32 CapturedIPHeaderLength, UInt32 CapturedTransportHeaderLength,
+  UInt32 ICMPErrorTransportProtocol, UInt32 ICMPErrorCapturedIPHeaderLength, UInt32
+  ICMPErrorCapturedTransportHeaderLength, Binary IPHeader, Binary TransportHeader,
+  Binary ICMPErrorIPHeader, Binary ICMPErrorTransportHeader)
+opcode: ''
+keywords: ut:NatDrop keyword_10000000000
+task: WinNatMDroppedIPv4Packet
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ActionReason
+- field_type: UInt32
+  field_name: ArrivalCompartmentId
+- field_type: UInt32
+  field_name: ArrivalInterfaceIndex
+- field_type: UInt32
+  field_name: ArrivalNetwork
+- field_type: UInt32
+  field_name: TransportProtocol
+- field_type: UInt32
+  field_name: ForwardCompartmentId
+- field_type: UInt32
+  field_name: ForwardInterfaceIndex
+- field_type: UInt32
+  field_name: PacketLength
+- field_type: UInt32
+  field_name: ContinuousLength
+- field_type: UInt32
+  field_name: CapturedIPHeaderLength
+- field_type: UInt32
+  field_name: CapturedTransportHeaderLength
+- field_type: UInt32
+  field_name: ICMPErrorTransportProtocol
+- field_type: UInt32
+  field_name: ICMPErrorCapturedIPHeaderLength
+- field_type: UInt32
+  field_name: ICMPErrorCapturedTransportHeaderLength
+- field_type: Binary
+  field_name: IPHeader
+- field_type: Binary
+  field_name: TransportHeader
+- field_type: Binary
+  field_name: ICMPErrorIPHeader
+- field_type: Binary
+  field_name: ICMPErrorTransportHeader

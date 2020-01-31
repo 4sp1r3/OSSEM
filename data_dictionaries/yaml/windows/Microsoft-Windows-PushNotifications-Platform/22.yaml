@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '22'
+version: '0'
+event(fields): ProcessTileUpdateSettingsStop()
+opcode: Stop
+keywords: wpnplat
+task: ProcessTileUpdateSettings
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

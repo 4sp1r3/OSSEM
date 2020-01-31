@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '24'
+version: '0'
+event(fields): ICSPNode_GetChildNodeNames_TaskStart()
+opcode: Start
+keywords: Performance
+task: ICSPNode_GetChildNodeNames_Task
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

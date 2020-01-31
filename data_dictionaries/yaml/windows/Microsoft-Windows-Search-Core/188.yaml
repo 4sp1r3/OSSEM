@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '188'
+version: '0'
+event(fields): CEnumSearchRoots_Next_Fetch(UnicodeString SearchRootURL)
+opcode: ''
+keywords: CSM
+task: CEnumSearchRoots_Next_Fetch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SearchRootURL

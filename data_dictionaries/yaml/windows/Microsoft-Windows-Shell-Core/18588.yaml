@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18588'
+version: '0'
+event(fields): Shell32_KnownFolderManager_GetEnumKnownFoldersStop()
+opcode: Stop
+keywords: APICalls
+task: Shell32_KnownFolderManager_GetEnumKnownFolders
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

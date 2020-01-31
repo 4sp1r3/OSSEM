@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1142'
+version: '0'
+event(fields): DataLayer_GetRowFromHROWStart()
+opcode: Start
+keywords: SearchPerf
+task: DataLayer_GetRowFromHROW
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

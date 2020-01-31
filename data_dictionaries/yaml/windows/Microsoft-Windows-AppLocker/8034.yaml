@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-AppLocker
+event_id: '8034'
+version: '0'
+event(fields): task_08034(UInt16 ImageNameLength, UnicodeString ImageName, HexInt32
+  StatusCode, UInt32 Bucket, Boolean OriginDataPresent, GUID SessionId, GUID SubSessionId,
+  UInt32 Origin, UInt32 Type, UInt32 Generation, UInt32 SmartScreen, UInt32 RevocationID,
+  UInt16 DataLength, UnicodeString Data)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ImageNameLength
+- field_type: UnicodeString
+  field_name: ImageName
+- field_type: HexInt32
+  field_name: StatusCode
+- field_type: UInt32
+  field_name: Bucket
+- field_type: Boolean
+  field_name: OriginDataPresent
+- field_type: GUID
+  field_name: SessionId
+- field_type: GUID
+  field_name: SubSessionId
+- field_type: UInt32
+  field_name: Origin
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Generation
+- field_type: UInt32
+  field_name: SmartScreen
+- field_type: UInt32
+  field_name: RevocationID
+- field_type: UInt16
+  field_name: DataLength
+- field_type: UnicodeString
+  field_name: Data

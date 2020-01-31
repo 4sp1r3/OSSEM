@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EaseOfAccess
+event_id: '14'
+version: '0'
+event(fields): CPL_CommitChangesStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CPL_CommitChanges
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

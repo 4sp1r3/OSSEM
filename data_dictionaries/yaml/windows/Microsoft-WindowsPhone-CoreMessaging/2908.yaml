@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '2908'
+version: '0'
+event(fields): CoreUIService_CoreUIServiceMain_UnknownService(UnicodeString pwsz)
+opcode: ''
+keywords: CoreUIService
+task: CoreUIService_CoreUIServiceMain_UnknownService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz

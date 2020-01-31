@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '2'
+version: '1'
+event(fields): ClassPnPEnqueueIdleIOrequestClassPnP_Enqueue_IdleIO_V1(Pointer Irp,
+  UInt32 CurrentIOCount, UInt32 ActiveIOCount, UInt32 DeviceNumber)
+opcode: ClassPnP_Enqueue_IdleIO
+keywords: ClassPnPIdleIO
+task: ClassPnPEnqueueIdleIOrequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt32
+  field_name: CurrentIOCount
+- field_type: UInt32
+  field_name: ActiveIOCount
+- field_type: UInt32
+  field_name: DeviceNumber

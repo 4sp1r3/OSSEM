@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DUI
+event_id: '82'
+version: '0'
+event(fields): DirectUI_ModernProgressBarPercentCompleted(UInt32 percent)
+opcode: ''
+keywords: Default
+task: DirectUI_ModernProgressBarPercentCompleted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: percent

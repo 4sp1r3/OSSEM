@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MF
+event_id: '1137'
+version: '0'
+event(fields): MediaFoundationAsyncWrapperDeadlineStart(Pointer WrapperPtr, UInt32
+  WorkQueueID, UInt64 DeadlineHNS)
+opcode: Start
+keywords: ''
+task: MediaFoundationAsyncWrapperDeadline
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WrapperPtr
+- field_type: UInt32
+  field_name: WorkQueueID
+- field_type: UInt64
+  field_name: DeadlineHNS

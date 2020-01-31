@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8048'
+version: '1'
+event(fields): UnpublishPackage_1519Start_V1(UInt64 ActivityId)
+opcode: Start
+keywords: ''
+task: UnpublishPackage_1519
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ActivityId

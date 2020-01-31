@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '274'
+version: '0'
+event(fields): ProcessIdleEDRTasksStart(Pointer Object)
+opcode: Start
+keywords: ''
+task: ProcessIdleEDRTasks
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

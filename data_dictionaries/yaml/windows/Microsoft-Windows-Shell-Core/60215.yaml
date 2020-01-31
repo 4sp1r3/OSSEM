@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60215'
+version: '0'
+event(fields): SearchBox_Acquired_Focus()
+opcode: ''
+keywords: Shell
+task: SearchBox_Acquired_Focus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

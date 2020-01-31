@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '32'
+version: '0'
+event(fields): RestorePrintBRMoperationsuccess32(UnicodeString Status)
+opcode: PrintBRMoperationsuccess
+keywords: PRINT_PORT_KEYWORD
+task: Restore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Status

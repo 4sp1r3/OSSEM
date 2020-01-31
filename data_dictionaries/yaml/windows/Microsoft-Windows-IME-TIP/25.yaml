@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-TIP
+event_id: '25'
+version: '0'
+event(fields): TaskID:IMESetTextStart()
+opcode: Start
+keywords: ''
+task: TaskID:IMESetText
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

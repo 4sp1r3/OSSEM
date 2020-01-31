@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2324'
+version: '0'
+event(fields): CtapNfcSendRequestInformational(GUID TransactionId, AnsiString Action,
+  UnicodeString Reader, UInt16 ApduStatus, HexInt32 DeviceStatus, HexInt32 Error,
+  HexInt32 Win32Error)
+opcode: Informational
+keywords: Ctap Nfc
+task: CtapNfcSendRequest
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: AnsiString
+  field_name: Action
+- field_type: UnicodeString
+  field_name: Reader
+- field_type: UInt16
+  field_name: ApduStatus
+- field_type: HexInt32
+  field_name: DeviceStatus
+- field_type: HexInt32
+  field_name: Error
+- field_type: HexInt32
+  field_name: Win32Error

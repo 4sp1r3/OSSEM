@@ -1,0 +1,79 @@
+provider: Microsoft-Windows-Windows Defender
+event_id: '2010'
+version: '0'
+event(fields): task_02010(UnicodeString ProductName, UnicodeString ProductVersion,
+  UnicodeString CurrentsecurityintelligenceVersion, UnicodeString Unused, UnicodeString
+  Unused2, UnicodeString Unused3, UnicodeString Unused4, UnicodeString Domain, UnicodeString
+  User, UnicodeString SID, UnicodeString SecurityintelligenceTypeIndex, UnicodeString
+  SecurityintelligenceType, UnicodeString Unused5, UnicodeString Unused6, UnicodeString
+  CurrentEngineVersion, UnicodeString Unused7, UnicodeString Unused8, UnicodeString
+  Unused9, UnicodeString Unused10, UnicodeString Unused11, UnicodeString Unused12,
+  UnicodeString DynamicsecurityintelligenceTypeIndex, UnicodeString DynamicsecurityintelligenceType,
+  UnicodeString PersistencePath, UnicodeString DynamicsecurityintelligenceVersion,
+  UnicodeString DynamicsecurityintelligenceCompilationTimestamp, UnicodeString PersistenceLimitTypeIndex,
+  UnicodeString PersistenceLimitType, UnicodeString PersistenceLimitValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UnicodeString
+  field_name: ProductVersion
+- field_type: UnicodeString
+  field_name: CurrentsecurityintelligenceVersion
+- field_type: UnicodeString
+  field_name: Unused
+- field_type: UnicodeString
+  field_name: Unused2
+- field_type: UnicodeString
+  field_name: Unused3
+- field_type: UnicodeString
+  field_name: Unused4
+- field_type: UnicodeString
+  field_name: Domain
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: SID
+- field_type: UnicodeString
+  field_name: SecurityintelligenceTypeIndex
+- field_type: UnicodeString
+  field_name: SecurityintelligenceType
+- field_type: UnicodeString
+  field_name: Unused5
+- field_type: UnicodeString
+  field_name: Unused6
+- field_type: UnicodeString
+  field_name: CurrentEngineVersion
+- field_type: UnicodeString
+  field_name: Unused7
+- field_type: UnicodeString
+  field_name: Unused8
+- field_type: UnicodeString
+  field_name: Unused9
+- field_type: UnicodeString
+  field_name: Unused10
+- field_type: UnicodeString
+  field_name: Unused11
+- field_type: UnicodeString
+  field_name: Unused12
+- field_type: UnicodeString
+  field_name: DynamicsecurityintelligenceTypeIndex
+- field_type: UnicodeString
+  field_name: DynamicsecurityintelligenceType
+- field_type: UnicodeString
+  field_name: PersistencePath
+- field_type: UnicodeString
+  field_name: DynamicsecurityintelligenceVersion
+- field_type: UnicodeString
+  field_name: DynamicsecurityintelligenceCompilationTimestamp
+- field_type: UnicodeString
+  field_name: PersistenceLimitTypeIndex
+- field_type: UnicodeString
+  field_name: PersistenceLimitType
+- field_type: UnicodeString
+  field_name: PersistenceLimitValue

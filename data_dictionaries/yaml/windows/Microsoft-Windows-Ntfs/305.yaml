@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '305'
+version: '0'
+event(fields): VolumeMountStop(HexInt32 Error, GUID VolumeGuid, UInt16 VolumeNameLength,
+  UnicodeString VolumeName)
+opcode: Stop
+keywords: VolumeMountDismount
+task: VolumeMount
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error
+- field_type: GUID
+  field_name: VolumeGuid
+- field_type: UInt16
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName

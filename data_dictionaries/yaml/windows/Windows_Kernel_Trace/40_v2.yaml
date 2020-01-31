@@ -1,0 +1,14 @@
+provider: Windows Kernel Trace
+category: '{ae53722e-c863-11d2-8659-00c04fa321a1}'
+event_id: '40'
+version: '2'
+event(fields): Registry_HiveDirty(UInt32 Hive, String LinkPath, UInt32 DirtyReason)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: Hive
+- field_type: String
+  field_name: LinkPath
+- field_type: UInt32
+  field_name: DirtyReason

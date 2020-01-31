@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4102'
+version: '0'
+event(fields): TriggerMediaDisconnect(GUID InterfaceGuid, UnicodeString AdapterName)
+opcode: MediaDisconnect
+keywords: Trigger LwtDiagnostic
+task: Trigger
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: AdapterName

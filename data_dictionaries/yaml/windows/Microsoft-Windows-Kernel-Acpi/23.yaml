@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Acpi
+event_id: '23'
+version: '0'
+event(fields): FrequentAmlMethod(UInt16 AmlMethodNameLength, UnicodeString AmlMethodName,
+  UInt64 Frequency)
+opcode: ''
+keywords: acpi:Diagnostic
+task: FrequentAmlMethod
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: AmlMethodNameLength
+- field_type: UnicodeString
+  field_name: AmlMethodName
+- field_type: UInt64
+  field_name: Frequency

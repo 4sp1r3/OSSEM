@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7263'
+version: '0'
+event(fields): ConnectedSearch_AuthenticationGettingTokenFailure(UInt32 ErrorResult)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_AuthenticationGettingTokenFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorResult

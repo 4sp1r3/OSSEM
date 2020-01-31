@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '132'
+version: '0'
+event(fields): Dictation_TypingStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: Dictation_Typing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

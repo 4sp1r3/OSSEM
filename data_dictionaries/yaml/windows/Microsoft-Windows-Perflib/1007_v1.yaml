@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Perflib
+event_id: '1007'
+version: '1'
+event(fields): task_01007_V1(AnsiString ProcName, UnicodeString Library, UnicodeString
+  Service, UInt32 Win32Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: ProcName
+- field_type: UnicodeString
+  field_name: Library
+- field_type: UnicodeString
+  field_name: Service
+- field_type: UInt32
+  field_name: Win32Error

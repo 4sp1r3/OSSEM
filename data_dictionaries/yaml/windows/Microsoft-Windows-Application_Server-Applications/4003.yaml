@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4003'
+version: '0'
+event(fields): ActivationServiceStart(UnicodeString Endpoint, UnicodeString AppDomain)
+opcode: ''
+keywords: ActivationServices
+task: ActivationServiceStart
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Endpoint
+- field_type: UnicodeString
+  field_name: AppDomain

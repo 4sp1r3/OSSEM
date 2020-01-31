@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Documents
+event_id: '2103'
+version: '0'
+event(fields): DocPerf_Task_PFPM_ConvertHdPhotoToJpegXRStart(UInt32 JobId)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_PFPM_ConvertHdPhotoToJpegXR
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobId

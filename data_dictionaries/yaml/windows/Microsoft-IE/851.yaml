@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '851'
+version: '0'
+event(fields): Mshtml_PowerStateController_LowPowerState(Pointer CPowerStateController,
+  Pointer CDoc)
+opcode: ''
+keywords: mshtml
+task: Mshtml_PowerStateController_LowPowerState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CPowerStateController
+- field_type: Pointer
+  field_name: CDoc

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Core
+event_id: '72'
+version: '0'
+event(fields): TABLET_INPUT_OverPan_SnapBackStop()
+opcode: Stop
+keywords: ''
+task: TABLET_INPUT_OverPan_SnapBack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

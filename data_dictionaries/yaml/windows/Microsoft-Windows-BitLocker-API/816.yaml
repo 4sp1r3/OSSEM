@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '816'
+version: '0'
+event(fields): task_0816()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

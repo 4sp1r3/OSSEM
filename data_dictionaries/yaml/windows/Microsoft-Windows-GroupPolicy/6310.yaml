@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '6310'
+version: '0'
+event(fields): task_06310()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

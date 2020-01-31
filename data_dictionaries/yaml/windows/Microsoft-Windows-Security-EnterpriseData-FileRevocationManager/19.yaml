@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Security-EnterpriseData-FileRevocationManager
+event_id: '19'
+version: '0'
+event(fields): task_0RevokeIdentityoperation.19(UnicodeString EntIDString, UnicodeString
+  AppIDString, HexInt32 ErrorCode)
+opcode: RevokeIdentityoperation.
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EntIDString
+- field_type: UnicodeString
+  field_name: AppIDString
+- field_type: HexInt32
+  field_name: ErrorCode

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '247'
+version: '0'
+event(fields): MFCaptureEngineSetExtendedPropertyAsyncTaskStart(Pointer Pointer, UInt32
+  dwSourceStreamIndex, GUID guidPropertySet, UInt32 propertyID, UInt32 HResult)
+opcode: Start
+keywords: ''
+task: MFCaptureEngineSetExtendedPropertyAsyncTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Pointer
+- field_type: UInt32
+  field_name: dwSourceStreamIndex
+- field_type: GUID
+  field_name: guidPropertySet
+- field_type: UInt32
+  field_name: propertyID
+- field_type: UInt32
+  field_name: HResult

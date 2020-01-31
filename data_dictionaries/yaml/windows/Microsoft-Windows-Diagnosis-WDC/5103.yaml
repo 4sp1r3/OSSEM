@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Diagnosis-WDC
+event_id: '5103'
+version: '0'
+event(fields): task_05103(AnsiString FileName, AnsiString Function, UInt32 Line, UnicodeString
+  ErrorText)
+opcode: ''
+keywords: error
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: FileName
+- field_type: AnsiString
+  field_name: Function
+- field_type: UInt32
+  field_name: Line
+- field_type: UnicodeString
+  field_name: ErrorText

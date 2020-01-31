@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1255'
+version: '0'
+event(fields): ForegroundTaskManager1255(UInt32 unParam)
+opcode: ''
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

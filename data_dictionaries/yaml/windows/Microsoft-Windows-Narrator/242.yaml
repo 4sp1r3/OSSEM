@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '242'
+version: '0'
+event(fields): ContinuousReading_SetUpScopeStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ContinuousReading_SetUpScope
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

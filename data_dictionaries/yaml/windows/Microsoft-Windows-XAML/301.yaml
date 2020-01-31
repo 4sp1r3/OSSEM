@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '301'
+version: '0'
+event(fields): LoadTemplateContentStop(UInt64 TemplateId, UInt64 ElementId)
+opcode: Stop
+keywords: Templates
+task: LoadTemplateContent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TemplateId
+- field_type: UInt64
+  field_name: ElementId

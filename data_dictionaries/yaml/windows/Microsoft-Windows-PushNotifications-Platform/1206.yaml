@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1206'
+version: '0'
+event(fields): PlatformShutdownStop(UInt32 ConnectionType)
+opcode: Stop
+keywords: wpnperf_Shutdown wnptrans
+task: PlatformShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ConnectionType

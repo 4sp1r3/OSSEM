@@ -1,0 +1,18 @@
+provider: Microsoft-AppV-Client
+event_id: '2001'
+version: '1'
+event(fields): UserLogon_V1(UnicodeString LastFolder, UnicodeString ReqFolder, Int32
+  Error)
+opcode: ''
+keywords: Startup Logon Catalog
+task: UserLogon
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LastFolder
+- field_type: UnicodeString
+  field_name: ReqFolder
+- field_type: Int32
+  field_name: Error

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30805'
+version: '2'
+event(fields): task_030805_V2(UInt32 Status, UInt64 SessionId, UInt32 TreeId, UInt16
+  ServerNameLength, UnicodeString ServerName, UInt32 AddressLength, Binary Address)
+opcode: ''
+keywords: Smb_Connectivity
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: TreeId
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: Binary
+  field_name: Address

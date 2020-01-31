@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '2008'
+version: '1'
+event(fields): CreatePackageUserPolicyDocumentFromDefaultStop_V1()
+opcode: Stop
+keywords: ''
+task: CreatePackageUserPolicyDocumentFromDefault
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1111'
+version: '0'
+event(fields): SensorServiceprocessingsensordatafororientation,testingiftherewasaquadrantchange(UInt32
+  GoodAngle, UInt32 Quadrant, UInt32 LastQuadrant)
+opcode: ''
+keywords: SensPerf
+task: SensorServiceprocessingsensordatafororientation,testingiftherewasaquadrantchange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: GoodAngle
+- field_type: UInt32
+  field_name: Quadrant
+- field_type: UInt32
+  field_name: LastQuadrant

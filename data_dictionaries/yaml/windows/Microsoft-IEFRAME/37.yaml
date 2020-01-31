@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '37'
+version: '0'
+event(fields): Imaging_SendIconicThumbnailStop()
+opcode: Stop
+keywords: primarynav
+task: Imaging_SendIconicThumbnail
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

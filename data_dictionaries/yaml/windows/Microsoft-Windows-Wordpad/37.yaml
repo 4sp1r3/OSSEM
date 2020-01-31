@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Wordpad
+event_id: '37'
+version: '0'
+event(fields): task_037(UInt32 HResultParam)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HResultParam

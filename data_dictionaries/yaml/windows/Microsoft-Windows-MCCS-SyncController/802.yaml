@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '802'
+version: '0'
+event(fields): task_0802(UInt32 Prop_Dword_1, UInt32 Prop_Dword_2)
+opcode: ''
+keywords: StateTransition
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_Dword_1
+- field_type: UInt32
+  field_name: Prop_Dword_2

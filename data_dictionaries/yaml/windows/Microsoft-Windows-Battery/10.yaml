@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Battery
+event_id: '10'
+version: '0'
+event(fields): BtpSet(Pointer Handle, UInt32 TripPoint)
+opcode: ''
+keywords: ''
+task: BtpSet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Handle
+- field_type: UInt32
+  field_name: TripPoint

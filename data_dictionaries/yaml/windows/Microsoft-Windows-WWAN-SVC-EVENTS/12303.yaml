@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '12303'
+version: '0'
+event(fields): task_012303(GUID InterfaceGuid, Int32 ModemIndex, Int32 ExecutorIndex,
+  Int32 RequestId, UInt32 CommandType)
+opcode: ''
+keywords: LwtDiagnostic WwanUICC keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: Int32
+  field_name: ModemIndex
+- field_type: Int32
+  field_name: ExecutorIndex
+- field_type: Int32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: CommandType

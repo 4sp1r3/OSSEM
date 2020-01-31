@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UxTheme
+event_id: '7'
+version: '0'
+event(fields): ThemesAndMetric_GetThemeFontStart()
+opcode: Start
+keywords: ''
+task: ThemesAndMetric_GetThemeFont
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

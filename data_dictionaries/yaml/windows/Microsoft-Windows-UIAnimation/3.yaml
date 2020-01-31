@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UIAnimation
+event_id: '3'
+version: '0'
+event(fields): UpdateEnter(Double secondsNow)
+opcode: ''
+keywords: Default
+task: UpdateEnter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Double
+  field_name: secondsNow

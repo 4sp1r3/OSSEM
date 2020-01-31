@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '5'
+version: '0'
+event(fields): MFTStateFeedInputStop(Pointer CMFTAsyncSimpleBase_ptr)
+opcode: Stop
+keywords: ''
+task: MFTStateFeedInput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMFTAsyncSimpleBase_ptr

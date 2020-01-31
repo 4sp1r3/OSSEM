@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1217'
+version: '0'
+event(fields): Wininet_CacheServerContainerStart1217(Pointer Object, Pointer Handle,
+  UnicodeString Name, UnicodeString Directory, UInt32 Flags, Int64 Limit, UInt32 EntryMaxAge)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_CacheServerContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: Handle
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Directory
+- field_type: UInt32
+  field_name: Flags
+- field_type: Int64
+  field_name: Limit
+- field_type: UInt32
+  field_name: EntryMaxAge

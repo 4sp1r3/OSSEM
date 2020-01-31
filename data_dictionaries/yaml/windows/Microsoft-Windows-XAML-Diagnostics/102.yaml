@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '102'
+version: '0'
+event(fields): InitializeStop(UnicodeString AppId)
+opcode: Stop
+keywords: DesignerAppManager
+task: Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId

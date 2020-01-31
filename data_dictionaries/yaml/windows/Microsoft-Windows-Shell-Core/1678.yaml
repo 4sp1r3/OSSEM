@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1678'
+version: '0'
+event(fields): ShellTask_PrivateProfile_AsyncUpdateCacheThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_PrivateProfile_AsyncUpdateCacheThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

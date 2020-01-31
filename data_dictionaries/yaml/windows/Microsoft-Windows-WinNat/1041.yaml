@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1041'
+version: '0'
+event(fields): WinNatIPxlatInstanceCreate(UInt64 InterfaceLuid, UInt32 FallbackIPv4Address,
+  UInt32 SyntheticIPv4Address, Binary SyntheticIPv6Address, Binary RemotePrefix, UInt32
+  RemotePrefixLength, Binary LocalPrefix, UInt32 LocalPrefixLength)
+opcode: ''
+keywords: ut:Configuration
+task: WinNatIPxlatInstanceCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: InterfaceLuid
+- field_type: UInt32
+  field_name: FallbackIPv4Address
+- field_type: UInt32
+  field_name: SyntheticIPv4Address
+- field_type: Binary
+  field_name: SyntheticIPv6Address
+- field_type: Binary
+  field_name: RemotePrefix
+- field_type: UInt32
+  field_name: RemotePrefixLength
+- field_type: Binary
+  field_name: LocalPrefix
+- field_type: UInt32
+  field_name: LocalPrefixLength

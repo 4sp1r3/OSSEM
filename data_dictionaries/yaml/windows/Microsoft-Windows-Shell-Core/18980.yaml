@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18980'
+version: '0'
+event(fields): CopyEngine_ClearUndo()
+opcode: ''
+keywords: Shell
+task: CopyEngine_ClearUndo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

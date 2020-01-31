@@ -1,0 +1,11 @@
+provider: Intel-iaLPSS-I2C
+event_id: '1019'
+version: '1'
+event(fields): EnumerationofSPBCxdriverStart1019_V1()
+opcode: Start
+keywords: ''
+task: EnumerationofSPBCxdriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

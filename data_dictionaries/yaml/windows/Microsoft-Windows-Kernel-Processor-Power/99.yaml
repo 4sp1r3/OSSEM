@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '99'
+version: '0'
+event(fields): HeteroResponse(UInt16 Group, Pointer Affinity, UInt8 ProcCount, UInt32
+  ActualUtility, UInt64 EstimatedUtility, UInt64 ActiveTime, UInt8 CheckCount, UInt8
+  Decision, UInt8 IdealClass1Count, UInt8 ActualClass1Count, UInt32 Flags)
+opcode: ''
+keywords: Algorithm
+task: HeteroResponse
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: Pointer
+  field_name: Affinity
+- field_type: UInt8
+  field_name: ProcCount
+- field_type: UInt32
+  field_name: ActualUtility
+- field_type: UInt64
+  field_name: EstimatedUtility
+- field_type: UInt64
+  field_name: ActiveTime
+- field_type: UInt8
+  field_name: CheckCount
+- field_type: UInt8
+  field_name: Decision
+- field_type: UInt8
+  field_name: IdealClass1Count
+- field_type: UInt8
+  field_name: ActualClass1Count
+- field_type: UInt32
+  field_name: Flags

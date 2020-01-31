@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '171'
+version: '0'
+event(fields): ImmersiveShellAppManagerApplicationStateChange(UnicodeString AppID,
+  UInt32 ApplicationState, Boolean HasActionsMenu, UInt32 DesktopTabletModeState)
+opcode: ''
+keywords: ''
+task: ImmersiveShellAppManagerApplicationStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UInt32
+  field_name: ApplicationState
+- field_type: Boolean
+  field_name: HasActionsMenu
+- field_type: UInt32
+  field_name: DesktopTabletModeState

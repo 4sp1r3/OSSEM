@@ -1,0 +1,16 @@
+provider: Microsoft-AppV-Client
+event_id: '8004'
+version: '1'
+event(fields): ConfigureVirtualApplicationConnectionGroup8004_V1(GUID Package, GUID
+  Version)
+opcode: ''
+keywords: DynamicConfiguration
+task: ConfigureVirtualApplicationConnectionGroup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Package
+- field_type: GUID
+  field_name: Version

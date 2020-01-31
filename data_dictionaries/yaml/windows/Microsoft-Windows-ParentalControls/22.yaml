@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '22'
+version: '0'
+event(fields): ContentUsageSystem(UnicodeString ContentProviderId, UnicodeString ContentProviderTitle,
+  UnicodeString Id, UnicodeString Title, UInt32 Category, UnicodeString Ratings, UInt32
+  Decision)
+opcode: System
+keywords: WPC
+task: ContentUsage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContentProviderId
+- field_type: UnicodeString
+  field_name: ContentProviderTitle
+- field_type: UnicodeString
+  field_name: Id
+- field_type: UnicodeString
+  field_name: Title
+- field_type: UInt32
+  field_name: Category
+- field_type: UnicodeString
+  field_name: Ratings
+- field_type: UInt32
+  field_name: Decision

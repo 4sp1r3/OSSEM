@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-RemoteAssistance
+event_id: '3'
+version: '0'
+event(fields): task_0Stop(UnicodeString file, UInt32 line, UnicodeString function,
+  UInt32 error)
+opcode: Stop
+keywords: keyword_400000000000
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: file
+- field_type: UInt32
+  field_name: line
+- field_type: UnicodeString
+  field_name: function
+- field_type: UInt32
+  field_name: error

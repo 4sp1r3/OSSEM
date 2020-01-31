@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3301'
+version: '0'
+event(fields): task_03301(UnicodeString TypeName, UnicodeString AppDomain)
+opcode: ''
+keywords: Channel
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeName
+- field_type: UnicodeString
+  field_name: AppDomain

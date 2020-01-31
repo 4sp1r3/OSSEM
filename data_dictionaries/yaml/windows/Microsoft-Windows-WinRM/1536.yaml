@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '1536'
+version: '0'
+event(fields): Userauthorization1536()
+opcode: ''
+keywords: Keyword.Server Keyword.Security
+task: Userauthorization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

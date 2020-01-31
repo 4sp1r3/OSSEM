@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IE-F12-Provider
+event_id: '434'
+version: '0'
+event(fields): Console_Intellisense_Provider_Get_ItemsStop(UnicodeString TraceDescription)
+opcode: Stop
+keywords: ''
+task: Console_Intellisense_Provider_Get_Items
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceDescription

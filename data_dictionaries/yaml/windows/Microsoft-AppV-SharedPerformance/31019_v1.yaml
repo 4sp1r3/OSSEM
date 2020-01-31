@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '31019'
+version: '1'
+event(fields): VCOM.ServiceStoreGUIDMappingsStop_V1()
+opcode: Stop
+keywords: ''
+task: VCOM.ServiceStoreGUIDMappings
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

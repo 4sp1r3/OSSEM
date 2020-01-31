@@ -1,0 +1,11 @@
+provider: Microsoft-JScript
+event_id: '247'
+version: '0'
+event(fields): Jscript_GC_Clear_InlineCacheStart()
+opcode: Start
+keywords: JScriptGarbageCollection
+task: Jscript_GC_Clear_InlineCache
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

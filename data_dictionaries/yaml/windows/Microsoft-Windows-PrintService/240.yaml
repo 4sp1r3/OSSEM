@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PrintService
+event_id: '240'
+version: '0'
+event(fields): InstallingaprinterdriverSpoolerOperationFailed240(UnicodeString DriverName,
+  UnicodeString InfPath, Boolean MissingManifest, Boolean MultipleManifests)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_SETUP
+task: Installingaprinterdriver
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UnicodeString
+  field_name: InfPath
+- field_type: Boolean
+  field_name: MissingManifest
+- field_type: Boolean
+  field_name: MultipleManifests

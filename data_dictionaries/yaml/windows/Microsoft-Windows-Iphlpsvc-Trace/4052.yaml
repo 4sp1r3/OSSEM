@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '4052'
+version: '0'
+event(fields): task_04052(UInt32 IpAddrLength, UInt32 ReceivedTeredoPacketType, Binary
+  SourceIPAddress, UInt32 SentTeredoPacketType, Binary DestinationIPAddress)
+opcode: ''
+keywords: teredo
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: UInt32
+  field_name: ReceivedTeredoPacketType
+- field_type: Binary
+  field_name: SourceIPAddress
+- field_type: UInt32
+  field_name: SentTeredoPacketType
+- field_type: Binary
+  field_name: DestinationIPAddress

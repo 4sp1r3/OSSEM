@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Install-Agent
+event_id: '2007'
+version: '0'
+event(fields): ServiceWarning(UnicodeString Message, AnsiString Function, Int32 ErrorCode,
+  AnsiString Source, UInt32 LineNumber, AnsiString CorrelationVector, UnicodeString
+  ProductId)
+opcode: Warning
+keywords: Messages
+task: Service
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: AnsiString
+  field_name: Function
+- field_type: Int32
+  field_name: ErrorCode
+- field_type: AnsiString
+  field_name: Source
+- field_type: UInt32
+  field_name: LineNumber
+- field_type: AnsiString
+  field_name: CorrelationVector
+- field_type: UnicodeString
+  field_name: ProductId

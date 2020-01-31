@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1035'
+version: '0'
+event(fields): Wininet_SendRequest_CRLF(Pointer Request, UInt32 Size)
+opcode: ''
+keywords: WININET_KEYWORD_IE
+task: Wininet_SendRequest_CRLF
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: UInt32
+  field_name: Size

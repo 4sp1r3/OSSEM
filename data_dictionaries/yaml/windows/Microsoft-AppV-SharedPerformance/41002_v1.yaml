@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '41002'
+version: '1'
+event(fields): VServices.ProcessDllAttachStart_V1()
+opcode: Start
+keywords: ''
+task: VServices.ProcessDllAttach
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '135'
+version: '0'
+event(fields): MethodDCStartCompleteV2()
+opcode: DCStartCompleteV2
+keywords: JitKeyword NGenKeyword
+task: Method
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

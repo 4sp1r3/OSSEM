@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-LiveId
+event_id: '2023'
+version: '0'
+event(fields): WLIDServiceOperation(UnicodeString Operation, UnicodeString Target,
+  HexInt32 Result)
+opcode: ''
+keywords: Operational
+task: WLIDServiceOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Operation
+- field_type: UnicodeString
+  field_name: Target
+- field_type: HexInt32
+  field_name: Result

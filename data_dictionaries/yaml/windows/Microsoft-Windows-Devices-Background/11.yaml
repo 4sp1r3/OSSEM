@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Devices-Background
+event_id: '11'
+version: '0'
+event(fields): Applicationinitiateddevicebackgroundtask(GUID TriggerID, Int32 TaskProcessID,
+  UnicodeString Device)
+opcode: ''
+keywords: ''
+task: Applicationinitiateddevicebackgroundtask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TriggerID
+- field_type: Int32
+  field_name: TaskProcessID
+- field_type: UnicodeString
+  field_name: Device

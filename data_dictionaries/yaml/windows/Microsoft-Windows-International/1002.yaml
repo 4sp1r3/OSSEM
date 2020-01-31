@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-International
+event_id: '1002'
+version: '0'
+event(fields): NLSlocalefunctionsNLSinitialization1002(UnicodeString RegistryKey,
+  UInt32 StatusCode)
+opcode: NLSinitialization
+keywords: ''
+task: NLSlocalefunctions
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RegistryKey
+- field_type: UInt32
+  field_name: StatusCode

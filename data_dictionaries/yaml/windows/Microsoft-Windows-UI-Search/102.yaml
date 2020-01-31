@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UI-Search
+event_id: '102'
+version: '0'
+event(fields): XamlViewStartupStop(UInt32 XAMLView, UInt32 Result)
+opcode: Stop
+keywords: ''
+task: XamlViewStartup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: XAMLView
+- field_type: UInt32
+  field_name: Result

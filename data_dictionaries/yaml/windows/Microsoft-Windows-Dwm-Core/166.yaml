@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '166'
+version: '0'
+event(fields): ETWGUID_POP_EXTERNAL_LAYER_EVENTStop()
+opcode: Stop
+keywords: DwmCore
+task: ETWGUID_POP_EXTERNAL_LAYER_EVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

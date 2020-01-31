@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '152'
+version: '0'
+event(fields): Crawl_RemoveStartPage(UInt32 CrawlNo, UnicodeString StartPageName,
+  UInt32 StartPageRefID, UInt32 CrawlIsInProgress)
+opcode: ''
+keywords: Indexing Gatherer
+task: Crawl_RemoveStartPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CrawlNo
+- field_type: UnicodeString
+  field_name: StartPageName
+- field_type: UInt32
+  field_name: StartPageRefID
+- field_type: UInt32
+  field_name: CrawlIsInProgress

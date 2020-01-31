@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1613'
+version: '0'
+event(fields): AppsFolder_ImmersiveApp_OpenVerbStart()
+opcode: Start
+keywords: ''
+task: AppsFolder_ImmersiveApp_OpenVerb
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

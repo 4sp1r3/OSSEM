@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '339'
+version: '0'
+event(fields): task_0339(UnicodeString fProxy, UnicodeString fBypass, UInt32 INTERNET_SCHEME,
+  UnicodeString pwszProxy, UInt32 ProxyPort)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: fProxy
+- field_type: UnicodeString
+  field_name: fBypass
+- field_type: UInt32
+  field_name: INTERNET_SCHEME
+- field_type: UnicodeString
+  field_name: pwszProxy
+- field_type: UInt32
+  field_name: ProxyPort

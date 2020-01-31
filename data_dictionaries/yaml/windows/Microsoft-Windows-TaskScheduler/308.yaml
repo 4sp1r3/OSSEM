@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '308'
+version: '0'
+event(fields): ServiceEngineconnected(UnicodeString TaskEngineName)
+opcode: ''
+keywords: ''
+task: ServiceEngineconnected
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskEngineName

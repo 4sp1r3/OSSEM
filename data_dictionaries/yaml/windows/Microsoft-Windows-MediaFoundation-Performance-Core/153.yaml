@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '153'
+version: '0'
+event(fields): AudStreamSink_InvokePipelineFormatChange_TaskStart(Pointer object,
+  Boolean bNeedFormatNegotiation)
+opcode: Start
+keywords: ''
+task: AudStreamSink_InvokePipelineFormatChange_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Boolean
+  field_name: bNeedFormatNegotiation

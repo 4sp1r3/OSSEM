@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Audio
+event_id: '138'
+version: '0'
+event(fields): Pump:ProcessStart(Pointer PumpInstance, UInt32 Phase)
+opcode: Start
+keywords: ''
+task: Pump:Process
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PumpInstance
+- field_type: UInt32
+  field_name: Phase

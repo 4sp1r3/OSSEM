@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DisplaySwitch
+event_id: '7'
+version: '0'
+event(fields): ProjectionUI_Selector_CreateAndShowStart()
+opcode: Start
+keywords: ''
+task: ProjectionUI_Selector_CreateAndShow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Win32k
+event_id: '451'
+version: '0'
+event(fields): DCompVisualSetInteraction(UInt32 Channel, UInt32 VisualInternalHandle,
+  UInt32 InteractionInternalHandle, UInt64 VisualInternalHandleAndChannel, UInt64
+  InteractionInternalHandleAndChannel)
+opcode: ''
+keywords: DCompInput
+task: DCompVisualSetInteraction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Channel
+- field_type: UInt32
+  field_name: VisualInternalHandle
+- field_type: UInt32
+  field_name: InteractionInternalHandle
+- field_type: UInt64
+  field_name: VisualInternalHandleAndChannel
+- field_type: UInt64
+  field_name: InteractionInternalHandleAndChannel

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-MediaManager
+event_id: '2'
+version: '0'
+event(fields): Create_Context_MenuStop()
+opcode: Stop
+keywords: ''
+task: Create_Context_Menu
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

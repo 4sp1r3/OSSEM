@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '74'
+version: '0'
+event(fields): HeapDCStart(Pointer pID3D12Device, Pointer pID3D12Heap, UInt64 SizeInBytes,
+  UInt64 Alignment, UInt32 Type, UInt32 CPUPageProperty, UInt32 MemoryPoolPreference,
+  UInt32 CreationNodeMask, UInt32 VisibleNodeMask, UInt32 Flags, Pointer pID3D12ConjoinedResource,
+  UInt32 hKMAllocation, UInt32 hKMResource)
+opcode: DC_Start
+keywords: Resources ObjectLifetime
+task: Heap
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12Heap
+- field_type: UInt64
+  field_name: SizeInBytes
+- field_type: UInt64
+  field_name: Alignment
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: CPUPageProperty
+- field_type: UInt32
+  field_name: MemoryPoolPreference
+- field_type: UInt32
+  field_name: CreationNodeMask
+- field_type: UInt32
+  field_name: VisibleNodeMask
+- field_type: UInt32
+  field_name: Flags
+- field_type: Pointer
+  field_name: pID3D12ConjoinedResource
+- field_type: UInt32
+  field_name: hKMAllocation
+- field_type: UInt32
+  field_name: hKMResource

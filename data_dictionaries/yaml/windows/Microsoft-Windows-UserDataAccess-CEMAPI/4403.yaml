@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4403'
+version: '0'
+event(fields): MSG_DELETEATTACHStop()
+opcode: Stop
+keywords: Performance
+task: MSG_DELETEATTACH
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

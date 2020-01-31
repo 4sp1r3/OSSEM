@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '148'
+version: '0'
+event(fields): DecodeToSurfaceStop()
+opcode: Stop
+keywords: Images
+task: DecodeToSurface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

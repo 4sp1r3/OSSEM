@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '136'
+version: '0'
+event(fields): MethodDCEndCompleteV2()
+opcode: DCEndCompleteV2
+keywords: JitKeyword NGenKeyword
+task: Method
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

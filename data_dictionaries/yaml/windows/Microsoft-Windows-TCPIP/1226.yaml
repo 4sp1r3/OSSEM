@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1226'
+version: '0'
+event(fields): TcpInterfaceRscStateChange(UInt32 IfIndex, UInt32 StateV4, UInt32 FailureReasonV4,
+  UInt32 StateV6, UInt32 FailureReasonV6, UInt32 Event)
+opcode: ''
+keywords: ut:TcpipInterface ut:Global
+task: TcpInterfaceRscStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: StateV4
+- field_type: UInt32
+  field_name: FailureReasonV4
+- field_type: UInt32
+  field_name: StateV6
+- field_type: UInt32
+  field_name: FailureReasonV6
+- field_type: UInt32
+  field_name: Event

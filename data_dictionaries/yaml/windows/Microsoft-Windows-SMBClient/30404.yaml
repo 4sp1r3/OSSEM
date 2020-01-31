@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30404'
+version: '0'
+event(fields): task_030404(Pointer Fcb, Pointer SrvOpen)
+opcode: ''
+keywords: Smb_Info
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Fcb
+- field_type: Pointer
+  field_name: SrvOpen

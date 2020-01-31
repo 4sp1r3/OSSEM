@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '155'
+version: '0'
+event(fields): DocumentPrintJobStart()
+opcode: Start
+keywords: Reader
+task: DocumentPrintJob
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

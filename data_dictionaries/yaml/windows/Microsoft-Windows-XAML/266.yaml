@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-XAML
+event_id: '266'
+version: '0'
+event(fields): PrimitiveCompositionTextureUpdateStart(UInt64 SourceSurface, UInt64
+  DestinationSurface, UInt32 UpdateType, UInt32 SourceX, UInt32 SourceY, UInt32 SourceWidth,
+  UInt32 SourceHeight, UInt32 TargetOffsetX, UInt32 TargetOffsetY, UInt64 Pixels,
+  UInt32 BitDepth)
+opcode: Start
+keywords: Rendering
+task: PrimitiveCompositionTextureUpdate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SourceSurface
+- field_type: UInt64
+  field_name: DestinationSurface
+- field_type: UInt32
+  field_name: UpdateType
+- field_type: UInt32
+  field_name: SourceX
+- field_type: UInt32
+  field_name: SourceY
+- field_type: UInt32
+  field_name: SourceWidth
+- field_type: UInt32
+  field_name: SourceHeight
+- field_type: UInt32
+  field_name: TargetOffsetX
+- field_type: UInt32
+  field_name: TargetOffsetY
+- field_type: UInt64
+  field_name: Pixels
+- field_type: UInt32
+  field_name: BitDepth

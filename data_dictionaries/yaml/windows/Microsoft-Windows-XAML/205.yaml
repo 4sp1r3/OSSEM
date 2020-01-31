@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '205'
+version: '0'
+event(fields): GenerateContainerStart()
+opcode: Start
+keywords: Layout
+task: GenerateContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

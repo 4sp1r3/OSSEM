@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62028'
+version: '0'
+event(fields): PlaylistFolder_Document_MoveStart(UInt32 IndexFrom, UInt32 IndexTo)
+opcode: Start
+keywords: Shell
+task: PlaylistFolder_Document_Move
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IndexFrom
+- field_type: UInt32
+  field_name: IndexTo

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '253'
+version: '0'
+event(fields): RuntimePowerManagement253(Pointer AdapterHandle, UInt32 ComponentIndex,
+  UInt32 NodeIndex, UInt32 NumberOfPStates, UInt32 CurrentPState)
+opcode: ''
+keywords: DxgKrnl_Power
+task: RuntimePowerManagement
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdapterHandle
+- field_type: UInt32
+  field_name: ComponentIndex
+- field_type: UInt32
+  field_name: NodeIndex
+- field_type: UInt32
+  field_name: NumberOfPStates
+- field_type: UInt32
+  field_name: CurrentPState

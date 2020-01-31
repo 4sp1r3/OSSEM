@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-SettingSync-Azure
+event_id: '5001'
+version: '0'
+event(fields): task_0(UnicodeString ApiName, UnicodeString CollectionId, UInt32 ProviderOp,
+  UInt64 Duration, UInt32 HRESULT, GUID CorrelationId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApiName
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UInt32
+  field_name: ProviderOp
+- field_type: UInt64
+  field_name: Duration
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: GUID
+  field_name: CorrelationId

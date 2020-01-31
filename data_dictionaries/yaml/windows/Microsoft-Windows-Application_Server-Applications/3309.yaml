@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3309'
+version: '0'
+event(fields): task_03309(UnicodeString TypeName, UnicodeString Uri, UnicodeString
+  EventSource, UnicodeString AppDomain)
+opcode: ''
+keywords: ServiceModel
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeName
+- field_type: UnicodeString
+  field_name: Uri
+- field_type: UnicodeString
+  field_name: EventSource
+- field_type: UnicodeString
+  field_name: AppDomain

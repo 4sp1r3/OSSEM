@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PrintService
+event_id: '371'
+version: '0'
+event(fields): UnsharingaprinterSpoolerOperationFailed(UnicodeString param1, UnicodeString
+  param2, UnicodeString param3)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC
+task: Unsharingaprinter
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2
+- field_type: UnicodeString
+  field_name: param3

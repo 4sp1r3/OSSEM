@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1016'
+version: '0'
+event(fields): task_01016(GUID Id, UInt32 TotalPathsCount, UInt32 PresentPathsCount,
+  AnsiString ConfigurationData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UInt32
+  field_name: TotalPathsCount
+- field_type: UInt32
+  field_name: PresentPathsCount
+- field_type: AnsiString
+  field_name: ConfigurationData

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1214'
+version: '0'
+event(fields): ConnectionEstablishmentStop1214(UInt32 ConnectionType, UnicodeString
+  HostName)
+opcode: Stop
+keywords: wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage
+  wnptrans
+task: ConnectionEstablishment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ConnectionType
+- field_type: UnicodeString
+  field_name: HostName

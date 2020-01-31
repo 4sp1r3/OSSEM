@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1011'
+version: '0'
+event(fields): WinNatPacketFilterEvent(UnicodeString InstanceName, UInt32 InternalPrefixAddrLength,
+  Binary InternalSrcPrefix, UInt32 InternalSrcPrefixLength, Binary InternaDstlPrefix,
+  UInt32 InternalDstPrefixLength, UInt32 IPv4Prefix, UInt32 IPv4PrefixLength, Boolean
+  Nat64, UInt64 InterfaceLuid, UInt64 FilterId, UInt32 Action, UInt32 Status)
+opcode: ''
+keywords: ut:Configuration
+task: WinNatPacketFilterEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InstanceName
+- field_type: UInt32
+  field_name: InternalPrefixAddrLength
+- field_type: Binary
+  field_name: InternalSrcPrefix
+- field_type: UInt32
+  field_name: InternalSrcPrefixLength
+- field_type: Binary
+  field_name: InternaDstlPrefix
+- field_type: UInt32
+  field_name: InternalDstPrefixLength
+- field_type: UInt32
+  field_name: IPv4Prefix
+- field_type: UInt32
+  field_name: IPv4PrefixLength
+- field_type: Boolean
+  field_name: Nat64
+- field_type: UInt64
+  field_name: InterfaceLuid
+- field_type: UInt64
+  field_name: FilterId
+- field_type: UInt32
+  field_name: Action
+- field_type: UInt32
+  field_name: Status

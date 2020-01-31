@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '222'
+version: '0'
+event(fields): AppReadiness_User_ProcessTasks222(UnicodeString User, UnicodeString
+  TaskId, UInt32 OpposingOperation, Boolean TaskCanceled)
+opcode: ''
+keywords: User
+task: AppReadiness_User_ProcessTasks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: TaskId
+- field_type: UInt32
+  field_name: OpposingOperation
+- field_type: Boolean
+  field_name: TaskCanceled

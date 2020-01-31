@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '212'
+version: '1'
+event(fields): BatchingReason_V1(Pointer object, Boolean Ok, Int32 Bits, Int32 FullScreenPercent,
+  Int32 FullScreenThreshold, UInt32 Format)
+opcode: ''
+keywords: ''
+task: BatchingReason
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Boolean
+  field_name: Ok
+- field_type: Int32
+  field_name: Bits
+- field_type: Int32
+  field_name: FullScreenPercent
+- field_type: Int32
+  field_name: FullScreenThreshold
+- field_type: UInt32
+  field_name: Format

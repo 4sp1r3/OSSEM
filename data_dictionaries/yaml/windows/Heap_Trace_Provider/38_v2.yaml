@@ -1,0 +1,28 @@
+provider: Heap Trace Provider
+category: '{222962ab-6180-4b88-a825-346b75f2a24a}'
+event_id: '38'
+version: '2'
+event(fields): HeapSnapShot_V2(UInt32 HeapHandle, Object FreeSpace, Object CommittedSpace,
+  Object ReservedSpace, UInt32 HeapFlags, UInt32 ProcessId, Object LargeUCRSpace,
+  UInt32 FreeListLength, UInt32 UCRLength)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapHandle
+- field_type: Object
+  field_name: FreeSpace
+- field_type: Object
+  field_name: CommittedSpace
+- field_type: Object
+  field_name: ReservedSpace
+- field_type: UInt32
+  field_name: HeapFlags
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: Object
+  field_name: LargeUCRSpace
+- field_type: UInt32
+  field_name: FreeListLength
+- field_type: UInt32
+  field_name: UCRLength

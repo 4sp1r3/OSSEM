@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-LiveId
+event_id: '2014'
+version: '0'
+event(fields): WLIDServiceOperationStart2014()
+opcode: Start
+keywords: Analytic
+task: WLIDServiceOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

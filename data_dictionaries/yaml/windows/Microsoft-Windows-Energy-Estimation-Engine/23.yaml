@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '23'
+version: '0'
+event(fields): QueryStatsResidualEnergy23(UInt16 AgeInSec, UInt64 AdjustedEnergy,
+  Int64 ResidualEnergy)
+opcode: ResidualEnergy
+keywords: ''
+task: QueryStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: AgeInSec
+- field_type: UInt64
+  field_name: AdjustedEnergy
+- field_type: Int64
+  field_name: ResidualEnergy

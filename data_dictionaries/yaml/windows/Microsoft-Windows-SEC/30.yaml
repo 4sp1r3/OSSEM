@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SEC
+event_id: '30'
+version: '0'
+event(fields): task_030(UInt64 SequenceNumber, Pointer CurrentValue, Pointer PreviousValue,
+  Pointer OriginalValue, Boolean IsSynchronous)
+opcode: ''
+keywords: Event30
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: Pointer
+  field_name: CurrentValue
+- field_type: Pointer
+  field_name: PreviousValue
+- field_type: Pointer
+  field_name: OriginalValue
+- field_type: Boolean
+  field_name: IsSynchronous

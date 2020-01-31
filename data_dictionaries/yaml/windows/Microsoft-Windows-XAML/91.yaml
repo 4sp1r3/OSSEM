@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '91'
+version: '0'
+event(fields): BitmapCacheDestroyed(UInt64 CacheId)
+opcode: ''
+keywords: CachedComposition
+task: BitmapCacheDestroyed
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CacheId

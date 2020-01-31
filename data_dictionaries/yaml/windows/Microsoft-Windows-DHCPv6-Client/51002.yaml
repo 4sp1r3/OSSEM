@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51002'
+version: '0'
+event(fields): MediaStateEventMediaDisconnect(UInt32 InterfaceId)
+opcode: MediaDisconnect
+keywords: ''
+task: MediaStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId

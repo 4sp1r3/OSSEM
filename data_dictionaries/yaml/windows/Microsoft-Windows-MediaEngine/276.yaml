@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '276'
+version: '0'
+event(fields): ProcessPolicyEventStart(Pointer Object)
+opcode: Start
+keywords: ''
+task: ProcessPolicyEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '500'
+version: '1'
+event(fields): DesktopWindowManagerMonitoringVideoMemoryDegradation_V1(UInt32 DisplayDeviceFriendlyNameLength,
+  UnicodeString DisplayDeviceFriendlyName, UInt32 MemoryBandwidth, UInt32 MemorySize,
+  UInt32 Scenario)
+opcode: VideoMemoryDegradation
+keywords: EventLog
+task: DesktopWindowManagerMonitoring
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DisplayDeviceFriendlyNameLength
+- field_type: UnicodeString
+  field_name: DisplayDeviceFriendlyName
+- field_type: UInt32
+  field_name: MemoryBandwidth
+- field_type: UInt32
+  field_name: MemorySize
+- field_type: UInt32
+  field_name: Scenario

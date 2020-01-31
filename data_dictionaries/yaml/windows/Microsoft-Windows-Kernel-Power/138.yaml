@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '138'
+version: '0'
+event(fields): ThermalPerfTrack(UInt32 Throttle, UInt32 Temperature, UInt16 ZoneLength,
+  UnicodeString Zone)
+opcode: ''
+keywords: ''
+task: ThermalPerfTrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Throttle
+- field_type: UInt32
+  field_name: Temperature
+- field_type: UInt16
+  field_name: ZoneLength
+- field_type: UnicodeString
+  field_name: Zone

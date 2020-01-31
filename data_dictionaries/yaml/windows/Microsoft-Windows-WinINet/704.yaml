@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '704'
+version: '0'
+event(fields): WININET_HTTPS_SERVER_CERT_ERROR(Pointer RequestHandle, UInt32 Error)
+opcode: ''
+keywords: WININET_KEYWORD_HTTPS WININET_KEYWORD_AOAC
+task: WININET_HTTPS_SERVER_CERT_ERROR
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestHandle
+- field_type: UInt32
+  field_name: Error

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '125'
+version: '0'
+event(fields): MAUSBDriverRundownInformation125(Pointer fid_Controller, UInt16 fid_NumberOfEndpoints,
+  UInt8 fid_NumberOfDevices, UInt8 fid_NumberOfStreams, UInt8 fid_DeviceType, UInt16
+  fid_MaxOutstandingTransferRequests, UInt16 fid_MaxOutstandingManagementRequests)
+opcode: Information
+keywords: Default Rundown
+task: MAUSBDriverRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: UInt16
+  field_name: fid_NumberOfEndpoints
+- field_type: UInt8
+  field_name: fid_NumberOfDevices
+- field_type: UInt8
+  field_name: fid_NumberOfStreams
+- field_type: UInt8
+  field_name: fid_DeviceType
+- field_type: UInt16
+  field_name: fid_MaxOutstandingTransferRequests
+- field_type: UInt16
+  field_name: fid_MaxOutstandingManagementRequests

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '59998'
+version: '0'
+event(fields): DebugStart59998(Pointer Context, UInt32 EtwQueueActionType)
+opcode: Start
+keywords: ''
+task: Debug
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Context
+- field_type: UInt32
+  field_name: EtwQueueActionType

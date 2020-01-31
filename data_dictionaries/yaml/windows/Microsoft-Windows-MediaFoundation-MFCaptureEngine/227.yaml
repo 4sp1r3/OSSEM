@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '227'
+version: '0'
+event(fields): MFCaptureEnginePhotoXVPStart(Pointer PhotoSink, UInt32 hrStatus)
+opcode: Start
+keywords: ''
+task: MFCaptureEnginePhotoXVP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PhotoSink
+- field_type: UInt32
+  field_name: hrStatus

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-AppLocker
+event_id: '8029'
+version: '0'
+event(fields): task_08029(UInt16 FilePathLength, UnicodeString FilePath, Binary Sha1Hash,
+  Binary Sha256Hash, Int32 Result, Int64 USN, Binary Sha1CatalogHash, Binary Sha256CatalogHash,
+  Boolean UserWriteable)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FilePathLength
+- field_type: UnicodeString
+  field_name: FilePath
+- field_type: Binary
+  field_name: Sha1Hash
+- field_type: Binary
+  field_name: Sha256Hash
+- field_type: Int32
+  field_name: Result
+- field_type: Int64
+  field_name: USN
+- field_type: Binary
+  field_name: Sha1CatalogHash
+- field_type: Binary
+  field_name: Sha256CatalogHash
+- field_type: Boolean
+  field_name: UserWriteable

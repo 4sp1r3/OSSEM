@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '496'
+version: '0'
+event(fields): Mshtml_Composition_Create_ImplicitLayer(Pointer IntersectingLayerNode,
+  Pointer NewImplicitLayerNode, Int32 ImplicitLayerCount)
+opcode: ''
+keywords: composition
+task: Mshtml_Composition_Create_ImplicitLayer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: IntersectingLayerNode
+- field_type: Pointer
+  field_name: NewImplicitLayerNode
+- field_type: Int32
+  field_name: ImplicitLayerCount

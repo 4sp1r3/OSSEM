@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1037'
+version: '0'
+event(fields): MswwaProtocol.AppDataToFileUriStart()
+opcode: Start
+keywords: WwaHost
+task: MswwaProtocol.AppDataToFileUri
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

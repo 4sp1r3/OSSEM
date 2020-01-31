@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-EnhancedStorage-EhStorTcgDrv
+event_id: '12'
+version: '0'
+event(fields): DriverGeneral12(HexInt32 Capabilities, HexInt64 KeyProtectionMechanism,
+  UInt32 MaxBandCount, UInt32 BandMetadataSize)
+opcode: General
+keywords: ''
+task: Driver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Capabilities
+- field_type: HexInt64
+  field_name: KeyProtectionMechanism
+- field_type: UInt32
+  field_name: MaxBandCount
+- field_type: UInt32
+  field_name: BandMetadataSize

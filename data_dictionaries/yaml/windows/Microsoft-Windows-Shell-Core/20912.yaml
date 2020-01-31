@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20912'
+version: '0'
+event(fields): UserTile_Store_SetImageFromBitmapStop()
+opcode: Stop
+keywords: Shell
+task: UserTile_Store_SetImageFromBitmap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61357'
+version: '0'
+event(fields): OperationManager_Pausing(UInt32 OldState, UInt32 NewState)
+opcode: ''
+keywords: Shell
+task: OperationManager_Pausing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OldState
+- field_type: UInt32
+  field_name: NewState

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1054'
+version: '0'
+event(fields): MiracastChunkReportViolation(UInt64 MiracastLuid, UInt32 FrameNumber,
+  UInt32 PartNumber, UInt32 ViolationType)
+opcode: ''
+keywords: Miracast
+task: MiracastChunkReportViolation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UInt32
+  field_name: FrameNumber
+- field_type: UInt32
+  field_name: PartNumber
+- field_type: UInt32
+  field_name: ViolationType

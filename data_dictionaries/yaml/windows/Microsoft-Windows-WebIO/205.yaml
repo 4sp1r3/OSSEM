@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WebIO
+event_id: '205'
+version: '0'
+event(fields): ConnectionNameResolutionRequestStart(Pointer DnsQuery, UnicodeString
+  HostName, UInt32 Timeout, UInt64 CompletionContext)
+opcode: Start
+keywords: ''
+task: ConnectionNameResolutionRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DnsQuery
+- field_type: UnicodeString
+  field_name: HostName
+- field_type: UInt32
+  field_name: Timeout
+- field_type: UInt64
+  field_name: CompletionContext

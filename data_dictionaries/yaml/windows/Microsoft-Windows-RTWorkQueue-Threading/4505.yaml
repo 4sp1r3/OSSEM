@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4505'
+version: '0'
+event(fields): Platform:AllocIndexStart(Pointer Platform, Int32 WorkQueueID, Int32
+  Index)
+opcode: Start
+keywords: ''
+task: Platform:AllocIndex
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Platform
+- field_type: Int32
+  field_name: WorkQueueID
+- field_type: Int32
+  field_name: Index

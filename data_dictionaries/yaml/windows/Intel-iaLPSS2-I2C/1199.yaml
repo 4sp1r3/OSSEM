@@ -1,0 +1,22 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1199'
+version: '0'
+event(fields): iaLPSS2_I2CControllerroutines1199(AnsiString Function, Pointer SpbController,
+  Pointer SpbRequest, UInt64 TotalInformation, UInt32 Status)
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CControllerroutines
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Function
+- field_type: Pointer
+  field_name: SpbController
+- field_type: Pointer
+  field_name: SpbRequest
+- field_type: UInt64
+  field_name: TotalInformation
+- field_type: UInt32
+  field_name: Status

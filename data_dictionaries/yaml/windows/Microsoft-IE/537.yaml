@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '537'
+version: '0'
+event(fields): Mshtml_DMTouchTarget_UpdateContentRectForBusyState(Boolean _fBusy,
+  Boolean fBusy)
+opcode: ''
+keywords: mshtml
+task: Mshtml_DMTouchTarget_UpdateContentRectForBusyState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: _fBusy
+- field_type: Boolean
+  field_name: fBusy

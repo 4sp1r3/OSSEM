@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '211'
+version: '0'
+event(fields): task_0211(GUID JobGuid, UnicodeString Title, UInt32 ErrorCode, UInt32
+  Message)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: JobGuid
+- field_type: UnicodeString
+  field_name: Title
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: Message

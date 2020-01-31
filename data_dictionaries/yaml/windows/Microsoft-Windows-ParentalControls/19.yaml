@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '19'
+version: '0'
+event(fields): WebsiteVisitWeb(UnicodeString Url, UInt32 Decision, UnicodeString Categories,
+  UnicodeString BlockedCategories, UnicodeString SerializedApplication, UnicodeString
+  Title, UnicodeString ContentType, UnicodeString Referrer, UnicodeString Telemetry)
+opcode: Web
+keywords: WPC
+task: WebsiteVisit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Url
+- field_type: UInt32
+  field_name: Decision
+- field_type: UnicodeString
+  field_name: Categories
+- field_type: UnicodeString
+  field_name: BlockedCategories
+- field_type: UnicodeString
+  field_name: SerializedApplication
+- field_type: UnicodeString
+  field_name: Title
+- field_type: UnicodeString
+  field_name: ContentType
+- field_type: UnicodeString
+  field_name: Referrer
+- field_type: UnicodeString
+  field_name: Telemetry

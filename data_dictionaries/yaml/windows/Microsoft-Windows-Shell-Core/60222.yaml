@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60222'
+version: '0'
+event(fields): SearchBox_SearchConversionList_EndUIElement(UInt32 ElemId)
+opcode: ''
+keywords: Shell
+task: SearchBox_SearchConversionList_EndUIElement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ElemId

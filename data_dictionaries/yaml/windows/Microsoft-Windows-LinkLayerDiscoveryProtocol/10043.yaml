@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-LinkLayerDiscoveryProtocol
+event_id: '10043'
+version: '0'
+event(fields): task_010043(UInt32 IfIndex, UInt32 SequenceNumber)
+opcode: ''
+keywords: ut:ReceivePath
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: SequenceNumber

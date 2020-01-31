@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SetupCl
+event_id: '2'
+version: '0'
+event(fields): SetupCltask2(UInt32 SourceLine, AnsiString SourceFunction, AnsiString
+  Message)
+opcode: ''
+keywords: keyDiagnostic
+task: SetupCltask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SourceLine
+- field_type: AnsiString
+  field_name: SourceFunction
+- field_type: AnsiString
+  field_name: Message

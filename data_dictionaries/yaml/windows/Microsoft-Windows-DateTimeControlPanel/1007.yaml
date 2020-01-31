@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DateTimeControlPanel
+event_id: '1007'
+version: '0'
+event(fields): Date/TimeControlPanelApplettimezonefunctionalityDate/TimeControlPanelAppletoperations1007(UnicodeString
+  TimeZone, UInt32 ErrorCode)
+opcode: Date/TimeControlPanelAppletoperations
+keywords: ''
+task: Date/TimeControlPanelApplettimezonefunctionality
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TimeZone
+- field_type: UInt32
+  field_name: ErrorCode

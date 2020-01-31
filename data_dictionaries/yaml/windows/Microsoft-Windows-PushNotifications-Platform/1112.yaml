@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1112'
+version: '0'
+event(fields): ConnectionEstablishmentStart(UInt32 ConnectionType)
+opcode: Start
+keywords: wpnprv wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage
+task: ConnectionEstablishment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ConnectionType

@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2116'
+version: '0'
+event(fields): PageManager2116(UInt32 unParam, UInt32 PMES, UInt32 PMES2)
+opcode: ''
+keywords: PageManager
+task: PageManager
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: PMES
+- field_type: UInt32
+  field_name: PMES2

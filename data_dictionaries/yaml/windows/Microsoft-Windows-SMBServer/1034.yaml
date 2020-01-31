@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1034'
+version: '0'
+event(fields): task_01034(UInt32 FailureType, UInt32 InterfaceIndex, HexInt32 Error,
+  UInt16 DeviceNameLength, UnicodeString DeviceName, UInt32 ExtraInformation)
+opcode: ''
+keywords: Nsi
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FailureType
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: HexInt32
+  field_name: Error
+- field_type: UInt16
+  field_name: DeviceNameLength
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: UInt32
+  field_name: ExtraInformation

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '516'
+version: '0'
+event(fields): FindTrackerTargetsStop()
+opcode: Stop
+keywords: Core
+task: FindTrackerTargets
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

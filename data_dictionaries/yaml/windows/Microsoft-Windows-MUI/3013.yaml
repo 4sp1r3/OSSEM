@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MUI
+event_id: '3013'
+version: '0'
+event(fields): MUIresourcecachebuilderStart3013()
+opcode: Start
+keywords: ''
+task: MUIresourcecachebuilder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

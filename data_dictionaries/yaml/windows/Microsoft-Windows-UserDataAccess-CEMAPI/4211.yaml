@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4211'
+version: '0'
+event(fields): STORE_LOADRULESLISTStop()
+opcode: Stop
+keywords: Performance
+task: STORE_LOADRULESLIST
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

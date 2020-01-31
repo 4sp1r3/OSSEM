@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WebAuth
+event_id: '1041'
+version: '0'
+event(fields): NavigationTerminateStop1041(UnicodeString Title, UnicodeString Url,
+  UnicodeString TerminateUrl)
+opcode: Stop
+keywords: AuthHost
+task: NavigationTerminate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Title
+- field_type: UnicodeString
+  field_name: Url
+- field_type: UnicodeString
+  field_name: TerminateUrl

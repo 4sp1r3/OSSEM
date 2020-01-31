@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '55'
+version: '0'
+event(fields): IPS_SettingsManager_GetDisablePersonalizationStart()
+opcode: Start
+keywords: ''
+task: IPS_SettingsManager_GetDisablePersonalization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Serial-ClassExtension-V2
+event_id: '22'
+version: '1'
+event(fields): I/Orequest.I/Opayloadoperation.22_V1(Pointer Device, UInt64 Offset,
+  UInt32 Length, HexInt32 TransferModeEvent, Binary Payload)
+opcode: I/Opayloadoperation.
+keywords: IOPayload ReceiveIOPayload
+task: I/Orequest.
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Device
+- field_type: UInt64
+  field_name: Offset
+- field_type: UInt32
+  field_name: Length
+- field_type: HexInt32
+  field_name: TransferModeEvent
+- field_type: Binary
+  field_name: Payload

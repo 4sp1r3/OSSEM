@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-RemoteApp and Desktop Connections
+event_id: '1007'
+version: '0'
+event(fields): Update1007(UnicodeString Name, UnicodeString FeedURL, UInt32 ErrorCode,
+  UInt32 ErrorCodeAdditional)
+opcode: ''
+keywords: ''
+task: Update
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: FeedURL
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: ErrorCodeAdditional

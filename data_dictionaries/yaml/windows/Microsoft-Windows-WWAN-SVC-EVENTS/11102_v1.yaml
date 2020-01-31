@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '11102'
+version: '1'
+event(fields): task_0OID_Handling11102_V1(GUID InterfaceGuid, UInt32 RequestId, UInt32
+  OID, UInt32 cbPayload, Binary Payload, UInt32 ErrorCode)
+opcode: OID_Handling
+keywords: LwtDiagnostic WwanOid keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: OID
+- field_type: UInt32
+  field_name: cbPayload
+- field_type: Binary
+  field_name: Payload
+- field_type: UInt32
+  field_name: ErrorCode

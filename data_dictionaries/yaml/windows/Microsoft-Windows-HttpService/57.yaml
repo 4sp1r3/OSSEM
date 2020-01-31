@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HttpService
+event_id: '57'
+version: '0'
+event(fields): HTTPSSLTraceTaskSslDisconnEvent(Pointer ConnectionObj)
+opcode: SslDisconnEvent
+keywords: HTTP_KEYWORD_CONNECTION HTTP_KEYWORD_SSL
+task: HTTPSSLTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionObj

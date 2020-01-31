@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '575'
+version: '0'
+event(fields): AcceleratorKeyActivated(UInt32 KeyCode, UInt32 RepeatCount)
+opcode: ''
+keywords: Input
+task: AcceleratorKeyActivated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: KeyCode
+- field_type: UInt32
+  field_name: RepeatCount

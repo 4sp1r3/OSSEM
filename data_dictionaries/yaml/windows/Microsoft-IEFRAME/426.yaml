@@ -1,0 +1,20 @@
+provider: Microsoft-IEFRAME
+event_id: '426'
+version: '0'
+event(fields): ImageStore_Activity_ImageTotal(UInt32 PID, UnicodeString ActivityType,
+  UnicodeString ImageKey, UInt32 TotalNumber)
+opcode: ''
+keywords: imagestore
+task: ImageStore_Activity_ImageTotal
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PID
+- field_type: UnicodeString
+  field_name: ActivityType
+- field_type: UnicodeString
+  field_name: ImageKey
+- field_type: UInt32
+  field_name: TotalNumber

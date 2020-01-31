@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '399'
+version: '0'
+event(fields): UpdateInputScope(UInt32 InputScopeValue)
+opcode: ''
+keywords: ''
+task: UpdateInputScope
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InputScopeValue

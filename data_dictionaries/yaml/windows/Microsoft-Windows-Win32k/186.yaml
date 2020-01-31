@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Win32k
+event_id: '186'
+version: '0'
+event(fields): PointerFrameCoalesce186(UInt16 wCursorId, UInt16 wPointerId, UInt32
+  dwReason)
+opcode: ''
+keywords: PointerInput
+task: PointerFrameCoalesce
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: wCursorId
+- field_type: UInt16
+  field_name: wPointerId
+- field_type: UInt32
+  field_name: dwReason

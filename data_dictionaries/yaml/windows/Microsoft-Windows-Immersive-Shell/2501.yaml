@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2501'
+version: '0'
+event(fields): UserTile_Flyout_LaunchStop()
+opcode: Stop
+keywords: ''
+task: UserTile_Flyout_Launch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

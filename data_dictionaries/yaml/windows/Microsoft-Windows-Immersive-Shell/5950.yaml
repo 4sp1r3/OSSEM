@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5950'
+version: '0'
+event(fields): AppActivation_Log_Success(UnicodeString AppId, UnicodeString ContractId)
+opcode: ''
+keywords: ''
+task: AppActivation_Log_Success
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId
+- field_type: UnicodeString
+  field_name: ContractId

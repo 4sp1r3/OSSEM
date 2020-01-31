@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1147'
+version: '0'
+event(fields): DataLayer_ItemCompareItemStop()
+opcode: Stop
+keywords: SearchPerf
+task: DataLayer_ItemCompareItem
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

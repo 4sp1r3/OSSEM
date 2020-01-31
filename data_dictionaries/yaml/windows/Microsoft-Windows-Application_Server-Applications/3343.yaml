@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3343'
+version: '0'
+event(fields): ConnectStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: Channel
+task: Connect
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

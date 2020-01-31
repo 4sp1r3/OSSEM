@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1021'
+version: '0'
+event(fields): task_01021(Int32 ErrorCode)
+opcode: ''
+keywords: wpnconn wpntroubleshoot wpndebug_connectivity wpndebug_connectivity_isConnected
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ErrorCode

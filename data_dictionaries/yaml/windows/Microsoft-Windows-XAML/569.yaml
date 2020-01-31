@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '569'
+version: '0'
+event(fields): SetCustomRuntimeDataForStyleStart()
+opcode: Start
+keywords: Core
+task: SetCustomRuntimeDataForStyle
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

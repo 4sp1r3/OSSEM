@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1348'
+version: '0'
+event(fields): TcpCtcpDataTransferTimeout1348(Pointer Tcb, UInt32 Cwnd, UInt32 SSThresh)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:SendPath
+task: TcpCtcpDataTransferTimeout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Cwnd
+- field_type: UInt32
+  field_name: SSThresh

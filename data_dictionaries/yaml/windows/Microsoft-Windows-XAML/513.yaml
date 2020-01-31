@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '513'
+version: '0'
+event(fields): ReleaseQueueCleanupStart()
+opcode: Start
+keywords: Core
+task: ReleaseQueueCleanup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '318'
+version: '0'
+event(fields): DWMVsyncCountWait(UInt32 DWMCount, UInt32 VsyncCount, UInt32 VsyncFlag,
+  UInt32 VsyncWaiters)
+opcode: ''
+keywords: Base
+task: DWMVsyncCountWait
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DWMCount
+- field_type: UInt32
+  field_name: VsyncCount
+- field_type: UInt32
+  field_name: VsyncFlag
+- field_type: UInt32
+  field_name: VsyncWaiters

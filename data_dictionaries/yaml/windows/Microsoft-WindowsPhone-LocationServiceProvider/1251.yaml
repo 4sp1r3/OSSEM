@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '1251'
+version: '0'
+event(fields): Initialization1251(UInt32 Trigger, UInt32 RegStatus)
+opcode: ''
+keywords: Selfhost Init Gnss Supl
+task: Initialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Trigger
+- field_type: UInt32
+  field_name: RegStatus

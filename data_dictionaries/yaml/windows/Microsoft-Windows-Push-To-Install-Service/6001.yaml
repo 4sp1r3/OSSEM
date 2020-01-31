@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Push-To-Install-Service
+event_id: '6001'
+version: '0'
+event(fields): PushToInstallService(UnicodeString Message, AnsiString Function, Int32
+  ErrorCode, AnsiString Source, UInt32 LineNumber)
+opcode: ''
+keywords: PushToInstallService
+task: PushToInstallService
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: AnsiString
+  field_name: Function
+- field_type: Int32
+  field_name: ErrorCode
+- field_type: AnsiString
+  field_name: Source
+- field_type: UInt32
+  field_name: LineNumber

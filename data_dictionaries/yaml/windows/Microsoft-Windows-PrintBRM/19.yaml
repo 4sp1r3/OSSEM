@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '19'
+version: '0'
+event(fields): RestorePrintBRMoperationfailure19(UnicodeString SourceArchitecture,
+  UnicodeString TargetArchitecture)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_LANG_MON_KEYWORD
+task: Restore
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SourceArchitecture
+- field_type: UnicodeString
+  field_name: TargetArchitecture

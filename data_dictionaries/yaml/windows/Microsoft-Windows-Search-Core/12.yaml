@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '12'
+version: '0'
+event(fields): BackOff_IORStop()
+opcode: Stop
+keywords: ''
+task: BackOff_IOR
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

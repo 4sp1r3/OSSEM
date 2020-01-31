@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '92'
+version: '0'
+event(fields): CueRemoved()
+opcode: ''
+keywords: ''
+task: CueRemoved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

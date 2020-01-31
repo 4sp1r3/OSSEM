@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '11043'
+version: '1'
+event(fields): ManifestPrepareOutputDocumentStop_V1()
+opcode: Stop
+keywords: ''
+task: ManifestPrepareOutputDocument
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

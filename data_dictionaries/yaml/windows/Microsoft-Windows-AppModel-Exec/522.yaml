@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '522'
+version: '0'
+event(fields): BM_ActivateDeferredWorkItem(GUID WorkItemId)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BM_ActivateDeferredWorkItem
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: WorkItemId

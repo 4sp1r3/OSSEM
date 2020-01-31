@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '650'
+version: '0'
+event(fields): Smb2FileOpenStart(GUID OpenGUID, GUID TreeConnectGUID, GUID SessionGUID,
+  GUID ConnectionGUID, GUID ShareGUID, UInt16 NameLength, UnicodeString Name, GUID
+  LeaseId, UInt32 DesiredAccess, UInt32 SharingMode, UInt32 CreateOptions, UInt32
+  FileAttributes, Boolean IsReplay, Boolean IsResume)
+opcode: Start
+keywords: File
+task: Smb2FileOpen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: OpenGUID
+- field_type: GUID
+  field_name: TreeConnectGUID
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: GUID
+  field_name: ShareGUID
+- field_type: UInt16
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: Name
+- field_type: GUID
+  field_name: LeaseId
+- field_type: UInt32
+  field_name: DesiredAccess
+- field_type: UInt32
+  field_name: SharingMode
+- field_type: UInt32
+  field_name: CreateOptions
+- field_type: UInt32
+  field_name: FileAttributes
+- field_type: Boolean
+  field_name: IsReplay
+- field_type: Boolean
+  field_name: IsResume

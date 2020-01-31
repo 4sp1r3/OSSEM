@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '3'
+version: '0'
+event(fields): UninitMSCTFForProcessStart()
+opcode: Start
+keywords: Perf
+task: UninitMSCTFForProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

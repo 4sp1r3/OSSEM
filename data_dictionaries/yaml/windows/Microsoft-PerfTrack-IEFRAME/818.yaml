@@ -1,0 +1,15 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '818'
+version: '0'
+event(fields): QSA_PopulateTiles_PerftrackStart(UInt64 Object, UInt32 ID)
+opcode: Start
+keywords: nonPerfTrack
+task: QSA_PopulateTiles_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object
+- field_type: UInt32
+  field_name: ID

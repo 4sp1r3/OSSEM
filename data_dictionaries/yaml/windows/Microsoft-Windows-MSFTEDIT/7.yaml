@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSFTEDIT
+event_id: '7'
+version: '0'
+event(fields): ShowGripperStop(UInt32 param)
+opcode: Stop
+keywords: ''
+task: ShowGripper
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: param

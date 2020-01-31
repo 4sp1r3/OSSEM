@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Wininit
+event_id: '55'
+version: '0'
+event(fields): ReceivedShutdownRequest(UInt32 SessionId, UInt32 IsRemote, UInt32 GracePeriod,
+  UInt32 Flags, UInt32 Reason, UnicodeString Message)
+opcode: ''
+keywords: PerfInstrumentation
+task: ReceivedShutdownRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: IsRemote
+- field_type: UInt32
+  field_name: GracePeriod
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Reason
+- field_type: UnicodeString
+  field_name: Message

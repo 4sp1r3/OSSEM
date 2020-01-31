@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5379'
+version: '0'
+event(fields): task_05379(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString TargetName, UInt32 Type,
+  UInt32 CountOfCredentialsReturned, UnicodeString ReadOperation, UInt32 ReturnCode,
+  FILETIME ProcessCreationTime, UInt32 ClientProcessId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: TargetName
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: CountOfCredentialsReturned
+- field_type: UnicodeString
+  field_name: ReadOperation
+- field_type: UInt32
+  field_name: ReturnCode
+- field_type: FILETIME
+  field_name: ProcessCreationTime
+- field_type: UInt32
+  field_name: ClientProcessId

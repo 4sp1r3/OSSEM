@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7719'
+version: '0'
+event(fields): PnP_Drvinst_DevicePolicyCheckStop()
+opcode: Stop
+keywords: UserPnp
+task: PnP_Drvinst_DevicePolicyCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

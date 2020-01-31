@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '36'
+version: '0'
+event(fields): ContextStop(Pointer pID3D11Device, Pointer pID3D11DeviceContext, UInt32
+  ContextType, UInt32 ContextFlags)
+opcode: Stop
+keywords: Contexts
+task: Context
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D11Device
+- field_type: Pointer
+  field_name: pID3D11DeviceContext
+- field_type: UInt32
+  field_name: ContextType
+- field_type: UInt32
+  field_name: ContextFlags

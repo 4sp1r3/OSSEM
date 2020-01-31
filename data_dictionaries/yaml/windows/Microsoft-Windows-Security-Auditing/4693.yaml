@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4693'
+version: '0'
+event(fields): task_04693(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString MasterKeyId, HexInt32
+  RecoveryReason, UnicodeString RecoveryServer, UnicodeString RecoveryKeyId, HexInt32
+  FailureId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: MasterKeyId
+- field_type: HexInt32
+  field_name: RecoveryReason
+- field_type: UnicodeString
+  field_name: RecoveryServer
+- field_type: UnicodeString
+  field_name: RecoveryKeyId
+- field_type: HexInt32
+  field_name: FailureId

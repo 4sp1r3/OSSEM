@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-SPB-ClassExtension
+event_id: '1001'
+version: '1'
+event(fields): StartupoftheSPBclassextension1001_V1(UnicodeString ControlDeviceName,
+  UInt32 Status)
+opcode: ''
+keywords: ''
+task: StartupoftheSPBclassextension
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ControlDeviceName
+- field_type: UInt32
+  field_name: Status

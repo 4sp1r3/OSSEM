@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7121'
+version: '0'
+event(fields): Perf_WLRoamFindBackupChangesStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamFindBackupChanges
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '91'
+version: '0'
+event(fields): KeyboardEventHandling91()
+opcode: ''
+keywords: Perf OOPIME
+task: KeyboardEventHandling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

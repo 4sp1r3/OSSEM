@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '4050'
+version: '0'
+event(fields): task_04050()
+opcode: ''
+keywords: Debug
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

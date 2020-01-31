@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '1008'
+version: '1'
+event(fields): task_01008_V1(GUID SocketID, UInt32 LocalAddressLength, Binary LocalAddress,
+  UInt32 RemoteAddressLength, Binary RemoteAddress, UInt16 ProtocolVersion, UInt32
+  MaxReadWriteSize, UInt32 MaxReceiveSize, UInt32 MaxFragmentedReceiveSize, UInt32
+  MaxSendSize, UInt32 MaxFragmentedSendSize, UInt32 InboundReadDepth, UInt32 OutboundReadDepth)
+opcode: ''
+keywords: Connect Accept
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SocketID
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt16
+  field_name: ProtocolVersion
+- field_type: UInt32
+  field_name: MaxReadWriteSize
+- field_type: UInt32
+  field_name: MaxReceiveSize
+- field_type: UInt32
+  field_name: MaxFragmentedReceiveSize
+- field_type: UInt32
+  field_name: MaxSendSize
+- field_type: UInt32
+  field_name: MaxFragmentedSendSize
+- field_type: UInt32
+  field_name: InboundReadDepth
+- field_type: UInt32
+  field_name: OutboundReadDepth

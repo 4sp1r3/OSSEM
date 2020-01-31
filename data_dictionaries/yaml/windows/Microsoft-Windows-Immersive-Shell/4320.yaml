@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4320'
+version: '0'
+event(fields): ImmersiveMonitorReconcileMonitors(UInt32 Result)
+opcode: ''
+keywords: ''
+task: ImmersiveMonitorReconcileMonitors
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

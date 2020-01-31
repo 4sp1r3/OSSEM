@@ -1,0 +1,26 @@
+provider: Heap Trace Provider
+category: '{222962ab-6180-4b88-a825-346b75f2a24a}'
+event_id: '42'
+version: '3'
+event(fields): HeapContract(UInt32 HeapHandle, Object DeCommittedSize, UInt32 DeCommitAddress,
+  Object FreeSpace, Object CommittedSpace, Object ReservedSpace, UInt32 NoOfUCRs,
+  Object AllocatedSpace)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapHandle
+- field_type: Object
+  field_name: DeCommittedSize
+- field_type: UInt32
+  field_name: DeCommitAddress
+- field_type: Object
+  field_name: FreeSpace
+- field_type: Object
+  field_name: CommittedSpace
+- field_type: Object
+  field_name: ReservedSpace
+- field_type: UInt32
+  field_name: NoOfUCRs
+- field_type: Object
+  field_name: AllocatedSpace

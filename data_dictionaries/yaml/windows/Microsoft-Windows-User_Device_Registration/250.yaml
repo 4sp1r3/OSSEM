@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '250'
+version: '0'
+event(fields): task_0250(UnicodeString Attribute, UnicodeString TenantId, UnicodeString
+  DeviceId, Int32 JoinType, UnicodeString JoinTypeName, UnicodeString RequestId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Attribute
+- field_type: UnicodeString
+  field_name: TenantId
+- field_type: UnicodeString
+  field_name: DeviceId
+- field_type: Int32
+  field_name: JoinType
+- field_type: UnicodeString
+  field_name: JoinTypeName
+- field_type: UnicodeString
+  field_name: RequestId

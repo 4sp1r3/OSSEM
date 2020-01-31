@@ -1,0 +1,25 @@
+provider: Microsoft-IE
+event_id: '486'
+version: '0'
+event(fields): Mshtml_CDirectManipulationHandler_TouchHandler_Configuration(Pointer
+  CDoc, Pointer CElement, UInt32 ElementTag, Boolean PrimaryTouchHandler, Boolean
+  IndpendentlyComposed, UInt32 TouchConfiguration)
+opcode: ''
+keywords: verbose
+task: Mshtml_CDirectManipulationHandler_TouchHandler_Configuration
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CDoc
+- field_type: Pointer
+  field_name: CElement
+- field_type: UInt32
+  field_name: ElementTag
+- field_type: Boolean
+  field_name: PrimaryTouchHandler
+- field_type: Boolean
+  field_name: IndpendentlyComposed
+- field_type: UInt32
+  field_name: TouchConfiguration

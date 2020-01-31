@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1010'
+version: '0'
+event(fields): Browse_Query_Content_ProviderStop()
+opcode: Stop
+keywords: ''
+task: Browse_Query_Content_Provider
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

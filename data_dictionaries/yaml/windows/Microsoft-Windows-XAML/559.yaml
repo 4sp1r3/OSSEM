@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '559'
+version: '0'
+event(fields): SetConnectionIDStart()
+opcode: Start
+keywords: Core
+task: SetConnectionID
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

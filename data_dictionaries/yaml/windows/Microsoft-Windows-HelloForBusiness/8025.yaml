@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8025'
+version: '0'
+event(fields): ServiceStartInformational8025(UnicodeString ServiceName)
+opcode: Informational
+keywords: Internal
+task: ServiceStart
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServiceName

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DeviceAssociationService
+event_id: '5732'
+version: '0'
+event(fields): das_AssociationStart5732(Pointer DasContext)
+opcode: Start
+keywords: DeviceAssociationService association
+task: das_Association
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DasContext

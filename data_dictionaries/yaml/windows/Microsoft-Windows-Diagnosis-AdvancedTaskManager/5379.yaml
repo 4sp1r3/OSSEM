@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5379'
+version: '0'
+event(fields): Dashboard_Disk_EnumerateDisksStart()
+opcode: Start
+keywords: dashboard
+task: Dashboard_Disk_EnumerateDisks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

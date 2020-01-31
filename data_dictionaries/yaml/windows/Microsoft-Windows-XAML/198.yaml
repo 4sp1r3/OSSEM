@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '198'
+version: '0'
+event(fields): SwipingStop()
+opcode: Stop
+keywords: Input
+task: Swiping
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

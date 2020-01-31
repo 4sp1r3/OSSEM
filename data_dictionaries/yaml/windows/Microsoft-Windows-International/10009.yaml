@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-International
+event_id: '10009'
+version: '0'
+event(fields): NLSUnattendedRegionalandLanguageOptionsNLSoperations10009(UInt32 Value,
+  UInt32 Win32ErrorCode, UnicodeString Win32ErrorMessage)
+opcode: NLSoperations
+keywords: ''
+task: NLSUnattendedRegionalandLanguageOptions
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value
+- field_type: UInt32
+  field_name: Win32ErrorCode
+- field_type: UnicodeString
+  field_name: Win32ErrorMessage

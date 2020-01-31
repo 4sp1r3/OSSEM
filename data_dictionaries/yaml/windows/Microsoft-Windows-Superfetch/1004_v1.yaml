@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1004'
+version: '1'
+event(fields): DeleteVirtualStore_V1(UInt32 StoreId)
+opcode: ''
+keywords: Store
+task: DeleteVirtualStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StoreId

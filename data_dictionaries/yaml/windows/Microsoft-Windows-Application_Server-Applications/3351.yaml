@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3351'
+version: '0'
+event(fields): Quotas3351(UnicodeString AppDomain)
+opcode: ''
+keywords: Quota
+task: Quotas
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-OfflineFiles
+event_id: '1006'
+version: '0'
+event(fields): task_01006(UnicodeString Path, UInt32 FailedFileCount)
+opcode: ''
+keywords: CscEvtKeywd_BGSync
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UInt32
+  field_name: FailedFileCount

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '216'
+version: '0'
+event(fields): BlockGpuAccess(Int32 AdapterOrdinal, Pointer hProcessId)
+opcode: ''
+keywords: Base
+task: BlockGpuAccess
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: AdapterOrdinal
+- field_type: Pointer
+  field_name: hProcessId

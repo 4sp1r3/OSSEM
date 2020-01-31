@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-CoreSystem-SmsRouter
+event_id: '101'
+version: '0'
+event(fields): SmsRouterStop()
+opcode: Stop
+keywords: Performance
+task: SmsRouter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

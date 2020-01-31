@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Audio
+event_id: '115'
+version: '0'
+event(fields): CrossProcesspacketadded(Pointer CrossProcessInstance, UInt32 ReadIndex,
+  UInt32 WriteIndexIndex, UInt32 FramesInPacket, UInt64 QPC)
+opcode: ''
+keywords: ''
+task: CrossProcesspacketadded
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CrossProcessInstance
+- field_type: UInt32
+  field_name: ReadIndex
+- field_type: UInt32
+  field_name: WriteIndexIndex
+- field_type: UInt32
+  field_name: FramesInPacket
+- field_type: UInt64
+  field_name: QPC

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '206'
+version: '0'
+event(fields): DLM_Security_MalwareStop()
+opcode: Stop
+keywords: primarynav
+task: DLM_Security_Malware
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

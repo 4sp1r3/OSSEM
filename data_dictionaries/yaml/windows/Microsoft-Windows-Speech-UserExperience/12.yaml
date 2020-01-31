@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '12'
+version: '0'
+event(fields): ConfigUI_LaunchPronWizardStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ConfigUI_LaunchPronWizard
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

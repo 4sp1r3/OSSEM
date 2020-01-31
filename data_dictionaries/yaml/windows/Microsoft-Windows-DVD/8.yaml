@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DVD
+event_id: '8'
+version: '0'
+event(fields): NavThrottleStart(Pointer Object, Int32 Duration, Int32 MaxLatency)
+opcode: Start
+keywords: ''
+task: NavThrottle
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: Duration
+- field_type: Int32
+  field_name: MaxLatency

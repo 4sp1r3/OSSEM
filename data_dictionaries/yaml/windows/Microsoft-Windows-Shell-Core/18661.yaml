@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18661'
+version: '0'
+event(fields): Shell32_ExplorerBrowser_Ready(UInt32 Count)
+opcode: ''
+keywords: Shell ExplorerPerf
+task: Shell32_ExplorerBrowser_Ready
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count

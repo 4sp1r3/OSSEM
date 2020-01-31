@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9633'
+version: '0'
+event(fields): Explorer_PowerMessage(UInt32 WParam, UInt32 LParam)
+opcode: ''
+keywords: Shell
+task: Explorer_PowerMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WParam
+- field_type: UInt32
+  field_name: LParam

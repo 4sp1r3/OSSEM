@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '144'
+version: '0'
+event(fields): CreateHTMLPreview_ShowWindow()
+opcode: ''
+keywords: primarynav
+task: CreateHTMLPreview_ShowWindow
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

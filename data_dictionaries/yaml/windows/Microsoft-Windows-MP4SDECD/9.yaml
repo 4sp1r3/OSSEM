@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MP4SDECD
+event_id: '9'
+version: '0'
+event(fields): MP4SDECD_ProcessOutputStart()
+opcode: Start
+keywords: ''
+task: MP4SDECD_ProcessOutput
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

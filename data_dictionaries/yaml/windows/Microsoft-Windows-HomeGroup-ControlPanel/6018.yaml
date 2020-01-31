@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HomeGroup-ControlPanel
+event_id: '6018'
+version: '0'
+event(fields): Settings_AdvancedPageCommitStop()
+opcode: Stop
+keywords: ''
+task: Settings_AdvancedPageCommit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

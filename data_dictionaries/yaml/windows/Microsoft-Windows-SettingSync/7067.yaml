@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7067'
+version: '0'
+event(fields): Perf_WLRoamGetSettingUnitNetworkRequestStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamGetSettingUnitNetworkRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

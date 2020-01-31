@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '31'
+version: '0'
+event(fields): URLReputationCheck31(UnicodeString URL, UInt32 FinalHRESULT, UInt32
+  THREAT, UInt32 UrsStatus, Boolean AllUrlsFoundInDat, UnicodeString BlockedUrl, Boolean
+  IsBlockedUrlTopFrame, UInt64 BlockedUrlCategories, UnicodeString UrlFetchState)
+opcode: ''
+keywords: functionality
+task: URLReputationCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt32
+  field_name: FinalHRESULT
+- field_type: UInt32
+  field_name: THREAT
+- field_type: UInt32
+  field_name: UrsStatus
+- field_type: Boolean
+  field_name: AllUrlsFoundInDat
+- field_type: UnicodeString
+  field_name: BlockedUrl
+- field_type: Boolean
+  field_name: IsBlockedUrlTopFrame
+- field_type: UInt64
+  field_name: BlockedUrlCategories
+- field_type: UnicodeString
+  field_name: UrlFetchState

@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-StorPort
+event_id: '22'
+version: '1'
+event(fields): None22_V1(HexInt32 Length, HexInt32 MaxTransferLength, UInt32 NumberOfBuses,
+  UInt32 MaxNumberOfTargets, UInt32 MaxNumberOfLogicalUnits, UInt32 MaxNumberOfIO,
+  UInt32 MaxIOsPerLun, UInt32 InitialLunQueueDepth, HexInt32 RequestedDumpBufferSize,
+  HexInt32 FeatureSupport, UInt8 SrbType, UInt8 AddressType, UInt8 Dma64BitAddress,
+  UInt32 BusResetHoldTime, UInt32 InterruptSynchronizationMode, Boolean CachesData,
+  Boolean VirtualDevice)
+opcode: ''
+keywords: Config
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Length
+- field_type: HexInt32
+  field_name: MaxTransferLength
+- field_type: UInt32
+  field_name: NumberOfBuses
+- field_type: UInt32
+  field_name: MaxNumberOfTargets
+- field_type: UInt32
+  field_name: MaxNumberOfLogicalUnits
+- field_type: UInt32
+  field_name: MaxNumberOfIO
+- field_type: UInt32
+  field_name: MaxIOsPerLun
+- field_type: UInt32
+  field_name: InitialLunQueueDepth
+- field_type: HexInt32
+  field_name: RequestedDumpBufferSize
+- field_type: HexInt32
+  field_name: FeatureSupport
+- field_type: UInt8
+  field_name: SrbType
+- field_type: UInt8
+  field_name: AddressType
+- field_type: UInt8
+  field_name: Dma64BitAddress
+- field_type: UInt32
+  field_name: BusResetHoldTime
+- field_type: UInt32
+  field_name: InterruptSynchronizationMode
+- field_type: Boolean
+  field_name: CachesData
+- field_type: Boolean
+  field_name: VirtualDevice

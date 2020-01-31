@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '105'
+version: '0'
+event(fields): MediaFoundationGetConfigurationValueString(Int32 Type, UnicodeString
+  KeyName, UnicodeString ValueName, Int32 lResult, Boolean QuerySize, UnicodeString
+  ValueString)
+opcode: ''
+keywords: ''
+task: MediaFoundationGetConfigurationValueString
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Type
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: UnicodeString
+  field_name: ValueName
+- field_type: Int32
+  field_name: lResult
+- field_type: Boolean
+  field_name: QuerySize
+- field_type: UnicodeString
+  field_name: ValueString

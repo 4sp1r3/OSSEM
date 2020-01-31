@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '106'
+version: '0'
+event(fields): PersistMemoryStart(GUID ApplicationId, UInt32 RunCount, UInt64 PageCount)
+opcode: Start
+keywords: MemoryPreservation
+task: PersistMemory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ApplicationId
+- field_type: UInt32
+  field_name: RunCount
+- field_type: UInt64
+  field_name: PageCount

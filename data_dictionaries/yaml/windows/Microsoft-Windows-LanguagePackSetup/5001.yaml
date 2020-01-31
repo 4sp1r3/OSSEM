@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '5001'
+version: '0'
+event(fields): TasktotestNotifyUILanguagecallbackdll.5001(UnicodeString NewLanguage,
+  UnicodeString PreviousLanguage, UInt32 Flags, UInt32 ReturnValue)
+opcode: ''
+keywords: ''
+task: TasktotestNotifyUILanguagecallbackdll.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: NewLanguage
+- field_type: UnicodeString
+  field_name: PreviousLanguage
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ReturnValue

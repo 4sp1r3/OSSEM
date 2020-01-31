@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6219'
+version: '0'
+event(fields): Thumbnails_SetThumbnailStart()
+opcode: Start
+keywords: Shell
+task: Thumbnails_SetThumbnail
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

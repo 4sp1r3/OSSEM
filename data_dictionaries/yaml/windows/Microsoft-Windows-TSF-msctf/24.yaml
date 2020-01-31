@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '24'
+version: '0'
+event(fields): CheckLastWindowDestroyedStop()
+opcode: Stop
+keywords: Perf
+task: CheckLastWindowDestroyed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

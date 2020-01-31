@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '17'
+version: '0'
+event(fields): EmbededColorProfileStart()
+opcode: Start
+keywords: Reader
+task: EmbededColorProfile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

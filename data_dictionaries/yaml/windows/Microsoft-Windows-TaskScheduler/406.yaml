@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '406'
+version: '0'
+event(fields): Credstoreinitializationerror(UInt32 ResultCode)
+opcode: ''
+keywords: ''
+task: Credstoreinitializationerror
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ResultCode

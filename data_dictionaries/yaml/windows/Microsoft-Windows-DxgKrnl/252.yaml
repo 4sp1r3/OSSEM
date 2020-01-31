@@ -1,0 +1,62 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '252'
+version: '0'
+event(fields): FlipMultiPlaneOverlay(UInt32 VidPnSourceId, UInt32 LayerIndex, UInt32
+  Enabled, Pointer hAllocation, UInt32 Flags, Int32 SrcRectleft, Int32 SrcRectright,
+  Int32 SrcRecttop, Int32 SrcRectbottom, Int32 DstRectleft, Int32 DstRectright, Int32
+  DstRecttop, Int32 DstRectbottom, Int32 ClipRectleft, Int32 ClipRectright, Int32
+  ClipRecttop, Int32 ClipRectbottom, UInt32 Rotation, UInt32 Blend, UInt32 NumFilters,
+  UInt32 ColorSpace, UInt32 HDRMetaDataType, UInt32 SDRWhiteLevel)
+opcode: ''
+keywords: Base
+task: FlipMultiPlaneOverlay
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: LayerIndex
+- field_type: UInt32
+  field_name: Enabled
+- field_type: Pointer
+  field_name: hAllocation
+- field_type: UInt32
+  field_name: Flags
+- field_type: Int32
+  field_name: SrcRectleft
+- field_type: Int32
+  field_name: SrcRectright
+- field_type: Int32
+  field_name: SrcRecttop
+- field_type: Int32
+  field_name: SrcRectbottom
+- field_type: Int32
+  field_name: DstRectleft
+- field_type: Int32
+  field_name: DstRectright
+- field_type: Int32
+  field_name: DstRecttop
+- field_type: Int32
+  field_name: DstRectbottom
+- field_type: Int32
+  field_name: ClipRectleft
+- field_type: Int32
+  field_name: ClipRectright
+- field_type: Int32
+  field_name: ClipRecttop
+- field_type: Int32
+  field_name: ClipRectbottom
+- field_type: UInt32
+  field_name: Rotation
+- field_type: UInt32
+  field_name: Blend
+- field_type: UInt32
+  field_name: NumFilters
+- field_type: UInt32
+  field_name: ColorSpace
+- field_type: UInt32
+  field_name: HDRMetaDataType
+- field_type: UInt32
+  field_name: SDRWhiteLevel

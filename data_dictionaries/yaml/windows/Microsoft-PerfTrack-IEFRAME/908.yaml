@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '908'
+version: '0'
+event(fields): QSA_OpenUnfilteredView_PerftrackStart(UInt64 Object)
+opcode: Start
+keywords: ''
+task: QSA_OpenUnfilteredView_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

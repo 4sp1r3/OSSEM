@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '16641'
+version: '0'
+event(fields): task_016641(UInt64 PartitionId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PartitionId

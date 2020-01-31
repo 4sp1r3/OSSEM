@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1091'
+version: '0'
+event(fields): OPMGetActualProtectionLevel(Pointer MiniportDeviceContext, Boolean
+  RedirectedForIndirectDisplay, Pointer DriverProtectedOutputHandle, UInt32 ProtectionType,
+  UInt32 ProtectionLevel, UInt32 Status)
+opcode: ''
+keywords: Base
+task: OPMGetActualProtectionLevel
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportDeviceContext
+- field_type: Boolean
+  field_name: RedirectedForIndirectDisplay
+- field_type: Pointer
+  field_name: DriverProtectedOutputHandle
+- field_type: UInt32
+  field_name: ProtectionType
+- field_type: UInt32
+  field_name: ProtectionLevel
+- field_type: UInt32
+  field_name: Status

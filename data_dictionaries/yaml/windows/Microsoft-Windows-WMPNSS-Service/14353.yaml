@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '14353'
+version: '0'
+event(fields): task_014353(UnicodeString MDEID, UnicodeString ErrorCode, UnicodeString
+  URL)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MDEID
+- field_type: UnicodeString
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: URL

@@ -1,0 +1,26 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '558'
+version: '0'
+event(fields): Geofencing558(UInt32 GeofenceId, UInt32 Trigger, UInt32 RemovalReason,
+  HexInt32 PositionStatus, Double Latitude, Double Longitude, UInt32 Accuracy)
+opcode: ''
+keywords: Selfhost
+task: Geofencing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: GeofenceId
+- field_type: UInt32
+  field_name: Trigger
+- field_type: UInt32
+  field_name: RemovalReason
+- field_type: HexInt32
+  field_name: PositionStatus
+- field_type: Double
+  field_name: Latitude
+- field_type: Double
+  field_name: Longitude
+- field_type: UInt32
+  field_name: Accuracy

@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '8004'
+version: '0'
+event(fields): task_08004(UnicodeString InterfaceDescription, GUID InterfaceGuid,
+  UnicodeString SSIDs, UnicodeString ProfileName, UnicodeString ConnectionMode, UnicodeString
+  BSSType, UnicodeString FailureReason, UInt32 BlockTime, UInt32 ReasonCode, Pointer
+  ConnectionId)
+opcode: ''
+keywords: LwtDiagnostic Telemetry
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: SSIDs
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UnicodeString
+  field_name: ConnectionMode
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UnicodeString
+  field_name: FailureReason
+- field_type: UInt32
+  field_name: BlockTime
+- field_type: UInt32
+  field_name: ReasonCode
+- field_type: Pointer
+  field_name: ConnectionId

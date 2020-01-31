@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '443'
+version: '0'
+event(fields): TrackedWorkloadDeadline(UInt64 Id, UInt64 CurrentTime, UInt32 CurrentPowerLevel,
+  UInt64 SubmissionTime, UInt64 RequestedDeadline, UInt64 CompletionDeadline)
+opcode: ''
+keywords: DxgKrnl_Power
+task: TrackedWorkloadDeadline
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt64
+  field_name: CurrentTime
+- field_type: UInt32
+  field_name: CurrentPowerLevel
+- field_type: UInt64
+  field_name: SubmissionTime
+- field_type: UInt64
+  field_name: RequestedDeadline
+- field_type: UInt64
+  field_name: CompletionDeadline

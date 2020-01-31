@@ -1,0 +1,25 @@
+provider: Microsoft-IE
+event_id: '657'
+version: '0'
+event(fields): Mshtml_CDoc_UpdateUnitInfo(Pointer CDoc, Float BaseOpticalZoom, Float
+  BaseOpticalZoomDefault, Boolean HostDpiAware, Boolean StaticViewportSizeApplied,
+  Boolean AtViewportHasDeviceWidthOrHeight)
+opcode: ''
+keywords: mshtml
+task: Mshtml_CDoc_UpdateUnitInfo
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CDoc
+- field_type: Float
+  field_name: BaseOpticalZoom
+- field_type: Float
+  field_name: BaseOpticalZoomDefault
+- field_type: Boolean
+  field_name: HostDpiAware
+- field_type: Boolean
+  field_name: StaticViewportSizeApplied
+- field_type: Boolean
+  field_name: AtViewportHasDeviceWidthOrHeight

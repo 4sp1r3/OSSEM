@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '879'
+version: '0'
+event(fields): CSms879(UInt32 DwordName1, UInt32 DwordName2)
+opcode: ''
+keywords: Information
+task: CSms
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName1
+- field_type: UInt32
+  field_name: DwordName2

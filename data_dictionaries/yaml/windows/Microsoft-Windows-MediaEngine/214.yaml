@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '214'
+version: '0'
+event(fields): EngineEnded(UInt32 id)
+opcode: ''
+keywords: ''
+task: EngineEnded
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id

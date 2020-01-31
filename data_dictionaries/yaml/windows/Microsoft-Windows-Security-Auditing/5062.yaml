@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5062'
+version: '0'
+event(fields): task_05062(UnicodeString Module, UInt32 ReturnCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Module
+- field_type: UInt32
+  field_name: ReturnCode

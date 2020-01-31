@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-StorageManagement-WSP-Spaces
+event_id: '2001'
+version: '0'
+event(fields): task_02001()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

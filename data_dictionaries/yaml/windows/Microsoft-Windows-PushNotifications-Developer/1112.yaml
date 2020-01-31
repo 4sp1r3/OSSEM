@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Developer
+event_id: '1112'
+version: '0'
+event(fields): ToastTimedOutStart()
+opcode: Start
+keywords: ''
+task: ToastTimedOut
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

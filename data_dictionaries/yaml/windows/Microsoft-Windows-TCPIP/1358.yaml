@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1358'
+version: '0'
+event(fields): TcpipUpdateInterfaceConfigFlags(UInt32 InterfaceIndex, AnsiString Property,
+  UInt32 Value, UInt32 InterfaceUpdateEvent)
+opcode: ''
+keywords: ut:TcpipInterface
+task: TcpipUpdateInterfaceConfigFlags
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: AnsiString
+  field_name: Property
+- field_type: UInt32
+  field_name: Value
+- field_type: UInt32
+  field_name: InterfaceUpdateEvent

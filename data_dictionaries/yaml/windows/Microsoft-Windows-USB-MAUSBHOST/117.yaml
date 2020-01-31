@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '117'
+version: '0'
+event(fields): WSBInformation117(Pointer fid_Controller, UInt16 fid_PortNumber, UInt16
+  fid_RemotePortNumber, UInt8 fid_IsUdp)
+opcode: Information
+keywords: Default Rundown
+task: WSB
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: UInt16
+  field_name: fid_PortNumber
+- field_type: UInt16
+  field_name: fid_RemotePortNumber
+- field_type: UInt8
+  field_name: fid_IsUdp

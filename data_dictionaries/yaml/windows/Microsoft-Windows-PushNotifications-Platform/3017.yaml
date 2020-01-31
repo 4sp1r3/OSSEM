@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3017'
+version: '0'
+event(fields): task_03017(UnicodeString AppUserModelId, UInt32 SessionMask, UInt16
+  Flag, UInt16 UpdateIndex, UInt32 KeystoneNotificationId, UInt16 KeystoneFlag, Int32
+  Appspace)
+opcode: ''
+keywords: wpnui
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: SessionMask
+- field_type: UInt16
+  field_name: Flag
+- field_type: UInt16
+  field_name: UpdateIndex
+- field_type: UInt32
+  field_name: KeystoneNotificationId
+- field_type: UInt16
+  field_name: KeystoneFlag
+- field_type: Int32
+  field_name: Appspace

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Remotefs-Rdbss
+event_id: '30302'
+version: '0'
+event(fields): task_030302(Pointer Fcb, Pointer SrvOpen, Pointer Fobx)
+opcode: ''
+keywords: Rdbss_Info
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Fcb
+- field_type: Pointer
+  field_name: SrvOpen
+- field_type: Pointer
+  field_name: Fobx

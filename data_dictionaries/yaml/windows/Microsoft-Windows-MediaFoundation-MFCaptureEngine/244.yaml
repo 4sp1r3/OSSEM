@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '244'
+version: '0'
+event(fields): MFCaptureEngineFlushAllStreamsTaskStart(Pointer Pointer, UInt32 HResult)
+opcode: Start
+keywords: ''
+task: MFCaptureEngineFlushAllStreamsTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Pointer
+- field_type: UInt32
+  field_name: HResult

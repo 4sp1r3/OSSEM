@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Audio
+event_id: '141'
+version: '0'
+event(fields): AEObject(Pointer objInstance, UInt32 ucType)
+opcode: ''
+keywords: ''
+task: AEObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objInstance
+- field_type: UInt32
+  field_name: ucType

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '44'
+version: '0'
+event(fields): APP_NAVIGATEStop()
+opcode: Stop
+keywords: mediaplayer
+task: APP_NAVIGATE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

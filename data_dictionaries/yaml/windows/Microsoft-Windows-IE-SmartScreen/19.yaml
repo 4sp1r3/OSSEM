@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '19'
+version: '0'
+event(fields): URLReputationCheck19(UnicodeString URL, Double PCL, UInt32 THREAT,
+  UnicodeString Heuristic)
+opcode: ''
+keywords: functionality
+task: URLReputationCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL
+- field_type: Double
+  field_name: PCL
+- field_type: UInt32
+  field_name: THREAT
+- field_type: UnicodeString
+  field_name: Heuristic

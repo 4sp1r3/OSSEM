@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-USB-UCX
+event_id: '14'
+version: '0'
+event(fields): UCXDeviceCreateInformation(Pointer fid_UcxController, Pointer fid_HubDevice,
+  Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth, UInt32 PortPath)
+opcode: Information
+keywords: Default
+task: UCXDeviceCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: Pointer
+  field_name: fid_HubDevice
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt32
+  field_name: DeviceSpeed
+- field_type: UInt32
+  field_name: PortPathDepth
+- field_type: UInt32
+  field_name: PortPath

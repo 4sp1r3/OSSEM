@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18591'
+version: '0'
+event(fields): Shell32_KnownFolder_GetPathStart()
+opcode: Start
+keywords: APICalls
+task: Shell32_KnownFolder_GetPath
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

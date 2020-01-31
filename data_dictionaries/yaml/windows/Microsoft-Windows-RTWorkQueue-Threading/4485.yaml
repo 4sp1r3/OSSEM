@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4485'
+version: '0'
+event(fields): WorkQueue:DeadlineYieldStop(UInt32 WorkQueueID, UInt32 Yield)
+opcode: Stop
+keywords: ''
+task: WorkQueue:DeadlineYield
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WorkQueueID
+- field_type: UInt32
+  field_name: Yield

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20919'
+version: '0'
+event(fields): UserTile_Taskbar_Control_DelayInitializeStop()
+opcode: Stop
+keywords: Shell
+task: UserTile_Taskbar_Control_DelayInitialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

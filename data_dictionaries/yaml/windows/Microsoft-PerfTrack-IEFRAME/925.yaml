@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '925'
+version: '0'
+event(fields): DownloadWindow_HistoryPopulate_PerftrackStart(UInt64 Object)
+opcode: Start
+keywords: nonPerfTrack
+task: DownloadWindow_HistoryPopulate_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

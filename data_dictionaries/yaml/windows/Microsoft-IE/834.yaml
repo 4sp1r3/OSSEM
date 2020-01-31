@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '834'
+version: '0'
+event(fields): Mshtml_EventLoop_OnSentinelFired(Int32 Priority, Int32 NestingLevel)
+opcode: ''
+keywords: gwnd
+task: Mshtml_EventLoop_OnSentinelFired
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Priority
+- field_type: Int32
+  field_name: NestingLevel

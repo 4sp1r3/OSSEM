@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '571'
+version: '0'
+event(fields): IdleManager_TaskCount(UInt32 WaitingTaskCount, UInt32 RunningTaskCount)
+opcode: ''
+keywords: ''
+task: IdleManager_TaskCount
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WaitingTaskCount
+- field_type: UInt32
+  field_name: RunningTaskCount

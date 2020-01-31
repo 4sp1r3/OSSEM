@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '28677'
+version: '1'
+event(fields): SerializeordeserializeremotingpayloadTobeusedwhenanexceptionisraised_V1(UnicodeString
+  PropertyName, UnicodeString PropertyOwnerType, UnicodeString GetterScript)
+opcode: Tobeusedwhenanexceptionisraised
+keywords: Serializer
+task: Serializeordeserializeremotingpayload
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PropertyName
+- field_type: UnicodeString
+  field_name: PropertyOwnerType
+- field_type: UnicodeString
+  field_name: GetterScript

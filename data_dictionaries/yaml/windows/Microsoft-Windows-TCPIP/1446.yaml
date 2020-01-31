@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1446'
+version: '0'
+event(fields): IpInterfaceDisconnect(UInt32 AddressLength, Binary Address, UInt32
+  IfIndex, UInt32 CompartmentId, UInt32 SkipLocal, UInt32 SkipOnLink)
+opcode: ''
+keywords: ut:TcpipInterface
+task: IpInterfaceDisconnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: Binary
+  field_name: Address
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: SkipLocal
+- field_type: UInt32
+  field_name: SkipOnLink

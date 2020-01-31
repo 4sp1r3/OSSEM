@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '29'
+version: '0'
+event(fields): MapiEmailItemStop()
+opcode: Stop
+keywords: ''
+task: MapiEmailItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

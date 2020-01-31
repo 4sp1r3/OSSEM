@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5125'
+version: '1'
+event(fields): task_05125_V1(UnicodeString SerialNumber, UnicodeString CAName, UnicodeString
+  Status, SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString SubjectDomainName,
+  HexInt64 SubjectLogonId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SerialNumber
+- field_type: UnicodeString
+  field_name: CAName
+- field_type: UnicodeString
+  field_name: Status
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId

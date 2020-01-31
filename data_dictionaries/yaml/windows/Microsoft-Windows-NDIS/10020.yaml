@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10020'
+version: '0'
+event(fields): Port(GUID IfGuid, UInt32 IfIndex, UInt64 IfLuid, UInt32 ReferenceContext)
+opcode: ''
+keywords: Port
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: IfLuid
+- field_type: UInt32
+  field_name: ReferenceContext

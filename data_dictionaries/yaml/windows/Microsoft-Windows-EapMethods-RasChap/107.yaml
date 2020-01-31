@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-EapMethods-RasChap
+event_id: '107'
+version: '0'
+event(fields): RasChapauthenticationinprogressevent(AnsiString Domain, AnsiString
+  Username)
+opcode: ''
+keywords: ''
+task: RasChapauthenticationinprogressevent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Domain
+- field_type: AnsiString
+  field_name: Username

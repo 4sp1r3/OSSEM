@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Graphics-Printing
+event_id: '5'
+version: '0'
+event(fields): PrintTask_BindPrinterStart(UnicodeString Name)
+opcode: Start
+keywords: ''
+task: PrintTask_BindPrinter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name

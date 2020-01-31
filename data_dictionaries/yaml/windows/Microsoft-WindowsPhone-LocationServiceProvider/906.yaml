@@ -1,0 +1,24 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '906'
+version: '0'
+event(fields): GeofenceStore906(Double Latitude, Double Longitude, UInt32 AppCount,
+  UInt32 GeofenceCount, UInt32 TransitionGeofenceCount, UInt32 hr)
+opcode: ''
+keywords: Selfhost GeofenceStore
+task: GeofenceStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Double
+  field_name: Latitude
+- field_type: Double
+  field_name: Longitude
+- field_type: UInt32
+  field_name: AppCount
+- field_type: UInt32
+  field_name: GeofenceCount
+- field_type: UInt32
+  field_name: TransitionGeofenceCount
+- field_type: UInt32
+  field_name: hr

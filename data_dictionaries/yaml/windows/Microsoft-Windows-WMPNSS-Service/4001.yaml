@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4001'
+version: '0'
+event(fields): Convert_SortStart(UnicodeString ContainerID, UnicodeString Sort, Boolean
+  OnlyItemsInSearchResults, UInt32 SortItemCount, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Convert_Sort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContainerID
+- field_type: UnicodeString
+  field_name: Sort
+- field_type: Boolean
+  field_name: OnlyItemsInSearchResults
+- field_type: UInt32
+  field_name: SortItemCount
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8089'
+version: '1'
+event(fields): DeserializeExtensionsApplyPoliciesStop_V1()
+opcode: Stop
+keywords: ''
+task: DeserializeExtensionsApplyPolicies
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

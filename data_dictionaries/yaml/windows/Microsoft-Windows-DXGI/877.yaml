@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '877'
+version: '0'
+event(fields): IDXGISwapChainPartner_GetColorSpaceStop(UInt32 YCbCrFlags)
+opcode: Stop
+keywords: ''
+task: IDXGISwapChainPartner_GetColorSpace
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: YCbCrFlags

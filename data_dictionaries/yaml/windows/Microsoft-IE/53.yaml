@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '53'
+version: '0'
+event(fields): Mshtml_HtmPost_OnPostDone(Pointer HTMPOST, UInt32 Error)
+opcode: ''
+keywords: subsystem mshtml
+task: Mshtml_HtmPost_OnPostDone
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HTMPOST
+- field_type: UInt32
+  field_name: Error

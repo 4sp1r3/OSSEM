@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '523'
+version: '0'
+event(fields): task_0523(HexInt32 BCDSetting, UnicodeString BootApplication, GUID
+  VolumeGUID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: BCDSetting
+- field_type: UnicodeString
+  field_name: BootApplication
+- field_type: GUID
+  field_name: VolumeGUID

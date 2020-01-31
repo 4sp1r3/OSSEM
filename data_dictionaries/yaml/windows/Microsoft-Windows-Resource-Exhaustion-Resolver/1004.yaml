@@ -1,0 +1,44 @@
+provider: Microsoft-Windows-Resource-Exhaustion-Resolver
+event_id: '1004'
+version: '0'
+event(fields): UIEventsEventsloggedbeforeUIislaunched.(UnicodeString Process_1_Name,
+  UInt32 Process_1_ID, FILETIME Process_1_CreationTime, UnicodeString Process_1_Version,
+  UnicodeString Process_2_Name, UInt32 Process_2_ID, FILETIME Process_2_CreationTime,
+  UnicodeString Process_2_Version, UnicodeString Process_3_Name, UInt32 Process_3_ID,
+  FILETIME Process_3_CreationTime, UnicodeString Process_3_Version, UInt32 ResolverID,
+  FILETIME EventGenerationTime)
+opcode: EventsloggedbeforeUIislaunched.
+keywords: RDR_RES_KEYWORD_MEMORY_EXHAUSTION
+task: UIEvents
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Process_1_Name
+- field_type: UInt32
+  field_name: Process_1_ID
+- field_type: FILETIME
+  field_name: Process_1_CreationTime
+- field_type: UnicodeString
+  field_name: Process_1_Version
+- field_type: UnicodeString
+  field_name: Process_2_Name
+- field_type: UInt32
+  field_name: Process_2_ID
+- field_type: FILETIME
+  field_name: Process_2_CreationTime
+- field_type: UnicodeString
+  field_name: Process_2_Version
+- field_type: UnicodeString
+  field_name: Process_3_Name
+- field_type: UInt32
+  field_name: Process_3_ID
+- field_type: FILETIME
+  field_name: Process_3_CreationTime
+- field_type: UnicodeString
+  field_name: Process_3_Version
+- field_type: UInt32
+  field_name: ResolverID
+- field_type: FILETIME
+  field_name: EventGenerationTime

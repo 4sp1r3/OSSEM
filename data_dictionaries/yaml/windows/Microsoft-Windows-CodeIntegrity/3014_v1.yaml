@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3014'
+version: '1'
+event(fields): ReloadCatalogsStop_V1(HexInt32 Status)
+opcode: Stop
+keywords: ''
+task: ReloadCatalogs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

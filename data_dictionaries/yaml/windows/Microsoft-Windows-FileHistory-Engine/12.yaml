@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-Engine
+event_id: '12'
+version: '0'
+event(fields): ScanAndBackupStart()
+opcode: Start
+keywords: ''
+task: ScanAndBackup
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

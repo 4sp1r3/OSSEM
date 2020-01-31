@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '129'
+version: '0'
+event(fields): PepPerfDomainInfoRundown(UInt32 DomainId, UInt8 CoordinationType, Boolean
+  IdleProcessorsDiscounted, Boolean SchedulerDirectedTransitionsSupported, UInt32
+  WorstCaseTransitionLatency, UInt32 WorstCaseTransitionOverhead)
+opcode: ''
+keywords: Diag
+task: PepPerfDomainInfoRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DomainId
+- field_type: UInt8
+  field_name: CoordinationType
+- field_type: Boolean
+  field_name: IdleProcessorsDiscounted
+- field_type: Boolean
+  field_name: SchedulerDirectedTransitionsSupported
+- field_type: UInt32
+  field_name: WorstCaseTransitionLatency
+- field_type: UInt32
+  field_name: WorstCaseTransitionOverhead

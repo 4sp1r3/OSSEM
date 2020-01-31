@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '510'
+version: '0'
+event(fields): UIThreadCallbackStop()
+opcode: Stop
+keywords: Core
+task: UIThreadCallback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

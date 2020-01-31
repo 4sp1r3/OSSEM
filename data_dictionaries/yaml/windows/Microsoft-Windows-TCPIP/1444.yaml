@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1444'
+version: '0'
+event(fields): IpAddressDadStateChange(UInt32 SourceAddressLength, Binary SourceAddress,
+  UInt32 IfIndex, UInt32 CompartmentId, UInt32 OldDadState, UInt32 NewDadState, UInt32
+  Reason)
+opcode: ''
+keywords: ut:Global keyword_80000000000
+task: IpAddressDadStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SourceAddressLength
+- field_type: Binary
+  field_name: SourceAddress
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: OldDadState
+- field_type: UInt32
+  field_name: NewDadState
+- field_type: UInt32
+  field_name: Reason

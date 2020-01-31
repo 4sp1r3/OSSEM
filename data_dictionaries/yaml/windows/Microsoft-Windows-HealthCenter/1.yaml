@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '1'
+version: '0'
+event(fields): HealthCenter_ProviderDisabled(UnicodeString CLSID, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: HealthCenter_ProviderDisabled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CLSID
+- field_type: UInt32
+  field_name: HRESULT

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FileHistory-Engine
+event_id: '9'
+version: '0'
+event(fields): BackupSizeQuotaChange(UInt64 OldQuota, UInt64 NewQuota)
+opcode: ''
+keywords: ''
+task: BackupSizeQuotaChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OldQuota
+- field_type: UInt64
+  field_name: NewQuota

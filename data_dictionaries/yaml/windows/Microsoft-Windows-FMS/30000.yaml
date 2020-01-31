@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FMS
+event_id: '30000'
+version: '0'
+event(fields): PerfTrack_DisplayFmsInitStart()
+opcode: Start
+keywords: ''
+task: PerfTrack_DisplayFmsInit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

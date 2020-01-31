@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '76'
+version: '0'
+event(fields): QueryHeapStop(Pointer pID3D12Device, Pointer pID3D12QueryHeap, UInt32
+  Type, UInt32 Count, UInt32 NodeMask)
+opcode: Stop
+keywords: Resources ObjectLifetime
+task: QueryHeap
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12QueryHeap
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt32
+  field_name: NodeMask

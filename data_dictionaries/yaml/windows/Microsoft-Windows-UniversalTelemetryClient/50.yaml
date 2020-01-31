@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '50'
+version: '0'
+event(fields): Service_ServiceStart(UnicodeString Environment, UInt32 Status)
+opcode: ''
+keywords: Service
+task: Service_ServiceStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: UInt32
+  field_name: Status

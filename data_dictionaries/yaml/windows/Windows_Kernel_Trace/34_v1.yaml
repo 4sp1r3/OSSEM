@@ -1,0 +1,21 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '34'
+version: '1'
+event(fields): V1_DriverMajorFunctionCall(UInt32 UniqMatchId, UInt32 RoutineAddr,
+  UInt32 Irp, UInt32 MajorFunction, UInt32 MinorFunction, UInt32 FileObject)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: UniqMatchId
+- field_type: UInt32
+  field_name: RoutineAddr
+- field_type: UInt32
+  field_name: Irp
+- field_type: UInt32
+  field_name: MajorFunction
+- field_type: UInt32
+  field_name: MinorFunction
+- field_type: UInt32
+  field_name: FileObject

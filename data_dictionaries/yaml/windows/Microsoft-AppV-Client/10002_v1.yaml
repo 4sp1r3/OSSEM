@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '10002'
+version: '1'
+event(fields): ClientStartup10002_V1(UInt32 Value)
+opcode: ''
+keywords: Subsystems
+task: ClientStartup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

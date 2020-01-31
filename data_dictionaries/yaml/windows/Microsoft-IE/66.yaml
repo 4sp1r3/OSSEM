@@ -1,0 +1,29 @@
+provider: Microsoft-IE
+event_id: '66'
+version: '0'
+event(fields): Mshtml_CView_InvalidateRect(Pointer CView, UInt32 fSynchronousRedraw,
+  UInt32 left, UInt32 top, UInt32 right, UInt32 bottom, UInt32 fInvalChildWindows,
+  UInt32 fPostRender)
+opcode: ''
+keywords: subsystem
+task: Mshtml_CView_InvalidateRect
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CView
+- field_type: UInt32
+  field_name: fSynchronousRedraw
+- field_type: UInt32
+  field_name: left
+- field_type: UInt32
+  field_name: top
+- field_type: UInt32
+  field_name: right
+- field_type: UInt32
+  field_name: bottom
+- field_type: UInt32
+  field_name: fInvalChildWindows
+- field_type: UInt32
+  field_name: fPostRender

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6256'
+version: '0'
+event(fields): SplashScreen_ActivationStart()
+opcode: Start
+keywords: ''
+task: SplashScreen_Activation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

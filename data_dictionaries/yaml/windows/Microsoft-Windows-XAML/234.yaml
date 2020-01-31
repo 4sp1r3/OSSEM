@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-XAML
+event_id: '234'
+version: '0'
+event(fields): SystemMemorySurfaceAllocate(UInt64 SurfaceId, UInt32 Width, UInt32
+  Height, UInt32 PixelSize, UInt32 IsDriverVisible)
+opcode: ''
+keywords: Rendering
+task: SystemMemorySurfaceAllocate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SurfaceId
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: PixelSize
+- field_type: UInt32
+  field_name: IsDriverVisible

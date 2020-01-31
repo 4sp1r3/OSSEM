@@ -1,0 +1,138 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '300'
+version: '1'
+event(fields): StandbyPerformanceMonitoringStandbyInformation_V1(UInt32 StandbyTsVersion,
+  UInt32 StandbyAppCount, UInt32 StandbyServicesCount, UInt32 StandbyDevicesCount,
+  FILETIME StandbyStartTime, FILETIME StandbyEndTime, UInt32 StandbySuspendTotal,
+  Int32 StandbySuspendTotalChange, UInt32 StandbySuspendQueryApps, Int32 StandbySuspendQueryAppsChange,
+  UInt32 StandbySuspendQueryServices, Int32 StandbySuspendQueryServicesChange, UInt32
+  StandbySuspendApps, Int32 StandbySuspendAppsChange, UInt32 StandbySuspendServices,
+  Int32 StandbySuspendServicesChange, UInt32 StandbySuspendShowUI, Int32 StandbySuspendShowUIChange,
+  UInt32 StandbySuspendSuperfetchPageIn, Int32 StandbySuspendSuperfetchPageInChange,
+  UInt32 StandbySuspendWinlogon, Int32 StandbySuspendWinlogonChange, UInt32 StandbySuspendLockPageableSections,
+  Int32 StandbySuspendLockPageableSectionsChange, UInt32 StandbySuspendPreSleepCallbacks,
+  Int32 StandbySuspendPreSleepCallbacksChange, UInt32 StandbySuspendSwapInWorkerThreads,
+  Int32 StandbySuspendSwapInWorkerThreadsChange, UInt32 StandbySuspendQueryDevices,
+  Int32 StandbySuspendQueryDevicesChange, UInt32 StandbySuspendFlushVolumes, Int32
+  StandbySuspendFlushVolumesChange, UInt32 StandbySuspendSuspendDevices, Int32 StandbySuspendSuspendDevicesChange,
+  UInt32 StandbySuspendHibernateWrite, Int32 StandbySuspendHibernateWriteChange, FILETIME
+  ResumeStartTime, FILETIME ResumeEndTime, UInt32 StandbyResumeTotal, Int32 StandbyResumeTotalChange,
+  UInt32 StandbyResumeHibernateRead, Int32 StandbyResumeHibernateReadChange, UInt32
+  StandbyResumeS3BiosInitTime, Int32 StandbyResumeS3BiosInitTimeChange, UInt32 StandbyResumeResumeDevices,
+  Int32 StandbyResumeResumeDevicesChange, UInt32 StandbyRootCauseDegradationGradual,
+  UInt32 StandbyRootCauseImprovementGradual, UInt32 StandbyRootCauseDegradationStep,
+  UInt32 StandbyRootCauseImprovementStep, Boolean StandbyIsDegradation, Boolean StandbyIsTroubleshooterLaunched,
+  Boolean StandbyIsRootCauseIdentified)
+opcode: StandbyInformation
+keywords: EventLog
+task: StandbyPerformanceMonitoring
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StandbyTsVersion
+- field_type: UInt32
+  field_name: StandbyAppCount
+- field_type: UInt32
+  field_name: StandbyServicesCount
+- field_type: UInt32
+  field_name: StandbyDevicesCount
+- field_type: FILETIME
+  field_name: StandbyStartTime
+- field_type: FILETIME
+  field_name: StandbyEndTime
+- field_type: UInt32
+  field_name: StandbySuspendTotal
+- field_type: Int32
+  field_name: StandbySuspendTotalChange
+- field_type: UInt32
+  field_name: StandbySuspendQueryApps
+- field_type: Int32
+  field_name: StandbySuspendQueryAppsChange
+- field_type: UInt32
+  field_name: StandbySuspendQueryServices
+- field_type: Int32
+  field_name: StandbySuspendQueryServicesChange
+- field_type: UInt32
+  field_name: StandbySuspendApps
+- field_type: Int32
+  field_name: StandbySuspendAppsChange
+- field_type: UInt32
+  field_name: StandbySuspendServices
+- field_type: Int32
+  field_name: StandbySuspendServicesChange
+- field_type: UInt32
+  field_name: StandbySuspendShowUI
+- field_type: Int32
+  field_name: StandbySuspendShowUIChange
+- field_type: UInt32
+  field_name: StandbySuspendSuperfetchPageIn
+- field_type: Int32
+  field_name: StandbySuspendSuperfetchPageInChange
+- field_type: UInt32
+  field_name: StandbySuspendWinlogon
+- field_type: Int32
+  field_name: StandbySuspendWinlogonChange
+- field_type: UInt32
+  field_name: StandbySuspendLockPageableSections
+- field_type: Int32
+  field_name: StandbySuspendLockPageableSectionsChange
+- field_type: UInt32
+  field_name: StandbySuspendPreSleepCallbacks
+- field_type: Int32
+  field_name: StandbySuspendPreSleepCallbacksChange
+- field_type: UInt32
+  field_name: StandbySuspendSwapInWorkerThreads
+- field_type: Int32
+  field_name: StandbySuspendSwapInWorkerThreadsChange
+- field_type: UInt32
+  field_name: StandbySuspendQueryDevices
+- field_type: Int32
+  field_name: StandbySuspendQueryDevicesChange
+- field_type: UInt32
+  field_name: StandbySuspendFlushVolumes
+- field_type: Int32
+  field_name: StandbySuspendFlushVolumesChange
+- field_type: UInt32
+  field_name: StandbySuspendSuspendDevices
+- field_type: Int32
+  field_name: StandbySuspendSuspendDevicesChange
+- field_type: UInt32
+  field_name: StandbySuspendHibernateWrite
+- field_type: Int32
+  field_name: StandbySuspendHibernateWriteChange
+- field_type: FILETIME
+  field_name: ResumeStartTime
+- field_type: FILETIME
+  field_name: ResumeEndTime
+- field_type: UInt32
+  field_name: StandbyResumeTotal
+- field_type: Int32
+  field_name: StandbyResumeTotalChange
+- field_type: UInt32
+  field_name: StandbyResumeHibernateRead
+- field_type: Int32
+  field_name: StandbyResumeHibernateReadChange
+- field_type: UInt32
+  field_name: StandbyResumeS3BiosInitTime
+- field_type: Int32
+  field_name: StandbyResumeS3BiosInitTimeChange
+- field_type: UInt32
+  field_name: StandbyResumeResumeDevices
+- field_type: Int32
+  field_name: StandbyResumeResumeDevicesChange
+- field_type: UInt32
+  field_name: StandbyRootCauseDegradationGradual
+- field_type: UInt32
+  field_name: StandbyRootCauseImprovementGradual
+- field_type: UInt32
+  field_name: StandbyRootCauseDegradationStep
+- field_type: UInt32
+  field_name: StandbyRootCauseImprovementStep
+- field_type: Boolean
+  field_name: StandbyIsDegradation
+- field_type: Boolean
+  field_name: StandbyIsTroubleshooterLaunched
+- field_type: Boolean
+  field_name: StandbyIsRootCauseIdentified

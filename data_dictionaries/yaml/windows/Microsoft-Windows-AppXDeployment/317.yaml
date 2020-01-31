@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppXDeployment
+event_id: '317'
+version: '0'
+event(fields): task_0317(UnicodeString FileName, Int32 ExceptionCode)
+opcode: ''
+keywords: APPMODEL_RUNTIME_DMR_KEYWORD
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: Int32
+  field_name: ExceptionCode

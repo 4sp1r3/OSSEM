@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '36'
+version: '0'
+event(fields): D0ExitStop(Pointer fid_UsbDevice, UInt32 fid_NtStatus, UInt32 fid_PowerAction)
+opcode: Stop
+keywords: Default Power
+task: D0Exit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt32
+  field_name: fid_NtStatus
+- field_type: UInt32
+  field_name: fid_PowerAction

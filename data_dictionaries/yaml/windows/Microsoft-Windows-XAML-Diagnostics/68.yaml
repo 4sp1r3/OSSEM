@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '68'
+version: '0'
+event(fields): SetAnimationStart(UInt64 ElementId, UInt64 ParentId, UnicodeString
+  PropertyName)
+opcode: Start
+keywords: ''
+task: SetAnimation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UInt64
+  field_name: ParentId
+- field_type: UnicodeString
+  field_name: PropertyName

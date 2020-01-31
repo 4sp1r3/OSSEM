@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '916'
+version: '0'
+event(fields): IMDownloadWindow_Show_PerftrackStop(UInt64 Object)
+opcode: Stop
+keywords: nonPerfTrack
+task: IMDownloadWindow_Show_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

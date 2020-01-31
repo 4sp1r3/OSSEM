@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3028'
+version: '0'
+event(fields): task_03028(UInt32 NotificationId, Boolean IsTile, UnicodeString Path)
+opcode: ''
+keywords: wpnui
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NotificationId
+- field_type: Boolean
+  field_name: IsTile
+- field_type: UnicodeString
+  field_name: Path

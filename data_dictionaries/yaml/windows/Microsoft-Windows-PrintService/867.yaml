@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintService
+event_id: '867'
+version: '0'
+event(fields): InitializingtheWS_PrintPortMonitorSpoolerOperationFailed(HexInt32 HResultErrorCode)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_WSDMON
+task: InitializingtheWS_PrintPortMonitor
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HResultErrorCode

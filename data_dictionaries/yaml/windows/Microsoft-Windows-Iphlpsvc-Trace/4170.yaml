@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '4170'
+version: '0'
+event(fields): task_04170(UInt32 ProtocolCallback, UInt32 ProtocolType)
+opcode: ''
+keywords: isatap sixto4 teredo
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProtocolCallback
+- field_type: UInt32
+  field_name: ProtocolType

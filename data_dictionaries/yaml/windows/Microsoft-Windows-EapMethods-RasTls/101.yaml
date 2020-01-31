@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-EapMethods-RasTls
+event_id: '101'
+version: '0'
+event(fields): RasTlsauthenticationfailedevent(UInt32 uint1, UInt32 uint2)
+opcode: ''
+keywords: ''
+task: RasTlsauthenticationfailedevent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: uint1
+- field_type: UInt32
+  field_name: uint2

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27010'
+version: '1'
+event(fields): UserLogon.Start_V1()
+opcode: Start
+keywords: ''
+task: UserLogon.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

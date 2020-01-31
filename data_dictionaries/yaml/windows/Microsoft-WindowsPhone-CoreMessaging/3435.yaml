@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3435'
+version: '0'
+event(fields): RemoteRegistrarClient_FindConversationServerStop()
+opcode: Stop
+keywords: MessagingPerformance RegistrarClient
+task: RemoteRegistrarClient_FindConversationServer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

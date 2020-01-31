@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Web-Http
+event_id: '35'
+version: '0'
+event(fields): HttpCct(UInt32 responseState, Int32 pendingReceiveOperations)
+opcode: ''
+keywords: ''
+task: HttpCct
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: responseState
+- field_type: Int32
+  field_name: pendingReceiveOperations

@@ -1,0 +1,11 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1178'
+version: '0'
+event(fields): iaLPSS2_I2CControllerroutines1178()
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CControllerroutines
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

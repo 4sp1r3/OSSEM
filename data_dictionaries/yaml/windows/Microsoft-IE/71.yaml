@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '71'
+version: '0'
+event(fields): Mshtml_CWindow_SuperNavigate2Stop(Pointer window, UInt32 FlagsOrResult)
+opcode: Stop
+keywords: primarynav
+task: Mshtml_CWindow_SuperNavigate2
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: window
+- field_type: UInt32
+  field_name: FlagsOrResult

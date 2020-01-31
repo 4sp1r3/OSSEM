@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '12109'
+version: '0'
+event(fields): Shlwapi_SHGetSignatureInfo_VersionInfoStart()
+opcode: Start
+keywords: Shell
+task: Shlwapi_SHGetSignatureInfo_VersionInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

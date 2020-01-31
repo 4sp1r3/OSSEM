@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1014'
+version: '0'
+event(fields): MiracastSendUserModeRequest(UInt64 MiracastLuid, Boolean Synchronous,
+  UInt32 InputBufferSize, UInt32 OutputBufferSize, UInt32 ReturnStatus)
+opcode: ''
+keywords: Miracast
+task: MiracastSendUserModeRequest
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: Boolean
+  field_name: Synchronous
+- field_type: UInt32
+  field_name: InputBufferSize
+- field_type: UInt32
+  field_name: OutputBufferSize
+- field_type: UInt32
+  field_name: ReturnStatus

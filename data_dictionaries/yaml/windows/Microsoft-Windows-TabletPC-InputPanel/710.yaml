@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '710'
+version: '0'
+event(fields): KeyboardUI_Optimized_Switch_To_Optimized_LayoutStart()
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: KeyboardUI_Optimized_Switch_To_Optimized_Layout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

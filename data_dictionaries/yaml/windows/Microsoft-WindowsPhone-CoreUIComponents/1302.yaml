@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1302'
+version: '0'
+event(fields): ServerSessionNSSReadyToShow(UInt32 unParam, UInt32 unParam2)
+opcode: NSSReadyToShow
+keywords: NavigationPerformance ServerSession
+task: ServerSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2

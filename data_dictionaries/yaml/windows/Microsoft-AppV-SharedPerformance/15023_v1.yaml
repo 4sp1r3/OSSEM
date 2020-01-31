@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '15023'
+version: '1'
+event(fields): PackageConfig.UnpublishGlobalPackageStop_V1()
+opcode: Stop
+keywords: ''
+task: PackageConfig.UnpublishGlobalPackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

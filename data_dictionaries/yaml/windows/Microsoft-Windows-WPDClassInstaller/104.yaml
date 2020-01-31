@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WPDClassInstaller
+event_id: '104'
+version: '0'
+event(fields): DriverPerformanceStart104(UnicodeString DevicePath)
+opcode: Start
+keywords: ''
+task: DriverPerformance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DevicePath

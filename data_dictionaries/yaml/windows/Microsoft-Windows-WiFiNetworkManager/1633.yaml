@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1633'
+version: '0'
+event(fields): task_01633(AnsiString szString1, UnicodeString szString2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: szString1
+- field_type: UnicodeString
+  field_name: szString2

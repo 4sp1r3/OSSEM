@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-UfxSynopsys
+event_id: '100'
+version: '0'
+event(fields): FailedNtStatus(AnsiString File, UInt32 Line, UInt32 Status)
+opcode: ''
+keywords: Error
+task: FailedNtStatus
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: File
+- field_type: UInt32
+  field_name: Line
+- field_type: UInt32
+  field_name: Status

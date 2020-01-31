@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DesktopActivityModerator
+event_id: '54'
+version: '0'
+event(fields): PdcAcknowledge()
+opcode: ''
+keywords: Pdc
+task: PdcAcknowledge
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

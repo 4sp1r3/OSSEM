@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WinRM
+event_id: '32'
+version: '0'
+event(fields): WSManAPIcall32(UInt32 optionCode, UnicodeString optionName, UInt32
+  errorCode)
+opcode: ''
+keywords: Keyword.Client
+task: WSManAPIcall
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: optionCode
+- field_type: UnicodeString
+  field_name: optionName
+- field_type: UInt32
+  field_name: errorCode

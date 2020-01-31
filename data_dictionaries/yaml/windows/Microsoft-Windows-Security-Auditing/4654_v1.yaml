@@ -1,0 +1,59 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4654'
+version: '1'
+event(fields): task_04654_V1(UnicodeString LocalAddress, UnicodeString LocalAddressMask,
+  UInt32 LocalPort, UnicodeString LocalTunnelEndpoint, UnicodeString RemoteAddress,
+  UnicodeString RemoteAddressMask, UInt32 RemotePort, UnicodeString RemoteTunnelEndpoint,
+  UInt32 Protocol, UnicodeString RemotePrivateAddress, UnicodeString KeyModName, UnicodeString
+  FailurePoint, UnicodeString FailureReason, UnicodeString Mode, UnicodeString State,
+  UnicodeString Role, UInt32 MessageID, UInt64 QMFilterID, UInt64 MMSAID, UInt64 TunnelId,
+  UInt64 TrafficSelectorId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalAddress
+- field_type: UnicodeString
+  field_name: LocalAddressMask
+- field_type: UInt32
+  field_name: LocalPort
+- field_type: UnicodeString
+  field_name: LocalTunnelEndpoint
+- field_type: UnicodeString
+  field_name: RemoteAddress
+- field_type: UnicodeString
+  field_name: RemoteAddressMask
+- field_type: UInt32
+  field_name: RemotePort
+- field_type: UnicodeString
+  field_name: RemoteTunnelEndpoint
+- field_type: UInt32
+  field_name: Protocol
+- field_type: UnicodeString
+  field_name: RemotePrivateAddress
+- field_type: UnicodeString
+  field_name: KeyModName
+- field_type: UnicodeString
+  field_name: FailurePoint
+- field_type: UnicodeString
+  field_name: FailureReason
+- field_type: UnicodeString
+  field_name: Mode
+- field_type: UnicodeString
+  field_name: State
+- field_type: UnicodeString
+  field_name: Role
+- field_type: UInt32
+  field_name: MessageID
+- field_type: UInt64
+  field_name: QMFilterID
+- field_type: UInt64
+  field_name: MMSAID
+- field_type: UInt64
+  field_name: TunnelId
+- field_type: UInt64
+  field_name: TrafficSelectorId

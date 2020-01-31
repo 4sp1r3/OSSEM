@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '356'
+version: '0'
+event(fields): SHADERS_EFFECT_COMPILE_INFO(Pointer pCompilationTask, Int32 SubmitterID,
+  AnsiString GraphNodes, Int32 NodeCount, Int32 SubgraphCount, Boolean FoundInCache)
+opcode: ''
+keywords: DwmCore
+task: SHADERS_EFFECT_COMPILE_INFO
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCompilationTask
+- field_type: Int32
+  field_name: SubmitterID
+- field_type: AnsiString
+  field_name: GraphNodes
+- field_type: Int32
+  field_name: NodeCount
+- field_type: Int32
+  field_name: SubgraphCount
+- field_type: Boolean
+  field_name: FoundInCache

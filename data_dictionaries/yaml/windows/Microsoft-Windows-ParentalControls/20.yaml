@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '20'
+version: '0'
+event(fields): ApplicationLaunch(UnicodeString SerializedApplication, UInt32 State,
+  UInt32 ProcessId, FILETIME CreationTime, UInt64 TimeUsed)
+opcode: Launch
+keywords: WPC
+task: Application
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SerializedApplication
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: FILETIME
+  field_name: CreationTime
+- field_type: UInt64
+  field_name: TimeUsed

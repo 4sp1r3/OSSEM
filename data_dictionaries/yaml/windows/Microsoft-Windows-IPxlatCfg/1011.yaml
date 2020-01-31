@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-IPxlatCfg
+event_id: '1011'
+version: '0'
+event(fields): task_01011(AnsiString InfoString, UInt32 MTU)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: InfoString
+- field_type: UInt32
+  field_name: MTU

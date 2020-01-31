@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '833'
+version: '0'
+event(fields): CSms833(AnsiString AnsiStringName, UInt32 Dword1Name, Int32 HResultName,
+  UInt64 Pointer)
+opcode: ''
+keywords: Error
+task: CSms
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: AnsiStringName
+- field_type: UInt32
+  field_name: Dword1Name
+- field_type: Int32
+  field_name: HResultName
+- field_type: UInt64
+  field_name: Pointer

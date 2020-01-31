@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Time-Service-PTP-Provider
+event_id: '514'
+version: '0'
+event(fields): task_0514(UnicodeString Name, UnicodeString Address, UInt32 AnnounceTimeoutMsec,
+  UnicodeString MasterClockId, UInt32 MasterPortNum, Int32 LogAnnounceInterval, UInt32
+  ActiveMasterCount, UInt64 TickCount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Address
+- field_type: UInt32
+  field_name: AnnounceTimeoutMsec
+- field_type: UnicodeString
+  field_name: MasterClockId
+- field_type: UInt32
+  field_name: MasterPortNum
+- field_type: Int32
+  field_name: LogAnnounceInterval
+- field_type: UInt32
+  field_name: ActiveMasterCount
+- field_type: UInt64
+  field_name: TickCount

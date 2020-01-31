@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '51'
+version: '0'
+event(fields): Jscript_Projection_VarFromGRCNStart(UnicodeString TypeName)
+opcode: Start
+keywords: JScriptProjection
+task: Jscript_Projection_VarFromGRCN
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeName

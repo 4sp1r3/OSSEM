@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18924'
+version: '0'
+event(fields): Shell32_AutoPlay_DXPStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_AutoPlay_DXP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-WebIO
+event_id: '22'
+version: '0'
+event(fields): SyncApiWait22(UInt64 Handle, UInt64 Event, UInt32 Error, UInt64 Information)
+opcode: ''
+keywords: Keyword.API
+task: SyncApiWait
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Handle
+- field_type: UInt64
+  field_name: Event
+- field_type: UInt32
+  field_name: Error
+- field_type: UInt64
+  field_name: Information

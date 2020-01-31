@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '624'
+version: '0'
+event(fields): Mshtml_SetStyle(UInt64 ElementDDTId, UnicodeString StyleProperty, UnicodeString
+  NewValue)
+opcode: ''
+keywords: verbose
+task: Mshtml_SetStyle
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementDDTId
+- field_type: UnicodeString
+  field_name: StyleProperty
+- field_type: UnicodeString
+  field_name: NewValue

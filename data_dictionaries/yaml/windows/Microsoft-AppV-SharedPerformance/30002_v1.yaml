@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30002'
+version: '1'
+event(fields): Packaging_3900Stop_V1()
+opcode: Stop
+keywords: ''
+task: Packaging_3900
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

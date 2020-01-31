@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EapHost
+event_id: '3046'
+version: '0'
+event(fields): Common3046()
+opcode: ''
+keywords: ''
+task: Common
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

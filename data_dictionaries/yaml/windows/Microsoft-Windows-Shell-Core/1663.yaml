@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1663'
+version: '0'
+event(fields): ShellTask_WSDPublisher_PublishMessageThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_WSDPublisher_PublishMessageThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

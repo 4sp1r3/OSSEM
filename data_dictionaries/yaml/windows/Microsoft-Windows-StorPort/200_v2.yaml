@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-StorPort
+event_id: '200'
+version: '2'
+event(fields): Port200_V2(UInt64 RequestDuration_100ns, Pointer Irp, UInt8 Command,
+  UInt8 SrbStatus, Pointer OriginalIrp, UInt8 Port, UInt8 Bus, UInt8 Target, UInt8
+  LUN, UInt8 ScsiStatus, UInt32 ByteLengthOfTransfer, UInt64 BuildIoDuration_100ns,
+  UInt64 StartIoDuration_100ns)
+opcode: ''
+keywords: IO_Performance
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RequestDuration_100ns
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt8
+  field_name: Command
+- field_type: UInt8
+  field_name: SrbStatus
+- field_type: Pointer
+  field_name: OriginalIrp
+- field_type: UInt8
+  field_name: Port
+- field_type: UInt8
+  field_name: Bus
+- field_type: UInt8
+  field_name: Target
+- field_type: UInt8
+  field_name: LUN
+- field_type: UInt8
+  field_name: ScsiStatus
+- field_type: UInt32
+  field_name: ByteLengthOfTransfer
+- field_type: UInt64
+  field_name: BuildIoDuration_100ns
+- field_type: UInt64
+  field_name: StartIoDuration_100ns

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '118'
+version: '1'
+event(fields): ProcessorClassUpdate_V1(UInt16 Group, UInt8 Number, UInt8 EfficiencyClass,
+  UInt8 SchedulingClass, UInt8 EfficiencySchedulingClass)
+opcode: ''
+keywords: Diag
+task: ProcessorClassUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt8
+  field_name: EfficiencyClass
+- field_type: UInt8
+  field_name: SchedulingClass
+- field_type: UInt8
+  field_name: EfficiencySchedulingClass

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows Networking VPN Plugin Platform
+event_id: '2004'
+version: '0'
+event(fields): task_02004(UnicodeString Profile, UnicodeString Message)
+opcode: ''
+keywords: keyword_20000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Profile
+- field_type: UnicodeString
+  field_name: Message

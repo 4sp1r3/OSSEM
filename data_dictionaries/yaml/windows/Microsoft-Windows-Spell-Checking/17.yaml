@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Spell-Checking
+event_id: '17'
+version: '0'
+event(fields): task_017(UnicodeString string)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: string

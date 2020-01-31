@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '110'
+version: '0'
+event(fields): Frame_LoadFrameStateStart()
+opcode: Start
+keywords: primarynav
+task: Frame_LoadFrameState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

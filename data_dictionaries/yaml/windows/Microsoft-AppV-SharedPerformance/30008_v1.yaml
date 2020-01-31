@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30008'
+version: '1'
+event(fields): Publishing_3903Stop_V1()
+opcode: Stop
+keywords: ''
+task: Publishing_3903
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

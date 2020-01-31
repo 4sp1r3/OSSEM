@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Runtime-WebAPI
+event_id: '54'
+version: '0'
+event(fields): ParseIgnoreunexpectedcontent()
+opcode: Ignoreunexpectedcontent
+keywords: keywords.Format
+task: Parse
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

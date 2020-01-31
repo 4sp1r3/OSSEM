@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '169'
+version: '1'
+event(fields): MediaEngineQuantizeFrame_V1(Pointer object, Int64 sampleTime_us, Int64
+  OrigTargetQPC_us, Int64 TargetQPC_us, Int64 DeltaQPC_us, Int64 framePeriod_us)
+opcode: ''
+keywords: ''
+task: MediaEngineQuantizeFrame
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: sampleTime_us
+- field_type: Int64
+  field_name: OrigTargetQPC_us
+- field_type: Int64
+  field_name: TargetQPC_us
+- field_type: Int64
+  field_name: DeltaQPC_us
+- field_type: Int64
+  field_name: framePeriod_us

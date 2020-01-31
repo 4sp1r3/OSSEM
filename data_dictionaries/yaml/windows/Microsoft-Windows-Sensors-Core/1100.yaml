@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1100'
+version: '0'
+event(fields): SensorsCxRundownTask1100(GUID PeristentUniqueId, UInt32 ProcessId,
+  UInt32 ReportIntervalMs, UInt32 ReportLatencyMs, Boolean IsStreaming)
+opcode: ''
+keywords: ''
+task: SensorsCxRundownTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PeristentUniqueId
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: ReportIntervalMs
+- field_type: UInt32
+  field_name: ReportLatencyMs
+- field_type: Boolean
+  field_name: IsStreaming

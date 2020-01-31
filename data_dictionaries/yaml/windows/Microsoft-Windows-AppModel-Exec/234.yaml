@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '234'
+version: '0'
+event(fields): task_0234(UInt32 PackageCount, Boolean Notify)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PackageCount
+- field_type: Boolean
+  field_name: Notify

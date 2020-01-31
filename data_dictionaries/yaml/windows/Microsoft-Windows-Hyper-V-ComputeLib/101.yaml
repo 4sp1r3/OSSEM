@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Hyper-V-ComputeLib
+event_id: '101'
+version: '0'
+event(fields): task_0101(UnicodeString TraceData, UnicodeString VmName, UnicodeString
+  VmId, UInt32 StackFrameCount, Pointer StackFrame, UInt32 ModuleCount, Int32 Module)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceData
+- field_type: UnicodeString
+  field_name: VmName
+- field_type: UnicodeString
+  field_name: VmId
+- field_type: UInt32
+  field_name: StackFrameCount
+- field_type: Pointer
+  field_name: StackFrame
+- field_type: UInt32
+  field_name: ModuleCount
+- field_type: Int32
+  field_name: Module

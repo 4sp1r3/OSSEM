@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '286'
+version: '0'
+event(fields): THUMBNAIL_BITMAP_UPDATEStart()
+opcode: Start
+keywords: mediaplayer
+task: THUMBNAIL_BITMAP_UPDATE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

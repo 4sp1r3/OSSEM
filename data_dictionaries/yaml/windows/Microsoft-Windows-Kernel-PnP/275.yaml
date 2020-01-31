@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '275'
+version: '0'
+event(fields): DriverDatabaseUnloadStop(UInt16 DriverNameLength, UnicodeString DriverName,
+  UInt32 Status)
+opcode: Stop
+keywords: DriverDatabase
+task: DriverDatabaseUnload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: DriverNameLength
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UInt32
+  field_name: Status

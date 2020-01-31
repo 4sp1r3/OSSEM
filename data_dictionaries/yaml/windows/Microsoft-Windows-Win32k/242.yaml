@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '242'
+version: '0'
+event(fields): TouchPadConfidenceUpped(UInt32 ContactId)
+opcode: ''
+keywords: TouchInput
+task: TouchPadConfidenceUpped
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ContactId

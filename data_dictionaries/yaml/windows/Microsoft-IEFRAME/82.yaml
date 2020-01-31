@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '82'
+version: '0'
+event(fields): OnlineHistoryCollectDataStart()
+opcode: Start
+keywords: primarynav
+task: OnlineHistoryCollectData
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

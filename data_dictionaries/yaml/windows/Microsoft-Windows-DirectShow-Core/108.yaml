@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '108'
+version: '0'
+event(fields): DirectShowFilterGraphAddSourceFilterStop(Pointer context, Pointer filter,
+  UnicodeString filterName, HexInt32 hr)
+opcode: Stop
+keywords: ''
+task: DirectShowFilterGraphAddSourceFilter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: context
+- field_type: Pointer
+  field_name: filter
+- field_type: UnicodeString
+  field_name: filterName
+- field_type: HexInt32
+  field_name: hr

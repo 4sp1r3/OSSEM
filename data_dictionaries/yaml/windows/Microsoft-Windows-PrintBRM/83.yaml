@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '83'
+version: '0'
+event(fields): RestorePrintBRMoperationfailure83(UnicodeString Port, HexInt32 ErrorCode)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_PORT_KEYWORD
+task: Restore
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Port
+- field_type: HexInt32
+  field_name: ErrorCode

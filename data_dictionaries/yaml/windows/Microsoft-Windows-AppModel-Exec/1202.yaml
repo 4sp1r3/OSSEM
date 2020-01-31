@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '1202'
+version: '0'
+event(fields): FM_ChildOnResourceAcquired(UInt64 p1_UInt64, UnicodeString p2_String)
+opcode: ''
+keywords: FM ExecDevPlatCircular
+task: FM_ChildOnResourceAcquired
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: p1_UInt64
+- field_type: UnicodeString
+  field_name: p2_String

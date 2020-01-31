@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-Ufx
+event_id: '101'
+version: '0'
+event(fields): FailedCall(AnsiString File, UInt32 Line, UInt32 Status)
+opcode: ''
+keywords: Error
+task: FailedCall
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: File
+- field_type: UInt32
+  field_name: Line
+- field_type: UInt32
+  field_name: Status

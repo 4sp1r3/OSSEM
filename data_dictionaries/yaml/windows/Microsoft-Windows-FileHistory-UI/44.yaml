@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '44'
+version: '0'
+event(fields): ZoomSwitchGenericStart()
+opcode: Start
+keywords: ''
+task: ZoomSwitchGeneric
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

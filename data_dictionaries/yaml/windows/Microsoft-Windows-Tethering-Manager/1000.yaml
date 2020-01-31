@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Tethering-Manager
+event_id: '1000'
+version: '0'
+event(fields): task_0(UInt32 Result)
+opcode: ''
+keywords: DiagTrack
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

@@ -1,0 +1,22 @@
+provider: Microsoft-JScript
+event_id: '253'
+version: '0'
+event(fields): Jscript_GC_SweepWeakRefStop253(Pointer RecyclerID, UInt32 ScannedCount,
+  UInt32 ClearedCount, UInt32 RegionScannedCount, UInt32 RegionClearedCount)
+opcode: Stop
+keywords: JScriptGarbageCollection
+task: Jscript_GC_SweepWeakRef
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID
+- field_type: UInt32
+  field_name: ScannedCount
+- field_type: UInt32
+  field_name: ClearedCount
+- field_type: UInt32
+  field_name: RegionScannedCount
+- field_type: UInt32
+  field_name: RegionClearedCount

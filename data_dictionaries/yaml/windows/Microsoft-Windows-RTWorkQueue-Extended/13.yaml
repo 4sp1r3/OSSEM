@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RTWorkQueue-Extended
+event_id: '13'
+version: '0'
+event(fields): WorkQueue:RTLockAcquireStop(UInt32 WorkQueueID)
+opcode: Stop
+keywords: ''
+task: WorkQueue:RTLockAcquire
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WorkQueueID

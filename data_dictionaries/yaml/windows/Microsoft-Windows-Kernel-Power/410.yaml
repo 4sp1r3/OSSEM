@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '410'
+version: '0'
+event(fields): SensorSmoothing(UInt32 Engaged)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SensorSmoothing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Engaged

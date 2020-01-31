@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11213'
+version: '0'
+event(fields): Accounts_GetAccountCommands(UnicodeString ProviderDisplayName, UnicodeString
+  AccountName)
+opcode: ''
+keywords: ''
+task: Accounts_GetAccountCommands
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProviderDisplayName
+- field_type: UnicodeString
+  field_name: AccountName

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '272'
+version: '0'
+event(fields): MFCaptureEngine_DiskFull_Condition.TaskMessageStart(Pointer RecordSink,
+  UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: MFCaptureEngine_DiskFull_Condition.TaskMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecordSink
+- field_type: UInt32
+  field_name: ErrorCode

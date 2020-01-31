@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '47004'
+version: '1'
+event(fields): ShellExtensionsPublishing_DeserializeManifestStart_V1()
+opcode: Start
+keywords: ''
+task: ShellExtensionsPublishing_DeserializeManifest
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

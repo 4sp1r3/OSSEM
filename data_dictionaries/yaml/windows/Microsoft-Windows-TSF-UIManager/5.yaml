@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '5'
+version: '0'
+event(fields): IUIManager_ShowCandidateListStart(UInt32 contextFlags, Int32 cItems,
+  Int32 targetRangeLeft, Int32 targetRangeTop, Int32 targetRangeRight, Int32 targetRangeBottom)
+opcode: Start
+keywords: TSF_UIManager
+task: IUIManager_ShowCandidateList
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: contextFlags
+- field_type: Int32
+  field_name: cItems
+- field_type: Int32
+  field_name: targetRangeLeft
+- field_type: Int32
+  field_name: targetRangeTop
+- field_type: Int32
+  field_name: targetRangeRight
+- field_type: Int32
+  field_name: targetRangeBottom

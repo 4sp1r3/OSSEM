@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-JPLMP
+event_id: '51'
+version: '0'
+event(fields): TaskID:IMELMDecodingDecode1Start()
+opcode: Decode1Start
+keywords: ''
+task: TaskID:IMELMDecoding
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

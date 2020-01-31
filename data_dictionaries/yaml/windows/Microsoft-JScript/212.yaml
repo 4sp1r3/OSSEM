@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '212'
+version: '0'
+event(fields): Memprotect_GC_DecommitConcurrentCollectPageAllocatorStart(Pointer RecyclerID)
+opcode: Start
+keywords: MemProtectGarbageCollection
+task: Memprotect_GC_DecommitConcurrentCollectPageAllocator
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID

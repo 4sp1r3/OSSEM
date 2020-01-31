@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60904'
+version: '0'
+event(fields): ShellTask_ExecAssoc_ReputationTelemetryStop(UnicodeString psz)
+opcode: Stop
+keywords: Shell
+task: ShellTask_ExecAssoc_ReputationTelemetry
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

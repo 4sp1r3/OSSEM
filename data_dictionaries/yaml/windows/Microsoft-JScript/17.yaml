@@ -1,0 +1,16 @@
+provider: Microsoft-JScript
+event_id: '17'
+version: '0'
+event(fields): Jscript_Projection_MethodCallStart(UnicodeString TypeName, UnicodeString
+  MethodName)
+opcode: Start
+keywords: JScriptProjection
+task: Jscript_Projection_MethodCall
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeName
+- field_type: UnicodeString
+  field_name: MethodName

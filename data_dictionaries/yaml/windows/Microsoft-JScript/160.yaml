@@ -1,0 +1,15 @@
+provider: Microsoft-JScript
+event_id: '160'
+version: '0'
+event(fields): JScript_ByteCodeDeserializeStart(Pointer Element, UInt32 Zero)
+opcode: Start
+keywords: JScriptByteCode
+task: JScript_ByteCodeDeserialize
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Element
+- field_type: UInt32
+  field_name: Zero

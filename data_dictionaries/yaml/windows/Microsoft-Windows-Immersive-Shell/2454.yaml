@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2454'
+version: '0'
+event(fields): PLM_ConnectedStandby()
+opcode: ''
+keywords: PLMComponent
+task: PLM_ConnectedStandby
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

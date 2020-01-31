@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7272'
+version: '0'
+event(fields): ConnectedSearch_LogSuggestionBGStart()
+opcode: Start
+keywords: ''
+task: ConnectedSearch_LogSuggestionBG
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

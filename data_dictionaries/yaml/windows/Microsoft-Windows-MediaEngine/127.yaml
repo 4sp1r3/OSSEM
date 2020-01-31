@@ -1,0 +1,53 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '127'
+version: '0'
+event(fields): MediaFoundationPresent_QueuedFrameStats(Pointer object, UInt32 Length,
+  UInt32 MaxPresentLatency, UInt32 Queued, UInt32 QueuedWithRepeats, UInt32 EstimatedFramesNeeded,
+  UInt32 Free, Int64 DeltaToTarget, Int64 SubmittedAheadDelta, Int64 TimeInQueue,
+  Int64 MinLatency, Int32 MaxLatency, Int64 FramePeriod, Int64 sampleTime, Int64 TargetQPC,
+  Int32 HistoryPresents, Int64 TimeToDeadline, UInt32 BufferIndex, UInt32 StateFlags)
+opcode: ''
+keywords: ''
+task: MediaFoundationPresent_QueuedFrameStats
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: Length
+- field_type: UInt32
+  field_name: MaxPresentLatency
+- field_type: UInt32
+  field_name: Queued
+- field_type: UInt32
+  field_name: QueuedWithRepeats
+- field_type: UInt32
+  field_name: EstimatedFramesNeeded
+- field_type: UInt32
+  field_name: Free
+- field_type: Int64
+  field_name: DeltaToTarget
+- field_type: Int64
+  field_name: SubmittedAheadDelta
+- field_type: Int64
+  field_name: TimeInQueue
+- field_type: Int64
+  field_name: MinLatency
+- field_type: Int32
+  field_name: MaxLatency
+- field_type: Int64
+  field_name: FramePeriod
+- field_type: Int64
+  field_name: sampleTime
+- field_type: Int64
+  field_name: TargetQPC
+- field_type: Int32
+  field_name: HistoryPresents
+- field_type: Int64
+  field_name: TimeToDeadline
+- field_type: UInt32
+  field_name: BufferIndex
+- field_type: UInt32
+  field_name: StateFlags

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6651'
+version: '0'
+event(fields): ConnectCharm_DisplayUI_EndToEndStop(UInt32 HRESULT)
+opcode: Stop
+keywords: ''
+task: ConnectCharm_DisplayUI_EndToEnd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

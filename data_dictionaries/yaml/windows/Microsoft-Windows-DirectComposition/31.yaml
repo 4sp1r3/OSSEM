@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '31'
+version: '0'
+event(fields): CREATE_CLUMP(UInt64 clumpPointer, UInt64 virtualSurfacePointer, UInt32
+  left, UInt32 top, UInt32 right, UInt32 bottom)
+opcode: ''
+keywords: DCompDiagnostic DCompMemory
+task: CREATE_CLUMP
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: clumpPointer
+- field_type: UInt64
+  field_name: virtualSurfacePointer
+- field_type: UInt32
+  field_name: left
+- field_type: UInt32
+  field_name: top
+- field_type: UInt32
+  field_name: right
+- field_type: UInt32
+  field_name: bottom

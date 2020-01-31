@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '109'
+version: '0'
+event(fields): MFTProcessingLoopStateOtherItemsInQueueAfterStateChangedStop(Pointer
+  CMFTAsyncSimpleBase_ptr)
+opcode: Stop
+keywords: ''
+task: MFTProcessingLoopStateOtherItemsInQueueAfterStateChanged
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMFTAsyncSimpleBase_ptr

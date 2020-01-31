@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '1250'
+version: '0'
+event(fields): WifiPE(UInt32 PositionId, UInt32 InferenceResult, UInt32 PositionSource,
+  UInt32 PositionStatus)
+opcode: ''
+keywords: Selfhost WiFiTracing WifiPe
+task: WifiPE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PositionId
+- field_type: UInt32
+  field_name: InferenceResult
+- field_type: UInt32
+  field_name: PositionSource
+- field_type: UInt32
+  field_name: PositionStatus

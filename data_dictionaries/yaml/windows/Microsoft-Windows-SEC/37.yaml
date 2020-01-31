@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-SEC
+event_id: '37'
+version: '0'
+event(fields): task_037(UInt64 SequenceNumber, UnicodeString ImageName, Pointer ImageBase,
+  UInt64 ImageSize, UnicodeString DriverName, Pointer DriverObject, Pointer DriverInit,
+  Pointer DriverStartIo, Pointer DriverUnload, UInt32 MajorFunctionArraySize, Binary
+  MajorFunctionArray, UInt32 FastIoDispatchArraySize, Binary FastIoDispatchArray,
+  UInt64 SuspiciousDispatchBitmap, UInt32 ContextInfoArraySize, Binary ContextInfoArray)
+opcode: ''
+keywords: Event37
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: UnicodeString
+  field_name: ImageName
+- field_type: Pointer
+  field_name: ImageBase
+- field_type: UInt64
+  field_name: ImageSize
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: Pointer
+  field_name: DriverObject
+- field_type: Pointer
+  field_name: DriverInit
+- field_type: Pointer
+  field_name: DriverStartIo
+- field_type: Pointer
+  field_name: DriverUnload
+- field_type: UInt32
+  field_name: MajorFunctionArraySize
+- field_type: Binary
+  field_name: MajorFunctionArray
+- field_type: UInt32
+  field_name: FastIoDispatchArraySize
+- field_type: Binary
+  field_name: FastIoDispatchArray
+- field_type: UInt64
+  field_name: SuspiciousDispatchBitmap
+- field_type: UInt32
+  field_name: ContextInfoArraySize
+- field_type: Binary
+  field_name: ContextInfoArray

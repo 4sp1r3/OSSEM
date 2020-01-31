@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-GPIO-ClassExtension
+event_id: '1014'
+version: '1'
+event(fields): GPIObankinterruptflowthroughMSGPIOCLXInterruptPinState_V1(UInt64 EnableRegister,
+  UInt64 MaskRegister, UInt64 StatusRegister, UInt64 NonEnabledActiveInterrupts, UInt64
+  ReplayRegister)
+opcode: InterruptPinState
+keywords: ''
+task: GPIObankinterruptflowthroughMSGPIOCLX
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: EnableRegister
+- field_type: UInt64
+  field_name: MaskRegister
+- field_type: UInt64
+  field_name: StatusRegister
+- field_type: UInt64
+  field_name: NonEnabledActiveInterrupts
+- field_type: UInt64
+  field_name: ReplayRegister

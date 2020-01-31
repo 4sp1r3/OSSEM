@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1521'
+version: '0'
+event(fields): ServerTaskNSTProcessActivationData(UInt32 unParam, UInt32 reason, UnicodeString
+  pwsz, UInt32 unParam2)
+opcode: NSTProcessActivationData
+keywords: NavigationPerformance ServerTask
+task: ServerTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: reason
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UInt32
+  field_name: unParam2

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '395'
+version: '0'
+event(fields): BrowserFrame_AddTab_WaitForActivationKindStart()
+opcode: Start
+keywords: ''
+task: BrowserFrame_AddTab_WaitForActivationKind
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

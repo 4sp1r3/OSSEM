@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '7010'
+version: '0'
+event(fields): AccountManagement7010(UnicodeString mbnInterface, UnicodeString info)
+opcode: ''
+keywords: ''
+task: AccountManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: mbnInterface
+- field_type: UnicodeString
+  field_name: info

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-LDAP-Client
+event_id: '30'
+version: '0'
+event(fields): task_030(UInt32 ScopeOfSearch, UnicodeString SearchFilter, UnicodeString
+  DistinguishedName, UnicodeString AttributeList, HexInt32 ProcessId)
+opcode: ''
+keywords: search
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScopeOfSearch
+- field_type: UnicodeString
+  field_name: SearchFilter
+- field_type: UnicodeString
+  field_name: DistinguishedName
+- field_type: UnicodeString
+  field_name: AttributeList
+- field_type: HexInt32
+  field_name: ProcessId

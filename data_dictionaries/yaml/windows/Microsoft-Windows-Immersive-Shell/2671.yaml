@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2671'
+version: '0'
+event(fields): Settings_GetAppCommands(UnicodeString CommandId)
+opcode: ''
+keywords: ''
+task: Settings_GetAppCommands
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CommandId

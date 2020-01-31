@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1032'
+version: '0'
+event(fields): MiracastUmdDriverCbGetNextChunkDataStart(UInt64 MiracastLuid, UInt32
+  TimeoutInMilliseconds, UInt32 AdditionalWaitEventCount)
+opcode: Start
+keywords: Miracast
+task: MiracastUmdDriverCbGetNextChunkData
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UInt32
+  field_name: TimeoutInMilliseconds
+- field_type: UInt32
+  field_name: AdditionalWaitEventCount

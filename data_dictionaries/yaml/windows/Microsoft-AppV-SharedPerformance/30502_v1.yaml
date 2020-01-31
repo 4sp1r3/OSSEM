@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30502'
+version: '1'
+event(fields): Packaging_4000Stop_V1()
+opcode: Stop
+keywords: ''
+task: Packaging_4000
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

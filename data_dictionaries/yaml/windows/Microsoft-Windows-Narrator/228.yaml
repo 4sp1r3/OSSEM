@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '228'
+version: '0'
+event(fields): ContinuousReadingModeStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ContinuousReadingMode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1017'
+version: '0'
+event(fields): MiracastDeviceStateChange(UInt64 MiracastLuid, UInt32 MiracastDeviceState,
+  UInt32 MiracastDeviceStatus)
+opcode: ''
+keywords: Miracast
+task: MiracastDeviceStateChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UInt32
+  field_name: MiracastDeviceState
+- field_type: UInt32
+  field_name: MiracastDeviceStatus

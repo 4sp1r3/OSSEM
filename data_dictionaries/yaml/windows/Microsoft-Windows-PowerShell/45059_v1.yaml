@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45059'
+version: '1'
+event(fields): NoneTobeusedwhenoperationisjustexecutingamethod45059_V1()
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: ''
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

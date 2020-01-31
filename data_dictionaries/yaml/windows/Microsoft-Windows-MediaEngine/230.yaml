@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '230'
+version: '0'
+event(fields): OPMProcessCertificateStart()
+opcode: Start
+keywords: ''
+task: OPMProcessCertificate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

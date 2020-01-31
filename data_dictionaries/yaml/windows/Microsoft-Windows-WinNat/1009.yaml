@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1009'
+version: '0'
+event(fields): WinNatTranslation(UInt32 IncomingAddrLen, Binary IncomingSrcAddr, Binary
+  IncomingDstAddr, UInt32 TranslatedAddrLen, Binary TranslatedSrcAddr, Binary TranslatedDstAddr,
+  UInt32 Identification, UInt32 TransportProtocol, UInt32 Status, UInt32 IcmpType,
+  UInt32 IcmpCode, Boolean IcmpPayload)
+opcode: ''
+keywords: ut:Translation
+task: WinNatTranslation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IncomingAddrLen
+- field_type: Binary
+  field_name: IncomingSrcAddr
+- field_type: Binary
+  field_name: IncomingDstAddr
+- field_type: UInt32
+  field_name: TranslatedAddrLen
+- field_type: Binary
+  field_name: TranslatedSrcAddr
+- field_type: Binary
+  field_name: TranslatedDstAddr
+- field_type: UInt32
+  field_name: Identification
+- field_type: UInt32
+  field_name: TransportProtocol
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: IcmpType
+- field_type: UInt32
+  field_name: IcmpCode
+- field_type: Boolean
+  field_name: IcmpPayload

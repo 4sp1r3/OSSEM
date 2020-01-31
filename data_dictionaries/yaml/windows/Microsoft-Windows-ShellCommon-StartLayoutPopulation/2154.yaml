@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '2154'
+version: '0'
+event(fields): PlaceholderTileOnAppInstall2154(UnicodeString value)
+opcode: ''
+keywords: ''
+task: PlaceholderTileOnAppInstall
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value

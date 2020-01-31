@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '2011'
+version: '1'
+event(fields): Loadingdriverstocontrolanewlydiscovereddevice.Stop2011_V1(GUID LifetimeId,
+  UnicodeString InstanceId, UInt32 FinalStatus)
+opcode: Stop
+keywords: ''
+task: Loadingdriverstocontrolanewlydiscovereddevice.
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId
+- field_type: UnicodeString
+  field_name: InstanceId
+- field_type: UInt32
+  field_name: FinalStatus

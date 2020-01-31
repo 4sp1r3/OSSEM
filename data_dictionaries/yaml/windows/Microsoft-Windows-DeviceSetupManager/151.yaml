@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '151'
+version: '0'
+event(fields): task_0151(UnicodeString Prop_DeviceName, GUID Prop_ContainerId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_DeviceName
+- field_type: GUID
+  field_name: Prop_ContainerId

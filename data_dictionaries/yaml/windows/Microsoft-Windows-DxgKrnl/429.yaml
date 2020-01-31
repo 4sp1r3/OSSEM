@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '429'
+version: '0'
+event(fields): ResumeSchedulerForVidPnSource(Pointer pDxgAdapter, UInt32 SourceMaskResumeScheduler)
+opcode: ''
+keywords: Base
+task: ResumeSchedulerForVidPnSource
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: SourceMaskResumeScheduler

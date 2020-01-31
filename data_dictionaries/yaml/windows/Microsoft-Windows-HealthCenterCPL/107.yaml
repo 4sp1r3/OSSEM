@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HealthCenterCPL
+event_id: '107'
+version: '0'
+event(fields): WHC_ControlPanel_Check_ChangeStop(UnicodeString psz)
+opcode: Stop
+keywords: ''
+task: WHC_ControlPanel_Check_Change
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

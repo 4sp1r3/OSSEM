@@ -1,0 +1,53 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4983'
+version: '0'
+event(fields): task_04983(UnicodeString LocalEMPrincipalName, UnicodeString LocalEMCertHash,
+  UnicodeString LocalEMIssuingCA, UnicodeString LocalEMRootCA, UnicodeString RemoteEMPrincipalName,
+  UnicodeString RemoteEMCertHash, UnicodeString RemoteEMIssuingCA, UnicodeString RemoteEMRootCA,
+  UnicodeString LocalAddress, UInt32 LocalKeyModPort, UnicodeString RemoteAddress,
+  UInt32 RemoteKeyModPort, UnicodeString FailurePoint, UnicodeString FailureReason,
+  UnicodeString State, UnicodeString Role, UnicodeString EMImpersonationState, UInt64
+  QMFilterID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalEMPrincipalName
+- field_type: UnicodeString
+  field_name: LocalEMCertHash
+- field_type: UnicodeString
+  field_name: LocalEMIssuingCA
+- field_type: UnicodeString
+  field_name: LocalEMRootCA
+- field_type: UnicodeString
+  field_name: RemoteEMPrincipalName
+- field_type: UnicodeString
+  field_name: RemoteEMCertHash
+- field_type: UnicodeString
+  field_name: RemoteEMIssuingCA
+- field_type: UnicodeString
+  field_name: RemoteEMRootCA
+- field_type: UnicodeString
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: LocalKeyModPort
+- field_type: UnicodeString
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: RemoteKeyModPort
+- field_type: UnicodeString
+  field_name: FailurePoint
+- field_type: UnicodeString
+  field_name: FailureReason
+- field_type: UnicodeString
+  field_name: State
+- field_type: UnicodeString
+  field_name: Role
+- field_type: UnicodeString
+  field_name: EMImpersonationState
+- field_type: UInt64
+  field_name: QMFilterID

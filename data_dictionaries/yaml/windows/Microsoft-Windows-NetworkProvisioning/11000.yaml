@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '11000'
+version: '0'
+event(fields): Notifications(UInt64 Position, UnicodeString RulesXml, UnicodeString
+  Reason)
+opcode: ''
+keywords: Diagnostics Notifications ut:Configuration
+task: Notifications
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Position
+- field_type: UnicodeString
+  field_name: RulesXml
+- field_type: UnicodeString
+  field_name: Reason

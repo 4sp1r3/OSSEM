@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '13001'
+version: '1'
+event(fields): UserStateDeletion_V1(GUID Package)
+opcode: ''
+keywords: VFS
+task: UserStateDeletion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Package

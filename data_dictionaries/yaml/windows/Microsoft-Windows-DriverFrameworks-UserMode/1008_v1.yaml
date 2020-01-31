@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '1008'
+version: '1'
+event(fields): Shutdownofadriverhostprocess.Stop_V1(GUID LifetimeId, UInt32 TerminationStatus,
+  UInt32 ExitCode)
+opcode: Stop
+keywords: ''
+task: Shutdownofadriverhostprocess.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId
+- field_type: UInt32
+  field_name: TerminationStatus
+- field_type: UInt32
+  field_name: ExitCode

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '16'
+version: '0'
+event(fields): AutomaticUpdatesCheckforUpdates()
+opcode: CheckforUpdates
+keywords: connection
+task: AutomaticUpdates
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

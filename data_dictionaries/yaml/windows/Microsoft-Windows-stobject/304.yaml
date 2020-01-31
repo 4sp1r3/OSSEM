@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-stobject
+event_id: '304'
+version: '0'
+event(fields): SSO_OnHandleSignaledStop(GUID guid)
+opcode: Stop
+keywords: SSO
+task: SSO_OnHandleSignaled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: guid

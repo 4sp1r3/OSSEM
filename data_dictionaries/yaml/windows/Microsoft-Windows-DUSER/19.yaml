@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DUSER
+event_id: '19'
+version: '0'
+event(fields): DUser_DrawLayeredGadgetStart(UInt32 hGadget, Pointer pVisual, Boolean
+  fRoot, Int32 nWidth, Int32 nHeight, Boolean fIsCopy)
+opcode: Start
+keywords: Default
+task: DUser_DrawLayeredGadget
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hGadget
+- field_type: Pointer
+  field_name: pVisual
+- field_type: Boolean
+  field_name: fRoot
+- field_type: Int32
+  field_name: nWidth
+- field_type: Int32
+  field_name: nHeight
+- field_type: Boolean
+  field_name: fIsCopy

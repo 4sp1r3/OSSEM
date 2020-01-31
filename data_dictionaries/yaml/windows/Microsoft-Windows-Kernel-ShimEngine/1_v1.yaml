@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-ShimEngine
+event_id: '1'
+version: '1'
+event(fields): task_0_V1(UInt32 EventId, AnsiString DebugMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EventId
+- field_type: AnsiString
+  field_name: DebugMessage

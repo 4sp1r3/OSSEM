@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '115'
+version: '0'
+event(fields): ProcessorPreVetoAccountingRundown(UInt16 Group, UInt8 Number, UInt32
+  StateIndex, UInt32 VetoCodeCount, Int16 Accounting)
+opcode: ''
+keywords: Diag
+task: ProcessorPreVetoAccountingRundown
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: StateIndex
+- field_type: UInt32
+  field_name: VetoCodeCount
+- field_type: Int16
+  field_name: Accounting

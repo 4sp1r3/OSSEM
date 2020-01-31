@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1455'
+version: '0'
+event(fields): SessionManagerNSSMDeferSessionLaunch()
+opcode: NSSMDeferSessionLaunch
+keywords: SessionManager
+task: SessionManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '278'
+version: '0'
+event(fields): MPS_CLNT_API_FreeAuthenticationSetsStart()
+opcode: Start
+keywords: Client
+task: MPS_CLNT_API_FreeAuthenticationSets
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

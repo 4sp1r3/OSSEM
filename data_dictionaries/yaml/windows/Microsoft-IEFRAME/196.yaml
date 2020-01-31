@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '196'
+version: '0'
+event(fields): Shdocvw_BaseBrowser_FireEvent_NewWindowStop()
+opcode: Stop
+keywords: primarynav
+task: Shdocvw_BaseBrowser_FireEvent_NewWindow
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

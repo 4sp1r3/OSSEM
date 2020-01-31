@@ -1,0 +1,11 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '929'
+version: '0'
+event(fields): JournalEncryption_Init_PerftrackStop()
+opcode: Stop
+keywords: nonPerfTrack
+task: JournalEncryption_Init_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

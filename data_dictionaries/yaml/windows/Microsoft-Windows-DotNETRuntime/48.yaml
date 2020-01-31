@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '48'
+version: '0'
+event(fields): ThreadpoolSuspensionV2Start(UInt32 ClrThreadID, UInt32 CpuUtilization)
+opcode: Start
+keywords: ThreadingKeyword
+task: ThreadpoolSuspensionV2
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ClrThreadID
+- field_type: UInt32
+  field_name: CpuUtilization

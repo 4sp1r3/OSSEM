@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-PktMon
+event_id: '70'
+version: '0'
+event(fields): task_070(UInt16 ComponentId, UInt16 Type, UInt32 Size, Binary Value)
+opcode: ''
+keywords: Rundown
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ComponentId
+- field_type: UInt16
+  field_name: Type
+- field_type: UInt32
+  field_name: Size
+- field_type: Binary
+  field_name: Value

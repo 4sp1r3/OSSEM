@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '262'
+version: '1'
+event(fields): ProcessNotifyWindowLayoutCompleted_V1(UInt64 Window)
+opcode: ''
+keywords: Rendering
+task: ProcessNotifyWindowLayoutCompleted
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Window

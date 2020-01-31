@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RemoteApp and Desktop Connections
+event_id: '1041'
+version: '0'
+event(fields): Connection1041(UnicodeString RemoteAppName, UnicodeString ConnectionName,
+  UnicodeString Reason)
+opcode: ''
+keywords: ''
+task: Connection
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RemoteAppName
+- field_type: UnicodeString
+  field_name: ConnectionName
+- field_type: UnicodeString
+  field_name: Reason

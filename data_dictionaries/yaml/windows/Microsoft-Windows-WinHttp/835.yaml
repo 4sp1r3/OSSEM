@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '835'
+version: '0'
+event(fields): WINHTTP_AUTOPROXY_PERFTRACK_ALLStop(UInt32 UniqueId)
+opcode: Stop
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_AUTOPROXY_PERFTRACK_ALL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UniqueId

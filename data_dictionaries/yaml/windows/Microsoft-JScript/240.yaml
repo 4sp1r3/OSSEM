@@ -1,0 +1,15 @@
+provider: Microsoft-JScript
+event_id: '240'
+version: '0'
+event(fields): Jscript_GC_Init(Pointer RecyclerID, Double Timestamp)
+opcode: ''
+keywords: JScriptGarbageCollection
+task: Jscript_GC_Init
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID
+- field_type: Double
+  field_name: Timestamp

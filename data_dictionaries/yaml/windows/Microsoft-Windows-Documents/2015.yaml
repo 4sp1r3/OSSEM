@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '2015'
+version: '0'
+event(fields): DocPerf_Task_Xgc_AlphaFlatteningStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Xgc_AlphaFlattening
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

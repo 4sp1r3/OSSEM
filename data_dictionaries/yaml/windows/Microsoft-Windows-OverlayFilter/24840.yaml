@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-OverlayFilter
+event_id: '24840'
+version: '0'
+event(fields): TheWindowsOverlayTaskResumeHashFile(UnicodeString filename, UInt64
+  offset)
+opcode: ResumeHashFile
+keywords: ''
+task: TheWindowsOverlayTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: filename
+- field_type: UInt64
+  field_name: offset

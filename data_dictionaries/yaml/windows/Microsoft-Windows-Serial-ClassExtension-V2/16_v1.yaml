@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Serial-ClassExtension-V2
+event_id: '16'
+version: '1'
+event(fields): IOCTLrequest.Stop_V1(Pointer Device, HexInt32 IOCTL, HexInt32 Status,
+  HexInt32 IOCTLOutputBufferLength, Binary IOCTLOutputBuffer)
+opcode: Stop
+keywords: IOCTL
+task: IOCTLrequest.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Device
+- field_type: HexInt32
+  field_name: IOCTL
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: IOCTLOutputBufferLength
+- field_type: Binary
+  field_name: IOCTLOutputBuffer

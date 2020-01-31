@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4442'
+version: '0'
+event(fields): 2D:CreateStop(Pointer Pointer, Int32 Length, Int32 Type, Int32 Max)
+opcode: Stop
+keywords: ''
+task: 2D:Create
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Pointer
+- field_type: Int32
+  field_name: Length
+- field_type: Int32
+  field_name: Type
+- field_type: Int32
+  field_name: Max

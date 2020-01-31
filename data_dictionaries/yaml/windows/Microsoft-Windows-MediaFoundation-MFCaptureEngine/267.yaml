@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '267'
+version: '0'
+event(fields): MFCaptureEngine_Camera_Sound_QueuePlaybackTaskStop(Pointer CaptureEngineObject,
+  UInt32 QueuingResult)
+opcode: Stop
+keywords: ''
+task: MFCaptureEngine_Camera_Sound_QueuePlaybackTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CaptureEngineObject
+- field_type: UInt32
+  field_name: QueuingResult

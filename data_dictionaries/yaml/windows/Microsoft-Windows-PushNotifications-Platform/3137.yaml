@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3137'
+version: '0'
+event(fields): AFCGetPlatformDeviceIdStop()
+opcode: Stop
+keywords: wpnui
+task: AFCGetPlatformDeviceId
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

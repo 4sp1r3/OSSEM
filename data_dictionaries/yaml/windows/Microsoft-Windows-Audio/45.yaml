@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Audio
+event_id: '45'
+version: '0'
+event(fields): Audio_Glitch_DetectionKSEndpointGlitch:STCAPCaptureAhead(Pointer pCAudioCapturePinStandardStreaming,
+  UInt64 ValidPositionEnd, UInt64 ValidPositionStart, UInt64 StreamPosition, UInt64
+  StreamPosMinusValidPosEnd)
+opcode: STCAPCaptureAhead
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCAudioCapturePinStandardStreaming
+- field_type: UInt64
+  field_name: ValidPositionEnd
+- field_type: UInt64
+  field_name: ValidPositionStart
+- field_type: UInt64
+  field_name: StreamPosition
+- field_type: UInt64
+  field_name: StreamPosMinusValidPosEnd

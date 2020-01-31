@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '367'
+version: '0'
+event(fields): VidMmProcessUsageChange(UInt64 NewUsage, UInt64 OldUsage, Pointer pDxgAdapter,
+  UInt32 ProcessId, UInt16 PhysicalAdapterIndex, UInt8 MemorySegmentGroup)
+opcode: ''
+keywords: References
+task: VidMmProcessUsageChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: NewUsage
+- field_type: UInt64
+  field_name: OldUsage
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt16
+  field_name: PhysicalAdapterIndex
+- field_type: UInt8
+  field_name: MemorySegmentGroup

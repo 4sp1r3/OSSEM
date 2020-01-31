@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '517'
+version: '1'
+event(fields): BM_TryAcquireResourceSet_V1(UnicodeString String, GUID WorkItemId,
+  UInt32 CallBackId, UInt32 HRESULT, UInt64 HostId, UInt64 ResourceSetId)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BM_TryAcquireResourceSet
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String
+- field_type: GUID
+  field_name: WorkItemId
+- field_type: UInt32
+  field_name: CallBackId
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UInt64
+  field_name: HostId
+- field_type: UInt64
+  field_name: ResourceSetId

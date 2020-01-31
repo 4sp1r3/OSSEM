@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '47'
+version: '0'
+event(fields): MeasureElementStart(UInt64 ElementId, Float Width, Float Height)
+opcode: Start
+keywords: Detailed
+task: MeasureElement
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: Float
+  field_name: Width
+- field_type: Float
+  field_name: Height

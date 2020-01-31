@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14007'
+version: '0'
+event(fields): PreviewPane_MetadataExtractorDispatchStart()
+opcode: Start
+keywords: Shell
+task: PreviewPane_MetadataExtractorDispatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

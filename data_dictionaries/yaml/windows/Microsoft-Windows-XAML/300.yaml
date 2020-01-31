@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '300'
+version: '0'
+event(fields): LoadTemplateContentStart(UInt64 TemplateId)
+opcode: Start
+keywords: Templates
+task: LoadTemplateContent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TemplateId

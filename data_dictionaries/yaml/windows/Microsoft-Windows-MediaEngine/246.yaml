@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '246'
+version: '0'
+event(fields): EMEMediaKeySystemAccess(UnicodeString keysystem, UInt32 configCount,
+  UInt32 selectedConfigCount, Pointer object)
+opcode: ''
+keywords: ''
+task: EMEMediaKeySystemAccess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: keysystem
+- field_type: UInt32
+  field_name: configCount
+- field_type: UInt32
+  field_name: selectedConfigCount
+- field_type: Pointer
+  field_name: object

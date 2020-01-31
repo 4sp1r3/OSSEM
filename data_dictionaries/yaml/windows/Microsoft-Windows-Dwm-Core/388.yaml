@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '388'
+version: '0'
+event(fields): COMMAND_PROCESSED_ONBEHALF(UInt32 ProcessId, UInt32 CommandId)
+opcode: ''
+keywords: WorkPerFrame
+task: COMMAND_PROCESSED_ONBEHALF
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: CommandId

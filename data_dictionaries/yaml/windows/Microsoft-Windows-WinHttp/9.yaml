@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '9'
+version: '0'
+event(fields): APIStart(UInt64 ApiHandle, AnsiString Api)
+opcode: Start
+keywords: Keyword.API
+task: API
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ApiHandle
+- field_type: AnsiString
+  field_name: Api

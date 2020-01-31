@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '303'
+version: '0'
+event(fields): Browseui_ActivationRegistrar_CreateComponentStop()
+opcode: Stop
+keywords: primarynav
+task: Browseui_ActivationRegistrar_CreateComponent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

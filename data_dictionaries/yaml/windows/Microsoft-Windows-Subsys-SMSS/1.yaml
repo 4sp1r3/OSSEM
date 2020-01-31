@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Subsys-SMSS
+event_id: '1'
+version: '0'
+event(fields): smss:ExecuteImageStart(UInt32 Flags, UInt16 ImageNameLength, UnicodeString
+  ImageName)
+opcode: Start
+keywords: smss:Diagnostics
+task: smss:ExecuteImage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt16
+  field_name: ImageNameLength
+- field_type: UnicodeString
+  field_name: ImageName

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '25'
+version: '0'
+event(fields): DirectUI_ScrollLineUpStart()
+opcode: Start
+keywords: Default
+task: DirectUI_ScrollLineUp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '27'
+version: '0'
+event(fields): Provider(GUID ProviderGUID, GUID GroupGUID, UInt16 Flags, UInt8 EnableMask,
+  UInt8 GroupEnableMask, UInt32 ProcessId)
+opcode: ''
+keywords: ETW_KEYWORD_PROVIDER ETW_KEYWORD_CAPTURE_STATE
+task: Provider
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderGUID
+- field_type: GUID
+  field_name: GroupGUID
+- field_type: UInt16
+  field_name: Flags
+- field_type: UInt8
+  field_name: EnableMask
+- field_type: UInt8
+  field_name: GroupEnableMask
+- field_type: UInt32
+  field_name: ProcessId

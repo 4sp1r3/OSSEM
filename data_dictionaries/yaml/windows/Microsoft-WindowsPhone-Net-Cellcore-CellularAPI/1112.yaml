@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '1112'
+version: '0'
+event(fields): CUnifiedCallModel1112(UInt32 DwordName1)
+opcode: ''
+keywords: Error
+task: CUnifiedCallModel
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName1

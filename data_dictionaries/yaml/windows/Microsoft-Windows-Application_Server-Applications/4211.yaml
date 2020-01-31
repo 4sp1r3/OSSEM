@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4211'
+version: '0'
+event(fields): LockWorkflowInstance4211(UnicodeString data1, UnicodeString AppDomain)
+opcode: ''
+keywords: WFInstanceStore
+task: LockWorkflowInstance
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

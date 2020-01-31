@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DirectAccess-MediaManager
+event_id: '7002'
+version: '0'
+event(fields): InitStop()
+opcode: Stop
+keywords: ''
+task: Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

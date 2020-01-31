@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '5001'
+version: '0'
+event(fields): DhcpStabilized5001(GUID InterfaceGuid, UInt32 NlaState)
+opcode: Stabilized
+keywords: ''
+task: Dhcp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: NlaState

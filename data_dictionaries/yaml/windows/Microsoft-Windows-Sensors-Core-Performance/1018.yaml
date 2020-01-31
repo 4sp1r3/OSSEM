@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Sensors-Core-Performance
+event_id: '1018'
+version: '0'
+event(fields): NativeToCxReadTransferTaskStop(Pointer SensorObj, Pointer CollectionListPtr)
+opcode: Stop
+keywords: ''
+task: NativeToCxReadTransferTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SensorObj
+- field_type: Pointer
+  field_name: CollectionListPtr

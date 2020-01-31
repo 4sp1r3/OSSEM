@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1005'
+version: '0'
+event(fields): Browse_Filter_EndpointStart()
+opcode: Start
+keywords: ''
+task: Browse_Filter_Endpoint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

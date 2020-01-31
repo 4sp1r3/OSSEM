@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23032'
+version: '1'
+event(fields): PackagingInstantMessagingStart_V1()
+opcode: Start
+keywords: ''
+task: PackagingInstantMessaging
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

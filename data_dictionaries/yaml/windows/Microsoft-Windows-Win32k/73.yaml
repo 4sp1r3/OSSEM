@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '73'
+version: '0'
+event(fields): InputDeviceReadStop(Int32 DeviceType, UInt32 dwFlags)
+opcode: Stop
+keywords: MessagePumpInternalAndInput
+task: InputDeviceRead
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: DeviceType
+- field_type: UInt32
+  field_name: dwFlags

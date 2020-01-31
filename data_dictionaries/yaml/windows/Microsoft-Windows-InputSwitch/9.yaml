@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-InputSwitch
+event_id: '9'
+version: '0'
+event(fields): SelectInputMethodStart()
+opcode: Start
+keywords: Perf InputSwitch_Keyword
+task: SelectInputMethod
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

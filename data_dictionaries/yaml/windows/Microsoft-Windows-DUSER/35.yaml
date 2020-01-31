@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DUSER
+event_id: '35'
+version: '0'
+event(fields): DUser_MoveChildrenToParentStart(UInt32 hGadget, Pointer pVisual, Pointer
+  pDCompVisual)
+opcode: Start
+keywords: Default
+task: DUser_MoveChildrenToParent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hGadget
+- field_type: Pointer
+  field_name: pVisual
+- field_type: Pointer
+  field_name: pDCompVisual

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '226'
+version: '0'
+event(fields): PresentControllerGetFrameStatisticsDisjoint(UInt64 ControllerId)
+opcode: ''
+keywords: Rendering
+task: PresentControllerGetFrameStatisticsDisjoint
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ControllerId

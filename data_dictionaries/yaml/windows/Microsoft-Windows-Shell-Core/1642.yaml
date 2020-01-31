@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1642'
+version: '0'
+event(fields): ShellTask_ItemHandler_GetHandlerThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_ItemHandler_GetHandlerThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

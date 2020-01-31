@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '411'
+version: '0'
+event(fields): MediaElementLegacyFullScreenStop(UInt64 Id, UInt32 IsFullScreen)
+opcode: Stop
+keywords: Media
+task: MediaElementLegacyFullScreen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt32
+  field_name: IsFullScreen

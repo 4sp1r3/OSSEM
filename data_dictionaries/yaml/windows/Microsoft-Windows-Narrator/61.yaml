@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Narrator
+event_id: '61'
+version: '0'
+event(fields): RenderFocusStop(Int32 EventId)
+opcode: Stop
+keywords: PerfInstrumentation
+task: RenderFocus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: EventId

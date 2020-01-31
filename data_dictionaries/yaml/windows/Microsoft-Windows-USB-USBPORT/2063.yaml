@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '2063'
+version: '0'
+event(fields): MiniportResumeCompletewithError2063(Int16 fid_USBPORT_HC, UInt32 fid_MiniportStatus,
+  UInt16 fid_NumberOfPorts, UInt32 fid_SuspendPortStatus, UInt32 fid_ResumePortStatus)
+opcode: CompletewithError
+keywords: Diagnostic
+task: MiniportResume
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int16
+  field_name: fid_USBPORT_HC
+- field_type: UInt32
+  field_name: fid_MiniportStatus
+- field_type: UInt16
+  field_name: fid_NumberOfPorts
+- field_type: UInt32
+  field_name: fid_SuspendPortStatus
+- field_type: UInt32
+  field_name: fid_ResumePortStatus

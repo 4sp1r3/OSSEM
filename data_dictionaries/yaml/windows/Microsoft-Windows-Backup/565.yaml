@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Backup
+event_id: '565'
+version: '0'
+event(fields): task_0565(UnicodeString ComponentName, UnicodeString LogicalPath, UnicodeString
+  ApplicationId, FILETIME BackupTime, GUID WriterId, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ComponentName
+- field_type: UnicodeString
+  field_name: LogicalPath
+- field_type: UnicodeString
+  field_name: ApplicationId
+- field_type: FILETIME
+  field_name: BackupTime
+- field_type: GUID
+  field_name: WriterId
+- field_type: UInt32
+  field_name: ErrorCode

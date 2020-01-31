@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '701'
+version: '0'
+event(fields): ClientConnectionTimeout(UnicodeString ProcessName, HexInt32 HWND, UnicodeString
+  WindowClassName, UnicodeString RequestedMethod, UInt32 RequestedTimeout)
+opcode: ''
+keywords: UiaConnectionTimeout PerfInstrumentation
+task: ClientConnectionTimeout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: HexInt32
+  field_name: HWND
+- field_type: UnicodeString
+  field_name: WindowClassName
+- field_type: UnicodeString
+  field_name: RequestedMethod
+- field_type: UInt32
+  field_name: RequestedTimeout

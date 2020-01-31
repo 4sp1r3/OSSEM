@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-User Profiles Service
+event_id: '58'
+version: '0'
+event(fields): task_058(UnicodeString Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Error

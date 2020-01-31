@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-StorPort
+event_id: '509'
+version: '1'
+event(fields): None509_V1(UInt32 PortNumber, UInt8 Bus, UInt8 Target, UInt8 LUN, GUID
+  ClassDeviceGuid, UInt32 AbortSrbTimeout, UInt32 AbortedReq_SrbFunction, UInt32 AbortedReq_CdbLength,
+  Binary AbortedReq_Cdb)
+opcode: ''
+keywords: keyword_80000000000
+task: None
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: Bus
+- field_type: UInt8
+  field_name: Target
+- field_type: UInt8
+  field_name: LUN
+- field_type: GUID
+  field_name: ClassDeviceGuid
+- field_type: UInt32
+  field_name: AbortSrbTimeout
+- field_type: UInt32
+  field_name: AbortedReq_SrbFunction
+- field_type: UInt32
+  field_name: AbortedReq_CdbLength
+- field_type: Binary
+  field_name: AbortedReq_Cdb

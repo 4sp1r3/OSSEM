@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '63'
+version: '0'
+event(fields): FrameStart()
+opcode: Start
+keywords: Layout
+task: Frame
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

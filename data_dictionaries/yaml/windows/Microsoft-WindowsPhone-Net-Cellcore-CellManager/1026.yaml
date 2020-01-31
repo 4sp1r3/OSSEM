@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1026'
+version: '0'
+event(fields): CellRPCHandler1026(UInt32 dwCode1)
+opcode: ''
+keywords: Trace
+task: CellRPCHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwCode1

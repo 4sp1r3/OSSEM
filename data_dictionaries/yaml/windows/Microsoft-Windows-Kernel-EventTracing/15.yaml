@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '15'
+version: '0'
+event(fields): ProviderDisable(GUID ProviderName, UnicodeString SessionName)
+opcode: Disable
+keywords: ETW_KEYWORD_PROVIDER ETW_KEYWORD_ENABLEMENT
+task: Provider
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderName
+- field_type: UnicodeString
+  field_name: SessionName

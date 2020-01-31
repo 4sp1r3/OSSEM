@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-User-ControlPanel
+event_id: '8023'
+version: '0'
+event(fields): UserAccount_AddUserDialog_OnlineWizardError(GUID SqmSessionGuid, UInt32
+  SqmID, UInt32 SqmType, UInt32 SqmDWORDDatapointValue)
+opcode: ''
+keywords: ''
+task: UserAccount_AddUserDialog_OnlineWizardError
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SqmSessionGuid
+- field_type: UInt32
+  field_name: SqmID
+- field_type: UInt32
+  field_name: SqmType
+- field_type: UInt32
+  field_name: SqmDWORDDatapointValue

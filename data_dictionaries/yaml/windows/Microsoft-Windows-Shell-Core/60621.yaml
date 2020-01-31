@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60621'
+version: '0'
+event(fields): ItemsView_LineScroller_LayoutPassStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: ItemsView_LineScroller_LayoutPass
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPRMSG
+event_id: '20278'
+version: '0'
+event(fields): task_020278()
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

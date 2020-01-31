@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-ApplicationExperience-Cache
+event_id: '9'
+version: '0'
+event(fields): task_09(Boolean Matches, UnicodeString CheckerName, UnicodeString AttributeName,
+  UInt64 AttributeExpectedValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Matches
+- field_type: UnicodeString
+  field_name: CheckerName
+- field_type: UnicodeString
+  field_name: AttributeName
+- field_type: UInt64
+  field_name: AttributeExpectedValue

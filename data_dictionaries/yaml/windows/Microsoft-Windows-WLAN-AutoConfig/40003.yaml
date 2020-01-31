@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '40003'
+version: '0'
+event(fields): AcmConnection40003(GUID InterfaceGuid, UInt32 DiagnosticStatsDifferenceTrigger,
+  Int32 MacTxUnicastCount, Int32 MacRxUnicastCount, Int32 MacRxMulticastCount, Int32
+  MacRxUnicastDecryptSuccess, Int32 MacRxUnicastDecryptFailure, Int32 PhyTxFailedCount,
+  Int32 PhyTxFrameCount, Int32 PhyTxRetryCount, Int32 PhyRxFrameCount, Int32 PhyRxFcsErrorCount,
+  UInt64 TimeDiffMs)
+opcode: ''
+keywords: LwtDiagnostic
+task: AcmConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: DiagnosticStatsDifferenceTrigger
+- field_type: Int32
+  field_name: MacTxUnicastCount
+- field_type: Int32
+  field_name: MacRxUnicastCount
+- field_type: Int32
+  field_name: MacRxMulticastCount
+- field_type: Int32
+  field_name: MacRxUnicastDecryptSuccess
+- field_type: Int32
+  field_name: MacRxUnicastDecryptFailure
+- field_type: Int32
+  field_name: PhyTxFailedCount
+- field_type: Int32
+  field_name: PhyTxFrameCount
+- field_type: Int32
+  field_name: PhyTxRetryCount
+- field_type: Int32
+  field_name: PhyRxFrameCount
+- field_type: Int32
+  field_name: PhyRxFcsErrorCount
+- field_type: UInt64
+  field_name: TimeDiffMs

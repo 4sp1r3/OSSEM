@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '95'
+version: '0'
+event(fields): PepGetCoordinatedDependencyRundown(UInt32 StateIndex, UInt32 DependencyIndex,
+  Boolean ProcessorDependency, UInt16 TargetProcessor, UInt32 OptionCount, UInt32
+  Options)
+opcode: ''
+keywords: Diag
+task: PepGetCoordinatedDependencyRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StateIndex
+- field_type: UInt32
+  field_name: DependencyIndex
+- field_type: Boolean
+  field_name: ProcessorDependency
+- field_type: UInt16
+  field_name: TargetProcessor
+- field_type: UInt32
+  field_name: OptionCount
+- field_type: UInt32
+  field_name: Options

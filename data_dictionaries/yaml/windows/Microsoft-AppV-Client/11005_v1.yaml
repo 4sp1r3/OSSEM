@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '11005'
+version: '1'
+event(fields): PublishPackage11005_V1(UnicodeString Item)
+opcode: ''
+keywords: ClientCoExistence
+task: PublishPackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Item

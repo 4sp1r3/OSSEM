@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '139'
+version: '0'
+event(fields): Tab_NavigateToPidl()
+opcode: ''
+keywords: primarynav
+task: Tab_NavigateToPidl
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

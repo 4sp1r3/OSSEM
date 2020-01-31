@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3014'
+version: '1'
+event(fields): ConfigurePackageStop_V1()
+opcode: Stop
+keywords: ''
+task: ConfigurePackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

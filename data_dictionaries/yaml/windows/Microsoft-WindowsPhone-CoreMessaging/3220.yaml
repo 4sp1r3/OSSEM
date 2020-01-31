@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3220'
+version: '0'
+event(fields): Dispatcher_DoWaitStart(UInt32 hex)
+opcode: Start
+keywords: MessagingPerformance Dispatcher
+task: Dispatcher_DoWait
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex

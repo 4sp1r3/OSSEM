@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MUI
+event_id: '2008'
+version: '0'
+event(fields): MUIresourcecachebuilderDisablelivecache()
+opcode: Disablelivecache
+keywords: ''
+task: MUIresourcecachebuilder
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

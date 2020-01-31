@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OneX
+event_id: '3'
+version: '0'
+event(fields): APIStop(UInt32 PortId)
+opcode: Stop
+keywords: API LwtDiagnostic ut:Authentication
+task: API
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId

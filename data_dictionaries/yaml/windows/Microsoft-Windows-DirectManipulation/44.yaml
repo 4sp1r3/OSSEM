@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '44'
+version: '0'
+event(fields): Manipulation_UpdateTransform(Pointer ContentPointer, Int32 TransformType,
+  Float xPosition, Float yPosition, Float zPosition, UInt64 PredictedTimeGap)
+opcode: ''
+keywords: ''
+task: Manipulation_UpdateTransform
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContentPointer
+- field_type: Int32
+  field_name: TransformType
+- field_type: Float
+  field_name: xPosition
+- field_type: Float
+  field_name: yPosition
+- field_type: Float
+  field_name: zPosition
+- field_type: UInt64
+  field_name: PredictedTimeGap

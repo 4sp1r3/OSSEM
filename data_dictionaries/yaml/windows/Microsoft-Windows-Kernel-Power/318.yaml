@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '318'
+version: '0'
+event(fields): DeviceIdleConstraints(Pointer Token, UInt32 StateCount, UInt32 MinimumDStates)
+opcode: ''
+keywords: po:RuntimeFx
+task: DeviceIdleConstraints
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token
+- field_type: UInt32
+  field_name: StateCount
+- field_type: UInt32
+  field_name: MinimumDStates

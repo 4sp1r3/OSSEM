@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14524'
+version: '0'
+event(fields): Properties_MVPControl_GetValueStop()
+opcode: Stop
+keywords: Controls
+task: Properties_MVPControl_GetValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

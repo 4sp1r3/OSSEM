@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '4167'
+version: '0'
+event(fields): task_04167(UInt32 ProtocolType, UInt32 CompartmentId, Boolean HaveGlobalIpv6Address,
+  Boolean ICSEnabled, UInt64 GlobalIPv4AddressCount)
+opcode: ''
+keywords: sixto4
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProtocolType
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: Boolean
+  field_name: HaveGlobalIpv6Address
+- field_type: Boolean
+  field_name: ICSEnabled
+- field_type: UInt64
+  field_name: GlobalIPv4AddressCount

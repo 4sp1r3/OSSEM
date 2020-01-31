@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1473'
+version: '0'
+event(fields): DragVisual_Hide()
+opcode: ''
+keywords: ''
+task: DragVisual_Hide
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60806'
+version: '0'
+event(fields): ShellLib_DUIControls_CandidateList_CandidateFocusChanged(Int32 Index)
+opcode: ''
+keywords: Controls
+task: ShellLib_DUIControls_CandidateList_CandidateFocusChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Index

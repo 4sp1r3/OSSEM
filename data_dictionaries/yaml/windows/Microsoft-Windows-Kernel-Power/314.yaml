@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '314'
+version: '0'
+event(fields): ComponentLatency(Pointer Token, UInt32 Component, UInt64 Latency)
+opcode: ''
+keywords: po:RuntimeFx
+task: ComponentLatency
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token
+- field_type: UInt32
+  field_name: Component
+- field_type: UInt64
+  field_name: Latency

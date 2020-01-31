@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '800'
+version: '0'
+event(fields): ConfigCriteria_Result(UInt32 SqmId, UInt32 SqmValue)
+opcode: ''
+keywords: PerfTrackStatus
+task: ConfigCriteria_Result
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SqmId
+- field_type: UInt32
+  field_name: SqmValue

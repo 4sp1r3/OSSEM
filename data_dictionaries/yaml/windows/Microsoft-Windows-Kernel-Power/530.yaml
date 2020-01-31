@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '530'
+version: '0'
+event(fields): PowerAggregatorRequest(UInt32 SessionId, UInt32 RequestQueueId, UInt32
+  Intent, UInt32 Class, UInt32 PowerEvent, UInt32 VetoReason)
+opcode: ''
+keywords: po:Diagnostic
+task: PowerAggregatorRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: RequestQueueId
+- field_type: UInt32
+  field_name: Intent
+- field_type: UInt32
+  field_name: Class
+- field_type: UInt32
+  field_name: PowerEvent
+- field_type: UInt32
+  field_name: VetoReason

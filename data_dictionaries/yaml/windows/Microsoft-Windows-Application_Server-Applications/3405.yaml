@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3405'
+version: '0'
+event(fields): EncryptedDataProcessing(UnicodeString AppDomain)
+opcode: ''
+keywords: Security
+task: EncryptedDataProcessing
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '14'
+version: '0'
+event(fields): BackOff_NtfStop()
+opcode: Stop
+keywords: ''
+task: BackOff_Ntf
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

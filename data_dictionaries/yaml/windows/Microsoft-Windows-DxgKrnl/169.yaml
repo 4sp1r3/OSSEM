@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '169'
+version: '0'
+event(fields): Render(Pointer pDmaBuffer)
+opcode: ''
+keywords: Base
+task: Render
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDmaBuffer

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '100'
+version: '0'
+event(fields): IMEPreferencesAndActionsHelper_CreateInstanceStart()
+opcode: Start
+keywords: TSF_UIManager
+task: IMEPreferencesAndActionsHelper_CreateInstance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

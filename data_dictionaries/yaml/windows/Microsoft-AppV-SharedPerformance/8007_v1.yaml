@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8007'
+version: '1'
+event(fields): NotifyStopProxyStart_V1()
+opcode: Start
+keywords: ''
+task: NotifyStopProxy
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

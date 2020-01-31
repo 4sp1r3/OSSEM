@@ -1,0 +1,49 @@
+provider: Microsoft-IE
+event_id: '499'
+version: '0'
+event(fields): Mshtml_Composition_Destination_PreRender(Pointer DispNode, Pointer
+  DispLayer, Pointer SBLayer, Int32 LayerWidth, Int32 LayerHeight, Int32 GlobalLayerLeft,
+  Int32 GlobalLayerTop, Int32 GlobalLayerRight, Int32 GlobalLayerBottom, Int32 DestinationType,
+  UInt32 Flags, Float TransformM11, Float TransformM12, Float TransformM21, Float
+  TransformM22, Float TransformDx, Float TransformDy)
+opcode: ''
+keywords: composition
+task: Mshtml_Composition_Destination_PreRender
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DispNode
+- field_type: Pointer
+  field_name: DispLayer
+- field_type: Pointer
+  field_name: SBLayer
+- field_type: Int32
+  field_name: LayerWidth
+- field_type: Int32
+  field_name: LayerHeight
+- field_type: Int32
+  field_name: GlobalLayerLeft
+- field_type: Int32
+  field_name: GlobalLayerTop
+- field_type: Int32
+  field_name: GlobalLayerRight
+- field_type: Int32
+  field_name: GlobalLayerBottom
+- field_type: Int32
+  field_name: DestinationType
+- field_type: UInt32
+  field_name: Flags
+- field_type: Float
+  field_name: TransformM11
+- field_type: Float
+  field_name: TransformM12
+- field_type: Float
+  field_name: TransformM21
+- field_type: Float
+  field_name: TransformM22
+- field_type: Float
+  field_name: TransformDx
+- field_type: Float
+  field_name: TransformDy

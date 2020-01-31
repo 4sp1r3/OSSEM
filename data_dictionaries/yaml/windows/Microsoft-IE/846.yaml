@@ -1,0 +1,29 @@
+provider: Microsoft-IE
+event_id: '846'
+version: '0'
+event(fields): Mshtml_ElementFromPointCache_Miss(Pointer WindowObject, Float X, Float
+  Y, Int32 Flags, Pointer DocumentObject, Boolean RelativeToLayoutViewport, Boolean
+  SameMarkup, Boolean ClipToViewport)
+opcode: ''
+keywords: mshtml
+task: Mshtml_ElementFromPointCache_Miss
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WindowObject
+- field_type: Float
+  field_name: X
+- field_type: Float
+  field_name: Y
+- field_type: Int32
+  field_name: Flags
+- field_type: Pointer
+  field_name: DocumentObject
+- field_type: Boolean
+  field_name: RelativeToLayoutViewport
+- field_type: Boolean
+  field_name: SameMarkup
+- field_type: Boolean
+  field_name: ClipToViewport

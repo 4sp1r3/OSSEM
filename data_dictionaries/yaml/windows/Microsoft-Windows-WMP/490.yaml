@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '490'
+version: '0'
+event(fields): CDDVD_LAUNCHStart(UInt32 Key)
+opcode: Start
+keywords: ''
+task: CDDVD_LAUNCH
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Key

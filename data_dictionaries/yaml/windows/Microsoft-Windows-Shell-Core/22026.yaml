@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22026'
+version: '0'
+event(fields): Taskbar_SetProgressStop(UInt32 HWND, UInt32 dwValue)
+opcode: Stop
+keywords: Shell
+task: Taskbar_SetProgress
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HWND
+- field_type: UInt32
+  field_name: dwValue

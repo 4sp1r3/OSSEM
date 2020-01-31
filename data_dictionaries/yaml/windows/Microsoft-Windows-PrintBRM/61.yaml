@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '61'
+version: '0'
+event(fields): GeneraloperationPrintBRMoperationsuccess61(UnicodeString HostName,
+  UnicodeString DeviceSection)
+opcode: PrintBRMoperationsuccess
+keywords: PRINT_PORT_KEYWORD
+task: Generaloperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HostName
+- field_type: UnicodeString
+  field_name: DeviceSection

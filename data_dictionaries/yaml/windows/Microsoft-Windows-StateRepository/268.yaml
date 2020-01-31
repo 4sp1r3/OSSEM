@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '268'
+version: '0'
+event(fields): StateRepository.Task.DataAccessLayer268(AnsiString Entity, AnsiString
+  Field, AnsiString Filename, AnsiString SQL, UInt64 Count)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD
+task: StateRepository.Task.DataAccessLayer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Entity
+- field_type: AnsiString
+  field_name: Field
+- field_type: AnsiString
+  field_name: Filename
+- field_type: AnsiString
+  field_name: SQL
+- field_type: UInt64
+  field_name: Count

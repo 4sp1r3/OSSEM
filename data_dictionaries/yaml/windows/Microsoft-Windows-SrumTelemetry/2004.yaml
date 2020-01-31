@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-SrumTelemetry
+event_id: '2004'
+version: '0'
+event(fields): task_02004(UInt32 JoulesPerHourScreenOnDC, UInt32 JoulesPerHourScreenOffDC,
+  UInt32 DCTimeBitpack, UInt32 CPUCyclesOnDCBitpack, UInt32 DiskMBRead, UInt32 DiskMBWritten)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JoulesPerHourScreenOnDC
+- field_type: UInt32
+  field_name: JoulesPerHourScreenOffDC
+- field_type: UInt32
+  field_name: DCTimeBitpack
+- field_type: UInt32
+  field_name: CPUCyclesOnDCBitpack
+- field_type: UInt32
+  field_name: DiskMBRead
+- field_type: UInt32
+  field_name: DiskMBWritten

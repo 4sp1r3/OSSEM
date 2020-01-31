@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Tethering-Manager
+event_id: '1002'
+version: '0'
+event(fields): task_0Stop(UInt32 TetheringStartResult, UInt32 EntitlementCheckCompletionTime,
+  UInt32 MbConnectCompletionTime, UInt32 ApStartCompletionTime, UInt32 IcsStartCompletionTime)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TetheringStartResult
+- field_type: UInt32
+  field_name: EntitlementCheckCompletionTime
+- field_type: UInt32
+  field_name: MbConnectCompletionTime
+- field_type: UInt32
+  field_name: ApStartCompletionTime
+- field_type: UInt32
+  field_name: IcsStartCompletionTime

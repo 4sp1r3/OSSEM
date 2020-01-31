@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '3053'
+version: '0'
+event(fields): task_03053()
+opcode: ''
+keywords: Error StateTransition keyword_400000000000
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

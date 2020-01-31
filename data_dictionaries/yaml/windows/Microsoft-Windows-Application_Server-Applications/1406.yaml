@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1406'
+version: '0'
+event(fields): TimeoutException1406(UnicodeString data1, UnicodeString AppDomain)
+opcode: ''
+keywords: ServiceModel
+task: TimeoutException
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

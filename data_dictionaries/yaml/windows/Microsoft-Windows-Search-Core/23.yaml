@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '23'
+version: '0'
+event(fields): Catalog_MonitorStop()
+opcode: Stop
+keywords: Performance Indexing USN
+task: Catalog_Monitor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

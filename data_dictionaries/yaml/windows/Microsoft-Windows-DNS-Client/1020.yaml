@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '1020'
+version: '0'
+event(fields): DnsReadPolicyTable(UnicodeString KeyName, UInt32 DnsSecValidationRequired,
+  UInt32 DnsQueryOverIPSec, UInt32 DnsEncryption, UnicodeString DirectAccessServerList,
+  UInt32 RemoteIPSEC, UInt32 RemoteEncryption, UInt32 ProxyType, UnicodeString ProxyName)
+opcode: ''
+keywords: ut:PolicyTable
+task: DnsReadPolicyTable
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: UInt32
+  field_name: DnsSecValidationRequired
+- field_type: UInt32
+  field_name: DnsQueryOverIPSec
+- field_type: UInt32
+  field_name: DnsEncryption
+- field_type: UnicodeString
+  field_name: DirectAccessServerList
+- field_type: UInt32
+  field_name: RemoteIPSEC
+- field_type: UInt32
+  field_name: RemoteEncryption
+- field_type: UInt32
+  field_name: ProxyType
+- field_type: UnicodeString
+  field_name: ProxyName

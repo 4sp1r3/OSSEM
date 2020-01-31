@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '105'
+version: '0'
+event(fields): Jscript_Page_Allocator_SizeUsedPageSize(UInt64 SizeInBytes)
+opcode: UsedPageSize
+keywords: JScriptMemoryTracing
+task: Jscript_Page_Allocator_Size
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SizeInBytes

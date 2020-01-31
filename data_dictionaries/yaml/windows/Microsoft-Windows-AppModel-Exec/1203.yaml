@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '1203'
+version: '0'
+event(fields): FM_ChildOnResourceTimerExpired(UInt64 p1_UInt64, UnicodeString p2_String)
+opcode: ''
+keywords: FM ExecDevPlatCircular
+task: FM_ChildOnResourceTimerExpired
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: p1_UInt64
+- field_type: UnicodeString
+  field_name: p2_String

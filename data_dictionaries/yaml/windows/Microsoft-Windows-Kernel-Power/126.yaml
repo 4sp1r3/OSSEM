@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '126'
+version: '0'
+event(fields): task_0(UInt32 Level, UInt8 MinorFunction)
+opcode: ''
+keywords: po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Level
+- field_type: UInt8
+  field_name: MinorFunction

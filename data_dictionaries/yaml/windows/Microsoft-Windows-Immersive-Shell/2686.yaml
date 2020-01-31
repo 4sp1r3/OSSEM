@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2686'
+version: '0'
+event(fields): Settings_Launch_RateAndReviewStop()
+opcode: Stop
+keywords: ''
+task: Settings_Launch_RateAndReview
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

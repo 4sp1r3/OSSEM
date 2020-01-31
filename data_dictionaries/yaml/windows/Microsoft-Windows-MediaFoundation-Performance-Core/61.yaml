@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '61'
+version: '0'
+event(fields): MFMFAudio_Render_StreamSinkAudStreamSink_ProcessSample_SampleInfo(Pointer
+  object, Int64 hnsSampleTime, Int64 hnsSampleDuration, Boolean bPrerollSample, Boolean
+  bDelayedSample)
+opcode: AudStreamSink_ProcessSample_SampleInfo
+keywords: ''
+task: MFMFAudio_Render_StreamSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: hnsSampleTime
+- field_type: Int64
+  field_name: hnsSampleDuration
+- field_type: Boolean
+  field_name: bPrerollSample
+- field_type: Boolean
+  field_name: bDelayedSample

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '62'
+version: '0'
+event(fields): GenerateThumbnailStart()
+opcode: Start
+keywords: primarynav
+task: GenerateThumbnail
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

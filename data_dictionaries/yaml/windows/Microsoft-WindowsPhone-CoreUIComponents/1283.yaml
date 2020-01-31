@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1283'
+version: '0'
+event(fields): Server1283(UInt32 unParam)
+opcode: ''
+keywords: Server
+task: Server
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

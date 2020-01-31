@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6034'
+version: '0'
+event(fields): GetConnectionGroups_407Start6034(UnicodeString str)
+opcode: Start
+keywords: ''
+task: GetConnectionGroups_407
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str

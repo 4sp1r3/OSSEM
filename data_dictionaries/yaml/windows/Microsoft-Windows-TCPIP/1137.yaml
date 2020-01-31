@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1137'
+version: '0'
+event(fields): FramingNdisRestart(UInt32 InterfaceIndex, AnsiString TraceString)
+opcode: ''
+keywords: ut:TcpipInterface ut:Global
+task: FramingNdisRestart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: AnsiString
+  field_name: TraceString

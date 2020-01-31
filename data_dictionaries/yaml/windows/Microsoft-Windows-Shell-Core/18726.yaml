@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18726'
+version: '0'
+event(fields): Shell32_StartMenuQueryFactory_FilesStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_StartMenuQueryFactory_Files
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

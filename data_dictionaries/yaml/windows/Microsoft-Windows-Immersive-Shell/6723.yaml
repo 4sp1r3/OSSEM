@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6723'
+version: '0'
+event(fields): ImmersiveOpenWithUI_InvokeApp()
+opcode: ''
+keywords: ''
+task: ImmersiveOpenWithUI_InvokeApp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

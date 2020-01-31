@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '62'
+version: '0'
+event(fields): FLIP_CONSUME_PRESENT_CALLOUTStart()
+opcode: Start
+keywords: FlipManager
+task: FLIP_CONSUME_PRESENT_CALLOUT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

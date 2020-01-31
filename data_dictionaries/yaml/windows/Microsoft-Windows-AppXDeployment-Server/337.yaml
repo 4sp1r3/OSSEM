@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '337'
+version: '0'
+event(fields): AppXDeployment.Task.Server.OSIM337()
+opcode: ''
+keywords: OSIM_KEYWORD
+task: AppXDeployment.Task.Server.OSIM
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '87'
+version: '0'
+event(fields): Manipulation_TelemetryStop(UInt64 UniqueKey)
+opcode: Stop
+keywords: ''
+task: Manipulation_Telemetry
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueKey

@@ -1,0 +1,8 @@
+provider: 'Active Directory Domain Services: SAM'
+category: '{ff0c6ce2-9528-4a91-b9c7-bcf834b6f79a}'
+event_id: '2'
+version: '0'
+event(fields): SamGetDomPwdInfo_End()
+event_type: End
+description: SAM Get Domain Password Information
+event_fields: []

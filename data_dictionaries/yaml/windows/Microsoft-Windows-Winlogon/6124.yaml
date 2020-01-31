@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '6124'
+version: '0'
+event(fields): AssignedAccessUnlock()
+opcode: ''
+keywords: keyword_200000000000
+task: AssignedAccessUnlock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

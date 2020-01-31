@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '133'
+version: '0'
+event(fields): PhysicalPageAllocationFailure(HexInt32 Status, UInt64 PageCount, UInt32
+  MemoryType, UInt32 Attributes, UInt64 LowAddress, UInt64 HighAddress)
+opcode: ''
+keywords: SoftRestart PhysicalMemory
+task: PhysicalPageAllocationFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status
+- field_type: UInt64
+  field_name: PageCount
+- field_type: UInt32
+  field_name: MemoryType
+- field_type: UInt32
+  field_name: Attributes
+- field_type: UInt64
+  field_name: LowAddress
+- field_type: UInt64
+  field_name: HighAddress

@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '13'
+version: '0'
+event(fields): TemplateService(UnicodeString stringValue1)
+opcode: TemplateService
+keywords: DebugTrace
+task: TemplateService
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1

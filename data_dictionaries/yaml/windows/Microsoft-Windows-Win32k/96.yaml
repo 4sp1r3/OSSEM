@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '96'
+version: '0'
+event(fields): TouchTargetingWindowHitTestStart()
+opcode: Start
+keywords: MessagePumpInternalAndInput
+task: TouchTargetingWindowHitTest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

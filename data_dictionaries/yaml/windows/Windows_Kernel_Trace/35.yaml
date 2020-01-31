@@ -1,0 +1,10 @@
+provider: Windows Kernel Trace
+category: '{f8f10121-b617-4a56-868b-9df1b27fe32c}'
+event_id: '35'
+version: '0'
+event(fields): MMCSSWakeup(UInt32 Reason)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason

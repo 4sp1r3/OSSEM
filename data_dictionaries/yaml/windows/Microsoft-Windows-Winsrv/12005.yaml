@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winsrv
+event_id: '12005'
+version: '0'
+event(fields): TerminateProcessStart()
+opcode: Start
+keywords: Perf
+task: TerminateProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

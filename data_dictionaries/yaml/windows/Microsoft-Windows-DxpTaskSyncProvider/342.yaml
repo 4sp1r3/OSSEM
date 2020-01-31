@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxpTaskSyncProvider
+event_id: '342'
+version: '0'
+event(fields): DxpTaskSync_MediaPopulateChoiceStart()
+opcode: Start
+keywords: ''
+task: DxpTaskSync_MediaPopulateChoice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

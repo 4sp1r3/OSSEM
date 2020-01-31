@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9665'
+version: '0'
+event(fields): Explorer_WriteDataForOEMApp_ShellTaskStart()
+opcode: Start
+keywords: Shell StartupPerf
+task: Explorer_WriteDataForOEMApp_ShellTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

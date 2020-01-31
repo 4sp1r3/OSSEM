@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1058'
+version: '1'
+event(fields): PrefetchBenefitReport_V1(HexInt32 AppKey, UnicodeString FullPackageName,
+  UInt32 TimeFromPrefetchToSwitchInMS, Int16 NewBenefitScore, Int16 NewAggregateBenefitScore)
+opcode: ''
+keywords: PfAp
+task: PrefetchBenefitReport
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: AppKey
+- field_type: UnicodeString
+  field_name: FullPackageName
+- field_type: UInt32
+  field_name: TimeFromPrefetchToSwitchInMS
+- field_type: Int16
+  field_name: NewBenefitScore
+- field_type: Int16
+  field_name: NewAggregateBenefitScore

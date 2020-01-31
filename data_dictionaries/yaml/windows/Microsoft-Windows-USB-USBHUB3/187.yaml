@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '187'
+version: '0'
+event(fields): USBDeviceEnumerationError187(Pointer fid_UsbDevice, UInt16 fid_Svid,
+  UInt8 fid_AlternateMode, UnicodeString fid_AlternateModeString, UInt8 fid_ConfigurationStatus)
+opcode: Error
+keywords: Default Enumeration HWVerifyDevice
+task: USBDeviceEnumeration
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt16
+  field_name: fid_Svid
+- field_type: UInt8
+  field_name: fid_AlternateMode
+- field_type: UnicodeString
+  field_name: fid_AlternateModeString
+- field_type: UInt8
+  field_name: fid_ConfigurationStatus

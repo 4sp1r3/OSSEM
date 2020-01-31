@@ -1,0 +1,119 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '117'
+version: '1'
+event(fields): PowerTransition117_V1(UInt32 TotalResumeTime, UInt32 POSTTime, UInt32
+  ResumeBootMgrTime, UInt32 ResumeAppTime, UInt32 ResumeAppStartTime, UInt32 ResumeLibraryInitTime,
+  UInt32 ResumeInitTime, UInt32 ResumeHiberFileTime, UInt32 ResumeRestoreImageStartTimestamp,
+  UInt32 ResumeIoTime, UInt32 ResumeDecompressTime, UInt32 ResumeMapTime, UInt32 ResumeUnmapTime,
+  UInt32 ResumeUserInOutTime, UInt32 ResumeAllocateTime, UInt32 ResumeKernelSwitchTimestamp,
+  UInt32 KernelReturnFromHandlerTimestamp, UInt32 SleeperThreadEndTimestamp, UInt32
+  TimeStampCounterAtSwitchTime, UInt32 KernelReturnSystemPowerStateTimestamp, UInt32
+  HiberHiberFileTime, UInt32 InitTime, UInt32 HiberSharedBufferTime, UInt32 TotalHibernateTime,
+  UInt32 KernelResumeHiberFileTime, UInt32 KernelResumeInitTime, UInt32 KernelResumeSharedBufferTime,
+  UInt32 DeviceResumeTime, UInt32 KernelAnimationTime, UInt32 KernelPagesProcessed,
+  UInt64 KernelPagesWritten, UInt32 BootPagesProcessed, UInt64 BootPagesWritten, UInt32
+  HiberWriteRate, UInt32 HiberCompressRate, UInt32 ResumeReadRate, UInt32 ResumeDecompressRate,
+  UInt32 FileRuns, UInt32 NoMultiStageResumeReason, UInt32 MaxHuffRatio, UInt32 SecurePagesProcessed,
+  UInt32 HiberChecksumTime, UInt32 HiberChecksumIoTime, UInt32 ResumeChecksumTime,
+  UInt32 ResumeChecksumIoTime, UInt32 KernelChecksumTime, UInt32 KernelChecksumIoTime)
+opcode: ''
+keywords: po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:WdiDiagnostic
+task: PowerTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TotalResumeTime
+- field_type: UInt32
+  field_name: POSTTime
+- field_type: UInt32
+  field_name: ResumeBootMgrTime
+- field_type: UInt32
+  field_name: ResumeAppTime
+- field_type: UInt32
+  field_name: ResumeAppStartTime
+- field_type: UInt32
+  field_name: ResumeLibraryInitTime
+- field_type: UInt32
+  field_name: ResumeInitTime
+- field_type: UInt32
+  field_name: ResumeHiberFileTime
+- field_type: UInt32
+  field_name: ResumeRestoreImageStartTimestamp
+- field_type: UInt32
+  field_name: ResumeIoTime
+- field_type: UInt32
+  field_name: ResumeDecompressTime
+- field_type: UInt32
+  field_name: ResumeMapTime
+- field_type: UInt32
+  field_name: ResumeUnmapTime
+- field_type: UInt32
+  field_name: ResumeUserInOutTime
+- field_type: UInt32
+  field_name: ResumeAllocateTime
+- field_type: UInt32
+  field_name: ResumeKernelSwitchTimestamp
+- field_type: UInt32
+  field_name: KernelReturnFromHandlerTimestamp
+- field_type: UInt32
+  field_name: SleeperThreadEndTimestamp
+- field_type: UInt32
+  field_name: TimeStampCounterAtSwitchTime
+- field_type: UInt32
+  field_name: KernelReturnSystemPowerStateTimestamp
+- field_type: UInt32
+  field_name: HiberHiberFileTime
+- field_type: UInt32
+  field_name: InitTime
+- field_type: UInt32
+  field_name: HiberSharedBufferTime
+- field_type: UInt32
+  field_name: TotalHibernateTime
+- field_type: UInt32
+  field_name: KernelResumeHiberFileTime
+- field_type: UInt32
+  field_name: KernelResumeInitTime
+- field_type: UInt32
+  field_name: KernelResumeSharedBufferTime
+- field_type: UInt32
+  field_name: DeviceResumeTime
+- field_type: UInt32
+  field_name: KernelAnimationTime
+- field_type: UInt32
+  field_name: KernelPagesProcessed
+- field_type: UInt64
+  field_name: KernelPagesWritten
+- field_type: UInt32
+  field_name: BootPagesProcessed
+- field_type: UInt64
+  field_name: BootPagesWritten
+- field_type: UInt32
+  field_name: HiberWriteRate
+- field_type: UInt32
+  field_name: HiberCompressRate
+- field_type: UInt32
+  field_name: ResumeReadRate
+- field_type: UInt32
+  field_name: ResumeDecompressRate
+- field_type: UInt32
+  field_name: FileRuns
+- field_type: UInt32
+  field_name: NoMultiStageResumeReason
+- field_type: UInt32
+  field_name: MaxHuffRatio
+- field_type: UInt32
+  field_name: SecurePagesProcessed
+- field_type: UInt32
+  field_name: HiberChecksumTime
+- field_type: UInt32
+  field_name: HiberChecksumIoTime
+- field_type: UInt32
+  field_name: ResumeChecksumTime
+- field_type: UInt32
+  field_name: ResumeChecksumIoTime
+- field_type: UInt32
+  field_name: KernelChecksumTime
+- field_type: UInt32
+  field_name: KernelChecksumIoTime

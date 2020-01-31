@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1508'
+version: '0'
+event(fields): ValidationfailureinHIDsensorreportdescriptor1508(UnicodeString SensorObjectId,
+  GUID SENSOR_ID)
+opcode: ''
+keywords: SensPerf
+task: ValidationfailureinHIDsensorreportdescriptor
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SensorObjectId
+- field_type: GUID
+  field_name: SENSOR_ID

@@ -1,0 +1,15 @@
+provider: LsaSrv
+event_id: '6041'
+version: '0'
+event(fields): task_06041(UnicodeString TargetName, UnicodeString TargetVersion)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TargetName
+- field_type: UnicodeString
+  field_name: TargetVersion

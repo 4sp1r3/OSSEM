@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '6'
+version: '0'
+event(fields): MonitorCreate(Int64 IddAdapterLuid, UInt32 ConnectorIndex, UInt32 DescriptorType)
+opcode: Create
+keywords: DdiCalls
+task: Monitor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: IddAdapterLuid
+- field_type: UInt32
+  field_name: ConnectorIndex
+- field_type: UInt32
+  field_name: DescriptorType

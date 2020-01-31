@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1802'
+version: '0'
+event(fields): RotationManagerRMSetCurrentOrientation(UInt32 hex, UInt32 hex2)
+opcode: RMSetCurrentOrientation
+keywords: NavigationPerformance RotationManager
+task: RotationManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex
+- field_type: UInt32
+  field_name: hex2

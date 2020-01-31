@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '156'
+version: '0'
+event(fields): ResrcIndicationAPIs_ShutdownStop()
+opcode: Stop
+keywords: Service
+task: ResrcIndicationAPIs_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

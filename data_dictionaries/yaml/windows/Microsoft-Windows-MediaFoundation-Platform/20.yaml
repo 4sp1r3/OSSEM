@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '20'
+version: '0'
+event(fields): MF_MFT_Hardware_EnumerationStop(GUID Category)
+opcode: Stop
+keywords: ''
+task: MF_MFT_Hardware_Enumeration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Category

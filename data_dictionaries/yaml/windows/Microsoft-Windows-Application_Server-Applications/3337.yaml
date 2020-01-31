@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3337'
+version: '0'
+event(fields): ChannelReceiveStart(Int32 ChannelId, UnicodeString AppDomain)
+opcode: Start
+keywords: Channel
+task: ChannelReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ChannelId
+- field_type: UnicodeString
+  field_name: AppDomain

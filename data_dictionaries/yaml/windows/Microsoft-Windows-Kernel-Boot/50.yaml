@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '50'
+version: '0'
+event(fields): VsmLKeyProvisioningStatus(UInt32 CachedCopyStatus, UInt32 UnsealingCachedCopyStatus,
+  UInt32 KeyGenerationAndSaveStatus, UInt32 SealingStatus, UInt32 TpmPcrMask, UInt32
+  ProtectorAssistedUnsealStatus, UInt32 ProtectorAssistedResealStatus, UInt32 ProtectorSealUpdateStatus,
+  UInt32 TpmCounterOpStatus, UInt32 TpmCounterCreateStatus)
+opcode: ''
+keywords: ''
+task: VsmLKeyProvisioningStatus
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CachedCopyStatus
+- field_type: UInt32
+  field_name: UnsealingCachedCopyStatus
+- field_type: UInt32
+  field_name: KeyGenerationAndSaveStatus
+- field_type: UInt32
+  field_name: SealingStatus
+- field_type: UInt32
+  field_name: TpmPcrMask
+- field_type: UInt32
+  field_name: ProtectorAssistedUnsealStatus
+- field_type: UInt32
+  field_name: ProtectorAssistedResealStatus
+- field_type: UInt32
+  field_name: ProtectorSealUpdateStatus
+- field_type: UInt32
+  field_name: TpmCounterOpStatus
+- field_type: UInt32
+  field_name: TpmCounterCreateStatus

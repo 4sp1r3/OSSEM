@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '19001'
+version: '1'
+event(fields): Packaging_1401Stop_V1()
+opcode: Stop
+keywords: ''
+task: Packaging_1401
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

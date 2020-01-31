@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Serial-ClassExtension-V2
+event_id: '7'
+version: '1'
+event(fields): task_07_V1(Pointer Device, Pointer TransmitTransferSmContext, Pointer
+  ReceiveTransferSmContext, UnicodeString DeviceInstanceId)
+opcode: ''
+keywords: PNP
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Device
+- field_type: Pointer
+  field_name: TransmitTransferSmContext
+- field_type: Pointer
+  field_name: ReceiveTransferSmContext
+- field_type: UnicodeString
+  field_name: DeviceInstanceId

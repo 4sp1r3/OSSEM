@@ -1,0 +1,15 @@
+provider: Microsoft-JScript
+event_id: '237'
+version: '0'
+event(fields): Memprotect_GCStop(Pointer Element, UInt32 Zero)
+opcode: Stop
+keywords: MemProtectGarbageCollection
+task: Memprotect_GC
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Element
+- field_type: UInt32
+  field_name: Zero

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8621'
+version: '0'
+event(fields): CertificateEnrollmentInformational8621()
+opcode: Informational
+keywords: Internal
+task: CertificateEnrollment
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

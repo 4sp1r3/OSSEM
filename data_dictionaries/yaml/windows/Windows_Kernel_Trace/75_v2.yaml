@@ -1,0 +1,15 @@
+provider: Windows Kernel Trace
+category: '{ce1dbfb4-137e-4da6-87b0-3f59aa102cbc}'
+event_id: '75'
+version: '2'
+event(fields): SpinLockConfig_V2(UInt32 SpinLockSpinThreshold, UInt32 SpinLockContentionSampleRate,
+  UInt32 SpinLockAcquireSampleRate)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: SpinLockSpinThreshold
+- field_type: UInt32
+  field_name: SpinLockContentionSampleRate
+- field_type: UInt32
+  field_name: SpinLockAcquireSampleRate

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '26000'
+version: '1'
+event(fields): IRP_MJ_CREATEtask.Start_V1()
+opcode: Start
+keywords: ''
+task: IRP_MJ_CREATEtask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

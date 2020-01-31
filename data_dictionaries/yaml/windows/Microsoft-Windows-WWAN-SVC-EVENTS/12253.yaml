@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '12253'
+version: '0'
+event(fields): WWANConnectionConnectionProfile12253(GUID InterfaceGuid, Int32 ModemIndex,
+  Int32 ExecutorIndex, UnicodeString ProfileName, AnsiString Method, UInt32 ErrorCode)
+opcode: ConnectionProfile
+keywords: LwtDiagnostic ContextLifeCycle keyword_400000000000
+task: WWANConnection
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: Int32
+  field_name: ModemIndex
+- field_type: Int32
+  field_name: ExecutorIndex
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: AnsiString
+  field_name: Method
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4002'
+version: '0'
+event(fields): WaitforIdentificationStop(GUID InterfaceGuid, UInt8 CurrentOrNextState)
+opcode: Stop
+keywords: Identification keyword_200000000000
+task: WaitforIdentification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt8
+  field_name: CurrentOrNextState

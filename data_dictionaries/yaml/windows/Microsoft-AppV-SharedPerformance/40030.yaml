@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40030'
+version: '0'
+event(fields): VReg.CloseKeyStart()
+opcode: Start
+keywords: ''
+task: VReg.CloseKey
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

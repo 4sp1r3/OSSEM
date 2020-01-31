@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '185'
+version: '0'
+event(fields): RtcWakeInfo(Boolean WokeSystem, UInt32 RejectReason, Boolean Uncertain,
+  Boolean Spurious, UInt32 FixedWakeSourceMask, Boolean AcAlarmSignaled, Boolean DcAlarmSignaled,
+  Boolean RtcSignaled, FILETIME AcProgrammedTime, FILETIME DcProgrammedTime, Boolean
+  UsingAcTime, FILETIME WakeTime, FILETIME AdjustedWakeTime, Boolean FullWake)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: RtcWakeInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: WokeSystem
+- field_type: UInt32
+  field_name: RejectReason
+- field_type: Boolean
+  field_name: Uncertain
+- field_type: Boolean
+  field_name: Spurious
+- field_type: UInt32
+  field_name: FixedWakeSourceMask
+- field_type: Boolean
+  field_name: AcAlarmSignaled
+- field_type: Boolean
+  field_name: DcAlarmSignaled
+- field_type: Boolean
+  field_name: RtcSignaled
+- field_type: FILETIME
+  field_name: AcProgrammedTime
+- field_type: FILETIME
+  field_name: DcProgrammedTime
+- field_type: Boolean
+  field_name: UsingAcTime
+- field_type: FILETIME
+  field_name: WakeTime
+- field_type: FILETIME
+  field_name: AdjustedWakeTime
+- field_type: Boolean
+  field_name: FullWake

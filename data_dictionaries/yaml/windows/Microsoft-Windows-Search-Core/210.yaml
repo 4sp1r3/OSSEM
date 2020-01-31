@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '210'
+version: '0'
+event(fields): CSearchCrawlScopeManager_AddRootStart(UnicodeString SearchRootURL)
+opcode: Start
+keywords: CSM
+task: CSearchCrawlScopeManager_AddRoot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SearchRootURL

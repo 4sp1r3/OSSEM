@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '112'
+version: '0'
+event(fields): MSVideoProcessoftMFT_ColorConvStop()
+opcode: Stop
+keywords: ''
+task: MSVideoProcessoftMFT_ColorConv
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-HttpService
+event_id: '68'
+version: '0'
+event(fields): HTTPRequestTraceTaskUserResponseFlowInit(Pointer FlowHandle, UInt32
+  Bandwidth, UInt32 PeakBandwidth, UInt32 BurstSize)
+opcode: UserResponseFlowInit
+keywords: HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE
+task: HTTPRequestTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FlowHandle
+- field_type: UInt32
+  field_name: Bandwidth
+- field_type: UInt32
+  field_name: PeakBandwidth
+- field_type: UInt32
+  field_name: BurstSize

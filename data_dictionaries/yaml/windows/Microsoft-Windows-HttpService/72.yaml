@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-HttpService
+event_id: '72'
+version: '0'
+event(fields): HTTPConnectionTraceTaskRequestAssociatedToConfigurationFlow(Pointer
+  FlowHandle)
+opcode: RequestAssociatedToConfigurationFlow
+keywords: HTTP_KEYWORD_REQUEST HTTP_KEYWORD_CONNECTION
+task: HTTPConnectionTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FlowHandle

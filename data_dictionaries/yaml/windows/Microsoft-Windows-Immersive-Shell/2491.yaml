@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2491'
+version: '0'
+event(fields): PLM_TaskCompletion(UInt32 TaskCompletionType, UnicodeString PackageFullName)
+opcode: ''
+keywords: PLMComponent
+task: PLM_TaskCompletion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TaskCompletionType
+- field_type: UnicodeString
+  field_name: PackageFullName

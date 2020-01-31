@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '370'
+version: '0'
+event(fields): ScopeChangeNotification_UnregisterStop()
+opcode: Stop
+keywords: ''
+task: ScopeChangeNotification_Unregister
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

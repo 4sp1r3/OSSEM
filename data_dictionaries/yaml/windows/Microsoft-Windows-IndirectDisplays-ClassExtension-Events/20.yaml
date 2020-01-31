@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '20'
+version: '0'
+event(fields): SwapChainDestroy_3_12(Pointer SwapChainPointer)
+opcode: Destroy_3_12
+keywords: DdiCallbacks
+task: SwapChain
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SwapChainPointer

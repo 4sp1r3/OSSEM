@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '1006'
+version: '0'
+event(fields): WebAuthNCtapSendCommandStart(GUID TransactionId, UInt32 TicketLength,
+  Binary Ticket)
+opcode: Start
+keywords: WebAuthN Ctap
+task: WebAuthNCtapSendCommand
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UInt32
+  field_name: TicketLength
+- field_type: Binary
+  field_name: Ticket

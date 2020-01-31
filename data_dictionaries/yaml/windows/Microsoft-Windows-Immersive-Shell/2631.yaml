@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2631'
+version: '0'
+event(fields): Settings_SettingsLifetimeStart()
+opcode: Start
+keywords: ''
+task: Settings_SettingsLifetime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

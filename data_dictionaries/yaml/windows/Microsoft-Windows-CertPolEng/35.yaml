@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CertPolEng
+event_id: '35'
+version: '0'
+event(fields): task_035(UnicodeString StoreName, UInt32 LastError)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StoreName
+- field_type: UInt32
+  field_name: LastError

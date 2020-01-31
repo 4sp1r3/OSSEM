@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-NCSI
+event_id: '2004'
+version: '0'
+event(fields): CheckCorporateInside/outsideLocation2004()
+opcode: ''
+keywords: LwtDiagnostic ut:L3ConnectPath
+task: CheckCorporateInside/outsideLocation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

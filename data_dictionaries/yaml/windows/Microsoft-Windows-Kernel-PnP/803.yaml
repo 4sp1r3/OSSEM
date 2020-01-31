@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '803'
+version: '0'
+event(fields): ProcessDeviceStart(HexInt32 Phase, UnicodeString Device)
+opcode: Start
+keywords: Enumeration
+task: ProcessDeviceStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Phase
+- field_type: UnicodeString
+  field_name: Device

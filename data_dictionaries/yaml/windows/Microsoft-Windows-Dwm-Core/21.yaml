@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '21'
+version: '0'
+event(fields): SCHEDULE_GETPRESENTSTATSStop()
+opcode: Stop
+keywords: DwmCore
+task: SCHEDULE_GETPRESENTSTATS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

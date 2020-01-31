@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '200'
+version: '0'
+event(fields): MediaFoundationSourceResolverStart(Pointer Context, UnicodeString url,
+  HexInt32 hr)
+opcode: Start
+keywords: ''
+task: MediaFoundationSourceResolver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Context
+- field_type: UnicodeString
+  field_name: url
+- field_type: HexInt32
+  field_name: hr

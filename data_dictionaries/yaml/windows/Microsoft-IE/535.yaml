@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '535'
+version: '0'
+event(fields): Mshtml_DynamicDependencyTracker535(UInt16 ACount, Binary A)
+opcode: ''
+keywords: DDT
+task: Mshtml_DynamicDependencyTracker
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ACount
+- field_type: Binary
+  field_name: A

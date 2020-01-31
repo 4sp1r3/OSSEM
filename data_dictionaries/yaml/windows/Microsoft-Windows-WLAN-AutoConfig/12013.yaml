@@ -1,0 +1,49 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '12013'
+version: '0'
+event(fields): OneXAuthenticationFailure_24014_205(UnicodeString Adapter, GUID DeviceGuid,
+  UnicodeString LocalMac, UnicodeString SSID, UnicodeString BSSType, UnicodeString
+  PeerMac, UnicodeString Identity, UnicodeString User, UnicodeString Domain, UnicodeString
+  ReasonText, HexInt32 ReasonCode, HexInt32 ErrorCode, HexInt32 EAPReasonCode, UnicodeString
+  EAPRootCauseString, HexInt32 EAPErrorCode, Pointer ConnectionId, Boolean ExplicitCredentials)
+opcode: Failure_24014_205
+keywords: WlanConnect LwtDiagnostic
+task: OneXAuthentication
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UnicodeString
+  field_name: PeerMac
+- field_type: UnicodeString
+  field_name: Identity
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: Domain
+- field_type: UnicodeString
+  field_name: ReasonText
+- field_type: HexInt32
+  field_name: ReasonCode
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: HexInt32
+  field_name: EAPReasonCode
+- field_type: UnicodeString
+  field_name: EAPRootCauseString
+- field_type: HexInt32
+  field_name: EAPErrorCode
+- field_type: Pointer
+  field_name: ConnectionId
+- field_type: Boolean
+  field_name: ExplicitCredentials

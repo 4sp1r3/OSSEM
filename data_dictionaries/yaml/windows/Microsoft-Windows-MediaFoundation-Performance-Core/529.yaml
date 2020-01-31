@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '529'
+version: '0'
+event(fields): AudCaptureStream_Info_TaskAudCaptureStream_SetMasterVolume(Pointer
+  object, Float fLevel)
+opcode: AudCaptureStream_SetMasterVolume
+keywords: ''
+task: AudCaptureStream_Info_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Float
+  field_name: fLevel

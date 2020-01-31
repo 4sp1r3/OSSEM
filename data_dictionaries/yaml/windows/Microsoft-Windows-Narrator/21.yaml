@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Narrator
+event_id: '21'
+version: '0'
+event(fields): KeyEchoGenerateEvent(UnicodeString SpokenText)
+opcode: ''
+keywords: PerfInstrumentation
+task: KeyEchoGenerateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SpokenText

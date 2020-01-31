@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '120'
+version: '0'
+event(fields): DataModel_Provider_WorkerThreadStop(GUID CLSID, UInt32 QueryID)
+opcode: Stop
+keywords: primarynav
+task: DataModel_Provider_WorkerThread
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CLSID
+- field_type: UInt32
+  field_name: QueryID

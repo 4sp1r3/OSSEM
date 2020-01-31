@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '65'
+version: '2'
+event(fields): ParkNodeRundown_V2(UInt16 Group, Pointer Affinity, Pointer Parked,
+  UInt8 LpiCap, UInt8 ThermalCap, Pointer ParkHint)
+opcode: ''
+keywords: Diag
+task: ParkNodeRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: Pointer
+  field_name: Affinity
+- field_type: Pointer
+  field_name: Parked
+- field_type: UInt8
+  field_name: LpiCap
+- field_type: UInt8
+  field_name: ThermalCap
+- field_type: Pointer
+  field_name: ParkHint

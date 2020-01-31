@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4032'
+version: '0'
+event(fields): CorporateSuspectstate(GUID InterfaceGuid, UInt64 IfLuid)
+opcode: ''
+keywords: keyword_200000000000
+task: CorporateSuspectstate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt64
+  field_name: IfLuid

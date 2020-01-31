@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2215'
+version: '0'
+event(fields): SharingManager_GetQuickShareTargetCountStop(UInt32 TargetCount)
+opcode: Stop
+keywords: ''
+task: SharingManager_GetQuickShareTargetCount
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TargetCount

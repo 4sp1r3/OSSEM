@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '5016'
+version: '0'
+event(fields): task_0Stop(UInt32 CSEElaspedTimeInMilliSeconds, UInt32 ErrorCode, UnicodeString
+  CSEExtensionName, GUID CSEExtensionId)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CSEElaspedTimeInMilliSeconds
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: CSEExtensionName
+- field_type: GUID
+  field_name: CSEExtensionId

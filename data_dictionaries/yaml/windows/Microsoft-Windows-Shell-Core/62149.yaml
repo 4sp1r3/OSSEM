@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62149'
+version: '0'
+event(fields): TileManagement_AppTileInfo_Commit_ChangePropValue(UnicodeString AppUserModelID)
+opcode: ''
+keywords: Shell
+task: TileManagement_AppTileInfo_Commit_ChangePropValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelID

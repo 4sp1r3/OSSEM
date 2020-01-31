@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '2'
+version: '0'
+event(fields): NameDCStart(Pointer pObject, UInt32 CchDebugObjectName, AnsiString
+  DebugObjectName)
+opcode: DC_Start
+keywords: Names
+task: Name
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pObject
+- field_type: UInt32
+  field_name: CchDebugObjectName
+- field_type: AnsiString
+  field_name: DebugObjectName

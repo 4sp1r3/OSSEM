@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '14'
+version: '0'
+event(fields): LEGACY_EVENTDELETESELECTED_END()
+opcode: DELETESELECTED_END
+keywords: mediaplayer
+task: LEGACY_EVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '46'
+version: '0'
+event(fields): DXVA_EndFrameStart()
+opcode: Start
+keywords: ''
+task: DXVA_EndFrame
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

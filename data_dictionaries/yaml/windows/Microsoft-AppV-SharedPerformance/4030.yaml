@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4030'
+version: '0'
+event(fields): Add_AppvClientConnectionGroupStart()
+opcode: Start
+keywords: ''
+task: Add_AppvClientConnectionGroup
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

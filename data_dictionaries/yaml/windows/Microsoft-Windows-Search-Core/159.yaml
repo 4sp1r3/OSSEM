@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '159'
+version: '0'
+event(fields): Transactions_UpdateFailuresStop(UInt32 hr)
+opcode: Stop
+keywords: Indexing Gatherer
+task: Transactions_UpdateFailures
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr

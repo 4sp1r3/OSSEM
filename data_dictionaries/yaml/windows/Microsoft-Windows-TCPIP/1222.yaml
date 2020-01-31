@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1222'
+version: '0'
+event(fields): TcpInitialCwndAdjusted(Pointer Tcb, UInt32 OldCwnd, UInt32 NewCwnd,
+  UInt32 Processor, UInt32 CurrentTick, UInt32 IdleTick, UInt32 Rto)
+opcode: ''
+keywords: ut:SendPath
+task: TcpInitialCwndAdjusted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: OldCwnd
+- field_type: UInt32
+  field_name: NewCwnd
+- field_type: UInt32
+  field_name: Processor
+- field_type: UInt32
+  field_name: CurrentTick
+- field_type: UInt32
+  field_name: IdleTick
+- field_type: UInt32
+  field_name: Rto

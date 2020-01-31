@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WebIO
+event_id: '730'
+version: '1'
+event(fields): SSLAcquireCredentialsHandleStop730_V1(Pointer Connection, UInt32 EnabledProtocols,
+  Pointer SSLClientCert, UInt16 EnableRevertToSelfClientCertificate, UInt32 CipherConfig,
+  UInt64 CredHandleHigh, UInt64 CredHandleLow, UInt32 Result)
+opcode: Stop
+keywords: Keyword.SECURITY
+task: SSLAcquireCredentialsHandle
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: UInt32
+  field_name: EnabledProtocols
+- field_type: Pointer
+  field_name: SSLClientCert
+- field_type: UInt16
+  field_name: EnableRevertToSelfClientCertificate
+- field_type: UInt32
+  field_name: CipherConfig
+- field_type: UInt64
+  field_name: CredHandleHigh
+- field_type: UInt64
+  field_name: CredHandleLow
+- field_type: UInt32
+  field_name: Result

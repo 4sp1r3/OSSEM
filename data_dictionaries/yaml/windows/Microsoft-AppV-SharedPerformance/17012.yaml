@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '17012'
+version: '0'
+event(fields): StageallpolicyXMLsStart()
+opcode: Start
+keywords: ''
+task: StageallpolicyXMLs
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

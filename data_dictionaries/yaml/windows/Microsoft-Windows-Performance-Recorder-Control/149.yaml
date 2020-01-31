@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Performance-Recorder-Control
+event_id: '149'
+version: '0'
+event(fields): Perf_MergeShutdownProfilesStop()
+opcode: Stop
+keywords: PerfStatus
+task: Perf_MergeShutdownProfiles
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

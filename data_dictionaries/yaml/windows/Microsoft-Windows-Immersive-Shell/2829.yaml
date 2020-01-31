@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2829'
+version: '0'
+event(fields): Tile_ImageLoad_Success(UnicodeString AppID, UInt32 NotificationID)
+opcode: ''
+keywords: NotificationE2E
+task: Tile_ImageLoad_Success
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UInt32
+  field_name: NotificationID

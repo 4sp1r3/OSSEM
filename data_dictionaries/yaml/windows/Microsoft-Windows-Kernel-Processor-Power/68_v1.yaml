@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '68'
+version: '1'
+event(fields): ProcessorIdRundown_V1(UInt16 Group, UInt8 Number, UInt32 AcpiId, UInt32
+  InterruptControllerId, UInt32 ProcessorIndex)
+opcode: ''
+keywords: Perf Diag PerfDiag
+task: ProcessorIdRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: AcpiId
+- field_type: UInt32
+  field_name: InterruptControllerId
+- field_type: UInt32
+  field_name: ProcessorIndex

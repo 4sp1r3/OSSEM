@@ -1,0 +1,31 @@
+provider: Microsoft-IE
+event_id: '238'
+version: '0'
+event(fields): Mshtml_CImgTask_LazyDecoded(Pointer ImgInfo, Pointer ImgTask, Pointer
+  ImgCacheEntry, UInt32 Width, UInt32 Height, UInt32 CompressedSize, UInt32 BitCount,
+  UInt16 ChromaSubsampling, UnicodeString URL)
+opcode: ''
+keywords: subsystem
+task: Mshtml_CImgTask_LazyDecoded
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ImgInfo
+- field_type: Pointer
+  field_name: ImgTask
+- field_type: Pointer
+  field_name: ImgCacheEntry
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: CompressedSize
+- field_type: UInt32
+  field_name: BitCount
+- field_type: UInt16
+  field_name: ChromaSubsampling
+- field_type: UnicodeString
+  field_name: URL

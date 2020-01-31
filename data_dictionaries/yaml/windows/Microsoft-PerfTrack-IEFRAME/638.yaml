@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '638'
+version: '0'
+event(fields): UnifiedListView_Query_Feeds_PerftrackStop(UInt64 Object)
+opcode: Stop
+keywords: defunct
+task: UnifiedListView_Query_Feeds_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

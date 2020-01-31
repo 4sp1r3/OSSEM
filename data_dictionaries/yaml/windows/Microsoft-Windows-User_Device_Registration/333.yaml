@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '333'
+version: '0'
+event(fields): task_0333()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '608'
+version: '0'
+event(fields): Mshtml_Phone_DoubleTapStop()
+opcode: Stop
+keywords: verbose
+task: Mshtml_Phone_DoubleTap
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

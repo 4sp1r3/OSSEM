@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '406'
+version: '0'
+event(fields): VISUAL_SET_INTERACTION(UInt32 Channel, UInt32 visualHandle, UInt32
+  interactionHandle, UInt64 visualInternalHandleAndChannel, UInt64 interactionInternalHandleAndChannel,
+  Pointer resourcePointer, Pointer interactionPointer)
+opcode: ''
+keywords: DwmInput
+task: VISUAL_SET_INTERACTION
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Channel
+- field_type: UInt32
+  field_name: visualHandle
+- field_type: UInt32
+  field_name: interactionHandle
+- field_type: UInt64
+  field_name: visualInternalHandleAndChannel
+- field_type: UInt64
+  field_name: interactionInternalHandleAndChannel
+- field_type: Pointer
+  field_name: resourcePointer
+- field_type: Pointer
+  field_name: interactionPointer

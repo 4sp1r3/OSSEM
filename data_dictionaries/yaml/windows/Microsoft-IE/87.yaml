@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '87'
+version: '0'
+event(fields): Mshtml_HtmPost_PostManExecuteStop(Pointer PtrOut, UInt32 ExitCode)
+opcode: Stop
+keywords: primarynav mshtml pageloadbreakdown
+task: Mshtml_HtmPost_PostManExecute
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PtrOut
+- field_type: UInt32
+  field_name: ExitCode

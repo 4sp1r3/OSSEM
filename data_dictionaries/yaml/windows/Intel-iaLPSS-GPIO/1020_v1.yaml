@@ -1,0 +1,11 @@
+provider: Intel-iaLPSS-GPIO
+event_id: '1020'
+version: '1'
+event(fields): EnumerationofGPIOxdriverStop1020_V1()
+opcode: Stop
+keywords: ''
+task: EnumerationofGPIOxdriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '12'
+version: '2'
+event(fields): ReadyBootIO_V2(UInt64 StartTime, UInt64 ByteOffset, Pointer FileKey,
+  Pointer ProcessKey, UInt32 ByteLength, UInt32 Flags)
+opcode: ''
+keywords: ReadyBoot
+task: ReadyBootIO
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: StartTime
+- field_type: UInt64
+  field_name: ByteOffset
+- field_type: Pointer
+  field_name: FileKey
+- field_type: Pointer
+  field_name: ProcessKey
+- field_type: UInt32
+  field_name: ByteLength
+- field_type: UInt32
+  field_name: Flags

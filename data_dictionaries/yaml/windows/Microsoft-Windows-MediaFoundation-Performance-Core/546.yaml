@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '546'
+version: '0'
+event(fields): AudCaptureStream_Info_TaskAudCaptureStream_GetService(Pointer object,
+  GUID guidService, GUID riid, Pointer pvObject, UInt32 hResult)
+opcode: AudCaptureStream_GetService
+keywords: ''
+task: AudCaptureStream_Info_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: GUID
+  field_name: guidService
+- field_type: GUID
+  field_name: riid
+- field_type: Pointer
+  field_name: pvObject
+- field_type: UInt32
+  field_name: hResult

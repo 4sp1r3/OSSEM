@@ -1,0 +1,93 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3077'
+version: '5'
+event(fields): ValidateSIPolicyPolicyFailure3077_V5(UInt16 FileNameLength, UnicodeString
+  FileName, UInt16 ProcessNameLength, UnicodeString ProcessName, UInt8 RequestedSigningLevel,
+  UInt8 ValidatedSigningLevel, HexInt32 Status, UInt32 SHA1HashSize, Binary SHA1Hash,
+  UInt32 SHA256HashSize, Binary SHA256Hash, UInt32 SHA1FlatHashSize, Binary SHA1FlatHash,
+  UInt32 SHA256FlatHashSize, Binary SHA256FlatHash, UInt64 USN, UInt32 SISigningScenario,
+  UInt16 PolicyNameLength, UnicodeString PolicyName, UInt16 PolicyIDLength, UnicodeString
+  PolicyID, UInt32 PolicyHashSize, Binary PolicyHash, UInt16 OriginalFileNameLength,
+  UnicodeString OriginalFileName, UInt16 InternalNameLength, UnicodeString InternalName,
+  UInt16 FileDescriptionLength, UnicodeString FileDescription, UInt16 ProductNameLength,
+  UnicodeString ProductName, AnsiString FileVersion, GUID PolicyGUID, Boolean UserWriteable,
+  UInt16 PackageFamilyNameLength, UnicodeString PackageFamilyName)
+opcode: PolicyFailure
+keywords: ''
+task: ValidateSIPolicy
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt16
+  field_name: ProcessNameLength
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UInt8
+  field_name: RequestedSigningLevel
+- field_type: UInt8
+  field_name: ValidatedSigningLevel
+- field_type: HexInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: SHA1HashSize
+- field_type: Binary
+  field_name: SHA1Hash
+- field_type: UInt32
+  field_name: SHA256HashSize
+- field_type: Binary
+  field_name: SHA256Hash
+- field_type: UInt32
+  field_name: SHA1FlatHashSize
+- field_type: Binary
+  field_name: SHA1FlatHash
+- field_type: UInt32
+  field_name: SHA256FlatHashSize
+- field_type: Binary
+  field_name: SHA256FlatHash
+- field_type: UInt64
+  field_name: USN
+- field_type: UInt32
+  field_name: SISigningScenario
+- field_type: UInt16
+  field_name: PolicyNameLength
+- field_type: UnicodeString
+  field_name: PolicyName
+- field_type: UInt16
+  field_name: PolicyIDLength
+- field_type: UnicodeString
+  field_name: PolicyID
+- field_type: UInt32
+  field_name: PolicyHashSize
+- field_type: Binary
+  field_name: PolicyHash
+- field_type: UInt16
+  field_name: OriginalFileNameLength
+- field_type: UnicodeString
+  field_name: OriginalFileName
+- field_type: UInt16
+  field_name: InternalNameLength
+- field_type: UnicodeString
+  field_name: InternalName
+- field_type: UInt16
+  field_name: FileDescriptionLength
+- field_type: UnicodeString
+  field_name: FileDescription
+- field_type: UInt16
+  field_name: ProductNameLength
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: AnsiString
+  field_name: FileVersion
+- field_type: GUID
+  field_name: PolicyGUID
+- field_type: Boolean
+  field_name: UserWriteable
+- field_type: UInt16
+  field_name: PackageFamilyNameLength
+- field_type: UnicodeString
+  field_name: PackageFamilyName

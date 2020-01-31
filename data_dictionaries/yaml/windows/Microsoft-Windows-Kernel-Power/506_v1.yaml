@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '506'
+version: '1'
+event(fields): CsEnterReason_V1(UInt32 Reason, Boolean LidOpenState, Boolean ExternalMonitorConnectedState,
+  UInt8 ScenarioInstanceId)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: CsEnterReason
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: Boolean
+  field_name: LidOpenState
+- field_type: Boolean
+  field_name: ExternalMonitorConnectedState
+- field_type: UInt8
+  field_name: ScenarioInstanceId

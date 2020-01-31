@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14505'
+version: '0'
+event(fields): Properties_CalendarControl_CreateStart()
+opcode: Start
+keywords: Controls
+task: Properties_CalendarControl_Create
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

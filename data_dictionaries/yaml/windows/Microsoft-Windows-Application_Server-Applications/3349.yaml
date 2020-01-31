@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3349'
+version: '0'
+event(fields): ListenerOpenStart(UnicodeString Uri, UnicodeString AppDomain)
+opcode: Start
+keywords: Channel
+task: ListenerOpen
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Uri
+- field_type: UnicodeString
+  field_name: AppDomain

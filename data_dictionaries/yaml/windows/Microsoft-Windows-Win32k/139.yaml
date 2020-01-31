@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Win32k
+event_id: '139'
+version: '0'
+event(fields): PointerFrameMessageGenerationStart(UInt32 FrameId, UInt32 PointerCount,
+  UInt32 PendingPointerCount)
+opcode: Start
+keywords: PointerInput
+task: PointerFrameMessageGeneration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FrameId
+- field_type: UInt32
+  field_name: PointerCount
+- field_type: UInt32
+  field_name: PendingPointerCount

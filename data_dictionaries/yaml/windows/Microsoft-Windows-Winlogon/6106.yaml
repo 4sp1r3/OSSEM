@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '6106'
+version: '0'
+event(fields): UnlockStop()
+opcode: Stop
+keywords: PerfDiagnostics keyword_400000000000
+task: Unlock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

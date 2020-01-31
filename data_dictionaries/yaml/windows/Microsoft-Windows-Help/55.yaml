@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Help
+event_id: '55'
+version: '0'
+event(fields): DisplaySearchStop(UnicodeString url)
+opcode: Stop
+keywords: ''
+task: DisplaySearch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: url

@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Servicing
+event_id: '1'
+version: '0'
+event(fields): Generic_Task(UnicodeString identifier, UInt32 currentPackageState,
+  UnicodeString currentPackageStateTextized, UInt32 targetPackageState, UnicodeString
+  targetPackageStateTextized, UnicodeString client)
+opcode: ''
+keywords: ''
+task: Generic_Task
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: identifier
+- field_type: UInt32
+  field_name: currentPackageState
+- field_type: UnicodeString
+  field_name: currentPackageStateTextized
+- field_type: UInt32
+  field_name: targetPackageState
+- field_type: UnicodeString
+  field_name: targetPackageStateTextized
+- field_type: UnicodeString
+  field_name: client

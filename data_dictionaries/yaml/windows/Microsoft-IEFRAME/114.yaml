@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '114'
+version: '0'
+event(fields): Browseui_Tabs_WaitMessageStop()
+opcode: Stop
+keywords: primarynav
+task: Browseui_Tabs_WaitMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

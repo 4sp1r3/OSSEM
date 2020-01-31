@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserDataAccess-Poom
+event_id: '2022'
+version: '0'
+event(fields): task_02022(UInt32 Prop_UInt32, UInt32 Prop_Hex_UInt32)
+opcode: ''
+keywords: Error keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_UInt32
+- field_type: UInt32
+  field_name: Prop_Hex_UInt32

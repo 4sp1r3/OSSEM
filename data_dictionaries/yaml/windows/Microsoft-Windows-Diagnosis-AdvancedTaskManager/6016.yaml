@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '6016'
+version: '0'
+event(fields): Actions_ColSwapStop()
+opcode: Stop
+keywords: ui
+task: Actions_ColSwap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

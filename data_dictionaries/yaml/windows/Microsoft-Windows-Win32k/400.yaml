@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Win32k
+event_id: '400'
+version: '0'
+event(fields): DCompDeferBatch(UInt32 channelHandle, Pointer pBatch, UInt32 batchID,
+  UInt64 submissionTime, UInt64 submissionDeadline, UInt32 deferReason)
+opcode: ''
+keywords: Updates
+task: DCompDeferBatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: channelHandle
+- field_type: Pointer
+  field_name: pBatch
+- field_type: UInt32
+  field_name: batchID
+- field_type: UInt64
+  field_name: submissionTime
+- field_type: UInt64
+  field_name: submissionDeadline
+- field_type: UInt32
+  field_name: deferReason

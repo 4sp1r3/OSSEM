@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Diagnosis-DPS
+event_id: '130'
+version: '0'
+event(fields): ScenarioLifecycleAdiagnosticmodulecompletedresolution(GUID ScenarioId,
+  GUID InstanceId, GUID OriginalActivityId, UnicodeString DiagnosticModuleImageName,
+  GUID DiagnosticModuleId)
+opcode: Adiagnosticmodulecompletedresolution
+keywords: lifecycle
+task: ScenarioLifecycle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ScenarioId
+- field_type: GUID
+  field_name: InstanceId
+- field_type: GUID
+  field_name: OriginalActivityId
+- field_type: UnicodeString
+  field_name: DiagnosticModuleImageName
+- field_type: GUID
+  field_name: DiagnosticModuleId

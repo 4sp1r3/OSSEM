@@ -1,0 +1,20 @@
+provider: Microsoft-JScript
+event_id: '166'
+version: '0'
+event(fields): Jscript_Host_Native(Pointer ModuleID, Binary SHA1Hash, UnicodeString
+  Url, HexInt32 ModuleSize)
+opcode: ''
+keywords: JscriptJit
+task: Jscript_Host_Native
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ModuleID
+- field_type: Binary
+  field_name: SHA1Hash
+- field_type: UnicodeString
+  field_name: Url
+- field_type: HexInt32
+  field_name: ModuleSize

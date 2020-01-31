@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-LUA
+event_id: '15026'
+version: '0'
+event(fields): ConsentUI_ExperienceStart15026()
+opcode: Start
+keywords: ''
+task: ConsentUI_Experience
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

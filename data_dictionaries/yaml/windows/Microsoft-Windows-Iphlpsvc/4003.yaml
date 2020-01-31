@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Iphlpsvc
+event_id: '4003'
+version: '0'
+event(fields): task_04003(UnicodeString ServerName, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt32
+  field_name: ErrorCode

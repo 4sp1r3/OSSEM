@@ -1,0 +1,22 @@
+provider: Intel-iaLPSS2-GPIO2
+event_id: '1115'
+version: '0'
+event(fields): iaLPSS_GPIO2Controllerroutines1115(UInt32 MBAR_current, UInt32 MBAR_expected,
+  UInt32 INT_current, UInt32 INT_expected, UInt32 Status)
+opcode: ''
+keywords: ''
+task: iaLPSS_GPIO2Controllerroutines
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MBAR_current
+- field_type: UInt32
+  field_name: MBAR_expected
+- field_type: UInt32
+  field_name: INT_current
+- field_type: UInt32
+  field_name: INT_expected
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-VHDMP
+event_id: '209'
+version: '0'
+event(fields): task_0209(UnicodeString VhdFileName, UInt64 VirtualDisk)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VhdFileName
+- field_type: UInt64
+  field_name: VirtualDisk

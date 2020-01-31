@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-Winsock-NameResolution
+event_id: '1012'
+version: '0'
+event(fields): WinsockGai1012(UnicodeString NodeName, UnicodeString ServiceName, UInt32
+  Location, UInt32 NameSpace, GUID NameSpaceGuid, UInt32 Flags, UInt32 Family, UInt32
+  SocketType, UInt32 protocol, UInt32 InterfaceIndex, UInt32 TimeOutInSec, UInt32
+  AsyncWithCallback, UInt32 AsyncWithOverlapped, Int32 Error)
+opcode: ''
+keywords: ''
+task: WinsockGai
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: NodeName
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: NameSpace
+- field_type: GUID
+  field_name: NameSpaceGuid
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Family
+- field_type: UInt32
+  field_name: SocketType
+- field_type: UInt32
+  field_name: protocol
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UInt32
+  field_name: TimeOutInSec
+- field_type: UInt32
+  field_name: AsyncWithCallback
+- field_type: UInt32
+  field_name: AsyncWithOverlapped
+- field_type: Int32
+  field_name: Error

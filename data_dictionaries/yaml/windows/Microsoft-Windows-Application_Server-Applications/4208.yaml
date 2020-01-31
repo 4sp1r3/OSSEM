@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4208'
+version: '0'
+event(fields): SqlCommandExecute4208(UnicodeString data1, UnicodeString AppDomain)
+opcode: ''
+keywords: WFInstanceStore
+task: SqlCommandExecute
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

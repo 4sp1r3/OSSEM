@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1018'
+version: '0'
+event(fields): Deviceisbeingpoweredup()
+opcode: ''
+keywords: SensPerf
+task: Deviceisbeingpoweredup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

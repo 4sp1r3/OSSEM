@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '2200'
+version: '0'
+event(fields): task_02200(UnicodeString szConnName, UInt32 dwValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: szConnName
+- field_type: UInt32
+  field_name: dwValue

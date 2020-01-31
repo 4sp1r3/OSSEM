@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PackageStateRoaming
+event_id: '7027'
+version: '0'
+event(fields): Perf_FolderChangedCallbackStart(UnicodeString PackageFamilyName, UInt32
+  Locality)
+opcode: Start
+keywords: PackageStateRoaming
+task: Perf_FolderChangedCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFamilyName
+- field_type: UInt32
+  field_name: Locality

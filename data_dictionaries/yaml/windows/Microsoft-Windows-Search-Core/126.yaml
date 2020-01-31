@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '126'
+version: '0'
+event(fields): Startup_ReplaceDirectoryPrefixInValue(UnicodeString Value, UnicodeString
+  OldPrefix, UnicodeString NewPrefix)
+opcode: ''
+keywords: Service
+task: Startup_ReplaceDirectoryPrefixInValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Value
+- field_type: UnicodeString
+  field_name: OldPrefix
+- field_type: UnicodeString
+  field_name: NewPrefix

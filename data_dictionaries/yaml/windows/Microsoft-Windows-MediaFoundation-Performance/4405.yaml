@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4405'
+version: '0'
+event(fields): CodecDXVAGPUDecodeStop(AnsiString tag, Pointer object, UInt32 frameIndex,
+  Int64 sampleTime)
+opcode: Stop
+keywords: ''
+task: CodecDXVAGPUDecode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: frameIndex
+- field_type: Int64
+  field_name: sampleTime

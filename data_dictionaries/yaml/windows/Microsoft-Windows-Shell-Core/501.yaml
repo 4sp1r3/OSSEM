@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '501'
+version: '0'
+event(fields): AutoListEditor_Controls_RenderingStart()
+opcode: Start
+keywords: Shell
+task: AutoListEditor_Controls_Rendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

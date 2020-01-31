@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Help
+event_id: '2005'
+version: '0'
+event(fields): NonPerfEvents2005(UInt32 ApplicationErrorCode, UnicodeString ErrorMessage)
+opcode: ''
+keywords: ''
+task: NonPerfEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ApplicationErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

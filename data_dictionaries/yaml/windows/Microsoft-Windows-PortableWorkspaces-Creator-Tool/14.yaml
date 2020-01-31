@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PortableWorkspaces-Creator-Tool
+event_id: '14'
+version: '0'
+event(fields): Provisioningofaportableworkspace.Stop(UInt32 ProvisionCharacteristics,
+  UInt32 DeviceCharacteristics, UInt32 WindowsImageCharacteristics, UInt32 WindowsImageSizeInMb)
+opcode: Stop
+keywords: ''
+task: Provisioningofaportableworkspace.
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProvisionCharacteristics
+- field_type: UInt32
+  field_name: DeviceCharacteristics
+- field_type: UInt32
+  field_name: WindowsImageCharacteristics
+- field_type: UInt32
+  field_name: WindowsImageSizeInMb

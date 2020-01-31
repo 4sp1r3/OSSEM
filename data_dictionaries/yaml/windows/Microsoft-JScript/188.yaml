@@ -1,0 +1,15 @@
+provider: Microsoft-JScript
+event_id: '188'
+version: '0'
+event(fields): Memprotect_GC_BackgroundSweepStop(Pointer RecyclerID, UInt32 SweptBytes)
+opcode: Stop
+keywords: MemProtectGarbageCollection
+task: Memprotect_GC_BackgroundSweep
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID
+- field_type: UInt32
+  field_name: SweptBytes

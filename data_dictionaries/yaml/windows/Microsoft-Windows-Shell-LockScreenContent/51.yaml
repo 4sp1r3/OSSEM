@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-LockScreenContent
+event_id: '51'
+version: '0'
+event(fields): LockScreenContent_ThumbnailFetchStop(UInt32 Width, UInt32 Height)
+opcode: Stop
+keywords: LockScreenContent
+task: LockScreenContent_ThumbnailFetch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height

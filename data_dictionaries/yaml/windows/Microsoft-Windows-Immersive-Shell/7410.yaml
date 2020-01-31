@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7410'
+version: '0'
+event(fields): ConnectedSearch_LogTemplateError(UInt32 Result, UnicodeString ImpressionGUID,
+  UInt32 ErrorCode, UnicodeString Url, UnicodeString HBT)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogTemplateError
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ImpressionGUID
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: Url
+- field_type: UnicodeString
+  field_name: HBT

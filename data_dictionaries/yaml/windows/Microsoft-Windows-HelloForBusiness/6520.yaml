@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '6520'
+version: '0'
+event(fields): DeviceUnlockStop()
+opcode: Stop
+keywords: Internal
+task: DeviceUnlock
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

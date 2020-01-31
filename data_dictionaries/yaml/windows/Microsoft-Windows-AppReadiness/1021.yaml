@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '1021'
+version: '0'
+event(fields): AppReadiness_Api_DisableInAuditMode(Boolean IsAuditMode)
+opcode: ''
+keywords: Api
+task: AppReadiness_Api_DisableInAuditMode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsAuditMode

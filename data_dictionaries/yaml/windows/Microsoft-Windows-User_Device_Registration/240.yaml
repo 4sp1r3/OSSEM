@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '240'
+version: '0'
+event(fields): task_0240(Int32 ExitCode, Int32 JoinRequestType, UnicodeString JoinRequestTypeSymbolicName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ExitCode
+- field_type: Int32
+  field_name: JoinRequestType
+- field_type: UnicodeString
+  field_name: JoinRequestTypeSymbolicName

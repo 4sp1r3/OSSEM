@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1023'
+version: '0'
+event(fields): SrvABESharesPresent()
+opcode: ''
+keywords: Operational
+task: SrvABESharesPresent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

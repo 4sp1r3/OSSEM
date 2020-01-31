@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '273'
+version: '0'
+event(fields): WindowResizeOptimizationStop(Pointer object)
+opcode: Stop
+keywords: ''
+task: WindowResizeOptimization
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

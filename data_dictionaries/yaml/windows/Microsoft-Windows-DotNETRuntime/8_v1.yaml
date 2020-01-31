@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '8'
+version: '1'
+event(fields): GCSuspendEEStop_V1(UInt16 ClrInstanceID)
+opcode: SuspendEEStop
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClrInstanceID

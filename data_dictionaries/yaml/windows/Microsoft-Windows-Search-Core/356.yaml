@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '356'
+version: '0'
+event(fields): RobotThread_LangAutoDetection_Scores(UInt32 TextLength, UInt32 TopLCID,
+  UInt32 TopScore, UInt32 SecondLCID, UInt32 SecondScore)
+opcode: ''
+keywords: IndexingChunk Gatherer
+task: RobotThread_LangAutoDetection_Scores
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TextLength
+- field_type: UInt32
+  field_name: TopLCID
+- field_type: UInt32
+  field_name: TopScore
+- field_type: UInt32
+  field_name: SecondLCID
+- field_type: UInt32
+  field_name: SecondScore

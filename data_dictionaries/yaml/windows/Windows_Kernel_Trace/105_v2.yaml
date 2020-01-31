@@ -1,0 +1,23 @@
+provider: Windows Kernel Trace
+category: '{ce1dbfb4-137e-4da6-87b0-3f59aa102cbc}'
+event_id: '105'
+version: '2'
+event(fields): SetOrExpireKTimer2(UInt64 DueTime, UInt64 MaximumDueTime, UInt64 Period,
+  UInt32 Timer, UInt32 Callback, UInt32 CallbackContext, UInt8 TimerFlags)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt64
+  field_name: DueTime
+- field_type: UInt64
+  field_name: MaximumDueTime
+- field_type: UInt64
+  field_name: Period
+- field_type: UInt32
+  field_name: Timer
+- field_type: UInt32
+  field_name: Callback
+- field_type: UInt32
+  field_name: CallbackContext
+- field_type: UInt8
+  field_name: TimerFlags

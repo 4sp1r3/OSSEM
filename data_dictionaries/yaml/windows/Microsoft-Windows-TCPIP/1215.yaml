@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1215'
+version: '0'
+event(fields): TcpipNetworkPacketDrops(UInt32 IPTransportProtocol, UInt32 AddressFamily,
+  UInt32 SourceIPv4Address, UInt32 DestIPv4Address, UInt32 IPv6SourceIpAddrLength,
+  Binary IPv6SourceAddress, UInt32 IPv6DestIpAddrLength, Binary IPv6DestAddress, UInt32
+  Reason, UInt32 PacketCount, UInt32 IPProtocol)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:SendPath ut:ReceivePath ut:Global keyword_10000000000
+task: TcpipNetworkPacketDrops
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IPTransportProtocol
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: SourceIPv4Address
+- field_type: UInt32
+  field_name: DestIPv4Address
+- field_type: UInt32
+  field_name: IPv6SourceIpAddrLength
+- field_type: Binary
+  field_name: IPv6SourceAddress
+- field_type: UInt32
+  field_name: IPv6DestIpAddrLength
+- field_type: Binary
+  field_name: IPv6DestAddress
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: PacketCount
+- field_type: UInt32
+  field_name: IPProtocol

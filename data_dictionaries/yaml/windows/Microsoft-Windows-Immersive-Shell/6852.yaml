@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6852'
+version: '0'
+event(fields): SecondaryTileQuota_EnforceQuotaStart(UInt32 BytesToReduce)
+opcode: Start
+keywords: ''
+task: SecondaryTileQuota_EnforceQuota
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BytesToReduce

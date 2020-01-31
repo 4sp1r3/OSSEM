@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '292'
+version: '0'
+event(fields): ServerGetRowsStop(UInt32 Qid, UInt32 RowsTransferred, UInt32 ErrorCode)
+opcode: Stop
+keywords: Querying
+task: ServerGetRows
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Qid
+- field_type: UInt32
+  field_name: RowsTransferred
+- field_type: UInt32
+  field_name: ErrorCode

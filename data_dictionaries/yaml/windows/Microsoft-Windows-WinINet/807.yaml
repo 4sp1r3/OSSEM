@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '807'
+version: '0'
+event(fields): WININET_AUTOPROXY_DNSFail(UInt32 DetectFlags, UInt32 Error)
+opcode: Fail
+keywords: WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC
+task: WININET_AUTOPROXY_DNS
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DetectFlags
+- field_type: UInt32
+  field_name: Error

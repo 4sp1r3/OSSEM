@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '26'
+version: '1'
+event(fields): WindowsUpdateAgentCheckforUpdates26_V1(UInt32 updateCount, GUID serviceGuid)
+opcode: CheckforUpdates
+keywords: detect success
+task: WindowsUpdateAgent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: updateCount
+- field_type: GUID
+  field_name: serviceGuid

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1048'
+version: '0'
+event(fields): DataLayer_RowsetGetRowsStart(GUID ProviderId, UInt32 Index, UInt32
+  Count)
+opcode: Start
+keywords: Shell
+task: DataLayer_RowsetGetRows
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderId
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: Count

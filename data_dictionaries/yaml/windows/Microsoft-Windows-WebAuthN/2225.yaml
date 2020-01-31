@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2225'
+version: '0'
+event(fields): CtapUsbSendReceiveInformational(GUID TransactionId, UInt8 RequestCommand,
+  UInt32 RequestLength, Binary Request, UInt8 ResponseCommand, UInt32 ResponseLength,
+  Binary Response)
+opcode: Informational
+keywords: Ctap Usb
+task: CtapUsbSendReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UInt8
+  field_name: RequestCommand
+- field_type: UInt32
+  field_name: RequestLength
+- field_type: Binary
+  field_name: Request
+- field_type: UInt8
+  field_name: ResponseCommand
+- field_type: UInt32
+  field_name: ResponseLength
+- field_type: Binary
+  field_name: Response

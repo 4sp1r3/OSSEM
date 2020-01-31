@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '282'
+version: '0'
+event(fields): MediaEngineCallMarshalingStop(Pointer Object, UInt32 CallId, UInt32
+  Id, UInt32 hrResult)
+opcode: Stop
+keywords: ''
+task: MediaEngineCallMarshaling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: CallId
+- field_type: UInt32
+  field_name: Id
+- field_type: UInt32
+  field_name: hrResult

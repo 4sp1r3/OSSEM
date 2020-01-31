@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '11004'
+version: '0'
+event(fields): FilterControl_PopulateFiltersStop()
+opcode: Stop
+keywords: Shell ExplorerPerf
+task: FilterControl_PopulateFilters
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

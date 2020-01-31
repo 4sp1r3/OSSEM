@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PDC
+event_id: '10'
+version: '0'
+event(fields): NotificationStarted(UInt32 Type, Pointer ClientContext, UInt32 PdcSequence,
+  UInt32 Value, UInt32 WaitTime)
+opcode: ''
+keywords: notifications CsDiag
+task: NotificationStarted
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type
+- field_type: Pointer
+  field_name: ClientContext
+- field_type: UInt32
+  field_name: PdcSequence
+- field_type: UInt32
+  field_name: Value
+- field_type: UInt32
+  field_name: WaitTime

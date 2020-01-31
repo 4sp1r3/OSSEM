@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-WebIO
+event_id: '17'
+version: '0'
+event(fields): RequestCreate(Pointer Request, UInt64 RequestHandle, Pointer Session,
+  UInt64 SessionHandle, AnsiString Method, UnicodeString URI, UInt16 VersionMajor,
+  UInt16 VersionMinor, UInt32 Error)
+opcode: ''
+keywords: Keyword.API Keyword.CONFIGURATION
+task: RequestCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: UInt64
+  field_name: RequestHandle
+- field_type: Pointer
+  field_name: Session
+- field_type: UInt64
+  field_name: SessionHandle
+- field_type: AnsiString
+  field_name: Method
+- field_type: UnicodeString
+  field_name: URI
+- field_type: UInt16
+  field_name: VersionMajor
+- field_type: UInt16
+  field_name: VersionMinor
+- field_type: UInt32
+  field_name: Error

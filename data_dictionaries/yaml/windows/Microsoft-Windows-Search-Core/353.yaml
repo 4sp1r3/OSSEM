@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '353'
+version: '0'
+event(fields): WordBreakerSelector_Fallback(UInt32 LocaleID)
+opcode: ''
+keywords: IndexingChunk Gatherer
+task: WordBreakerSelector_Fallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LocaleID

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EapHost
+event_id: '1041'
+version: '0'
+event(fields): Authenticator1041()
+opcode: ''
+keywords: COM
+task: Authenticator
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2041'
+version: '0'
+event(fields): task_02041(UInt32 ChangeType, UInt32 Capability, UInt32 Profile, UnicodeString
+  IPRangeDefinition)
+opcode: ''
+keywords: ut:AOAC
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ChangeType
+- field_type: UInt32
+  field_name: Capability
+- field_type: UInt32
+  field_name: Profile
+- field_type: UnicodeString
+  field_name: IPRangeDefinition

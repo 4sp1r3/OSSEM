@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '352'
+version: '0'
+event(fields): IMTravelLogMVC_NavigationReceived()
+opcode: ''
+keywords: immersive
+task: IMTravelLogMVC_NavigationReceived
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

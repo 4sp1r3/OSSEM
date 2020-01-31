@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30602'
+version: '1'
+event(fields): Packaging_4100Stop_V1()
+opcode: Stop
+keywords: ''
+task: Packaging_4100
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

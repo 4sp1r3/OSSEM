@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1002'
+version: '0'
+event(fields): DxgkDdiMiracastCreateContextStart(Pointer MiniportContext, Pointer
+  MiracastContext, UInt32 TargetId, UInt32 ReturnStatus)
+opcode: Start
+keywords: Miracast
+task: DxgkDdiMiracastCreateContext
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportContext
+- field_type: Pointer
+  field_name: MiracastContext
+- field_type: UInt32
+  field_name: TargetId
+- field_type: UInt32
+  field_name: ReturnStatus

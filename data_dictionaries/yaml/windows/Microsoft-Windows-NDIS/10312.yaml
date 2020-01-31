@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10312'
+version: '0'
+event(fields): WorkItem10312(GUID IfGuid, UInt8 State, UInt32 Location, GUID MiniportIfGuid,
+  UnicodeString MiniportAdapterName, UnicodeString FilterInstanceName, UnicodeString
+  FilterFriendlyName)
+opcode: ''
+keywords: WorkItem
+task: WorkItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt8
+  field_name: State
+- field_type: UInt32
+  field_name: Location
+- field_type: GUID
+  field_name: MiniportIfGuid
+- field_type: UnicodeString
+  field_name: MiniportAdapterName
+- field_type: UnicodeString
+  field_name: FilterInstanceName
+- field_type: UnicodeString
+  field_name: FilterFriendlyName

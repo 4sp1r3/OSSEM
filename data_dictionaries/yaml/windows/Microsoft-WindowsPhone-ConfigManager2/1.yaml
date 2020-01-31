@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '1'
+version: '0'
+event(fields): ICSPNode_Add_TaskStop(UnicodeString URI, UnicodeString URICHILD, UInt32
+  NodeOptions, UInt32 Result)
+opcode: Stop
+keywords: Performance Trace
+task: ICSPNode_Add_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URI
+- field_type: UnicodeString
+  field_name: URICHILD
+- field_type: UInt32
+  field_name: NodeOptions
+- field_type: UInt32
+  field_name: Result

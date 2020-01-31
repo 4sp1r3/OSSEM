@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-HAL
+event_id: '9'
+version: '0'
+event(fields): task_09(Int32 SourceProcessor, Int32 TargetProcessor, Int64 Delta,
+  Int64 Bias, UInt32 Wave)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: SourceProcessor
+- field_type: Int32
+  field_name: TargetProcessor
+- field_type: Int64
+  field_name: Delta
+- field_type: Int64
+  field_name: Bias
+- field_type: UInt32
+  field_name: Wave

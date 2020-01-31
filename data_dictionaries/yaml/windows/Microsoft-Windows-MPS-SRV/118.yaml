@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '118'
+version: '0'
+event(fields): Notify_InitializeStop()
+opcode: Stop
+keywords: Service
+task: Notify_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

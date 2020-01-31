@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '6344'
+version: '0'
+event(fields): task_06344(Boolean IsMachine, UInt32 SlowlinkThresholdInMilliseconds,
+  UInt32 DcResponseTimeInMilliseconds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsMachine
+- field_type: UInt32
+  field_name: SlowlinkThresholdInMilliseconds
+- field_type: UInt32
+  field_name: DcResponseTimeInMilliseconds

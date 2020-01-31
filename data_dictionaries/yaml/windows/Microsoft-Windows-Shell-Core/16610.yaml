@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16610'
+version: '0'
+event(fields): FileFolderInnateStore_GetCountStart()
+opcode: Start
+keywords: Properties
+task: FileFolderInnateStore_GetCount
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

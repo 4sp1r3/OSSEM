@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18743'
+version: '0'
+event(fields): Shell32_DefView_FireFolderChanged()
+opcode: ''
+keywords: Shell
+task: Shell32_DefView_FireFolderChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

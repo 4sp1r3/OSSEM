@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '390'
+version: '0'
+event(fields): Bundlereader(UnicodeString packageFullName)
+opcode: ''
+keywords: ''
+task: Bundlereader
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: packageFullName

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '319'
+version: '0'
+event(fields): AppReadiness_PreRegister_Package(UnicodeString PackageId, Int32 Result)
+opcode: ''
+keywords: Tasks
+task: AppReadiness_PreRegister_Package
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageId
+- field_type: Int32
+  field_name: Result

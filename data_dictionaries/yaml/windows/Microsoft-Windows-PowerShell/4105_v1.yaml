@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '4105'
+version: '1'
+event(fields): StartingCommandOpen(async)_V1(UnicodeString ScriptBlockId, UnicodeString
+  RunspaceId)
+opcode: Open(async)
+keywords: Runspace
+task: StartingCommand
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ScriptBlockId
+- field_type: UnicodeString
+  field_name: RunspaceId

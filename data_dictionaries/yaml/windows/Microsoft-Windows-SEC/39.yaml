@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-SEC
+event_id: '39'
+version: '0'
+event(fields): task_039(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime,
+  HexInt32 SourceThreadId, HexInt32 TargetThreadId, SID UserSid, HexInt32 TargetProcessId,
+  Int64 TargetProcessTime, HexInt32 AccessMask, UInt64 ProcessStartKey, UInt64 TargetProcessStartKey)
+opcode: ''
+keywords: keyword_20000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: HexInt32
+  field_name: ProcessId
+- field_type: Int64
+  field_name: ProcessTime
+- field_type: HexInt32
+  field_name: SourceThreadId
+- field_type: HexInt32
+  field_name: TargetThreadId
+- field_type: SID
+  field_name: UserSid
+- field_type: HexInt32
+  field_name: TargetProcessId
+- field_type: Int64
+  field_name: TargetProcessTime
+- field_type: HexInt32
+  field_name: AccessMask
+- field_type: UInt64
+  field_name: ProcessStartKey
+- field_type: UInt64
+  field_name: TargetProcessStartKey

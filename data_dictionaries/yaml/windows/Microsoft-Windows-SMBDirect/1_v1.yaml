@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '1'
+version: '1'
+event(fields): task_0_V1(UnicodeString AdapterAlias, UInt32 RequiredSges, UInt32 AdapterSupportedSges)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AdapterAlias
+- field_type: UInt32
+  field_name: RequiredSges
+- field_type: UInt32
+  field_name: AdapterSupportedSges

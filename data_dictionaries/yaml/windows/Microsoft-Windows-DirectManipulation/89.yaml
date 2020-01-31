@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '89'
+version: '0'
+event(fields): Manipulation_TurnOffInteraction(Pointer Viewport, Pointer Interaction)
+opcode: ''
+keywords: ''
+task: Manipulation_TurnOffInteraction
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Viewport
+- field_type: Pointer
+  field_name: Interaction

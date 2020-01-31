@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '28'
+version: '0'
+event(fields): ProviderSetProviderTraits(GUID ProviderGuid, UInt32 ErrorCode)
+opcode: SetProviderTraits
+keywords: ETW_KEYWORD_PROVIDER ETW_KEYWORD_REGISTRATION ETW_KEYWORD_GROUP
+task: Provider
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderGuid
+- field_type: UInt32
+  field_name: ErrorCode

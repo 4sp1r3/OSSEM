@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '21007'
+version: '0'
+event(fields): task_021007(UInt32 AdapterId, GUID InterfaceGuid, UInt32 SessionId,
+  UInt32 PortId, Binary PeerAddr, UInt32 Context)
+opcode: ''
+keywords: MSMSEC Telemetry ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterId
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: PortId
+- field_type: Binary
+  field_name: PeerAddr
+- field_type: UInt32
+  field_name: Context

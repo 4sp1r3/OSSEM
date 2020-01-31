@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '131'
+version: '1'
+event(fields): DecodePictureLists_V1(Pointer pID3D12Device, Pointer pID3D12Decoder,
+  Boolean CurrPic, UInt32 NumRefPicListEntries, Pointer RefPicList, Pointer pID3D12OutputTexture2D,
+  UInt32 OutputSubresource, Pointer pReferenceTexture2D, UInt32 ReferenceSubresource,
+  UInt32 NumReferences, SID ReferenceTexture2Ds, HexInt32 SubresourceIndicies, HexInt64
+  ReferenceDecoderHeaps)
+opcode: ''
+keywords: DecodeInfo
+task: DecodePictureLists
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12Decoder
+- field_type: Boolean
+  field_name: CurrPic
+- field_type: UInt32
+  field_name: NumRefPicListEntries
+- field_type: Pointer
+  field_name: RefPicList
+- field_type: Pointer
+  field_name: pID3D12OutputTexture2D
+- field_type: UInt32
+  field_name: OutputSubresource
+- field_type: Pointer
+  field_name: pReferenceTexture2D
+- field_type: UInt32
+  field_name: ReferenceSubresource
+- field_type: UInt32
+  field_name: NumReferences
+- field_type: SID
+  field_name: ReferenceTexture2Ds
+- field_type: HexInt32
+  field_name: SubresourceIndicies
+- field_type: HexInt64
+  field_name: ReferenceDecoderHeaps

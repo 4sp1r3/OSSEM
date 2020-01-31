@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '119'
+version: '0'
+event(fields): MSVideoProcessoftMFT(D3D11)_ShaderFallbackPassStart(Pointer MSVProcObj,
+  Pointer Context, UInt32 uiInputViewCount, UInt32 uiOutputViewCount, UInt32 uiOutWidth,
+  UInt32 uiOutHeight, UInt32 uiOffsetX, UInt32 uiOffsetY, UInt32 SourceFormat, UInt32
+  DestFormat, UInt32 Shader, UInt32 lightLevelIn, UInt32 lightLevelOut)
+opcode: Start
+keywords: ''
+task: MSVideoProcessoftMFT(D3D11)_ShaderFallbackPass
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MSVProcObj
+- field_type: Pointer
+  field_name: Context
+- field_type: UInt32
+  field_name: uiInputViewCount
+- field_type: UInt32
+  field_name: uiOutputViewCount
+- field_type: UInt32
+  field_name: uiOutWidth
+- field_type: UInt32
+  field_name: uiOutHeight
+- field_type: UInt32
+  field_name: uiOffsetX
+- field_type: UInt32
+  field_name: uiOffsetY
+- field_type: UInt32
+  field_name: SourceFormat
+- field_type: UInt32
+  field_name: DestFormat
+- field_type: UInt32
+  field_name: Shader
+- field_type: UInt32
+  field_name: lightLevelIn
+- field_type: UInt32
+  field_name: lightLevelOut

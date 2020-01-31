@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '23'
+version: '0'
+event(fields): ApiEnableMMCSSStart()
+opcode: Start
+keywords: DwmApi
+task: ApiEnableMMCSS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

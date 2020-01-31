@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SmartCard-DeviceEnum
+event_id: '99'
+version: '0'
+event(fields): task_0(UnicodeString InstancePath, Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InstancePath
+- field_type: Int32
+  field_name: ErrorCode

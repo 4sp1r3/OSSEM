@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TerminalServices-RemoteConnectionManager
+event_id: '50215'
+version: '0'
+event(fields): task_050215(UnicodeString errorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: errorCode

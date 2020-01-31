@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '807'
+version: '0'
+event(fields): DeviceAddStart(UInt32 ServiceType, UInt16 DriverNameLength, UnicodeString
+  DriverName, UnicodeString DeviceInstancePath)
+opcode: Start
+keywords: Enumeration
+task: DeviceAdd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ServiceType
+- field_type: UInt16
+  field_name: DriverNameLength
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UnicodeString
+  field_name: DeviceInstancePath

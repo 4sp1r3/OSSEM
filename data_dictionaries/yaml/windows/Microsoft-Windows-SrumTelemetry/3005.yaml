@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SrumTelemetry
+event_id: '3005'
+version: '0'
+event(fields): task_03005(UInt32 PreviousStateDurationInSeconds, Int8 NewEnergySaverState)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PreviousStateDurationInSeconds
+- field_type: Int8
+  field_name: NewEnergySaverState

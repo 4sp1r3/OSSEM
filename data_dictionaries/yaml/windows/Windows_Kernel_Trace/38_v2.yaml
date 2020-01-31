@@ -1,0 +1,17 @@
+provider: Windows Kernel Trace
+category: '{def2fe46-7bd6-4b80-bd94-f57fe20d0ce3}'
+event_id: '38'
+version: '2'
+event(fields): StackWalk_Key(UInt64 EventTimeStamp, UInt32 StackProcess, UInt32 StackThread,
+  UInt32 StackKey)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt64
+  field_name: EventTimeStamp
+- field_type: UInt32
+  field_name: StackProcess
+- field_type: UInt32
+  field_name: StackThread
+- field_type: UInt32
+  field_name: StackKey

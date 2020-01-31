@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18518'
+version: '0'
+event(fields): Shell32_AutoPlay_LogicStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_AutoPlay_Logic
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

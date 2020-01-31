@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '27'
+version: '0'
+event(fields): None(UInt32 CmdType, HexInt32 Result)
+opcode: ''
+keywords: Trace
+task: None
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CmdType
+- field_type: HexInt32
+  field_name: Result

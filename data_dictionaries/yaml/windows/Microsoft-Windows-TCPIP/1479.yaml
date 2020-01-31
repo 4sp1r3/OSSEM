@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1479'
+version: '0'
+event(fields): TcpRstSend(Pointer Tcb, UInt32 IPTransportProtocol, UInt32 AddressFamily,
+  UInt32 LocalSockAddrLength, Binary LocalSockAddr, UInt32 RemoteSockAddrLength, Binary
+  RemoteSockAddr, UInt32 Reason)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Global
+task: TcpRstSend
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: IPTransportProtocol
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: LocalSockAddrLength
+- field_type: Binary
+  field_name: LocalSockAddr
+- field_type: UInt32
+  field_name: RemoteSockAddrLength
+- field_type: Binary
+  field_name: RemoteSockAddr
+- field_type: UInt32
+  field_name: Reason

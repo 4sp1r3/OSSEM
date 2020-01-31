@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1051'
+version: '0'
+event(fields): MiracastPerfTrackGraphicsLatency(UInt32 AverageFrameLatency, UInt32
+  TotalFrames, UInt32 GraphicsDeviceId, UnicodeString GraphicsDriverVersion)
+opcode: ''
+keywords: Miracast
+task: MiracastPerfTrackGraphicsLatency
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AverageFrameLatency
+- field_type: UInt32
+  field_name: TotalFrames
+- field_type: UInt32
+  field_name: GraphicsDeviceId
+- field_type: UnicodeString
+  field_name: GraphicsDriverVersion

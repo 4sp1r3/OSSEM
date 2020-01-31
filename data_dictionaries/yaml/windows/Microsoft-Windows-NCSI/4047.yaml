@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4047'
+version: '0'
+event(fields): task_04047(GUID InterfaceGuid, UInt64 IfLuid, UInt32 Family, UInt32
+  IpAddressLength, Binary IpAddress, UInt32 MacAddressLength, Binary MacAddress, Boolean
+  KnownProxyless, Boolean KnownHotspot, Boolean KnownOppInternet, Boolean KnownProxiedOppInternet)
+opcode: ''
+keywords: LwtDiagnostic
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt64
+  field_name: IfLuid
+- field_type: UInt32
+  field_name: Family
+- field_type: UInt32
+  field_name: IpAddressLength
+- field_type: Binary
+  field_name: IpAddress
+- field_type: UInt32
+  field_name: MacAddressLength
+- field_type: Binary
+  field_name: MacAddress
+- field_type: Boolean
+  field_name: KnownProxyless
+- field_type: Boolean
+  field_name: KnownHotspot
+- field_type: Boolean
+  field_name: KnownOppInternet
+- field_type: Boolean
+  field_name: KnownProxiedOppInternet

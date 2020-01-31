@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2039'
+version: '0'
+event(fields): Browseui_WndProcBS_Minimize()
+opcode: ''
+keywords: Shell
+task: Browseui_WndProcBS_Minimize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

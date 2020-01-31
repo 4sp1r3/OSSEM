@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Wordpad
+event_id: '36'
+version: '0'
+event(fields): task_036(UnicodeString StringParam, UInt32 HResultParam)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StringParam
+- field_type: UInt32
+  field_name: HResultParam

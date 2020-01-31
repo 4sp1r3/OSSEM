@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1260'
+version: '0'
+event(fields): ForegroundTaskManagerGetTaskDefaultTransitionStop(UInt32 animtype)
+opcode: Stop
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerGetTaskDefaultTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: animtype

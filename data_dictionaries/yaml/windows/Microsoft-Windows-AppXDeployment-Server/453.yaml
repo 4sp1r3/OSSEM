@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '453'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment453(UnicodeString PackageFullName,
+  UInt32 PolicyReason)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UInt32
+  field_name: PolicyReason

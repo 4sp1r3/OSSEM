@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1021'
+version: '0'
+event(fields): Search_Query_Content_ProviderStart()
+opcode: Start
+keywords: ''
+task: Search_Query_Content_Provider
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

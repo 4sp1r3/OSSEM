@@ -1,0 +1,22 @@
+provider: Microsoft-IEFRAME
+event_id: '580'
+version: '0'
+event(fields): IE_Wer_Report_HangStop(Int32 TabID, Int32 ProcessID, Pointer HWND,
+  UnicodeString HungWindowText, UInt32 Result)
+opcode: Stop
+keywords: hang
+task: IE_Wer_Report_Hang
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: TabID
+- field_type: Int32
+  field_name: ProcessID
+- field_type: Pointer
+  field_name: HWND
+- field_type: UnicodeString
+  field_name: HungWindowText
+- field_type: UInt32
+  field_name: Result

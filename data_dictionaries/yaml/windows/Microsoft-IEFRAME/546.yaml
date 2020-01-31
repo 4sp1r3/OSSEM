@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '546'
+version: '0'
+event(fields): TravelLogScreenshotNav_NewTab_ShowingAllScreenshotsOnSwitch()
+opcode: ''
+keywords: TravelLogScreenshotNav
+task: TravelLogScreenshotNav_NewTab_ShowingAllScreenshotsOnSwitch
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

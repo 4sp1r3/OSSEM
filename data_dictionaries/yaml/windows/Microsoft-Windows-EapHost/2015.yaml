@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EapHost
+event_id: '2015'
+version: '0'
+event(fields): Peer2015()
+opcode: ''
+keywords: ''
+task: Peer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '202'
+version: '0'
+event(fields): Smb2WorkItemStop(UInt64 WorkItem)
+opcode: Stop
+keywords: Transition
+task: Smb2WorkItemStop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: WorkItem

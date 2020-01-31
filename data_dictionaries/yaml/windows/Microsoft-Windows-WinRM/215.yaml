@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WinRM
+event_id: '215'
+version: '0'
+event(fields): Winrmservicestart/stop215(UnicodeString pluginName, UnicodeString errorcode,
+  UnicodeString errordetail)
+opcode: ''
+keywords: Keyword.Server Keyword.Security
+task: Winrmservicestart/stop
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pluginName
+- field_type: UnicodeString
+  field_name: errorcode
+- field_type: UnicodeString
+  field_name: errordetail

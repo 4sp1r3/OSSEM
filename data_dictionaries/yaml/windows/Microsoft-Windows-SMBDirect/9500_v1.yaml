@@ -1,0 +1,63 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '9500'
+version: '1'
+event(fields): task_09500_V1(UnicodeString AdapterAlias, UInt16 NdkMajorVer, UInt16
+  NdkMinorVer, HexInt32 VendorId, HexInt32 DeviceId, UInt64 MaxRegistrationSize, UInt64
+  MaxWindowSize, UInt32 FrmrPageCount, UInt32 MaxInitiatorRequestSge, UInt32 MaxReceiveRequestSge,
+  UInt32 MaxReadRequestSge, UInt32 MaxTransferLength, UInt32 MaxInlineDataSize, UInt32
+  MaxInboundReadLimit, UInt32 MaxOutboundReadLimit, UInt32 MaxReceiveQueueDepth, UInt32
+  MaxInitiatorQueueDepth, UInt32 MaxSrqDepth, UInt32 MaxCqDepth, UInt32 LargeRequestThreshold,
+  UInt32 MaxCallerData, UInt32 MaxCalleeData, HexInt32 AdapterFlags)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AdapterAlias
+- field_type: UInt16
+  field_name: NdkMajorVer
+- field_type: UInt16
+  field_name: NdkMinorVer
+- field_type: HexInt32
+  field_name: VendorId
+- field_type: HexInt32
+  field_name: DeviceId
+- field_type: UInt64
+  field_name: MaxRegistrationSize
+- field_type: UInt64
+  field_name: MaxWindowSize
+- field_type: UInt32
+  field_name: FrmrPageCount
+- field_type: UInt32
+  field_name: MaxInitiatorRequestSge
+- field_type: UInt32
+  field_name: MaxReceiveRequestSge
+- field_type: UInt32
+  field_name: MaxReadRequestSge
+- field_type: UInt32
+  field_name: MaxTransferLength
+- field_type: UInt32
+  field_name: MaxInlineDataSize
+- field_type: UInt32
+  field_name: MaxInboundReadLimit
+- field_type: UInt32
+  field_name: MaxOutboundReadLimit
+- field_type: UInt32
+  field_name: MaxReceiveQueueDepth
+- field_type: UInt32
+  field_name: MaxInitiatorQueueDepth
+- field_type: UInt32
+  field_name: MaxSrqDepth
+- field_type: UInt32
+  field_name: MaxCqDepth
+- field_type: UInt32
+  field_name: LargeRequestThreshold
+- field_type: UInt32
+  field_name: MaxCallerData
+- field_type: UInt32
+  field_name: MaxCalleeData
+- field_type: HexInt32
+  field_name: AdapterFlags

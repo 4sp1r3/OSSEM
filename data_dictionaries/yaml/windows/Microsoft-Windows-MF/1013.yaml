@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MF
+event_id: '1013'
+version: '0'
+event(fields): MediaFoundationMediaProcStreamRequestSampleStop(Pointer MPStream, UInt32
+  Node, UInt32 SampleCount, UInt32 hr)
+opcode: Stop
+keywords: ''
+task: MediaFoundationMediaProcStreamRequestSample
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MPStream
+- field_type: UInt32
+  field_name: Node
+- field_type: UInt32
+  field_name: SampleCount
+- field_type: UInt32
+  field_name: hr

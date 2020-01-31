@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '2318'
+version: '0'
+event(fields): CellularModemContainer2318(Int32 HResultName, UInt32 DwordName, UInt32
+  CellularDataRoamingSettingName)
+opcode: ''
+keywords: Error
+task: CellularModemContainer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HResultName
+- field_type: UInt32
+  field_name: DwordName
+- field_type: UInt32
+  field_name: CellularDataRoamingSettingName

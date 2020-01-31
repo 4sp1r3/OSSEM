@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '2005'
+version: '1'
+event(fields): Loadingdriverstocontrolanewlydiscovereddevice._V1(GUID LifetimeId,
+  UnicodeString InstanceId, UnicodeString ModulePath, UnicodeString CompanyName, UnicodeString
+  FileDescription, UnicodeString FileVersion)
+opcode: ''
+keywords: ''
+task: Loadingdriverstocontrolanewlydiscovereddevice.
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId
+- field_type: UnicodeString
+  field_name: InstanceId
+- field_type: UnicodeString
+  field_name: ModulePath
+- field_type: UnicodeString
+  field_name: CompanyName
+- field_type: UnicodeString
+  field_name: FileDescription
+- field_type: UnicodeString
+  field_name: FileVersion

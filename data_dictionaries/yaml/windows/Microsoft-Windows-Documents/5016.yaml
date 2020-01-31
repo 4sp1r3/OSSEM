@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '5016'
+version: '0'
+event(fields): DocPerf_Task_Opc_Signature_ParseXmlStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Opc_Signature_ParseXml
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

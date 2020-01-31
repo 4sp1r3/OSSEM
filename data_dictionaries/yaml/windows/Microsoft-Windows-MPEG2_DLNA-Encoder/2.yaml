@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MPEG2_DLNA-Encoder
+event_id: '2'
+version: '0'
+event(fields): MPEG_2Encode/MuxforDLNA(Int32 hr)
+opcode: ''
+keywords: ''
+task: MPEG_2Encode/MuxforDLNA
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: hr

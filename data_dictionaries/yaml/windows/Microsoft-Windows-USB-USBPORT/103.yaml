@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '103'
+version: '0'
+event(fields): USBUSER_OP_RAW_RESET_PORTDispatch(AnsiString fid_USBPORT_HC, UInt16
+  fid_PortNumber)
+opcode: Dispatch
+keywords: Diagnostic
+task: USBUSER_OP_RAW_RESET_PORT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: fid_USBPORT_HC
+- field_type: UInt16
+  field_name: fid_PortNumber

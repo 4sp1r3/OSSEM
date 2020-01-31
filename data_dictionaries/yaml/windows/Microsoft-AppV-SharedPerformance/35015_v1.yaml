@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '35015'
+version: '1'
+event(fields): VFSSetInformationFilerenamerequestStop_V1()
+opcode: Stop
+keywords: ''
+task: VFSSetInformationFilerenamerequest
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

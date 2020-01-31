@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '343'
+version: '0'
+event(fields): Profiler(UInt32 Function)
+opcode: ''
+keywords: Profiler
+task: Profiler
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Function

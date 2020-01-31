@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '32'
+version: '0'
+event(fields): MFT_ProcessOutputStop()
+opcode: Stop
+keywords: ''
+task: MFT_ProcessOutput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

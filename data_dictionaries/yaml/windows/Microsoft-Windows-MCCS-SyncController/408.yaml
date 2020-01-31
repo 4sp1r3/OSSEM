@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '408'
+version: '0'
+event(fields): SPERF_TAG_BOOKKEEPER_SERVICE_LOADEDStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_BOOKKEEPER_SERVICE_LOADED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

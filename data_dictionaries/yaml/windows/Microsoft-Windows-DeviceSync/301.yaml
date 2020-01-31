@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '301'
+version: '0'
+event(fields): PartnershipStore_LoadStoreStop()
+opcode: Stop
+keywords: ''
+task: PartnershipStore_LoadStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '191'
+version: '0'
+event(fields): Mshtml_Print_PageStop()
+opcode: Stop
+keywords: subsystem
+task: Mshtml_Print_Page
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Servicing
+event_id: '89'
+version: '0'
+event(fields): Generic_TaskStart89(UnicodeString DescString)
+opcode: Start
+keywords: ''
+task: Generic_Task
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DescString

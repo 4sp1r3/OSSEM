@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-Machine-DUI
+event_id: '5100'
+version: '0'
+event(fields): OOBE_DisplayUIStart()
+opcode: Start
+keywords: msoobe
+task: OOBE_DisplayUI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

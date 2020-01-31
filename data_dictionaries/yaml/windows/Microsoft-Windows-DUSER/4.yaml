@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DUSER
+event_id: '4'
+version: '0'
+event(fields): DUser_SyncAdaptorsStop(Int32 cAdaptors)
+opcode: Stop
+keywords: Default
+task: DUser_SyncAdaptors
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: cAdaptors

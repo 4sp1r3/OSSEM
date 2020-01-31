@@ -1,0 +1,65 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1027'
+version: '0'
+event(fields): task_01027(GUID SpaceId, GUID PoolId, UInt16 IoStateCountSize, Int64
+  IoStateCount, UInt16 IoStateBytesSize, Int64 IoStateBytes, UInt16 IoReasonCountSize,
+  Int64 IoReasonCount, UInt16 IoReasonBytesSize, Int64 IoReasonBytes, Int64 RepairReplacementCount,
+  Int64 RebalanceReplacementCount, Int64 FailedReplacementCount, Int64 ScopeRegenerationCount,
+  Int64 RepairReplacementBytes, Int64 RebalanceReplacementBytes, Int64 FailedReplacementBytes,
+  Int64 ScopeRegenerationBytes, Int64 NeedRepairPhase2Count, Int64 NeedRepairPhase6Count,
+  UInt16 RepairPhasesSize, Int64 RepairPhases, UInt16 RepairStatusSize, UInt32 RepairStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SpaceId
+- field_type: GUID
+  field_name: PoolId
+- field_type: UInt16
+  field_name: IoStateCountSize
+- field_type: Int64
+  field_name: IoStateCount
+- field_type: UInt16
+  field_name: IoStateBytesSize
+- field_type: Int64
+  field_name: IoStateBytes
+- field_type: UInt16
+  field_name: IoReasonCountSize
+- field_type: Int64
+  field_name: IoReasonCount
+- field_type: UInt16
+  field_name: IoReasonBytesSize
+- field_type: Int64
+  field_name: IoReasonBytes
+- field_type: Int64
+  field_name: RepairReplacementCount
+- field_type: Int64
+  field_name: RebalanceReplacementCount
+- field_type: Int64
+  field_name: FailedReplacementCount
+- field_type: Int64
+  field_name: ScopeRegenerationCount
+- field_type: Int64
+  field_name: RepairReplacementBytes
+- field_type: Int64
+  field_name: RebalanceReplacementBytes
+- field_type: Int64
+  field_name: FailedReplacementBytes
+- field_type: Int64
+  field_name: ScopeRegenerationBytes
+- field_type: Int64
+  field_name: NeedRepairPhase2Count
+- field_type: Int64
+  field_name: NeedRepairPhase6Count
+- field_type: UInt16
+  field_name: RepairPhasesSize
+- field_type: Int64
+  field_name: RepairPhases
+- field_type: UInt16
+  field_name: RepairStatusSize
+- field_type: UInt32
+  field_name: RepairStatus

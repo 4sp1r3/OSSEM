@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '272'
+version: '0'
+event(fields): CommonPE272(UInt32 AdapterName, UInt32 Result)
+opcode: ''
+keywords: Selfhost CellPe WifiPe
+task: CommonPE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterName
+- field_type: UInt32
+  field_name: Result

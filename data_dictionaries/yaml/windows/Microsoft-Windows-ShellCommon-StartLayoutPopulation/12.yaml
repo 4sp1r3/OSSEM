@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '12'
+version: '0'
+event(fields): DefaultLayoutManager_PostProcessSelectedLayoutStop(UnicodeString layoutProviderName,
+  UInt32 HResultValue)
+opcode: Stop
+keywords: ''
+task: DefaultLayoutManager_PostProcessSelectedLayout
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: layoutProviderName
+- field_type: UInt32
+  field_name: HResultValue

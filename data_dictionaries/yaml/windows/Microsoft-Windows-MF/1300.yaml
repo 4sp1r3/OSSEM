@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MF
+event_id: '1300'
+version: '0'
+event(fields): MFDSReceiveSampleCP(Pointer Object, Pointer SamplePtr, Int64 Timestamp)
+opcode: ''
+keywords: ''
+task: MFDSReceiveSampleCP
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: SamplePtr
+- field_type: Int64
+  field_name: Timestamp

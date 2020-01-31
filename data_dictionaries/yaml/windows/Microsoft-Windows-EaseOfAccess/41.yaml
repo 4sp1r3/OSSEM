@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-EaseOfAccess
+event_id: '41'
+version: '0'
+event(fields): Magnify_AnimateRectangleStart(UInt32 SourceLeft, UInt32 SourceTop,
+  UInt32 SourceRight, UInt32 SourceBottom, UInt32 DestinationLeft, UInt32 DestinationTop,
+  UInt32 DestinationRight, UInt32 DestinationBottom)
+opcode: Start
+keywords: PerfInstrumentation
+task: Magnify_AnimateRectangle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SourceLeft
+- field_type: UInt32
+  field_name: SourceTop
+- field_type: UInt32
+  field_name: SourceRight
+- field_type: UInt32
+  field_name: SourceBottom
+- field_type: UInt32
+  field_name: DestinationLeft
+- field_type: UInt32
+  field_name: DestinationTop
+- field_type: UInt32
+  field_name: DestinationRight
+- field_type: UInt32
+  field_name: DestinationBottom

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6016'
+version: '0'
+event(fields): task_06016(UInt32 Value)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

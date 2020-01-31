@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FeatureConfiguration
+event_id: '5002'
+version: '0'
+event(fields): FeatureConfigurationEventsStop()
+opcode: Stop
+keywords: ''
+task: FeatureConfigurationEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

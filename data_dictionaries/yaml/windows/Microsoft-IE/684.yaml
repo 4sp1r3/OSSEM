@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '684'
+version: '0'
+event(fields): Mshtml_CDMDraggableTouchTarget_ProcessTouchTargetStatusChange(Boolean
+  fTouchStarting, Pointer CDMDraggableTouchTarget)
+opcode: ''
+keywords: draganddrop touch
+task: Mshtml_CDMDraggableTouchTarget_ProcessTouchTargetStatusChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fTouchStarting
+- field_type: Pointer
+  field_name: CDMDraggableTouchTarget

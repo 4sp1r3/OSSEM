@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WCN-Config-Registrar
+event_id: '8004'
+version: '0'
+event(fields): task_08004(GUID SessionGuid, GUID MessageGuid, UInt16 MessageBlobLength,
+  Binary MessageBlob)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SessionGuid
+- field_type: GUID
+  field_name: MessageGuid
+- field_type: UInt16
+  field_name: MessageBlobLength
+- field_type: Binary
+  field_name: MessageBlob

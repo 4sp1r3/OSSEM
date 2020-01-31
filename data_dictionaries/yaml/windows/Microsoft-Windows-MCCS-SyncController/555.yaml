@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '555'
+version: '0'
+event(fields): task_0555(HexInt32 Prop_Dword, UInt32 Prop_ScheduleTriggerRequirementFlags)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_Dword
+- field_type: UInt32
+  field_name: Prop_ScheduleTriggerRequirementFlags

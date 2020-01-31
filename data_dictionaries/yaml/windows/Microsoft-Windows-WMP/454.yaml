@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WMP
+event_id: '454'
+version: '0'
+event(fields): PLAYSINGLE_PH_BROWSECDS(Pointer ProtocolHandler, UnicodeString UDN,
+  UnicodeString ObjectID, AnsiString ASX, UInt32 HResult)
+opcode: ''
+keywords: mediaplayer
+task: PLAYSINGLE_PH_BROWSECDS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ProtocolHandler
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: UnicodeString
+  field_name: ObjectID
+- field_type: AnsiString
+  field_name: ASX
+- field_type: UInt32
+  field_name: HResult

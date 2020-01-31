@@ -1,0 +1,11 @@
+provider: LsaSrv
+event_id: '6038'
+version: '0'
+event(fields): task_06038()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

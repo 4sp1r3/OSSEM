@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7206'
+version: '0'
+event(fields): Perf_AppSyncDrainDEHQueueStop(UInt32 HRESULT)
+opcode: Stop
+keywords: AppSync
+task: Perf_AppSyncDrainDEHQueue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

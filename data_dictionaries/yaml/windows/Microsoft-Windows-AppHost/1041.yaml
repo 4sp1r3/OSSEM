@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1041'
+version: '0'
+event(fields): ResizeStart()
+opcode: Start
+keywords: WwaHost
+task: Resize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

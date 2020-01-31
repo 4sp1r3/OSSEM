@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '6102'
+version: '0'
+event(fields): task_0Start(GUID InterfaceGuid)
+opcode: Start
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

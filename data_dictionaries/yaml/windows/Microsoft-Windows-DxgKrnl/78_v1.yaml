@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '78'
+version: '1'
+event(fields): ReportSegment_V1(UInt32 ulSegmentId, Pointer pDxgAdapter, UInt64 BaseAddress,
+  UInt64 CpuTranslatedAddress, UInt64 Size, UInt32 NbOfBanks, UInt32 Flags, UInt64
+  CommitLimit, Pointer SystemMemoryEndAddress, UInt8 MemorySegmentGroup)
+opcode: ''
+keywords: Base
+task: ReportSegment
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ulSegmentId
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt64
+  field_name: BaseAddress
+- field_type: UInt64
+  field_name: CpuTranslatedAddress
+- field_type: UInt64
+  field_name: Size
+- field_type: UInt32
+  field_name: NbOfBanks
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt64
+  field_name: CommitLimit
+- field_type: Pointer
+  field_name: SystemMemoryEndAddress
+- field_type: UInt8
+  field_name: MemorySegmentGroup

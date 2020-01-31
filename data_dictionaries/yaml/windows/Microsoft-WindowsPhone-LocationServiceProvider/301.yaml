@@ -1,0 +1,38 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '301'
+version: '0'
+event(fields): WebproxyResponse(HexInt32 RequestId, UInt32 RequestType, Double Latitude,
+  Double Longitude, UInt32 ServerStatus, HexInt32 MappedHResult, UInt32 Accuracy,
+  UnicodeString Floor, UnicodeString VenueId, UInt32 StatusStringLengthInChars, UnicodeString
+  StatusString, UInt32 OrionSource)
+opcode: ''
+keywords: Selfhost Orion WebproxyTracing
+task: WebproxyResponse
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: RequestType
+- field_type: Double
+  field_name: Latitude
+- field_type: Double
+  field_name: Longitude
+- field_type: UInt32
+  field_name: ServerStatus
+- field_type: HexInt32
+  field_name: MappedHResult
+- field_type: UInt32
+  field_name: Accuracy
+- field_type: UnicodeString
+  field_name: Floor
+- field_type: UnicodeString
+  field_name: VenueId
+- field_type: UInt32
+  field_name: StatusStringLengthInChars
+- field_type: UnicodeString
+  field_name: StatusString
+- field_type: UInt32
+  field_name: OrionSource

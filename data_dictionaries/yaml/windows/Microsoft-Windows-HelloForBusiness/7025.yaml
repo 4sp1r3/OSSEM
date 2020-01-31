@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7025'
+version: '0'
+event(fields): ServiceStartInformational(UnicodeString ServiceName, HexInt32 Error)
+opcode: Informational
+keywords: Internal
+task: ServiceStart
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: HexInt32
+  field_name: Error

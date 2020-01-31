@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '39'
+version: '0'
+event(fields): SendAsyncRequestStop()
+opcode: Stop
+keywords: ALPC
+task: SendAsyncRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

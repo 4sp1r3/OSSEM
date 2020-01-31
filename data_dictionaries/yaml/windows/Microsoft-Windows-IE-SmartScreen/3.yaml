@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '3'
+version: '0'
+event(fields): DatCheckStart(UnicodeString URL)
+opcode: Start
+keywords: ''
+task: DatCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL

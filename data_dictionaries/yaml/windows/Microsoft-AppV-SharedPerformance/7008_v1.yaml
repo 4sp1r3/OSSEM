@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '7008'
+version: '1'
+event(fields): VirtualProcessCreatedFinalizeStop_V1()
+opcode: Stop
+keywords: ''
+task: VirtualProcessCreatedFinalize
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

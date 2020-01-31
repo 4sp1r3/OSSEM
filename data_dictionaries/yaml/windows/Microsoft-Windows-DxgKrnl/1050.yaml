@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1050'
+version: '0'
+event(fields): MiracastPerfTrackSourceDroppedFrames(UInt32 DroppedFrames, UInt32 TotalFrames,
+  UInt32 GraphicsDeviceId, UnicodeString GraphicsDriverVersion, UnicodeString SinkDeviceInformation)
+opcode: ''
+keywords: Miracast
+task: MiracastPerfTrackSourceDroppedFrames
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DroppedFrames
+- field_type: UInt32
+  field_name: TotalFrames
+- field_type: UInt32
+  field_name: GraphicsDeviceId
+- field_type: UnicodeString
+  field_name: GraphicsDriverVersion
+- field_type: UnicodeString
+  field_name: SinkDeviceInformation

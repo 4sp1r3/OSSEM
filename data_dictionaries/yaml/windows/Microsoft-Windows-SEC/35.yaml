@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-SEC
+event_id: '35'
+version: '0'
+event(fields): task_035(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime,
+  HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString FileName, Int64
+  OriginalCreationTime, Int64 OriginalLastAccessTime, Int64 OriginalLastWriteTime,
+  Int64 OriginalChangeTime, Int64 ModifiedCreationTime, Int64 ModifiedLastAccessTime,
+  Int64 ModifiedLastWriteTime, Int64 ModifiedChangeTime, HexInt32 FileAttributes,
+  UInt64 ProcessStartKey)
+opcode: ''
+keywords: Event35
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: HexInt32
+  field_name: ProcessId
+- field_type: Int64
+  field_name: ProcessTime
+- field_type: HexInt32
+  field_name: ThreadId
+- field_type: SID
+  field_name: UserSid
+- field_type: HexInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: Int64
+  field_name: OriginalCreationTime
+- field_type: Int64
+  field_name: OriginalLastAccessTime
+- field_type: Int64
+  field_name: OriginalLastWriteTime
+- field_type: Int64
+  field_name: OriginalChangeTime
+- field_type: Int64
+  field_name: ModifiedCreationTime
+- field_type: Int64
+  field_name: ModifiedLastAccessTime
+- field_type: Int64
+  field_name: ModifiedLastWriteTime
+- field_type: Int64
+  field_name: ModifiedChangeTime
+- field_type: HexInt32
+  field_name: FileAttributes
+- field_type: UInt64
+  field_name: ProcessStartKey

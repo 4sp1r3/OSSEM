@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SharedAccess_NAT
+event_id: '30012'
+version: '0'
+event(fields): task_030012(UnicodeString param1)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

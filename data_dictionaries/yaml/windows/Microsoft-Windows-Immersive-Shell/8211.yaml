@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '8211'
+version: '0'
+event(fields): BackStackMusicPlay_Proffer_Data_Source_Service()
+opcode: ''
+keywords: ''
+task: BackStackMusicPlay_Proffer_Data_Source_Service
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

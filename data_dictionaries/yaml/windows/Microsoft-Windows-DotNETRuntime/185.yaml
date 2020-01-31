@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '185'
+version: '0'
+event(fields): MethodInliningSucceeded(UnicodeString MethodBeingCompiledNamespace,
+  UnicodeString MethodBeingCompiledName, UnicodeString MethodBeingCompiledNameSignature,
+  UnicodeString InlinerNamespace, UnicodeString InlinerName, UnicodeString InlinerNameSignature,
+  UnicodeString InlineeNamespace, UnicodeString InlineeName, UnicodeString InlineeNameSignature,
+  UInt16 ClrInstanceID)
+opcode: InliningSucceeded
+keywords: JitTracingKeyword
+task: Method
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MethodBeingCompiledNamespace
+- field_type: UnicodeString
+  field_name: MethodBeingCompiledName
+- field_type: UnicodeString
+  field_name: MethodBeingCompiledNameSignature
+- field_type: UnicodeString
+  field_name: InlinerNamespace
+- field_type: UnicodeString
+  field_name: InlinerName
+- field_type: UnicodeString
+  field_name: InlinerNameSignature
+- field_type: UnicodeString
+  field_name: InlineeNamespace
+- field_type: UnicodeString
+  field_name: InlineeName
+- field_type: UnicodeString
+  field_name: InlineeNameSignature
+- field_type: UInt16
+  field_name: ClrInstanceID

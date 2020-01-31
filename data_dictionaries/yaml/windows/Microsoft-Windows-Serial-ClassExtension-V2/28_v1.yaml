@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Serial-ClassExtension-V2
+event_id: '28'
+version: '1'
+event(fields): I/Orequest.28_V1(Pointer Device, HexInt32 Event)
+opcode: ''
+keywords: IO
+task: I/Orequest.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Device
+- field_type: HexInt32
+  field_name: Event

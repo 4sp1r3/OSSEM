@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '100'
+version: '0'
+event(fields): MediaFoundationTransferFrameStart(UInt32 id)
+opcode: Start
+keywords: ''
+task: MediaFoundationTransferFrame
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id

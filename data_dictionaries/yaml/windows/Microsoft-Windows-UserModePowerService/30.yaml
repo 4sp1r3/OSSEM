@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '30'
+version: '0'
+event(fields): SmartUserPresenceIntevalsClear(SID UserSid)
+opcode: ''
+keywords: SmartUserPresence
+task: SmartUserPresenceIntevalsClear
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: UserSid

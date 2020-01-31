@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1030'
+version: '0'
+event(fields): MiracastUmdDriverCbReportSessionStatus(UInt64 MiracastLuid, UInt32
+  MiracastSessionStatus, UInt32 Status)
+opcode: ''
+keywords: Miracast
+task: MiracastUmdDriverCbReportSessionStatus
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UInt32
+  field_name: MiracastSessionStatus
+- field_type: UInt32
+  field_name: Status

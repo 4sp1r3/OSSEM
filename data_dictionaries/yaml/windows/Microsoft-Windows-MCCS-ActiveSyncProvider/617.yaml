@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '617'
+version: '0'
+event(fields): SPERF_TAG_SYNCSESSION_INITStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_SYNCSESSION_INIT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

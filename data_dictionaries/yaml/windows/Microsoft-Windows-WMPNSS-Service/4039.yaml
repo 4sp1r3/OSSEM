@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4039'
+version: '0'
+event(fields): Obj_Get_Desc_Element_ValueStop(UInt32 CountAdded, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Obj_Get_Desc_Element_Value
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CountAdded
+- field_type: UInt32
+  field_name: ErrorCode

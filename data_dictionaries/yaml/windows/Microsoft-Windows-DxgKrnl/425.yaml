@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '425'
+version: '0'
+event(fields): PagingOpSaveRestoreFrameBuffer(Pointer pDxgAdapter, UInt32 QueriedSize)
+opcode: ''
+keywords: Resource
+task: PagingOpSaveRestoreFrameBuffer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: QueriedSize

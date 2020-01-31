@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1048'
+version: '0'
+event(fields): SuspendingGarbageCollectionStop()
+opcode: Stop
+keywords: WwaHost
+task: SuspendingGarbageCollection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

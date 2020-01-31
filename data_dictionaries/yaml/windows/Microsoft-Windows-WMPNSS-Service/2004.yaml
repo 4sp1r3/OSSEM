@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '2004'
+version: '0'
+event(fields): Svc_Filter_EndpointStop()
+opcode: Stop
+keywords: ''
+task: Svc_Filter_Endpoint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

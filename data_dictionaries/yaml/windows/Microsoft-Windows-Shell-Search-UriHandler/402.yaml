@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Search-UriHandler
+event_id: '402'
+version: '0'
+event(fields): SearchInvocationStop(UInt32 Result)
+opcode: Stop
+keywords: ''
+task: SearchInvocation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

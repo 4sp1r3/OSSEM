@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TerminalServices-LocalSessionManager
+event_id: '20'
+version: '0'
+event(fields): task_020(UnicodeString messageName, HexInt32 errorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: messageName
+- field_type: HexInt32
+  field_name: errorCode

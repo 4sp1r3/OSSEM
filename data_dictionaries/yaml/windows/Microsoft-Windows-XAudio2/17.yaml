@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAudio2
+event_id: '17'
+version: '0'
+event(fields): Initialize17()
+opcode: ''
+keywords: ''
+task: Initialize
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

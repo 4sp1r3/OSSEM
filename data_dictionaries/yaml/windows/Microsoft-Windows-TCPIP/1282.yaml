@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1282'
+version: '0'
+event(fields): Ndkpi_Disconnect_Event_Callback(Pointer DisconnectEventContext)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Disconnect_Event_Callback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DisconnectEventContext

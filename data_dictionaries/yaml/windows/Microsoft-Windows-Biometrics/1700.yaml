@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Biometrics
+event_id: '1700'
+version: '0'
+event(fields): WBioSrvc1700(UnicodeString SID, UnicodeString Username, UInt32 Type)
+opcode: ''
+keywords: ''
+task: WBioSrvc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SID
+- field_type: UnicodeString
+  field_name: Username
+- field_type: UInt32
+  field_name: Type

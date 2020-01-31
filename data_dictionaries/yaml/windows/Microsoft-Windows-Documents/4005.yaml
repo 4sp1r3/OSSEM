@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '4005'
+version: '0'
+event(fields): DocPerf_Task_Xps_WritePackageStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Xps_WritePackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

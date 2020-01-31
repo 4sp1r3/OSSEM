@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BTH-BTHPORT
+event_id: '261'
+version: '0'
+event(fields): task_0261(GUID Child_Activity_ID, GUID Related_Activity_ID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Child_Activity_ID
+- field_type: GUID
+  field_name: Related_Activity_ID

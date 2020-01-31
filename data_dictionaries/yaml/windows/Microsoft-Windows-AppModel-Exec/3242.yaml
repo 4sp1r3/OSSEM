@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '3242'
+version: '0'
+event(fields): LogTraceStop3242(GUID p1_GUID)
+opcode: Stop
+keywords: ExecMan ExecDevPlatCircular
+task: LogTrace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: p1_GUID

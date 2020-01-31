@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '591'
+version: '0'
+event(fields): Immersive_Travellog_BeforeUnload_Fired()
+opcode: ''
+keywords: TravelLogScreenshotNav
+task: Immersive_Travellog_BeforeUnload_Fired
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

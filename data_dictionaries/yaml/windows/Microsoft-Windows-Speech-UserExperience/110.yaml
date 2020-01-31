@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '110'
+version: '0'
+event(fields): FTUE_AdjustVolToMicSetupCompleteNavigationStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: FTUE_AdjustVolToMicSetupCompleteNavigation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

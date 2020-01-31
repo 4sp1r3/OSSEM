@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '112'
+version: '0'
+event(fields): USBUSER_OP_SEND_ONE_PACKETCompletewithData(UInt8 fid_USBPORT_HC, UInt64
+  fid_USBPORT_Usbuser_Op_Send_One_Packet, UInt16 fid_PacketDataLength, UInt8 fid_PacketData)
+opcode: CompletewithData
+keywords: Diagnostic
+task: USBUSER_OP_SEND_ONE_PACKET
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: fid_USBPORT_HC
+- field_type: UInt64
+  field_name: fid_USBPORT_Usbuser_Op_Send_One_Packet
+- field_type: UInt16
+  field_name: fid_PacketDataLength
+- field_type: UInt8
+  field_name: fid_PacketData

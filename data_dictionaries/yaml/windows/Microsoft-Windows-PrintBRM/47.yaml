@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '47'
+version: '0'
+event(fields): BackupPrintBRMoperationfailure47(UnicodeString FileName, HexInt32 ErrorCode)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_BRM_KEYWORD
+task: Backup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: HexInt32
+  field_name: ErrorCode

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '15'
+version: '0'
+event(fields): DefaultLayoutManager_WriteStartLayoutToStorage(UnicodeString value)
+opcode: ''
+keywords: ''
+task: DefaultLayoutManager_WriteStartLayoutToStorage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value

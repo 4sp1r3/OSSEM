@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '513'
+version: '1'
+event(fields): ClassCompletionofrequest.513_V1(GUID DeviceGUID, HexInt32 Status, UInt32
+  InputBufferLength, UInt32 DeviceNumber, UInt32 PortDriverCodeSet, UInt32 FirmwareGetInfoSupport,
+  UInt8 HWFirmwareSupportUpgrade, UInt32 ImagePayloadAlignment, UInt8 SlotCount, UInt32
+  SlotIndex, UInt32 FWImageVersion, UInt32 FWSize, UInt8 FWSlot, UInt64 FWImageBufferSize,
+  UInt32 Flags, UInt64 FWImageOffset)
+opcode: Completionofrequest.
+keywords: FirmwareUpdate
+task: Class
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGUID
+- field_type: HexInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: InputBufferLength
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: UInt32
+  field_name: PortDriverCodeSet
+- field_type: UInt32
+  field_name: FirmwareGetInfoSupport
+- field_type: UInt8
+  field_name: HWFirmwareSupportUpgrade
+- field_type: UInt32
+  field_name: ImagePayloadAlignment
+- field_type: UInt8
+  field_name: SlotCount
+- field_type: UInt32
+  field_name: SlotIndex
+- field_type: UInt32
+  field_name: FWImageVersion
+- field_type: UInt32
+  field_name: FWSize
+- field_type: UInt8
+  field_name: FWSlot
+- field_type: UInt64
+  field_name: FWImageBufferSize
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt64
+  field_name: FWImageOffset

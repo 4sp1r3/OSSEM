@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1228'
+version: '0'
+event(fields): Wininet_UrlCacheContainerStop1228(UnicodeString Name, UnicodeString
+  Prefix, UnicodeString Directory, UnicodeString RootPath, Int64 Limit, UInt32 Options)
+opcode: Stop
+keywords: WININET_KEYWORD_IE
+task: Wininet_UrlCacheContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Prefix
+- field_type: UnicodeString
+  field_name: Directory
+- field_type: UnicodeString
+  field_name: RootPath
+- field_type: Int64
+  field_name: Limit
+- field_type: UInt32
+  field_name: Options

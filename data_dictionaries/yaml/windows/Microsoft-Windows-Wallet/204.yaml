@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Wallet
+event_id: '204'
+version: '0'
+event(fields): List_Get_SearchStop(UInt32 ListType)
+opcode: Stop
+keywords: Performance
+task: List_Get_Search
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ListType

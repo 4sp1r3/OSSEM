@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Memory
+event_id: '6'
+version: '1'
+event(fields): WorkingSetInSwapStart_V1(UInt32 ProcessId, HexInt32 Flags)
+opcode: Start
+keywords: KERNEL_MEM_KEYWORD_WS_SWAP
+task: WorkingSetInSwap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: HexInt32
+  field_name: Flags

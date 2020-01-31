@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30906'
+version: '0'
+event(fields): task_030906(UInt8 IrpCode, UInt32 RestartCount, UInt16 ShareNameLength,
+  UnicodeString ShareName, UInt16 ObjectNameLength, UnicodeString ObjectName, UInt32
+  Status, UInt32 Reason, UInt32 HistoryCount, UInt64 HistoryEntry)
+opcode: ''
+keywords: Smb_TFO
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: IrpCode
+- field_type: UInt32
+  field_name: RestartCount
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt16
+  field_name: ObjectNameLength
+- field_type: UnicodeString
+  field_name: ObjectName
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: HistoryCount
+- field_type: UInt64
+  field_name: HistoryEntry

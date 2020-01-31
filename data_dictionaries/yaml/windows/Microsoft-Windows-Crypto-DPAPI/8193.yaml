@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Crypto-DPAPI
+event_id: '8193'
+version: '0'
+event(fields): MasterKeyOperation8193(HexInt32 Status)
+opcode: ''
+keywords: ETW_TASK_MASTERKEY_OPERATION
+task: MasterKeyOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '100'
+version: '0'
+event(fields): BIND_GDISPRITEBITMAP_FIRST_TOKEN(UInt64 logicalSurfaceImagePointer,
+  UInt64 hDxSharedSurface, UInt64 windowNodePointer, UInt64 windowNodeParentPointer,
+  UInt64 logicalSurfaceImageLHandle)
+opcode: ''
+keywords: DwmCore
+task: BIND_GDISPRITEBITMAP_FIRST_TOKEN
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: logicalSurfaceImagePointer
+- field_type: UInt64
+  field_name: hDxSharedSurface
+- field_type: UInt64
+  field_name: windowNodePointer
+- field_type: UInt64
+  field_name: windowNodeParentPointer
+- field_type: UInt64
+  field_name: logicalSurfaceImageLHandle

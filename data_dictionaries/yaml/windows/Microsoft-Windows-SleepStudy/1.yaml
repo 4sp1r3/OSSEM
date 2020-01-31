@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-SleepStudy
+event_id: '1'
+version: '0'
+event(fields): ScenarioBlocker(UInt8 ScenarioInstanceId, GUID ParentGuid, UInt32 BlockerNameLength,
+  UnicodeString BlockerName, GUID BlockerGuid, UInt64 ActiveTime)
+opcode: ''
+keywords: sleepstudy
+task: ScenarioBlocker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ScenarioInstanceId
+- field_type: GUID
+  field_name: ParentGuid
+- field_type: UInt32
+  field_name: BlockerNameLength
+- field_type: UnicodeString
+  field_name: BlockerName
+- field_type: GUID
+  field_name: BlockerGuid
+- field_type: UInt64
+  field_name: ActiveTime

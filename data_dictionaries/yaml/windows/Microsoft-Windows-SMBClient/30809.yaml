@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30809'
+version: '0'
+event(fields): task_030809(UInt16 Smb2Command, UInt64 MessageId, UInt64 SessionId,
+  UInt32 TreeId, UInt16 ServerNameLength, UnicodeString ServerName, UInt32 Status,
+  UInt16 InstanceNameLength, UnicodeString InstanceName, UInt32 RetryCount, UInt32
+  ElapsedTimeInMs)
+opcode: ''
+keywords: Smb_Connectivity
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Smb2Command
+- field_type: UInt64
+  field_name: MessageId
+- field_type: UInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: TreeId
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt16
+  field_name: InstanceNameLength
+- field_type: UnicodeString
+  field_name: InstanceName
+- field_type: UInt32
+  field_name: RetryCount
+- field_type: UInt32
+  field_name: ElapsedTimeInMs

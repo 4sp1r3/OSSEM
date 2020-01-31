@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-WLAN-Driver
+event_id: '0'
+version: '1'
+event(fields): DataTransmitReceiveTransmit_V1(UInt32 FrameUniqueID, UInt32 PortNumber,
+  UInt8 TID, UInt32 PeerID, UInt16 PayloadLength, UInt16 QueueLength, Boolean QueueState,
+  UInt32 CustomData1, UInt32 CustomData2, UInt32 CustomData3)
+opcode: Transmit
+keywords: DataPath
+task: DataTransmitReceive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FrameUniqueID
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: TID
+- field_type: UInt32
+  field_name: PeerID
+- field_type: UInt16
+  field_name: PayloadLength
+- field_type: UInt16
+  field_name: QueueLength
+- field_type: Boolean
+  field_name: QueueState
+- field_type: UInt32
+  field_name: CustomData1
+- field_type: UInt32
+  field_name: CustomData2
+- field_type: UInt32
+  field_name: CustomData3

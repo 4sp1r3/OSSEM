@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '17010'
+version: '0'
+event(fields): StagekeyinthebackgroundStart()
+opcode: Start
+keywords: ''
+task: Stagekeyinthebackground
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '18'
+version: '0'
+event(fields): DShow_ReceiveStart()
+opcode: Start
+keywords: ''
+task: DShow_Receive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

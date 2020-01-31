@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '31'
+version: '0'
+event(fields): SetImagePixelsStart()
+opcode: Start
+keywords: Reader
+task: SetImagePixels
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

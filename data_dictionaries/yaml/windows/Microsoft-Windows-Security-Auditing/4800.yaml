@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4800'
+version: '0'
+event(fields): task_04800(SID TargetUserSid, UnicodeString TargetUserName, UnicodeString
+  TargetDomainName, HexInt64 TargetLogonId, UInt32 SessionId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: TargetUserSid
+- field_type: UnicodeString
+  field_name: TargetUserName
+- field_type: UnicodeString
+  field_name: TargetDomainName
+- field_type: HexInt64
+  field_name: TargetLogonId
+- field_type: UInt32
+  field_name: SessionId

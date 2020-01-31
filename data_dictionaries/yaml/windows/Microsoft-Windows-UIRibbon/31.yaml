@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIRibbon
+event_id: '31'
+version: '0'
+event(fields): FontControlsGenerateBitmapsStop()
+opcode: Stop
+keywords: Default
+task: FontControlsGenerateBitmaps
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

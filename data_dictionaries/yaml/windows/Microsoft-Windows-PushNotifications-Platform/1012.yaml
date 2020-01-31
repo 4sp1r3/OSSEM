@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1012'
+version: '0'
+event(fields): task_01012(UInt32 BatchingState)
+opcode: ''
+keywords: wpnconn
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BatchingState

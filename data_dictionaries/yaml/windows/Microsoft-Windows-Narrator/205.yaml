@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '205'
+version: '0'
+event(fields): GetNextChunkStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: GetNextChunk
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

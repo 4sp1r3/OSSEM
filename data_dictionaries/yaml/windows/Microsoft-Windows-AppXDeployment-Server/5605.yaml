@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '5605'
+version: '0'
+event(fields): task_05605(HexInt32 Error, UnicodeString PackageMoniker)
+opcode: ''
+keywords: APPLYDATA_DEH_KEYWORD
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: PackageMoniker

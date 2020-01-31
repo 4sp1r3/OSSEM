@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4418'
+version: '0'
+event(fields): MSG_PREPROCESSWRITEStart()
+opcode: Start
+keywords: Performance
+task: MSG_PREPROCESSWRITE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

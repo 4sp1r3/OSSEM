@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '582'
+version: '0'
+event(fields): Browseui_Tabs_Activity_Show(Int32 TabID, Int32 TabVisibleIndex)
+opcode: ''
+keywords: primarynav
+task: Browseui_Tabs_Activity_Show
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: TabID
+- field_type: Int32
+  field_name: TabVisibleIndex

@@ -1,0 +1,29 @@
+provider: Microsoft-IE
+event_id: '410'
+version: '1'
+event(fields): Mshtml_Animations_TransitioningStart_V1(Pointer TransitionClientObject,
+  Pointer StoryboardObject, Pointer TreeNode, Double DurationInSeconds, Double DelayInSeconds,
+  UInt32 DISPID, Boolean IsReversal, UInt64 DDTObject)
+opcode: Start
+keywords: animation
+task: Mshtml_Animations_Transitioning
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TransitionClientObject
+- field_type: Pointer
+  field_name: StoryboardObject
+- field_type: Pointer
+  field_name: TreeNode
+- field_type: Double
+  field_name: DurationInSeconds
+- field_type: Double
+  field_name: DelayInSeconds
+- field_type: UInt32
+  field_name: DISPID
+- field_type: Boolean
+  field_name: IsReversal
+- field_type: UInt64
+  field_name: DDTObject

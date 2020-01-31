@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Search
+event_id: '7001'
+version: '0'
+event(fields): task_0PCODE_192pcode_1927001(UnicodeString ExtraInfo, UnicodeString
+  SrcFile, UnicodeString DstFile)
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtraInfo
+- field_type: UnicodeString
+  field_name: SrcFile
+- field_type: UnicodeString
+  field_name: DstFile

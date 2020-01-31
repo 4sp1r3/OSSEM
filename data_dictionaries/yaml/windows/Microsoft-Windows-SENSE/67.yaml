@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SENSE
+event_id: '67'
+version: '0'
+event(fields): task_067(UInt64 UInt1, UInt64 UInt2, UInt64 UInt3, UnicodeString Message1,
+  Int32 Int1)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UInt1
+- field_type: UInt64
+  field_name: UInt2
+- field_type: UInt64
+  field_name: UInt3
+- field_type: UnicodeString
+  field_name: Message1
+- field_type: Int32
+  field_name: Int1

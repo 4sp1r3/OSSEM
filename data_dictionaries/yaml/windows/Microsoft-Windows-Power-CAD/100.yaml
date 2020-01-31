@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Power-CAD
+event_id: '100'
+version: '0'
+event(fields): Trace(UnicodeString Message)
+opcode: ''
+keywords: Trace
+task: Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message

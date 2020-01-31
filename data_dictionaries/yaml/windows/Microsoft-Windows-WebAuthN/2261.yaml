@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2261'
+version: '0'
+event(fields): CtapBleDeviceThreadStop(GUID TransactionId, UnicodeString DevicePath,
+  UnicodeString PairedName, GUID AAGuid, Boolean U2fProtocol)
+opcode: Stop
+keywords: Ctap Ble
+task: CtapBleDeviceThread
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UnicodeString
+  field_name: DevicePath
+- field_type: UnicodeString
+  field_name: PairedName
+- field_type: GUID
+  field_name: AAGuid
+- field_type: Boolean
+  field_name: U2fProtocol

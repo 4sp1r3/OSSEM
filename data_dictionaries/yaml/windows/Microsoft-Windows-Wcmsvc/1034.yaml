@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '1034'
+version: '0'
+event(fields): task_01034(UInt32 OnDemandType, GUID InterfaceGUID, UnicodeString OnDemandInfo,
+  UnicodeString ProviderID, UInt32 NewState, UInt32 Refcount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OnDemandType
+- field_type: GUID
+  field_name: InterfaceGUID
+- field_type: UnicodeString
+  field_name: OnDemandInfo
+- field_type: UnicodeString
+  field_name: ProviderID
+- field_type: UInt32
+  field_name: NewState
+- field_type: UInt32
+  field_name: Refcount

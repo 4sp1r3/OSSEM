@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '4024'
+version: '0'
+event(fields): task_0Start4024()
+opcode: Start
+keywords: search
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

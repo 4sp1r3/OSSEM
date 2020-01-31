@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4821'
+version: '0'
+event(fields): task_04821(UnicodeString TargetUserName, UnicodeString TargetDomainName,
+  UnicodeString DeviceName, UnicodeString ServiceName, SID ServiceSid, HexInt32 TicketOptions,
+  HexInt32 TicketEncryptionType, UnicodeString IpAddress, UnicodeString IpPort, HexInt32
+  Status, GUID LogonGuid, UnicodeString TransitedServices, UnicodeString SiloName,
+  UnicodeString PolicyName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TargetUserName
+- field_type: UnicodeString
+  field_name: TargetDomainName
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: SID
+  field_name: ServiceSid
+- field_type: HexInt32
+  field_name: TicketOptions
+- field_type: HexInt32
+  field_name: TicketEncryptionType
+- field_type: UnicodeString
+  field_name: IpAddress
+- field_type: UnicodeString
+  field_name: IpPort
+- field_type: HexInt32
+  field_name: Status
+- field_type: GUID
+  field_name: LogonGuid
+- field_type: UnicodeString
+  field_name: TransitedServices
+- field_type: UnicodeString
+  field_name: SiloName
+- field_type: UnicodeString
+  field_name: PolicyName

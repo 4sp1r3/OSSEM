@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '123'
+version: '1'
+event(fields): PowerTransition123_V1(UInt32 HiberfileSize, UInt32 TotalHybridShutdownTime,
+  UInt32 HiberfileCreateTime, UInt32 SystemShutdownTime)
+opcode: ''
+keywords: po:Scenario po:Performance po:PerformanceLight
+task: PowerTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HiberfileSize
+- field_type: UInt32
+  field_name: TotalHybridShutdownTime
+- field_type: UInt32
+  field_name: HiberfileCreateTime
+- field_type: UInt32
+  field_name: SystemShutdownTime

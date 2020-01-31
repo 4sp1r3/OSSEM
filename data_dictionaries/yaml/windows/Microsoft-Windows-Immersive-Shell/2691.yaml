@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2691'
+version: '0'
+event(fields): Settings_Launch_AccountsStart()
+opcode: Start
+keywords: ''
+task: Settings_Launch_Accounts
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

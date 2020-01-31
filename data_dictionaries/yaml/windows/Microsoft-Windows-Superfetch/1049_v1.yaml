@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1049'
+version: '1'
+event(fields): PrelaunchProcessCommand_V1(UInt32 CommandCode, UnicodeString AUMID)
+opcode: ''
+keywords: PfAp
+task: PrelaunchProcessCommand
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CommandCode
+- field_type: UnicodeString
+  field_name: AUMID

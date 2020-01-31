@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '78'
+version: '0'
+event(fields): USBPORT_URB_INVALID_HEADER_LENGTH_WARNINGDispatch(UInt8 fid_USBPORT_HC,
+  Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt64 fid_USBPORT_URB_HEADER)
+opcode: Dispatch
+keywords: Diagnostic
+task: USBPORT_URB_INVALID_HEADER_LENGTH_WARNING
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: fid_USBPORT_HC
+- field_type: Pointer
+  field_name: fid_IRP_Ptr
+- field_type: Pointer
+  field_name: fid_URB_Ptr
+- field_type: UInt64
+  field_name: fid_USBPORT_URB_HEADER

@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-PrintService
+event_id: '822'
+version: '0'
+event(fields): ClientSideRenderingrevertingtoServerSideRenderingSpoolerOperationFailed822(UnicodeString
+  LocalPrintProcessor, UnicodeString RemotePrintProcessor, UnicodeString DefaultPrintProcessor,
+  UnicodeString LocalDataType, UnicodeString RemoteDataType, UnicodeString DefaultDataType,
+  HexInt32 ErrorCode)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_CSR
+task: ClientSideRenderingrevertingtoServerSideRendering
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalPrintProcessor
+- field_type: UnicodeString
+  field_name: RemotePrintProcessor
+- field_type: UnicodeString
+  field_name: DefaultPrintProcessor
+- field_type: UnicodeString
+  field_name: LocalDataType
+- field_type: UnicodeString
+  field_name: RemoteDataType
+- field_type: UnicodeString
+  field_name: DefaultDataType
+- field_type: HexInt32
+  field_name: ErrorCode

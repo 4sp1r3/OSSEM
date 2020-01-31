@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '57'
+version: '0'
+event(fields): ClientGetNextRows(UInt64 Rowset, UInt64 Chapter, Int64 RowsToSkip,
+  Int64 RowsRequested, UInt64 RowsReturned)
+opcode: ''
+keywords: ''
+task: ClientGetNextRows
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Rowset
+- field_type: UInt64
+  field_name: Chapter
+- field_type: Int64
+  field_name: RowsToSkip
+- field_type: Int64
+  field_name: RowsRequested
+- field_type: UInt64
+  field_name: RowsReturned

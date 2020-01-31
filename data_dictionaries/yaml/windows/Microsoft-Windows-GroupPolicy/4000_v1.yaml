@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '4000'
+version: '1'
+event(fields): task_0Start4000_V1(GUID PolicyActivityId, UnicodeString PrincipalSamName,
+  UInt32 IsMachine, Boolean IsDomainJoined, Boolean IsBackgroundProcessing, Boolean
+  IsAsyncProcessing, Boolean IsServiceRestart, UInt32 ReasonForSyncProcessing)
+opcode: Start
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PolicyActivityId
+- field_type: UnicodeString
+  field_name: PrincipalSamName
+- field_type: UInt32
+  field_name: IsMachine
+- field_type: Boolean
+  field_name: IsDomainJoined
+- field_type: Boolean
+  field_name: IsBackgroundProcessing
+- field_type: Boolean
+  field_name: IsAsyncProcessing
+- field_type: Boolean
+  field_name: IsServiceRestart
+- field_type: UInt32
+  field_name: ReasonForSyncProcessing

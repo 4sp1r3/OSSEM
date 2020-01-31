@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5058'
+version: '0'
+event(fields): UdwmTitleTextAligned(Int32 alignment)
+opcode: ''
+keywords: Udwm
+task: UdwmTitleTextAligned
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: alignment

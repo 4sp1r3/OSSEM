@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1114'
+version: '0'
+event(fields): DataLayer_ResultSetFilterResultsStart(UInt32 Count)
+opcode: Start
+keywords: Shell
+task: DataLayer_ResultSetFilterResults
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count

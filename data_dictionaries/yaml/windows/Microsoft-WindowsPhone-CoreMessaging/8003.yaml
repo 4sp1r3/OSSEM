@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '8003'
+version: '0'
+event(fields): IoCompletionPort8003(Pointer ptr1, Pointer ptr2, Boolean fBool)
+opcode: ''
+keywords: MessagingPerformance
+task: IoCompletionPort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ptr1
+- field_type: Pointer
+  field_name: ptr2
+- field_type: Boolean
+  field_name: fBool

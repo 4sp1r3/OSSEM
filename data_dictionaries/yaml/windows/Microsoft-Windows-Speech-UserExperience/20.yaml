@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '20'
+version: '0'
+event(fields): Hub_MisrecoStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: Hub_Misreco
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

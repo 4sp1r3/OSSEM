@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '291'
+version: '0'
+event(fields): ServerGetRowsStart(UInt32 Qid, UInt32 WidStart, UInt32 Chapter, UInt32
+  Depth, Int64 RowOffset, UInt32 RequestedRows)
+opcode: Start
+keywords: Querying
+task: ServerGetRows
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Qid
+- field_type: UInt32
+  field_name: WidStart
+- field_type: UInt32
+  field_name: Chapter
+- field_type: UInt32
+  field_name: Depth
+- field_type: Int64
+  field_name: RowOffset
+- field_type: UInt32
+  field_name: RequestedRows

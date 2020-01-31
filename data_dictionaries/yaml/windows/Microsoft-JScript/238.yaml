@@ -1,0 +1,20 @@
+provider: Microsoft-JScript
+event_id: '238'
+version: '0'
+event(fields): Memprotect_GC_Allocation(Pointer HeapHandle, UInt64 Size, Pointer Address,
+  UInt32 Source)
+opcode: ''
+keywords: MemProtectObjectAllocation
+task: Memprotect_GC_Allocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HeapHandle
+- field_type: UInt64
+  field_name: Size
+- field_type: Pointer
+  field_name: Address
+- field_type: UInt32
+  field_name: Source

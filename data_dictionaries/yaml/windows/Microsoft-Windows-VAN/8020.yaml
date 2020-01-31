@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-VAN
+event_id: '8020'
+version: '0'
+event(fields): DisplayContextMenuStop()
+opcode: Stop
+keywords: VAN_Performance
+task: DisplayContextMenu
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

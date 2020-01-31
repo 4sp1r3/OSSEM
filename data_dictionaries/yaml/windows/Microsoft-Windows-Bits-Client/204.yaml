@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '204'
+version: '0'
+event(fields): task_0204(UnicodeString string, UnicodeString string2, UnicodeString
+  string3)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: string
+- field_type: UnicodeString
+  field_name: string2
+- field_type: UnicodeString
+  field_name: string3

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '228'
+version: '0'
+event(fields): RuntimePowerManagement228(Pointer AdapterHandle, UInt32 ComponentIndex,
+  UInt64 Latency)
+opcode: ''
+keywords: DxgKrnl_Power
+task: RuntimePowerManagement
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdapterHandle
+- field_type: UInt32
+  field_name: ComponentIndex
+- field_type: UInt64
+  field_name: Latency

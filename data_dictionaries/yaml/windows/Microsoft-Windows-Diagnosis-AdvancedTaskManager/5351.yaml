@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5351'
+version: '0'
+event(fields): Dashboard_SetupStart()
+opcode: Start
+keywords: dashboard
+task: Dashboard_Setup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

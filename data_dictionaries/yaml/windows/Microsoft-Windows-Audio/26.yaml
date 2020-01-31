@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Audio
+event_id: '26'
+version: '0'
+event(fields): Audio_Glitch_DetectionCaptureMonitorRenderGlitch(Pointer pCMonitor,
+  UInt64 DevicePosition, UInt64 QPCPosition)
+opcode: CaptureMonitorRenderGlitch
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCMonitor
+- field_type: UInt64
+  field_name: DevicePosition
+- field_type: UInt64
+  field_name: QPCPosition

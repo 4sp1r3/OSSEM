@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1087'
+version: '0'
+event(fields): OPMDestroyProtectedOutput(Pointer MiniportDeviceContext, Boolean RedirectedForIndirectDisplay,
+  Pointer DriverProtectedOutputHandle, UInt32 Status)
+opcode: ''
+keywords: Base
+task: OPMDestroyProtectedOutput
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportDeviceContext
+- field_type: Boolean
+  field_name: RedirectedForIndirectDisplay
+- field_type: Pointer
+  field_name: DriverProtectedOutputHandle
+- field_type: UInt32
+  field_name: Status

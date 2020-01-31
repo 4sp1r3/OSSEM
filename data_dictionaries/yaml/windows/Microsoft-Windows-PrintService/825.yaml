@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PrintService
+event_id: '825'
+version: '0'
+event(fields): ClientSideRenderingrevertingtoServerSideRenderingSpoolerOperationFailed825(UnicodeString
+  PrintProcessor, UnicodeString Connection, HexInt32 IsXpsPrinter, HexInt32 ErrorCode)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_CSR
+task: ClientSideRenderingrevertingtoServerSideRendering
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PrintProcessor
+- field_type: UnicodeString
+  field_name: Connection
+- field_type: HexInt32
+  field_name: IsXpsPrinter
+- field_type: HexInt32
+  field_name: ErrorCode

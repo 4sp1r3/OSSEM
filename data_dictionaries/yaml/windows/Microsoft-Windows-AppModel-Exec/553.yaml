@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '553'
+version: '0'
+event(fields): BM_ShellSuspendStateChanged(UInt32 OldState, UInt32 NewState)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BM_ShellSuspendStateChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OldState
+- field_type: UInt32
+  field_name: NewState

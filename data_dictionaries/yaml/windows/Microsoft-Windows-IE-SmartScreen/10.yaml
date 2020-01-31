@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '10'
+version: '0'
+event(fields): DatCheck(UnicodeString URL, Boolean DatExist)
+opcode: ''
+keywords: functionality
+task: DatCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL
+- field_type: Boolean
+  field_name: DatExist

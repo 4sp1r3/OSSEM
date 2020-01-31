@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TZUtil
+event_id: '1005'
+version: '0'
+event(fields): TZUtiltimezonefunctionalityTZUtiloperations1005(UnicodeString TimeZone,
+  UInt32 ErrorCode)
+opcode: TZUtiloperations
+keywords: ''
+task: TZUtiltimezonefunctionality
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TimeZone
+- field_type: UInt32
+  field_name: ErrorCode

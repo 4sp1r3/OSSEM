@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '1516'
+version: '0'
+event(fields): DocPerf_Task_Wia_ServiceShutdownStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Wia_ServiceShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

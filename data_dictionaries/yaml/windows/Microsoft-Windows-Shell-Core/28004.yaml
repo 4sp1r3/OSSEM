@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28004'
+version: '0'
+event(fields): Shell32_AppResolver_GetAppIDForWindowStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_AppResolver_GetAppIDForWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

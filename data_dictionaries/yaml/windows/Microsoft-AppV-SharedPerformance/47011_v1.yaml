@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '47011'
+version: '1'
+event(fields): ShellExtensionsPublishing_UnpublishEPStop_V1()
+opcode: Stop
+keywords: ''
+task: ShellExtensionsPublishing_UnpublishEP
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

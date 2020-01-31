@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winsrv
+event_id: '12008'
+version: '1'
+event(fields): WaitForProcessStop_V1(UInt32 WaitStatus, UInt32 ProcessId)
+opcode: Stop
+keywords: Perf
+task: WaitForProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WaitStatus
+- field_type: UInt32
+  field_name: ProcessId

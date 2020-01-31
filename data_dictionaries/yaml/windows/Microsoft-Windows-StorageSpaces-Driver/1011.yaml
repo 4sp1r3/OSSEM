@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1011'
+version: '0'
+event(fields): task_01011(GUID ConfigId, UInt32 DriveCount, UnicodeString DriveIds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConfigId
+- field_type: UInt32
+  field_name: DriveCount
+- field_type: UnicodeString
+  field_name: DriveIds

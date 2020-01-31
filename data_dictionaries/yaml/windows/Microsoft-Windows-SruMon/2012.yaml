@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-SruMon
+event_id: '2012'
+version: '0'
+event(fields): SruMonNWAggregationTrace2012(GUID _InterfaceGuid, UInt64 _InterfaceLuid,
+  UnicodeString _Application, UInt64 _ProfileId, UInt64 _ProfileFlags, UInt64 _BytesSent,
+  UInt64 _BytesReceived)
+opcode: ''
+keywords: KeywordSruMonNWAggregationTrace keyword_200000000000
+task: SruMonNWAggregationTrace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: _InterfaceGuid
+- field_type: UInt64
+  field_name: _InterfaceLuid
+- field_type: UnicodeString
+  field_name: _Application
+- field_type: UInt64
+  field_name: _ProfileId
+- field_type: UInt64
+  field_name: _ProfileFlags
+- field_type: UInt64
+  field_name: _BytesSent
+- field_type: UInt64
+  field_name: _BytesReceived

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment
+event_id: '302'
+version: '0'
+event(fields): AppXDeployment.Task.Client.Deployment(UnicodeString ServiceName, HexInt32
+  ErrorCode)
+opcode: ''
+keywords: AppXDeployment keyword_400000000000
+task: AppXDeployment.Task.Client.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: HexInt32
+  field_name: ErrorCode

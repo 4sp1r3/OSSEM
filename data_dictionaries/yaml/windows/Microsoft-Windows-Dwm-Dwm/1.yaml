@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Dwm
+event_id: '1'
+version: '0'
+event(fields): CompositionStateAndInput(UInt32 State, UInt32 Input)
+opcode: ''
+keywords: DwmExe
+task: CompositionStateAndInput
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Input

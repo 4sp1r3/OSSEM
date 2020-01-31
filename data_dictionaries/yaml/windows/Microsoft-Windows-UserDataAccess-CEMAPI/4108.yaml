@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4108'
+version: '0'
+event(fields): QUERYROWS_SEARCHFOLDERStart()
+opcode: Start
+keywords: Performance
+task: QUERYROWS_SEARCHFOLDER
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

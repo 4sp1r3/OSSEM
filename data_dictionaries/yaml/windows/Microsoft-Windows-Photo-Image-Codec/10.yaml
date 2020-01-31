@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Photo-Image-Codec
+event_id: '10'
+version: '0'
+event(fields): WMPHOTO_Decoder_FrameParamsSource_Info(UInt32 Width, UInt32 Height,
+  UInt8 Orientation)
+opcode: ''
+keywords: ''
+task: WMPHOTO_Decoder_FrameParamsSource_Info
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt8
+  field_name: Orientation

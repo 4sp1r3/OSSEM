@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2361'
+version: '0'
+event(fields): Launcher_Dismiss_Explicit_ToDesktopStart()
+opcode: Start
+keywords: ''
+task: Launcher_Dismiss_Explicit_ToDesktop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

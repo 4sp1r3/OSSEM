@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Win32k
+event_id: '301'
+version: '0'
+event(fields): TokenStateChanged(Pointer pCompositionSurfaceObject, UInt32 SwapChainIndex,
+  UInt32 PresentCount, UInt64 FenceValue, UInt32 NewState, Boolean IndependentFlip,
+  Boolean SkipIndependentFlip, UInt64 CompositionSurfaceLuid, UInt64 BindId)
+opcode: ''
+keywords: Updates
+task: TokenStateChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCompositionSurfaceObject
+- field_type: UInt32
+  field_name: SwapChainIndex
+- field_type: UInt32
+  field_name: PresentCount
+- field_type: UInt64
+  field_name: FenceValue
+- field_type: UInt32
+  field_name: NewState
+- field_type: Boolean
+  field_name: IndependentFlip
+- field_type: Boolean
+  field_name: SkipIndependentFlip
+- field_type: UInt64
+  field_name: CompositionSurfaceLuid
+- field_type: UInt64
+  field_name: BindId

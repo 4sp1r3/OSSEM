@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Networking-BackgroundTransfer
+event_id: '21'
+version: '0'
+event(fields): BackgroundTransferOperation21(GUID OperationId, GUID NotificationId)
+opcode: ''
+keywords: keywords.KW_ALL
+task: BackgroundTransferOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: OperationId
+- field_type: GUID
+  field_name: NotificationId

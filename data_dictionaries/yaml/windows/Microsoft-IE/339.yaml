@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '339'
+version: '0'
+event(fields): Mshtml_CTouchHelper_HandleTouchMessageStop(Pointer Doc, UInt32 MessageId,
+  UInt32 PointerId)
+opcode: Stop
+keywords: mshtml touch
+task: Mshtml_CTouchHelper_HandleTouchMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Doc
+- field_type: UInt32
+  field_name: MessageId
+- field_type: UInt32
+  field_name: PointerId

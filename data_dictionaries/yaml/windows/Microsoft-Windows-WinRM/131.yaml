@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '131'
+version: '0'
+event(fields): Responsehandling(UnicodeString location)
+opcode: ''
+keywords: Keyword.Client
+task: Responsehandling
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: location

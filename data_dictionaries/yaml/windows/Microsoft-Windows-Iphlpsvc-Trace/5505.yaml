@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5505'
+version: '0'
+event(fields): task_05505(UInt32 TeredoServerIp, UInt32 Status)
+opcode: ''
+keywords: damultisite
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TeredoServerIp
+- field_type: UInt32
+  field_name: Status

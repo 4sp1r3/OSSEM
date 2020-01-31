@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '13007'
+version: '0'
+event(fields): SyncController_160SynchronizationController13007(UnicodeString stringValue1)
+opcode: SynchronizationController
+keywords: ''
+task: SyncController_160
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1

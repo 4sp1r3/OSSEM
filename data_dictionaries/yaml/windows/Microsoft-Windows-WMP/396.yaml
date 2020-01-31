@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-WMP
+event_id: '396'
+version: '0'
+event(fields): HME_ProviderShutdownStart(Pointer CHMEProvider, Pointer IHMECDS, UnicodeString
+  UDN, UInt32 RAMCacheId, Boolean IsAuthorized, Boolean IsZombie, Boolean FireEvent)
+opcode: Start
+keywords: mediaplayer
+task: HME_ProviderShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CHMEProvider
+- field_type: Pointer
+  field_name: IHMECDS
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: UInt32
+  field_name: RAMCacheId
+- field_type: Boolean
+  field_name: IsAuthorized
+- field_type: Boolean
+  field_name: IsZombie
+- field_type: Boolean
+  field_name: FireEvent

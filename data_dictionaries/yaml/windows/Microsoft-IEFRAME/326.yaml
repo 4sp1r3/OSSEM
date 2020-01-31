@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '326'
+version: '0'
+event(fields): NotificationBar_OverrideShow()
+opcode: ''
+keywords: notification
+task: NotificationBar_OverrideShow
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

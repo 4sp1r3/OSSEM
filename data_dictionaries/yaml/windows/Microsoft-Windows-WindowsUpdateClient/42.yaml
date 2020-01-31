@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '42'
+version: '0'
+event(fields): AutomaticUpdatesOther(UInt32 hc_stateid, UnicodeString restartDate,
+  UnicodeString restartTime)
+opcode: Other
+keywords: state health
+task: AutomaticUpdates
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hc_stateid
+- field_type: UnicodeString
+  field_name: restartDate
+- field_type: UnicodeString
+  field_name: restartTime

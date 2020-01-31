@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30409'
+version: '0'
+event(fields): task_030409(AnsiString Command, UInt64 MessageId, UInt64 AsyncId, UInt64
+  SessionId, UInt32 TreeId, UInt16 CreditGranted, UInt32 Status, Pointer VcEndpoint)
+opcode: ''
+keywords: Smb_Info
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Command
+- field_type: UInt64
+  field_name: MessageId
+- field_type: UInt64
+  field_name: AsyncId
+- field_type: UInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: TreeId
+- field_type: UInt16
+  field_name: CreditGranted
+- field_type: UInt32
+  field_name: Status
+- field_type: Pointer
+  field_name: VcEndpoint

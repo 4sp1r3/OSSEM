@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5023'
+version: '0'
+event(fields): UdwmGlassSheetFadeOut()
+opcode: ''
+keywords: Udwm
+task: UdwmGlassSheetFadeOut
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

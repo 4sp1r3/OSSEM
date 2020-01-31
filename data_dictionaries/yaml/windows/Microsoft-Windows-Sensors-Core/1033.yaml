@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1033'
+version: '0'
+event(fields): SensorsCxSetReportLatencyTask(Pointer WdfDevice, Pointer SENSOROBJECT,
+  UInt32 ReportLatencyMs, UInt32 NtStatus)
+opcode: ''
+keywords: ''
+task: SensorsCxSetReportLatencyTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: Pointer
+  field_name: SENSOROBJECT
+- field_type: UInt32
+  field_name: ReportLatencyMs
+- field_type: UInt32
+  field_name: NtStatus

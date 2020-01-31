@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DXGI
+event_id: '218'
+version: '0'
+event(fields): IDXGIFactory_CreateSwapChainStart(Pointer pThis, Pointer pDevice, Binary
+  pDesc, Pointer ppSwapChain)
+opcode: Start
+keywords: ''
+task: IDXGIFactory_CreateSwapChain
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pDevice
+- field_type: Binary
+  field_name: pDesc
+- field_type: Pointer
+  field_name: ppSwapChain

@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '253'
+version: '0'
+event(fields): CellPE253(UInt32 MobileCountryCode, UInt32 MobileNetworkCode, UInt32
+  CellID)
+opcode: ''
+keywords: Selfhost CellPe
+task: CellPE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MobileCountryCode
+- field_type: UInt32
+  field_name: MobileNetworkCode
+- field_type: UInt32
+  field_name: CellID

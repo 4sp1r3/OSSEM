@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '600'
+version: '0'
+event(fields): task_0600(FILETIME StartTime, FILETIME StopTime, UInt32 ActionCount,
+  UInt32 MissedActionCount, UnicodeString OutputFileLocation)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: StartTime
+- field_type: FILETIME
+  field_name: StopTime
+- field_type: UInt32
+  field_name: ActionCount
+- field_type: UInt32
+  field_name: MissedActionCount
+- field_type: UnicodeString
+  field_name: OutputFileLocation

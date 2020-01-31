@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9602'
+version: '0'
+event(fields): Explorer_InitializingExplorerStop()
+opcode: Stop
+keywords: Shell StartupPerf
+task: Explorer_InitializingExplorer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

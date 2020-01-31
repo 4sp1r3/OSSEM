@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '232'
+version: '0'
+event(fields): StateRepository.Task.DataAccessLayer232(HexInt32 ErrorCode, AnsiString
+  Entity, AnsiString Method, Int64 WorkId)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD
+task: StateRepository.Task.DataAccessLayer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: AnsiString
+  field_name: Entity
+- field_type: AnsiString
+  field_name: Method
+- field_type: Int64
+  field_name: WorkId

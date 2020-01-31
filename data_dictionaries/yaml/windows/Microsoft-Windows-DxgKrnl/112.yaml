@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '112'
+version: '0'
+event(fields): RebuildModeCacheStart(Pointer pDxgAdapter, UInt32 VidPnSourceId, UInt32
+  Status)
+opcode: Start
+keywords: Base
+task: RebuildModeCache
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: Status

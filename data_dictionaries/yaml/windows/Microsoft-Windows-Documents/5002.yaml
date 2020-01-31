@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '5002'
+version: '0'
+event(fields): DocPerf_Task_Opc_OM_Package_ValidateStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Opc_OM_Package_Validate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '237'
+version: '1'
+event(fields): TELEMETRY_ANIMATION_PERFORMANCE_ANALYSIS_EVENT_V1(UInt64 cFrameStart,
+  UInt64 cFrameStop, UInt32 PercentVsyncsMissed, UInt32 metrics1, UInt32 metrics2,
+  UnicodeString AnimationScenario, UnicodeString ApplicationId, UInt32 ScenarioIndex)
+opcode: ''
+keywords: DwmCore LowOverheadSmoothnessTracking
+task: TELEMETRY_ANIMATION_PERFORMANCE_ANALYSIS_EVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: cFrameStart
+- field_type: UInt64
+  field_name: cFrameStop
+- field_type: UInt32
+  field_name: PercentVsyncsMissed
+- field_type: UInt32
+  field_name: metrics1
+- field_type: UInt32
+  field_name: metrics2
+- field_type: UnicodeString
+  field_name: AnimationScenario
+- field_type: UnicodeString
+  field_name: ApplicationId
+- field_type: UInt32
+  field_name: ScenarioIndex

@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '64'
+version: '1'
+event(fields): ProcessorPerformanceRundown_V1(UInt16 Group, UInt8 Number, Boolean
+  Parked, UInt32 BiosCap, UInt32 ThermalCap, UInt32 DesiredPerformance, UInt32 NominalFrequency,
+  UInt32 MinPercent, UInt32 MaxPercent, UInt32 TolerancePercent, UInt32 DeliveredPerformance)
+opcode: ''
+keywords: Diag PerfDiag
+task: ProcessorPerformanceRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: Boolean
+  field_name: Parked
+- field_type: UInt32
+  field_name: BiosCap
+- field_type: UInt32
+  field_name: ThermalCap
+- field_type: UInt32
+  field_name: DesiredPerformance
+- field_type: UInt32
+  field_name: NominalFrequency
+- field_type: UInt32
+  field_name: MinPercent
+- field_type: UInt32
+  field_name: MaxPercent
+- field_type: UInt32
+  field_name: TolerancePercent
+- field_type: UInt32
+  field_name: DeliveredPerformance

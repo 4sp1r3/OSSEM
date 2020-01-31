@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '17015'
+version: '0'
+event(fields): StageallpackagesStop()
+opcode: Stop
+keywords: ''
+task: Stageallpackages
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

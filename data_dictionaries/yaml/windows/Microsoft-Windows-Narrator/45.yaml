@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Narrator
+event_id: '45'
+version: '0'
+event(fields): ToggleSelectionMode(Int32 SeletionModeEnabled)
+opcode: ''
+keywords: PerfInstrumentation
+task: ToggleSelectionMode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: SeletionModeEnabled

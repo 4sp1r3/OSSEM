@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CertPolEng
+event_id: '30'
+version: '0'
+event(fields): task_030(UInt32 SubKey, UInt32 LastError)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SubKey
+- field_type: UInt32
+  field_name: LastError

@@ -1,0 +1,20 @@
+provider: Microsoft-AppV-Client
+event_id: '8012'
+version: '1'
+event(fields): ConfigureVirtualApplicationConnectionGroup8012_V1(GUID ConnectionGroup,
+  GUID GroupVersion, GUID Package, GUID PackageVersion)
+opcode: ''
+keywords: DynamicConfiguration
+task: ConfigureVirtualApplicationConnectionGroup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConnectionGroup
+- field_type: GUID
+  field_name: GroupVersion
+- field_type: GUID
+  field_name: Package
+- field_type: GUID
+  field_name: PackageVersion

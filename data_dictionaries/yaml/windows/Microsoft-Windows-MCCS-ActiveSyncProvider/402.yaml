@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '402'
+version: '0'
+event(fields): task_0402(Int32 Prop_ContentLengthBytes, AnsiString Prop_ContentChars)
+opcode: ''
+keywords: Error
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Prop_ContentLengthBytes
+- field_type: AnsiString
+  field_name: Prop_ContentChars

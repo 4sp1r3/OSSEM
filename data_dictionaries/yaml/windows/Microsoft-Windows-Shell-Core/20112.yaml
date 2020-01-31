@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20112'
+version: '0'
+event(fields): StartMenu_ByUsage_EnumItemsStop()
+opcode: Stop
+keywords: Shell
+task: StartMenu_ByUsage_EnumItems
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

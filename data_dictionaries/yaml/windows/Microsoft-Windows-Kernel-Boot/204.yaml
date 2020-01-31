@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '204'
+version: '0'
+event(fields): TpmBitLockerUsage(UInt32 FveGlobalDataFlags)
+opcode: ''
+keywords: ''
+task: TpmBitLockerUsage
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FveGlobalDataFlags

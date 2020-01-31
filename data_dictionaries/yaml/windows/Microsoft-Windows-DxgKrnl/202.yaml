@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '202'
+version: '0'
+event(fields): Dxgk_Diag_OutputDupl_Get_Pointer_Shape_Data(UInt32 PacketIndex, UInt32
+  WdLogIndex, UInt32 VidPnSourceId, UInt32 Type, UInt32 Width, UInt32 Height, UInt32
+  Pitch, Int32 HotSpotx, Int32 HotSpoty, UInt32 BufferSizeSupplied, UInt32 BufferSizeRequired)
+opcode: ''
+keywords: Base
+task: Dxgk_Diag_OutputDupl_Get_Pointer_Shape_Data
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PacketIndex
+- field_type: UInt32
+  field_name: WdLogIndex
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: Pitch
+- field_type: Int32
+  field_name: HotSpotx
+- field_type: Int32
+  field_name: HotSpoty
+- field_type: UInt32
+  field_name: BufferSizeSupplied
+- field_type: UInt32
+  field_name: BufferSizeRequired

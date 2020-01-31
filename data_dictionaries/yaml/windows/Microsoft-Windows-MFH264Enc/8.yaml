@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MFH264Enc
+event_id: '8'
+version: '0'
+event(fields): MFH264Enc_RateControl8(Pointer EncoderInstance, Int64 TimeStamp, Int32
+  GOPNumber, Int32 FrameNumber, Int32 BitRate)
+opcode: ''
+keywords: ''
+task: MFH264Enc_RateControl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: EncoderInstance
+- field_type: Int64
+  field_name: TimeStamp
+- field_type: Int32
+  field_name: GOPNumber
+- field_type: Int32
+  field_name: FrameNumber
+- field_type: Int32
+  field_name: BitRate

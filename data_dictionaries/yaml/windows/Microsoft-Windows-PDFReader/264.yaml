@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '264'
+version: '0'
+event(fields): task_0264(UnicodeString MailtoProtocolString)
+opcode: ''
+keywords: Reader
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MailtoProtocolString

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '10'
+version: '0'
+event(fields): PluginManager10(UnicodeString Selector)
+opcode: ''
+keywords: ''
+task: PluginManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Selector

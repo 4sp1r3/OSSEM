@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4013'
+version: '0'
+event(fields): AfdRioValidateBufferId(Pointer RegistrationDomain, Pointer RioState,
+  UInt32 BufferId)
+opcode: ''
+keywords: AFD_KW_RIO
+task: AfdRioValidateBufferId
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RegistrationDomain
+- field_type: Pointer
+  field_name: RioState
+- field_type: UInt32
+  field_name: BufferId

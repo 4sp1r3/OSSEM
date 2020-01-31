@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45086'
+version: '1'
+event(fields): WorkflowValidationTobeusedwhenoperationisjustexecutingamethod45086_V1(GUID
+  workflowId)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: PSWorkflow
+task: WorkflowValidation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: workflowId

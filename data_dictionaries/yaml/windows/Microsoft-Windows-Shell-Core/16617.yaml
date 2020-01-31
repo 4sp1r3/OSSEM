@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16617'
+version: '0'
+event(fields): FileFolderFallbackStore_GetCountStop()
+opcode: Stop
+keywords: Properties
+task: FileFolderFallbackStore_GetCount
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

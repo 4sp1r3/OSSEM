@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '234'
+version: '0'
+event(fields): REMOTEAPP_WINDOWCLIPStop()
+opcode: Stop
+keywords: DwmCore
+task: REMOTEAPP_WINDOWCLIP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

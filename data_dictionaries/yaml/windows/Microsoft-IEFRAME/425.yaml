@@ -1,0 +1,31 @@
+provider: Microsoft-IEFRAME
+event_id: '425'
+version: '0'
+event(fields): ImageStore_Activity_SingleImage(UInt32 PID, UnicodeString ActivityType,
+  UnicodeString ImageKey, UInt32 ImageUniqueID, UInt32 ImageDimX, UInt32 ImageDimY,
+  UInt32 ImageCleaningScheme, UInt64 ImageLastUpdatedTime, UInt64 ImageLastRetrievedTime)
+opcode: ''
+keywords: imagestore
+task: ImageStore_Activity_SingleImage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PID
+- field_type: UnicodeString
+  field_name: ActivityType
+- field_type: UnicodeString
+  field_name: ImageKey
+- field_type: UInt32
+  field_name: ImageUniqueID
+- field_type: UInt32
+  field_name: ImageDimX
+- field_type: UInt32
+  field_name: ImageDimY
+- field_type: UInt32
+  field_name: ImageCleaningScheme
+- field_type: UInt64
+  field_name: ImageLastUpdatedTime
+- field_type: UInt64
+  field_name: ImageLastRetrievedTime

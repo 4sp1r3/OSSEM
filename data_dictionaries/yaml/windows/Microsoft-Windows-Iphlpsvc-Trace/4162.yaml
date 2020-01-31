@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '4162'
+version: '0'
+event(fields): task_04162(UInt32 AddrLength, UInt32 ProtocolType, UInt32 AddedorDeleted,
+  UInt32 IPv4Address, UnicodeString InterfaceName)
+opcode: ''
+keywords: isatap sixto4
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AddrLength
+- field_type: UInt32
+  field_name: ProtocolType
+- field_type: UInt32
+  field_name: AddedorDeleted
+- field_type: UInt32
+  field_name: IPv4Address
+- field_type: UnicodeString
+  field_name: InterfaceName

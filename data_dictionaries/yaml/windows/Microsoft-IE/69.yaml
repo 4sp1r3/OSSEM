@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '69'
+version: '0'
+event(fields): Mshtml_CHTMLoad_Write(UInt32 fParseNow, UInt32 Length, UnicodeString
+  Script)
+opcode: ''
+keywords: primarynav
+task: Mshtml_CHTMLoad_Write
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: fParseNow
+- field_type: UInt32
+  field_name: Length
+- field_type: UnicodeString
+  field_name: Script

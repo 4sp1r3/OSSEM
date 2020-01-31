@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10105'
+version: '0'
+event(fields): Indication10105(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, HexInt32
+  Flags, HexInt32 PnPFlags, UInt32 DevicePowerState)
+opcode: ''
+keywords: Indication LwtDiagnostic
+task: Indication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: NetLuid
+- field_type: HexInt32
+  field_name: Flags
+- field_type: HexInt32
+  field_name: PnPFlags
+- field_type: UInt32
+  field_name: DevicePowerState

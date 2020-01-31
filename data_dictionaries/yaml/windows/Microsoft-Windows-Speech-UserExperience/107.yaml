@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '107'
+version: '0'
+event(fields): FTUE_MicPlacementToAdjustVolNavigationStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: FTUE_MicPlacementToAdjustVolNavigation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

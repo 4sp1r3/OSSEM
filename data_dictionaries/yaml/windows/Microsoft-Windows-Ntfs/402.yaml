@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '402'
+version: '0'
+event(fields): EfsTest402(Int64 VolumeSerialNumber, UInt64 FileReference, UInt32 FileNameLength,
+  UnicodeString FileName)
+opcode: ''
+keywords: EfsTest
+task: EfsTest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: VolumeSerialNumber
+- field_type: UInt64
+  field_name: FileReference
+- field_type: UInt32
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName

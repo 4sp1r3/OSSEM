@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4027'
+version: '0'
+event(fields): FOLDER_CREATEFOLDERStart()
+opcode: Start
+keywords: Performance
+task: FOLDER_CREATEFOLDER
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

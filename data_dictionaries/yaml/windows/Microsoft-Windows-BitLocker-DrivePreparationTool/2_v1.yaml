@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BitLocker-DrivePreparationTool
+event_id: '2'
+version: '1'
+event(fields): task_0Shrink_V1(HexInt32 MessageCode, UnicodeString MessageText)
+opcode: Shrink
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: MessageCode
+- field_type: UnicodeString
+  field_name: MessageText

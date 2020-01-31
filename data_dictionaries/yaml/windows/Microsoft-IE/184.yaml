@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '184'
+version: '0'
+event(fields): Mshtml_CImgCacheEntry_Destroy(Pointer ImgCacheEntry)
+opcode: ''
+keywords: subsystem
+task: Mshtml_CImgCacheEntry_Destroy
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ImgCacheEntry

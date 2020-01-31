@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WPD-CompositeClassDriver
+event_id: '301'
+version: '0'
+event(fields): DriverFailure301(UnicodeString TransportSymbolicLink)
+opcode: ''
+keywords: ''
+task: DriverFailure
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TransportSymbolicLink

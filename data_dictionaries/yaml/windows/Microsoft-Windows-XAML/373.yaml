@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '373'
+version: '0'
+event(fields): ImageSetSourceFromUriStop(UInt64 ImageId, UnicodeString URI)
+opcode: Stop
+keywords: Images
+task: ImageSetSourceFromUri
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ImageId
+- field_type: UnicodeString
+  field_name: URI

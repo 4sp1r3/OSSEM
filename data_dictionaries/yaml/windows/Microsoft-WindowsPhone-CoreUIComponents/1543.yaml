@@ -1,0 +1,24 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1543'
+version: '0'
+event(fields): ServerTaskInitiateModernActivationStop(UInt32 unParam, Pointer ptr,
+  UnicodeString pwsz, UnicodeString pwsz2, UInt32 unParam2, UInt32 unParam3)
+opcode: Stop
+keywords: NavigationPerformance ServerTask NavigationPerformanceTriggers
+task: ServerTaskInitiateModernActivation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: Pointer
+  field_name: ptr
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UnicodeString
+  field_name: pwsz2
+- field_type: UInt32
+  field_name: unParam2
+- field_type: UInt32
+  field_name: unParam3

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Network-Connection-Broker
+event_id: '1106'
+version: '0'
+event(fields): task_01106(Pointer Provider, Pointer RequestHolder)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Provider
+- field_type: Pointer
+  field_name: RequestHolder

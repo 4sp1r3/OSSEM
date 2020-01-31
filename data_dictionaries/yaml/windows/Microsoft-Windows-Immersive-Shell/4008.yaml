@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4008'
+version: '0'
+event(fields): AssociationLaunch_ServerInitializationStop()
+opcode: Stop
+keywords: ''
+task: AssociationLaunch_ServerInitialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

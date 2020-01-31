@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7131'
+version: '0'
+event(fields): Perf_WLRoamGetBackupSyncTokenStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamGetBackupSyncToken
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

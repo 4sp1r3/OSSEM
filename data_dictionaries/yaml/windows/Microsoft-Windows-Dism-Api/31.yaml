@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '31'
+version: '0'
+event(fields): DismGetMountedImageInfoStart()
+opcode: Start
+keywords: DismApiEvent
+task: DismGetMountedImageInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

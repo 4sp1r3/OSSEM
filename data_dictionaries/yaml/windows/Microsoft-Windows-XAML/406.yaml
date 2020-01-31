@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-XAML
+event_id: '406'
+version: '0'
+event(fields): ManipulationTransformUpdate(UInt64 address, Float TranslateX, Float
+  TranslateY)
+opcode: ''
+keywords: Input
+task: ManipulationTransformUpdate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: address
+- field_type: Float
+  field_name: TranslateX
+- field_type: Float
+  field_name: TranslateY

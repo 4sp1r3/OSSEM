@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '177'
+version: '1'
+event(fields): RobotThread_GetStandardProperties_Failed_V1(UInt64 ITrans, UInt32 hr)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: RobotThread_GetStandardProperties_Failed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ITrans
+- field_type: UInt32
+  field_name: hr

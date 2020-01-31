@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '330'
+version: '0'
+event(fields): DefaultPepWorkerStart(Pointer StartDevice)
+opcode: Start
+keywords: po:RuntimeFx
+task: DefaultPepWorker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: StartDevice

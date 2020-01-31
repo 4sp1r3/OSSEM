@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '5'
+version: '0'
+event(fields): PluginManager5(GUID clsid, UnicodeString Selector)
+opcode: ''
+keywords: ''
+task: PluginManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: clsid
+- field_type: UnicodeString
+  field_name: Selector

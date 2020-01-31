@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Power-CAD
+event_id: '203'
+version: '0'
+event(fields): Notify203(UInt32 PowerSourceId, UInt32 MaxChargeCurrent, UInt32 PowerSourceInformation,
+  UInt32 PowerSourceStatus, GUID ChargerId)
+opcode: ''
+keywords: Notify
+task: Notify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PowerSourceId
+- field_type: UInt32
+  field_name: MaxChargeCurrent
+- field_type: UInt32
+  field_name: PowerSourceInformation
+- field_type: UInt32
+  field_name: PowerSourceStatus
+- field_type: GUID
+  field_name: ChargerId

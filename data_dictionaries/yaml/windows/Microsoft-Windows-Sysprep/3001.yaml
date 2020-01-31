@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sysprep
+event_id: '3001'
+version: '0'
+event(fields): Loadactionmeta_datafileStart(UnicodeString ActionFilePath)
+opcode: Start
+keywords: keyPerformance keySysprep
+task: Loadactionmeta_datafile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ActionFilePath

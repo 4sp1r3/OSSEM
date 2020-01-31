@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '250'
+version: '0'
+event(fields): ChunkGenerator_GenerateSingleChunkStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ChunkGenerator_GenerateSingleChunk
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

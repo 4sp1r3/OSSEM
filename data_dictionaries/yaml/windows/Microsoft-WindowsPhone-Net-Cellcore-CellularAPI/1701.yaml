@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '1701'
+version: '0'
+event(fields): CAggregatedUiccStop(UInt64 Pointer)
+opcode: Stop
+keywords: Performance UICC
+task: CAggregatedUicc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Pointer

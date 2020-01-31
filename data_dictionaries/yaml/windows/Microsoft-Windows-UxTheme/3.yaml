@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UxTheme
+event_id: '3'
+version: '0'
+event(fields): ThemesAndMetric_IsThemePartDefinedStart(Int32 PartId, Int32 StateId)
+opcode: Start
+keywords: ''
+task: ThemesAndMetric_IsThemePartDefined
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: PartId
+- field_type: Int32
+  field_name: StateId

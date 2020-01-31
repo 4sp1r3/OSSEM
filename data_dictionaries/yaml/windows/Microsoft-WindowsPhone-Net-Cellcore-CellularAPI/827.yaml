@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '827'
+version: '0'
+event(fields): CSms827(UInt32 HResult, UnicodeString SmsType, UInt64 Pointer1, UInt64
+  Pointer2)
+opcode: ''
+keywords: Information
+task: CSms
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HResult
+- field_type: UnicodeString
+  field_name: SmsType
+- field_type: UInt64
+  field_name: Pointer1
+- field_type: UInt64
+  field_name: Pointer2

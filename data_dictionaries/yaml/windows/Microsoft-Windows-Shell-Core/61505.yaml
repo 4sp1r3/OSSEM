@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61505'
+version: '0'
+event(fields): SetUserDefaults_DefaultSetStart()
+opcode: Start
+keywords: Shell
+task: SetUserDefaults_DefaultSet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

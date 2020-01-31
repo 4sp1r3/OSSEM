@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '30020'
+version: '1'
+event(fields): UMDFhardwareinterruptnotification._V1(UInt32 InterruptMessageNumber)
+opcode: ''
+keywords: ''
+task: UMDFhardwareinterruptnotification.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterruptMessageNumber

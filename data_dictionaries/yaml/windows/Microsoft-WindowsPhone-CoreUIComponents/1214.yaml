@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1214'
+version: '0'
+event(fields): ForegroundTaskManagerActivationPrerequisitePhaseStart(UInt32 unParam,
+  UInt32 appLayer, UnicodeString pwsz, UnicodeString pwsz2, UInt32 hex)
+opcode: Start
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerActivationPrerequisitePhase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: appLayer
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UnicodeString
+  field_name: pwsz2
+- field_type: UInt32
+  field_name: hex

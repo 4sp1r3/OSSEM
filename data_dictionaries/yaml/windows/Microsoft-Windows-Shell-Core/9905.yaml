@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9905'
+version: '0'
+event(fields): ExplorerFrame_FirstPage_RealizeGroupPass2Start(UnicodeString psz)
+opcode: Start
+keywords: Shell
+task: ExplorerFrame_FirstPage_RealizeGroupPass2
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

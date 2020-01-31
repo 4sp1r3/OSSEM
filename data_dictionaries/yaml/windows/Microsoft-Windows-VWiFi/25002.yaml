@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-VWiFi
+event_id: '25002'
+version: '0'
+event(fields): DisableVWiFiStart(GUID IfGuid, UnicodeString FriendlyName)
+opcode: Start
+keywords: ''
+task: DisableVWiFi
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UnicodeString
+  field_name: FriendlyName

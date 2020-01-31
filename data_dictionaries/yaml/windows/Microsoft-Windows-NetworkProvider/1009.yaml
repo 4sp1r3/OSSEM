@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-NetworkProvider
+event_id: '1009'
+version: '0'
+event(fields): UNCHardeningConfigurationInvalidSyntax1009(UInt16 UncPathLength, UnicodeString
+  UncPath, UInt32 UncHardeningConfigurationLength, UnicodeString UncHardeningConfiguration,
+  UInt32 ExpectedToken, UInt16 FoundTokenLength, UnicodeString FoundToken)
+opcode: InvalidSyntax
+keywords: UncHardening
+task: UNCHardeningConfiguration
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: UncPathLength
+- field_type: UnicodeString
+  field_name: UncPath
+- field_type: UInt32
+  field_name: UncHardeningConfigurationLength
+- field_type: UnicodeString
+  field_name: UncHardeningConfiguration
+- field_type: UInt32
+  field_name: ExpectedToken
+- field_type: UInt16
+  field_name: FoundTokenLength
+- field_type: UnicodeString
+  field_name: FoundToken

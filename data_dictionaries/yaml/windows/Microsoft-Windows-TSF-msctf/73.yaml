@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '73'
+version: '0'
+event(fields): InputProfileActivation()
+opcode: ''
+keywords: OOPIME
+task: InputProfileActivation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3087'
+version: '0'
+event(fields): CreateSectionHvciAuditFailure(UInt16 FileNameLength, UnicodeString
+  FileNameBuffer, HexInt32 Status)
+opcode: HvciAuditFailure
+keywords: ''
+task: CreateSection
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer
+- field_type: HexInt32
+  field_name: Status

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WMP
+event_id: '356'
+version: '0'
+event(fields): HME_SERVER_EXECUTE_QUERYStart(UnicodeString ContainerID, UnicodeString
+  Query)
+opcode: Start
+keywords: mediaplayer
+task: HME_SERVER_EXECUTE_QUERY
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContainerID
+- field_type: UnicodeString
+  field_name: Query

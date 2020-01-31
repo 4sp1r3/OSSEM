@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winsrv
+event_id: '12003'
+version: '0'
+event(fields): ThreadShutdown_SentMessage(UInt32 MessageId, UInt32 Flags)
+opcode: ''
+keywords: Perf
+task: ThreadShutdown_SentMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MessageId
+- field_type: UInt32
+  field_name: Flags

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-LUA
+event_id: '15002'
+version: '0'
+event(fields): ConsentUI_GetUserDesktopSnapshotStop()
+opcode: Stop
+keywords: ''
+task: ConsentUI_GetUserDesktopSnapshot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

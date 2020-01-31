@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '320'
+version: '0'
+event(fields): NotificationBar_ShowStart()
+opcode: Start
+keywords: notification
+task: NotificationBar_Show
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

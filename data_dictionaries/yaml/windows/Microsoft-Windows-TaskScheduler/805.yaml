@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '805'
+version: '0'
+event(fields): Maintenancetaskisbehinddeadline(UnicodeString Task)
+opcode: ''
+keywords: ''
+task: Maintenancetaskisbehinddeadline
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Task

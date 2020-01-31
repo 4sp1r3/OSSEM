@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '1024'
+version: '0'
+event(fields): PackagingStart()
+opcode: Start
+keywords: ''
+task: Packaging
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

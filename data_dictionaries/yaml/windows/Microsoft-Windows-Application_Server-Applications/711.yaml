@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '711'
+version: '0'
+event(fields): DispatchMessageBeforeAuthorization(UnicodeString AppDomain)
+opcode: BeforeAuthorization
+keywords: ServiceModel
+task: DispatchMessage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Wallet
+event_id: '105'
+version: '0'
+event(fields): Item_GetStop(UnicodeString ItemId)
+opcode: Stop
+keywords: Performance
+task: Item_Get
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ItemId

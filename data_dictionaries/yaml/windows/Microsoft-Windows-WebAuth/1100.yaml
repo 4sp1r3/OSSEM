@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuth
+event_id: '1100'
+version: '0'
+event(fields): SecurityProblem(UInt32 Problem)
+opcode: ''
+keywords: AuthHost
+task: SecurityProblem
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Problem

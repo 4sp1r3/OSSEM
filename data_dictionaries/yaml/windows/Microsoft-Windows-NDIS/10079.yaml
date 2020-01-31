@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10079'
+version: '0'
+event(fields): Request10079(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, Boolean CompletedAtOpen,
+  Pointer Open, Pointer Request)
+opcode: ''
+keywords: Request
+task: Request
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: NetLuid
+- field_type: Boolean
+  field_name: CompletedAtOpen
+- field_type: Pointer
+  field_name: Open
+- field_type: Pointer
+  field_name: Request

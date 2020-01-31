@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '22'
+version: '1'
+event(fields): RegionRelease_V1(Pointer DataMgr, UInt32 RegionIndex, UInt32 Status,
+  UInt16 SpaceUsed, UInt16 LastAccessTime)
+opcode: ''
+keywords: StoreOps
+task: RegionRelease
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DataMgr
+- field_type: UInt32
+  field_name: RegionIndex
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt16
+  field_name: SpaceUsed
+- field_type: UInt16
+  field_name: LastAccessTime

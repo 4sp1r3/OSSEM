@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5093'
+version: '0'
+event(fields): UdwmTransitionRequest(Pointer hwnd, HexInt32 Target)
+opcode: ''
+keywords: Udwm
+task: UdwmTransitionRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwnd
+- field_type: HexInt32
+  field_name: Target

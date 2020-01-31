@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '451'
+version: '0'
+event(fields): Mshtml_HTMLSpell_ShowContextMenuStop()
+opcode: Stop
+keywords: subsystem mshtml
+task: Mshtml_HTMLSpell_ShowContextMenu
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

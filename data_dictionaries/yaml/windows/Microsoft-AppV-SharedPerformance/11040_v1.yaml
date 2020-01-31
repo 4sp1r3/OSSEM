@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '11040'
+version: '1'
+event(fields): ManifestNormalizeManifestStart_V1()
+opcode: Start
+keywords: ''
+task: ManifestNormalizeManifest
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

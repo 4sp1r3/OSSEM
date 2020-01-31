@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FeatureConfiguration
+event_id: '5001'
+version: '0'
+event(fields): FeatureConfigurationEventsStart()
+opcode: Start
+keywords: ''
+task: FeatureConfigurationEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

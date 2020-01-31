@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WMI-Activity
+event_id: '1'
+version: '0'
+event(fields): task_0(UInt32 GroupOperationId, UInt32 OperationId, UnicodeString Operation,
+  UnicodeString ClientMachine, UnicodeString User, UInt32 ClientProcessId, UnicodeString
+  NamespaceName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: GroupOperationId
+- field_type: UInt32
+  field_name: OperationId
+- field_type: UnicodeString
+  field_name: Operation
+- field_type: UnicodeString
+  field_name: ClientMachine
+- field_type: UnicodeString
+  field_name: User
+- field_type: UInt32
+  field_name: ClientProcessId
+- field_type: UnicodeString
+  field_name: NamespaceName

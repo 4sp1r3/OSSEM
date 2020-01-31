@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '576'
+version: '0'
+event(fields): NotificationBar_OverrideHide()
+opcode: ''
+keywords: notification
+task: NotificationBar_OverrideHide
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3115'
+version: '0'
+event(fields): AFCDoForwardToastStop()
+opcode: Stop
+keywords: wpnui
+task: AFCDoForwardToast
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

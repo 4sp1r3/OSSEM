@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HomeGroup-ProviderService
+event_id: '5017'
+version: '0'
+event(fields): task_05017(UnicodeString Error, UnicodeString Message)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Error
+- field_type: UnicodeString
+  field_name: Message

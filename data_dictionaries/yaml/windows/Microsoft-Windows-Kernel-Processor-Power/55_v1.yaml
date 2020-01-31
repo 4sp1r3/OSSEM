@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '55'
+version: '1'
+event(fields): Summary2_V1(UInt16 Group, UInt8 Number, UInt32 IdleStateCount, UInt32
+  IdleImplementation, UInt32 NominalFrequency, UInt32 MaximumPerformancePercent, UInt32
+  MinimumPerformancePercent, UInt32 MinimumThrottlePercent, UInt32 PerformanceImplementation)
+opcode: ''
+keywords: ''
+task: Summary2
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: IdleStateCount
+- field_type: UInt32
+  field_name: IdleImplementation
+- field_type: UInt32
+  field_name: NominalFrequency
+- field_type: UInt32
+  field_name: MaximumPerformancePercent
+- field_type: UInt32
+  field_name: MinimumPerformancePercent
+- field_type: UInt32
+  field_name: MinimumThrottlePercent
+- field_type: UInt32
+  field_name: PerformanceImplementation

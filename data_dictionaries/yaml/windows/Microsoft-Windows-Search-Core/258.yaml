@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '258'
+version: '0'
+event(fields): StatusChange_QueueUnlocked()
+opcode: ''
+keywords: Service
+task: StatusChange_QueueUnlocked
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

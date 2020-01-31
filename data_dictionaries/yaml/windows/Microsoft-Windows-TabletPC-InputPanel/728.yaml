@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '728'
+version: '0'
+event(fields): KeyboardUI_Optimized_Emoji_Category_SwitchStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: KeyboardUI_Optimized_Emoji_Category_Switch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

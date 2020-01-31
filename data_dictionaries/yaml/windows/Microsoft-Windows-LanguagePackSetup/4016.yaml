@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '4016'
+version: '0'
+event(fields): Generatingpre_installedPRIfiles.LanguagePackSetupstandardoperation(UnicodeString
+  Language)
+opcode: LanguagePackSetupstandardoperation
+keywords: ''
+task: Generatingpre_installedPRIfiles.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language

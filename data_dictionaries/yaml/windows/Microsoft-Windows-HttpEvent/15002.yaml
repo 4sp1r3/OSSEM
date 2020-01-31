@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-HttpEvent
+event_id: '15002'
+version: '0'
+event(fields): task_0PCODE_192pcode_19215002(UnicodeString DeviceObject, UnicodeString
+  LogFile, UnicodeString SiteId, UInt32 __binLength, Binary binary)
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceObject
+- field_type: UnicodeString
+  field_name: LogFile
+- field_type: UnicodeString
+  field_name: SiteId
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: binary

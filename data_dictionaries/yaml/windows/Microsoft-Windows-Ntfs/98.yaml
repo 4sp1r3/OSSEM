@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '98'
+version: '0'
+event(fields): task_0(UnicodeString DriveName, UnicodeString DeviceName, UInt32 CorruptionActionState)
+opcode: ''
+keywords: VolumeCorruptionActionStateChange
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DriveName
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: UInt32
+  field_name: CorruptionActionState

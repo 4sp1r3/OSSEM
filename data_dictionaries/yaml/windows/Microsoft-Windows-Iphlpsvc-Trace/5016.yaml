@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5016'
+version: '0'
+event(fields): task_05016(UInt32 GlobalIpv6AddressCount, Boolean Ipv4Connectivity,
+  Boolean Ipv6Connectivity, Boolean CorpConnectivity)
+opcode: ''
+keywords: iphttps
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: GlobalIpv6AddressCount
+- field_type: Boolean
+  field_name: Ipv4Connectivity
+- field_type: Boolean
+  field_name: Ipv6Connectivity
+- field_type: Boolean
+  field_name: CorpConnectivity

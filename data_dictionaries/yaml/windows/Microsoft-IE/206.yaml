@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '206'
+version: '0'
+event(fields): Mshtml_AlignedBeat_FireStart(UInt64 Object, UInt64 CurrentTimeMs, Int32
+  DeltaMs, UInt32 BeatPeriodMs, UInt32 RefreshMultipleUs)
+opcode: Start
+keywords: paintbeat
+task: Mshtml_AlignedBeat_Fire
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object
+- field_type: UInt64
+  field_name: CurrentTimeMs
+- field_type: Int32
+  field_name: DeltaMs
+- field_type: UInt32
+  field_name: BeatPeriodMs
+- field_type: UInt32
+  field_name: RefreshMultipleUs

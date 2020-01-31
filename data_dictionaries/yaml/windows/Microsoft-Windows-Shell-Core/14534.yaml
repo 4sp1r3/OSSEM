@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14534'
+version: '0'
+event(fields): Properties_MultiLineEditControl_SetValueStop()
+opcode: Stop
+keywords: Controls
+task: Properties_MultiLineEditControl_SetValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

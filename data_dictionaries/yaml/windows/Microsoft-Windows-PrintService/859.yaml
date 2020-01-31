@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintService
+event_id: '859'
+version: '0'
+event(fields): ConnectionreconfiguredSpoolerTrace859(UnicodeString ConnectionName)
+opcode: SpoolerTrace
+keywords: SPOOLER_KEYWORD_CONNECTION SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING
+task: Connectionreconfigured
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ConnectionName

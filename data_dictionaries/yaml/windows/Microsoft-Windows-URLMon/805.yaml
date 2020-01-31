@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-URLMon
+event_id: '805'
+version: '0'
+event(fields): URLMON_CInet_Start(UInt32 Flags, UnicodeString URL)
+opcode: ''
+keywords: URLMON_KEYWORD
+task: URLMON_CInet_Start
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: UnicodeString
+  field_name: URL

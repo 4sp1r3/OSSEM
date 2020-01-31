@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '51'
+version: '0'
+event(fields): CreateBitmapStop()
+opcode: Stop
+keywords: Perf
+task: CreateBitmap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

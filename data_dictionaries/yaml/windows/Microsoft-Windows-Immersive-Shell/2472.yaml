@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2472'
+version: '0'
+event(fields): PerfTrack_PLM_ResumeApplication(UnicodeString PsmKey, UInt32 ResumeReason)
+opcode: ''
+keywords: PLMComponent keyword_200000000000
+task: PerfTrack_PLM_ResumeApplication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: ResumeReason

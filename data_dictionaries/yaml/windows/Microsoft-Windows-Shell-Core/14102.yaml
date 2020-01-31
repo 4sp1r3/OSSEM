@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14102'
+version: '0'
+event(fields): StatusBarModule_GetPropertiesWorkItemDoWorkStop()
+opcode: Stop
+keywords: Shell
+task: StatusBarModule_GetPropertiesWorkItemDoWork
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

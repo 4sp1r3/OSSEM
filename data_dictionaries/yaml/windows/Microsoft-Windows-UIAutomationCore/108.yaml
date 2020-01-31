@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '108'
+version: '0'
+event(fields): UIAutomationCoreAPI_UiaGetReservedMixedAttributeValueStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: UIAutomationCoreAPI_UiaGetReservedMixedAttributeValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

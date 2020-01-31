@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '142'
+version: '0'
+event(fields): RegisterLoader(UInt32 Status, UInt32 ActualSize, UInt32 ExpectedSize)
+opcode: ''
+keywords: SoftRestart
+task: RegisterLoader
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: ActualSize
+- field_type: UInt32
+  field_name: ExpectedSize

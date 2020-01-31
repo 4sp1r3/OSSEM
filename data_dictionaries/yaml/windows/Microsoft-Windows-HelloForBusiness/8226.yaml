@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8226'
+version: '0'
+event(fields): KeyDeletionInformational8226(UInt32 KeyProvider, UInt32 KeyType, UnicodeString
+  KeyName)
+opcode: Informational
+keywords: Internal
+task: KeyDeletion
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: KeyProvider
+- field_type: UInt32
+  field_name: KeyType
+- field_type: UnicodeString
+  field_name: KeyName

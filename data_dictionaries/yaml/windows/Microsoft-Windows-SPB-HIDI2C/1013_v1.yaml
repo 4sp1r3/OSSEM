@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-SPB-HIDI2C
+event_id: '1013'
+version: '1'
+event(fields): IOrequestflowviatheHIDI2CdriverIoForwardToCompletionQueue_V1(Pointer
+  HidReadRequest)
+opcode: IoForwardToCompletionQueue
+keywords: ''
+task: IOrequestflowviatheHIDI2Cdriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HidReadRequest

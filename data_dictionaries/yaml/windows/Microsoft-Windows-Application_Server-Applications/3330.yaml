@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3330'
+version: '0'
+event(fields): SecurityNegotiationStart(UnicodeString AppDomain)
+opcode: Start
+keywords: Security
+task: SecurityNegotiation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

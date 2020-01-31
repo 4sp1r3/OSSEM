@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22027'
+version: '0'
+event(fields): Taskbar_SetProgressState(UInt32 HWND, UInt32 dwFlags)
+opcode: ''
+keywords: Shell
+task: Taskbar_SetProgressState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HWND
+- field_type: UInt32
+  field_name: dwFlags

@@ -1,0 +1,29 @@
+provider: Microsoft-JScript
+event_id: '96'
+version: '0'
+event(fields): Jscript_Method_JitStart_45_17(UInt32 MethodID, UnicodeString MethodName,
+  Pointer ScriptContext, UInt32 InterpretedCount, UInt32 SourceCodeSize, UInt32 ByteCodeSize,
+  UInt32 ByteCodeInLoopSize, UInt16 JitLevel)
+opcode: Start_45_17
+keywords: JscriptJit
+task: Jscript_Method_Jit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MethodID
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: Pointer
+  field_name: ScriptContext
+- field_type: UInt32
+  field_name: InterpretedCount
+- field_type: UInt32
+  field_name: SourceCodeSize
+- field_type: UInt32
+  field_name: ByteCodeSize
+- field_type: UInt32
+  field_name: ByteCodeInLoopSize
+- field_type: UInt16
+  field_name: JitLevel

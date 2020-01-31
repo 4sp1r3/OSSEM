@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7204'
+version: '0'
+event(fields): ConnectedSearch_SetActiveImpression7204(UnicodeString DroppedAPIcall)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_SetActiveImpression
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DroppedAPIcall

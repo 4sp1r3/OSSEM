@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HomeGroup-ControlPanel
+event_id: '6015'
+version: '0'
+event(fields): Settings_AdvancedPageRetrieveStart()
+opcode: Start
+keywords: ''
+task: Settings_AdvancedPageRetrieve
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1513'
+version: '0'
+event(fields): IpAncillaryData1513(UInt32 Reason)
+opcode: ''
+keywords: ut:TcpipDiagnosis
+task: IpAncillaryData
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason

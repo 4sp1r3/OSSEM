@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-VPN-Client
+event_id: '10008'
+version: '0'
+event(fields): VPNWmiModifySuccess10008(UnicodeString VpnConnectionName, UnicodeString
+  PropertiesString, UnicodeString PropertiesNotUpdatedString)
+opcode: Success
+keywords: ''
+task: VPNWmiModify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VpnConnectionName
+- field_type: UnicodeString
+  field_name: PropertiesString
+- field_type: UnicodeString
+  field_name: PropertiesNotUpdatedString

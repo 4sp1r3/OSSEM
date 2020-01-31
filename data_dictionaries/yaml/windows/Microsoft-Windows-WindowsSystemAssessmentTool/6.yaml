@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WindowsSystemAssessmentTool
+event_id: '6'
+version: '0'
+event(fields): Application6(UInt16 ErrorMsgSize, UnicodeString ErrorMsg)
+opcode: ''
+keywords: ''
+task: Application
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ErrorMsgSize
+- field_type: UnicodeString
+  field_name: ErrorMsg

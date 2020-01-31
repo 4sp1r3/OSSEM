@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '166'
+version: '0'
+event(fields): Blit(Pointer hwnd, Pointer pDmaBuffer, UInt64 PresentHistoryToken,
+  Pointer hSourceAllocation, Pointer hDestAllocation, Boolean bSubmit, Boolean bRedirectedPresent,
+  UInt32 Flags, Int32 SourceLeft, Int32 SourceRight, Int32 SourceTop, Int32 SourceBottom,
+  Int32 DestLeft, Int32 DestRight, Int32 DestTop, Int32 DestBottom, UInt32 SubRectCount)
+opcode: ''
+keywords: Base
+task: Blit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwnd
+- field_type: Pointer
+  field_name: pDmaBuffer
+- field_type: UInt64
+  field_name: PresentHistoryToken
+- field_type: Pointer
+  field_name: hSourceAllocation
+- field_type: Pointer
+  field_name: hDestAllocation
+- field_type: Boolean
+  field_name: bSubmit
+- field_type: Boolean
+  field_name: bRedirectedPresent
+- field_type: UInt32
+  field_name: Flags
+- field_type: Int32
+  field_name: SourceLeft
+- field_type: Int32
+  field_name: SourceRight
+- field_type: Int32
+  field_name: SourceTop
+- field_type: Int32
+  field_name: SourceBottom
+- field_type: Int32
+  field_name: DestLeft
+- field_type: Int32
+  field_name: DestRight
+- field_type: Int32
+  field_name: DestTop
+- field_type: Int32
+  field_name: DestBottom
+- field_type: UInt32
+  field_name: SubRectCount

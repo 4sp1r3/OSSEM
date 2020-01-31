@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '830'
+version: '0'
+event(fields): Mshtml_Query_App_Link_Support_TaskStart(UnicodeString URL)
+opcode: Start
+keywords: mshtml
+task: Mshtml_Query_App_Link_Support_Task
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL

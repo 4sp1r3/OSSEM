@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AAD
+event_id: '1217'
+version: '0'
+event(fields): AadCloudAPPluginOperation1217(UnicodeString value1, UnicodeString value2,
+  UnicodeString value3)
+opcode: ''
+keywords: Analytic
+task: AadCloudAPPluginOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value1
+- field_type: UnicodeString
+  field_name: value2
+- field_type: UnicodeString
+  field_name: value3

@@ -1,0 +1,12 @@
+provider: WSAT_TraceProvider
+category: '{eb6517d4-090c-48ab-825e-adad366406a2}'
+event_id: '5'
+version: '0'
+event(fields): ActivityTransfer(Object ActivityID, Object RelatedActivityID)
+event_type: Transfer
+description: Activity Transfer Event
+event_fields:
+- field_type: Object
+  field_name: ActivityID
+- field_type: Object
+  field_name: RelatedActivityID

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Documents
+event_id: '1532'
+version: '0'
+event(fields): DocPerf_Task_ScanRT_ScanToFolder_ProgressCallbackStart(UInt32 CountScannedFiles)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_ScanRT_ScanToFolder_ProgressCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CountScannedFiles

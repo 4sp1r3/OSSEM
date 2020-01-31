@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2016'
+version: '0'
+event(fields): task_02016(UnicodeString RuleId, UnicodeString RuleName, UInt32 Profiles,
+  UnicodeString Endpoint1, UnicodeString Endpoint2, UnicodeString Phase1AuthSetId,
+  UnicodeString Phase1CryptoSetId, UInt16 Flags, UInt16 Active, UnicodeString EmbeddedContext,
+  UInt32 Origin, SID ModifyingUser, UnicodeString ModifyingApplication, UInt16 SchemaVersion,
+  UInt32 RuleStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RuleId
+- field_type: UnicodeString
+  field_name: RuleName
+- field_type: UInt32
+  field_name: Profiles
+- field_type: UnicodeString
+  field_name: Endpoint1
+- field_type: UnicodeString
+  field_name: Endpoint2
+- field_type: UnicodeString
+  field_name: Phase1AuthSetId
+- field_type: UnicodeString
+  field_name: Phase1CryptoSetId
+- field_type: UInt16
+  field_name: Flags
+- field_type: UInt16
+  field_name: Active
+- field_type: UnicodeString
+  field_name: EmbeddedContext
+- field_type: UInt32
+  field_name: Origin
+- field_type: SID
+  field_name: ModifyingUser
+- field_type: UnicodeString
+  field_name: ModifyingApplication
+- field_type: UInt16
+  field_name: SchemaVersion
+- field_type: UInt32
+  field_name: RuleStatus

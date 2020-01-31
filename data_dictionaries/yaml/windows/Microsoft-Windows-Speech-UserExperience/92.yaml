@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '92'
+version: '0'
+event(fields): Topwindow_SwitchToUnambiguousAppStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: Topwindow_SwitchToUnambiguousApp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10004'
+version: '0'
+event(fields): PnP10004(UnicodeString DeviceName)
+opcode: ''
+keywords: PnP
+task: PnP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceName

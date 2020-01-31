@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25085'
+version: '0'
+event(fields): Logon_AutoLogon_IgnoreAutoLogonMode_Info()
+opcode: ''
+keywords: ''
+task: Logon_AutoLogon_IgnoreAutoLogonMode_Info
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '41'
+version: '0'
+event(fields): TransformCreation41(UInt32 NumProfiles, UInt32 NumIntents, HexInt32
+  Flags)
+opcode: ''
+keywords: ''
+task: TransformCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NumProfiles
+- field_type: UInt32
+  field_name: NumIntents
+- field_type: HexInt32
+  field_name: Flags

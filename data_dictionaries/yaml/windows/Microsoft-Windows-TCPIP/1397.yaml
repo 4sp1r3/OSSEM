@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1397'
+version: '0'
+event(fields): UdpCloseEndpointBound(UInt32 LocalAddressLength, Binary LocalAddress,
+  UInt32 Status, Pointer Endpoint)
+opcode: ''
+keywords: ut:TcpipEndpoint ut:Endpoint ut:ClosePath
+task: UdpCloseEndpointBound
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: Status
+- field_type: Pointer
+  field_name: Endpoint

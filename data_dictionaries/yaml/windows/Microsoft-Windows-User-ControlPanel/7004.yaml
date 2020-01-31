@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-User-ControlPanel
+event_id: '7004'
+version: '0'
+event(fields): UserAccount_Taskflow_ConfirmPasswordPage7004()
+opcode: ''
+keywords: ''
+task: UserAccount_Taskflow_ConfirmPasswordPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

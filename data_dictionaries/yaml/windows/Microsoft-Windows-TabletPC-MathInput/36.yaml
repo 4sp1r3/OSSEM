@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '36'
+version: '0'
+event(fields): MathResultPanelCreateStart()
+opcode: Start
+keywords: ''
+task: MathResultPanelCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

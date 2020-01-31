@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '384'
+version: '0'
+event(fields): ContextHasNegativeQuantum(UInt32 NodeOrdinal, Pointer hContext, Int64
+  DefaultQuantum, Int64 RemainingQuantum, UInt64 LastRunningTimeCalculatedAt, Int64
+  LastRunningTime)
+opcode: ''
+keywords: Base
+task: ContextHasNegativeQuantum
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NodeOrdinal
+- field_type: Pointer
+  field_name: hContext
+- field_type: Int64
+  field_name: DefaultQuantum
+- field_type: Int64
+  field_name: RemainingQuantum
+- field_type: UInt64
+  field_name: LastRunningTimeCalculatedAt
+- field_type: Int64
+  field_name: LastRunningTime

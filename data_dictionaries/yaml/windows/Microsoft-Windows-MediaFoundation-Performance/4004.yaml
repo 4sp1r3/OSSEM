@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4004'
+version: '0'
+event(fields): EvrQueue(AnsiString tag, Pointer object, Pointer sample, Int64 targetQPC,
+  Int64 submittedQPC)
+opcode: ''
+keywords: ''
+task: EvrQueue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: sample
+- field_type: Int64
+  field_name: targetQPC
+- field_type: Int64
+  field_name: submittedQPC

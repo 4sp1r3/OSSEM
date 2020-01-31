@@ -1,0 +1,25 @@
+provider: Microsoft-JScript
+event_id: '246'
+version: '0'
+event(fields): Jscript_Backend_Bailout_LoopBody(UInt32 FunctionMethodID, UInt32 FunctionSourceID,
+  UnicodeString FunctionDisplayName, UInt32 LoopNumber, UInt32 BailoutKind, AnsiString
+  RejitReason)
+opcode: ''
+keywords: JscriptBackend
+task: Jscript_Backend_Bailout_LoopBody
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FunctionMethodID
+- field_type: UInt32
+  field_name: FunctionSourceID
+- field_type: UnicodeString
+  field_name: FunctionDisplayName
+- field_type: UInt32
+  field_name: LoopNumber
+- field_type: UInt32
+  field_name: BailoutKind
+- field_type: AnsiString
+  field_name: RejitReason

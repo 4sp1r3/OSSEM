@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-ESE
+event_id: '107'
+version: '0'
+event(fields): ESE_CacheEvictPage_Trace(UInt32 tick, UInt32 ifmp, UInt32 pgno, UInt32
+  fCurrentVersion, Int32 errBF, UInt32 bfef, UInt32 pctPriority)
+opcode: ''
+keywords: BF BFRESMGR DataWorkingSet
+task: ESE_CacheEvictPage_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: tick
+- field_type: UInt32
+  field_name: ifmp
+- field_type: UInt32
+  field_name: pgno
+- field_type: UInt32
+  field_name: fCurrentVersion
+- field_type: Int32
+  field_name: errBF
+- field_type: UInt32
+  field_name: bfef
+- field_type: UInt32
+  field_name: pctPriority

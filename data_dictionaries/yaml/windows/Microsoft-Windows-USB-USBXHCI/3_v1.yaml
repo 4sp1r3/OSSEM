@@ -1,0 +1,83 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '3'
+version: '1'
+event(fields): USBXHCIControlerRundownInformation_V1(Pointer fid_UcxController, UInt32
+  fid_ParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction,
+  UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString
+  fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt64
+  fid_FirmwareVersion, UInt32 fid_S0IdleStatus, UInt32 fid_WdfDevicePowerState, UInt32
+  fid_InstanceNumber, Boolean fid_WdfPowerReferenceForDebuggerAcquired, UInt8 fid_MajorVersion,
+  UInt8 fid_MinorVersion, Boolean fid_IsSecureDevice, UInt32 fid_DMAModeInVSM, UInt32
+  fid_NumberOfDMATargetsInVSM, UInt32 fid_NumberOfResetRecoveryAttempts, UInt32 fid_UsbEndpointOffloadMode,
+  Boolean fid_IsTimeTrackingEnabled, UInt64 fid_DeviceFlags_0, UInt64 fid_DeviceFlags_1,
+  UInt32 fid_CachedHccParams, UInt32 fid_CachedHccParams2, UInt32 fid_MapRegisterCount,
+  UInt32 fid_SecondaryInterrupterCount, UInt32 fid_InterruptMechanism)
+opcode: Information
+keywords: Default Rundown
+task: USBXHCIControlerRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: UInt32
+  field_name: fid_ParentBusType
+- field_type: UInt32
+  field_name: fid_PciBus
+- field_type: UInt32
+  field_name: fid_PciDevice
+- field_type: UInt32
+  field_name: fid_PciFunction
+- field_type: UInt32
+  field_name: fid_PciVendorId
+- field_type: UInt32
+  field_name: fid_PciDeviceId
+- field_type: UInt32
+  field_name: fid_PciRevisionId
+- field_type: AnsiString
+  field_name: fid_AcpiVendorId
+- field_type: AnsiString
+  field_name: fid_AcpiDeviceId
+- field_type: AnsiString
+  field_name: fid_AcpiRevisionId
+- field_type: UInt64
+  field_name: fid_FirmwareVersion
+- field_type: UInt32
+  field_name: fid_S0IdleStatus
+- field_type: UInt32
+  field_name: fid_WdfDevicePowerState
+- field_type: UInt32
+  field_name: fid_InstanceNumber
+- field_type: Boolean
+  field_name: fid_WdfPowerReferenceForDebuggerAcquired
+- field_type: UInt8
+  field_name: fid_MajorVersion
+- field_type: UInt8
+  field_name: fid_MinorVersion
+- field_type: Boolean
+  field_name: fid_IsSecureDevice
+- field_type: UInt32
+  field_name: fid_DMAModeInVSM
+- field_type: UInt32
+  field_name: fid_NumberOfDMATargetsInVSM
+- field_type: UInt32
+  field_name: fid_NumberOfResetRecoveryAttempts
+- field_type: UInt32
+  field_name: fid_UsbEndpointOffloadMode
+- field_type: Boolean
+  field_name: fid_IsTimeTrackingEnabled
+- field_type: UInt64
+  field_name: fid_DeviceFlags_0
+- field_type: UInt64
+  field_name: fid_DeviceFlags_1
+- field_type: UInt32
+  field_name: fid_CachedHccParams
+- field_type: UInt32
+  field_name: fid_CachedHccParams2
+- field_type: UInt32
+  field_name: fid_MapRegisterCount
+- field_type: UInt32
+  field_name: fid_SecondaryInterrupterCount
+- field_type: UInt32
+  field_name: fid_InterruptMechanism

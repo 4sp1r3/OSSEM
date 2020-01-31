@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1700'
+version: '0'
+event(fields): WindowManager(Pointer ptr)
+opcode: ''
+keywords: WindowManager
+task: WindowManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ptr

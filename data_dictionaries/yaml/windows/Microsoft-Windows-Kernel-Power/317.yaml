@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '317'
+version: '0'
+event(fields): DevicePowerRequirementFromPep(Pointer Token, Boolean PowerRequired)
+opcode: ''
+keywords: po:RuntimeFx
+task: DevicePowerRequirementFromPep
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token
+- field_type: Boolean
+  field_name: PowerRequired

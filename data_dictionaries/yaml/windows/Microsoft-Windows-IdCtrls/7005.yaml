@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IdCtrls
+event_id: '7005'
+version: '0'
+event(fields): Perf_IdControl_NavigateStart()
+opcode: Start
+keywords: IdentityWizard
+task: Perf_IdControl_Navigate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

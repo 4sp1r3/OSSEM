@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PlayToManager
+event_id: '105'
+version: '0'
+event(fields): PlayToManager_CharmRenderingStop()
+opcode: Stop
+keywords: ''
+task: PlayToManager_CharmRendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

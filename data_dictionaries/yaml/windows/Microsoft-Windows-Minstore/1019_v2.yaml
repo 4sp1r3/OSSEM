@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Minstore
+event_id: '1019'
+version: '2'
+event(fields): LogRedo1019_V2(HexInt64 StartLsn, HexInt64 EndLsn, UInt64 TransactionsRemaining)
+opcode: LogRedo
+keywords: ''
+task: LogRedo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: StartLsn
+- field_type: HexInt64
+  field_name: EndLsn
+- field_type: UInt64
+  field_name: TransactionsRemaining

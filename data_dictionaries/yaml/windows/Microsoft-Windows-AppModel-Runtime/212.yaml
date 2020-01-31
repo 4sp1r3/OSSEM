@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '212'
+version: '0'
+event(fields): task_0212(UInt32 ErrorCode, UInt32 ProcessID, UnicodeString PackageName,
+  UnicodeString ContainerId)
+opcode: ''
+keywords: DesktopAppXContainer
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UnicodeString
+  field_name: ContainerId

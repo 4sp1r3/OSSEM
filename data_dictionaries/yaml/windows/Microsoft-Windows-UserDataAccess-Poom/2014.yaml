@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-UserDataAccess-Poom
+event_id: '2014'
+version: '0'
+event(fields): task_02014(HexInt32 Prop_HexInt1, Boolean Prop_Bool, HexInt32 Prop_HexInt2,
+  HexInt32 Prop_HexInt3)
+opcode: ''
+keywords: POOM
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_HexInt1
+- field_type: Boolean
+  field_name: Prop_Bool
+- field_type: HexInt32
+  field_name: Prop_HexInt2
+- field_type: HexInt32
+  field_name: Prop_HexInt3

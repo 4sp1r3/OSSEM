@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '313'
+version: '0'
+event(fields): ComponentIdleState(Pointer Token, UInt32 Component, UInt32 IdleState)
+opcode: ''
+keywords: po:RuntimeFx
+task: ComponentIdleState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token
+- field_type: UInt32
+  field_name: Component
+- field_type: UInt32
+  field_name: IdleState

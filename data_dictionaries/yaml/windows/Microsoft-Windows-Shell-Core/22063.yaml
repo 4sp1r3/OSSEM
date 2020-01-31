@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22063'
+version: '0'
+event(fields): Taskbar_OverlayIcon(Pointer HWND)
+opcode: ''
+keywords: Shell
+task: Taskbar_OverlayIcon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HWND

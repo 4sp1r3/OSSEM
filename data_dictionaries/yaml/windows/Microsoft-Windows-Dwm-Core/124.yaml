@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '124'
+version: '0'
+event(fields): ETWGUID_STEREO_COPYLEFTTORIGHTBUFFEREVENTStop(UInt32 invalidRegions,
+  UInt32 pixelsCopied)
+opcode: Stop
+keywords: DwmCore
+task: ETWGUID_STEREO_COPYLEFTTORIGHTBUFFEREVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: invalidRegions
+- field_type: UInt32
+  field_name: pixelsCopied

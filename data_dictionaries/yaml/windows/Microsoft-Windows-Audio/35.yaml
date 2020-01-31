@@ -1,0 +1,21 @@
+provider: Microsoft-Windows-Audio
+event_id: '35'
+version: '0'
+event(fields): Audio_Glitch_DetectionEngineGlitch:CPServerOutputEndpoint_ReadPointerOverwrite(Pointer
+  pCCrossProcessServerOutputEndpoint, UInt32 WriteOffset, UInt32 ReadOffset, UInt32
+  BytesToWrite)
+opcode: CPServerOutputEndpoint_ReadPointerOverwrite
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCCrossProcessServerOutputEndpoint
+- field_type: UInt32
+  field_name: WriteOffset
+- field_type: UInt32
+  field_name: ReadOffset
+- field_type: UInt32
+  field_name: BytesToWrite

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '38'
+version: '0'
+event(fields): Imaging_SendIconicLivePreviewBitmapStart()
+opcode: Start
+keywords: primarynav
+task: Imaging_SendIconicLivePreviewBitmap
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

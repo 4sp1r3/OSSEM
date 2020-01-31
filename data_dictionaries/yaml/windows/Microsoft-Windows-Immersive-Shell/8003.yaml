@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '8003'
+version: '0'
+event(fields): ActionsFramework_Contacts_MRU_InitializeStop()
+opcode: Stop
+keywords: ''
+task: ActionsFramework_Contacts_MRU_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

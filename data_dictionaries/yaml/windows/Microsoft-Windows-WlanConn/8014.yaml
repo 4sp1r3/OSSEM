@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WlanConn
+event_id: '8014'
+version: '0'
+event(fields): L2Connect_Temp_ProfileStop8014()
+opcode: Stop
+keywords: ''
+task: L2Connect_Temp_Profile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

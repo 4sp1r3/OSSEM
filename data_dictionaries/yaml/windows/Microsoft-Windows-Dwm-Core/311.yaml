@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '311'
+version: '0'
+event(fields): ENDFRAME_DRAWLIST_BATCH_STATS(UInt32 NoAAFixupVertices, UInt32 AAFixup2DVertices,
+  UInt32 AAFixup3DVertices, UInt32 HWDrawCallsProcessed, UInt32 WarpDrawCallsProcessed,
+  UInt32 HwMegaRectsAdded, UInt32 DrawListBatchesProcessed, UInt32 DrawListEntriesProcessed,
+  UInt32 DrawListEntryGroupsProcessed, UInt32 GroupedDrawListEntriesProcessed, UInt32
+  RenderingDrawListEntriesProcessed, UInt32 StateSettingDrawListEntriesCreated, UInt32
+  StateSettingDrawListEntriesOptimizedAway)
+opcode: ''
+keywords: DwmCore
+task: ENDFRAME_DRAWLIST_BATCH_STATS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NoAAFixupVertices
+- field_type: UInt32
+  field_name: AAFixup2DVertices
+- field_type: UInt32
+  field_name: AAFixup3DVertices
+- field_type: UInt32
+  field_name: HWDrawCallsProcessed
+- field_type: UInt32
+  field_name: WarpDrawCallsProcessed
+- field_type: UInt32
+  field_name: HwMegaRectsAdded
+- field_type: UInt32
+  field_name: DrawListBatchesProcessed
+- field_type: UInt32
+  field_name: DrawListEntriesProcessed
+- field_type: UInt32
+  field_name: DrawListEntryGroupsProcessed
+- field_type: UInt32
+  field_name: GroupedDrawListEntriesProcessed
+- field_type: UInt32
+  field_name: RenderingDrawListEntriesProcessed
+- field_type: UInt32
+  field_name: StateSettingDrawListEntriesCreated
+- field_type: UInt32
+  field_name: StateSettingDrawListEntriesOptimizedAway

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '1017'
+version: '0'
+event(fields): task_01017(GUID InterfaceGUID, UInt32 AvgIn, UInt32 AvgOut, UInt32
+  SpikeIn, UInt32 SpikeOut, UInt32 ThresholdAvgIn, UInt32 ThresholdAvgOut, UInt32
+  ThresholdSpikeIn, UInt32 ThresholdSpikeOut)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGUID
+- field_type: UInt32
+  field_name: AvgIn
+- field_type: UInt32
+  field_name: AvgOut
+- field_type: UInt32
+  field_name: SpikeIn
+- field_type: UInt32
+  field_name: SpikeOut
+- field_type: UInt32
+  field_name: ThresholdAvgIn
+- field_type: UInt32
+  field_name: ThresholdAvgOut
+- field_type: UInt32
+  field_name: ThresholdSpikeIn
+- field_type: UInt32
+  field_name: ThresholdSpikeOut

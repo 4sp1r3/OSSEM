@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '9015'
+version: '0'
+event(fields): SecondaryLogon_CapturedDCL(UInt32 HResult)
+opcode: ''
+keywords: SecondaryLogonStatus
+task: SecondaryLogon_CapturedDCL
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HResult

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6621'
+version: '0'
+event(fields): ConnectCharm_ProjectStart()
+opcode: Start
+keywords: ''
+task: ConnectCharm_Project
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8053'
+version: '1'
+event(fields): ReintegrateVirtualApplicationsStop_V1(UInt64 ActivityId)
+opcode: Stop
+keywords: ''
+task: ReintegrateVirtualApplications
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ActivityId

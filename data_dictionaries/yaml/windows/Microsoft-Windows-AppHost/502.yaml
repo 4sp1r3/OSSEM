@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-AppHost
+event_id: '502'
+version: '0'
+event(fields): Infrastructure.LifecycleAppHostOperationSucceeded502(UnicodeString
+  Function, UnicodeString Module, Int32 WebInstance, Int32 PID, UnicodeString PackageFullName,
+  UnicodeString AppUserModelId)
+opcode: AppHostOperationSucceeded
+keywords: WWAHOST_KEYWORD
+task: Infrastructure.Lifecycle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Function
+- field_type: UnicodeString
+  field_name: Module
+- field_type: Int32
+  field_name: WebInstance
+- field_type: Int32
+  field_name: PID
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppUserModelId

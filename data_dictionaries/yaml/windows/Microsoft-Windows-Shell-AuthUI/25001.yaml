@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25001'
+version: '0'
+event(fields): Logon_ServerCallback_AbortStart()
+opcode: Start
+keywords: ''
+task: Logon_ServerCallback_Abort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27052'
+version: '1'
+event(fields): HandlePublishPackageUndoActivityStop_V1()
+opcode: Stop
+keywords: ''
+task: HandlePublishPackageUndoActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

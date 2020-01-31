@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '33'
+version: '0'
+event(fields): StrokeSelect33(UInt32 intvalue)
+opcode: ''
+keywords: ''
+task: StrokeSelect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: intvalue

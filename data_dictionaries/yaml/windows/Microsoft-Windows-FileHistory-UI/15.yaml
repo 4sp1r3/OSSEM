@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '15'
+version: '0'
+event(fields): ZoomSwitch3To1Stop()
+opcode: Stop
+keywords: ''
+task: ZoomSwitch3To1
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

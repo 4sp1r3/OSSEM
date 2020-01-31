@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '29017'
+version: '1'
+event(fields): StartupTask.Stop_V1()
+opcode: Stop
+keywords: ''
+task: StartupTask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

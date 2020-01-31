@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '4000'
+version: '0'
+event(fields): AppReadiness_TriggerTask_Run(UnicodeString User, Int32 Result)
+opcode: ''
+keywords: Triggers
+task: AppReadiness_TriggerTask_Run
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: Int32
+  field_name: Result

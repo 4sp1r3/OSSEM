@@ -1,0 +1,11 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '1509'
+version: '0'
+event(fields): SettingsTemplateCatalogProcessingApplySettingsLocationTemplateCatalog1509()
+opcode: ApplySettingsLocationTemplateCatalog
+keywords: ''
+task: SettingsTemplateCatalogProcessing
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,57 @@
+provider: Microsoft-Windows-QoS-Pacer
+event_id: '5'
+version: '0'
+event(fields): task_05(UInt32 FlowType, UInt32 OldSendSpecTokenRate, UInt32 OldSendSpecTokenBucketSize,
+  UInt32 OldSendSpecPeakBandwidth, UInt32 OldSendSpecLatency, UInt32 OldSendSpecDelayVariation,
+  UInt32 OldSendSpecServiceType, UInt32 OldSendSpecMaxSduSize, UInt32 OldSendSpecMinimumPolicedSize,
+  UInt32 NewSendSpecTokenRate, UInt32 NewSendSpecTokenBucketSize, UInt32 NewSendSpecPeakBandwidth,
+  UInt32 NewSendSpecLatency, UInt32 NewSendSpecDelayVariation, UInt32 NewSendSpecServiceType,
+  UInt32 NewSendSpecMaxSduSize, UInt32 NewSendSpecMinimumPolicedSize, UInt32 NewQoSObjectBufferLen,
+  Binary NewQoSObjectBuffer, UInt32 AffectedPackets)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FlowType
+- field_type: UInt32
+  field_name: OldSendSpecTokenRate
+- field_type: UInt32
+  field_name: OldSendSpecTokenBucketSize
+- field_type: UInt32
+  field_name: OldSendSpecPeakBandwidth
+- field_type: UInt32
+  field_name: OldSendSpecLatency
+- field_type: UInt32
+  field_name: OldSendSpecDelayVariation
+- field_type: UInt32
+  field_name: OldSendSpecServiceType
+- field_type: UInt32
+  field_name: OldSendSpecMaxSduSize
+- field_type: UInt32
+  field_name: OldSendSpecMinimumPolicedSize
+- field_type: UInt32
+  field_name: NewSendSpecTokenRate
+- field_type: UInt32
+  field_name: NewSendSpecTokenBucketSize
+- field_type: UInt32
+  field_name: NewSendSpecPeakBandwidth
+- field_type: UInt32
+  field_name: NewSendSpecLatency
+- field_type: UInt32
+  field_name: NewSendSpecDelayVariation
+- field_type: UInt32
+  field_name: NewSendSpecServiceType
+- field_type: UInt32
+  field_name: NewSendSpecMaxSduSize
+- field_type: UInt32
+  field_name: NewSendSpecMinimumPolicedSize
+- field_type: UInt32
+  field_name: NewQoSObjectBufferLen
+- field_type: Binary
+  field_name: NewQoSObjectBuffer
+- field_type: UInt32
+  field_name: AffectedPackets

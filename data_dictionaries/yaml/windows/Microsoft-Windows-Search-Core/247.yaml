@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '247'
+version: '0'
+event(fields): CSearchRoot_put_EnumerationDepth(UInt32 Value)
+opcode: ''
+keywords: CSM
+task: CSearchRoot_put_EnumerationDepth
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

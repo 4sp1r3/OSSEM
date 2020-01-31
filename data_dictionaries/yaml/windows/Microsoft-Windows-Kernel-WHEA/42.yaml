@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-WHEA
+event_id: '42'
+version: '0'
+event(fields): task_042(UInt32 Type, UInt32 Owner, UInt32 Id, UInt32 Flags, UInt32
+  Length, Binary RawData)
+opcode: ''
+keywords: WheaEventLog
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Owner
+- field_type: UInt32
+  field_name: Id
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Length
+- field_type: Binary
+  field_name: RawData

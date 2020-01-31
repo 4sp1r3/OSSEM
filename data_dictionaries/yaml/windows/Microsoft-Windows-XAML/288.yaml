@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAML
+event_id: '288'
+version: '0'
+event(fields): CompTreeInsertChild(UInt64 Parent, UInt64 Child, UInt64 ReferenceNode,
+  UInt32 InsertAtBeginning)
+opcode: ''
+keywords: DComp
+task: CompTreeInsertChild
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Parent
+- field_type: UInt64
+  field_name: Child
+- field_type: UInt64
+  field_name: ReferenceNode
+- field_type: UInt32
+  field_name: InsertAtBeginning

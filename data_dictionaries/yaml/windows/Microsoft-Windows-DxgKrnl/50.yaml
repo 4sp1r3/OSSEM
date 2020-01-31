@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '50'
+version: '0'
+event(fields): MemoryTransfer(Pointer hProcessId, Pointer hAllocationGlobalHandle,
+  Pointer pDmaBuffer, UInt64 offset, UInt64 size, UInt32 uiType)
+opcode: ''
+keywords: Resource
+task: MemoryTransfer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hProcessId
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: Pointer
+  field_name: pDmaBuffer
+- field_type: UInt64
+  field_name: offset
+- field_type: UInt64
+  field_name: size
+- field_type: UInt32
+  field_name: uiType

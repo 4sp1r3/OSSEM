@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '32791'
+version: '1'
+event(fields): task_0Receive(Async)32791_V1(UnicodeString SessionId, UnicodeString
+  PipelineId)
+opcode: Receive(Async)
+keywords: Transport
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: PipelineId

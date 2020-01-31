@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Network-DataUsage
+event_id: '1012'
+version: '0'
+event(fields): ProcessUpdateStop()
+opcode: Stop
+keywords: ''
+task: ProcessUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

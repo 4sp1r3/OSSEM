@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '896'
+version: '0'
+event(fields): task_0896(UnicodeString p1_String, UInt32 p2_UInt32)
+opcode: ''
+keywords: PLM ExecProductionCircular ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: p1_String
+- field_type: UInt32
+  field_name: p2_UInt32

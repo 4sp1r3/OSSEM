@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '39003'
+version: '0'
+event(fields): VReg.ProcessStartRuntimeStop()
+opcode: Stop
+keywords: ''
+task: VReg.ProcessStartRuntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

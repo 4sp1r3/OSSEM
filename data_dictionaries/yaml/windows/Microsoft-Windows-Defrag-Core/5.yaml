@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Defrag-Core
+event_id: '5'
+version: '0'
+event(fields): TierOptimizationStart5()
+opcode: Start
+keywords: ''
+task: TierOptimization
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

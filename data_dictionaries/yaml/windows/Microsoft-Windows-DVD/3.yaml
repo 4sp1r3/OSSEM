@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DVD
+event_id: '3'
+version: '0'
+event(fields): NavFlushStop(Pointer Object)
+opcode: Stop
+keywords: ''
+task: NavFlush
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

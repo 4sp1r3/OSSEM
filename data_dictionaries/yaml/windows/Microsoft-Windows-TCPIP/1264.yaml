@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1264'
+version: '0'
+event(fields): Ndkpi_Connect(Pointer NdkConnector, Pointer NdkQp, UInt32 SrcSockAddrLength,
+  Binary SrcSockAddr, UInt32 DestSockAddrLength, Binary DestSockAddr, UInt32 IRD,
+  UInt32 ORD, Pointer RequestContext, Pointer NdkSharedEndpoint, UInt32 PrivateDataLength)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Connect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkConnector
+- field_type: Pointer
+  field_name: NdkQp
+- field_type: UInt32
+  field_name: SrcSockAddrLength
+- field_type: Binary
+  field_name: SrcSockAddr
+- field_type: UInt32
+  field_name: DestSockAddrLength
+- field_type: Binary
+  field_name: DestSockAddr
+- field_type: UInt32
+  field_name: IRD
+- field_type: UInt32
+  field_name: ORD
+- field_type: Pointer
+  field_name: RequestContext
+- field_type: Pointer
+  field_name: NdkSharedEndpoint
+- field_type: UInt32
+  field_name: PrivateDataLength

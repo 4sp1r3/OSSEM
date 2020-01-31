@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7185'
+version: '0'
+event(fields): ConnectedSearch_AttributionVisibilityBGStop()
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_AttributionVisibilityBG
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

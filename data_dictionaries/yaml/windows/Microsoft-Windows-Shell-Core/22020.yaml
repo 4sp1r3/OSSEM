@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22020'
+version: '0'
+event(fields): Taskbar_ShowThumbnailStart(UInt32 iId, UInt32 fFromGlom)
+opcode: Start
+keywords: Shell
+task: Taskbar_ShowThumbnail
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: iId
+- field_type: UInt32
+  field_name: fFromGlom

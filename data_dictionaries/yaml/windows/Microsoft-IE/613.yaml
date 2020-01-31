@@ -1,0 +1,17 @@
+provider: Microsoft-IE
+event_id: '613'
+version: '0'
+event(fields): Mshtml_MessagePort(Pointer MessagePort, Pointer Owner, UInt32 OwnerType)
+opcode: ''
+keywords: mshtml
+task: Mshtml_MessagePort
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MessagePort
+- field_type: Pointer
+  field_name: Owner
+- field_type: UInt32
+  field_name: OwnerType

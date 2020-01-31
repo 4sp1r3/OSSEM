@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5452'
+version: '1'
+event(fields): task_05452_V1(UnicodeString LocalAddress, UnicodeString LocalAddressMask,
+  UInt32 LocalPort, UnicodeString LocalTunnelEndpoint, UnicodeString RemoteAddress,
+  UnicodeString RemoteAddressMask, UInt32 RemotePort, UnicodeString RemoteTunnelEndpoint,
+  UInt32 IpProtocol, UInt64 QuickModeSaId, UInt64 TunnelId, UInt64 TrafficSelectorId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalAddress
+- field_type: UnicodeString
+  field_name: LocalAddressMask
+- field_type: UInt32
+  field_name: LocalPort
+- field_type: UnicodeString
+  field_name: LocalTunnelEndpoint
+- field_type: UnicodeString
+  field_name: RemoteAddress
+- field_type: UnicodeString
+  field_name: RemoteAddressMask
+- field_type: UInt32
+  field_name: RemotePort
+- field_type: UnicodeString
+  field_name: RemoteTunnelEndpoint
+- field_type: UInt32
+  field_name: IpProtocol
+- field_type: UInt64
+  field_name: QuickModeSaId
+- field_type: UInt64
+  field_name: TunnelId
+- field_type: UInt64
+  field_name: TrafficSelectorId

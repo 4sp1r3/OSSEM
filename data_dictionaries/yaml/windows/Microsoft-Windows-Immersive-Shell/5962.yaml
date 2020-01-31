@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5962'
+version: '0'
+event(fields): AppActivation_Log_GenericFailure5962(Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: AppActivation_Log_GenericFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ErrorCode

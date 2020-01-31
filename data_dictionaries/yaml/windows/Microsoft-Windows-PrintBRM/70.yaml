@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '70'
+version: '0'
+event(fields): BackupPrintBRMoperationfailure70(UnicodeString FileName)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_BRM_KEYWORD
+task: Backup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

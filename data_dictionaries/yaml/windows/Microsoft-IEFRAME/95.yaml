@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '95'
+version: '0'
+event(fields): Frame_CommandBandCreateStop()
+opcode: Stop
+keywords: primarynav
+task: Frame_CommandBandCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

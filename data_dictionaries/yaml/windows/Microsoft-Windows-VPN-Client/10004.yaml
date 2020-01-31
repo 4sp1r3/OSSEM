@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-VPN-Client
+event_id: '10004'
+version: '0'
+event(fields): VPNWmiDeleteFailure(UnicodeString VpnConnectionName, UInt32 ErrorCode)
+opcode: Failure
+keywords: ''
+task: VPNWmiDelete
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VpnConnectionName
+- field_type: UInt32
+  field_name: ErrorCode

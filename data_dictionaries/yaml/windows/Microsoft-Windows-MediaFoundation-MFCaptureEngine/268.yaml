@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '268'
+version: '0'
+event(fields): MFCaptureEngine_Camera_Sound_PlaybackTaskStart(Pointer CaptureEngineObject,
+  UInt32 PlaybackResult)
+opcode: Start
+keywords: ''
+task: MFCaptureEngine_Camera_Sound_PlaybackTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CaptureEngineObject
+- field_type: UInt32
+  field_name: PlaybackResult

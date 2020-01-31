@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3807'
+version: '0'
+event(fields): RoutingServiceMessageCompletingTwoWay(UnicodeString AppDomain)
+opcode: CompletingTwoWay
+keywords: RoutingServices
+task: RoutingServiceMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

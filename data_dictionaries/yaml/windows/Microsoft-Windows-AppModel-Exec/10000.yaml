@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '10000'
+version: '0'
+event(fields): task_010000(UnicodeString p0)
+opcode: ''
+keywords: ExecDevPlatCircular
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: p0

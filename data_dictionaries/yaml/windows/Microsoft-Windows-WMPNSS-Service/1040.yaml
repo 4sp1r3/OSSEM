@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1040'
+version: '0'
+event(fields): Objwriter_Write_Object_AttribStop(UInt32 Value, UInt32 AttributesWritten,
+  UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Objwriter_Write_Object_Attrib
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value
+- field_type: UInt32
+  field_name: AttributesWritten
+- field_type: UInt32
+  field_name: ErrorCode

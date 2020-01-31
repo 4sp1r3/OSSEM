@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-NTLM
+event_id: '4002'
+version: '0'
+event(fields): BlockingNTLM4002(UInt32 CallerPID, UnicodeString ProcessName, HexInt64
+  ClientLUID, UnicodeString ClientUserName, UnicodeString ClientDomainName, UnicodeString
+  MechanismOID)
+opcode: ''
+keywords: ''
+task: BlockingNTLM
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CallerPID
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: HexInt64
+  field_name: ClientLUID
+- field_type: UnicodeString
+  field_name: ClientUserName
+- field_type: UnicodeString
+  field_name: ClientDomainName
+- field_type: UnicodeString
+  field_name: MechanismOID

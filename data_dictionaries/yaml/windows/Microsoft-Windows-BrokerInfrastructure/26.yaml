@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '26'
+version: '0'
+event(fields): WatchdogIteration(UInt32 Duration, UInt32 Iteration, UInt32 ActivitySummary,
+  UInt32 ActivityFilter, Boolean HangDetected, UInt32 EventType, UnicodeString PackageFullName,
+  UnicodeString EntryPoint, GUID InstanceId, UInt64 CycleTime, UInt64 NetTokens)
+opcode: WatchdogIteration
+keywords: Watchdog
+task: WatchdogIteration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Duration
+- field_type: UInt32
+  field_name: Iteration
+- field_type: UInt32
+  field_name: ActivitySummary
+- field_type: UInt32
+  field_name: ActivityFilter
+- field_type: Boolean
+  field_name: HangDetected
+- field_type: UInt32
+  field_name: EventType
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: EntryPoint
+- field_type: GUID
+  field_name: InstanceId
+- field_type: UInt64
+  field_name: CycleTime
+- field_type: UInt64
+  field_name: NetTokens

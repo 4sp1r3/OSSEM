@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '38018'
+version: '1'
+event(fields): VObjects.ProcessRetrieveExclusionsStart_V1()
+opcode: Start
+keywords: ''
+task: VObjects.ProcessRetrieveExclusions
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

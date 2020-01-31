@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '48'
+version: '0'
+event(fields): CommandQueueStop(Pointer pID3D12Device, Pointer pCommandQueue, UInt32
+  type, UInt32 ContextCount, UInt32 UMDContexts, Int32 Priority, UInt32 Flags, UInt32
+  NodeMask)
+opcode: Stop
+keywords: Devices ObjectLifetime
+task: CommandQueue
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pCommandQueue
+- field_type: UInt32
+  field_name: type
+- field_type: UInt32
+  field_name: ContextCount
+- field_type: UInt32
+  field_name: UMDContexts
+- field_type: Int32
+  field_name: Priority
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: NodeMask

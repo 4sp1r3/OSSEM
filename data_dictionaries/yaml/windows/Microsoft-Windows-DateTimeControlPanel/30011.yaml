@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DateTimeControlPanel
+event_id: '30011'
+version: '0'
+event(fields): PerfTrack_DisplayClockFlyoutStop()
+opcode: Stop
+keywords: ''
+task: PerfTrack_DisplayClockFlyout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

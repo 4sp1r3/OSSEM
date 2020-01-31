@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-FunctionDiscovery
+event_id: '1045'
+version: '0'
+event(fields): FunDisc_ProviderPublishingRemoveInstanceStop(UnicodeString Category,
+  UnicodeString Subcategory, UnicodeString ProviderInstanceID)
+opcode: Stop
+keywords: ''
+task: FunDisc_ProviderPublishingRemoveInstance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Category
+- field_type: UnicodeString
+  field_name: Subcategory
+- field_type: UnicodeString
+  field_name: ProviderInstanceID

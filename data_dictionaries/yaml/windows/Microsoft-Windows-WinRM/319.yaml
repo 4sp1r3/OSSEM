@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinRM
+event_id: '319'
+version: '0'
+event(fields): WSManAPIcallStop319(UInt32 inputErrorCode, UnicodeString languageCode)
+opcode: Stop
+keywords: Keyword.Client
+task: WSManAPIcall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: inputErrorCode
+- field_type: UnicodeString
+  field_name: languageCode

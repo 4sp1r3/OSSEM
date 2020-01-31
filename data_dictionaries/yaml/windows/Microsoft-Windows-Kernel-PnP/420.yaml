@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '420'
+version: '0'
+event(fields): task_0420(UnicodeString DeviceInstanceId, GUID ClassGuid, HexInt32
+  Problem, HexInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceInstanceId
+- field_type: GUID
+  field_name: ClassGuid
+- field_type: HexInt32
+  field_name: Problem
+- field_type: HexInt32
+  field_name: Status

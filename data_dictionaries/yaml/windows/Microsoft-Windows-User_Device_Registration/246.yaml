@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '246'
+version: '0'
+event(fields): task_0246(UInt32 ErrorCode, UnicodeString SourceId, UnicodeString DefaultPath,
+  Int32 LocationType, UnicodeString LocationTypeName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: SourceId
+- field_type: UnicodeString
+  field_name: DefaultPath
+- field_type: Int32
+  field_name: LocationType
+- field_type: UnicodeString
+  field_name: LocationTypeName

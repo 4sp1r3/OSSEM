@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '19501'
+version: '1'
+event(fields): PublishingRefresh19501_V1(UnicodeString Item)
+opcode: ''
+keywords: PublishingRefresh
+task: PublishingRefresh
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Item

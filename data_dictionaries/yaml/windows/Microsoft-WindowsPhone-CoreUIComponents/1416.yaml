@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1416'
+version: '0'
+event(fields): SessionManagerNSSMConnectNavigationTask(UInt32 unParam, UInt32 unParam2)
+opcode: NSSMConnectNavigationTask
+keywords: NavigationPerformance SessionManager
+task: SessionManager
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2

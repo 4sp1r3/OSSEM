@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '5528'
+version: '0'
+event(fields): task_05528()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

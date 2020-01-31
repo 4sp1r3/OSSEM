@@ -1,0 +1,22 @@
+provider: Microsoft-AppV-Client
+event_id: '8001'
+version: '1'
+event(fields): ParseDynamicConfigurationFile_V1(UInt32 Error, UnicodeString Reason,
+  Int64 line, Int64 column, Int64 offset)
+opcode: ''
+keywords: DynamicConfiguration
+task: ParseDynamicConfigurationFile
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: Reason
+- field_type: Int64
+  field_name: line
+- field_type: Int64
+  field_name: column
+- field_type: Int64
+  field_name: offset

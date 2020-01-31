@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '253'
+version: '0'
+event(fields): ScrubbingStateTask(UInt32 ScrubbingState)
+opcode: ''
+keywords: ''
+task: ScrubbingStateTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScrubbingState

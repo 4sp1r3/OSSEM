@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '36'
+version: '0'
+event(fields): MarkerStart(Pointer pID3D12CommandQueue, UInt32 Metadata, UInt32 DataSize,
+  UInt8 Data)
+opcode: Start
+keywords: Markers
+task: Marker
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12CommandQueue
+- field_type: UInt32
+  field_name: Metadata
+- field_type: UInt32
+  field_name: DataSize
+- field_type: UInt8
+  field_name: Data

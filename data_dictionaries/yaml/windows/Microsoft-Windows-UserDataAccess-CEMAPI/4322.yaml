@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4322'
+version: '0'
+event(fields): CTX_INITSTORESINKStart()
+opcode: Start
+keywords: Performance
+task: CTX_INITSTORESINK
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

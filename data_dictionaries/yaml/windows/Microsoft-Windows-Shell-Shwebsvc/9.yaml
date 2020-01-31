@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Shwebsvc
+event_id: '9'
+version: '0'
+event(fields): CancelStart()
+opcode: Start
+keywords: ''
+task: Cancel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

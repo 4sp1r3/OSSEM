@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-ReFS-v1
+event_id: '135'
+version: '0'
+event(fields): task_0135(UInt16 VolumeIdLength, UnicodeString VolumeId, HexInt32 FailureReason)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: VolumeIdLength
+- field_type: UnicodeString
+  field_name: VolumeId
+- field_type: HexInt32
+  field_name: FailureReason

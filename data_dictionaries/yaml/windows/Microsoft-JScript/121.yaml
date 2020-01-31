@@ -1,0 +1,18 @@
+provider: Microsoft-JScript
+event_id: '121'
+version: '0'
+event(fields): Jscript_Recycler_AllocationAllocate_WinRT_Delegate_Object(Pointer MemoryAddress,
+  UnicodeString TypeName, Pointer jsVar)
+opcode: Allocate_WinRT_Delegate_Object
+keywords: JScriptObjectAllocation
+task: Jscript_Recycler_Allocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MemoryAddress
+- field_type: UnicodeString
+  field_name: TypeName
+- field_type: Pointer
+  field_name: jsVar

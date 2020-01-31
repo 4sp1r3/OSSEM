@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '0'
+version: '0'
+event(fields): H264_NotifyDecode(UInt32 IDRCount, Int32 POC, UInt8 PictureType)
+opcode: ''
+keywords: ''
+task: H264_NotifyDecode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IDRCount
+- field_type: Int32
+  field_name: POC
+- field_type: UInt8
+  field_name: PictureType

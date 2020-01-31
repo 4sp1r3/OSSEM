@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '470'
+version: '0'
+event(fields): ReferenceTrackingCleanup(Int32 Objects, Int32 Attempts, Int32 Completed)
+opcode: ''
+keywords: Core
+task: ReferenceTrackingCleanup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Objects
+- field_type: Int32
+  field_name: Attempts
+- field_type: Int32
+  field_name: Completed

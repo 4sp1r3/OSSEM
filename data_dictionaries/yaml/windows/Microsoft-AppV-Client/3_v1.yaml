@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '3'
+version: '1'
+event(fields): ClientStartupStart3_V1(UnicodeString Item, UInt32 Error)
+opcode: Start
+keywords: Startup
+task: ClientStartup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Item
+- field_type: UInt32
+  field_name: Error

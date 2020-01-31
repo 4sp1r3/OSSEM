@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Audio
+event_id: '134'
+version: '0'
+event(fields): CreateDeviceEndpointInstancetaskStop()
+opcode: Stop
+keywords: ''
+task: CreateDeviceEndpointInstancetask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

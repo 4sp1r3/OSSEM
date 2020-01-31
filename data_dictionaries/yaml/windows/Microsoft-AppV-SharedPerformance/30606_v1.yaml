@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30606'
+version: '1'
+event(fields): PolicyRead_4102Stop_V1()
+opcode: Stop
+keywords: ''
+task: PolicyRead_4102
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

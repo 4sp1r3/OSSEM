@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3103'
+version: '1'
+event(fields): RefreshPolicyTaskRefreshPolicyOp3103_V1(GUID PolicyGUID, HexInt32 Status)
+opcode: RefreshPolicyOp
+keywords: ''
+task: RefreshPolicyTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PolicyGUID
+- field_type: HexInt32
+  field_name: Status

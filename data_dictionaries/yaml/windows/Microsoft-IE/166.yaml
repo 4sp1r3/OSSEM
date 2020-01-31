@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '166'
+version: '0'
+event(fields): Mshtml_XmlPre_RunStop(UInt32 HR, Pointer CXmlPrePtr, UInt32 fDataPend,
+  UInt32 fSuspended)
+opcode: Stop
+keywords: primarynav mshtml
+task: Mshtml_XmlPre_Run
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HR
+- field_type: Pointer
+  field_name: CXmlPrePtr
+- field_type: UInt32
+  field_name: fDataPend
+- field_type: UInt32
+  field_name: fSuspended

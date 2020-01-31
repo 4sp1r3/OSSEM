@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1820'
+version: '0'
+event(fields): JournalEntry(UInt32 Index, HexInt32 Code, UInt32 ThreadId, AnsiString
+  Message)
+opcode: ''
+keywords: Devices JournalEntries
+task: JournalEntry
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index
+- field_type: HexInt32
+  field_name: Code
+- field_type: UInt32
+  field_name: ThreadId
+- field_type: AnsiString
+  field_name: Message

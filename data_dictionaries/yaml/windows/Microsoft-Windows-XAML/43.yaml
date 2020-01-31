@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '43'
+version: '0'
+event(fields): MeasureStart()
+opcode: Start
+keywords: Layout
+task: Measure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

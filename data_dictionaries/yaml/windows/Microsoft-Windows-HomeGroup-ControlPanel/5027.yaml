@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HomeGroup-ControlPanel
+event_id: '5027'
+version: '0'
+event(fields): task_05027()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

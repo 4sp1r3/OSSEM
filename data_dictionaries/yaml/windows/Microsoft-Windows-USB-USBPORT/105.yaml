@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '105'
+version: '0'
+event(fields): USBUSER_OP_RAW_RESET_PORTStatus105(Int8 fid_USBPORT_HC, UInt16 fid_PortNumber,
+  UInt32 fid_PortStatus)
+opcode: Status
+keywords: Diagnostic
+task: USBUSER_OP_RAW_RESET_PORT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: fid_USBPORT_HC
+- field_type: UInt16
+  field_name: fid_PortNumber
+- field_type: UInt32
+  field_name: fid_PortStatus

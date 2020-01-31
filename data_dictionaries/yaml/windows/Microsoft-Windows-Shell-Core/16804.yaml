@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16804'
+version: '0'
+event(fields): Library_SQM_AddFolderStop()
+opcode: Stop
+keywords: Shell
+task: Library_SQM_AddFolder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

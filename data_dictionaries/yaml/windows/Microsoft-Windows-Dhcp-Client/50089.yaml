@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50089'
+version: '0'
+event(fields): NetworkParameterStateEventParamChangeUnregister(UInt32 ProcID, UInt32
+  UniqueID)
+opcode: ParamChangeUnregister
+keywords: ''
+task: NetworkParameterStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcID
+- field_type: UInt32
+  field_name: UniqueID

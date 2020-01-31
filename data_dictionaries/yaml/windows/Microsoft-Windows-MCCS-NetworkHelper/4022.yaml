@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '4022'
+version: '0'
+event(fields): task_04022(Int32 Prop_hr)
+opcode: ''
+keywords: Debug
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Prop_hr

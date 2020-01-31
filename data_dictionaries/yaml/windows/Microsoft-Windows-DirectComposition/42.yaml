@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '42'
+version: '0'
+event(fields): OFFER_RECLAIM(UInt64 Id, UInt32 Width, UInt32 Height)
+opcode: ''
+keywords: DCompMemory OfferReclaim
+task: OFFER_RECLAIM
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height

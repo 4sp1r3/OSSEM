@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '140'
+version: '0'
+event(fields): Menuband_PopulateShellFolderToolbarStart()
+opcode: Start
+keywords: primarynav
+task: Menuband_PopulateShellFolderToolbar
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1239'
+version: '0'
+event(fields): task_01239(UInt32 KaValueType, UInt32 KaValue, UInt32 KaMinLimit)
+opcode: ''
+keywords: wnptrans
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: KaValueType
+- field_type: UInt32
+  field_name: KaValue
+- field_type: UInt32
+  field_name: KaMinLimit

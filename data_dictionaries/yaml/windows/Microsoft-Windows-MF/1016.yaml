@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1016'
+version: '0'
+event(fields): MediaFoundationPathLockStart(Pointer PathLock)
+opcode: Start
+keywords: ''
+task: MediaFoundationPathLock
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PathLock

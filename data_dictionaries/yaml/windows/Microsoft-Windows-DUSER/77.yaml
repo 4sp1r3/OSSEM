@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DUSER
+event_id: '77'
+version: '0'
+event(fields): DUser_InitializeDCompTransforms(Int32 nHResult, UInt32 hGadget, Boolean
+  fIsCopy, Pointer pTransitionVisual, Pointer pDCompVisual, Pointer pEffectGroup)
+opcode: ''
+keywords: Default
+task: DUser_InitializeDCompTransforms
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: nHResult
+- field_type: UInt32
+  field_name: hGadget
+- field_type: Boolean
+  field_name: fIsCopy
+- field_type: Pointer
+  field_name: pTransitionVisual
+- field_type: Pointer
+  field_name: pDCompVisual
+- field_type: Pointer
+  field_name: pEffectGroup

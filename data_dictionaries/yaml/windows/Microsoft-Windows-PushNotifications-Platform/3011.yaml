@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3011'
+version: '0'
+event(fields): RequestNotificationStop()
+opcode: Stop
+keywords: wpnui wpnperf_MoGoPanning wpnperf_MoGoPanningWithCloudImage
+task: RequestNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

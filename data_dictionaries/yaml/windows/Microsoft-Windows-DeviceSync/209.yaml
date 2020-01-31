@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '209'
+version: '0'
+event(fields): MediaSync_SupportedContentStop()
+opcode: Stop
+keywords: ''
+task: MediaSync_SupportedContent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

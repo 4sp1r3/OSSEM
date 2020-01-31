@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '2'
+version: '0'
+event(fields): Mshtml_CDoc_OnPaintStop(Pointer HWND, UInt32 Flags)
+opcode: Stop
+keywords: primarynav pageloadbreakdown
+task: Mshtml_CDoc_OnPaint
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HWND
+- field_type: UInt32
+  field_name: Flags

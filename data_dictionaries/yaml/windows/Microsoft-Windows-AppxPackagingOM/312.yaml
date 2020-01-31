@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '312'
+version: '0'
+event(fields): AppXPackaging.Task.StreamingReader.RequestHandlerRunStart(UInt32 requestCount,
+  UInt32 priority)
+opcode: Start
+keywords: ''
+task: AppXPackaging.Task.StreamingReader.RequestHandlerRun
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: requestCount
+- field_type: UInt32
+  field_name: priority

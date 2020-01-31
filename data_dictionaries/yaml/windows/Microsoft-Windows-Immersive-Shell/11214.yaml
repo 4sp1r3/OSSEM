@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11214'
+version: '0'
+event(fields): Accounts_GetCredentialCommands(UnicodeString Resource, UnicodeString
+  Identity)
+opcode: ''
+keywords: ''
+task: Accounts_GetCredentialCommands
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Resource
+- field_type: UnicodeString
+  field_name: Identity

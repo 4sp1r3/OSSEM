@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11123'
+version: '0'
+event(fields): PLM_JobError(UnicodeString PsmKey, UInt32 HRESULT, UInt32 Reason)
+opcode: ''
+keywords: PLMComponent
+task: PLM_JobError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: Reason

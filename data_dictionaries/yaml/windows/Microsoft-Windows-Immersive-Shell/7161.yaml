@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7161'
+version: '0'
+event(fields): ConnectedSearch_DetailArrowClickStop(UInt32 ErrorResult)
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_DetailArrowClick
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorResult

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '363'
+version: '0'
+event(fields): FileChangeTracker_ProcessUSNStart()
+opcode: Start
+keywords: IndexingChunk Gatherer
+task: FileChangeTracker_ProcessUSN
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

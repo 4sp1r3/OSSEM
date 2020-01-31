@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-DRV
+event_id: '2'
+version: '0'
+event(fields): StartDriverStop()
+opcode: Stop
+keywords: Driver
+task: StartDriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

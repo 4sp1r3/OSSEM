@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-User-ControlPanel
+event_id: '9001'
+version: '0'
+event(fields): task_09001(UnicodeString Method, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Method
+- field_type: UInt32
+  field_name: HRESULT

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Documents
+event_id: '1647'
+version: '0'
+event(fields): DocPerf_Task_XpsPrint_XpsDrv_ConvertResourceDictionaryStop(UInt32 JobId,
+  Boolean IsOpenXPSDoc, Boolean IsOMInput)
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_XpsPrint_XpsDrv_ConvertResourceDictionary
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobId
+- field_type: Boolean
+  field_name: IsOpenXPSDoc
+- field_type: Boolean
+  field_name: IsOMInput

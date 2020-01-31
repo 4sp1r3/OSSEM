@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '247'
+version: '0'
+event(fields): ETWGUID_SETINDEPENDENTFLIPINFO(UInt64 hCompSurf, UInt64 bindId, UInt32
+  uPlaneIndex, UInt32 bIndependentFlipEnabled, UInt32 bNotifySurfaceUpdates, UInt32
+  uPresentDuration, UInt32 bPendingIndependentFlip)
+opcode: ''
+keywords: DwmCore
+task: ETWGUID_SETINDEPENDENTFLIPINFO
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hCompSurf
+- field_type: UInt64
+  field_name: bindId
+- field_type: UInt32
+  field_name: uPlaneIndex
+- field_type: UInt32
+  field_name: bIndependentFlipEnabled
+- field_type: UInt32
+  field_name: bNotifySurfaceUpdates
+- field_type: UInt32
+  field_name: uPresentDuration
+- field_type: UInt32
+  field_name: bPendingIndependentFlip

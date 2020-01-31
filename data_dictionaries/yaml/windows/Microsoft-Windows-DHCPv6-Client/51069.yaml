@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51069'
+version: '0'
+event(fields): ProtocolStateEventDontStartSolicitInCSSinceV4Plumbed(UInt32 InterfaceId,
+  UInt32 Address1, UInt32 DwordVal1, UInt32 DwordVal2)
+opcode: DontStartSolicitInCSSinceV4Plumbed
+keywords: ''
+task: ProtocolStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: Address1
+- field_type: UInt32
+  field_name: DwordVal1
+- field_type: UInt32
+  field_name: DwordVal2

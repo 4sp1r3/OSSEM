@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1403'
+version: '0'
+event(fields): RdClientPipelineworkspaceThiseventisraisedwhenprotocolcapsarereceivedfromtheserver.Welogthathardwareresourcesarenotbeingused.()
+opcode: Thiseventisraisedwhenprotocolcapsarereceivedfromtheserver.Welogthathardwareresourcesarenotbeingused.
+keywords: ''
+task: RdClientPipelineworkspace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

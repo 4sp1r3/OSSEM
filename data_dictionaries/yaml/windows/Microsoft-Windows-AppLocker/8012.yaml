@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppLocker
+event_id: '8012'
+version: '0'
+event(fields): SrpPolicyConversionStop8012()
+opcode: Stop
+keywords: ''
+task: SrpPolicyConversion
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

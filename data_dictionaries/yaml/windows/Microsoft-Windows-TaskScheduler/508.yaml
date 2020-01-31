@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '508'
+version: '0'
+event(fields): IdleTaskExplicitProcessingActive()
+opcode: ''
+keywords: ForcedIdleProcessing
+task: IdleTaskExplicitProcessingActive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

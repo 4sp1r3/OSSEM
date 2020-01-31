@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9638'
+version: '0'
+event(fields): Explorer_LoadingIconCacheStop()
+opcode: Stop
+keywords: Shell StartupPerf
+task: Explorer_LoadingIconCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

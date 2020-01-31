@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20498'
+version: '0'
+event(fields): ValidatechunkcontainerredirectiontableStart(UInt32 ContainerId, UInt32
+  Generation)
+opcode: Start
+keywords: KmChunkContainer
+task: Validatechunkcontainerredirectiontable
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ContainerId
+- field_type: UInt32
+  field_name: Generation

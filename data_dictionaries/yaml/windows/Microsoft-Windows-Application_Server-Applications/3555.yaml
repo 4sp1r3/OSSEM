@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3555'
+version: '0'
+event(fields): CreateWorkflowServiceHostStart(UnicodeString AppDomain)
+opcode: Start
+keywords: WebHost
+task: CreateWorkflowServiceHost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

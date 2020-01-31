@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '390'
+version: '0'
+event(fields): Mshtml_Composition_Create_LayerStop()
+opcode: Stop
+keywords: composition
+task: Mshtml_Composition_Create_Layer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

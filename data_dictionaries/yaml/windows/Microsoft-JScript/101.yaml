@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '101'
+version: '0'
+event(fields): Jscript_GC_IdleCollect(Pointer RecyclerID)
+opcode: ''
+keywords: JScriptGarbageCollection
+task: Jscript_GC_IdleCollect
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID

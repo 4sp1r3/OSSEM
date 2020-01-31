@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '117'
+version: '0'
+event(fields): IDXGIAdapter_GetParentStop(UInt32 m_Ret, Pointer ppvObject)
+opcode: Stop
+keywords: ''
+task: IDXGIAdapter_GetParent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret
+- field_type: Pointer
+  field_name: ppvObject

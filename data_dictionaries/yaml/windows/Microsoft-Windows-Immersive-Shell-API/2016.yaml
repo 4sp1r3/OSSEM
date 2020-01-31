@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2016'
+version: '0'
+event(fields): CoreApplicationSuspendHandlersStart()
+opcode: Start
+keywords: ''
+task: CoreApplicationSuspendHandlers
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

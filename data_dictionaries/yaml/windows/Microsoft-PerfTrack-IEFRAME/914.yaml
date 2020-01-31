@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '914'
+version: '0'
+event(fields): FlipAhead_RulesFileUpdateStop(UInt32 FileVersion)
+opcode: Stop
+keywords: ''
+task: FlipAhead_RulesFileUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FileVersion

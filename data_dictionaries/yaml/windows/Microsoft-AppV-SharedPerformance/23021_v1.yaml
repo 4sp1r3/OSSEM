@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23021'
+version: '1'
+event(fields): PackagingEmailStop_V1()
+opcode: Stop
+keywords: ''
+task: PackagingEmail
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

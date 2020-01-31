@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '203'
+version: '0'
+event(fields): MediaSync_StopSyncStop()
+opcode: Stop
+keywords: ''
+task: MediaSync_StopSync
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

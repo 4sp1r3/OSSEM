@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '184'
+version: '0'
+event(fields): IRTimerExpiries(UInt32 ExpiryCount, UInt16 RelativeId, UnicodeString
+  ComponentName)
+opcode: ''
+keywords: po:SleepStudy
+task: IRTimerExpiries
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ExpiryCount
+- field_type: UInt16
+  field_name: RelativeId
+- field_type: UnicodeString
+  field_name: ComponentName

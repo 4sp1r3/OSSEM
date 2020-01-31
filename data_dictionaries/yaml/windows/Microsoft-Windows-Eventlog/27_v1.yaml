@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '27'
+version: '1'
+event(fields): Servicestartup27_V1(UInt32 ErrorCode, UnicodeString ChannelPath, UnicodeString
+  FailedLogFilePath, UnicodeString NewLogFilePath)
+opcode: ''
+keywords: el:Availability el:Settings
+task: Servicestartup
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ChannelPath
+- field_type: UnicodeString
+  field_name: FailedLogFilePath
+- field_type: UnicodeString
+  field_name: NewLogFilePath

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '14'
+version: '0'
+event(fields): DirectUI_FlusterFrameRenderStop()
+opcode: Stop
+keywords: Default
+task: DirectUI_FlusterFrameRender
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

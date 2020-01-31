@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HttpEvent
+event_id: '15007'
+version: '0'
+event(fields): task_0PCODE_64pcode_64(UnicodeString DeviceObject, UnicodeString Url)
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceObject
+- field_type: UnicodeString
+  field_name: Url

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '522'
+version: '0'
+event(fields): ClientConnection_DispatchToProviderStop(Boolean IsChannelConnection,
+  UInt32 InstanceId)
+opcode: Stop
+keywords: PerfInstrumentation
+task: ClientConnection_DispatchToProvider
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsChannelConnection
+- field_type: UInt32
+  field_name: InstanceId

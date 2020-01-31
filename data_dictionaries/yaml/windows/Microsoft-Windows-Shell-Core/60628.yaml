@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60628'
+version: '0'
+event(fields): ItemsView_SelectionState_SelectionChangeStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: ItemsView_SelectionState_SelectionChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

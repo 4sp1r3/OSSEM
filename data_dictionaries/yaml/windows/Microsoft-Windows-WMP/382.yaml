@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '382'
+version: '0'
+event(fields): HME_UPnPDeviceRemovedCallbackStop(UnicodeString UDN, UInt32 HRESULT)
+opcode: Stop
+keywords: mediaplayer
+task: HME_UPnPDeviceRemovedCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: UInt32
+  field_name: HRESULT

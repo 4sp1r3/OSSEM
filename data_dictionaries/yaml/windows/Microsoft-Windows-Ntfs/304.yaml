@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '304'
+version: '0'
+event(fields): VolumeDismountStop304(HexInt32 Status)
+opcode: Stop
+keywords: VolumeMountDismount
+task: VolumeDismount
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

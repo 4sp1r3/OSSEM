@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-PnP-Rundown
+event_id: '2'
+version: '0'
+event(fields): ParentPdo(Pointer Pdo, Pointer ParentPdo)
+opcode: ''
+keywords: SleepStudy
+task: ParentPdo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Pdo
+- field_type: Pointer
+  field_name: ParentPdo

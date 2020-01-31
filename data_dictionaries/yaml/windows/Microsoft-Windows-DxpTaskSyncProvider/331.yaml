@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxpTaskSyncProvider
+event_id: '331'
+version: '0'
+event(fields): DxpTaskSync_CreateBusinessObjectStop(GUID ContainerID)
+opcode: Stop
+keywords: ''
+task: DxpTaskSync_CreateBusinessObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ContainerID

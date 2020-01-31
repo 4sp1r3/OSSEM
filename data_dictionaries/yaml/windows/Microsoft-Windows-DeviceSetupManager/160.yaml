@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '160'
+version: '0'
+event(fields): task_0160(UnicodeString Prop_SoftwareName, UnicodeString Prop_DeviceInstanceId,
+  UInt64 Prop_InstallTime)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_SoftwareName
+- field_type: UnicodeString
+  field_name: Prop_DeviceInstanceId
+- field_type: UInt64
+  field_name: Prop_InstallTime

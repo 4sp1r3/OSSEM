@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '134'
+version: '0'
+event(fields): Jscript_GC_ProcessClientTrackedObjectStop(Pointer RecyclerID)
+opcode: Stop
+keywords: JScriptGarbageCollection
+task: Jscript_GC_ProcessClientTrackedObject
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID

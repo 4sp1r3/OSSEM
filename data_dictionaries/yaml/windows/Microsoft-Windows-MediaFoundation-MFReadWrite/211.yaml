@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-MFReadWrite
+event_id: '211'
+version: '0'
+event(fields): Transform_SetInputType(Pointer Object, UInt32 TransformType, AnsiString
+  MediaType)
+opcode: ''
+keywords: ''
+task: Transform_SetInputType
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: TransformType
+- field_type: AnsiString
+  field_name: MediaType

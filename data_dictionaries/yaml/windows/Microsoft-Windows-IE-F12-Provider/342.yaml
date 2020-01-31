@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-IE-F12-Provider
+event_id: '342'
+version: '0'
+event(fields): Debugger_BreakpointController_BreakpointChangedStart(UnicodeString
+  TraceDescription)
+opcode: Start
+keywords: ''
+task: Debugger_BreakpointController_BreakpointChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceDescription

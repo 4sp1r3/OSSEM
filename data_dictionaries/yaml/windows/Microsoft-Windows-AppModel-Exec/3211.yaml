@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '3211'
+version: '0'
+event(fields): LogTrace3211(GUID skuId, GUID productId, UInt32 taskInstanceId, UInt32
+  taskType, UInt32 newState, UInt32 reasonForStateChange, UInt64 duration, UInt64
+  peak)
+opcode: ''
+keywords: ExecMan Sqm
+task: LogTrace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: skuId
+- field_type: GUID
+  field_name: productId
+- field_type: UInt32
+  field_name: taskInstanceId
+- field_type: UInt32
+  field_name: taskType
+- field_type: UInt32
+  field_name: newState
+- field_type: UInt32
+  field_name: reasonForStateChange
+- field_type: UInt64
+  field_name: duration
+- field_type: UInt64
+  field_name: peak

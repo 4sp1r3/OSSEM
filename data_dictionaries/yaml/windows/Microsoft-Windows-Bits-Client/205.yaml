@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '205'
+version: '0'
+event(fields): task_0205(UInt8 profileType, FILETIME currSlotStartTime, UInt64 currSlotBandwidthLimit,
+  FILETIME nextSlotStartTime, UInt64 nextSlotBandwidthLimit)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: profileType
+- field_type: FILETIME
+  field_name: currSlotStartTime
+- field_type: UInt64
+  field_name: currSlotBandwidthLimit
+- field_type: FILETIME
+  field_name: nextSlotStartTime
+- field_type: UInt64
+  field_name: nextSlotBandwidthLimit

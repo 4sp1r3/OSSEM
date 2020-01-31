@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1008'
+version: '1'
+event(fields): InstallinglanguagepackValidatethatlanguagepackcanbeinstalled1008_V1(UnicodeString
+  Language, HexInt32 Error)
+opcode: Validatethatlanguagepackcanbeinstalled
+keywords: ''
+task: Installinglanguagepack
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language
+- field_type: HexInt32
+  field_name: Error

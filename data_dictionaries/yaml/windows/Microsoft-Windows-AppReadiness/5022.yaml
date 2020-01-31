@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '5022'
+version: '0'
+event(fields): AppReadiness_TimelineStart5022(UnicodeString UserId, UnicodeString
+  PackageFamilyName, UnicodeString ActivityId)
+opcode: Start
+keywords: Timeline
+task: AppReadiness_Timeline
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserId
+- field_type: UnicodeString
+  field_name: PackageFamilyName
+- field_type: UnicodeString
+  field_name: ActivityId

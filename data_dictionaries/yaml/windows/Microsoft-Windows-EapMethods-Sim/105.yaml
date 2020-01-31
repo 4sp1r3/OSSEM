@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EapMethods-Sim
+event_id: '105'
+version: '0'
+event(fields): SIMbasedauthenticationfailedevent105()
+opcode: ''
+keywords: ''
+task: SIMbasedauthenticationfailedevent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

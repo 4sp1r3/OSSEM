@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '21007'
+version: '1'
+event(fields): ParsingShortcutFilesStop_V1()
+opcode: Stop
+keywords: ''
+task: ParsingShortcutFiles
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

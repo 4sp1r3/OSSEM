@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '103'
+version: '0'
+event(fields): task_0103(UnicodeString ApplicationName, UnicodeString ApplicationVersion,
+  UnicodeString ExecutablePath, UnicodeString ScenarioId, UnicodeString UserAction,
+  UnicodeString UserActionID, UnicodeString CompatibilityLayer, UnicodeString FileID,
+  UnicodeString ProgramID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApplicationName
+- field_type: UnicodeString
+  field_name: ApplicationVersion
+- field_type: UnicodeString
+  field_name: ExecutablePath
+- field_type: UnicodeString
+  field_name: ScenarioId
+- field_type: UnicodeString
+  field_name: UserAction
+- field_type: UnicodeString
+  field_name: UserActionID
+- field_type: UnicodeString
+  field_name: CompatibilityLayer
+- field_type: UnicodeString
+  field_name: FileID
+- field_type: UnicodeString
+  field_name: ProgramID

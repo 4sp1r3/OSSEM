@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '122'
+version: '0'
+event(fields): PowerTransition122(UInt32 TotalResumeTime, UInt32 PhasePagesWrittenMB,
+  UInt32 ResumeAppAndKernelResumeHiberFileTime, UInt32 POSTAndDeviceResumeTime, UInt32
+  RatesAndResumeAppsServicesTime, UInt32 PhasePagesProcessedMB)
+opcode: ''
+keywords: po:Scenario po:Performance po:PerformanceLight
+task: PowerTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TotalResumeTime
+- field_type: UInt32
+  field_name: PhasePagesWrittenMB
+- field_type: UInt32
+  field_name: ResumeAppAndKernelResumeHiberFileTime
+- field_type: UInt32
+  field_name: POSTAndDeviceResumeTime
+- field_type: UInt32
+  field_name: RatesAndResumeAppsServicesTime
+- field_type: UInt32
+  field_name: PhasePagesProcessedMB

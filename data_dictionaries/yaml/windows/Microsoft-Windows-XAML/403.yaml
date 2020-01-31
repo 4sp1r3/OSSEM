@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-XAML
+event_id: '403'
+version: '0'
+event(fields): CurveSegment(UInt32 Axis, UInt32 Curve, UInt32 Segment, Float Offset,
+  Float Constant, Float Linear)
+opcode: ''
+keywords: Input
+task: CurveSegment
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Axis
+- field_type: UInt32
+  field_name: Curve
+- field_type: UInt32
+  field_name: Segment
+- field_type: Float
+  field_name: Offset
+- field_type: Float
+  field_name: Constant
+- field_type: Float
+  field_name: Linear

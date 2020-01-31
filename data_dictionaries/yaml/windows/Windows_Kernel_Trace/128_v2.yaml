@@ -1,0 +1,19 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d3-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '128'
+version: '2'
+event(fields): PageFault_VirtualAllocRundown(UInt32 BaseAddress, Object RegionSize,
+  UInt32 ProcessId, UInt32 Flags, Object CommitSizeInBytes)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: BaseAddress
+- field_type: Object
+  field_name: RegionSize
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: Flags
+- field_type: Object
+  field_name: CommitSizeInBytes

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '28683'
+version: '1'
+event(fields): SerializeordeserializeremotingpayloadTobeusedwhenanexceptionisraised28683_V1(Int32
+  LineNumber, Int32 LinePosition, UnicodeString Exception)
+opcode: Tobeusedwhenanexceptionisraised
+keywords: Serializer
+task: Serializeordeserializeremotingpayload
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: LineNumber
+- field_type: Int32
+  field_name: LinePosition
+- field_type: UnicodeString
+  field_name: Exception

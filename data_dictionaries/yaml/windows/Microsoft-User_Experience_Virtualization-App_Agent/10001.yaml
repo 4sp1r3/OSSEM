@@ -1,0 +1,11 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '10001'
+version: '0'
+event(fields): OfflineFilesOperationsCSCTool10001()
+opcode: CSCTool
+keywords: ''
+task: OfflineFilesOperations
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

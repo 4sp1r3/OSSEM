@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PDC
+event_id: '40'
+version: '0'
+event(fields): CsSessionConnect(UInt32 SessionId, UInt32 Console, UInt32 Connected)
+opcode: ''
+keywords: Cs
+task: CsSessionConnect
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: Console
+- field_type: UInt32
+  field_name: Connected

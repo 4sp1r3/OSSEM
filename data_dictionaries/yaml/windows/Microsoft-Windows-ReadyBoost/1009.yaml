@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-ReadyBoost
+event_id: '1009'
+version: '0'
+event(fields): ReadyBoost1009(UnicodeString DeviceName, UInt32 IntValue, UInt32 SecondIntValue)
+opcode: ''
+keywords: ReadyBoost
+task: ReadyBoost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: UInt32
+  field_name: IntValue
+- field_type: UInt32
+  field_name: SecondIntValue

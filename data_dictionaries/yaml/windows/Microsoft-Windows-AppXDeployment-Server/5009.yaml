@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '5009'
+version: '0'
+event(fields): AppXDeployment.Task.Server.ExtensionsStart5009(UnicodeString IncomingPackageName)
+opcode: Start
+keywords: VISUALELEMENTS_EXTENSION_KEYWORD
+task: AppXDeployment.Task.Server.Extensions
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: IncomingPackageName

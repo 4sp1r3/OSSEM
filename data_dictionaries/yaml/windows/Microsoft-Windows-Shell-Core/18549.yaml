@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18549'
+version: '0'
+event(fields): Shell32_DefView_EnumerationStart()
+opcode: Start
+keywords: Shell
+task: Shell32_DefView_Enumeration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

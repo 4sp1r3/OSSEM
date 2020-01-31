@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SENSE
+event_id: '73'
+version: '0'
+event(fields): task_073(HexInt64 platformBitMask)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: platformBitMask

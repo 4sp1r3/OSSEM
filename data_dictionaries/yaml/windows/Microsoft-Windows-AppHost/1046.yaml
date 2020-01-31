@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1046'
+version: '0'
+event(fields): InputPanelResizeViewportStop()
+opcode: Stop
+keywords: WwaHost
+task: InputPanelResizeViewport
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

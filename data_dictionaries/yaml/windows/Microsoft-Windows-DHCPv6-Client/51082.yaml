@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51082'
+version: '0'
+event(fields): ProtocolStateEventAbandonSolicitInCSSinceV6Stateless(UInt32 DwordVal1,
+  UInt32 InterfaceId, Binary Address, UInt32 DwordVal2, UInt32 DwordVal3)
+opcode: AbandonSolicitInCSSinceV6Stateless
+keywords: ''
+task: ProtocolStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordVal1
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: Binary
+  field_name: Address
+- field_type: UInt32
+  field_name: DwordVal2
+- field_type: UInt32
+  field_name: DwordVal3

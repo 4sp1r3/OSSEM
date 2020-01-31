@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-StorPort
+event_id: '217'
+version: '1'
+event(fields): PortDispatchingofrequest.217_V1(Pointer Irp, HexInt32 MinorFunction,
+  HexInt32 Type, Pointer DeviceObject)
+opcode: Dispatchingofrequest.
+keywords: PnP
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: HexInt32
+  field_name: MinorFunction
+- field_type: HexInt32
+  field_name: Type
+- field_type: Pointer
+  field_name: DeviceObject

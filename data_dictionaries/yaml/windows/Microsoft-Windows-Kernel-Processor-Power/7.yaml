@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '7'
+version: '0'
+event(fields): LongCapInfo(UInt32 Processor, UInt32 CapDurationInSeconds, UInt32 PpcChanges,
+  UInt32 TpcChanges)
+opcode: ''
+keywords: ''
+task: LongCapInfo
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Processor
+- field_type: UInt32
+  field_name: CapDurationInSeconds
+- field_type: UInt32
+  field_name: PpcChanges
+- field_type: UInt32
+  field_name: TpcChanges

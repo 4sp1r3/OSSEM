@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-LiveId
+event_id: '1014'
+version: '0'
+event(fields): WLIDServiceOperationStop(UInt32 NoOfTargets, UInt32 RequestType)
+opcode: Stop
+keywords: Analytic
+task: WLIDServiceOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NoOfTargets
+- field_type: UInt32
+  field_name: RequestType

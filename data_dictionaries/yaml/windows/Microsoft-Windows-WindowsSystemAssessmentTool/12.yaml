@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WindowsSystemAssessmentTool
+event_id: '12'
+version: '0'
+event(fields): Application12()
+opcode: ''
+keywords: ''
+task: Application
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

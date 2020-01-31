@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WMP
+event_id: '360'
+version: '0'
+event(fields): HME_SERVER_UPDATEOBJECTStart(UnicodeString DeviceID, UnicodeString
+  ObjectID)
+opcode: Start
+keywords: mediaplayer
+task: HME_SERVER_UPDATEOBJECT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceID
+- field_type: UnicodeString
+  field_name: ObjectID

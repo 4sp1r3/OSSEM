@@ -1,0 +1,69 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1352'
+version: '0'
+event(fields): TcpConnectionSummary(Pointer Tcb, UInt64 DataBytesOut, UInt64 DataBytesIn,
+  UInt64 DataSegmentsOut, UInt64 DataSegmentsIn, UInt64 SegmentsOut, UInt64 SegmentsIn,
+  UInt32 NonRecovDa, UInt32 NonRecovDaEpisodes, UInt32 DupAcksIn, UInt32 BytesRetrans,
+  UInt32 Timeouts, UInt32 SpuriousRtoDetections, UInt32 FastRetran, UInt32 MaxSsthresh,
+  UInt32 MaxSsCwnd, UInt32 MaxCaCwnd, UInt32 SndLimTransRwin, UInt32 SndLimTimeRwin,
+  UInt64 SndLimBytesRwin, UInt32 SndLimTransCwnd, UInt32 SndLimTimeCwnd, UInt64 SndLimBytesCwnd,
+  UInt32 SndLimTransSnd, UInt32 SndLimTimeRSnd, UInt64 SndLimBytesRSnd)
+opcode: ''
+keywords: keyword_200000000000
+task: TcpConnectionSummary
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt64
+  field_name: DataBytesOut
+- field_type: UInt64
+  field_name: DataBytesIn
+- field_type: UInt64
+  field_name: DataSegmentsOut
+- field_type: UInt64
+  field_name: DataSegmentsIn
+- field_type: UInt64
+  field_name: SegmentsOut
+- field_type: UInt64
+  field_name: SegmentsIn
+- field_type: UInt32
+  field_name: NonRecovDa
+- field_type: UInt32
+  field_name: NonRecovDaEpisodes
+- field_type: UInt32
+  field_name: DupAcksIn
+- field_type: UInt32
+  field_name: BytesRetrans
+- field_type: UInt32
+  field_name: Timeouts
+- field_type: UInt32
+  field_name: SpuriousRtoDetections
+- field_type: UInt32
+  field_name: FastRetran
+- field_type: UInt32
+  field_name: MaxSsthresh
+- field_type: UInt32
+  field_name: MaxSsCwnd
+- field_type: UInt32
+  field_name: MaxCaCwnd
+- field_type: UInt32
+  field_name: SndLimTransRwin
+- field_type: UInt32
+  field_name: SndLimTimeRwin
+- field_type: UInt64
+  field_name: SndLimBytesRwin
+- field_type: UInt32
+  field_name: SndLimTransCwnd
+- field_type: UInt32
+  field_name: SndLimTimeCwnd
+- field_type: UInt64
+  field_name: SndLimBytesCwnd
+- field_type: UInt32
+  field_name: SndLimTransSnd
+- field_type: UInt32
+  field_name: SndLimTimeRSnd
+- field_type: UInt64
+  field_name: SndLimBytesRSnd

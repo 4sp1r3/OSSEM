@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8510'
+version: '0'
+event(fields): KeyRegistrationStop8510()
+opcode: Stop
+keywords: Component
+task: KeyRegistration
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '276'
+version: '0'
+event(fields): MergeStart(UInt32 ObjectWid, Boolean UseQueryPerfOpt, Boolean Restarted,
+  UnicodeString IndexIds, UInt32 TotalSizeInPages, UInt32 MaxWid)
+opcode: Start
+keywords: Indexing
+task: Merge
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ObjectWid
+- field_type: Boolean
+  field_name: UseQueryPerfOpt
+- field_type: Boolean
+  field_name: Restarted
+- field_type: UnicodeString
+  field_name: IndexIds
+- field_type: UInt32
+  field_name: TotalSizeInPages
+- field_type: UInt32
+  field_name: MaxWid

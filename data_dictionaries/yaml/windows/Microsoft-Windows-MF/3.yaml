@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MF
+event_id: '3'
+version: '0'
+event(fields): MediaFoundationDevproxySendBuffersToDeviceStop(Pointer AsyncTaskPointer,
+  UInt32 StreamID, Pointer BufferPointer, Pointer PinPointer, Pointer ParentPointer)
+opcode: Stop
+keywords: ''
+task: MediaFoundationDevproxySendBuffersToDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AsyncTaskPointer
+- field_type: UInt32
+  field_name: StreamID
+- field_type: Pointer
+  field_name: BufferPointer
+- field_type: Pointer
+  field_name: PinPointer
+- field_type: Pointer
+  field_name: ParentPointer

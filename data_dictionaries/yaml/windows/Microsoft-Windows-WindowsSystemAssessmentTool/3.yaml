@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsSystemAssessmentTool
+event_id: '3'
+version: '0'
+event(fields): ApplicationStop(UInt32 ExitCode)
+opcode: Stop
+keywords: ''
+task: Application
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ExitCode

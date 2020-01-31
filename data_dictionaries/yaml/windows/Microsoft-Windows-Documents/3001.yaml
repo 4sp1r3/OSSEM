@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '3001'
+version: '0'
+event(fields): DocPerf_Task_SmcN_WriteADStop()
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_SmcN_WriteAD
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

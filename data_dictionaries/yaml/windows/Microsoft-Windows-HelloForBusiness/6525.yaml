@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '6525'
+version: '0'
+event(fields): HelloProvisioningStop6525(HexInt32 Error, UInt32 ProcessingTime)
+opcode: Stop
+keywords: Component
+task: HelloProvisioning
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error
+- field_type: UInt32
+  field_name: ProcessingTime

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6502'
+version: '0'
+event(fields): CommonFileDialog_ApplyPropertiesStop()
+opcode: Stop
+keywords: Shell
+task: CommonFileDialog_ApplyProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

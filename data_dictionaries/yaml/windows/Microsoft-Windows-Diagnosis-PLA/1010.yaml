@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Diagnosis-PLA
+event_id: '1010'
+version: '0'
+event(fields): task_01010(UnicodeString Name, UnicodeString CounterName, UInt32 Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: CounterName
+- field_type: UInt32
+  field_name: Error

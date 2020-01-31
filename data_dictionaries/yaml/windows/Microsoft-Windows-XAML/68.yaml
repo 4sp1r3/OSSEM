@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '68'
+version: '0'
+event(fields): RenderThreadPresentStart()
+opcode: Start
+keywords: Rendering
+task: RenderThreadPresent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

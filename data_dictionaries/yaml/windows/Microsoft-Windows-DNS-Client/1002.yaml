@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '1002'
+version: '0'
+event(fields): DnsServerQueryChange(UnicodeString Interface, UInt32 AddressLength,
+  Binary Address)
+opcode: ''
+keywords: ''
+task: DnsServerQueryChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Interface
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: Binary
+  field_name: Address

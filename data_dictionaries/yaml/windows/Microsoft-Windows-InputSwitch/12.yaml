@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-InputSwitch
+event_id: '12'
+version: '0'
+event(fields): SelectInputModalityStop(UInt32 param)
+opcode: Stop
+keywords: Perf InputSwitch_Keyword
+task: SelectInputModality
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: param

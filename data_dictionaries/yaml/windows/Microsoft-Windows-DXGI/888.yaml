@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DXGI
+event_id: '888'
+version: '0'
+event(fields): IDXGIAdapter_EnumOutputs2Start(Pointer pThis, UInt32 iOutput, UInt32
+  iOutputType, Pointer ppOutput)
+opcode: Start
+keywords: ''
+task: IDXGIAdapter_EnumOutputs2
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: iOutput
+- field_type: UInt32
+  field_name: iOutputType
+- field_type: Pointer
+  field_name: ppOutput

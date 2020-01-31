@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '13502'
+version: '0'
+event(fields): Notification_UserDismissStop()
+opcode: Stop
+keywords: Shell
+task: Notification_UserDismiss
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

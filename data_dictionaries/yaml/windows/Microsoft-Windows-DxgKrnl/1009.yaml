@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1009'
+version: '0'
+event(fields): DxgkCbSendUserModeMessageStop(UInt64 MiracastLuid, UInt32 InputBufferSize,
+  UInt32 OutputBufferSize, Pointer Callback, Pointer CallbackContext, UInt32 ReturnStatus)
+opcode: Stop
+keywords: Miracast
+task: DxgkCbSendUserModeMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UInt32
+  field_name: InputBufferSize
+- field_type: UInt32
+  field_name: OutputBufferSize
+- field_type: Pointer
+  field_name: Callback
+- field_type: Pointer
+  field_name: CallbackContext
+- field_type: UInt32
+  field_name: ReturnStatus

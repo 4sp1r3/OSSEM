@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4519'
+version: '0'
+event(fields): TaskGroup(Pointer TaskGroup, UInt32 RefCount)
+opcode: ''
+keywords: Telemetry
+task: TaskGroup
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TaskGroup
+- field_type: UInt32
+  field_name: RefCount

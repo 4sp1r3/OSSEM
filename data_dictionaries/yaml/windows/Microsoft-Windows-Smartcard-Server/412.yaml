@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Smartcard-Server
+event_id: '412'
+version: '0'
+event(fields): task_0412()
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

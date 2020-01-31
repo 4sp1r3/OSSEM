@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSPaint
+event_id: '31'
+version: '0'
+event(fields): RotateOperationStart()
+opcode: Start
+keywords: ''
+task: RotateOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

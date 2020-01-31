@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '45'
+version: '3'
+event(fields): AdaptiveStandbyStandbyBudgetAction_V3(UInt32 TimeInStandby, UInt32
+  GracePeriod, UInt32 RemainingBatteryPercentage, UInt32 StandbyBatteryDrainPercentage,
+  UInt32 BatteryDrainPercentageThreshold, Boolean ExecuteAction, UInt32 RejectReason,
+  UInt32 DataSources, UInt32 CsSessionId)
+opcode: StandbyBudgetAction
+keywords: AdaptiveStandby
+task: AdaptiveStandby
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimeInStandby
+- field_type: UInt32
+  field_name: GracePeriod
+- field_type: UInt32
+  field_name: RemainingBatteryPercentage
+- field_type: UInt32
+  field_name: StandbyBatteryDrainPercentage
+- field_type: UInt32
+  field_name: BatteryDrainPercentageThreshold
+- field_type: Boolean
+  field_name: ExecuteAction
+- field_type: UInt32
+  field_name: RejectReason
+- field_type: UInt32
+  field_name: DataSources
+- field_type: UInt32
+  field_name: CsSessionId

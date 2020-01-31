@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5512'
+version: '0'
+event(fields): task_05512(UInt32 AddrLength, Binary Prefix)
+opcode: ''
+keywords: damultisite
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AddrLength
+- field_type: Binary
+  field_name: Prefix

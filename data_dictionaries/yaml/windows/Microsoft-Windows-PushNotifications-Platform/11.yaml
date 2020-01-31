@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '11'
+version: '0'
+event(fields): DefragFileStop()
+opcode: Stop
+keywords: wpnplat
+task: DefragFile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7415'
+version: '0'
+event(fields): ConnectedSearch_LogWebLayout7415(UInt32 Result, UnicodeString ImpressionGUID,
+  UInt32 LayoutAction, UnicodeString TelemetryId)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogWebLayout
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ImpressionGUID
+- field_type: UInt32
+  field_name: LayoutAction
+- field_type: UnicodeString
+  field_name: TelemetryId

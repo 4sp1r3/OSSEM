@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-LinkLayerDiscoveryProtocol
+event_id: '10021'
+version: '0'
+event(fields): task_010021(UInt32 IfIndex, UInt32 RejectReason)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: RejectReason

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-EnhancedStorage-EhStorTcgDrv
+event_id: '5'
+version: '0'
+event(fields): DriverGeneral5(AnsiString Context, UInt32 ExpectedSize, UInt32 ActualSize)
+opcode: General
+keywords: ''
+task: Driver
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Context
+- field_type: UInt32
+  field_name: ExpectedSize
+- field_type: UInt32
+  field_name: ActualSize

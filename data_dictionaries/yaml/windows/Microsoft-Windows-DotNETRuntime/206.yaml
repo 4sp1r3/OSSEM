@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '206'
+version: '0'
+event(fields): GCGCLoaded(UnicodeString GCName, UInt16 ClrInstanceID)
+opcode: GCLoaded
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: GCName
+- field_type: UInt16
+  field_name: ClrInstanceID

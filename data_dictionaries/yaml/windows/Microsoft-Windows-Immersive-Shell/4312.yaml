@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4312'
+version: '0'
+event(fields): ImmersiveMonitorHandleDisplayChangeStart(UInt32 MonitorIdentity)
+opcode: Start
+keywords: ''
+task: ImmersiveMonitorHandleDisplayChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MonitorIdentity

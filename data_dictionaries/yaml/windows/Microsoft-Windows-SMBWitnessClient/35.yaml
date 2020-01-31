@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SMBWitnessClient
+event_id: '35'
+version: '0'
+event(fields): task_035(UnicodeString NetName, UnicodeString ShareName, UInt32 Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: NetName
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt32
+  field_name: Error

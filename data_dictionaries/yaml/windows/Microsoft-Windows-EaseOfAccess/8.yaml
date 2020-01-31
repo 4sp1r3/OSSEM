@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EaseOfAccess
+event_id: '8'
+version: '0'
+event(fields): UtilMan_LaunchAppStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: UtilMan_LaunchApp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

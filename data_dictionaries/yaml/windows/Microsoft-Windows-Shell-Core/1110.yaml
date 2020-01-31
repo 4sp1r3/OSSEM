@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1110'
+version: '0'
+event(fields): DataLayer_ResultSetEnumStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: DataLayer_ResultSetEnum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

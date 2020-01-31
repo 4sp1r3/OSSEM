@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '52'
+version: '0'
+event(fields): ColorCalibration52(Boolean AdapterGammaAdjustments, Boolean MonitorAdjustments)
+opcode: ''
+keywords: ''
+task: ColorCalibration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: AdapterGammaAdjustments
+- field_type: Boolean
+  field_name: MonitorAdjustments

@@ -1,0 +1,16 @@
+provider: Microsoft-JScript
+event_id: '27'
+version: '0'
+event(fields): Jscript_Projection_RemoveEventListenerStart(UnicodeString TypeName,
+  UnicodeString MethodName)
+opcode: Start
+keywords: JScriptProjection
+task: Jscript_Projection_RemoveEventListener
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeName
+- field_type: UnicodeString
+  field_name: MethodName

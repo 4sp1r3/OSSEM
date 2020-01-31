@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '159'
+version: '0'
+event(fields): Mshtml_CssLayout_BuildBlocksStart()
+opcode: Start
+keywords: extended mshtml
+task: Mshtml_CssLayout_BuildBlocks
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

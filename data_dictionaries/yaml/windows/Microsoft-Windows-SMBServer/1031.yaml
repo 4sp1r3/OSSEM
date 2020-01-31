@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1031'
+version: '0'
+event(fields): task_01031(UInt32 Reason)
+opcode: ''
+keywords: Operational
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason

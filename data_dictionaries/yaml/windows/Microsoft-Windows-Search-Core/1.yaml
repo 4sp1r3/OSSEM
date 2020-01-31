@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '1'
+version: '0'
+event(fields): CrawlStart()
+opcode: Start
+keywords: Performance Indexing Gatherer
+task: Crawl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

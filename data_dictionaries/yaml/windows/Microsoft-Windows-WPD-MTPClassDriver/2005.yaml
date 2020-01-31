@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '2005'
+version: '0'
+event(fields): task_02005(UInt32 MTPBulkGetObjProps_size, Binary MTPBulkGetObjProps_buffer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MTPBulkGetObjProps_size
+- field_type: Binary
+  field_name: MTPBulkGetObjProps_buffer

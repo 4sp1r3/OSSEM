@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1801'
+version: '0'
+event(fields): SSRkfCaFailure(UInt16 ServerNameLength, UnicodeString ServerName, UInt16
+  ShareNameLength, UnicodeString ShareName, UInt32 Status)
+opcode: ''
+keywords: Operational
+task: SSRkfCaFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt32
+  field_name: Status

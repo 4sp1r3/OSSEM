@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dism-Cli
+event_id: '6'
+version: '0'
+event(fields): DismCliExecuteCmdLineStop()
+opcode: Stop
+keywords: DismCliEvent
+task: DismCliExecuteCmdLine
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

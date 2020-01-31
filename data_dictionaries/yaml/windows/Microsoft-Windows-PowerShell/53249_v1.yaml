@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '53249'
+version: '1'
+event(fields): PowerShellScheduledJobsTobeusedwhenoperationisjustexecutingamethod_V1(UnicodeString
+  ScheduledJobDefName, UnicodeString StartTime)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: ''
+task: PowerShellScheduledJobs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ScheduledJobDefName
+- field_type: UnicodeString
+  field_name: StartTime

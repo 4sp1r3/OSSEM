@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectShow-KernelSupport
+event_id: '10'
+version: '0'
+event(fields): KSProxyBuffer10(Pointer Buffer, Int64 TimeStamp)
+opcode: ''
+keywords: ''
+task: KSProxyBuffer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Buffer
+- field_type: Int64
+  field_name: TimeStamp

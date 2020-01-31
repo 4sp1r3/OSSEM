@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-ESE
+event_id: '137'
+version: '0'
+event(fields): ESE_ThreadCreate_Trace(Pointer Thread, Pointer pfnStart, Pointer dwParam)
+opcode: ''
+keywords: Task
+task: ESE_ThreadCreate_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Thread
+- field_type: Pointer
+  field_name: pfnStart
+- field_type: Pointer
+  field_name: dwParam

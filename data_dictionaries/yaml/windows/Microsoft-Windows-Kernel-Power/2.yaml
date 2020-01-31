@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '2'
+version: '0'
+event(fields): PowerTransitionStop(UInt32 Status, FILETIME Time)
+opcode: Stop
+keywords: po:Scenario po:Performance po:SleepDiagnostic
+task: PowerTransition
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: FILETIME
+  field_name: Time

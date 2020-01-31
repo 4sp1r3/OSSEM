@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '547'
+version: '0'
+event(fields): GetElementCountStart()
+opcode: Start
+keywords: Core
+task: GetElementCount
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

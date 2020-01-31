@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1477'
+version: '0'
+event(fields): SessionManager1477(UInt32 Importance, Boolean PriorityCloseInitiated)
+opcode: ''
+keywords: SessionManager
+task: SessionManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Importance
+- field_type: Boolean
+  field_name: PriorityCloseInitiated

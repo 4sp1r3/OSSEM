@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '103'
+version: '0'
+event(fields): MediaFoundationGetConfigurationKey(Int32 Type, UnicodeString KeyName,
+  Int32 lResult)
+opcode: ''
+keywords: ''
+task: MediaFoundationGetConfigurationKey
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Type
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: Int32
+  field_name: lResult

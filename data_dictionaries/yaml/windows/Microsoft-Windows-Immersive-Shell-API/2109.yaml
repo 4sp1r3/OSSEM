@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2109'
+version: '0'
+event(fields): ImmersiveSettingsPane_QueryCommandsStop()
+opcode: Stop
+keywords: ''
+task: ImmersiveSettingsPane_QueryCommands
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

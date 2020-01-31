@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WMP
+event_id: '419'
+version: '0'
+event(fields): WMPDMR_AVTRANSPORT_ACTIONSStart419(UnicodeString URI, UnicodeString
+  URIMetadata)
+opcode: Start
+keywords: mediaplayer
+task: WMPDMR_AVTRANSPORT_ACTIONS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URI
+- field_type: UnicodeString
+  field_name: URIMetadata

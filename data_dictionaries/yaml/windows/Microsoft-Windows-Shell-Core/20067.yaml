@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20067'
+version: '0'
+event(fields): StartMenu_DestinationList_RefreshStart()
+opcode: Start
+keywords: Shell
+task: StartMenu_DestinationList_Refresh
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

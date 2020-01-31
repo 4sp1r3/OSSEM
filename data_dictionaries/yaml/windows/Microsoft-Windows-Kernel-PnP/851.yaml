@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '851'
+version: '0'
+event(fields): AssignResourcesStop(UnicodeString Device)
+opcode: Stop
+keywords: Enumeration
+task: AssignResources
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Device

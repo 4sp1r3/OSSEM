@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '18'
+version: '0'
+event(fields): listenviaWS_DiscoveryforserverannouncementsENYINGORIGNORINGANINCOMINGPACKETenyingorignoringanincomingpacket(UnicodeString
+  packet, UInt32 hr, UnicodeString fqdn, Binary sourceAddress, UInt8 addressCount,
+  UnicodeString addresses)
+opcode: denyingorignoringanincomingpacket
+keywords: ''
+task: listenviaWS_Discoveryforserverannouncements
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: packet
+- field_type: UInt32
+  field_name: hr
+- field_type: UnicodeString
+  field_name: fqdn
+- field_type: Binary
+  field_name: sourceAddress
+- field_type: UInt8
+  field_name: addressCount
+- field_type: UnicodeString
+  field_name: addresses

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '142'
+version: '0'
+event(fields): AbnormalReset(UInt32 ResetReasonMask)
+opcode: ''
+keywords: po:Simple
+task: AbnormalReset
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ResetReasonMask

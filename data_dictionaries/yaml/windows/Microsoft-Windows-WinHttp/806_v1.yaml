@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '806'
+version: '1'
+event(fields): WINHTTP_AUTOPROXY_DNSStop_V1(UInt16 _ConfigurationURLLength, UnicodeString
+  ConfigurationURL, UInt32 DetectFlags)
+opcode: Stop
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_AUTOPROXY_DNS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _ConfigurationURLLength
+- field_type: UnicodeString
+  field_name: ConfigurationURL
+- field_type: UInt32
+  field_name: DetectFlags

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '5046'
+version: '0'
+event(fields): AppReadiness_ExecuteTask5046(UnicodeString User)
+opcode: ''
+keywords: Tasks
+task: AppReadiness_ExecuteTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User

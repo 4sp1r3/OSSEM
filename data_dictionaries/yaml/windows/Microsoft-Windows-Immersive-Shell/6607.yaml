@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6607'
+version: '0'
+event(fields): ConnectCharm_PrintTargetsEnumStop(UInt32 DeviceCount)
+opcode: Stop
+keywords: ''
+task: ConnectCharm_PrintTargetsEnum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceCount

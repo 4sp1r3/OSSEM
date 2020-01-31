@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '337'
+version: '0'
+event(fields): CAutomationElement_ShowContextMenuStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CAutomationElement_ShowContextMenu
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

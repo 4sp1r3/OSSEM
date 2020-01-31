@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '1296'
+version: '0'
+event(fields): Userauthentication1296(UnicodeString subject)
+opcode: ''
+keywords: Keyword.Server Keyword.Security
+task: Userauthentication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: subject

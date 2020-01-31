@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-VolumeSnapshot-Driver
+event_id: '122'
+version: '0'
+event(fields): task_0122(GUID TargetVolumeGuid, HexInt32 Error, HexInt32 SourceFile,
+  UInt16 SourceLine, UInt32 SourceTag)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TargetVolumeGuid
+- field_type: HexInt32
+  field_name: Error
+- field_type: HexInt32
+  field_name: SourceFile
+- field_type: UInt16
+  field_name: SourceLine
+- field_type: UInt32
+  field_name: SourceTag

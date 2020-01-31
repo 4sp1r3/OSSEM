@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '3310'
+version: '0'
+event(fields): LogTrace3310(UInt32 p1_UInt32, UInt32 p2_UInt32)
+opcode: ''
+keywords: ExecMan ExecDevPlatCircular
+task: LogTrace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p1_UInt32
+- field_type: UInt32
+  field_name: p2_UInt32

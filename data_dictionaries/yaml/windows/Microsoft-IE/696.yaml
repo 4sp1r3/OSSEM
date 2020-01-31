@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '696'
+version: '0'
+event(fields): Mshtml_CDoubleTap_IsDoubleTapAllowed(Pointer pNodeHit, Boolean fAllowed)
+opcode: ''
+keywords: touch
+task: Mshtml_CDoubleTap_IsDoubleTapAllowed
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pNodeHit
+- field_type: Boolean
+  field_name: fAllowed

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '213'
+version: '0'
+event(fields): MPS_SVC_API_GetConfigStop()
+opcode: Stop
+keywords: Service
+task: MPS_SVC_API_GetConfig
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

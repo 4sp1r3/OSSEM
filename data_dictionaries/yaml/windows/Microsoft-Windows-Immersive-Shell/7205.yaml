@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7205'
+version: '0'
+event(fields): ConnectedSearch_LogWebClickStart()
+opcode: Start
+keywords: ''
+task: ConnectedSearch_LogWebClick
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

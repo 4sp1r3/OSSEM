@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '16052'
+version: '1'
+event(fields): DownloadpolicyStart16052_V1()
+opcode: Start
+keywords: ''
+task: Downloadpolicy
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

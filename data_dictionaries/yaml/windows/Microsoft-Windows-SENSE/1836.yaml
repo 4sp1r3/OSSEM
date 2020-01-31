@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SENSE
+event_id: '1836'
+version: '0'
+event(fields): task_01836(UInt32 UInt1, UInt32 UInt2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UInt1
+- field_type: UInt32
+  field_name: UInt2

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1017'
+version: '0'
+event(fields): SensorsCxInitializationTask1017()
+opcode: ''
+keywords: ''
+task: SensorsCxInitializationTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

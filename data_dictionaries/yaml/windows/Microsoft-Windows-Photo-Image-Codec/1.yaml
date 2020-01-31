@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Photo-Image-Codec
+event_id: '1'
+version: '0'
+event(fields): WMPHOTO_Decoder_DecoderFrameCopyPixelsCoreStop()
+opcode: Stop
+keywords: ''
+task: WMPHOTO_Decoder_DecoderFrameCopyPixelsCore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

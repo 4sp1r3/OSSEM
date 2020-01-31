@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '17000'
+version: '0'
+event(fields): RegistryStagingservicestartruntimeStart()
+opcode: Start
+keywords: ''
+task: RegistryStagingservicestartruntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

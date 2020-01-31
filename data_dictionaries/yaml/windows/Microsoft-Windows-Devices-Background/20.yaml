@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Devices-Background
+event_id: '20'
+version: '0'
+event(fields): DeviceTriggerPerformanceStart(GUID TriggerID, UnicodeString Application,
+  UInt32 TaskType, UnicodeString Device, UnicodeString HardwareId, UnicodeString Arguments)
+opcode: Start
+keywords: ''
+task: DeviceTriggerPerformance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TriggerID
+- field_type: UnicodeString
+  field_name: Application
+- field_type: UInt32
+  field_name: TaskType
+- field_type: UnicodeString
+  field_name: Device
+- field_type: UnicodeString
+  field_name: HardwareId
+- field_type: UnicodeString
+  field_name: Arguments

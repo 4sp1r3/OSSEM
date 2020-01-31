@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '74'
+version: '0'
+event(fields): EvictAllocation(Pointer hGlobalAllocationHandle)
+opcode: ''
+keywords: Base
+task: EvictAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hGlobalAllocationHandle

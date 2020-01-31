@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9803'
+version: '0'
+event(fields): Explorer_StartMenu_RunDialogStop()
+opcode: Stop
+keywords: Shell
+task: Explorer_StartMenu_RunDialog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors
+event_id: '10002'
+version: '0'
+event(fields): PerfTrackmeasurementofauto_rotationStop(UInt32 EventId)
+opcode: Stop
+keywords: SensPerf
+task: PerfTrackmeasurementofauto_rotation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EventId

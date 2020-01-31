@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Network-Connection-Broker
+event_id: '2001'
+version: '0'
+event(fields): task_02001(GUID EventId, UnicodeString AppName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: EventId
+- field_type: UnicodeString
+  field_name: AppName

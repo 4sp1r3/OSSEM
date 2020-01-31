@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '84'
+version: '0'
+event(fields): ActiveCoolingOperational(UInt16 ThermalZoneDeviceInstanceLength, UnicodeString
+  ThermalZoneDeviceInstance, FILETIME EventTime, UInt16 ActiveCoolingStateLength,
+  UnicodeString ActiveCoolingState, UInt32 _AC0, UInt32 _AC1, UInt32 _AC2, UInt32
+  _AC3, UInt32 _AC4, UInt32 _AC5, UInt32 _AC6, UInt32 _AC7, UInt32 _AC8, UInt32 _AC9,
+  UInt32 _TMP)
+opcode: ''
+keywords: po:Thermal
+task: ActiveCoolingOperational
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ThermalZoneDeviceInstanceLength
+- field_type: UnicodeString
+  field_name: ThermalZoneDeviceInstance
+- field_type: FILETIME
+  field_name: EventTime
+- field_type: UInt16
+  field_name: ActiveCoolingStateLength
+- field_type: UnicodeString
+  field_name: ActiveCoolingState
+- field_type: UInt32
+  field_name: _AC0
+- field_type: UInt32
+  field_name: _AC1
+- field_type: UInt32
+  field_name: _AC2
+- field_type: UInt32
+  field_name: _AC3
+- field_type: UInt32
+  field_name: _AC4
+- field_type: UInt32
+  field_name: _AC5
+- field_type: UInt32
+  field_name: _AC6
+- field_type: UInt32
+  field_name: _AC7
+- field_type: UInt32
+  field_name: _AC8
+- field_type: UInt32
+  field_name: _AC9
+- field_type: UInt32
+  field_name: _TMP

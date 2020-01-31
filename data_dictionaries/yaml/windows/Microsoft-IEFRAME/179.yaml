@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '179'
+version: '0'
+event(fields): DLM_DownloadWindow_HideStart()
+opcode: Start
+keywords: primarynav
+task: DLM_DownloadWindow_Hide
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

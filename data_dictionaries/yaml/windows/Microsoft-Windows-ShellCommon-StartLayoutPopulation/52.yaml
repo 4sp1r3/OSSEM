@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '52'
+version: '0'
+event(fields): StartTileCollection_TDLMigration(UnicodeString tileData)
+opcode: ''
+keywords: ''
+task: StartTileCollection_TDLMigration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: tileData

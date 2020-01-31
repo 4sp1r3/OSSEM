@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '871'
+version: '0'
+event(fields): CSms871(UInt32 cbDword1, UInt32 DwordArray1, UInt32 cbDword2, UInt32
+  DwordArray2, UInt64 Pointer)
+opcode: ''
+keywords: Information
+task: CSms
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: cbDword1
+- field_type: UInt32
+  field_name: DwordArray1
+- field_type: UInt32
+  field_name: cbDword2
+- field_type: UInt32
+  field_name: DwordArray2
+- field_type: UInt64
+  field_name: Pointer

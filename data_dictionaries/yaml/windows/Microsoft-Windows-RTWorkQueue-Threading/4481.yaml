@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4481'
+version: '0'
+event(fields): WorkQueue:AddDeadlineStop(Pointer WorkQueuePointer, UInt32 WorkQueueID,
+  Pointer ItemPointer, Int64 GlobalDeadline, Int64 DeltaAhead_usec)
+opcode: Stop
+keywords: ''
+task: WorkQueue:AddDeadline
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WorkQueuePointer
+- field_type: UInt32
+  field_name: WorkQueueID
+- field_type: Pointer
+  field_name: ItemPointer
+- field_type: Int64
+  field_name: GlobalDeadline
+- field_type: Int64
+  field_name: DeltaAhead_usec

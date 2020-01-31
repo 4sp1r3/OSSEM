@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '342'
+version: '0'
+event(fields): HOLOGRAPHICCLIENT_TEXTUREUPDATECOUNT(UInt64 TotalUpdateCount, UInt64
+  SuccessfulUpdateCount, UInt64 SuccessfulTotalGap, UInt64 PendingCount)
+opcode: ''
+keywords: DwmCore DwmHolographic
+task: HOLOGRAPHICCLIENT_TEXTUREUPDATECOUNT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TotalUpdateCount
+- field_type: UInt64
+  field_name: SuccessfulUpdateCount
+- field_type: UInt64
+  field_name: SuccessfulTotalGap
+- field_type: UInt64
+  field_name: PendingCount

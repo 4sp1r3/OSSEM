@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '52'
+version: '0'
+event(fields): IPS_OptInDialog_ShowdialogStop()
+opcode: Stop
+keywords: ''
+task: IPS_OptInDialog_Showdialog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

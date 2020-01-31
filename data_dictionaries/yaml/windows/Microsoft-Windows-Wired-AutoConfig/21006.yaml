@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Wired-AutoConfig
+event_id: '21006'
+version: '0'
+event(fields): DeviceLayer21006(UInt32 ErrorCode, Pointer InterfaceContext, Pointer
+  PacketContext, UInt32 Size)
+opcode: ''
+keywords: DeviceLayer ut:Authentication
+task: DeviceLayer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: Pointer
+  field_name: InterfaceContext
+- field_type: Pointer
+  field_name: PacketContext
+- field_type: UInt32
+  field_name: Size

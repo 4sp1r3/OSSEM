@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '11015'
+version: '1'
+event(fields): ManifestValidateAppXNamespaceCreateManifestReaderStop_V1()
+opcode: Stop
+keywords: ''
+task: ManifestValidateAppXNamespaceCreateManifestReader
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

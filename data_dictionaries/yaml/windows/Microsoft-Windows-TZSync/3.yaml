@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TZSync
+event_id: '3'
+version: '0'
+event(fields): InitializationtaskStart()
+opcode: Start
+keywords: ''
+task: Initializationtask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

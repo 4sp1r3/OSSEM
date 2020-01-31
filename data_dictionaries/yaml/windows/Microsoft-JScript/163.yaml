@@ -1,0 +1,43 @@
+provider: Microsoft-JScript
+event_id: '163'
+version: '0'
+event(fields): Jscript_Hosting_BinaryConsistencyInfo(UInt32 MshtmlEngineSize, UInt32
+  MshtmlContextSize, UInt32 MshtmlLibrarySize, UInt32 MshtmlCEOSize, UInt32 MshtmlScriptEngineOffset,
+  UInt32 MshtmlScriptContextOffset, UInt32 MshtmlLibraryOffset, UInt32 MshtmlTypeOffset,
+  UInt32 MshtmlTypeIdOffset, UInt32 MshtmlTaggIntSize, UInt32 MshtmlNumberSize, UInt32
+  MshtmlTypeIdLimit, UInt32 MsHtmlNumberUtilitiesSize, UInt32 MsHtmlNumberUtilitiesOffset)
+opcode: ''
+keywords: JScriptHosting
+task: Jscript_Hosting_BinaryConsistencyInfo
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MshtmlEngineSize
+- field_type: UInt32
+  field_name: MshtmlContextSize
+- field_type: UInt32
+  field_name: MshtmlLibrarySize
+- field_type: UInt32
+  field_name: MshtmlCEOSize
+- field_type: UInt32
+  field_name: MshtmlScriptEngineOffset
+- field_type: UInt32
+  field_name: MshtmlScriptContextOffset
+- field_type: UInt32
+  field_name: MshtmlLibraryOffset
+- field_type: UInt32
+  field_name: MshtmlTypeOffset
+- field_type: UInt32
+  field_name: MshtmlTypeIdOffset
+- field_type: UInt32
+  field_name: MshtmlTaggIntSize
+- field_type: UInt32
+  field_name: MshtmlNumberSize
+- field_type: UInt32
+  field_name: MshtmlTypeIdLimit
+- field_type: UInt32
+  field_name: MsHtmlNumberUtilitiesSize
+- field_type: UInt32
+  field_name: MsHtmlNumberUtilitiesOffset

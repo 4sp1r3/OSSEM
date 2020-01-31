@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20107'
+version: '0'
+event(fields): TaskbarCPL_LoadStop()
+opcode: Stop
+keywords: Shell
+task: TaskbarCPL_Load
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

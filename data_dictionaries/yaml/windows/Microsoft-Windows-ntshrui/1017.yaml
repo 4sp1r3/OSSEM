@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ntshrui
+event_id: '1017'
+version: '0'
+event(fields): SharingWizard_DisplayStart()
+opcode: Start
+keywords: ''
+task: SharingWizard_Display
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

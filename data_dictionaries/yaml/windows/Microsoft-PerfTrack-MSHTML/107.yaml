@@ -1,0 +1,15 @@
+provider: Microsoft-PerfTrack-MSHTML
+event_id: '107'
+version: '0'
+event(fields): XSSFilter_RuleCheckStart(UInt64 ObjectXSSFilter, UnicodeString Type)
+opcode: Start
+keywords: ''
+task: XSSFilter_RuleCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ObjectXSSFilter
+- field_type: UnicodeString
+  field_name: Type

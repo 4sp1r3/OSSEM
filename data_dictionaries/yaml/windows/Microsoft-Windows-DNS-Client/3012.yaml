@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '3012'
+version: '0'
+event(fields): task_03012(UnicodeString QueryName, UInt32 NetworkIndex, UInt32 InterfaceCount,
+  UnicodeString AdapterName, UnicodeString LocalAddress)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: QueryName
+- field_type: UInt32
+  field_name: NetworkIndex
+- field_type: UInt32
+  field_name: InterfaceCount
+- field_type: UnicodeString
+  field_name: AdapterName
+- field_type: UnicodeString
+  field_name: LocalAddress

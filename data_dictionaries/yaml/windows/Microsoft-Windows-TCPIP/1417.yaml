@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1417'
+version: '0'
+event(fields): TcpFastopenKeyUpdateFailure(UInt32 Location, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Global
+task: TcpFastopenKeyUpdateFailure
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Status

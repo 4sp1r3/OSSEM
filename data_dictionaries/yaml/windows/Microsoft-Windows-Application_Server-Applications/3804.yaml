@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3804'
+version: '0'
+event(fields): RoutingServiceClientCreatingForEndpoint(UnicodeString data1, UnicodeString
+  AppDomain)
+opcode: CreatingForEndpoint
+keywords: RoutingServices
+task: RoutingServiceClient
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

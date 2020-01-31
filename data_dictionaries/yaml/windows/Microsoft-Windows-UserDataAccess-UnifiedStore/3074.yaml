@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '3074'
+version: '0'
+event(fields): task_03074(HexInt32 Arg1, UInt32 Arg2, UInt64 Arg3, UInt64 Arg4, UInt32
+  Arg5, UInt32 Arg6)
+opcode: ''
+keywords: Unified_Store ChangeTracking
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Arg1
+- field_type: UInt32
+  field_name: Arg2
+- field_type: UInt64
+  field_name: Arg3
+- field_type: UInt64
+  field_name: Arg4
+- field_type: UInt32
+  field_name: Arg5
+- field_type: UInt32
+  field_name: Arg6

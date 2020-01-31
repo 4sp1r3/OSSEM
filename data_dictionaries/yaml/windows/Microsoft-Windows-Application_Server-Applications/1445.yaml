@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1445'
+version: '0'
+event(fields): Quotas1445(UnicodeString itemTypeName, UnicodeString AppDomain)
+opcode: ''
+keywords: Quota
+task: Quotas
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: itemTypeName
+- field_type: UnicodeString
+  field_name: AppDomain

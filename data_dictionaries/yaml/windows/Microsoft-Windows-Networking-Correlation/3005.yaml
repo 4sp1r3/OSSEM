@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Networking-Correlation
+event_id: '3005'
+version: '0'
+event(fields): task_03005()
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

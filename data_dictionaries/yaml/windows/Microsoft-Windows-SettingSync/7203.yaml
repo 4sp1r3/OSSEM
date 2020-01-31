@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7203'
+version: '0'
+event(fields): Perf_AppSyncOnApplyChangesStart()
+opcode: Start
+keywords: AppSync
+task: Perf_AppSyncOnApplyChanges
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

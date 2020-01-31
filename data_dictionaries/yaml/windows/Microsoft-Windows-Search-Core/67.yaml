@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '67'
+version: '0'
+event(fields): SearchProtocolHostStop(UInt32 Value)
+opcode: Stop
+keywords: ProtocolHost
+task: SearchProtocolHost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

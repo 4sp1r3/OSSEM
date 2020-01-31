@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-MSDTC
+event_id: '4097'
+version: '0'
+event(fields): task_0PCODE_64pcode_64(UnicodeString param1, UnicodeString param2,
+  UnicodeString param3, UnicodeString param4, UnicodeString param5, UnicodeString
+  param6, UnicodeString param7, UInt32 __binLength, Binary param_bin1)
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2
+- field_type: UnicodeString
+  field_name: param3
+- field_type: UnicodeString
+  field_name: param4
+- field_type: UnicodeString
+  field_name: param5
+- field_type: UnicodeString
+  field_name: param6
+- field_type: UnicodeString
+  field_name: param7
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: param_bin1

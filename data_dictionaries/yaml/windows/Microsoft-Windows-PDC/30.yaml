@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-PDC
+event_id: '30'
+version: '0'
+event(fields): CsMonitorContext(UInt32 ConnectedSessionCount, UInt32 ConsoleSessionId,
+  UInt32 SessionId, UInt32 OnRequestCurrent, UInt32 OnRequestProcessed, UInt32 OffRequestCurrent,
+  UInt32 OffRequestProcessed)
+opcode: ''
+keywords: Cs
+task: CsMonitorContext
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ConnectedSessionCount
+- field_type: UInt32
+  field_name: ConsoleSessionId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: OnRequestCurrent
+- field_type: UInt32
+  field_name: OnRequestProcessed
+- field_type: UInt32
+  field_name: OffRequestCurrent
+- field_type: UInt32
+  field_name: OffRequestProcessed

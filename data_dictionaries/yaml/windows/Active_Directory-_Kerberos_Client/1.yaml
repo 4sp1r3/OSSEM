@@ -1,0 +1,8 @@
+provider: 'Active Directory: Kerberos Client'
+category: '{c55e606b-334a-488b-b907-384abaa97b04}'
+event_id: '1'
+version: '0'
+event(fields): KerbChangePassword_Start()
+event_type: Start
+description: Kerberos Change Password
+event_fields: []

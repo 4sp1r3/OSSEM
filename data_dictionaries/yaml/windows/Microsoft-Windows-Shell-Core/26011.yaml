@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '26011'
+version: '0'
+event(fields): Shell32_CDefViewSink_PostMessage(UInt32 RetVal, Pointer HWND, UInt64
+  Message, UInt64 WPARAM, UInt64 LPARAM, UInt32 GetLastError)
+opcode: ''
+keywords: Shell
+task: Shell32_CDefViewSink_PostMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RetVal
+- field_type: Pointer
+  field_name: HWND
+- field_type: UInt64
+  field_name: Message
+- field_type: UInt64
+  field_name: WPARAM
+- field_type: UInt64
+  field_name: LPARAM
+- field_type: UInt32
+  field_name: GetLastError

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '360'
+version: '0'
+event(fields): FlushScheduler(Pointer pDxgAdapter, UInt32 FlushSchedulerReason, UInt32
+  VidPnSourceId)
+opcode: ''
+keywords: Base
+task: FlushScheduler
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: FlushSchedulerReason
+- field_type: UInt32
+  field_name: VidPnSourceId

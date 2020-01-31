@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-VerifyHardwareSecurity
+event_id: '3003'
+version: '0'
+event(fields): CheckSecureBootEnabledECUREBOOTENABLEDFAILEDTOCHECKecurebootEnabledFailedToCheck(Int32
+  hr)
+opcode: securebootEnabledFailedToCheck
+keywords: ''
+task: CheckSecureBootEnabled
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: hr

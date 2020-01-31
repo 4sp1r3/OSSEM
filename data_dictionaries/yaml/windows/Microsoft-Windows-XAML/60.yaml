@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '60'
+version: '0'
+event(fields): RealizeTransitionStop()
+opcode: Stop
+keywords: Animation
+task: RealizeTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '49'
+version: '0'
+event(fields): SAPISpeechComplete()
+opcode: ''
+keywords: PerfInstrumentation
+task: SAPISpeechComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

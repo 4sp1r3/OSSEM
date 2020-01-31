@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Graphics-Printing
+event_id: '1'
+version: '0'
+event(fields): PrintDXGIPreviewTarget_DrawPageStart()
+opcode: Start
+keywords: ''
+task: PrintDXGIPreviewTarget_DrawPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

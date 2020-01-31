@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '507'
+version: '0'
+event(fields): FlipAhead_UpdateTargetStart()
+opcode: Start
+keywords: flipahead
+task: FlipAhead_UpdateTarget
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

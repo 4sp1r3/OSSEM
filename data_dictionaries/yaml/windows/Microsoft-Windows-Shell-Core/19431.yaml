@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19431'
+version: '0'
+event(fields): IconCache_AddIconStop()
+opcode: Stop
+keywords: FileClassStoreAndIconCache
+task: IconCache_AddIcon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

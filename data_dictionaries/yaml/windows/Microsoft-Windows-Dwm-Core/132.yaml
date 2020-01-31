@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '132'
+version: '0'
+event(fields): ETWGUID_SLICER_CAPTUREFRAME(UInt64 hWndContext, Int32 nFrame, Int32
+  xDst, Int32 yDst)
+opcode: ''
+keywords: DwmCore
+task: ETWGUID_SLICER_CAPTUREFRAME
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hWndContext
+- field_type: Int32
+  field_name: nFrame
+- field_type: Int32
+  field_name: xDst
+- field_type: Int32
+  field_name: yDst

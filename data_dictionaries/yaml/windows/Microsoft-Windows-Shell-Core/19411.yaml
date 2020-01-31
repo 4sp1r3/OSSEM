@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19411'
+version: '0'
+event(fields): FileClassStore_LookupFileClassHandlerStop()
+opcode: Stop
+keywords: FileClassStoreAndIconCache
+task: FileClassStore_LookupFileClassHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

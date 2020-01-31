@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-OneX
+event_id: '25'
+version: '0'
+event(fields): Supplicant25(UInt32 WarningCode, UInt32 Location, UInt32 Context)
+opcode: ''
+keywords: Supplicant LwtDiagnostic ut:Authentication
+task: Supplicant
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WarningCode
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context

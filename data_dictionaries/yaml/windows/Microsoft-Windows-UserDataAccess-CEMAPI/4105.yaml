@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4105'
+version: '0'
+event(fields): QUERYROWS_FOLDERCONTENTSStop()
+opcode: Stop
+keywords: Performance
+task: QUERYROWS_FOLDERCONTENTS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

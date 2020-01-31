@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataUtils
+event_id: '403'
+version: '0'
+event(fields): task_0403()
+opcode: ''
+keywords: Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

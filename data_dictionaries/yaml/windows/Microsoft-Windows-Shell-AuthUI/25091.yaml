@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25091'
+version: '0'
+event(fields): Logon_BSDR_AddApplicationStop()
+opcode: Stop
+keywords: ''
+task: Logon_BSDR_AddApplication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

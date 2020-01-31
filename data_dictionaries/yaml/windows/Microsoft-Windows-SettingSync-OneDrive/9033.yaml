@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9033'
+version: '0'
+event(fields): Perf_WLRoamCreateBackupFolderStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamCreateBackupFolder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

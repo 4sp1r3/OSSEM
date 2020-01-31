@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '6002'
+version: '1'
+event(fields): ConfigureVirtualServices6002_V1(UnicodeString Item)
+opcode: ''
+keywords: VirtualServices
+task: ConfigureVirtualServices
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Item

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '109'
+version: '0'
+event(fields): Eventprocessing109(UInt32 ErrorCode, UInt16 EventID, UnicodeString
+  PublisherName, GUID PublisherGuid, UInt32 ProcessID, UnicodeString EventName)
+opcode: ''
+keywords: el:Availability
+task: Eventprocessing
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt16
+  field_name: EventID
+- field_type: UnicodeString
+  field_name: PublisherName
+- field_type: GUID
+  field_name: PublisherGuid
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: UnicodeString
+  field_name: EventName

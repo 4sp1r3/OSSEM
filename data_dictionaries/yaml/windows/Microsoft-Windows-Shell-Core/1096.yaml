@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1096'
+version: '0'
+event(fields): DataLayer_GetResultTaskCancelled(UInt32 Cookie)
+opcode: ''
+keywords: Shell
+task: DataLayer_GetResultTaskCancelled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Cookie

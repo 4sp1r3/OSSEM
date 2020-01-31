@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '43'
+version: '0'
+event(fields): ManipulationDeltaStop(Boolean Handled)
+opcode: Stop
+keywords: Input
+task: ManipulationDelta
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Handled

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Biometrics
+event_id: '1510'
+version: '0'
+event(fields): BioCredProv1510()
+opcode: ''
+keywords: ''
+task: BioCredProv
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

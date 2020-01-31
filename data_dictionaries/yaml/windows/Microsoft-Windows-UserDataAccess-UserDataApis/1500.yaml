@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '1500'
+version: '0'
+event(fields): ChatMessagesReadBatchWithCountAsync_START()
+opcode: Start
+keywords: Performance
+task: ChatMessagesReadBatchWithCountAsync_START
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

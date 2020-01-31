@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1148'
+version: '0'
+event(fields): Wininet_DependencyServerContainerStop1148(Pointer Object, UInt32 HResult)
+opcode: Stop
+keywords: WININET_KEYWORD_IE
+task: Wininet_DependencyServerContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: HResult

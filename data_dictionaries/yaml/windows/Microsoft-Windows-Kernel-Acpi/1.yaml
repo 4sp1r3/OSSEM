@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Kernel-Acpi
+event_id: '1'
+version: '0'
+event(fields): ResourceTranslation(UInt8 ResourceFlag, UInt8 GeneralFlag, UInt8 TypeSpecificFlag,
+  UInt64 Granularity, UInt64 AddressMin, UInt64 AddressMax, UInt64 AddressTranslation,
+  UInt64 AddressLength)
+opcode: ''
+keywords: acpi:Diagnostic
+task: ResourceTranslation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ResourceFlag
+- field_type: UInt8
+  field_name: GeneralFlag
+- field_type: UInt8
+  field_name: TypeSpecificFlag
+- field_type: UInt64
+  field_name: Granularity
+- field_type: UInt64
+  field_name: AddressMin
+- field_type: UInt64
+  field_name: AddressMax
+- field_type: UInt64
+  field_name: AddressTranslation
+- field_type: UInt64
+  field_name: AddressLength

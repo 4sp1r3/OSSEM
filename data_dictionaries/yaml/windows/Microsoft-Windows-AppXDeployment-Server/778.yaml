@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '778'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment778(UnicodeString PackageMoniker,
+  UnicodeString deviceFamilyName, UInt32 RequestedVersionMajor, UInt32 RequestedVersionMinor,
+  UInt32 RequestedVersionBuild, UInt32 RequestedVersionRevision, UInt32 OSVersionMajor,
+  UInt32 OSVersionMinor, UInt32 OSVersionBuild, UInt32 OSVersionRevision)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageMoniker
+- field_type: UnicodeString
+  field_name: deviceFamilyName
+- field_type: UInt32
+  field_name: RequestedVersionMajor
+- field_type: UInt32
+  field_name: RequestedVersionMinor
+- field_type: UInt32
+  field_name: RequestedVersionBuild
+- field_type: UInt32
+  field_name: RequestedVersionRevision
+- field_type: UInt32
+  field_name: OSVersionMajor
+- field_type: UInt32
+  field_name: OSVersionMinor
+- field_type: UInt32
+  field_name: OSVersionBuild
+- field_type: UInt32
+  field_name: OSVersionRevision

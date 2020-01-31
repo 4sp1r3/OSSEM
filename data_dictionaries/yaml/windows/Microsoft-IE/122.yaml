@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '122'
+version: '0'
+event(fields): Mshtml_DOM_Marshalling_NativeStop(Pointer Instance, UInt32 OptionalArgs)
+opcode: Stop
+keywords: marshalling
+task: Mshtml_DOM_Marshalling_Native
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Instance
+- field_type: UInt32
+  field_name: OptionalArgs

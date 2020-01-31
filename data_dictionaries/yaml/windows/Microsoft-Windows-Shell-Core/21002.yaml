@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '21002'
+version: '0'
+event(fields): SystemTray_ChangeNotifyStop()
+opcode: Stop
+keywords: Shell
+task: SystemTray_ChangeNotify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

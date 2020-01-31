@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '8306'
+version: '0'
+event(fields): ODB_Trace()
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular ODB keyword_200000000000
+task: ODB_Trace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

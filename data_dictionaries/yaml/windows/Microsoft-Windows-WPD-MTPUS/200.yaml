@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPD-MTPUS
+event_id: '200'
+version: '0'
+event(fields): task_0200(UInt32 MTPUSLength, Binary MTPUSData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MTPUSLength
+- field_type: Binary
+  field_name: MTPUSData

@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '217'
+version: '0'
+event(fields): MFCaptureEngineStreamingMessage217(Pointer SourceOrSinkPointer, Pointer
+  Sample, UInt32 SourceStreamIndex, UInt32 SinkStreamIndex, UInt64 Timestamp, UInt64
+  RefTimestamp)
+opcode: ''
+keywords: ''
+task: MFCaptureEngineStreamingMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SourceOrSinkPointer
+- field_type: Pointer
+  field_name: Sample
+- field_type: UInt32
+  field_name: SourceStreamIndex
+- field_type: UInt32
+  field_name: SinkStreamIndex
+- field_type: UInt64
+  field_name: Timestamp
+- field_type: UInt64
+  field_name: RefTimestamp

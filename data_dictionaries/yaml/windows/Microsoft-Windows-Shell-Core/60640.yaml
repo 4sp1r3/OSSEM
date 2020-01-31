@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60640'
+version: '0'
+event(fields): ItemsView_AnimationManager_PaintStop()
+opcode: Stop
+keywords: Shell
+task: ItemsView_AnimationManager_Paint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

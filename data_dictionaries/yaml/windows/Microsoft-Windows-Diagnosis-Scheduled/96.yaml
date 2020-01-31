@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Diagnosis-Scheduled
+event_id: '96'
+version: '0'
+event(fields): task_096(UInt32 hc_stateid, UnicodeString Data1, UnicodeString Data2)
+opcode: ''
+keywords: notification
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hc_stateid
+- field_type: UnicodeString
+  field_name: Data1
+- field_type: UnicodeString
+  field_name: Data2

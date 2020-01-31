@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '244'
+version: '1'
+event(fields): DCompCreateVisual_V1(UInt64 CompNode, UInt32 VisualIndex, UInt64 Visual)
+opcode: ''
+keywords: DComp
+task: DCompCreateVisual
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CompNode
+- field_type: UInt32
+  field_name: VisualIndex
+- field_type: UInt64
+  field_name: Visual

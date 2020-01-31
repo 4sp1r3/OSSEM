@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '251'
+version: '0'
+event(fields): task_0251(UnicodeString Attribute, UnicodeString TenantId, UnicodeString
+  DeviceId, Int32 JoinType, UnicodeString JoinTypeName, UnicodeString RequestId, Int32
+  HttpStatus, UnicodeString ServerTime, UnicodeString ServerMessage, UnicodeString
+  ResponseBody)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Attribute
+- field_type: UnicodeString
+  field_name: TenantId
+- field_type: UnicodeString
+  field_name: DeviceId
+- field_type: Int32
+  field_name: JoinType
+- field_type: UnicodeString
+  field_name: JoinTypeName
+- field_type: UnicodeString
+  field_name: RequestId
+- field_type: Int32
+  field_name: HttpStatus
+- field_type: UnicodeString
+  field_name: ServerTime
+- field_type: UnicodeString
+  field_name: ServerMessage
+- field_type: UnicodeString
+  field_name: ResponseBody

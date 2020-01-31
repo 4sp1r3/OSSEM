@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '7005'
+version: '0'
+event(fields): SelfHostInfo_UniquenessProtectedUs(UInt32 hex, UInt32 hex2, UInt32
+  hex3)
+opcode: ''
+keywords: keyword_40000000000
+task: SelfHostInfo_UniquenessProtectedUs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex
+- field_type: UInt32
+  field_name: hex2
+- field_type: UInt32
+  field_name: hex3

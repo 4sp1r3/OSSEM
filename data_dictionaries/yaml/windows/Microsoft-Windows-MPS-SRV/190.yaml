@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '190'
+version: '0'
+event(fields): DynDataNLA0thPhase_InitializeStop()
+opcode: Stop
+keywords: Service
+task: DynDataNLA0thPhase_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

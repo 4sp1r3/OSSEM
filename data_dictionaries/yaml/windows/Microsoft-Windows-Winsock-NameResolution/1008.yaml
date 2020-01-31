@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Winsock-NameResolution
+event_id: '1008'
+version: '0'
+event(fields): WinsockGai1008(GUID ProviderGUID, UInt32 ControlFlags, UInt64 LookupHandle)
+opcode: ''
+keywords: ''
+task: WinsockGai
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderGUID
+- field_type: UInt32
+  field_name: ControlFlags
+- field_type: UInt64
+  field_name: LookupHandle

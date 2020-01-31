@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '205'
+version: '0'
+event(fields): SetAudioRoutingStop()
+opcode: Stop
+keywords: Performance
+task: SetAudioRouting
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

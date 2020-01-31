@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '62'
+version: '0'
+event(fields): ElementDestroyed(UInt64 ElementId)
+opcode: ''
+keywords: Detailed
+task: ElementDestroyed
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId

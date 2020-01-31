@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4016'
+version: '0'
+event(fields): Execute_ReturnAllChildrenStop(UnicodeString ContainerID, Boolean ItemsOnly,
+  UInt32 StartIndex, UInt32 RequestedCount, UInt32 SortItemCount, UInt32 TotalMatches,
+  UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Execute_ReturnAllChildren
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContainerID
+- field_type: Boolean
+  field_name: ItemsOnly
+- field_type: UInt32
+  field_name: StartIndex
+- field_type: UInt32
+  field_name: RequestedCount
+- field_type: UInt32
+  field_name: SortItemCount
+- field_type: UInt32
+  field_name: TotalMatches
+- field_type: UInt32
+  field_name: ErrorCode

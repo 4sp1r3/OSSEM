@@ -1,0 +1,16 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '8106'
+version: '0'
+event(fields): SessionLayerDoDeferredResumeModernApplication(UInt32 unParam, UInt32
+  unParam2)
+opcode: ''
+keywords: SessionLayer
+task: SessionLayerDoDeferredResumeModernApplication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2

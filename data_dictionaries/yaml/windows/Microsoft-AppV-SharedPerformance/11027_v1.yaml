@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '11027'
+version: '1'
+event(fields): ManifestValidateAppVNamespaceApplySchemasStop_V1()
+opcode: Stop
+keywords: ''
+task: ManifestValidateAppVNamespaceApplySchemas
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8025'
+version: '1'
+event(fields): DeinitializeStop_V1()
+opcode: Stop
+keywords: ''
+task: Deinitialize
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

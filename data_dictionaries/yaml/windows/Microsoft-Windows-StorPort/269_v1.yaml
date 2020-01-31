@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-StorPort
+event_id: '269'
+version: '1'
+event(fields): PortCompletionofrequest.269_V1(Pointer Irp, HexInt32 IOCTLCode, Boolean
+  AdapterRequest, UInt32 PortNumber, UInt8 Bus, UInt8 Target, UInt8 LUN, HexInt32
+  ProtocolType, HexInt32 CommandCode, HexInt32 ReturnStatus, HexInt32 ErrorCode, Boolean
+  UntaggedRequest)
+opcode: Completionofrequest.
+keywords: PassThrough IOCTL
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: HexInt32
+  field_name: IOCTLCode
+- field_type: Boolean
+  field_name: AdapterRequest
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: Bus
+- field_type: UInt8
+  field_name: Target
+- field_type: UInt8
+  field_name: LUN
+- field_type: HexInt32
+  field_name: ProtocolType
+- field_type: HexInt32
+  field_name: CommandCode
+- field_type: HexInt32
+  field_name: ReturnStatus
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: Boolean
+  field_name: UntaggedRequest

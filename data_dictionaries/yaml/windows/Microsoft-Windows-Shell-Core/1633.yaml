@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1633'
+version: '0'
+event(fields): ShellTask_IndexClusionCache_HandlePathThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_IndexClusionCache_HandlePathThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7060'
+version: '0'
+event(fields): PINRecoveryStop(SID UserSid, UnicodeString ErrorText, HexInt32 Error,
+  AnsiString CorrelationVector, UInt32 ProcessingTime)
+opcode: Stop
+keywords: Internal
+task: PINRecovery
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: ErrorText
+- field_type: HexInt32
+  field_name: Error
+- field_type: AnsiString
+  field_name: CorrelationVector
+- field_type: UInt32
+  field_name: ProcessingTime

@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1312'
+version: '0'
+event(fields): ServerSessionInitiateModernActivationStart()
+opcode: Start
+keywords: NavigationPerformance ServerSession
+task: ServerSessionInitiateModernActivation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

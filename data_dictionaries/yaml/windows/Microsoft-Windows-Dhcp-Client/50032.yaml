@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50032'
+version: '0'
+event(fields): AddressConfigurationStateEventLeaseExpired(UInt32 InterfaceId, UInt32
+  Address)
+opcode: LeaseExpired
+keywords: keyword_200000000000
+task: AddressConfigurationStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: Address

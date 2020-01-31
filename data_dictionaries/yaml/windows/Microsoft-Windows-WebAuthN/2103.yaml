@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2103'
+version: '0'
+event(fields): CtapCommandStop2103(UnicodeString Command, GUID TransactionId, HexInt32
+  Error, HexInt32 Win32Error)
+opcode: Stop
+keywords: Ctap
+task: CtapCommand
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Command
+- field_type: GUID
+  field_name: TransactionId
+- field_type: HexInt32
+  field_name: Error
+- field_type: HexInt32
+  field_name: Win32Error

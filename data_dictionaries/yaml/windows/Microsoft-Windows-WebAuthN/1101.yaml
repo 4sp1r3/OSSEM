@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '1101'
+version: '0'
+event(fields): CborEncodeMakeCredentialRequestInformational(GUID TransactionId, UnicodeString
+  RpId, UInt32 UserIdLength, Binary UserId, UnicodeString ClientDataHashAlgId, UInt32
+  ClientDataLength, UInt32 ClientDataHashLength, Binary ClientDataHash, Boolean RequireResidentKey,
+  UInt32 CredentialCount, UInt32 CredentialParameterCount, UInt32 RequestLength, Binary
+  Request)
+opcode: Informational
+keywords: WebAuthN Ctap Cbor
+task: CborEncodeMakeCredentialRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UnicodeString
+  field_name: RpId
+- field_type: UInt32
+  field_name: UserIdLength
+- field_type: Binary
+  field_name: UserId
+- field_type: UnicodeString
+  field_name: ClientDataHashAlgId
+- field_type: UInt32
+  field_name: ClientDataLength
+- field_type: UInt32
+  field_name: ClientDataHashLength
+- field_type: Binary
+  field_name: ClientDataHash
+- field_type: Boolean
+  field_name: RequireResidentKey
+- field_type: UInt32
+  field_name: CredentialCount
+- field_type: UInt32
+  field_name: CredentialParameterCount
+- field_type: UInt32
+  field_name: RequestLength
+- field_type: Binary
+  field_name: Request

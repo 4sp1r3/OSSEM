@@ -1,0 +1,29 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1535'
+version: '1'
+event(fields): ServerTaskNSTNavigationTimeoutStarted_V1(UInt32 unParam, UInt32 NavigationTimeoutEventType,
+  UInt32 TimeoutModifierType, Int32 Param, UInt32 ServerTaskState1, UInt32 ServerTaskState2,
+  Boolean IsModernApplication, UnicodeString ApplicationId)
+opcode: NSTNavigationTimeoutStarted
+keywords: ServerTask NavigationPerformanceTriggers
+task: ServerTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: NavigationTimeoutEventType
+- field_type: UInt32
+  field_name: TimeoutModifierType
+- field_type: Int32
+  field_name: Param
+- field_type: UInt32
+  field_name: ServerTaskState1
+- field_type: UInt32
+  field_name: ServerTaskState2
+- field_type: Boolean
+  field_name: IsModernApplication
+- field_type: UnicodeString
+  field_name: ApplicationId

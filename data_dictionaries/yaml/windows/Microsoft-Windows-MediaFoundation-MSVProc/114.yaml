@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '114'
+version: '0'
+event(fields): MSVideoProcessoftMFT_ResizerStop()
+opcode: Stop
+keywords: ''
+task: MSVideoProcessoftMFT_Resizer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

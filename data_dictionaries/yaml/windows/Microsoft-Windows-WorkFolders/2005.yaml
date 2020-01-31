@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '2005'
+version: '0'
+event(fields): task_02005(UnicodeString Uri, UnicodeString Verb, UnicodeString Headers,
+  Int32 BodyLength, Int32 HttpResponse, UnicodeString ServerCodeStr, Int32 HResult)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Uri
+- field_type: UnicodeString
+  field_name: Verb
+- field_type: UnicodeString
+  field_name: Headers
+- field_type: Int32
+  field_name: BodyLength
+- field_type: Int32
+  field_name: HttpResponse
+- field_type: UnicodeString
+  field_name: ServerCodeStr
+- field_type: Int32
+  field_name: HResult

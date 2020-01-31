@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '7046'
+version: '0'
+event(fields): NavigationClientOnObscurityChange(UInt32 unParam, Boolean fBool)
+opcode: ''
+keywords: NavigationClient
+task: NavigationClientOnObscurityChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: Boolean
+  field_name: fBool

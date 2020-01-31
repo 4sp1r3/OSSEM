@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-WinQuic
+event_id: '1000'
+version: '0'
+event(fields): task_01000(Pointer Connection, UInt64 BytesSent, UInt32 BytesInFlight,
+  UInt32 BytesInFlightMax, UInt32 CongestionWindow, UInt32 SlowStartThreshold, UInt32
+  IsInRecovery, UInt64 ConnectionFlowControl, UInt64 StreamFlowControl, UInt64 IdealBytes,
+  UInt64 PostedBytes, UInt32 SmoothedRtt)
+opcode: ''
+keywords: ut:Connection ut:DataFlow
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: UInt64
+  field_name: BytesSent
+- field_type: UInt32
+  field_name: BytesInFlight
+- field_type: UInt32
+  field_name: BytesInFlightMax
+- field_type: UInt32
+  field_name: CongestionWindow
+- field_type: UInt32
+  field_name: SlowStartThreshold
+- field_type: UInt32
+  field_name: IsInRecovery
+- field_type: UInt64
+  field_name: ConnectionFlowControl
+- field_type: UInt64
+  field_name: StreamFlowControl
+- field_type: UInt64
+  field_name: IdealBytes
+- field_type: UInt64
+  field_name: PostedBytes
+- field_type: UInt32
+  field_name: SmoothedRtt

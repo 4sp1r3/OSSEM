@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StartupRepair
+event_id: '1001'
+version: '0'
+event(fields): task_0(FILETIME StartTime, FILETIME EndTime, UInt16 NumAttempts, UInt16
+  NumRootCauses, UnicodeString LaunchType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: StartTime
+- field_type: FILETIME
+  field_name: EndTime
+- field_type: UInt16
+  field_name: NumAttempts
+- field_type: UInt16
+  field_name: NumRootCauses
+- field_type: UnicodeString
+  field_name: LaunchType

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '396'
+version: '0'
+event(fields): BrowserFrame_AddTab_WaitForActivationKindStop()
+opcode: Stop
+keywords: ''
+task: BrowserFrame_AddTab_WaitForActivationKind
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

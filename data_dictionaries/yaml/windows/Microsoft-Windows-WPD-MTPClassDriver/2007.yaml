@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '2007'
+version: '0'
+event(fields): task_02007(UInt32 SessionID, UInt32 TransactionID, UInt16 MTP_Opcode,
+  UInt32 MTP_Command_Param_count, UInt32 MTP_Command_Params, UInt16 MTP_DatatypeOfPropValue,
+  UInt32 MTP_Data_Length, Binary MTP_Data_Buffer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionID
+- field_type: UInt32
+  field_name: TransactionID
+- field_type: UInt16
+  field_name: MTP_Opcode
+- field_type: UInt32
+  field_name: MTP_Command_Param_count
+- field_type: UInt32
+  field_name: MTP_Command_Params
+- field_type: UInt16
+  field_name: MTP_DatatypeOfPropValue
+- field_type: UInt32
+  field_name: MTP_Data_Length
+- field_type: Binary
+  field_name: MTP_Data_Buffer

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager
+event_id: '4111'
+version: '1'
+event(fields): DownloadrequestinFileDownloadManager4111_V1(UnicodeString SourceFile,
+  UnicodeString DestFile)
+opcode: ''
+keywords: ''
+task: DownloadrequestinFileDownloadManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SourceFile
+- field_type: UnicodeString
+  field_name: DestFile

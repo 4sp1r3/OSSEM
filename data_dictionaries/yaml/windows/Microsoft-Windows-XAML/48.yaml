@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '48'
+version: '0'
+event(fields): MeasureElementStop(UInt64 ElementId, Float DesiredWidth, Float DesiredHeight)
+opcode: Stop
+keywords: Detailed
+task: MeasureElement
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: Float
+  field_name: DesiredWidth
+- field_type: Float
+  field_name: DesiredHeight

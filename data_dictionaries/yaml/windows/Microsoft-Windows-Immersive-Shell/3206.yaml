@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '3206'
+version: '0'
+event(fields): EdgeUi_Inputs_Layout_Complete()
+opcode: ''
+keywords: ''
+task: EdgeUi_Inputs_Layout_Complete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

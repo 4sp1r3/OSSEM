@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4509'
+version: '0'
+event(fields): Platform:ShutdownStart(Pointer Platform)
+opcode: Start
+keywords: Telemetry
+task: Platform:Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Platform

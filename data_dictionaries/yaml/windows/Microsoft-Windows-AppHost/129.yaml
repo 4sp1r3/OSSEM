@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppHost
+event_id: '129'
+version: '0'
+event(fields): Telemetry.WERReportingAppHostInformation129(Int32 PID, UnicodeString
+  PackageFullName, UnicodeString AppUserModelId)
+opcode: AppHostInformation
+keywords: WWAHOST_KEYWORD
+task: Telemetry.WERReporting
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: PID
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppUserModelId

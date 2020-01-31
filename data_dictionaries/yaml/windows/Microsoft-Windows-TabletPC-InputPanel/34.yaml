@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '34'
+version: '0'
+event(fields): KeyState_PressedStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: KeyState_Pressed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UI-Search
+event_id: '202'
+version: '0'
+event(fields): ASTAThreadStop(UInt32 ThreadID, UInt32 XAMLView)
+opcode: Stop
+keywords: ''
+task: ASTAThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ThreadID
+- field_type: UInt32
+  field_name: XAMLView

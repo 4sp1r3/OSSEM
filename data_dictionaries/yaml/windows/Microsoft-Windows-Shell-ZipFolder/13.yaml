@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-ZipFolder
+event_id: '13'
+version: '0'
+event(fields): ZipFolder_BuildEnumeratorStart()
+opcode: Start
+keywords: ''
+task: ZipFolder_BuildEnumerator
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

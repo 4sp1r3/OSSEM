@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-Service
+event_id: '6'
+version: '0'
+event(fields): ConfigurationSaveStop(UnicodeString ConfigFilePath)
+opcode: Stop
+keywords: ''
+task: ConfigurationSave
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ConfigFilePath

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '803'
+version: '0'
+event(fields): task_0803(HexInt32 Prop_Dword, HexInt32 Prop_HRESULT)
+opcode: ''
+keywords: Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_Dword
+- field_type: HexInt32
+  field_name: Prop_HRESULT

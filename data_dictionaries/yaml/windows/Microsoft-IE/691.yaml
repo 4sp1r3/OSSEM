@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '691'
+version: '0'
+event(fields): Mshtml_CTouchHelper_OnPointerMessage_StartDoubleTapTimer()
+opcode: ''
+keywords: touch
+task: Mshtml_CTouchHelper_OnPointerMessage_StartDoubleTapTimer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2305'
+version: '0'
+event(fields): ExecutionManagerClientRequestEventCallbackStop()
+opcode: Stop
+keywords: NavigationPerformance ExecutionManagerClient
+task: ExecutionManagerClientRequestEventCallback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

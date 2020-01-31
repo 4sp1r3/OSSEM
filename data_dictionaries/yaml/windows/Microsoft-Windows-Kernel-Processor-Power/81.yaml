@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '81'
+version: '0'
+event(fields): DripsAccountingSnapshot(UInt8 ScenarioInstanceId, UInt32 DripsBucketsCount,
+  Binary TotalTimes)
+opcode: ''
+keywords: SleepStudy
+task: DripsAccountingSnapshot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ScenarioInstanceId
+- field_type: UInt32
+  field_name: DripsBucketsCount
+- field_type: Binary
+  field_name: TotalTimes

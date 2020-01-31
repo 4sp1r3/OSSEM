@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Performance-Recorder-Control
+event_id: '120'
+version: '0'
+event(fields): Perf_StartProfilesStart()
+opcode: Start
+keywords: PerfStatus
+task: Perf_StartProfiles
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

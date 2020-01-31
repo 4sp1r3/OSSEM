@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10058'
+version: '0'
+event(fields): task_010058(Pointer ContextHandle, GUID AdapterGuid, UInt32 ConfiguredOpMode,
+  UInt32 IMSupportedOpModes, UInt32 MiniPortSupportedOpModes)
+opcode: ''
+keywords: LWF ut:Configuration
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextHandle
+- field_type: GUID
+  field_name: AdapterGuid
+- field_type: UInt32
+  field_name: ConfiguredOpMode
+- field_type: UInt32
+  field_name: IMSupportedOpModes
+- field_type: UInt32
+  field_name: MiniPortSupportedOpModes

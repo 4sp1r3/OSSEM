@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4313'
+version: '0'
+event(fields): ImmersiveMonitorHandleDisplayChangeStop(UInt32 MonitorIdentity)
+opcode: Stop
+keywords: ''
+task: ImmersiveMonitorHandleDisplayChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MonitorIdentity

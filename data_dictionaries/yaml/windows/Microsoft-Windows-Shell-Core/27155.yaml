@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27155'
+version: '0'
+event(fields): PerfTrack_StartMenu_PicturesStart()
+opcode: Start
+keywords: Shell WDI
+task: PerfTrack_StartMenu_Pictures
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

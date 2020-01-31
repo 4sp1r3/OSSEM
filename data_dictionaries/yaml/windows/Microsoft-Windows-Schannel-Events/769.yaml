@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Schannel-Events
+event_id: '769'
+version: '0'
+event(fields): MemoryAllocationAllocate(Pointer Address, HexInt32 AllocationSize)
+opcode: Allocate
+keywords: ''
+task: MemoryAllocation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Address
+- field_type: HexInt32
+  field_name: AllocationSize

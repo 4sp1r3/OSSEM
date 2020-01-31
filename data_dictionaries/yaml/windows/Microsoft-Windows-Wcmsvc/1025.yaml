@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '1025'
+version: '0'
+event(fields): task_01025(GUID InterfaceGUID)
+opcode: ''
+keywords: LwtDiagnostic
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGUID

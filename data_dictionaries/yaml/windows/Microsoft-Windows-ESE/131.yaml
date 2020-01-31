@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-ESE
+event_id: '131'
+version: '0'
+event(fields): ESE_TimerTaskCancel_Trace(Pointer posttTimerHandle, Pointer pfnTask,
+  Pointer pvTaskGroupContext)
+opcode: ''
+keywords: Task
+task: ESE_TimerTaskCancel_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: posttTimerHandle
+- field_type: Pointer
+  field_name: pfnTask
+- field_type: Pointer
+  field_name: pvTaskGroupContext

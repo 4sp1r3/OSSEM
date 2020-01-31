@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '597'
+version: '0'
+event(fields): Browseui_DestroyDetachedBrowserTabUIStart(Int32 TabID, Boolean IsActive)
+opcode: Start
+keywords: ''
+task: Browseui_DestroyDetachedBrowserTabUI
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: TabID
+- field_type: Boolean
+  field_name: IsActive

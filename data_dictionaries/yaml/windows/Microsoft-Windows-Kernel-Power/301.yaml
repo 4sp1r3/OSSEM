@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '301'
+version: '0'
+event(fields): PluginRegistrationRundown(Pointer Plugin, UInt64 Attributes)
+opcode: ''
+keywords: po:RuntimeFx
+task: PluginRegistrationRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Plugin
+- field_type: UInt64
+  field_name: Attributes

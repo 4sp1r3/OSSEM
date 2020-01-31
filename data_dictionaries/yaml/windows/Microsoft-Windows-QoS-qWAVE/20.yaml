@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-QoS-qWAVE
+event_id: '20'
+version: '0'
+event(fields): task_020(UInt32 CurrentTime, UInt32 SystemTime, Double RequestedBandwidth,
+  UInt32 NumBursts, UInt32 BurstSize)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CurrentTime
+- field_type: UInt32
+  field_name: SystemTime
+- field_type: Double
+  field_name: RequestedBandwidth
+- field_type: UInt32
+  field_name: NumBursts
+- field_type: UInt32
+  field_name: BurstSize

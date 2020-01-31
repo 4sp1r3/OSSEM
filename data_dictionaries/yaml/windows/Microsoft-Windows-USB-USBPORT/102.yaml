@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '102'
+version: '0'
+event(fields): IrpCancel(AnsiString fid_USBPORT_HC, Pointer fid_IRP_Ptr)
+opcode: Cancel
+keywords: Diagnostic
+task: Irp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: fid_USBPORT_HC
+- field_type: Pointer
+  field_name: fid_IRP_Ptr

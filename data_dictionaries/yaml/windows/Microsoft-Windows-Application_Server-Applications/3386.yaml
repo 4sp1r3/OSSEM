@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3386'
+version: '0'
+event(fields): ConnectionAbort(Int32 SocketId, UnicodeString AppDomain)
+opcode: ''
+keywords: TCP
+task: ConnectionAbort
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: SocketId
+- field_type: UnicodeString
+  field_name: AppDomain

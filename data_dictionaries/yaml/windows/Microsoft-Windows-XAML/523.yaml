@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '523'
+version: '0'
+event(fields): CheckAutomaticAutomationChangesPopupStop()
+opcode: Stop
+keywords: Core
+task: CheckAutomaticAutomationChangesPopup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

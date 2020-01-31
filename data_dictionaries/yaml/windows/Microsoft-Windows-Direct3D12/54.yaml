@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '54'
+version: '0'
+event(fields): ExecuteCommandListStop(Pointer pID3D12CommandQueue, Pointer pID3D12CommandList)
+opcode: Stop
+keywords: Devices
+task: ExecuteCommandList
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12CommandQueue
+- field_type: Pointer
+  field_name: pID3D12CommandList

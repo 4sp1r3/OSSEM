@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Win32k
+event_id: '250'
+version: '0'
+event(fields): TouchPadCurtainSize(UInt32 Top, UInt32 Left, UInt32 Right, Boolean
+  Enabled)
+opcode: ''
+keywords: TouchInput
+task: TouchPadCurtainSize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Top
+- field_type: UInt32
+  field_name: Left
+- field_type: UInt32
+  field_name: Right
+- field_type: Boolean
+  field_name: Enabled

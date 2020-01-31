@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Workplace Join
+event_id: '200'
+version: '0'
+event(fields): task_0200(HexInt32 ExitCode, UnicodeString ActivityId, UnicodeString
+  SoapResponse, UnicodeString ErrorMessage, UnicodeString RegistrationServiceUri)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ExitCode
+- field_type: UnicodeString
+  field_name: ActivityId
+- field_type: UnicodeString
+  field_name: SoapResponse
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: RegistrationServiceUri

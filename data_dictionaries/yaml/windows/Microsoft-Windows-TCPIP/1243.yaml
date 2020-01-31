@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1243'
+version: '0'
+event(fields): RssPortNotSupported(UInt32 AdapterIndex)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis ut:Rss ut:Global
+task: RssPortNotSupported
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterIndex

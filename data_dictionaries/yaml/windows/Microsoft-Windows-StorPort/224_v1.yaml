@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-StorPort
+event_id: '224'
+version: '1'
+event(fields): DpcCompletionofrequest._V1(Pointer DpcRoutine, UnicodeString DpcRoutineName,
+  UInt32 PortNumber, UInt32 CompletionCount, UInt64 QpcTicks, UInt64 Duration_100ns,
+  Boolean SwitchDpcProc, Boolean RevertDpcProc)
+opcode: Completionofrequest.
+keywords: DPC
+task: Dpc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DpcRoutine
+- field_type: UnicodeString
+  field_name: DpcRoutineName
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt32
+  field_name: CompletionCount
+- field_type: UInt64
+  field_name: QpcTicks
+- field_type: UInt64
+  field_name: Duration_100ns
+- field_type: Boolean
+  field_name: SwitchDpcProc
+- field_type: Boolean
+  field_name: RevertDpcProc

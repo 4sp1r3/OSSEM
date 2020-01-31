@@ -1,0 +1,18 @@
+provider: Microsoft-AppV-Client
+event_id: '4005'
+version: '1'
+event(fields): ExecuteEmbeddedScripts4005_V1(UInt32 ScriptScope, GUID Package, UnicodeString
+  EventType)
+opcode: ''
+keywords: EmbeddedScripting
+task: ExecuteEmbeddedScripts
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScriptScope
+- field_type: GUID
+  field_name: Package
+- field_type: UnicodeString
+  field_name: EventType

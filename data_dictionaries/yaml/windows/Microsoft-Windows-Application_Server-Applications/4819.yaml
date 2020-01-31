@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4819'
+version: '0'
+event(fields): DiscoveryClientChannelOpenSucceeded(UnicodeString endpointAddress,
+  UnicodeString via, UnicodeString AppDomain)
+opcode: OpenSucceeded
+keywords: Discovery
+task: DiscoveryClientChannel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: endpointAddress
+- field_type: UnicodeString
+  field_name: via
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '164'
+version: '0'
+event(fields): EtwVersionStop(UInt32 Version, UInt64 Flags, UInt32 Level)
+opcode: Stop
+keywords: Base
+task: EtwVersion
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Version
+- field_type: UInt64
+  field_name: Flags
+- field_type: UInt32
+  field_name: Level

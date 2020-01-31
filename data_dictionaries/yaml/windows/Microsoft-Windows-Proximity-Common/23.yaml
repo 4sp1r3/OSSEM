@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Proximity-Common
+event_id: '23'
+version: '0'
+event(fields): Proximity_SessionConnectStop(UInt32 Integer4, UnicodeString String)
+opcode: Stop
+keywords: ''
+task: Proximity_SessionConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Integer4
+- field_type: UnicodeString
+  field_name: String

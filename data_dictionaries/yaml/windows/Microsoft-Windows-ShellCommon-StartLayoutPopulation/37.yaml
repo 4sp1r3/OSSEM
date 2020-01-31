@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '37'
+version: '0'
+event(fields): StartLayout_LayoutInitialization_FromCDSStop()
+opcode: Stop
+keywords: ''
+task: StartLayout_LayoutInitialization_FromCDS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

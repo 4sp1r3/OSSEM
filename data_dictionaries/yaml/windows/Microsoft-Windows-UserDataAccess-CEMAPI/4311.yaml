@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4311'
+version: '0'
+event(fields): CTX_CREATESMSSTOREStop()
+opcode: Stop
+keywords: Performance
+task: CTX_CREATESMSSTORE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

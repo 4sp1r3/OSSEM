@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '46013'
+version: '0'
+event(fields): InstallAssemblyStop(UnicodeString ustring)
+opcode: Stop
+keywords: ''
+task: InstallAssembly
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ustring

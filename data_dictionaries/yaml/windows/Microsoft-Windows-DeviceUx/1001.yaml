@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '1001'
+version: '0'
+event(fields): BWContextHandler_UninstallError(HexInt32 ErrorCode)
+opcode: ''
+keywords: DeviceUX
+task: BWContextHandler_UninstallError
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

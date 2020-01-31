@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-RemoteApp and Desktop Connections
+event_id: '1020'
+version: '0'
+event(fields): Setup1020(UnicodeString Name, UnicodeString FeedURL)
+opcode: ''
+keywords: ''
+task: Setup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: FeedURL

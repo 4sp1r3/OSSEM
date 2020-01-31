@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PrintService
+event_id: '831'
+version: '0'
+event(fields): XPSPrintAPIperformancetrackingStart831(UnicodeString Name, UnicodeString
+  Context, HexInt32 StatusCode)
+opcode: Start
+keywords: XPS_PRINT_API_KEYWORD_PERFORMANCE
+task: XPSPrintAPIperformancetracking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Context
+- field_type: HexInt32
+  field_name: StatusCode

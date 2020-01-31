@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WMP
+event_id: '400'
+version: '0'
+event(fields): WMPSyncTranscodeManagerStart(UnicodeString SourcePath, UnicodeString
+  TargetPath)
+opcode: Start
+keywords: mediaplayer
+task: WMPSyncTranscodeManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SourcePath
+- field_type: UnicodeString
+  field_name: TargetPath

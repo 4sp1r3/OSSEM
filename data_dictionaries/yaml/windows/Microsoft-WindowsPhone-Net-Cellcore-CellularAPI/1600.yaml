@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '1600'
+version: '0'
+event(fields): CAggregatedSlotStart(UInt64 Pointer)
+opcode: Start
+keywords: Performance UICC
+task: CAggregatedSlot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Pointer

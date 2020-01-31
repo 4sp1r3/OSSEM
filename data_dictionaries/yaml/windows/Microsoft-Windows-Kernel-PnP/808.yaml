@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '808'
+version: '0'
+event(fields): DeviceAddStop(UInt32 Status)
+opcode: Stop
+keywords: Enumeration
+task: DeviceAdd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

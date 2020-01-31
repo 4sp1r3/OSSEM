@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '312'
+version: '0'
+event(fields): MPS_SVC_BFE_ProviderAddStop()
+opcode: Stop
+keywords: Service
+task: MPS_SVC_BFE_ProviderAdd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

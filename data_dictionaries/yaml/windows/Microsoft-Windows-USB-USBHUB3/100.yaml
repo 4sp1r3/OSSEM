@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '100'
+version: '0'
+event(fields): USBPortInformation(Pointer fid_UsbDevice, UInt32 fid_PortNumber, UInt16
+  fid_PortStatus, UInt16 fid_PortChange)
+opcode: Information
+keywords: Default
+task: USBPort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt32
+  field_name: fid_PortNumber
+- field_type: UInt16
+  field_name: fid_PortStatus
+- field_type: UInt16
+  field_name: fid_PortChange

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Mobile-Broadband-Experience-SmsApi
+event_id: '1008'
+version: '0'
+event(fields): DeleteMessageStart()
+opcode: Start
+keywords: ''
+task: DeleteMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

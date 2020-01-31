@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '44'
+version: '1'
+event(fields): Deferredwork(DPC/WorkItem)Stop_V1(UInt32 fid_InterrupterNumber)
+opcode: Stop
+keywords: Performance
+task: Deferredwork(DPC/WorkItem)
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: fid_InterrupterNumber

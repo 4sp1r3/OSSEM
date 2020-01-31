@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '208'
+version: '0'
+event(fields): DLM_Security_AntiVirusStop()
+opcode: Stop
+keywords: primarynav
+task: DLM_Security_AntiVirus
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

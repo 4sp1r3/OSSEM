@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '24010'
+version: '1'
+event(fields): task_0_V1(UInt32 uint32)
+opcode: ''
+keywords: ''
+task: task_0
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: uint32

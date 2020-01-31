@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-CoreSystem-SmsRouter
+event_id: '201'
+version: '0'
+event(fields): SmsBrokerStop()
+opcode: Stop
+keywords: Performance
+task: SmsBroker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

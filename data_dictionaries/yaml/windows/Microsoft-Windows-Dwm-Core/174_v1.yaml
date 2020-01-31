@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '174'
+version: '1'
+event(fields): TOUCH_INTERACTION_DEBUG_EVENTS174_V1(UInt64 UniqueKey, UInt64 QpcKernelInputStartTimestamp,
+  UInt64 QpcInteractionLibraryStartTimestamp, UInt64 QpcInteractionLibraryStopTimestamp,
+  UInt64 QpcRenderStart, UInt64 QpcHostInputSendTimestamp, UInt64 QpcContainerInputReceiveTimestamp,
+  UInt64 HostPerformanceFrequency, UInt32 InputType, UInt16 TouchPoints, UInt32 ManipulationFrame,
+  UInt32 PointerFrame, UInt64 DwmFrame, UInt32 MonitorCount, FILETIME PrimaryAdapterLuid,
+  Boolean PrimaryAdapterIsWarp, Boolean InParallelMode)
+opcode: ''
+keywords: DwmCore DwmInput
+task: TOUCH_INTERACTION_DEBUG_EVENTS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueKey
+- field_type: UInt64
+  field_name: QpcKernelInputStartTimestamp
+- field_type: UInt64
+  field_name: QpcInteractionLibraryStartTimestamp
+- field_type: UInt64
+  field_name: QpcInteractionLibraryStopTimestamp
+- field_type: UInt64
+  field_name: QpcRenderStart
+- field_type: UInt64
+  field_name: QpcHostInputSendTimestamp
+- field_type: UInt64
+  field_name: QpcContainerInputReceiveTimestamp
+- field_type: UInt64
+  field_name: HostPerformanceFrequency
+- field_type: UInt32
+  field_name: InputType
+- field_type: UInt16
+  field_name: TouchPoints
+- field_type: UInt32
+  field_name: ManipulationFrame
+- field_type: UInt32
+  field_name: PointerFrame
+- field_type: UInt64
+  field_name: DwmFrame
+- field_type: UInt32
+  field_name: MonitorCount
+- field_type: FILETIME
+  field_name: PrimaryAdapterLuid
+- field_type: Boolean
+  field_name: PrimaryAdapterIsWarp
+- field_type: Boolean
+  field_name: InParallelMode

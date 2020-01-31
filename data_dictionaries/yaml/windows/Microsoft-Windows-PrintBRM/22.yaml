@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '22'
+version: '0'
+event(fields): RestorePrintBRMoperationfailure22(UnicodeString DriverName, UnicodeString
+  TargetServerArchitecture, HexInt32 ErrorCode)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_DRIVER_KEYWORD
+task: Restore
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UnicodeString
+  field_name: TargetServerArchitecture
+- field_type: HexInt32
+  field_name: ErrorCode

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '509'
+version: '0'
+event(fields): ClientConnection_CallWithReturnStart(UnicodeString MethodName, UInt32
+  ProcessId, UInt32 ObjectReference, UInt64 Duration, UInt32 InstanceId)
+opcode: Start
+keywords: PerfInstrumentation
+task: ClientConnection_CallWithReturn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: ObjectReference
+- field_type: UInt64
+  field_name: Duration
+- field_type: UInt32
+  field_name: InstanceId

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '86'
+version: '0'
+event(fields): OnlineHistoryClearStart()
+opcode: Start
+keywords: primarynav
+task: OnlineHistoryClear
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

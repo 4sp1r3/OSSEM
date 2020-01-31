@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '300'
+version: '0'
+event(fields): SKINEVENT(UnicodeString Category, UnicodeString Skinformation)
+opcode: ''
+keywords: mediaplayer
+task: SKINEVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Category
+- field_type: UnicodeString
+  field_name: Skinformation

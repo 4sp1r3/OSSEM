@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-PrintService
+event_id: '805'
+version: '0'
+event(fields): Printjobdiagnostics805(UInt32 JobId, UInt32 GdiJobSize, UInt32 ICMMethod,
+  Int16 Color, Int16 XRes, Int16 YRes, Int16 Quality, Int16 Copies, Int16 TTOption)
+opcode: ''
+keywords: ''
+task: Printjobdiagnostics
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobId
+- field_type: UInt32
+  field_name: GdiJobSize
+- field_type: UInt32
+  field_name: ICMMethod
+- field_type: Int16
+  field_name: Color
+- field_type: Int16
+  field_name: XRes
+- field_type: Int16
+  field_name: YRes
+- field_type: Int16
+  field_name: Quality
+- field_type: Int16
+  field_name: Copies
+- field_type: Int16
+  field_name: TTOption

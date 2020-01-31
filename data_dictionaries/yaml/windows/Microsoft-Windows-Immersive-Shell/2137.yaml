@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2137'
+version: '0'
+event(fields): PerfTrack_Picker_Launch_Open_Thumbnail_ViewCompleteStop(UInt32 TotalCount)
+opcode: Stop
+keywords: ''
+task: PerfTrack_Picker_Launch_Open_Thumbnail_ViewComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TotalCount

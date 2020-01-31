@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Folder Redirection
+event_id: '515'
+version: '0'
+event(fields): task_0515(UnicodeString Folder, HexInt32 Options, UnicodeString Error,
+  UnicodeString ErrorDetails)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Folder
+- field_type: HexInt32
+  field_name: Options
+- field_type: UnicodeString
+  field_name: Error
+- field_type: UnicodeString
+  field_name: ErrorDetails

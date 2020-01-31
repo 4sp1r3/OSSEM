@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '46'
+version: '0'
+event(fields): ArrangeStop()
+opcode: Stop
+keywords: Layout
+task: Arrange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

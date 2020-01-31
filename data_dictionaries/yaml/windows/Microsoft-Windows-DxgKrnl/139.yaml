@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '139'
+version: '0'
+event(fields): DdiStartDeviceStop(Pointer MiniportContext, UInt32 NumVidPnSources,
+  UInt32 ChildCount, UInt32 Status)
+opcode: Stop
+keywords: Base
+task: DdiStartDevice
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportContext
+- field_type: UInt32
+  field_name: NumVidPnSources
+- field_type: UInt32
+  field_name: ChildCount
+- field_type: UInt32
+  field_name: Status

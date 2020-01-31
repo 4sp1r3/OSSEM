@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '18'
+version: '1'
+event(fields): UserActive_V1(UInt8 UserActive)
+opcode: ''
+keywords: StoreOps
+task: UserActive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: UserActive

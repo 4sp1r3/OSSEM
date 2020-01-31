@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DUI
+event_id: '117'
+version: '0'
+event(fields): DirectUI_StyleSheet_ResolveStop(Int32 hr, Boolean fNew, UInt32 cUses,
+  UnicodeString szModule, UnicodeString szResource, UnicodeString szSheet)
+opcode: Stop
+keywords: Default
+task: DirectUI_StyleSheet_Resolve
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: hr
+- field_type: Boolean
+  field_name: fNew
+- field_type: UInt32
+  field_name: cUses
+- field_type: UnicodeString
+  field_name: szModule
+- field_type: UnicodeString
+  field_name: szResource
+- field_type: UnicodeString
+  field_name: szSheet

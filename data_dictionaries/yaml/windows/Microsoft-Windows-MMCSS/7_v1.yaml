@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-MMCSS
+event_id: '7'
+version: '1'
+event(fields): Thread_Join_V1(UInt32 ThreadID, UInt8 MediumPriority, UInt8 LowPriority,
+  UInt8 UberLowPriority, UnicodeString TaskName, UInt32 TaskIndex, UInt8 Category,
+  UInt8 Flags)
+opcode: ''
+keywords: ''
+task: Thread_Join
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ThreadID
+- field_type: UInt8
+  field_name: MediumPriority
+- field_type: UInt8
+  field_name: LowPriority
+- field_type: UInt8
+  field_name: UberLowPriority
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UInt32
+  field_name: TaskIndex
+- field_type: UInt8
+  field_name: Category
+- field_type: UInt8
+  field_name: Flags

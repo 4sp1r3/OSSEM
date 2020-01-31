@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NdisImPlatformEventProvider
+event_id: '41'
+version: '0'
+event(fields): task_041(UnicodeString TeamNic, UInt32 BufferLen, Binary Buffer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TeamNic
+- field_type: UInt32
+  field_name: BufferLen
+- field_type: Binary
+  field_name: Buffer

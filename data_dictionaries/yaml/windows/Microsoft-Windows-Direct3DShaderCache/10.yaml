@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '10'
+version: '0'
+event(fields): AddValueStart(Pointer Cache, UInt32 NumKeyParts, UInt16 KeyParts, Binary
+  PrecomputedHash, Pointer Value, UInt32 ValueSize)
+opcode: Start
+keywords: APIs Profiling
+task: AddValue
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Cache
+- field_type: UInt32
+  field_name: NumKeyParts
+- field_type: UInt16
+  field_name: KeyParts
+- field_type: Binary
+  field_name: PrecomputedHash
+- field_type: Pointer
+  field_name: Value
+- field_type: UInt32
+  field_name: ValueSize

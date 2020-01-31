@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Push-To-Install-Service
+event_id: '6006'
+version: '0'
+event(fields): PTIModuleLoaded(UnicodeString ProcessName, UnicodeString ModuleName,
+  UnicodeString BuildName)
+opcode: ''
+keywords: Messages
+task: PTIModuleLoaded
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: ModuleName
+- field_type: UnicodeString
+  field_name: BuildName

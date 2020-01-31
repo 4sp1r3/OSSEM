@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1631'
+version: '0'
+event(fields): task_01631(AnsiString szNetwork, AnsiString szState, UInt32 dwRetries,
+  UInt32 dwBackoffMin, UInt32 dwBackoffRng)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: szNetwork
+- field_type: AnsiString
+  field_name: szState
+- field_type: UInt32
+  field_name: dwRetries
+- field_type: UInt32
+  field_name: dwBackoffMin
+- field_type: UInt32
+  field_name: dwBackoffRng

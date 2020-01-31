@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1621'
+version: '0'
+event(fields): AppsFolder_ImmersiveApp_OpenVerb(UnicodeString ApplicationId, UInt32
+  ExecutionState, UInt32 AppState, Int32 Result)
+opcode: ''
+keywords: ''
+task: AppsFolder_ImmersiveApp_OpenVerb
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApplicationId
+- field_type: UInt32
+  field_name: ExecutionState
+- field_type: UInt32
+  field_name: AppState
+- field_type: Int32
+  field_name: Result

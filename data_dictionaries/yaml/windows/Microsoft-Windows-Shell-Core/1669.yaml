@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1669'
+version: '0'
+event(fields): ShellTask_ShellUrl_AsyncParseThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_ShellUrl_AsyncParseThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

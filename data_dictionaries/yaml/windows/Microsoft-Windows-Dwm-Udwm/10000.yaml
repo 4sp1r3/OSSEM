@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '10000'
+version: '0'
+event(fields): PerfTrack_UdwmLivePreviewAnimation_FirstFrameFinished(UInt32 PerfTrackId)
+opcode: ''
+keywords: Udwm
+task: PerfTrack_UdwmLivePreviewAnimation_FirstFrameFinished
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PerfTrackId

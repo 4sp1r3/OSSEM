@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MPEG2_DLNA-Encoder
+event_id: '1'
+version: '0'
+event(fields): MPEG_2Encode/MuxforDLNAStop(UInt64 TotalBytesEncoded, UInt64 VideoFramesReceived,
+  UInt64 VideoFramesEncoded, UInt64 AudioBytesReceived, UInt64 AudioFramesEncoded)
+opcode: Stop
+keywords: ''
+task: MPEG_2Encode/MuxforDLNA
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TotalBytesEncoded
+- field_type: UInt64
+  field_name: VideoFramesReceived
+- field_type: UInt64
+  field_name: VideoFramesEncoded
+- field_type: UInt64
+  field_name: AudioBytesReceived
+- field_type: UInt64
+  field_name: AudioFramesEncoded

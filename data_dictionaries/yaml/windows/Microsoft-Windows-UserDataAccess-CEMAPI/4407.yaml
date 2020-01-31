@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4407'
+version: '0'
+event(fields): MSG_GETATTACHTABLEStop()
+opcode: Stop
+keywords: Performance
+task: MSG_GETATTACHTABLE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

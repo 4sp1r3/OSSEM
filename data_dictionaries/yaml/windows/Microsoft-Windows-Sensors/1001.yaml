@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1001'
+version: '0'
+event(fields): SensPerf_Task_DeviceStartupStart(UInt32 DeviceID)
+opcode: Start
+keywords: SensPerf
+task: SensPerf_Task_DeviceStartup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceID

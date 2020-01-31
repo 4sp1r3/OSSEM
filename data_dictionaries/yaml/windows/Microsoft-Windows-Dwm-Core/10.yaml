@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '10'
+version: '0'
+event(fields): SCHEDULE_PROCESS_FRAMEStart()
+opcode: Start
+keywords: DwmCore FrameVisualization
+task: SCHEDULE_PROCESS_FRAME
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

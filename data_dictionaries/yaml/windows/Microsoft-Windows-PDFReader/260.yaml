@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '260'
+version: '0'
+event(fields): VerifyCertificateStart(UInt32 UInt32Param)
+opcode: Start
+keywords: Reader
+task: VerifyCertificate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UInt32Param

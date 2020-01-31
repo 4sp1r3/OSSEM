@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '256'
+version: '0'
+event(fields): MFCaptureEngineStopCapturePhotoSequenceTaskStop(Pointer CaptureEnginePointer,
+  UInt32 hrStatus)
+opcode: Stop
+keywords: ''
+task: MFCaptureEngineStopCapturePhotoSequenceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CaptureEnginePointer
+- field_type: UInt32
+  field_name: hrStatus

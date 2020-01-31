@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintService
+event_id: '302'
+version: '0'
+event(fields): DeletingaprinterSpoolerOperationStarted(UnicodeString param1)
+opcode: SpoolerOperationStarted
+keywords: SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_CLASSIC
+task: Deletingaprinter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

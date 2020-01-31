@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3026'
+version: '0'
+event(fields): LoadCatalogFailed3026(UInt16 FileNameLength, UnicodeString FileNameBuffer)
+opcode: Failed
+keywords: ''
+task: LoadCatalog
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer

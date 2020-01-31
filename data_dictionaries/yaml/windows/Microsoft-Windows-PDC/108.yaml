@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDC
+event_id: '108'
+version: '0'
+event(fields): PpmProfileClientReference(Pointer Client, Boolean Acquire)
+opcode: ''
+keywords: SPM
+task: PpmProfileClientReference
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: Boolean
+  field_name: Acquire

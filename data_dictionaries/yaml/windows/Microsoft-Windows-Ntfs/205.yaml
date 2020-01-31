@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '205'
+version: '0'
+event(fields): CheckpointStop205(Pointer Vcb, UInt32 DirtyMetaDataPages)
+opcode: Stop
+keywords: Checkpoint CleanCheckpoint
+task: Checkpoint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Vcb
+- field_type: UInt32
+  field_name: DirtyMetaDataPages

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7417'
+version: '0'
+event(fields): ConnectedSearch_ImageDownloaderPreFetchTaskStop(UnicodeString ImpressionGUID,
+  UInt32 Result)
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_ImageDownloaderPreFetchTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ImpressionGUID
+- field_type: UInt32
+  field_name: Result

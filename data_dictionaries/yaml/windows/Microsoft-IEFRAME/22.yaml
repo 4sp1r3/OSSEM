@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '22'
+version: '0'
+event(fields): Browseui_Tabs_SwitchTabsStart(UInt32 TabID)
+opcode: Start
+keywords: primarynav
+task: Browseui_Tabs_SwitchTabs
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID

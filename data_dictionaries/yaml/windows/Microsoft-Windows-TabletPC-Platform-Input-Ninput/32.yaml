@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '32'
+version: '0'
+event(fields): NinputSendMouse()
+opcode: ''
+keywords: ''
+task: NinputSendMouse
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-MFReadWrite
+event_id: '113'
+version: '0'
+event(fields): SinkWriter_ThrottleStop(Pointer Object, UInt32 StreamIndex, UInt32
+  Delay)
+opcode: Stop
+keywords: ''
+task: SinkWriter_Throttle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: StreamIndex
+- field_type: UInt32
+  field_name: Delay

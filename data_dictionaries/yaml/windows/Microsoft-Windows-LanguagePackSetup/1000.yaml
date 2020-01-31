@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1000'
+version: '0'
+event(fields): LanguagePackSetupCbsClientfunctionalityLanguagePackSetupinitializationoperation(HexInt32
+  Error)
+opcode: LanguagePackSetupinitializationoperation
+keywords: ''
+task: LanguagePackSetupCbsClientfunctionality
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error

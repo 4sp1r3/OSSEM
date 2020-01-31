@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-Netvsc
+event_id: '40'
+version: '0'
+event(fields): task_040(UInt32 Task, UInt32 MemoryRequired)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Task
+- field_type: UInt32
+  field_name: MemoryRequired

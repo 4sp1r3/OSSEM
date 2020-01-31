@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '55014'
+version: '0'
+event(fields): CredentialProviderUser_SetProviderFilter(UnicodeString Error, UInt32
+  DWORD1)
+opcode: ''
+keywords: ''
+task: CredentialProviderUser_SetProviderFilter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Error
+- field_type: UInt32
+  field_name: DWORD1

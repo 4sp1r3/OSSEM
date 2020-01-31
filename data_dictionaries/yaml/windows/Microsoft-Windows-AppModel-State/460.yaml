@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '460'
+version: '0'
+event(fields): AppModel.Task.StateWinRT.RoamingRpcSignalStart()
+opcode: Start
+keywords: WinRT
+task: AppModel.Task.StateWinRT.RoamingRpcSignal
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

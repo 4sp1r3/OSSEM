@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WHEA-Logger
+event_id: '49'
+version: '0'
+event(fields): task_049(UInt32 ErrorSource, HexInt32 Bank, HexInt64 MciStatus, HexInt64
+  MciAddr, HexInt64 MciMisc, AnsiString FRUText)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorSource
+- field_type: HexInt32
+  field_name: Bank
+- field_type: HexInt64
+  field_name: MciStatus
+- field_type: HexInt64
+  field_name: MciAddr
+- field_type: HexInt64
+  field_name: MciMisc
+- field_type: AnsiString
+  field_name: FRUText

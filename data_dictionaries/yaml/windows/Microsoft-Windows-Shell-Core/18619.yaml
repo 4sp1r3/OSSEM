@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18619'
+version: '0'
+event(fields): Shell32_MountPoint_SHHardwareEvent_VolumeRemovedStart()
+opcode: Start
+keywords: Shell
+task: Shell32_MountPoint_SHHardwareEvent_VolumeRemoved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

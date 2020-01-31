@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceSyncProvider
+event_id: '426'
+version: '0'
+event(fields): WPDProvider_EndSessionStart()
+opcode: Start
+keywords: ''
+task: WPDProvider_EndSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

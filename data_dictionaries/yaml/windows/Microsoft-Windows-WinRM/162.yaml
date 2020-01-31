@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '162'
+version: '0'
+event(fields): Userauthentication162()
+opcode: ''
+keywords: Keyword.Client Keyword.Security
+task: Userauthentication
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

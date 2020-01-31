@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-Backup
+event_id: '211'
+version: '0'
+event(fields): task_0211(GUID BackupSetId, GUID RestoreEventId, UnicodeString FileRestoreTargetPath,
+  Int32 RestoreState, UInt32 HRESULT, UInt32 DetailedHRESULT, UInt32 NumOfFiles, UnicodeString
+  FilesInfo, FILETIME RestoreTime, UInt32 MountVhdTime, UInt32 PreparePassTime, UInt32
+  WriteFilesTime)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BackupSetId
+- field_type: GUID
+  field_name: RestoreEventId
+- field_type: UnicodeString
+  field_name: FileRestoreTargetPath
+- field_type: Int32
+  field_name: RestoreState
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: DetailedHRESULT
+- field_type: UInt32
+  field_name: NumOfFiles
+- field_type: UnicodeString
+  field_name: FilesInfo
+- field_type: FILETIME
+  field_name: RestoreTime
+- field_type: UInt32
+  field_name: MountVhdTime
+- field_type: UInt32
+  field_name: PreparePassTime
+- field_type: UInt32
+  field_name: WriteFilesTime

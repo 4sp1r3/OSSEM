@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1036'
+version: '0'
+event(fields): WinNatMGeneralError(UInt32 ErrorID, UnicodeString ErrorContext, UInt32
+  ErrorMisc, UInt32 Status)
+opcode: ''
+keywords: ut:NatGeneralError
+task: WinNatMGeneralError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorID
+- field_type: UnicodeString
+  field_name: ErrorContext
+- field_type: UInt32
+  field_name: ErrorMisc
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60617'
+version: '0'
+event(fields): ItemsView_UIItemsView_PaintStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: ItemsView_UIItemsView_Paint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

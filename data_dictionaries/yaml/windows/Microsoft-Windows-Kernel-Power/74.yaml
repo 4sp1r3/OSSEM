@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '74'
+version: '0'
+event(fields): RegisterSystemState(UInt32 ExecutionState, Pointer StateHandle)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: RegisterSystemState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ExecutionState
+- field_type: Pointer
+  field_name: StateHandle

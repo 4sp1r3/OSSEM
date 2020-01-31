@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '50'
+version: '0'
+event(fields): ThreadPoolWorkerThreadStart(UInt32 ActiveWorkerThreadCount, UInt32
+  RetiredWorkerThreadCount, UInt16 ClrInstanceID)
+opcode: Start
+keywords: ThreadingKeyword
+task: ThreadPoolWorkerThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ActiveWorkerThreadCount
+- field_type: UInt32
+  field_name: RetiredWorkerThreadCount
+- field_type: UInt16
+  field_name: ClrInstanceID

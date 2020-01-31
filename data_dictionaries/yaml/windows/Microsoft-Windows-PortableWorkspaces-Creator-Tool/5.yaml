@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableWorkspaces-Creator-Tool
+event_id: '5'
+version: '0'
+event(fields): NavigationfromInstallSourcePagetotheReadytoCreatePage.Start()
+opcode: Start
+keywords: ''
+task: NavigationfromInstallSourcePagetotheReadytoCreatePage.
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

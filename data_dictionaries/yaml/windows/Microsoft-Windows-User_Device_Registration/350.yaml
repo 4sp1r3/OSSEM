@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '350'
+version: '0'
+event(fields): task_0350(UnicodeString KeyId, UInt64 AttLevel, UInt64 AikStatus, UInt64
+  KeyType, UnicodeString KeyName, UnicodeString IdpDomain, UnicodeString TenantId,
+  UnicodeString UserEmail)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: KeyId
+- field_type: UInt64
+  field_name: AttLevel
+- field_type: UInt64
+  field_name: AikStatus
+- field_type: UInt64
+  field_name: KeyType
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: UnicodeString
+  field_name: IdpDomain
+- field_type: UnicodeString
+  field_name: TenantId
+- field_type: UnicodeString
+  field_name: UserEmail

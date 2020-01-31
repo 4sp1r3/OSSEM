@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-InputSwitch
+event_id: '16'
+version: '0'
+event(fields): ModalitySelectedSplit()
+opcode: ''
+keywords: Perf InputSwitch_Keyword
+task: ModalitySelectedSplit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

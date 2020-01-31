@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '109'
+version: '0'
+event(fields): AppReadiness_PackageChangeStop(UInt32 Source, Int32 Result)
+opcode: Stop
+keywords: Service
+task: AppReadiness_PackageChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Source
+- field_type: Int32
+  field_name: Result

@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '103'
+version: '0'
+event(fields): CellularAPI103(UInt16 UInt16Name)
+opcode: ''
+keywords: Error
+task: CellularAPI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: UInt16Name

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Wisp
+event_id: '12'
+version: '0'
+event(fields): TABLET_INPUT_Touch_FlickStop()
+opcode: Stop
+keywords: ''
+task: TABLET_INPUT_Touch_Flick
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

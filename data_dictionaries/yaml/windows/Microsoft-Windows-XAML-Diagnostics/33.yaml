@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '33'
+version: '0'
+event(fields): DragOverStop(Boolean Handled)
+opcode: Stop
+keywords: Input
+task: DragOver
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Handled

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '15003'
+version: '0'
+event(fields): Common_GetMachineNameStart()
+opcode: Start
+keywords: ''
+task: Common_GetMachineName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

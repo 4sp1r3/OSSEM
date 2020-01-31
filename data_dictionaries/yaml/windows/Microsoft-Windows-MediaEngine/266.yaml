@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '266'
+version: '0'
+event(fields): ProfileCheck(Boolean Present, UInt32 DcValue, Boolean Provisioned,
+  Int64 Memory)
+opcode: ''
+keywords: ''
+task: ProfileCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Present
+- field_type: UInt32
+  field_name: DcValue
+- field_type: Boolean
+  field_name: Provisioned
+- field_type: Int64
+  field_name: Memory

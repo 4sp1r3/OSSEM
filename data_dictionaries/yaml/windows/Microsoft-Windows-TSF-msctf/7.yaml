@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '7'
+version: '0'
+event(fields): ActivateCiceroForThreadStop(UInt32 thread_flags, UInt32 activation_flags)
+opcode: Stop
+keywords: Perf
+task: ActivateCiceroForThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: thread_flags
+- field_type: UInt32
+  field_name: activation_flags

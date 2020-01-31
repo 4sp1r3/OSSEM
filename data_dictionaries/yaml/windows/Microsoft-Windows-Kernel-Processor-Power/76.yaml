@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '76'
+version: '0'
+event(fields): LowPowerScenarioInformationRundown(UInt32 ScenarioId, UInt32 PlatformIdleStateIndex)
+opcode: ''
+keywords: Perf Diag
+task: LowPowerScenarioInformationRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScenarioId
+- field_type: UInt32
+  field_name: PlatformIdleStateIndex

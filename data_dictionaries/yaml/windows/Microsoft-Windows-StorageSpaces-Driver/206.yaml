@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '206'
+version: '0'
+event(fields): task_0206(GUID Id, UInt8 Reason, UInt32 Status, UInt32 State)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UInt8
+  field_name: Reason
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: State

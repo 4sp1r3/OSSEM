@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '2000'
+version: '0'
+event(fields): CPhoneHelper(Int32 HResultName)
+opcode: ''
+keywords: Trace
+task: CPhoneHelper
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HResultName

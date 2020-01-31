@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-Scripted
+event_id: '1016'
+version: '0'
+event(fields): SCRIPTED_DIAGNOSTICS_TASK_SCRIPTStart()
+opcode: Start
+keywords: analytic
+task: SCRIPTED_DIAGNOSTICS_TASK_SCRIPT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

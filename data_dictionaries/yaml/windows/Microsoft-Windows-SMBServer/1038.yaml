@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1038'
+version: '0'
+event(fields): task_01038(UInt32 FailureType, UInt16 DeviceNameLength, UnicodeString
+  DeviceName, HexInt32 Error)
+opcode: ''
+keywords: Nsi
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FailureType
+- field_type: UInt16
+  field_name: DeviceNameLength
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: HexInt32
+  field_name: Error

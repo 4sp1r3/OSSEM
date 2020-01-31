@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HttpService
+event_id: '61'
+version: '0'
+event(fields): HTTPSSLTraceTaskSslEndpointConfigNotFound(Pointer ConnectionObj, UInt32
+  AddressLength, Binary Address)
+opcode: SslEndpointConfigNotFound
+keywords: HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL
+task: HTTPSSLTraceTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionObj
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: Binary
+  field_name: Address

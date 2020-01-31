@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '6229'
+version: '0'
+event(fields): task_06229(UInt32 p0, UnicodeString p1, UnicodeString p2)
+opcode: ''
+keywords: ExecDevPlatCircular
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p0
+- field_type: UnicodeString
+  field_name: p1
+- field_type: UnicodeString
+  field_name: p2

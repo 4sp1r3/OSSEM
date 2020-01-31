@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '19'
+version: '0'
+event(fields): Device(Pointer SemaphoreHandle, UInt32 AdjustValue, UInt32 PresentCount)
+opcode: ''
+keywords: Devices
+task: Device
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SemaphoreHandle
+- field_type: UInt32
+  field_name: AdjustValue
+- field_type: UInt32
+  field_name: PresentCount

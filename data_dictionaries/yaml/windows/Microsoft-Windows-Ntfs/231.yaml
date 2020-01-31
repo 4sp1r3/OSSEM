@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '231'
+version: '0'
+event(fields): WorkItem231(Pointer WorkItem, UInt32 Reason, HexInt32 Error)
+opcode: ''
+keywords: WorkItem
+task: WorkItem
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WorkItem
+- field_type: UInt32
+  field_name: Reason
+- field_type: HexInt32
+  field_name: Error

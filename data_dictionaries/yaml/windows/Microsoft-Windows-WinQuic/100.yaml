@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WinQuic
+event_id: '100'
+version: '0'
+event(fields): task_0100(Pointer Stream, Pointer Connection, UInt64 ID)
+opcode: ''
+keywords: ut:Stream
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Stream
+- field_type: Pointer
+  field_name: Connection
+- field_type: UInt64
+  field_name: ID

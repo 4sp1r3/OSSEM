@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '46014'
+version: '0'
+event(fields): IsAssemblyInstalledStart(UnicodeString ustring)
+opcode: Start
+keywords: ''
+task: IsAssemblyInstalled
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ustring

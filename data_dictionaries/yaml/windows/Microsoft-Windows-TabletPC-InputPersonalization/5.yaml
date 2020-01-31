@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '5'
+version: '0'
+event(fields): IPS_LAD_DetectLanguageStart()
+opcode: Start
+keywords: ''
+task: IPS_LAD_DetectLanguage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

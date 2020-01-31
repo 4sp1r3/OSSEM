@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-XAML
+event_id: '340'
+version: '0'
+event(fields): DCompCreatePrimitive(UInt64 Primitive, Float Left, Float Top, Float
+  Right, Float Bottom, UInt32 Color, Float Opacity)
+opcode: ''
+keywords: DComp
+task: DCompCreatePrimitive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Primitive
+- field_type: Float
+  field_name: Left
+- field_type: Float
+  field_name: Top
+- field_type: Float
+  field_name: Right
+- field_type: Float
+  field_name: Bottom
+- field_type: UInt32
+  field_name: Color
+- field_type: Float
+  field_name: Opacity

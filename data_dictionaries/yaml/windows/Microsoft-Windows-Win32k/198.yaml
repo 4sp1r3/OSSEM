@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Win32k
+event_id: '198'
+version: '0'
+event(fields): TouchHWTimeStamp(Int32 ScanTime, Int32 dwTime, UInt64 QPC, Int32 XRawPosition,
+  Int32 YRawPosition, Int32 XPredictedPosition, Int32 YPredictedPosition)
+opcode: ''
+keywords: MessagePumpInternalAndInput
+task: TouchHWTimeStamp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ScanTime
+- field_type: Int32
+  field_name: dwTime
+- field_type: UInt64
+  field_name: QPC
+- field_type: Int32
+  field_name: XRawPosition
+- field_type: Int32
+  field_name: YRawPosition
+- field_type: Int32
+  field_name: XPredictedPosition
+- field_type: Int32
+  field_name: YPredictedPosition

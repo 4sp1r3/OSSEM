@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '12506'
+version: '0'
+event(fields): task_012506(UnicodeString Functionname, UnicodeString Errortext, UnicodeString
+  Errorcode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Functionname
+- field_type: UnicodeString
+  field_name: Errortext
+- field_type: UnicodeString
+  field_name: Errorcode

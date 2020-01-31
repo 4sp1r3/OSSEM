@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27152'
+version: '0'
+event(fields): PerfTrack_HoverUI_FadeInStop()
+opcode: Stop
+keywords: Shell WDI
+task: PerfTrack_HoverUI_FadeIn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

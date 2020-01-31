@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '771'
+version: '0'
+event(fields): task_0771(GUID IdentificationGUID, UnicodeString VolumeName, UnicodeString
+  VolumeMountPoint)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IdentificationGUID
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UnicodeString
+  field_name: VolumeMountPoint

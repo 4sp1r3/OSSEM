@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10037'
+version: '0'
+event(fields): Bind10037(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Error,
+  UInt32 Location, UInt32 Context)
+opcode: ''
+keywords: Bind
+task: Bind
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: NetLuid
+- field_type: UInt32
+  field_name: Error
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context

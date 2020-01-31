@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '726'
+version: '0'
+event(fields): Mshtml_CTouchDragDropHelper_ShutdownStart(Pointer TouchDragDropHelper)
+opcode: Start
+keywords: draganddrop touch
+task: Mshtml_CTouchDragDropHelper_Shutdown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TouchDragDropHelper

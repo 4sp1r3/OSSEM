@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Runtime-Networking-BackgroundTransfer
+event_id: '4'
+version: '0'
+event(fields): BackgroundTransferOperation4(GUID OperationId, UInt32 LocationId, HexInt32
+  Error)
+opcode: ''
+keywords: keywords.KW_ALL
+task: BackgroundTransferOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: OperationId
+- field_type: UInt32
+  field_name: LocationId
+- field_type: HexInt32
+  field_name: Error

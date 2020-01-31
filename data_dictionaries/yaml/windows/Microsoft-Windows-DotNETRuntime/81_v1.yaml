@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '81'
+version: '1'
+event(fields): ContentionStart_V1(UInt8 ContentionFlags, UInt16 ClrInstanceID)
+opcode: Start
+keywords: ContentionKeyword
+task: Contention
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ContentionFlags
+- field_type: UInt16
+  field_name: ClrInstanceID

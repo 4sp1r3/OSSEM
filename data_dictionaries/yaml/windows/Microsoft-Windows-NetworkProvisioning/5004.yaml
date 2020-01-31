@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '5004'
+version: '0'
+event(fields): ActivationTask5004(GUID InterfaceGuid, UInt32 RegisterState)
+opcode: ''
+keywords: ActivationTask ut:Configuration
+task: ActivationTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RegisterState

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DSC
+event_id: '4402'
+version: '0'
+event(fields): task_04402(UnicodeString JobId, UnicodeString AgentId, UnicodeString
+  server, UnicodeString DownloadManagerName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: AgentId
+- field_type: UnicodeString
+  field_name: server
+- field_type: UnicodeString
+  field_name: DownloadManagerName

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '38003'
+version: '1'
+event(fields): VObjects.ProcessDllAttachStop_V1()
+opcode: Stop
+keywords: ''
+task: VObjects.ProcessDllAttach
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

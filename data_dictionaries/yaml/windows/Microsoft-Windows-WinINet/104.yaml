@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-WinINet
+event_id: '104'
+version: '0'
+event(fields): WININET_HTTP_REQUEST_HANDLE_CREATED(Pointer ConnectionHandle, Pointer
+  ParentHandle, UInt16 _VerbLength, AnsiString Verb, UInt16 _ObjectNameLength, AnsiString
+  ObjectName, UInt16 _VersionLength, AnsiString Version, UInt32 _ReferrerLength, AnsiString
+  Referrer, UInt16 _AcceptTypesLength, AnsiString AcceptTypes, UInt32 Flags)
+opcode: ''
+keywords: WININET_KEYWORD_HANDLES WININET_KEYWORD_HTTPDIAG
+task: WININET_HTTP_REQUEST_HANDLE_CREATED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionHandle
+- field_type: Pointer
+  field_name: ParentHandle
+- field_type: UInt16
+  field_name: _VerbLength
+- field_type: AnsiString
+  field_name: Verb
+- field_type: UInt16
+  field_name: _ObjectNameLength
+- field_type: AnsiString
+  field_name: ObjectName
+- field_type: UInt16
+  field_name: _VersionLength
+- field_type: AnsiString
+  field_name: Version
+- field_type: UInt32
+  field_name: _ReferrerLength
+- field_type: AnsiString
+  field_name: Referrer
+- field_type: UInt16
+  field_name: _AcceptTypesLength
+- field_type: AnsiString
+  field_name: AcceptTypes
+- field_type: UInt32
+  field_name: Flags

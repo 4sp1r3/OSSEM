@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '215'
+version: '0'
+event(fields): OVERLAY_GETCAPS(UInt32 MaxPlanes, UInt32 OverlayCaps)
+opcode: ''
+keywords: DwmCore
+task: OVERLAY_GETCAPS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MaxPlanes
+- field_type: UInt32
+  field_name: OverlayCaps

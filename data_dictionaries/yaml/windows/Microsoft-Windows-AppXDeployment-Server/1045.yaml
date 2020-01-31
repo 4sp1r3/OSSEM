@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1045'
+version: '0'
+event(fields): AppXDeployment.Task.Server.StagingManagerStop1045(UnicodeString PackageUri,
+  UnicodeString PackageFolder, UnicodeString PackageFolderOld)
+opcode: Stop
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.StagingManager
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageUri
+- field_type: UnicodeString
+  field_name: PackageFolder
+- field_type: UnicodeString
+  field_name: PackageFolderOld

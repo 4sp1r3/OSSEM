@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1372'
+version: '0'
+event(fields): Partition(UInt64 PartitionCount, UInt64 PartitionMask, UInt64 PartitionId,
+  UInt64 NumEntries)
+opcode: ''
+keywords: ut:AlePartition
+task: Partition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PartitionCount
+- field_type: UInt64
+  field_name: PartitionMask
+- field_type: UInt64
+  field_name: PartitionId
+- field_type: UInt64
+  field_name: NumEntries

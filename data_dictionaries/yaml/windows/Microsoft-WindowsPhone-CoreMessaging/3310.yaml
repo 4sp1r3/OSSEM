@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3310'
+version: '0'
+event(fields): RegistrarClient_ConnectToRegistrarServerStart()
+opcode: Start
+keywords: MessagingPerformance RegistrarClient
+task: RegistrarClient_ConnectToRegistrarServer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

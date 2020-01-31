@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AAD
+event_id: '1084'
+version: '0'
+event(fields): AadCloudAPPluginOperation1084(Int32 Result, UnicodeString Target)
+opcode: ''
+keywords: Error Operational
+task: AadCloudAPPluginOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: Target

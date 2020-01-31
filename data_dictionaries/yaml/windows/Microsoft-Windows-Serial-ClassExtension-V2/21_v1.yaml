@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Serial-ClassExtension-V2
+event_id: '21'
+version: '1'
+event(fields): I/Orequest.Stop21_V1(Pointer Device, HexInt32 Status, UInt64 Information)
+opcode: Stop
+keywords: IO ReceiveIO
+task: I/Orequest.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Device
+- field_type: HexInt32
+  field_name: Status
+- field_type: UInt64
+  field_name: Information

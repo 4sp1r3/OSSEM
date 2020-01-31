@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '220'
+version: '0'
+event(fields): MediaSync_GetStorageInfoStart()
+opcode: Start
+keywords: ''
+task: MediaSync_GetStorageInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

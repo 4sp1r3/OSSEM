@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '334'
+version: '0'
+event(fields): OfferResourcesStop(Boolean IsSurfaceBeingRendered)
+opcode: Stop
+keywords: Rendering
+task: OfferResources
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsSurfaceBeingRendered

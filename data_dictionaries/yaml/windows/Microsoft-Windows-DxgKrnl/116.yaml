@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '116'
+version: '0'
+event(fields): MMIOFlip(Pointer pDxgAdapter, UInt32 VidPnSourceId, UInt32 FlipSubmitSequence,
+  Pointer FlipToDriverAllocation, UInt64 FlipToPhysicalAddress, UInt32 FlipToSegmentId,
+  UInt32 FlipPresentId, UInt32 FlipPhysicalAdapterMask, UInt32 Flags)
+opcode: ''
+keywords: Base
+task: MMIOFlip
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: FlipSubmitSequence
+- field_type: Pointer
+  field_name: FlipToDriverAllocation
+- field_type: UInt64
+  field_name: FlipToPhysicalAddress
+- field_type: UInt32
+  field_name: FlipToSegmentId
+- field_type: UInt32
+  field_name: FlipPresentId
+- field_type: UInt32
+  field_name: FlipPhysicalAdapterMask
+- field_type: UInt32
+  field_name: Flags

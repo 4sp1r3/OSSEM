@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PDC
+event_id: '95'
+version: '0'
+event(fields): SpmScenarioDependencyRundown(Pointer Scenario, UInt8 Type, UInt32 ClientIdCount,
+  UInt8 ClientIdList)
+opcode: ''
+keywords: SPM
+task: SpmScenarioDependencyRundown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Scenario
+- field_type: UInt8
+  field_name: Type
+- field_type: UInt32
+  field_name: ClientIdCount
+- field_type: UInt8
+  field_name: ClientIdList

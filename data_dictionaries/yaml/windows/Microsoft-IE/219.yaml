@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '219'
+version: '0'
+event(fields): Mshtml_MediaEngine_PauseStart(UInt32 MediaEngineID)
+opcode: Start
+keywords: mediaengine
+task: Mshtml_MediaEngine_Pause
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaEngineID

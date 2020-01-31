@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '33'
+version: '0'
+event(fields): SmartUserPresenceTimeUpdate(Int64 SystemTimeShift)
+opcode: ''
+keywords: SmartUserPresence
+task: SmartUserPresenceTimeUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: SystemTimeShift

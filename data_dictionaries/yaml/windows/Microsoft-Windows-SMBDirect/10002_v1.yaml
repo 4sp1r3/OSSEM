@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '10002'
+version: '1'
+event(fields): task_010002_V1(GUID SocketID, UInt32 LocalAddressLength, Binary LocalAddress,
+  UInt32 RemoteAddressLength, Binary RemoteAddress, UInt16 MinVersion, UInt16 MaxVersion,
+  UInt16 NegotiatedVersion, UInt16 Reserved, UInt16 CreditsRequested, UInt16 CreditsGranted,
+  HexInt32 Status, UInt32 MaxReadWriteSize, UInt32 PreferredSendSize, UInt32 MaxReceiveSize,
+  UInt32 MaxFragmentReassemblyBufferSize)
+opcode: ''
+keywords: ut:ReceivePath keyword_40000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SocketID
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt16
+  field_name: MinVersion
+- field_type: UInt16
+  field_name: MaxVersion
+- field_type: UInt16
+  field_name: NegotiatedVersion
+- field_type: UInt16
+  field_name: Reserved
+- field_type: UInt16
+  field_name: CreditsRequested
+- field_type: UInt16
+  field_name: CreditsGranted
+- field_type: HexInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: MaxReadWriteSize
+- field_type: UInt32
+  field_name: PreferredSendSize
+- field_type: UInt32
+  field_name: MaxReceiveSize
+- field_type: UInt32
+  field_name: MaxFragmentReassemblyBufferSize

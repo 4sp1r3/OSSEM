@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '46'
+version: '0'
+event(fields): PDA_DEVICE_ENUMERATIONStart()
+opcode: Start
+keywords: mediaplayer
+task: PDA_DEVICE_ENUMERATION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

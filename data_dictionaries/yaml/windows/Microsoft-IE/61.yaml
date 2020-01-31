@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '61'
+version: '0'
+event(fields): Mshtml_CMarkup_UnloadContentsStart(Pointer Markup)
+opcode: Start
+keywords: subsystem pageloadbreakdown
+task: Mshtml_CMarkup_UnloadContents
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Markup

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '5029'
+version: '0'
+event(fields): AppXDeployment.Task.Server.ExtensionsStop5029(UnicodeString PackageFullName,
+  UInt32 Result)
+opcode: Stop
+keywords: VISUALELEMENTS_EXTENSION_KEYWORD
+task: AppXDeployment.Task.Server.Extensions
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UInt32
+  field_name: Result

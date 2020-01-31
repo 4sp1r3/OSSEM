@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '124'
+version: '0'
+event(fields): Mshtml_CSS_ParserStop(Pointer Parser, UInt32 ParserType)
+opcode: Stop
+keywords: subsystem mshtml
+task: Mshtml_CSS_Parser
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Parser
+- field_type: UInt32
+  field_name: ParserType

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '400'
+version: '0'
+event(fields): AppModel.Task.StateWinRT.ApplicationDataCompositeValueServer_HasKeyStart()
+opcode: Start
+keywords: WinRT
+task: AppModel.Task.StateWinRT.ApplicationDataCompositeValueServer_HasKey
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

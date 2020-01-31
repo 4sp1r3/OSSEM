@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-LockScreenContent
+event_id: '46'
+version: '0'
+event(fields): LockScreenContent_Repository_DisableConstraints(Boolean DualMonitorSourcing,
+  UInt32 Reason)
+opcode: ''
+keywords: LockScreenContent
+task: LockScreenContent_Repository_DisableConstraints
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: DualMonitorSourcing
+- field_type: UInt32
+  field_name: Reason

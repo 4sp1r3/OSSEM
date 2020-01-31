@@ -1,0 +1,37 @@
+provider: Microsoft-Windows-BTH-BTHPORT
+event_id: '263'
+version: '0'
+event(fields): task_0263(UInt8 SentStatus, UInt16 Connection_Handle, UInt8 Packet_Boundary_Flag,
+  UInt8 Broadcast_Flag, UInt16 Buffer_Length, UInt16 PDU_Length, UInt16 Channel_ID,
+  UInt8 Code, UInt8 Identifier, UInt16 Signal_Length, UInt16 Data_Length, Binary Data)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: SentStatus
+- field_type: UInt16
+  field_name: Connection_Handle
+- field_type: UInt8
+  field_name: Packet_Boundary_Flag
+- field_type: UInt8
+  field_name: Broadcast_Flag
+- field_type: UInt16
+  field_name: Buffer_Length
+- field_type: UInt16
+  field_name: PDU_Length
+- field_type: UInt16
+  field_name: Channel_ID
+- field_type: UInt8
+  field_name: Code
+- field_type: UInt8
+  field_name: Identifier
+- field_type: UInt16
+  field_name: Signal_Length
+- field_type: UInt16
+  field_name: Data_Length
+- field_type: Binary
+  field_name: Data

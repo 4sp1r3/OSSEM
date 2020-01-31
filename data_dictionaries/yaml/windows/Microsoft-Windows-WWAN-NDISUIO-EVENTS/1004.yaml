@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WWAN-NDISUIO-EVENTS
+event_id: '1004'
+version: '0'
+event(fields): task_01004(GUID InterfaceGuid, UInt32 OIDorStatus, UInt32 RequestID,
+  UInt32 Location, UInt32 Context)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: OIDorStatus
+- field_type: UInt32
+  field_name: RequestID
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context

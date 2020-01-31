@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-IPxlatCfg
+event_id: '1005'
+version: '0'
+event(fields): task_01005(UInt32 IPv4Address, UInt32 IPv4Prefix)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IPv4Address
+- field_type: UInt32
+  field_name: IPv4Prefix

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7210'
+version: '0'
+event(fields): PrerequisitesCheckInformational7210()
+opcode: Informational
+keywords: Internal
+task: PrerequisitesCheck
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

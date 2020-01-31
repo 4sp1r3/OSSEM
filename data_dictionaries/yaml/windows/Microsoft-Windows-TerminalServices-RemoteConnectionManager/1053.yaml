@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-RemoteConnectionManager
+event_id: '1053'
+version: '0'
+event(fields): task_0PCODE_192pcode_1921053()
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

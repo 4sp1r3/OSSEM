@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '114'
+version: '0'
+event(fields): Jscript_Recycler_AllocationExternal_AddRef(Pointer MemoryAddress)
+opcode: External_AddRef
+keywords: JScriptExternalReferenceAddRef
+task: Jscript_Recycler_Allocation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MemoryAddress

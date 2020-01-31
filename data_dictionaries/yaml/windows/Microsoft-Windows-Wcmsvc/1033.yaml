@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '1033'
+version: '0'
+event(fields): task_01033(GUID InterfaceGUID, UInt32 NdisRefError)
+opcode: ''
+keywords: LwtDiagnostic
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGUID
+- field_type: UInt32
+  field_name: NdisRefError

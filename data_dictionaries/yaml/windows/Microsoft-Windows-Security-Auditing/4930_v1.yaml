@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4930'
+version: '1'
+event(fields): task_04930_V1(UnicodeString DestinationDRA, UnicodeString SourceDRA,
+  UnicodeString SourceAddr, UnicodeString NamingContext, UInt64 Options, UInt32 StatusCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DestinationDRA
+- field_type: UnicodeString
+  field_name: SourceDRA
+- field_type: UnicodeString
+  field_name: SourceAddr
+- field_type: UnicodeString
+  field_name: NamingContext
+- field_type: UInt64
+  field_name: Options
+- field_type: UInt32
+  field_name: StatusCode

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinRM
+event_id: '789'
+version: '0'
+event(fields): Requesthandling789(UnicodeString operation, UnicodeString resourceURI)
+opcode: ''
+keywords: Keyword.Server
+task: Requesthandling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: operation
+- field_type: UnicodeString
+  field_name: resourceURI

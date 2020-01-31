@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '10000'
+version: '0'
+event(fields): ApplyProfiles(UInt32 ServiceName, Int32 ErrorCode)
+opcode: ''
+keywords: Diagnostics Service ut:Configuration
+task: ApplyProfiles
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ServiceName
+- field_type: Int32
+  field_name: ErrorCode

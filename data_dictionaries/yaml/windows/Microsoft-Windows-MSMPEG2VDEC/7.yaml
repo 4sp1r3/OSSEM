@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '7'
+version: '0'
+event(fields): H264_NotifyCorruptedInput()
+opcode: ''
+keywords: ''
+task: H264_NotifyCorruptedInput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

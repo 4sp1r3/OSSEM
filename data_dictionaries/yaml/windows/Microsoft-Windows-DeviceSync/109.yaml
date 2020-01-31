@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '109'
+version: '0'
+event(fields): SI_Query_StatusStop()
+opcode: Stop
+keywords: ''
+task: SI_Query_Status
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

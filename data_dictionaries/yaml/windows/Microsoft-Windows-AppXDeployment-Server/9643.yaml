@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '9643'
+version: '0'
+event(fields): AppXDeployment.Task.Server.OSIM9643(HexInt32 ErrorCode)
+opcode: ''
+keywords: OSIM_KEYWORD keyword_80000000000
+task: AppXDeployment.Task.Server.OSIM
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '11'
+version: '1'
+event(fields): GCCreateConcurrentThread_V1(UInt16 ClrInstanceID)
+opcode: CreateConcurrentThread
+keywords: GCKeyword ThreadingKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClrInstanceID

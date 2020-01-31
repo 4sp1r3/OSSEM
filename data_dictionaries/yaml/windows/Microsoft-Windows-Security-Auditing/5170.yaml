@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5170'
+version: '0'
+event(fields): task_05170(GUID OpCorrelationID, UnicodeString AppCorrelationID, SID
+  SubjectUserSid, UnicodeString SubjectUserName, UnicodeString SubjectDomainName,
+  HexInt64 SubjectLogonId, UnicodeString DSName, UnicodeString DSType, UnicodeString
+  ObjectDN, GUID ObjectGUID, UnicodeString ObjectClass, UnicodeString AttributeLDAPDisplayName,
+  UnicodeString AttributeSyntaxOID, UnicodeString AttributeValue, FILETIME ExpirationTime,
+  UnicodeString OperationType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: OpCorrelationID
+- field_type: UnicodeString
+  field_name: AppCorrelationID
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: DSName
+- field_type: UnicodeString
+  field_name: DSType
+- field_type: UnicodeString
+  field_name: ObjectDN
+- field_type: GUID
+  field_name: ObjectGUID
+- field_type: UnicodeString
+  field_name: ObjectClass
+- field_type: UnicodeString
+  field_name: AttributeLDAPDisplayName
+- field_type: UnicodeString
+  field_name: AttributeSyntaxOID
+- field_type: UnicodeString
+  field_name: AttributeValue
+- field_type: FILETIME
+  field_name: ExpirationTime
+- field_type: UnicodeString
+  field_name: OperationType

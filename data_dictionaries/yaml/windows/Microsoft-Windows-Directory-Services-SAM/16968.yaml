@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Directory-Services-SAM
+event_id: '16968'
+version: '0'
+event(fields): task_016968(UnicodeString ClientSID, UnicodeString ClientNetworkAddress)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ClientSID
+- field_type: UnicodeString
+  field_name: ClientNetworkAddress

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAudio2
+event_id: '48'
+version: '0'
+event(fields): SubmixVoiceCreate(Pointer Address, UInt32 ProcessingStage, UInt32 Channels,
+  UInt32 SampleRate)
+opcode: Create
+keywords: ''
+task: SubmixVoice
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Address
+- field_type: UInt32
+  field_name: ProcessingStage
+- field_type: UInt32
+  field_name: Channels
+- field_type: UInt32
+  field_name: SampleRate

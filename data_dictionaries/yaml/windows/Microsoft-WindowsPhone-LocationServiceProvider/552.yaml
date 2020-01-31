@@ -1,0 +1,26 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '552'
+version: '0'
+event(fields): Geofencing552(UInt32 TriggerType, UInt32 ForegroundEvent, UInt32 RegistrationOperation,
+  UInt32 ProccessId, UInt32 ApplicationId, GUID EventId, HexInt32 Status)
+opcode: ''
+keywords: Selfhost
+task: Geofencing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TriggerType
+- field_type: UInt32
+  field_name: ForegroundEvent
+- field_type: UInt32
+  field_name: RegistrationOperation
+- field_type: UInt32
+  field_name: ProccessId
+- field_type: UInt32
+  field_name: ApplicationId
+- field_type: GUID
+  field_name: EventId
+- field_type: HexInt32
+  field_name: Status

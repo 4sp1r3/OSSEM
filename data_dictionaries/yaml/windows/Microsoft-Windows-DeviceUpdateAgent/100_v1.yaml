@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DeviceUpdateAgent
+event_id: '100'
+version: '1'
+event(fields): task_0_V1(UnicodeString Prop_SessionId, UnicodeString Prop_UpdateId,
+  UnicodeString Prop_FlightId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_SessionId
+- field_type: UnicodeString
+  field_name: Prop_UpdateId
+- field_type: UnicodeString
+  field_name: Prop_FlightId

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxpTaskSyncProvider
+event_id: '345'
+version: '0'
+event(fields): DxpTaskSync_MediaPopulateStorageStop()
+opcode: Stop
+keywords: ''
+task: DxpTaskSync_MediaPopulateStorage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

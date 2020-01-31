@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UxTheme
+event_id: '33'
+version: '0'
+event(fields): SignalRequestPendingStop(Boolean fRequestPending, UInt32 status)
+opcode: Stop
+keywords: ''
+task: SignalRequestPending
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fRequestPending
+- field_type: UInt32
+  field_name: status

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-wmvdecod
+event_id: '8'
+version: '0'
+event(fields): wmvdecod_ProcessInput(UInt32 VOP, UInt32 Frame, Int64 SampleTime, Int64
+  SampleDuration)
+opcode: ''
+keywords: ''
+task: wmvdecod_ProcessInput
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: VOP
+- field_type: UInt32
+  field_name: Frame
+- field_type: Int64
+  field_name: SampleTime
+- field_type: Int64
+  field_name: SampleDuration

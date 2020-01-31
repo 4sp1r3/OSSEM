@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '2004'
+version: '0'
+event(fields): NonPerfEventsSuspend2004()
+opcode: Suspend
+keywords: ''
+task: NonPerfEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

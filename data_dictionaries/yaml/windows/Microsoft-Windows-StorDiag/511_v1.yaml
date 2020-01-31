@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '511'
+version: '1'
+event(fields): ClassCompletionofrequest.511_V1(GUID DeviceGUID, UInt32 DeviceNumber,
+  AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber,
+  HexInt32 IrpStatus, UInt8 IrpMinorFunction, GUID WmiDataBlockGUID, Pointer WmiProviderId)
+opcode: Completionofrequest.
+keywords: WMI
+task: Class
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGUID
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: AnsiString
+  field_name: Vendor
+- field_type: AnsiString
+  field_name: Model
+- field_type: AnsiString
+  field_name: FirmwareVersion
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: HexInt32
+  field_name: IrpStatus
+- field_type: UInt8
+  field_name: IrpMinorFunction
+- field_type: GUID
+  field_name: WmiDataBlockGUID
+- field_type: Pointer
+  field_name: WmiProviderId

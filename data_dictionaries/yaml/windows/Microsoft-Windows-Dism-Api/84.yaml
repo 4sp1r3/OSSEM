@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '84'
+version: '0'
+event(fields): DismExportDriverStop(UInt32 SessionId)
+opcode: Stop
+keywords: DismApiEvent
+task: DismExportDriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId

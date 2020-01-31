@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '693'
+version: '0'
+event(fields): Mshtml_CTouchHelper_PreFilterMessageForCapture_CommitDeferredActionsForDoubleTapZoomCancel()
+opcode: ''
+keywords: touch
+task: Mshtml_CTouchHelper_PreFilterMessageForCapture_CommitDeferredActionsForDoubleTapZoomCancel
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

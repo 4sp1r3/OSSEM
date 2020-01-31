@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Perflib
+event_id: '2000'
+version: '1'
+event(fields): task_02000_V1(UnicodeString Library, UnicodeString Service, UInt32
+  BytesLeft, UInt32 BytesAvailable)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Library
+- field_type: UnicodeString
+  field_name: Service
+- field_type: UInt32
+  field_name: BytesLeft
+- field_type: UInt32
+  field_name: BytesAvailable

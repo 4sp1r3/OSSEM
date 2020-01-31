@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UxTheme
+event_id: '1'
+version: '0'
+event(fields): ThemesAndMetric_SwitchThemeStart()
+opcode: Start
+keywords: ''
+task: ThemesAndMetric_SwitchTheme
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

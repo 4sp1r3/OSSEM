@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '502'
+version: '0'
+event(fields): PlumberPolicyCommitStop()
+opcode: Stop
+keywords: Service
+task: PlumberPolicyCommit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

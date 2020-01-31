@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1031'
+version: '0'
+event(fields): WinNatMImproperDefaultRoute(UInt32 CompartmentId, UInt32 InterfaceIndex)
+opcode: ''
+keywords: ut:Configuration
+task: WinNatMImproperDefaultRoute
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: InterfaceIndex

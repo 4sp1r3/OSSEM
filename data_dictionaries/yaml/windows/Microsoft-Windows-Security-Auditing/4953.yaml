@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4953'
+version: '0'
+event(fields): task_04953(UnicodeString Profile, UnicodeString ReasonForRejection,
+  UnicodeString RuleId, UnicodeString RuleName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Profile
+- field_type: UnicodeString
+  field_name: ReasonForRejection
+- field_type: UnicodeString
+  field_name: RuleId
+- field_type: UnicodeString
+  field_name: RuleName

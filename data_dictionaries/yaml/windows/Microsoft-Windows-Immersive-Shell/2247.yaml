@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2247'
+version: '0'
+event(fields): PerfTrack_Share_ShowFlowStop(UInt32 HRESULT)
+opcode: Stop
+keywords: ''
+task: PerfTrack_Share_ShowFlow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '20017'
+version: '0'
+event(fields): ConnecttosamenetworkonresumeStart20017(GUID InterfaceGuid)
+opcode: Start
+keywords: ''
+task: Connecttosamenetworkonresume
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

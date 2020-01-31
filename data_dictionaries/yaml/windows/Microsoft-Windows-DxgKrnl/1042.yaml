@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1042'
+version: '0'
+event(fields): MiracastUmdOpenMiracastSessionDataRate(UInt64 EncoderBitRate, UInt64
+  MaxLocalRate, UInt64 MaxRemoteRate)
+opcode: ''
+keywords: Miracast
+task: MiracastUmdOpenMiracastSessionDataRate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: EncoderBitRate
+- field_type: UInt64
+  field_name: MaxLocalRate
+- field_type: UInt64
+  field_name: MaxRemoteRate

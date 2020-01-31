@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18819'
+version: '0'
+event(fields): Shell32_ReadingPaneModule_LoadStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_ReadingPaneModule_Load
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

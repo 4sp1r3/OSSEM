@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19805'
+version: '0'
+event(fields): ShowDesktop_RegistryWrite()
+opcode: ''
+keywords: Shell
+task: ShowDesktop_RegistryWrite
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

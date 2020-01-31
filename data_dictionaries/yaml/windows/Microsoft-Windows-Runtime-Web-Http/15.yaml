@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Runtime-Web-Http
+event_id: '15'
+version: '0'
+event(fields): HttpAsyncI/O15(Pointer obj, UInt32 errorCode, UInt32 errorMessage)
+opcode: ''
+keywords: ''
+task: HttpAsyncI/O
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: obj
+- field_type: UInt32
+  field_name: errorCode
+- field_type: UInt32
+  field_name: errorMessage

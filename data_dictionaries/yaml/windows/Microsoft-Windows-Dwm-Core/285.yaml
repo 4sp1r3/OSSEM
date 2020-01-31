@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '285'
+version: '0'
+event(fields): ADVANCED_DIRECTFLIP_CREATERESTOREBUFFER(UInt64 surfaceLuid)
+opcode: ''
+keywords: DwmCore
+task: ADVANCED_DIRECTFLIP_CREATERESTOREBUFFER
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: surfaceLuid

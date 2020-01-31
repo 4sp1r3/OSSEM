@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28030'
+version: '0'
+event(fields): Shell32_RegistryPackageChangeListener_Rescan(Int32 StoreVersion, Int32
+  InstalledVersion)
+opcode: ''
+keywords: Shell
+task: Shell32_RegistryPackageChangeListener_Rescan
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: StoreVersion
+- field_type: Int32
+  field_name: InstalledVersion

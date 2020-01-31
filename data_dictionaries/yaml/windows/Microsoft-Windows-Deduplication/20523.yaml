@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20523'
+version: '0'
+event(fields): PinstreammapStop(UInt32 CompletionStatus)
+opcode: Stop
+keywords: KmStreamStore
+task: Pinstreammap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CompletionStatus

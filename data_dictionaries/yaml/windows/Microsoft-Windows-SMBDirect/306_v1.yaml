@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '306'
+version: '1'
+event(fields): task_0306_V1(GUID SocketID, UInt32 LocalAddressLength, Binary LocalAddress,
+  UInt32 RemoteAddressLength, Binary RemoteAddress, UInt16 MinVersion, UInt16 MaxVersion,
+  UInt16 PeerMinVersion, UInt16 PeerMaxVersion)
+opcode: ''
+keywords: Connect Accept
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SocketID
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt16
+  field_name: MinVersion
+- field_type: UInt16
+  field_name: MaxVersion
+- field_type: UInt16
+  field_name: PeerMinVersion
+- field_type: UInt16
+  field_name: PeerMaxVersion

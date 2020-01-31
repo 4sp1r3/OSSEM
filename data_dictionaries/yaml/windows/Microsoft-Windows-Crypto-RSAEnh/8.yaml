@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Crypto-RSAEnh
+event_id: '8'
+version: '0'
+event(fields): CreateFileW(UnicodeString ProcessName, UnicodeString FilePath, UInt32
+  DesiredAccess, UInt32 ShareMode, UInt32 CreationDisposition, UInt32 Attributes,
+  UInt32 Status, UnicodeString ErrorDescription)
+opcode: ''
+keywords: ''
+task: CreateFileW
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: FilePath
+- field_type: UInt32
+  field_name: DesiredAccess
+- field_type: UInt32
+  field_name: ShareMode
+- field_type: UInt32
+  field_name: CreationDisposition
+- field_type: UInt32
+  field_name: Attributes
+- field_type: UInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: ErrorDescription

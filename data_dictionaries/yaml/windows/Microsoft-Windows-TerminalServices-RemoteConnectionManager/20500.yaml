@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TerminalServices-RemoteConnectionManager
+event_id: '20500'
+version: '0'
+event(fields): task_020500(UnicodeString UserName, UnicodeString ServerName, Int32
+  time)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: Int32
+  field_name: time

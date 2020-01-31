@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '251'
+version: '0'
+event(fields): StateRepository.Task.DataAccessLayer251(HexInt32 ErrorCode, UnicodeString
+  UserSID, UnicodeString PackageFamilyName)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD keyword_200000000000
+task: StateRepository.Task.DataAccessLayer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: UserSID
+- field_type: UnicodeString
+  field_name: PackageFamilyName

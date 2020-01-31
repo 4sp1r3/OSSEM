@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-StorPort
+event_id: '534'
+version: '1'
+event(fields): Miniportlogsanerror._V1(UInt32 PortNumber, UInt8 PathID, UInt8 TargetID,
+  UInt8 LUN, GUID ClassDeviceGuid, GUID AdapterGuid, UnicodeString MiniportName, AnsiString
+  VendorId, AnsiString ProductId, UInt32 DataLength, Binary Data, UInt32 Id, UnicodeString
+  Description)
+opcode: Miniportlogsanerror.
+keywords: keyword_200000000000
+task: Miniportlogsanerror.
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: PathID
+- field_type: UInt8
+  field_name: TargetID
+- field_type: UInt8
+  field_name: LUN
+- field_type: GUID
+  field_name: ClassDeviceGuid
+- field_type: GUID
+  field_name: AdapterGuid
+- field_type: UnicodeString
+  field_name: MiniportName
+- field_type: AnsiString
+  field_name: VendorId
+- field_type: AnsiString
+  field_name: ProductId
+- field_type: UInt32
+  field_name: DataLength
+- field_type: Binary
+  field_name: Data
+- field_type: UInt32
+  field_name: Id
+- field_type: UnicodeString
+  field_name: Description

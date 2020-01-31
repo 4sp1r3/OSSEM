@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20068'
+version: '0'
+event(fields): StartMenu_DestinationList_RefreshStop()
+opcode: Stop
+keywords: Shell
+task: StartMenu_DestinationList_Refresh
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

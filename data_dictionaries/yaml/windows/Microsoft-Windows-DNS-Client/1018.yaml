@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '1018'
+version: '0'
+event(fields): DnsLinkLocal(UnicodeString QueryName, UInt32 AddressLength, Binary
+  Address, UInt32 DnsAddressLength, Binary DnsAddress)
+opcode: ''
+keywords: ''
+task: DnsLinkLocal
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: QueryName
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: Binary
+  field_name: Address
+- field_type: UInt32
+  field_name: DnsAddressLength
+- field_type: Binary
+  field_name: DnsAddress

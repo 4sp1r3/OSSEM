@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16803'
+version: '0'
+event(fields): Library_SQM_AddFolderStart()
+opcode: Start
+keywords: Shell
+task: Library_SQM_AddFolder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

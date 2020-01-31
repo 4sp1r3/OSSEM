@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '41'
+version: '0'
+event(fields): RuntimeMarker41(Pointer pID3D12CommandQueue, UInt32 ContextCount, UInt32
+  Contexts, UInt32 LoopIteration, UInt32 SubmitCommandCBSequence, UInt32 FirstAPISequenceNumberHigh,
+  UInt32 CompletedAPISequenceNumberSize, UInt32 CompletedAPISequenceNumber)
+opcode: ''
+keywords: RenderOperationMarkers
+task: RuntimeMarker
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12CommandQueue
+- field_type: UInt32
+  field_name: ContextCount
+- field_type: UInt32
+  field_name: Contexts
+- field_type: UInt32
+  field_name: LoopIteration
+- field_type: UInt32
+  field_name: SubmitCommandCBSequence
+- field_type: UInt32
+  field_name: FirstAPISequenceNumberHigh
+- field_type: UInt32
+  field_name: CompletedAPISequenceNumberSize
+- field_type: UInt32
+  field_name: CompletedAPISequenceNumber

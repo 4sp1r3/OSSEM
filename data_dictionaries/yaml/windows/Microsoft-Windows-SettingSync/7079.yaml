@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7079'
+version: '0'
+event(fields): Perf_WLRoamSetUserTileStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamSetUserTile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

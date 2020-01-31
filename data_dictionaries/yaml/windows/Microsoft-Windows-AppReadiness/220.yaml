@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '220'
+version: '0'
+event(fields): AppReadiness_User_ProcessTasks220(UnicodeString Username, UnicodeString
+  Task, Double Elapsed)
+opcode: ''
+keywords: User
+task: AppReadiness_User_ProcessTasks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Username
+- field_type: UnicodeString
+  field_name: Task
+- field_type: Double
+  field_name: Elapsed

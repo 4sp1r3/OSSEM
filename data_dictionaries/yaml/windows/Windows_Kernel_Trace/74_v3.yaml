@@ -1,0 +1,17 @@
+provider: Windows Kernel Trace
+category: '{ce1dbfb4-137e-4da6-87b0-3f59aa102cbc}'
+event_id: '74'
+version: '3'
+event(fields): SampledProfileInterval_V3(UInt32 Source, UInt32 NewInterval, UInt32
+  OldInterval, String SourceName)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: Source
+- field_type: UInt32
+  field_name: NewInterval
+- field_type: UInt32
+  field_name: OldInterval
+- field_type: String
+  field_name: SourceName

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PerfProc
+event_id: '1001'
+version: '1'
+event(fields): task_0_V1()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

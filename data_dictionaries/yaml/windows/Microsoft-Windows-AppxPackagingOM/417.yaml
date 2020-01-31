@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '417'
+version: '0'
+event(fields): AppXPackaging.Task.Signature.EappxBundleSipPutSignatureStop()
+opcode: Stop
+keywords: ''
+task: AppXPackaging.Task.Signature.EappxBundleSipPutSignature
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

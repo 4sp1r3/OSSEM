@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '6106'
+version: '0'
+event(fields): DeviceCountUpdate(UInt32 TotalDevicesAdded, UInt32 DeviceFunctionalCount,
+  UInt32 TotalUDNRenderersAdded, UInt32 UDNRenderersFunctionalCount)
+opcode: ''
+keywords: ''
+task: DeviceCountUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TotalDevicesAdded
+- field_type: UInt32
+  field_name: DeviceFunctionalCount
+- field_type: UInt32
+  field_name: TotalUDNRenderersAdded
+- field_type: UInt32
+  field_name: UDNRenderersFunctionalCount

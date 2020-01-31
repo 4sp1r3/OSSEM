@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '318'
+version: '0'
+event(fields): Taskengineproperlyshutdown_318Stop(UnicodeString TaskEngineName)
+opcode: Stop
+keywords: ''
+task: Taskengineproperlyshutdown_318
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskEngineName

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SetupCl
+event_id: '16'
+version: '0'
+event(fields): SetupCltask16(SID SID)
+opcode: ''
+keywords: keyDiagnostic
+task: SetupCltask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SID

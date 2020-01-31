@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Backup
+event_id: '525'
+version: '0'
+event(fields): task_0525(GUID VolumeGuid, UnicodeString VolumeFriendlyName, Int64
+  BackupSourceNumUnreadableBytes)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VolumeGuid
+- field_type: UnicodeString
+  field_name: VolumeFriendlyName
+- field_type: Int64
+  field_name: BackupSourceNumUnreadableBytes

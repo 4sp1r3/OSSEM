@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '380'
+version: '0'
+event(fields): RenderToSurfaceStart()
+opcode: Start
+keywords: Rendering
+task: RenderToSurface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

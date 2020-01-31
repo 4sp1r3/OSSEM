@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AAD
+event_id: '1093'
+version: '0'
+event(fields): AadCloudAPPluginOperation1093(UnicodeString API, Int32 Result)
+opcode: ''
+keywords: Operational Warning
+task: AadCloudAPPluginOperation
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: API
+- field_type: Int32
+  field_name: Result

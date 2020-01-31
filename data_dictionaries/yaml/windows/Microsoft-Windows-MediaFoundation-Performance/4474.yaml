@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4474'
+version: '0'
+event(fields): Attributes_CopyAllItemsStop(Pointer SrcPtr, UInt32 HResult)
+opcode: Stop
+keywords: ''
+task: Attributes_CopyAllItems
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SrcPtr
+- field_type: UInt32
+  field_name: HResult

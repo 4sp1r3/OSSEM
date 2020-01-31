@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '7'
+version: '0'
+event(fields): IMInvitationLaunch(UnicodeString Application, UnicodeString Version,
+  UnicodeString AccountName, UnicodeString ConversationID, UnicodeString RequestingIP,
+  UnicodeString Sender, UInt32 Reason, UInt32 RecipientCount, UnicodeString Recipient)
+opcode: Launch
+keywords: WPC ThirdParty
+task: IMInvitation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Application
+- field_type: UnicodeString
+  field_name: Version
+- field_type: UnicodeString
+  field_name: AccountName
+- field_type: UnicodeString
+  field_name: ConversationID
+- field_type: UnicodeString
+  field_name: RequestingIP
+- field_type: UnicodeString
+  field_name: Sender
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: RecipientCount
+- field_type: UnicodeString
+  field_name: Recipient

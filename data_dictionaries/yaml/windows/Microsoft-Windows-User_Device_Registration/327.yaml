@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '327'
+version: '0'
+event(fields): task_0327(UnicodeString UserSid, Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserSid
+- field_type: Int32
+  field_name: ErrorCode

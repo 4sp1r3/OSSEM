@@ -1,0 +1,49 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '140'
+version: '3'
+event(fields): MediaFoundationPresent_ProcessVSync_V3(Pointer object, Int64 QPC_Prev,
+  Int64 Delta_us, Int32 Delta_Frames, Int64 DeltaPerFrame_us, Float RatioToPrimary,
+  Int32 InputFrameIndex, Int32 FrameIndex, Float PreviousFramerate, Float Framerate,
+  Float MinFramerate, Float MaxFramerate, Int64 QPC_Actual, Int64 QPC_Smoothed, Int64
+  QPC_SmoothedNonQuant, Boolean Accepted, Boolean IsIFlip)
+opcode: ''
+keywords: ''
+task: MediaFoundationPresent_ProcessVSync
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: QPC_Prev
+- field_type: Int64
+  field_name: Delta_us
+- field_type: Int32
+  field_name: Delta_Frames
+- field_type: Int64
+  field_name: DeltaPerFrame_us
+- field_type: Float
+  field_name: RatioToPrimary
+- field_type: Int32
+  field_name: InputFrameIndex
+- field_type: Int32
+  field_name: FrameIndex
+- field_type: Float
+  field_name: PreviousFramerate
+- field_type: Float
+  field_name: Framerate
+- field_type: Float
+  field_name: MinFramerate
+- field_type: Float
+  field_name: MaxFramerate
+- field_type: Int64
+  field_name: QPC_Actual
+- field_type: Int64
+  field_name: QPC_Smoothed
+- field_type: Int64
+  field_name: QPC_SmoothedNonQuant
+- field_type: Boolean
+  field_name: Accepted
+- field_type: Boolean
+  field_name: IsIFlip

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14511'
+version: '0'
+event(fields): Properties_DrawPercentFull_WindowlessDrawStart()
+opcode: Start
+keywords: Controls
+task: Properties_DrawPercentFull_WindowlessDraw
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

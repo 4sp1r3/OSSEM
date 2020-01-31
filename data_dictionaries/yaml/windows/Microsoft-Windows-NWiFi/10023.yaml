@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10023'
+version: '0'
+event(fields): task_010023(Pointer ContextHandle, GUID AdapterGuid, UInt32 Status)
+opcode: ''
+keywords: RSNA LwtDiagnostic ut:ReceivePath ut:Authentication keyword_10000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextHandle
+- field_type: GUID
+  field_name: AdapterGuid
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-USBHUB
+event_id: '71'
+version: '0'
+event(fields): USBHubQueryDeviceRelationsIRP_BusRelationsComplete(UInt8 fid_USBHUB_HC,
+  Int64 fid_USBHUB_Hub, UInt32 fid_PortNumber, UInt32 fid_Status)
+opcode: Complete
+keywords: Diagnostics
+task: USBHubQueryDeviceRelationsIRP_BusRelations
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: fid_USBHUB_HC
+- field_type: Int64
+  field_name: fid_USBHUB_Hub
+- field_type: UInt32
+  field_name: fid_PortNumber
+- field_type: UInt32
+  field_name: fid_Status

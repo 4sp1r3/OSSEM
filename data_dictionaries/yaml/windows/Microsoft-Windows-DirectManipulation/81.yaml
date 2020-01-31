@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '81'
+version: '0'
+event(fields): Manipulation_Storyboard(Pointer storyboard, Pointer content, UInt32
+  status)
+opcode: ''
+keywords: ''
+task: Manipulation_Storyboard
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: storyboard
+- field_type: Pointer
+  field_name: content
+- field_type: UInt32
+  field_name: status

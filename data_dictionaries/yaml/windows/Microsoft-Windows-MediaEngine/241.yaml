@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '241'
+version: '0'
+event(fields): EMEMediaKeySessionStart241(UInt32 SessionType, UnicodeString keySystem,
+  UInt32 UseDistinctiveIdentifier)
+opcode: Start
+keywords: ''
+task: EMEMediaKeySession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionType
+- field_type: UnicodeString
+  field_name: keySystem
+- field_type: UInt32
+  field_name: UseDistinctiveIdentifier

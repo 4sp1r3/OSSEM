@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '12550'
+version: '0'
+event(fields): task_012550(HexInt32 Msr, UInt8 IsWrite, HexInt64 MsrValue, UInt16
+  AccessStatus, HexInt64 Pc, HexInt64 ImageBase, HexInt32 ImageChecksum, HexInt32
+  ImageTimestamp, AnsiString ImageName)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Msr
+- field_type: UInt8
+  field_name: IsWrite
+- field_type: HexInt64
+  field_name: MsrValue
+- field_type: UInt16
+  field_name: AccessStatus
+- field_type: HexInt64
+  field_name: Pc
+- field_type: HexInt64
+  field_name: ImageBase
+- field_type: HexInt32
+  field_name: ImageChecksum
+- field_type: HexInt32
+  field_name: ImageTimestamp
+- field_type: AnsiString
+  field_name: ImageName

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '238'
+version: '0'
+event(fields): EMEMediaKeySessionStop238(UnicodeString sessionId, UnicodeString keySystem,
+  UInt32 length, Binary data)
+opcode: Stop
+keywords: ''
+task: EMEMediaKeySession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: sessionId
+- field_type: UnicodeString
+  field_name: keySystem
+- field_type: UInt32
+  field_name: length
+- field_type: Binary
+  field_name: data

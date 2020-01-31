@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1507'
+version: '0'
+event(fields): ServerTaskNavigateToStop(UInt32 unParam, UInt32 ServerTaskState)
+opcode: Stop
+keywords: NavigationPerformance ServerTask
+task: ServerTaskNavigateTo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: ServerTaskState

@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '585'
+version: '0'
+event(fields): Browseui_PrepareResizeAsyncStop(UInt32 Result)
+opcode: Stop
+keywords: ''
+task: Browseui_PrepareResizeAsync
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

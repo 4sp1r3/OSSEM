@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1814'
+version: '0'
+event(fields): ID3D11VideoContext_VideoProcessorBltParameters(Pointer pThis, UInt32
+  SourceWidth, UInt32 SourceHeight, UInt32 SourceFormat, UInt32 SourceColorspace,
+  UInt32 DestWidth, UInt32 DestHeight, UInt32 DestFormat, UInt32 DestColorspace, UInt32
+  Rotation)
+opcode: ''
+keywords: ''
+task: ID3D11VideoContext_VideoProcessorBltParameters
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: SourceWidth
+- field_type: UInt32
+  field_name: SourceHeight
+- field_type: UInt32
+  field_name: SourceFormat
+- field_type: UInt32
+  field_name: SourceColorspace
+- field_type: UInt32
+  field_name: DestWidth
+- field_type: UInt32
+  field_name: DestHeight
+- field_type: UInt32
+  field_name: DestFormat
+- field_type: UInt32
+  field_name: DestColorspace
+- field_type: UInt32
+  field_name: Rotation

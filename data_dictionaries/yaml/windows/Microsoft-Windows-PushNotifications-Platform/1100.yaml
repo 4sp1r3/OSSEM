@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1100'
+version: '0'
+event(fields): task_01100(UInt64 UserId, UInt32 UserType, AnsiString FeatureSet, AnsiString
+  AuthType, UInt32 AuthPayloadSize, Binary AuthPayload, UInt32 BindPayloadSize, Binary
+  BindPayload)
+opcode: ''
+keywords: wpnprv
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UserId
+- field_type: UInt32
+  field_name: UserType
+- field_type: AnsiString
+  field_name: FeatureSet
+- field_type: AnsiString
+  field_name: AuthType
+- field_type: UInt32
+  field_name: AuthPayloadSize
+- field_type: Binary
+  field_name: AuthPayload
+- field_type: UInt32
+  field_name: BindPayloadSize
+- field_type: Binary
+  field_name: BindPayload

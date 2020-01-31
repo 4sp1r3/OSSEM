@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-ESE
+event_id: '152'
+version: '0'
+event(fields): ESE_DiskFlushFileBuffers_Trace(UInt32 Disk, UnicodeString wszFileName,
+  UInt32 iofr, UInt64 cioreqFileFlushing, UInt64 usFfb, UInt32 error)
+opcode: ''
+keywords: IO
+task: ESE_DiskFlushFileBuffers_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Disk
+- field_type: UnicodeString
+  field_name: wszFileName
+- field_type: UInt32
+  field_name: iofr
+- field_type: UInt64
+  field_name: cioreqFileFlushing
+- field_type: UInt64
+  field_name: usFfb
+- field_type: UInt32
+  field_name: error

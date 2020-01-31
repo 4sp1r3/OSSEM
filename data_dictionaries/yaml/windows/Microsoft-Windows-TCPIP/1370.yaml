@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1370'
+version: '0'
+event(fields): TcpipRouteLookup(AnsiString API, UInt32 IpAddrLength, Binary DestinationAddress,
+  Binary ConstrainSourceAddress, UInt32 ConstrainInterfaceIndex, UInt32 ConstraintOverridden,
+  UInt32 ReturnConstrained, UInt32 OutgoingInterfaceIndex, Binary NextHopAddress,
+  UInt32 Status)
+opcode: ''
+keywords: ut:TcpipRoute
+task: TcpipRouteLookup
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: API
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: Binary
+  field_name: DestinationAddress
+- field_type: Binary
+  field_name: ConstrainSourceAddress
+- field_type: UInt32
+  field_name: ConstrainInterfaceIndex
+- field_type: UInt32
+  field_name: ConstraintOverridden
+- field_type: UInt32
+  field_name: ReturnConstrained
+- field_type: UInt32
+  field_name: OutgoingInterfaceIndex
+- field_type: Binary
+  field_name: NextHopAddress
+- field_type: UInt32
+  field_name: Status

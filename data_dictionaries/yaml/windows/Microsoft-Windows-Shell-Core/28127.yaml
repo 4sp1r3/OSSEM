@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28127'
+version: '0'
+event(fields): Shell32_StateStoreCommitRetry(Int32 UpdateSource, Int32 RetryCount,
+  UInt32 ErrorCode)
+opcode: ''
+keywords: Shell
+task: Shell32_StateStoreCommitRetry
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: UpdateSource
+- field_type: Int32
+  field_name: RetryCount
+- field_type: UInt32
+  field_name: ErrorCode

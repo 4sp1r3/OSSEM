@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-Printers
+event_id: '1113'
+version: '0'
+event(fields): task_01113()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

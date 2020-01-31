@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '60'
+version: '0'
+event(fields): AttachWindowlessControlStart()
+opcode: Start
+keywords: ''
+task: AttachWindowlessControl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

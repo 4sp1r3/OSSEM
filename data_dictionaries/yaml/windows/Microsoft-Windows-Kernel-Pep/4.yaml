@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Pep
+event_id: '4'
+version: '0'
+event(fields): PepRailVoltageChange(UInt32 VoltageRailId, UInt32 OldRailVoltageMv,
+  UInt32 NewRailVoltageMv)
+opcode: ''
+keywords: popep:Power
+task: PepRailVoltageChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: VoltageRailId
+- field_type: UInt32
+  field_name: OldRailVoltageMv
+- field_type: UInt32
+  field_name: NewRailVoltageMv

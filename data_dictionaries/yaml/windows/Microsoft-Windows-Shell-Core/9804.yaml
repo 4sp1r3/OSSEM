@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9804'
+version: '0'
+event(fields): Explorer_StartMenu_AppTile_Hover()
+opcode: ''
+keywords: Shell
+task: Explorer_StartMenu_AppTile_Hover
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

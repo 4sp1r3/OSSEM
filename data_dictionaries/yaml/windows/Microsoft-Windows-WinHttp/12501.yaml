@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '12501'
+version: '0'
+event(fields): task_012501()
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

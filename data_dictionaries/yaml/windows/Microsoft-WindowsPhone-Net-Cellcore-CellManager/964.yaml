@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '964'
+version: '0'
+event(fields): CellularModemContainer964()
+opcode: ''
+keywords: Error
+task: CellularModemContainer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4667'
+version: '0'
+event(fields): task_04667(UnicodeString AppName, UInt64 AppInstance, UnicodeString
+  ClientName, UnicodeString ClientDomain, UInt64 ClientLogonId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppName
+- field_type: UInt64
+  field_name: AppInstance
+- field_type: UnicodeString
+  field_name: ClientName
+- field_type: UnicodeString
+  field_name: ClientDomain
+- field_type: UInt64
+  field_name: ClientLogonId

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '3078'
+version: '0'
+event(fields): MiniportStopDispatch3078(UnicodeString fid_USBPORT_HC)
+opcode: Dispatch
+keywords: Diagnostic
+task: MiniportStop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: fid_USBPORT_HC

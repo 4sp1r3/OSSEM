@@ -1,0 +1,11 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1042'
+version: '0'
+event(fields): iaLPSS2_I2CInitroutinesStop1042()
+opcode: Stop
+keywords: ''
+task: iaLPSS2_I2CInitroutines
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

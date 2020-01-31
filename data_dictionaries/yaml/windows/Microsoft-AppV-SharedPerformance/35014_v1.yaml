@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '35014'
+version: '1'
+event(fields): VFSSetInformationFilerenamerequestStart_V1()
+opcode: Start
+keywords: ''
+task: VFSSetInformationFilerenamerequest
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

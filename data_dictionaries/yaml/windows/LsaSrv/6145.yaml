@@ -1,0 +1,13 @@
+provider: LsaSrv
+event_id: '6145'
+version: '0'
+event(fields): task_06145(UnicodeString MissingCAPDNs)
+opcode: ''
+keywords: ''
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MissingCAPDNs

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-D3D10Level9
+event_id: '8'
+version: '0'
+event(fields): UMD9ReOpenAdapterStart()
+opcode: Start
+keywords: Devices
+task: UMD9ReOpenAdapter
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

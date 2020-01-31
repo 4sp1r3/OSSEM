@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '12004'
+version: '1'
+event(fields): VEMgrAddPackageStart_V1()
+opcode: Start
+keywords: ''
+task: VEMgrAddPackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

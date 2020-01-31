@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Directory-Services-SAM
+event_id: '16976'
+version: '0'
+event(fields): task_016976(HexInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

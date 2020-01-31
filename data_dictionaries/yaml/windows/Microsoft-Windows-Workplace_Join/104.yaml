@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Workplace Join
+event_id: '104'
+version: '0'
+event(fields): task_0104(HexInt32 ExitCode, UnicodeString ZoneUriIsAddedTo, UnicodeString
+  ZoneUriExistsIn, UnicodeString Uri)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ExitCode
+- field_type: UnicodeString
+  field_name: ZoneUriIsAddedTo
+- field_type: UnicodeString
+  field_name: ZoneUriExistsIn
+- field_type: UnicodeString
+  field_name: Uri

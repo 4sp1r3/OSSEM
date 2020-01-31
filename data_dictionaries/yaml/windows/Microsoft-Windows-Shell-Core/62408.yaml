@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62408'
+version: '0'
+event(fields): Explorer_ExecutingPackagedStartupAppStart(UnicodeString Command)
+opcode: Start
+keywords: Shell StartupPerf keyword_200000000000
+task: Explorer_ExecutingPackagedStartupApp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Command

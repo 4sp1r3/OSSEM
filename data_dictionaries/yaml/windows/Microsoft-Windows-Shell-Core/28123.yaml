@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28123'
+version: '0'
+event(fields): Shell32_AppResolver_UpdateLayout(Int32 ItemsExisting, Int32 ItemsAdded,
+  Int32 ItemsRemoved, Int32 ItemsUpdated, Int32 ItemsCached)
+opcode: ''
+keywords: Shell
+task: Shell32_AppResolver_UpdateLayout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ItemsExisting
+- field_type: Int32
+  field_name: ItemsAdded
+- field_type: Int32
+  field_name: ItemsRemoved
+- field_type: Int32
+  field_name: ItemsUpdated
+- field_type: Int32
+  field_name: ItemsCached

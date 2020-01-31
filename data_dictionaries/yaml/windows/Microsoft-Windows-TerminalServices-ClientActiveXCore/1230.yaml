@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1230'
+version: '0'
+event(fields): RdClientRADCworkspaceThiseventisraisedduringastatetransition.1230(UnicodeString
+  RadcClientStage, UnicodeString RadcHttpEvent, UInt32 Code)
+opcode: Thiseventisraisedduringastatetransition.
+keywords: ''
+task: RdClientRADCworkspace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RadcClientStage
+- field_type: UnicodeString
+  field_name: RadcHttpEvent
+- field_type: UInt32
+  field_name: Code

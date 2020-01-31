@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '55008'
+version: '0'
+event(fields): CredentialProviderUser_EnumerateInSessionUserStop()
+opcode: Stop
+keywords: ''
+task: CredentialProviderUser_EnumerateInSessionUser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60107'
+version: '0'
+event(fields): StructuredQuery_RestateQueryStart()
+opcode: Start
+keywords: StructuredQuery
+task: StructuredQuery_RestateQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '5003'
+version: '0'
+event(fields): task_05003(UInt32 PinType, UInt32 PinOperation)
+opcode: ''
+keywords: ut:Configuration
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PinType
+- field_type: UInt32
+  field_name: PinOperation

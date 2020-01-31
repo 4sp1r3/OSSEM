@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors-Core-Performance
+event_id: '1004'
+version: '0'
+event(fields): CollectionListSerializationTaskStop(UInt32 PayloadSize)
+opcode: Stop
+keywords: ''
+task: CollectionListSerializationTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PayloadSize

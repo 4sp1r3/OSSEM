@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '52'
+version: '0'
+event(fields): LegacyHistoryQueryStart()
+opcode: Start
+keywords: primarynav
+task: LegacyHistoryQuery
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

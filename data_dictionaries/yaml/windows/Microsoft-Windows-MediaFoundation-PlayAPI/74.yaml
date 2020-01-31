@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '74'
+version: '0'
+event(fields): MFPlayStart74(Pointer Object, GUID StartPositionType, UInt32 StartPositionSize,
+  Binary StartPosition, GUID StopPositionType, UInt32 StopPositionSize, Binary StopPosition)
+opcode: Start
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: GUID
+  field_name: StartPositionType
+- field_type: UInt32
+  field_name: StartPositionSize
+- field_type: Binary
+  field_name: StartPosition
+- field_type: GUID
+  field_name: StopPositionType
+- field_type: UInt32
+  field_name: StopPositionSize
+- field_type: Binary
+  field_name: StopPosition

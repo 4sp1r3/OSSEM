@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '1'
+version: '0'
+event(fields): DirectUI_SetXMLFromResourceStart()
+opcode: Start
+keywords: Default
+task: DirectUI_SetXMLFromResource
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

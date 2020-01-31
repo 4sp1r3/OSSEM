@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1081'
+version: '0'
+event(fields): TcpLossRecoverySackExit(Pointer Tcb, UInt32 SndUna, UInt32 SndMax,
+  UnicodeString Reason, UInt32 IsSack)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:ReceivePath
+task: TcpLossRecoverySackExit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: SndUna
+- field_type: UInt32
+  field_name: SndMax
+- field_type: UnicodeString
+  field_name: Reason
+- field_type: UInt32
+  field_name: IsSack

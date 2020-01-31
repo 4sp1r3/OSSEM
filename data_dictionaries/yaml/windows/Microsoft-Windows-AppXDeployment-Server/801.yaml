@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '801'
+version: '0'
+event(fields): AppXDeployment.Task.Server.AppxAllUserStore801(UnicodeString RegistryKeyName,
+  HexInt32 ErrorCode)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.AppxAllUserStore
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RegistryKeyName
+- field_type: HexInt32
+  field_name: ErrorCode

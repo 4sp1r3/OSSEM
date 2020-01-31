@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4020'
+version: '0'
+event(fields): AssociationLaunch_UriLaunch_UnsupportedFileExtension(UnicodeString
+  UriSchemeOrFileExtension)
+opcode: ''
+keywords: ''
+task: AssociationLaunch_UriLaunch_UnsupportedFileExtension
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UriSchemeOrFileExtension

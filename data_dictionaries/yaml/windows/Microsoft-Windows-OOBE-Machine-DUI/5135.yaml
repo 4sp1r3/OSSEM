@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-Machine-DUI
+event_id: '5135'
+version: '0'
+event(fields): RegionModule_ActivateStop()
+opcode: Stop
+keywords: msoobe
+task: RegionModule_Activate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

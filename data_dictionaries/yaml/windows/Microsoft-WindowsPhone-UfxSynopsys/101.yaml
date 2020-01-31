@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-UfxSynopsys
+event_id: '101'
+version: '0'
+event(fields): RegisterRead(UInt32 Offset, UInt32 Value)
+opcode: ''
+keywords: Registers
+task: RegisterRead
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Offset
+- field_type: UInt32
+  field_name: Value

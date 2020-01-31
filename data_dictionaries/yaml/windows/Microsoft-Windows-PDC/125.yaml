@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-PDC
+event_id: '125'
+version: '0'
+event(fields): PdcPhaseAccountingRundown(UInt8 Phase, UInt32 EngageCount, UInt64 EngageHandlerTotalTime,
+  UInt64 EngageHandlerNotificationsTotalTime, UInt32 DisengageCount, UInt64 DisengageHandlerTotalTime,
+  UInt64 DisengageHandlerNotificationsTotalTime, UInt64 PhaseTotalTime)
+opcode: ''
+keywords: Cs CsDiag
+task: PdcPhaseAccountingRundown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Phase
+- field_type: UInt32
+  field_name: EngageCount
+- field_type: UInt64
+  field_name: EngageHandlerTotalTime
+- field_type: UInt64
+  field_name: EngageHandlerNotificationsTotalTime
+- field_type: UInt32
+  field_name: DisengageCount
+- field_type: UInt64
+  field_name: DisengageHandlerTotalTime
+- field_type: UInt64
+  field_name: DisengageHandlerNotificationsTotalTime
+- field_type: UInt64
+  field_name: PhaseTotalTime

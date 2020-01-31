@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppLocker
+event_id: '8014'
+version: '0'
+event(fields): SrpPolicyRuleSortStop()
+opcode: Stop
+keywords: ''
+task: SrpPolicyRuleSort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

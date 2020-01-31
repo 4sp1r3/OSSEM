@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1026'
+version: '0'
+event(fields): SrvLeasingDisabled()
+opcode: ''
+keywords: Operational
+task: SrvLeasingDisabled
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

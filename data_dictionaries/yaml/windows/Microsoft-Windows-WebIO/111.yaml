@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-WebIO
+event_id: '111'
+version: '0'
+event(fields): RequestEntityTracker(Pointer Request, Pointer Connection, Pointer DataChunks,
+  UInt32 Index, Pointer Buffer, UInt32 Length, Binary Data)
+opcode: ''
+keywords: Keyword.SEND keyword_20000000000
+task: RequestEntityTracker
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: UInt32
+  field_name: Index
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: Length
+- field_type: Binary
+  field_name: Data

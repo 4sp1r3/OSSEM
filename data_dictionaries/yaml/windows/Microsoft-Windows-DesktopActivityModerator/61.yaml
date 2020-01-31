@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DesktopActivityModerator
+event_id: '61'
+version: '0'
+event(fields): IoTrackingCallback(UInt16 DeviceType, UInt32 DeviceBucket, UInt64 ElapsedTime,
+  Boolean SlowIo)
+opcode: ''
+keywords: IoTracking
+task: IoTrackingCallback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: DeviceType
+- field_type: UInt32
+  field_name: DeviceBucket
+- field_type: UInt64
+  field_name: ElapsedTime
+- field_type: Boolean
+  field_name: SlowIo

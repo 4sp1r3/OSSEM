@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SettingSync-Azure
+event_id: '5002'
+version: '0'
+event(fields): task_05002(UInt32 WebTokenRequestStatus, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WebTokenRequestStatus
+- field_type: UInt32
+  field_name: HRESULT

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2033'
+version: '0'
+event(fields): NewCloudNotificationArrivalStop(UnicodeString AppUserModelID, GUID
+  EventId, UInt32 NotificationId)
+opcode: Stop
+keywords: wpndebug_raw_isolate wpnend wpndev_NotificationE2E
+task: NewCloudNotificationArrival
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelID
+- field_type: GUID
+  field_name: EventId
+- field_type: UInt32
+  field_name: NotificationId

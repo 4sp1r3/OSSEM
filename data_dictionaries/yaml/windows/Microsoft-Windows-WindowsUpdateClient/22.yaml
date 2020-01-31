@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '22'
+version: '0'
+event(fields): AutomaticUpdatesReboot22(UnicodeString restarttime, UnicodeString updatelist)
+opcode: Reboot
+keywords: reboot
+task: AutomaticUpdates
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: restarttime
+- field_type: UnicodeString
+  field_name: updatelist

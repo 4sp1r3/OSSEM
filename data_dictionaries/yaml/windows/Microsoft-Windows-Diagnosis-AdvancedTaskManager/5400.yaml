@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5400'
+version: '0'
+event(fields): Dashboard_RemoveAdapterStop()
+opcode: Stop
+keywords: dashboard
+task: Dashboard_RemoveAdapter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

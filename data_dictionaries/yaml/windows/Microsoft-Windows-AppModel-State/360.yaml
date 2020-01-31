@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '360'
+version: '0'
+event(fields): AppModel.Task.StateWinRT.ApplicationDataContainerSettingsServer_FirstStart()
+opcode: Start
+keywords: WinRT
+task: AppModel.Task.StateWinRT.ApplicationDataContainerSettingsServer_First
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

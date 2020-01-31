@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4204'
+version: '0'
+event(fields): GatewayResolutionStop4204(GUID InterfaceGuid, UnicodeString GatewayIpAddress,
+  UInt32 ErrorCode, UInt32 NlnsState, UInt16 MacAddrLen, Binary MacAddr)
+opcode: Stop
+keywords: Resolver
+task: GatewayResolution
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: GatewayIpAddress
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: NlnsState
+- field_type: UInt16
+  field_name: MacAddrLen
+- field_type: Binary
+  field_name: MacAddr

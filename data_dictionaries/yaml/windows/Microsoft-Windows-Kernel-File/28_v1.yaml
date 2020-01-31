@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Kernel-File
+event_id: '28'
+version: '1'
+event(fields): SetLinkPath_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, Pointer
+  ExtraInformation, UInt32 IssuingThreadId, UInt32 InfoClass, UnicodeString FilePath)
+opcode: ''
+keywords: KERNEL_FILE_KEYWORD_RENAME_SETLINK_PATH
+task: SetLinkPath
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: FileObject
+- field_type: Pointer
+  field_name: FileKey
+- field_type: Pointer
+  field_name: ExtraInformation
+- field_type: UInt32
+  field_name: IssuingThreadId
+- field_type: UInt32
+  field_name: InfoClass
+- field_type: UnicodeString
+  field_name: FilePath

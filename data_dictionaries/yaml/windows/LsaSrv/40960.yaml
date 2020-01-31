@@ -1,0 +1,18 @@
+provider: LsaSrv
+event_id: '40960'
+version: '0'
+event(fields): task_040960(UnicodeString Target, UnicodeString Protocol, UnicodeString
+  Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Target
+- field_type: UnicodeString
+  field_name: Protocol
+- field_type: UnicodeString
+  field_name: Error

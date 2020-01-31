@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Mprddm
+event_id: '1004'
+version: '0'
+event(fields): None1004()
+opcode: ''
+keywords: ''
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

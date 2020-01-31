@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PrintService
+event_id: '122'
+version: '0'
+event(fields): StartinganewdocumentpageSpoolerOperationSucceeded(UnicodeString Label,
+  HexInt32 ErrorCode, UInt32 JobID, UnicodeString PrinterName, HexInt32 Status)
+opcode: SpoolerOperationSucceeded
+keywords: SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_JOB
+task: Startinganewdocumentpage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Label
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: JobID
+- field_type: UnicodeString
+  field_name: PrinterName
+- field_type: HexInt32
+  field_name: Status

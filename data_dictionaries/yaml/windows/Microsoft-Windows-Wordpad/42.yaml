@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wordpad
+event_id: '42'
+version: '0'
+event(fields): Wordpad_Docx_Odt_SaveStop42()
+opcode: Stop
+keywords: ''
+task: Wordpad_Docx_Odt_Save
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

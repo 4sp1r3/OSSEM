@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5037'
+version: '0'
+event(fields): UdwmAnimationRecalcStart()
+opcode: Start
+keywords: Udwm
+task: UdwmAnimationRecalc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

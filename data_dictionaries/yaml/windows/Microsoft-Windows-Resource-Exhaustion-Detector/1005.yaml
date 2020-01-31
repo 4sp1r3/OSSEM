@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Resource-Exhaustion-Detector
+event_id: '1005'
+version: '0'
+event(fields): LifecycleEventsEventsloggedwhentheresourceexhaustiondetectorisstarted.1005(UInt32
+  ErrorCode)
+opcode: Eventsloggedwhentheresourceexhaustiondetectorisstarted.
+keywords: RDR_DET_KEYWORD_LIFECYCLE
+task: LifecycleEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

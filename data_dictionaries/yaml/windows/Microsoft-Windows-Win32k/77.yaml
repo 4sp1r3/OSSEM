@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '77'
+version: '0'
+event(fields): AppMessagePumpStop(Int8 CallbackCount, Int32 fGetMessage)
+opcode: Stop
+keywords: MessagePumpInternalAndInput
+task: AppMessagePump
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: CallbackCount
+- field_type: Int32
+  field_name: fGetMessage

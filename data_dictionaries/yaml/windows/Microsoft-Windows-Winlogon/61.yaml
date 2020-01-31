@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '61'
+version: '0'
+event(fields): DwmpCreateSessionProcessStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: DwmpCreateSessionProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

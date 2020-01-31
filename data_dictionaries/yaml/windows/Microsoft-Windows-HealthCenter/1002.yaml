@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '1002'
+version: '0'
+event(fields): Perftrack_HealthCenter_OpenUsingIconFlyoutStop()
+opcode: Stop
+keywords: WHC
+task: Perftrack_HealthCenter_OpenUsingIconFlyout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

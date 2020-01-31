@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '270'
+version: '0'
+event(fields): task_0270(UnicodeString PsmKey, Int32 Type, UInt64 NewRelativeExpirationTimer,
+  UInt64 ElapsedMs, UInt64 CpuRunning, UInt64 CpuReady, UInt64 IoNormal)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: Int32
+  field_name: Type
+- field_type: UInt64
+  field_name: NewRelativeExpirationTimer
+- field_type: UInt64
+  field_name: ElapsedMs
+- field_type: UInt64
+  field_name: CpuRunning
+- field_type: UInt64
+  field_name: CpuReady
+- field_type: UInt64
+  field_name: IoNormal

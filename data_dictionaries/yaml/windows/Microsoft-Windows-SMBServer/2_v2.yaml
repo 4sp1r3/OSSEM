@@ -1,0 +1,44 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '2'
+version: '2'
+event(fields): Smb2RequestSessionSetup_V2(UInt64 SessionId, UInt32 ProcessId, UInt32
+  TreeId, UInt64 MessageId, UInt64 MasterMessageId, UInt16 Command, UInt16 CreditsRequested,
+  UInt32 Flags, UInt8 VcNumber, UInt8 SecurityMode, UInt32 Capabilities, UInt32 Channel,
+  UInt64 PreviousSessionId, GUID ConnectionGUID, GUID SessionGUID)
+opcode: ''
+keywords: Request
+task: Smb2RequestSessionSetup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: TreeId
+- field_type: UInt64
+  field_name: MessageId
+- field_type: UInt64
+  field_name: MasterMessageId
+- field_type: UInt16
+  field_name: Command
+- field_type: UInt16
+  field_name: CreditsRequested
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt8
+  field_name: VcNumber
+- field_type: UInt8
+  field_name: SecurityMode
+- field_type: UInt32
+  field_name: Capabilities
+- field_type: UInt32
+  field_name: Channel
+- field_type: UInt64
+  field_name: PreviousSessionId
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: GUID
+  field_name: SessionGUID

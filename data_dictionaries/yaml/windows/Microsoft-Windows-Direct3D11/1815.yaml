@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1815'
+version: '0'
+event(fields): ID3D11VideoDevice_DestroyCryptoSessionStart(Pointer pCryptoSession)
+opcode: Start
+keywords: ''
+task: ID3D11VideoDevice_DestroyCryptoSession
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCryptoSession

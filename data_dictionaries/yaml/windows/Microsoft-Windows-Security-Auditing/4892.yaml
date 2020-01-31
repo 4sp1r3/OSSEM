@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4892'
+version: '0'
+event(fields): task_04892(UnicodeString PropertyName, UnicodeString PropertyIndex,
+  UnicodeString PropertyType, UnicodeString PropertyValue, SID SubjectUserSid, UnicodeString
+  SubjectUserName, UnicodeString SubjectDomainName, HexInt64 SubjectLogonId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PropertyName
+- field_type: UnicodeString
+  field_name: PropertyIndex
+- field_type: UnicodeString
+  field_name: PropertyType
+- field_type: UnicodeString
+  field_name: PropertyValue
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId

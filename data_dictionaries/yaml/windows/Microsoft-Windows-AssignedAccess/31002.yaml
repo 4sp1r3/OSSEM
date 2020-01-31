@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AssignedAccess
+event_id: '31002'
+version: '0'
+event(fields): AssignedAccessOperationStatusmessages(UnicodeString Custom, HexInt32
+  ErrorCode)
+opcode: ''
+keywords: ''
+task: AssignedAccessOperationStatusmessages
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Custom
+- field_type: HexInt32
+  field_name: ErrorCode

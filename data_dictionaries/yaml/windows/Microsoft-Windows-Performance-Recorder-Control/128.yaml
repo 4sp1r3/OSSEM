@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Performance-Recorder-Control
+event_id: '128'
+version: '0'
+event(fields): Perf_StopProfilesStart(UnicodeString FileName)
+opcode: Start
+keywords: PerfStatus
+task: Perf_StopProfiles
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

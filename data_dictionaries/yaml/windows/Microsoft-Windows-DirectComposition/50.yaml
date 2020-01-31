@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '50'
+version: '0'
+event(fields): ANIMATION_SCENARIO_BEGIN(UInt64 deviceId, UInt32 channelHandle, UInt16
+  version, UInt16 scenarioPriority, UInt16 flags, UInt64 qpcInitiate, UInt64 qpcInput,
+  UInt32 msIntendedDuration, GUID scenarioGuid, UnicodeString scenarioName, UnicodeString
+  scenarioDetails)
+opcode: ''
+keywords: DCompDiagnostic DCompAnimationTelemetry
+task: ANIMATION_SCENARIO_BEGIN
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: deviceId
+- field_type: UInt32
+  field_name: channelHandle
+- field_type: UInt16
+  field_name: version
+- field_type: UInt16
+  field_name: scenarioPriority
+- field_type: UInt16
+  field_name: flags
+- field_type: UInt64
+  field_name: qpcInitiate
+- field_type: UInt64
+  field_name: qpcInput
+- field_type: UInt32
+  field_name: msIntendedDuration
+- field_type: GUID
+  field_name: scenarioGuid
+- field_type: UnicodeString
+  field_name: scenarioName
+- field_type: UnicodeString
+  field_name: scenarioDetails

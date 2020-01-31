@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1061'
+version: '0'
+event(fields): RunningthelpksetupWizardChangetheSystemUIlanguagesettingtoselectedlanguage(UnicodeString
+  Language1, UnicodeString Language2)
+opcode: ChangetheSystemUIlanguagesettingtoselectedlanguage
+keywords: ''
+task: RunningthelpksetupWizard
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language1
+- field_type: UnicodeString
+  field_name: Language2

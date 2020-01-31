@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '731'
+version: '0'
+event(fields): Mshtml_WebOCEvents_BeforeNavigateRefresh(Pointer CMarkup, UInt32 RefreshLevel,
+  Boolean Canceled)
+opcode: ''
+keywords: webocevents
+task: Mshtml_WebOCEvents_BeforeNavigateRefresh
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMarkup
+- field_type: UInt32
+  field_name: RefreshLevel
+- field_type: Boolean
+  field_name: Canceled

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-HttpEvent
+event_id: '15302'
+version: '0'
+event(fields): task_0PCODE_128pcode_12815302(UnicodeString DeviceObject, UnicodeString
+  Endpoint)
+opcode: opcode_128
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceObject
+- field_type: UnicodeString
+  field_name: Endpoint

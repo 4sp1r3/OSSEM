@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '233'
+version: '0'
+event(fields): RuntimePowerManagementStop233()
+opcode: Stop
+keywords: DxgKrnl_Power
+task: RuntimePowerManagement
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

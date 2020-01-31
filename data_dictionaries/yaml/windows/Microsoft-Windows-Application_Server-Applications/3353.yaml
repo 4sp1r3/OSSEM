@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3353'
+version: '0'
+event(fields): Connect3353(Int32 SocketId, UnicodeString Uri, UnicodeString AppDomain)
+opcode: ''
+keywords: TCP
+task: Connect
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: SocketId
+- field_type: UnicodeString
+  field_name: Uri
+- field_type: UnicodeString
+  field_name: AppDomain

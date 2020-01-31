@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '352'
+version: '0'
+event(fields): WordBreakerSelector_SubstituteLocale(UInt32 LocaleOriginal, UInt32
+  LocaleSubstitute)
+opcode: ''
+keywords: IndexingChunk Gatherer
+task: WordBreakerSelector_SubstituteLocale
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LocaleOriginal
+- field_type: UInt32
+  field_name: LocaleSubstitute

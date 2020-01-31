@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '1104'
+version: '0'
+event(fields): EAS1104(UInt32 Win32Status)
+opcode: ''
+keywords: ''
+task: EAS
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Win32Status

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '136'
+version: '0'
+event(fields): PerfStatesDegraded()
+opcode: ''
+keywords: ''
+task: PerfStatesDegraded
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

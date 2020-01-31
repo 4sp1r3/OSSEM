@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EapMethods-Ttls
+event_id: '101'
+version: '0'
+event(fields): TTLSauthenticationfailedevent101()
+opcode: ''
+keywords: ''
+task: TTLSauthenticationfailedevent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

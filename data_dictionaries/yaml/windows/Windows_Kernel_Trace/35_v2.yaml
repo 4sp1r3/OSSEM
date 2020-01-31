@@ -1,0 +1,12 @@
+provider: Windows Kernel Trace
+category: '{def2fe46-7bd6-4b80-bd94-f57fe20d0ce3}'
+event_id: '35'
+version: '2'
+event(fields): StackWalk_TypeGroup1(UInt32 key, UInt32 StackFrame)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: key
+- field_type: UInt32
+  field_name: StackFrame

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppXDeployment
+event_id: '326'
+version: '0'
+event(fields): task_0326(UnicodeString UserSid, Boolean IsSpecialUserProfile)
+opcode: ''
+keywords: AppXDeployment
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserSid
+- field_type: Boolean
+  field_name: IsSpecialUserProfile

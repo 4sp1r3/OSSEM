@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-VerifyHardwareSecurity
+event_id: '3009'
+version: '0'
+event(fields): CheckHostLockdownPolicyHostLockdownCheck3009(UnicodeString HostProvider,
+  UnicodeString ModulePath, UnicodeString Method, UnicodeString InternalName, Int32
+  hr)
+opcode: HostLockdownCheck
+keywords: ''
+task: CheckHostLockdownPolicy
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HostProvider
+- field_type: UnicodeString
+  field_name: ModulePath
+- field_type: UnicodeString
+  field_name: Method
+- field_type: UnicodeString
+  field_name: InternalName
+- field_type: Int32
+  field_name: hr

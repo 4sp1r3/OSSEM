@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WMP
+event_id: '386'
+version: '0'
+event(fields): HME_InitCDSStop(UnicodeString UDN, Pointer IUPnPDevice, Pointer IHMEService,
+  UInt32 HRESULT)
+opcode: Stop
+keywords: mediaplayer
+task: HME_InitCDS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: Pointer
+  field_name: IUPnPDevice
+- field_type: Pointer
+  field_name: IHMEService
+- field_type: UInt32
+  field_name: HRESULT

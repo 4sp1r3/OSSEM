@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4486'
+version: '0'
+event(fields): WorkQueue:UpdateDeadlineQueue(Pointer WorkQueuePointer, UInt32 WorkQueueID,
+  UInt32 TotalCount, UInt32 ImmediateCount, Int64 NextDeadline, Pointer ItemPointer)
+opcode: ''
+keywords: ''
+task: WorkQueue:UpdateDeadlineQueue
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WorkQueuePointer
+- field_type: UInt32
+  field_name: WorkQueueID
+- field_type: UInt32
+  field_name: TotalCount
+- field_type: UInt32
+  field_name: ImmediateCount
+- field_type: Int64
+  field_name: NextDeadline
+- field_type: Pointer
+  field_name: ItemPointer

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '179'
+version: '0'
+event(fields): ForceIdleStateChange(UInt32 PrevState, UInt32 NewState)
+opcode: ''
+keywords: po:Diagnostic
+task: ForceIdleStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PrevState
+- field_type: UInt32
+  field_name: NewState

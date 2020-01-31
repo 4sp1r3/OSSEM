@@ -1,0 +1,59 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3089'
+version: '2'
+event(fields): CreateSectionSignatureInformation_V2(UInt32 TotalSignatureCount, UInt32
+  Signature, UInt8 CacheState, UInt32 HashSize, Binary Hash, Boolean PageHash, UInt8
+  SignatureType, UInt8 ValidatedSigningLevel, UInt8 VerificationError, UInt32 Flags,
+  UInt32 PolicyBits, FILETIME NotValidBefore, FILETIME NotValidAfter, UInt16 PublisherNameLength,
+  UnicodeString PublisherName, UInt16 IssuerNameLength, UnicodeString IssuerName,
+  UInt32 PublisherTBSHashSize, Binary PublisherTBSHash, UInt32 IssuerTBSHashSize,
+  Binary IssuerTBSHash)
+opcode: SignatureInformation
+keywords: ''
+task: CreateSection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TotalSignatureCount
+- field_type: UInt32
+  field_name: Signature
+- field_type: UInt8
+  field_name: CacheState
+- field_type: UInt32
+  field_name: HashSize
+- field_type: Binary
+  field_name: Hash
+- field_type: Boolean
+  field_name: PageHash
+- field_type: UInt8
+  field_name: SignatureType
+- field_type: UInt8
+  field_name: ValidatedSigningLevel
+- field_type: UInt8
+  field_name: VerificationError
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: PolicyBits
+- field_type: FILETIME
+  field_name: NotValidBefore
+- field_type: FILETIME
+  field_name: NotValidAfter
+- field_type: UInt16
+  field_name: PublisherNameLength
+- field_type: UnicodeString
+  field_name: PublisherName
+- field_type: UInt16
+  field_name: IssuerNameLength
+- field_type: UnicodeString
+  field_name: IssuerName
+- field_type: UInt32
+  field_name: PublisherTBSHashSize
+- field_type: Binary
+  field_name: PublisherTBSHash
+- field_type: UInt32
+  field_name: IssuerTBSHashSize
+- field_type: Binary
+  field_name: IssuerTBSHash

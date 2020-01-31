@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSFTEDIT
+event_id: '21'
+version: '0'
+event(fields): ExtendSelectionRangeStop()
+opcode: Stop
+keywords: ''
+task: ExtendSelectionRange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1614'
+version: '0'
+event(fields): AppsFolder_ImmersiveApp_OpenVerbStop(UnicodeString ApplicationId, UnicodeString
+  Arguments)
+opcode: Stop
+keywords: ''
+task: AppsFolder_ImmersiveApp_OpenVerb
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApplicationId
+- field_type: UnicodeString
+  field_name: Arguments

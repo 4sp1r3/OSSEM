@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-MFReadWrite
+event_id: '105'
+version: '0'
+event(fields): SinkWriter_MarkerStart(Pointer Object, UInt32 StreamIndex, Pointer
+  Context)
+opcode: Start
+keywords: ''
+task: SinkWriter_Marker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: StreamIndex
+- field_type: Pointer
+  field_name: Context

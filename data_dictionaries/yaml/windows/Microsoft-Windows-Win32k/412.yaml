@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '412'
+version: '0'
+event(fields): DCompBeginFrame(UInt64 hConnection, UInt32 SyncRefreshCount)
+opcode: ''
+keywords: Updates
+task: DCompBeginFrame
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hConnection
+- field_type: UInt32
+  field_name: SyncRefreshCount

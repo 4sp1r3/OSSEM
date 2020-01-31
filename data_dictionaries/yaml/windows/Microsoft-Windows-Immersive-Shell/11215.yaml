@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11215'
+version: '0'
+event(fields): Accounts_GetCommands(UnicodeString CommandId)
+opcode: ''
+keywords: ''
+task: Accounts_GetCommands
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CommandId

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4026'
+version: '0'
+event(fields): WASActivationConnected(UnicodeString AppDomain)
+opcode: Connected
+keywords: ActivationServices
+task: WASActivation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

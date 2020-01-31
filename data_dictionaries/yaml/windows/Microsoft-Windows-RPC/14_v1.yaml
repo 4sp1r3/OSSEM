@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-RPC
+event_id: '14'
+version: '1'
+event(fields): FunctionTraceStart_V1(GUID InterfaceUuid, GUID TypeMgrUuid, UInt32
+  Flags, UInt32 MaxCalls, UInt32 SDSize, Binary SD)
+opcode: Start
+keywords: ''
+task: FunctionTrace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceUuid
+- field_type: GUID
+  field_name: TypeMgrUuid
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: MaxCalls
+- field_type: UInt32
+  field_name: SDSize
+- field_type: Binary
+  field_name: SD

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1232'
+version: '0'
+event(fields): RssPortReference(UInt32 AdapterIndex, UInt32 ExistingInterfaceIndex,
+  UInt32 ExistingPortNumber, UInt8 ReferenceAdded)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis ut:Rss ut:Global
+task: RssPortReference
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterIndex
+- field_type: UInt32
+  field_name: ExistingInterfaceIndex
+- field_type: UInt32
+  field_name: ExistingPortNumber
+- field_type: UInt8
+  field_name: ReferenceAdded

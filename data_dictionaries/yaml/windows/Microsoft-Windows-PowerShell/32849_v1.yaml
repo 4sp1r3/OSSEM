@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '32849'
+version: '1'
+event(fields): task_0Send(Async)32849_V1(UnicodeString Runspace_InstanceId, UnicodeString
+  PowerShell_InstanceId, UnicodeString DataSize, UInt32 DataType, UInt32 TargetInterface)
+opcode: Send(Async)
+keywords: Transport
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Runspace_InstanceId
+- field_type: UnicodeString
+  field_name: PowerShell_InstanceId
+- field_type: UnicodeString
+  field_name: DataSize
+- field_type: UInt32
+  field_name: DataType
+- field_type: UInt32
+  field_name: TargetInterface

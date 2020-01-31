@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '401'
+version: '0'
+event(fields): ServicefailedtostartLaunchFailure(UnicodeString ErrorDescription, UInt32
+  ResultCode)
+opcode: LaunchFailure
+keywords: ''
+task: Servicefailedtostart
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ErrorDescription
+- field_type: UInt32
+  field_name: ResultCode

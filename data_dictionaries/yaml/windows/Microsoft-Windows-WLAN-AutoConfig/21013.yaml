@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '21013'
+version: '0'
+event(fields): task_021013(UInt32 SessionId, UInt32 Reason, UInt32 Error)
+opcode: ''
+keywords: MSMSEC Telemetry ut:Authentication
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Error

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '100'
+version: '0'
+event(fields): IPDataTransferInformation(Pointer fid_WdfRequest, Pointer fid_Irp,
+  Pointer fid_IoChannelHandle, UInt64 fid_NumberOfBytes)
+opcode: Information
+keywords: Default IRP
+task: IPDataTransfer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_WdfRequest
+- field_type: Pointer
+  field_name: fid_Irp
+- field_type: Pointer
+  field_name: fid_IoChannelHandle
+- field_type: UInt64
+  field_name: fid_NumberOfBytes

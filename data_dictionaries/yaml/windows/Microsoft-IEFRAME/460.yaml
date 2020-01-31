@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '460'
+version: '0'
+event(fields): TabRoaming_TabMarkedDirty(GUID TabId)
+opcode: ''
+keywords: roaming
+task: TabRoaming_TabMarkedDirty
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TabId

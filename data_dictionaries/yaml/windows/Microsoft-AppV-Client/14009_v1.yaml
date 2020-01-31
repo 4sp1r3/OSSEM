@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client
+event_id: '14009'
+version: '1'
+event(fields): Streaming_V1()
+opcode: ''
+keywords: Streaming
+task: Streaming
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

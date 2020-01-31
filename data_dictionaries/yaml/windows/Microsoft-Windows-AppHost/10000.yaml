@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-AppHost
+event_id: '10000'
+version: '0'
+event(fields): ApplicationTracing.ErrorAppHostApplicationError(UnicodeString DisplayName,
+  UnicodeString ApplicationName, UnicodeString AppUserModelId, UnicodeString PackageFullName,
+  Int32 ProcessId, UnicodeString Source, UnicodeString DocumentFile, Int32 Line, Int32
+  Column, Int32 MessageId, UnicodeString Message)
+opcode: AppHostApplicationError
+keywords: WWAHOST_APPLICATION_KEYWORD
+task: ApplicationTracing.Error
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DisplayName
+- field_type: UnicodeString
+  field_name: ApplicationName
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: Int32
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: Source
+- field_type: UnicodeString
+  field_name: DocumentFile
+- field_type: Int32
+  field_name: Line
+- field_type: Int32
+  field_name: Column
+- field_type: Int32
+  field_name: MessageId
+- field_type: UnicodeString
+  field_name: Message

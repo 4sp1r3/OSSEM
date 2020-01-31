@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '126'
+version: '0'
+event(fields): BatteryMeter_PowerPlanDescriptionStop()
+opcode: Stop
+keywords: BatteryMeter
+task: BatteryMeter_PowerPlanDescription
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '75'
+version: '0'
+event(fields): URB_FUNCTION_CONTROL_TRANSFERCompleteInternal(UInt16 fid_USBPORT_HC,
+  Double fid_USBPORT_Device, SID fid_USBPORT_Endpoint, CountedUtf16String fid_USBPORT_Endpoint_Descriptor,
+  Pointer fid_URB_Ptr, 28 fid_USBPORT_URB_CONTROL_TRANSFER)
+opcode: CompleteInternal
+keywords: Diagnostic
+task: URB_FUNCTION_CONTROL_TRANSFER
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: fid_USBPORT_HC
+- field_type: Double
+  field_name: fid_USBPORT_Device
+- field_type: SID
+  field_name: fid_USBPORT_Endpoint
+- field_type: CountedUtf16String
+  field_name: fid_USBPORT_Endpoint_Descriptor
+- field_type: Pointer
+  field_name: fid_URB_Ptr
+- field_type: '28'
+  field_name: fid_USBPORT_URB_CONTROL_TRANSFER

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27235'
+version: '0'
+event(fields): PerfTrack_Explorer_Invoke_CancelledStop()
+opcode: Stop
+keywords: Shell
+task: PerfTrack_Explorer_Invoke_Cancelled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

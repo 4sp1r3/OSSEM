@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1526'
+version: '0'
+event(fields): ServerTaskHideStart(UInt32 unParam, UInt32 dir, UInt32 animtype, UInt32
+  animflags)
+opcode: Start
+keywords: NavigationPerformance ServerTask
+task: ServerTaskHide
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: dir
+- field_type: UInt32
+  field_name: animtype
+- field_type: UInt32
+  field_name: animflags

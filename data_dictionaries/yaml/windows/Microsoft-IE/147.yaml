@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '147'
+version: '0'
+event(fields): Mshtml_PrivacIE_AddWebFilterStart(Pointer Storage, UnicodeString Key)
+opcode: Start
+keywords: subsystem privacie
+task: Mshtml_PrivacIE_AddWebFilter
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Storage
+- field_type: UnicodeString
+  field_name: Key

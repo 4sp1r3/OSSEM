@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6048'
+version: '0'
+event(fields): GetConfigurationStart()
+opcode: Start
+keywords: ''
+task: GetConfiguration
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

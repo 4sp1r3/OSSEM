@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18685'
+version: '0'
+event(fields): Shell32_NetFolder_ParseUNCNameStart()
+opcode: Start
+keywords: Shell
+task: Shell32_NetFolder_ParseUNCName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

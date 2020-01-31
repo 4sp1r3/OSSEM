@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '276'
+version: '0'
+event(fields): BacklightOptimizationLevel(Pointer DeviceObject, UInt32 OldOptimizationLevel,
+  UInt32 NewOptimizationLevel, UInt32 Result)
+opcode: ''
+keywords: Base
+task: BacklightOptimizationLevel
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DeviceObject
+- field_type: UInt32
+  field_name: OldOptimizationLevel
+- field_type: UInt32
+  field_name: NewOptimizationLevel
+- field_type: UInt32
+  field_name: Result

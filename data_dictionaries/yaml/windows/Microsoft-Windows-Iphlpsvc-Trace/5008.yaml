@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5008'
+version: '0'
+event(fields): task_05008(UnicodeString InterfaceName, UInt32 StatusCode)
+opcode: ''
+keywords: iphttps
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InterfaceName
+- field_type: UInt32
+  field_name: StatusCode

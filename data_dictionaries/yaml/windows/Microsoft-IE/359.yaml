@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '359'
+version: '0'
+event(fields): Mshtml_MediaElement_SeekStart359(UInt32 MediaElementId, Double TimeInSecs)
+opcode: Start
+keywords: subsystem mshtml
+task: Mshtml_MediaElement_Seek
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaElementId
+- field_type: Double
+  field_name: TimeInSecs

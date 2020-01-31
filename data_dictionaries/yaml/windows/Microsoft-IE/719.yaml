@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '719'
+version: '0'
+event(fields): Mshtml_CTouchDragDropHelper_DragInitiatedStop(Pointer TouchDragDropHelper,
+  Pointer Element, HexInt32 FailureHresult)
+opcode: Stop
+keywords: draganddrop touch
+task: Mshtml_CTouchDragDropHelper_DragInitiated
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TouchDragDropHelper
+- field_type: Pointer
+  field_name: Element
+- field_type: HexInt32
+  field_name: FailureHresult

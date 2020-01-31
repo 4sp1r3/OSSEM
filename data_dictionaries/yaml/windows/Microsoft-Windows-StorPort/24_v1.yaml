@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-StorPort
+event_id: '24'
+version: '1'
+event(fields): None24_V1(UnicodeString Operation, UInt64 Duration_100ns)
+opcode: ''
+keywords: Perf
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Operation
+- field_type: UInt64
+  field_name: Duration_100ns

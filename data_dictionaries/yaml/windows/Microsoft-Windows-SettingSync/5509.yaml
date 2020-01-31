@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '5509'
+version: '0'
+event(fields): task_05509()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

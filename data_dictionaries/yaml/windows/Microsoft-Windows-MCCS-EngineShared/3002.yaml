@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-EngineShared
+event_id: '3002'
+version: '0'
+event(fields): SPERF_TAG_SHARED_MIME_LOOKUP_NAMEStart()
+opcode: Start
+keywords: Performance
+task: SPERF_TAG_SHARED_MIME_LOOKUP_NAME
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

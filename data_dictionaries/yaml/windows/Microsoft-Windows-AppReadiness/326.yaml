@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '326'
+version: '0'
+event(fields): AppReadiness_ExecuteTaskStart326()
+opcode: Start
+keywords: Tasks
+task: AppReadiness_ExecuteTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

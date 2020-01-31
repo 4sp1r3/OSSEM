@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TimeBroker
+event_id: '2'
+version: '1'
+event(fields): task_02_V1(GUID BrokeredEventId, FILETIME StartTime, FILETIME EndTime)
+opcode: ''
+keywords: EventState
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BrokeredEventId
+- field_type: FILETIME
+  field_name: StartTime
+- field_type: FILETIME
+  field_name: EndTime

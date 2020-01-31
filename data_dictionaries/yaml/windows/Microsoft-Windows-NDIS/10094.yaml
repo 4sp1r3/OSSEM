@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10094'
+version: '0'
+event(fields): Log(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UnicodeString AdapterName,
+  UInt32 Error, UInt32 ErrorValueCount, UInt32 ErrorValues)
+opcode: ''
+keywords: Log
+task: Log
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: NetLuid
+- field_type: UnicodeString
+  field_name: AdapterName
+- field_type: UInt32
+  field_name: Error
+- field_type: UInt32
+  field_name: ErrorValueCount
+- field_type: UInt32
+  field_name: ErrorValues

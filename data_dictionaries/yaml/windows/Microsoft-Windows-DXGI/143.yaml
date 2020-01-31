@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '143'
+version: '0'
+event(fields): IDXGIOutput_FindClosestMatchingModeStop(UInt32 m_Ret)
+opcode: Stop
+keywords: ''
+task: IDXGIOutput_FindClosestMatchingMode
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret

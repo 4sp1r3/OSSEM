@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '43'
+version: '0'
+event(fields): APP_NAVIGATEStart()
+opcode: Start
+keywords: mediaplayer
+task: APP_NAVIGATE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '512'
+version: '0'
+event(fields): EmptyTab_Reuse_ReinitializeBrowserTab_Begin()
+opcode: ''
+keywords: primarynav
+task: EmptyTab_Reuse_ReinitializeBrowserTab_Begin
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

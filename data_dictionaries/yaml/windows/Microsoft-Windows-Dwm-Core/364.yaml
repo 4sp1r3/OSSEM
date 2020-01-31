@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '364'
+version: '0'
+event(fields): COMPUTESCRIBBLE_FRAMECOMPLETED(UInt64 FrameID, UInt8 Framebuffer, UInt32
+  Status)
+opcode: ''
+keywords: DwmCore
+task: COMPUTESCRIBBLE_FRAMECOMPLETED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: FrameID
+- field_type: UInt8
+  field_name: Framebuffer
+- field_type: UInt32
+  field_name: Status

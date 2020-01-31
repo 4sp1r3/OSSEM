@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-NDIS-PacketCapture
+event_id: '5101'
+version: '0'
+event(fields): task_05101(UInt8 SourceId, UnicodeString SourceName, UInt32 IfIndex,
+  UInt16 LayerCount, Int16 LayerInfo)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: SourceId
+- field_type: UnicodeString
+  field_name: SourceName
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt16
+  field_name: LayerCount
+- field_type: Int16
+  field_name: LayerInfo

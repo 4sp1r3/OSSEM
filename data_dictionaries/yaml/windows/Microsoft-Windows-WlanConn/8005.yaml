@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WlanConn
+event_id: '8005'
+version: '0'
+event(fields): L3ConnStop()
+opcode: Stop
+keywords: ''
+task: L3Conn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

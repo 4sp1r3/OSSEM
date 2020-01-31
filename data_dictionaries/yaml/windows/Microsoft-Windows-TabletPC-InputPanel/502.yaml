@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '502'
+version: '0'
+event(fields): SoftKeyboard_Geometry_GetKeyInfo(UInt32 Index, Int32 left, Int32 top,
+  Int32 right, Int32 bottom, Boolean IsLKey, UInt32 KeyLocation, Int32 x, Int32 y)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_Geometry_GetKeyInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index
+- field_type: Int32
+  field_name: left
+- field_type: Int32
+  field_name: top
+- field_type: Int32
+  field_name: right
+- field_type: Int32
+  field_name: bottom
+- field_type: Boolean
+  field_name: IsLKey
+- field_type: UInt32
+  field_name: KeyLocation
+- field_type: Int32
+  field_name: x
+- field_type: Int32
+  field_name: y

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppLocker
+event_id: '8027'
+version: '0'
+event(fields): task_08027()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

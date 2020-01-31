@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-OEDCompiler
+event_id: '8'
+version: '0'
+event(fields): TaskID:OEDCompilerRegsisterDictionaryStop()
+opcode: Stop
+keywords: ''
+task: TaskID:OEDCompilerRegsisterDictionary
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

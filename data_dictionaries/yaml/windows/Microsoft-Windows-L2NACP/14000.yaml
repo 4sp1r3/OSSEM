@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-L2NACP
+event_id: '14000'
+version: '0'
+event(fields): task_014000(Boolean Enabled, Boolean Remote, Boolean Dot3Allowed, Boolean
+  WlanAllowed, Boolean CredentialsFound)
+opcode: ''
+keywords: Filter ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Enabled
+- field_type: Boolean
+  field_name: Remote
+- field_type: Boolean
+  field_name: Dot3Allowed
+- field_type: Boolean
+  field_name: WlanAllowed
+- field_type: Boolean
+  field_name: CredentialsFound

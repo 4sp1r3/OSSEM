@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '6417'
+version: '0'
+event(fields): task_06417(Pointer ProcessId, UnicodeString ProcessName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ProcessName

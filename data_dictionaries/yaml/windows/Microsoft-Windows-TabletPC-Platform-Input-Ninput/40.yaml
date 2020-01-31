@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '40'
+version: '0'
+event(fields): NinputICProcessPointerStart()
+opcode: Start
+keywords: ''
+task: NinputICProcessPointer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

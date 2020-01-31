@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Network-Connection-Broker
+event_id: '1108'
+version: '0'
+event(fields): task_01108(Pointer Provider, Pointer RequestHolder, UInt32 Value, Int32
+  ValueType, UInt64 NlmEpoch, UInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Provider
+- field_type: Pointer
+  field_name: RequestHolder
+- field_type: UInt32
+  field_name: Value
+- field_type: Int32
+  field_name: ValueType
+- field_type: UInt64
+  field_name: NlmEpoch
+- field_type: UInt32
+  field_name: Status

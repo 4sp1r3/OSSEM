@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '803'
+version: '0'
+event(fields): NotifyServicesStart(UInt32 EventCode, UInt32 SessionId)
+opcode: Start
+keywords: PerfInstrumentation
+task: NotifyServices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EventCode
+- field_type: UInt32
+  field_name: SessionId

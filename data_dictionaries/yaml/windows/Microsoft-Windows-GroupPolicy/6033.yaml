@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '6033'
+version: '0'
+event(fields): task_0Stop6033(UnicodeString CSEExtensionName, UnicodeString CSEExtensionID)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CSEExtensionName
+- field_type: UnicodeString
+  field_name: CSEExtensionID

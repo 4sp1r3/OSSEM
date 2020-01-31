@@ -1,0 +1,16 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '15003'
+version: '0'
+event(fields): TemplateConsole_1016TemplateConsole15003(UnicodeString stringValue1,
+  UnicodeString stringValue2)
+opcode: TemplateConsole
+keywords: ''
+task: TemplateConsole_1016
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1
+- field_type: UnicodeString
+  field_name: stringValue2

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Audio
+event_id: '21'
+version: '0'
+event(fields): AudioServer_Sound_Level_Changed(UnicodeString AppId, UInt32 SoundLevel)
+opcode: ''
+keywords: ''
+task: AudioServer_Sound_Level_Changed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId
+- field_type: UInt32
+  field_name: SoundLevel

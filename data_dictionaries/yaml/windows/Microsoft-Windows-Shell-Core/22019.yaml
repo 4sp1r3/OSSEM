@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22019'
+version: '0'
+event(fields): Taskbar_RegisterThumbnailStop(Pointer HWNDSrc, Pointer HWNDThumbnail)
+opcode: Stop
+keywords: Shell
+task: Taskbar_RegisterThumbnail
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HWNDSrc
+- field_type: Pointer
+  field_name: HWNDThumbnail

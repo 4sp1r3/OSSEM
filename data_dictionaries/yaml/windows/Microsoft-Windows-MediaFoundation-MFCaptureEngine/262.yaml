@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '262'
+version: '0'
+event(fields): MFCaptureEngine_BridgeSourceSinkStop(Pointer CaptureSource, Pointer
+  SinkWrapper, Boolean bChangeStreamUsers, Boolean bPrepare, UInt32 HResult)
+opcode: Stop
+keywords: ''
+task: MFCaptureEngine_BridgeSourceSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CaptureSource
+- field_type: Pointer
+  field_name: SinkWrapper
+- field_type: Boolean
+  field_name: bChangeStreamUsers
+- field_type: Boolean
+  field_name: bPrepare
+- field_type: UInt32
+  field_name: HResult

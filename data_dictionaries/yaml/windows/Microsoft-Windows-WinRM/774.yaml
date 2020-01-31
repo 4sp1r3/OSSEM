@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinRM
+event_id: '774'
+version: '0'
+event(fields): Requesthandling774(UnicodeString senderName, UInt32 concurrentOperations)
+opcode: ''
+keywords: Keyword.Server Keyword.QuotaViolation
+task: Requesthandling
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: senderName
+- field_type: UInt32
+  field_name: concurrentOperations

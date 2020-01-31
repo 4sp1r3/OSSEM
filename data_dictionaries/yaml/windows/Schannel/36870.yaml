@@ -1,0 +1,17 @@
+provider: Schannel
+event_id: '36870'
+version: '0'
+event(fields): task_036870(UnicodeString Type, HexInt32 ErrorCode, UInt32 ErrorStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Type
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: ErrorStatus

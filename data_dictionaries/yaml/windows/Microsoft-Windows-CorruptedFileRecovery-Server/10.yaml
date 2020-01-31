@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-CorruptedFileRecovery-Server
+event_id: '10'
+version: '0'
+event(fields): task_010(UnicodeString FileName, UnicodeString AppName, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UnicodeString
+  field_name: AppName
+- field_type: UInt32
+  field_name: ErrorCode

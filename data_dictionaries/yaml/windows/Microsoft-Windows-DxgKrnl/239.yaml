@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '239'
+version: '0'
+event(fields): ChangeInProcessPriority(Pointer hContext, Int32 OldPriority, Int32
+  NewPriority)
+opcode: ''
+keywords: Base
+task: ChangeInProcessPriority
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: Int32
+  field_name: OldPriority
+- field_type: Int32
+  field_name: NewPriority

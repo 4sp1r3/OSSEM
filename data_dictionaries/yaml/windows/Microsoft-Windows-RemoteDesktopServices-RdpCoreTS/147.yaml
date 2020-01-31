@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '147'
+version: '0'
+event(fields): RemoteFXmodule_4Runtime147(HexInt32 Error)
+opcode: Runtime
+keywords: ''
+task: RemoteFXmodule_4
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error

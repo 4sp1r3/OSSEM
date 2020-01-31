@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LDAP-Client
+event_id: '4'
+version: '0'
+event(fields): task_04(AnsiString Message)
+opcode: ''
+keywords: heap
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Message

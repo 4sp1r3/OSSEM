@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4823'
+version: '0'
+event(fields): task_04823(UnicodeString AccountName, UnicodeString DeviceName, HexInt32
+  Status, UnicodeString SiloName, UnicodeString PolicyName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AccountName
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: HexInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: SiloName
+- field_type: UnicodeString
+  field_name: PolicyName

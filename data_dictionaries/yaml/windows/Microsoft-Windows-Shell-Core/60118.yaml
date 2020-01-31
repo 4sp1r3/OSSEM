@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60118'
+version: '0'
+event(fields): StructuredQuery_CreateWordBreakerStop()
+opcode: Stop
+keywords: StructuredQuery
+task: StructuredQuery_CreateWordBreaker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

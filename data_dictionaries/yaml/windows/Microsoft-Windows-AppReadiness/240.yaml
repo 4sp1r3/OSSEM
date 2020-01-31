@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '240'
+version: '0'
+event(fields): AppReadiness_User_ProcessTasks240(UnicodeString User, UnicodeString
+  TaskId, UInt32 TaskCount)
+opcode: ''
+keywords: Tasks
+task: AppReadiness_User_ProcessTasks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: TaskId
+- field_type: UInt32
+  field_name: TaskCount

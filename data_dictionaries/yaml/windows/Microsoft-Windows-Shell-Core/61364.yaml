@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61364'
+version: '0'
+event(fields): FileAccessAPI_Enumeration_GetViewStart(UInt32 StartIndex, UInt32 Count)
+opcode: Start
+keywords: Shell
+task: FileAccessAPI_Enumeration_GetView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StartIndex
+- field_type: UInt32
+  field_name: Count

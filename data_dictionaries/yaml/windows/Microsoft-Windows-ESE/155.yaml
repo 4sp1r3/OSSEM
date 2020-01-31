@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-ESE
+event_id: '155'
+version: '0'
+event(fields): ESE_SysStationId_Trace(UInt8 tsidr, UInt32 dwImageVerMajor, UInt32
+  dwImageVerMinor, UInt32 dwImageBuildMajor, UInt32 dwImageBuildMinor, UnicodeString
+  wszDisplayName)
+opcode: ''
+keywords: StationId
+task: ESE_SysStationId_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: tsidr
+- field_type: UInt32
+  field_name: dwImageVerMajor
+- field_type: UInt32
+  field_name: dwImageVerMinor
+- field_type: UInt32
+  field_name: dwImageBuildMajor
+- field_type: UInt32
+  field_name: dwImageBuildMinor
+- field_type: UnicodeString
+  field_name: wszDisplayName

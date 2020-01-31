@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MF
+event_id: '1353'
+version: '0'
+event(fields): MPCompactAudioSample(Pointer Object, Int32 StreamID, Int64 timestamps,
+  Int64 prevDuration, Int64 newDuration, Int64 mergedDuration)
+opcode: ''
+keywords: ''
+task: MPCompactAudioSample
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: StreamID
+- field_type: Int64
+  field_name: timestamps
+- field_type: Int64
+  field_name: prevDuration
+- field_type: Int64
+  field_name: newDuration
+- field_type: Int64
+  field_name: mergedDuration

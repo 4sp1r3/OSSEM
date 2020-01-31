@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50066'
+version: '0'
+event(fields): AddressConfigurationStateEventMatchedAddressPlumbed(UnicodeString NetworkHintString,
+  UnicodeString NetworkHint, UInt32 HWLength, Binary HWAddress)
+opcode: MatchedAddressPlumbed
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: NetworkHintString
+- field_type: UnicodeString
+  field_name: NetworkHint
+- field_type: UInt32
+  field_name: HWLength
+- field_type: Binary
+  field_name: HWAddress

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Serial-ClassExtension
+event_id: '1007'
+version: '1'
+event(fields): Requestreceivedbytheserialclassextension_V1(UInt8 Data)
+opcode: ''
+keywords: ''
+task: Requestreceivedbytheserialclassextension
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Data

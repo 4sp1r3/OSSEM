@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3383'
+version: '0'
+event(fields): ReliableSessionFaulted(UnicodeString SessionId, UnicodeString AppDomain)
+opcode: Faulted
+keywords: Channel
+task: ReliableSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: AppDomain

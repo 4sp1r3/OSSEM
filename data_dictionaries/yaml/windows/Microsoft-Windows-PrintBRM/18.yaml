@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '18'
+version: '0'
+event(fields): RestorePrintBRMoperationfailure18(UnicodeString LanguageMonitor, HexInt32
+  ErrorCode)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_LANG_MON_KEYWORD
+task: Restore
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LanguageMonitor
+- field_type: HexInt32
+  field_name: ErrorCode

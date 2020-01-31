@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '3075'
+version: '0'
+event(fields): MediaProc:DynamicTransformInsertion(Pointer object)
+opcode: ''
+keywords: ''
+task: MediaProc:DynamicTransformInsertion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

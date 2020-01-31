@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '251'
+version: '0'
+event(fields): PresentMultiPlaneOverlay(UInt32 hContext, UInt32 VidPnSourceId, UInt32
+  PresentCount, UInt32 FlipInterval, UInt32 Flags, UInt32 PresentPlaneCount, UInt32
+  ReturnStatus)
+opcode: ''
+keywords: Base
+task: PresentMultiPlaneOverlay
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hContext
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: PresentCount
+- field_type: UInt32
+  field_name: FlipInterval
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: PresentPlaneCount
+- field_type: UInt32
+  field_name: ReturnStatus

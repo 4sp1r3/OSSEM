@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '199'
+version: '0'
+event(fields): Shdocvw_BaseBrowser_FireEvent_WindowStateChangedStart()
+opcode: Start
+keywords: primarynav
+task: Shdocvw_BaseBrowser_FireEvent_WindowStateChanged
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

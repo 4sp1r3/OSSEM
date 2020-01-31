@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '20'
+version: '0'
+event(fields): Restore(UnicodeString DriverName, UnicodeString TargetServerArchitecture)
+opcode: ''
+keywords: PRINT_DRIVER_KEYWORD
+task: Restore
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UnicodeString
+  field_name: TargetServerArchitecture

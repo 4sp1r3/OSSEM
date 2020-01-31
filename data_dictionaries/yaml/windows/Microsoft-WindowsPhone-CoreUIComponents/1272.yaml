@@ -1,0 +1,16 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1272'
+version: '0'
+event(fields): ForegroundTaskManagerRequestResourceSetStart(UInt32 unParam, UnicodeString
+  pwsz)
+opcode: Start
+keywords: ForegroundTaskManager
+task: ForegroundTaskManagerRequestResourceSet
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UnicodeString
+  field_name: pwsz

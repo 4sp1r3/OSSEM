@@ -1,0 +1,49 @@
+provider: Microsoft-Windows-Deduplication-Change
+event_id: '16400'
+version: '1'
+event(fields): task_016400_V1(UInt32 Signature, UInt8 MajorVersion, UInt8 MinorVersion,
+  UInt16 VersionChecksum, UInt8 ChunkStoreType, UInt32 ContainerId, UInt32 Generation,
+  UInt32 ContainerOffset, UInt64 UpdateSequenceNumber, UInt32 ValidDataLength, UInt32
+  ChunkCount, UInt32 NextLocalId, UInt32 Flags, UInt64 LastAppendTime, UInt32 BackupRedirectionTableOffset,
+  UInt32 LastReconciliationLocalId, UInt64 Checksum)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Signature
+- field_type: UInt8
+  field_name: MajorVersion
+- field_type: UInt8
+  field_name: MinorVersion
+- field_type: UInt16
+  field_name: VersionChecksum
+- field_type: UInt8
+  field_name: ChunkStoreType
+- field_type: UInt32
+  field_name: ContainerId
+- field_type: UInt32
+  field_name: Generation
+- field_type: UInt32
+  field_name: ContainerOffset
+- field_type: UInt64
+  field_name: UpdateSequenceNumber
+- field_type: UInt32
+  field_name: ValidDataLength
+- field_type: UInt32
+  field_name: ChunkCount
+- field_type: UInt32
+  field_name: NextLocalId
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt64
+  field_name: LastAppendTime
+- field_type: UInt32
+  field_name: BackupRedirectionTableOffset
+- field_type: UInt32
+  field_name: LastReconciliationLocalId
+- field_type: UInt64
+  field_name: Checksum

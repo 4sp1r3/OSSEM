@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-IE-F12-Provider
+event_id: '379'
+version: '1'
+event(fields): Debugger_Intellisense_Menu_LayoutStop_V1(UInt32 Key, UnicodeString
+  TraceDescription)
+opcode: Stop
+keywords: ''
+task: Debugger_Intellisense_Menu_Layout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Key
+- field_type: UnicodeString
+  field_name: TraceDescription

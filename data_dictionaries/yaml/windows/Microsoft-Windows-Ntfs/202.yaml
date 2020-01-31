@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '202'
+version: '0'
+event(fields): CheckpointStart(Pointer Vcb, UInt16 LogFileFullReason, UInt16 LogFileUsePercentage)
+opcode: Start
+keywords: Checkpoint PeriodicCheckpoint
+task: Checkpoint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Vcb
+- field_type: UInt16
+  field_name: LogFileFullReason
+- field_type: UInt16
+  field_name: LogFileUsePercentage

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '431'
+version: '0'
+event(fields): CONFIGURE_RME_MENU_ACTIONStart()
+opcode: Start
+keywords: mediaplayer
+task: CONFIGURE_RME_MENU_ACTION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

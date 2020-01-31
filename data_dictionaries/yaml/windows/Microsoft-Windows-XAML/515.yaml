@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '515'
+version: '0'
+event(fields): FindTrackerTargetsStart()
+opcode: Start
+keywords: Core
+task: FindTrackerTargets
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

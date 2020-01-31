@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '219'
+version: '0'
+event(fields): AppReadiness_User_ProcessTasks219(UnicodeString SID, UInt32 NumPackages,
+  UnicodeString PackageFamilyName)
+opcode: ''
+keywords: User
+task: AppReadiness_User_ProcessTasks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SID
+- field_type: UInt32
+  field_name: NumPackages
+- field_type: UnicodeString
+  field_name: PackageFamilyName

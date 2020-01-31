@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '128'
+version: '0'
+event(fields): MediaFoundationSuspend(UInt32 id, Boolean paused)
+opcode: ''
+keywords: ''
+task: MediaFoundationSuspend
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id
+- field_type: Boolean
+  field_name: paused

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebServices
+event_id: '18'
+version: '0'
+event(fields): MessageExchangeReceivedMessageStop(UInt64 correlationId)
+opcode: ReceivedMessageStop
+keywords: keywords.Message
+task: MessageExchange
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: correlationId

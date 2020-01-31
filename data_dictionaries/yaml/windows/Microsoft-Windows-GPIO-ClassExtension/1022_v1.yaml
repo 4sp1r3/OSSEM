@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-GPIO-ClassExtension
+event_id: '1022'
+version: '1'
+event(fields): task_0QueryEnabledInterruptsComplete_V1()
+opcode: QueryEnabledInterruptsComplete
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

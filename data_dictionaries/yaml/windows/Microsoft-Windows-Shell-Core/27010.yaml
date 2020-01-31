@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27010'
+version: '0'
+event(fields): PerfTrack_StartPane_ShowItemStop()
+opcode: Stop
+keywords: Shell
+task: PerfTrack_StartPane_ShowItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

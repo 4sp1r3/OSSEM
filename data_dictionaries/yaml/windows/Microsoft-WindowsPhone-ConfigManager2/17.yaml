@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '17'
+version: '0'
+event(fields): ICSPNode_Move_TaskStop(UnicodeString StringOne, UInt32 Result)
+opcode: Stop
+keywords: Performance Trace
+task: ICSPNode_Move_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StringOne
+- field_type: UInt32
+  field_name: Result

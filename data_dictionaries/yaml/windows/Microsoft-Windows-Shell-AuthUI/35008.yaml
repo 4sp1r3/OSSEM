@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '35008'
+version: '0'
+event(fields): CredUI_Dialog_LoadStyleSheetStart()
+opcode: Start
+keywords: ''
+task: CredUI_Dialog_LoadStyleSheet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

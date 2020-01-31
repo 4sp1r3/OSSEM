@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Program-Compatibility-Assistant
+event_id: '8'
+version: '0'
+event(fields): task_08(UInt32 ApplicationNameSize, UnicodeString ApplicationName,
+  UInt32 CommandLineSize, UnicodeString CommandLine, UInt32 CurrentDirectorySize,
+  UnicodeString CurrentDirectory, UInt32 DllNameSize, UnicodeString DllName, GUID
+  InterfaceCLSID, UInt32 SessionId, UInt32 Flags)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ApplicationNameSize
+- field_type: UnicodeString
+  field_name: ApplicationName
+- field_type: UInt32
+  field_name: CommandLineSize
+- field_type: UnicodeString
+  field_name: CommandLine
+- field_type: UInt32
+  field_name: CurrentDirectorySize
+- field_type: UnicodeString
+  field_name: CurrentDirectory
+- field_type: UInt32
+  field_name: DllNameSize
+- field_type: UnicodeString
+  field_name: DllName
+- field_type: GUID
+  field_name: InterfaceCLSID
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: Flags

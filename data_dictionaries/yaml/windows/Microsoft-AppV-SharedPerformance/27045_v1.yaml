@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27045'
+version: '1'
+event(fields): HandleGetPackageStreamingAttributesStop_V1()
+opcode: Stop
+keywords: ''
+task: HandleGetPackageStreamingAttributes
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Runtime-Networking-BackgroundTransfer
+event_id: '1'
+version: '0'
+event(fields): BackgroundTransferOperationStart(GUID OperationId, UInt32 TransferType,
+  UnicodeString Method, UnicodeString URI, UInt32 CostPolicy, UnicodeString Group,
+  GUID CompletionGroupId)
+opcode: Start
+keywords: keywords.KW_ALL
+task: BackgroundTransferOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: OperationId
+- field_type: UInt32
+  field_name: TransferType
+- field_type: UnicodeString
+  field_name: Method
+- field_type: UnicodeString
+  field_name: URI
+- field_type: UInt32
+  field_name: CostPolicy
+- field_type: UnicodeString
+  field_name: Group
+- field_type: GUID
+  field_name: CompletionGroupId

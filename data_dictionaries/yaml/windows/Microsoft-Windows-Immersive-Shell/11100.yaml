@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11100'
+version: '0'
+event(fields): PLM_PriorityChanged(UnicodeString PsmKey, UInt32 Priority)
+opcode: ''
+keywords: PLMComponent
+task: PLM_PriorityChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: Priority

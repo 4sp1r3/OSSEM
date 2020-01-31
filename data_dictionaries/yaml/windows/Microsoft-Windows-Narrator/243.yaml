@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '243'
+version: '0'
+event(fields): ContinuousReading_ProcessSingleChunkStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: ContinuousReading_ProcessSingleChunk
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

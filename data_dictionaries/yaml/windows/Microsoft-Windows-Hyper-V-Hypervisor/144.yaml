@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '144'
+version: '0'
+event(fields): task_0144(HexInt64 DeviceId, UInt64 PartitionId)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: DeviceId
+- field_type: UInt64
+  field_name: PartitionId

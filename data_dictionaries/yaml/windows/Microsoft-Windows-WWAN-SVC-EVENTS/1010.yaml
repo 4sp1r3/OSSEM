@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '1010'
+version: '0'
+event(fields): task_01010(Int32 hresult, UInt32 wilFailureType, AnsiString moduleName,
+  AnsiString fileName, UInt32 lineNumber, UnicodeString message)
+opcode: ''
+keywords: LwtDiagnostic keyword_800000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: hresult
+- field_type: UInt32
+  field_name: wilFailureType
+- field_type: AnsiString
+  field_name: moduleName
+- field_type: AnsiString
+  field_name: fileName
+- field_type: UInt32
+  field_name: lineNumber
+- field_type: UnicodeString
+  field_name: message

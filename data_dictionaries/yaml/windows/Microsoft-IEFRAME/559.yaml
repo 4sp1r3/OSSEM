@@ -1,0 +1,20 @@
+provider: Microsoft-IEFRAME
+event_id: '559'
+version: '0'
+event(fields): Browseui_OnPrepareVisibleCompleteStop(Int32 TabID, Int32 SelectTabAsyncTabID,
+  UInt32 SelectTabAsyncFlags, UInt32 Result)
+opcode: Stop
+keywords: ''
+task: Browseui_OnPrepareVisibleComplete
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: TabID
+- field_type: Int32
+  field_name: SelectTabAsyncTabID
+- field_type: UInt32
+  field_name: SelectTabAsyncFlags
+- field_type: UInt32
+  field_name: Result

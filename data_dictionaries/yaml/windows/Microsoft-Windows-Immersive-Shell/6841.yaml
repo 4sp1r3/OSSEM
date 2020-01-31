@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6841'
+version: '0'
+event(fields): SecondaryTile_FlyoutShowingStop(UInt32 ApiType)
+opcode: Stop
+keywords: ''
+task: SecondaryTile_FlyoutShowing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ApiType

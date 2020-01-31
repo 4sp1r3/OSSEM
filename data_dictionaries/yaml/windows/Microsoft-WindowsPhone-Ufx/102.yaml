@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Ufx
+event_id: '102'
+version: '0'
+event(fields): FunctionEntry(AnsiString Function)
+opcode: ''
+keywords: Function
+task: FunctionEntry
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Function

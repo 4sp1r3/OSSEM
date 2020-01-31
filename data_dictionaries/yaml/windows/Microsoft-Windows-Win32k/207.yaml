@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '207'
+version: '0'
+event(fields): ChangeDisplayModeBroadcast()
+opcode: ''
+keywords: ''
+task: ChangeDisplayModeBroadcast
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

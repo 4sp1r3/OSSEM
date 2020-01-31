@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '21001'
+version: '0'
+event(fields): task_021001(UInt32 AdapterId, GUID InterfaceGuid, Binary LocalAddr,
+  UnicodeString FriendlyName, UInt32 PKMIDs, Boolean FourWayOffloadSupported, Boolean
+  SafeModeSupported, Boolean SafeModeCertified)
+opcode: ''
+keywords: MSMSEC Telemetry ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterId
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: Binary
+  field_name: LocalAddr
+- field_type: UnicodeString
+  field_name: FriendlyName
+- field_type: UInt32
+  field_name: PKMIDs
+- field_type: Boolean
+  field_name: FourWayOffloadSupported
+- field_type: Boolean
+  field_name: SafeModeSupported
+- field_type: Boolean
+  field_name: SafeModeCertified

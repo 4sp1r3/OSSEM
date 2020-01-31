@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8211'
+version: '0'
+event(fields): PrerequisitesCheckInformational8211()
+opcode: Informational
+keywords: Internal
+task: PrerequisitesCheck
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AAD
+event_id: '1216'
+version: '0'
+event(fields): WamExtensionOperationStart1216(Int32 Result, UnicodeString Target)
+opcode: Start
+keywords: Analytic
+task: WamExtensionOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: Target

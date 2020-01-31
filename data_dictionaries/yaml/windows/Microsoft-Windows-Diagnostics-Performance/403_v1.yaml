@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '403'
+version: '1'
+event(fields): SystemPerformanceMonitoringShellDegradation403_V1(FILETIME StartTime,
+  UInt32 NameLength, UnicodeString Name, UInt32 FriendlyNameLength, UnicodeString
+  FriendlyName, UInt32 VersionLength, UnicodeString Version, UInt32 ThreadTime, UInt32
+  BlockedTime, Double PercentTime, UInt32 PathLength, UnicodeString Path, UInt32 ProductNameLength,
+  UnicodeString ProductName, UInt32 CompanyNameLength, UnicodeString CompanyName)
+opcode: ShellDegradation
+keywords: EventLog
+task: SystemPerformanceMonitoring
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: StartTime
+- field_type: UInt32
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt32
+  field_name: FriendlyNameLength
+- field_type: UnicodeString
+  field_name: FriendlyName
+- field_type: UInt32
+  field_name: VersionLength
+- field_type: UnicodeString
+  field_name: Version
+- field_type: UInt32
+  field_name: ThreadTime
+- field_type: UInt32
+  field_name: BlockedTime
+- field_type: Double
+  field_name: PercentTime
+- field_type: UInt32
+  field_name: PathLength
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UInt32
+  field_name: ProductNameLength
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UInt32
+  field_name: CompanyNameLength
+- field_type: UnicodeString
+  field_name: CompanyName

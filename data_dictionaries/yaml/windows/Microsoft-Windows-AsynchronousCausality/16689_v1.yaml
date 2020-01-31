@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AsynchronousCausality
+event_id: '16689'
+version: '1'
+event(fields): task_016689_V1(GUID PlatformId, UInt64 OperationId, UInt8 WorkItemType)
+opcode: ''
+keywords: OperationWork LibraryOperation
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PlatformId
+- field_type: UInt64
+  field_name: OperationId
+- field_type: UInt8
+  field_name: WorkItemType

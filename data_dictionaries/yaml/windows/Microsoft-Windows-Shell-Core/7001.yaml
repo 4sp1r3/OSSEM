@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '7001'
+version: '0'
+event(fields): ConflictResolution_CRUD_OpenStart()
+opcode: Start
+keywords: Shell
+task: ConflictResolution_CRUD_Open
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

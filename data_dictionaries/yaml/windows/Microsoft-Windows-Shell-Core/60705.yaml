@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60705'
+version: '0'
+event(fields): Shell_DesktopBackgroundSlideshow_Workitem(UnicodeString WorkItem, UInt32
+  HRESULT, UInt32 TimeToNextTick, UInt32 Paused)
+opcode: ''
+keywords: Shell
+task: Shell_DesktopBackgroundSlideshow_Workitem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: WorkItem
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: TimeToNextTick
+- field_type: UInt32
+  field_name: Paused

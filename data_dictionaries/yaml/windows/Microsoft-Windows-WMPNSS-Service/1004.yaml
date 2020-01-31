@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1004'
+version: '0'
+event(fields): CDS_BrowseStop(UnicodeString ID, UnicodeString Criteria, UInt32 StartIndex,
+  UInt32 RequestedCount, UnicodeString Filter, UnicodeString SortCriteria, UInt32
+  ReturnedCount, UInt32 TotalMatches, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: CDS_Browse
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ID
+- field_type: UnicodeString
+  field_name: Criteria
+- field_type: UInt32
+  field_name: StartIndex
+- field_type: UInt32
+  field_name: RequestedCount
+- field_type: UnicodeString
+  field_name: Filter
+- field_type: UnicodeString
+  field_name: SortCriteria
+- field_type: UInt32
+  field_name: ReturnedCount
+- field_type: UInt32
+  field_name: TotalMatches
+- field_type: UInt32
+  field_name: ErrorCode

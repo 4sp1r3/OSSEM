@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '480'
+version: '0'
+event(fields): ThreadedJobQueueWaitStart(UInt64 Id)
+opcode: Start
+keywords: Core
+task: ThreadedJobQueueWait
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id

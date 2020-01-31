@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '350'
+version: '0'
+event(fields): GetWordBreaker(UInt32 Locale)
+opcode: ''
+keywords: Indexing
+task: GetWordBreaker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Locale

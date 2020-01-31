@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-LocalSessionManager
+event_id: '18'
+version: '0'
+event(fields): task_018()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

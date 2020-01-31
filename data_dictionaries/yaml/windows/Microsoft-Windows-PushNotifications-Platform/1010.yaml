@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1010'
+version: '0'
+event(fields): NewCloudNotificationArrivalStart(UInt32 NotificationType, UnicodeString
+  ChannelId, UnicodeString AppUserModelId, UInt32 TrackingId, UInt64 MessageId, Double
+  Timestamp, Double Expiry, UnicodeString Tag, UnicodeString Group, UInt32 Action,
+  UInt32 OfflineCacheCount, Boolean CacheRollover, UnicodeString OfflineBundleId)
+opcode: Start
+keywords: wpndebug_cloudtoast_isolate wpndebug_raw_isolate wpnconn wpnperf_FirstCloudNotification
+  wpnperf_FirstCloudNotificationWithCloudImage wpnperf_NewCloudNotificationArrival
+  wpnperf_NewCloudNotificationArrivalWithCloudImage wpntroubleshoot wpndebug_cloudtile_isolate
+  wpndev_NotificationE2E
+task: NewCloudNotificationArrival
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NotificationType
+- field_type: UnicodeString
+  field_name: ChannelId
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: TrackingId
+- field_type: UInt64
+  field_name: MessageId
+- field_type: Double
+  field_name: Timestamp
+- field_type: Double
+  field_name: Expiry
+- field_type: UnicodeString
+  field_name: Tag
+- field_type: UnicodeString
+  field_name: Group
+- field_type: UInt32
+  field_name: Action
+- field_type: UInt32
+  field_name: OfflineCacheCount
+- field_type: Boolean
+  field_name: CacheRollover
+- field_type: UnicodeString
+  field_name: OfflineBundleId

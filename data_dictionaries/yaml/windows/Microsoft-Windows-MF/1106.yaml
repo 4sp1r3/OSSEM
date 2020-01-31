@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MF
+event_id: '1106'
+version: '0'
+event(fields): MediaFoundationIMFTrustedInput_GetInputTrustAuthorityStart(HexInt32
+  streamId, HexInt32 hr)
+opcode: Start
+keywords: ''
+task: MediaFoundationIMFTrustedInput_GetInputTrustAuthority
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: streamId
+- field_type: HexInt32
+  field_name: hr

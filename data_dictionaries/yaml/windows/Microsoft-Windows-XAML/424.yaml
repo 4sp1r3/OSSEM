@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '424'
+version: '0'
+event(fields): RebuildGraphicsDeviceResourcesStop()
+opcode: Stop
+keywords: Rendering
+task: RebuildGraphicsDeviceResources
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

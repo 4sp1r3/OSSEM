@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '51'
+version: '0'
+event(fields): GeneraloperationPrintBRMoperationsuccess51(UnicodeString PluginDllName)
+opcode: PrintBRMoperationsuccess
+keywords: PRINT_BRM_KEYWORD
+task: Generaloperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PluginDllName

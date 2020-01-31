@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9644'
+version: '0'
+event(fields): Explorer_Roaming_SyncAtLogonStop()
+opcode: Stop
+keywords: Shell StartupPerf
+task: Explorer_Roaming_SyncAtLogon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

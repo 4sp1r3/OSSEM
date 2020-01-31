@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client
+event_id: '17005'
+version: '1'
+event(fields): CreateReportingData17005_V1()
+opcode: ''
+keywords: Reporting
+task: CreateReportingData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

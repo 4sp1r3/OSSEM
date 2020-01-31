@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-LiveDump
+event_id: '107'
+version: '0'
+event(fields): SizingWorkflowBufferAllocationData(UInt64 NtPrimaryDataBytes, UInt64
+  HvPrimaryDataBytes, UInt64 HvSecondaryDataBytes)
+opcode: BufferAllocationData
+keywords: ''
+task: SizingWorkflow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: NtPrimaryDataBytes
+- field_type: UInt64
+  field_name: HvPrimaryDataBytes
+- field_type: UInt64
+  field_name: HvSecondaryDataBytes

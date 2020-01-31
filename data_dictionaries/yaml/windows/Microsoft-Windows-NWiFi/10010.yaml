@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10010'
+version: '0'
+event(fields): task_010010(Pointer ContextHandle, GUID AdapterGuid, Boolean Value,
+  UInt32 Status)
+opcode: ''
+keywords: Ioctls ut:Configuration
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextHandle
+- field_type: GUID
+  field_name: AdapterGuid
+- field_type: Boolean
+  field_name: Value
+- field_type: UInt32
+  field_name: Status

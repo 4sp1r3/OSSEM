@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1810'
+version: '0'
+event(fields): ID3D11VideoContext_VideoProcessorGetBehaviorHintsStart(Pointer pThis,
+  Pointer pVideoProcessor, UInt32 OutputWidth, UInt32 OutputHeight, UInt32 OutputFormat,
+  UInt32 StreamCount)
+opcode: Start
+keywords: ''
+task: ID3D11VideoContext_VideoProcessorGetBehaviorHints
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pVideoProcessor
+- field_type: UInt32
+  field_name: OutputWidth
+- field_type: UInt32
+  field_name: OutputHeight
+- field_type: UInt32
+  field_name: OutputFormat
+- field_type: UInt32
+  field_name: StreamCount

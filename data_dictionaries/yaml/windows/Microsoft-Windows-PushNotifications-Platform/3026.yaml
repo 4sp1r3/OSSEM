@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3026'
+version: '0'
+event(fields): task_03026(UInt32 ResourceId, UnicodeString URL)
+opcode: ''
+keywords: wpnui
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ResourceId
+- field_type: UnicodeString
+  field_name: URL

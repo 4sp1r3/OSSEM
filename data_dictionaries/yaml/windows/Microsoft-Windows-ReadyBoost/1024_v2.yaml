@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-ReadyBoost
+event_id: '1024'
+version: '2'
+event(fields): ReadyBoot1024_V2(UInt32 RB_HistoryCount, UInt32 RB_BootPlanAge, UInt32
+  RB_DiskAssessmentRPM, UInt32 RB_Flags)
+opcode: ''
+keywords: ReadyBoot
+task: ReadyBoot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RB_HistoryCount
+- field_type: UInt32
+  field_name: RB_BootPlanAge
+- field_type: UInt32
+  field_name: RB_DiskAssessmentRPM
+- field_type: UInt32
+  field_name: RB_Flags

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1307'
+version: '0'
+event(fields): task_01307(UInt32 ConnectorId, Int64 State, UInt32 ConnectionType)
+opcode: ''
+keywords: wpnprv
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ConnectorId
+- field_type: Int64
+  field_name: State
+- field_type: UInt32
+  field_name: ConnectionType

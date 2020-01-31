@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '124'
+version: '0'
+event(fields): FullTextMergeStart()
+opcode: Start
+keywords: PerfEvent
+task: FullTextMerge
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

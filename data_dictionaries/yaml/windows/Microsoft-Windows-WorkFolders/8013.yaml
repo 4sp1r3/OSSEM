@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '8013'
+version: '0'
+event(fields): SyncPartnership()
+opcode: ''
+keywords: SyncPartnership
+task: SyncPartnership
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

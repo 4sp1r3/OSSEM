@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '176'
+version: '0'
+event(fields): DmaPacketStop(Pointer hContext, UInt32 PacketType, UInt64 uliCompletionId,
+  UInt32 ulQueueSubmitSequence, Boolean bPreempted)
+opcode: Stop
+keywords: Base
+task: DmaPacket
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: PacketType
+- field_type: UInt64
+  field_name: uliCompletionId
+- field_type: UInt32
+  field_name: ulQueueSubmitSequence
+- field_type: Boolean
+  field_name: bPreempted

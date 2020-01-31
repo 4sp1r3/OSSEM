@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '177'
+version: '0'
+event(fields): Mshtml_Dx_DeviceCreateStop()
+opcode: Stop
+keywords: extended mshtml pageloadbreakdown
+task: Mshtml_Dx_DeviceCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

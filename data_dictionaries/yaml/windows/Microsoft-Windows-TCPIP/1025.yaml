@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1025'
+version: '0'
+event(fields): TcpSecurityRateLimit(UInt32 SynAttacksDetected, UInt32 ReassemblyLimitViolations,
+  UInt32 ConnectionRateLimitBacklog, UInt32 ConnectionRateLimitViolations, UInt32
+  LandAttackSegmentsDropped, UInt32 ConnectionRateLimitDepth)
+opcode: ''
+keywords: ut:TcpipTcb ut:TcpipDiagnosis ut:Endpoint ut:ConnectPath
+task: TcpSecurityRateLimit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SynAttacksDetected
+- field_type: UInt32
+  field_name: ReassemblyLimitViolations
+- field_type: UInt32
+  field_name: ConnectionRateLimitBacklog
+- field_type: UInt32
+  field_name: ConnectionRateLimitViolations
+- field_type: UInt32
+  field_name: LandAttackSegmentsDropped
+- field_type: UInt32
+  field_name: ConnectionRateLimitDepth

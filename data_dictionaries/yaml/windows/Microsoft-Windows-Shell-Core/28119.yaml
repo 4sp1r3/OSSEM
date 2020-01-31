@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28119'
+version: '0'
+event(fields): Shell32_AppResolver_InitialDefaultLayout(Int32 Groups, Int32 Tiles,
+  Int32 Placeholders, Int32 Flags)
+opcode: ''
+keywords: Shell
+task: Shell32_AppResolver_InitialDefaultLayout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Groups
+- field_type: Int32
+  field_name: Tiles
+- field_type: Int32
+  field_name: Placeholders
+- field_type: Int32
+  field_name: Flags

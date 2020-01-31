@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1066'
+version: '1'
+event(fields): PageCombiningStart_V1()
+opcode: Start
+keywords: Combine
+task: PageCombining
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

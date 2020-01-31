@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1406'
+version: '0'
+event(fields): BackstackManager_ClearBackstackStop()
+opcode: Stop
+keywords: ''
+task: BackstackManager_ClearBackstack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

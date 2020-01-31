@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '26'
+version: '0'
+event(fields): task_026(UInt32 ErrorCode, UnicodeString Context)
+opcode: ''
+keywords: AppContainer
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: Context

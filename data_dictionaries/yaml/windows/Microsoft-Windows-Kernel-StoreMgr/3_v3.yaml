@@ -1,0 +1,53 @@
+provider: Microsoft-Windows-Kernel-StoreMgr
+event_id: '3'
+version: '3'
+event(fields): StoreCreate_V3(Pointer StoreKey, Pointer StoreFileKey, Pointer UserDataMgr,
+  Pointer MetadataMgr, UInt32 RegionSize, UInt32 RegionCount, UInt32 BlockSize, UInt32
+  SectorSize, UInt32 EncryptionStrength, UInt16 StoreType, UInt16 StoreId, UInt32
+  BlocksStored, UInt32 RegionsInUse, UInt32 TotalSpaceUsed, UInt32 Flags, UInt32 MetaRegionCount,
+  UInt32 MetaRegionsInUse, UInt32 MetaRegionsSpaceUsed, UInt32 StoreTime)
+opcode: ''
+keywords: StoreOps
+task: StoreCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: StoreKey
+- field_type: Pointer
+  field_name: StoreFileKey
+- field_type: Pointer
+  field_name: UserDataMgr
+- field_type: Pointer
+  field_name: MetadataMgr
+- field_type: UInt32
+  field_name: RegionSize
+- field_type: UInt32
+  field_name: RegionCount
+- field_type: UInt32
+  field_name: BlockSize
+- field_type: UInt32
+  field_name: SectorSize
+- field_type: UInt32
+  field_name: EncryptionStrength
+- field_type: UInt16
+  field_name: StoreType
+- field_type: UInt16
+  field_name: StoreId
+- field_type: UInt32
+  field_name: BlocksStored
+- field_type: UInt32
+  field_name: RegionsInUse
+- field_type: UInt32
+  field_name: TotalSpaceUsed
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: MetaRegionCount
+- field_type: UInt32
+  field_name: MetaRegionsInUse
+- field_type: UInt32
+  field_name: MetaRegionsSpaceUsed
+- field_type: UInt32
+  field_name: StoreTime

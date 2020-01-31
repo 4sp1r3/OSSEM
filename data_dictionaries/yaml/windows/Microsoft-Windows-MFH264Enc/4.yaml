@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MFH264Enc
+event_id: '4'
+version: '0'
+event(fields): MFH264Enc_TrackSampleStop(Pointer EncoderInstance, Int64 SampleTime)
+opcode: Stop
+keywords: ''
+task: MFH264Enc_TrackSample
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: EncoderInstance
+- field_type: Int64
+  field_name: SampleTime

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '1025'
+version: '0'
+event(fields): Responsehandling1025(UnicodeString actionUri)
+opcode: ''
+keywords: Keyword.Server
+task: Responsehandling
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: actionUri

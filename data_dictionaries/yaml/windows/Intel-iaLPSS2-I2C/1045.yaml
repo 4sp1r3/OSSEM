@@ -1,0 +1,20 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1045'
+version: '0'
+event(fields): iaLPSS2_I2CInitroutines1045(UInt32 MBAR, UInt64 PA, UInt32 LEN, UInt32
+  Status)
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CInitroutines
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MBAR
+- field_type: UInt64
+  field_name: PA
+- field_type: UInt32
+  field_name: LEN
+- field_type: UInt32
+  field_name: Status

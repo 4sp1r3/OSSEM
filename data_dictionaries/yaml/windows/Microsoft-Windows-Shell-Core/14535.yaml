@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14535'
+version: '0'
+event(fields): Properties_NavDropDownControl_CreateStart()
+opcode: Start
+keywords: Controls
+task: Properties_NavDropDownControl_Create
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '202'
+version: '0'
+event(fields): EMEMediaKeySessionStart(UnicodeString sessionId, UnicodeString keySystem,
+  UnicodeString type, UInt32 length, Binary data, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: EMEMediaKeySession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: sessionId
+- field_type: UnicodeString
+  field_name: keySystem
+- field_type: UnicodeString
+  field_name: type
+- field_type: UInt32
+  field_name: length
+- field_type: Binary
+  field_name: data
+- field_type: UInt32
+  field_name: ErrorCode

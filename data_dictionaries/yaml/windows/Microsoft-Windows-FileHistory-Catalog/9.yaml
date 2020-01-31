@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '9'
+version: '0'
+event(fields): UpdateNamespaceRecordStart(Int32 id, UnicodeString Path)
+opcode: Start
+keywords: ''
+task: UpdateNamespaceRecord
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: id
+- field_type: UnicodeString
+  field_name: Path

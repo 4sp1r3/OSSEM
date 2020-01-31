@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '90'
+version: '0'
+event(fields): FULLSCREENEXITBUTTON_CLICK()
+opcode: EXITBUTTON_CLICK
+keywords: mediaplayer
+task: FULLSCREEN
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

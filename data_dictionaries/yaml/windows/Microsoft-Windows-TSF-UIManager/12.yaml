@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '12'
+version: '0'
+event(fields): IUIManager_OnTargetPositionChangedStop()
+opcode: Stop
+keywords: TSF_UIManager
+task: IUIManager_OnTargetPositionChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

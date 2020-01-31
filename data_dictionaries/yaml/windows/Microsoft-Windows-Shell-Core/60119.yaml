@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60119'
+version: '0'
+event(fields): StructuredQuery_InitWordBreakerStart()
+opcode: Start
+keywords: StructuredQuery
+task: StructuredQuery_InitWordBreaker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

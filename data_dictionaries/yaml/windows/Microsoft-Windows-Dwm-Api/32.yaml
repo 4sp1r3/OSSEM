@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '32'
+version: '0'
+event(fields): ApipDetachMilContentStop(UInt32 hr)
+opcode: Stop
+keywords: DwmApi
+task: ApipDetachMilContent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr

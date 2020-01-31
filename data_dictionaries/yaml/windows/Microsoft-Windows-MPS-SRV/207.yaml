@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '207'
+version: '0'
+event(fields): MPS_SVC_API_DeleteAllFirewallRulesStop()
+opcode: Stop
+keywords: Service
+task: MPS_SVC_API_DeleteAllFirewallRules
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

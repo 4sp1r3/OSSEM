@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '425'
+version: '0'
+event(fields): PowerDisplayChangeStop425(Int32 Location)
+opcode: Stop
+keywords: win32Power
+task: PowerDisplayChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Location

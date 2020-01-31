@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '403'
+version: '0'
+event(fields): Wininet_WebSocketSessionStop(GUID CorrelationID, UInt16 Status)
+opcode: Stop
+keywords: ''
+task: Wininet_WebSocketSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CorrelationID
+- field_type: UInt16
+  field_name: Status

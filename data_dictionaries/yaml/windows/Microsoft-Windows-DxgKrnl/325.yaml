@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '325'
+version: '0'
+event(fields): PagingQueuePacketStop(Pointer PagingQueue, Pointer PagingQueuePacket,
+  UInt64 SequenceId, UInt64 ExecutionTime100ns)
+opcode: Stop
+keywords: Base
+task: PagingQueuePacket
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PagingQueue
+- field_type: Pointer
+  field_name: PagingQueuePacket
+- field_type: UInt64
+  field_name: SequenceId
+- field_type: UInt64
+  field_name: ExecutionTime100ns

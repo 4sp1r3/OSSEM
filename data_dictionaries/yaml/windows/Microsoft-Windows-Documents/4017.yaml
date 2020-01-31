@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '4017'
+version: '0'
+event(fields): DocPerf_Task_Xps_ParsePageStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Xps_ParsePage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

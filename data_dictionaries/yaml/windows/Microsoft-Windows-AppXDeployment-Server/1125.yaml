@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1125'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.OSIMDeactivateStart()
+opcode: Start
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.OSIMDeactivate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

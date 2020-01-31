@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4208'
+version: '0'
+event(fields): STORE_CREATESPECIALFOLDERSStart()
+opcode: Start
+keywords: Performance
+task: STORE_CREATESPECIALFOLDERS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

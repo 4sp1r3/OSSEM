@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '1007'
+version: '0'
+event(fields): CreateDocument1007(UInt32 ErrorCode, Int32 Line, Int32 LinePos, UnicodeString
+  Reason)
+opcode: ''
+keywords: XmlValidation ut:Configuration
+task: CreateDocument
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: Int32
+  field_name: Line
+- field_type: Int32
+  field_name: LinePos
+- field_type: UnicodeString
+  field_name: Reason

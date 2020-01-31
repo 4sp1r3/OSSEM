@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3216'
+version: '0'
+event(fields): Dispatcher_WakeLevel_UpdateWakeLevel(UInt32 unParam, UInt32 InternalPriority,
+  UInt32 InternalPriority2)
+opcode: ''
+keywords: MessagingPerformance Dispatcher
+task: Dispatcher_WakeLevel_UpdateWakeLevel
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: InternalPriority
+- field_type: UInt32
+  field_name: InternalPriority2

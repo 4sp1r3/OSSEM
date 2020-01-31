@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '116'
+version: '0'
+event(fields): Startup_CSearchService_Init()
+opcode: ''
+keywords: Service
+task: Startup_CSearchService_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

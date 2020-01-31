@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '5008'
+version: '0'
+event(fields): GenerateSerializerStart(UnicodeString Kind, UnicodeString TypeName,
+  UnicodeString AppDomain)
+opcode: Start
+keywords: Serialization
+task: GenerateSerializer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Kind
+- field_type: UnicodeString
+  field_name: TypeName
+- field_type: UnicodeString
+  field_name: AppDomain

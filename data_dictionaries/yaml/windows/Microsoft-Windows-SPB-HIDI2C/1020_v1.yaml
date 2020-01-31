@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SPB-HIDI2C
+event_id: '1020'
+version: '1'
+event(fields): CommandrequestsintheHIDI2Cdriver_V1(Pointer SpbIoTarget, UInt16 Opcode,
+  UInt32 Status)
+opcode: ''
+keywords: ''
+task: CommandrequestsintheHIDI2Cdriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SpbIoTarget
+- field_type: UInt16
+  field_name: Opcode
+- field_type: UInt32
+  field_name: Status

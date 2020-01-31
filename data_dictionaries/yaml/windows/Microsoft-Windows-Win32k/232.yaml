@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '232'
+version: '0'
+event(fields): DitShutdown()
+opcode: ''
+keywords: MessagePumpInternalAndInput ComponentHosting
+task: DitShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

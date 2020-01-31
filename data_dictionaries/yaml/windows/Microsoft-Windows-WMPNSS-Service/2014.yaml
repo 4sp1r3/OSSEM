@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '2014'
+version: '0'
+event(fields): Svc_Register_Device_Parse_ReqStop(UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Svc_Register_Device_Parse_Req
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

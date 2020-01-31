@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '25'
+version: '0'
+event(fields): peerneighborlist(server)_listeningforclientsENYINGORIGNORINGANINCOMINGPACKETenyingorignoringanincomingpacket(Binary
+  sourceAddress, UnicodeString packet, UInt32 hr)
+opcode: denyingorignoringanincomingpacket
+keywords: ''
+task: peerneighborlist(server)_listeningforclients
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: sourceAddress
+- field_type: UnicodeString
+  field_name: packet
+- field_type: UInt32
+  field_name: hr

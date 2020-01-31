@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '801'
+version: '0'
+event(fields): Maintenancelaunchfailed(UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: Maintenancelaunchfailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

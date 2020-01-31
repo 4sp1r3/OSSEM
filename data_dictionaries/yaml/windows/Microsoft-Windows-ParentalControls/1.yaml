@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '1'
+version: '0'
+event(fields): SettingChangeModify(UnicodeString Class, UInt32 Setting, UnicodeString
+  AccountOwner, UnicodeString OldValue, UnicodeString NewValue, UInt32 Reason, UnicodeString
+  Optional)
+opcode: Modify
+keywords: WPC
+task: SettingChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Class
+- field_type: UInt32
+  field_name: Setting
+- field_type: UnicodeString
+  field_name: AccountOwner
+- field_type: UnicodeString
+  field_name: OldValue
+- field_type: UnicodeString
+  field_name: NewValue
+- field_type: UInt32
+  field_name: Reason
+- field_type: UnicodeString
+  field_name: Optional

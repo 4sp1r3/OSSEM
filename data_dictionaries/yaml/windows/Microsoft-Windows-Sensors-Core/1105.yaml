@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1105'
+version: '0'
+event(fields): SensorsDefaultDeviceSelectionTask1105(UnicodeString Interface, Float
+  PowerUsage)
+opcode: ''
+keywords: ''
+task: SensorsDefaultDeviceSelectionTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Interface
+- field_type: Float
+  field_name: PowerUsage

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-StorageManagement-WSP-Spaces
+event_id: '2004'
+version: '0'
+event(fields): task_02004(UnicodeString Message)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message

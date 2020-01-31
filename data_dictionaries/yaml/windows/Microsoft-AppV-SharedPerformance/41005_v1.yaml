@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '41005'
+version: '1'
+event(fields): VServices.ServiceDllDetachStop_V1()
+opcode: Stop
+keywords: ''
+task: VServices.ServiceDllDetach
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

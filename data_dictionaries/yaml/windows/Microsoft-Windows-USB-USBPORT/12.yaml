@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '12'
+version: '0'
+event(fields): DeviceCreate(Int8 fid_USBPORT_HC, Int64 fid_USBPORT_Device, Pointer
+  fid_USBPORT_Device_Descriptor)
+opcode: Create
+keywords: Diagnostic PowerDiagnostics
+task: Device
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: fid_USBPORT_HC
+- field_type: Int64
+  field_name: fid_USBPORT_Device
+- field_type: Pointer
+  field_name: fid_USBPORT_Device_Descriptor

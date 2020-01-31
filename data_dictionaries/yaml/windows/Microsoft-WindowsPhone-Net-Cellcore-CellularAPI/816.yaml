@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '816'
+version: '0'
+event(fields): CSms816(UInt32 DwordName1, UInt32 DwordName2, UInt32 cbBytes3, UInt8
+  Bytes3, UInt64 Pointer)
+opcode: ''
+keywords: Information
+task: CSms
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName1
+- field_type: UInt32
+  field_name: DwordName2
+- field_type: UInt32
+  field_name: cbBytes3
+- field_type: UInt8
+  field_name: Bytes3
+- field_type: UInt64
+  field_name: Pointer

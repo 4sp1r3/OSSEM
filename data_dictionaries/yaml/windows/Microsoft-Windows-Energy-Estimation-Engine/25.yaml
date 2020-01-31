@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '25'
+version: '0'
+event(fields): QueryStatsMapProcessToApp(UInt64 UniqueApplicationId, UnicodeString
+  PackageFullName, UInt32 SessionId, UInt32 UniqueProcessId, UnicodeString ImageName)
+opcode: MapProcessToApp
+keywords: ''
+task: QueryStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueApplicationId
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: UniqueProcessId
+- field_type: UnicodeString
+  field_name: ImageName

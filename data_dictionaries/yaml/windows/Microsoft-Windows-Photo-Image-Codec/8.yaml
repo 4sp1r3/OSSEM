@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Photo-Image-Codec
+event_id: '8'
+version: '0'
+event(fields): WMPHOTO_Decoder_ReducedResolution_Info(UInt32 Ratio)
+opcode: ''
+keywords: ''
+task: WMPHOTO_Decoder_ReducedResolution_Info
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Ratio

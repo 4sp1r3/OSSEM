@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '213'
+version: '0'
+event(fields): MicrosoftWindowsRuntimePreviewSourceDispatchSample(Pointer Source,
+  Pointer Sample)
+opcode: ''
+keywords: keyword_800000000000
+task: MicrosoftWindowsRuntimePreviewSourceDispatchSample
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Source
+- field_type: Pointer
+  field_name: Sample

@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '686'
+version: '0'
+event(fields): Mshtml_CStorage(UInt32 SharedMemoryHandle, UInt32 TotalBufferSizeInBytes)
+opcode: ''
+keywords: mshtml
+task: Mshtml_CStorage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SharedMemoryHandle
+- field_type: UInt32
+  field_name: TotalBufferSizeInBytes

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SrumTelemetry
+event_id: '3003'
+version: '0'
+event(fields): task_03003(Int32 PreviousBrightnessLevel, UInt32 PreviousBrightnessDurationInSeconds,
+  Int32 NewBrightnessLevel)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: PreviousBrightnessLevel
+- field_type: UInt32
+  field_name: PreviousBrightnessDurationInSeconds
+- field_type: Int32
+  field_name: NewBrightnessLevel

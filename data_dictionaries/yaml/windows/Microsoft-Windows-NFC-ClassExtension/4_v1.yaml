@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NFC-ClassExtension
+event_id: '4'
+version: '1'
+event(fields): task_04_V1(UInt8 MessageType, UInt8 PacketBoundaryFlag, UInt16 PacketSize)
+opcode: ''
+keywords: NCI
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: MessageType
+- field_type: UInt8
+  field_name: PacketBoundaryFlag
+- field_type: UInt16
+  field_name: PacketSize

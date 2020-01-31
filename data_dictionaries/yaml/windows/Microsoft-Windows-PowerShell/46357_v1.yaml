@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '46357'
+version: '1'
+event(fields): None46357_V1()
+opcode: ''
+keywords: ''
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

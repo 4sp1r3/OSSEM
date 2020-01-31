@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '709'
+version: '0'
+event(fields): Compatibilitymoduletaskupdatefailed(UnicodeString TaskName, UInt32
+  ResultCode)
+opcode: ''
+keywords: ''
+task: Compatibilitymoduletaskupdatefailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UInt32
+  field_name: ResultCode

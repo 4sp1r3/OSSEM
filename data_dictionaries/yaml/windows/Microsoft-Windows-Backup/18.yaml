@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Backup
+event_id: '18'
+version: '0'
+event(fields): task_018(FILETIME BackupTime, GUID TemplateId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: BackupTime
+- field_type: GUID
+  field_name: TemplateId

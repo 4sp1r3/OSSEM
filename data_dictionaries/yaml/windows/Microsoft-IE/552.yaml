@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '552'
+version: '0'
+event(fields): Mshtml_PrerenderingStop(UnicodeString Prerender_URL, UInt32 Deferred_Item)
+opcode: Stop
+keywords: mshtml
+task: Mshtml_Prerendering
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prerender_URL
+- field_type: UInt32
+  field_name: Deferred_Item

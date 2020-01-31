@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '502'
+version: '0'
+event(fields): AudCaptureStream_Info_TaskAudCaptureStream_UpdateStreamingCharacteristics(Pointer
+  object, Boolean m_bAudioProcessingRaw, Boolean m_bIsEventDriven, Boolean m_bIsLowLatency,
+  Int64 m_hnsBufferDuration, UInt32 m_uiAudioCategory, UInt32 hResult)
+opcode: AudCaptureStream_UpdateStreamingCharacteristics
+keywords: ''
+task: AudCaptureStream_Info_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Boolean
+  field_name: m_bAudioProcessingRaw
+- field_type: Boolean
+  field_name: m_bIsEventDriven
+- field_type: Boolean
+  field_name: m_bIsLowLatency
+- field_type: Int64
+  field_name: m_hnsBufferDuration
+- field_type: UInt32
+  field_name: m_uiAudioCategory
+- field_type: UInt32
+  field_name: hResult

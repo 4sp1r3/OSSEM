@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '24'
+version: '0'
+event(fields): IdleStatesErrata24()
+opcode: ''
+keywords: Diag PowerDiagnostics
+task: IdleStatesErrata
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

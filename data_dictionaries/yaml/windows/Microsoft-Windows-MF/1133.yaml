@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1133'
+version: '0'
+event(fields): MediaFoundationAsyncWrapperRunningStop(Pointer WrapperPtr, UInt32 WorkQueueID)
+opcode: Stop
+keywords: ''
+task: MediaFoundationAsyncWrapperRunning
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WrapperPtr
+- field_type: UInt32
+  field_name: WorkQueueID

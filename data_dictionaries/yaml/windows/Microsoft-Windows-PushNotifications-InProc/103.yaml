@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PushNotifications-InProc
+event_id: '103'
+version: '0'
+event(fields): task_0103(UnicodeString PackageFamilyName, UnicodeString AppUserModelId,
+  Boolean SettingValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFamilyName
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: Boolean
+  field_name: SettingValue

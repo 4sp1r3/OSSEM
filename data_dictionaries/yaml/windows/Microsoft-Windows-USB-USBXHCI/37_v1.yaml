@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '37'
+version: '1'
+event(fields): RequesttoVTL1IUMtrustletStart_V1(UInt32 fid_TrustletRequestOpCode,
+  UInt32 fid_InputBufferLength, UInt32 fid_OutputBufferLength, UInt32 fid_OutstandingRequestsAtSendTime)
+opcode: Start
+keywords: Performance
+task: RequesttoVTL1IUMtrustlet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: fid_TrustletRequestOpCode
+- field_type: UInt32
+  field_name: fid_InputBufferLength
+- field_type: UInt32
+  field_name: fid_OutputBufferLength
+- field_type: UInt32
+  field_name: fid_OutstandingRequestsAtSendTime

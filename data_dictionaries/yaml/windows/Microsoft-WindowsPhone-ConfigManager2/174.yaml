@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '174'
+version: '0'
+event(fields): ICSP_ConfigManagerNotification_TaskStop174(UInt32 Notification, UnicodeString
+  URI, UInt32 Result)
+opcode: Stop
+keywords: Error Performance Trace
+task: ICSP_ConfigManagerNotification_Task
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Notification
+- field_type: UnicodeString
+  field_name: URI
+- field_type: UInt32
+  field_name: Result

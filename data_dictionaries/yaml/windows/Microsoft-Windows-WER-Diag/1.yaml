@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WER-Diag
+event_id: '1'
+version: '0'
+event(fields): task_0(UnicodeString CorruptedFilePath, UnicodeString CrashedAppName,
+  UInt32 ExceptionCode, UInt32 ExceptionStatusCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CorruptedFilePath
+- field_type: UnicodeString
+  field_name: CrashedAppName
+- field_type: UInt32
+  field_name: ExceptionCode
+- field_type: UInt32
+  field_name: ExceptionStatusCode

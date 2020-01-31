@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '61'
+version: '0'
+event(fields): APP_LAUNCHStop()
+opcode: Stop
+keywords: mediaplayer
+task: APP_LAUNCH
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

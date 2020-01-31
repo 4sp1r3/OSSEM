@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '360'
+version: '0'
+event(fields): Mshtml_MediaElement_SeekStop(UInt32 MediaElementId)
+opcode: Stop
+keywords: subsystem mshtml
+task: Mshtml_MediaElement_Seek
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaElementId

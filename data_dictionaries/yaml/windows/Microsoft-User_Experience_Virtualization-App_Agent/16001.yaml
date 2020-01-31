@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '16001'
+version: '0'
+event(fields): IPCMessage16001(UnicodeString stringValue1)
+opcode: ''
+keywords: ''
+task: IPCMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1

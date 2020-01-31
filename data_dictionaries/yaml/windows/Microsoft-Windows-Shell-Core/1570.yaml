@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1570'
+version: '0'
+event(fields): ShellTask_MountPointLocal_EjectThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_MountPointLocal_EjectThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

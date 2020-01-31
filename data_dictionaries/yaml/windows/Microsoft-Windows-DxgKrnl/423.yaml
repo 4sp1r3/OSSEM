@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '423'
+version: '0'
+event(fields): HwQueueStop(Pointer hContext, Pointer hHwQueue, Pointer ParentDxgHwQueue)
+opcode: Stop
+keywords: Resource LongHaul
+task: HwQueue
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: Pointer
+  field_name: hHwQueue
+- field_type: Pointer
+  field_name: ParentDxgHwQueue

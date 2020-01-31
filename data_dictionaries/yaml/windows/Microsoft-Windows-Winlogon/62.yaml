@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '62'
+version: '0'
+event(fields): DwmpCreateSessionProcessStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: DwmpCreateSessionProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

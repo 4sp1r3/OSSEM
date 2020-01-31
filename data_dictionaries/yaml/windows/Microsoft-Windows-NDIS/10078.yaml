@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10078'
+version: '0'
+event(fields): SendM(Pointer OpenRef, Pointer Packet)
+opcode: ''
+keywords: SendM
+task: SendM
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: OpenRef
+- field_type: Pointer
+  field_name: Packet

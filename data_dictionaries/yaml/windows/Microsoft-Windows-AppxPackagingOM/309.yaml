@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '309'
+version: '0'
+event(fields): AppXPackaging.Task.PackageReader.CacheFileStop()
+opcode: Stop
+keywords: ''
+task: AppXPackaging.Task.PackageReader.CacheFile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

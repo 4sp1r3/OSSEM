@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '15'
+version: '2'
+event(fields): Smb2RequestAcknowledgeBreakLease_V2(UInt64 SessionId, UInt32 ProcessId,
+  UInt32 TreeId, UInt64 MessageId, UInt64 MasterMessageId, UInt16 Command, UInt16
+  CreditsRequested, UInt32 Flags, UInt32 LeaseFlags, UInt32 LeaseState, Int64 LeaseDuration,
+  GUID LeaseKey, GUID ConnectionGUID, GUID SessionGUID, GUID TreeConnectGUID, GUID
+  FileGUID)
+opcode: ''
+keywords: Request
+task: Smb2RequestAcknowledgeBreakLease
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: TreeId
+- field_type: UInt64
+  field_name: MessageId
+- field_type: UInt64
+  field_name: MasterMessageId
+- field_type: UInt16
+  field_name: Command
+- field_type: UInt16
+  field_name: CreditsRequested
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: LeaseFlags
+- field_type: UInt32
+  field_name: LeaseState
+- field_type: Int64
+  field_name: LeaseDuration
+- field_type: GUID
+  field_name: LeaseKey
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: TreeConnectGUID
+- field_type: GUID
+  field_name: FileGUID

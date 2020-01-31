@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MUI
+event_id: '3007'
+version: '0'
+event(fields): MUIresourcecachebuilderBuildresourcecache3007(UInt32 NewCacheIndex,
+  UInt32 LiveCacheIndex, UInt32 Config)
+opcode: Buildresourcecache
+keywords: ''
+task: MUIresourcecachebuilder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NewCacheIndex
+- field_type: UInt32
+  field_name: LiveCacheIndex
+- field_type: UInt32
+  field_name: Config

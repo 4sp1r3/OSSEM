@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Win32k
+event_id: '2000'
+version: '0'
+event(fields): task_02000(UInt32 Flags, UInt32 ProcessId, FILETIME ProcessCreateTime,
+  UInt64 ProcessStartKey)
+opcode: ''
+keywords: ProcessInfo
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: FILETIME
+  field_name: ProcessCreateTime
+- field_type: UInt64
+  field_name: ProcessStartKey

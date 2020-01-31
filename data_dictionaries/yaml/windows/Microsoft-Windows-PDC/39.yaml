@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDC
+event_id: '39'
+version: '0'
+event(fields): CsSuspendResumeHandler(UInt32 Suspend)
+opcode: ''
+keywords: Cs
+task: CsSuspendResumeHandler
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Suspend

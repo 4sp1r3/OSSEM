@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '170'
+version: '0'
+event(fields): EdgyDetectionStart()
+opcode: Start
+keywords: UserActivity PointerInput
+task: EdgyDetection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

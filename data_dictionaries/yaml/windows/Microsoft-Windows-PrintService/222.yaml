@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintService
+event_id: '222'
+version: '0'
+event(fields): TracingaspoolermessageSpoolerTrace(UnicodeString Message, HexInt32
+  LastError)
+opcode: SpoolerTrace
+keywords: SPOOLER_KEYWORD_TRACE
+task: Tracingaspoolermessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: HexInt32
+  field_name: LastError

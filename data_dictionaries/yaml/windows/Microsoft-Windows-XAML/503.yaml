@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '503'
+version: '0'
+event(fields): GenerateItemsStart()
+opcode: Start
+keywords: Core
+task: GenerateItems
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

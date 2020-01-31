@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '102'
+version: '0'
+event(fields): BuildNotifyListPhaseStart()
+opcode: PhaseStart
+keywords: po:Performance po:PerformanceLight
+task: BuildNotifyList
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

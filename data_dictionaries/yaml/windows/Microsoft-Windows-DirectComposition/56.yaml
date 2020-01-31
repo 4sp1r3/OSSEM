@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '56'
+version: '0'
+event(fields): VISUAL_SET_INPUTSINK(UInt64 visualAndChannelHandle, Pointer inputSinkHandle)
+opcode: ''
+keywords: DCompInput
+task: VISUAL_SET_INPUTSINK
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: visualAndChannelHandle
+- field_type: Pointer
+  field_name: inputSinkHandle

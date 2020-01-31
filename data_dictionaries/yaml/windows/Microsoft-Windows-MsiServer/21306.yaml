@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MsiServer
+event_id: '21306'
+version: '0'
+event(fields): task_021306()
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

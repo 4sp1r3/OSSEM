@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '8117'
+version: '0'
+event(fields): task_08117(UInt32 p1_UInt32, GUID p2_GUID, UInt32 p3_UInt32)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular AgHost
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p1_UInt32
+- field_type: GUID
+  field_name: p2_GUID
+- field_type: UInt32
+  field_name: p3_UInt32

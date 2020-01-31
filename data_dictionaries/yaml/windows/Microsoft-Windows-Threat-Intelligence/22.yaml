@@ -1,0 +1,68 @@
+provider: Microsoft-Windows-Threat-Intelligence
+event_id: '22'
+version: '0'
+event(fields): KERNEL_THREATINT_TASK_PROTECTVM22(UInt32 CallingProcessId, FILETIME
+  CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel,
+  UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32
+  CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME
+  TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel,
+  UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32
+  OriginalProcessId, FILETIME OriginalProcessCreateTime, UInt64 OriginalProcessStartKey,
+  UInt8 OriginalProcessSignatureLevel, UInt8 OriginalProcessSectionSignatureLevel,
+  UInt8 OriginalProcessProtection, Pointer BaseAddress, Pointer RegionSize, UInt32
+  ProtectionMask, UInt32 LastProtectionMask)
+opcode: ''
+keywords: KERNEL_THREATINT_KEYWORD_PROTECTVM_REMOTE_KERNEL_CALLER
+task: KERNEL_THREATINT_TASK_PROTECTVM
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CallingProcessId
+- field_type: FILETIME
+  field_name: CallingProcessCreateTime
+- field_type: UInt64
+  field_name: CallingProcessStartKey
+- field_type: UInt8
+  field_name: CallingProcessSignatureLevel
+- field_type: UInt8
+  field_name: CallingProcessSectionSignatureLevel
+- field_type: UInt8
+  field_name: CallingProcessProtection
+- field_type: UInt32
+  field_name: CallingThreadId
+- field_type: FILETIME
+  field_name: CallingThreadCreateTime
+- field_type: UInt32
+  field_name: TargetProcessId
+- field_type: FILETIME
+  field_name: TargetProcessCreateTime
+- field_type: UInt64
+  field_name: TargetProcessStartKey
+- field_type: UInt8
+  field_name: TargetProcessSignatureLevel
+- field_type: UInt8
+  field_name: TargetProcessSectionSignatureLevel
+- field_type: UInt8
+  field_name: TargetProcessProtection
+- field_type: UInt32
+  field_name: OriginalProcessId
+- field_type: FILETIME
+  field_name: OriginalProcessCreateTime
+- field_type: UInt64
+  field_name: OriginalProcessStartKey
+- field_type: UInt8
+  field_name: OriginalProcessSignatureLevel
+- field_type: UInt8
+  field_name: OriginalProcessSectionSignatureLevel
+- field_type: UInt8
+  field_name: OriginalProcessProtection
+- field_type: Pointer
+  field_name: BaseAddress
+- field_type: Pointer
+  field_name: RegionSize
+- field_type: UInt32
+  field_name: ProtectionMask
+- field_type: UInt32
+  field_name: LastProtectionMask

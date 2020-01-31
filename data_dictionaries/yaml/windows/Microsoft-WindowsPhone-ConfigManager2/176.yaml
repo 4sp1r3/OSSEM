@@ -1,0 +1,16 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '176'
+version: '0'
+event(fields): CCSPCacheEntry_AcquireCSPMutex_TaskStop176(UnicodeString StringOne,
+  UInt32 Result)
+opcode: Stop
+keywords: Error Performance Trace
+task: CCSPCacheEntry_AcquireCSPMutex_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StringOne
+- field_type: UInt32
+  field_name: Result

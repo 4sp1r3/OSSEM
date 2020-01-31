@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WinRM
+event_id: '2049'
+version: '0'
+event(fields): WinrmVerboseMessage2049(UnicodeString param1, UInt32 param2, UnicodeString
+  param3, UInt32 param4, UnicodeString param5)
+opcode: ''
+keywords: Keyword.Error
+task: WinrmVerboseMessage
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UInt32
+  field_name: param2
+- field_type: UnicodeString
+  field_name: param3
+- field_type: UInt32
+  field_name: param4
+- field_type: UnicodeString
+  field_name: param5

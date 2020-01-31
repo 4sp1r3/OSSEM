@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25017'
+version: '0'
+event(fields): Logon_ServerCallback_RequestCredentialsStart()
+opcode: Start
+keywords: ''
+task: Logon_ServerCallback_RequestCredentials
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

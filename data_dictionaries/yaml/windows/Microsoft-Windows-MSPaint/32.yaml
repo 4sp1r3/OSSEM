@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSPaint
+event_id: '32'
+version: '0'
+event(fields): RotateOperationStop()
+opcode: Stop
+keywords: ''
+task: RotateOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

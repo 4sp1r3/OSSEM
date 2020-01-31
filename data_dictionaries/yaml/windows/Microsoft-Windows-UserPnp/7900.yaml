@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7900'
+version: '0'
+event(fields): PnP_DMRC_ParseMetadata(UnicodeString Message, UnicodeString Package,
+  HexInt32 ErrorCode, HexInt32 Win32ErrorCode)
+opcode: ''
+keywords: UserPnp
+task: PnP_DMRC_ParseMetadata
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UnicodeString
+  field_name: Package
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: HexInt32
+  field_name: Win32ErrorCode

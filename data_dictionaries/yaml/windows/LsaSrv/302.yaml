@@ -1,0 +1,22 @@
+provider: LsaSrv
+event_id: '302'
+version: '0'
+event(fields): task_0302(SID UserSid, HexInt64 LogonId, UnicodeString AuthorityName,
+  UnicodeString AccountName, UInt32 Elapse)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: UserSid
+- field_type: HexInt64
+  field_name: LogonId
+- field_type: UnicodeString
+  field_name: AuthorityName
+- field_type: UnicodeString
+  field_name: AccountName
+- field_type: UInt32
+  field_name: Elapse

@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-AIT
+event_id: '4'
+version: '0'
+event(fields): AitSystemUsageByDll(Binary Flags, UInt16 cchIdStringIncludingNull,
+  UInt16 cchDllPathIncludingNull, UInt32 Category, UInt32 ManifestVersion, Binary
+  DllHeaderHash, Binary ApplicationImageHeaderHash, AnsiString IdString, UnicodeString
+  DllPath)
+opcode: ''
+keywords: ''
+task: AitSystemUsageByDll
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: Flags
+- field_type: UInt16
+  field_name: cchIdStringIncludingNull
+- field_type: UInt16
+  field_name: cchDllPathIncludingNull
+- field_type: UInt32
+  field_name: Category
+- field_type: UInt32
+  field_name: ManifestVersion
+- field_type: Binary
+  field_name: DllHeaderHash
+- field_type: Binary
+  field_name: ApplicationImageHeaderHash
+- field_type: AnsiString
+  field_name: IdString
+- field_type: UnicodeString
+  field_name: DllPath

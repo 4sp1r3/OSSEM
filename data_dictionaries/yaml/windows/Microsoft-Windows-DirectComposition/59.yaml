@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '59'
+version: '0'
+event(fields): INTERACTION_CAPTURE_POINTER(UInt32 Channel, UInt32 interactionHandle,
+  UInt64 interactionAndChannelHandle, UInt32 captureType, UInt32 pointerId, UInt64
+  pointerTimeStamp)
+opcode: ''
+keywords: DCompInput
+task: INTERACTION_CAPTURE_POINTER
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Channel
+- field_type: UInt32
+  field_name: interactionHandle
+- field_type: UInt64
+  field_name: interactionAndChannelHandle
+- field_type: UInt32
+  field_name: captureType
+- field_type: UInt32
+  field_name: pointerId
+- field_type: UInt64
+  field_name: pointerTimeStamp

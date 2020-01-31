@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Ras-AgileVpn
+event_id: '3100'
+version: '0'
+event(fields): task_03100(AnsiString DebugString)
+opcode: ''
+keywords: AGILEVPN
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: DebugString

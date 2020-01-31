@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '66'
+version: '0'
+event(fields): SocketConnect(UInt32 connectorType)
+opcode: ''
+keywords: keywords.Socket
+task: SocketConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: connectorType

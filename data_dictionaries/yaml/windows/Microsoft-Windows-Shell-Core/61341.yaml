@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61341'
+version: '0'
+event(fields): OperationManager_TileRemoved(UInt32 TileID, UInt32 TileCount)
+opcode: ''
+keywords: Shell
+task: OperationManager_TileRemoved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TileID
+- field_type: UInt32
+  field_name: TileCount

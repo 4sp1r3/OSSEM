@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-EapHost
+event_id: '2023'
+version: '0'
+event(fields): Peer2023(UnicodeString Error)
+opcode: ''
+keywords: ''
+task: Peer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Error

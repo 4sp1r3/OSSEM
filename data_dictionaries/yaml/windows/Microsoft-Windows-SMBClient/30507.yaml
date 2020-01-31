@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30507'
+version: '0'
+event(fields): task_030507(Pointer RxContext, Pointer Fcb, UInt16 FileNameLength,
+  UnicodeString FileName, UInt32 Status)
+opcode: ''
+keywords: InfoCache_Info
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RxContext
+- field_type: Pointer
+  field_name: Fcb
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: Status

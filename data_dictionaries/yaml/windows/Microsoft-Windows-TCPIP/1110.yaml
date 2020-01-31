@@ -1,0 +1,52 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1110'
+version: '0'
+event(fields): TcpGlobalParameters(UInt32 AddressFamily, UInt8 EnablePMTUDiscovery,
+  UInt8 TcpUseRFC1122UrgentPointer, UInt8 DisableTaskOffload, UInt8 EnablePMTUBHDetect,
+  UInt8 DisableTcpChimneyOffload, UInt8 DisableRss, UInt8 EcnCapability, UInt8 TcpMaxDataRetransmissions,
+  UInt32 KeepAliveTime, UInt32 KeepAliveInterval, UInt32 TcpTimedWaitDelay, UInt32
+  SillyWindowTimeout, UInt32 TcpFinWait2Delay, UInt8 CongestionAlgorithm, UInt8 Tcp1323Opts,
+  UInt32 AutoTuningLevelLocal, UInt32 AutoTuningLevelGroupPolicy)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Configuration ut:Global
+task: TcpGlobalParameters
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt8
+  field_name: EnablePMTUDiscovery
+- field_type: UInt8
+  field_name: TcpUseRFC1122UrgentPointer
+- field_type: UInt8
+  field_name: DisableTaskOffload
+- field_type: UInt8
+  field_name: EnablePMTUBHDetect
+- field_type: UInt8
+  field_name: DisableTcpChimneyOffload
+- field_type: UInt8
+  field_name: DisableRss
+- field_type: UInt8
+  field_name: EcnCapability
+- field_type: UInt8
+  field_name: TcpMaxDataRetransmissions
+- field_type: UInt32
+  field_name: KeepAliveTime
+- field_type: UInt32
+  field_name: KeepAliveInterval
+- field_type: UInt32
+  field_name: TcpTimedWaitDelay
+- field_type: UInt32
+  field_name: SillyWindowTimeout
+- field_type: UInt32
+  field_name: TcpFinWait2Delay
+- field_type: UInt8
+  field_name: CongestionAlgorithm
+- field_type: UInt8
+  field_name: Tcp1323Opts
+- field_type: UInt32
+  field_name: AutoTuningLevelLocal
+- field_type: UInt32
+  field_name: AutoTuningLevelGroupPolicy

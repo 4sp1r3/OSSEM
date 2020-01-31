@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1720'
+version: '0'
+event(fields): ID3D11VideoDevice_CreateVideoProcessorStart(Pointer pThis, Pointer
+  pEnum, UInt32 RateConversionIndex, Pointer ppVideoProcessor)
+opcode: Start
+keywords: ''
+task: ID3D11VideoDevice_CreateVideoProcessor
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pEnum
+- field_type: UInt32
+  field_name: RateConversionIndex
+- field_type: Pointer
+  field_name: ppVideoProcessor

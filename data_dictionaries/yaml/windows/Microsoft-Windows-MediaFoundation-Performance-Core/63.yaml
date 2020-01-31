@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '63'
+version: '0'
+event(fields): MFMFAudio_Render_StreamSinkAudStreamSink_ProcessSample_NeedMoreData(Pointer
+  object, Int64 hnsSampleDuration, Int64 m_hnsShortSampleTolerance, UInt32 m_cMaxPendingRequestSample)
+opcode: AudStreamSink_ProcessSample_NeedMoreData
+keywords: ''
+task: MFMFAudio_Render_StreamSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: hnsSampleDuration
+- field_type: Int64
+  field_name: m_hnsShortSampleTolerance
+- field_type: UInt32
+  field_name: m_cMaxPendingRequestSample

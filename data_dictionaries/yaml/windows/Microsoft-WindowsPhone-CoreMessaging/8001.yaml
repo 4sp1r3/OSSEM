@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '8001'
+version: '0'
+event(fields): IoCompletionPort8001(Pointer ptr1, Pointer ptr2, Pointer ptr3, UInt32
+  hex)
+opcode: ''
+keywords: MessagingPerformance
+task: IoCompletionPort
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ptr1
+- field_type: Pointer
+  field_name: ptr2
+- field_type: Pointer
+  field_name: ptr3
+- field_type: UInt32
+  field_name: hex

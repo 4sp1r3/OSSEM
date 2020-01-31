@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ReadyBoost
+event_id: '1007'
+version: '1'
+event(fields): ReadyBoost1007_V1(UnicodeString DeviceName)
+opcode: ''
+keywords: ReadyBoost
+task: ReadyBoost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceName

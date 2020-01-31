@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSPaint
+event_id: '26'
+version: '0'
+event(fields): SaveDrawingStop(Int32 Saveoperationresult)
+opcode: Stop
+keywords: ''
+task: SaveDrawing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Saveoperationresult

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18540'
+version: '0'
+event(fields): Shell32_ControlPanel_NavPane_InitStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_ControlPanel_NavPane_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

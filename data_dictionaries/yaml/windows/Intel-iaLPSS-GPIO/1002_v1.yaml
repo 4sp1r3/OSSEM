@@ -1,0 +1,18 @@
+provider: Intel-iaLPSS-GPIO
+event_id: '1002'
+version: '1'
+event(fields): EnumerationofGPIOxdriver1002_V1(Pointer FxDevice, Pointer IOAddr, HexInt32
+  IOLen)
+opcode: ''
+keywords: ''
+task: EnumerationofGPIOxdriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FxDevice
+- field_type: Pointer
+  field_name: IOAddr
+- field_type: HexInt32
+  field_name: IOLen

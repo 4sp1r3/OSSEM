@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '64506'
+version: '0'
+event(fields): LockScreenCallBroker_OnUnlockingStop(UInt32 HRESULT)
+opcode: Stop
+keywords: ''
+task: LockScreenCallBroker_OnUnlocking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

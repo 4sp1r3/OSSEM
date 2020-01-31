@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-WinRM
+event_id: '1841'
+version: '0'
+event(fields): WinrmOperation1841(UInt32 errorCode, UnicodeString extraInformation1,
+  UnicodeString extraInformation2, UnicodeString extraInformation3, UnicodeString
+  extraInformation4)
+opcode: ''
+keywords: Keyword.Error
+task: WinrmOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: extraInformation1
+- field_type: UnicodeString
+  field_name: extraInformation2
+- field_type: UnicodeString
+  field_name: extraInformation3
+- field_type: UnicodeString
+  field_name: extraInformation4

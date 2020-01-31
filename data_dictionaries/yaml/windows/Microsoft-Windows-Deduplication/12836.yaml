@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '12836'
+version: '0'
+event(fields): DataDeduplicationScrubbingTask12836(GUID JobInstanceId, FILETIME DetectionTime,
+  UnicodeString VolumeGuidPath, Boolean Fixed, UInt64 FileId, UnicodeString FilePath,
+  UInt64 TargetFileId, UnicodeString TargetFilePath, UInt32 CorruptionType)
+opcode: ''
+keywords: Reporting
+task: DataDeduplicationScrubbingTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: JobInstanceId
+- field_type: FILETIME
+  field_name: DetectionTime
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: Boolean
+  field_name: Fixed
+- field_type: UInt64
+  field_name: FileId
+- field_type: UnicodeString
+  field_name: FilePath
+- field_type: UInt64
+  field_name: TargetFileId
+- field_type: UnicodeString
+  field_name: TargetFilePath
+- field_type: UInt32
+  field_name: CorruptionType

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '36'
+version: '0'
+event(fields): task_036(Pointer Process, Pointer ListenEndpoint, Binary Address, UInt16
+  Port)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: ListenEndpoint
+- field_type: Binary
+  field_name: Address
+- field_type: UInt16
+  field_name: Port

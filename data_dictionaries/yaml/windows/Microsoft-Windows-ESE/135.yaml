@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-ESE
+event_id: '135'
+version: '0'
+event(fields): ESE_GPTaskManagerRun_Trace(Pointer pgptm, Pointer pfnCompletion, Pointer
+  pvParam, Pointer pTaskInfo)
+opcode: ''
+keywords: Task
+task: ESE_GPTaskManagerRun_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pgptm
+- field_type: Pointer
+  field_name: pfnCompletion
+- field_type: Pointer
+  field_name: pvParam
+- field_type: Pointer
+  field_name: pTaskInfo

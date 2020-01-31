@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '302'
+version: '0'
+event(fields): RecycleRangeTracking302(Pointer Range, UInt32 PreviousState, UInt32
+  NewState)
+opcode: ''
+keywords: Memory
+task: RecycleRangeTracking
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Range
+- field_type: UInt32
+  field_name: PreviousState
+- field_type: UInt32
+  field_name: NewState

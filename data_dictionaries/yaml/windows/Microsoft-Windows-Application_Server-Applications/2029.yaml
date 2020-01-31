@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '2029'
+version: '0'
+event(fields): VBExpressionCompileStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: WFRuntime
+task: VBExpressionCompile
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

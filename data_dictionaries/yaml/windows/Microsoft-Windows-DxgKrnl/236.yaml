@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '236'
+version: '0'
+event(fields): RuntimePowerManagement236(Pointer AdapterHandle, UInt32 DevicePowerState,
+  UInt32 Reason)
+opcode: ''
+keywords: DxgKrnl_Power
+task: RuntimePowerManagement
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdapterHandle
+- field_type: UInt32
+  field_name: DevicePowerState
+- field_type: UInt32
+  field_name: Reason

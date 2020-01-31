@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '3008'
+version: '0'
+event(fields): Generate_Album_Art_ElementStop(UInt32 ElementCount, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Generate_Album_Art_Element
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ElementCount
+- field_type: UInt32
+  field_name: ErrorCode

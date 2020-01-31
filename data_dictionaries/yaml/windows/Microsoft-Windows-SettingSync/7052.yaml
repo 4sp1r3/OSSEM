@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7052'
+version: '0'
+event(fields): Perf_WLRoamUploadBatchNetworkRequestStop()
+opcode: Stop
+keywords: RoamingSettings
+task: Perf_WLRoamUploadBatchNetworkRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

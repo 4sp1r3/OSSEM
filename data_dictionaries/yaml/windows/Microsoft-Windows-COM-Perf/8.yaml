@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '8'
+version: '0'
+event(fields): Windows_Runtime_GetActivationFactory_InProcStop()
+opcode: Stop
+keywords: ''
+task: Windows_Runtime_GetActivationFactory_InProc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

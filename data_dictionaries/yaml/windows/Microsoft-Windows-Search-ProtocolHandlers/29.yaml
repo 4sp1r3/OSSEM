@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-ProtocolHandlers
+event_id: '29'
+version: '0'
+event(fields): MapiEmailItemStop()
+opcode: Stop
+keywords: MAPIPH
+task: MapiEmailItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

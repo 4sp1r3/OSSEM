@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '32'
+version: '0'
+event(fields): OPMGetInformation()
+opcode: GetInformation
+keywords: DdiCallbacks
+task: OPM
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

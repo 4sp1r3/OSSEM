@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wallet
+event_id: '314'
+version: '0'
+event(fields): Core_ProcessPackageStop()
+opcode: Stop
+keywords: Performance
+task: Core_ProcessPackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

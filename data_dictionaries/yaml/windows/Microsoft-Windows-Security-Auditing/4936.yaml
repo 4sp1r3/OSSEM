@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4936'
+version: '0'
+event(fields): task_04936(UInt32 ReplicationEvent, UInt32 AuditStatusCode, UInt32
+  ReplicationStatusCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ReplicationEvent
+- field_type: UInt32
+  field_name: AuditStatusCode
+- field_type: UInt32
+  field_name: ReplicationStatusCode

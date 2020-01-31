@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FileHistory-Core
+event_id: '202'
+version: '0'
+event(fields): task_0202(UInt32 Hr, UnicodeString ConfigFilePath)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Hr
+- field_type: UnicodeString
+  field_name: ConfigFilePath

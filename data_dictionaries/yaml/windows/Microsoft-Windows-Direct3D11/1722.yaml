@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1722'
+version: '0'
+event(fields): ID3D11VideoDevice_CreateVideoDecoderStart(Pointer pThis, UInt8 pVideoDescTID_D3D11_VIDEO_DECODER_DESC,
+  UInt32 pConfigTID_D3D11_VIDEO_DECODER_CONFIG, Pointer ppDecoder)
+opcode: Start
+keywords: ''
+task: ID3D11VideoDevice_CreateVideoDecoder
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt8
+  field_name: pVideoDescTID_D3D11_VIDEO_DECODER_DESC
+- field_type: UInt32
+  field_name: pConfigTID_D3D11_VIDEO_DECODER_CONFIG
+- field_type: Pointer
+  field_name: ppDecoder

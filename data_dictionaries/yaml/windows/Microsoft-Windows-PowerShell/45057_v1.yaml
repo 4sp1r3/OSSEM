@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45057'
+version: '1'
+event(fields): NoneTobeusedwhenanexceptionisraised45057_V1(UnicodeString Message,
+  UnicodeString Category, UnicodeString Reason, UnicodeString TargetName, UnicodeString
+  FullyQualifiedErrorId, UnicodeString ExceptionMessage, UnicodeString ExceptionStackTrace,
+  UnicodeString ExceptionInnerException)
+opcode: Tobeusedwhenanexceptionisraised
+keywords: ''
+task: None
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UnicodeString
+  field_name: Category
+- field_type: UnicodeString
+  field_name: Reason
+- field_type: UnicodeString
+  field_name: TargetName
+- field_type: UnicodeString
+  field_name: FullyQualifiedErrorId
+- field_type: UnicodeString
+  field_name: ExceptionMessage
+- field_type: UnicodeString
+  field_name: ExceptionStackTrace
+- field_type: UnicodeString
+  field_name: ExceptionInnerException

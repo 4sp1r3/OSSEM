@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-FunctionDiscovery
+event_id: '1053'
+version: '0'
+event(fields): FunDisc_PropertiesGetValueStop(UnicodeString FunctionInstanceID, GUID
+  fmtid, HexInt32 pid)
+opcode: Stop
+keywords: ''
+task: FunDisc_PropertiesGetValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FunctionInstanceID
+- field_type: GUID
+  field_name: fmtid
+- field_type: HexInt32
+  field_name: pid

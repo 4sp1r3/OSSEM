@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '64'
+version: '0'
+event(fields): RECO_DLL_DetachStop()
+opcode: Stop
+keywords: ''
+task: RECO_DLL_Detach
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

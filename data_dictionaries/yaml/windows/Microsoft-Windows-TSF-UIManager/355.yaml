@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '355'
+version: '0'
+event(fields): CandidateView_SetCandidateListStart()
+opcode: Start
+keywords: TSF_UIManager
+task: CandidateView_SetCandidateList
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

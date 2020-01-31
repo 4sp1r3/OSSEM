@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WebIO
+event_id: '727'
+version: '0'
+event(fields): SSLConnectionBufferReceiveReallocate(Pointer Connection, Pointer OldBuffer,
+  Pointer NewBuffer)
+opcode: Reallocate
+keywords: Keyword.RECEIVE
+task: SSLConnectionBufferReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: OldBuffer
+- field_type: Pointer
+  field_name: NewBuffer

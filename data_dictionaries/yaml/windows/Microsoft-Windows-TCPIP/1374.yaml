@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1374'
+version: '0'
+event(fields): RemoteEndpoint(UInt32 AddressLength, Binary RemoteAddress, UInt64 RemotePort,
+  Binary LocalAddress, UInt16 LocalPort, UInt64 PartitionId, UInt64 NumEntries)
+opcode: ''
+keywords: ut:AleRemoteEndpoint
+task: RemoteEndpoint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt64
+  field_name: RemotePort
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt16
+  field_name: LocalPort
+- field_type: UInt64
+  field_name: PartitionId
+- field_type: UInt64
+  field_name: NumEntries

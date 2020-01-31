@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-VAN
+event_id: '8009'
+version: '0'
+event(fields): DisconnectStart()
+opcode: Start
+keywords: ''
+task: Disconnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

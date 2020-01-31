@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1175'
+version: '0'
+event(fields): Wininet_CacheServerContainerStart1175(Pointer Object, UInt32 Type,
+  UInt32 Flags, UnicodeString Url, UnicodeString Redirect, UnicodeString Filename,
+  UnicodeString Extension)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_CacheServerContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Flags
+- field_type: UnicodeString
+  field_name: Url
+- field_type: UnicodeString
+  field_name: Redirect
+- field_type: UnicodeString
+  field_name: Filename
+- field_type: UnicodeString
+  field_name: Extension

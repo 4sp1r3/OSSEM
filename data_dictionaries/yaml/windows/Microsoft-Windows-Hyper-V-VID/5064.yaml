@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5064'
+version: '0'
+event(fields): VMT_VID_GPA_UNMAPStart(UInt64 FirstPage, UInt64 LastPage, GUID PartitionGuid)
+opcode: Start
+keywords: VMK_GPA
+task: VMT_VID_GPA_UNMAP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: FirstPage
+- field_type: UInt64
+  field_name: LastPage
+- field_type: GUID
+  field_name: PartitionGuid

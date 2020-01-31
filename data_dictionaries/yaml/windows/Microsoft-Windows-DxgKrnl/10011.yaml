@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '10011'
+version: '0'
+event(fields): PerfTrack_Dxgkrnl_StateChangeNotify(UInt32 Type, Pointer Source)
+opcode: ''
+keywords: Dxgkrnl_StatusChangeNotify DxgKrnl
+task: PerfTrack_Dxgkrnl_StateChangeNotify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type
+- field_type: Pointer
+  field_name: Source

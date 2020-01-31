@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ESE
+event_id: '156'
+version: '0'
+event(fields): ESE_InstStationId_Trace(UInt8 tsidr, UInt32 iInstance, UInt8 perfstatusEvent,
+  UnicodeString wszInstanceName, UnicodeString wszDisplayName)
+opcode: ''
+keywords: StationId
+task: ESE_InstStationId_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: tsidr
+- field_type: UInt32
+  field_name: iInstance
+- field_type: UInt8
+  field_name: perfstatusEvent
+- field_type: UnicodeString
+  field_name: wszInstanceName
+- field_type: UnicodeString
+  field_name: wszDisplayName

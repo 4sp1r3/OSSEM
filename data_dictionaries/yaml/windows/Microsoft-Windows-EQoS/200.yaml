@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-EQoS
+event_id: '200'
+version: '0'
+event(fields): task_0200(UInt32 PolicyType, UInt32 NtStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PolicyType
+- field_type: UInt32
+  field_name: NtStatus

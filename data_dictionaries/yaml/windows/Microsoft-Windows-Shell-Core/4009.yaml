@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '4009'
+version: '0'
+event(fields): CTray_MessageLoop_Return4009()
+opcode: ''
+keywords: Shell
+task: CTray_MessageLoop_Return
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

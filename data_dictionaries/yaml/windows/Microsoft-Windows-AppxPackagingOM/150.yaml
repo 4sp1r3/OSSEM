@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '150'
+version: '0'
+event(fields): DigitalSignatureVerifying(HexInt32 errorCode, UnicodeString expectedValue,
+  UnicodeString actualValue)
+opcode: Verifying
+keywords: ''
+task: DigitalSignature
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: expectedValue
+- field_type: UnicodeString
+  field_name: actualValue

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '72'
+version: '1'
+event(fields): UpdateTargetBindingStart_V1(UInt64 ElementId, UInt64 ParentId, UnicodeString
+  PropertyName, UnicodeString ModelTypeName, UnicodeString ModelPropertyName, Boolean
+  IsPropertyTemplateBound, UInt32 EffectiveSourceType)
+opcode: Start
+keywords: ''
+task: UpdateTargetBinding
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UInt64
+  field_name: ParentId
+- field_type: UnicodeString
+  field_name: PropertyName
+- field_type: UnicodeString
+  field_name: ModelTypeName
+- field_type: UnicodeString
+  field_name: ModelPropertyName
+- field_type: Boolean
+  field_name: IsPropertyTemplateBound
+- field_type: UInt32
+  field_name: EffectiveSourceType

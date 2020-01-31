@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7451'
+version: '0'
+event(fields): ConnectedSearch_LogPerfImagesLoading()
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogPerfImagesLoading
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1043'
+version: '0'
+event(fields): DeviceError1043(UnicodeString Guid)
+opcode: ''
+keywords: ''
+task: DeviceError
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Guid

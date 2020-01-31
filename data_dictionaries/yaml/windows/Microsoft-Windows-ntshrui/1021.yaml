@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ntshrui
+event_id: '1021'
+version: '0'
+event(fields): Minimized_Sharing_Wizard_End_To_EndStart()
+opcode: Start
+keywords: ''
+task: Minimized_Sharing_Wizard_End_To_End
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '305'
+version: '0'
+event(fields): MediaFoundationMFTEnumStart305(HexInt32 flags, GUID Category, GUID
+  inputType, GUID inputSubtype, GUID outputType, GUID outputSubtype, Boolean luidSet)
+opcode: Start
+keywords: ''
+task: MediaFoundationMFTEnum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: flags
+- field_type: GUID
+  field_name: Category
+- field_type: GUID
+  field_name: inputType
+- field_type: GUID
+  field_name: inputSubtype
+- field_type: GUID
+  field_name: outputType
+- field_type: GUID
+  field_name: outputSubtype
+- field_type: Boolean
+  field_name: luidSet

@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '856'
+version: '0'
+event(fields): Mshtml_EventLoop_MessageGroupAlreadyQueued()
+opcode: ''
+keywords: gwnd
+task: Mshtml_EventLoop_MessageGroupAlreadyQueued
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

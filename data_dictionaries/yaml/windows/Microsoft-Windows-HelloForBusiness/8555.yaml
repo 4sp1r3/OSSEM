@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8555'
+version: '0'
+event(fields): ContainerCreationStop8555(UInt32 ProcessingTime)
+opcode: Stop
+keywords: Internal
+task: ContainerCreation
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessingTime

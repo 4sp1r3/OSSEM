@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1240'
+version: '0'
+event(fields): ForegroundTaskManagerGetApplicationDisplayNameStart()
+opcode: Start
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerGetApplicationDisplayName
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

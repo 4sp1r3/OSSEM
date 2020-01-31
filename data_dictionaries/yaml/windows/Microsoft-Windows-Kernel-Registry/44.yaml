@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '44'
+version: '0'
+event(fields): Thisgroupofeventstrackstheperformanceofexportinghives.RegPerfOpSaveFileWritten()
+opcode: RegPerfOpSaveFileWritten
+keywords: ''
+task: Thisgroupofeventstrackstheperformanceofexportinghives.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

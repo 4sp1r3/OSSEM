@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WebIO
+event_id: '105'
+version: '0'
+event(fields): Endpoint(Pointer Request, Pointer ServerEndpoint, Pointer ProxyEndpoint,
+  Pointer ConnectionManager)
+opcode: ''
+keywords: ''
+task: Endpoint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: Pointer
+  field_name: ServerEndpoint
+- field_type: Pointer
+  field_name: ProxyEndpoint
+- field_type: Pointer
+  field_name: ConnectionManager

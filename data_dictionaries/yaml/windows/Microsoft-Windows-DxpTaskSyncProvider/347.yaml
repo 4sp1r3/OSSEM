@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxpTaskSyncProvider
+event_id: '347'
+version: '0'
+event(fields): DxpTaskSync_MediaSaveStop()
+opcode: Stop
+keywords: ''
+task: DxpTaskSync_MediaSave
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

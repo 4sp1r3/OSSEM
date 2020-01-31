@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '228'
+version: '0'
+event(fields): RemoteFXmodule_4Runtime228(UnicodeString ComponentName, UnicodeString
+  Message, UInt32 ErrorCode)
+opcode: Runtime
+keywords: ''
+task: RemoteFXmodule_4
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ComponentName
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UInt32
+  field_name: ErrorCode

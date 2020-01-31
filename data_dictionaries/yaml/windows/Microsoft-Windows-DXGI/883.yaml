@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '883'
+version: '0'
+event(fields): IDXGISwapChainPartner_PresentExStop(UInt32 m_Ret)
+opcode: Stop
+keywords: ''
+task: IDXGISwapChainPartner_PresentEx
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40017'
+version: '0'
+event(fields): VReg.NotifyChangeKeyStop()
+opcode: Stop
+keywords: ''
+task: VReg.NotifyChangeKey
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

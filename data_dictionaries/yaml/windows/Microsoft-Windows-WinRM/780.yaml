@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '780'
+version: '0'
+event(fields): Requesthandling780(UnicodeString param1)
+opcode: ''
+keywords: Keyword.Client Keyword.Server
+task: Requesthandling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

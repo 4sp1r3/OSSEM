@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Diagnosis-Scheduled
+event_id: '9'
+version: '0'
+event(fields): task_09(UnicodeString RootCauseID, UnicodeString RootCauseName, UnicodeString
+  RootCauseDescription)
+opcode: ''
+keywords: lifecycle
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RootCauseID
+- field_type: UnicodeString
+  field_name: RootCauseName
+- field_type: UnicodeString
+  field_name: RootCauseDescription

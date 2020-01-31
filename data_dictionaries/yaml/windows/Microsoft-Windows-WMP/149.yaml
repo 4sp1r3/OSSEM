@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '149'
+version: '0'
+event(fields): METADATAPLUGIN(UnicodeString Name, UInt32 HRESULT)
+opcode: ''
+keywords: metadataplugin
+task: METADATAPLUGIN
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt32
+  field_name: HRESULT

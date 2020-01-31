@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '316'
+version: '0'
+event(fields): AppXPackaging.Task.BlockMapReader.CreateStart()
+opcode: Start
+keywords: ''
+task: AppXPackaging.Task.BlockMapReader.Create
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

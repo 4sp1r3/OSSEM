@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1904'
+version: '0'
+event(fields): task_01904(HexInt64 NetLuid, HexInt32 Status)
+opcode: ''
+keywords: Nsi
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: NetLuid
+- field_type: HexInt32
+  field_name: Status

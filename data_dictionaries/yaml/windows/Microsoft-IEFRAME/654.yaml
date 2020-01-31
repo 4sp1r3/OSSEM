@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '654'
+version: '0'
+event(fields): Browseui_TabBand_Activity654(Int32 tabID)
+opcode: ''
+keywords: HUX
+task: Browseui_TabBand_Activity
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: tabID

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerCpl
+event_id: '107'
+version: '0'
+event(fields): PowerCpl_InitializePageStart107()
+opcode: Start
+keywords: PowerCpl
+task: PowerCpl_InitializePage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

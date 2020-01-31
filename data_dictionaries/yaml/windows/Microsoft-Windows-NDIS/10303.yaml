@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10303'
+version: '0'
+event(fields): Power10303(UInt64 InterfaceLuid, UInt32 ComponentId, UInt32 ComponentRefCount,
+  UInt32 InterfaceRefCount)
+opcode: ''
+keywords: Power LwtDiagnostic
+task: Power
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: InterfaceLuid
+- field_type: UInt32
+  field_name: ComponentId
+- field_type: UInt32
+  field_name: ComponentRefCount
+- field_type: UInt32
+  field_name: InterfaceRefCount

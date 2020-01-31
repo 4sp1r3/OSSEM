@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Crashdump
+event_id: '2'
+version: '1'
+event(fields): RransfersizesettingsOpCodeTransferSizes_V1(UInt32 Minimum, UInt32 Maximum)
+opcode: OpCodeTransferSizes
+keywords: Config
+task: Rransfersizesettings
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Minimum
+- field_type: UInt32
+  field_name: Maximum

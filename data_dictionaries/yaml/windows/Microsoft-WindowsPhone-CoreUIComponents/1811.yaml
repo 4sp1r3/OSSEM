@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1811'
+version: '0'
+event(fields): RotationManagerStartOrientationServiceStart()
+opcode: Start
+keywords: Performance RotationManager
+task: RotationManagerStartOrientationService
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

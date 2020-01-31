@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataUtils
+event_id: '600'
+version: '0'
+event(fields): task_0600(Int32 P1_Int32)
+opcode: ''
+keywords: UserDataAccessUtils
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: P1_Int32

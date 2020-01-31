@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '221'
+version: '0'
+event(fields): ProcessQueuedMouseEventsStart()
+opcode: Start
+keywords: MessagePumpInternalAndInput ComponentHosting
+task: ProcessQueuedMouseEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

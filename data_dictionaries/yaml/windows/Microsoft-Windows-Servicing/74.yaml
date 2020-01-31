@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Servicing
+event_id: '74'
+version: '0'
+event(fields): Generic_Task74(UnicodeString DescString)
+opcode: ''
+keywords: ''
+task: Generic_Task
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DescString

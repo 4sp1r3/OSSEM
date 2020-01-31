@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '8196'
+version: '1'
+event(fields): ConnectOpen(async)8196_V1()
+opcode: Open(async)
+keywords: Runspace
+task: Connect
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

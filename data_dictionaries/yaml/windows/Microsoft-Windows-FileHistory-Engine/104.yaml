@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-Engine
+event_id: '104'
+version: '0'
+event(fields): task_0104(UnicodeString Path)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path

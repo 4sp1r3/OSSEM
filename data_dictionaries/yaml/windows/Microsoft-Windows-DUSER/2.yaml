@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUSER
+event_id: '2'
+version: '0'
+event(fields): DUser_PaintStop()
+opcode: Stop
+keywords: Default
+task: DUser_Paint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

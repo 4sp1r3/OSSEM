@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '14029'
+version: '1'
+event(fields): Streaming14029_V1(UnicodeString Item)
+opcode: ''
+keywords: Streaming
+task: Streaming
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Item

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '365'
+version: '0'
+event(fields): COMPUTESCRIBBLE_FRAMEDISPATCHStart(UInt64 FrameID, UInt8 Framebuffer)
+opcode: Start
+keywords: DwmCore
+task: COMPUTESCRIBBLE_FRAMEDISPATCH
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: FrameID
+- field_type: UInt8
+  field_name: Framebuffer

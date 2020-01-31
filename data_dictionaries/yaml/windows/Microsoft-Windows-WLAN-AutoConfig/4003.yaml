@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '4003'
+version: '0'
+event(fields): task_04003(UInt32 Event, HexInt32 ErrorCode, UInt32 ChangeReason, UInt32
+  IpFamily)
+opcode: ''
+keywords: Telemetry
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Event
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: ChangeReason
+- field_type: UInt32
+  field_name: IpFamily

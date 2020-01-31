@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '106'
+version: '0'
+event(fields): AudStreamSink_GetDevicePosition_TaskStop(Pointer object, Int32 hResult,
+  Int64 pullBytePosition, Int64 phnsCorrelatedTime, Boolean m_bIsCompressedStream)
+opcode: Stop
+keywords: ''
+task: AudStreamSink_GetDevicePosition_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: hResult
+- field_type: Int64
+  field_name: pullBytePosition
+- field_type: Int64
+  field_name: phnsCorrelatedTime
+- field_type: Boolean
+  field_name: m_bIsCompressedStream

@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Resource-Exhaustion-Resolver
+event_id: '1008'
+version: '0'
+event(fields): UIEventsEventsloggedafterUIislaunchedorafteranattempttolaunchtheUIismade.(UInt32
+  ErrorCode)
+opcode: EventsloggedafterUIislaunchedorafteranattempttolaunchtheUIismade.
+keywords: RDR_RES_KEYWORD_MEMORY_EXHAUSTION
+task: UIEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

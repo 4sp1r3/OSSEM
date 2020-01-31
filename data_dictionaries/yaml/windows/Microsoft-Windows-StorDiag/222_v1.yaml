@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '222'
+version: '1'
+event(fields): ClassCompletionofrequest.222_V1(GUID DeviceGUID, UInt32 DeviceNumber,
+  UInt64 RequestDurationin100ns, Pointer UpperLevelIrp, HexInt32 IrpStatus, UInt32
+  DsmFlags, UInt32 DataSetRangesCount, UInt32 DataSetRanges)
+opcode: Completionofrequest.
+keywords: keyword_400000000000
+task: Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGUID
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: UInt64
+  field_name: RequestDurationin100ns
+- field_type: Pointer
+  field_name: UpperLevelIrp
+- field_type: HexInt32
+  field_name: IrpStatus
+- field_type: UInt32
+  field_name: DsmFlags
+- field_type: UInt32
+  field_name: DataSetRangesCount
+- field_type: UInt32
+  field_name: DataSetRanges

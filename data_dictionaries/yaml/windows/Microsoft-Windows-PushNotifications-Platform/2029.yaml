@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2029'
+version: '0'
+event(fields): task_02029(UnicodeString PackageFullName, UnicodeString AppUserModelID)
+opcode: ''
+keywords: wpnend
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppUserModelID

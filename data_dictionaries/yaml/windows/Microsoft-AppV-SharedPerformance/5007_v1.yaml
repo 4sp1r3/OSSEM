@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '5007'
+version: '1'
+event(fields): ServiceShutdownStart_V1()
+opcode: Start
+keywords: ''
+task: ServiceShutdown
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

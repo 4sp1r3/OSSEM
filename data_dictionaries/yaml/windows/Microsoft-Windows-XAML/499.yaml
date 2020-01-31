@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '499'
+version: '0'
+event(fields): GetSoundPlayerServiceStart()
+opcode: Start
+keywords: Core
+task: GetSoundPlayerService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

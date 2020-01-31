@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '240'
+version: '0'
+event(fields): DebugIPCEventStart()
+opcode: Start
+keywords: DebuggerKeyword
+task: DebugIPCEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

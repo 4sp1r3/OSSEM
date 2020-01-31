@@ -1,0 +1,75 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '24'
+version: '0'
+event(fields): AdapterStart(Pointer pDeviceObject, Pointer pDxgAdapter, UInt32 NbVidPnSources,
+  UInt64 HighestAcceptableAddress, UInt32 MaxSlotId, UInt64 ApertureSegmentCommitLimit,
+  UInt32 MaxPointerWidth, UInt32 MaxPointerHeight, UInt32 InterruptMessageNumber,
+  UInt32 NumberOfSwizzlingRanges, UInt32 MaxOverlays, UInt32 MaxQueuedFlipOnVSync,
+  UInt32 PointerCaps, UInt32 GammaRampCaps, UInt32 PresentationCaps, UInt8 AlignmentShift,
+  UInt8 MaxTextureWidthShift, UInt8 MaxTextureHeightShift, UInt8 Reserved, UInt32
+  FlipCaps, UInt32 SchedulingCaps, UInt32 ReservedMemoryManagementCaps, UInt32 PagingNode,
+  UInt32 NbAsymetricProcessingNodes, UInt32 ReservedTopology, UInt32 NumPowerComponents,
+  UInt32 AdapterType, Pointer pMiniportContext)
+opcode: Start
+keywords: Resource LongHaul
+task: Adapter
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDeviceObject
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: NbVidPnSources
+- field_type: UInt64
+  field_name: HighestAcceptableAddress
+- field_type: UInt32
+  field_name: MaxSlotId
+- field_type: UInt64
+  field_name: ApertureSegmentCommitLimit
+- field_type: UInt32
+  field_name: MaxPointerWidth
+- field_type: UInt32
+  field_name: MaxPointerHeight
+- field_type: UInt32
+  field_name: InterruptMessageNumber
+- field_type: UInt32
+  field_name: NumberOfSwizzlingRanges
+- field_type: UInt32
+  field_name: MaxOverlays
+- field_type: UInt32
+  field_name: MaxQueuedFlipOnVSync
+- field_type: UInt32
+  field_name: PointerCaps
+- field_type: UInt32
+  field_name: GammaRampCaps
+- field_type: UInt32
+  field_name: PresentationCaps
+- field_type: UInt8
+  field_name: AlignmentShift
+- field_type: UInt8
+  field_name: MaxTextureWidthShift
+- field_type: UInt8
+  field_name: MaxTextureHeightShift
+- field_type: UInt8
+  field_name: Reserved
+- field_type: UInt32
+  field_name: FlipCaps
+- field_type: UInt32
+  field_name: SchedulingCaps
+- field_type: UInt32
+  field_name: ReservedMemoryManagementCaps
+- field_type: UInt32
+  field_name: PagingNode
+- field_type: UInt32
+  field_name: NbAsymetricProcessingNodes
+- field_type: UInt32
+  field_name: ReservedTopology
+- field_type: UInt32
+  field_name: NumPowerComponents
+- field_type: UInt32
+  field_name: AdapterType
+- field_type: Pointer
+  field_name: pMiniportContext

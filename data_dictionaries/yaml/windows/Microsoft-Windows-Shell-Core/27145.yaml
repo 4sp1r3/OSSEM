@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27145'
+version: '0'
+event(fields): PerfTrack_StartMenu_Search_PageDisplayedStart(UInt32 BrowserId)
+opcode: Start
+keywords: Shell
+task: PerfTrack_StartMenu_Search_PageDisplayed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BrowserId

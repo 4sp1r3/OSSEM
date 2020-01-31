@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '1521'
+version: '0'
+event(fields): DocPerf_Task_Wia_Event_HandlerStop()
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_Wia_Event_Handler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

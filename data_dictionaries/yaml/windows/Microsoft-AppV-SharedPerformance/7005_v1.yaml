@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '7005'
+version: '1'
+event(fields): VirtualEnvironmentCreatedFinalizeStart_V1()
+opcode: Start
+keywords: ''
+task: VirtualEnvironmentCreatedFinalize
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

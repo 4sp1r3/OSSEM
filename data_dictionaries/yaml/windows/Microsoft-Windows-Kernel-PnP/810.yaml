@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '810'
+version: '0'
+event(fields): ReenumerateDeviceTree(UnicodeString Device, HexInt32 ReenumerateType)
+opcode: ''
+keywords: Enumeration
+task: ReenumerateDeviceTree
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Device
+- field_type: HexInt32
+  field_name: ReenumerateType

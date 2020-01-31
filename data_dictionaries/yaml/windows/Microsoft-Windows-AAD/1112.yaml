@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AAD
+event_id: '1112'
+version: '0'
+event(fields): AadAadtbOperation1112(UInt32 Error, UnicodeString ErrorMessage, UnicodeString
+  AdditionalInformation)
+opcode: ''
+keywords: Error Operational
+task: AadAadtbOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: AdditionalInformation

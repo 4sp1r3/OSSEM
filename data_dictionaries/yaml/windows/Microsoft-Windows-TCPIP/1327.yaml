@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1327'
+version: '0'
+event(fields): IpSortedAddressPairs(UInt32 IpAddrLength, Binary PreferredSourceIPAddress,
+  Binary PreferredDestinationIPAddress, Binary NonPreferredSourceIPAddress, Binary
+  NonPreferredDestinationIPAddress, UInt32 SortOption, AnsiString RuleType, UInt32
+  RuleMajor, UInt32 RuleMinor)
+opcode: ''
+keywords: ut:TcpipRoute
+task: IpSortedAddressPairs
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: Binary
+  field_name: PreferredSourceIPAddress
+- field_type: Binary
+  field_name: PreferredDestinationIPAddress
+- field_type: Binary
+  field_name: NonPreferredSourceIPAddress
+- field_type: Binary
+  field_name: NonPreferredDestinationIPAddress
+- field_type: UInt32
+  field_name: SortOption
+- field_type: AnsiString
+  field_name: RuleType
+- field_type: UInt32
+  field_name: RuleMajor
+- field_type: UInt32
+  field_name: RuleMinor

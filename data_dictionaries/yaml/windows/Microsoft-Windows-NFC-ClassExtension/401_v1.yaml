@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-NFC-ClassExtension
+event_id: '401'
+version: '1'
+event(fields): task_0401_V1(UInt32 IdleTimeout, UInt32 PollDevInfo, UInt8 NfcIp_Mode,
+  UInt32 Duration, UInt16 LLCP_MIU, UInt8 LLCP_LTO, UInt8 LLCP_RecvWindowSize)
+opcode: ''
+keywords: Device
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IdleTimeout
+- field_type: UInt32
+  field_name: PollDevInfo
+- field_type: UInt8
+  field_name: NfcIp_Mode
+- field_type: UInt32
+  field_name: Duration
+- field_type: UInt16
+  field_name: LLCP_MIU
+- field_type: UInt8
+  field_name: LLCP_LTO
+- field_type: UInt8
+  field_name: LLCP_RecvWindowSize

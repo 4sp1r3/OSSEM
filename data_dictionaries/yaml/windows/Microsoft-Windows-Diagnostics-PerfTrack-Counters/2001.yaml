@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack-Counters
+event_id: '2001'
+version: '0'
+event(fields): PerfTrackCounter_FileCache(Pointer CurrentSize, Pointer PeakSize, Pointer
+  MinimumWorkingSet, Pointer MaximumWorkingSet, Pointer CurrentSizeIncludingTransitionInPages,
+  Pointer PeakSizeIncludingTransitionInPages, UInt32 PageFaultCount, UInt32 TransitionRePurposeCount,
+  UInt32 Flags)
+opcode: ''
+keywords: FileCacheCounter
+task: PerfTrackCounter_FileCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CurrentSize
+- field_type: Pointer
+  field_name: PeakSize
+- field_type: Pointer
+  field_name: MinimumWorkingSet
+- field_type: Pointer
+  field_name: MaximumWorkingSet
+- field_type: Pointer
+  field_name: CurrentSizeIncludingTransitionInPages
+- field_type: Pointer
+  field_name: PeakSizeIncludingTransitionInPages
+- field_type: UInt32
+  field_name: PageFaultCount
+- field_type: UInt32
+  field_name: TransitionRePurposeCount
+- field_type: UInt32
+  field_name: Flags

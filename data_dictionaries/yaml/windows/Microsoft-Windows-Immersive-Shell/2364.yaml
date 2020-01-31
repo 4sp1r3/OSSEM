@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2364'
+version: '0'
+event(fields): Launcher_Dismiss_Explicit_ToImmersiveModeStop(UInt32 HowDismissed,
+  UnicodeString AppName, UnicodeString PackageName)
+opcode: Stop
+keywords: ''
+task: Launcher_Dismiss_Explicit_ToImmersiveMode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HowDismissed
+- field_type: UnicodeString
+  field_name: AppName
+- field_type: UnicodeString
+  field_name: PackageName

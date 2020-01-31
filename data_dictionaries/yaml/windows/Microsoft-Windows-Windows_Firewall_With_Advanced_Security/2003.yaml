@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2003'
+version: '0'
+event(fields): task_02003(UInt32 Profiles, UInt32 SettingType, UInt32 SettingValueSize,
+  Binary SettingValue, UnicodeString SettingValueString, UInt32 Origin, SID ModifyingUser,
+  UnicodeString ModifyingApplication)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Profiles
+- field_type: UInt32
+  field_name: SettingType
+- field_type: UInt32
+  field_name: SettingValueSize
+- field_type: Binary
+  field_name: SettingValue
+- field_type: UnicodeString
+  field_name: SettingValueString
+- field_type: UInt32
+  field_name: Origin
+- field_type: SID
+  field_name: ModifyingUser
+- field_type: UnicodeString
+  field_name: ModifyingApplication

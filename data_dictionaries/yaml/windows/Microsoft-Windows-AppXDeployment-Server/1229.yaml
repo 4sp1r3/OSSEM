@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1229'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.SISOptimizationStop1229(HexInt32
+  ErrorCode)
+opcode: Stop
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.SISOptimization
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Resource-Exhaustion-Resolver
+event_id: '1003'
+version: '0'
+event(fields): ResolutionEventsEventsloggedafterperformingtheresolutionactions(UInt32
+  TimeSinceLastUI, FILETIME EventGenerationTime, UInt32 EventType, UInt32 DropReasonCode,
+  UInt8 TimesUIShown, UInt8 MaxCommit)
+opcode: Eventsloggedafterperformingtheresolutionactions
+keywords: RDR_RES_KEYWORD_MEMORY_EXHAUSTION
+task: ResolutionEvents
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimeSinceLastUI
+- field_type: FILETIME
+  field_name: EventGenerationTime
+- field_type: UInt32
+  field_name: EventType
+- field_type: UInt32
+  field_name: DropReasonCode
+- field_type: UInt8
+  field_name: TimesUIShown
+- field_type: UInt8
+  field_name: MaxCommit

@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '55'
+version: '0'
+event(fields): Mshtml_CHtmRootParseCtx_ElementsAdded(UInt32 SourceIndex, UInt32 NumElemsAdded)
+opcode: ''
+keywords: subsystem
+task: Mshtml_CHtmRootParseCtx_ElementsAdded
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SourceIndex
+- field_type: UInt32
+  field_name: NumElemsAdded

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '127'
+version: '0'
+event(fields): DpiDispatchPnpStop(Pointer DeviceObject, UInt32 Status)
+opcode: Stop
+keywords: Base
+task: DpiDispatchPnp
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DeviceObject
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '143'
+version: '0'
+event(fields): RemoteFXmodule_4EstablishConnection143(UInt32 error)
+opcode: EstablishConnection
+keywords: ''
+task: RemoteFXmodule_4
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: error

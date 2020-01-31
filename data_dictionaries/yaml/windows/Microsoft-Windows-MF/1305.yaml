@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MF
+event_id: '1305'
+version: '0'
+event(fields): MFDSFillSampleRequest(Pointer Object, Int32 StreamID, Pointer Sample,
+  Pointer Token, Int32 SampleQueueLen, Int32 RequestQueueLen)
+opcode: ''
+keywords: ''
+task: MFDSFillSampleRequest
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: StreamID
+- field_type: Pointer
+  field_name: Sample
+- field_type: Pointer
+  field_name: Token
+- field_type: Int32
+  field_name: SampleQueueLen
+- field_type: Int32
+  field_name: RequestQueueLen

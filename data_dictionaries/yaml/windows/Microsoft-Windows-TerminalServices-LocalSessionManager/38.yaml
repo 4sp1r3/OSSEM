@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TerminalServices-LocalSessionManager
+event_id: '38'
+version: '0'
+event(fields): task_038(UInt32 SessionId, UInt32 PreviousState, UnicodeString PreviousStateName,
+  UInt32 NewState, UnicodeString NewStateName, UInt32 Event, UnicodeString EventName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: PreviousState
+- field_type: UnicodeString
+  field_name: PreviousStateName
+- field_type: UInt32
+  field_name: NewState
+- field_type: UnicodeString
+  field_name: NewStateName
+- field_type: UInt32
+  field_name: Event
+- field_type: UnicodeString
+  field_name: EventName

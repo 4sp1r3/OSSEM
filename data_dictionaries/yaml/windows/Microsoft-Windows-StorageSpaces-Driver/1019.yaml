@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1019'
+version: '0'
+event(fields): task_01019(GUID SpaceId, UInt32 LogType, UInt32 Copy, UInt32 Lsn, UInt32
+  Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SpaceId
+- field_type: UInt32
+  field_name: LogType
+- field_type: UInt32
+  field_name: Copy
+- field_type: UInt32
+  field_name: Lsn
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2106'
+version: '0'
+event(fields): ImmersiveSettingsPane_DispatchCommandStop(UInt32 Result)
+opcode: Stop
+keywords: ''
+task: ImmersiveSettingsPane_DispatchCommand
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

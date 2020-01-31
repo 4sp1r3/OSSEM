@@ -1,0 +1,11 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '1502'
+version: '0'
+event(fields): SettingsTemplateCatalogProcessingApplySettingsLocationTemplateCatalog1502()
+opcode: ApplySettingsLocationTemplateCatalog
+keywords: ''
+task: SettingsTemplateCatalogProcessing
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '210'
+version: '0'
+event(fields): task_0210(UnicodeString ThrottleName, Int64 Limit, UnicodeString HostReference,
+  UnicodeString AppDomain)
+opcode: ''
+keywords: ServiceModel EndToEndMonitoring HealthMonitoring Troubleshooting Quota
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ThrottleName
+- field_type: Int64
+  field_name: Limit
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

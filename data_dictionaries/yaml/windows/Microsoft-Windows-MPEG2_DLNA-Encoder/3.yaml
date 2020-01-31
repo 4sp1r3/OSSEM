@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MPEG2_DLNA-Encoder
+event_id: '3'
+version: '0'
+event(fields): MPEG_2Encode/MuxforDLNA3(Int64 Timestamp, UInt32 ID)
+opcode: ''
+keywords: ''
+task: MPEG_2Encode/MuxforDLNA
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: Timestamp
+- field_type: UInt32
+  field_name: ID

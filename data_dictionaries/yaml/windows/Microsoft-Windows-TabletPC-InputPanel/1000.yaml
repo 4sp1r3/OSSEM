@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '1000'
+version: '0'
+event(fields): SoftKeyboard_PointerDevice_Size(Int32 ResolutionWidth, Int32 ResolutionHeight,
+  Int32 PhysicalWidthInHiMetric, Int32 PhysicalHeightInHiMetric)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_PointerDevice_Size
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ResolutionWidth
+- field_type: Int32
+  field_name: ResolutionHeight
+- field_type: Int32
+  field_name: PhysicalWidthInHiMetric
+- field_type: Int32
+  field_name: PhysicalHeightInHiMetric

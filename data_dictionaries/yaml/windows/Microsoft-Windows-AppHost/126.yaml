@@ -1,0 +1,39 @@
+provider: Microsoft-Windows-AppHost
+event_id: '126'
+version: '0'
+event(fields): Telemetry.WERReportingAppHostOperationFailed(UnicodeString DisplayName,
+  UnicodeString ApplicationName, UnicodeString AppUserModelId, UnicodeString PackageFullName,
+  Int32 ProcessId, UnicodeString ErrorType, UnicodeString ErrorDescription, UnicodeString
+  DocumentFile, UnicodeString SourceFile, Int32 SourceLine, Int32 SourceColumn, UnicodeString
+  StackTrace)
+opcode: AppHostOperationFailed
+keywords: WWAHOST_KEYWORD
+task: Telemetry.WERReporting
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DisplayName
+- field_type: UnicodeString
+  field_name: ApplicationName
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: Int32
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ErrorType
+- field_type: UnicodeString
+  field_name: ErrorDescription
+- field_type: UnicodeString
+  field_name: DocumentFile
+- field_type: UnicodeString
+  field_name: SourceFile
+- field_type: Int32
+  field_name: SourceLine
+- field_type: Int32
+  field_name: SourceColumn
+- field_type: UnicodeString
+  field_name: StackTrace

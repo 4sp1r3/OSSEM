@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1500'
+version: '0'
+event(fields): IpSubInterfaceCreation1500(UInt32 IfIndex, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis
+task: IpSubInterfaceCreation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: Status

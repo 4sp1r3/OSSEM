@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '149'
+version: '0'
+event(fields): Crawl_Initialize(UInt32 CrawlNo)
+opcode: ''
+keywords: Indexing Gatherer
+task: Crawl_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CrawlNo

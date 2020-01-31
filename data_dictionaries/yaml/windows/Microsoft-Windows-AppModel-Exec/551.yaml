@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '551'
+version: '0'
+event(fields): BM_GlobalPolicyEvaluateReturned(UnicodeString PsmKey, UInt32 HostJobType,
+  GUID WorkItemId, UInt32 EventType, UInt32 ActivationAction, UInt32 WallClockLimitMs)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BM_GlobalPolicyEvaluateReturned
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: HostJobType
+- field_type: GUID
+  field_name: WorkItemId
+- field_type: UInt32
+  field_name: EventType
+- field_type: UInt32
+  field_name: ActivationAction
+- field_type: UInt32
+  field_name: WallClockLimitMs

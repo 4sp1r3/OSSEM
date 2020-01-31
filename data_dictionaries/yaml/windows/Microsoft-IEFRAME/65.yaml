@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '65'
+version: '0'
+event(fields): ExtensionCreateStart(GUID CLSID)
+opcode: Start
+keywords: primarynav
+task: ExtensionCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CLSID

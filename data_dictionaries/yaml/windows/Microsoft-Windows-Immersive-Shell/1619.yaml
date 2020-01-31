@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1619'
+version: '0'
+event(fields): AppsFolder_DualModeVerb(UInt32 AHE_TYPE, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: AppsFolder_DualModeVerb
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AHE_TYPE
+- field_type: UInt32
+  field_name: HRESULT

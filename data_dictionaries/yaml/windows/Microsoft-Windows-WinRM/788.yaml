@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '788'
+version: '0'
+event(fields): Requesthandling788(UnicodeString operationName)
+opcode: ''
+keywords: Keyword.Server
+task: Requesthandling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: operationName

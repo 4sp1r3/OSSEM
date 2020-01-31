@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '3151'
+version: '0'
+event(fields): AutoPlay_Volume_FirstConnect_ToDefaultLaunch(UInt32 Duration)
+opcode: ''
+keywords: ''
+task: AutoPlay_Volume_FirstConnect_ToDefaultLaunch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Duration

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '35004'
+version: '1'
+event(fields): VFSqueryattributesfileStart_V1()
+opcode: Start
+keywords: ''
+task: VFSqueryattributesfile
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

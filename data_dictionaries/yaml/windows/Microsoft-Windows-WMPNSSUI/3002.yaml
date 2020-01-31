@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPNSSUI
+event_id: '3002'
+version: '0'
+event(fields): LaunchMediaSharing_LaunchSharingCPLStop(UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: LaunchMediaSharing_LaunchSharingCPL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

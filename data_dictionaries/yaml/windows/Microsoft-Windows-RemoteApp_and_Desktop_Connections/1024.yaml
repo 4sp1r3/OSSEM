@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-RemoteApp and Desktop Connections
+event_id: '1024'
+version: '0'
+event(fields): Setup1024(UnicodeString Hint, UnicodeString FeedURL, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: Setup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Hint
+- field_type: UnicodeString
+  field_name: FeedURL
+- field_type: UInt32
+  field_name: ErrorCode

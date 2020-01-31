@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1116'
+version: '0'
+event(fields): ConnectionEstablishmentStop1116(UInt32 Error, UInt32 ConnectionType)
+opcode: Stop
+keywords: wpnprv wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage
+  wpntroubleshoot wpndebug_connectivity wpndebug_connectivity_error
+task: ConnectionEstablishment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error
+- field_type: UInt32
+  field_name: ConnectionType

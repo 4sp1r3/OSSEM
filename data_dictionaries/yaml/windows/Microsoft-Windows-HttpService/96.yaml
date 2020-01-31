@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-HttpService
+event_id: '96'
+version: '0'
+event(fields): HTTPSSLTraceTaskSslHandshakeFailure(UInt32 LocalAddressLength, Binary
+  LocalAddress, UInt32 RemoteAddressLength, Binary RemoteAddress, UnicodeString SniHostname,
+  UInt16 ThumbprintLength, Binary Thumbprint, Boolean ClientDisconnect, Boolean AbortiveDisconnect,
+  UInt32 Status)
+opcode: SslHandshakeFailure
+keywords: HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL
+task: HTTPSSLTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UnicodeString
+  field_name: SniHostname
+- field_type: UInt16
+  field_name: ThumbprintLength
+- field_type: Binary
+  field_name: Thumbprint
+- field_type: Boolean
+  field_name: ClientDisconnect
+- field_type: Boolean
+  field_name: AbortiveDisconnect
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '57403'
+version: '0'
+event(fields): task_057403(UnicodeString ExtendedData, UnicodeString AppDomain)
+opcode: ''
+keywords: Infrastructure
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtendedData
+- field_type: UnicodeString
+  field_name: AppDomain

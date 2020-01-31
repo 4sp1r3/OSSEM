@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '405'
+version: '0'
+event(fields): Mshtml_MediaElement_PlayTo_ConnectStop(UInt32 MediaElementId, UnicodeString
+  MediaElementIdAttribute, UnicodeString UniqueDeviceName, UnicodeString FriendlyDeviceName)
+opcode: Stop
+keywords: subsystem mshtml
+task: Mshtml_MediaElement_PlayTo_Connect
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaElementId
+- field_type: UnicodeString
+  field_name: MediaElementIdAttribute
+- field_type: UnicodeString
+  field_name: UniqueDeviceName
+- field_type: UnicodeString
+  field_name: FriendlyDeviceName

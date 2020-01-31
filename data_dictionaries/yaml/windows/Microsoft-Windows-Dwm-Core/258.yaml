@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '258'
+version: '0'
+event(fields): TOUCH_INTERACTION_DEBUG_EVENTS258(UInt32 Refresh)
+opcode: ''
+keywords: DwmCore DwmInput
+task: TOUCH_INTERACTION_DEBUG_EVENTS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Refresh

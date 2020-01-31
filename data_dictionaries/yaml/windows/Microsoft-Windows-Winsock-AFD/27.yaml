@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '27'
+version: '0'
+event(fields): task_027(Pointer Process, Pointer Endpoint, Int32 BufferCount, Pointer
+  Buffer, UInt32 BufferLength, Binary Address, UInt16 Port)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: Int32
+  field_name: BufferCount
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: BufferLength
+- field_type: Binary
+  field_name: Address
+- field_type: UInt16
+  field_name: Port

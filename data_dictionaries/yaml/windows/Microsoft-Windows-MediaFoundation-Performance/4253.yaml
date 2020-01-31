@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4253'
+version: '0'
+event(fields): SessionPresentationSwitchStop(AnsiString tag, Pointer object, Pointer
+  parameter)
+opcode: Stop
+keywords: ''
+task: SessionPresentationSwitch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: parameter

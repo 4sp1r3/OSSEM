@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Search-ProfileNotify
+event_id: '4'
+version: '0'
+event(fields): task_0PCODE_192pcode_1924(UnicodeString OldUserAccount, UnicodeString
+  NewUserAccount, UnicodeString ErrorCode, UnicodeString ErrorMessage, UInt32 __binLength,
+  Binary binary)
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: OldUserAccount
+- field_type: UnicodeString
+  field_name: NewUserAccount
+- field_type: UnicodeString
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: binary

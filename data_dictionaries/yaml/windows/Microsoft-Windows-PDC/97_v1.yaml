@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-PDC
+event_id: '97'
+version: '1'
+event(fields): SpmScenarioRundown_V1(Pointer Scenario, GUID Guid, UInt32 Flags, UInt8
+  State, UInt32 ScenarioNameLength, UnicodeString ScenarioName, GUID ProfileGuid)
+opcode: ''
+keywords: SPM
+task: SpmScenarioRundown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Scenario
+- field_type: GUID
+  field_name: Guid
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt8
+  field_name: State
+- field_type: UInt32
+  field_name: ScenarioNameLength
+- field_type: UnicodeString
+  field_name: ScenarioName
+- field_type: GUID
+  field_name: ProfileGuid

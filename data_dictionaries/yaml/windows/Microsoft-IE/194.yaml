@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '194'
+version: '0'
+event(fields): Mshtml_Scroll_Frame(UInt32 TimeSinceStartUs, UInt32 ExpectedFrameTimeUs,
+  UInt32 LastScrollTimeUs)
+opcode: ''
+keywords: scroll
+task: Mshtml_Scroll_Frame
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimeSinceStartUs
+- field_type: UInt32
+  field_name: ExpectedFrameTimeUs
+- field_type: UInt32
+  field_name: LastScrollTimeUs

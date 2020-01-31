@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '802'
+version: '0'
+event(fields): ChildKeyPanel_Closed()
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: ChildKeyPanel_Closed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

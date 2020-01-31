@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '38012'
+version: '1'
+event(fields): VObjects.ServiceStopRuntimeStart_V1()
+opcode: Start
+keywords: ''
+task: VObjects.ServiceStopRuntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DotNETRuntimeRundown
+event_id: '148'
+version: '0'
+event(fields): MethodDCStopInit()
+opcode: DCStopInit
+keywords: LoaderRundownKeyword JitRundownKeyword NGenRundownKeyword JittedMethodILToNativeMapRundownKeyword
+task: Method
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '280'
+version: '0'
+event(fields): DCompSetPrimitiveGroup(UInt64 DCompVisual, UInt64 PrimitiveGroup)
+opcode: ''
+keywords: DComp
+task: DCompSetPrimitiveGroup
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DCompVisual
+- field_type: UInt64
+  field_name: PrimitiveGroup

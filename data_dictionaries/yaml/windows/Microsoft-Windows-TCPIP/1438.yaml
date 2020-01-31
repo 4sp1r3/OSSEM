@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1438'
+version: '0'
+event(fields): IpSubInterfaceCleanup(UInt32 SubIfIndex, UInt32 IfIndex, UInt32 CompartmentId,
+  UInt32 AddressFamily, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipInterface ut:Global
+task: IpSubInterfaceCleanup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SubIfIndex
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: Status

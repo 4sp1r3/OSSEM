@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '300'
+version: '0'
+event(fields): IHM_InvokeStart(UnicodeString Mode, UnicodeString Method)
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: IHM_Invoke
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Mode
+- field_type: UnicodeString
+  field_name: Method

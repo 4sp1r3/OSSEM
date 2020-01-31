@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '20013'
+version: '1'
+event(fields): SendReportingDataActivityStop_V1()
+opcode: Stop
+keywords: ''
+task: SendReportingDataActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

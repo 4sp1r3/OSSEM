@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppXDeployment
+event_id: '311'
+version: '0'
+event(fields): AppXDeployment.Task.Client.Deployment311(HexInt32 ErrorCode)
+opcode: ''
+keywords: AppXDeployment
+task: AppXDeployment.Task.Client.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

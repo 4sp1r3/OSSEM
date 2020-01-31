@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1044'
+version: '0'
+event(fields): MiracastDetectedUmdDriverWatchdogTimeOut(UInt64 MiracastLuid, UInt32
+  Step)
+opcode: ''
+keywords: Miracast
+task: MiracastDetectedUmdDriverWatchdogTimeOut
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UInt32
+  field_name: Step

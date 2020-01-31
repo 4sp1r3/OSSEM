@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDC
+event_id: '26'
+version: '0'
+event(fields): CsExitPhase(UInt32 Phase, UInt32 Status)
+opcode: ''
+keywords: Cs CsDiag
+task: CsExitPhase
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Phase
+- field_type: UInt32
+  field_name: Status

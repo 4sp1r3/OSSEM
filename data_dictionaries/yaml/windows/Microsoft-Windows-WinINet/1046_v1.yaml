@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1046'
+version: '1'
+event(fields): Wininet_ConnectStop_V1(Pointer Request, UInt32 Socket, UInt32 Protocol,
+  UInt32 LocalAddressLength, Binary LocalAddress, UInt32 RemoteAddressLength, Binary
+  RemoteAddress)
+opcode: Stop
+keywords: WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG
+task: Wininet_Connect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: UInt32
+  field_name: Socket
+- field_type: UInt32
+  field_name: Protocol
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress

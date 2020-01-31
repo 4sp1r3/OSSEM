@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '573'
+version: '0'
+event(fields): SetCustomRuntimeDataForVSMStart()
+opcode: Start
+keywords: Core
+task: SetCustomRuntimeDataForVSM
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '5022'
+version: '0'
+event(fields): Check_Server_KeepAwakeStart(Boolean KeepAwake)
+opcode: Start
+keywords: ''
+task: Check_Server_KeepAwake
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: KeepAwake

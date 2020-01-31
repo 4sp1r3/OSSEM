@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Hyper-V-Guest-Drivers-IcSvc
+event_id: '2'
+version: '0'
+event(fields): task_02(Int32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Status

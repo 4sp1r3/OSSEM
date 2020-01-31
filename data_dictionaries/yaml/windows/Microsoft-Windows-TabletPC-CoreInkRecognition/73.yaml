@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '73'
+version: '0'
+event(fields): RECO_TRAINER_ShapeTrainStart()
+opcode: Start
+keywords: ''
+task: RECO_TRAINER_ShapeTrain
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

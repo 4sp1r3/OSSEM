@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '622'
+version: '0'
+event(fields): Mshtml_CDoc_OnUserVisibilityChangedStart(Boolean Visible, Boolean IsDocInvisible)
+opcode: Start
+keywords: mshtml
+task: Mshtml_CDoc_OnUserVisibilityChanged
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Visible
+- field_type: Boolean
+  field_name: IsDocInvisible

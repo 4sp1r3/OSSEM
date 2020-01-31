@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-DateTimeControlPanel
+event_id: '1003'
+version: '0'
+event(fields): Date/TimeControlPanelApplettimezonefunctionalityDate/TimeControlPanelAppletoperations1003(UInt16
+  wYear, UInt16 wMonth, UInt16 wDayOfWeek, UInt16 wDay, UInt16 wHour, UInt16 wMinute,
+  UInt16 wSecond, UInt16 wMilliseconds, UInt32 ErrorCode, UnicodeString ErrorMessage)
+opcode: Date/TimeControlPanelAppletoperations
+keywords: ''
+task: Date/TimeControlPanelApplettimezonefunctionality
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: wYear
+- field_type: UInt16
+  field_name: wMonth
+- field_type: UInt16
+  field_name: wDayOfWeek
+- field_type: UInt16
+  field_name: wDay
+- field_type: UInt16
+  field_name: wHour
+- field_type: UInt16
+  field_name: wMinute
+- field_type: UInt16
+  field_name: wSecond
+- field_type: UInt16
+  field_name: wMilliseconds
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18643'
+version: '0'
+event(fields): Shell32_SHGetFolderLocationExStart()
+opcode: Start
+keywords: APICalls
+task: Shell32_SHGetFolderLocationEx
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '30'
+version: '0'
+event(fields): InkPanelPaintStart()
+opcode: Start
+keywords: ''
+task: InkPanelPaint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

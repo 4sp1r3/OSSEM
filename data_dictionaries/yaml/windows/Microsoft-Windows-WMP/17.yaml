@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '17'
+version: '0'
+event(fields): LEGACY_EVENTTRANSITIONING()
+opcode: TRANSITIONING
+keywords: mediaplayer
+task: LEGACY_EVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

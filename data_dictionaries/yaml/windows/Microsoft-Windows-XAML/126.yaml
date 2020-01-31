@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '126'
+version: '0'
+event(fields): PrimitiveCompositionEnsureHardwareResourcesStart()
+opcode: Start
+keywords: Rendering
+task: PrimitiveCompositionEnsureHardwareResources
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

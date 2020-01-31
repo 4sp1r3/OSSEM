@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '6'
+version: '0'
+event(fields): HealthCenter_SetState6(UInt32 StateID, UnicodeString CanonicalName,
+  UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: HealthCenter_SetState
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StateID
+- field_type: UnicodeString
+  field_name: CanonicalName
+- field_type: UInt32
+  field_name: HRESULT

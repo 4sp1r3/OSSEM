@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '190'
+version: '0'
+event(fields): IDXGISwapChain_ResizeTargetStart(Pointer pThis, Binary pNewTargetParameters)
+opcode: Start
+keywords: ''
+task: IDXGISwapChain_ResizeTarget
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Binary
+  field_name: pNewTargetParameters

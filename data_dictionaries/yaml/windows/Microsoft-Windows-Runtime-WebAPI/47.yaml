@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Runtime-WebAPI
+event_id: '47'
+version: '0'
+event(fields): ParseCheckrequiredelement(UnicodeString uri)
+opcode: Checkrequiredelement
+keywords: keywords.Format
+task: Parse
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: uri

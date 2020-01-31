@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAudio2
+event_id: '67'
+version: '0'
+event(fields): MasteringVoiceCreate67(UnicodeString DeviceId, UnicodeString EndpointId)
+opcode: Create
+keywords: ''
+task: MasteringVoice
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceId
+- field_type: UnicodeString
+  field_name: EndpointId

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-StorageManagement-WSP-Spaces
+event_id: '2009'
+version: '0'
+event(fields): task_02009(UnicodeString ComputerName, UInt32 ErrorCode, UInt32 SecondaryErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ComputerName
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: SecondaryErrorCode

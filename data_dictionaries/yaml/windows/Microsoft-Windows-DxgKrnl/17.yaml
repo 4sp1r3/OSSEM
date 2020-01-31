@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '17'
+version: '0'
+event(fields): VSyncDPC(Pointer pDxgAdapter, UInt32 VidPnTargetId, UInt64 ScannedPhysicalAddress,
+  UInt32 VidPnSourceId, UInt32 FrameNumber, Int64 FrameQPCTime, Pointer hFlipDevice,
+  UInt32 FlipType, UInt64 FlipFenceId)
+opcode: ''
+keywords: Base
+task: VSyncDPC
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: VidPnTargetId
+- field_type: UInt64
+  field_name: ScannedPhysicalAddress
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: FrameNumber
+- field_type: Int64
+  field_name: FrameQPCTime
+- field_type: Pointer
+  field_name: hFlipDevice
+- field_type: UInt32
+  field_name: FlipType
+- field_type: UInt64
+  field_name: FlipFenceId

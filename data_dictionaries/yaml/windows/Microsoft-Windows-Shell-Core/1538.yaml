@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1538'
+version: '0'
+event(fields): ShellTask_ChangeNotify_ChangeNotifyThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_ChangeNotify_ChangeNotifyThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

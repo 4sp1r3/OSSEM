@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAML
+event_id: '109'
+version: '0'
+event(fields): PrimitiveCompositionDrawStop(UInt32 BatchCount, UInt32 PrimitivesDrawn,
+  UInt32 GeometryGeneratedPrimitivesDrawn, UInt32 GeometryGeneratedVerticesDrawn)
+opcode: Stop
+keywords: Rendering
+task: PrimitiveCompositionDraw
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BatchCount
+- field_type: UInt32
+  field_name: PrimitivesDrawn
+- field_type: UInt32
+  field_name: GeometryGeneratedPrimitivesDrawn
+- field_type: UInt32
+  field_name: GeometryGeneratedVerticesDrawn

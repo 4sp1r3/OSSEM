@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Manipulations
+event_id: '4'
+version: '0'
+event(fields): TABLET_MANIPULATIONS_Inertia_ProcessStop()
+opcode: Stop
+keywords: ''
+task: TABLET_MANIPULATIONS_Inertia_Process
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

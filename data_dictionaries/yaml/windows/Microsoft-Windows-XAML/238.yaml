@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-XAML
+event_id: '238'
+version: '0'
+event(fields): ComputeVsisBounds(UInt64 Vsis, Int32 VisibleLeft, Int32 VisibleTop,
+  Int32 VisibleRight, Int32 VisibleBottom, Int32 DesiredLeft, Int32 DesiredTop, Int32
+  DesiredRight, Int32 DesiredBottom, Int32 HighPriorityDesiredLeft, Int32 HighPriorityDesiredTop,
+  Int32 HighPriorityDesiredRight, Int32 HighPriorityDesiredBottom, UInt32 MotionFlags)
+opcode: ''
+keywords: Rendering
+task: ComputeVsisBounds
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Vsis
+- field_type: Int32
+  field_name: VisibleLeft
+- field_type: Int32
+  field_name: VisibleTop
+- field_type: Int32
+  field_name: VisibleRight
+- field_type: Int32
+  field_name: VisibleBottom
+- field_type: Int32
+  field_name: DesiredLeft
+- field_type: Int32
+  field_name: DesiredTop
+- field_type: Int32
+  field_name: DesiredRight
+- field_type: Int32
+  field_name: DesiredBottom
+- field_type: Int32
+  field_name: HighPriorityDesiredLeft
+- field_type: Int32
+  field_name: HighPriorityDesiredTop
+- field_type: Int32
+  field_name: HighPriorityDesiredRight
+- field_type: Int32
+  field_name: HighPriorityDesiredBottom
+- field_type: UInt32
+  field_name: MotionFlags

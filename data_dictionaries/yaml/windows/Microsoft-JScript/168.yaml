@@ -1,0 +1,15 @@
+provider: Microsoft-JScript
+event_id: '168'
+version: '0'
+event(fields): Jscript_SourceMapping(UnicodeString ReasonBuffer, UInt16 SourceRequestFor)
+opcode: ''
+keywords: JScriptSourceMapping
+task: Jscript_SourceMapping
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ReasonBuffer
+- field_type: UInt16
+  field_name: SourceRequestFor

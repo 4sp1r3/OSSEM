@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '1026'
+version: '0'
+event(fields): NonPerfEvents1026()
+opcode: ''
+keywords: ''
+task: NonPerfEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1033'
+version: '0'
+event(fields): SuspendingSubDownloadsStart()
+opcode: Start
+keywords: WwaHost
+task: SuspendingSubDownloads
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

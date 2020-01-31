@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DiagCpl
+event_id: '4001'
+version: '0'
+event(fields): PerfTrack_DIAGCPL_SearchStop(UInt32 SearchOnline, UInt32 SearchType,
+  UInt32 ExitCode)
+opcode: Stop
+keywords: ''
+task: PerfTrack_DIAGCPL_Search
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SearchOnline
+- field_type: UInt32
+  field_name: SearchType
+- field_type: UInt32
+  field_name: ExitCode

@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3409'
+version: '0'
+event(fields): RemoteRegistrarClient_PrepareConnectionStop()
+opcode: Stop
+keywords: MessagingPerformance RegistrarClient
+task: RemoteRegistrarClient_PrepareConnection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

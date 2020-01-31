@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '332'
+version: '0'
+event(fields): Launchconditionnotmet,usernotlogged_on(UnicodeString TaskName, UnicodeString
+  UserName)
+opcode: ''
+keywords: ''
+task: Launchconditionnotmet,usernotlogged_on
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UnicodeString
+  field_name: UserName

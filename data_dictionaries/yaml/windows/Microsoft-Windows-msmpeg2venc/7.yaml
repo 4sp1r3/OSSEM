@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-msmpeg2venc
+event_id: '7'
+version: '0'
+event(fields): TaskdonebythevideoencoderStart7(UInt32 Flags, UInt64 OutputBufferCount,
+  Pointer pOutputSamples, Pointer pdwStatus)
+opcode: Start
+keywords: keyword_800000000000
+task: Taskdonebythevideoencoder
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt64
+  field_name: OutputBufferCount
+- field_type: Pointer
+  field_name: pOutputSamples
+- field_type: Pointer
+  field_name: pdwStatus

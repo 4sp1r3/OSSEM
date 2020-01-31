@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '248'
+version: '0'
+event(fields): PackagingLayout248(HexInt32 errorCode, UnicodeString reason)
+opcode: ''
+keywords: ''
+task: PackagingLayout
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: reason

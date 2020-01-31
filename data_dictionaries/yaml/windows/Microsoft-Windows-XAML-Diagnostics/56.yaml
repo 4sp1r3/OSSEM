@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '56'
+version: '0'
+event(fields): AppBarClosedStart(UInt32 AppBarType)
+opcode: Start
+keywords: ''
+task: AppBarClosed
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AppBarType

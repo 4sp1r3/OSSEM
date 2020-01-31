@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '22'
+version: '0'
+event(fields): FindPointInTimeFolderStop(UnicodeString Path, Int32 BackupSetId)
+opcode: Stop
+keywords: ''
+task: FindPointInTimeFolder
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path
+- field_type: Int32
+  field_name: BackupSetId

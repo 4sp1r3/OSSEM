@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Audio
+event_id: '10'
+version: '0'
+event(fields): CaptureMonitor_Monitor_Restart_Limit_Hit(UInt32 dwRestartCount, UnicodeString
+  szInputEndpointName, UnicodeString szOutputEndpointName)
+opcode: ''
+keywords: ''
+task: CaptureMonitor_Monitor_Restart_Limit_Hit
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwRestartCount
+- field_type: UnicodeString
+  field_name: szInputEndpointName
+- field_type: UnicodeString
+  field_name: szOutputEndpointName

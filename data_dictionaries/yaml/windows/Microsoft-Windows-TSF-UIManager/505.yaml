@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '505'
+version: '0'
+event(fields): CandListData_GrowCacheStop()
+opcode: Stop
+keywords: TSF_UIManager
+task: CandListData_GrowCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

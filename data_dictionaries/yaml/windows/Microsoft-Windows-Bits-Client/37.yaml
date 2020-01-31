@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '37'
+version: '0'
+event(fields): task_037(UInt32 nlmCost, UInt32 usage, UInt32 cap, UInt32 isThrottled,
+  UInt32 isOvercap, UInt32 isRoaming, UInt32 globalTransferPolicy)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: nlmCost
+- field_type: UInt32
+  field_name: usage
+- field_type: UInt32
+  field_name: cap
+- field_type: UInt32
+  field_name: isThrottled
+- field_type: UInt32
+  field_name: isOvercap
+- field_type: UInt32
+  field_name: isRoaming
+- field_type: UInt32
+  field_name: globalTransferPolicy

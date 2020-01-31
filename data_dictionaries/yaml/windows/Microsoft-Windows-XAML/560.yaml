@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '560'
+version: '0'
+event(fields): SetConnectionIDStop()
+opcode: Stop
+keywords: Core
+task: SetConnectionID
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

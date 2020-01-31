@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ESE
+event_id: '121'
+version: '0'
+event(fields): ESE_LogStall_Trace()
+opcode: ''
+keywords: LOG StallLatencies
+task: ESE_LogStall_Trace
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '3185'
+version: '0'
+event(fields): DocPerf_Task_HomeGroup_ClientRemovePrinterStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_HomeGroup_ClientRemovePrinter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

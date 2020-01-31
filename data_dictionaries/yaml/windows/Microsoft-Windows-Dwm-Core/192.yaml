@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '192'
+version: '0'
+event(fields): SCHEDULE_CLEAR_D2D_CACHESStart(UInt32 PreviousWaitTimeoutMS)
+opcode: Start
+keywords: DwmCore
+task: SCHEDULE_CLEAR_D2D_CACHES
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PreviousWaitTimeoutMS

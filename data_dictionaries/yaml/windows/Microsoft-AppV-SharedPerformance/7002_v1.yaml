@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '7002'
+version: '1'
+event(fields): ConfigurePackageFinalize_509Stop_V1()
+opcode: Stop
+keywords: ''
+task: ConfigurePackageFinalize_509
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

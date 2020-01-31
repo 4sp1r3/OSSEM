@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '2200'
+version: '0'
+event(fields): task_02200(GUID SpaceId, UInt64 Offset, UInt32 DataCount, UInt32 DataBytes,
+  UInt32 TotalCount, UInt32 TotalBytes, UInt8 IsOptimized)
+opcode: ''
+keywords: Destage
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SpaceId
+- field_type: UInt64
+  field_name: Offset
+- field_type: UInt32
+  field_name: DataCount
+- field_type: UInt32
+  field_name: DataBytes
+- field_type: UInt32
+  field_name: TotalCount
+- field_type: UInt32
+  field_name: TotalBytes
+- field_type: UInt8
+  field_name: IsOptimized

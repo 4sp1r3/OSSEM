@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '227'
+version: '0'
+event(fields): ContinuousReadingModeStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: ContinuousReadingMode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

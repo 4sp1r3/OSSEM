@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '83'
+version: '0'
+event(fields): WID_SDID_Cache_Initialize(Boolean IsCompact, UInt32 CacheCapacity)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: WID_SDID_Cache_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsCompact
+- field_type: UInt32
+  field_name: CacheCapacity

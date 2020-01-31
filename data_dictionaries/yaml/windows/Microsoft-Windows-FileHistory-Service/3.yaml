@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FileHistory-Service
+event_id: '3'
+version: '0'
+event(fields): CatalogLoadStart(UnicodeString CatalogPath1, UnicodeString CatalogPath2)
+opcode: Start
+keywords: ''
+task: CatalogLoad
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CatalogPath1
+- field_type: UnicodeString
+  field_name: CatalogPath2

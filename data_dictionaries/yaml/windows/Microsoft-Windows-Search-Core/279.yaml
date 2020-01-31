@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '279'
+version: '0'
+event(fields): CreateWLCursorStop(UInt64 WordListId)
+opcode: Stop
+keywords: Querying
+task: CreateWLCursor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: WordListId

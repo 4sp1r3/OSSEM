@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '304'
+version: '0'
+event(fields): AppReadiness_ExecuteTask(UnicodeString User, UnicodeString GroupId,
+  UnicodeString TaskId, Int32 Result)
+opcode: ''
+keywords: Tasks
+task: AppReadiness_ExecuteTask
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: GroupId
+- field_type: UnicodeString
+  field_name: TaskId
+- field_type: Int32
+  field_name: Result

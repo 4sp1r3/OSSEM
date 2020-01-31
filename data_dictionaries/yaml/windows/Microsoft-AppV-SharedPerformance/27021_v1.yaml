@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27021'
+version: '1'
+event(fields): HandlePackageLoadActivityStop_V1()
+opcode: Stop
+keywords: ''
+task: HandlePackageLoadActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

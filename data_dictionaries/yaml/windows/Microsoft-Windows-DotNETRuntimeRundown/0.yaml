@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DotNETRuntimeRundown
+event_id: '0'
+version: '0'
+event(fields): ClrStackWalk(UInt16 ClrInstanceID, UInt8 Reserved1, UInt8 Reserved2,
+  UInt32 FrameCount, Pointer Stack)
+opcode: Walk
+keywords: StackKeyword
+task: ClrStack
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: UInt8
+  field_name: Reserved1
+- field_type: UInt8
+  field_name: Reserved2
+- field_type: UInt32
+  field_name: FrameCount
+- field_type: Pointer
+  field_name: Stack

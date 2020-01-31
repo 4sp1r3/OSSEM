@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '108'
+version: '0'
+event(fields): CustomTrackingRecord(GUID InstanceId, Int64 RecordNumber, FILETIME
+  EventTime, UnicodeString Name, UnicodeString ActivityName, UnicodeString ActivityId,
+  UnicodeString ActivityInstanceId, UnicodeString ActivityTypeName, UnicodeString
+  Data, UnicodeString Annotations, UnicodeString ProfileName, UnicodeString HostReference,
+  UnicodeString AppDomain)
+opcode: ''
+keywords: WFTracking EndToEndMonitoring HealthMonitoring Troubleshooting UserEvents
+task: CustomTrackingRecord
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InstanceId
+- field_type: Int64
+  field_name: RecordNumber
+- field_type: FILETIME
+  field_name: EventTime
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: ActivityName
+- field_type: UnicodeString
+  field_name: ActivityId
+- field_type: UnicodeString
+  field_name: ActivityInstanceId
+- field_type: UnicodeString
+  field_name: ActivityTypeName
+- field_type: UnicodeString
+  field_name: Data
+- field_type: UnicodeString
+  field_name: Annotations
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

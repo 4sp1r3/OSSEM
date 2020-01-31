@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62055'
+version: '0'
+event(fields): Shell32_MountPoint_CreateEventForVolumeArrivalStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_MountPoint_CreateEventForVolumeArrival
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

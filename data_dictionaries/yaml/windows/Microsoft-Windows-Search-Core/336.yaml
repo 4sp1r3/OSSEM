@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '336'
+version: '0'
+event(fields): ReuseRestriction(UInt32 WhereID)
+opcode: ''
+keywords: Querying
+task: ReuseRestriction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WhereID

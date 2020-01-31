@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1661'
+version: '0'
+event(fields): ShellTask_PerfTrack_LogStartEventThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_PerfTrack_LogStartEventThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

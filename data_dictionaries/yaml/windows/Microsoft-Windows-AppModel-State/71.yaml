@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '71'
+version: '0'
+event(fields): AppModel.Task.State.DeleteSettingStop()
+opcode: Stop
+keywords: Structured
+task: AppModel.Task.State.DeleteSetting
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

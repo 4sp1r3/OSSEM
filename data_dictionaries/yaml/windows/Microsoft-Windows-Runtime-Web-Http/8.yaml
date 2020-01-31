@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Runtime-Web-Http
+event_id: '8'
+version: '0'
+event(fields): HttpAsyncI/O8(UnicodeString uri, UInt32 port, UInt32 errorCode, UInt32
+  errorMessage)
+opcode: ''
+keywords: ''
+task: HttpAsyncI/O
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: uri
+- field_type: UInt32
+  field_name: port
+- field_type: UInt32
+  field_name: errorCode
+- field_type: UInt32
+  field_name: errorMessage

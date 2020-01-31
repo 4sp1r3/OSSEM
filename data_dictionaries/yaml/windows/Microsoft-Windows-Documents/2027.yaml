@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '2027'
+version: '0'
+event(fields): DocPerf_Task_Mxdc_AnalyzeContentTreeStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Mxdc_AnalyzeContentTree
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

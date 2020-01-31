@@ -1,0 +1,54 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1020'
+version: '1'
+event(fields): SrvSlowFsOperation_V1(UInt32 Command, GUID SessionGuid, HexInt64 SessionId,
+  GUID ConnectionGuid, UInt16 UserNameLength, UnicodeString UserName, UInt16 ClientNameLength,
+  UnicodeString ClientName, UInt16 ClientAddressLength, Binary ClientAddress, UInt16
+  ShareNameLength, UnicodeString ShareName, UInt16 FileNameLength, UnicodeString FileName,
+  UInt64 DurationInMilliseconds, UInt64 ThresholdInMilliseconds, UInt32 CtlCode, UInt32
+  SubCode, UInt32 TunneledControl)
+opcode: ''
+keywords: Operational
+task: SrvSlowFsOperation
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Command
+- field_type: GUID
+  field_name: SessionGuid
+- field_type: HexInt64
+  field_name: SessionId
+- field_type: GUID
+  field_name: ConnectionGuid
+- field_type: UInt16
+  field_name: UserNameLength
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UInt16
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName
+- field_type: UInt16
+  field_name: ClientAddressLength
+- field_type: Binary
+  field_name: ClientAddress
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt64
+  field_name: DurationInMilliseconds
+- field_type: UInt64
+  field_name: ThresholdInMilliseconds
+- field_type: UInt32
+  field_name: CtlCode
+- field_type: UInt32
+  field_name: SubCode
+- field_type: UInt32
+  field_name: TunneledControl

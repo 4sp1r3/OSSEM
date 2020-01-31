@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '333'
+version: '1'
+event(fields): GpuVirtualAddressRangeMappingDCStart_V1(Pointer pVaAllocator, Pointer
+  pOwner, UInt64 OwnerOffset, UInt64 StartAddress, UInt64 EndAddress, UInt64 Protection,
+  UInt64 DriverProtection, UInt32 Flags, UInt64 MappedAllocationBase, UInt64 MappedAllocationSize)
+opcode: DC_Start
+keywords: GPUVA
+task: GpuVirtualAddressRangeMapping
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pVaAllocator
+- field_type: Pointer
+  field_name: pOwner
+- field_type: UInt64
+  field_name: OwnerOffset
+- field_type: UInt64
+  field_name: StartAddress
+- field_type: UInt64
+  field_name: EndAddress
+- field_type: UInt64
+  field_name: Protection
+- field_type: UInt64
+  field_name: DriverProtection
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt64
+  field_name: MappedAllocationBase
+- field_type: UInt64
+  field_name: MappedAllocationSize

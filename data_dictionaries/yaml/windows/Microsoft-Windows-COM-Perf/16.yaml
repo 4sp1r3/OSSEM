@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '16'
+version: '0'
+event(fields): ExtensionCatalog_RoGetExtensionRegistrationByExtensionIdStop(Int32
+  HRESULT, UnicodeString ContractId, UnicodeString ExtensionId, Boolean InboxAppsRegistrationScope)
+opcode: Stop
+keywords: ''
+task: ExtensionCatalog_RoGetExtensionRegistrationByExtensionId
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HRESULT
+- field_type: UnicodeString
+  field_name: ContractId
+- field_type: UnicodeString
+  field_name: ExtensionId
+- field_type: Boolean
+  field_name: InboxAppsRegistrationScope

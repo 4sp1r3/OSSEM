@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-FunctionDiscovery
+event_id: '1046'
+version: '0'
+event(fields): FunDisc_ProviderQueryServiceStart(UnicodeString Category, UnicodeString
+  Subcategory)
+opcode: Start
+keywords: ''
+task: FunDisc_ProviderQueryService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Category
+- field_type: UnicodeString
+  field_name: Subcategory

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Forwarding
+event_id: '102'
+version: '0'
+event(fields): task_0102(UnicodeString Query, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Query
+- field_type: UInt32
+  field_name: ErrorCode

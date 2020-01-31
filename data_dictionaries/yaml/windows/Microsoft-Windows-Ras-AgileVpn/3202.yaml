@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Ras-AgileVpn
+event_id: '3202'
+version: '0'
+event(fields): task_03202(AnsiString DropReason, UInt32 NumberOfPackets, AnsiString
+  SrcAddress, AnsiString DestAddress, UInt32 SrcPort, UInt32 DestPort, UInt32 NextProtocol)
+opcode: ''
+keywords: AGILEVPN
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: DropReason
+- field_type: UInt32
+  field_name: NumberOfPackets
+- field_type: AnsiString
+  field_name: SrcAddress
+- field_type: AnsiString
+  field_name: DestAddress
+- field_type: UInt32
+  field_name: SrcPort
+- field_type: UInt32
+  field_name: DestPort
+- field_type: UInt32
+  field_name: NextProtocol

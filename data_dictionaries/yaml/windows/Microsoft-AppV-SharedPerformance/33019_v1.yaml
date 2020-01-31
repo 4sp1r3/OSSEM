@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '33019'
+version: '1'
+event(fields): VFONTS.ProcessRetrieveFontsStop_V1()
+opcode: Stop
+keywords: ''
+task: VFONTS.ProcessRetrieveFonts
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

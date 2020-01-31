@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61420'
+version: '0'
+event(fields): FileAccessAPI_AddPersistedItemStart()
+opcode: Start
+keywords: Shell
+task: FileAccessAPI_AddPersistedItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

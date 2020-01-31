@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '208'
+version: '0'
+event(fields): BootSIEnterInsecureState(UInt32 InitState, UInt32 StatusCode, UInt64
+  FailureAddress, UInt64 ReferenceAddress, UInt32 ReasonCode)
+opcode: EnterInsecureState
+keywords: keyword_80000000000
+task: BootSI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InitState
+- field_type: UInt32
+  field_name: StatusCode
+- field_type: UInt64
+  field_name: FailureAddress
+- field_type: UInt64
+  field_name: ReferenceAddress
+- field_type: UInt32
+  field_name: ReasonCode

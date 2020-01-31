@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '27'
+version: '0'
+event(fields): FindLibrariesTimelineStart()
+opcode: Start
+keywords: ''
+task: FindLibrariesTimeline
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

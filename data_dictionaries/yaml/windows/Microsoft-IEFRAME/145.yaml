@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '145'
+version: '0'
+event(fields): FavoritesBar_PopulateFeedsMenuStart()
+opcode: Start
+keywords: primarynav
+task: FavoritesBar_PopulateFeedsMenu
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

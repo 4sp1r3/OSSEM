@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '7059'
+version: '0'
+event(fields): NavigationClientSetCanHandleCloseRequest(UInt32 unParam, Boolean fBool)
+opcode: ''
+keywords: NavigationClient
+task: NavigationClientSetCanHandleCloseRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: Boolean
+  field_name: fBool

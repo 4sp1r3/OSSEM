@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '217'
+version: '0'
+event(fields): ClientRuntimeOperationPrepared(UnicodeString Action, UnicodeString
+  ContractName, UnicodeString Destination, UnicodeString HostReference, UnicodeString
+  AppDomain)
+opcode: OperationPrepared
+keywords: ServiceModel Troubleshooting
+task: ClientRuntime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Action
+- field_type: UnicodeString
+  field_name: ContractName
+- field_type: UnicodeString
+  field_name: Destination
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

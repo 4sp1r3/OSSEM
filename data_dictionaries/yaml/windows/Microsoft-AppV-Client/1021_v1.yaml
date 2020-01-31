@@ -1,0 +1,18 @@
+provider: Microsoft-AppV-Client
+event_id: '1021'
+version: '1'
+event(fields): UnpublishVirtualApplicationConnectionGroup1021_V1(GUID ConnectionGroup,
+  GUID Version, UInt64 ActivityID)
+opcode: ''
+keywords: Publishing
+task: UnpublishVirtualApplicationConnectionGroup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConnectionGroup
+- field_type: GUID
+  field_name: Version
+- field_type: UInt64
+  field_name: ActivityID

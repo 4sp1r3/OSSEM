@@ -1,0 +1,35 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1537'
+version: '0'
+event(fields): ServerTask1537(UInt32 unParam, UInt32 NavigationTimeoutEventType, UInt32
+  TimeoutModifierType, UInt32 ServerTaskState1, UInt32 ServerTaskState2, Boolean fBool,
+  Boolean fBool2, Boolean fBool3, Boolean fBool4, UInt32 reason, UnicodeString pwsz)
+opcode: ''
+keywords: ServerTask NavigationPerformanceTriggers
+task: ServerTask
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: NavigationTimeoutEventType
+- field_type: UInt32
+  field_name: TimeoutModifierType
+- field_type: UInt32
+  field_name: ServerTaskState1
+- field_type: UInt32
+  field_name: ServerTaskState2
+- field_type: Boolean
+  field_name: fBool
+- field_type: Boolean
+  field_name: fBool2
+- field_type: Boolean
+  field_name: fBool3
+- field_type: Boolean
+  field_name: fBool4
+- field_type: UInt32
+  field_name: reason
+- field_type: UnicodeString
+  field_name: pwsz

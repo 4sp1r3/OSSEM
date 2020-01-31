@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Networking-BackgroundTransfer
+event_id: '12'
+version: '0'
+event(fields): BackgroundTransfer12(UInt32 ProcessId, HexInt32 Error)
+opcode: ''
+keywords: keywords.KW_ALL
+task: BackgroundTransfer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: HexInt32
+  field_name: Error

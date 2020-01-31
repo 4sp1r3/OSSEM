@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '151'
+version: '0'
+event(fields): task_0151(UnicodeString PsmKey, UInt32 Trigger, UInt32 Reason, HexInt32
+  ErrorCode)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: Trigger
+- field_type: UInt32
+  field_name: Reason
+- field_type: HexInt32
+  field_name: ErrorCode

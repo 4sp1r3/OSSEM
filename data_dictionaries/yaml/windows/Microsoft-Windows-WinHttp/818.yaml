@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '818'
+version: '0'
+event(fields): WINHTTP_TRANSFER()
+opcode: ''
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_TRANSFER
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

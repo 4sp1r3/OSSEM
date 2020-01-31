@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8002'
+version: '0'
+event(fields): ContainerLoadInformational8002(GUID ContainerId, UInt32 ContainerVersion,
+  UInt32 KeyProvider, Boolean HasCachedLogonKey, UInt32 ContainerStatus)
+opcode: Informational
+keywords: Internal
+task: ContainerLoad
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ContainerId
+- field_type: UInt32
+  field_name: ContainerVersion
+- field_type: UInt32
+  field_name: KeyProvider
+- field_type: Boolean
+  field_name: HasCachedLogonKey
+- field_type: UInt32
+  field_name: ContainerStatus

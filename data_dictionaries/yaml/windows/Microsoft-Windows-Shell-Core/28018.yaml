@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28018'
+version: '0'
+event(fields): Shell32_AppResolver_ScanStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_AppResolver_Scan
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

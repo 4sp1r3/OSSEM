@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18845'
+version: '0'
+event(fields): Shell32_UA_SnapRValuesScheduled()
+opcode: ''
+keywords: Shell
+task: Shell32_UA_SnapRValuesScheduled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

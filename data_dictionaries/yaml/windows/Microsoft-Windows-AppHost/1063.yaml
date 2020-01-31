@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1063'
+version: '0'
+event(fields): MemoryStatsOnSuspend(HexInt32 JSHeapSizeMB, HexInt32 TotalWorkingSetMBandPrivateCommitMB,
+  UInt32 PackageAgeS, UnicodeString AppID, UnicodeString PackageFullName)
+opcode: ''
+keywords: WwaHost
+task: MemoryStatsOnSuspend
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: JSHeapSizeMB
+- field_type: HexInt32
+  field_name: TotalWorkingSetMBandPrivateCommitMB
+- field_type: UInt32
+  field_name: PackageAgeS
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UnicodeString
+  field_name: PackageFullName

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '186'
+version: '0'
+event(fields): MediaFoundationME_GetCurrentTimeStop(Pointer object, Int64 now)
+opcode: Stop
+keywords: ''
+task: MediaFoundationME_GetCurrentTime
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: now

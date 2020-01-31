@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '152'
+version: '0'
+event(fields): ETWGUID_RENDEROPT_TILEABLECOPYEVENT(UInt64 pSrcResource, UInt64 pDstResource,
+  Int32 SrcLeft, Int32 SrcTop, Int32 SrcRight, Int32 SrcBottom, Int32 DstX, Int32
+  DstY)
+opcode: ''
+keywords: DwmCore
+task: ETWGUID_RENDEROPT_TILEABLECOPYEVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: pSrcResource
+- field_type: UInt64
+  field_name: pDstResource
+- field_type: Int32
+  field_name: SrcLeft
+- field_type: Int32
+  field_name: SrcTop
+- field_type: Int32
+  field_name: SrcRight
+- field_type: Int32
+  field_name: SrcBottom
+- field_type: Int32
+  field_name: DstX
+- field_type: Int32
+  field_name: DstY

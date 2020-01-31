@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-UxTheme
+event_id: '29'
+version: '0'
+event(fields): HandleServerRequestStop(Int64 ApiNumber, Int32 ClientSessionId, UInt32
+  status)
+opcode: Stop
+keywords: ''
+task: HandleServerRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: ApiNumber
+- field_type: Int32
+  field_name: ClientSessionId
+- field_type: UInt32
+  field_name: status

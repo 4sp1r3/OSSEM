@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-EapHost
+event_id: '1081'
+version: '0'
+event(fields): Authenticator1081(UInt64 PerfId)
+opcode: ''
+keywords: ''
+task: Authenticator
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PerfId

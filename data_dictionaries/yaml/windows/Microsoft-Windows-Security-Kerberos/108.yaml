@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Security-Kerberos
+event_id: '108'
+version: '0'
+event(fields): task_0108(UnicodeString ServerName, UInt32 ServerPort, UnicodeString
+  ServerVdir, UInt32 ErrorCode, UInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt32
+  field_name: ServerPort
+- field_type: UnicodeString
+  field_name: ServerVdir
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: Status

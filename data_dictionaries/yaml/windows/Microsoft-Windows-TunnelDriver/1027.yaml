@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TunnelDriver
+event_id: '1027'
+version: '0'
+event(fields): task_01027(UInt64 ProcessID, UInt64 FilterID, UInt64 FlowHandle)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ProcessID
+- field_type: UInt64
+  field_name: FilterID
+- field_type: UInt64
+  field_name: FlowHandle

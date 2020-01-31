@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '5212'
+version: '0'
+event(fields): task_05212(HexInt32 ReturnVal)
+opcode: ''
+keywords: STATE_DEH_KEYWORD
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ReturnVal

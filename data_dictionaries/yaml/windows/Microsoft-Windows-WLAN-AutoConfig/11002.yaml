@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '11002'
+version: '0'
+event(fields): MsmAssociationFailure_24011_195(UnicodeString Adapter, GUID DeviceGuid,
+  UnicodeString LocalMac, UnicodeString SSID, UnicodeString BSSType, UnicodeString
+  FailureReason, UInt32 ReasonCode, UInt32 Dot11StatusCode, Pointer ConnectionId,
+  Int32 RSSI)
+opcode: Failure_24011_195
+keywords: WlanConnect LwtDiagnostic
+task: MsmAssociation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UnicodeString
+  field_name: FailureReason
+- field_type: UInt32
+  field_name: ReasonCode
+- field_type: UInt32
+  field_name: Dot11StatusCode
+- field_type: Pointer
+  field_name: ConnectionId
+- field_type: Int32
+  field_name: RSSI

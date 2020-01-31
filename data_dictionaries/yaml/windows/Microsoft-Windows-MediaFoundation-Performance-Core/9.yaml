@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '9'
+version: '0'
+event(fields): AudEngineStream_SetState_TaskStart(Pointer object, Int64 SystemTime,
+  UInt32 mfsState)
+opcode: Start
+keywords: ''
+task: AudEngineStream_SetState_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: SystemTime
+- field_type: UInt32
+  field_name: mfsState

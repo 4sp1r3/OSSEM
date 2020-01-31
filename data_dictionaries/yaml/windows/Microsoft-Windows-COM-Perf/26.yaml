@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '26'
+version: '0'
+event(fields): COM_CreateInstance_AppStop()
+opcode: Stop
+keywords: ''
+task: COM_CreateInstance_App
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

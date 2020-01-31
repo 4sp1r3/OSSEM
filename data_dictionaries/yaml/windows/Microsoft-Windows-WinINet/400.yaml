@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinINet
+event_id: '400'
+version: '0'
+event(fields): Wininet_WebSocketUpgrade(GUID CorrelationID, UInt32 InternetFlags,
+  UInt16 Length, AnsiString Headers)
+opcode: ''
+keywords: keyword_20000000000
+task: Wininet_WebSocketUpgrade
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CorrelationID
+- field_type: UInt32
+  field_name: InternetFlags
+- field_type: UInt16
+  field_name: Length
+- field_type: AnsiString
+  field_name: Headers

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SPB-ClassExtension
+event_id: '1015'
+version: '1'
+event(fields): I/OoperationflowthroughSPBCxIoComplete_V1(Pointer Request, UInt32 CompletionStatus,
+  UInt64 Information)
+opcode: IoComplete
+keywords: ''
+task: I/OoperationflowthroughSPBCx
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: UInt32
+  field_name: CompletionStatus
+- field_type: UInt64
+  field_name: Information

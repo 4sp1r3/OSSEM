@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Runtime-Web-Http
+event_id: '42'
+version: '0'
+event(fields): HttpCct42(UInt32 responseState)
+opcode: ''
+keywords: ''
+task: HttpCct
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: responseState

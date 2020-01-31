@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '27'
+version: '0'
+event(fields): apeersearchforaparticularURLStart(GUID searchId, GUID jobId, UnicodeString
+  url, FILETIME timestamp)
+opcode: Start
+keywords: ''
+task: apeersearchforaparticularURL
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: searchId
+- field_type: GUID
+  field_name: jobId
+- field_type: UnicodeString
+  field_name: url
+- field_type: FILETIME
+  field_name: timestamp

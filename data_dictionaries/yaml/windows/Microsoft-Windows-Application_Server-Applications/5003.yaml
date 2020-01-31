@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '5003'
+version: '0'
+event(fields): SurrogateDeserializeStart(UnicodeString SurrogateType, UnicodeString
+  AppDomain)
+opcode: Start
+keywords: Serialization
+task: SurrogateDeserialize
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SurrogateType
+- field_type: UnicodeString
+  field_name: AppDomain

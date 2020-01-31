@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NetworkProfile
+event_id: '10006'
+version: '0'
+event(fields): NotifyClientsStop10006(UInt32 NetworkProfileEventState, GUID Guid)
+opcode: Stop
+keywords: keyword_200000000000
+task: NotifyClients
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NetworkProfileEventState
+- field_type: GUID
+  field_name: Guid

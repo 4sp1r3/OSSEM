@@ -1,0 +1,28 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '804'
+version: '0'
+event(fields): CSms804(UInt32 DwordName1, UInt32 DwordName2, UInt32 DwordName3, UInt32
+  DwordName4, UInt32 DwordName5, UInt32 DwordName6, UInt32 DwordName7, UInt32 DwordName8)
+opcode: ''
+keywords: Information
+task: CSms
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName1
+- field_type: UInt32
+  field_name: DwordName2
+- field_type: UInt32
+  field_name: DwordName3
+- field_type: UInt32
+  field_name: DwordName4
+- field_type: UInt32
+  field_name: DwordName5
+- field_type: UInt32
+  field_name: DwordName6
+- field_type: UInt32
+  field_name: DwordName7
+- field_type: UInt32
+  field_name: DwordName8

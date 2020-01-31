@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '53'
+version: '0'
+event(fields): RundownOverlaySuspendReason(UInt32 Reason)
+opcode: ''
+keywords: ''
+task: RundownOverlaySuspendReason
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason

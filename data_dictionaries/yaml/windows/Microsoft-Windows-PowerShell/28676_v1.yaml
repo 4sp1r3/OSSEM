@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '28676'
+version: '1'
+event(fields): SerializeordeserializeremotingpayloadSerializationsettings28676_V1(UnicodeString
+  SerializedType, UInt32 OverridenMode)
+opcode: Serializationsettings
+keywords: Serializer
+task: Serializeordeserializeremotingpayload
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SerializedType
+- field_type: UInt32
+  field_name: OverridenMode

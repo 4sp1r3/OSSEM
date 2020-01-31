@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Kernel-WDI
+event_id: '34'
+version: '0'
+event(fields): SEMScenarioLifecycleWhenascenariohasremainedin_flightbeyondthemaximumtimewindowitisautomaticallyterminatedbytheSEM.(GUID
+  ProviderID, UInt16 EventID)
+opcode: Whenascenariohasremainedin_flightbeyondthemaximumtimewindowitisautomaticallyterminatedbytheSEM.
+keywords: diag
+task: SEMScenarioLifecycle
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderID
+- field_type: UInt16
+  field_name: EventID

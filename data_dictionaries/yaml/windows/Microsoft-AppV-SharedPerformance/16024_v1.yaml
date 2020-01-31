@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '16024'
+version: '1'
+event(fields): RefreshpackagesStart_V1()
+opcode: Start
+keywords: ''
+task: Refreshpackages
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

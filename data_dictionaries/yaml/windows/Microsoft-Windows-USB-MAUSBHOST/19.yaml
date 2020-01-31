@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '19'
+version: '0'
+event(fields): MAUSBControllerInternalResetStart(Pointer fid_Controller)
+opcode: Start
+keywords: Default
+task: MAUSBControllerInternalReset
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller

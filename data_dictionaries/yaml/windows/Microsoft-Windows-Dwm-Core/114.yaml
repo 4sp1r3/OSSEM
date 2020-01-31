@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '114'
+version: '0'
+event(fields): SCHEDULE_UPDATE_FRAME_INDEXES(UInt32 Previous, UInt32 Current, UInt32
+  Confirmed, UInt32 Presented)
+opcode: ''
+keywords: DwmCore
+task: SCHEDULE_UPDATE_FRAME_INDEXES
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Previous
+- field_type: UInt32
+  field_name: Current
+- field_type: UInt32
+  field_name: Confirmed
+- field_type: UInt32
+  field_name: Presented

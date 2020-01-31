@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Documents
+event_id: '6119'
+version: '0'
+event(fields): DocPerf_Task_Setup_InstallPrinterDriverFromTheWebStart(UnicodeString
+  ModelName, UnicodeString Manufacturer, UnicodeString Provider, UnicodeString HardwareID)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Setup_InstallPrinterDriverFromTheWeb
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ModelName
+- field_type: UnicodeString
+  field_name: Manufacturer
+- field_type: UnicodeString
+  field_name: Provider
+- field_type: UnicodeString
+  field_name: HardwareID

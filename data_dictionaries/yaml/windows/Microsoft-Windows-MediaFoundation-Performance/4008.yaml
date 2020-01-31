@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4008'
+version: '0'
+event(fields): EvrSleep(AnsiString tag, Pointer object, Pointer hThread, UInt8 sleepType,
+  Int32 width, Int32 height, HexInt32 format, UInt32 retryCount)
+opcode: ''
+keywords: ''
+task: EvrSleep
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: hThread
+- field_type: UInt8
+  field_name: sleepType
+- field_type: Int32
+  field_name: width
+- field_type: Int32
+  field_name: height
+- field_type: HexInt32
+  field_name: format
+- field_type: UInt32
+  field_name: retryCount

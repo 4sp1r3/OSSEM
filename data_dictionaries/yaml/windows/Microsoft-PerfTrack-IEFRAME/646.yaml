@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '646'
+version: '0'
+event(fields): Frame_Fast_Shutdown_PerftrackStop646(UInt64 Object)
+opcode: Stop
+keywords: ''
+task: Frame_Fast_Shutdown_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

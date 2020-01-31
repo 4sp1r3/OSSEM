@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '3153'
+version: '0'
+event(fields): AutoPlay_Volume_NthConnect_ToDefaultLaunch(UInt32 Duration, UnicodeString
+  DeviceHardwareID, UnicodeString Manufacturer, UnicodeString ModelName, UnicodeString
+  PrimaryCategory)
+opcode: ''
+keywords: ''
+task: AutoPlay_Volume_NthConnect_ToDefaultLaunch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Duration
+- field_type: UnicodeString
+  field_name: DeviceHardwareID
+- field_type: UnicodeString
+  field_name: Manufacturer
+- field_type: UnicodeString
+  field_name: ModelName
+- field_type: UnicodeString
+  field_name: PrimaryCategory

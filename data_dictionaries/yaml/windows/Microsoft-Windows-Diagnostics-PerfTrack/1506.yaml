@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '1506'
+version: '0'
+event(fields): PerfTrack_moStop_launchVisibleCompleteStop(UInt32 ControlFlags, UnicodeString
+  MatchKey, UnicodeString PackageFullName, UnicodeString AUMID, UInt32 ActivationKind)
+opcode: Stop
+keywords: ''
+task: PerfTrack_moStop_launchVisibleComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ControlFlags
+- field_type: UnicodeString
+  field_name: MatchKey
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AUMID
+- field_type: UInt32
+  field_name: ActivationKind

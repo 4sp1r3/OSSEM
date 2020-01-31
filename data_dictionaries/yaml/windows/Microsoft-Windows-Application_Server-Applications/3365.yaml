@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3365'
+version: '0'
+event(fields): ActivationListenerOpenStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: ActivationServices
+task: ActivationListenerOpen
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

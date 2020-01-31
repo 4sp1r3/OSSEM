@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Runtime-WebAPI
+event_id: '38'
+version: '0'
+event(fields): ParseHTTPoperation(UInt32 asyncOperation, Pointer asyncObject, UnicodeString
+  response, UInt32 errorCode, Int32 hresult)
+opcode: HTTPoperation
+keywords: keywords.Format
+task: Parse
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: asyncOperation
+- field_type: Pointer
+  field_name: asyncObject
+- field_type: UnicodeString
+  field_name: response
+- field_type: UInt32
+  field_name: errorCode
+- field_type: Int32
+  field_name: hresult

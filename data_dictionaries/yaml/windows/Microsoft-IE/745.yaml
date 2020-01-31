@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '745'
+version: '0'
+event(fields): Mshtml_MemoryProtector_ReclaimUnmarkedStop(Pointer CMemoryProtector,
+  UInt64 MarkedBlocks, UInt64 MarkedBytes)
+opcode: Stop
+keywords: mshtml
+task: Mshtml_MemoryProtector_ReclaimUnmarked
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMemoryProtector
+- field_type: UInt64
+  field_name: MarkedBlocks
+- field_type: UInt64
+  field_name: MarkedBytes

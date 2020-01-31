@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14542'
+version: '0'
+event(fields): Properties_RatingsControl_CreateStop()
+opcode: Stop
+keywords: Controls
+task: Properties_RatingsControl_Create
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

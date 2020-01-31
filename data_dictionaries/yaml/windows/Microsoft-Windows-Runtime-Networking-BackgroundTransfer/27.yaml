@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Runtime-Networking-BackgroundTransfer
+event_id: '27'
+version: '0'
+event(fields): BackgroundTransfer27(GUID CompletionGroupId, GUID TriggerId, HexInt32
+  Error, UInt32 ActivationStatus)
+opcode: ''
+keywords: keywords.KW_ALL
+task: BackgroundTransfer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CompletionGroupId
+- field_type: GUID
+  field_name: TriggerId
+- field_type: HexInt32
+  field_name: Error
+- field_type: UInt32
+  field_name: ActivationStatus

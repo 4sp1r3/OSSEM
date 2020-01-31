@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '499'
+version: '0'
+event(fields): task_0499(UnicodeString HostReference, UnicodeString AppDomain)
+opcode: ''
+keywords: ServiceHost ServiceModel WCFMessageLogging WFTracking EndToEndMonitoring
+  Troubleshooting UserEvents
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

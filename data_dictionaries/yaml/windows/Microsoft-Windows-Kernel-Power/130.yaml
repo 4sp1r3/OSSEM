@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '130'
+version: '0'
+event(fields): PowerTransition130(UInt64 SuspendStart, UInt64 SuspendEnd)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: PowerTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SuspendStart
+- field_type: UInt64
+  field_name: SuspendEnd

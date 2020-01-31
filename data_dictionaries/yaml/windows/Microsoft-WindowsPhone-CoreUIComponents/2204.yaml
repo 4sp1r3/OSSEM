@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2204'
+version: '0'
+event(fields): Page2204(UInt32 unParam, UInt32 unParam2)
+opcode: ''
+keywords: Page
+task: Page
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2

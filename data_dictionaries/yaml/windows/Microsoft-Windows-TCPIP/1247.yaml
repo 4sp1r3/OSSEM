@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1247'
+version: '0'
+event(fields): RssBindingCapability(UInt32 InterfaceIndex, UInt32 Capability)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis ut:Rss ut:Global
+task: RssBindingCapability
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UInt32
+  field_name: Capability

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '327'
+version: '0'
+event(fields): CommitVirtualAddressStart(Pointer Owner, UInt32 OwnerType, UInt64 VaRangeStart,
+  UInt64 VaRangeSize)
+opcode: Start
+keywords: GPUVA
+task: CommitVirtualAddress
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Owner
+- field_type: UInt32
+  field_name: OwnerType
+- field_type: UInt64
+  field_name: VaRangeStart
+- field_type: UInt64
+  field_name: VaRangeSize

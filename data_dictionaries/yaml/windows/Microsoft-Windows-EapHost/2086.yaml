@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-EapHost
+event_id: '2086'
+version: '0'
+event(fields): Peer2086(UInt32 ReasonCode, UnicodeString EAPMethodFriendlyName, UnicodeString
+  EAPErrorRootCause, UnicodeString EAPErrorRepair)
+opcode: ''
+keywords: ''
+task: Peer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ReasonCode
+- field_type: UnicodeString
+  field_name: EAPMethodFriendlyName
+- field_type: UnicodeString
+  field_name: EAPErrorRootCause
+- field_type: UnicodeString
+  field_name: EAPErrorRepair

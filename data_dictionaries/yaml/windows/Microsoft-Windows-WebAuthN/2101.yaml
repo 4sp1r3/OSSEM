@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2101'
+version: '0'
+event(fields): CtapCommandStart2101(UInt32 RequestLength, Binary Request)
+opcode: Start
+keywords: Ctap
+task: CtapCommand
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestLength
+- field_type: Binary
+  field_name: Request

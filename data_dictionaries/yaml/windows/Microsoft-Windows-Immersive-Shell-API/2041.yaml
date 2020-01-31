@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2041'
+version: '0'
+event(fields): CoreApplicationPsmDoStateChange(UInt32 QuiesceBool)
+opcode: ''
+keywords: ''
+task: CoreApplicationPsmDoStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: QuiesceBool

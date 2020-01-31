@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-EapHost
+event_id: '3024'
+version: '0'
+event(fields): Common3024(UInt32 AuthorId, UnicodeString VendorId, UnicodeString VendorType)
+opcode: ''
+keywords: Reg
+task: Common
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AuthorId
+- field_type: UnicodeString
+  field_name: VendorId
+- field_type: UnicodeString
+  field_name: VendorType

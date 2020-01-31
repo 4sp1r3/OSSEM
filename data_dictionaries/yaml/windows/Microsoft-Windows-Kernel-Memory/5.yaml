@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Memory
+event_id: '5'
+version: '0'
+event(fields): WorkingSetOutSwapStop(UInt32 ProcessId, HexInt32 Status, UInt32 PagesProcessed)
+opcode: Stop
+keywords: KERNEL_MEM_KEYWORD_WS_SWAP
+task: WorkingSetOutSwap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: HexInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: PagesProcessed

@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '218'
+version: '0'
+event(fields): CSearchCrawlScopeManager_GetParentScopeVersionIdStart(UnicodeString
+  URL)
+opcode: Start
+keywords: CSM
+task: CSearchCrawlScopeManager_GetParentScopeVersionId
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL

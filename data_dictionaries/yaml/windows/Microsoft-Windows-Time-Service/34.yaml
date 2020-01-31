@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '34'
+version: '0'
+event(fields): task_034(Int64 SystemTimeChangeSeconds, UInt32 MaxSystemTimeChangeSeconds,
+  UnicodeString TimeSource)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: SystemTimeChangeSeconds
+- field_type: UInt32
+  field_name: MaxSystemTimeChangeSeconds
+- field_type: UnicodeString
+  field_name: TimeSource

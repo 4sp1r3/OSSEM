@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '11'
+version: '0'
+event(fields): PluginManager11(GUID clsid, Boolean Disabled)
+opcode: ''
+keywords: ''
+task: PluginManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: clsid
+- field_type: Boolean
+  field_name: Disabled

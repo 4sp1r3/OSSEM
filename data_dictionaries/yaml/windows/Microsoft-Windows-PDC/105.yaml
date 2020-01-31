@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PDC
+event_id: '105'
+version: '0'
+event(fields): SpmScenarioActivityRundown(Pointer Scenario, UInt64 ActiveCount, UInt64
+  MaxActiveTime, UInt64 MinActiveTime, UInt64 TotalActiveTime)
+opcode: ''
+keywords: SPM
+task: SpmScenarioActivityRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Scenario
+- field_type: UInt64
+  field_name: ActiveCount
+- field_type: UInt64
+  field_name: MaxActiveTime
+- field_type: UInt64
+  field_name: MinActiveTime
+- field_type: UInt64
+  field_name: TotalActiveTime

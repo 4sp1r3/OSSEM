@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '515'
+version: '2'
+event(fields): SpmScenarioStart_V2(GUID ScenarioGuid, UInt8 ScenarioInstanceId, UInt32
+  CsEnterReason, UInt32 BatteryRemainingCapacityOnEnter, UInt32 BatteryFullChargeCapacityOnEnter)
+opcode: ''
+keywords: po:SleepStudy
+task: SpmScenarioStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ScenarioGuid
+- field_type: UInt8
+  field_name: ScenarioInstanceId
+- field_type: UInt32
+  field_name: CsEnterReason
+- field_type: UInt32
+  field_name: BatteryRemainingCapacityOnEnter
+- field_type: UInt32
+  field_name: BatteryFullChargeCapacityOnEnter

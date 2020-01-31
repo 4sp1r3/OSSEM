@@ -1,0 +1,102 @@
+provider: Microsoft-Windows-PersistentMemory-Nvdimm
+event_id: '305'
+version: '2'
+event(fields): task_0305_V2(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 SlotNumber,
+  AnsiString VendorId, AnsiString ProductId, AnsiString SerialNumber, UnicodeString
+  Location, Boolean LostPersistence, Boolean WarningThresholdExceeded, Boolean PersistenceRestored,
+  Boolean BelowWarningThreshold, Boolean ModuleHealth_VoltageRegulatorFailed, Boolean
+  ModuleHealth_VddLost, Boolean ModuleHealth_VppLost, Boolean ModuleHealth_VttLost,
+  Boolean ModuleHealth_DramNotInSelfRefresh, Boolean ModuleHealth_ControllerHardwareError,
+  Boolean ModuleHealth_NvmControllerError, Boolean ModuleHealth_NvmLifetimeError,
+  Boolean ModuleHealth_NotEnoughEnergyForSave, Boolean ModuleHealth_InvalidFirmwareError,
+  Boolean ModuleHealth_ConfigDataError, Boolean ModuleHealth_NoEnergySourcePresent,
+  Boolean ModuleHealth_EnergySourcePolicyNotSet, Boolean ModuleHealth_EnergySourceHardwareError,
+  Boolean ModuleHealth_EnergySourceHealthAssessmentError, UInt32 EncodedModuleTemperature,
+  Boolean ErrorThreshold_NvmLifetimeError, Boolean ErrorThreshold_EnergySourceLifetimeError,
+  Boolean ErrorThreshold_EnergySourceTemperatureError, Boolean WarningThreshold_NvmLifetimeWarning,
+  Boolean WarningThreshold_EnergySourceLifetimeWarning, Boolean WarningThreshold_EnergySourceTemperatureWarning,
+  UInt32 NvmLifetimePercentage, UInt32 UncorrectableMemoryErrorCount, UInt32 CorrectableMemoryErrorAboveThresholdEventCount,
+  HexInt32 LastBackup_TriggerInformation, HexInt32 LastBackup_SaveFailureInformation)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: HexInt32
+  field_name: NfitHandle
+- field_type: UInt32
+  field_name: SlotNumber
+- field_type: AnsiString
+  field_name: VendorId
+- field_type: AnsiString
+  field_name: ProductId
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: UnicodeString
+  field_name: Location
+- field_type: Boolean
+  field_name: LostPersistence
+- field_type: Boolean
+  field_name: WarningThresholdExceeded
+- field_type: Boolean
+  field_name: PersistenceRestored
+- field_type: Boolean
+  field_name: BelowWarningThreshold
+- field_type: Boolean
+  field_name: ModuleHealth_VoltageRegulatorFailed
+- field_type: Boolean
+  field_name: ModuleHealth_VddLost
+- field_type: Boolean
+  field_name: ModuleHealth_VppLost
+- field_type: Boolean
+  field_name: ModuleHealth_VttLost
+- field_type: Boolean
+  field_name: ModuleHealth_DramNotInSelfRefresh
+- field_type: Boolean
+  field_name: ModuleHealth_ControllerHardwareError
+- field_type: Boolean
+  field_name: ModuleHealth_NvmControllerError
+- field_type: Boolean
+  field_name: ModuleHealth_NvmLifetimeError
+- field_type: Boolean
+  field_name: ModuleHealth_NotEnoughEnergyForSave
+- field_type: Boolean
+  field_name: ModuleHealth_InvalidFirmwareError
+- field_type: Boolean
+  field_name: ModuleHealth_ConfigDataError
+- field_type: Boolean
+  field_name: ModuleHealth_NoEnergySourcePresent
+- field_type: Boolean
+  field_name: ModuleHealth_EnergySourcePolicyNotSet
+- field_type: Boolean
+  field_name: ModuleHealth_EnergySourceHardwareError
+- field_type: Boolean
+  field_name: ModuleHealth_EnergySourceHealthAssessmentError
+- field_type: UInt32
+  field_name: EncodedModuleTemperature
+- field_type: Boolean
+  field_name: ErrorThreshold_NvmLifetimeError
+- field_type: Boolean
+  field_name: ErrorThreshold_EnergySourceLifetimeError
+- field_type: Boolean
+  field_name: ErrorThreshold_EnergySourceTemperatureError
+- field_type: Boolean
+  field_name: WarningThreshold_NvmLifetimeWarning
+- field_type: Boolean
+  field_name: WarningThreshold_EnergySourceLifetimeWarning
+- field_type: Boolean
+  field_name: WarningThreshold_EnergySourceTemperatureWarning
+- field_type: UInt32
+  field_name: NvmLifetimePercentage
+- field_type: UInt32
+  field_name: UncorrectableMemoryErrorCount
+- field_type: UInt32
+  field_name: CorrectableMemoryErrorAboveThresholdEventCount
+- field_type: HexInt32
+  field_name: LastBackup_TriggerInformation
+- field_type: HexInt32
+  field_name: LastBackup_SaveFailureInformation

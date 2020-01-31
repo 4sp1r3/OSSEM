@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '536'
+version: '0'
+event(fields): DirectedDripsWorker(UInt8 CsSessionId, UInt64 WorkFlags)
+opcode: ''
+keywords: po:Diagnostic
+task: DirectedDripsWorker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: CsSessionId
+- field_type: UInt64
+  field_name: WorkFlags

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '3013'
+version: '0'
+event(fields): task_03013(UnicodeString QueryName, UInt32 Status, UnicodeString QueryResults)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: QueryName
+- field_type: UInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: QueryResults

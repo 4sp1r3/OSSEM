@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '6011'
+version: '0'
+event(fields): Initialize_ServerStart(Pointer Address, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Initialize_Server
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Address
+- field_type: UInt32
+  field_name: ErrorCode

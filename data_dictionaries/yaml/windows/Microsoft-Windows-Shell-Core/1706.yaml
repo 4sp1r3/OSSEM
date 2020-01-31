@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1706'
+version: '0'
+event(fields): ShellTask_CollectionLock_AddTaskTimerThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_CollectionLock_AddTaskTimerThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Audio
+event_id: '47'
+version: '0'
+event(fields): Audio_Glitch_DetectionKSEndpointGlitch:STCAPDeviceStarved(Pointer pCAudioCapturePinStandardStreaming,
+  UInt64 StreamPosition, UInt32 FrameCount)
+opcode: STCAPDeviceStarved
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCAudioCapturePinStandardStreaming
+- field_type: UInt64
+  field_name: StreamPosition
+- field_type: UInt32
+  field_name: FrameCount

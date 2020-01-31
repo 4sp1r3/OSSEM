@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60307'
+version: '0'
+event(fields): TryHarder_Calculate_Search_SubfoldersStart()
+opcode: Start
+keywords: Shell
+task: TryHarder_Calculate_Search_Subfolders
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

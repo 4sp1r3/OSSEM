@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Win32k
+event_id: '444'
+version: '0'
+event(fields): DCompResourcePropertyUpdate(UInt32 Channel, UInt32 InternalHandle,
+  UInt32 ExternalHandle, UInt32 ResourceType, UInt32 PropertyId)
+opcode: ''
+keywords: Updates Visualization
+task: DCompResourcePropertyUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Channel
+- field_type: UInt32
+  field_name: InternalHandle
+- field_type: UInt32
+  field_name: ExternalHandle
+- field_type: UInt32
+  field_name: ResourceType
+- field_type: UInt32
+  field_name: PropertyId

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '23'
+version: '0'
+event(fields): URB_FUNCTION_GET_CURRENT_FRAME_NUMBERDispatch(Int16 fid_USBPORT_HC,
+  Float fid_USBPORT_Device, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, UInt32 fid_URB_FrameNumber)
+opcode: Dispatch
+keywords: Diagnostic
+task: URB_FUNCTION_GET_CURRENT_FRAME_NUMBER
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int16
+  field_name: fid_USBPORT_HC
+- field_type: Float
+  field_name: fid_USBPORT_Device
+- field_type: Pointer
+  field_name: fid_IRP_Ptr
+- field_type: Pointer
+  field_name: fid_URB_Ptr
+- field_type: UInt32
+  field_name: fid_URB_FrameNumber

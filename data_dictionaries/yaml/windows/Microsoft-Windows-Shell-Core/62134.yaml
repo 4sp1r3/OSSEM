@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62134'
+version: '0'
+event(fields): TileManagement_AppTileInfo_VerifyInformationStart(UnicodeString AppUserModelID)
+opcode: Start
+keywords: Shell
+task: TileManagement_AppTileInfo_VerifyInformation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelID

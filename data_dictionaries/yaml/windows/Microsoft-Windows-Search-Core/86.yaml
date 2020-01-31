@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '86'
+version: '0'
+event(fields): Backoff_MemoryCheck(UInt32 MemAvail, UInt32 MemTreshold, Boolean IsLow)
+opcode: ''
+keywords: Backoff
+task: Backoff_MemoryCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MemAvail
+- field_type: UInt32
+  field_name: MemTreshold
+- field_type: Boolean
+  field_name: IsLow

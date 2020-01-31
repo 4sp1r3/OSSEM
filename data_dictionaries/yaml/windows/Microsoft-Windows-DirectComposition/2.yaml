@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '2'
+version: '0'
+event(fields): BEGIN_DRAWStart(UInt32 channelHandle, UInt32 resourceType, UInt64 resourcePointer,
+  Int32 left, Int32 top, Int32 right, Int32 bottom)
+opcode: Start
+keywords: DCompBasic DCompMemory
+task: BEGIN_DRAW
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: channelHandle
+- field_type: UInt32
+  field_name: resourceType
+- field_type: UInt64
+  field_name: resourcePointer
+- field_type: Int32
+  field_name: left
+- field_type: Int32
+  field_name: top
+- field_type: Int32
+  field_name: right
+- field_type: Int32
+  field_name: bottom

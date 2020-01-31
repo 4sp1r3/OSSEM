@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DotNETRuntimeRundown
+event_id: '142'
+version: '1'
+event(fields): MethodDCStop_V1(UInt64 MethodID, UInt64 ModuleID, UInt64 MethodStartAddress,
+  UInt32 MethodSize, UInt32 MethodToken, UInt32 MethodFlags, UInt16 ClrInstanceID)
+opcode: DCStop
+keywords: JitRundownKeyword NGenRundownKeyword
+task: Method
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MethodID
+- field_type: UInt64
+  field_name: ModuleID
+- field_type: UInt64
+  field_name: MethodStartAddress
+- field_type: UInt32
+  field_name: MethodSize
+- field_type: UInt32
+  field_name: MethodToken
+- field_type: UInt32
+  field_name: MethodFlags
+- field_type: UInt16
+  field_name: ClrInstanceID

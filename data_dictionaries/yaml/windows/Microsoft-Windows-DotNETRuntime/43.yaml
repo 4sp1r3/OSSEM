@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '43'
+version: '0'
+event(fields): WorkerThreadRetirementV2Stop(UInt32 WorkerThreadCount, UInt32 RetiredWorkerThreads)
+opcode: Stop
+keywords: ThreadingKeyword
+task: WorkerThreadRetirementV2
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WorkerThreadCount
+- field_type: UInt32
+  field_name: RetiredWorkerThreads

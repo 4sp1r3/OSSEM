@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '66'
+version: '0'
+event(fields): WinlogonPhaseStart()
+opcode: PhaseStart
+keywords: po:Performance po:PerformanceLight
+task: Winlogon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

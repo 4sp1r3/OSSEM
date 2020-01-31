@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '265'
+version: '0'
+event(fields): ScheduleHighestReadyPriorityLevel(UInt64 PriorityLevelToSchedule, UInt64
+  ReadyContextMapBits, UInt32 ThresholdExceededPriorityMapBits, Boolean bInYieldState,
+  Boolean bYieldStateStartTimeInitialized, Boolean bYieldingDone, UInt64 YieldStartTime)
+opcode: ''
+keywords: GPUScheduler
+task: ScheduleHighestReadyPriorityLevel
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PriorityLevelToSchedule
+- field_type: UInt64
+  field_name: ReadyContextMapBits
+- field_type: UInt32
+  field_name: ThresholdExceededPriorityMapBits
+- field_type: Boolean
+  field_name: bInYieldState
+- field_type: Boolean
+  field_name: bYieldStateStartTimeInitialized
+- field_type: Boolean
+  field_name: bYieldingDone
+- field_type: UInt64
+  field_name: YieldStartTime

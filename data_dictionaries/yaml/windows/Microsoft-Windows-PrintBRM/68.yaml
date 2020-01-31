@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '68'
+version: '0'
+event(fields): GeneraloperationPrintBRMoperationfailure68(UnicodeString PathName,
+  HexInt32 ErrorCode)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_BRM_KEYWORD
+task: Generaloperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PathName
+- field_type: HexInt32
+  field_name: ErrorCode

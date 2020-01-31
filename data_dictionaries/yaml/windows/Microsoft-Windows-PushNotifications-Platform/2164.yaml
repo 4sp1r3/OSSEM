@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2164'
+version: '0'
+event(fields): ClearAllStart()
+opcode: Start
+keywords: wpnend
+task: ClearAll
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

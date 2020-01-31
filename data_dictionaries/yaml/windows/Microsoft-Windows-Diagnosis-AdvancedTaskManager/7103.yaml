@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '7103'
+version: '0'
+event(fields): AppHistory_RegisterAndProcessStatsStop(UInt32 SrumProvider)
+opcode: Stop
+keywords: datamonitor
+task: AppHistory_RegisterAndProcessStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SrumProvider

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62334'
+version: '0'
+event(fields): FileChunkMap_DeleteStart()
+opcode: Start
+keywords: Shell
+task: FileChunkMap_Delete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

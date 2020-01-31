@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '198'
+version: '0'
+event(fields): IllegalEndpointSharingAcrossInterfacesError(Pointer fid_UsbDevice,
+  UInt16 fid_idVendor, UInt16 fid_idProduct, UInt16 fid_bcdDevice, UInt32 fid_DeviceSpeed,
+  UInt8 fid_bEndpointAddress, UInt8 fid_bInterfaceNumber1, UInt8 fid_bAlternateSetting1,
+  UInt8 fid_bInterfaceNumber2, UInt8 fid_bAlternateSetting2)
+opcode: Error
+keywords: Default HWVerifyDevice keyword_400000000000
+task: IllegalEndpointSharingAcrossInterfaces
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt16
+  field_name: fid_idVendor
+- field_type: UInt16
+  field_name: fid_idProduct
+- field_type: UInt16
+  field_name: fid_bcdDevice
+- field_type: UInt32
+  field_name: fid_DeviceSpeed
+- field_type: UInt8
+  field_name: fid_bEndpointAddress
+- field_type: UInt8
+  field_name: fid_bInterfaceNumber1
+- field_type: UInt8
+  field_name: fid_bAlternateSetting1
+- field_type: UInt8
+  field_name: fid_bInterfaceNumber2
+- field_type: UInt8
+  field_name: fid_bAlternateSetting2

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5503'
+version: '0'
+event(fields): UI_DataSortStart()
+opcode: Start
+keywords: ui
+task: UI_DataSort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

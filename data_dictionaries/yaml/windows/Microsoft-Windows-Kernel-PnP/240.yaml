@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '240'
+version: '0'
+event(fields): task_0240(UnicodeString TargetPath, UnicodeString SparePath)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TargetPath
+- field_type: UnicodeString
+  field_name: SparePath

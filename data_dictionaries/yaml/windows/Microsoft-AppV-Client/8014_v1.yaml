@@ -1,0 +1,22 @@
+provider: Microsoft-AppV-Client
+event_id: '8014'
+version: '1'
+event(fields): ConfigureVirtualApplicationConnectionGroup8014_V1(GUID ConnectionGroup,
+  GUID Version, UInt32 ErrorHigh, UInt32 ErrorLow, UnicodeString Sid)
+opcode: ''
+keywords: DynamicConfiguration
+task: ConfigureVirtualApplicationConnectionGroup
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConnectionGroup
+- field_type: GUID
+  field_name: Version
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow
+- field_type: UnicodeString
+  field_name: Sid

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Schannel-Events
+event_id: '1025'
+version: '0'
+event(fields): CAPI2CallsStart()
+opcode: Start
+keywords: ''
+task: CAPI2Calls
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

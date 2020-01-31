@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '658'
+version: '0'
+event(fields): Smb2FileCCFCloseAudit(UInt16 FileNameLength, UnicodeString FileName,
+  UInt16 UserNameLength, UnicodeString UserName, UInt16 ComputerNameLength, UnicodeString
+  ComputerName, UInt16 ShareNameLength, UnicodeString ShareName)
+opcode: ''
+keywords: Operational
+task: Smb2FileCCFCloseAudit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt16
+  field_name: UserNameLength
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UInt16
+  field_name: ComputerNameLength
+- field_type: UnicodeString
+  field_name: ComputerName
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName

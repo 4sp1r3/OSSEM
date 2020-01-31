@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5149'
+version: '0'
+event(fields): task_05149(UnicodeString Type, UInt64 PacketsDiscarded)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Type
+- field_type: UInt64
+  field_name: PacketsDiscarded

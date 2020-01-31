@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment
+event_id: '1035'
+version: '0'
+event(fields): AppXDeployment.Task.Client.EnumAPIStop1035()
+opcode: Stop
+keywords: AppXDeployment
+task: AppXDeployment.Task.Client.EnumAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

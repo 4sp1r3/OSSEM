@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4437'
+version: '0'
+event(fields): WorkQueue:QueueStart(Pointer WorkQueuePointer, Int32 QueueDepth, Pointer
+  AsyncResult)
+opcode: Start
+keywords: ''
+task: WorkQueue:Queue
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WorkQueuePointer
+- field_type: Int32
+  field_name: QueueDepth
+- field_type: Pointer
+  field_name: AsyncResult

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '363'
+version: '0'
+event(fields): AppXPackaging.Task.Manifest.LookupCapabilityDisplayNameStop(SID capabilitySid,
+  HexInt32 result)
+opcode: Stop
+keywords: ''
+task: AppXPackaging.Task.Manifest.LookupCapabilityDisplayName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: capabilitySid
+- field_type: HexInt32
+  field_name: result

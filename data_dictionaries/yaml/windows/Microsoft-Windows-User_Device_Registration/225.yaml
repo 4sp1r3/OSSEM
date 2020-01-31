@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '225'
+version: '0'
+event(fields): task_0225(UnicodeString UserAgent, UInt32 AccessType, UnicodeString
+  ProxyName, UnicodeString ProxyBypassList, UInt32 Flags, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserAgent
+- field_type: UInt32
+  field_name: AccessType
+- field_type: UnicodeString
+  field_name: ProxyName
+- field_type: UnicodeString
+  field_name: ProxyBypassList
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ErrorCode

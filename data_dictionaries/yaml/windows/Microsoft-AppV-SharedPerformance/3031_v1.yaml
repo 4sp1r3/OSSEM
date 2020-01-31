@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3031'
+version: '1'
+event(fields): ConfigurePackageGroupStart_V1()
+opcode: Start
+keywords: ''
+task: ConfigurePackageGroup
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

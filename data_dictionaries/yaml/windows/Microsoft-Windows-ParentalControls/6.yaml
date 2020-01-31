@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '6'
+version: '0'
+event(fields): MediaPlaybackLaunch(UnicodeString Application, UnicodeString Version,
+  UInt32 MediaType, UnicodeString Path, UnicodeString Title, UInt32 PML, UnicodeString
+  Album, UInt32 ExplicitContent, UInt32 Reason)
+opcode: Launch
+keywords: WPC ThirdParty
+task: MediaPlayback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Application
+- field_type: UnicodeString
+  field_name: Version
+- field_type: UInt32
+  field_name: MediaType
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UnicodeString
+  field_name: Title
+- field_type: UInt32
+  field_name: PML
+- field_type: UnicodeString
+  field_name: Album
+- field_type: UInt32
+  field_name: ExplicitContent
+- field_type: UInt32
+  field_name: Reason

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '108'
+version: '0'
+event(fields): PageAsyncPrintStop()
+opcode: Stop
+keywords: Reader
+task: PageAsyncPrint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '644'
+version: '0'
+event(fields): Mshtml_EventDebug_MutationObserverCallbackStop()
+opcode: Stop
+keywords: eventsandtimers
+task: Mshtml_EventDebug_MutationObserverCallback
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

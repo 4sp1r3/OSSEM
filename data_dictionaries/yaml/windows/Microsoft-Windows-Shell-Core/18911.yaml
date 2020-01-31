@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18911'
+version: '0'
+event(fields): Shell32_CopyEngine_ProgressEstimate(UInt64 NewMean, UInt64 AverageMean,
+  UInt64 Estimate)
+opcode: ''
+keywords: Shell
+task: Shell32_CopyEngine_ProgressEstimate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: NewMean
+- field_type: UInt64
+  field_name: AverageMean
+- field_type: UInt64
+  field_name: Estimate

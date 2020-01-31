@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1239'
+version: '0'
+event(fields): RssConfigurationChange(UInt32 AdapterIndex, UInt32 Setting, UInt32
+  Value)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Rss ut:Global
+task: RssConfigurationChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterIndex
+- field_type: UInt32
+  field_name: Setting
+- field_type: UInt32
+  field_name: Value

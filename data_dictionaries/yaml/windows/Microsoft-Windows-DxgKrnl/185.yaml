@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '185'
+version: '0'
+event(fields): RecordQueuePacketTimestamps(Pointer hContext, UInt64 FenceId, UInt32
+  ProcessorFrequencyInMHz, UInt32 NumberOfTimestamps, UInt64 Timestamps)
+opcode: ''
+keywords: Base
+task: RecordQueuePacketTimestamps
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt64
+  field_name: FenceId
+- field_type: UInt32
+  field_name: ProcessorFrequencyInMHz
+- field_type: UInt32
+  field_name: NumberOfTimestamps
+- field_type: UInt64
+  field_name: Timestamps

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-QoS-Pacer
+event_id: '14'
+version: '0'
+event(fields): task_014(UInt32 FlowSendQueueEvent, UInt64 CurrentTime, UInt64 IdleTime,
+  UInt64 DelayTime, UInt32 BytesRequested, UInt32 BytesSent, UInt32 BytesQueued)
+opcode: ''
+keywords: ut:SendPath
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FlowSendQueueEvent
+- field_type: UInt64
+  field_name: CurrentTime
+- field_type: UInt64
+  field_name: IdleTime
+- field_type: UInt64
+  field_name: DelayTime
+- field_type: UInt32
+  field_name: BytesRequested
+- field_type: UInt32
+  field_name: BytesSent
+- field_type: UInt32
+  field_name: BytesQueued

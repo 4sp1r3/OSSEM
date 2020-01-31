@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '69'
+version: '0'
+event(fields): UserCallbackStop(Int8 CallbackCount, Int32 api)
+opcode: Stop
+keywords: MessagePumpInternalAndInput
+task: UserCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: CallbackCount
+- field_type: Int32
+  field_name: api

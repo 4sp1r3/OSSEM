@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '34'
+version: '0'
+event(fields): MFT_NotifySampleLag(Int64 SampleLag)
+opcode: ''
+keywords: ''
+task: MFT_NotifySampleLag
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: SampleLag

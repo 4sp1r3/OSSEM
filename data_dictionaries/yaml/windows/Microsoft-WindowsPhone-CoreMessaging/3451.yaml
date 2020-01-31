@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3451'
+version: '0'
+event(fields): RemoteRegistrarClient_FindPendingConversationClientStop()
+opcode: Stop
+keywords: MessagingPerformance RegistrarClient
+task: RemoteRegistrarClient_FindPendingConversationClient
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

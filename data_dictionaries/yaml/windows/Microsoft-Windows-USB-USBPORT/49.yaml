@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '49'
+version: '0'
+event(fields): URB_FUNCTION_CLASS_DEVICEDispatch(Int32 fid_USBPORT_HC, Boolean fid_USBPORT_Device,
+  HexInt32 fid_USBPORT_Endpoint, CountedMbcsString fid_USBPORT_Endpoint_Descriptor,
+  Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, 29 fid_USBPORT_URB_CONTROL_TRANSFER)
+opcode: Dispatch
+keywords: Diagnostic
+task: URB_FUNCTION_CLASS_DEVICE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: fid_USBPORT_HC
+- field_type: Boolean
+  field_name: fid_USBPORT_Device
+- field_type: HexInt32
+  field_name: fid_USBPORT_Endpoint
+- field_type: CountedMbcsString
+  field_name: fid_USBPORT_Endpoint_Descriptor
+- field_type: Pointer
+  field_name: fid_IRP_Ptr
+- field_type: Pointer
+  field_name: fid_URB_Ptr
+- field_type: '29'
+  field_name: fid_USBPORT_URB_CONTROL_TRANSFER

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '4098'
+version: '1'
+event(fields): ConnectTobeusedwhenoperationisjustexecutingamethod4098_V1()
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: Cmdlets
+task: Connect
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

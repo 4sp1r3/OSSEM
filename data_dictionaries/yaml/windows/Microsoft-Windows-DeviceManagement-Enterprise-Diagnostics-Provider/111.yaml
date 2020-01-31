@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider
+event_id: '111'
+version: '0'
+event(fields): task_0111(Boolean Boolean1)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Boolean1

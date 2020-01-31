@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '37'
+version: '0'
+event(fields): RestorePrintBRMoperationsuccess37()
+opcode: PrintBRMoperationsuccess
+keywords: PRINT_FORM_KEYWORD
+task: Restore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

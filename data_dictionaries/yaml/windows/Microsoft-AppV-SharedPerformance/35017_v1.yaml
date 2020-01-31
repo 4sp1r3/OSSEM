@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '35017'
+version: '1'
+event(fields): VFSCreateActCtxArequestStop_V1()
+opcode: Stop
+keywords: ''
+task: VFSCreateActCtxArequest
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

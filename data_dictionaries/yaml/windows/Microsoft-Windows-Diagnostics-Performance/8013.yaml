@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '8013'
+version: '0'
+event(fields): Shutdown_CancelledAnalysisViaRegistry()
+opcode: ''
+keywords: ShutdownStatus
+task: Shutdown_CancelledAnalysisViaRegistry
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

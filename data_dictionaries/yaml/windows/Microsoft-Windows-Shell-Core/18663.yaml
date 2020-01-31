@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18663'
+version: '0'
+event(fields): Shell32_DefView_HighQualityStretchStart()
+opcode: Start
+keywords: Shell
+task: Shell32_DefView_HighQualityStretch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

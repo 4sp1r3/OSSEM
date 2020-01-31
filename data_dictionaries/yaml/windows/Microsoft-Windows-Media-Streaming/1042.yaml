@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '1042'
+version: '0'
+event(fields): DMR_PlayStart(UInt32 instanceID, UnicodeString String)
+opcode: Start
+keywords: ''
+task: DMR_Play
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: instanceID
+- field_type: UnicodeString
+  field_name: String

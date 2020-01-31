@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6028'
+version: '0'
+event(fields): ReloadDataStart()
+opcode: Start
+keywords: ''
+task: ReloadData
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

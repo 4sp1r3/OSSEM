@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27240'
+version: '0'
+event(fields): PerfTrack_ControlPanel_CategoryNavigationStop()
+opcode: Stop
+keywords: Shell
+task: PerfTrack_ControlPanel_CategoryNavigation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

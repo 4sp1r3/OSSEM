@@ -1,0 +1,54 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '115'
+version: '0'
+event(fields): USBTransferInformation115(Pointer fid_Controller, Pointer fid_UsbDevice,
+  Pointer fid_Endpoint, UInt16 fid_EndpointHandle, UInt32 fid_TransferType, UInt32
+  fid_TransferDirection, UInt8 fid_RequestId, UInt32 fid_SequenceNumber, UInt16 fid_Length,
+  UInt32 fid_MaUsbStatus, UInt8 fid_AckRequest, UInt8 fid_NegativeCredit, UInt8 fid_EndOfTransfer,
+  UInt16 fid_NumberOfIsochHeaders, UInt8 fid_MTDValid, UInt8 fid_ASAPDelivery, UInt32
+  fid_PresentationTime, UInt16 fid_NumberOfIsochSegments, UInt32 fid_NominalBusInterval)
+opcode: Information
+keywords: IRP MAUSBTraffic
+task: USBTransfer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Pointer
+  field_name: fid_Endpoint
+- field_type: UInt16
+  field_name: fid_EndpointHandle
+- field_type: UInt32
+  field_name: fid_TransferType
+- field_type: UInt32
+  field_name: fid_TransferDirection
+- field_type: UInt8
+  field_name: fid_RequestId
+- field_type: UInt32
+  field_name: fid_SequenceNumber
+- field_type: UInt16
+  field_name: fid_Length
+- field_type: UInt32
+  field_name: fid_MaUsbStatus
+- field_type: UInt8
+  field_name: fid_AckRequest
+- field_type: UInt8
+  field_name: fid_NegativeCredit
+- field_type: UInt8
+  field_name: fid_EndOfTransfer
+- field_type: UInt16
+  field_name: fid_NumberOfIsochHeaders
+- field_type: UInt8
+  field_name: fid_MTDValid
+- field_type: UInt8
+  field_name: fid_ASAPDelivery
+- field_type: UInt32
+  field_name: fid_PresentationTime
+- field_type: UInt16
+  field_name: fid_NumberOfIsochSegments
+- field_type: UInt32
+  field_name: fid_NominalBusInterval

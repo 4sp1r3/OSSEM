@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '128'
+version: '0'
+event(fields): Launchconditionnotmet,beyondendtime(UnicodeString TaskName)
+opcode: ''
+keywords: ''
+task: Launchconditionnotmet,beyondendtime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName

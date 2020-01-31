@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Mobile-Broadband-Experience-Api
+event_id: '1001'
+version: '0'
+event(fields): task_01001(UnicodeString funcName, UnicodeString errorDetails)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: funcName
+- field_type: UnicodeString
+  field_name: errorDetails

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-MFReadWrite
+event_id: '7'
+version: '0'
+event(fields): SourceReader_FlushStop(Pointer Object, UInt32 StreamIndex)
+opcode: Stop
+keywords: ''
+task: SourceReader_Flush
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: StreamIndex

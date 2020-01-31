@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9526'
+version: '0'
+event(fields): Explorer_StartMenu_ControlPanel_LaunchStop()
+opcode: Stop
+keywords: Shell
+task: Explorer_StartMenu_ControlPanel_Launch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

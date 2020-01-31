@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '32'
+version: '0'
+event(fields): HandleThreadInputFocusEventStop(Pointer hwnd)
+opcode: Stop
+keywords: Focus
+task: HandleThreadInputFocusEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwnd

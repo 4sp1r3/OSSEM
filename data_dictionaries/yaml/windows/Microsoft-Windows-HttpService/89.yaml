@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-HttpService
+event_id: '89'
+version: '0'
+event(fields): HTTPSSLTraceTaskSniParsed(Pointer ConnectionObj, UInt32 Status, UInt32
+  SniLength, Binary SniHost, UnicodeString NormalizedHost)
+opcode: SniParsed
+keywords: HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL
+task: HTTPSSLTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionObj
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: SniLength
+- field_type: Binary
+  field_name: SniHost
+- field_type: UnicodeString
+  field_name: NormalizedHost

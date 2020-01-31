@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Backup
+event_id: '517'
+version: '1'
+event(fields): task_0517_V1(FILETIME BackupTime, HexInt32 ErrorCode, UnicodeString
+  ErrorMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: BackupTime
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

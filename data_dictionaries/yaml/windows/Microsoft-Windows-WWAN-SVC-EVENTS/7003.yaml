@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '7003'
+version: '0'
+event(fields): AccountManagement7003()
+opcode: ''
+keywords: ''
+task: AccountManagement
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '612'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment612()
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

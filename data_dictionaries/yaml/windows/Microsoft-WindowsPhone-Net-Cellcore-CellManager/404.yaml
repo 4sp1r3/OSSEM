@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '404'
+version: '0'
+event(fields): BTPower404()
+opcode: ''
+keywords: Error
+task: BTPower
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

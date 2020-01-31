@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1039'
+version: '1'
+event(fields): PredictorQuery_V1(HexInt32 AppKey, UInt32 PredictionPurpose, Double
+  Probability)
+opcode: ''
+keywords: PfAp
+task: PredictorQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: AppKey
+- field_type: UInt32
+  field_name: PredictionPurpose
+- field_type: Double
+  field_name: Probability

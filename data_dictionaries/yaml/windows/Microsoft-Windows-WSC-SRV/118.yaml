@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WSC-SRV
+event_id: '118'
+version: '0'
+event(fields): GenericMarkerStop118()
+opcode: Stop
+keywords: UI
+task: GenericMarker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

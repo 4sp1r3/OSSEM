@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '75'
+version: '0'
+event(fields): ApiSetIconicLivePreviewBitmapStart(Pointer hwnd)
+opcode: Start
+keywords: DwmApi
+task: ApiSetIconicLivePreviewBitmap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwnd

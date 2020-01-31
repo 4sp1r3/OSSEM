@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '331'
+version: '0'
+event(fields): DefaultPepWorkerStop(Pointer EndDevice, Int8 WorkType, UInt8 Phase,
+  UInt8 NumberExtraDevices)
+opcode: Stop
+keywords: po:RuntimeFx
+task: DefaultPepWorker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: EndDevice
+- field_type: Int8
+  field_name: WorkType
+- field_type: UInt8
+  field_name: Phase
+- field_type: UInt8
+  field_name: NumberExtraDevices

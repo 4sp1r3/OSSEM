@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4000'
+version: '0'
+event(fields): Add_AppvPackageStart(UnicodeString str)
+opcode: Start
+keywords: ''
+task: Add_AppvPackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str

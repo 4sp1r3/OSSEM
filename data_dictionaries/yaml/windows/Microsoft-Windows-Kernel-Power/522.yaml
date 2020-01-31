@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '522'
+version: '0'
+event(fields): CsDripsDivergence(Boolean HwDripsTotalTimeValid, UInt64 DripsTotalTimeThisPeriodUs,
+  UInt64 HwDripsTotalTimeThisPeriodUs, UInt32 PopDripsSwHwDivergenceThreshold)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: CsDripsDivergence
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: HwDripsTotalTimeValid
+- field_type: UInt64
+  field_name: DripsTotalTimeThisPeriodUs
+- field_type: UInt64
+  field_name: HwDripsTotalTimeThisPeriodUs
+- field_type: UInt32
+  field_name: PopDripsSwHwDivergenceThreshold

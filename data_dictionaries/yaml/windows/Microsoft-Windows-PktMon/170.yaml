@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-PktMon
+event_id: '170'
+version: '0'
+event(fields): task_0170(UInt64 PktGroupId, UInt16 PktNumber, UInt16 AppearanceCount,
+  UInt16 DirTag, UInt16 PacketType, UInt16 ComponentId, UInt16 EdgeId, UInt16 FilterId,
+  UInt32 DropReason, UInt32 DropLocation, UInt16 OriginalPayloadSize, UInt16 LoggedPayloadSize,
+  Binary Payload)
+opcode: ''
+keywords: Payload
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PktGroupId
+- field_type: UInt16
+  field_name: PktNumber
+- field_type: UInt16
+  field_name: AppearanceCount
+- field_type: UInt16
+  field_name: DirTag
+- field_type: UInt16
+  field_name: PacketType
+- field_type: UInt16
+  field_name: ComponentId
+- field_type: UInt16
+  field_name: EdgeId
+- field_type: UInt16
+  field_name: FilterId
+- field_type: UInt32
+  field_name: DropReason
+- field_type: UInt32
+  field_name: DropLocation
+- field_type: UInt16
+  field_name: OriginalPayloadSize
+- field_type: UInt16
+  field_name: LoggedPayloadSize
+- field_type: Binary
+  field_name: Payload

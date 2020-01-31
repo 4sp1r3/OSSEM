@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '342'
+version: '0'
+event(fields): AppXDeployment.Task.Server.OSIM342(UnicodeString DehName, Boolean RunAsSystem)
+opcode: ''
+keywords: OSIM_KEYWORD keyword_400000000000
+task: AppXDeployment.Task.Server.OSIM
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DehName
+- field_type: Boolean
+  field_name: RunAsSystem

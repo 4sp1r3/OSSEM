@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18579'
+version: '0'
+event(fields): Shell32_DefView_ViewModeChangeStart(UInt32 Mode, UInt32 IconSize)
+opcode: Start
+keywords: Shell
+task: Shell32_DefView_ViewModeChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Mode
+- field_type: UInt32
+  field_name: IconSize

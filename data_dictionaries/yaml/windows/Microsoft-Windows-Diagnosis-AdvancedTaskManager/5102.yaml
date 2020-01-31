@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5102'
+version: '0'
+event(fields): ListUpdateDelete(UInt32 TableId, UInt32 ItemPos, UInt32 ItemState,
+  UnicodeString ItemContent)
+opcode: Delete
+keywords: list
+task: ListUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TableId
+- field_type: UInt32
+  field_name: ItemPos
+- field_type: UInt32
+  field_name: ItemState
+- field_type: UnicodeString
+  field_name: ItemContent

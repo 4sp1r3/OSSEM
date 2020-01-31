@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Runtime-Web-Http
+event_id: '17'
+version: '0'
+event(fields): HttpAsyncI/O17(Pointer obj)
+opcode: ''
+keywords: ''
+task: HttpAsyncI/O
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: obj

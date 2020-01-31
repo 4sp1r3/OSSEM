@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '187'
+version: '0'
+event(fields): NtInitiatePowerActionApiCall(UInt16 ApiCallerNameLength, UnicodeString
+  ApiCallerName, UInt32 SystemAction, UInt32 LightestSystemState)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight keyword_400000000000
+task: NtInitiatePowerActionApiCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ApiCallerNameLength
+- field_type: UnicodeString
+  field_name: ApiCallerName
+- field_type: UInt32
+  field_name: SystemAction
+- field_type: UInt32
+  field_name: LightestSystemState

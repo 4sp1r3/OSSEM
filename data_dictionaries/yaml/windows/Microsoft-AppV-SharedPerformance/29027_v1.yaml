@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '29027'
+version: '1'
+event(fields): InjectModuleIntoModuleTask.Stop_V1()
+opcode: Stop
+keywords: ''
+task: InjectModuleIntoModuleTask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

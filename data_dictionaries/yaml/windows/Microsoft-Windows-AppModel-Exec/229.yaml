@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '229'
+version: '0'
+event(fields): task_0229(UnicodeString PsmKey, UInt32 Exemption, UInt32 RegistrationRef,
+  UInt32 PendingRef)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: Exemption
+- field_type: UInt32
+  field_name: RegistrationRef
+- field_type: UInt32
+  field_name: PendingRef

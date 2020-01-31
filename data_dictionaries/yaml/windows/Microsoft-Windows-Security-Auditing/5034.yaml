@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5034'
+version: '0'
+event(fields): task_05034()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

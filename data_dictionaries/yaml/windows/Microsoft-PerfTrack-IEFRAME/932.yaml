@@ -1,0 +1,11 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '932'
+version: '0'
+event(fields): EUPP_HPNavigationTriggerProtection_PerftrackStart()
+opcode: Start
+keywords: nonPerfTrack
+task: EUPP_HPNavigationTriggerProtection_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

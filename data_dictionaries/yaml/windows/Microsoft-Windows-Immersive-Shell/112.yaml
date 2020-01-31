@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '112'
+version: '0'
+event(fields): ImmersiveShellComponentStartupStop(UInt32 TableEntryIndex, UInt32 InitalizationStep,
+  UInt32 Result)
+opcode: Stop
+keywords: ''
+task: ImmersiveShellComponentStartup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TableEntryIndex
+- field_type: UInt32
+  field_name: InitalizationStep
+- field_type: UInt32
+  field_name: Result

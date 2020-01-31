@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '19003'
+version: '1'
+event(fields): ShellNotifyFtaAssocChangedStop_V1()
+opcode: Stop
+keywords: ''
+task: ShellNotifyFtaAssocChanged
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

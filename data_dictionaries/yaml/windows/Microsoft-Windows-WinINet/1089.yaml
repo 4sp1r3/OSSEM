@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1089'
+version: '0'
+event(fields): Wininet_AppCacheServerContainerStart(Pointer Object, Pointer Handle,
+  UnicodeString Directory, Boolean IsIEAppContainer)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_AppCacheServerContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: Handle
+- field_type: UnicodeString
+  field_name: Directory
+- field_type: Boolean
+  field_name: IsIEAppContainer

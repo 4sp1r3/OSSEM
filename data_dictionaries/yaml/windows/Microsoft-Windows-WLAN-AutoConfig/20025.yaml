@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '20025'
+version: '0'
+event(fields): task_020025(UnicodeString Ssid, UInt32 BssidCount, UInt32 AuthAlgoId,
+  UInt32 CipherAlgoId, UInt32 Rssi)
+opcode: ''
+keywords: MSM keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Ssid
+- field_type: UInt32
+  field_name: BssidCount
+- field_type: UInt32
+  field_name: AuthAlgoId
+- field_type: UInt32
+  field_name: CipherAlgoId
+- field_type: UInt32
+  field_name: Rssi

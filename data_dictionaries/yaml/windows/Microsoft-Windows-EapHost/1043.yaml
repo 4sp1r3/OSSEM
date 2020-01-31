@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-EapHost
+event_id: '1043'
+version: '0'
+event(fields): Authenticator1043(UnicodeString ErrorString)
+opcode: ''
+keywords: COM
+task: Authenticator
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ErrorString

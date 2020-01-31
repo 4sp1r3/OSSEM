@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '10009'
+version: '1'
+event(fields): IsvShutdownStart_V1()
+opcode: Start
+keywords: ''
+task: IsvShutdown
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

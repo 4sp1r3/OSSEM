@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-SyncUtil
+event_id: '203'
+version: '0'
+event(fields): task_0203(UnicodeString P1_UnicodeString)
+opcode: ''
+keywords: Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: P1_UnicodeString

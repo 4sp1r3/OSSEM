@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '15'
+version: '0'
+event(fields): RESUME_DRAWStop()
+opcode: Stop
+keywords: DCompBasic
+task: RESUME_DRAW
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

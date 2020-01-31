@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1922'
+version: '0'
+event(fields): PageNavigationController1922(UInt32 unParam)
+opcode: ''
+keywords: PageNavigationController
+task: PageNavigationController
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

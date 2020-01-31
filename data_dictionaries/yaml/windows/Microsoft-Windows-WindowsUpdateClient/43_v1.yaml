@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '43'
+version: '1'
+event(fields): WindowsUpdateAgentInstallation43_V1(UnicodeString updateTitle, GUID
+  updateGuid, UInt32 updateRevisionNumber)
+opcode: Installation
+keywords: install started
+task: WindowsUpdateAgent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: updateTitle
+- field_type: GUID
+  field_name: updateGuid
+- field_type: UInt32
+  field_name: updateRevisionNumber

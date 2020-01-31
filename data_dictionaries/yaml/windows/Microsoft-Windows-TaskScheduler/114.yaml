@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '114'
+version: '0'
+event(fields): Missedtaskstarted(UnicodeString TaskName, GUID InstanceId)
+opcode: ''
+keywords: ''
+task: Missedtaskstarted
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: GUID
+  field_name: InstanceId

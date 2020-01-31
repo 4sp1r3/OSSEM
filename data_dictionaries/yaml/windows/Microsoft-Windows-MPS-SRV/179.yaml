@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '179'
+version: '0'
+event(fields): AdhSitesSubnets_ShutdownStart()
+opcode: Start
+keywords: Service
+task: AdhSitesSubnets_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1295'
+version: '0'
+event(fields): Ndkpi_SrqReceive(Pointer NdkSrq, Pointer RequestContext, Pointer SgeAddress,
+  UInt32 SgeLength, UInt32 SgeMemoryRegionToken, Int32 NumSge, UInt32 Flags, Int32
+  SgeIndex)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_SrqReceive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkSrq
+- field_type: Pointer
+  field_name: RequestContext
+- field_type: Pointer
+  field_name: SgeAddress
+- field_type: UInt32
+  field_name: SgeLength
+- field_type: UInt32
+  field_name: SgeMemoryRegionToken
+- field_type: Int32
+  field_name: NumSge
+- field_type: UInt32
+  field_name: Flags
+- field_type: Int32
+  field_name: SgeIndex

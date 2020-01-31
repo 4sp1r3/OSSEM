@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '7101'
+version: '0'
+event(fields): AppHistory_EnumerateInstalledAppsStop()
+opcode: Stop
+keywords: datamonitor
+task: AppHistory_EnumerateInstalledApps
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

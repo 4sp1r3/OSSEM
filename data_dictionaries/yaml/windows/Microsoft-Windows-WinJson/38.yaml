@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinJson
+event_id: '38'
+version: '0'
+event(fields): None38()
+opcode: ''
+keywords: Error
+task: None
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

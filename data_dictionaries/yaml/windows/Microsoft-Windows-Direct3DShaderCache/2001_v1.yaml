@@ -1,0 +1,83 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '2001'
+version: '1'
+event(fields): StatisticsTelemetry_V1(Boolean UTCReplace_AppSessionGuid, UnicodeString
+  Filename, UInt32 NumLookups, UInt32 NumCacheHits, UInt32 NumL1Hits, UInt32 NumL1HitsInCacheFromAdd,
+  UInt32 NumAddRequests, UInt32 NumFailedAdds, UInt64 FailedAddTotalSize, UInt32 MaxInMemoryEntries,
+  UInt32 MaxInMemorySize, UInt32 NumDiskEntries, UInt64 IndexFileSize, UInt64 ValueFileSize,
+  UInt64 CompressedValueFileSize, Boolean HadCRCFailure, UInt32 NumHashCollisions,
+  UInt64 TotalKeySize, UInt64 TotalValueSize, Double AverageKeySize, Double AverageValueSize,
+  UInt32 MaxKeySize, UInt32 MaxValueSize, Double TotalFindTime, Double TotalAddTime,
+  Double AverageFindTime, Double AverageAddTime, Double MaxFindTime, Double MaxAddTime,
+  Double InitializationTime, Boolean DesiredOpen, Boolean SuccessfulOpen)
+opcode: ''
+keywords: Events keyword_400000000000
+task: StatisticsTelemetry
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: UTCReplace_AppSessionGuid
+- field_type: UnicodeString
+  field_name: Filename
+- field_type: UInt32
+  field_name: NumLookups
+- field_type: UInt32
+  field_name: NumCacheHits
+- field_type: UInt32
+  field_name: NumL1Hits
+- field_type: UInt32
+  field_name: NumL1HitsInCacheFromAdd
+- field_type: UInt32
+  field_name: NumAddRequests
+- field_type: UInt32
+  field_name: NumFailedAdds
+- field_type: UInt64
+  field_name: FailedAddTotalSize
+- field_type: UInt32
+  field_name: MaxInMemoryEntries
+- field_type: UInt32
+  field_name: MaxInMemorySize
+- field_type: UInt32
+  field_name: NumDiskEntries
+- field_type: UInt64
+  field_name: IndexFileSize
+- field_type: UInt64
+  field_name: ValueFileSize
+- field_type: UInt64
+  field_name: CompressedValueFileSize
+- field_type: Boolean
+  field_name: HadCRCFailure
+- field_type: UInt32
+  field_name: NumHashCollisions
+- field_type: UInt64
+  field_name: TotalKeySize
+- field_type: UInt64
+  field_name: TotalValueSize
+- field_type: Double
+  field_name: AverageKeySize
+- field_type: Double
+  field_name: AverageValueSize
+- field_type: UInt32
+  field_name: MaxKeySize
+- field_type: UInt32
+  field_name: MaxValueSize
+- field_type: Double
+  field_name: TotalFindTime
+- field_type: Double
+  field_name: TotalAddTime
+- field_type: Double
+  field_name: AverageFindTime
+- field_type: Double
+  field_name: AverageAddTime
+- field_type: Double
+  field_name: MaxFindTime
+- field_type: Double
+  field_name: MaxAddTime
+- field_type: Double
+  field_name: InitializationTime
+- field_type: Boolean
+  field_name: DesiredOpen
+- field_type: Boolean
+  field_name: SuccessfulOpen

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '30'
+version: '0'
+event(fields): task_030(UnicodeString CachePath, UInt32 ErrorCode, UnicodeString ErrorMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CachePath
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

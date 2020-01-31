@@ -1,0 +1,37 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '115'
+version: '0'
+event(fields): CodePerformanceBuildScatterGatherListInformation(Float fid_USBPORT_HC,
+  FILETIME fid_USBPORT_Device, Struct fid_USBPORT_Endpoint, 27 fid_USBPORT_Endpoint_Descriptor,
+  33 fid_USBPORT_Execution_Metrics, Pointer fid_AdapterObject, UInt32 fid_TransferBufferLength,
+  Boolean fid_WriteData, UInt32 fid_LengthRemaining, Pointer fid_CurrentVA, UnicodeString
+  fid_CodeTag)
+opcode: Information
+keywords: PerfDiagnostics
+task: CodePerformanceBuildScatterGatherList
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: fid_USBPORT_HC
+- field_type: FILETIME
+  field_name: fid_USBPORT_Device
+- field_type: Struct
+  field_name: fid_USBPORT_Endpoint
+- field_type: '27'
+  field_name: fid_USBPORT_Endpoint_Descriptor
+- field_type: '33'
+  field_name: fid_USBPORT_Execution_Metrics
+- field_type: Pointer
+  field_name: fid_AdapterObject
+- field_type: UInt32
+  field_name: fid_TransferBufferLength
+- field_type: Boolean
+  field_name: fid_WriteData
+- field_type: UInt32
+  field_name: fid_LengthRemaining
+- field_type: Pointer
+  field_name: fid_CurrentVA
+- field_type: UnicodeString
+  field_name: fid_CodeTag

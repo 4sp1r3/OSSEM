@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27234'
+version: '0'
+event(fields): Delayed_Filter_Contents()
+opcode: ''
+keywords: Shell
+task: Delayed_Filter_Contents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

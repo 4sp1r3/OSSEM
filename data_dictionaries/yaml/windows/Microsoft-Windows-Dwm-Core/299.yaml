@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '299'
+version: '0'
+event(fields): MIDMANIPULATION_UPDATE_CAPTURE_CONTACT(Pointer Interaction, Pointer
+  Visual, UInt32 pointerId)
+opcode: ''
+keywords: DwmCore DwmInput
+task: MIDMANIPULATION_UPDATE_CAPTURE_CONTACT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Interaction
+- field_type: Pointer
+  field_name: Visual
+- field_type: UInt32
+  field_name: pointerId

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-COM-RundownInstrumentation
+event_id: '13'
+version: '0'
+event(fields): RundownInstrumentation13(UInt64 OID, UInt32 ClientProcessId, UInt32
+  Error)
+opcode: ''
+keywords: RundownInstrumentation
+task: RundownInstrumentation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OID
+- field_type: UInt32
+  field_name: ClientProcessId
+- field_type: UInt32
+  field_name: Error

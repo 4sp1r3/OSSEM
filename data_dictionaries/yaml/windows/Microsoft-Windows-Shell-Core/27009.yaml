@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27009'
+version: '0'
+event(fields): PerfTrack_StartPane_ShowItemStart()
+opcode: Start
+keywords: Shell
+task: PerfTrack_StartPane_ShowItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

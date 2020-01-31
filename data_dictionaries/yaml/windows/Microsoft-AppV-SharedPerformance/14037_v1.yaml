@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14037'
+version: '1'
+event(fields): ConfigurePackageGroup_1019Start_V1()
+opcode: Start
+keywords: ''
+task: ConfigurePackageGroup_1019
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,28 @@
+provider: Microsoft-IE
+event_id: '480'
+version: '0'
+event(fields): Mshtml_CView_HitTest_MessageContextStart(Pointer View, Pointer ContextElement,
+  UInt32 Flags, UInt32 MessageId, UInt32 left, UInt32 top, UInt32 right, UInt32 bottom)
+opcode: Start
+keywords: mshtml
+task: Mshtml_CView_HitTest_MessageContext
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: View
+- field_type: Pointer
+  field_name: ContextElement
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: MessageId
+- field_type: UInt32
+  field_name: left
+- field_type: UInt32
+  field_name: top
+- field_type: UInt32
+  field_name: right
+- field_type: UInt32
+  field_name: bottom

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '314'
+version: '0'
+event(fields): WindowsMediaCaptureDeviceThermalstatuschangedeventtaskcompleted(Pointer
+  MediaCapture, UInt32 ThermalStatus)
+opcode: ''
+keywords: keyword_800000000000
+task: WindowsMediaCaptureDeviceThermalstatuschangedeventtaskcompleted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MediaCapture
+- field_type: UInt32
+  field_name: ThermalStatus

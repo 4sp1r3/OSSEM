@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-BitLocker-DrivePreparationTool
+event_id: '4096'
+version: '1'
+event(fields): task_0Initialization4096_V1(Boolean Shrinkable, Boolean ContainsWinRE,
+  UnicodeString VolumeName, UInt64 VolumeSize, UInt64 VolumeFreeSpace, UInt64 VolumeMaxShrinkSize,
+  HexInt32 VolumeFlags, UnicodeString DriveLetter, UInt32 DiskNumber, UInt32 PartitionNumber)
+opcode: Initialization
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Shrinkable
+- field_type: Boolean
+  field_name: ContainsWinRE
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UInt64
+  field_name: VolumeSize
+- field_type: UInt64
+  field_name: VolumeFreeSpace
+- field_type: UInt64
+  field_name: VolumeMaxShrinkSize
+- field_type: HexInt32
+  field_name: VolumeFlags
+- field_type: UnicodeString
+  field_name: DriveLetter
+- field_type: UInt32
+  field_name: DiskNumber
+- field_type: UInt32
+  field_name: PartitionNumber

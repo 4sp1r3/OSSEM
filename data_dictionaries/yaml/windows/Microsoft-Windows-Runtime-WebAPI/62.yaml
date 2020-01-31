@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Runtime-WebAPI
+event_id: '62'
+version: '0'
+event(fields): ParseIgnoreunexpectedcontent62(UnicodeString uri)
+opcode: Ignoreunexpectedcontent
+keywords: keywords.Format
+task: Parse
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: uri

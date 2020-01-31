@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '40'
+version: '0'
+event(fields): Mshtml_CDwnBindData_BindStop(UInt32 dwCode, UInt32 dwPos, UInt32 dwMax,
+  UnicodeString Text)
+opcode: Stop
+keywords: primarynav
+task: Mshtml_CDwnBindData_Bind
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwCode
+- field_type: UInt32
+  field_name: dwPos
+- field_type: UInt32
+  field_name: dwMax
+- field_type: UnicodeString
+  field_name: Text

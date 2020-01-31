@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '219'
+version: '0'
+event(fields): StateRepository.Task.WinRTAPI219(UInt32 ProcessId, UInt32 ThreadId)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD
+task: StateRepository.Task.WinRTAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: ThreadId

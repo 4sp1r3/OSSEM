@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62171'
+version: '0'
+event(fields): LogonPerformance_TaskRunTimeStop(UInt32 LogonType, UnicodeString TaskName)
+opcode: Stop
+keywords: LogonPerformance
+task: LogonPerformance_TaskRunTime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LogonType
+- field_type: UnicodeString
+  field_name: TaskName

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-WHEA
+event_id: '5'
+version: '0'
+event(fields): task_05(UInt32 ErrorSourceCount, UInt32 ErrorRecordFormat, UInt32 ErrorSourceTableLength,
+  Binary ErrorSourceTable)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorSourceCount
+- field_type: UInt32
+  field_name: ErrorRecordFormat
+- field_type: UInt32
+  field_name: ErrorSourceTableLength
+- field_type: Binary
+  field_name: ErrorSourceTable

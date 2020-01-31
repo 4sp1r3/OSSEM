@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '12012'
+version: '0'
+event(fields): OneXAuthenticationSuccess_24014_204(UnicodeString Adapter, GUID DeviceGuid,
+  UnicodeString LocalMac, UnicodeString SSID, UnicodeString BSSType, UnicodeString
+  Identity, UnicodeString User, UnicodeString Domain, Pointer ConnectionId, Boolean
+  ExplicitCredentials)
+opcode: Success_24014_204
+keywords: WlanConnect LwtDiagnostic
+task: OneXAuthentication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UnicodeString
+  field_name: Identity
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: Domain
+- field_type: Pointer
+  field_name: ConnectionId
+- field_type: Boolean
+  field_name: ExplicitCredentials

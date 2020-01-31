@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '38007'
+version: '1'
+event(fields): VObjects.ProcessDllDetachStop_V1()
+opcode: Stop
+keywords: ''
+task: VObjects.ProcessDllDetach
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

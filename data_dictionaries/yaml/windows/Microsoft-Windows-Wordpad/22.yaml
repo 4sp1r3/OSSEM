@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Wordpad
+event_id: '22'
+version: '0'
+event(fields): task_022(UnicodeString StringParam, UInt64 DWordParam)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StringParam
+- field_type: UInt64
+  field_name: DWordParam

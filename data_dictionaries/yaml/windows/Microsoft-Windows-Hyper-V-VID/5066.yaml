@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5066'
+version: '0'
+event(fields): VMT_VID_MDL_PAGE_FREEStart(GUID PartitionGuid)
+opcode: Start
+keywords: VMK_MDL
+task: VMT_VID_MDL_PAGE_FREE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PartitionGuid

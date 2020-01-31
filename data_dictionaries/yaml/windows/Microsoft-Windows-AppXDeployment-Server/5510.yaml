@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '5510'
+version: '0'
+event(fields): task_05510(UnicodeString PackageName, UnicodeString FilePath, HexInt32
+  ErrorCode, UnicodeString Message)
+opcode: ''
+keywords: MRT_DEH_KEYWORD
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UnicodeString
+  field_name: FilePath
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: Message

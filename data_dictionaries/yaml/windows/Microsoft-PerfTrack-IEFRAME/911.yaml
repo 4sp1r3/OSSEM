@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '911'
+version: '0'
+event(fields): UnifiedListView_Query_DomainSuggestion_PerftrackStart(UInt64 Object)
+opcode: Start
+keywords: nonPerfTrack
+task: UnifiedListView_Query_DomainSuggestion_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

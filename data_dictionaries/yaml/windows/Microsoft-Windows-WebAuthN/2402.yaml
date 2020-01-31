@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2402'
+version: '0'
+event(fields): CtapTestProviderThreadStop2402(GUID TransactionId, HexInt32 Error,
+  HexInt32 Win32Error)
+opcode: Stop
+keywords: Ctap Test
+task: CtapTestProviderThread
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: HexInt32
+  field_name: Error
+- field_type: HexInt32
+  field_name: Win32Error

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '239'
+version: '0'
+event(fields): PTPReadThresholdsStart()
+opcode: Start
+keywords: TouchInput
+task: PTPReadThresholds
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '30103'
+version: '0'
+event(fields): Perftrack_WfdPairStop(UInt32 RequestId, UInt32 WFDPairReturnCode)
+opcode: Stop
+keywords: ''
+task: Perftrack_WfdPair
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: WFDPairReturnCode

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '108'
+version: '0'
+event(fields): ProfileEnabled(UInt8 ProfileId)
+opcode: ''
+keywords: Algorithm Profiles
+task: ProfileEnabled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ProfileId

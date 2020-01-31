@@ -1,0 +1,17 @@
+provider: Microsoft-User Experience Virtualization-Agent Driver
+event_id: '109'
+version: '0'
+event(fields): task_0109(UInt16 P1Length, UnicodeString P2UnicodeBuffer, UInt32 P3ProcessId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: P1Length
+- field_type: UnicodeString
+  field_name: P2UnicodeBuffer
+- field_type: UInt32
+  field_name: P3ProcessId

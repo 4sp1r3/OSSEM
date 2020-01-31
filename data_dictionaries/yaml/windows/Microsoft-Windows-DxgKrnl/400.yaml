@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '400'
+version: '0'
+event(fields): GpuPartitioningStop(Pointer AdapterHandle, UnicodeString Function,
+  UnicodeString Parameters, UInt32 Status)
+opcode: Stop
+keywords: VirtualGpu
+task: GpuPartitioning
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdapterHandle
+- field_type: UnicodeString
+  field_name: Function
+- field_type: UnicodeString
+  field_name: Parameters
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Audio
+event_id: '41'
+version: '0'
+event(fields): Audio_Glitch_DetectionKSEndpointGlitch:BASEEndGlitch(Pointer pCAudioBasePin,
+  UInt64 GlitchStreamPosition, UInt32 GlitchDuration)
+opcode: BASEEndGlitch
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCAudioBasePin
+- field_type: UInt64
+  field_name: GlitchStreamPosition
+- field_type: UInt32
+  field_name: GlitchDuration

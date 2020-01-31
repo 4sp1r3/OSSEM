@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '317'
+version: '0'
+event(fields): task_0317(UInt32 dwValue, UInt32 ssidLen, Binary ssid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwValue
+- field_type: UInt32
+  field_name: ssidLen
+- field_type: Binary
+  field_name: ssid

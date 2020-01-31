@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5070'
+version: '0'
+event(fields): UdwmScreenRotationAnimationStop(UInt32 EventId)
+opcode: Stop
+keywords: Udwm
+task: UdwmScreenRotationAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EventId

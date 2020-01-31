@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '150'
+version: '0'
+event(fields): RemoteFXmodule_4Runtime150(UInt32 FlushTimeMs, UInt32 FlushIntervalMs)
+opcode: Runtime
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FlushTimeMs
+- field_type: UInt32
+  field_name: FlushIntervalMs

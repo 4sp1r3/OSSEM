@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '1002'
+version: '0'
+event(fields): task_01002(GUID Event_DUID, GUID Event_Partnership, UInt8 Event_Code,
+  FILETIME Event_Time)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Event_DUID
+- field_type: GUID
+  field_name: Event_Partnership
+- field_type: UInt8
+  field_name: Event_Code
+- field_type: FILETIME
+  field_name: Event_Time

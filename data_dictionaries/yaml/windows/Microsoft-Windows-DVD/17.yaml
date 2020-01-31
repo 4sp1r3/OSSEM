@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DVD
+event_id: '17'
+version: '0'
+event(fields): NavCreateFileStart(Pointer Object, UnicodeString Filename)
+opcode: Start
+keywords: ''
+task: NavCreateFile
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UnicodeString
+  field_name: Filename

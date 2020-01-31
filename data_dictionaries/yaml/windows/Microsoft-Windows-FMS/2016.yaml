@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FMS
+event_id: '2016'
+version: '0'
+event(fields): FMSAPIexitcall(UnicodeString ApiName)
+opcode: ''
+keywords: ''
+task: FMSAPIexitcall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApiName

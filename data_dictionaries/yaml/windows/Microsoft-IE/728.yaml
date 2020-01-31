@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '728'
+version: '0'
+event(fields): Mshtml_Prerendering728(UnicodeString FlipAhead_Target_URL, UInt32 Target_Source_Method)
+opcode: ''
+keywords: mshtml
+task: Mshtml_Prerendering
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FlipAhead_Target_URL
+- field_type: UInt32
+  field_name: Target_Source_Method

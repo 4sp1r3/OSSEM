@@ -1,0 +1,15 @@
+provider: Microsoft-JScript
+event_id: '154'
+version: '0'
+event(fields): Jscript_GC_SynchronousMarkWaitStop(Pointer RecyclerID, Boolean HasTimedout)
+opcode: Stop
+keywords: JScriptGarbageCollection
+task: Jscript_GC_SynchronousMarkWait
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID
+- field_type: Boolean
+  field_name: HasTimedout

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '39'
+version: '0'
+event(fields): MediaFullScreenState(UInt64 MediaElementID, UInt32 InFullScreen)
+opcode: ''
+keywords: Media
+task: MediaFullScreenState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MediaElementID
+- field_type: UInt32
+  field_name: InFullScreen

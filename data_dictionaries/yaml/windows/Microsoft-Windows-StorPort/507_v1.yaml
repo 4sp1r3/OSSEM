@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-StorPort
+event_id: '507'
+version: '1'
+event(fields): None507_V1(UnicodeString MiniportName, UInt32 PortNumber, UInt8 Bus,
+  UInt8 Target, UInt8 LUN, GUID ClassDeviceGuid, UInt32 SrbFunction, UInt32 CdbLength,
+  Binary Cdb, UInt64 IoDispatchToResetTime_100ns)
+opcode: ''
+keywords: keyword_200000000000
+task: None
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MiniportName
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: Bus
+- field_type: UInt8
+  field_name: Target
+- field_type: UInt8
+  field_name: LUN
+- field_type: GUID
+  field_name: ClassDeviceGuid
+- field_type: UInt32
+  field_name: SrbFunction
+- field_type: UInt32
+  field_name: CdbLength
+- field_type: Binary
+  field_name: Cdb
+- field_type: UInt64
+  field_name: IoDispatchToResetTime_100ns

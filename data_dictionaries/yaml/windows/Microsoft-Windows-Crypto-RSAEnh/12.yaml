@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Crypto-RSAEnh
+event_id: '12'
+version: '0'
+event(fields): DeleteContainerInfo(UnicodeString ProcessName, UInt32 ProviderType,
+  AnsiString ContainerName, Boolean MachineKeyset, Boolean AppContainer, UInt32 Status,
+  UnicodeString ErrorDescription)
+opcode: ''
+keywords: ''
+task: DeleteContainerInfo
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UInt32
+  field_name: ProviderType
+- field_type: AnsiString
+  field_name: ContainerName
+- field_type: Boolean
+  field_name: MachineKeyset
+- field_type: Boolean
+  field_name: AppContainer
+- field_type: UInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: ErrorDescription

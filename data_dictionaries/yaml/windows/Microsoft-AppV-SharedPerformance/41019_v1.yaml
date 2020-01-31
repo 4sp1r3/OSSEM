@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '41019'
+version: '1'
+event(fields): VServices.ProcessRetrievePoliciesStop_V1()
+opcode: Stop
+keywords: ''
+task: VServices.ProcessRetrievePolicies
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

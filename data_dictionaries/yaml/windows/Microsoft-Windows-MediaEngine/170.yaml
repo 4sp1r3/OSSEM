@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '170'
+version: '0'
+event(fields): UpdateLongRunningoperation(Pointer object, Int32 newState, Int32 oldState)
+opcode: ''
+keywords: ''
+task: UpdateLongRunningoperation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: newState
+- field_type: Int32
+  field_name: oldState

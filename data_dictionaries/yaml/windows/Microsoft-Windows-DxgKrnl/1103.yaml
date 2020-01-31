@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1103'
+version: '0'
+event(fields): DdiSetTargetAdjustedColorimetryStart(Pointer MiniportDeviceContext,
+  UInt32 TargetId, UInt32 Status)
+opcode: Start
+keywords: Base
+task: DdiSetTargetAdjustedColorimetry
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportDeviceContext
+- field_type: UInt32
+  field_name: TargetId
+- field_type: UInt32
+  field_name: Status

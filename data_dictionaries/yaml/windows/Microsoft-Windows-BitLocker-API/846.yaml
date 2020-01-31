@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '846'
+version: '0'
+event(fields): task_0846(UnicodeString VolumeMountPoint, GUID TraceGUID, Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VolumeMountPoint
+- field_type: GUID
+  field_name: TraceGUID
+- field_type: Int32
+  field_name: ErrorCode

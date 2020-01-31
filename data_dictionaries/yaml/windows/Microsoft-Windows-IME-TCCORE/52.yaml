@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-TCCORE
+event_id: '52'
+version: '0'
+event(fields): TaskID:IMELMDecodingDecode1End()
+opcode: Decode1End
+keywords: ''
+task: TaskID:IMELMDecoding
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

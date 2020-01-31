@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '10245'
+version: '0'
+event(fields): task_010245(UInt32 SkipReason, UInt64 FileId, UInt64 FileOffset)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SkipReason
+- field_type: UInt64
+  field_name: FileId
+- field_type: UInt64
+  field_name: FileOffset

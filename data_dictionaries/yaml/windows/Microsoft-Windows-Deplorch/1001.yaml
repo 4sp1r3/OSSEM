@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Deplorch
+event_id: '1001'
+version: '0'
+event(fields): StartSystemServicesStart()
+opcode: Start
+keywords: keyPerformance
+task: StartSystemServices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

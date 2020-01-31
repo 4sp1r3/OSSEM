@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DesktopWindowManager-Diag
+event_id: '2'
+version: '0'
+event(fields): DesktopWindowManager_DWMResponsiveness(UInt32 Reason, UInt32 Diagnosis)
+opcode: ''
+keywords: DesktopWindowManager_WDI
+task: DesktopWindowManager_DWMResponsiveness
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Diagnosis

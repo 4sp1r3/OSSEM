@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '25'
+version: '1'
+event(fields): WindowsUpdateAgentCheckforUpdates_V1(HexInt32 errorCode, GUID serviceGuid)
+opcode: CheckforUpdates
+keywords: detect failure
+task: WindowsUpdateAgent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: GUID
+  field_name: serviceGuid

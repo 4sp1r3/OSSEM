@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DXGI
+event_id: '142'
+version: '0'
+event(fields): IDXGIOutput_FindClosestMatchingModeStart(Pointer pThis, Binary pModeToMatch,
+  Binary pClosestMatch, Pointer pConcernedDevice)
+opcode: Start
+keywords: ''
+task: IDXGIOutput_FindClosestMatchingMode
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Binary
+  field_name: pModeToMatch
+- field_type: Binary
+  field_name: pClosestMatch
+- field_type: Pointer
+  field_name: pConcernedDevice

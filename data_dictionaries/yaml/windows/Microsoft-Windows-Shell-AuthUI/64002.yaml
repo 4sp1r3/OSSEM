@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '64002'
+version: '0'
+event(fields): LockScreenCall_AcceptCallStop(UInt32 HRESULT)
+opcode: Stop
+keywords: ''
+task: LockScreenCall_AcceptCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

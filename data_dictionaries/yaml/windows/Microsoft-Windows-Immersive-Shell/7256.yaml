@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7256'
+version: '0'
+event(fields): ConnectedSearch_LogScrollPayload(UnicodeString JSON)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogScrollPayload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JSON

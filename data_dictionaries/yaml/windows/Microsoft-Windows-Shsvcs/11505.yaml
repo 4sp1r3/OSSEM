@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shsvcs
+event_id: '11505'
+version: '0'
+event(fields): HDSrv_Volume_Arrived_UpdatedStart(UnicodeString ContainerIdentifier,
+  UnicodeString DeviceIdentifier)
+opcode: Start
+keywords: ''
+task: HDSrv_Volume_Arrived_Updated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContainerIdentifier
+- field_type: UnicodeString
+  field_name: DeviceIdentifier

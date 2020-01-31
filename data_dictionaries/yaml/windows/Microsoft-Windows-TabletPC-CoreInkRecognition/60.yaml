@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '60'
+version: '0'
+event(fields): RECO_API_SetWordListStop()
+opcode: Stop
+keywords: ''
+task: RECO_API_SetWordList
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

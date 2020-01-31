@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-MFReadWrite
+event_id: '111'
+version: '0'
+event(fields): SinkWriter_StreamSinkEvent(Pointer Object, UInt32 StreamIndex, UInt32
+  EventType, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: SinkWriter_StreamSinkEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: StreamIndex
+- field_type: UInt32
+  field_name: EventType
+- field_type: UInt32
+  field_name: ErrorCode

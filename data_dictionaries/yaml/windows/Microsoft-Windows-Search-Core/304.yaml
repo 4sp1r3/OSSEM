@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '304'
+version: '0'
+event(fields): Flush_Schedule(Boolean Scheduled, UInt32 Reason)
+opcode: ''
+keywords: Indexing IndexPI
+task: Flush_Schedule
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Scheduled
+- field_type: UInt32
+  field_name: Reason

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Win32k
+event_id: '453'
+version: '0'
+event(fields): UserHandleOperationDestroyHandle(Pointer HandleValue, UInt32 HandleType,
+  UInt32 SessionId, UInt32 OwnerProcessId)
+opcode: DestroyHandle
+keywords: keyword_20000000000
+task: UserHandleOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HandleValue
+- field_type: UInt32
+  field_name: HandleType
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: OwnerProcessId

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HotspotAuth
+event_id: '3001'
+version: '0'
+event(fields): HotspotDetectionStop(GUID InterfaceGuid)
+opcode: Stop
+keywords: ut:HotspotDetection
+task: HotspotDetection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

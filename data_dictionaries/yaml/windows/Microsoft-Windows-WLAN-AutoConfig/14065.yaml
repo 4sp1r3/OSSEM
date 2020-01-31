@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14065'
+version: '0'
+event(fields): task_014065(UInt32 OpCode, UInt32 ClientProcessId, GUID InterfaceGuid)
+opcode: ''
+keywords: API
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OpCode
+- field_type: UInt32
+  field_name: ClientProcessId
+- field_type: GUID
+  field_name: InterfaceGuid

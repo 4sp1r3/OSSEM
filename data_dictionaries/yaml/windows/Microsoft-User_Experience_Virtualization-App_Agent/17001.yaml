@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '17001'
+version: '0'
+event(fields): EnableDisableUevAppManagementConfiguration17001(Int32 hresultValue)
+opcode: AppManagementConfiguration
+keywords: ''
+task: EnableDisableUev
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: hresultValue

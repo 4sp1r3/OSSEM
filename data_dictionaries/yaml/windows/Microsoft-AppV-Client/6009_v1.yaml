@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '6009'
+version: '1'
+event(fields): ConfigureVirtualServices6009_V1(UInt32 Error)
+opcode: ''
+keywords: VirtualServices
+task: ConfigureVirtualServices
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error

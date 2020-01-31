@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7153'
+version: '0'
+event(fields): ConnectedSearch_Settings_DeleteOnlineHistory()
+opcode: ''
+keywords: ''
+task: ConnectedSearch_Settings_DeleteOnlineHistory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

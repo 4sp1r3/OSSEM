@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '123'
+version: '0'
+event(fields): ProcessorContainerLpiStatesRundown(UnicodeString NamespacePath, UInt32
+  Revision, UInt64 LevelId, UInt32 StateCount, Int16 States)
+opcode: ''
+keywords: Diag
+task: ProcessorContainerLpiStatesRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: NamespacePath
+- field_type: UInt32
+  field_name: Revision
+- field_type: UInt64
+  field_name: LevelId
+- field_type: UInt32
+  field_name: StateCount
+- field_type: Int16
+  field_name: States

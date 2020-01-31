@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4039'
+version: '0'
+event(fields): Mount_AppvClientConnectionGroupStop()
+opcode: Stop
+keywords: ''
+task: Mount_AppvClientConnectionGroup
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

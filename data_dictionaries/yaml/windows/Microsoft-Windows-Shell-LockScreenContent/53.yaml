@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-LockScreenContent
+event_id: '53'
+version: '0'
+event(fields): LockScreenContent_Bucket_InitializeStop(UInt32 Result)
+opcode: Stop
+keywords: LockScreenContent
+task: LockScreenContent_Bucket_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

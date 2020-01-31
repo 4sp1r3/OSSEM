@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18523'
+version: '0'
+event(fields): Shell32_CDesktopBrowser_LButtonAction(UInt32 Message)
+opcode: ''
+keywords: Shell
+task: Shell32_CDesktopBrowser_LButtonAction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Message

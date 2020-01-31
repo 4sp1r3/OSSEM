@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '4003'
+version: '0'
+event(fields): Removinglanguagepack(UInt32 BootCount, UInt32 CurrentSessionRunCount)
+opcode: ''
+keywords: ''
+task: Removinglanguagepack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BootCount
+- field_type: UInt32
+  field_name: CurrentSessionRunCount

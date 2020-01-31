@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-XAML
+event_id: '227'
+version: '0'
+event(fields): PresentControllerPresentBlocked(UInt64 ControllerId, UInt32 PresentId,
+  UInt64 PresentQPCTicks, UInt64 PostPresentQPCTicks, UInt64 PresentTimeInQPCTicks,
+  Float QPCTicksPerVBlank, Float PresentTimeInVBlanks)
+opcode: ''
+keywords: Rendering
+task: PresentControllerPresentBlocked
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ControllerId
+- field_type: UInt32
+  field_name: PresentId
+- field_type: UInt64
+  field_name: PresentQPCTicks
+- field_type: UInt64
+  field_name: PostPresentQPCTicks
+- field_type: UInt64
+  field_name: PresentTimeInQPCTicks
+- field_type: Float
+  field_name: QPCTicksPerVBlank
+- field_type: Float
+  field_name: PresentTimeInVBlanks

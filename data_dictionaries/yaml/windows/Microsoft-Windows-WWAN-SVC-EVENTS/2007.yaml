@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '2007'
+version: '0'
+event(fields): task_02007(UInt32 APIName, GUID InterfaceGuid, UInt32 Location, UInt32
+  Context)
+opcode: ''
+keywords: ut:L2ConnectPath ut:Configuration
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: APIName
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context

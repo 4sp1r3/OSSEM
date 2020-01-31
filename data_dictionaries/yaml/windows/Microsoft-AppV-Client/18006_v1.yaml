@@ -1,0 +1,20 @@
+provider: Microsoft-AppV-Client
+event_id: '18006'
+version: '1'
+event(fields): ApplicationLaunch18006_V1(GUID ConnectionGroup, GUID GroupVersion,
+  GUID Package, GUID PackageVersion)
+opcode: ''
+keywords: VirtualAppLaunch
+task: ApplicationLaunch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConnectionGroup
+- field_type: GUID
+  field_name: GroupVersion
+- field_type: GUID
+  field_name: Package
+- field_type: GUID
+  field_name: PackageVersion

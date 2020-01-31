@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-User-Loader
+event_id: '11'
+version: '0'
+event(fields): task_011(UnicodeString ProcessImagePath, UnicodeString CurDirDllPath,
+  UnicodeString FoundDllPath)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessImagePath
+- field_type: UnicodeString
+  field_name: CurDirDllPath
+- field_type: UnicodeString
+  field_name: FoundDllPath

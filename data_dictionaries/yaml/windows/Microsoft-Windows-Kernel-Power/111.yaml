@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '111'
+version: '0'
+event(fields): PowerSettingRundown(GUID SettingGuid, UInt32 DataSize, Binary Data)
+opcode: ''
+keywords: po:PowerSetting
+task: PowerSettingRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SettingGuid
+- field_type: UInt32
+  field_name: DataSize
+- field_type: Binary
+  field_name: Data

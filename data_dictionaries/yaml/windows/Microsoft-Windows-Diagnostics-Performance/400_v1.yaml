@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '400'
+version: '1'
+event(fields): SystemPerformanceMonitoringShellInformation_V1(FILETIME ShellScenarioStartTime,
+  FILETIME ShellScenarioEndTime, UInt32 ShellSubScenario, UInt32 ShellScenarioDuration,
+  UInt32 ShellRootCauseBits, UInt32 ShellAnalysisResult, UInt32 ShellDegradationType,
+  UInt32 ShellTsVersion, UInt32 ShellMachineUpTimeHours, UInt32 ShellMachineSleepPattern)
+opcode: ShellInformation
+keywords: EventLog
+task: SystemPerformanceMonitoring
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: ShellScenarioStartTime
+- field_type: FILETIME
+  field_name: ShellScenarioEndTime
+- field_type: UInt32
+  field_name: ShellSubScenario
+- field_type: UInt32
+  field_name: ShellScenarioDuration
+- field_type: UInt32
+  field_name: ShellRootCauseBits
+- field_type: UInt32
+  field_name: ShellAnalysisResult
+- field_type: UInt32
+  field_name: ShellDegradationType
+- field_type: UInt32
+  field_name: ShellTsVersion
+- field_type: UInt32
+  field_name: ShellMachineUpTimeHours
+- field_type: UInt32
+  field_name: ShellMachineSleepPattern

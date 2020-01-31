@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '74'
+version: '0'
+event(fields): VsmLKeyProvisioningStatus74(UInt32 CachedCopyStatus, UInt32 KeyGenerationStatus,
+  UInt32 SealAndSaveStatus, UInt32 UEFIKeysStatus)
+opcode: ''
+keywords: ''
+task: VsmLKeyProvisioningStatus
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CachedCopyStatus
+- field_type: UInt32
+  field_name: KeyGenerationStatus
+- field_type: UInt32
+  field_name: SealAndSaveStatus
+- field_type: UInt32
+  field_name: UEFIKeysStatus

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4985'
+version: '0'
+event(fields): task_04985(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, GUID TransactionId, UInt32 NewState,
+  GUID ResourceManager, Pointer ProcessId, UnicodeString ProcessName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UInt32
+  field_name: NewState
+- field_type: GUID
+  field_name: ResourceManager
+- field_type: Pointer
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ProcessName

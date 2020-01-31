@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4003'
+version: '0'
+event(fields): AfdRioDestroyCqClosed(Pointer Cq, UInt32 Commit)
+opcode: Closed
+keywords: AFD_KW_RIO
+task: AfdRioDestroyCq
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Cq
+- field_type: UInt32
+  field_name: Commit

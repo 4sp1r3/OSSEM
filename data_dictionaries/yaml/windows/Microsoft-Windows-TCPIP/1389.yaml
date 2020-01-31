@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1389'
+version: '0'
+event(fields): UdpCreateEndpointAfFailure(Pointer Endpoint, UInt32 Status, UInt32
+  ProcessId, UInt32 CompartmentId, UInt32 AddressFamily)
+opcode: ''
+keywords: ut:TcpipEndpoint ut:Endpoint
+task: UdpCreateEndpointAfFailure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: AddressFamily

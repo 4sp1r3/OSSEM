@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '302'
+version: '0'
+event(fields): MediaFoundationMFTEnum302(UnicodeString string)
+opcode: ''
+keywords: ''
+task: MediaFoundationMFTEnum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: string

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PersistentMemory-PmemDisk
+event_id: '1'
+version: '0'
+event(fields): task_0(UInt64 StartAddress, UInt64 Size)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: StartAddress
+- field_type: UInt64
+  field_name: Size

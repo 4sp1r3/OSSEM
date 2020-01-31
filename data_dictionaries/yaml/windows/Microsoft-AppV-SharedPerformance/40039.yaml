@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40039'
+version: '0'
+event(fields): VReg.DuplicateObjectStop()
+opcode: Stop
+keywords: ''
+task: VReg.DuplicateObject
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

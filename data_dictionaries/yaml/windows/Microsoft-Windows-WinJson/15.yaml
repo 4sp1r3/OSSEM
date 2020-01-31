@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinJson
+event_id: '15'
+version: '0'
+event(fields): None15()
+opcode: ''
+keywords: Trace
+task: None
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

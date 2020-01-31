@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '34'
+version: '0'
+event(fields): UMDOpenAdapterStop()
+opcode: Stop
+keywords: Devices
+task: UMDOpenAdapter
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

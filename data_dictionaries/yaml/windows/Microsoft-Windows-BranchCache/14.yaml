@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '14'
+version: '0'
+event(fields): task_0Downloadingcontent.(UInt32 cbSegmentId, Binary SegmentId, UInt32
+  BlockId, UnicodeString PeerAddress, UInt32 MessageType, UInt32 ErrorCode, UnicodeString
+  ErrorMessage)
+opcode: Downloadingcontent.
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: cbSegmentId
+- field_type: Binary
+  field_name: SegmentId
+- field_type: UInt32
+  field_name: BlockId
+- field_type: UnicodeString
+  field_name: PeerAddress
+- field_type: UInt32
+  field_name: MessageType
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

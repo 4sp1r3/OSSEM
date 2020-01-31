@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '513'
+version: '0'
+event(fields): SpmScenarioPolicyRundown(GUID ScenarioGuid, UInt16 ScenarioNameLength,
+  UnicodeString ScenarioName, UInt32 Flags, GUID DefaultSettingsScenarioGuid, UInt16
+  PolicyCount, Int32 PolicySettings)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SpmScenarioPolicyRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ScenarioGuid
+- field_type: UInt16
+  field_name: ScenarioNameLength
+- field_type: UnicodeString
+  field_name: ScenarioName
+- field_type: UInt32
+  field_name: Flags
+- field_type: GUID
+  field_name: DefaultSettingsScenarioGuid
+- field_type: UInt16
+  field_name: PolicyCount
+- field_type: Int32
+  field_name: PolicySettings

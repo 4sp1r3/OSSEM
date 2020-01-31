@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2176'
+version: '0'
+event(fields): Picker_CachedFileUpdater_FileUpdateRequest2176()
+opcode: ''
+keywords: ''
+task: Picker_CachedFileUpdater_FileUpdateRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

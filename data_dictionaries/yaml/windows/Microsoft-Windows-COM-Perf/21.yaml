@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '21'
+version: '0'
+event(fields): ExtensionCatalog_CustomPropertyLookupStart(UnicodeString CustomPropertyKey)
+opcode: Start
+keywords: ''
+task: ExtensionCatalog_CustomPropertyLookup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CustomPropertyKey

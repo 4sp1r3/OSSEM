@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Networking-Correlation
+event_id: '3004'
+version: '0'
+event(fields): task_03004()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

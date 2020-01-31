@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Sdbus
+event_id: '114'
+version: '0'
+event(fields): P_StateUtilization(HexInt64 PoFxDeviceHandle, UInt32 PStateActivePercent,
+  UInt32 PStateActiveDuration, UInt32 PStateSampleDuration, UInt32 PStateCurrentFrequency,
+  UInt32 PStateRequestedFrequency)
+opcode: ''
+keywords: Perf
+task: P_StateUtilization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: PoFxDeviceHandle
+- field_type: UInt32
+  field_name: PStateActivePercent
+- field_type: UInt32
+  field_name: PStateActiveDuration
+- field_type: UInt32
+  field_name: PStateSampleDuration
+- field_type: UInt32
+  field_name: PStateCurrentFrequency
+- field_type: UInt32
+  field_name: PStateRequestedFrequency

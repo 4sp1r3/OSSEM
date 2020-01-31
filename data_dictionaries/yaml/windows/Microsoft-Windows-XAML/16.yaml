@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '16'
+version: '0'
+event(fields): EventCallbackStop()
+opcode: Stop
+keywords: Core
+task: EventCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

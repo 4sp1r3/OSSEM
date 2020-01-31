@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUSER
+event_id: '6'
+version: '0'
+event(fields): DUser_ResetInvalidStop()
+opcode: Stop
+keywords: Default
+task: DUser_ResetInvalid
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

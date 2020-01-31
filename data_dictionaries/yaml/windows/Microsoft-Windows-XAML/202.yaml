@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '202'
+version: '0'
+event(fields): VirtualizationCleanupStop()
+opcode: Stop
+keywords: Layout
+task: VirtualizationCleanup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

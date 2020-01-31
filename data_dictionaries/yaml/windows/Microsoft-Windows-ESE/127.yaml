@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-ESE
+event_id: '127'
+version: '0'
+event(fields): ESE_TimerQueueRun_Trace(Pointer pfnTask, Pointer pvTaskContext, Pointer
+  dwContext, UInt64 cRuns)
+opcode: ''
+keywords: Task
+task: ESE_TimerQueueRun_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pfnTask
+- field_type: Pointer
+  field_name: pvTaskContext
+- field_type: Pointer
+  field_name: dwContext
+- field_type: UInt64
+  field_name: cRuns

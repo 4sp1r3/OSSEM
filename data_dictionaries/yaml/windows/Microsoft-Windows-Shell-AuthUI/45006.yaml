@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '45006'
+version: '0'
+event(fields): Shutdown_ShutdownFlyout_PromptForReasonStop()
+opcode: Stop
+keywords: ''
+task: Shutdown_ShutdownFlyout_PromptForReason
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

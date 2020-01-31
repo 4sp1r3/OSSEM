@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '7011'
+version: '1'
+event(fields): VirtualEnvironmentTerminatedStart_V1()
+opcode: Start
+keywords: ''
+task: VirtualEnvironmentTerminated
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

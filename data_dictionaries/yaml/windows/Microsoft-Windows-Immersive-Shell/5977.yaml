@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5977'
+version: '0'
+event(fields): PerfTrack_ModernApp_LaunchVisibleCompleteStart(UInt32 Reserved, UnicodeString
+  MatchKey)
+opcode: Start
+keywords: ''
+task: PerfTrack_ModernApp_LaunchVisibleComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reserved
+- field_type: UnicodeString
+  field_name: MatchKey

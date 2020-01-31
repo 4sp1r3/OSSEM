@@ -1,0 +1,49 @@
+provider: Microsoft-IE
+event_id: '752'
+version: '0'
+event(fields): Mshtml_Download_Initiator(UnicodeString DownloadedURL, Pointer BindInfo,
+  Pointer CHtmPre, Pointer CPre, Pointer CDoc, Pointer CWindow, UnicodeString WindowURL,
+  UnicodeString URL, UInt32 Line, UInt32 Offset, Boolean Speculative, Boolean LookAhead,
+  Boolean PreParserRestarted, UInt32 Context, UInt32 Initiator, UInt32 Source, UInt32
+  LookAheadCount)
+opcode: ''
+keywords: mshtml httpdiag
+task: Mshtml_Download_Initiator
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DownloadedURL
+- field_type: Pointer
+  field_name: BindInfo
+- field_type: Pointer
+  field_name: CHtmPre
+- field_type: Pointer
+  field_name: CPre
+- field_type: Pointer
+  field_name: CDoc
+- field_type: Pointer
+  field_name: CWindow
+- field_type: UnicodeString
+  field_name: WindowURL
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt32
+  field_name: Line
+- field_type: UInt32
+  field_name: Offset
+- field_type: Boolean
+  field_name: Speculative
+- field_type: Boolean
+  field_name: LookAhead
+- field_type: Boolean
+  field_name: PreParserRestarted
+- field_type: UInt32
+  field_name: Context
+- field_type: UInt32
+  field_name: Initiator
+- field_type: UInt32
+  field_name: Source
+- field_type: UInt32
+  field_name: LookAheadCount

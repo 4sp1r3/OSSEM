@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ProcessStateManager
+event_id: '101'
+version: '0'
+event(fields): PriorityChangeDCStop(UInt64 ApplicationId, UInt32 SessionId, UnicodeString
+  PsmKey, UInt32 PlmRequestedPriority, UInt32 EffectivePriority)
+opcode: DC_Stop
+keywords: PriorityChange
+task: PriorityChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ApplicationId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: PlmRequestedPriority
+- field_type: UInt32
+  field_name: EffectivePriority

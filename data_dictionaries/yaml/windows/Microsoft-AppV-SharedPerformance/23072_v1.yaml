@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23072'
+version: '1'
+event(fields): Publishing_UnpublishExtensionPointStart_V1()
+opcode: Start
+keywords: ''
+task: Publishing_UnpublishExtensionPoint
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

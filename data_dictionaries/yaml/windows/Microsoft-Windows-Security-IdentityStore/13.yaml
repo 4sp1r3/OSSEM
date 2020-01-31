@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-IdentityStore
+event_id: '13'
+version: '0'
+event(fields): IdentityQueryStop()
+opcode: Stop
+keywords: ''
+task: IdentityQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

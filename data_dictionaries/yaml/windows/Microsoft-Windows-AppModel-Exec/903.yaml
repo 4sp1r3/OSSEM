@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '903'
+version: '0'
+event(fields): task_0903(UInt64 p1_UInt64, UnicodeString p2_String, UnicodeString
+  p3_String, UnicodeString p4_String, UnicodeString p5_String)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: p1_UInt64
+- field_type: UnicodeString
+  field_name: p2_String
+- field_type: UnicodeString
+  field_name: p3_String
+- field_type: UnicodeString
+  field_name: p4_String
+- field_type: UnicodeString
+  field_name: p5_String

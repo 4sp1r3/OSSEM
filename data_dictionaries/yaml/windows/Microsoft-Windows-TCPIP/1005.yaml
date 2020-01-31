@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1005'
+version: '0'
+event(fields): TcpBindEndpointResolutionFailure(UInt32 LocalAddressLength, Binary
+  LocalAddress, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipEndpoint ut:TcpipBind ut:Endpoint
+task: TcpBindEndpointResolutionFailure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: Status

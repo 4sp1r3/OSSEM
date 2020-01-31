@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '106'
+version: '0'
+event(fields): MSVideoProcessoftMFT_Create/DestroyMFTStop(Pointer MSVProcObj)
+opcode: Stop
+keywords: ''
+task: MSVideoProcessoftMFT_Create/DestroyMFT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MSVProcObj

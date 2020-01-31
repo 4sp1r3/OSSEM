@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Win32k
+event_id: '11'
+version: '0'
+event(fields): IdleActionExpiration(UInt32 SessionId, UInt32 IdleAction, UInt32 TimeoutValueMs,
+  UInt32 IdleStartTime, UInt16 IsConsoleSession)
+opcode: ''
+keywords: win32Power
+task: IdleActionExpiration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: IdleAction
+- field_type: UInt32
+  field_name: TimeoutValueMs
+- field_type: UInt32
+  field_name: IdleStartTime
+- field_type: UInt16
+  field_name: IsConsoleSession

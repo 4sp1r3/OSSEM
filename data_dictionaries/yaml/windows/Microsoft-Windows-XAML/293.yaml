@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '293'
+version: '0'
+event(fields): CompTreeSetPrimitiveGroup(UInt64 RenderDataNode, UInt64 PrimitiveGroup)
+opcode: ''
+keywords: DComp
+task: CompTreeSetPrimitiveGroup
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RenderDataNode
+- field_type: UInt64
+  field_name: PrimitiveGroup

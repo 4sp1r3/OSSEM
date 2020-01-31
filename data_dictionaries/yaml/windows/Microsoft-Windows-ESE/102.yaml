@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ESE
+event_id: '102'
+version: '0'
+event(fields): ESE_Block_Trace()
+opcode: ''
+keywords: BF
+task: ESE_Block_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

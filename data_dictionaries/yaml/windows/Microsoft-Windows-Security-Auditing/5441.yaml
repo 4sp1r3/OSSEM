@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5441'
+version: '0'
+event(fields): task_05441(GUID ProviderKey, UnicodeString ProviderName, GUID FilterKey,
+  UnicodeString FilterName, UnicodeString FilterType, UInt64 FilterId, GUID LayerKey,
+  UnicodeString LayerName, UInt32 LayerId, UInt64 Weight, UnicodeString Conditions,
+  UnicodeString Action, GUID CalloutKey, UnicodeString CalloutName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderKey
+- field_type: UnicodeString
+  field_name: ProviderName
+- field_type: GUID
+  field_name: FilterKey
+- field_type: UnicodeString
+  field_name: FilterName
+- field_type: UnicodeString
+  field_name: FilterType
+- field_type: UInt64
+  field_name: FilterId
+- field_type: GUID
+  field_name: LayerKey
+- field_type: UnicodeString
+  field_name: LayerName
+- field_type: UInt32
+  field_name: LayerId
+- field_type: UInt64
+  field_name: Weight
+- field_type: UnicodeString
+  field_name: Conditions
+- field_type: UnicodeString
+  field_name: Action
+- field_type: GUID
+  field_name: CalloutKey
+- field_type: UnicodeString
+  field_name: CalloutName

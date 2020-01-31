@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '37'
+version: '0'
+event(fields): ReattachStart()
+opcode: Start
+keywords: ''
+task: Reattach
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '546'
+version: '0'
+event(fields): FireEffectiveViewportChangedStop()
+opcode: Stop
+keywords: Layout
+task: FireEffectiveViewportChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

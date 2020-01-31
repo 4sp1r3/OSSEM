@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1013'
+version: '0'
+event(fields): task_01013(GUID Id, UInt64 SpaceOffset, UInt32 ColumnToReallocate,
+  UInt32 CopyToReallocate, UInt32 ColumnMissingFdInfo, UInt32 CopyMissingFdInfo)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UInt64
+  field_name: SpaceOffset
+- field_type: UInt32
+  field_name: ColumnToReallocate
+- field_type: UInt32
+  field_name: CopyToReallocate
+- field_type: UInt32
+  field_name: ColumnMissingFdInfo
+- field_type: UInt32
+  field_name: CopyMissingFdInfo

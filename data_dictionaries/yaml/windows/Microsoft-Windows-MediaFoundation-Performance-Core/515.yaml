@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '515'
+version: '0'
+event(fields): AudCaptureStream_FlushSamplesStart(Pointer object)
+opcode: Start
+keywords: ''
+task: AudCaptureStream_FlushSamples
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

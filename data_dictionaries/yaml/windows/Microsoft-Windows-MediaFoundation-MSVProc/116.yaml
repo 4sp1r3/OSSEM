@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '116'
+version: '0'
+event(fields): MSVideoProcessoftMFT_RotationStop()
+opcode: Stop
+keywords: ''
+task: MSVideoProcessoftMFT_Rotation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

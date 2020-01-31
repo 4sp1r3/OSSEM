@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1409'
+version: '0'
+event(fields): UdpStartQosClientFailure(UInt32 Status)
+opcode: ''
+keywords: ut:Global
+task: UdpStartQosClientFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '16039'
+version: '1'
+event(fields): ConfigureaGroupStop_V1()
+opcode: Stop
+keywords: ''
+task: ConfigureaGroup
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

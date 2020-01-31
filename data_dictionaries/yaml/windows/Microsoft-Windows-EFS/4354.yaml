@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-EFS
+event_id: '4354'
+version: '0'
+event(fields): task_04354(UInt32 FileNumber, UInt32 LineNumber)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FileNumber
+- field_type: UInt32
+  field_name: LineNumber

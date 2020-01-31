@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ThemeCPL
+event_id: '12'
+version: '0'
+event(fields): ThemeCPL_WallpaperSetStop()
+opcode: Stop
+keywords: ''
+task: ThemeCPL_WallpaperSet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

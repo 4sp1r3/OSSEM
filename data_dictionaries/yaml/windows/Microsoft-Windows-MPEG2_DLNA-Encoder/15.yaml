@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPEG2_DLNA-Encoder
+event_id: '15'
+version: '0'
+event(fields): VideoEncodeTaskStart()
+opcode: Start
+keywords: ''
+task: VideoEncodeTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '121'
+version: '0'
+event(fields): KeywordMergeStop()
+opcode: Stop
+keywords: PerfEvent
+task: KeywordMerge
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

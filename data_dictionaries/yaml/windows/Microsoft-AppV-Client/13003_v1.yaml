@@ -1,0 +1,22 @@
+provider: Microsoft-AppV-Client
+event_id: '13003'
+version: '1'
+event(fields): ApplicationLaunch_V1(UnicodeString ProcessName, GUID Package, UInt32
+  Pid, UInt32 ErrorHigh, UInt32 ErrorLow)
+opcode: ''
+keywords: VirtualAppLaunch
+task: ApplicationLaunch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: GUID
+  field_name: Package
+- field_type: UInt32
+  field_name: Pid
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow

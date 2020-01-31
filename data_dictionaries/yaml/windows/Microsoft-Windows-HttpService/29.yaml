@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-HttpService
+event_id: '29'
+version: '0'
+event(fields): HTTPConfigurationPropertyTraceTaskChgSrvSesProp(UInt32 Property, UInt32
+  Status)
+opcode: ChgSrvSesProp
+keywords: HTTP_KEYWORD_SERVER_SESSION
+task: HTTPConfigurationPropertyTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Property
+- field_type: UInt32
+  field_name: Status

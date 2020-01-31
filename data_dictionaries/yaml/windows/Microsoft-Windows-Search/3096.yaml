@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search
+event_id: '3096'
+version: '0'
+event(fields): task_0PCODE_64pcode_643096(UnicodeString ExtraInfo, UnicodeString Reason)
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtraInfo
+- field_type: UnicodeString
+  field_name: Reason

@@ -1,0 +1,17 @@
+provider: Microsoft-IE
+event_id: '478'
+version: '0'
+event(fields): JScript_Parse(Pointer ScriptContext, UInt32 FunctionId, Boolean Undefer)
+opcode: ''
+keywords: jscript_verbose
+task: JScript_Parse
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ScriptContext
+- field_type: UInt32
+  field_name: FunctionId
+- field_type: Boolean
+  field_name: Undefer

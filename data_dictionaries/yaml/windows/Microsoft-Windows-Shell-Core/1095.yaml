@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1095'
+version: '0'
+event(fields): DataLayer_GetResultTaskQueued(UInt32 Index, UInt32 Version, UInt32
+  Cookie)
+opcode: ''
+keywords: Shell
+task: DataLayer_GetResultTaskQueued
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: Version
+- field_type: UInt32
+  field_name: Cookie

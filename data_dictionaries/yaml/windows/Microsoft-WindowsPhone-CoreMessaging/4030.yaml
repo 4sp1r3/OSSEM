@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '4030'
+version: '0'
+event(fields): Messaging_LocalReceiveStart()
+opcode: Start
+keywords: MessagingPerformance Messaging
+task: Messaging_LocalReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

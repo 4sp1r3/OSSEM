@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '221'
+version: '0'
+event(fields): OVERLAY_CANDIDATECOLLECTIONStart(Int32 fEnabled)
+opcode: Start
+keywords: DwmCore
+task: OVERLAY_CANDIDATECOLLECTION
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: fEnabled

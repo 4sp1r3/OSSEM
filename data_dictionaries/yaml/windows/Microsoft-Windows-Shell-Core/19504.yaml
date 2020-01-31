@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19504'
+version: '0'
+event(fields): CDesktopFolder_GetDisplayNameOfStop(UInt64 Address, UInt32 HRESULT,
+  UInt32 Flags, UnicodeString Name)
+opcode: Stop
+keywords: Shell
+task: CDesktopFolder_GetDisplayNameOf
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Address
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: Flags
+- field_type: UnicodeString
+  field_name: Name

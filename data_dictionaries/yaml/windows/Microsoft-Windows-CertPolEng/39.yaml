@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CertPolEng
+event_id: '39'
+version: '0'
+event(fields): task_039(UnicodeString UPN, UnicodeString ClientName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UPN
+- field_type: UnicodeString
+  field_name: ClientName

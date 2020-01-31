@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '8196'
+version: '0'
+event(fields): SyncaSecurityCatalogwiththeCatalogDatabaseStart(UnicodeString Subsystem,
+  UnicodeString FileName)
+opcode: Start
+keywords: Catalog
+task: SyncaSecurityCatalogwiththeCatalogDatabase
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Subsystem
+- field_type: UnicodeString
+  field_name: FileName

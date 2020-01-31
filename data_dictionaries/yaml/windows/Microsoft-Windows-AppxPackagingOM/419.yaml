@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '419'
+version: '0'
+event(fields): AppXPackaging.Task.Signature.EappxBundleSipRemoveSignatureStop()
+opcode: Stop
+keywords: ''
+task: AppXPackaging.Task.Signature.EappxBundleSipRemoveSignature
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '307'
+version: '0'
+event(fields): MPS_CLNT_API_QueryMainModeRulesStop()
+opcode: Stop
+keywords: Client
+task: MPS_CLNT_API_QueryMainModeRules
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

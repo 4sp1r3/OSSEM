@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-StorPort
+event_id: '236'
+version: '1'
+event(fields): PortStart236_V1(Pointer PoHandle, UInt32 PortNumber, Boolean DIrpRequested,
+  UInt64 DPNRDurationMsec)
+opcode: Start
+keywords: Power
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PoHandle
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: Boolean
+  field_name: DIrpRequested
+- field_type: UInt64
+  field_name: DPNRDurationMsec

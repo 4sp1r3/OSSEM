@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '36010'
+version: '1'
+event(fields): Publishing_DeserializeManifestStart_V1()
+opcode: Start
+keywords: ''
+task: Publishing_DeserializeManifest
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

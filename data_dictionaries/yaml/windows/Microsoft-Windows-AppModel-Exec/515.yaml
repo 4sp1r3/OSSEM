@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '515'
+version: '0'
+event(fields): BackgroundManagerTrace515(GUID WorkItemId, GUID TaskInstanceId)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BackgroundManagerTrace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: WorkItemId
+- field_type: GUID
+  field_name: TaskInstanceId

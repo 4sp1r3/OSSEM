@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '113'
+version: '0'
+event(fields): ManipulateView(Float Zoom, Float Rotation)
+opcode: ''
+keywords: Reader
+task: ManipulateView
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: Zoom
+- field_type: Float
+  field_name: Rotation

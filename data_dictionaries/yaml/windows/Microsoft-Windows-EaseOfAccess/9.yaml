@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EaseOfAccess
+event_id: '9'
+version: '0'
+event(fields): SetHC_EnableHighContrastStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: SetHC_EnableHighContrast
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

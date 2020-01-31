@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-OverlayFilter
+event_id: '24839'
+version: '0'
+event(fields): TheWindowsOverlayTaskDeleteHashFile(UnicodeString wimHashFile, UnicodeString
+  wimFile)
+opcode: DeleteHashFile
+keywords: ''
+task: TheWindowsOverlayTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: wimHashFile
+- field_type: UnicodeString
+  field_name: wimFile

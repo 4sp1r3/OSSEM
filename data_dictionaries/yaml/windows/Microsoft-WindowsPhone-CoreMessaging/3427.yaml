@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3427'
+version: '0'
+event(fields): RemoteRegistrarClient_CompleteLocalConnectionStop()
+opcode: Stop
+keywords: MessagingPerformance RegistrarClient
+task: RemoteRegistrarClient_CompleteLocalConnection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

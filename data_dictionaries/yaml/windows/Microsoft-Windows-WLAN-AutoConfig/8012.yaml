@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '8012'
+version: '0'
+event(fields): AcmConnection8012(GUID InterfaceGuid, UnicodeString InterfaceDescription)
+opcode: ''
+keywords: WlanConnect Telemetry
+task: AcmConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription

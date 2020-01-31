@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HttpService
+event_id: '12'
+version: '0'
+event(fields): HTTPRequestTraceTaskFastSend(UInt64 RequestId, UInt16 HttpStatus)
+opcode: FastSend
+keywords: HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE
+task: HTTPRequestTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RequestId
+- field_type: UInt16
+  field_name: HttpStatus

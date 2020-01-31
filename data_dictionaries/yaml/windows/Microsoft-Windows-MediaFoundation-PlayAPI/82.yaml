@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '82'
+version: '0'
+event(fields): MFPlayStart82(Pointer Object, Boolean Mute)
+opcode: Start
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Boolean
+  field_name: Mute

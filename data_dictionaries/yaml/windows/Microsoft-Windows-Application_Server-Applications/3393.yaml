@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3393'
+version: '0'
+event(fields): MessageDecodingStop3393(UnicodeString AppDomain)
+opcode: Stop
+keywords: Channel
+task: MessageDecoding
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

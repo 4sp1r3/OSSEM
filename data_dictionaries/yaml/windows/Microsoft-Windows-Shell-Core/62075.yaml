@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62075'
+version: '0'
+event(fields): OperationManager_TileAnimation_Frame_Skipped(UInt32 Delta)
+opcode: ''
+keywords: Shell
+task: OperationManager_TileAnimation_Frame_Skipped
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Delta

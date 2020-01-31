@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '7'
+version: '0'
+event(fields): IrpStart(Pointer Irp, UInt32 PowerStateType, UInt8 MinorFunction, Pointer
+  TargetDevice, UInt16 InstanceNameLength, UnicodeString InstanceName)
+opcode: Start
+keywords: po:Performance
+task: Irp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt32
+  field_name: PowerStateType
+- field_type: UInt8
+  field_name: MinorFunction
+- field_type: Pointer
+  field_name: TargetDevice
+- field_type: UInt16
+  field_name: InstanceNameLength
+- field_type: UnicodeString
+  field_name: InstanceName

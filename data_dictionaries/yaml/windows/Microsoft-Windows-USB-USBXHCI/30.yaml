@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '30'
+version: '0'
+event(fields): USBXHCIControllerErrorInformation(Pointer fid_UcxController, Pointer
+  fid_UcxDevice, Pointer fid_UcxEndpoint, UInt64 fid_HWVerifierFlag, AnsiString fid_Description,
+  Binary fid_CommandTRB, Binary fid_EventTRB)
+opcode: Information
+keywords: Default HWVerifyHost keyword_400000000000
+task: USBXHCIControllerError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: Pointer
+  field_name: fid_UcxDevice
+- field_type: Pointer
+  field_name: fid_UcxEndpoint
+- field_type: UInt64
+  field_name: fid_HWVerifierFlag
+- field_type: AnsiString
+  field_name: fid_Description
+- field_type: Binary
+  field_name: fid_CommandTRB
+- field_type: Binary
+  field_name: fid_EventTRB

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1144'
+version: '0'
+event(fields): IpInterfacePropertyChange(UInt32 Interface, UInt32 Advertise, UInt32
+  AdvertiseDefaultRoute, UInt32 Forward, UInt32 ForwardMulticast, UInt32 UseNud, UInt32
+  AdvertisingEnabled)
+opcode: ''
+keywords: ut:TcpipInterface ut:Configuration
+task: IpInterfacePropertyChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: Advertise
+- field_type: UInt32
+  field_name: AdvertiseDefaultRoute
+- field_type: UInt32
+  field_name: Forward
+- field_type: UInt32
+  field_name: ForwardMulticast
+- field_type: UInt32
+  field_name: UseNud
+- field_type: UInt32
+  field_name: AdvertisingEnabled

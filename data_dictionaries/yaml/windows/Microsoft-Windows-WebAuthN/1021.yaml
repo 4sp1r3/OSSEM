@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '1021'
+version: '0'
+event(fields): WebAuthNNgcMakeCredentialStop(GUID TransactionId)
+opcode: Stop
+keywords: WebAuthN Ngc
+task: WebAuthNNgcMakeCredential
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId

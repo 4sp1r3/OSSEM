@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '647'
+version: '0'
+event(fields): Courier_FunctionalTest()
+opcode: ''
+keywords: verbose
+task: Courier_FunctionalTest
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

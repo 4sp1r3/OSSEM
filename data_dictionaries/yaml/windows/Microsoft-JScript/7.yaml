@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '7'
+version: '0'
+event(fields): ScriptContextRundownScriptContextDCStart(Pointer ScriptContextID)
+opcode: ScriptContextDCStart
+keywords: JScriptStartRundown
+task: ScriptContextRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ScriptContextID

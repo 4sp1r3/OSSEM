@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '8'
+version: '0'
+event(fields): HoldingStop(Boolean Handled)
+opcode: Stop
+keywords: Input
+task: Holding
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Handled

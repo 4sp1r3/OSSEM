@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '53251'
+version: '1'
+event(fields): PowerShellScheduledJobsTobeusedwhenanexceptionisraised_V1(UnicodeString
+  Name, UnicodeString Message, UnicodeString StackTrace, UnicodeString InnerException)
+opcode: Tobeusedwhenanexceptionisraised
+keywords: ''
+task: PowerShellScheduledJobs
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UnicodeString
+  field_name: StackTrace
+- field_type: UnicodeString
+  field_name: InnerException

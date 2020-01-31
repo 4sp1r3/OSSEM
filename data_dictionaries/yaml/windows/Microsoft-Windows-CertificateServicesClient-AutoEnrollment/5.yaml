@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CertificateServicesClient-AutoEnrollment
+event_id: '5'
+version: '0'
+event(fields): task_0PCODE_192pcode_1925(UnicodeString Context)
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Context

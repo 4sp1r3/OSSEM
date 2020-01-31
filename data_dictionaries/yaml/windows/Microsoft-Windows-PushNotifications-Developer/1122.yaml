@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Developer
+event_id: '1122'
+version: '0'
+event(fields): ConnectionStatusDeliveryStart(UnicodeString AppID, Boolean IsConnected)
+opcode: Start
+keywords: ''
+task: ConnectionStatusDelivery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: Boolean
+  field_name: IsConnected

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1041'
+version: '0'
+event(fields): DeviceError1041(UnicodeString PKeyGuid, UInt32 PKeyId)
+opcode: ''
+keywords: ''
+task: DeviceError
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PKeyGuid
+- field_type: UInt32
+  field_name: PKeyId

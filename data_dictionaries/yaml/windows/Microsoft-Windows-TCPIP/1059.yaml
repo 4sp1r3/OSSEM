@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1059'
+version: '0'
+event(fields): TcpGlobalIsbBeginThrottle(UInt32 HighMemoryEvent, UInt32 HighPagedPoolEvent,
+  UInt32 LowMemoryEvent, UInt32 LowPagedPoolEvent)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Global
+task: TcpGlobalIsbBeginThrottle
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HighMemoryEvent
+- field_type: UInt32
+  field_name: HighPagedPoolEvent
+- field_type: UInt32
+  field_name: LowMemoryEvent
+- field_type: UInt32
+  field_name: LowPagedPoolEvent

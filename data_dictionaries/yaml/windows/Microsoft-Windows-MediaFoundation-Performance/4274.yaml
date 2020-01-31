@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4274'
+version: '0'
+event(fields): VideoRender(AnsiString tag, Pointer object, Pointer sample, Int64 sampleTime,
+  Int64 sampleDuration, Int64 clockTime, Pointer hwnd, UInt32 refreshRate, UInt32
+  width, UInt32 height, UInt32 left, UInt32 top, UInt32 right, UInt32 bottom, UInt32
+  left1, UInt32 top1, UInt32 right1, UInt32 bottom1)
+opcode: ''
+keywords: ''
+task: VideoRender
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: sample
+- field_type: Int64
+  field_name: sampleTime
+- field_type: Int64
+  field_name: sampleDuration
+- field_type: Int64
+  field_name: clockTime
+- field_type: Pointer
+  field_name: hwnd
+- field_type: UInt32
+  field_name: refreshRate
+- field_type: UInt32
+  field_name: width
+- field_type: UInt32
+  field_name: height
+- field_type: UInt32
+  field_name: left
+- field_type: UInt32
+  field_name: top
+- field_type: UInt32
+  field_name: right
+- field_type: UInt32
+  field_name: bottom
+- field_type: UInt32
+  field_name: left1
+- field_type: UInt32
+  field_name: top1
+- field_type: UInt32
+  field_name: right1
+- field_type: UInt32
+  field_name: bottom1

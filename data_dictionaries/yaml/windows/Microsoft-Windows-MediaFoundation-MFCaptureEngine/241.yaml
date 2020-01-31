@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '241'
+version: '0'
+event(fields): MFCaptureEngineFlushRequiredStreamsTaskStop(Pointer Pointer, UInt32
+  dwStreamIndex, UInt32 hrStatus)
+opcode: Stop
+keywords: ''
+task: MFCaptureEngineFlushRequiredStreamsTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Pointer
+- field_type: UInt32
+  field_name: dwStreamIndex
+- field_type: UInt32
+  field_name: hrStatus

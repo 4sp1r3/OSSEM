@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '67'
+version: '0'
+event(fields): ArrangeOverrideStop(UInt64 ElementId)
+opcode: Stop
+keywords: ''
+task: ArrangeOverride
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId

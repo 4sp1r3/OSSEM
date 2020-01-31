@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '16026'
+version: '1'
+event(fields): UnpublishGroupsStart_V1()
+opcode: Start
+keywords: ''
+task: UnpublishGroups
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

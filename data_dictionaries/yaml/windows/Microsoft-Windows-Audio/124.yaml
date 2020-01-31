@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Audio
+event_id: '124'
+version: '0'
+event(fields): GetMixFormatevaluationStop()
+opcode: Stop
+keywords: ''
+task: GetMixFormatevaluation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

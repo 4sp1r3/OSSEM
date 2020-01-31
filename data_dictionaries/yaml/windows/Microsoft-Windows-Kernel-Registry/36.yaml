@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '36'
+version: '0'
+event(fields): Thisgroupofeventstrackstheperformanceofregistryshutdown.Stop()
+opcode: Stop
+keywords: ''
+task: Thisgroupofeventstrackstheperformanceofregistryshutdown.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

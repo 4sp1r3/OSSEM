@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '759'
+version: '0'
+event(fields): Mshtml_Ortc_Create_Render_Sample_Queue(AnsiString SampleQueueType,
+  Pointer ThisPtr)
+opcode: ''
+keywords: mshtml
+task: Mshtml_Ortc_Create_Render_Sample_Queue
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: SampleQueueType
+- field_type: Pointer
+  field_name: ThisPtr

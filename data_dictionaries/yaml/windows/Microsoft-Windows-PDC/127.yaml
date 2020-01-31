@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDC
+event_id: '127'
+version: '0'
+event(fields): PdcSIdleUpdateNotification(Boolean SystemIdle)
+opcode: ''
+keywords: ''
+task: PdcSIdleUpdateNotification
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: SystemIdle

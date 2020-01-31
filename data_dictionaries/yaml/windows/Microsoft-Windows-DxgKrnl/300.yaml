@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '300'
+version: '0'
+event(fields): UnwaitCpuWaiter(Pointer Event, UInt32 WaitConditionCount, UInt64 FenceValues,
+  Pointer SyncObjects, UInt32 Flags)
+opcode: ''
+keywords: Base
+task: UnwaitCpuWaiter
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Event
+- field_type: UInt32
+  field_name: WaitConditionCount
+- field_type: UInt64
+  field_name: FenceValues
+- field_type: Pointer
+  field_name: SyncObjects
+- field_type: UInt32
+  field_name: Flags

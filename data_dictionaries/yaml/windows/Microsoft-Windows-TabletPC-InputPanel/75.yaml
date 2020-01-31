@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '75'
+version: '0'
+event(fields): NumSkin_InitializeStart()
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: NumSkin_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

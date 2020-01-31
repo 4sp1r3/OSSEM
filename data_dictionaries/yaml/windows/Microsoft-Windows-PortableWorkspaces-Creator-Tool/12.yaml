@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableWorkspaces-Creator-Tool
+event_id: '12'
+version: '0'
+event(fields): Thelistofdrivesispopulatedandresponsivetoselection.Stop()
+opcode: Stop
+keywords: ''
+task: Thelistofdrivesispopulatedandresponsivetoselection.
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

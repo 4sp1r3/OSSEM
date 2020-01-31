@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WindowsUIImmersive
+event_id: '8719'
+version: '0'
+event(fields): PopupRepositionStop()
+opcode: Stop
+keywords: ''
+task: PopupReposition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '506'
+version: '0'
+event(fields): task_0506(UnicodeString PackageFullName, UnicodeString ResourceName,
+  Int32 ErrorCode)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: ResourceName
+- field_type: Int32
+  field_name: ErrorCode

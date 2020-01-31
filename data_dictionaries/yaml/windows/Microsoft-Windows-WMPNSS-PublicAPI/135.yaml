@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WMPNSS-PublicAPI
+event_id: '135'
+version: '0'
+event(fields): get_internetMediaSharingSecurityGroupStop(UnicodeString SecurityGroup,
+  UInt32 HResult)
+opcode: Stop
+keywords: ''
+task: get_internetMediaSharingSecurityGroup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SecurityGroup
+- field_type: UInt32
+  field_name: HResult

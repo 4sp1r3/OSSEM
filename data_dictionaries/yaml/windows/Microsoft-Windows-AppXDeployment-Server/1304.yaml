@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1304'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.FileCompressionStat(UnicodeString
+  PackageFullName, Int64 PackageKey, UInt32 Count, UInt32 UncompressedSizeKB, UInt32
+  CompressedSizeKB, UInt32 DurationMS)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.FileCompressionStat
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: Int64
+  field_name: PackageKey
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt32
+  field_name: UncompressedSizeKB
+- field_type: UInt32
+  field_name: CompressedSizeKB
+- field_type: UInt32
+  field_name: DurationMS

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AssignedAccess
+event_id: '20001'
+version: '0'
+event(fields): ConfiguringAssignedAccess20001()
+opcode: ''
+keywords: ''
+task: ConfiguringAssignedAccess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

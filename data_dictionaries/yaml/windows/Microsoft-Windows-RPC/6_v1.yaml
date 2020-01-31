@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-RPC
+event_id: '6'
+version: '1'
+event(fields): RpcServerCallStart_V1(GUID InterfaceUuid, UInt32 ProcNum, UInt32 Protocol,
+  UnicodeString NetworkAddress, UnicodeString Endpoint, UnicodeString Options, UInt32
+  AuthenticationLevel, UInt32 AuthenticationService, UInt32 ImpersonationLevel)
+opcode: Start
+keywords: ''
+task: RpcServerCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceUuid
+- field_type: UInt32
+  field_name: ProcNum
+- field_type: UInt32
+  field_name: Protocol
+- field_type: UnicodeString
+  field_name: NetworkAddress
+- field_type: UnicodeString
+  field_name: Endpoint
+- field_type: UnicodeString
+  field_name: Options
+- field_type: UInt32
+  field_name: AuthenticationLevel
+- field_type: UInt32
+  field_name: AuthenticationService
+- field_type: UInt32
+  field_name: ImpersonationLevel

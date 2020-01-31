@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '156'
+version: '0'
+event(fields): DigitalSignatureVerifying156(HexInt32 errorCode)
+opcode: Verifying
+keywords: ''
+task: DigitalSignature
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode

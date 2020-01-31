@@ -1,0 +1,11 @@
+provider: Intel-iaLPSS-I2C
+event_id: '1020'
+version: '1'
+event(fields): EnumerationofSPBCxdriverStop1020_V1()
+opcode: Stop
+keywords: ''
+task: EnumerationofSPBCxdriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

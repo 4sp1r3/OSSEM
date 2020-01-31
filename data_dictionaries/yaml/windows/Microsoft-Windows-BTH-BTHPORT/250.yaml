@@ -1,0 +1,53 @@
+provider: Microsoft-Windows-BTH-BTHPORT
+event_id: '250'
+version: '0'
+event(fields): task_0250(UInt8 SentStatus, UInt64 LE_Flink, UInt64 LE_Blink, UInt32
+  Length, UInt16 Version, UInt16 Type, UInt32 BthportFlags, UInt32 Status, UInt8 BtStatus,
+  UInt8 BTHPORT_CONTEXT_SIZE, UInt64 Context, UInt64 ClientContext, UInt8 BTHPORT_RESERVED_FIELD_SIZE,
+  UInt32 Reserved, UInt64 BtAddress, UInt16 InfoType, UInt16 Result, UInt8 DataLength,
+  UInt8 Data)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: SentStatus
+- field_type: UInt64
+  field_name: LE_Flink
+- field_type: UInt64
+  field_name: LE_Blink
+- field_type: UInt32
+  field_name: Length
+- field_type: UInt16
+  field_name: Version
+- field_type: UInt16
+  field_name: Type
+- field_type: UInt32
+  field_name: BthportFlags
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt8
+  field_name: BtStatus
+- field_type: UInt8
+  field_name: BTHPORT_CONTEXT_SIZE
+- field_type: UInt64
+  field_name: Context
+- field_type: UInt64
+  field_name: ClientContext
+- field_type: UInt8
+  field_name: BTHPORT_RESERVED_FIELD_SIZE
+- field_type: UInt32
+  field_name: Reserved
+- field_type: UInt64
+  field_name: BtAddress
+- field_type: UInt16
+  field_name: InfoType
+- field_type: UInt16
+  field_name: Result
+- field_type: UInt8
+  field_name: DataLength
+- field_type: UInt8
+  field_name: Data

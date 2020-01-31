@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Graphics-Printing3D
+event_id: '2'
+version: '0'
+event(fields): PrintDXGIPreviewTarget_DrawPageStop(UInt32 HResult)
+opcode: Stop
+keywords: ''
+task: PrintDXGIPreviewTarget_DrawPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HResult

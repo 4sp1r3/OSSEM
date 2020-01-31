@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6243'
+version: '0'
+event(fields): Thumbnails_GetThumbnailStreamStop(Int32 HRESULT, UInt32 CacheFlags,
+  Int32 SizeX, Int32 SizeY, Int32 StreamType)
+opcode: Stop
+keywords: Shell
+task: Thumbnails_GetThumbnailStream
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: CacheFlags
+- field_type: Int32
+  field_name: SizeX
+- field_type: Int32
+  field_name: SizeY
+- field_type: Int32
+  field_name: StreamType

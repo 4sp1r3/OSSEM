@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1418'
+version: '0'
+event(fields): TcpLossRecoverySend(Pointer Tcb, UInt32 BytesToSend, UInt32 SndNxt)
+opcode: ''
+keywords: ut:SendPath
+task: TcpLossRecoverySend
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: BytesToSend
+- field_type: UInt32
+  field_name: SndNxt

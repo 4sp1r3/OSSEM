@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Complus
+event_id: '778'
+version: '0'
+event(fields): task_0PCODE_64pcode_64778(UnicodeString param1)
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

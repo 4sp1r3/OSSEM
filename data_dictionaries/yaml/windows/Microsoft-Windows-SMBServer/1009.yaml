@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1009'
+version: '0'
+event(fields): SrvSessionAnonymousAccessDenied(UInt32 ClientAddressLength, Binary
+  ClientAddress, UInt16 ClientNameLength, UnicodeString ClientName, HexInt64 SessionId,
+  GUID SessionGUID, GUID ConnectionGUID)
+opcode: ''
+keywords: Operational
+task: SrvSessionAnonymousAccessDenied
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ClientAddressLength
+- field_type: Binary
+  field_name: ClientAddress
+- field_type: UInt16
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName
+- field_type: HexInt64
+  field_name: SessionId
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: ConnectionGUID

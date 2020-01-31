@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1425'
+version: '0'
+event(fields): TcpipTimerStateChange(UInt32 Component, UInt32 Processor, UInt32 CurrentState,
+  UInt32 ProcessorUsage, UInt32 CurrentTick)
+opcode: ''
+keywords: ut:Global
+task: TcpipTimerStateChange
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Component
+- field_type: UInt32
+  field_name: Processor
+- field_type: UInt32
+  field_name: CurrentState
+- field_type: UInt32
+  field_name: ProcessorUsage
+- field_type: UInt32
+  field_name: CurrentTick

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '250'
+version: '0'
+event(fields): MPS_CLNT_API_DeleteAllCryptoSetsStart()
+opcode: Start
+keywords: Client
+task: MPS_CLNT_API_DeleteAllCryptoSets
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

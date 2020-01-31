@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '2001'
+version: '0'
+event(fields): VisibilityInputType2001(UInt32 msg, Pointer lParam, Boolean IsOnEditField,
+  UInt32 EventOriginProcess, UInt32 OrginType)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: VisibilityInputType
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: msg
+- field_type: Pointer
+  field_name: lParam
+- field_type: Boolean
+  field_name: IsOnEditField
+- field_type: UInt32
+  field_name: EventOriginProcess
+- field_type: UInt32
+  field_name: OrginType

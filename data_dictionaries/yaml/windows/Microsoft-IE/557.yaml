@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '557'
+version: '0'
+event(fields): Mshtml_RenderTask_ProcessingStop(Pointer RenderTask, Boolean Skipped)
+opcode: Stop
+keywords: subsystem composition
+task: Mshtml_RenderTask_Processing
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RenderTask
+- field_type: Boolean
+  field_name: Skipped

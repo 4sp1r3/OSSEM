@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '800'
+version: '0'
+event(fields): ProcessNewDeviceStart(Pointer DeviceNode)
+opcode: Start
+keywords: Enumeration
+task: ProcessNewDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DeviceNode

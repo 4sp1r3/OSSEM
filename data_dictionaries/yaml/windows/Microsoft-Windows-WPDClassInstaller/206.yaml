@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPDClassInstaller
+event_id: '206'
+version: '0'
+event(fields): DeviceMetadataRetrieval206(UnicodeString MetadataLocaleName, GUID MetadataContentId)
+opcode: ''
+keywords: ''
+task: DeviceMetadataRetrieval
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MetadataLocaleName
+- field_type: GUID
+  field_name: MetadataContentId

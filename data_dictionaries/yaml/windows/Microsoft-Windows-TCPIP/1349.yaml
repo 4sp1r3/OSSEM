@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1349'
+version: '0'
+event(fields): TcpCtcpDataTransferSpuriousTimeout1349(Pointer Tcb, UInt32 Cwnd, UInt32
+  SSThresh)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:SendPath
+task: TcpCtcpDataTransferSpuriousTimeout
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Cwnd
+- field_type: UInt32
+  field_name: SSThresh

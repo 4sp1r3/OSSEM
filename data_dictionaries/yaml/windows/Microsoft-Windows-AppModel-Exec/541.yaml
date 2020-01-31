@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '541'
+version: '0'
+event(fields): BackgroundManagerTrace541(GUID WorkItemId)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BackgroundManagerTrace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: WorkItemId

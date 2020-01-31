@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '6113'
+version: '0'
+event(fields): RMEClientEnumLibQueryStop(UnicodeString RMEClientID, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: RMEClientEnumLibQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RMEClientID
+- field_type: UInt32
+  field_name: ErrorCode

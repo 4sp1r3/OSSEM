@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '69'
+version: '0'
+event(fields): SocketConnect69(UInt32 errorCount, UInt32 errorList)
+opcode: ''
+keywords: keywords.Socket
+task: SocketConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: errorCount
+- field_type: UInt32
+  field_name: errorList

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-ConfigManager
+event_id: '15'
+version: '0'
+event(fields): SettingChangeNotification()
+opcode: ''
+keywords: ''
+task: SettingChangeNotification
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

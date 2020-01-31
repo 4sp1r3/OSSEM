@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '12'
+version: '0'
+event(fields): ProcessFreezeStop(UInt32 FrozenProcessID)
+opcode: Stop
+keywords: WINEVENT_KEYWORD_PROCESS_FREEZE
+task: ProcessFreeze
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FrozenProcessID

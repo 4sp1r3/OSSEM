@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '44'
+version: '0'
+event(fields): task_044(UInt32 CachedCopyStatus, UInt32 IdkGenerationStatus, UInt32
+  MeasuringStatus, UInt32 SealingAndCachingStatus)
+opcode: ''
+keywords: keyword_80000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CachedCopyStatus
+- field_type: UInt32
+  field_name: IdkGenerationStatus
+- field_type: UInt32
+  field_name: MeasuringStatus
+- field_type: UInt32
+  field_name: SealingAndCachingStatus

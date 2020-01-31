@@ -1,0 +1,49 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '37'
+version: '0'
+event(fields): QueryStatsEnergyEstimate37(UnicodeString AppName, UInt16 UserId, UInt64
+  CpuEnergy, UInt64 SocEnergy, UInt64 DisplayEnergy, UInt64 DiskEnergy, UInt64 NetworkEnergy,
+  UInt64 MbbEnergy, UInt64 LossEnergy, UInt64 OtherEnergy, UInt64 EmiEnergy, UInt64
+  ForInternalUse, UInt32 TimeInMSec, UInt32 RecordFlags, UInt32 RecordMeasured, UInt32
+  InteractivityState, UInt32 Committed)
+opcode: EnergyEstimate
+keywords: EnergyEstimation
+task: QueryStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppName
+- field_type: UInt16
+  field_name: UserId
+- field_type: UInt64
+  field_name: CpuEnergy
+- field_type: UInt64
+  field_name: SocEnergy
+- field_type: UInt64
+  field_name: DisplayEnergy
+- field_type: UInt64
+  field_name: DiskEnergy
+- field_type: UInt64
+  field_name: NetworkEnergy
+- field_type: UInt64
+  field_name: MbbEnergy
+- field_type: UInt64
+  field_name: LossEnergy
+- field_type: UInt64
+  field_name: OtherEnergy
+- field_type: UInt64
+  field_name: EmiEnergy
+- field_type: UInt64
+  field_name: ForInternalUse
+- field_type: UInt32
+  field_name: TimeInMSec
+- field_type: UInt32
+  field_name: RecordFlags
+- field_type: UInt32
+  field_name: RecordMeasured
+- field_type: UInt32
+  field_name: InteractivityState
+- field_type: UInt32
+  field_name: Committed

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23010'
+version: '1'
+event(fields): DeserializeManifest_3705Start_V1()
+opcode: Start
+keywords: ''
+task: DeserializeManifest_3705
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

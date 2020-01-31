@@ -1,0 +1,51 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '21'
+version: '2'
+event(fields): Smb2RequestSetInfo_V2(UInt64 SessionId, UInt32 ProcessId, UInt32 TreeId,
+  UInt64 MessageId, UInt64 MasterMessageId, UInt16 Command, UInt16 CreditsRequested,
+  UInt32 Flags, UInt8 InfoType, UInt8 InfoClass, UInt32 SecurityInformation, UInt64
+  FileId, UInt32 OutputBufferLength, Binary OutputBuffer, GUID ConnectionGUID, GUID
+  SessionGUID, GUID TreeConnectGUID, GUID FileGUID)
+opcode: ''
+keywords: Request
+task: Smb2RequestSetInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: TreeId
+- field_type: UInt64
+  field_name: MessageId
+- field_type: UInt64
+  field_name: MasterMessageId
+- field_type: UInt16
+  field_name: Command
+- field_type: UInt16
+  field_name: CreditsRequested
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt8
+  field_name: InfoType
+- field_type: UInt8
+  field_name: InfoClass
+- field_type: UInt32
+  field_name: SecurityInformation
+- field_type: UInt64
+  field_name: FileId
+- field_type: UInt32
+  field_name: OutputBufferLength
+- field_type: Binary
+  field_name: OutputBuffer
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: TreeConnectGUID
+- field_type: GUID
+  field_name: FileGUID

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62440'
+version: '0'
+event(fields): AppDefaults_UserChoiceHashMismatch(UnicodeString ExtOrUriScheme, UnicodeString
+  ProgId)
+opcode: ''
+keywords: ''
+task: AppDefaults_UserChoiceHashMismatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtOrUriScheme
+- field_type: UnicodeString
+  field_name: ProgId

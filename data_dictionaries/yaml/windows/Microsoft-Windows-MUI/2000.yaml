@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MUI
+event_id: '2000'
+version: '0'
+event(fields): MUINotifyUILanguageChangetaskInvokecallbackfunction(UInt32 Status)
+opcode: Invokecallbackfunction
+keywords: ''
+task: MUINotifyUILanguageChangetask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

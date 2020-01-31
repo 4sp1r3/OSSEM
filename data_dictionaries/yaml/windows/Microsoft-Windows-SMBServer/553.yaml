@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '553'
+version: '0'
+event(fields): Smb2SessionBind(GUID SessionGUID, GUID ConnectionGUID, GUID BindingSessionGUID)
+opcode: ''
+keywords: Session
+task: Smb2SessionBind
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: GUID
+  field_name: BindingSessionGUID

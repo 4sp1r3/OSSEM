@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '81'
+version: '0'
+event(fields): DeviceCenter_FDQueryStop(UInt64 querycookie, UInt32 EnumerationTime,
+  UInt32 CountOfItems)
+opcode: Stop
+keywords: ''
+task: DeviceCenter_FDQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: querycookie
+- field_type: UInt32
+  field_name: EnumerationTime
+- field_type: UInt32
+  field_name: CountOfItems

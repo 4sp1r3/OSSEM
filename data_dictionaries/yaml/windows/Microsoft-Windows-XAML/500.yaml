@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '500'
+version: '0'
+event(fields): GetSoundPlayerServiceStop()
+opcode: Stop
+keywords: Core
+task: GetSoundPlayerService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '35'
+version: '0'
+event(fields): Imaging_CreateWebPagePreviewStop()
+opcode: Stop
+keywords: primarynav
+task: Imaging_CreateWebPagePreview
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

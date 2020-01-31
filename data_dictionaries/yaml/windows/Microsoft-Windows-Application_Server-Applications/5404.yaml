@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '5404'
+version: '0'
+event(fields): TokenValidation5404(UnicodeString tokenType, UnicodeString tokenID,
+  UnicodeString errorMessage, UnicodeString HostReference, UnicodeString AppDomain)
+opcode: ''
+keywords: Security
+task: TokenValidation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: tokenType
+- field_type: UnicodeString
+  field_name: tokenID
+- field_type: UnicodeString
+  field_name: errorMessage
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

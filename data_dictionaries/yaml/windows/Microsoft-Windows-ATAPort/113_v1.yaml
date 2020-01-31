@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ATAPort
+event_id: '113'
+version: '1'
+event(fields): Port_V1(UInt8 PortNumber, UInt8 BusNumber, UInt8 TargetId, UInt8 LUN,
+  UInt32 FailureReason)
+opcode: ''
+keywords: Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite PnP Enum
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: BusNumber
+- field_type: UInt8
+  field_name: TargetId
+- field_type: UInt8
+  field_name: LUN
+- field_type: UInt32
+  field_name: FailureReason

@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2313'
+version: '0'
+event(fields): ExecutionManagerClientConstructStop(Pointer ptr)
+opcode: Stop
+keywords: NavigationPerformance ExecutionManagerClient
+task: ExecutionManagerClientConstruct
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ptr

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '161'
+version: '0'
+event(fields): CDRMMemoryCacheDRM_FREEStop(Pointer CDRMMemoryCacheDRM_FREE_ptr)
+opcode: Stop
+keywords: ''
+task: CDRMMemoryCacheDRM_FREE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CDRMMemoryCacheDRM_FREE_ptr

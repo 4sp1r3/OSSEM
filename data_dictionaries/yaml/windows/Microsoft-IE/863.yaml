@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '863'
+version: '0'
+event(fields): Edgehtml_Extensions_WrxMessageStart(Binary To, Binary From, UInt32
+  PayloadSize, UInt32 Header)
+opcode: Start
+keywords: extensions
+task: Edgehtml_Extensions_WrxMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: To
+- field_type: Binary
+  field_name: From
+- field_type: UInt32
+  field_name: PayloadSize
+- field_type: UInt32
+  field_name: Header

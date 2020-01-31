@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3325'
+version: '0'
+event(fields): FormatterSerializeReplyStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: ServiceModel
+task: FormatterSerializeReply
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

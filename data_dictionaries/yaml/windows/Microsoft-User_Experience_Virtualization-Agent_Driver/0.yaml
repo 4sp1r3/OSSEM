@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-Agent Driver
+event_id: '0'
+version: '0'
+event(fields): task_0(AnsiString P1AnsiString)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: P1AnsiString

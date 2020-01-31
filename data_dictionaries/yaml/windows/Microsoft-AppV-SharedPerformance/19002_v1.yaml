@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '19002'
+version: '1'
+event(fields): ShellNotifyFtaAssocChangedStart_V1()
+opcode: Start
+keywords: ''
+task: ShellNotifyFtaAssocChanged
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

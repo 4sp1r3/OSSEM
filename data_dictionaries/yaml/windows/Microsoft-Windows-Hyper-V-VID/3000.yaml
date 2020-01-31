@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '3000'
+version: '0'
+event(fields): task_03000(UnicodeString PartitionId, Int64 Parameter0)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PartitionId
+- field_type: Int64
+  field_name: Parameter0

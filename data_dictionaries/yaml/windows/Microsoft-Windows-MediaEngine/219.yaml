@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '219'
+version: '0'
+event(fields): PresentTimeCriticalStop(Pointer Object, Int64 TimeDelta)
+opcode: Stop
+keywords: ''
+task: PresentTimeCritical
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int64
+  field_name: TimeDelta

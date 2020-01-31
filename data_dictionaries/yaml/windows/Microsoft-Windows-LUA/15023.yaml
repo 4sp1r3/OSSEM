@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-LUA
+event_id: '15023'
+version: '0'
+event(fields): ConsentUI_ExperienceStop()
+opcode: Stop
+keywords: ''
+task: ConsentUI_Experience
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

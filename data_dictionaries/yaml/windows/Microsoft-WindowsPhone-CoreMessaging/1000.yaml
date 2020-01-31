@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '1000'
+version: '0'
+event(fields): ETW_Init(UInt32 hex)
+opcode: ''
+keywords: Performance
+task: ETW_Init
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex

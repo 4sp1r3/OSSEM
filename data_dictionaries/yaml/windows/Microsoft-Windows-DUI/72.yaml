@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '72'
+version: '0'
+event(fields): DirectUI_InputStart()
+opcode: Start
+keywords: Default
+task: DirectUI_Input
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

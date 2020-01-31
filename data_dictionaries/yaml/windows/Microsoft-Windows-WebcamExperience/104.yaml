@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WebcamExperience
+event_id: '104'
+version: '0'
+event(fields): Webcam_VideoCaptureSaveStart()
+opcode: Start
+keywords: ''
+task: Webcam_VideoCaptureSave
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

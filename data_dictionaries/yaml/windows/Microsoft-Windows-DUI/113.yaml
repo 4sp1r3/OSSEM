@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '113'
+version: '0'
+event(fields): DirectUI_TouchSliderTooltipDisplayStop()
+opcode: Stop
+keywords: Default
+task: DirectUI_TouchSliderTooltipDisplay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

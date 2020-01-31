@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '321'
+version: '0'
+event(fields): VidMmEvict(Pointer pVidMmAlloc, UInt32 ResidencyCount)
+opcode: ''
+keywords: References
+task: VidMmEvict
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pVidMmAlloc
+- field_type: UInt32
+  field_name: ResidencyCount

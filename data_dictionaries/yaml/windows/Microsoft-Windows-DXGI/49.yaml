@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DXGI
+event_id: '49'
+version: '0'
+event(fields): SetFullscreenStateStart(Pointer pIDXGISwapChain, Boolean OldWindowed,
+  Pointer pOldOutput, Pointer pOldPrimary, Pointer pOldProxyPrimary, UInt8 OldWinFlipProxyBufferCount,
+  UInt32 OldSwapEffect)
+opcode: Start
+keywords: Events
+task: SetFullscreenState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: Boolean
+  field_name: OldWindowed
+- field_type: Pointer
+  field_name: pOldOutput
+- field_type: Pointer
+  field_name: pOldPrimary
+- field_type: Pointer
+  field_name: pOldProxyPrimary
+- field_type: UInt8
+  field_name: OldWinFlipProxyBufferCount
+- field_type: UInt32
+  field_name: OldSwapEffect

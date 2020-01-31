@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceManagement-Pushrouter
+event_id: '148'
+version: '0'
+event(fields): task_0148()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

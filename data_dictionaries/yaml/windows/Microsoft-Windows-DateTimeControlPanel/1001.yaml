@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DateTimeControlPanel
+event_id: '1001'
+version: '0'
+event(fields): Date/TimeControlPanelApplettimezonefunctionalityDate/TimeControlPanelAppletoperations(UnicodeString
+  TimeZoneKey, UnicodeString TimeZoneDisplay, UnicodeString TimeZoneMUIDisplay)
+opcode: Date/TimeControlPanelAppletoperations
+keywords: ''
+task: Date/TimeControlPanelApplettimezonefunctionality
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TimeZoneKey
+- field_type: UnicodeString
+  field_name: TimeZoneDisplay
+- field_type: UnicodeString
+  field_name: TimeZoneMUIDisplay

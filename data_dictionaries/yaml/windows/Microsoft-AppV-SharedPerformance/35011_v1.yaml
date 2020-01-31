@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '35011'
+version: '1'
+event(fields): VFSdeletefileStop_V1()
+opcode: Stop
+keywords: ''
+task: VFSdeletefile
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

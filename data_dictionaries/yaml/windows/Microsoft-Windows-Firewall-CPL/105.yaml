@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Firewall-CPL
+event_id: '105'
+version: '0'
+event(fields): SetFirewallOnStart()
+opcode: Start
+keywords: FirewallCpl
+task: SetFirewallOn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

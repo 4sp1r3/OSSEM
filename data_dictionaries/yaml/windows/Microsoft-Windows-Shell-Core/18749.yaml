@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18749'
+version: '0'
+event(fields): Shell32_DUIFrame_SendFolderChanged()
+opcode: ''
+keywords: Shell
+task: Shell32_DUIFrame_SendFolderChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

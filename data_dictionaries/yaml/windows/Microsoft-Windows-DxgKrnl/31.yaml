@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '31'
+version: '0'
+event(fields): ContextStop(Pointer hDevice, UInt32 NodeOrdinal, UInt32 EngineAffinity,
+  UInt32 DmaBufferSize, UInt32 DmaBufferSegmentSet, UInt32 DmaBufferPrivateDataSize,
+  UInt32 AllocationListSize, UInt32 PatchLocationListSize, UInt32 Flags, Pointer hContext,
+  Pointer ContextHandle, Pointer ParentDxgContext)
+opcode: Stop
+keywords: Resource LongHaul
+task: Context
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hDevice
+- field_type: UInt32
+  field_name: NodeOrdinal
+- field_type: UInt32
+  field_name: EngineAffinity
+- field_type: UInt32
+  field_name: DmaBufferSize
+- field_type: UInt32
+  field_name: DmaBufferSegmentSet
+- field_type: UInt32
+  field_name: DmaBufferPrivateDataSize
+- field_type: UInt32
+  field_name: AllocationListSize
+- field_type: UInt32
+  field_name: PatchLocationListSize
+- field_type: UInt32
+  field_name: Flags
+- field_type: Pointer
+  field_name: hContext
+- field_type: Pointer
+  field_name: ContextHandle
+- field_type: Pointer
+  field_name: ParentDxgContext

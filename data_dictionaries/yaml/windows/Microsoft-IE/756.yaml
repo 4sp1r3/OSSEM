@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '756'
+version: '0'
+event(fields): Mshtml_Ortc_Candidate_Gathering(Int32 HR, Pointer ThisPtr)
+opcode: ''
+keywords: mshtml
+task: Mshtml_Ortc_Candidate_Gathering
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HR
+- field_type: Pointer
+  field_name: ThisPtr

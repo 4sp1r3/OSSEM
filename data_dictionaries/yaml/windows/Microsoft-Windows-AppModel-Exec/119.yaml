@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '119'
+version: '0'
+event(fields): task_0119(UnicodeString AUMID, HexInt32 Flags, Int64 Reason)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AUMID
+- field_type: HexInt32
+  field_name: Flags
+- field_type: Int64
+  field_name: Reason

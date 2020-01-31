@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '549'
+version: '0'
+event(fields): BM_IgnoredEvaluationState(UInt32 EvaluationState, GUID WorkItemId)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BM_IgnoredEvaluationState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EvaluationState
+- field_type: GUID
+  field_name: WorkItemId

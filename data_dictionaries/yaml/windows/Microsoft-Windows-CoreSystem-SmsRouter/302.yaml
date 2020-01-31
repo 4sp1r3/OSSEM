@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-CoreSystem-SmsRouter
+event_id: '302'
+version: '0'
+event(fields): task_0302()
+opcode: ''
+keywords: Performance
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

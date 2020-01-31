@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '346'
+version: '0'
+event(fields): VidMmSelectOperation(Pointer VidMmDevice, Pointer PagingQueue, Pointer
+  PagingQueuePacket)
+opcode: ''
+keywords: VidMmWorkerThread
+task: VidMmSelectOperation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: VidMmDevice
+- field_type: Pointer
+  field_name: PagingQueue
+- field_type: Pointer
+  field_name: PagingQueuePacket

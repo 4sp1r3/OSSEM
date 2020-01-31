@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-COMRuntime
+event_id: '32769'
+version: '0'
+event(fields): task_032769(UnicodeString param1, UnicodeString param2, UnicodeString
+  param3)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2
+- field_type: UnicodeString
+  field_name: param3

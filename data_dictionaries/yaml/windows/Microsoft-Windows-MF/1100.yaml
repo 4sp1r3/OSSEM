@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MF
+event_id: '1100'
+version: '0'
+event(fields): MediaFoundationIMFInputTrustAuthority_RequestAccess(UInt32 stream,
+  UInt32 action, Boolean enablerReturned, HexInt32 hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationIMFInputTrustAuthority_RequestAccess
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: stream
+- field_type: UInt32
+  field_name: action
+- field_type: Boolean
+  field_name: enablerReturned
+- field_type: HexInt32
+  field_name: hr

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '41'
+version: '0'
+event(fields): PDA_NEWSYNCStart()
+opcode: Start
+keywords: mediaplayer
+task: PDA_NEWSYNC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

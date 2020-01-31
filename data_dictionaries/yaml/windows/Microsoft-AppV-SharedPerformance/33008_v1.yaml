@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '33008'
+version: '1'
+event(fields): VFONTS.ServiceStartRuntimeStart_V1()
+opcode: Start
+keywords: ''
+task: VFONTS.ServiceStartRuntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

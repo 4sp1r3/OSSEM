@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '81'
+version: '0'
+event(fields): ContentionStart()
+opcode: Start
+keywords: ''
+task: Contention
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

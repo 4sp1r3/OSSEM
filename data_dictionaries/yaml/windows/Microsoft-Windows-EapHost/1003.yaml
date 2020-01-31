@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-EapHost
+event_id: '1003'
+version: '0'
+event(fields): Authenticator1003(UnicodeString MethodString)
+opcode: ''
+keywords: Reg
+task: Authenticator
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MethodString

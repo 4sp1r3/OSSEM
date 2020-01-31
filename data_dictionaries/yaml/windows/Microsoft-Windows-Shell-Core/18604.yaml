@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18604'
+version: '0'
+event(fields): Shell32_MountPoint_SHHardwareEvent_DeviceArrivedStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_MountPoint_SHHardwareEvent_DeviceArrived
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

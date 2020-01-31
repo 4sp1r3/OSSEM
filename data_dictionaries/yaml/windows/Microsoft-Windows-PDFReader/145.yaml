@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '145'
+version: '0'
+event(fields): HighlightRender145()
+opcode: ''
+keywords: Reader
+task: HighlightRender
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SystemEventsBroker
+event_id: '15'
+version: '1'
+event(fields): SebEventCreate_V1(GUID BrokeredEventId, SID UserSID, UInt32 EventType)
+opcode: Create
+keywords: TraceSebEvent
+task: SebEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BrokeredEventId
+- field_type: SID
+  field_name: UserSID
+- field_type: UInt32
+  field_name: EventType

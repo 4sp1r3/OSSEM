@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3302'
+version: '0'
+event(fields): DispatchMessage3302(UnicodeString EventSource, UnicodeString AppDomain)
+opcode: ''
+keywords: ServiceModel
+task: DispatchMessage
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventSource
+- field_type: UnicodeString
+  field_name: AppDomain

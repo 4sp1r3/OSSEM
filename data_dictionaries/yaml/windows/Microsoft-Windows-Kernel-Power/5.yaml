@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '5'
+version: '0'
+event(fields): QueryServicesPhaseStart()
+opcode: PhaseStart
+keywords: po:Performance po:PerformanceLight
+task: QueryServices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '142'
+version: '0'
+event(fields): CNodeWrapper_PersistRollbackCopyStateStop142(UInt32 Result)
+opcode: Stop
+keywords: Error Performance Trace
+task: CNodeWrapper_PersistRollbackCopyState
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

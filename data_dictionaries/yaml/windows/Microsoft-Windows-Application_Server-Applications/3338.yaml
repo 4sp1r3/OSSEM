@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3338'
+version: '0'
+event(fields): ChannelReceiveStop(Int32 ChannelId, UnicodeString AppDomain)
+opcode: Stop
+keywords: Channel
+task: ChannelReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ChannelId
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3503'
+version: '0'
+event(fields): CorrelationDuplicateQuery(UnicodeString data1, UnicodeString AppDomain)
+opcode: DuplicateQuery
+keywords: WFServices
+task: Correlation
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '123'
+version: '0'
+event(fields): task_0123(Int32 Prop_Seconds, UnicodeString Prop_DeviceId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Prop_Seconds
+- field_type: UnicodeString
+  field_name: Prop_DeviceId

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '15502'
+version: '0'
+event(fields): PropertyDescription_FormatForDisplayStop()
+opcode: Stop
+keywords: Properties
+task: PropertyDescription_FormatForDisplay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3327'
+version: '0'
+event(fields): FormatterSerializeRequestStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: ServiceModel
+task: FormatterSerializeRequest
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

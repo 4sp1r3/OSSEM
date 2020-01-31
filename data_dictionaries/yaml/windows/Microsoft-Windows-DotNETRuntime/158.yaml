@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '158'
+version: '0'
+event(fields): ClrPerfTrackModuleRangeLoad(UInt16 ClrInstanceID, UInt64 ModuleID,
+  UInt32 RangeBegin, UInt32 RangeSize, UInt8 RangeType)
+opcode: ModuleRangeLoad
+keywords: PerfTrackKeyword
+task: ClrPerfTrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: UInt64
+  field_name: ModuleID
+- field_type: UInt32
+  field_name: RangeBegin
+- field_type: UInt32
+  field_name: RangeSize
+- field_type: UInt8
+  field_name: RangeType

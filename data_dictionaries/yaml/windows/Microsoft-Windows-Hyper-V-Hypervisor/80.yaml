@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '80'
+version: '0'
+event(fields): task_080(HexInt32 NtStatus)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: NtStatus

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TerminalServices-ServerUSBDevices
+event_id: '40'
+version: '0'
+event(fields): task_040(Pointer objectPointer, HexInt32 ntStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objectPointer
+- field_type: HexInt32
+  field_name: ntStatus

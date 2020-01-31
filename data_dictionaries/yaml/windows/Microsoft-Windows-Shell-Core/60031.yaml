@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60031'
+version: '0'
+event(fields): IE_ExtensionShowDWStop()
+opcode: Stop
+keywords: InternetExplorer
+task: IE_ExtensionShowDW
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

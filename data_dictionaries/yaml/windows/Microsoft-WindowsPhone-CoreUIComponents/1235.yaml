@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1235'
+version: '0'
+event(fields): ForegroundTaskManagerCancelTaskStop(UInt32 unParam, Boolean fBool,
+  UInt32 TaskCancellationType)
+opcode: Stop
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerCancelTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: Boolean
+  field_name: fBool
+- field_type: UInt32
+  field_name: TaskCancellationType

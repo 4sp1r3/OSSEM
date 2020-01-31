@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '279'
+version: '0'
+event(fields): MediaFoundationUpdateHistoryStart(Pointer object)
+opcode: Start
+keywords: ''
+task: MediaFoundationUpdateHistory
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

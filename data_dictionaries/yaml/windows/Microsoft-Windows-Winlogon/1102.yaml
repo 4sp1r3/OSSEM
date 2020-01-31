@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '1102'
+version: '0'
+event(fields): EAS1102(SID UserSid, UnicodeString UserName, UnicodeString UserDomain)
+opcode: ''
+keywords: ''
+task: EAS
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UnicodeString
+  field_name: UserDomain

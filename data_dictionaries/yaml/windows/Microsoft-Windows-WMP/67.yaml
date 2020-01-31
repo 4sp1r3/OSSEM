@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMP
+event_id: '67'
+version: '0'
+event(fields): APPLY_SKINStop(UnicodeString SkinPath)
+opcode: Stop
+keywords: mediaplayer
+task: APPLY_SKIN
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SkinPath

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IME-CustomerFeedbackManager
+event_id: '1'
+version: '0'
+event(fields): IME_ShipAsserts(UnicodeString Msg)
+opcode: ''
+keywords: ''
+task: IME_ShipAsserts
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Msg

@@ -1,0 +1,51 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '105'
+version: '0'
+event(fields): WorkflowTracking105(GUID InstanceId, Int64 RecordNumber, FILETIME EventTime,
+  UnicodeString FaultSourceActivityName, UnicodeString FaultSourceActivityId, UnicodeString
+  FaultSourceActivityInstanceId, UnicodeString FaultSourceActivityTypeName, UnicodeString
+  FaultHandlerActivityName, UnicodeString FaultHandlerActivityId, UnicodeString FaultHandlerActivityInstanceId,
+  UnicodeString FaultHandlerActivityTypeName, UnicodeString Fault, UInt8 IsFaultSource,
+  UnicodeString Annotations, UnicodeString ProfileName, UnicodeString HostReference,
+  UnicodeString AppDomain)
+opcode: ''
+keywords: WFTracking EndToEndMonitoring HealthMonitoring Troubleshooting
+task: WorkflowTracking
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InstanceId
+- field_type: Int64
+  field_name: RecordNumber
+- field_type: FILETIME
+  field_name: EventTime
+- field_type: UnicodeString
+  field_name: FaultSourceActivityName
+- field_type: UnicodeString
+  field_name: FaultSourceActivityId
+- field_type: UnicodeString
+  field_name: FaultSourceActivityInstanceId
+- field_type: UnicodeString
+  field_name: FaultSourceActivityTypeName
+- field_type: UnicodeString
+  field_name: FaultHandlerActivityName
+- field_type: UnicodeString
+  field_name: FaultHandlerActivityId
+- field_type: UnicodeString
+  field_name: FaultHandlerActivityInstanceId
+- field_type: UnicodeString
+  field_name: FaultHandlerActivityTypeName
+- field_type: UnicodeString
+  field_name: Fault
+- field_type: UInt8
+  field_name: IsFaultSource
+- field_type: UnicodeString
+  field_name: Annotations
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

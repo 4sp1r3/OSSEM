@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7631'
+version: '0'
+event(fields): BiometricEnrollmentInformational(HexInt32 Error)
+opcode: Informational
+keywords: Internal
+task: BiometricEnrollment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error

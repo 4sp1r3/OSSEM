@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '1104'
+version: '0'
+event(fields): Eventprocessing1104()
+opcode: ''
+keywords: ''
+task: Eventprocessing
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '191'
+version: '0'
+event(fields): DiscardAllocation(Pointer hGlobalAllocationHandle)
+opcode: ''
+keywords: Base
+task: DiscardAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hGlobalAllocationHandle

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceManagement-Pushrouter
+event_id: '523'
+version: '0'
+event(fields): task_0523(HexInt32 HexInt1, HexInt32 HexInt2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HexInt1
+- field_type: HexInt32
+  field_name: HexInt2

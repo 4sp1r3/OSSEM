@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '535'
+version: '0'
+event(fields): DirectedDripsEngaged(UInt8 CsSessionId, Boolean Engaged)
+opcode: ''
+keywords: po:Diagnostic
+task: DirectedDripsEngaged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: CsSessionId
+- field_type: Boolean
+  field_name: Engaged

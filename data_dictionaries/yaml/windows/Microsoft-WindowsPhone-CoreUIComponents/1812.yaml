@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1812'
+version: '0'
+event(fields): RotationManagerStartOrientationServiceStop(UInt32 hex, UInt32 hex2)
+opcode: Stop
+keywords: Performance RotationManager
+task: RotationManagerStartOrientationService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex
+- field_type: UInt32
+  field_name: hex2

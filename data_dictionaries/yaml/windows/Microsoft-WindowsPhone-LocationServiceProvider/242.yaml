@@ -1,0 +1,26 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '242'
+version: '0'
+event(fields): Initialization242(UInt32 InjectionStatus, Double Latitude, Double Longitude,
+  Double Altitude, Double Speed, Double Heading, UInt32 hAccuracy)
+opcode: ''
+keywords: Selfhost Init Gnss
+task: Initialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InjectionStatus
+- field_type: Double
+  field_name: Latitude
+- field_type: Double
+  field_name: Longitude
+- field_type: Double
+  field_name: Altitude
+- field_type: Double
+  field_name: Speed
+- field_type: Double
+  field_name: Heading
+- field_type: UInt32
+  field_name: hAccuracy

@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '8006'
+version: '0'
+event(fields): IoCompletionPort8006()
+opcode: ''
+keywords: MessagingPerformance
+task: IoCompletionPort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

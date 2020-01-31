@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4803'
+version: '0'
+event(fields): task_04803(UInt32 Prop_Hex_UInt32)
+opcode: ''
+keywords: CEMAPI Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_Hex_UInt32

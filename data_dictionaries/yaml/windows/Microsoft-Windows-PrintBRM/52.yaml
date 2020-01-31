@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '52'
+version: '0'
+event(fields): RestorePrintBRMoperationsuccess52(UnicodeString ProcessorName)
+opcode: PrintBRMoperationsuccess
+keywords: PRINT_PROC_KEYWORD
+task: Restore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessorName

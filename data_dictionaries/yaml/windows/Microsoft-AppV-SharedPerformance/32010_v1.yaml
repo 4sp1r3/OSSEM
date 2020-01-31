@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '32010'
+version: '1'
+event(fields): VENV.ProcessStartRuntimeStart_V1()
+opcode: Start
+keywords: ''
+task: VENV.ProcessStartRuntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

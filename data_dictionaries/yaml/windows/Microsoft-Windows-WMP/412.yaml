@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '412'
+version: '0'
+event(fields): PLAYTOMENU_ENUMERATIONStart()
+opcode: Start
+keywords: mediaplayer
+task: PLAYTOMENU_ENUMERATION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

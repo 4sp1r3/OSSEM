@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1528'
+version: '0'
+event(fields): ShellTask_PropSheet_PropSheetThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_PropSheet_PropSheetThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

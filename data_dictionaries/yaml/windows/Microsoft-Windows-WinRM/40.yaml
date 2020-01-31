@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinRM
+event_id: '40'
+version: '0'
+event(fields): WSManAPIcallStop40(UnicodeString operationName, UInt32 errorCode)
+opcode: Stop
+keywords: Keyword.Client
+task: WSManAPIcall
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: operationName
+- field_type: UInt32
+  field_name: errorCode

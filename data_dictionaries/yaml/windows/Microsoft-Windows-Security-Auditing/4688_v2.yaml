@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4688'
+version: '2'
+event(fields): task_04688_V2(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, Pointer NewProcessId, UnicodeString
+  NewProcessName, UnicodeString TokenElevationType, Pointer ProcessId, UnicodeString
+  CommandLine, SID TargetUserSid, UnicodeString TargetUserName, UnicodeString TargetDomainName,
+  HexInt64 TargetLogonId, UnicodeString ParentProcessName, SID MandatoryLabel)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: Pointer
+  field_name: NewProcessId
+- field_type: UnicodeString
+  field_name: NewProcessName
+- field_type: UnicodeString
+  field_name: TokenElevationType
+- field_type: Pointer
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: CommandLine
+- field_type: SID
+  field_name: TargetUserSid
+- field_type: UnicodeString
+  field_name: TargetUserName
+- field_type: UnicodeString
+  field_name: TargetDomainName
+- field_type: HexInt64
+  field_name: TargetLogonId
+- field_type: UnicodeString
+  field_name: ParentProcessName
+- field_type: SID
+  field_name: MandatoryLabel

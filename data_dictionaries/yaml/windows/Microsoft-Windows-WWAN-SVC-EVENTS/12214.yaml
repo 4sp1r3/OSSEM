@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '12214'
+version: '0'
+event(fields): WWANConnectionConnectionProfile12214(GUID InterfaceGuid, Int32 ModemIdx,
+  UInt32 execIdx, UnicodeString profileName, UnicodeString IccID, UInt32 connMode,
+  Boolean isAdditionalPdpContextProfile, UInt32 profileSource, UInt32 purposeGuids,
+  UnicodeString apnName, UInt32 ipType)
+opcode: ConnectionProfile
+keywords: LwtDiagnostic ProfileManagement keyword_400000000000
+task: WWANConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: Int32
+  field_name: ModemIdx
+- field_type: UInt32
+  field_name: execIdx
+- field_type: UnicodeString
+  field_name: profileName
+- field_type: UnicodeString
+  field_name: IccID
+- field_type: UInt32
+  field_name: connMode
+- field_type: Boolean
+  field_name: isAdditionalPdpContextProfile
+- field_type: UInt32
+  field_name: profileSource
+- field_type: UInt32
+  field_name: purposeGuids
+- field_type: UnicodeString
+  field_name: apnName
+- field_type: UInt32
+  field_name: ipType

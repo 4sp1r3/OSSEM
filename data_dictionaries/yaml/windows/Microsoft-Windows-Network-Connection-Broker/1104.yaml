@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Network-Connection-Broker
+event_id: '1104'
+version: '0'
+event(fields): task_01104(Pointer ContextHandle, Pointer Provider, UInt64 ServiceNlmEpoch,
+  Pointer ServiceNlmSignature, UInt64 ClientNlmEpoch, UInt32 Value, Int32 ValueType,
+  Boolean ScheduleUpdate, UInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextHandle
+- field_type: Pointer
+  field_name: Provider
+- field_type: UInt64
+  field_name: ServiceNlmEpoch
+- field_type: Pointer
+  field_name: ServiceNlmSignature
+- field_type: UInt64
+  field_name: ClientNlmEpoch
+- field_type: UInt32
+  field_name: Value
+- field_type: Int32
+  field_name: ValueType
+- field_type: Boolean
+  field_name: ScheduleUpdate
+- field_type: UInt32
+  field_name: Status

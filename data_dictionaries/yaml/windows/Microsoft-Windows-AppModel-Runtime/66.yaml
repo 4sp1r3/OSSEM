@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '66'
+version: '0'
+event(fields): task_066(UInt32 ErrorCode, UnicodeString PackageFullName, SID User)
+opcode: ''
+keywords: Process
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: SID
+  field_name: User

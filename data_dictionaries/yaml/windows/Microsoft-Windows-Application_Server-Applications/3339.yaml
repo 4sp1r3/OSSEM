@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3339'
+version: '0'
+event(fields): ChannelFactoryCreate(UnicodeString EventSource, UnicodeString AppDomain)
+opcode: ''
+keywords: ServiceModel
+task: ChannelFactoryCreate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventSource
+- field_type: UnicodeString
+  field_name: AppDomain

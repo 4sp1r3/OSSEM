@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '117'
+version: '0'
+event(fields): Mshtml_DOM_Marshalling_GetDispIDStart(Pointer Thunk, UInt32 GrfDex,
+  UInt32 Zero1, UInt32 Zero2)
+opcode: Start
+keywords: marshalling
+task: Mshtml_DOM_Marshalling_GetDispID
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Thunk
+- field_type: UInt32
+  field_name: GrfDex
+- field_type: UInt32
+  field_name: Zero1
+- field_type: UInt32
+  field_name: Zero2

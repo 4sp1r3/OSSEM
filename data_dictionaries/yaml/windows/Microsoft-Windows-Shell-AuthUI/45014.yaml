@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '45014'
+version: '0'
+event(fields): Shutdown_SlideToShutDownScreen_ShowModalStop()
+opcode: Stop
+keywords: ''
+task: Shutdown_SlideToShutDownScreen_ShowModal
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

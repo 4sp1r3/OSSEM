@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '103'
+version: '0'
+event(fields): ServiceMain103()
+opcode: ''
+keywords: Error
+task: ServiceMain
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

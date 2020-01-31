@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '454'
+version: '0'
+event(fields): ApiPropertyGetValueStop(UInt64 Id, UInt16 PropertyIndex)
+opcode: Stop
+keywords: ApiCall
+task: ApiPropertyGetValue
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt16
+  field_name: PropertyIndex

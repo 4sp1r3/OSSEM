@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '27'
+version: '0'
+event(fields): LEGACY_EVENTOCX_FIRST_PAINT()
+opcode: OCX_FIRST_PAINT
+keywords: mediaplayer
+task: LEGACY_EVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

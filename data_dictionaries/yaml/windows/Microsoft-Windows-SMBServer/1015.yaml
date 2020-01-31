@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1015'
+version: '0'
+event(fields): SrvDecryptionFailure(UInt16 ClientNameLength, AnsiString ClientName,
+  UInt16 ClientAddressLength, Binary ClientAddress, HexInt32 Status, HexInt32 TranslatedStatus,
+  HexInt64 SessionID)
+opcode: ''
+keywords: Operational
+task: SrvDecryptionFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClientNameLength
+- field_type: AnsiString
+  field_name: ClientName
+- field_type: UInt16
+  field_name: ClientAddressLength
+- field_type: Binary
+  field_name: ClientAddress
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: TranslatedStatus
+- field_type: HexInt64
+  field_name: SessionID

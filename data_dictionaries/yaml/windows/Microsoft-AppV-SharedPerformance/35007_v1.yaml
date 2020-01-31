@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '35007'
+version: '1'
+event(fields): VFSqueryfullattributesfileStop_V1()
+opcode: Stop
+keywords: ''
+task: VFSqueryfullattributesfile
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

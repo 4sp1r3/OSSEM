@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ESE
+event_id: '130'
+version: '0'
+event(fields): ESE_TimerTaskRun_Trace(Pointer posttTimerHandle, Pointer pfnTask, Pointer
+  pvTaskGroupContext, Pointer pvRuntimeContext, UInt64 cRuns)
+opcode: ''
+keywords: Task
+task: ESE_TimerTaskRun_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: posttTimerHandle
+- field_type: Pointer
+  field_name: pfnTask
+- field_type: Pointer
+  field_name: pvTaskGroupContext
+- field_type: Pointer
+  field_name: pvRuntimeContext
+- field_type: UInt64
+  field_name: cRuns

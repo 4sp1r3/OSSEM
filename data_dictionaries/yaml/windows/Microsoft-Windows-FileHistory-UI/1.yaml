@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '1'
+version: '0'
+event(fields): Info(UnicodeString Message)
+opcode: ''
+keywords: ''
+task: Info
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message

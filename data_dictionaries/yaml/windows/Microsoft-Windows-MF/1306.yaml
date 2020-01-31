@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-MF
+event_id: '1306'
+version: '0'
+event(fields): MFDS_GetTime(Pointer Object, Int64 tsOrig, Int64 sysOrig, Int64 tsFixed,
+  Int64 sysFixed, Int64 rtNow, Int64 tsOut, Int64 tsOut_ms, Int64 Diff_Now_LastSys_ms,
+  Int32 Fixed, Int32 State)
+opcode: ''
+keywords: ''
+task: MFDS_GetTime
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int64
+  field_name: tsOrig
+- field_type: Int64
+  field_name: sysOrig
+- field_type: Int64
+  field_name: tsFixed
+- field_type: Int64
+  field_name: sysFixed
+- field_type: Int64
+  field_name: rtNow
+- field_type: Int64
+  field_name: tsOut
+- field_type: Int64
+  field_name: tsOut_ms
+- field_type: Int64
+  field_name: Diff_Now_LastSys_ms
+- field_type: Int32
+  field_name: Fixed
+- field_type: Int32
+  field_name: State

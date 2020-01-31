@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '438'
+version: '0'
+event(fields): PowerRequest(UInt64 Address, UInt32 Status)
+opcode: ''
+keywords: win32Power
+task: PowerRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Address
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60309'
+version: '0'
+event(fields): TryHarder_Start_New_SearchStart()
+opcode: Start
+keywords: Shell
+task: TryHarder_Start_New_Search
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

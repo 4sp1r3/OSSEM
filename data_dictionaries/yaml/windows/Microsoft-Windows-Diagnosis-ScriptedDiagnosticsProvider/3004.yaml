@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '3004'
+version: '0'
+event(fields): task_03004(UnicodeString Hostname, UnicodeString Url)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Hostname
+- field_type: UnicodeString
+  field_name: Url

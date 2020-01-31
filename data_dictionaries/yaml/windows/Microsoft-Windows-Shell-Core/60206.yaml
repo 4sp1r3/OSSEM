@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60206'
+version: '0'
+event(fields): SearchBox_MRU_PopulateStop()
+opcode: Stop
+keywords: Shell
+task: SearchBox_MRU_Populate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

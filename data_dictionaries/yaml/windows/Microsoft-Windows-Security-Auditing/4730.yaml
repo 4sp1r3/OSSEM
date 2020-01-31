@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4730'
+version: '0'
+event(fields): task_04730(UnicodeString TargetUserName, UnicodeString TargetDomainName,
+  SID TargetSid, SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString PrivilegeList)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TargetUserName
+- field_type: UnicodeString
+  field_name: TargetDomainName
+- field_type: SID
+  field_name: TargetSid
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: PrivilegeList

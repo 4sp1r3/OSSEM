@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '415'
+version: '0'
+event(fields): PLAYTOMENU_OPERATION(UnicodeString UDN, UInt32 result)
+opcode: ''
+keywords: mediaplayer
+task: PLAYTOMENU_OPERATION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: UInt32
+  field_name: result

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '647'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment647(UnicodeString PackageMoniker)
+opcode: ''
+keywords: ''
+task: AppXDeployment.Task.Server.Deployment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageMoniker

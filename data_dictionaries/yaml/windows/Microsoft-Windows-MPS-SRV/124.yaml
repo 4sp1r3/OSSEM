@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '124'
+version: '0'
+event(fields): DynPorts_ShutdownStop()
+opcode: Stop
+keywords: Service
+task: DynPorts_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

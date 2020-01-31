@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client-StreamingUX
+event_id: '4'
+version: '1'
+event(fields): task_04_V1(UInt64 unint64, UInt64 uint642)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: unint64
+- field_type: UInt64
+  field_name: uint642

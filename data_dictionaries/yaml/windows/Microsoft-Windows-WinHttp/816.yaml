@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '816'
+version: '0'
+event(fields): WINHTTP_BLOCKING_AUTOPROXY_DETERMINATIONStart()
+opcode: Start
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_BLOCKING_AUTOPROXY_DETERMINATION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

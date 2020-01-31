@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-International-RegionalOptionsControlPanel
+event_id: '15003'
+version: '0'
+event(fields): RegionandLanguagecontrolpanelRLOUIoperations15003(UnicodeString LocaleName)
+opcode: RLOUIoperations
+keywords: ''
+task: RegionandLanguagecontrolpanel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocaleName

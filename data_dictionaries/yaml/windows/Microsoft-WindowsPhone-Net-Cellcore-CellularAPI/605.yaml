@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '605'
+version: '0'
+event(fields): CCellular605(UInt32 DwordName, UInt64 PointerName)
+opcode: ''
+keywords: Trace
+task: CCellular
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName
+- field_type: UInt64
+  field_name: PointerName

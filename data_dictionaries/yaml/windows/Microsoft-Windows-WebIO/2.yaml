@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WebIO
+event_id: '2'
+version: '0'
+event(fields): ApiInit2(Pointer ApiObject, UInt64 ApiHandle, UInt64 ApiVersion, UInt64
+  Flags, UInt32 Error)
+opcode: ''
+keywords: Keyword.API
+task: ApiInit
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ApiObject
+- field_type: UInt64
+  field_name: ApiHandle
+- field_type: UInt64
+  field_name: ApiVersion
+- field_type: UInt64
+  field_name: Flags
+- field_type: UInt32
+  field_name: Error

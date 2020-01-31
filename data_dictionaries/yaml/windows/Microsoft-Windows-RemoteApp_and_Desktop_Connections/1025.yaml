@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-RemoteApp and Desktop Connections
+event_id: '1025'
+version: '0'
+event(fields): task_0(UnicodeString ResourceName, UnicodeString ConnectionName, UnicodeString
+  ConnectionURL, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ResourceName
+- field_type: UnicodeString
+  field_name: ConnectionName
+- field_type: UnicodeString
+  field_name: ConnectionURL
+- field_type: UInt32
+  field_name: ErrorCode

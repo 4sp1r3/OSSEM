@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Diagnosis-PLA
+event_id: '2031'
+version: '0'
+event(fields): task_02031(UnicodeString Counter, UnicodeString Value, UnicodeString
+  Operator, UnicodeString Threshold, UnicodeString Message)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Counter
+- field_type: UnicodeString
+  field_name: Value
+- field_type: UnicodeString
+  field_name: Operator
+- field_type: UnicodeString
+  field_name: Threshold
+- field_type: UnicodeString
+  field_name: Message

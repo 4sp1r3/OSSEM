@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSPaint
+event_id: '21'
+version: '0'
+event(fields): task_021()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

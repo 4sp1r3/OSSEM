@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '262'
+version: '0'
+event(fields): SystemStartLegacyEnumStart()
+opcode: Start
+keywords: Performance
+task: SystemStartLegacyEnum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

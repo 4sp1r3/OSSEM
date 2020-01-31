@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1459'
+version: '0'
+event(fields): SessionManagerNSSMDoDeferredLaunch(UInt32 LaunchType)
+opcode: NSSMDoDeferredLaunch
+keywords: SessionManager
+task: SessionManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LaunchType

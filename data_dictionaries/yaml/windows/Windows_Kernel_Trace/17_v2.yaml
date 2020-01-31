@@ -1,0 +1,12 @@
+provider: Windows Kernel Trace
+category: '{bf3a50c5-a9c9-4988-a005-2df0b7c80f80}'
+event_id: '17'
+version: '2'
+event(fields): UdpIp_Fail(UInt16 Proto, UInt16 FailureCode)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt16
+  field_name: Proto
+- field_type: UInt16
+  field_name: FailureCode

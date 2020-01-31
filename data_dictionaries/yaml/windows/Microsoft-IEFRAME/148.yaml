@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '148'
+version: '0'
+event(fields): FavoritesBar_PopulateLinksMonitorStop(UInt32 PopulateOptions)
+opcode: Stop
+keywords: primarynav
+task: FavoritesBar_PopulateLinksMonitor
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PopulateOptions

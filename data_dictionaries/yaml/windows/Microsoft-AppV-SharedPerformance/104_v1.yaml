@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '104'
+version: '1'
+event(fields): Transportgetrequestoperation_V1(UInt32 IntValue)
+opcode: ''
+keywords: ''
+task: Transportgetrequestoperation
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IntValue

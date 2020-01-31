@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1077'
+version: '0'
+event(fields): OutputDuplicationBlit(Pointer ContextPtr, UInt32 KeyedMutexIdx, Pointer
+  hSrc, Pointer hDst, UInt32 BltRectCounts, UInt32 Status)
+opcode: ''
+keywords: Base
+task: OutputDuplicationBlit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextPtr
+- field_type: UInt32
+  field_name: KeyedMutexIdx
+- field_type: Pointer
+  field_name: hSrc
+- field_type: Pointer
+  field_name: hDst
+- field_type: UInt32
+  field_name: BltRectCounts
+- field_type: UInt32
+  field_name: Status

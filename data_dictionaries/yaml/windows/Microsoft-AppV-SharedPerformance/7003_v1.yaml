@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '7003'
+version: '1'
+event(fields): PublishPackageFinalize_510Start_V1()
+opcode: Start
+keywords: ''
+task: PublishPackageFinalize_510
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

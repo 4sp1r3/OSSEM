@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4495'
+version: '0'
+event(fields): SubscribeCpuGroupMaskChangeWNF(UInt32 queryStatus, UInt32 subscribeStatus,
+  UInt32 changeStamp)
+opcode: ''
+keywords: ''
+task: SubscribeCpuGroupMaskChangeWNF
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: queryStatus
+- field_type: UInt32
+  field_name: subscribeStatus
+- field_type: UInt32
+  field_name: changeStamp

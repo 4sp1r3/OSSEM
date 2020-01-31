@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Win32k
+event_id: '56'
+version: '0'
+event(fields): SwapChainBindingRelease(UInt64 hLogicalSurfSwapChainBinding, UInt8
+  DesktopCompositorProcess, UInt8 DesktopCompositorError, UInt8 DesktopCompositorRef,
+  UInt8 DesktopCompositorStatus, UInt64 pEventConfirmed)
+opcode: ''
+keywords: Updates
+task: SwapChainBindingRelease
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hLogicalSurfSwapChainBinding
+- field_type: UInt8
+  field_name: DesktopCompositorProcess
+- field_type: UInt8
+  field_name: DesktopCompositorError
+- field_type: UInt8
+  field_name: DesktopCompositorRef
+- field_type: UInt8
+  field_name: DesktopCompositorStatus
+- field_type: UInt64
+  field_name: pEventConfirmed

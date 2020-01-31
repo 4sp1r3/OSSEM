@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '439'
+version: '0'
+event(fields): DdiSaveMemoryForHotUpdateStart439(Pointer MiniportContext, UInt32 Flags,
+  UInt32 Status)
+opcode: Start
+keywords: Base
+task: DdiSaveMemoryForHotUpdate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportContext
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Status

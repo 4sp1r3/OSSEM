@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-International
+event_id: '1501'
+version: '0'
+event(fields): NLSgrouppolicyNLSoperations1501()
+opcode: NLSoperations
+keywords: ''
+task: NLSgrouppolicy
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

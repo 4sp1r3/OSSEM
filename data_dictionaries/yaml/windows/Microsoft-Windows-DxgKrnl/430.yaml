@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '430'
+version: '0'
+event(fields): SetTimingsFromVidPn(Pointer pDxgAdapter, UInt32 CurrentUsingSource,
+  UInt32 NewUsingSource, UInt32 ChangedSource, UInt32 RemovedSource, UInt32 NeedToActivateSource,
+  UInt32 ActivityChangedSource, UInt32 TopologyChangeSource, UInt32 UpdatedSource,
+  UInt32 RotatedSource, UInt32 PriorityChangeSource, UInt32 ReclaimSource, UInt32
+  RenewModeListSource, UInt32 MonitorChangedSource, UInt32 PowerOffSource, UInt32
+  HMDUsingSource, UInt32 HiddenSource)
+opcode: ''
+keywords: Base
+task: SetTimingsFromVidPn
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: CurrentUsingSource
+- field_type: UInt32
+  field_name: NewUsingSource
+- field_type: UInt32
+  field_name: ChangedSource
+- field_type: UInt32
+  field_name: RemovedSource
+- field_type: UInt32
+  field_name: NeedToActivateSource
+- field_type: UInt32
+  field_name: ActivityChangedSource
+- field_type: UInt32
+  field_name: TopologyChangeSource
+- field_type: UInt32
+  field_name: UpdatedSource
+- field_type: UInt32
+  field_name: RotatedSource
+- field_type: UInt32
+  field_name: PriorityChangeSource
+- field_type: UInt32
+  field_name: ReclaimSource
+- field_type: UInt32
+  field_name: RenewModeListSource
+- field_type: UInt32
+  field_name: MonitorChangedSource
+- field_type: UInt32
+  field_name: PowerOffSource
+- field_type: UInt32
+  field_name: HMDUsingSource
+- field_type: UInt32
+  field_name: HiddenSource

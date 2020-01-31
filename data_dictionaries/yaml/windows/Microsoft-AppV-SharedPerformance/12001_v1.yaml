@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '12001'
+version: '1'
+event(fields): VEMgrDriverLoadStop_V1()
+opcode: Stop
+keywords: ''
+task: VEMgrDriverLoad
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

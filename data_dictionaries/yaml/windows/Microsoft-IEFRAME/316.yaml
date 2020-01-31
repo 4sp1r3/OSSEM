@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '316'
+version: '0'
+event(fields): NotificationManager_NotificationBarReady()
+opcode: ''
+keywords: notification
+task: NotificationManager_NotificationBarReady
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

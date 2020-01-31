@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1509'
+version: '0'
+event(fields): ServerTaskNSTRequestClose(UInt32 unParam, UInt32 ServerTaskState, UInt32
+  ServerTaskState2, Boolean bool1, Boolean bool2)
+opcode: NSTRequestClose
+keywords: NavigationPerformance ServerTask
+task: ServerTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: ServerTaskState
+- field_type: UInt32
+  field_name: ServerTaskState2
+- field_type: Boolean
+  field_name: bool1
+- field_type: Boolean
+  field_name: bool2

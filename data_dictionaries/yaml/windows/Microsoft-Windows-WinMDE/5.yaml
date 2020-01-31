@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinMDE
+event_id: '5'
+version: '0'
+event(fields): NetStreamSink_SampleRequests(Pointer Object, UInt32 Value)
+opcode: ''
+keywords: ''
+task: NetStreamSink_SampleRequests
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: Value

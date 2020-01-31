@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-MFReadWrite
+event_id: '3'
+version: '0'
+event(fields): SourceReader_SetCurrentPositionStop(Pointer Object, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: SourceReader_SetCurrentPosition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: ErrorCode

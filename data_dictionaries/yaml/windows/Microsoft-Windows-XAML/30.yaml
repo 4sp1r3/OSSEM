@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '30'
+version: '0'
+event(fields): CreateWindowStop()
+opcode: Stop
+keywords: Appmodel
+task: CreateWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

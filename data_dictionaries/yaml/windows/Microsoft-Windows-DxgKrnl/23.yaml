@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '23'
+version: '0'
+event(fields): SelectContext(Pointer pDxgAdapter, Pointer hContext, UInt32 NodeOrdinal,
+  UInt32 ReadyContextPriorityMapBits, UInt64 ReadyNodeSwMapBits, UInt64 ReadyNodeHwMapBits)
+opcode: ''
+keywords: GPUScheduler
+task: SelectContext
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: NodeOrdinal
+- field_type: UInt32
+  field_name: ReadyContextPriorityMapBits
+- field_type: UInt64
+  field_name: ReadyNodeSwMapBits
+- field_type: UInt64
+  field_name: ReadyNodeHwMapBits

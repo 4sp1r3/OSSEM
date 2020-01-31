@@ -1,0 +1,30 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '36'
+version: '1'
+event(fields): CSwitch_V1(UInt32 NewThreadId, UInt32 OldThreadId, SInt8 NewThreadPriority,
+  SInt8 OldThreadPriority, SInt8 NewThreadQuantum, SInt8 OldThreadQuantum, SInt8 OldThreadWaitReason,
+  SInt8 OldThreadWaitMode, SInt8 OldThreadState, SInt8 OldThreadWaitIdealProcessor)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: NewThreadId
+- field_type: UInt32
+  field_name: OldThreadId
+- field_type: SInt8
+  field_name: NewThreadPriority
+- field_type: SInt8
+  field_name: OldThreadPriority
+- field_type: SInt8
+  field_name: NewThreadQuantum
+- field_type: SInt8
+  field_name: OldThreadQuantum
+- field_type: SInt8
+  field_name: OldThreadWaitReason
+- field_type: SInt8
+  field_name: OldThreadWaitMode
+- field_type: SInt8
+  field_name: OldThreadState
+- field_type: SInt8
+  field_name: OldThreadWaitIdealProcessor

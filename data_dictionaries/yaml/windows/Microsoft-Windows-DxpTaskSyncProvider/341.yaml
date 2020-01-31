@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxpTaskSyncProvider
+event_id: '341'
+version: '0'
+event(fields): DxpTaskSync_InitMediaPageStop()
+opcode: Stop
+keywords: ''
+task: DxpTaskSync_InitMediaPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

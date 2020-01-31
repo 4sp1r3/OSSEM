@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '51'
+version: '0'
+event(fields): ANIMATION_SCENARIO_REFERENCE(UInt64 deviceId, UInt32 channelHandle,
+  GUID scenarioGuid, UInt64 uniqueKey)
+opcode: ''
+keywords: DCompDiagnostic DCompAnimationTelemetry
+task: ANIMATION_SCENARIO_REFERENCE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: deviceId
+- field_type: UInt32
+  field_name: channelHandle
+- field_type: GUID
+  field_name: scenarioGuid
+- field_type: UInt64
+  field_name: uniqueKey

@@ -1,0 +1,14 @@
+provider: Microsoft-JScript
+event_id: '63'
+version: '0'
+event(fields): Jscript_Projection_GetBasicTypedArrayAsPropertyValueStart(UnicodeString
+  TypeName)
+opcode: Start
+keywords: JScriptProjection
+task: Jscript_Projection_GetBasicTypedArrayAsPropertyValue
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeName

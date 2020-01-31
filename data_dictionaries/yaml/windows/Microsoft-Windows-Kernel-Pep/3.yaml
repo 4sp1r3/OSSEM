@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Kernel-Pep
+event_id: '3'
+version: '0'
+event(fields): PepComponentRundown(UInt32 VoltageRailId, Pointer DeviceId, UInt32
+  ComponentIndex, UInt32 CurrentFrequencyKHz, UInt32 MaxFrequencyKHz, UInt32 PlatformStateDependencyCount,
+  Int64 PlatformStateDependency, UInt32 ComponentDescriptionLength, UnicodeString
+  ComponentDescription)
+opcode: ''
+keywords: popep:Power
+task: PepComponentRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: VoltageRailId
+- field_type: Pointer
+  field_name: DeviceId
+- field_type: UInt32
+  field_name: ComponentIndex
+- field_type: UInt32
+  field_name: CurrentFrequencyKHz
+- field_type: UInt32
+  field_name: MaxFrequencyKHz
+- field_type: UInt32
+  field_name: PlatformStateDependencyCount
+- field_type: Int64
+  field_name: PlatformStateDependency
+- field_type: UInt32
+  field_name: ComponentDescriptionLength
+- field_type: UnicodeString
+  field_name: ComponentDescription

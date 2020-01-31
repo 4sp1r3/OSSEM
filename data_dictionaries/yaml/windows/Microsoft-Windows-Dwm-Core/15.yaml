@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '15'
+version: '0'
+event(fields): SCHEDULE_PRESENTStart(UInt64 tCurrent, UInt64 tPresent, UInt64 cRefreshCurrent,
+  UInt64 cRefreshPresent, UInt32 fForce)
+opcode: Start
+keywords: DwmCore
+task: SCHEDULE_PRESENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: tCurrent
+- field_type: UInt64
+  field_name: tPresent
+- field_type: UInt64
+  field_name: cRefreshCurrent
+- field_type: UInt64
+  field_name: cRefreshPresent
+- field_type: UInt32
+  field_name: fForce

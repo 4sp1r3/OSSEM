@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '176'
+version: '0'
+event(fields): MediaFoundationMirrorVideo(Pointer object, Int32 old, Int32 new, UInt32
+  hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationMirrorVideo
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: old
+- field_type: Int32
+  field_name: new
+- field_type: UInt32
+  field_name: hr

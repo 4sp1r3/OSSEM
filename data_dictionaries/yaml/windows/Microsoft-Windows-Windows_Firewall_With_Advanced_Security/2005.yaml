@@ -1,0 +1,70 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2005'
+version: '0'
+event(fields): task_02005(UnicodeString RuleId, UnicodeString RuleName, UInt32 Origin,
+  UnicodeString ApplicationPath, UnicodeString ServiceName, UInt32 Direction, UInt16
+  Protocol, UnicodeString LocalPorts, UnicodeString RemotePorts, UInt32 Action, UInt32
+  Profiles, UnicodeString LocalAddresses, UnicodeString RemoteAddresses, UnicodeString
+  RemoteMachineAuthorizationList, UnicodeString RemoteUserAuthorizationList, UnicodeString
+  EmbeddedContext, UInt16 Flags, UInt16 Active, UInt16 EdgeTraversal, UInt16 LooseSourceMapped,
+  UInt16 SecurityOptions, SID ModifyingUser, UnicodeString ModifyingApplication, UInt16
+  SchemaVersion, UInt32 RuleStatus, UInt16 LocalOnlyMapped)
+opcode: ''
+keywords: keyword_20000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RuleId
+- field_type: UnicodeString
+  field_name: RuleName
+- field_type: UInt32
+  field_name: Origin
+- field_type: UnicodeString
+  field_name: ApplicationPath
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: UInt32
+  field_name: Direction
+- field_type: UInt16
+  field_name: Protocol
+- field_type: UnicodeString
+  field_name: LocalPorts
+- field_type: UnicodeString
+  field_name: RemotePorts
+- field_type: UInt32
+  field_name: Action
+- field_type: UInt32
+  field_name: Profiles
+- field_type: UnicodeString
+  field_name: LocalAddresses
+- field_type: UnicodeString
+  field_name: RemoteAddresses
+- field_type: UnicodeString
+  field_name: RemoteMachineAuthorizationList
+- field_type: UnicodeString
+  field_name: RemoteUserAuthorizationList
+- field_type: UnicodeString
+  field_name: EmbeddedContext
+- field_type: UInt16
+  field_name: Flags
+- field_type: UInt16
+  field_name: Active
+- field_type: UInt16
+  field_name: EdgeTraversal
+- field_type: UInt16
+  field_name: LooseSourceMapped
+- field_type: UInt16
+  field_name: SecurityOptions
+- field_type: SID
+  field_name: ModifyingUser
+- field_type: UnicodeString
+  field_name: ModifyingApplication
+- field_type: UInt16
+  field_name: SchemaVersion
+- field_type: UInt32
+  field_name: RuleStatus
+- field_type: UInt16
+  field_name: LocalOnlyMapped

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3038'
+version: '0'
+event(fields): RequestNotificationStart3038(UInt32 Count, AnsiString RequestControl)
+opcode: Start
+keywords: wpnui
+task: RequestNotification
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count
+- field_type: AnsiString
+  field_name: RequestControl

@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1203'
+version: '2'
+event(fields): IpInterfaceSpeedChange_V2(UInt32 IfIndex, UInt64 CurrLinkSpeed, UInt32
+  IPProtocol, UInt32 IPv4Address, UInt32 IpAddrLength, Binary IPv6Address, UInt32
+  PhysicalMediumType, UInt32 CompartmentId, UInt64 OldLinkSpeed, UInt64 ReceiveLinkSpeed,
+  UInt32 MediaConnectState)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis ut:Global
+task: IpInterfaceSpeedChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: CurrLinkSpeed
+- field_type: UInt32
+  field_name: IPProtocol
+- field_type: UInt32
+  field_name: IPv4Address
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: Binary
+  field_name: IPv6Address
+- field_type: UInt32
+  field_name: PhysicalMediumType
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt64
+  field_name: OldLinkSpeed
+- field_type: UInt64
+  field_name: ReceiveLinkSpeed
+- field_type: UInt32
+  field_name: MediaConnectState

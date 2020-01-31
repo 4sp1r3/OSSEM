@@ -1,0 +1,15 @@
+provider: TPM
+event_id: '24'
+version: '0'
+event(fields): task_024(UInt32 statusEnabled, UInt32 statusActive)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: statusEnabled
+- field_type: UInt32
+  field_name: statusActive

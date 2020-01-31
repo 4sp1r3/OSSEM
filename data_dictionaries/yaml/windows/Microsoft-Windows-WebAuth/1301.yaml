@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebAuth
+event_id: '1301'
+version: '0'
+event(fields): SecurityManager1301(GUID Clsid, UnicodeString Url)
+opcode: ''
+keywords: AuthHost
+task: SecurityManager
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Clsid
+- field_type: UnicodeString
+  field_name: Url

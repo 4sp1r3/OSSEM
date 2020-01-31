@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '26'
+version: '0'
+event(fields): BWContextHandler_RemovePairingElevatedStart()
+opcode: Start
+keywords: DeviceUX
+task: BWContextHandler_RemovePairingElevated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

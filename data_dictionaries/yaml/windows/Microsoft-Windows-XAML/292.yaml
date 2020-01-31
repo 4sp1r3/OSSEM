@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '292'
+version: '0'
+event(fields): CompTreeSetRedirectionTarget(UInt64 RedirectionNode, UInt64 RedirectionTargetAncestor)
+opcode: ''
+keywords: DComp
+task: CompTreeSetRedirectionTarget
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RedirectionNode
+- field_type: UInt64
+  field_name: RedirectionTargetAncestor

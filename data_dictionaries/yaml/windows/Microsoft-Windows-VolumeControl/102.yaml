@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-VolumeControl
+event_id: '102'
+version: '0'
+event(fields): AudioPerf_Task_LaunchFlyoutStart(UInt32 Object)
+opcode: Start
+keywords: ''
+task: AudioPerf_Task_LaunchFlyout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Object

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-International
+event_id: '1502'
+version: '0'
+event(fields): NLSgrouppolicyNLSoperations1502(UnicodeString LocaleName)
+opcode: NLSoperations
+keywords: ''
+task: NLSgrouppolicy
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocaleName

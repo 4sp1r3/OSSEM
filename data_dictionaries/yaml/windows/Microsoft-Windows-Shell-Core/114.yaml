@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '114'
+version: '0'
+event(fields): MainCPL_CPLAppletInvokedStop(UInt32 Message)
+opcode: Stop
+keywords: Shell
+task: MainCPL_CPLAppletInvoked
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Message

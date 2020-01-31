@@ -1,0 +1,31 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1552'
+version: '0'
+event(fields): ServerTask1552(UInt32 unParam, Boolean fBool, Boolean fBool2, Boolean
+  fBool3, Boolean fBool4, Boolean fBool5, UnicodeString pwsz1, UInt32 reason, UnicodeString
+  pwsz2)
+opcode: ''
+keywords: ServerTask
+task: ServerTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: Boolean
+  field_name: fBool
+- field_type: Boolean
+  field_name: fBool2
+- field_type: Boolean
+  field_name: fBool3
+- field_type: Boolean
+  field_name: fBool4
+- field_type: Boolean
+  field_name: fBool5
+- field_type: UnicodeString
+  field_name: pwsz1
+- field_type: UInt32
+  field_name: reason
+- field_type: UnicodeString
+  field_name: pwsz2

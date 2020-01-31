@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4026'
+version: '0'
+event(fields): IOReadRequestStop(AnsiString tag, Pointer object, Pointer handle)
+opcode: Stop
+keywords: ''
+task: IOReadRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: handle

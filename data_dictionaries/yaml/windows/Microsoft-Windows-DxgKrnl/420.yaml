@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '420'
+version: '0'
+event(fields): PeriodicFrameNotificationInterrupt(UInt32 VidPnSourceID, UInt32 NotificationID)
+opcode: ''
+keywords: GPUScheduler
+task: PeriodicFrameNotificationInterrupt
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: VidPnSourceID
+- field_type: UInt32
+  field_name: NotificationID

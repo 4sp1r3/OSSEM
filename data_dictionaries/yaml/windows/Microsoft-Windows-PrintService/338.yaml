@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-PrintService
+event_id: '338'
+version: '0'
+event(fields): RemovingaprinterfromtheActiveDirectorySpoolerOperationSucceeded(UnicodeString
+  param1)
+opcode: SpoolerOperationSucceeded
+keywords: SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR
+task: RemovingaprinterfromtheActiveDirectory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

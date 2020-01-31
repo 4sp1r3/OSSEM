@@ -1,0 +1,24 @@
+provider: Microsoft-IE
+event_id: '501'
+version: '0'
+event(fields): Mshtml_Composition_Create_SBLayer_Surface(Pointer SBLayer, Pointer
+  DCompSurface, Int32 Width, Int32 Height, UInt32 AlphaMode, UInt32 Flags)
+opcode: ''
+keywords: composition
+task: Mshtml_Composition_Create_SBLayer_Surface
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SBLayer
+- field_type: Pointer
+  field_name: DCompSurface
+- field_type: Int32
+  field_name: Width
+- field_type: Int32
+  field_name: Height
+- field_type: UInt32
+  field_name: AlphaMode
+- field_type: UInt32
+  field_name: Flags

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-OneX
+event_id: '55'
+version: '0'
+event(fields): User55(UInt32 PortId, UInt32 SessionId, UInt32 UIRequestSessionId)
+opcode: ''
+keywords: EAP OneXUI LwtDiagnostic ut:Authentication
+task: User
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: UIRequestSessionId

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Photo-Image-Codec
+event_id: '12'
+version: '0'
+event(fields): WMPHOTO_Encoder_FrameParams_Info(UInt32 Width, UInt32 Height, UInt8
+  Subband, UInt8 BitStreamFormat, UInt8 Orientation, UInt8 IgnoreOverlap, UInt8 DiscardAlpha)
+opcode: ''
+keywords: ''
+task: WMPHOTO_Encoder_FrameParams_Info
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt8
+  field_name: Subband
+- field_type: UInt8
+  field_name: BitStreamFormat
+- field_type: UInt8
+  field_name: Orientation
+- field_type: UInt8
+  field_name: IgnoreOverlap
+- field_type: UInt8
+  field_name: DiscardAlpha

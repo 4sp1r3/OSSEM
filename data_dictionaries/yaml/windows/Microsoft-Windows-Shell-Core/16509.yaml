@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16509'
+version: '0'
+event(fields): PropertyStoreOverPropertySetStorage_GetValueStart()
+opcode: Start
+keywords: Properties
+task: PropertyStoreOverPropertySetStorage_GetValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

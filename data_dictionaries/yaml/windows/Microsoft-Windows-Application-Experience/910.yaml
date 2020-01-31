@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '910'
+version: '0'
+event(fields): task_0910(UnicodeString ProgramID, UnicodeString Name, UnicodeString
+  Publisher, UnicodeString Version, UnicodeString Language, UnicodeString ProgramType)
+opcode: ''
+keywords: Debug
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProgramID
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Publisher
+- field_type: UnicodeString
+  field_name: Version
+- field_type: UnicodeString
+  field_name: Language
+- field_type: UnicodeString
+  field_name: ProgramType

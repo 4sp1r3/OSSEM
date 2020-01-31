@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '322'
+version: '0'
+event(fields): CHANNELANIMATIONS_ACTIVE(UInt32 channelHandle, UInt32 processId, UInt64
+  numberOfDCompAnimationsActive, UInt64 numberOfWinRTAnimationsActive)
+opcode: ''
+keywords: DwmCore AnimationScreenOff ProcessAttribution
+task: CHANNELANIMATIONS_ACTIVE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: channelHandle
+- field_type: UInt32
+  field_name: processId
+- field_type: UInt64
+  field_name: numberOfDCompAnimationsActive
+- field_type: UInt64
+  field_name: numberOfWinRTAnimationsActive

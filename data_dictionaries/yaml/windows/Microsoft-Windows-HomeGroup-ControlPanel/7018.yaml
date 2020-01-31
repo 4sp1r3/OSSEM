@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HomeGroup-ControlPanel
+event_id: '7018'
+version: '0'
+event(fields): Initialization_SharingPageStop()
+opcode: Stop
+keywords: HomeGroup
+task: Initialization_SharingPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

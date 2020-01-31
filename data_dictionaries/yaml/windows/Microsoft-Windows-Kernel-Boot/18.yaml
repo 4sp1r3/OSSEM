@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '18'
+version: '0'
+event(fields): BootmgrEntryCount(UInt32 EntryCount)
+opcode: ''
+keywords: ''
+task: BootmgrEntryCount
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EntryCount

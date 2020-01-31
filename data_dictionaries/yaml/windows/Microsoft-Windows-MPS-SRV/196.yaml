@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '196'
+version: '0'
+event(fields): CallbacksFromBfe_ShutdownStop()
+opcode: Stop
+keywords: Service
+task: CallbacksFromBfe_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

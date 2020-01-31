@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '409'
+version: '0'
+event(fields): FaultInBehaviorStart(UnicodeString FaultInType)
+opcode: Start
+keywords: Parser
+task: FaultInBehavior
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FaultInType

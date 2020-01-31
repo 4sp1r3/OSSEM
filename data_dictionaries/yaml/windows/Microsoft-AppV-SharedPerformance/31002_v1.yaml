@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '31002'
+version: '1'
+event(fields): VCOM.ProcessDllAttachStart_V1()
+opcode: Start
+keywords: ''
+task: VCOM.ProcessDllAttach
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

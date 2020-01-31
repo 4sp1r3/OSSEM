@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '54'
+version: '0'
+event(fields): HME_INITIALDISCOVERYStop()
+opcode: Stop
+keywords: mediaplayer
+task: HME_INITIALDISCOVERY
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

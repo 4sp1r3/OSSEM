@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AllJoyn
+event_id: '3'
+version: '0'
+event(fields): AJTrace(AnsiString Message, AnsiString Module, AnsiString File, UInt32
+  Line)
+opcode: Trace
+keywords: AJKeyword
+task: AJ
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Message
+- field_type: AnsiString
+  field_name: Module
+- field_type: AnsiString
+  field_name: File
+- field_type: UInt32
+  field_name: Line

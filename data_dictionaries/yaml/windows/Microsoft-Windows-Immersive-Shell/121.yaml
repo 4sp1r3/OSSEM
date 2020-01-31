@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '121'
+version: '0'
+event(fields): ImmersiveShellAppManagerModeNotificationStart(Int32 SystemModeFrom,
+  Int32 SystemSubModeFrom, Int32 SystemModeTo, Int32 SystemSubModeTo)
+opcode: Start
+keywords: ''
+task: ImmersiveShellAppManagerModeNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: SystemModeFrom
+- field_type: Int32
+  field_name: SystemSubModeFrom
+- field_type: Int32
+  field_name: SystemModeTo
+- field_type: Int32
+  field_name: SystemSubModeTo

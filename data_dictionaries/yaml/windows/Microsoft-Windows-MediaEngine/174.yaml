@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '174'
+version: '0'
+event(fields): MediaFoundationPresent_ShiftSample(Pointer object, Int64 QPCtarget_us,
+  Int64 Delta_us, Int64 AverageLateness_us)
+opcode: ''
+keywords: ''
+task: MediaFoundationPresent_ShiftSample
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: QPCtarget_us
+- field_type: Int64
+  field_name: Delta_us
+- field_type: Int64
+  field_name: AverageLateness_us

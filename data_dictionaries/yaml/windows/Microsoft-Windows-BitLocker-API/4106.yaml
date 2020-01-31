@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '4106'
+version: '0'
+event(fields): task_04106(Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ErrorCode

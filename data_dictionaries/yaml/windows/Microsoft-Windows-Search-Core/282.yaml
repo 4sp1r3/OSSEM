@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '282'
+version: '0'
+event(fields): ServerQueryStart(UInt32 Qid)
+opcode: Start
+keywords: Querying
+task: ServerQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Qid

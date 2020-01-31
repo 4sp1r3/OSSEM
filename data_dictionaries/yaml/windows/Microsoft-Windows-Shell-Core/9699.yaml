@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9699'
+version: '0'
+event(fields): Explorer_Startup_InitializeDesktopStop()
+opcode: Stop
+keywords: Shell WDI
+task: Explorer_Startup_InitializeDesktop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

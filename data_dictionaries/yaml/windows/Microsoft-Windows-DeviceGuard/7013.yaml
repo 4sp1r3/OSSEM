@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceGuard
+event_id: '7013'
+version: '0'
+event(fields): task_0DeviceGuard7013()
+opcode: DeviceGuard
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HttpService
+event_id: '2'
+version: '0'
+event(fields): HTTPRequestTraceTaskParse(Pointer RequestObj, UInt32 HttpVerb, UnicodeString
+  Url)
+opcode: Parse
+keywords: HTTP_KEYWORD_REQUEST
+task: HTTPRequestTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestObj
+- field_type: UInt32
+  field_name: HttpVerb
+- field_type: UnicodeString
+  field_name: Url

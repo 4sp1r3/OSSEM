@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '108'
+version: '0'
+event(fields): PALManagementChannelInformation108(Pointer fid_Controller, UInt32 fid_ControllerResetReason)
+opcode: Information
+keywords: Default keyword_400000000000
+task: PALManagementChannel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: UInt32
+  field_name: fid_ControllerResetReason

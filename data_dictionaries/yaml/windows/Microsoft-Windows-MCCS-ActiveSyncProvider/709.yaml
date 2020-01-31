@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '709'
+version: '0'
+event(fields): SPERF_TAG_PINGStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_PING
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

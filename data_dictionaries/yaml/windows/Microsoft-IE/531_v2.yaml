@@ -1,0 +1,25 @@
+provider: Microsoft-IE
+event_id: '531'
+version: '2'
+event(fields): Mshtml_EventDebug_Timer_Invoke_CallbackStop_V2(UInt32 TimerType, UInt32
+  CallbackCookie, UInt32 FunctionId, UInt32 TimeoutValue, UInt64 ScriptContextId,
+  UInt64 EventContextId)
+opcode: Stop
+keywords: eventsandtimers
+task: Mshtml_EventDebug_Timer_Invoke_Callback
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimerType
+- field_type: UInt32
+  field_name: CallbackCookie
+- field_type: UInt32
+  field_name: FunctionId
+- field_type: UInt32
+  field_name: TimeoutValue
+- field_type: UInt64
+  field_name: ScriptContextId
+- field_type: UInt64
+  field_name: EventContextId

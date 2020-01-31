@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '200'
+version: '0'
+event(fields): Memprotect_GC_IdleCollect200(Pointer RecyclerID)
+opcode: ''
+keywords: MemProtectGarbageCollection
+task: Memprotect_GC_IdleCollect
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '37'
+version: '0'
+event(fields): Thisgroupofeventstrackstheperformanceofloadinghives.Start(UnicodeString
+  SourceFile, HexInt32 Flags)
+opcode: Start
+keywords: ''
+task: Thisgroupofeventstrackstheperformanceofloadinghives.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SourceFile
+- field_type: HexInt32
+  field_name: Flags

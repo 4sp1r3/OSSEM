@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '601'
+version: '0'
+event(fields): task_0601(UnicodeString RelativeAddress, UnicodeString NormalizedAddress,
+  UnicodeString AppDomain)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RelativeAddress
+- field_type: UnicodeString
+  field_name: NormalizedAddress
+- field_type: UnicodeString
+  field_name: AppDomain

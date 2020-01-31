@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60807'
+version: '0'
+event(fields): ShellLib_DUIControls_CandidateList_CloseButtonPressed()
+opcode: ''
+keywords: Controls
+task: ShellLib_DUIControls_CandidateList_CloseButtonPressed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

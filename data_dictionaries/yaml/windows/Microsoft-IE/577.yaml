@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '577'
+version: '0'
+event(fields): Mshtml_ElementRundownStart()
+opcode: Start
+keywords: element_rundown mshtml
+task: Mshtml_ElementRundown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

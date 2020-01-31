@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6038'
+version: '0'
+event(fields): task_06038(UnicodeString CollectionId, UInt32 SETTINGCOLLECTIONBACKUPSTATE,
+  UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UInt32
+  field_name: SETTINGCOLLECTIONBACKUPSTATE
+- field_type: UInt32
+  field_name: HRESULT

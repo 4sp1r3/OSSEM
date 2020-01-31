@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IE-F12-Provider
+event_id: '420'
+version: '0'
+event(fields): Console_ScrollStop(UnicodeString TraceDescription)
+opcode: Stop
+keywords: ''
+task: Console_Scroll
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceDescription

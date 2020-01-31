@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '19'
+version: '1'
+event(fields): StoreIoStats_V1(Pointer StoreKey, UInt32 Size, Binary Data)
+opcode: ''
+keywords: StoreOps
+task: StoreIoStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: StoreKey
+- field_type: UInt32
+  field_name: Size
+- field_type: Binary
+  field_name: Data

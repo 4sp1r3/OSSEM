@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '543'
+version: '0'
+event(fields): BM_ExemptedTask(UInt32 SqmId, UnicodeString PsmKey)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BM_ExemptedTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SqmId
+- field_type: UnicodeString
+  field_name: PsmKey

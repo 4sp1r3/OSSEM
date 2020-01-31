@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '11001'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Extensions11001(SID PackageSID, UnicodeString
+  PackageFullName, UnicodeString Capabilities, HexInt32 ErrorCode)
+opcode: ''
+keywords: keyword_80000000000
+task: AppXDeployment.Task.Server.Extensions
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: PackageSID
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: Capabilities
+- field_type: HexInt32
+  field_name: ErrorCode

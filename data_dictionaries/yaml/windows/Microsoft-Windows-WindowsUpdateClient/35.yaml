@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '35'
+version: '0'
+event(fields): WindowsUpdateAgentSelfUpdate35(HexInt32 errorCode)
+opcode: SelfUpdate
+keywords: failure selfupdate
+task: WindowsUpdateAgent
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode

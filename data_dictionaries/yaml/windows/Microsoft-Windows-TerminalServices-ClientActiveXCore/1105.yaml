@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1105'
+version: '0'
+event(fields): ConnectionSequenceThiseventisraisedduringtheconnectionprocess1105()
+opcode: Thiseventisraisedduringtheconnectionprocess
+keywords: ''
+task: ConnectionSequence
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

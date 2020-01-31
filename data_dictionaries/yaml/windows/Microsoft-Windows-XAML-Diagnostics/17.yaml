@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '17'
+version: '0'
+event(fields): PointerReleasedStop(Boolean Handled)
+opcode: Stop
+keywords: Input
+task: PointerReleased
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Handled

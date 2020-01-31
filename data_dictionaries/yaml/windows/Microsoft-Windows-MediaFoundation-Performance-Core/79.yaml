@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '79'
+version: '0'
+event(fields): MFMFAudio_Render_StreamSinkAudStreamSink_SetMediaType_States(Pointer
+  object, Boolean IsUninitialized, Boolean bInvalidatingStream, Int32 mfaOriginalState)
+opcode: AudStreamSink_SetMediaType_States
+keywords: ''
+task: MFMFAudio_Render_StreamSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Boolean
+  field_name: IsUninitialized
+- field_type: Boolean
+  field_name: bInvalidatingStream
+- field_type: Int32
+  field_name: mfaOriginalState

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '3008'
+version: '0'
+event(fields): task_03008(UnicodeString Hostname, UnicodeString Url, UnicodeString
+  Reason)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Hostname
+- field_type: UnicodeString
+  field_name: Url
+- field_type: UnicodeString
+  field_name: Reason

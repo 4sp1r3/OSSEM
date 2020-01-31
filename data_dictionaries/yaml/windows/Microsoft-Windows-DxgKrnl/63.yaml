@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '63'
+version: '0'
+event(fields): PreparationStop(UInt32 uiStatus)
+opcode: Stop
+keywords: Base
+task: Preparation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: uiStatus

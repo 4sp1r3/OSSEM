@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '47008'
+version: '1'
+event(fields): ShellExtensionsPublishing_PublishEPStart_V1()
+opcode: Start
+keywords: ''
+task: ShellExtensionsPublishing_PublishEP
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

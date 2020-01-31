@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '101'
+version: '0'
+event(fields): AppModel.Task.State.DeleteSettingInAtomStop()
+opcode: Stop
+keywords: Structured
+task: AppModel.Task.State.DeleteSettingInAtom
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

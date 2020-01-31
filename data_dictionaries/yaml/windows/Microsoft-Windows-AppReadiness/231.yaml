@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '231'
+version: '0'
+event(fields): AppReadiness_User_ProcessTasksStart231()
+opcode: Start
+keywords: User
+task: AppReadiness_User_ProcessTasks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

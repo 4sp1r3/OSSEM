@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6018'
+version: '0'
+event(fields): CancelLoadStart()
+opcode: Start
+keywords: ''
+task: CancelLoad
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

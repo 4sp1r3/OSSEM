@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '91'
+version: '0'
+event(fields): AudStreamSink_UpdateStartTime_TaskStart(Pointer object, Int64 StartOffset,
+  Int64 mftStartOffset, Boolean bResetGapAndStallHandling)
+opcode: Start
+keywords: ''
+task: AudStreamSink_UpdateStartTime_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: StartOffset
+- field_type: Int64
+  field_name: mftStartOffset
+- field_type: Boolean
+  field_name: bResetGapAndStallHandling

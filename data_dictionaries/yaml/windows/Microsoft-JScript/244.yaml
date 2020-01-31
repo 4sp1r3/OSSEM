@@ -1,0 +1,22 @@
+provider: Microsoft-JScript
+event_id: '244'
+version: '0'
+event(fields): Memprotect_GC_Bucket_Stats(Pointer RecyclerID, UInt16 Type, UInt16
+  SizeCat, UInt64 UsedBytes, UInt64 TotalBytes)
+opcode: ''
+keywords: MemProtectGarbageCollection
+task: Memprotect_GC_Bucket_Stats
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID
+- field_type: UInt16
+  field_name: Type
+- field_type: UInt16
+  field_name: SizeCat
+- field_type: UInt64
+  field_name: UsedBytes
+- field_type: UInt64
+  field_name: TotalBytes

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '775'
+version: '0'
+event(fields): task_0775(GUID IdentificationGUID, UnicodeString VolumeName, UnicodeString
+  VolumeMountPoint, GUID ProtectorGUID, HexInt32 ProtectorType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IdentificationGUID
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UnicodeString
+  field_name: VolumeMountPoint
+- field_type: GUID
+  field_name: ProtectorGUID
+- field_type: HexInt32
+  field_name: ProtectorType

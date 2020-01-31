@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6826'
+version: '0'
+event(fields): LockScreen_AddContentionFlyoutDisplayedStart()
+opcode: Start
+keywords: ''
+task: LockScreen_AddContentionFlyoutDisplayed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

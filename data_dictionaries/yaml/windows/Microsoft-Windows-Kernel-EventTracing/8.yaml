@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '8'
+version: '0'
+event(fields): ProviderRegister(GUID ProviderName)
+opcode: Register
+keywords: ETW_KEYWORD_PROVIDER ETW_KEYWORD_REGISTRATION
+task: Provider
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderName

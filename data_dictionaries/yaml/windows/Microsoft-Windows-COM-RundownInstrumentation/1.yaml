@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-COM-RundownInstrumentation
+event_id: '1'
+version: '0'
+event(fields): RundownInstrumentation(UInt64 OID, GUID IID, GUID IPID, Boolean IsFastRundown)
+opcode: ''
+keywords: RundownInstrumentation
+task: RundownInstrumentation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OID
+- field_type: GUID
+  field_name: IID
+- field_type: GUID
+  field_name: IPID
+- field_type: Boolean
+  field_name: IsFastRundown

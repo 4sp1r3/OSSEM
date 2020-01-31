@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '95'
+version: '0'
+event(fields): CNodeWrapper_RollbackDeleteChildStart()
+opcode: Start
+keywords: Performance
+task: CNodeWrapper_RollbackDeleteChild
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

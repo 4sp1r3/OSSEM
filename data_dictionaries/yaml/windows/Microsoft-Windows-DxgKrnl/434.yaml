@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '434'
+version: '0'
+event(fields): PagingOpSignalMonitoredFence(Pointer pDxgAdapter, Pointer hDmaBuffer,
+  Boolean ContinueNextBuffer, Pointer hAllocationGlobalHandle, UInt64 MonitoredFenceGpuVa,
+  UInt64 MonitoredFenceValue)
+opcode: ''
+keywords: Resource
+task: PagingOpSignalMonitoredFence
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: hDmaBuffer
+- field_type: Boolean
+  field_name: ContinueNextBuffer
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt64
+  field_name: MonitoredFenceGpuVa
+- field_type: UInt64
+  field_name: MonitoredFenceValue

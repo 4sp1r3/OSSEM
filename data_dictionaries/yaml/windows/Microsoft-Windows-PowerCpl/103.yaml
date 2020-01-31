@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerCpl
+event_id: '103'
+version: '0'
+event(fields): PowerCpl_InitializeStart()
+opcode: Start
+keywords: PowerCpl
+task: PowerCpl_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

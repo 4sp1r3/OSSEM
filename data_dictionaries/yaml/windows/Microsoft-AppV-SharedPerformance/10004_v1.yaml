@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '10004'
+version: '1'
+event(fields): ControllerStartup_603Stop_V1()
+opcode: Stop
+keywords: ''
+task: ControllerStartup_603
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

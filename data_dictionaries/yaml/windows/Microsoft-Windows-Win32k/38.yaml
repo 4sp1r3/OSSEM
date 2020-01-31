@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Win32k
+event_id: '38'
+version: '0'
+event(fields): MessageCheckDelay(UInt32 Flags, UInt32 DelayTimeMs, UInt32 TimeSinceInputRemoveMs,
+  UInt32 TimeSinceOldestInputMs, UnicodeString ClassName, UnicodeString TopLevelClassName,
+  UnicodeString ImagePath, UInt32 MessageId, UInt64 WParam)
+opcode: ''
+keywords: UIUnresponsiveness
+task: MessageCheckDelay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: DelayTimeMs
+- field_type: UInt32
+  field_name: TimeSinceInputRemoveMs
+- field_type: UInt32
+  field_name: TimeSinceOldestInputMs
+- field_type: UnicodeString
+  field_name: ClassName
+- field_type: UnicodeString
+  field_name: TopLevelClassName
+- field_type: UnicodeString
+  field_name: ImagePath
+- field_type: UInt32
+  field_name: MessageId
+- field_type: UInt64
+  field_name: WParam

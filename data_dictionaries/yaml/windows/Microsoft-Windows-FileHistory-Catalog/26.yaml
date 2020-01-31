@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '26'
+version: '0'
+event(fields): FindFileRecordsByStateStop(Int32 State, Int32 Sort)
+opcode: Stop
+keywords: ''
+task: FindFileRecordsByState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: State
+- field_type: Int32
+  field_name: Sort

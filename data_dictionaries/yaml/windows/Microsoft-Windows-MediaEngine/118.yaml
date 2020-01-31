@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '118'
+version: '0'
+event(fields): MediaFoundationPresent_CompletedFrame(Pointer object, Int64 sampleTime,
+  Int64 QPC_target, Int64 QPC_actual, Int64 QPC_actual_behind, Int64 FramePeriod,
+  Int32 FrameAdjustment, Int32 PresentCount, Int32 FrameCount, Float RatioAverage)
+opcode: ''
+keywords: ''
+task: MediaFoundationPresent_CompletedFrame
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: sampleTime
+- field_type: Int64
+  field_name: QPC_target
+- field_type: Int64
+  field_name: QPC_actual
+- field_type: Int64
+  field_name: QPC_actual_behind
+- field_type: Int64
+  field_name: FramePeriod
+- field_type: Int32
+  field_name: FrameAdjustment
+- field_type: Int32
+  field_name: PresentCount
+- field_type: Int32
+  field_name: FrameCount
+- field_type: Float
+  field_name: RatioAverage

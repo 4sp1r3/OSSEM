@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RemoteAssistance
+event_id: '17'
+version: '1'
+event(fields): task_017_V1(UnicodeString FuncName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FuncName

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Runtime-Web-Http
+event_id: '25'
+version: '0'
+event(fields): HttpAsyncI/O25(UnicodeString statusDescription, UInt32 stage, UInt32
+  retries, UInt64 bytesSent, UInt64 totalBytesToSend, UInt64 bytesReceived, UInt64
+  totalBytesToReceive)
+opcode: ''
+keywords: ''
+task: HttpAsyncI/O
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: statusDescription
+- field_type: UInt32
+  field_name: stage
+- field_type: UInt32
+  field_name: retries
+- field_type: UInt64
+  field_name: bytesSent
+- field_type: UInt64
+  field_name: totalBytesToSend
+- field_type: UInt64
+  field_name: bytesReceived
+- field_type: UInt64
+  field_name: totalBytesToReceive

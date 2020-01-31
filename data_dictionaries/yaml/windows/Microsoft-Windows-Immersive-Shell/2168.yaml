@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2168'
+version: '0'
+event(fields): Picker_AppInstanceView_CompleteFileUpdate2168(Boolean ClientAllowsUX,
+  Boolean FileIsUpdated)
+opcode: ''
+keywords: ''
+task: Picker_AppInstanceView_CompleteFileUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: ClientAllowsUX
+- field_type: Boolean
+  field_name: FileIsUpdated

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-LiveDump
+event_id: '202'
+version: '0'
+event(fields): LiveDumpWriteDeferredDumpDataAPIAPIEnd(UInt32 NTStatus)
+opcode: APIEnd
+keywords: ''
+task: LiveDumpWriteDeferredDumpDataAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NTStatus

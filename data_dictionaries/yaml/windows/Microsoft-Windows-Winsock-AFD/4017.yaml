@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4017'
+version: '0'
+event(fields): AfdNrtCloseClosed(Pointer NameResolutionHandle, Pointer Process)
+opcode: Closed
+keywords: AFD_KW_NRT
+task: AfdNrtClose
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NameResolutionHandle
+- field_type: Pointer
+  field_name: Process

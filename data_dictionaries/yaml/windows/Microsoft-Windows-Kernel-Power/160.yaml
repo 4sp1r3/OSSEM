@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '160'
+version: '0'
+event(fields): ThermalRequestActiveUpdate(Boolean ActiveEngaged, Pointer Token)
+opcode: ''
+keywords: po:Thermal
+task: ThermalRequestActiveUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: ActiveEngaged
+- field_type: Pointer
+  field_name: Token

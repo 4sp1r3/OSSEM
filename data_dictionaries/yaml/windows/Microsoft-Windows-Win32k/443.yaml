@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Win32k
+event_id: '443'
+version: '0'
+event(fields): DCompResourceMapping(UInt32 Channel, UInt32 InternalHandle, UInt32
+  ExternalHandle, UInt64 InternalHandleAndChannel, UInt64 ExternalHandleAndChannel,
+  UInt32 ResourceType, Boolean CreateShared, Boolean OpenShared)
+opcode: ''
+keywords: DCompDetails DCompInput
+task: DCompResourceMapping
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Channel
+- field_type: UInt32
+  field_name: InternalHandle
+- field_type: UInt32
+  field_name: ExternalHandle
+- field_type: UInt64
+  field_name: InternalHandleAndChannel
+- field_type: UInt64
+  field_name: ExternalHandleAndChannel
+- field_type: UInt32
+  field_name: ResourceType
+- field_type: Boolean
+  field_name: CreateShared
+- field_type: Boolean
+  field_name: OpenShared

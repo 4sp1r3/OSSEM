@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RemoteFX-VM-User-Mode-Transport
+event_id: '5'
+version: '0'
+event(fields): task_0(UnicodeString function, UInt32 size, UnicodeString operation)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: function
+- field_type: UInt32
+  field_name: size
+- field_type: UnicodeString
+  field_name: operation

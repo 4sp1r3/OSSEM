@@ -1,0 +1,15 @@
+provider: Microsoft-Client-Licensing-Platform
+event_id: '157'
+version: '0'
+event(fields): task_0157(UnicodeString PackageName, UnicodeString LicenseId)
+opcode: ''
+keywords: SERVICE_KEYWORD
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UnicodeString
+  field_name: LicenseId

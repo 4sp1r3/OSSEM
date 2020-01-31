@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '22'
+version: '0'
+event(fields): ProvEngineTurnApply(UInt32 Turn)
+opcode: ''
+keywords: ''
+task: ProvEngineTurnApply
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Turn

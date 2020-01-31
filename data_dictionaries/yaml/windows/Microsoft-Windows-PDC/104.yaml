@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-PDC
+event_id: '104'
+version: '0'
+event(fields): SpmScenarioAccountingSnapshot(Pointer Scenario, UInt64 DripsTimeInUs,
+  UInt64 DripsTranstions, UInt64 PlatformIdleTimeInUs, UInt64 PlatformIdleTranstions,
+  UInt32 StateCount, Int32 States)
+opcode: ''
+keywords: sleepstudy
+task: SpmScenarioAccountingSnapshot
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Scenario
+- field_type: UInt64
+  field_name: DripsTimeInUs
+- field_type: UInt64
+  field_name: DripsTranstions
+- field_type: UInt64
+  field_name: PlatformIdleTimeInUs
+- field_type: UInt64
+  field_name: PlatformIdleTranstions
+- field_type: UInt32
+  field_name: StateCount
+- field_type: Int32
+  field_name: States

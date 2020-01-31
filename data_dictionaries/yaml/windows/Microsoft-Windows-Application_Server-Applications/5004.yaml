@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '5004'
+version: '0'
+event(fields): SurrogateDeserializeStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: Serialization
+task: SurrogateDeserialize
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

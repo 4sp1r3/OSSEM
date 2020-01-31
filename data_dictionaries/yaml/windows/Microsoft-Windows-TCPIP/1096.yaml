@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1096'
+version: '0'
+event(fields): TcpAutoTuningFailedAllocationFailure(UInt32 LocalAddressLength, Binary
+  LocalAddress, UInt32 RemoteAddressLength, Binary RemoteAddress, UInt32 BufferSize)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:ReceivePath
+task: TcpAutoTuningFailedAllocationFailure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: BufferSize

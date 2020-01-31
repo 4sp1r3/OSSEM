@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1003'
+version: '0'
+event(fields): MswwaProtocol.PackageToFileUriStart()
+opcode: Start
+keywords: WwaHost
+task: MswwaProtocol.PackageToFileUri
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5452'
+version: '0'
+event(fields): task_05452(UnicodeString LocalAddress, UInt32 LocalPort, UnicodeString
+  LocalTunnelEndpoint, UnicodeString RemoteAddress, UInt32 RemotePort, UnicodeString
+  RemoteTunnelEndpoint, UInt32 IpProtocol, UInt64 QuickModeSaId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: LocalPort
+- field_type: UnicodeString
+  field_name: LocalTunnelEndpoint
+- field_type: UnicodeString
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: RemotePort
+- field_type: UnicodeString
+  field_name: RemoteTunnelEndpoint
+- field_type: UInt32
+  field_name: IpProtocol
+- field_type: UInt64
+  field_name: QuickModeSaId

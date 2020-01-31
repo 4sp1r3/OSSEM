@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30620'
+version: '1'
+event(fields): UnpublishPackage_4109Stop_V1()
+opcode: Stop
+keywords: ''
+task: UnpublishPackage_4109
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

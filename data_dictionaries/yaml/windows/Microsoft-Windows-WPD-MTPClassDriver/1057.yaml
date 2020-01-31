@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1057'
+version: '0'
+event(fields): DeviceError1057(UnicodeString PKeyGuid, UInt32 ID)
+opcode: ''
+keywords: ''
+task: DeviceError
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PKeyGuid
+- field_type: UInt32
+  field_name: ID

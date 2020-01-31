@@ -1,0 +1,15 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d3-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '101'
+version: '2'
+event(fields): PageFault_HeapRangeCreate(UInt32 HeapHandle, Object FirstRangeSize,
+  UInt32 HRCreateFlags)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapHandle
+- field_type: Object
+  field_name: FirstRangeSize
+- field_type: UInt32
+  field_name: HRCreateFlags

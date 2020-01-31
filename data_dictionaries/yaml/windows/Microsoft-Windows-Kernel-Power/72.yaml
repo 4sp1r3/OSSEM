@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '72'
+version: '0'
+event(fields): IdleCheck(UInt32 Threshold, UInt32 LowestIdleness, UInt32 AverageIdleness,
+  UInt32 AccruedIdleTime, Boolean NonIdleIgnored, Boolean IdleToSleep, Boolean NonIdleReferences)
+opcode: ''
+keywords: po:Idle
+task: IdleCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Threshold
+- field_type: UInt32
+  field_name: LowestIdleness
+- field_type: UInt32
+  field_name: AverageIdleness
+- field_type: UInt32
+  field_name: AccruedIdleTime
+- field_type: Boolean
+  field_name: NonIdleIgnored
+- field_type: Boolean
+  field_name: IdleToSleep
+- field_type: Boolean
+  field_name: NonIdleReferences

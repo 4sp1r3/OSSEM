@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '314'
+version: '0'
+event(fields): ScopeManager_Retrieved(UInt32 NumWID)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: ScopeManager_Retrieved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NumWID

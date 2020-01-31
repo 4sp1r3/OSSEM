@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '31'
+version: '1'
+event(fields): HbdrvIrpTag_V1(UInt64 VolumeOffset, UInt32 Length, UInt8 Read, UInt16
+  Priority, UInt8 PartialBmpHit)
+opcode: ''
+keywords: StoreDiag
+task: HbdrvIrpTag
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: VolumeOffset
+- field_type: UInt32
+  field_name: Length
+- field_type: UInt8
+  field_name: Read
+- field_type: UInt16
+  field_name: Priority
+- field_type: UInt8
+  field_name: PartialBmpHit

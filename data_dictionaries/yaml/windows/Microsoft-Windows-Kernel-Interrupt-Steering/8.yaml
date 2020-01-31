@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Interrupt-Steering
+event_id: '8'
+version: '0'
+event(fields): InterruptSteeringProcChange(UInt32 ProcIndex, UInt32 DeviceInterrupts)
+opcode: ''
+keywords: IntSteer
+task: InterruptSteeringProcChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcIndex
+- field_type: UInt32
+  field_name: DeviceInterrupts

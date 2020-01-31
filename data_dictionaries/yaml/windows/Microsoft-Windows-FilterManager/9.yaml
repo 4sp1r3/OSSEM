@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-FilterManager
+event_id: '9'
+version: '0'
+event(fields): task_09(HexInt32 FinalStatus, UInt16 ExtraStringLength, UnicodeString
+  ExtraString)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: FinalStatus
+- field_type: UInt16
+  field_name: ExtraStringLength
+- field_type: UnicodeString
+  field_name: ExtraString

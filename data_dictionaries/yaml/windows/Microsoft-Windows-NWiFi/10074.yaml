@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10074'
+version: '0'
+event(fields): LeaveLowPowerState(GUID AdapterGuid)
+opcode: ''
+keywords: SleepResume
+task: LeaveLowPowerState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: AdapterGuid

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WPD-CompositeClassDriver
+event_id: '102'
+version: '0'
+event(fields): DriverPerformanceStart102(UnicodeString TransportSymbolicLink)
+opcode: Start
+keywords: ''
+task: DriverPerformance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TransportSymbolicLink

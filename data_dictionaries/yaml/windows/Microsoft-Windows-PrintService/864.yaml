@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintService
+event_id: '864'
+version: '0'
+event(fields): ServicingWindowsFaxandScanSpoolerOperationFailed(HexInt32 HResult)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD SETUP_WFS_KEYWORD
+task: ServicingWindowsFaxandScan
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HResult

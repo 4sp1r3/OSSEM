@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '402'
+version: '0'
+event(fields): DownloadDriverTaskStart(UnicodeString Prop_DevnodeId)
+opcode: Start
+keywords: ''
+task: DownloadDriverTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_DevnodeId

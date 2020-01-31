@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14046'
+version: '1'
+event(fields): ConfigurePackageGroupComplete_1023Stop_V1()
+opcode: Stop
+keywords: ''
+task: ConfigurePackageGroupComplete_1023
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

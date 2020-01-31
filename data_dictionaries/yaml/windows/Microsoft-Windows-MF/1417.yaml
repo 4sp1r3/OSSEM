@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1417'
+version: '0'
+event(fields): MediaFoundationDeviceMFTInitializationStart(UnicodeString SymLink)
+opcode: Start
+keywords: ''
+task: MediaFoundationDeviceMFTInitialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SymLink

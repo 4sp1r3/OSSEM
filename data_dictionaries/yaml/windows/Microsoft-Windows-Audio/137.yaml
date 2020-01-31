@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Audio
+event_id: '137'
+version: '0'
+event(fields): Pump:YieldStop(Pointer PumpInstance, UInt32 WakeCategory, UInt32 WakeValue)
+opcode: Stop
+keywords: ''
+task: Pump:Yield
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PumpInstance
+- field_type: UInt32
+  field_name: WakeCategory
+- field_type: UInt32
+  field_name: WakeValue

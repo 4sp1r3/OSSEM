@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51061'
+version: '0'
+event(fields): AddressConfigurationStateEventAddressAlreadyExists(Binary Address,
+  UInt32 InterfaceId)
+opcode: AddressAlreadyExists
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: Address
+- field_type: UInt32
+  field_name: InterfaceId

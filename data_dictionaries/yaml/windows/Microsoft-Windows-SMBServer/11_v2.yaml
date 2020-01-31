@@ -1,0 +1,55 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '11'
+version: '2'
+event(fields): Smb2RequestRead_V2(UInt64 SessionId, UInt32 ProcessId, UInt32 TreeId,
+  UInt64 MessageId, UInt64 MasterMessageId, UInt16 Command, UInt16 CreditsRequested,
+  UInt32 Flags, UInt32 Length, UInt64 Offset, UInt64 FileId, UInt32 MinimumCount,
+  UInt32 Channel, UInt32 RemainingBytes, UInt16 ReadChannelInfoOffset, UInt16 ReadChannelInfoLength,
+  GUID ConnectionGUID, GUID SessionGUID, GUID TreeConnectGUID, GUID FileGUID)
+opcode: ''
+keywords: Request
+task: Smb2RequestRead
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: TreeId
+- field_type: UInt64
+  field_name: MessageId
+- field_type: UInt64
+  field_name: MasterMessageId
+- field_type: UInt16
+  field_name: Command
+- field_type: UInt16
+  field_name: CreditsRequested
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Length
+- field_type: UInt64
+  field_name: Offset
+- field_type: UInt64
+  field_name: FileId
+- field_type: UInt32
+  field_name: MinimumCount
+- field_type: UInt32
+  field_name: Channel
+- field_type: UInt32
+  field_name: RemainingBytes
+- field_type: UInt16
+  field_name: ReadChannelInfoOffset
+- field_type: UInt16
+  field_name: ReadChannelInfoLength
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: TreeConnectGUID
+- field_type: GUID
+  field_name: FileGUID

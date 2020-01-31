@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PerfCtrs
+event_id: '5303'
+version: '0'
+event(fields): task_0PCODE_64pcode_645303()
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DisplaySwitch
+event_id: '8'
+version: '0'
+event(fields): ProjectionUI_Selector_CreateAndShowStop()
+opcode: Stop
+keywords: ''
+task: ProjectionUI_Selector_CreateAndShow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

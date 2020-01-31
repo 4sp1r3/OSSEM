@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '5062'
+version: '0'
+event(fields): PINRecoveryInformational5062(SID UserSid)
+opcode: Informational
+keywords: Internal
+task: PINRecovery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: UserSid

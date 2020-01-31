@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30600'
+version: '0'
+event(fields): task_030600(Pointer Object, UInt16 OldState, UInt16 NewState, UInt32
+  Status, UInt16 NameLength, UnicodeString ObjectName)
+opcode: ''
+keywords: Smb_TFO
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt16
+  field_name: OldState
+- field_type: UInt16
+  field_name: NewState
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt16
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: ObjectName

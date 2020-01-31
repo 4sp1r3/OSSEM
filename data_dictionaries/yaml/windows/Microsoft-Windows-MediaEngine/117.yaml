@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '117'
+version: '0'
+event(fields): MediaFoundationPresent_QueuedFrame(Pointer object, Int64 sampleTime,
+  Int64 QPC, Int64 QPC_snapped, UInt32 PresentFlags, UInt32 SyncInterval, UInt32 Repeat,
+  UInt32 Restart, Int64 Now, Int32 DeltaToTarget_MS, UInt32 PresentCount, UInt32 FrameCount,
+  UInt32 History_QueuedFrames, UInt32 History_QueuedFramesWithRepeats)
+opcode: ''
+keywords: ''
+task: MediaFoundationPresent_QueuedFrame
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: sampleTime
+- field_type: Int64
+  field_name: QPC
+- field_type: Int64
+  field_name: QPC_snapped
+- field_type: UInt32
+  field_name: PresentFlags
+- field_type: UInt32
+  field_name: SyncInterval
+- field_type: UInt32
+  field_name: Repeat
+- field_type: UInt32
+  field_name: Restart
+- field_type: Int64
+  field_name: Now
+- field_type: Int32
+  field_name: DeltaToTarget_MS
+- field_type: UInt32
+  field_name: PresentCount
+- field_type: UInt32
+  field_name: FrameCount
+- field_type: UInt32
+  field_name: History_QueuedFrames
+- field_type: UInt32
+  field_name: History_QueuedFramesWithRepeats

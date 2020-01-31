@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '34'
+version: '0'
+event(fields): DevicePairing_DeviceDiscoveryStart()
+opcode: Start
+keywords: DeviceUX_Performance
+task: DevicePairing_DeviceDiscovery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

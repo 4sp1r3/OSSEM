@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '1016'
+version: '0'
+event(fields): PublishPackageStop()
+opcode: Stop
+keywords: ''
+task: PublishPackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

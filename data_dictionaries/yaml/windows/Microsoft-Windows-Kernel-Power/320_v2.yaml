@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '320'
+version: '2'
+event(fields): DeviceVerboseRundown_V2(Pointer DeviceNode, UInt16 DeviceIdLength,
+  UnicodeString DeviceId, UInt16 InstancePathLength, UnicodeString InstancePath, UInt16
+  ServiceNameLength, UnicodeString ServiceName, UInt32 PlatformStateDependents, Pointer
+  Pdo, Pointer ParentDeviceNode, UInt32 Flags)
+opcode: ''
+keywords: po:SleepStudy
+task: DeviceVerboseRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DeviceNode
+- field_type: UInt16
+  field_name: DeviceIdLength
+- field_type: UnicodeString
+  field_name: DeviceId
+- field_type: UInt16
+  field_name: InstancePathLength
+- field_type: UnicodeString
+  field_name: InstancePath
+- field_type: UInt16
+  field_name: ServiceNameLength
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: UInt32
+  field_name: PlatformStateDependents
+- field_type: Pointer
+  field_name: Pdo
+- field_type: Pointer
+  field_name: ParentDeviceNode
+- field_type: UInt32
+  field_name: Flags

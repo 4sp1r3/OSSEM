@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1002'
+version: '0'
+event(fields): CDS_On_Container_ChangedStop(UInt32 ChangeCount, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: CDS_On_Container_Changed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ChangeCount
+- field_type: UInt32
+  field_name: ErrorCode

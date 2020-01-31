@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-IdentityStore
+event_id: '23'
+version: '0'
+event(fields): CreateConnectedUserStop23()
+opcode: Stop
+keywords: ''
+task: CreateConnectedUser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

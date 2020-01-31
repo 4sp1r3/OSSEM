@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5375'
+version: '0'
+event(fields): Dashboard_SwitchResourceStart()
+opcode: Start
+keywords: dashboard
+task: Dashboard_SwitchResource
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

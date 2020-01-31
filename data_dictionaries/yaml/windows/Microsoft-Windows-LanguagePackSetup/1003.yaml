@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1003'
+version: '0'
+event(fields): LanguagePackSetupCbsClientfunctionalityLanguagePackSetupstandardoperation(HexInt32
+  Error, UnicodeString Language)
+opcode: LanguagePackSetupstandardoperation
+keywords: ''
+task: LanguagePackSetupCbsClientfunctionality
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: Language

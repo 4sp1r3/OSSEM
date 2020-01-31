@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-Time-Service-PTP-Provider
+event_id: '513'
+version: '0'
+event(fields): task_0513(UnicodeString BestMasterName, UnicodeString MasterAddress,
+  UnicodeString MasterClockId, UInt32 MasterPortNum, UInt32 DomainNumber, UInt32 UTCValid,
+  UInt32 CurrentUTCOffset, UnicodeString Flags, UnicodeString GrandMasterClockId,
+  UInt32 StepsRemovedFromGrandMaster, UnicodeString TimeSourceCode, Int32 LogAnnounceInterval,
+  UInt64 TickCount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: BestMasterName
+- field_type: UnicodeString
+  field_name: MasterAddress
+- field_type: UnicodeString
+  field_name: MasterClockId
+- field_type: UInt32
+  field_name: MasterPortNum
+- field_type: UInt32
+  field_name: DomainNumber
+- field_type: UInt32
+  field_name: UTCValid
+- field_type: UInt32
+  field_name: CurrentUTCOffset
+- field_type: UnicodeString
+  field_name: Flags
+- field_type: UnicodeString
+  field_name: GrandMasterClockId
+- field_type: UInt32
+  field_name: StepsRemovedFromGrandMaster
+- field_type: UnicodeString
+  field_name: TimeSourceCode
+- field_type: Int32
+  field_name: LogAnnounceInterval
+- field_type: UInt64
+  field_name: TickCount

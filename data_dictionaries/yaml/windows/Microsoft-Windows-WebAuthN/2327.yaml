@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2327'
+version: '0'
+event(fields): CtapNfcSCardTransmitRequestInformational(GUID TransactionId, UnicodeString
+  Reader, UInt32 RequestLength, Binary Request, UInt32 ResponseLength, Binary Response,
+  UInt16 ApduStatus)
+opcode: Informational
+keywords: Ctap Nfc
+task: CtapNfcSCardTransmitRequest
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UnicodeString
+  field_name: Reader
+- field_type: UInt32
+  field_name: RequestLength
+- field_type: Binary
+  field_name: Request
+- field_type: UInt32
+  field_name: ResponseLength
+- field_type: Binary
+  field_name: Response
+- field_type: UInt16
+  field_name: ApduStatus

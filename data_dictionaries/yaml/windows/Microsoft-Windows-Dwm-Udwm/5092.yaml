@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5092'
+version: '0'
+event(fields): UdwmTransitionRequestStop(Int32 StoryboardID)
+opcode: Stop
+keywords: Udwm
+task: UdwmTransitionRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: StoryboardID

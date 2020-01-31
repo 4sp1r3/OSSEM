@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMPDMCUI
+event_id: '2024'
+version: '0'
+event(fields): PLAYTO_DEVICE_SETAVTRANSPORTURIStop(UnicodeString UDN, UnicodeString
+  URI, Int32 result)
+opcode: Stop
+keywords: ''
+task: PLAYTO_DEVICE_SETAVTRANSPORTURI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: UnicodeString
+  field_name: URI
+- field_type: Int32
+  field_name: result

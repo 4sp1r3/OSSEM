@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51031'
+version: '0'
+event(fields): AddressConfigurationStateEventStatefulToStateless(UInt32 InterfaceId,
+  UInt32 StatusCode, UInt32 Dword1, UInt32 Dword2)
+opcode: StatefulToStateless
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: StatusCode
+- field_type: UInt32
+  field_name: Dword1
+- field_type: UInt32
+  field_name: Dword2

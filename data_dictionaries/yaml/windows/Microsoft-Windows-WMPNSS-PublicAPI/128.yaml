@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-PublicAPI
+event_id: '128'
+version: '0'
+event(fields): getAllDevicesStart(Pointer Devices, UInt32 HResult)
+opcode: Start
+keywords: ''
+task: getAllDevices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Devices
+- field_type: UInt32
+  field_name: HResult

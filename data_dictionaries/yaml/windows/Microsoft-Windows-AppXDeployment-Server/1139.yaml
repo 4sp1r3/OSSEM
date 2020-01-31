@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1139'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.CleanupManagerPostDeploymentStart()
+opcode: Start
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.CleanupManagerPostDeployment
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50023'
+version: '0'
+event(fields): ProtocolStateEventOfferReceiveTimeout(UInt32 InterfaceId)
+opcode: OfferReceiveTimeout
+keywords: ''
+task: ProtocolStateEvent
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId

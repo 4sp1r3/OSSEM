@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DXGI
+event_id: '182'
+version: '0'
+event(fields): IDXGISwapChain_SetFullscreenStateStart(Pointer pThis, UInt32 bFullscreen,
+  Pointer pTarget)
+opcode: Start
+keywords: ''
+task: IDXGISwapChain_SetFullscreenState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: bFullscreen
+- field_type: Pointer
+  field_name: pTarget

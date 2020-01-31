@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '9'
+version: '0'
+event(fields): DefaultLayoutManager_FindMatchingLayoutStop9()
+opcode: Stop
+keywords: ''
+task: DefaultLayoutManager_FindMatchingLayout
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

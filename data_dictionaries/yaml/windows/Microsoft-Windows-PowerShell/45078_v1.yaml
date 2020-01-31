@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45078'
+version: '1'
+event(fields): WorkflowExecutionTobeusedwhenoperationisjustexecutingamethod45078_V1(GUID
+  workflowId, UnicodeString managedNode)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: PSWorkflow
+task: WorkflowExecution
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: workflowId
+- field_type: UnicodeString
+  field_name: managedNode

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '6102'
+version: '0'
+event(fields): SearchComplete(UInt32 ServerOrRenderer)
+opcode: ''
+keywords: ''
+task: SearchComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ServerOrRenderer

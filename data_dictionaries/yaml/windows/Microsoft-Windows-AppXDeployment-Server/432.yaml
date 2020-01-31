@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '432'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Dependency432(UnicodeString PackageName,
+  UInt32 PackageArchitecture, UInt32 MachineArchitecture)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Dependency
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UInt32
+  field_name: PackageArchitecture
+- field_type: UInt32
+  field_name: MachineArchitecture

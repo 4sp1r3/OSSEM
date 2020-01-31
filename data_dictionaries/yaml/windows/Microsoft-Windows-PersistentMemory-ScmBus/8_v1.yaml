@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-PersistentMemory-ScmBus
+event_id: '8'
+version: '1'
+event(fields): task_08_V1(HexInt32 Status, HexInt32 ExtendedStatus, UInt32 Size, HexInt64
+  StartAddress, HexInt64 Length, HexInt64 RestartAddress, HexInt64 RestartLength,
+  Boolean VolatileMemory, Boolean PersistentMemory, Boolean Overflow, UInt32 NumErrorRecords)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: ExtendedStatus
+- field_type: UInt32
+  field_name: Size
+- field_type: HexInt64
+  field_name: StartAddress
+- field_type: HexInt64
+  field_name: Length
+- field_type: HexInt64
+  field_name: RestartAddress
+- field_type: HexInt64
+  field_name: RestartLength
+- field_type: Boolean
+  field_name: VolatileMemory
+- field_type: Boolean
+  field_name: PersistentMemory
+- field_type: Boolean
+  field_name: Overflow
+- field_type: UInt32
+  field_name: NumErrorRecords

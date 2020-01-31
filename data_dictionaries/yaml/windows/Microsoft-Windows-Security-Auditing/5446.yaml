@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5446'
+version: '0'
+event(fields): task_05446(UInt32 ProcessId, SID UserSid, UnicodeString UserName, GUID
+  ProviderKey, UnicodeString ProviderName, UnicodeString ChangeType, GUID CalloutKey,
+  UnicodeString CalloutName, UnicodeString CalloutType, UInt32 CalloutId, GUID LayerKey,
+  UnicodeString LayerName, UInt32 LayerId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: SID
+  field_name: UserSid
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: GUID
+  field_name: ProviderKey
+- field_type: UnicodeString
+  field_name: ProviderName
+- field_type: UnicodeString
+  field_name: ChangeType
+- field_type: GUID
+  field_name: CalloutKey
+- field_type: UnicodeString
+  field_name: CalloutName
+- field_type: UnicodeString
+  field_name: CalloutType
+- field_type: UInt32
+  field_name: CalloutId
+- field_type: GUID
+  field_name: LayerKey
+- field_type: UnicodeString
+  field_name: LayerName
+- field_type: UInt32
+  field_name: LayerId

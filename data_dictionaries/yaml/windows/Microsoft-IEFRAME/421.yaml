@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '421'
+version: '0'
+event(fields): AutoSuggest_DropDown_ShowStart()
+opcode: Start
+keywords: primarynav
+task: AutoSuggest_DropDown_Show
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

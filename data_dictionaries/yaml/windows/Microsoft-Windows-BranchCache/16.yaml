@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '16'
+version: '0'
+event(fields): task_0Downloadingcontent.16(UnicodeString PeerAddress, UInt32 MinutesOfQuarantine)
+opcode: Downloadingcontent.
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PeerAddress
+- field_type: UInt32
+  field_name: MinutesOfQuarantine

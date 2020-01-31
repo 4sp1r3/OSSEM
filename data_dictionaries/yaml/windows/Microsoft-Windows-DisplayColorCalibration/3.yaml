@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DisplayColorCalibration
+event_id: '3'
+version: '0'
+event(fields): DisplayColorCalibration3(UnicodeString Device, UnicodeString Profile)
+opcode: ''
+keywords: ''
+task: DisplayColorCalibration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Device
+- field_type: UnicodeString
+  field_name: Profile

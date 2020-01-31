@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-CoreSystem-SmsRouter
+event_id: '103'
+version: '0'
+event(fields): SmsRouter103(AnsiString AnsiStringName, UInt32 LineNumber, AnsiString
+  Context)
+opcode: ''
+keywords: Performance
+task: SmsRouter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: AnsiStringName
+- field_type: UInt32
+  field_name: LineNumber
+- field_type: AnsiString
+  field_name: Context

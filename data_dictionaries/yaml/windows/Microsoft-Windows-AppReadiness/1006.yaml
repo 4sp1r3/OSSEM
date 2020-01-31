@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '1006'
+version: '0'
+event(fields): AppReadiness_Api_GetTaskStop(UnicodeString User, UInt32 ProcessId,
+  Int32 Result)
+opcode: Stop
+keywords: Api
+task: AppReadiness_Api_GetTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: Int32
+  field_name: Result

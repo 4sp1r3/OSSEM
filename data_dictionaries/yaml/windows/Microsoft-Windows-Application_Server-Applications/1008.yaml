@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1008'
+version: '0'
+event(fields): WFApplicationStateChangeUnloaded(UnicodeString data1, UnicodeString
+  AppDomain)
+opcode: Unloaded
+keywords: WFRuntime
+task: WFApplicationStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

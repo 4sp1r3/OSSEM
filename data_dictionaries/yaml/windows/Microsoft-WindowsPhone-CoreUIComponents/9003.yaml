@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9003'
+version: '0'
+event(fields): ViewManagerBeginPresentView(UInt32 unParam, Boolean fBool, Boolean
+  fBool2)
+opcode: BeginPresentView
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: Boolean
+  field_name: fBool
+- field_type: Boolean
+  field_name: fBool2

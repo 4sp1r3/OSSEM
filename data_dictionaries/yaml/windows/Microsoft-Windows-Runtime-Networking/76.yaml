@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '76'
+version: '0'
+event(fields): WebSocketConnect76(UInt32 asyncOperation, Pointer asyncObject)
+opcode: ''
+keywords: ''
+task: WebSocketConnect
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: asyncOperation
+- field_type: Pointer
+  field_name: asyncObject

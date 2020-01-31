@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8631'
+version: '0'
+event(fields): BiometricEnrollmentInformational8631()
+opcode: Informational
+keywords: Internal
+task: BiometricEnrollment
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

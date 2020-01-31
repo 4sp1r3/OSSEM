@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '8003'
+version: '0'
+event(fields): AcmConnectionDisconnect(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UnicodeString ConnectionMode, UnicodeString ProfileName, UnicodeString SSID, UnicodeString
+  BSSType, UnicodeString Reason, Pointer ConnectionId, UInt32 ReasonCode)
+opcode: Disconnect
+keywords: WlanConnect LwtDiagnostic Measures
+task: AcmConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UnicodeString
+  field_name: ConnectionMode
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UnicodeString
+  field_name: Reason
+- field_type: Pointer
+  field_name: ConnectionId
+- field_type: UInt32
+  field_name: ReasonCode

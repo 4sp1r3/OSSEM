@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-General
+event_id: '21'
+version: '0'
+event(fields): LeapSecondDataParseFailure(UInt32 FailureResult)
+opcode: ''
+keywords: KERNEL_GENERAL_KEYWORD_TIME
+task: LeapSecondDataParseFailure
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FailureResult

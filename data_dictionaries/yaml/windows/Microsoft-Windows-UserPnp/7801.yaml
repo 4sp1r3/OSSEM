@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7801'
+version: '0'
+event(fields): PnP_DMRC_SearchWMISStop()
+opcode: Stop
+keywords: ''
+task: PnP_DMRC_SearchWMIS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

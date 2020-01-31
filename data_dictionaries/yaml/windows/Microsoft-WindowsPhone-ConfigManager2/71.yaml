@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '71'
+version: '0'
+event(fields): CNodeWrapper_PersistRollbackExecuteStateStart()
+opcode: Start
+keywords: Performance
+task: CNodeWrapper_PersistRollbackExecuteState
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

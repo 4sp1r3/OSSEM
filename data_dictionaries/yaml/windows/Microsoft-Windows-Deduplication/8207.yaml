@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '8207'
+version: '0'
+event(fields): task_08207(UnicodeString Context, UnicodeString DebugInfo)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Context
+- field_type: UnicodeString
+  field_name: DebugInfo

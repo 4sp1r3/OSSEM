@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '24682'
+version: '0'
+event(fields): ReleasedecompresschunkcontextStart(UInt32 BufferSize)
+opcode: Start
+keywords: Filter
+task: Releasedecompresschunkcontext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BufferSize

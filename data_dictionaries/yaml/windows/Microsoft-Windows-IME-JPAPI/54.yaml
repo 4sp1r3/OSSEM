@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-JPAPI
+event_id: '54'
+version: '0'
+event(fields): TaskID:IMECommandsStart54()
+opcode: Start
+keywords: ''
+task: TaskID:IMECommands
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

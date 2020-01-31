@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '325'
+version: '0'
+event(fields): ImmersiveColorsStop()
+opcode: Stop
+keywords: Core
+task: ImmersiveColors
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

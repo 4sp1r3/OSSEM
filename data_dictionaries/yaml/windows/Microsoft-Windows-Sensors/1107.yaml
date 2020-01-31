@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1107'
+version: '0'
+event(fields): SensorServiceprocessingsensordatafororientation,readingsensordatasuccessful(Float
+  AccelerationX, Float AccelerationY, Float AccelerationZ, Float PitchCalibration)
+opcode: ''
+keywords: SensPerf
+task: SensorServiceprocessingsensordatafororientation,readingsensordatasuccessful
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: AccelerationX
+- field_type: Float
+  field_name: AccelerationY
+- field_type: Float
+  field_name: AccelerationZ
+- field_type: Float
+  field_name: PitchCalibration

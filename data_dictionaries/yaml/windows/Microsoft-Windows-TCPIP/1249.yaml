@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1249'
+version: '0'
+event(fields): Ndkpi_Create_Completion(Pointer RequestContext, UInt32 Status, Pointer
+  NdkObject, UInt32 CompletionType, UInt32 NdkObjectType)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Create_Completion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestContext
+- field_type: UInt32
+  field_name: Status
+- field_type: Pointer
+  field_name: NdkObject
+- field_type: UInt32
+  field_name: CompletionType
+- field_type: UInt32
+  field_name: NdkObjectType

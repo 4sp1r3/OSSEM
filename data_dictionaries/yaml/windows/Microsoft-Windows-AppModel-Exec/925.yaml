@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '925'
+version: '0'
+event(fields): task_0925(UInt64 p1_UInt64, UnicodeString p2_String, Boolean p3_Boolean)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: p1_UInt64
+- field_type: UnicodeString
+  field_name: p2_String
+- field_type: Boolean
+  field_name: p3_Boolean

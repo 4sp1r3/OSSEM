@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '5'
+version: '1'
+event(fields): task_05_V1(UnicodeString AdapterAlias, UnicodeString RegistryKeyName,
+  UnicodeString SettingName, UInt32 Value, UInt32 ClosestAdapterSupportedValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AdapterAlias
+- field_type: UnicodeString
+  field_name: RegistryKeyName
+- field_type: UnicodeString
+  field_name: SettingName
+- field_type: UInt32
+  field_name: Value
+- field_type: UInt32
+  field_name: ClosestAdapterSupportedValue

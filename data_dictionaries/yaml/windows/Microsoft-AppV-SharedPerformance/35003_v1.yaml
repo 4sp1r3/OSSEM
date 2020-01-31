@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '35003'
+version: '1'
+event(fields): VFSclosehandleStop_V1()
+opcode: Stop
+keywords: ''
+task: VFSclosehandle
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

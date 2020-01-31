@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '615'
+version: '0'
+event(fields): SPERF_TAG_PARSE_AIR_RESPONSEStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_PARSE_AIR_RESPONSE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1107'
+version: '0'
+event(fields): VidMmDefragmentStop(Pointer VidMmSegment)
+opcode: Stop
+keywords: VidMmWorkerThread
+task: VidMmDefragment
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: VidMmSegment

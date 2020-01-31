@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5130'
+version: '0'
+event(fields): UdwmAnimationClockStop5130(GUID clockId, Int64 count)
+opcode: Stop
+keywords: Udwm
+task: UdwmAnimationClock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: clockId
+- field_type: Int64
+  field_name: count

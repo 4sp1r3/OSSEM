@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '11'
+version: '0'
+event(fields): ICSPNode_SetProperty_TaskStop(GUID Property, UnicodeString Value, UInt32
+  Result)
+opcode: Stop
+keywords: Performance Trace
+task: ICSPNode_SetProperty_Task
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Property
+- field_type: UnicodeString
+  field_name: Value
+- field_type: UInt32
+  field_name: Result

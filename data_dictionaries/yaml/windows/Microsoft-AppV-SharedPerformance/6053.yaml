@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6053'
+version: '0'
+event(fields): SetConfigurationStop()
+opcode: Stop
+keywords: ''
+task: SetConfiguration
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

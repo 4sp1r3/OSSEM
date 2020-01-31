@@ -1,0 +1,16 @@
+provider: Microsoft-JScript
+event_id: '37'
+version: '0'
+event(fields): Jscript_Projection_InvokeEventEvParamPrepStart(UnicodeString TypeName,
+  UnicodeString EventName)
+opcode: Start
+keywords: JScriptProjection
+task: Jscript_Projection_InvokeEventEvParamPrep
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeName
+- field_type: UnicodeString
+  field_name: EventName

@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5060'
+version: '0'
+event(fields): task_05060(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString ProviderName, UnicodeString
+  AlgorithmName, UnicodeString KeyName, UnicodeString KeyType, UnicodeString Reason,
+  HexInt32 ReturnCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: ProviderName
+- field_type: UnicodeString
+  field_name: AlgorithmName
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: UnicodeString
+  field_name: KeyType
+- field_type: UnicodeString
+  field_name: Reason
+- field_type: HexInt32
+  field_name: ReturnCode

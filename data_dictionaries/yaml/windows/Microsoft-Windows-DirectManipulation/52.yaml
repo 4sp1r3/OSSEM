@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '52'
+version: '0'
+event(fields): Manipulation_DCompCompositorOnContentUpdatedStop(Pointer CompositorPointer,
+  Pointer ContentPointer)
+opcode: Stop
+keywords: ''
+task: Manipulation_DCompCompositorOnContentUpdated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CompositorPointer
+- field_type: Pointer
+  field_name: ContentPointer

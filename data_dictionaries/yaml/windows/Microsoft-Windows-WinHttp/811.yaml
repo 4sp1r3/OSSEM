@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '811'
+version: '0'
+event(fields): WINHTTP_AUTOPROXY_DOWNLOADFail(UInt16 _ConfigurationURLLength, AnsiString
+  ConfigurationURL, UInt32 Error)
+opcode: Fail
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_AUTOPROXY_DOWNLOAD
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _ConfigurationURLLength
+- field_type: AnsiString
+  field_name: ConfigurationURL
+- field_type: UInt32
+  field_name: Error

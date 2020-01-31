@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '2010'
+version: '0'
+event(fields): task_02010(GUID SpaceId, Pointer TopPacketIrp, Pointer TopPacket, GUID
+  DriveId, Pointer Irp, Pointer Packet, UInt32 RangesCount, UInt64 Ranges, UInt32
+  HistoryCount, Double History)
+opcode: ''
+keywords: Dsm
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SpaceId
+- field_type: Pointer
+  field_name: TopPacketIrp
+- field_type: Pointer
+  field_name: TopPacket
+- field_type: GUID
+  field_name: DriveId
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: Packet
+- field_type: UInt32
+  field_name: RangesCount
+- field_type: UInt64
+  field_name: Ranges
+- field_type: UInt32
+  field_name: HistoryCount
+- field_type: Double
+  field_name: History

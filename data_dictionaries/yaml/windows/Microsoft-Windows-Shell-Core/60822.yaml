@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60822'
+version: '0'
+event(fields): ShellLib_DUIControls_CandidateList_PagingAnimationStop()
+opcode: Stop
+keywords: Controls
+task: ShellLib_DUIControls_CandidateList_PagingAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,17 @@
+provider: Heap Trace Provider
+category: '{222962ab-6180-4b88-a825-346b75f2a24a}'
+event_id: '47'
+version: '2'
+event(fields): Heap_SubsegmentGroup(UInt32 HeapHandle, UInt32 SubSegment, Object SubSegmentSize,
+  Object BlockSize)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapHandle
+- field_type: UInt32
+  field_name: SubSegment
+- field_type: Object
+  field_name: SubSegmentSize
+- field_type: Object
+  field_name: BlockSize

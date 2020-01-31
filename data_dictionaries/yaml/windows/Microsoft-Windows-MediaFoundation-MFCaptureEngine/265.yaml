@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '265'
+version: '0'
+event(fields): MFCaptureEngine_Camera_Sound_InitTaskStop(Pointer CameraSoundObject,
+  UInt32 InitResult)
+opcode: Stop
+keywords: ''
+task: MFCaptureEngine_Camera_Sound_InitTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CameraSoundObject
+- field_type: UInt32
+  field_name: InitResult

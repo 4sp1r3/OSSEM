@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '7005'
+version: '0'
+event(fields): ConflictResolution_UserIgnoreChangeNotifyStart()
+opcode: Start
+keywords: Shell
+task: ConflictResolution_UserIgnoreChangeNotify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

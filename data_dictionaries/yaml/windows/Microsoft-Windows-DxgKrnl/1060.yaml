@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1060'
+version: '0'
+event(fields): IndirectSwapChainDestroy(Pointer pSwapChain)
+opcode: ''
+keywords: IndirectSwapChain MixedReality
+task: IndirectSwapChainDestroy
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pSwapChain

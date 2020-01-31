@@ -1,0 +1,15 @@
+provider: WINSATAPI_ETW_PROVIDER
+event_id: '2'
+version: '0'
+event(fields): Application2(UInt16 CommandLineSize, UnicodeString CommandLine)
+opcode: ''
+keywords: ''
+task: Application
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: CommandLineSize
+- field_type: UnicodeString
+  field_name: CommandLine

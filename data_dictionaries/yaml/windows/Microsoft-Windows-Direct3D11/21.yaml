@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '21'
+version: '0'
+event(fields): D3D11CoreCreateDeviceStop()
+opcode: Stop
+keywords: Devices
+task: D3D11CoreCreateDevice
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

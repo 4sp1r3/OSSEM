@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23027'
+version: '1'
+event(fields): PackagingMediaPlayerStop_V1()
+opcode: Stop
+keywords: ''
+task: PackagingMediaPlayer
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

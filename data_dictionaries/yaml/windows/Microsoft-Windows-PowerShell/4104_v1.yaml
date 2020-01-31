@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '4104'
+version: '1'
+event(fields): StartingCommandOncreatecalls_V1(Int32 MessageNumber, Int32 MessageTotal,
+  UnicodeString ScriptBlockText, UnicodeString ScriptBlockId, UnicodeString Path)
+opcode: Oncreatecalls
+keywords: Runspace
+task: StartingCommand
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: MessageNumber
+- field_type: Int32
+  field_name: MessageTotal
+- field_type: UnicodeString
+  field_name: ScriptBlockText
+- field_type: UnicodeString
+  field_name: ScriptBlockId
+- field_type: UnicodeString
+  field_name: Path

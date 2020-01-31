@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '576'
+version: '0'
+event(fields): Mshtml_EventDebug_XmlHttpRequest_Relate(Pointer XHR, UInt64 OperationID)
+opcode: ''
+keywords: eventsandtimers
+task: Mshtml_EventDebug_XmlHttpRequest_Relate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: XHR
+- field_type: UInt64
+  field_name: OperationID

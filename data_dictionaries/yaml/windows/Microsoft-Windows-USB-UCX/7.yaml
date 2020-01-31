@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-UCX
+event_id: '7'
+version: '0'
+event(fields): UCXStaticStreamRundownInformation(Pointer fid_UsbDevice, Pointer fid_EndpointPipeHandle,
+  UInt32 fid_StreamID, Pointer fid_StreamPipeHandle)
+opcode: Information
+keywords: Default Rundown
+task: UCXStaticStreamRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Pointer
+  field_name: fid_EndpointPipeHandle
+- field_type: UInt32
+  field_name: fid_StreamID
+- field_type: Pointer
+  field_name: fid_StreamPipeHandle

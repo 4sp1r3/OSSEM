@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6824'
+version: '0'
+event(fields): LockScreen_AddDialogDisplayedStart()
+opcode: Start
+keywords: ''
+task: LockScreen_AddDialogDisplayed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '64'
+version: '0'
+event(fields): SearchViewRenderedStart(UInt32 SearchFlags)
+opcode: Start
+keywords: ''
+task: SearchViewRendered
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SearchFlags

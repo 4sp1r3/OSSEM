@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '50'
+version: '0'
+event(fields): LEGACY_EVENTDLL_START()
+opcode: DLL_START
+keywords: mediaplayer
+task: LEGACY_EVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

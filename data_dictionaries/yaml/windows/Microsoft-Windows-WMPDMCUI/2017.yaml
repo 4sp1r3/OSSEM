@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WMPDMCUI
+event_id: '2017'
+version: '0'
+event(fields): PLAYTO_INTERNAL_OPERATIONStop(UnicodeString UDN, Boolean fRenderAlreadyExists,
+  Int32 result, Int32 failureReason)
+opcode: Stop
+keywords: ''
+task: PLAYTO_INTERNAL_OPERATION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: Boolean
+  field_name: fRenderAlreadyExists
+- field_type: Int32
+  field_name: result
+- field_type: Int32
+  field_name: failureReason

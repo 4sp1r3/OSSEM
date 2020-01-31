@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '600'
+version: '0'
+event(fields): Mshtml_View_LinkHighlightStartFromNormalEventStop()
+opcode: Stop
+keywords: subsystem mshtml touch
+task: Mshtml_View_LinkHighlightStartFromNormalEvent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

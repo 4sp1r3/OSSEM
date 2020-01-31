@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AAD
+event_id: '1024'
+version: '0'
+event(fields): AadCloudAPPluginOperation1024(Int32 value)
+opcode: ''
+keywords: Error Operational
+task: AadCloudAPPluginOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: value

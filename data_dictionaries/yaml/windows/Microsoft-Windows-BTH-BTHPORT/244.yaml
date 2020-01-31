@@ -1,0 +1,170 @@
+provider: Microsoft-Windows-BTH-BTHPORT
+event_id: '244'
+version: '0'
+event(fields): task_0244(UInt8 SentStatus, UInt64 LE_Flink, UInt64 LE_Blink, UInt32
+  Length, UInt16 Version, UInt16 Type, UInt32 BthportFlags, UInt32 Status, UInt8 BtStatus,
+  UInt8 BTHPORT_CONTEXT_SIZE, UInt64 Context, UInt64 ClientContext, UInt8 BTHPORT_RESERVED_FIELD_SIZE,
+  UInt32 Reserved, UInt64 ChannelHandle, UInt8 Psm_Valid, UInt16 Response, UInt16
+  ResponseStatus, UInt16 Psm, UInt32 ChannelFlags, UInt64 BtAddress, UInt32 ConfigOut_Flags,
+  UInt16 ConfigOut_Mtu_Min, UInt16 ConfigOut_Mtu_Preferred, UInt16 ConfigOut_Mtu_Max,
+  UInt16 ConfigOut_FlushTO_Min, UInt16 ConfigOut_FlushTO_Preferred, UInt16 ConfigOut_FlushTO_Max,
+  UInt8 ConfigOut_Flow_Flags, UInt8 ConfigOut_Flow_ServiceType, UInt32 ConfigOut_Flow_TokenRate,
+  UInt32 ConfigOut_Flow_TokenBucketSize, UInt32 ConfigOut_Flow_PeakBandwidth, UInt32
+  ConfigOut_Flow_Latency, UInt32 ConfigOut_Flow_DelayVariation, UInt16 ConfigOut_LinkTO,
+  UInt32 ConfigOut_NumExtraOptions, 69 ConfigOut_ExtraOptions_Open_Channel, UInt8
+  ConfigOut_ServiceType, UInt32 ConfigOut_Latency, UInt8 ConfigOut_ModeConfig_Valid,
+  UInt32 ConfigOut_ModeConfig_Flags, UInt8 ConfigOut_MC_RAF_Mode, UInt8 ConfigOut_MC_RAF_TxWindowSize,
+  UInt8 ConfigOut_MC_RAF_MaxTransmit, UInt16 ConfigOut_MC_RAF_RetransmissionTO, UInt16
+  ConfigOut_MC_RAF_MonitorTO, UInt16 ConfigOut_MC_RAF_MaxPDUSize, UInt8 ConfigOut_Fcs_Valid,
+  UInt16 ConfigOut_Fcs, UInt8 ConfigOut_ExtendedFlowSpec_Valid, UInt8 ConfigOut_EFS_Identifier,
+  UInt8 ConfigOut_EFS_ServiceType, UInt16 ConfigOut_EFS_MaxSDUSize, UInt32 ConfigOut_EFS_SDUInterArrivalTime,
+  UInt32 ConfigOut_EFS_AccessLatency, UInt32 ConfigOut_EFS_FlushTimeout, UInt8 ConfigOut_ExtendedWindowSize_Valid,
+  UInt16 ConfigOut_ExtendedWindowSize, UInt32 ConfigIn_Flags, UInt16 ConfigIn_Mtu_Min,
+  UInt16 ConfigIn_Mtu_Preferred, UInt16 ConfigIn_Mtu_Max, UInt16 ConfigIn_FlushTO_Min,
+  UInt16 ConfigIn_FlushTO_Max, UInt32 CallbackFlags, UInt64 CallbackContext, UInt64
+  ReferenceObject, UInt8 IncomingQueueDepth)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: SentStatus
+- field_type: UInt64
+  field_name: LE_Flink
+- field_type: UInt64
+  field_name: LE_Blink
+- field_type: UInt32
+  field_name: Length
+- field_type: UInt16
+  field_name: Version
+- field_type: UInt16
+  field_name: Type
+- field_type: UInt32
+  field_name: BthportFlags
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt8
+  field_name: BtStatus
+- field_type: UInt8
+  field_name: BTHPORT_CONTEXT_SIZE
+- field_type: UInt64
+  field_name: Context
+- field_type: UInt64
+  field_name: ClientContext
+- field_type: UInt8
+  field_name: BTHPORT_RESERVED_FIELD_SIZE
+- field_type: UInt32
+  field_name: Reserved
+- field_type: UInt64
+  field_name: ChannelHandle
+- field_type: UInt8
+  field_name: Psm_Valid
+- field_type: UInt16
+  field_name: Response
+- field_type: UInt16
+  field_name: ResponseStatus
+- field_type: UInt16
+  field_name: Psm
+- field_type: UInt32
+  field_name: ChannelFlags
+- field_type: UInt64
+  field_name: BtAddress
+- field_type: UInt32
+  field_name: ConfigOut_Flags
+- field_type: UInt16
+  field_name: ConfigOut_Mtu_Min
+- field_type: UInt16
+  field_name: ConfigOut_Mtu_Preferred
+- field_type: UInt16
+  field_name: ConfigOut_Mtu_Max
+- field_type: UInt16
+  field_name: ConfigOut_FlushTO_Min
+- field_type: UInt16
+  field_name: ConfigOut_FlushTO_Preferred
+- field_type: UInt16
+  field_name: ConfigOut_FlushTO_Max
+- field_type: UInt8
+  field_name: ConfigOut_Flow_Flags
+- field_type: UInt8
+  field_name: ConfigOut_Flow_ServiceType
+- field_type: UInt32
+  field_name: ConfigOut_Flow_TokenRate
+- field_type: UInt32
+  field_name: ConfigOut_Flow_TokenBucketSize
+- field_type: UInt32
+  field_name: ConfigOut_Flow_PeakBandwidth
+- field_type: UInt32
+  field_name: ConfigOut_Flow_Latency
+- field_type: UInt32
+  field_name: ConfigOut_Flow_DelayVariation
+- field_type: UInt16
+  field_name: ConfigOut_LinkTO
+- field_type: UInt32
+  field_name: ConfigOut_NumExtraOptions
+- field_type: '69'
+  field_name: ConfigOut_ExtraOptions_Open_Channel
+- field_type: UInt8
+  field_name: ConfigOut_ServiceType
+- field_type: UInt32
+  field_name: ConfigOut_Latency
+- field_type: UInt8
+  field_name: ConfigOut_ModeConfig_Valid
+- field_type: UInt32
+  field_name: ConfigOut_ModeConfig_Flags
+- field_type: UInt8
+  field_name: ConfigOut_MC_RAF_Mode
+- field_type: UInt8
+  field_name: ConfigOut_MC_RAF_TxWindowSize
+- field_type: UInt8
+  field_name: ConfigOut_MC_RAF_MaxTransmit
+- field_type: UInt16
+  field_name: ConfigOut_MC_RAF_RetransmissionTO
+- field_type: UInt16
+  field_name: ConfigOut_MC_RAF_MonitorTO
+- field_type: UInt16
+  field_name: ConfigOut_MC_RAF_MaxPDUSize
+- field_type: UInt8
+  field_name: ConfigOut_Fcs_Valid
+- field_type: UInt16
+  field_name: ConfigOut_Fcs
+- field_type: UInt8
+  field_name: ConfigOut_ExtendedFlowSpec_Valid
+- field_type: UInt8
+  field_name: ConfigOut_EFS_Identifier
+- field_type: UInt8
+  field_name: ConfigOut_EFS_ServiceType
+- field_type: UInt16
+  field_name: ConfigOut_EFS_MaxSDUSize
+- field_type: UInt32
+  field_name: ConfigOut_EFS_SDUInterArrivalTime
+- field_type: UInt32
+  field_name: ConfigOut_EFS_AccessLatency
+- field_type: UInt32
+  field_name: ConfigOut_EFS_FlushTimeout
+- field_type: UInt8
+  field_name: ConfigOut_ExtendedWindowSize_Valid
+- field_type: UInt16
+  field_name: ConfigOut_ExtendedWindowSize
+- field_type: UInt32
+  field_name: ConfigIn_Flags
+- field_type: UInt16
+  field_name: ConfigIn_Mtu_Min
+- field_type: UInt16
+  field_name: ConfigIn_Mtu_Preferred
+- field_type: UInt16
+  field_name: ConfigIn_Mtu_Max
+- field_type: UInt16
+  field_name: ConfigIn_FlushTO_Min
+- field_type: UInt16
+  field_name: ConfigIn_FlushTO_Max
+- field_type: UInt32
+  field_name: CallbackFlags
+- field_type: UInt64
+  field_name: CallbackContext
+- field_type: UInt64
+  field_name: ReferenceObject
+- field_type: UInt8
+  field_name: IncomingQueueDepth

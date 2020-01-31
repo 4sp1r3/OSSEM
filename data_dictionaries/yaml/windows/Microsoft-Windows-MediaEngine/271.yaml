@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '271'
+version: '0'
+event(fields): MediaFoundationPresentAtProcessFrameStop(Pointer object, HexInt32 hr)
+opcode: Stop
+keywords: ''
+task: MediaFoundationPresentAtProcessFrame
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: HexInt32
+  field_name: hr

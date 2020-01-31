@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1431'
+version: '0'
+event(fields): Quotas1431(Int32 cur, Int32 max, UnicodeString AppDomain)
+opcode: ''
+keywords: Quota
+task: Quotas
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: cur
+- field_type: Int32
+  field_name: max
+- field_type: UnicodeString
+  field_name: AppDomain

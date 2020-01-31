@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '274'
+version: '0'
+event(fields): TotalBytesResidentInSegment(Pointer DxgAdapter, UInt32 SegmentId, UInt64
+  TotalBytesResident)
+opcode: ''
+keywords: Base
+task: TotalBytesResidentInSegment
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DxgAdapter
+- field_type: UInt32
+  field_name: SegmentId
+- field_type: UInt64
+  field_name: TotalBytesResident

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '91'
+version: '0'
+event(fields): Backoff_HighCPUCheck(Double Idle, UInt32 MaxIdle, Boolean IsHigh)
+opcode: ''
+keywords: Backoff
+task: Backoff_HighCPUCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Double
+  field_name: Idle
+- field_type: UInt32
+  field_name: MaxIdle
+- field_type: Boolean
+  field_name: IsHigh

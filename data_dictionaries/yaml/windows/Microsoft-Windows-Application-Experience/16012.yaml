@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '16012'
+version: '0'
+event(fields): task_016012(UnicodeString Class, UnicodeString Interface, UInt32 ApiIndex,
+  Boolean Hooked, UnicodeString Reason)
+opcode: ''
+keywords: ShimEng
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Class
+- field_type: UnicodeString
+  field_name: Interface
+- field_type: UInt32
+  field_name: ApiIndex
+- field_type: Boolean
+  field_name: Hooked
+- field_type: UnicodeString
+  field_name: Reason

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '30'
+version: '0'
+event(fields): Windows_Runtime_BrokeredGetActivationFactoryStop()
+opcode: Stop
+keywords: ''
+task: Windows_Runtime_BrokeredGetActivationFactory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

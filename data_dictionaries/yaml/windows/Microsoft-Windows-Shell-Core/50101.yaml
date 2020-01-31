@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '50101'
+version: '0'
+event(fields): ShutdownUX_ShowMenuStart()
+opcode: Start
+keywords: ShutdownUX
+task: ShutdownUX_ShowMenu
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '60'
+version: '0'
+event(fields): CommandAllocatorStart(Pointer pID3D12Device, Pointer pID3D12CommandAllocator,
+  UInt32 type)
+opcode: Start
+keywords: Resources ObjectLifetime
+task: CommandAllocator
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12CommandAllocator
+- field_type: UInt32
+  field_name: type

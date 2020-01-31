@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18816'
+version: '0'
+event(fields): Shell32_CopyEngine_CallMoveFileStop()
+opcode: Stop
+keywords: CopyEngine
+task: Shell32_CopyEngine_CallMoveFile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

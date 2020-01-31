@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-InProc
+event_id: '106'
+version: '0'
+event(fields): task_0106(UnicodeString PackageFamilyName, UInt32 NumApps)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFamilyName
+- field_type: UInt32
+  field_name: NumApps

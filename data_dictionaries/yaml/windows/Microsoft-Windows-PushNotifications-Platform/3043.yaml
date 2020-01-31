@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3043'
+version: '0'
+event(fields): task_03043(UInt64 NewNotificationId, UInt64 OldNotificationId)
+opcode: ''
+keywords: wpnui wpndev_NotificationE2E
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: NewNotificationId
+- field_type: UInt64
+  field_name: OldNotificationId

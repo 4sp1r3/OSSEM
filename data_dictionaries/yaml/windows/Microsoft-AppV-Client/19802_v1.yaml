@@ -1,0 +1,22 @@
+provider: Microsoft-AppV-Client
+event_id: '19802'
+version: '1'
+event(fields): PublishingRefresh19802_V1(UnicodeString String, Boolean Flag1, Boolean
+  Flag2, UInt32 ErrorHigh, UInt32 ErrorLow)
+opcode: ''
+keywords: PublishingRefresh
+task: PublishingRefresh
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String
+- field_type: Boolean
+  field_name: Flag1
+- field_type: Boolean
+  field_name: Flag2
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow

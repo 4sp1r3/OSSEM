@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '8'
+version: '0'
+event(fields): RECO_API_CloneContextStop()
+opcode: Stop
+keywords: ''
+task: RECO_API_CloneContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

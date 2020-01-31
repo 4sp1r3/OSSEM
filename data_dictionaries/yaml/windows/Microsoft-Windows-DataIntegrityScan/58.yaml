@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DataIntegrityScan
+event_id: '58'
+version: '0'
+event(fields): task_058(UInt16 FileNameLength, UnicodeString FileName, HexInt64 InternalFileReference,
+  HexInt64 FileOffset, HexInt64 Length, HexInt64 BytesRepaired, HexInt64 BytesFailed,
+  HexInt32 Status, GUID VolumeGuid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: HexInt64
+  field_name: InternalFileReference
+- field_type: HexInt64
+  field_name: FileOffset
+- field_type: HexInt64
+  field_name: Length
+- field_type: HexInt64
+  field_name: BytesRepaired
+- field_type: HexInt64
+  field_name: BytesFailed
+- field_type: HexInt32
+  field_name: Status
+- field_type: GUID
+  field_name: VolumeGuid

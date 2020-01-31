@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '80'
+version: '0'
+event(fields): AppModel.Task.State.WriteSettingInAtomStart()
+opcode: Start
+keywords: Structured
+task: AppModel.Task.State.WriteSettingInAtom
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

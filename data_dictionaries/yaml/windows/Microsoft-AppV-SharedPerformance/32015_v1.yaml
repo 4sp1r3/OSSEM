@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '32015'
+version: '1'
+event(fields): VENV.ProcessStopRuntimeStop_V1()
+opcode: Stop
+keywords: ''
+task: VENV.ProcessStopRuntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

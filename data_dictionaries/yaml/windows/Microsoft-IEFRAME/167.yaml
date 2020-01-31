@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '167'
+version: '0'
+event(fields): Browseui_Tabs_DropOnFavorites()
+opcode: ''
+keywords: primarynav
+task: Browseui_Tabs_DropOnFavorites
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

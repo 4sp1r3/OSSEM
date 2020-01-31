@@ -1,0 +1,59 @@
+provider: Microsoft-Windows-Backup
+event_id: '8'
+version: '0'
+event(fields): task_08(GUID BackupTemplateID, Int32 BackupState, UnicodeString BackupTarget,
+  UInt32 NumOfVolumes, UnicodeString VolumesInfo, FILETIME BackupTime, UInt32 HRESULT,
+  UInt32 DetailedHRESULT, FILETIME SourceSnapStartTime, FILETIME SourceSnapEndTime,
+  UnicodeString PrepareBackupStartTime, UnicodeString PrepareBackupEndTime, UnicodeString
+  BackupWriteStartTime, UnicodeString BackupWriteEndTime, FILETIME TargetSnapStartTime,
+  FILETIME TargetSnapEndTime, UnicodeString DVDFormatStartTime, UnicodeString DVDFormatEndTime,
+  UnicodeString MediaVerifyStartTime, UnicodeString MediaVerifyEndTime, Int32 BackupPreviousState)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BackupTemplateID
+- field_type: Int32
+  field_name: BackupState
+- field_type: UnicodeString
+  field_name: BackupTarget
+- field_type: UInt32
+  field_name: NumOfVolumes
+- field_type: UnicodeString
+  field_name: VolumesInfo
+- field_type: FILETIME
+  field_name: BackupTime
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: DetailedHRESULT
+- field_type: FILETIME
+  field_name: SourceSnapStartTime
+- field_type: FILETIME
+  field_name: SourceSnapEndTime
+- field_type: UnicodeString
+  field_name: PrepareBackupStartTime
+- field_type: UnicodeString
+  field_name: PrepareBackupEndTime
+- field_type: UnicodeString
+  field_name: BackupWriteStartTime
+- field_type: UnicodeString
+  field_name: BackupWriteEndTime
+- field_type: FILETIME
+  field_name: TargetSnapStartTime
+- field_type: FILETIME
+  field_name: TargetSnapEndTime
+- field_type: UnicodeString
+  field_name: DVDFormatStartTime
+- field_type: UnicodeString
+  field_name: DVDFormatEndTime
+- field_type: UnicodeString
+  field_name: MediaVerifyStartTime
+- field_type: UnicodeString
+  field_name: MediaVerifyEndTime
+- field_type: Int32
+  field_name: BackupPreviousState

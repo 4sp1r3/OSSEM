@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18836'
+version: '0'
+event(fields): Shell32_UA_UpdateLoggerStateStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_UA_UpdateLoggerState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

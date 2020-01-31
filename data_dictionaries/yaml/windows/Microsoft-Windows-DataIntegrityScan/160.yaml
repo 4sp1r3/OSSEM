@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DataIntegrityScan
+event_id: '160'
+version: '0'
+event(fields): task_0160(UInt16 VolumeNameLength, UnicodeString VolumeName, UInt16
+  FriendlyVolumeNameLength, UnicodeString FriendlyVolumeName, UInt64 ExtentCount,
+  UInt64 ExtentSize, Int32 HResult, GUID VolumeGuid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UInt16
+  field_name: FriendlyVolumeNameLength
+- field_type: UnicodeString
+  field_name: FriendlyVolumeName
+- field_type: UInt64
+  field_name: ExtentCount
+- field_type: UInt64
+  field_name: ExtentSize
+- field_type: Int32
+  field_name: HResult
+- field_type: GUID
+  field_name: VolumeGuid

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OLE-Perf
+event_id: '24'
+version: '0'
+event(fields): OLE_DragDrop_DragOperation_SetDataObjectStop(Int32 HResult)
+opcode: Stop
+keywords: ''
+task: OLE_DragDrop_DragOperation_SetDataObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HResult

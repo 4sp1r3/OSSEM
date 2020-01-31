@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '606'
+version: '0'
+event(fields): SPERF_TAG_VERSION_NEGOTIATIONStart()
+opcode: Start
+keywords: Performance
+task: SPERF_TAG_VERSION_NEGOTIATION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

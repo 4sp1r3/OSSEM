@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Audio
+event_id: '135'
+version: '0'
+event(fields): Pump:CorrectPosition(Pointer PumpInstance, UInt64 SampleIndex, UInt64
+  OrigProcessingStart, UInt64 NewProcessingStart, Int64 StartCorrection, UInt64 TimeDelta,
+  UInt32 SampleDelta, UInt64 DevicePeriod, UInt64 ActualDevicePeriod, UInt64 WindowWidth_ms)
+opcode: ''
+keywords: ''
+task: Pump:CorrectPosition
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PumpInstance
+- field_type: UInt64
+  field_name: SampleIndex
+- field_type: UInt64
+  field_name: OrigProcessingStart
+- field_type: UInt64
+  field_name: NewProcessingStart
+- field_type: Int64
+  field_name: StartCorrection
+- field_type: UInt64
+  field_name: TimeDelta
+- field_type: UInt32
+  field_name: SampleDelta
+- field_type: UInt64
+  field_name: DevicePeriod
+- field_type: UInt64
+  field_name: ActualDevicePeriod
+- field_type: UInt64
+  field_name: WindowWidth_ms

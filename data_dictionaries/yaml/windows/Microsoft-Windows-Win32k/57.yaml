@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '57'
+version: '0'
+event(fields): SwapChainBindingStatus(UInt64 hLogicalSurfSwapChainBinding, UInt8 DesktopCompositorStatus)
+opcode: ''
+keywords: Updates
+task: SwapChainBindingStatus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hLogicalSurfSwapChainBinding
+- field_type: UInt8
+  field_name: DesktopCompositorStatus

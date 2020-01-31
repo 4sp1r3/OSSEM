@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TerminalServices-RemoteConnectionManager
+event_id: '20522'
+version: '0'
+event(fields): task_020522(UnicodeString Param1, UnicodeString Param2, UnicodeString
+  Param3, Int32 Param4, Int32 Param5)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Param1
+- field_type: UnicodeString
+  field_name: Param2
+- field_type: UnicodeString
+  field_name: Param3
+- field_type: Int32
+  field_name: Param4
+- field_type: Int32
+  field_name: Param5

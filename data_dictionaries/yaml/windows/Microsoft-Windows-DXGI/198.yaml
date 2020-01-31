@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DXGI
+event_id: '198'
+version: '0'
+event(fields): IDXGIFactory_QueryInterfaceStart(Pointer pThis, GUID riid, Pointer
+  ppvObject)
+opcode: Start
+keywords: ''
+task: IDXGIFactory_QueryInterface
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: GUID
+  field_name: riid
+- field_type: Pointer
+  field_name: ppvObject

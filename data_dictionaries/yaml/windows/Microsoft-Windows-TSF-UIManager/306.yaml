@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '306'
+version: '0'
+event(fields): CandidateWindow_HideStart()
+opcode: Start
+keywords: TSF_UIManager
+task: CandidateWindow_Hide
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

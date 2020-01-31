@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2270'
+version: '0'
+event(fields): SharingManager_RetrieveAppListingUriStart()
+opcode: Start
+keywords: ''
+task: SharingManager_RetrieveAppListingUri
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

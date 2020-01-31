@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DiskDiagnostic
+event_id: '4'
+version: '0'
+event(fields): task_04(UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

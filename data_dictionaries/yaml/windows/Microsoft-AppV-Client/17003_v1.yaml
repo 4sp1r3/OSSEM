@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '17003'
+version: '1'
+event(fields): CreateReportingData_V1(UInt32 ErrorHigh, UInt32 ErrorLow)
+opcode: ''
+keywords: Reporting
+task: CreateReportingData
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow

@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '361'
+version: '0'
+event(fields): task_0361(UnicodeString Message, UnicodeString DeviceIsJoined, UnicodeString
+  AADPrt, UnicodeString NgcPolicyEnabled, UnicodeString NgcPostLogonProvisioningEnabled,
+  UnicodeString NgcHardwarePolicyMet, UnicodeString UserIsRemote, UnicodeString LogonCertRequired,
+  UnicodeString MDMCertEnrollmentReady, UnicodeString MachinePolicySource)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UnicodeString
+  field_name: DeviceIsJoined
+- field_type: UnicodeString
+  field_name: AADPrt
+- field_type: UnicodeString
+  field_name: NgcPolicyEnabled
+- field_type: UnicodeString
+  field_name: NgcPostLogonProvisioningEnabled
+- field_type: UnicodeString
+  field_name: NgcHardwarePolicyMet
+- field_type: UnicodeString
+  field_name: UserIsRemote
+- field_type: UnicodeString
+  field_name: LogonCertRequired
+- field_type: UnicodeString
+  field_name: MDMCertEnrollmentReady
+- field_type: UnicodeString
+  field_name: MachinePolicySource

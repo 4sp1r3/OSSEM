@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '60'
+version: '0'
+event(fields): CiceroServer()
+opcode: ''
+keywords: Status
+task: CiceroServer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

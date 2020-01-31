@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorPort
+event_id: '265'
+version: '1'
+event(fields): Port265_V1(UInt32 PortNumber, UInt32 PreviousPowerHint, UInt32 PreviousResumeLatency_ms,
+  UInt32 NewPowerHint, UInt32 NewResumeLatency_ms)
+opcode: ''
+keywords: Power
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt32
+  field_name: PreviousPowerHint
+- field_type: UInt32
+  field_name: PreviousResumeLatency_ms
+- field_type: UInt32
+  field_name: NewPowerHint
+- field_type: UInt32
+  field_name: NewResumeLatency_ms

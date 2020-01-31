@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '111'
+version: '0'
+event(fields): PointerDeviceMessageStart()
+opcode: Start
+keywords: MessagePumpInternalAndInput
+task: PointerDeviceMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

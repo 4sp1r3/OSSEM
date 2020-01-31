@@ -1,0 +1,24 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '600'
+version: '0'
+event(fields): GCWLogEvent(UInt32 InstanceId, UInt32 EventType, UInt32 EventSource,
+  UInt32 TaskhostSource, UInt32 CurrentState, UInt32 Timeout)
+opcode: ''
+keywords: Selfhost FixSession ClientApi ManagedApi
+task: GCWLogEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InstanceId
+- field_type: UInt32
+  field_name: EventType
+- field_type: UInt32
+  field_name: EventSource
+- field_type: UInt32
+  field_name: TaskhostSource
+- field_type: UInt32
+  field_name: CurrentState
+- field_type: UInt32
+  field_name: Timeout

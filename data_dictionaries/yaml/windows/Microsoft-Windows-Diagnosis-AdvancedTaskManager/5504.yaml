@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5504'
+version: '0'
+event(fields): UI_DataSortStop(UInt32 PageId)
+opcode: Stop
+keywords: ui
+task: UI_DataSort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PageId

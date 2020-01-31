@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TerminalServices-RemoteConnectionManager
+event_id: '2306'
+version: '0'
+event(fields): NotifyLogonToLicensingStart(Int32 Param1, UnicodeString Param2)
+opcode: Start
+keywords: PerfInstrumentation
+task: NotifyLogonToLicensing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Param1
+- field_type: UnicodeString
+  field_name: Param2

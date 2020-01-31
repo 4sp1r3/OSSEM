@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '257'
+version: '0'
+event(fields): task_0257(UnicodeString CurrentTimeUTC, UInt64 TickCount, UnicodeString
+  Configuration, UnicodeString TimeProviders, UInt64 ClockRate)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CurrentTimeUTC
+- field_type: UInt64
+  field_name: TickCount
+- field_type: UnicodeString
+  field_name: Configuration
+- field_type: UnicodeString
+  field_name: TimeProviders
+- field_type: UInt64
+  field_name: ClockRate

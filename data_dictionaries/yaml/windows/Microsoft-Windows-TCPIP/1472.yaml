@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1472'
+version: '0'
+event(fields): InetWakeAcquirePort(UInt32 AcquireType, UInt16 Port, UInt32 AddressFamily,
+  UInt32 Interface, UInt32 Compartment)
+opcode: ''
+keywords: ut:TcpipEndpoint ut:TcpipBind ut:Endpoint
+task: InetWakeAcquirePort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AcquireType
+- field_type: UInt16
+  field_name: Port
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: Compartment

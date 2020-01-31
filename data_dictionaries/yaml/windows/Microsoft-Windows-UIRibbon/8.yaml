@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIRibbon
+event_id: '8'
+version: '0'
+event(fields): NetUIMouseButtonUp()
+opcode: ''
+keywords: Default
+task: NetUIMouseButtonUp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

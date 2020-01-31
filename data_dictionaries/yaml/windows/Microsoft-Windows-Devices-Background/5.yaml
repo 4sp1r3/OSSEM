@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Devices-Background
+event_id: '5'
+version: '0'
+event(fields): Applicationinitiateddeviceservicing/updatetaskStop5(GUID TriggerID,
+  UnicodeString Application, UInt32 TaskType, UnicodeString Device, UnicodeString
+  HardwareId, UnicodeString Arguments, UInt32 Reason, Int32 Error)
+opcode: Stop
+keywords: ''
+task: Applicationinitiateddeviceservicing/updatetask
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TriggerID
+- field_type: UnicodeString
+  field_name: Application
+- field_type: UInt32
+  field_name: TaskType
+- field_type: UnicodeString
+  field_name: Device
+- field_type: UnicodeString
+  field_name: HardwareId
+- field_type: UnicodeString
+  field_name: Arguments
+- field_type: UInt32
+  field_name: Reason
+- field_type: Int32
+  field_name: Error

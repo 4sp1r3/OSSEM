@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '157'
+version: '0'
+event(fields): MFAudio_Render_StreamInvalidationTaskAudStreamSink_RecreateAudioStream_EngineStreamPending(Pointer
+  object, Boolean bStopped)
+opcode: AudStreamSink_RecreateAudioStream_EngineStreamPending
+keywords: ''
+task: MFAudio_Render_StreamInvalidationTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Boolean
+  field_name: bStopped

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5652'
+version: '0'
+event(fields): DataMonitor_AppInfo_UpdateStop(UInt32 NewItems, UInt32 UpdatedItems)
+opcode: Stop
+keywords: datamonitor
+task: DataMonitor_AppInfo_Update
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NewItems
+- field_type: UInt32
+  field_name: UpdatedItems

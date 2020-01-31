@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '183'
+version: '1'
+event(fields): AuthenticodeVerificationStart_V1(UInt32 VerificationFlags, UInt32 ErrorCode,
+  UnicodeString ModulePath, UInt16 ClrInstanceID)
+opcode: Start
+keywords: SecurityKeyword
+task: AuthenticodeVerification
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: VerificationFlags
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ModulePath
+- field_type: UInt16
+  field_name: ClrInstanceID

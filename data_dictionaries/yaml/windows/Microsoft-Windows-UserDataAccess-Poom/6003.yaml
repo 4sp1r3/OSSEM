@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-UserDataAccess-Poom
+event_id: '6003'
+version: '0'
+event(fields): SODA_ActivitySnapshot_AggregateFeedStop(UInt32 P1_UInt32, UInt32 P2_UInt32,
+  UInt32 P3_UInt32)
+opcode: Stop
+keywords: Performance
+task: SODA_ActivitySnapshot_AggregateFeed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: P1_UInt32
+- field_type: UInt32
+  field_name: P2_UInt32
+- field_type: UInt32
+  field_name: P3_UInt32

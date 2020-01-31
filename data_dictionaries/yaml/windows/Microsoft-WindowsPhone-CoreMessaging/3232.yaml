@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3232'
+version: '0'
+event(fields): Adapter_KernelPostMessageError()
+opcode: ''
+keywords: Error Dispatcher
+task: Adapter_KernelPostMessageError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

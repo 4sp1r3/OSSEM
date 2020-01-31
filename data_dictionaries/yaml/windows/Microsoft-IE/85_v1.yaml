@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '85'
+version: '1'
+event(fields): Mshtml_CWindow_CommitCodeLightStop_V1(Pointer CDoc, UInt32 HR, UInt64
+  EventContextId)
+opcode: Stop
+keywords: primarynav pageloadbreakdown
+task: Mshtml_CWindow_CommitCodeLight
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CDoc
+- field_type: UInt32
+  field_name: HR
+- field_type: UInt64
+  field_name: EventContextId

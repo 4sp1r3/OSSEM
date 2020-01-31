@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2001'
+version: '0'
+event(fields): CtapServiceStop()
+opcode: Stop
+keywords: Ctap
+task: CtapService
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

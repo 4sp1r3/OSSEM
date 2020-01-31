@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-XAML
+event_id: '305'
+version: '0'
+event(fields): TouchSelectionGripperShowEnd(UInt32 IsSelectionStartGripper, UInt32
+  CenterX, UInt32 CenterY)
+opcode: ''
+keywords: Input
+task: TouchSelectionGripperShowEnd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IsSelectionStartGripper
+- field_type: UInt32
+  field_name: CenterX
+- field_type: UInt32
+  field_name: CenterY

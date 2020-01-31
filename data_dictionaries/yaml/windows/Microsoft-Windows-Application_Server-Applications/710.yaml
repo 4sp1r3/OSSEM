@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '710'
+version: '0'
+event(fields): TransportReceiveBeforeAuthentication(UnicodeString AppDomain)
+opcode: BeforeAuthentication
+keywords: ServiceModel
+task: TransportReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

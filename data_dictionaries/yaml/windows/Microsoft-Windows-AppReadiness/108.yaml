@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '108'
+version: '0'
+event(fields): AppReadiness_PackageChangeStart(UInt32 Source)
+opcode: Start
+keywords: Service
+task: AppReadiness_PackageChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Source

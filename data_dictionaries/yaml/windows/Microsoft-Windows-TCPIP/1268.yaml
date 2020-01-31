@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1268'
+version: '0'
+event(fields): Ndkpi_Disconnect(Pointer NdkObject, Pointer RequestContext)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Disconnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkObject
+- field_type: Pointer
+  field_name: RequestContext

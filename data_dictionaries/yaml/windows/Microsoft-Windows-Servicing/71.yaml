@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Servicing
+event_id: '71'
+version: '0'
+event(fields): Generic_TaskStart71(UnicodeString DescString, UInt32 Phase, UInt32
+  Mode, UnicodeString PrevComponent, UnicodeString NewComponent)
+opcode: Start
+keywords: ''
+task: Generic_Task
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DescString
+- field_type: UInt32
+  field_name: Phase
+- field_type: UInt32
+  field_name: Mode
+- field_type: UnicodeString
+  field_name: PrevComponent
+- field_type: UnicodeString
+  field_name: NewComponent

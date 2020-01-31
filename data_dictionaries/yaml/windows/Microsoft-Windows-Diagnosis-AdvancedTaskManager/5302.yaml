@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5302'
+version: '0'
+event(fields): TM8_Window_LaunchStop()
+opcode: Stop
+keywords: ui
+task: TM8_Window_Launch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

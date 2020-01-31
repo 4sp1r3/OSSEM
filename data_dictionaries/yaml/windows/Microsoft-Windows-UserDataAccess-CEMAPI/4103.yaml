@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4103'
+version: '0'
+event(fields): QUERYROWS_RECIPIENTSStop()
+opcode: Stop
+keywords: Performance
+task: QUERYROWS_RECIPIENTS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,33 @@
+provider: Microsoft-JScript
+event_id: '6'
+version: '0'
+event(fields): MethodRundownMethodDCEnd(Pointer ScriptContextID, Pointer MethodStartAddress,
+  UInt64 MethodSize, UInt32 MethodID, UInt16 MethodFlags, UInt16 MethodAddressRangeID,
+  UInt64 SourceID, UInt32 Line, UInt32 Column, UnicodeString MethodName)
+opcode: MethodDCEnd
+keywords: JScriptEndRundown
+task: MethodRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ScriptContextID
+- field_type: Pointer
+  field_name: MethodStartAddress
+- field_type: UInt64
+  field_name: MethodSize
+- field_type: UInt32
+  field_name: MethodID
+- field_type: UInt16
+  field_name: MethodFlags
+- field_type: UInt16
+  field_name: MethodAddressRangeID
+- field_type: UInt64
+  field_name: SourceID
+- field_type: UInt32
+  field_name: Line
+- field_type: UInt32
+  field_name: Column
+- field_type: UnicodeString
+  field_name: MethodName

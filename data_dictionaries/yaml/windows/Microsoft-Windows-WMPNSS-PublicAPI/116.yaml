@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WMPNSS-PublicAPI
+event_id: '116'
+version: '0'
+event(fields): get_computerInternetMediaSharingAllowedStateStart(Boolean Enable, UInt32
+  HResult)
+opcode: Start
+keywords: ''
+task: get_computerInternetMediaSharingAllowedState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Enable
+- field_type: UInt32
+  field_name: HResult

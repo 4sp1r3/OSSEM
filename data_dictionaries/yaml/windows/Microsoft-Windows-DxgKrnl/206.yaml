@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '206'
+version: '0'
+event(fields): RuntimePowerManagementStop206(Pointer AdapterHandle, UInt32 ComponentIndex)
+opcode: Stop
+keywords: DxgKrnl_Power
+task: RuntimePowerManagement
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdapterHandle
+- field_type: UInt32
+  field_name: ComponentIndex

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '66'
+version: '0'
+event(fields): StartLayout_LayoutReset_AfterCorruption()
+opcode: ''
+keywords: ''
+task: StartLayout_LayoutReset_AfterCorruption
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

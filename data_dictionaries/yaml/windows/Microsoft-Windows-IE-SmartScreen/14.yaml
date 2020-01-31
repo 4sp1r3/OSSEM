@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '14'
+version: '0'
+event(fields): URSCall14(UnicodeString URL, UnicodeString Categories, UInt32 HC, UInt32
+  PC)
+opcode: ''
+keywords: functionality
+task: URSCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UnicodeString
+  field_name: Categories
+- field_type: UInt32
+  field_name: HC
+- field_type: UInt32
+  field_name: PC

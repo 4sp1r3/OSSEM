@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1102'
+version: '0'
+event(fields): WnfRepository1102(UInt32 Result, UInt32 wnfName1, UInt32 wnfName2)
+opcode: ''
+keywords: Error
+task: WnfRepository
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UInt32
+  field_name: wnfName1
+- field_type: UInt32
+  field_name: wnfName2

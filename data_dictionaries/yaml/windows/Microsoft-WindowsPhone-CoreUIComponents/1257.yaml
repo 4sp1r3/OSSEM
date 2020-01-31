@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1257'
+version: '0'
+event(fields): ForegroundTaskManagerGetApplicationDefaultFullScreenValueStart()
+opcode: Start
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerGetApplicationDefaultFullScreenValue
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

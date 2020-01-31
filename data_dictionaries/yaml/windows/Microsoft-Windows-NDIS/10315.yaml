@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10315'
+version: '0'
+event(fields): Power10315(UInt32 IfIndex, UInt64 IfLuid, UInt64 ActiveTime, UInt32
+  PowerTransitionCount)
+opcode: ''
+keywords: Power LwtDiagnostic
+task: Power
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: IfLuid
+- field_type: UInt64
+  field_name: ActiveTime
+- field_type: UInt32
+  field_name: PowerTransitionCount

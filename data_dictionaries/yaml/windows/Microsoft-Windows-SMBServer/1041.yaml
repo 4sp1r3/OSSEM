@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1041'
+version: '0'
+event(fields): task_01041(UInt32 FailureType, UInt32 RegistryValueNameLength, UnicodeString
+  RegistryValueName)
+opcode: ''
+keywords: Operational
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FailureType
+- field_type: UInt32
+  field_name: RegistryValueNameLength
+- field_type: UnicodeString
+  field_name: RegistryValueName

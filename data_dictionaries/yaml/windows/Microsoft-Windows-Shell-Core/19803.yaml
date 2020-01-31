@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19803'
+version: '0'
+event(fields): ShowDesktop_RaiseDesktopStart()
+opcode: Start
+keywords: Shell
+task: ShowDesktop_RaiseDesktop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

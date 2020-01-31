@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '1013'
+version: '0'
+event(fields): task_01013(Boolean Prop_BOOL)
+opcode: ''
+keywords: ChatApis
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Prop_BOOL

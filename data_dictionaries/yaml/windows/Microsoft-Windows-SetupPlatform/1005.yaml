@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SetupPlatform
+event_id: '1005'
+version: '0'
+event(fields): OfflinegatherStart()
+opcode: Start
+keywords: keyPerformance
+task: Offlinegather
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

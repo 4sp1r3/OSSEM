@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '213'
+version: '0'
+event(fields): ServiceHostActivationStart(UnicodeString ServiceTypeName, UnicodeString
+  HostReference, UnicodeString AppDomain)
+opcode: Start
+keywords: ServiceHost EndToEndMonitoring HealthMonitoring Troubleshooting
+task: ServiceHostActivation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServiceTypeName
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

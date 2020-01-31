@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '464'
+version: '2'
+event(fields): Mshtml_IndependentAnimation_Candidacy_Failure_V2(Pointer CIndependentAnimation,
+  UInt32 ReasonCode, UnicodeString Description)
+opcode: ''
+keywords: animation
+task: Mshtml_IndependentAnimation_Candidacy_Failure
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CIndependentAnimation
+- field_type: UInt32
+  field_name: ReasonCode
+- field_type: UnicodeString
+  field_name: Description

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3321'
+version: '0'
+event(fields): ConnectionPooling(UnicodeString PoolKey, Int32 busy, UnicodeString
+  AppDomain)
+opcode: ''
+keywords: Channel
+task: ConnectionPooling
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PoolKey
+- field_type: Int32
+  field_name: busy
+- field_type: UnicodeString
+  field_name: AppDomain

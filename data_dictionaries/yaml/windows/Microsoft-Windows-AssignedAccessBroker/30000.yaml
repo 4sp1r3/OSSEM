@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AssignedAccessBroker
+event_id: '30000'
+version: '0'
+event(fields): ActivateAssignedAccessApplication(UnicodeString AboveLockAppAUMID,
+  UnicodeString InterfaceType, HexInt32 HResult)
+opcode: ''
+keywords: ''
+task: ActivateAssignedAccessApplication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AboveLockAppAUMID
+- field_type: UnicodeString
+  field_name: InterfaceType
+- field_type: HexInt32
+  field_name: HResult

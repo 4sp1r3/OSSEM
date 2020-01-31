@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '132'
+version: '0'
+event(fields): AudStreamSink_RequestMoreSamples_TaskStop(Pointer object, Int32 cPendingRequestSample,
+  Int32 cMaxPendingRequestSample)
+opcode: Stop
+keywords: ''
+task: AudStreamSink_RequestMoreSamples_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: cPendingRequestSample
+- field_type: Int32
+  field_name: cMaxPendingRequestSample

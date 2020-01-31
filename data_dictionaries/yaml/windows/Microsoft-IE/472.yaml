@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '472'
+version: '0'
+event(fields): Mshtml_CScriptCollection_WebOC_FirstScriptExecutionEventStart(Pointer
+  CScriptCollection, Pointer CMarkup)
+opcode: Start
+keywords: mshtml
+task: Mshtml_CScriptCollection_WebOC_FirstScriptExecutionEvent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CScriptCollection
+- field_type: Pointer
+  field_name: CMarkup

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60203'
+version: '0'
+event(fields): SearchBox_Popup_ShowStart()
+opcode: Start
+keywords: Shell
+task: SearchBox_Popup_Show
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

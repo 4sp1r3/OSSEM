@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '10001'
+version: '0'
+event(fields): WWANServiceStartupStart()
+opcode: Start
+keywords: keyword_200000000000
+task: WWANServiceStartup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

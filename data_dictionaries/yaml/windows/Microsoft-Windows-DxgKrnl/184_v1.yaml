@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '184'
+version: '1'
+event(fields): Present_V1(UInt32 hContext, Pointer hWindow, UInt32 VidPnSourceId,
+  UInt32 FlipInterval, UInt32 Flags, UInt32 ReturnStatus, Pointer hSrcAllocHandle,
+  Pointer hDstAllocHandle)
+opcode: ''
+keywords: Base
+task: Present
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hContext
+- field_type: Pointer
+  field_name: hWindow
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: FlipInterval
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ReturnStatus
+- field_type: Pointer
+  field_name: hSrcAllocHandle
+- field_type: Pointer
+  field_name: hDstAllocHandle

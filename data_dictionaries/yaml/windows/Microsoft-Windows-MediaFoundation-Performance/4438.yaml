@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4438'
+version: '0'
+event(fields): DXGIBufferStop(Pointer Buffer)
+opcode: Stop
+keywords: ''
+task: DXGIBuffer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Buffer

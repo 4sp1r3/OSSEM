@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2238'
+version: '0'
+event(fields): Share_InitUIStart()
+opcode: Start
+keywords: ''
+task: Share_InitUI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

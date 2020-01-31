@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '102'
+version: '1'
+event(fields): APIRequestStop_V1(UnicodeString Name, Int32 HResult)
+opcode: Stop
+keywords: ''
+task: APIRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: Int32
+  field_name: HResult

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '3308'
+version: '0'
+event(fields): DocPerf_Task_PrintUI_NetSearch_WSDSearchStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_PrintUI_NetSearch_WSDSearch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10325'
+version: '0'
+event(fields): Power10325(GUID IfGuid, UInt32 WakePacketSize, Binary WakePacketPayload)
+opcode: ''
+keywords: Power LwtDiagnostic keyword_20000000000
+task: Power
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: WakePacketSize
+- field_type: Binary
+  field_name: WakePacketPayload

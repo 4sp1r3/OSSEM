@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '250'
+version: '0'
+event(fields): StateRepository.Task.DataAccessLayer250(HexInt32 ErrorCode, AnsiString
+  Action, Int32 Partition, AnsiString Filename, AnsiString SQL, UInt64 Try, UInt64
+  ElapsedTimeMSec, UInt64 FirstReportedUptime, UInt64 FirstReportedWhen)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD keyword_400000000000
+task: StateRepository.Task.DataAccessLayer
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: AnsiString
+  field_name: Action
+- field_type: Int32
+  field_name: Partition
+- field_type: AnsiString
+  field_name: Filename
+- field_type: AnsiString
+  field_name: SQL
+- field_type: UInt64
+  field_name: Try
+- field_type: UInt64
+  field_name: ElapsedTimeMSec
+- field_type: UInt64
+  field_name: FirstReportedUptime
+- field_type: UInt64
+  field_name: FirstReportedWhen

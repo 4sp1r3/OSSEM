@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4317'
+version: '0'
+event(fields): ImmersiveMonitorConnectObjectStop(UInt32 MonitorIdentity)
+opcode: Stop
+keywords: ''
+task: ImmersiveMonitorConnectObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MonitorIdentity

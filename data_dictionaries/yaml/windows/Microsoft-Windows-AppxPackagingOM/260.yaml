@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '260'
+version: '0'
+event(fields): Bundlemanifest260(HexInt32 errorCode, UnicodeString currentFileName,
+  UnicodeString currentPackageFullName, UnicodeString conflictingFileName, UnicodeString
+  conflictingPackageFullName)
+opcode: ''
+keywords: ''
+task: Bundlemanifest
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: currentFileName
+- field_type: UnicodeString
+  field_name: currentPackageFullName
+- field_type: UnicodeString
+  field_name: conflictingFileName
+- field_type: UnicodeString
+  field_name: conflictingPackageFullName

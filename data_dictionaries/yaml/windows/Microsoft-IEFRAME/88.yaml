@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '88'
+version: '0'
+event(fields): Browseui_CBrowserFrame_CreateInstanceStart()
+opcode: Start
+keywords: primarynav
+task: Browseui_CBrowserFrame_CreateInstance
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

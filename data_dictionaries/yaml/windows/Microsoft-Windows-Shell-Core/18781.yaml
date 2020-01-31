@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18781'
+version: '0'
+event(fields): Shell32_GrepDoesItemMatchConditionStart()
+opcode: Start
+keywords: Grep
+task: Shell32_GrepDoesItemMatchCondition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

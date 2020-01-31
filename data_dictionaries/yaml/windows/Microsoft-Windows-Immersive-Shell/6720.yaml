@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6720'
+version: '0'
+event(fields): ImmersiveOpenWithUI_CreateAndShowStart()
+opcode: Start
+keywords: ''
+task: ImmersiveOpenWithUI_CreateAndShow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

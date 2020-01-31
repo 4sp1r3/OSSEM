@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '304'
+version: '0'
+event(fields): Tasksenttoengine(UnicodeString TaskName, UnicodeString TaskEngineName,
+  GUID TaskInstanceId)
+opcode: ''
+keywords: ''
+task: Tasksenttoengine
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UnicodeString
+  field_name: TaskEngineName
+- field_type: GUID
+  field_name: TaskInstanceId

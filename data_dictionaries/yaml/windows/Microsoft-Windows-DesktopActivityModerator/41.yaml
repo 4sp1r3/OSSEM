@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DesktopActivityModerator
+event_id: '41'
+version: '0'
+event(fields): ProcessExempt(UInt32 ProcessId, UInt32 SessionId, UInt32 ExemptGroup,
+  Boolean Modern)
+opcode: ''
+keywords: Policy
+task: ProcessExempt
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ExemptGroup
+- field_type: Boolean
+  field_name: Modern

@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '809'
+version: '0'
+event(fields): Mshtml_AlignedTimer_ProcessingStop(UInt64 CurrentRound, UInt64 CallsToProcess,
+  UInt64 CurrentTimeMs)
+opcode: Stop
+keywords: paintbeat
+task: Mshtml_AlignedTimer_Processing
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CurrentRound
+- field_type: UInt64
+  field_name: CallsToProcess
+- field_type: UInt64
+  field_name: CurrentTimeMs

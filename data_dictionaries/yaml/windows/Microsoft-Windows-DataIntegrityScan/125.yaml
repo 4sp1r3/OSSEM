@@ -1,0 +1,61 @@
+provider: Microsoft-Windows-DataIntegrityScan
+event_id: '125'
+version: '0'
+event(fields): task_0Stop125(UInt16 VolumeNameLength, UnicodeString VolumeName, UInt16
+  FriendlyVolumeNameLength, UnicodeString FriendlyVolumeName, Int32 HResult, UInt64
+  DirectoryCount, UInt64 FileCount, UInt64 StreamCount, UInt64 DataCount, UInt64 FsctlCount,
+  HexInt64 TotalBytesRepaired, HexInt64 TotalBytesFailed, HexInt64 MetadataBytesProcessed,
+  HexInt64 DataBytesProcessed, HexInt64 TotalMetadataBytesInUse, HexInt64 TotalDataBytesInUse,
+  UInt32 MaxThreadCount, UInt64 TotalTimeTaken, UInt32 DiskNumber, HexInt64 DiskOffset,
+  HexInt64 Length, GUID VolumeGuid)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UInt16
+  field_name: FriendlyVolumeNameLength
+- field_type: UnicodeString
+  field_name: FriendlyVolumeName
+- field_type: Int32
+  field_name: HResult
+- field_type: UInt64
+  field_name: DirectoryCount
+- field_type: UInt64
+  field_name: FileCount
+- field_type: UInt64
+  field_name: StreamCount
+- field_type: UInt64
+  field_name: DataCount
+- field_type: UInt64
+  field_name: FsctlCount
+- field_type: HexInt64
+  field_name: TotalBytesRepaired
+- field_type: HexInt64
+  field_name: TotalBytesFailed
+- field_type: HexInt64
+  field_name: MetadataBytesProcessed
+- field_type: HexInt64
+  field_name: DataBytesProcessed
+- field_type: HexInt64
+  field_name: TotalMetadataBytesInUse
+- field_type: HexInt64
+  field_name: TotalDataBytesInUse
+- field_type: UInt32
+  field_name: MaxThreadCount
+- field_type: UInt64
+  field_name: TotalTimeTaken
+- field_type: UInt32
+  field_name: DiskNumber
+- field_type: HexInt64
+  field_name: DiskOffset
+- field_type: HexInt64
+  field_name: Length
+- field_type: GUID
+  field_name: VolumeGuid

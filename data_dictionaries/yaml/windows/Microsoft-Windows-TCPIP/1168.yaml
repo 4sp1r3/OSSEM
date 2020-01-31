@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1168'
+version: '0'
+event(fields): TcpSrttMeasurementCancelled(Pointer Tcb, UInt32 SeqNum, UInt32 Tick,
+  UInt32 RttSample, UInt32 NewSrtt)
+opcode: ''
+keywords: ut:SendPath
+task: TcpSrttMeasurementCancelled
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: SeqNum
+- field_type: UInt32
+  field_name: Tick
+- field_type: UInt32
+  field_name: RttSample
+- field_type: UInt32
+  field_name: NewSrtt

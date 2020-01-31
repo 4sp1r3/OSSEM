@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-UserDataAccess-CallHistoryClient
+event_id: '3'
+version: '0'
+event(fields): task_03(Pointer ObjPtr, Int32 ObjType, Int32 ObjId, HexInt32 PropCode)
+opcode: ''
+keywords: Error
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ObjPtr
+- field_type: Int32
+  field_name: ObjType
+- field_type: Int32
+  field_name: ObjId
+- field_type: HexInt32
+  field_name: PropCode

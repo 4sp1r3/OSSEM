@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1203'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.SetPackageStatusStart1203()
+opcode: Start
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.SetPackageStatus
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

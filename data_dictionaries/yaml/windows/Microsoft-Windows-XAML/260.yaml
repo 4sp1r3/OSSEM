@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '260'
+version: '0'
+event(fields): SubmitNotifyWindowResized(UInt32 ApplicationViewState)
+opcode: ''
+keywords: Rendering
+task: SubmitNotifyWindowResized
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ApplicationViewState

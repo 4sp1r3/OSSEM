@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SecurityMitigationsBroker
+event_id: '1029'
+version: '0'
+event(fields): SecurityMitigationsBroker.Task.DisableAcgEnforcementStop()
+opcode: Stop
+keywords: SECURITYMITIGATIONBROKER_KEYWORD_ACG
+task: SecurityMitigationsBroker.Task.DisableAcgEnforcement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

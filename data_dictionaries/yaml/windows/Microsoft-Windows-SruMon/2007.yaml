@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SruMon
+event_id: '2007'
+version: '0'
+event(fields): SruMonDebugSequenceTrace2007(UnicodeString _FunctionName)
+opcode: ''
+keywords: KeywordSruMonDebugSequenceTrace KeywordSruMonDebugSequenceErrorTrace
+task: SruMonDebugSequenceTrace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: _FunctionName

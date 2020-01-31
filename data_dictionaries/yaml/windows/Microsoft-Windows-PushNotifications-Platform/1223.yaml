@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1223'
+version: '0'
+event(fields): task_01223(AnsiString Verb, UInt32 TrID, AnsiString Namespace, AnsiString
+  CorrelationVector, UInt32 Bytes, Binary Payload, UInt32 ConnectionType)
+opcode: ''
+keywords: wnptrans wpndebug_connectivity wpndebug_connectivity_isConnected
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Verb
+- field_type: UInt32
+  field_name: TrID
+- field_type: AnsiString
+  field_name: Namespace
+- field_type: AnsiString
+  field_name: CorrelationVector
+- field_type: UInt32
+  field_name: Bytes
+- field_type: Binary
+  field_name: Payload
+- field_type: UInt32
+  field_name: ConnectionType

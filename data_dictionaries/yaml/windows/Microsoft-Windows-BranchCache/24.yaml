@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '24'
+version: '0'
+event(fields): task_0Loadinglocalcache.(UInt32 ErrorCode, UInt32 SubCode, UnicodeString
+  ErrorMessage)
+opcode: Loadinglocalcache.
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: SubCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

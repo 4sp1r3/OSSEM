@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23011'
+version: '1'
+event(fields): DeserializeManifest_3705Stop_V1()
+opcode: Stop
+keywords: ''
+task: DeserializeManifest_3705
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

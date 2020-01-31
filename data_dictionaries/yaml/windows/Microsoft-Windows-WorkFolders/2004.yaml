@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '2004'
+version: '0'
+event(fields): task_02004(Int32 SuccessFileCount, Int64 SuccessDataSize, Int32 FailedFileCount,
+  Int64 FailedDataSize, Int32 TotalBatchTime, Float Rate)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: SuccessFileCount
+- field_type: Int64
+  field_name: SuccessDataSize
+- field_type: Int32
+  field_name: FailedFileCount
+- field_type: Int64
+  field_name: FailedDataSize
+- field_type: Int32
+  field_name: TotalBatchTime
+- field_type: Float
+  field_name: Rate

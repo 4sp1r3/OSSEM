@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SrumTelemetry
+event_id: '3004'
+version: '0'
+event(fields): task_03004(Int32 CurrentBrightnessLevel)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: CurrentBrightnessLevel

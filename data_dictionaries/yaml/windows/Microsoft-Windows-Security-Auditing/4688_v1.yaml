@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4688'
+version: '1'
+event(fields): task_04688_V1(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, Pointer NewProcessId, UnicodeString
+  NewProcessName, UnicodeString TokenElevationType, Pointer ProcessId, UnicodeString
+  CommandLine)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: Pointer
+  field_name: NewProcessId
+- field_type: UnicodeString
+  field_name: NewProcessName
+- field_type: UnicodeString
+  field_name: TokenElevationType
+- field_type: Pointer
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: CommandLine

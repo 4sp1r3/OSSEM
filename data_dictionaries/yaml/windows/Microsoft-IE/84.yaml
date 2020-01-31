@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '84'
+version: '0'
+event(fields): Mshtml_CWindow_CommitCodeLightStart(Pointer CDoc)
+opcode: Start
+keywords: primarynav pageloadbreakdown
+task: Mshtml_CWindow_CommitCodeLight
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CDoc

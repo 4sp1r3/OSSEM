@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4044'
+version: '0'
+event(fields): task_04044(Boolean ShouldPassivePollRun, Boolean WasPassivePollRunning,
+  Boolean IsPassivePollAllowed, Boolean ClientPresent, Boolean UserPresent, Boolean
+  NetworkQuietMode, UInt32 DeadUserPollCount, UInt32 DeadNetPollCountV4, UInt32 DeadNetPollCountV6)
+opcode: ''
+keywords: LwtDiagnostic
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: ShouldPassivePollRun
+- field_type: Boolean
+  field_name: WasPassivePollRunning
+- field_type: Boolean
+  field_name: IsPassivePollAllowed
+- field_type: Boolean
+  field_name: ClientPresent
+- field_type: Boolean
+  field_name: UserPresent
+- field_type: Boolean
+  field_name: NetworkQuietMode
+- field_type: UInt32
+  field_name: DeadUserPollCount
+- field_type: UInt32
+  field_name: DeadNetPollCountV4
+- field_type: UInt32
+  field_name: DeadNetPollCountV6

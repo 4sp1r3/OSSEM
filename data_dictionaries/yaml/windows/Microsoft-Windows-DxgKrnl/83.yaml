@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '83'
+version: '0'
+event(fields): SetProcessWorkingSet(Boolean UseDefault, UInt32 MinimumWorkingSetPercentile,
+  UInt32 MaximumWorkingSetPercentile)
+opcode: ''
+keywords: Base
+task: SetProcessWorkingSet
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: UseDefault
+- field_type: UInt32
+  field_name: MinimumWorkingSetPercentile
+- field_type: UInt32
+  field_name: MaximumWorkingSetPercentile

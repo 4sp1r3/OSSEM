@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1504'
+version: '0'
+event(fields): ShellTask_RunDialog_CheckRunInSeparateThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_RunDialog_CheckRunInSeparateThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

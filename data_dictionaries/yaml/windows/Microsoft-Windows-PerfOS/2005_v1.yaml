@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PerfOS
+event_id: '2005'
+version: '1'
+event(fields): task_02005_V1(UInt32 NTSTATUS)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NTSTATUS

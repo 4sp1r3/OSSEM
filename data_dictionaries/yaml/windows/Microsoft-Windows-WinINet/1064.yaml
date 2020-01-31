@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1064'
+version: '0'
+event(fields): WININET_STREAM_DATA_INDICATED(Pointer RequestHandle, UInt32 StreamId,
+  UInt32 Size, Boolean Headers)
+opcode: ''
+keywords: WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG
+task: WININET_STREAM_DATA_INDICATED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestHandle
+- field_type: UInt32
+  field_name: StreamId
+- field_type: UInt32
+  field_name: Size
+- field_type: Boolean
+  field_name: Headers

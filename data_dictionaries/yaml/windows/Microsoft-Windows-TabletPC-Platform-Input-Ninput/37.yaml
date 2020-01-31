@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '37'
+version: '0'
+event(fields): NinputICCreateStop()
+opcode: Stop
+keywords: ''
+task: NinputICCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DVD
+event_id: '11'
+version: '0'
+event(fields): NavPumpWaitStop(Pointer Object, Int32 WakeIndex, Int32 LastError, Int32
+  IOIndex, Int32 ExtraEventInfo)
+opcode: Stop
+keywords: ''
+task: NavPumpWait
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: WakeIndex
+- field_type: Int32
+  field_name: LastError
+- field_type: Int32
+  field_name: IOIndex
+- field_type: Int32
+  field_name: ExtraEventInfo

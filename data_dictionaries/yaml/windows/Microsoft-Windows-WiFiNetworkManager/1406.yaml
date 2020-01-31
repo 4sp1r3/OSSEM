@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1406'
+version: '0'
+event(fields): task_01406(UInt32 active, UInt32 delayed, UInt32 timer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: active
+- field_type: UInt32
+  field_name: delayed
+- field_type: UInt32
+  field_name: timer

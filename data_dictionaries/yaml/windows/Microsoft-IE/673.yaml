@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '673'
+version: '0'
+event(fields): Mshtml_CDMCrossSlideDraggableTouchTarget_AssignDispLayerWithDragState(Pointer
+  IDispLayer, Boolean fIsDraggingRequested, Pointer CDMCrossSlideDraggableTouchTarget)
+opcode: ''
+keywords: draganddrop touch
+task: Mshtml_CDMCrossSlideDraggableTouchTarget_AssignDispLayerWithDragState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: IDispLayer
+- field_type: Boolean
+  field_name: fIsDraggingRequested
+- field_type: Pointer
+  field_name: CDMCrossSlideDraggableTouchTarget

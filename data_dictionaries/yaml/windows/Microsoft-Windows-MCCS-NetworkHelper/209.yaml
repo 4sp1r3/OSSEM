@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '209'
+version: '0'
+event(fields): task_0209(Pointer Message)
+opcode: ''
+keywords: Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Message

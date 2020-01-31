@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-WebAPI
+event_id: '68'
+version: '0'
+event(fields): ParseAddcustomattribute(UnicodeString str1, UnicodeString str2)
+opcode: Addcustomattribute
+keywords: keywords.Format
+task: Parse
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str1
+- field_type: UnicodeString
+  field_name: str2

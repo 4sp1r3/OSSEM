@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IE-F12-Provider
+event_id: '707'
+version: '0'
+event(fields): Generic_Debug_4Start(UnicodeString TraceDescription)
+opcode: Start
+keywords: ''
+task: Generic_Debug_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceDescription

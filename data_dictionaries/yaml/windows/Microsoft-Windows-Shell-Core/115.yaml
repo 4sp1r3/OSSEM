@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '115'
+version: '0'
+event(fields): MainCPL_DialogPaint(UInt32 Message)
+opcode: ''
+keywords: Shell
+task: MainCPL_DialogPaint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Message

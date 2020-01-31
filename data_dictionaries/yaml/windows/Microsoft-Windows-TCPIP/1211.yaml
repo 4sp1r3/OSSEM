@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1211'
+version: '0'
+event(fields): TcpWsdCacheEntryStateChange(UInt32 TcpWsdEtwPoint, UInt32 Processor,
+  UInt32 Entry, UInt32 OldState, UInt32 NewState, UInt32 ProbeCount, UInt32 ProbeCountWs)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Global
+task: TcpWsdCacheEntryStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TcpWsdEtwPoint
+- field_type: UInt32
+  field_name: Processor
+- field_type: UInt32
+  field_name: Entry
+- field_type: UInt32
+  field_name: OldState
+- field_type: UInt32
+  field_name: NewState
+- field_type: UInt32
+  field_name: ProbeCount
+- field_type: UInt32
+  field_name: ProbeCountWs

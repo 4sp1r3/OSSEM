@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1632'
+version: '0'
+event(fields): AppsFolder_LaunchImmersiveApp_Failure(UnicodeString ApplicationId,
+  UnicodeString FailedOperation, Int32 Result)
+opcode: ''
+keywords: ''
+task: AppsFolder_LaunchImmersiveApp_Failure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApplicationId
+- field_type: UnicodeString
+  field_name: FailedOperation
+- field_type: Int32
+  field_name: Result

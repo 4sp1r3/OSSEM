@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '2'
+version: '0'
+event(fields): InputEventStop()
+opcode: Stop
+keywords: Input
+task: InputEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

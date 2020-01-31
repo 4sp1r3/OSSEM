@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SetupPlatform
+event_id: '1003'
+version: '0'
+event(fields): OnlinegatherStart(UnicodeString OfflineWinDir, UInt32 MachineSpecific)
+opcode: Start
+keywords: keyPerformance
+task: Onlinegather
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: OfflineWinDir
+- field_type: UInt32
+  field_name: MachineSpecific

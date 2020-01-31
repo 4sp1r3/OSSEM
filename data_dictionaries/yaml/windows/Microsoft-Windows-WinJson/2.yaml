@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinJson
+event_id: '2'
+version: '0'
+event(fields): None2(UInt32 hr)
+opcode: ''
+keywords: Error
+task: None
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr

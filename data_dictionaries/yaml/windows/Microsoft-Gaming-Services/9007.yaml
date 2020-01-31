@@ -1,0 +1,15 @@
+provider: Microsoft-Gaming-Services
+event_id: '9007'
+version: '0'
+event(fields): GamingServices_9005Info(UnicodeString Message, HexInt32 ErrorCode)
+opcode: Info
+keywords: GamingServices
+task: GamingServices_9005
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: HexInt32
+  field_name: ErrorCode

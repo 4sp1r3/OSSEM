@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1008'
+version: '1'
+event(fields): StoreLogAdd_V1(Pointer ContainerKey, Pointer VirtualAddress, UInt32
+  Flags, UInt32 InterpretedPid)
+opcode: ''
+keywords: StoreLog
+task: StoreLogAdd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContainerKey
+- field_type: Pointer
+  field_name: VirtualAddress
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: InterpretedPid

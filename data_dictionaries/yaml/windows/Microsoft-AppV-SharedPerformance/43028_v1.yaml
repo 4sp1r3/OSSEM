@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '43028'
+version: '1'
+event(fields): task_0Stop43028_V1()
+opcode: Stop
+keywords: ''
+task: task_0
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

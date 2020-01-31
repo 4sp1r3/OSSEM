@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '230'
+version: '0'
+event(fields): SignalSynchronizationObject2(UInt32 ContextCount, Pointer hContext,
+  UInt32 ObjectCount, Pointer ObjectArray, UInt32 Flags, UInt64 FenceValue)
+opcode: ''
+keywords: Base
+task: SignalSynchronizationObject2
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ContextCount
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: ObjectCount
+- field_type: Pointer
+  field_name: ObjectArray
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt64
+  field_name: FenceValue

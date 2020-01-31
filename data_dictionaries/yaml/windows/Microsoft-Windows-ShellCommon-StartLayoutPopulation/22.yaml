@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '22'
+version: '0'
+event(fields): StartLayout_LayoutModificationXMLParseFailure(UInt32 TaskHResultValue)
+opcode: ''
+keywords: ''
+task: StartLayout_LayoutModificationXMLParseFailure
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TaskHResultValue

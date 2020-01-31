@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '136'
+version: '0'
+event(fields): Dictation_ScratchpadStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: Dictation_Scratchpad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

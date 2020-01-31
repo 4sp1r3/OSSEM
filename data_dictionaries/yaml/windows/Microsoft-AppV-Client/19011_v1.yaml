@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '19011'
+version: '1'
+event(fields): PublishingRefresh19011_V1(UInt64 ErrorHigh, UInt64 ErrorLow)
+opcode: ''
+keywords: PublishingRefresh
+task: PublishingRefresh
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ErrorHigh
+- field_type: UInt64
+  field_name: ErrorLow

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '250'
+version: '0'
+event(fields): NodeMetadata(Pointer pDxgAdapter, UInt32 NodeOrdinal, UInt32 EngineType,
+  UnicodeString FriendlyName)
+opcode: ''
+keywords: Base
+task: NodeMetadata
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: NodeOrdinal
+- field_type: UInt32
+  field_name: EngineType
+- field_type: UnicodeString
+  field_name: FriendlyName

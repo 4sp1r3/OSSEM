@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1781'
+version: '0'
+event(fields): ID3D11VideoContext_GetDecoderBufferStop(UInt32 m_Ret, UInt32 pBufferSize,
+  Pointer ppBuffer)
+opcode: Stop
+keywords: ''
+task: ID3D11VideoContext_GetDecoderBuffer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret
+- field_type: UInt32
+  field_name: pBufferSize
+- field_type: Pointer
+  field_name: ppBuffer

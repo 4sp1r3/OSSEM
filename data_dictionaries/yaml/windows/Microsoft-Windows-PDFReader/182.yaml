@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '182'
+version: '0'
+event(fields): task_0182(Float X, Float Y)
+opcode: ''
+keywords: Reader
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: X
+- field_type: Float
+  field_name: Y

@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '118'
+version: '0'
+event(fields): CellularAPI118()
+opcode: ''
+keywords: Error
+task: CellularAPI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

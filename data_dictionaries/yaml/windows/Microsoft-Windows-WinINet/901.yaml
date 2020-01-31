@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinINet
+event_id: '901'
+version: '0'
+event(fields): WININET_APPLICATION_OFFLINE_CHECKStart(UnicodeString AppPackageSid)
+opcode: Start
+keywords: WININET_KEYWORD_MOBILE
+task: WININET_APPLICATION_OFFLINE_CHECK
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppPackageSid

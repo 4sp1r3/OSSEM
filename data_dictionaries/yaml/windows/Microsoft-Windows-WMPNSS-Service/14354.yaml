@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '14354'
+version: '0'
+event(fields): task_014354(UnicodeString MDEID, UnicodeString ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MDEID
+- field_type: UnicodeString
+  field_name: ErrorCode

@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '135'
+version: '0'
+event(fields): Mshtml_DOM_ExpandoStart(Pointer Cache, UInt32 Index)
+opcode: Start
+keywords: marshalling
+task: Mshtml_DOM_Expando
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Cache
+- field_type: UInt32
+  field_name: Index

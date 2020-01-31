@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '61'
+version: '0'
+event(fields): FLIP_CONSUME_PRESENTStop(UInt32 result)
+opcode: Stop
+keywords: FlipManager
+task: FLIP_CONSUME_PRESENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: result

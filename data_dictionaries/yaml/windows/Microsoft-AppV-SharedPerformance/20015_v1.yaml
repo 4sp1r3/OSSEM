@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '20015'
+version: '1'
+event(fields): VirtualProcessLaunchFailureActivityStop_V1()
+opcode: Stop
+keywords: ''
+task: VirtualProcessLaunchFailureActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

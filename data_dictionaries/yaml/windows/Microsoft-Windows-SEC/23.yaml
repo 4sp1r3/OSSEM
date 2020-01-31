@@ -1,0 +1,53 @@
+provider: Microsoft-Windows-SEC
+event_id: '23'
+version: '0'
+event(fields): task_023(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime,
+  HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString ImageName, Boolean
+  MotW, Binary ImageSHA256, Binary ImageSHA1, Binary ImageMD5, HexInt32 PartialCRC1,
+  HexInt32 PartialCRC2, HexInt32 PartialCRC3, Boolean SystemModeImage, Pointer LoadImageAddress,
+  UInt64 ProcessStartKey, UInt64 LoadImageSize, Binary ImageLSH)
+opcode: ''
+keywords: Event23
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: HexInt32
+  field_name: ProcessId
+- field_type: Int64
+  field_name: ProcessTime
+- field_type: HexInt32
+  field_name: ThreadId
+- field_type: SID
+  field_name: UserSid
+- field_type: HexInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: ImageName
+- field_type: Boolean
+  field_name: MotW
+- field_type: Binary
+  field_name: ImageSHA256
+- field_type: Binary
+  field_name: ImageSHA1
+- field_type: Binary
+  field_name: ImageMD5
+- field_type: HexInt32
+  field_name: PartialCRC1
+- field_type: HexInt32
+  field_name: PartialCRC2
+- field_type: HexInt32
+  field_name: PartialCRC3
+- field_type: Boolean
+  field_name: SystemModeImage
+- field_type: Pointer
+  field_name: LoadImageAddress
+- field_type: UInt64
+  field_name: ProcessStartKey
+- field_type: UInt64
+  field_name: LoadImageSize
+- field_type: Binary
+  field_name: ImageLSH

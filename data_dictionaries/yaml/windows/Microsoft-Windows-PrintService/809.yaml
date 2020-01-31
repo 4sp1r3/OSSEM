@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PrintService
+event_id: '809'
+version: '0'
+event(fields): DeletingadirectorySpoolerOperationFailed(UnicodeString DirectoryName,
+  HexInt32 WaitForReboot, HexInt32 ErrorCode, Int16 Context)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD
+task: Deletingadirectory
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DirectoryName
+- field_type: HexInt32
+  field_name: WaitForReboot
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: Int16
+  field_name: Context

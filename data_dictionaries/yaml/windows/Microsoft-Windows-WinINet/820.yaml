@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinINet
+event_id: '820'
+version: '0'
+event(fields): WININET_AUTOPROXY_PERFTRACK_HOST_IP_LOOKUPStart()
+opcode: Start
+keywords: WININET_KEYWORD_AUTOPROXY
+task: WININET_AUTOPROXY_PERFTRACK_HOST_IP_LOOKUP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '60001'
+version: '0'
+event(fields): task_060001(UInt32 ErrorCode, UInt32 Location, UInt32 Context)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context

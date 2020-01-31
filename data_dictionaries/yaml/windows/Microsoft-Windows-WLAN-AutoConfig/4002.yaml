@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '4002'
+version: '0'
+event(fields): task_0(UInt32 ErrorCode)
+opcode: ''
+keywords: Telemetry
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '558'
+version: '0'
+event(fields): Mshtml_RenderTask_RenderThreadStateUpdate(Pointer RenderThread, UInt32
+  State, UInt32 ExtraInfo)
+opcode: ''
+keywords: subsystem composition
+task: Mshtml_RenderTask_RenderThreadStateUpdate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RenderThread
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: ExtraInfo

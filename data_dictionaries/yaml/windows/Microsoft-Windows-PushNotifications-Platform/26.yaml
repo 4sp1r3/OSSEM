@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '26'
+version: '0'
+event(fields): task_026(UnicodeString Name, Pointer InstanceId)
+opcode: ''
+keywords: wpnplat wpntroubleshoot
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: Pointer
+  field_name: InstanceId

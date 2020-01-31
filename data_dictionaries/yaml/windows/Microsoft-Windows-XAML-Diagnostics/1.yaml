@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '1'
+version: '0'
+event(fields): InputEventStart()
+opcode: Start
+keywords: Input
+task: InputEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

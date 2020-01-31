@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DriverFrameworks-KernelMode-Performance
+event_id: '10'
+version: '0'
+event(fields): FxPowerTaskStop10(Pointer DrvPtr, Pointer DevPtr)
+opcode: Stop
+keywords: ''
+task: FxPowerTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DrvPtr
+- field_type: Pointer
+  field_name: DevPtr

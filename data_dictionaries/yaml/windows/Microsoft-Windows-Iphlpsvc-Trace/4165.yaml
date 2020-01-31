@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '4165'
+version: '0'
+event(fields): task_04165(UInt32 NewRoutingState, UInt32 OldRoutingState)
+opcode: ''
+keywords: sixto4
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NewRoutingState
+- field_type: UInt32
+  field_name: OldRoutingState

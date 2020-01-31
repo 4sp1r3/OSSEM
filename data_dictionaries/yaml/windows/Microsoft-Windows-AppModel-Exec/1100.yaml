@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '1100'
+version: '0'
+event(fields): FM_ApplyResourceSetType(UInt32 p1_UInt32, UInt64 p2_UInt64, UnicodeString
+  p3_String, Pointer pResSet, UInt32 p4_UInt32)
+opcode: ''
+keywords: FM ExecDevPlatCircular
+task: FM_ApplyResourceSetType
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p1_UInt32
+- field_type: UInt64
+  field_name: p2_UInt64
+- field_type: UnicodeString
+  field_name: p3_String
+- field_type: Pointer
+  field_name: pResSet
+- field_type: UInt32
+  field_name: p4_UInt32

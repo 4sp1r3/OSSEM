@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6207'
+version: '0'
+event(fields): Thumbnails_AdornmentStart()
+opcode: Start
+keywords: Shell
+task: Thumbnails_Adornment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

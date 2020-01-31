@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WebIO
+event_id: '132'
+version: '0'
+event(fields): ResponseReceiveStart(Pointer Request, UInt64 RequestHandle, UInt32
+  Flags, UInt32 ResponseFlags, Pointer CompletionContext, UInt32 Error)
+opcode: Start
+keywords: Keyword.API Keyword.RECEIVE
+task: ResponseReceive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: UInt64
+  field_name: RequestHandle
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ResponseFlags
+- field_type: Pointer
+  field_name: CompletionContext
+- field_type: UInt32
+  field_name: Error

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XWizards
+event_id: '83'
+version: '0'
+event(fields): task_083(UnicodeString Caption, UnicodeString Text)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Caption
+- field_type: UnicodeString
+  field_name: Text

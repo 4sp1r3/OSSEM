@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '205'
+version: '0'
+event(fields): ThemesOnCreateSessionStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: ThemesOnCreateSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

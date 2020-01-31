@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RRAS
+event_id: '13000'
+version: '0'
+event(fields): task_013000(UnicodeString DebugString)
+opcode: ''
+keywords: ut:RrasAdmin ut:SstpSvc
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DebugString

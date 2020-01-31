@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Firewall-CPL
+event_id: '113'
+version: '0'
+event(fields): QUInitializeStart()
+opcode: Start
+keywords: FirewallCpl
+task: QUInitialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

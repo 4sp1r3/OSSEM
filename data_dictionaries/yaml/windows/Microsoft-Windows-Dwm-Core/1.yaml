@@ -1,0 +1,80 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '1'
+version: '0'
+event(fields): SCHEDULE_FRAMEINFO(UInt32 IndexFrame, UInt64 cFrame, UInt32 cDXPresent,
+  UInt64 tFrame, UInt64 qpcFrame, UInt64 cSyncRefreshFrame, UInt32 cRefreshesPerFrame,
+  UInt64 cRefreshFrame, UInt64 cRefreshPresent, UInt64 tPresentAfter, UInt64 cRefresh,
+  UInt32 cDXRefresh, UInt64 tRefresh, UInt64 qpcRefresh, UInt64 cRefreshDelta, UInt64
+  tBegin, UInt64 qpcBegin, UInt64 tEnd, UInt64 tElapsed, UInt64 tAvailable, UInt64
+  tDelta, UInt64 tVBlankLatency, UInt32 fRendered, UInt32 fPresented, UInt32 fParallelMode,
+  UInt64 qpcPresented, UInt32 fConfirmed, UInt64 qpcConfirmed, UInt64 tEarly, UInt64
+  tBudget, UInt64 tGlitch)
+opcode: ''
+keywords: DetailedFrameInformation
+task: SCHEDULE_FRAMEINFO
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IndexFrame
+- field_type: UInt64
+  field_name: cFrame
+- field_type: UInt32
+  field_name: cDXPresent
+- field_type: UInt64
+  field_name: tFrame
+- field_type: UInt64
+  field_name: qpcFrame
+- field_type: UInt64
+  field_name: cSyncRefreshFrame
+- field_type: UInt32
+  field_name: cRefreshesPerFrame
+- field_type: UInt64
+  field_name: cRefreshFrame
+- field_type: UInt64
+  field_name: cRefreshPresent
+- field_type: UInt64
+  field_name: tPresentAfter
+- field_type: UInt64
+  field_name: cRefresh
+- field_type: UInt32
+  field_name: cDXRefresh
+- field_type: UInt64
+  field_name: tRefresh
+- field_type: UInt64
+  field_name: qpcRefresh
+- field_type: UInt64
+  field_name: cRefreshDelta
+- field_type: UInt64
+  field_name: tBegin
+- field_type: UInt64
+  field_name: qpcBegin
+- field_type: UInt64
+  field_name: tEnd
+- field_type: UInt64
+  field_name: tElapsed
+- field_type: UInt64
+  field_name: tAvailable
+- field_type: UInt64
+  field_name: tDelta
+- field_type: UInt64
+  field_name: tVBlankLatency
+- field_type: UInt32
+  field_name: fRendered
+- field_type: UInt32
+  field_name: fPresented
+- field_type: UInt32
+  field_name: fParallelMode
+- field_type: UInt64
+  field_name: qpcPresented
+- field_type: UInt32
+  field_name: fConfirmed
+- field_type: UInt64
+  field_name: qpcConfirmed
+- field_type: UInt64
+  field_name: tEarly
+- field_type: UInt64
+  field_name: tBudget
+- field_type: UInt64
+  field_name: tGlitch

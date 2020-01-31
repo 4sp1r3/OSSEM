@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '196'
+version: '0'
+event(fields): PseudoDevCreationStart()
+opcode: Start
+keywords: MessagePumpInternalAndInput
+task: PseudoDevCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

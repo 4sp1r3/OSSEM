@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '64505'
+version: '0'
+event(fields): LockScreenCallBroker_OnUnlockingStart(UnicodeString message1, UnicodeString
+  message2)
+opcode: Start
+keywords: ''
+task: LockScreenCallBroker_OnUnlocking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: message1
+- field_type: UnicodeString
+  field_name: message2

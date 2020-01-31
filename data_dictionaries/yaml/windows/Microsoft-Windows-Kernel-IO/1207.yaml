@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-IO
+event_id: '1207'
+version: '0'
+event(fields): task_01207(UInt32 DumpEncryptionFailureReason)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DumpEncryptionFailureReason

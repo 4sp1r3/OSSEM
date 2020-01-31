@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '20002'
+version: '0'
+event(fields): PnP_PlugPlay_DeviceInstall20002(UnicodeString DriverName, UnicodeString
+  DriverVersion, UnicodeString DriverProvider, UnicodeString DeviceInstanceID, GUID
+  SetupClass, Boolean RebootOption, Boolean UpgradeDevice, Boolean IsDriverOEM, HexInt32
+  InstallStatus, UnicodeString DriverDescription)
+opcode: ''
+keywords: ''
+task: PnP_PlugPlay_DeviceInstall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UnicodeString
+  field_name: DriverVersion
+- field_type: UnicodeString
+  field_name: DriverProvider
+- field_type: UnicodeString
+  field_name: DeviceInstanceID
+- field_type: GUID
+  field_name: SetupClass
+- field_type: Boolean
+  field_name: RebootOption
+- field_type: Boolean
+  field_name: UpgradeDevice
+- field_type: Boolean
+  field_name: IsDriverOEM
+- field_type: HexInt32
+  field_name: InstallStatus
+- field_type: UnicodeString
+  field_name: DriverDescription

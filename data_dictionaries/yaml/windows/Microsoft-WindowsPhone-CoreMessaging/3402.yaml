@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3402'
+version: '0'
+event(fields): RemoteRegistrarClient_RegisterThreadStart()
+opcode: Start
+keywords: MessagingPerformance RegistrarClient
+task: RemoteRegistrarClient_RegisterThread
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

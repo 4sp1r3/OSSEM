@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '3510'
+version: '0'
+event(fields): KeyRegistrationStart()
+opcode: Start
+keywords: Component
+task: KeyRegistration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

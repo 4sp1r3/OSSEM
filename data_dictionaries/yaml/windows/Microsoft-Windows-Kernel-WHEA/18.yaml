@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-Kernel-WHEA
+event_id: '18'
+version: '0'
+event(fields): task_018(UInt32 SourceIdBus, UInt32 SourceIdDev, UInt32 SourceIdFun,
+  UInt32 UncorrectableErrorStatus, UInt32 CorrectableErrorStatus, UInt32 HeaderLog0,
+  UInt32 HeaderLog1, UInt32 HeaderLog2, UInt32 HeaderLog3, UInt32 Length, Binary RawData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SourceIdBus
+- field_type: UInt32
+  field_name: SourceIdDev
+- field_type: UInt32
+  field_name: SourceIdFun
+- field_type: UInt32
+  field_name: UncorrectableErrorStatus
+- field_type: UInt32
+  field_name: CorrectableErrorStatus
+- field_type: UInt32
+  field_name: HeaderLog0
+- field_type: UInt32
+  field_name: HeaderLog1
+- field_type: UInt32
+  field_name: HeaderLog2
+- field_type: UInt32
+  field_name: HeaderLog3
+- field_type: UInt32
+  field_name: Length
+- field_type: Binary
+  field_name: RawData

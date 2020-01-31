@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '150'
+version: '0'
+event(fields): task_0150(GUID VolumeGuid, UInt32 VolumeNameLength, UnicodeString VolumeName,
+  Boolean IsBootVolume, UInt32 ProcessId, AnsiString ProcessName, UInt32 FileNameLength,
+  UnicodeString FileName, UInt64 BadFileOffset, UInt64 BadLcn, UInt32 ClustersCount,
+  UInt32 FailureStatus, Int32 TableIndex)
+opcode: ''
+keywords: BadClusterHotFix
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VolumeGuid
+- field_type: UInt32
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: Boolean
+  field_name: IsBootVolume
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: AnsiString
+  field_name: ProcessName
+- field_type: UInt32
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt64
+  field_name: BadFileOffset
+- field_type: UInt64
+  field_name: BadLcn
+- field_type: UInt32
+  field_name: ClustersCount
+- field_type: UInt32
+  field_name: FailureStatus
+- field_type: Int32
+  field_name: TableIndex

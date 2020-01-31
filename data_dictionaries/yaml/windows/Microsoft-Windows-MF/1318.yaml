@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1318'
+version: '0'
+event(fields): SrcStreamRequestSampleTimeoutStop(Pointer Object, Pointer Token)
+opcode: Stop
+keywords: ''
+task: SrcStreamRequestSampleTimeout
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: Token

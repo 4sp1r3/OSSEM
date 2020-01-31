@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DAL-Provider
+event_id: '29'
+version: '0'
+event(fields): task_029()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

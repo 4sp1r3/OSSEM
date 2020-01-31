@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathRecognizer
+event_id: '22'
+version: '0'
+event(fields): PostProcessingRecoResultStart()
+opcode: Start
+keywords: ''
+task: PostProcessingRecoResult
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

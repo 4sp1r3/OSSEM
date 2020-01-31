@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '501'
+version: '0'
+event(fields): EmptyTab_ReuseStop(UInt32 TabID)
+opcode: Stop
+keywords: primarynav
+task: EmptyTab_Reuse
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID

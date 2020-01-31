@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6027'
+version: '0'
+event(fields): PublishingRefreshStop6027(UnicodeString str)
+opcode: Stop
+keywords: ''
+task: PublishingRefresh
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str

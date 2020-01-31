@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4604'
+version: '0'
+event(fields): CONVERSATION_MSGPROPSETStart()
+opcode: Start
+keywords: Performance
+task: CONVERSATION_MSGPROPSET
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-XAML
+event_id: '278'
+version: '0'
+event(fields): DCompInsertChild(UInt64 ParentDCompVisual, UInt64 ChildDCompVisual,
+  UInt64 PreviousSiblingDCompVisual)
+opcode: ''
+keywords: DComp
+task: DCompInsertChild
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ParentDCompVisual
+- field_type: UInt64
+  field_name: ChildDCompVisual
+- field_type: UInt64
+  field_name: PreviousSiblingDCompVisual

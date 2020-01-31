@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1440'
+version: '0'
+event(fields): IpInterfaceInternetConnectivityStatus(UInt32 IfIndex, UInt32 CompartmentId,
+  UInt32 AddressFamily, UInt32 OldConnectivityStatus, UInt32 NewConnectivityStatus)
+opcode: ''
+keywords: ut:TcpipInterface
+task: IpInterfaceInternetConnectivityStatus
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: OldConnectivityStatus
+- field_type: UInt32
+  field_name: NewConnectivityStatus

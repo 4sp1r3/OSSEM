@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '308'
+version: '0'
+event(fields): AppXPackaging.Task.PackageReader.CacheFileStart(UnicodeString fileName,
+  UInt64 size, UInt32 compressionOption)
+opcode: Start
+keywords: ''
+task: AppXPackaging.Task.PackageReader.CacheFile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: fileName
+- field_type: UInt64
+  field_name: size
+- field_type: UInt32
+  field_name: compressionOption

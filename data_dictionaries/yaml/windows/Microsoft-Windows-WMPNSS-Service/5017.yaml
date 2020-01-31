@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '5017'
+version: '0'
+event(fields): Update_Requests_Oustanding(UInt32 RequestsOutstanding, UInt64 TimeContentRequestsBecameZero)
+opcode: ''
+keywords: ''
+task: Update_Requests_Oustanding
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestsOutstanding
+- field_type: UInt64
+  field_name: TimeContentRequestsBecameZero

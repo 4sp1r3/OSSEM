@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WABSyncProvider
+event_id: '15'
+version: '0'
+event(fields): EnumerateItemsStart()
+opcode: Start
+keywords: ''
+task: EnumerateItems
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

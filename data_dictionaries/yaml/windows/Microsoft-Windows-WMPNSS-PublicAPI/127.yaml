@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMPNSS-PublicAPI
+event_id: '127'
+version: '0'
+event(fields): setAuthorizationStateStop(UnicodeString MACAddress, Boolean Authorize,
+  UInt32 HResult)
+opcode: Stop
+keywords: ''
+task: setAuthorizationState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MACAddress
+- field_type: Boolean
+  field_name: Authorize
+- field_type: UInt32
+  field_name: HResult

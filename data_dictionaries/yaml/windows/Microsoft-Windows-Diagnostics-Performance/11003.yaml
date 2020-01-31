@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '11003'
+version: '0'
+event(fields): Standby_FailedTransition()
+opcode: ''
+keywords: StandbyStatus
+task: Standby_FailedTransition
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

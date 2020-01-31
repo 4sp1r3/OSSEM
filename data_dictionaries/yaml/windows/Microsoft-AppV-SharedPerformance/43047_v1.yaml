@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '43047'
+version: '1'
+event(fields): task_0Stop43047_V1()
+opcode: Stop
+keywords: ''
+task: task_0
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

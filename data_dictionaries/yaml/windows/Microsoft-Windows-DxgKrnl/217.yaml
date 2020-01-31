@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '217'
+version: '0'
+event(fields): DelayContextScheduling(Pointer hContext, Pointer hProcessId, UInt64
+  PreemptionTime, UInt64 SchedulingDelay)
+opcode: ''
+keywords: Base
+task: DelayContextScheduling
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: Pointer
+  field_name: hProcessId
+- field_type: UInt64
+  field_name: PreemptionTime
+- field_type: UInt64
+  field_name: SchedulingDelay

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '5002'
+version: '1'
+event(fields): ServiceStartupStop_V1()
+opcode: Stop
+keywords: ''
+task: ServiceStartup
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

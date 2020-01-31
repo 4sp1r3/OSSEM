@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBWitnessClient
+event_id: '12'
+version: '0'
+event(fields): task_012(UnicodeString NetName, UnicodeString WitnessServerIP)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: NetName
+- field_type: UnicodeString
+  field_name: WitnessServerIP

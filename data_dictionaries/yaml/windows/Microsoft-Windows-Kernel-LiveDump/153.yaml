@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-LiveDump
+event_id: '153'
+version: '0'
+event(fields): CapturePagesWorkflowMirroringPhase1End()
+opcode: MirroringPhase1End
+keywords: ''
+task: CapturePagesWorkflow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

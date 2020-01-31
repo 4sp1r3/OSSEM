@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '9'
+version: '0'
+event(fields): UIPISystemError(AnsiString UIPI_Trace_Header, UInt32 SysErrorType)
+opcode: ''
+keywords: UIPI
+task: UIPISystemError
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: UIPI_Trace_Header
+- field_type: UInt32
+  field_name: SysErrorType

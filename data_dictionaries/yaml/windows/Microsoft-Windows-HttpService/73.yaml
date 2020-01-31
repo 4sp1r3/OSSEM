@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HttpService
+event_id: '73'
+version: '0'
+event(fields): HTTPConnectionTraceTaskConnectionFlowFailed(Pointer Connection, Pointer
+  FlowHandle, UInt32 Status)
+opcode: ConnectionFlowFailed
+keywords: HTTP_KEYWORD_CONNECTION
+task: HTTPConnectionTraceTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: FlowHandle
+- field_type: UInt32
+  field_name: Status

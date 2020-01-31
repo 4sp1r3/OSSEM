@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '18'
+version: '0'
+event(fields): Hub_StartListeningStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: Hub_StartListening
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

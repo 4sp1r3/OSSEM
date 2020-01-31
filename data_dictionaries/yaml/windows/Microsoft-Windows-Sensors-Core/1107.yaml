@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1107'
+version: '0'
+event(fields): SensorsDefaultDeviceSelectionTask1107(UnicodeString Interface)
+opcode: ''
+keywords: ''
+task: SensorsDefaultDeviceSelectionTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Interface

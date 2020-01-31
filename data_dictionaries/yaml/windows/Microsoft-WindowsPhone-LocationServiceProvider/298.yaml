@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '298'
+version: '0'
+event(fields): CompositePE298(UInt32 UnreliablePositionAccuracy, UInt32 UnreliablePositionSourcePe,
+  UInt32 ReliablePositionAccuracy, UInt32 ReliablePositionSourcePe, UInt32 AcquireId)
+opcode: ''
+keywords: Selfhost CompositePe
+task: CompositePE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UnreliablePositionAccuracy
+- field_type: UInt32
+  field_name: UnreliablePositionSourcePe
+- field_type: UInt32
+  field_name: ReliablePositionAccuracy
+- field_type: UInt32
+  field_name: ReliablePositionSourcePe
+- field_type: UInt32
+  field_name: AcquireId

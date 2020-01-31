@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OobeLdr
+event_id: '1001'
+version: '0'
+event(fields): RunOobeLdrStart(UnicodeString CommandLine)
+opcode: Start
+keywords: keyPerformance keyword_200000000000
+task: RunOobeLdr
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CommandLine

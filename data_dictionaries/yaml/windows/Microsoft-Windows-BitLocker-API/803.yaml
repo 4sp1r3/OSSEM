@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '803'
+version: '0'
+event(fields): task_0803(GUID IdentificationGUID, UnicodeString VolumeName, UnicodeString
+  VolumeMountPoint, Int32 ExpectedKeyLength, Int32 ActualKeyLength)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IdentificationGUID
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UnicodeString
+  field_name: VolumeMountPoint
+- field_type: Int32
+  field_name: ExpectedKeyLength
+- field_type: Int32
+  field_name: ActualKeyLength

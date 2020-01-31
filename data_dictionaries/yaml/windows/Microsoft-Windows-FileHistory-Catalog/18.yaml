@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '18'
+version: '0'
+event(fields): GetFileRecordStop(Int32 id)
+opcode: Stop
+keywords: ''
+task: GetFileRecord
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: id

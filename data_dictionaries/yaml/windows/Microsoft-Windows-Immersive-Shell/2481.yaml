@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2481'
+version: '0'
+event(fields): PLM_TerminateApp_APIStop(UnicodeString AppUserModelId, UInt32 PendingTaskCompletions,
+  Boolean DeferredTerminate, UInt32 Result)
+opcode: Stop
+keywords: PLMComponent
+task: PLM_TerminateApp_API
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: PendingTaskCompletions
+- field_type: Boolean
+  field_name: DeferredTerminate
+- field_type: UInt32
+  field_name: Result

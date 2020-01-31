@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14062'
+version: '1'
+event(fields): CoordinateActivityStop_V1(UInt64 ActivityId)
+opcode: Stop
+keywords: ''
+task: CoordinateActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ActivityId

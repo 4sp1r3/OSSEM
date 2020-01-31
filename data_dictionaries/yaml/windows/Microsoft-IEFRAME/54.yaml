@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '54'
+version: '0'
+event(fields): LegacyHistoryEnumStart()
+opcode: Start
+keywords: primarynav
+task: LegacyHistoryEnum
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '7001'
+version: '0'
+event(fields): task_0Stop7001(UInt32 PolicyElaspedTimeInSeconds, UInt32 ErrorCode,
+  UnicodeString PrincipalSamName, Boolean IsMachine, Boolean IsConnectivityFailure)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PolicyElaspedTimeInSeconds
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: PrincipalSamName
+- field_type: Boolean
+  field_name: IsMachine
+- field_type: Boolean
+  field_name: IsConnectivityFailure

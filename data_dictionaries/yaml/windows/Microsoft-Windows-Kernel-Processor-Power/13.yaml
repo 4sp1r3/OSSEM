@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '13'
+version: '0'
+event(fields): ExpectedUtility(UInt64 PpmCheckTime, UInt32 IdleTimeInMs, UInt32 BusyTimeInMs,
+  UInt32 ExcessBusyTimeInMs, UInt32 Frequency, UInt16 Group, UInt8 Number)
+opcode: ''
+keywords: Diag
+task: ExpectedUtility
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PpmCheckTime
+- field_type: UInt32
+  field_name: IdleTimeInMs
+- field_type: UInt32
+  field_name: BusyTimeInMs
+- field_type: UInt32
+  field_name: ExcessBusyTimeInMs
+- field_type: UInt32
+  field_name: Frequency
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number

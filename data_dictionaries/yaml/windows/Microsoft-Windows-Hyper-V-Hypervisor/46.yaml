@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '46'
+version: '0'
+event(fields): task_046(HexInt32 MSRIndex, HexInt64 AllowedZeroes, HexInt64 AllowedOnes)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: MSRIndex
+- field_type: HexInt64
+  field_name: AllowedZeroes
+- field_type: HexInt64
+  field_name: AllowedOnes

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SMBWitnessClient
+event_id: '20'
+version: '0'
+event(fields): task_020(UnicodeString NetName, UnicodeString ShareName, UnicodeString
+  WitnessServerIP)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: NetName
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UnicodeString
+  field_name: WitnessServerIP

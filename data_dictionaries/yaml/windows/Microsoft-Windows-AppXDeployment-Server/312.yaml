@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '312'
+version: '0'
+event(fields): AppXDeployment.Task.Server.OSIM312(HexInt32 ErrorCode, UnicodeString
+  ErrorMessage)
+opcode: ''
+keywords: OSIM_KEYWORD
+task: AppXDeployment.Task.Server.OSIM
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

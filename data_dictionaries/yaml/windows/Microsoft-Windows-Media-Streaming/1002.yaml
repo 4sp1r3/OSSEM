@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '1002'
+version: '0'
+event(fields): DMR_RegisterAsDMRStart()
+opcode: Start
+keywords: ''
+task: DMR_RegisterAsDMR
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '103'
+version: '0'
+event(fields): SI_Request_Start_SyncStop()
+opcode: Stop
+keywords: ''
+task: SI_Request_Start_Sync
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

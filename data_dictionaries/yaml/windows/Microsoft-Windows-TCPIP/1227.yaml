@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1227'
+version: '0'
+event(fields): TcpRscNblOobInfo(Pointer Tcb, UInt16 CoalescedSegCount, UInt16 DupAckCount,
+  UInt32 RscTcpTimestampDelta, UInt16 HeaderFlags, UInt32 EcnCePresent)
+opcode: ''
+keywords: ut:ReceivePath
+task: TcpRscNblOobInfo
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt16
+  field_name: CoalescedSegCount
+- field_type: UInt16
+  field_name: DupAckCount
+- field_type: UInt32
+  field_name: RscTcpTimestampDelta
+- field_type: UInt16
+  field_name: HeaderFlags
+- field_type: UInt32
+  field_name: EcnCePresent

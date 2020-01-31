@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7208'
+version: '0'
+event(fields): ConnectedSearch_LogWebClickBGStop()
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_LogWebClickBG
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

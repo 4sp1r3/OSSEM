@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1592'
+version: '0'
+event(fields): ShellTask_CheckDiskDialog_DialogThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_CheckDiskDialog_DialogThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

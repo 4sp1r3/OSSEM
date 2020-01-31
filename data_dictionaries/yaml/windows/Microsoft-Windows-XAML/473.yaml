@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '473'
+version: '0'
+event(fields): ThreadedJobQueueSubmitJob(UInt64 ParentId, UInt64 ChildId)
+opcode: ''
+keywords: Core
+task: ThreadedJobQueueSubmitJob
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ParentId
+- field_type: UInt64
+  field_name: ChildId

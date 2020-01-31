@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '387'
+version: '0'
+event(fields): PROCESS_ATTRIBUTION(UInt32 DirtyPropagatedCount, UInt32 DirtyPropagated,
+  UInt32 DirtyGeneratedCount, UInt32 DirtyGenerated, UInt32 CompositorRenderedCount,
+  UInt32 CompositorRendered, UInt32 BatchesProcessedCount, UInt32 BatchesProcessed,
+  UInt32 KeyframeAnimationsCalculatedCount, UInt32 KeyframeAnimationsCalculated)
+opcode: ''
+keywords: WorkPerFrame
+task: PROCESS_ATTRIBUTION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DirtyPropagatedCount
+- field_type: UInt32
+  field_name: DirtyPropagated
+- field_type: UInt32
+  field_name: DirtyGeneratedCount
+- field_type: UInt32
+  field_name: DirtyGenerated
+- field_type: UInt32
+  field_name: CompositorRenderedCount
+- field_type: UInt32
+  field_name: CompositorRendered
+- field_type: UInt32
+  field_name: BatchesProcessedCount
+- field_type: UInt32
+  field_name: BatchesProcessed
+- field_type: UInt32
+  field_name: KeyframeAnimationsCalculatedCount
+- field_type: UInt32
+  field_name: KeyframeAnimationsCalculated

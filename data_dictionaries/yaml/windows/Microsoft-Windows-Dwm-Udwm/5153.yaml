@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5153'
+version: '0'
+event(fields): UdwmWindowDPIChange(Pointer hwnd, Int32 DPI, Int32 LogicalOriginX,
+  Int32 LogicalOriginY, Int32 PhysicalOriginX, Int32 PhysicalOriginY)
+opcode: ''
+keywords: Udwm
+task: UdwmWindowDPIChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwnd
+- field_type: Int32
+  field_name: DPI
+- field_type: Int32
+  field_name: LogicalOriginX
+- field_type: Int32
+  field_name: LogicalOriginY
+- field_type: Int32
+  field_name: PhysicalOriginX
+- field_type: Int32
+  field_name: PhysicalOriginY

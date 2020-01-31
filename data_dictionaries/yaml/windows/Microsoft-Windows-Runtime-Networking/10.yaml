@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '10'
+version: '0'
+event(fields): WebSocketConnectHTTPoperation10(UnicodeString str1, UnicodeString str2)
+opcode: HTTPoperation
+keywords: keywords.Http
+task: WebSocketConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str1
+- field_type: UnicodeString
+  field_name: str2

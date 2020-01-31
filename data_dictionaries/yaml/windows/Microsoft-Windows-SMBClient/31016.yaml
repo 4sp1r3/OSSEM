@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '31016'
+version: '0'
+event(fields): task_031016(UnicodeString RegName, UInt32 RegValue)
+opcode: ''
+keywords: Smb_Security
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RegName
+- field_type: UInt32
+  field_name: RegValue

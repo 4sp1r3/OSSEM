@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebIO
+event_id: '59999'
+version: '0'
+event(fields): WebIODebug(UInt16 Length, AnsiString Message)
+opcode: ''
+keywords: ''
+task: WebIODebug
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Length
+- field_type: AnsiString
+  field_name: Message

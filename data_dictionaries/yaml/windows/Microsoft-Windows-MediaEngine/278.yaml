@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '278'
+version: '0'
+event(fields): MediaFoundationPresent_DelayStop(Pointer object, UInt32 Delay, Int64
+  TimeToDeadline, UInt32 Location)
+opcode: Stop
+keywords: ''
+task: MediaFoundationPresent_Delay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: Delay
+- field_type: Int64
+  field_name: TimeToDeadline
+- field_type: UInt32
+  field_name: Location

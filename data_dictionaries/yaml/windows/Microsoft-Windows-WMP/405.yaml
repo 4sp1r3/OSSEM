@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '405'
+version: '0'
+event(fields): WMPSyncTranscodeMatrixUsingtheASFtranscodematrix()
+opcode: UsingtheASFtranscodematrix
+keywords: mediaplayer
+task: WMPSyncTranscodeMatrix
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '134'
+version: '0'
+event(fields): DCOMPEVENT_ANIMATION_INITIAL_VALUE(UInt64 animationPointer, UInt64
+  resourcePointer, UInt32 propertyId, Float initialValue)
+opcode: ''
+keywords: DwmCore
+task: DCOMPEVENT_ANIMATION_INITIAL_VALUE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: animationPointer
+- field_type: UInt64
+  field_name: resourcePointer
+- field_type: UInt32
+  field_name: propertyId
+- field_type: Float
+  field_name: initialValue

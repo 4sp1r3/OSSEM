@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '12503'
+version: '0'
+event(fields): task_012503(UInt32 IdleTime)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IdleTime

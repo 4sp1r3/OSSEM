@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager
+event_id: '4107'
+version: '1'
+event(fields): ValidaterequestinFileDownloadManager4107_V1(UnicodeString GeneratedChecksum,
+  UnicodeString ExpectedChecksum, UnicodeString FileName)
+opcode: ''
+keywords: ''
+task: ValidaterequestinFileDownloadManager
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: GeneratedChecksum
+- field_type: UnicodeString
+  field_name: ExpectedChecksum
+- field_type: UnicodeString
+  field_name: FileName

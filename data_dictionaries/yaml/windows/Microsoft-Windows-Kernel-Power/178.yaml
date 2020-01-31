@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '178'
+version: '0'
+event(fields): BackgroundActivityPolicyUpdate(UInt32 PreviousPolicy, UInt32 NewPolicy)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: BackgroundActivityPolicyUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PreviousPolicy
+- field_type: UInt32
+  field_name: NewPolicy

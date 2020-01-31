@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '12038'
+version: '1'
+event(fields): ConnectTobeusedwhenoperationisjustexecutingamethod12038_V1(UnicodeString
+  uri, UnicodeString shell, UnicodeString userName, UnicodeString opentimeout, UnicodeString
+  idletimeout, UnicodeString canceltimeout, UInt32 auth, UnicodeString thumbPrint,
+  UnicodeString redircount, UnicodeString recvdDataSize, UnicodeString recvdObjSize)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: Runspace
+task: Connect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: uri
+- field_type: UnicodeString
+  field_name: shell
+- field_type: UnicodeString
+  field_name: userName
+- field_type: UnicodeString
+  field_name: opentimeout
+- field_type: UnicodeString
+  field_name: idletimeout
+- field_type: UnicodeString
+  field_name: canceltimeout
+- field_type: UInt32
+  field_name: auth
+- field_type: UnicodeString
+  field_name: thumbPrint
+- field_type: UnicodeString
+  field_name: redircount
+- field_type: UnicodeString
+  field_name: recvdDataSize
+- field_type: UnicodeString
+  field_name: recvdObjSize

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '67'
+version: '0'
+event(fields): ReserveResourceStart(UInt32 SegmentId, Pointer hAllocationGlobalHandle,
+  UInt64 MinAddress, UInt64 MaxAddress, Boolean NoEvict, UInt32 TrimmingPriorityLimit,
+  UInt32 Restriction, UInt32 ProcessCommittedState)
+opcode: Start
+keywords: Base
+task: ReserveResource
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SegmentId
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt64
+  field_name: MinAddress
+- field_type: UInt64
+  field_name: MaxAddress
+- field_type: Boolean
+  field_name: NoEvict
+- field_type: UInt32
+  field_name: TrimmingPriorityLimit
+- field_type: UInt32
+  field_name: Restriction
+- field_type: UInt32
+  field_name: ProcessCommittedState

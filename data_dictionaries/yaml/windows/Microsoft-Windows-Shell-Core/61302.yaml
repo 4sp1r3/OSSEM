@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61302'
+version: '0'
+event(fields): Shell32_DiscImage_MountVerbStart()
+opcode: Start
+keywords: Shell
+task: Shell32_DiscImage_MountVerb
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

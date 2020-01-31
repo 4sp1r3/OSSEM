@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10028'
+version: '0'
+event(fields): PnP10028(GUID MiniportIfGuid, UInt32 MiniportIfIndex, UInt64 MiniportNetLuid,
+  GUID FilterIfGuid, UInt32 FilterIfIndex, UInt64 FilterNetLuid, HexInt32 OriginalMediaType,
+  HexInt32 NewMediaType)
+opcode: ''
+keywords: PnP
+task: PnP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: MiniportIfGuid
+- field_type: UInt32
+  field_name: MiniportIfIndex
+- field_type: UInt64
+  field_name: MiniportNetLuid
+- field_type: GUID
+  field_name: FilterIfGuid
+- field_type: UInt32
+  field_name: FilterIfIndex
+- field_type: UInt64
+  field_name: FilterNetLuid
+- field_type: HexInt32
+  field_name: OriginalMediaType
+- field_type: HexInt32
+  field_name: NewMediaType

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '520'
+version: '0'
+event(fields): task_0520(HexInt32 ErrorCode, GUID VolumeGUID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: GUID
+  field_name: VolumeGUID

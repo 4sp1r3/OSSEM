@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-OOBE-Machine-DUI
+event_id: '5121'
+version: '0'
+event(fields): SettingWizardPage_BooleanSettingOptionSelected(UInt32 DWORD, Boolean
+  Bool)
+opcode: ''
+keywords: msoobe
+task: SettingWizardPage_BooleanSettingOptionSelected
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DWORD
+- field_type: Boolean
+  field_name: Bool

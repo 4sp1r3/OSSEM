@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '332'
+version: '0'
+event(fields): ValueIndexSeekStop(UnicodeString SeekType, UInt32 Result)
+opcode: Stop
+keywords: Indexing Querying
+task: ValueIndexSeek
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SeekType
+- field_type: UInt32
+  field_name: Result

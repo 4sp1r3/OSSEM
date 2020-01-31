@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '11'
+version: '0'
+event(fields): FreeMemory(UInt32 DataType, Pointer Address)
+opcode: ''
+keywords: CodePath
+task: FreeMemory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DataType
+- field_type: Pointer
+  field_name: Address

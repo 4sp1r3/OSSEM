@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '20'
+version: '0'
+event(fields): MFPlayStart20(Pointer Object, Float Rate)
+opcode: Start
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Float
+  field_name: Rate

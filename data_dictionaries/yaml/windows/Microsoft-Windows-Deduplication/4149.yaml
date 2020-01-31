@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '4149'
+version: '0'
+event(fields): task_04149(UnicodeString Param1, UnicodeString Context, UnicodeString
+  DebugInfo)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Param1
+- field_type: UnicodeString
+  field_name: Context
+- field_type: UnicodeString
+  field_name: DebugInfo

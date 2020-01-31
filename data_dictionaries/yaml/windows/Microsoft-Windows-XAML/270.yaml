@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '270'
+version: '0'
+event(fields): UIThreadTextRasterizeWaitStart()
+opcode: Start
+keywords: Rendering
+task: UIThreadTextRasterizeWait
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

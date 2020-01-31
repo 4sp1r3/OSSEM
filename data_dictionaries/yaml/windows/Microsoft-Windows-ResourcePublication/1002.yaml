@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ResourcePublication
+event_id: '1002'
+version: '0'
+event(fields): task_01002(UnicodeString Argument)
+opcode: ''
+keywords: core
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Argument

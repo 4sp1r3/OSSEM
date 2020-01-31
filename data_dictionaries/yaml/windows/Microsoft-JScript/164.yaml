@@ -1,0 +1,22 @@
+provider: Microsoft-JScript
+event_id: '164'
+version: '0'
+event(fields): Jscript_StackTrace(UInt64 OperationId, UInt16 FrameCount, UInt32 FrameNameBufferCount,
+  UnicodeString FrameNameBuffer, Int16 Frames)
+opcode: ''
+keywords: JScriptStackTrace
+task: Jscript_StackTrace
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OperationId
+- field_type: UInt16
+  field_name: FrameCount
+- field_type: UInt32
+  field_name: FrameNameBufferCount
+- field_type: UnicodeString
+  field_name: FrameNameBuffer
+- field_type: Int16
+  field_name: Frames

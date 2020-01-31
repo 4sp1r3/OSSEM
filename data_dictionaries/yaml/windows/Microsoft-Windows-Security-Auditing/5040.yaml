@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5040'
+version: '0'
+event(fields): task_05040(UnicodeString ProfileChanged, UnicodeString AuthenticationSetId,
+  UnicodeString AuthenticationSetName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProfileChanged
+- field_type: UnicodeString
+  field_name: AuthenticationSetId
+- field_type: UnicodeString
+  field_name: AuthenticationSetName

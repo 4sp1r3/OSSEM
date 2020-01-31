@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '73'
+version: '0'
+event(fields): Manipulation_ParametricMotionStart(Pointer content, UInt32 targetMotionType,
+  UInt32 sourceMotionType, UInt32 curveCount)
+opcode: Start
+keywords: ''
+task: Manipulation_ParametricMotion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: content
+- field_type: UInt32
+  field_name: targetMotionType
+- field_type: UInt32
+  field_name: sourceMotionType
+- field_type: UInt32
+  field_name: curveCount

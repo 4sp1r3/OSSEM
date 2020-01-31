@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '426'
+version: '0'
+event(fields): PagingOpSaveRestoreFrameBuffer426(Pointer pDxgAdapter, UInt32 Offset,
+  UInt32 Size)
+opcode: ''
+keywords: Resource
+task: PagingOpSaveRestoreFrameBuffer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: Offset
+- field_type: UInt32
+  field_name: Size

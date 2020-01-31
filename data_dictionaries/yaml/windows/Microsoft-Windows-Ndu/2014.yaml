@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Ndu
+event_id: '2014'
+version: '0'
+event(fields): PerInterfaceStats2014(UInt64 _IfLuid, UInt32 _ProfileId, UInt64 _BytesSent,
+  UInt64 _BytesRecvd, Boolean _IsCosted)
+opcode: ''
+keywords: KeywordNduLwtPerMinuteInterfaceStats
+task: PerInterfaceStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: _IfLuid
+- field_type: UInt32
+  field_name: _ProfileId
+- field_type: UInt64
+  field_name: _BytesSent
+- field_type: UInt64
+  field_name: _BytesRecvd
+- field_type: Boolean
+  field_name: _IsCosted

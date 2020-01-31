@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1030'
+version: '0'
+event(fields): task_01030(UInt16 ServerNameLength, UnicodeString ServerName, UInt16
+  ShareNameLength, UnicodeString ShareName, UInt16 FileNameLength, UnicodeString FileName,
+  Boolean IsRead, HexInt32 Status)
+opcode: ''
+keywords: Operational
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: Boolean
+  field_name: IsRead
+- field_type: HexInt32
+  field_name: Status

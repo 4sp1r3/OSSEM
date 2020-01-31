@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7094'
+version: '0'
+event(fields): Perf_LocalCreateCollectionStop(UnicodeString CollectionId, UInt32 HRESULT)
+opcode: Stop
+keywords: ''
+task: Perf_LocalCreateCollection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UInt32
+  field_name: HRESULT

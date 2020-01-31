@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '225'
+version: '0'
+event(fields): CSearchCrawlScopeManager_IncludedInCrawlScopeExStop(UInt32 hr, Boolean
+  IsIncluded, UInt32 Reason)
+opcode: Stop
+keywords: CSM
+task: CSearchCrawlScopeManager_IncludedInCrawlScopeEx
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr
+- field_type: Boolean
+  field_name: IsIncluded
+- field_type: UInt32
+  field_name: Reason

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '87'
+version: '0'
+event(fields): KeyboardEventHandling()
+opcode: ''
+keywords: Perf OOPIME
+task: KeyboardEventHandling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

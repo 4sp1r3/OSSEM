@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-LiveDump
+event_id: '203'
+version: '0'
+event(fields): LiveDumpWriteDeferredDumpDataAPIDumpFileWriteStart()
+opcode: DumpFileWriteStart
+keywords: ''
+task: LiveDumpWriteDeferredDumpDataAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

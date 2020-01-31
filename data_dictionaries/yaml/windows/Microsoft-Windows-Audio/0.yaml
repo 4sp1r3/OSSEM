@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Audio
+event_id: '0'
+version: '0'
+event(fields): AudioServer_Fail_Service_Device(UInt32 Event, UnicodeString EventName,
+  UInt32 hr)
+opcode: ''
+keywords: ''
+task: AudioServer_Fail_Service_Device
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Event
+- field_type: UnicodeString
+  field_name: EventName
+- field_type: UInt32
+  field_name: hr

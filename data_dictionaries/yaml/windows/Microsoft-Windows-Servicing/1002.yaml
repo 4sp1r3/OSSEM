@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Servicing
+event_id: '1002'
+version: '0'
+event(fields): task_01002(UnicodeString identifier, UnicodeString releaseType, UnicodeString
+  packageStateLoc, UnicodeString packageState, UnicodeString packageAssembly, UnicodeString
+  operation, UnicodeString operationCompleted, UnicodeString errorCode, UnicodeString
+  rebootOption, UnicodeString missingElements)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: identifier
+- field_type: UnicodeString
+  field_name: releaseType
+- field_type: UnicodeString
+  field_name: packageStateLoc
+- field_type: UnicodeString
+  field_name: packageState
+- field_type: UnicodeString
+  field_name: packageAssembly
+- field_type: UnicodeString
+  field_name: operation
+- field_type: UnicodeString
+  field_name: operationCompleted
+- field_type: UnicodeString
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: rebootOption
+- field_type: UnicodeString
+  field_name: missingElements

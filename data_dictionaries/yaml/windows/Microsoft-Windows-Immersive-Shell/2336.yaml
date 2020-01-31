@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2336'
+version: '0'
+event(fields): Launcher_ScenarioStop(UInt32 ScenarioId, UnicodeString ScenarioName)
+opcode: Stop
+keywords: ''
+task: Launcher_Scenario
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScenarioId
+- field_type: UnicodeString
+  field_name: ScenarioName

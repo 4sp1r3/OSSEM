@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-StorageManagement-WSP-Health
+event_id: '8451'
+version: '0'
+event(fields): Health8451(UnicodeString Parameter1)
+opcode: ''
+keywords: ''
+task: Health
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Parameter1

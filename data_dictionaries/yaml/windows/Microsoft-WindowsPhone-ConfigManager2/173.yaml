@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '173'
+version: '0'
+event(fields): CNodeWrapper_CommitStop173(UInt32 Result)
+opcode: Stop
+keywords: Error Performance Trace
+task: CNodeWrapper_Commit
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

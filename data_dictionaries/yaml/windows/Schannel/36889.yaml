@@ -1,0 +1,20 @@
+provider: Schannel
+event_id: '36889'
+version: '0'
+event(fields): task_036889(UnicodeString Type, HexInt32 ErrorCode, UInt32 __binLength,
+  Binary CredContext)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Type
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: CredContext

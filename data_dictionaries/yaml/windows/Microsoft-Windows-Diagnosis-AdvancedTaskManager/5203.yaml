@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5203'
+version: '0'
+event(fields): PerfTrack_TM8_TabSwitchStop(UInt32 TabId)
+opcode: Stop
+keywords: ''
+task: PerfTrack_TM8_TabSwitch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabId

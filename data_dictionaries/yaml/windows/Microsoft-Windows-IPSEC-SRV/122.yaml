@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IPSEC-SRV
+event_id: '122'
+version: '0'
+event(fields): IPSEC_BFE_FilterAddStop()
+opcode: Stop
+keywords: PolicyAgent
+task: IPSEC_BFE_FilterAdd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

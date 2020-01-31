@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wired-AutoConfig
+event_id: '15511'
+version: '0'
+event(fields): task_015511()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

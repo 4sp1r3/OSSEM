@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '15034'
+version: '0'
+event(fields): Common_RegisterEnumerationStop()
+opcode: Stop
+keywords: ''
+task: Common_RegisterEnumeration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

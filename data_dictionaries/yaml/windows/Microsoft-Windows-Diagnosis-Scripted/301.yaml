@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Diagnosis-Scripted
+event_id: '301'
+version: '0'
+event(fields): task_0301(UnicodeString FunctionName, Int32 LineNumber, UInt32 ErrorCode)
+opcode: ''
+keywords: debug
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FunctionName
+- field_type: Int32
+  field_name: LineNumber
+- field_type: UInt32
+  field_name: ErrorCode

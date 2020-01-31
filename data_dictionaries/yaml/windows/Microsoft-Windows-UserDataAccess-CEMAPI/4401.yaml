@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4401'
+version: '0'
+event(fields): MSG_CREATEATTACHStop()
+opcode: Stop
+keywords: Performance
+task: MSG_CREATEATTACH
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3809'
+version: '0'
+event(fields): RoutingServiceMessageRoutedToEndpoints(UnicodeString data1, UnicodeString
+  data2, UnicodeString AppDomain)
+opcode: RoutedToEndpoints
+keywords: RoutingServices
+task: RoutingServiceMessage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: data2
+- field_type: UnicodeString
+  field_name: AppDomain

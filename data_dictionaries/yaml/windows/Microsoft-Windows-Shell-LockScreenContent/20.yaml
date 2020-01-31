@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-LockScreenContent
+event_id: '20'
+version: '0'
+event(fields): LockScreenContent_Manager_InitializeStart()
+opcode: Start
+keywords: LockScreenContent
+task: LockScreenContent_Manager_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

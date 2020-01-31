@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1307'
+version: '0'
+event(fields): MFDS_StateStart(Pointer Object, Int32 State)
+opcode: Start
+keywords: ''
+task: MFDS_State
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: State

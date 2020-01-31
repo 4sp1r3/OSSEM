@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Crypto-RSAEnh
+event_id: '7'
+version: '0'
+event(fields): SetSecurityOnContainer(UnicodeString ProcessName, UnicodeString FileName,
+  UInt32 ProviderType, Boolean MachineKeyset, UInt32 SecurityInformation, Boolean
+  AppContainer, UInt32 Status, UnicodeString ErrorDescription)
+opcode: ''
+keywords: ''
+task: SetSecurityOnContainer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: ProviderType
+- field_type: Boolean
+  field_name: MachineKeyset
+- field_type: UInt32
+  field_name: SecurityInformation
+- field_type: Boolean
+  field_name: AppContainer
+- field_type: UInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: ErrorDescription

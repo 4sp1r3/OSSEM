@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HttpService
+event_id: '18'
+version: '0'
+event(fields): HTTPSetupTraceTaskResvUrl(UnicodeString Url, UInt32 ReserveStatus)
+opcode: ResvUrl
+keywords: HTTP_KEYWORD_SETUP
+task: HTTPSetupTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Url
+- field_type: UInt32
+  field_name: ReserveStatus

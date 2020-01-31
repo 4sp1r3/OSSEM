@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1804'
+version: '0'
+event(fields): IDXGIDevice3_TrimStart(Pointer pDXGIDevice)
+opcode: Start
+keywords: Devices
+task: IDXGIDevice3_Trim
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDXGIDevice

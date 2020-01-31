@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17101'
+version: '0'
+event(fields): Shake_MinimizeStart()
+opcode: Start
+keywords: Shell
+task: Shake_Minimize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18801'
+version: '0'
+event(fields): Shell32_CopyEngine_FileOperationStart()
+opcode: Start
+keywords: CopyEngine
+task: Shell32_CopyEngine_FileOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MF
+event_id: '1021'
+version: '0'
+event(fields): MediaFoundationHandleMediaSample_ProcessStop(Pointer Bitpump, UInt32
+  hr)
+opcode: Stop
+keywords: ''
+task: MediaFoundationHandleMediaSample_Process
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Bitpump
+- field_type: UInt32
+  field_name: hr

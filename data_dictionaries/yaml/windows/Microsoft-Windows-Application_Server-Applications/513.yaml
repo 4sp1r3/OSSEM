@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '513'
+version: '0'
+event(fields): WebHostRequestStart(UnicodeString AppDomainFriendlyName, UnicodeString
+  VirtualPath, UnicodeString AppDomain)
+opcode: Start
+keywords: WebHost
+task: WebHostRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomainFriendlyName
+- field_type: UnicodeString
+  field_name: VirtualPath
+- field_type: UnicodeString
+  field_name: AppDomain

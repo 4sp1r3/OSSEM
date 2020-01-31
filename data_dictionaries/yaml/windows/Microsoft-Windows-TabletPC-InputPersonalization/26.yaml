@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '26'
+version: '0'
+event(fields): IPS_SHAPECOLLECTOR_LaunchStop()
+opcode: Stop
+keywords: ''
+task: IPS_SHAPECOLLECTOR_Launch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

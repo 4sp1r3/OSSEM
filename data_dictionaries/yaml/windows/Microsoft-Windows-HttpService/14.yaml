@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HttpService
+event_id: '14'
+version: '0'
+event(fields): HTTPRequestTraceTaskLastSndError(UInt64 RequestId, UInt16 HttpStatus)
+opcode: LastSndError
+keywords: HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE
+task: HTTPRequestTraceTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RequestId
+- field_type: UInt16
+  field_name: HttpStatus

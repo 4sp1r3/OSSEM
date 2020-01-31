@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '82'
+version: '0'
+event(fields): AudStreamSink_InternalGetTime_TaskStop(Pointer object, Int32 hResult,
+  Int64 phnsTimeNow, Int64 phnsCorrelatedTime)
+opcode: Stop
+keywords: ''
+task: AudStreamSink_InternalGetTime_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: hResult
+- field_type: Int64
+  field_name: phnsTimeNow
+- field_type: Int64
+  field_name: phnsCorrelatedTime

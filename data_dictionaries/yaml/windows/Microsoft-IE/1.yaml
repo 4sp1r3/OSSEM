@@ -1,0 +1,24 @@
+provider: Microsoft-IE
+event_id: '1'
+version: '0'
+event(fields): Mshtml_CDoc_OnPaintStart(Pointer DOC, Pointer Markup, Int32 left, Int32
+  top, Int32 right, Int32 bottom)
+opcode: Start
+keywords: primarynav pageloadbreakdown
+task: Mshtml_CDoc_OnPaint
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DOC
+- field_type: Pointer
+  field_name: Markup
+- field_type: Int32
+  field_name: left
+- field_type: Int32
+  field_name: top
+- field_type: Int32
+  field_name: right
+- field_type: Int32
+  field_name: bottom

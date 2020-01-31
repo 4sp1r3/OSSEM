@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-EFS
+event_id: '4419'
+version: '0'
+event(fields): task_04419(HexInt32 ThreadId, AnsiString File, UInt32 LineNumber, HexInt32
+  HRESULT, UnicodeString Message)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ThreadId
+- field_type: AnsiString
+  field_name: File
+- field_type: UInt32
+  field_name: LineNumber
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: UnicodeString
+  field_name: Message

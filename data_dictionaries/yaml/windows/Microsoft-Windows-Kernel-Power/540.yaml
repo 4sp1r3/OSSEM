@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '540'
+version: '0'
+event(fields): DirectedDripsInitialization(UInt32 EnableResult, UInt32 InitializationResult)
+opcode: ''
+keywords: po:Diagnostic
+task: DirectedDripsInitialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EnableResult
+- field_type: UInt32
+  field_name: InitializationResult

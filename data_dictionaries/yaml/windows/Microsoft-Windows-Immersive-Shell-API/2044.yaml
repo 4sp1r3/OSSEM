@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2044'
+version: '0'
+event(fields): CoreApplicationQuiesceWaitForAppResume(UInt32 ThreadId)
+opcode: ''
+keywords: ''
+task: CoreApplicationQuiesceWaitForAppResume
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ThreadId

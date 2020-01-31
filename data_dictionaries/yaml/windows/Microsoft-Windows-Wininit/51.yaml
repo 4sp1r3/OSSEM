@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wininit
+event_id: '51'
+version: '0'
+event(fields): NtShutdownSystem()
+opcode: ''
+keywords: PerfInstrumentation
+task: NtShutdownSystem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

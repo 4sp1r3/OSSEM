@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61376'
+version: '0'
+event(fields): FileAccessAPI_StreamAccess_CommitStart()
+opcode: Start
+keywords: Shell
+task: FileAccessAPI_StreamAccess_Commit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

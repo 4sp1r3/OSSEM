@@ -1,0 +1,132 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '1043'
+version: '0'
+event(fields): HostControllerDeviceDataInformation(50 fid_USBPORT_HC, UInt32 fid_HcSuspendedFlag,
+  UInt32 fid_SuspendHcNotHalted, UInt32 fid_HostSystemErrorCount, UInt32 fid_HostSystemErrorResetNeeded,
+  UInt32 fid_StatAsyncEnableCount, UInt32 fid_StatAsyncDisableCount, UInt32 fid_StatPeriodicEnableCount,
+  UInt32 fid_StatPeriodicDisableCount, UInt32 fid_StatAsyncEnableTimeoutCount, UInt32
+  fid_StatAsyncDisableTimeoutCount, UInt32 fid_StatPeriodicEnableTimeoutCount, UInt32
+  fid_StatPeriodicDisableTimeoutCount, UInt32 fid_StatRingDoorbellDisabledCount, UInt32
+  fid_StatRingDoorbellDisablingCount, UInt32 fid_StatRingDoorbellEnablingCount, UInt32
+  fid_StatRingDoorbellEnabledCount, UInt32 fid_StatRingDoorbellHwRemovedCount, UInt32
+  fid_StatAnswerDoorbell, UInt32 fid_StatAsyncCacheFlushIdle, UInt32 fid_StatAsyncCacheFlushNormal,
+  UInt32 fid_StatAsyncCacheFlushRetry, UInt32 fid_StatIntOnAsyncAdvancePendingCount,
+  UInt32 fid_StatIntOnAsyncAdvanceSyncRoutineCount, UInt32 fid_StatRingDoorbellEnabledWithRetryCount,
+  UInt32 fid_StatRingDoorbellEnabledWithRetryIgnoredCount, UInt32 fid_StatAsyncCacheFlushPrevented,
+  UInt32 fid_CurrentRingDoorbellDisablingTimerCount, UInt32 fid_CurrentRingDoorbellEnablingTimerCount,
+  UInt32 fid_CurrentRingDoorbellEnabledTimerCount, UInt32 fid_CurrentIntOnAsyncAdvancePendingCount,
+  UInt32 fid_StatResetNeededCount, UInt32 fid_ResetNeeded, UInt32 fid_ResetRecoveryEnable,
+  UInt32 fid_ResetRecoveryBreak, UInt32 fid_AsyncScheduleState, UInt32 fid_AsyncDoorbellState,
+  UInt32 fid_PeriodicScheduleState, UInt32 fid_EhciInternalFlags, UInt8 fid_PreventCmdChangesWithDoorbellPending,
+  UInt8 fid_OptimizeInactiveQhFlush, UInt8 fid_DisableTwoDoorbellWorkaround, UInt8
+  fid_StrictTransitionChecksEnabled, UInt8 fid_IntegratedTTSupportRegistryOverride,
+  UInt32 fid_CurrentAsyncEnableCount, UInt32 fid_InitialDoorbellRetryEnableValue,
+  UInt32 fid_CurrentDoorbellRetryEnableValue, UInt32 fid_DoorbellRetryRequired, UInt32
+  fid_PeriodicEnableChangeWithDoorbellPending, UInt32 fid_PeriodicDisableChangeWithDoorbellPending)
+opcode: Information
+keywords: Diagnostic
+task: HostControllerDeviceData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: '50'
+  field_name: fid_USBPORT_HC
+- field_type: UInt32
+  field_name: fid_HcSuspendedFlag
+- field_type: UInt32
+  field_name: fid_SuspendHcNotHalted
+- field_type: UInt32
+  field_name: fid_HostSystemErrorCount
+- field_type: UInt32
+  field_name: fid_HostSystemErrorResetNeeded
+- field_type: UInt32
+  field_name: fid_StatAsyncEnableCount
+- field_type: UInt32
+  field_name: fid_StatAsyncDisableCount
+- field_type: UInt32
+  field_name: fid_StatPeriodicEnableCount
+- field_type: UInt32
+  field_name: fid_StatPeriodicDisableCount
+- field_type: UInt32
+  field_name: fid_StatAsyncEnableTimeoutCount
+- field_type: UInt32
+  field_name: fid_StatAsyncDisableTimeoutCount
+- field_type: UInt32
+  field_name: fid_StatPeriodicEnableTimeoutCount
+- field_type: UInt32
+  field_name: fid_StatPeriodicDisableTimeoutCount
+- field_type: UInt32
+  field_name: fid_StatRingDoorbellDisabledCount
+- field_type: UInt32
+  field_name: fid_StatRingDoorbellDisablingCount
+- field_type: UInt32
+  field_name: fid_StatRingDoorbellEnablingCount
+- field_type: UInt32
+  field_name: fid_StatRingDoorbellEnabledCount
+- field_type: UInt32
+  field_name: fid_StatRingDoorbellHwRemovedCount
+- field_type: UInt32
+  field_name: fid_StatAnswerDoorbell
+- field_type: UInt32
+  field_name: fid_StatAsyncCacheFlushIdle
+- field_type: UInt32
+  field_name: fid_StatAsyncCacheFlushNormal
+- field_type: UInt32
+  field_name: fid_StatAsyncCacheFlushRetry
+- field_type: UInt32
+  field_name: fid_StatIntOnAsyncAdvancePendingCount
+- field_type: UInt32
+  field_name: fid_StatIntOnAsyncAdvanceSyncRoutineCount
+- field_type: UInt32
+  field_name: fid_StatRingDoorbellEnabledWithRetryCount
+- field_type: UInt32
+  field_name: fid_StatRingDoorbellEnabledWithRetryIgnoredCount
+- field_type: UInt32
+  field_name: fid_StatAsyncCacheFlushPrevented
+- field_type: UInt32
+  field_name: fid_CurrentRingDoorbellDisablingTimerCount
+- field_type: UInt32
+  field_name: fid_CurrentRingDoorbellEnablingTimerCount
+- field_type: UInt32
+  field_name: fid_CurrentRingDoorbellEnabledTimerCount
+- field_type: UInt32
+  field_name: fid_CurrentIntOnAsyncAdvancePendingCount
+- field_type: UInt32
+  field_name: fid_StatResetNeededCount
+- field_type: UInt32
+  field_name: fid_ResetNeeded
+- field_type: UInt32
+  field_name: fid_ResetRecoveryEnable
+- field_type: UInt32
+  field_name: fid_ResetRecoveryBreak
+- field_type: UInt32
+  field_name: fid_AsyncScheduleState
+- field_type: UInt32
+  field_name: fid_AsyncDoorbellState
+- field_type: UInt32
+  field_name: fid_PeriodicScheduleState
+- field_type: UInt32
+  field_name: fid_EhciInternalFlags
+- field_type: UInt8
+  field_name: fid_PreventCmdChangesWithDoorbellPending
+- field_type: UInt8
+  field_name: fid_OptimizeInactiveQhFlush
+- field_type: UInt8
+  field_name: fid_DisableTwoDoorbellWorkaround
+- field_type: UInt8
+  field_name: fid_StrictTransitionChecksEnabled
+- field_type: UInt8
+  field_name: fid_IntegratedTTSupportRegistryOverride
+- field_type: UInt32
+  field_name: fid_CurrentAsyncEnableCount
+- field_type: UInt32
+  field_name: fid_InitialDoorbellRetryEnableValue
+- field_type: UInt32
+  field_name: fid_CurrentDoorbellRetryEnableValue
+- field_type: UInt32
+  field_name: fid_DoorbellRetryRequired
+- field_type: UInt32
+  field_name: fid_PeriodicEnableChangeWithDoorbellPending
+- field_type: UInt32
+  field_name: fid_PeriodicDisableChangeWithDoorbellPending

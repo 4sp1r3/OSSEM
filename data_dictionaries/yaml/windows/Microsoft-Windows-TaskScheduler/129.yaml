@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '129'
+version: '0'
+event(fields): CreatedTaskProcess(UnicodeString TaskName, UnicodeString Path, UInt32
+  ProcessID, UInt32 Priority)
+opcode: ''
+keywords: ''
+task: CreatedTaskProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: UInt32
+  field_name: Priority

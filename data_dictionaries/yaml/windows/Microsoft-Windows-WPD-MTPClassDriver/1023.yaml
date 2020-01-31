@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1023'
+version: '0'
+event(fields): DeviceError1023(UInt32 ID, UInt32 Offset)
+opcode: ''
+keywords: ''
+task: DeviceError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ID
+- field_type: UInt32
+  field_name: Offset

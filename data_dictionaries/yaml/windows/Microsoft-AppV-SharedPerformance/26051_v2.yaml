@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '26051'
+version: '2'
+event(fields): loadfiletask.Stop_V2()
+opcode: Stop
+keywords: ''
+task: loadfiletask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

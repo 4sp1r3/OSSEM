@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '1000'
+version: '0'
+event(fields): AddressConfigurationStateEventLostIpAddress(UInt32 Address, UInt32
+  HWLength, Binary HWAddress)
+opcode: LostIpAddress
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Address
+- field_type: UInt32
+  field_name: HWLength
+- field_type: Binary
+  field_name: HWAddress

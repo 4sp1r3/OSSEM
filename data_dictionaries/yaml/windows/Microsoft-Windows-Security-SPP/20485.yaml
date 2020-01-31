@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-SPP
+event_id: '20485'
+version: '0'
+event(fields): task_0PCODE_192pcode_19220485()
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4613'
+version: '0'
+event(fields): CONVERSATIONID_CREATEHASHStop()
+opcode: Stop
+keywords: Performance
+task: CONVERSATIONID_CREATEHASH
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

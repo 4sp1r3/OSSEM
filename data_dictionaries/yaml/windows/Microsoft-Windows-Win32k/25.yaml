@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Win32k
+event_id: '25'
+version: '0'
+event(fields): UserActive(UInt32 SessionId, UInt32 ProcessIdOwningFocus, FILETIME
+  ProcessCreateTimeOwningFocus)
+opcode: ''
+keywords: UserActivity
+task: UserActive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ProcessIdOwningFocus
+- field_type: FILETIME
+  field_name: ProcessCreateTimeOwningFocus

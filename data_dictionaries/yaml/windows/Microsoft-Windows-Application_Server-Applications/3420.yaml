@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3420'
+version: '0'
+event(fields): Connect3420(UnicodeString errorMessage, UnicodeString AppDomain)
+opcode: ''
+keywords: HTTP
+task: Connect
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: errorMessage
+- field_type: UnicodeString
+  field_name: AppDomain

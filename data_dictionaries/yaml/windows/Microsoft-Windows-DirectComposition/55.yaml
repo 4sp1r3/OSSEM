@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '55'
+version: '0'
+event(fields): VISUAL_SET_INTERACTION(UInt32 Channel, UInt32 visualHandle, UInt32
+  interactionHandle, UInt64 visualAndChannelHandle, UInt64 interactionAndChannelHandle)
+opcode: ''
+keywords: DCompInput
+task: VISUAL_SET_INTERACTION
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Channel
+- field_type: UInt32
+  field_name: visualHandle
+- field_type: UInt32
+  field_name: interactionHandle
+- field_type: UInt64
+  field_name: visualAndChannelHandle
+- field_type: UInt64
+  field_name: interactionAndChannelHandle

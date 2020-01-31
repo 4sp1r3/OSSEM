@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2041'
+version: '0'
+event(fields): PeriodicPollStart(UnicodeString AppUserModelID, UInt32 NotificationType,
+  GUID TimerId)
+opcode: Start
+keywords: wpnend
+task: PeriodicPoll
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelID
+- field_type: UInt32
+  field_name: NotificationType
+- field_type: GUID
+  field_name: TimerId

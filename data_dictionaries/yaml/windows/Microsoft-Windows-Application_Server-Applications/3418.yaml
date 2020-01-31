@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3418'
+version: '0'
+event(fields): ConnectStop3418(Int32 websocketId, UnicodeString AppDomain)
+opcode: Stop
+keywords: HTTP
+task: Connect
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: websocketId
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4436'
+version: '0'
+event(fields): WorkQueue:ExecuteStop(Pointer WorkQueuePointer, UInt32 WorkQueueID,
+  Pointer AsyncResult, Boolean LongRunning)
+opcode: Stop
+keywords: ''
+task: WorkQueue:Execute
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WorkQueuePointer
+- field_type: UInt32
+  field_name: WorkQueueID
+- field_type: Pointer
+  field_name: AsyncResult
+- field_type: Boolean
+  field_name: LongRunning

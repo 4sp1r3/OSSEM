@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Network-DataUsage
+event_id: '1002'
+version: '0'
+event(fields): CreateHelperStop()
+opcode: Stop
+keywords: ''
+task: CreateHelper
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1143'
+version: '0'
+event(fields): DataLayer_GetRowFromHROWStop()
+opcode: Stop
+keywords: SearchPerf
+task: DataLayer_GetRowFromHROW
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

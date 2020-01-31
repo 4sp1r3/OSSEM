@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '29'
+version: '0'
+event(fields): Windows_Runtime_BrokeredGetActivationFactoryStart()
+opcode: Start
+keywords: ''
+task: Windows_Runtime_BrokeredGetActivationFactory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

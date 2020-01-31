@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '260'
+version: '0'
+event(fields): ProcessIdleTasksStart(Pointer Object)
+opcode: Start
+keywords: ''
+task: ProcessIdleTasks
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

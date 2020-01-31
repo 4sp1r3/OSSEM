@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuth
+event_id: '1401'
+version: '0'
+event(fields): MetaTag1401(UnicodeString Url)
+opcode: ''
+keywords: AuthHost
+task: MetaTag
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Url

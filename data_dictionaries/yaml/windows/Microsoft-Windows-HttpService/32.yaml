@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-HttpService
+event_id: '32'
+version: '0'
+event(fields): HTTPConfigurationPropertyTraceTaskRemUrl(UInt64 UrlGroupId, UnicodeString
+  Url)
+opcode: RemUrl
+keywords: HTTP_KEYWORD_URL_GROUP
+task: HTTPConfigurationPropertyTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UrlGroupId
+- field_type: UnicodeString
+  field_name: Url

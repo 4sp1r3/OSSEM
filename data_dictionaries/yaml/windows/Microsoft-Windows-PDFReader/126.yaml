@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '126'
+version: '0'
+event(fields): ApplicationRehydrateStart()
+opcode: Start
+keywords: Reader
+task: ApplicationRehydrate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '55'
+version: '0'
+event(fields): DirectUI_RichTextRenderTextStart()
+opcode: Start
+keywords: Default
+task: DirectUI_RichTextRenderText
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

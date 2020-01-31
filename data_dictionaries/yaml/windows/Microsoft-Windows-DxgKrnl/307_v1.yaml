@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '307'
+version: '1'
+event(fields): PagingOpVirtualFill_V1(Pointer pDxgAdapter, Pointer hDmaBuffer, Boolean
+  ContinueNextBuffer, Pointer hAllocationGlobalHandle, UInt64 AllocationOffset, UInt64
+  FillSize, UInt32 FillPattern, UInt32 SegmentId, UInt64 DestinationVirtualAddress,
+  UInt64 SegmentOffset)
+opcode: ''
+keywords: Resource
+task: PagingOpVirtualFill
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: hDmaBuffer
+- field_type: Boolean
+  field_name: ContinueNextBuffer
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt64
+  field_name: AllocationOffset
+- field_type: UInt64
+  field_name: FillSize
+- field_type: UInt32
+  field_name: FillPattern
+- field_type: UInt32
+  field_name: SegmentId
+- field_type: UInt64
+  field_name: DestinationVirtualAddress
+- field_type: UInt64
+  field_name: SegmentOffset

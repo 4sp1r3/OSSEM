@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10085'
+version: '0'
+event(fields): task_010085(UInt32 Status, UInt32 Initialized, UInt32 State, UInt32
+  Counter, UInt32 LocalSendConfirm, UInt32 PeerSendConfirm)
+opcode: ''
+keywords: AssocMgr ut:L2ConnectPath
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Initialized
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Counter
+- field_type: UInt32
+  field_name: LocalSendConfirm
+- field_type: UInt32
+  field_name: PeerSendConfirm

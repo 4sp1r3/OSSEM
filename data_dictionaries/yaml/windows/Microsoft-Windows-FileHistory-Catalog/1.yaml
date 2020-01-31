@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '1'
+version: '0'
+event(fields): AttachStart(UnicodeString CatalogPath, UnicodeString CatalogPath2,
+  Int32 ReadOnly)
+opcode: Start
+keywords: ''
+task: Attach
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CatalogPath
+- field_type: UnicodeString
+  field_name: CatalogPath2
+- field_type: Int32
+  field_name: ReadOnly

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '32'
+version: '0'
+event(fields): Dictation_CommandStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: Dictation_Command
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

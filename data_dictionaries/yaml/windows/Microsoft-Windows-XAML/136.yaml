@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '136'
+version: '0'
+event(fields): ProcessAlphaModeUpdateStart(UInt32 Transparent)
+opcode: Start
+keywords: Rendering
+task: ProcessAlphaModeUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Transparent

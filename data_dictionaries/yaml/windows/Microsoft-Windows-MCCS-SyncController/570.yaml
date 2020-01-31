@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '570'
+version: '0'
+event(fields): task_0570(HexInt32 Prop_Dword_1, UInt32 EngineGuid, UInt32 WorkType)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_Dword_1
+- field_type: UInt32
+  field_name: EngineGuid
+- field_type: UInt32
+  field_name: WorkType

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '1004'
+version: '1'
+event(fields): Creationofanewdriverhostprocess.Stop_V1(GUID LifetimeId, UInt32 FinalStatus)
+opcode: Stop
+keywords: ''
+task: Creationofanewdriverhostprocess.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId
+- field_type: UInt32
+  field_name: FinalStatus

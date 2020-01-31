@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1218'
+version: '0'
+event(fields): RdClientRADCworkspaceThiseventisraisedwhenADALauthenticationiscancelled.()
+opcode: ThiseventisraisedwhenADALauthenticationiscancelled.
+keywords: ''
+task: RdClientRADCworkspace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

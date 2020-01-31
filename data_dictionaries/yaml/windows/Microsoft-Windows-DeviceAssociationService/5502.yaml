@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DeviceAssociationService
+event_id: '5502'
+version: '0'
+event(fields): das_QueryStart5502(Pointer DasContext)
+opcode: Start
+keywords: DeviceAssociationService query
+task: das_Query
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DasContext

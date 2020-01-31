@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-PLA
+event_id: '5001'
+version: '0'
+event(fields): task_05001(UInt32 BuildNumber, AnsiString BuildType)
+opcode: ''
+keywords: transaction
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BuildNumber
+- field_type: AnsiString
+  field_name: BuildType

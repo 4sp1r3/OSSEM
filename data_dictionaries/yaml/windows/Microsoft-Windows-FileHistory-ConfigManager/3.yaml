@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-ConfigManager
+event_id: '3'
+version: '0'
+event(fields): ProvisionAndSetTargetStart(UnicodeString TargetUrl)
+opcode: Start
+keywords: ''
+task: ProvisionAndSetTarget
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TargetUrl

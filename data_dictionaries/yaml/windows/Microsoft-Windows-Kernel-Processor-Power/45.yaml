@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '45'
+version: '0'
+event(fields): BiosTStatesRundown(UInt16 Group, UInt8 Number, UInt8 FadtDutyWidth,
+  UInt8 FadtDutyOffset, UInt32 Tpc, UInt32 TStateVersionInUse, UInt64 PtcControl,
+  GUID PtcStatus, UInt32 StateCount, HexInt32 TssStates)
+opcode: ''
+keywords: Diag PowerDiagnostics
+task: BiosTStatesRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt8
+  field_name: FadtDutyWidth
+- field_type: UInt8
+  field_name: FadtDutyOffset
+- field_type: UInt32
+  field_name: Tpc
+- field_type: UInt32
+  field_name: TStateVersionInUse
+- field_type: UInt64
+  field_name: PtcControl
+- field_type: GUID
+  field_name: PtcStatus
+- field_type: UInt32
+  field_name: StateCount
+- field_type: HexInt32
+  field_name: TssStates

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DXGI
+event_id: '180'
+version: '0'
+event(fields): IDXGISwapChain_GetBufferStart(Pointer pThis, UInt32 iBuffer, GUID Interface,
+  Pointer ppSurface)
+opcode: Start
+keywords: ''
+task: IDXGISwapChain_GetBuffer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: iBuffer
+- field_type: GUID
+  field_name: Interface
+- field_type: Pointer
+  field_name: ppSurface

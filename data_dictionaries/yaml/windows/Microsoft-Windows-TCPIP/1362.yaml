@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1362'
+version: '0'
+event(fields): IpAddressWolStateChange(UInt32 Interface, UInt32 IpAddrLength, Binary
+  IPAddress, UInt32 WoLEvent, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipCsDiag
+task: IpAddressWolStateChange
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: Binary
+  field_name: IPAddress
+- field_type: UInt32
+  field_name: WoLEvent
+- field_type: UInt32
+  field_name: Status

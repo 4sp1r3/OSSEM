@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '3028'
+version: '0'
+event(fields): task_03028(Pointer Function)
+opcode: ''
+keywords: Unified_Store RPC
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Function

@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1012'
+version: '0'
+event(fields): CellRPCHandler1012()
+opcode: ''
+keywords: Error
+task: CellRPCHandler
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AAD
+event_id: '1224'
+version: '0'
+event(fields): AuthHelperStart1224()
+opcode: Start
+keywords: Analytic
+task: AuthHelper
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Containers-Wcnfs
+event_id: '1'
+version: '0'
+event(fields): task_0(HexInt32 NTStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: NTStatus

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OfflineFiles
+event_id: '1007'
+version: '0'
+event(fields): task_01007(UnicodeString Path)
+opcode: ''
+keywords: CscEvtKeywd_Transition
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path

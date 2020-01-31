@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppID
+event_id: '4001'
+version: '0'
+event(fields): task_0(UInt16 FilePathLength, UnicodeString FilePathBuffer, HexInt32
+  Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FilePathLength
+- field_type: UnicodeString
+  field_name: FilePathBuffer
+- field_type: HexInt32
+  field_name: Status

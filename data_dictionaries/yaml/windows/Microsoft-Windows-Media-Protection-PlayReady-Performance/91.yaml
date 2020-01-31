@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '91'
+version: '0'
+event(fields): CBlackboxWithTEEIsSystemPropertySetStop(Pointer Object, Boolean Flag)
+opcode: Stop
+keywords: ''
+task: CBlackboxWithTEEIsSystemPropertySet
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Boolean
+  field_name: Flag

@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '150'
+version: '0'
+event(fields): FavoritesBar_WriteLinksCacheStop(UInt32 LinkCount)
+opcode: Stop
+keywords: primarynav
+task: FavoritesBar_WriteLinksCache
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LinkCount

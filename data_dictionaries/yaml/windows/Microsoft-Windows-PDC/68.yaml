@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDC
+event_id: '68'
+version: '0'
+event(fields): PdcStateChange(UInt32 NewState, UInt32 OldState)
+opcode: ''
+keywords: Cs
+task: PdcStateChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NewState
+- field_type: UInt32
+  field_name: OldState

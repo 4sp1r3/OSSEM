@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1000'
+version: '0'
+event(fields): WININET_TEST_EVENT(UInt8 _TestStr0Length, AnsiString TestStr0, UInt16
+  _TestStr1Length, AnsiString TestStr1, UInt32 _TestStr2Length, AnsiString TestStr2,
+  UInt8 _TestStr0WLength, UnicodeString TestStr0W, UInt16 _TestStr1WLength, UnicodeString
+  TestStr1W, UInt32 _TestStr2WLength, UnicodeString TestStr2W, UInt16 TestStrLength,
+  AnsiString TestStr, UInt16 TestStrWLength, UnicodeString TestStrW)
+opcode: ''
+keywords: WININET_KEYWORD_CONNECTION
+task: WININET_TEST_EVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: _TestStr0Length
+- field_type: AnsiString
+  field_name: TestStr0
+- field_type: UInt16
+  field_name: _TestStr1Length
+- field_type: AnsiString
+  field_name: TestStr1
+- field_type: UInt32
+  field_name: _TestStr2Length
+- field_type: AnsiString
+  field_name: TestStr2
+- field_type: UInt8
+  field_name: _TestStr0WLength
+- field_type: UnicodeString
+  field_name: TestStr0W
+- field_type: UInt16
+  field_name: _TestStr1WLength
+- field_type: UnicodeString
+  field_name: TestStr1W
+- field_type: UInt32
+  field_name: _TestStr2WLength
+- field_type: UnicodeString
+  field_name: TestStr2W
+- field_type: UInt16
+  field_name: TestStrLength
+- field_type: AnsiString
+  field_name: TestStr
+- field_type: UInt16
+  field_name: TestStrWLength
+- field_type: UnicodeString
+  field_name: TestStrW

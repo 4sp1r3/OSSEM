@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60709'
+version: '0'
+event(fields): Shell32_CDesktopBrowser_Slideshow_Tick_Manual(UInt32 ErrorCode)
+opcode: ''
+keywords: Shell
+task: Shell32_CDesktopBrowser_Slideshow_Tick_Manual
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

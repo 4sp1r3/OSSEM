@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-ReadyBoost
+event_id: '1029'
+version: '1'
+event(fields): HybridDrive1029_V1(UInt32 HbdrvSpeedTestResult, UInt32 DiskSeqReadKbps,
+  UInt32 DiskSeqWriteKbps, UInt32 FlashSeqReadKbps, UInt32 FlashSeqWriteKbps, UInt32
+  FlashRndReadKbps, UInt32 ErrorCode)
+opcode: ''
+keywords: ReadyBoost
+task: HybridDrive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HbdrvSpeedTestResult
+- field_type: UInt32
+  field_name: DiskSeqReadKbps
+- field_type: UInt32
+  field_name: DiskSeqWriteKbps
+- field_type: UInt32
+  field_name: FlashSeqReadKbps
+- field_type: UInt32
+  field_name: FlashSeqWriteKbps
+- field_type: UInt32
+  field_name: FlashRndReadKbps
+- field_type: UInt32
+  field_name: ErrorCode

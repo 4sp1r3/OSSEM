@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4201'
+version: '0'
+event(fields): SqlCommandExecuteStop(UnicodeString data1, UnicodeString AppDomain)
+opcode: Stop
+keywords: WFInstanceStore
+task: SqlCommandExecute
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

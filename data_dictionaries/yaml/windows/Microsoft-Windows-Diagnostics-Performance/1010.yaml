@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '1010'
+version: '0'
+event(fields): Boot_TroubleshootingStart()
+opcode: Start
+keywords: BootStatus
+task: Boot_Troubleshooting
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

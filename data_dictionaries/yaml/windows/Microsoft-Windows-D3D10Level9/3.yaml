@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-D3D10Level9
+event_id: '3'
+version: '0'
+event(fields): UnderlyingResourceDCStart(Pointer D3D10Level9Resource, Pointer m_hDX9Resource,
+  UInt32 Usage)
+opcode: DC_Start
+keywords: Resources
+task: UnderlyingResource
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: D3D10Level9Resource
+- field_type: Pointer
+  field_name: m_hDX9Resource
+- field_type: UInt32
+  field_name: Usage

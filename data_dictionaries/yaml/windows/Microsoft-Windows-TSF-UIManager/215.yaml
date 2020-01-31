@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '215'
+version: '0'
+event(fields): CommandingUI_ContextMenuCanceled()
+opcode: ''
+keywords: TSF_UIManager
+task: CommandingUI_ContextMenuCanceled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

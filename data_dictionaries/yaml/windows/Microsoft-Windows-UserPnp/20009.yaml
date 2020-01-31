@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '20009'
+version: '0'
+event(fields): PnP_PlugPlay_DeviceInstall20009(UInt32 RebootTime)
+opcode: ''
+keywords: ''
+task: PnP_PlugPlay_DeviceInstall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RebootTime

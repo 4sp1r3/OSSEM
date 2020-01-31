@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60803'
+version: '0'
+event(fields): ShellLib_DUIControls_CandidateList_DataSourceChanged(UInt32 Value)
+opcode: ''
+keywords: Controls
+task: ShellLib_DUIControls_CandidateList_DataSourceChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

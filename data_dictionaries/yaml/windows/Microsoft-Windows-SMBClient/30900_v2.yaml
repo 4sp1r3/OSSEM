@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30900'
+version: '2'
+event(fields): task_030900_V2(Pointer Object, UInt64 PersistentFID, UInt64 VolatileFID,
+  GUID CreateGUID, UInt16 OldState, UInt16 NewState, UInt32 Status, UInt32 Reason,
+  UInt16 ShareNameLength, UnicodeString ShareName, UInt16 ObjectNameLength, UnicodeString
+  ObjectName, UInt32 PreviousStatus, UInt32 PreviousReason)
+opcode: ''
+keywords: Smb_TFO
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt64
+  field_name: PersistentFID
+- field_type: UInt64
+  field_name: VolatileFID
+- field_type: GUID
+  field_name: CreateGUID
+- field_type: UInt16
+  field_name: OldState
+- field_type: UInt16
+  field_name: NewState
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt16
+  field_name: ObjectNameLength
+- field_type: UnicodeString
+  field_name: ObjectName
+- field_type: UInt32
+  field_name: PreviousStatus
+- field_type: UInt32
+  field_name: PreviousReason

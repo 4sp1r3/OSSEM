@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18791'
+version: '0'
+event(fields): CDesktopBrowser_WallpaperAnimation_CleanupStart()
+opcode: Start
+keywords: Shell
+task: CDesktopBrowser_WallpaperAnimation_Cleanup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

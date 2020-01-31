@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '43079'
+version: '1'
+event(fields): DeserializeManifest_4300Stop_V1()
+opcode: Stop
+keywords: ''
+task: DeserializeManifest_4300
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

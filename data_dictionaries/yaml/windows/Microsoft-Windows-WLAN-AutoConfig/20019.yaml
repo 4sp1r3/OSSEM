@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '20019'
+version: '0'
+event(fields): AuthenticatethepeersassociatedtothehostednetworkStart(GUID InterfaceGuid,
+  UnicodeString InterfaceDescription, UnicodeString SSID, UnicodeString LocalMAC,
+  UnicodeString PeerMAC)
+opcode: Start
+keywords: SOFTAP MSAM ut:Authentication
+task: Authenticatethepeersassociatedtothehostednetwork
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: LocalMAC
+- field_type: UnicodeString
+  field_name: PeerMAC

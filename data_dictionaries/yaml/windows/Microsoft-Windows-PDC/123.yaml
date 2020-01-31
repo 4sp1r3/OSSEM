@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PDC
+event_id: '123'
+version: '0'
+event(fields): PdcPhaseNotificationsStateChanged(UInt8 Phase, UInt8 PreviousState,
+  UInt8 NewState)
+opcode: ''
+keywords: Cs CsDiag
+task: PdcPhaseNotificationsStateChanged
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Phase
+- field_type: UInt8
+  field_name: PreviousState
+- field_type: UInt8
+  field_name: NewState

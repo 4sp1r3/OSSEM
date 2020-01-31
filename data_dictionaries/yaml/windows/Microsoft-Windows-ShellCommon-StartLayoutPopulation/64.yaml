@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '64'
+version: '0'
+event(fields): LayoutXMLParseFailure(UnicodeString value)
+opcode: ''
+keywords: ''
+task: LayoutXMLParseFailure
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value

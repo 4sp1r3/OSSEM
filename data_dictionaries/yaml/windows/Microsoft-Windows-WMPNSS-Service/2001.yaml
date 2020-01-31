@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '2001'
+version: '0'
+event(fields): Svc_Is_AuthorizedStart(Boolean IsDeviceGiven, Boolean IsDeviceAuthorized,
+  UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Svc_Is_Authorized
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsDeviceGiven
+- field_type: Boolean
+  field_name: IsDeviceAuthorized
+- field_type: UInt32
+  field_name: ErrorCode

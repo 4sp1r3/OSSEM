@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DSC
+event_id: '4305'
+version: '0'
+event(fields): task_04305(UnicodeString JobId, UnicodeString Name, UnicodeString FullyQualifiedErrorId,
+  UnicodeString ErrorMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: FullyQualifiedErrorId
+- field_type: UnicodeString
+  field_name: ErrorMessage

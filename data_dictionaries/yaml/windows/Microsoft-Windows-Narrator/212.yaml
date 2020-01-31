@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '212'
+version: '0'
+event(fields): AutomationEventProcessingEnqueuedStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: AutomationEventProcessingEnqueued
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

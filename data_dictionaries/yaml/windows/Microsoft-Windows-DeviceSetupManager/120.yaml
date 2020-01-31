@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '120'
+version: '0'
+event(fields): task_0120(UnicodeString Prop_PackageId, Int64 Prop_MilliSeconds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_PackageId
+- field_type: Int64
+  field_name: Prop_MilliSeconds

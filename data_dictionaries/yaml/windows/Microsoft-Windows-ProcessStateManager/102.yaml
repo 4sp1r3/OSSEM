@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-ProcessStateManager
+event_id: '102'
+version: '0'
+event(fields): RundownDCStop(UInt64 ApplicationId, UInt32 SessionId, UnicodeString
+  PsmKey, UInt32 State, UInt32 Flags, UInt32 PlmRequestedPriority, UInt32 EffectivePriority,
+  UInt64 CycleTime, UInt64 NetworkTokens)
+opcode: DC_Stop
+keywords: Rundown
+task: Rundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ApplicationId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: PlmRequestedPriority
+- field_type: UInt32
+  field_name: EffectivePriority
+- field_type: UInt64
+  field_name: CycleTime
+- field_type: UInt64
+  field_name: NetworkTokens

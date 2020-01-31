@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '111'
+version: '0'
+event(fields): task_0111(Int32 P1_UInt32, UnicodeString P2_String)
+opcode: ''
+keywords: Error
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: P1_UInt32
+- field_type: UnicodeString
+  field_name: P2_String

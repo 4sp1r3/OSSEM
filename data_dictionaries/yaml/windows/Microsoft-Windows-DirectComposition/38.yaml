@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '38'
+version: '0'
+event(fields): CAP_ALLOCATION_STATS(UInt32 ChannelHandle, UInt32 LastCommittedBatchId,
+  UInt64 largeSurfacesTotalAllocated, UInt64 largeSurfacesInUseAllocated, UInt64 largeSurfacesInUseActual,
+  UInt64 largeSurfacesPeakInUseActual, UInt64 largeSurfacesAllowed, UInt64 poolsTotalAllocated,
+  UInt64 poolsInUseAllocated, UInt64 poolsInUseActual, UInt64 poolsPeakInUseActual,
+  UInt64 poolsAllowed, UInt64 largeSurfacesPendingRelease, UInt64 poolsPendingRelease,
+  UInt64 largeSurfacesMaxStructuralWaste, UInt64 poolsMaxStructuralWaste)
+opcode: ''
+keywords: DCompDiagnostic DCompMemory
+task: CAP_ALLOCATION_STATS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ChannelHandle
+- field_type: UInt32
+  field_name: LastCommittedBatchId
+- field_type: UInt64
+  field_name: largeSurfacesTotalAllocated
+- field_type: UInt64
+  field_name: largeSurfacesInUseAllocated
+- field_type: UInt64
+  field_name: largeSurfacesInUseActual
+- field_type: UInt64
+  field_name: largeSurfacesPeakInUseActual
+- field_type: UInt64
+  field_name: largeSurfacesAllowed
+- field_type: UInt64
+  field_name: poolsTotalAllocated
+- field_type: UInt64
+  field_name: poolsInUseAllocated
+- field_type: UInt64
+  field_name: poolsInUseActual
+- field_type: UInt64
+  field_name: poolsPeakInUseActual
+- field_type: UInt64
+  field_name: poolsAllowed
+- field_type: UInt64
+  field_name: largeSurfacesPendingRelease
+- field_type: UInt64
+  field_name: poolsPendingRelease
+- field_type: UInt64
+  field_name: largeSurfacesMaxStructuralWaste
+- field_type: UInt64
+  field_name: poolsMaxStructuralWaste

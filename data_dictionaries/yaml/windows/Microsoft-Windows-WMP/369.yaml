@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WMP
+event_id: '369'
+version: '0'
+event(fields): RME_CLIENT_ON_LIVE_MACHINE_DISCOVERY(UnicodeString DeviceID, UnicodeString
+  ObjectID)
+opcode: ''
+keywords: mediaplayer
+task: RME_CLIENT_ON_LIVE_MACHINE_DISCOVERY
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceID
+- field_type: UnicodeString
+  field_name: ObjectID

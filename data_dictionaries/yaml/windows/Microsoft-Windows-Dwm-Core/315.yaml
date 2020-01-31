@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '315'
+version: '0'
+event(fields): ENDFRAME_HW_DRAWLIST_CACHE_STATS(UInt32 HwDrawListCachesInvalidated,
+  UInt32 HwDrawListCachesUpdated)
+opcode: ''
+keywords: DwmCore
+task: ENDFRAME_HW_DRAWLIST_CACHE_STATS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HwDrawListCachesInvalidated
+- field_type: UInt32
+  field_name: HwDrawListCachesUpdated

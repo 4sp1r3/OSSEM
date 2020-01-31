@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6205'
+version: '0'
+event(fields): Thumbnails_CacheLookupStart()
+opcode: Start
+keywords: Shell
+task: Thumbnails_CacheLookup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

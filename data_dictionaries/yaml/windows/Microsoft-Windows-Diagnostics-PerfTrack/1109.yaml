@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '1109'
+version: '0'
+event(fields): IdleDetection_Disk_OpenedDisk(UnicodeString DevicePath)
+opcode: ''
+keywords: PerfTrackStatus
+task: IdleDetection_Disk_OpenedDisk
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DevicePath

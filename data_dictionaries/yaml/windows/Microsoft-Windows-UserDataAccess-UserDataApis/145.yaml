@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '145'
+version: '0'
+event(fields): task_0145(UInt32 Prop_UInt_1)
+opcode: ''
+keywords: SmsIntercept
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_UInt_1

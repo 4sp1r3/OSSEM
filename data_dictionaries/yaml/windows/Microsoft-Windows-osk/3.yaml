@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-osk
+event_id: '3'
+version: '0'
+event(fields): LaunchOptionsDlgStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: LaunchOptionsDlg
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

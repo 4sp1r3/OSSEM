@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '618'
+version: '0'
+event(fields): Find_HighlightHits_PerftrackStop(UInt64 Object)
+opcode: Stop
+keywords: ''
+task: Find_HighlightHits_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

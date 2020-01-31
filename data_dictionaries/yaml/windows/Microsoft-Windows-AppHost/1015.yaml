@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1015'
+version: '0'
+event(fields): Telemetry.WERReportingStart()
+opcode: Start
+keywords: WwaHost
+task: Telemetry.WERReporting
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

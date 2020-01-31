@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20914'
+version: '0'
+event(fields): UserTile_DynamicTile_InitStart()
+opcode: Start
+keywords: Shell
+task: UserTile_DynamicTile_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

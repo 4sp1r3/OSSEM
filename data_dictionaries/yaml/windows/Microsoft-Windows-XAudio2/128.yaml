@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAudio2
+event_id: '128'
+version: '0'
+event(fields): ProcessingStop()
+opcode: Stop
+keywords: ''
+task: Processing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5151'
+version: '0'
+event(fields): UdwmSystemAnimation5151(Int32 StoryboardId, Int32 TargetId, UInt32
+  VisualHandle, UInt32 EffectGroupHandle, UInt32 Transform3DGroupHandle, UInt32 TranslateTransform3DHandle,
+  UInt32 ScaleTransform3DHandle, UInt32 RotateTransform3DHandle, Pointer Channel)
+opcode: ''
+keywords: Udwm
+task: UdwmSystemAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: StoryboardId
+- field_type: Int32
+  field_name: TargetId
+- field_type: UInt32
+  field_name: VisualHandle
+- field_type: UInt32
+  field_name: EffectGroupHandle
+- field_type: UInt32
+  field_name: Transform3DGroupHandle
+- field_type: UInt32
+  field_name: TranslateTransform3DHandle
+- field_type: UInt32
+  field_name: ScaleTransform3DHandle
+- field_type: UInt32
+  field_name: RotateTransform3DHandle
+- field_type: Pointer
+  field_name: Channel

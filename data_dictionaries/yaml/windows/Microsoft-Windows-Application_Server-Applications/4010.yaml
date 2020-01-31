@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4010'
+version: '0'
+event(fields): ActivationDispatchSession(UnicodeString Uri, Int32 count, UnicodeString
+  AppDomain)
+opcode: ''
+keywords: ActivationServices
+task: ActivationDispatchSession
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Uri
+- field_type: Int32
+  field_name: count
+- field_type: UnicodeString
+  field_name: AppDomain

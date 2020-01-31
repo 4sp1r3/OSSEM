@@ -1,0 +1,20 @@
+provider: Microsoft-IEFRAME
+event_id: '419'
+version: '0'
+event(fields): Browseui_Tabs_ShowHungTabBarStop(UInt32 TabID, UnicodeString BarText,
+  UnicodeString ButtonText, UInt32 Mode)
+opcode: Stop
+keywords: hang
+task: Browseui_Tabs_ShowHungTabBar
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID
+- field_type: UnicodeString
+  field_name: BarText
+- field_type: UnicodeString
+  field_name: ButtonText
+- field_type: UInt32
+  field_name: Mode

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18007'
+version: '0'
+event(fields): Shdocvw_PanningTool_ScrollElementByStart()
+opcode: Start
+keywords: Shell
+task: Shdocvw_PanningTool_ScrollElementBy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

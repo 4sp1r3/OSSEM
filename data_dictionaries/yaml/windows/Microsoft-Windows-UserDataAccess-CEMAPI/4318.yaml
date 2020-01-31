@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4318'
+version: '0'
+event(fields): CTX_ADVISEStart()
+opcode: Start
+keywords: Performance
+task: CTX_ADVISE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

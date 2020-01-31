@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Security-Kerberos
+event_id: '302'
+version: '0'
+event(fields): task_0302(UnicodeString DomainController, UnicodeString TargetDomain,
+  UInt32 DesiredFlags, UInt32 CacheFlags, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DomainController
+- field_type: UnicodeString
+  field_name: TargetDomain
+- field_type: UInt32
+  field_name: DesiredFlags
+- field_type: UInt32
+  field_name: CacheFlags
+- field_type: UInt32
+  field_name: ErrorCode

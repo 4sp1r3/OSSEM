@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '6002'
+version: '0'
+event(fields): Actions_InvokeMenuStop(UInt64 ItemType, UInt32 MenuId)
+opcode: Stop
+keywords: ui
+task: Actions_InvokeMenu
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ItemType
+- field_type: UInt32
+  field_name: MenuId

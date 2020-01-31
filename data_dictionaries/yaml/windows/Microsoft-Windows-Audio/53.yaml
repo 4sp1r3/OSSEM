@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Audio
+event_id: '53'
+version: '0'
+event(fields): AudioSrv_EVT_VOLUME_LIMIT_PUBLISH_WNF_AVLC_STATE(Pointer objectpointer)
+opcode: ''
+keywords: ''
+task: AudioSrv_EVT_VOLUME_LIMIT_PUBLISH_WNF_AVLC_STATE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objectpointer

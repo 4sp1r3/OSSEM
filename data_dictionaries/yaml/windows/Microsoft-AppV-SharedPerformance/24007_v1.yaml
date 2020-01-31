@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '24007'
+version: '1'
+event(fields): PublishingStop_V1()
+opcode: Stop
+keywords: ''
+task: Publishing
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

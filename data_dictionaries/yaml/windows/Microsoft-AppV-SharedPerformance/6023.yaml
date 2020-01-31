@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6023'
+version: '0'
+event(fields): CancelLoadStop6023(UnicodeString str)
+opcode: Stop
+keywords: ''
+task: CancelLoad
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str

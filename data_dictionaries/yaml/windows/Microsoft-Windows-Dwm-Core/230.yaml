@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '230'
+version: '0'
+event(fields): DETECT_REMOTEAPPMODE_SWITCH(UInt32 bIsFullScreenRemoting, UInt32 bIsModeHiDef,
+  UInt32 IsModeDesktopBitmapRemoting)
+opcode: ''
+keywords: DwmCore
+task: DETECT_REMOTEAPPMODE_SWITCH
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: bIsFullScreenRemoting
+- field_type: UInt32
+  field_name: bIsModeHiDef
+- field_type: UInt32
+  field_name: IsModeDesktopBitmapRemoting

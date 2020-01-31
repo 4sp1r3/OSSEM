@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPD-CompositeClassDriver
+event_id: '203'
+version: '0'
+event(fields): TransportManagement203(GUID InterfaceGUID, UnicodeString ReferenceString)
+opcode: ''
+keywords: ''
+task: TransportManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGUID
+- field_type: UnicodeString
+  field_name: ReferenceString

@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '11'
+version: '0'
+event(fields): task_0Republishingcontent_makingcontentavailabletoothersinthebranchoffice.(UInt32
+  CacheSize)
+opcode: Republishingcontent_makingcontentavailabletoothersinthebranchoffice.
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CacheSize

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '13'
+version: '0'
+event(fields): FreeFoundValueStop()
+opcode: Stop
+keywords: APIs Profiling
+task: FreeFoundValue
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

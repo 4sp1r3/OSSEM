@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '213'
+version: '0'
+event(fields): ElementSetName(UInt64 ElementId, UnicodeString Name)
+opcode: ''
+keywords: Detailed
+task: ElementSetName
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UnicodeString
+  field_name: Name

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '10006'
+version: '1'
+event(fields): ControllerRun_604Stop_V1()
+opcode: Stop
+keywords: ''
+task: ControllerRun_604
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

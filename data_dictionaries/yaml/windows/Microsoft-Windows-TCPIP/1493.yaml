@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1493'
+version: '0'
+event(fields): IpReassembly(UInt32 Ce, UInt32 Ect0, UInt32 Ect1, UInt32 NotEct)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:ReceivePath
+task: IpReassembly
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Ce
+- field_type: UInt32
+  field_name: Ect0
+- field_type: UInt32
+  field_name: Ect1
+- field_type: UInt32
+  field_name: NotEct

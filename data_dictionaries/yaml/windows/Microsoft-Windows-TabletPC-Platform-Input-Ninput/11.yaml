@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '11'
+version: '0'
+event(fields): NinputSendWmGestureGlobalStart(UInt32 ContactsDownCount, UInt32 PacketsInContactCount,
+  UInt32 HistoryPacketsInContactCount)
+opcode: Start
+keywords: ''
+task: NinputSendWmGestureGlobal
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ContactsDownCount
+- field_type: UInt32
+  field_name: PacketsInContactCount
+- field_type: UInt32
+  field_name: HistoryPacketsInContactCount

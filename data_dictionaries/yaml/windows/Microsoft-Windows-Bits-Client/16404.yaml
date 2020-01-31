@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '16404'
+version: '0'
+event(fields): task_016404(UnicodeString function, UInt32 line, UInt32 hr)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: function
+- field_type: UInt32
+  field_name: line
+- field_type: UInt32
+  field_name: hr

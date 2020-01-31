@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Diagnosis-DPS
+event_id: '115'
+version: '0'
+event(fields): ScenarioLifecycleAdiagnosticmodulecompletedtroubleshootingandsetanimmediateresolution(GUID
+  ScenarioId, GUID InstanceId, GUID OriginalActivityId, UnicodeString DiagnosticModuleImageName,
+  GUID ResolutionId, SID ResolutionSID, UInt32 ResolutionSessionId, FILETIME ResolutionExpirationDate,
+  GUID DiagnosticModuleId)
+opcode: Adiagnosticmodulecompletedtroubleshootingandsetanimmediateresolution
+keywords: lifecycle
+task: ScenarioLifecycle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ScenarioId
+- field_type: GUID
+  field_name: InstanceId
+- field_type: GUID
+  field_name: OriginalActivityId
+- field_type: UnicodeString
+  field_name: DiagnosticModuleImageName
+- field_type: GUID
+  field_name: ResolutionId
+- field_type: SID
+  field_name: ResolutionSID
+- field_type: UInt32
+  field_name: ResolutionSessionId
+- field_type: FILETIME
+  field_name: ResolutionExpirationDate
+- field_type: GUID
+  field_name: DiagnosticModuleId

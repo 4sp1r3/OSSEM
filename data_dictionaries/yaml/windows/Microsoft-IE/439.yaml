@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '439'
+version: '0'
+event(fields): Mshtml_MediaElement_Buffering(UInt32 MediaElementId, Double StartTimeDurationInSecs,
+  Double EndTimeDurationInSecs, Int32 ProgressStartLevelInPercentage, Int32 ProgressEndLevelInPercentage)
+opcode: ''
+keywords: subsystem mshtml
+task: Mshtml_MediaElement_Buffering
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaElementId
+- field_type: Double
+  field_name: StartTimeDurationInSecs
+- field_type: Double
+  field_name: EndTimeDurationInSecs
+- field_type: Int32
+  field_name: ProgressStartLevelInPercentage
+- field_type: Int32
+  field_name: ProgressEndLevelInPercentage

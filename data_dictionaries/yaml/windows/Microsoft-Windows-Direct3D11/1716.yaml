@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1716'
+version: '0'
+event(fields): IDXGIDevice2_ReclaimResourcesStart(Pointer pThis, UInt32 NumResources,
+  Pointer ppResources, UInt32 NumDiscardedResources, UInt32 pDiscarded)
+opcode: Start
+keywords: ''
+task: IDXGIDevice2_ReclaimResources
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: NumResources
+- field_type: Pointer
+  field_name: ppResources
+- field_type: UInt32
+  field_name: NumDiscardedResources
+- field_type: UInt32
+  field_name: pDiscarded

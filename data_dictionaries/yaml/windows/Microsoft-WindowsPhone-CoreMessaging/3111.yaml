@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3111'
+version: '0'
+event(fields): Session_ConstructThreadContextStop()
+opcode: Stop
+keywords: MessagingPerformance Session
+task: Session_ConstructThreadContext
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

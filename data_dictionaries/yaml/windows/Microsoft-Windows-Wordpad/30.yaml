@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wordpad
+event_id: '30'
+version: '0'
+event(fields): Wordpad_FileOpenStop()
+opcode: Stop
+keywords: ''
+task: Wordpad_FileOpen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

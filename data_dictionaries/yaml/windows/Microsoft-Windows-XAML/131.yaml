@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '131'
+version: '0'
+event(fields): SubmitRetargetStop()
+opcode: Stop
+keywords: Rendering
+task: SubmitRetarget
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

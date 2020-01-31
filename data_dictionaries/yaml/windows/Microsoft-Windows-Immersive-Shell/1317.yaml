@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1317'
+version: '0'
+event(fields): SwitchToAppByIdWithArgumentsStart(UnicodeString AppUserModelId, UnicodeString
+  Arguments, UnicodeString NotificationTargetId)
+opcode: Start
+keywords: ''
+task: SwitchToAppByIdWithArguments
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UnicodeString
+  field_name: Arguments
+- field_type: UnicodeString
+  field_name: NotificationTargetId

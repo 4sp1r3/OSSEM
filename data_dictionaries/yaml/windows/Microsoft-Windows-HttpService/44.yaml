@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-HttpService
+event_id: '44'
+version: '0'
+event(fields): HTTPAuthenticationTraceTaskAuthCacheEntryAdded(UInt64 ConnectionId,
+  AnsiString AuthCacheType, Pointer AccessTokenOrHandle, UInt32 Status)
+opcode: AuthCacheEntryAdded
+keywords: HTTP_KEYWORD_AUTHENTICATION
+task: HTTPAuthenticationTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ConnectionId
+- field_type: AnsiString
+  field_name: AuthCacheType
+- field_type: Pointer
+  field_name: AccessTokenOrHandle
+- field_type: UInt32
+  field_name: Status

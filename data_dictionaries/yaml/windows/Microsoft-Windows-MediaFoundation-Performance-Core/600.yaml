@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '600'
+version: '0'
+event(fields): PresClock_SetState_Task(Pointer object, Int32 State, Int64 ClockOffset,
+  Int64 QPC)
+opcode: ''
+keywords: ''
+task: PresClock_SetState_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: State
+- field_type: Int64
+  field_name: ClockOffset
+- field_type: Int64
+  field_name: QPC

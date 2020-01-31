@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '74'
+version: '0'
+event(fields): InputProfileActivation74(UInt32 param)
+opcode: ''
+keywords: OOPIME
+task: InputProfileActivation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: param

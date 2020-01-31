@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '7018'
+version: '0'
+event(fields): task_07018(UnicodeString ProcessingPackageFullName, UnicodeString FileName,
+  HexInt32 ErrorCode, UnicodeString ErrorText, UInt32 ProcessIndex, UInt32 ProcessCount,
+  UInt32 ProcessId, UnicodeString ApplicationUserModelId, UnicodeString PackageFullName,
+  UnicodeString ExecutableName, UnicodeString UserSID, UnicodeString UserDomain, UnicodeString
+  UserName, UInt32 SessionId)
+opcode: ''
+keywords: RUNTIME_DEH_KEYWORD
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessingPackageFullName
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorText
+- field_type: UInt32
+  field_name: ProcessIndex
+- field_type: UInt32
+  field_name: ProcessCount
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ApplicationUserModelId
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: ExecutableName
+- field_type: UnicodeString
+  field_name: UserSID
+- field_type: UnicodeString
+  field_name: UserDomain
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UInt32
+  field_name: SessionId

@@ -1,0 +1,17 @@
+provider: Microsoft-IE
+event_id: '492'
+version: '0'
+event(fields): Mshtml_DocumentSuspend(UInt32 OldState, UInt32 NewState, UInt32 SuspendTimer)
+opcode: ''
+keywords: primarynav
+task: Mshtml_DocumentSuspend
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OldState
+- field_type: UInt32
+  field_name: NewState
+- field_type: UInt32
+  field_name: SuspendTimer

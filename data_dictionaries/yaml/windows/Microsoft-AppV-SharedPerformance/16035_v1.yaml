@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '16035'
+version: '1'
+event(fields): UnpublishapackageStop_V1()
+opcode: Stop
+keywords: ''
+task: Unpublishapackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

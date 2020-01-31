@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPDClassInstaller
+event_id: '204'
+version: '0'
+event(fields): DeviceMetadataRetrieval204(UnicodeString DevicePath, UInt32 ReturnCode)
+opcode: ''
+keywords: ''
+task: DeviceMetadataRetrieval
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DevicePath
+- field_type: UInt32
+  field_name: ReturnCode

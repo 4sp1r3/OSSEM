@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Documents
+event_id: '6032'
+version: '0'
+event(fields): DocPerf_Task_Scan_SharePoint_File_UploadStop(GUID idGuid, UInt64 FileIndex)
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_Scan_SharePoint_File_Upload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: idGuid
+- field_type: UInt64
+  field_name: FileIndex

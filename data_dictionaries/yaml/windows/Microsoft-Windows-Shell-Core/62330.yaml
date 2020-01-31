@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62330'
+version: '0'
+event(fields): FilePlaceholder_StreamResolver_RetrievePrimaryStreamStart(UInt64 Position,
+  UInt64 Size)
+opcode: Start
+keywords: Shell
+task: FilePlaceholder_StreamResolver_RetrievePrimaryStream
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Position
+- field_type: UInt64
+  field_name: Size

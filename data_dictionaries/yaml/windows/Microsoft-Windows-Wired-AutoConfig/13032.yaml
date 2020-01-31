@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Wired-AutoConfig
+event_id: '13032'
+version: '0'
+event(fields): task_013032(UInt32 Result, GUID InterfaceGuid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: GUID
+  field_name: InterfaceGuid

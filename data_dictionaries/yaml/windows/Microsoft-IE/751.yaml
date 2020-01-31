@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '751'
+version: '0'
+event(fields): EdgeHTML_Webview_AppPermissionResponse(UnicodeString URL, UInt32 PermissionType,
+  UInt32 PermissionState, Boolean IsPrimaryResponse)
+opcode: ''
+keywords: mshtml
+task: EdgeHTML_Webview_AppPermissionResponse
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt32
+  field_name: PermissionType
+- field_type: UInt32
+  field_name: PermissionState
+- field_type: Boolean
+  field_name: IsPrimaryResponse

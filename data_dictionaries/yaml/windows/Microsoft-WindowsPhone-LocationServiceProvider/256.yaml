@@ -1,0 +1,24 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '256'
+version: '0'
+event(fields): CellPE256(UInt32 Params, UInt32 Executor, UInt32 UiccApp, UInt32 LocationAreaCode,
+  UInt32 TrackingAreaCode, UInt32 CellID)
+opcode: ''
+keywords: Selfhost CellPe
+task: CellPE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Params
+- field_type: UInt32
+  field_name: Executor
+- field_type: UInt32
+  field_name: UiccApp
+- field_type: UInt32
+  field_name: LocationAreaCode
+- field_type: UInt32
+  field_name: TrackingAreaCode
+- field_type: UInt32
+  field_name: CellID

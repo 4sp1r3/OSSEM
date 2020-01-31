@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '9'
+version: '1'
+event(fields): APIRequest9_V1(UInt32 CurrentImpersonationLevel)
+opcode: ''
+keywords: API
+task: APIRequest
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CurrentImpersonationLevel

@@ -1,0 +1,14 @@
+provider: Microsoft-JScript
+event_id: '34'
+version: '0'
+event(fields): Jscript_Projection_RemoveAllEventsAndEventHandlersStop(UnicodeString
+  TypeName)
+opcode: Stop
+keywords: JScriptProjection
+task: Jscript_Projection_RemoveAllEventsAndEventHandlers
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeName

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60605'
+version: '0'
+event(fields): ItemsView_UIItemsView_FlushBatchStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: ItemsView_UIItemsView_FlushBatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

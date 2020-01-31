@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '942'
+version: '0'
+event(fields): CellularModemContainer942(UInt32 dwCode1, UInt32 dwCode2, UInt32 hexCode3,
+  UInt32 hexCode4)
+opcode: ''
+keywords: Trace
+task: CellularModemContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwCode1
+- field_type: UInt32
+  field_name: dwCode2
+- field_type: UInt32
+  field_name: hexCode3
+- field_type: UInt32
+  field_name: hexCode4

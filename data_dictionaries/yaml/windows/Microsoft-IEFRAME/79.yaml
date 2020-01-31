@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '79'
+version: '0'
+event(fields): LCIE_ForeignProcessMessageQueueEnqueue(GUID ProcessId, UInt32 MessageCount)
+opcode: ''
+keywords: primarynav
+task: LCIE_ForeignProcessMessageQueueEnqueue
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: MessageCount

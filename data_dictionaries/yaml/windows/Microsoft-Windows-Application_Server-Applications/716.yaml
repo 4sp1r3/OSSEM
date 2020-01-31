@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '716'
+version: '0'
+event(fields): ClientRuntimeClientChannelOpenStop(UnicodeString AppDomain)
+opcode: ClientChannelOpenStop
+keywords: ServiceModel
+task: ClientRuntime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '44'
+version: '0'
+event(fields): ManipulationCompletedStart(UInt64 RegisterdOn, UInt64 OriginalSource,
+  UInt64 Container, Boolean IsInertial)
+opcode: Start
+keywords: Input
+task: ManipulationCompleted
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RegisterdOn
+- field_type: UInt64
+  field_name: OriginalSource
+- field_type: UInt64
+  field_name: Container
+- field_type: Boolean
+  field_name: IsInertial

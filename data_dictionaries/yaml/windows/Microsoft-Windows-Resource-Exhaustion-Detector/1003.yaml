@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Resource-Exhaustion-Detector
+event_id: '1003'
+version: '0'
+event(fields): ResourceExhaustionDetectionEventsEventsloggedwhenaproblemisdetected.(UInt64
+  SystemCommitLimit, UInt64 SystemCommitCharge)
+opcode: Eventsloggedwhenaproblemisdetected.
+keywords: RDR_DET_KEYWORD_MEMORY_EXHAUSTION
+task: ResourceExhaustionDetectionEvents
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SystemCommitLimit
+- field_type: UInt64
+  field_name: SystemCommitCharge

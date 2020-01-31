@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '412'
+version: '0'
+event(fields): RecordDeviceAsLost()
+opcode: ''
+keywords: Rendering
+task: RecordDeviceAsLost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

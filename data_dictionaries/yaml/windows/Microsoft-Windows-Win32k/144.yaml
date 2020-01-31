@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Win32k
+event_id: '144'
+version: '0'
+event(fields): PointerUpdateMessageRetrieveStop(Pointer pqmsg, UInt32 PointerId, UInt32
+  Message)
+opcode: Stop
+keywords: PointerInput
+task: PointerUpdateMessageRetrieve
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pqmsg
+- field_type: UInt32
+  field_name: PointerId
+- field_type: UInt32
+  field_name: Message

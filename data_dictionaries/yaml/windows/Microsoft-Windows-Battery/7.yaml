@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-Battery
+event_id: '7'
+version: '0'
+event(fields): BifRundown(Pointer Handle, UInt32 PowerUnit, UInt32 DesignCapacity,
+  UInt32 LastFullChargeCapacity, UInt32 BatteryTechnology, UInt32 DesignVoltage, UInt32
+  WarningDesignCapacity, UInt32 LowDesignCapacity, UInt32 CapacityGranularity1, UInt32
+  CapacityGranularity2, AnsiString ModelNumber, AnsiString SerialNumber, AnsiString
+  BatteryType, AnsiString OemInformation)
+opcode: ''
+keywords: ''
+task: BifRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Handle
+- field_type: UInt32
+  field_name: PowerUnit
+- field_type: UInt32
+  field_name: DesignCapacity
+- field_type: UInt32
+  field_name: LastFullChargeCapacity
+- field_type: UInt32
+  field_name: BatteryTechnology
+- field_type: UInt32
+  field_name: DesignVoltage
+- field_type: UInt32
+  field_name: WarningDesignCapacity
+- field_type: UInt32
+  field_name: LowDesignCapacity
+- field_type: UInt32
+  field_name: CapacityGranularity1
+- field_type: UInt32
+  field_name: CapacityGranularity2
+- field_type: AnsiString
+  field_name: ModelNumber
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: AnsiString
+  field_name: BatteryType
+- field_type: AnsiString
+  field_name: OemInformation

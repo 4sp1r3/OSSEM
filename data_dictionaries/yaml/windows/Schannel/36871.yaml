@@ -1,0 +1,15 @@
+provider: Schannel
+event_id: '36871'
+version: '0'
+event(fields): task_036871(UnicodeString Type, UInt32 ErrorState)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Type
+- field_type: UInt32
+  field_name: ErrorState

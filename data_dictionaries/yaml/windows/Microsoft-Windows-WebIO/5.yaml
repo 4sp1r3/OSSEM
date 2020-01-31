@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WebIO
+event_id: '5'
+version: '0'
+event(fields): SessionCreate(Pointer ApiObject, UInt64 ApiHandle, Pointer Session,
+  UInt64 SessionHandle, UInt64 Flags, UInt32 Error)
+opcode: ''
+keywords: Keyword.API
+task: SessionCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ApiObject
+- field_type: UInt64
+  field_name: ApiHandle
+- field_type: Pointer
+  field_name: Session
+- field_type: UInt64
+  field_name: SessionHandle
+- field_type: UInt64
+  field_name: Flags
+- field_type: UInt32
+  field_name: Error

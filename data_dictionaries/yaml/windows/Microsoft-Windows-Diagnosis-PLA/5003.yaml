@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-PLA
+event_id: '5003'
+version: '0'
+event(fields): task_05003(UInt32 Reason, UInt32 Result)
+opcode: ''
+keywords: transaction
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Result

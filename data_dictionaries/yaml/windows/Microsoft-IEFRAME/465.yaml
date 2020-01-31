@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '465'
+version: '0'
+event(fields): BrowserRoamedSettingChange_WinInetStop(UInt64 HWND)
+opcode: Stop
+keywords: roaming
+task: BrowserRoamedSettingChange_WinInet
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: HWND

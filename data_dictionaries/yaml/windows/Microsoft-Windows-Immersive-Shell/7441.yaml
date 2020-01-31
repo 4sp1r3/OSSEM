@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7441'
+version: '0'
+event(fields): ConnectedSearch_BadCertificate(UnicodeString Path, Boolean Validation)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_BadCertificate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path
+- field_type: Boolean
+  field_name: Validation

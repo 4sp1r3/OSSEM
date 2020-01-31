@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4509'
+version: '0'
+event(fields): RUNRULEStop()
+opcode: Stop
+keywords: Performance
+task: RUNRULE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

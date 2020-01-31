@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Ndu
+event_id: '2013'
+version: '0'
+event(fields): NduDebugTrace2013(UnicodeString _DebugString)
+opcode: ''
+keywords: KeywordNduDebugTrace
+task: NduDebugTrace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: _DebugString

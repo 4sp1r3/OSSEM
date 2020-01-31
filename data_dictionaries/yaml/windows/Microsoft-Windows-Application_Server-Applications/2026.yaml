@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '2026'
+version: '0'
+event(fields): VBExpressionCompileStart(UnicodeString expr, UnicodeString AppDomain)
+opcode: Start
+keywords: WFRuntime
+task: VBExpressionCompile
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: expr
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17007'
+version: '0'
+event(fields): Scope_Load_From_XMLStart()
+opcode: Start
+keywords: Shell
+task: Scope_Load_From_XML
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

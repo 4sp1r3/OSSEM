@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '119'
+version: '0'
+event(fields): BatteryMeter_DisplayFlyoutStart()
+opcode: Start
+keywords: BatteryMeter
+task: BatteryMeter_DisplayFlyout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

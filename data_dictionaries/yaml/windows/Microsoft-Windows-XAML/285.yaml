@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '285'
+version: '0'
+event(fields): CompTreeCreateTreeNode(UInt64 CompNode, UInt32 IsEmulated, UInt32 IsPlaceholder)
+opcode: ''
+keywords: DComp
+task: CompTreeCreateTreeNode
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CompNode
+- field_type: UInt32
+  field_name: IsEmulated
+- field_type: UInt32
+  field_name: IsPlaceholder

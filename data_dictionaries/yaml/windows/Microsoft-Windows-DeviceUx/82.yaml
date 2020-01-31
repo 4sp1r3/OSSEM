@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '82'
+version: '0'
+event(fields): DeviceCenter_EndQueryStart(UInt64 querycookie)
+opcode: Start
+keywords: ''
+task: DeviceCenter_EndQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: querycookie

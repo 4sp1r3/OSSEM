@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62302'
+version: '0'
+event(fields): DataPackage_SetApplicationLinkStart()
+opcode: Start
+keywords: Shell
+task: DataPackage_SetApplicationLink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

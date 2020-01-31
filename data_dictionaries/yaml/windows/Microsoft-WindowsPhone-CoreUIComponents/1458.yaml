@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1458'
+version: '0'
+event(fields): SessionManagerNSSMDeferModernChildLaunch()
+opcode: NSSMDeferModernChildLaunch
+keywords: SessionManager
+task: SessionManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '619'
+version: '0'
+event(fields): Mshtml_CDoc_PrepareForSetVisibleStop(Boolean IsDocVisible, Boolean
+  NotifyFrame, UInt32 HR)
+opcode: Stop
+keywords: mshtml
+task: Mshtml_CDoc_PrepareForSetVisible
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsDocVisible
+- field_type: Boolean
+  field_name: NotifyFrame
+- field_type: UInt32
+  field_name: HR

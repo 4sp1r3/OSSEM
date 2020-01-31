@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '165'
+version: '0'
+event(fields): RebuildCacheStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: RebuildCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

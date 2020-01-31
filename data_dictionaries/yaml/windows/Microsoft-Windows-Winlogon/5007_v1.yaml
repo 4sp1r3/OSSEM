@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '5007'
+version: '1'
+event(fields): SystemBootStop_V1(UInt32 SessionId, UInt32 ReadyBootTrainingCountSinceLastServicing)
+opcode: Stop
+keywords: PerfDiagnostics
+task: SystemBoot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ReadyBootTrainingCountSinceLastServicing

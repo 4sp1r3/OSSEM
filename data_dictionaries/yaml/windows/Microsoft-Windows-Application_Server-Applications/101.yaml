@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '101'
+version: '0'
+event(fields): WorkflowInstanceRecordUnhandledExceptionRecord(GUID InstanceId, Int64
+  RecordNumber, FILETIME EventTime, UnicodeString ActivityDefinitionId, UnicodeString
+  SourceName, UnicodeString SourceId, UnicodeString SourceInstanceId, UnicodeString
+  SourceTypeName, UnicodeString Exception, UnicodeString Annotations, UnicodeString
+  ProfileName, UnicodeString HostReference, UnicodeString AppDomain)
+opcode: UnhandledExceptionRecord
+keywords: WFTracking EndToEndMonitoring HealthMonitoring Troubleshooting
+task: WorkflowInstanceRecord
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InstanceId
+- field_type: Int64
+  field_name: RecordNumber
+- field_type: FILETIME
+  field_name: EventTime
+- field_type: UnicodeString
+  field_name: ActivityDefinitionId
+- field_type: UnicodeString
+  field_name: SourceName
+- field_type: UnicodeString
+  field_name: SourceId
+- field_type: UnicodeString
+  field_name: SourceInstanceId
+- field_type: UnicodeString
+  field_name: SourceTypeName
+- field_type: UnicodeString
+  field_name: Exception
+- field_type: UnicodeString
+  field_name: Annotations
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SENSE
+event_id: '1806'
+version: '0'
+event(fields): task_01806(UInt32 UInt1, Boolean Boolean1)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UInt1
+- field_type: Boolean
+  field_name: Boolean1

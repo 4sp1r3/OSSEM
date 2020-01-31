@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '3205'
+version: '0'
+event(fields): EdgeUi_Invoke_Mouse_HitSingleEdge(UInt32 EdgeUiComponent)
+opcode: ''
+keywords: ''
+task: EdgeUi_Invoke_Mouse_HitSingleEdge
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EdgeUiComponent

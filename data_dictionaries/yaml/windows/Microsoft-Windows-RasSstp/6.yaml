@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RasSstp
+event_id: '6'
+version: '0'
+event(fields): task_06(UnicodeString CoId, UnicodeString SHA1CertificateHash, UnicodeString
+  SHA256CertificateHash)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CoId
+- field_type: UnicodeString
+  field_name: SHA1CertificateHash
+- field_type: UnicodeString
+  field_name: SHA256CertificateHash

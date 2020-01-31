@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '293'
+version: '0'
+event(fields): RobotThread_LangAutoDetection_Start(GUID fmtid, UInt32 pid, UnicodeString
+  TextPrefix, UInt32 TextLength)
+opcode: Start
+keywords: IndexingChunk Gatherer
+task: RobotThread_LangAutoDetection_Start
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: fmtid
+- field_type: UInt32
+  field_name: pid
+- field_type: UnicodeString
+  field_name: TextPrefix
+- field_type: UInt32
+  field_name: TextLength

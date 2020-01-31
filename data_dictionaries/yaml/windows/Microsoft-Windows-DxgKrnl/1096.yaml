@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1096'
+version: '0'
+event(fields): DdiDisplayDetectControlStart(Pointer MiniportDeviceContext, UInt32
+  Type, UInt32 TargetId, Boolean NonDestructiveOnly, UInt32 Status)
+opcode: Start
+keywords: Base
+task: DdiDisplayDetectControl
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportDeviceContext
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: TargetId
+- field_type: Boolean
+  field_name: NonDestructiveOnly
+- field_type: UInt32
+  field_name: Status

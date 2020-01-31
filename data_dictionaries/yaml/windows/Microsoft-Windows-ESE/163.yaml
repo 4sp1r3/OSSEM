@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ESE
+event_id: '163'
+version: '0'
+event(fields): ESE_DiskOsDeviceSeekPenaltyDesc_Trace(UInt8 tsidr, Binary posdspd)
+opcode: ''
+keywords: StationId
+task: ESE_DiskOsDeviceSeekPenaltyDesc_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: tsidr
+- field_type: Binary
+  field_name: posdspd

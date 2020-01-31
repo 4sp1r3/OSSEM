@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2328'
+version: '0'
+event(fields): ExecutionManagerClientGetDestinationPageNameStart(UInt32 unParam)
+opcode: Start
+keywords: NavigationPerformance ExecutionManagerClient
+task: ExecutionManagerClientGetDestinationPageName
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

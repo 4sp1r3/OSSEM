@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '80'
+version: '0'
+event(fields): Manipulation_ZoomToRect(Pointer viewport, Boolean animate)
+opcode: ''
+keywords: ''
+task: Manipulation_ZoomToRect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: viewport
+- field_type: Boolean
+  field_name: animate

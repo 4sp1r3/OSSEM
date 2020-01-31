@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UI-Search
+event_id: '711'
+version: '0'
+event(fields): SearchPane_QueryChanged(UnicodeString QueryString)
+opcode: ''
+keywords: ''
+task: SearchPane_QueryChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: QueryString

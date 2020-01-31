@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27060'
+version: '1'
+event(fields): PackageIndexInitializeStop_V1()
+opcode: Stop
+keywords: ''
+task: PackageIndexInitialize
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

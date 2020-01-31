@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '244'
+version: '0'
+event(fields): MPS_SVC_API_AddCryptoSetStart()
+opcode: Start
+keywords: Service
+task: MPS_SVC_API_AddCryptoSet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

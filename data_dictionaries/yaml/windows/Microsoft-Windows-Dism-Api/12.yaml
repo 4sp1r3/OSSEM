@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '12'
+version: '0'
+event(fields): DismUnmountImageStop(UnicodeString String)
+opcode: Stop
+keywords: DismApiEvent
+task: DismUnmountImage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String

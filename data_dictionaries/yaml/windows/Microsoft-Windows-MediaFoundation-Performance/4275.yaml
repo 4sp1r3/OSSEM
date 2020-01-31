@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4275'
+version: '0'
+event(fields): AudioRender(AnsiString tag, Pointer object, Pointer sample, Int64 sampleTime,
+  Int64 sampleDuration, Int64 masterTime, Int64 deviceTime)
+opcode: ''
+keywords: ''
+task: AudioRender
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: sample
+- field_type: Int64
+  field_name: sampleTime
+- field_type: Int64
+  field_name: sampleDuration
+- field_type: Int64
+  field_name: masterTime
+- field_type: Int64
+  field_name: deviceTime

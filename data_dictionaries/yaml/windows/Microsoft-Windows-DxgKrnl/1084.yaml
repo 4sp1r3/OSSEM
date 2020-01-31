@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1084'
+version: '0'
+event(fields): OPMGetInformation(Pointer MiniportDeviceContext, Boolean RedirectedForIndirectDisplay,
+  Pointer DriverProtectedOutputHandle, GUID InformationGuid, UInt32 Status)
+opcode: ''
+keywords: Base
+task: OPMGetInformation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportDeviceContext
+- field_type: Boolean
+  field_name: RedirectedForIndirectDisplay
+- field_type: Pointer
+  field_name: DriverProtectedOutputHandle
+- field_type: GUID
+  field_name: InformationGuid
+- field_type: UInt32
+  field_name: Status

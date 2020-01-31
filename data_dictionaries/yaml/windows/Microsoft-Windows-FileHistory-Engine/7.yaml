@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-Engine
+event_id: '7'
+version: '0'
+event(fields): CatalogFlushStart()
+opcode: Start
+keywords: ''
+task: CatalogFlush
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

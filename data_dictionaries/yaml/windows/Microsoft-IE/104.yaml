@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '104'
+version: '0'
+event(fields): Mshtml_CStorage_GetItemStop(Pointer Storage, UnicodeString Key)
+opcode: Stop
+keywords: subsystem
+task: Mshtml_CStorage_GetItem
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Storage
+- field_type: UnicodeString
+  field_name: Key

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1465'
+version: '0'
+event(fields): TcpipSourceConstraint(UInt32 Compartment, UInt32 DestinationAddrLength,
+  Binary DestinationAddress, UInt32 ConstrainSourceAddrLength, Binary ConstrainSourceAddress,
+  UInt32 ConstrainInterfaceIndex, UInt32 ConstraintFlags)
+opcode: ''
+keywords: ut:TcpipRoute
+task: TcpipSourceConstraint
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Compartment
+- field_type: UInt32
+  field_name: DestinationAddrLength
+- field_type: Binary
+  field_name: DestinationAddress
+- field_type: UInt32
+  field_name: ConstrainSourceAddrLength
+- field_type: Binary
+  field_name: ConstrainSourceAddress
+- field_type: UInt32
+  field_name: ConstrainInterfaceIndex
+- field_type: UInt32
+  field_name: ConstraintFlags

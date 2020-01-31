@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7730'
+version: '0'
+event(fields): PnP_PlugPlay_PnpInstallDeviceStart()
+opcode: Start
+keywords: ''
+task: PnP_PlugPlay_PnpInstallDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

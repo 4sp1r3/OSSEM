@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '37'
+version: '0'
+event(fields): AudEngineStream_StopLocalGraph_TaskStop(Pointer object, UInt32 hResult)
+opcode: Stop
+keywords: ''
+task: AudEngineStream_StopLocalGraph_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: hResult

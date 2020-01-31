@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5123'
+version: '0'
+event(fields): task_05123(Pointer Object, UnicodeString Message, UInt32 Value)
+opcode: ''
+keywords: dns64
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UInt32
+  field_name: Value

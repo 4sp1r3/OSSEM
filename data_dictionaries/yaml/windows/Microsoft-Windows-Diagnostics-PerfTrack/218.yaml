@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '218'
+version: '0'
+event(fields): PerfPipe_TraceCapture_Trigger(Int64 TriggerTimeStamp, GUID TriggerProviderId,
+  UInt16 TriggerEventId, UInt8 TriggerEventVersion, GUID ScenarioId, UInt32 SqmId,
+  UInt32 Duration, UInt32 RuleId)
+opcode: ''
+keywords: PerfTrackStatus
+task: PerfPipe_TraceCapture_Trigger
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: TriggerTimeStamp
+- field_type: GUID
+  field_name: TriggerProviderId
+- field_type: UInt16
+  field_name: TriggerEventId
+- field_type: UInt8
+  field_name: TriggerEventVersion
+- field_type: GUID
+  field_name: ScenarioId
+- field_type: UInt32
+  field_name: SqmId
+- field_type: UInt32
+  field_name: Duration
+- field_type: UInt32
+  field_name: RuleId

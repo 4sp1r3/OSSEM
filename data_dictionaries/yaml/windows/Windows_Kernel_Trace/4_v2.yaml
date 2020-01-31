@@ -1,0 +1,30 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '4'
+version: '2'
+event(fields): Thread_V2_TypeGroup1(UInt32 ProcessId, UInt32 TThreadId, UInt32 StackBase,
+  UInt32 StackLimit, UInt32 UserStackBase, UInt32 UserStackLimit, UInt32 StartAddr,
+  UInt32 Win32StartAddr, UInt32 TebBase, UInt32 SubProcessTag)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: TThreadId
+- field_type: UInt32
+  field_name: StackBase
+- field_type: UInt32
+  field_name: StackLimit
+- field_type: UInt32
+  field_name: UserStackBase
+- field_type: UInt32
+  field_name: UserStackLimit
+- field_type: UInt32
+  field_name: StartAddr
+- field_type: UInt32
+  field_name: Win32StartAddr
+- field_type: UInt32
+  field_name: TebBase
+- field_type: UInt32
+  field_name: SubProcessTag

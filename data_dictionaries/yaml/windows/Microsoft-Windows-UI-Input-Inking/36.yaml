@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UI-Input-Inking
+event_id: '36'
+version: '0'
+event(fields): Inking_IInkManager_RecognizeStop()
+opcode: Stop
+keywords: InkStrokeManipulation
+task: Inking_IInkManager_Recognize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

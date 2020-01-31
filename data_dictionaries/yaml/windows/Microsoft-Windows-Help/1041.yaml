@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Help
+event_id: '1041'
+version: '0'
+event(fields): NonPerfEvents1041(UnicodeString Message, UnicodeString SrcText, UnicodeString
+  Description, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: NonPerfEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UnicodeString
+  field_name: SrcText
+- field_type: UnicodeString
+  field_name: Description
+- field_type: UInt32
+  field_name: ErrorCode

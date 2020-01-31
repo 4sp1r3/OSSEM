@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9035'
+version: '0'
+event(fields): Perf_WLRoamCommitTempBackupReplicaStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamCommitTempBackupReplica
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

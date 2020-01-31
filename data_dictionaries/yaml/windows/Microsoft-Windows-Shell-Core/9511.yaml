@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9511'
+version: '0'
+event(fields): Explorer_StartPane_Cascade_ShowStart()
+opcode: Start
+keywords: Shell
+task: Explorer_StartPane_Cascade_Show
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

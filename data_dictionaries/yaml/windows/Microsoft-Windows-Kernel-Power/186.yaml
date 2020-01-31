@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '186'
+version: '0'
+event(fields): IrpPended(Pointer Irp)
+opcode: Pended
+keywords: po:Performance
+task: Irp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp

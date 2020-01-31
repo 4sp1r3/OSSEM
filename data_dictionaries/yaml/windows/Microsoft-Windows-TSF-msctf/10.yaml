@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '10'
+version: '0'
+event(fields): FLSCallbackStart()
+opcode: Start
+keywords: Perf
+task: FLSCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

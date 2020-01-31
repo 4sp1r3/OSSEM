@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1597'
+version: '0'
+event(fields): ShellTask_DrvX_MakeConnectionThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_DrvX_MakeConnectionThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

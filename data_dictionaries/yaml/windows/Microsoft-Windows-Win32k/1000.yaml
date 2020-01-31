@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Win32k
+event_id: '1000'
+version: '0'
+event(fields): task_01000(UInt32 eventMin, UInt32 eventMax, UInt32 idEventProcess,
+  UInt32 idEventThread, UInt32 Flags, Pointer HookInstance)
+opcode: ''
+keywords: AuditApiCalls
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: eventMin
+- field_type: UInt32
+  field_name: eventMax
+- field_type: UInt32
+  field_name: idEventProcess
+- field_type: UInt32
+  field_name: idEventThread
+- field_type: UInt32
+  field_name: Flags
+- field_type: Pointer
+  field_name: HookInstance

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '225'
+version: '0'
+event(fields): DeviceEject(UInt32 ProcessId, UInt16 ProcessNameLength, UnicodeString
+  ProcessName, UInt16 DeviceInstanceLength, UnicodeString DeviceInstance)
+opcode: ''
+keywords: ''
+task: DeviceEject
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt16
+  field_name: ProcessNameLength
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UInt16
+  field_name: DeviceInstanceLength
+- field_type: UnicodeString
+  field_name: DeviceInstance

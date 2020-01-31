@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6845'
+version: '0'
+event(fields): SecondaryTile_FlyoutFlipViewButtonPressStop()
+opcode: Stop
+keywords: ''
+task: SecondaryTile_FlyoutFlipViewButtonPress
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '177'
+version: '0'
+event(fields): AdhSitesSubnets_InitializeStart()
+opcode: Start
+keywords: Service
+task: AdhSitesSubnets_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

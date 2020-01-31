@@ -1,0 +1,21 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '28674'
+version: '1'
+event(fields): SerializeordeserializeremotingpayloadRehydration28674_V1(UnicodeString
+  DeserializedType, UnicodeString CastedToType, UnicodeString TypeCastException, UnicodeString
+  TypeCastInnerException)
+opcode: Rehydration
+keywords: Serializer
+task: Serializeordeserializeremotingpayload
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeserializedType
+- field_type: UnicodeString
+  field_name: CastedToType
+- field_type: UnicodeString
+  field_name: TypeCastException
+- field_type: UnicodeString
+  field_name: TypeCastInnerException

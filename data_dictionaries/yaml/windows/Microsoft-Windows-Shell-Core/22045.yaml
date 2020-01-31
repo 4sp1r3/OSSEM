@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22045'
+version: '0'
+event(fields): Taskbar_ComputeLayout(UInt32 nVisibleRow, UInt32 nRequiredRow)
+opcode: ''
+keywords: Shell
+task: Taskbar_ComputeLayout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: nVisibleRow
+- field_type: UInt32
+  field_name: nRequiredRow

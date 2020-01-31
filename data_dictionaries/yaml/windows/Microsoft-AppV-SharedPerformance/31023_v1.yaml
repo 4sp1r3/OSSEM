@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '31023'
+version: '1'
+event(fields): VCOM.ProcessApplyHooksStop_V1()
+opcode: Stop
+keywords: ''
+task: VCOM.ProcessApplyHooks
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

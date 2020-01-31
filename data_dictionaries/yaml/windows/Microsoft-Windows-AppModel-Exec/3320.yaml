@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '3320'
+version: '0'
+event(fields): LogTrace3320(Boolean p1_Boolean, UInt32 p2_UInt32, UInt32 p3_UInt32)
+opcode: ''
+keywords: ExecMan ExecProductionCircular ExecDevPlatCircular
+task: LogTrace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: p1_Boolean
+- field_type: UInt32
+  field_name: p2_UInt32
+- field_type: UInt32
+  field_name: p3_UInt32

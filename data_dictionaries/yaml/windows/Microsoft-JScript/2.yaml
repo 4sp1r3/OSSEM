@@ -1,0 +1,11 @@
+provider: Microsoft-JScript
+event_id: '2'
+version: '0'
+event(fields): MethodRundownDCStartComplete()
+opcode: DCStartComplete
+keywords: JScriptStartRundown
+task: MethodRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

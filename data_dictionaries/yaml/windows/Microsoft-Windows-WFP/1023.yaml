@@ -1,0 +1,111 @@
+provider: Microsoft-Windows-WFP
+event_id: '1023'
+version: '0'
+event(fields): task_01023(AnsiString KeyingModule, UInt64 AcquireContext, UInt32 LocalAddressLength,
+  Binary LocalAddress, UInt32 RemoteAddressLength, Binary RemoteAddress, UnicodeString
+  Mode, UInt64 FilterId, UInt32 IPProtocol, UInt64 InterfaceLuid, UInt32 ProfileId,
+  UInt16 LocalUdpEncapPort, UInt16 RemoteUdpEncapPort, UnicodeString MMTargetName,
+  UnicodeString EMTargetName, UInt32 NumTokens, UnicodeString Token1Type, UnicodeString
+  Token1Principal, UnicodeString Token1Mode, UInt64 Token1, UnicodeString Token2Type,
+  UnicodeString Token2Principal, UnicodeString Token2Mode, UInt64 Token2, UnicodeString
+  Token3Type, UnicodeString Token3Principal, UnicodeString Token3Mode, UInt64 Token3,
+  UnicodeString Token4Type, UnicodeString Token4Principal, UnicodeString Token4Mode,
+  UInt64 Token4, UInt64 VirtualIfTunnelId, UInt64 TrafficSelectorId, UInt32 Flags,
+  UInt32 RekeySPI, UInt64 OrigVirtualIfTunnelId, UInt32 PacketLocalAddressLength,
+  Binary PacketLocalAddress, UInt32 PacketRemoteAddressLength, Binary PacketRemoteAddress,
+  UInt32 PacketIPProtocol, UInt64 PacketInterfaceLuid, UInt32 PacketProfileId)
+opcode: ''
+keywords: ut:SendPath
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: KeyingModule
+- field_type: UInt64
+  field_name: AcquireContext
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UnicodeString
+  field_name: Mode
+- field_type: UInt64
+  field_name: FilterId
+- field_type: UInt32
+  field_name: IPProtocol
+- field_type: UInt64
+  field_name: InterfaceLuid
+- field_type: UInt32
+  field_name: ProfileId
+- field_type: UInt16
+  field_name: LocalUdpEncapPort
+- field_type: UInt16
+  field_name: RemoteUdpEncapPort
+- field_type: UnicodeString
+  field_name: MMTargetName
+- field_type: UnicodeString
+  field_name: EMTargetName
+- field_type: UInt32
+  field_name: NumTokens
+- field_type: UnicodeString
+  field_name: Token1Type
+- field_type: UnicodeString
+  field_name: Token1Principal
+- field_type: UnicodeString
+  field_name: Token1Mode
+- field_type: UInt64
+  field_name: Token1
+- field_type: UnicodeString
+  field_name: Token2Type
+- field_type: UnicodeString
+  field_name: Token2Principal
+- field_type: UnicodeString
+  field_name: Token2Mode
+- field_type: UInt64
+  field_name: Token2
+- field_type: UnicodeString
+  field_name: Token3Type
+- field_type: UnicodeString
+  field_name: Token3Principal
+- field_type: UnicodeString
+  field_name: Token3Mode
+- field_type: UInt64
+  field_name: Token3
+- field_type: UnicodeString
+  field_name: Token4Type
+- field_type: UnicodeString
+  field_name: Token4Principal
+- field_type: UnicodeString
+  field_name: Token4Mode
+- field_type: UInt64
+  field_name: Token4
+- field_type: UInt64
+  field_name: VirtualIfTunnelId
+- field_type: UInt64
+  field_name: TrafficSelectorId
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: RekeySPI
+- field_type: UInt64
+  field_name: OrigVirtualIfTunnelId
+- field_type: UInt32
+  field_name: PacketLocalAddressLength
+- field_type: Binary
+  field_name: PacketLocalAddress
+- field_type: UInt32
+  field_name: PacketRemoteAddressLength
+- field_type: Binary
+  field_name: PacketRemoteAddress
+- field_type: UInt32
+  field_name: PacketIPProtocol
+- field_type: UInt64
+  field_name: PacketInterfaceLuid
+- field_type: UInt32
+  field_name: PacketProfileId

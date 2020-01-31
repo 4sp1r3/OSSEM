@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-OobeLdr
+event_id: '2004'
+version: '0'
+event(fields): OobeLdrProcessUnattend(UnicodeString Pass, UnicodeString FilePath)
+opcode: ''
+keywords: keyDiagnostic keyword_200000000000
+task: OobeLdrProcessUnattend
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Pass
+- field_type: UnicodeString
+  field_name: FilePath

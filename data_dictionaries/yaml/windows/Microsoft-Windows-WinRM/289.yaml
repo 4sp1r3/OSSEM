@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinRM
+event_id: '289'
+version: '0'
+event(fields): WSManAPIcall289(UInt32 parameters, UnicodeString operationName)
+opcode: ''
+keywords: Keyword.Server
+task: WSManAPIcall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: parameters
+- field_type: UnicodeString
+  field_name: operationName

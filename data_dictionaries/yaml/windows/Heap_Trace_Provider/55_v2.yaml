@@ -1,0 +1,10 @@
+provider: Heap Trace Provider
+category: '{222962ab-6180-4b88-a825-346b75f2a24a}'
+event_id: '55'
+version: '2'
+event(fields): HeapAffinitySlotAssigned(UInt32 SlotIndex)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: SlotIndex

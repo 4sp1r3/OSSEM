@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Folder Redirection
+event_id: '508'
+version: '0'
+event(fields): task_0508(UnicodeString Folder, UnicodeString ErrorDetails)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Folder
+- field_type: UnicodeString
+  field_name: ErrorDetails

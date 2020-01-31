@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '24'
+version: '0'
+event(fields): peerneighborlist(server)_listeningforclientsEPLYINGTOANINCOMINGREQUESTeplyingtoanincomingrequest(Binary
+  sourceAddress)
+opcode: replyingtoanincomingrequest
+keywords: ''
+task: peerneighborlist(server)_listeningforclients
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: sourceAddress

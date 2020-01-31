@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Crypto-NCrypt
+event_id: '6'
+version: '0'
+event(fields): OperationFailure_6(UnicodeString ProtectorName, UInt32 RecipientType,
+  HexInt32 Flags, HexInt32 Status, UnicodeString ProcessName, UInt32 KeyIdLength,
+  Binary KeyId)
+opcode: ''
+keywords: ETW_KEYWORD_PROTECT_OPERATION
+task: OperationFailure_6
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProtectorName
+- field_type: UInt32
+  field_name: RecipientType
+- field_type: HexInt32
+  field_name: Flags
+- field_type: HexInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UInt32
+  field_name: KeyIdLength
+- field_type: Binary
+  field_name: KeyId

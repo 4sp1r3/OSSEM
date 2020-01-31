@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1082'
+version: '0'
+event(fields): DataLayer_CollectionCountStart(UInt32 Type)
+opcode: Start
+keywords: Shell
+task: DataLayer_CollectionCount
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type

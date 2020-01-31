@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '452'
+version: '0'
+event(fields): Mshtml_HTMLSpell_ContextMenuInvokeStart()
+opcode: Start
+keywords: subsystem mshtml
+task: Mshtml_HTMLSpell_ContextMenuInvoke
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

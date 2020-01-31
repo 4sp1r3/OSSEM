@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-LockScreenContent
+event_id: '36'
+version: '0'
+event(fields): LockScreenContent_RandomLayoutGenerated(UInt32 Layout)
+opcode: ''
+keywords: LockScreenContent
+task: LockScreenContent_RandomLayoutGenerated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Layout

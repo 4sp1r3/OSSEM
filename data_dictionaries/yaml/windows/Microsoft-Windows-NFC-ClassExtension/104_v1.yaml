@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NFC-ClassExtension
+event_id: '104'
+version: '1'
+event(fields): IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGEStart_V1(Pointer FileObject)
+opcode: Start
+keywords: NFP
+task: IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FileObject

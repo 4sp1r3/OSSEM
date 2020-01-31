@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14037'
+version: '0'
+event(fields): task_014037(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UnicodeString Profile, UInt8 Reason)
+opcode: ''
+keywords: State ut:ClosePath
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UnicodeString
+  field_name: Profile
+- field_type: UInt8
+  field_name: Reason

@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1223'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.SISOptimization1223(UnicodeString
+  CurrentPackageFullName, UnicodeString TargetPackageFullName, UnicodeString CurrentFilePath,
+  UnicodeString TargetFilePath, HexInt64 CurrentFileSize, HexInt64 TargetFileSize)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.SISOptimization
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CurrentPackageFullName
+- field_type: UnicodeString
+  field_name: TargetPackageFullName
+- field_type: UnicodeString
+  field_name: CurrentFilePath
+- field_type: UnicodeString
+  field_name: TargetFilePath
+- field_type: HexInt64
+  field_name: CurrentFileSize
+- field_type: HexInt64
+  field_name: TargetFileSize

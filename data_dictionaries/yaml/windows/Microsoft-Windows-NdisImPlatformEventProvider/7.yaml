@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-NdisImPlatformEventProvider
+event_id: '7'
+version: '0'
+event(fields): task_07(UInt32 Oid, UnicodeString Adapter, UInt32 OidBufferLen, Binary
+  OidBuffer, Int32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Oid
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: UInt32
+  field_name: OidBufferLen
+- field_type: Binary
+  field_name: OidBuffer
+- field_type: Int32
+  field_name: Status

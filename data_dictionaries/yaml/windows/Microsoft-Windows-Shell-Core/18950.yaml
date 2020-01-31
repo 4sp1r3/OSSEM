@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18950'
+version: '0'
+event(fields): Shell32_SHChangeNotify_Register_ClientStart()
+opcode: Start
+keywords: Shell
+task: Shell32_SHChangeNotify_Register_Client
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,37 @@
+provider: Microsoft-Windows-PktMon
+event_id: '110'
+version: '0'
+event(fields): task_0110(UInt16 FilterId, UnicodeString FilterName, Binary MacAddress1,
+  Binary MacAddress2, UInt16 EtherType, UInt16 VlanId, Binary IpAddress1, Binary IpAddress2,
+  UInt8 Protocol, UInt16 Port1, UInt16 Port2, UInt8 TCPFlags)
+opcode: ''
+keywords: Rundown
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FilterId
+- field_type: UnicodeString
+  field_name: FilterName
+- field_type: Binary
+  field_name: MacAddress1
+- field_type: Binary
+  field_name: MacAddress2
+- field_type: UInt16
+  field_name: EtherType
+- field_type: UInt16
+  field_name: VlanId
+- field_type: Binary
+  field_name: IpAddress1
+- field_type: Binary
+  field_name: IpAddress2
+- field_type: UInt8
+  field_name: Protocol
+- field_type: UInt16
+  field_name: Port1
+- field_type: UInt16
+  field_name: Port2
+- field_type: UInt8
+  field_name: TCPFlags

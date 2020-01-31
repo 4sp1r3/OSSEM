@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '6110'
+version: '0'
+event(fields): LogonStop6110()
+opcode: Stop
+keywords: PerfDiagnostics keyword_400000000000
+task: Logon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

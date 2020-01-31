@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '205'
+version: '2'
+event(fields): ServiceUsageAudit205_V2(UInt8 ModuleNameLen, AnsiString ModuleName)
+opcode: ''
+keywords: el:Audit
+task: ServiceUsageAudit
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ModuleNameLen
+- field_type: AnsiString
+  field_name: ModuleName

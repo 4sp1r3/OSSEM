@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '574'
+version: '0'
+event(fields): Mshtml_BFCache(UInt32 FailureFlags, UnicodeString URL)
+opcode: ''
+keywords: mshtml
+task: Mshtml_BFCache
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FailureFlags
+- field_type: UnicodeString
+  field_name: URL

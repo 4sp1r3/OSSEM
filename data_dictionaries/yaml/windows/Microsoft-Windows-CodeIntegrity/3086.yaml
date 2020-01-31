@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3086'
+version: '0'
+event(fields): CreateSectionPolicyFailure3086(UInt16 FileNameLength, UnicodeString
+  FileNameBuffer, UInt16 ProcessNameLength, UnicodeString ProcessNameBuffer, UInt8
+  RequestedPolicy, UInt8 ValidatedPolicy, UInt32 Status)
+opcode: PolicyFailure
+keywords: ''
+task: CreateSection
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer
+- field_type: UInt16
+  field_name: ProcessNameLength
+- field_type: UnicodeString
+  field_name: ProcessNameBuffer
+- field_type: UInt8
+  field_name: RequestedPolicy
+- field_type: UInt8
+  field_name: ValidatedPolicy
+- field_type: UInt32
+  field_name: Status

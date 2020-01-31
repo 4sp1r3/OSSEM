@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '512'
+version: '1'
+event(fields): ClassCompletionofrequest.512_V1(GUID DeviceGUID, HexInt32 Status, UInt32
+  InputBufferLength, UInt32 OutputBufferLength, UInt32 DeviceNumber, UInt32 PortDriverCodeSet,
+  UInt32 FirmwareGetInfoSupport, UInt32 QueryFlag)
+opcode: Completionofrequest.
+keywords: FirmwareUpdate
+task: Class
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGUID
+- field_type: HexInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: InputBufferLength
+- field_type: UInt32
+  field_name: OutputBufferLength
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: UInt32
+  field_name: PortDriverCodeSet
+- field_type: UInt32
+  field_name: FirmwareGetInfoSupport
+- field_type: UInt32
+  field_name: QueryFlag

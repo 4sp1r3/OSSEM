@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '204'
+version: '0'
+event(fields): CommandingUIManager_OnCommandShowMenuStart()
+opcode: Start
+keywords: TSF_UIManager
+task: CommandingUIManager_OnCommandShowMenu
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

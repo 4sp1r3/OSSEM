@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '1111'
+version: '0'
+event(fields): IdleDetection_PostResumeFromHybridbootStart(UnicodeString MostRecentPreviousBuild,
+  UInt64 WhenUpgradedFrom)
+opcode: Start
+keywords: ''
+task: IdleDetection_PostResumeFromHybridboot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MostRecentPreviousBuild
+- field_type: UInt64
+  field_name: WhenUpgradedFrom

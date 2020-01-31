@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '152'
+version: '0'
+event(fields): IDXGIOutput_SetGammaControlStart(Pointer pThis, Binary pArray)
+opcode: Start
+keywords: ''
+task: IDXGIOutput_SetGammaControl
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Binary
+  field_name: pArray

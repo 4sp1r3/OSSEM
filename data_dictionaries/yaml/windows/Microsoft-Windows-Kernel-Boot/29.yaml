@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '29'
+version: '0'
+event(fields): task_029(UInt64 FailureStatus, UInt64 FailureMsgId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: FailureStatus
+- field_type: UInt64
+  field_name: FailureMsgId

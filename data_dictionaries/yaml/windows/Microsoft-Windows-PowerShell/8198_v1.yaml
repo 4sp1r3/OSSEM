@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '8198'
+version: '1'
+event(fields): ConnectOpen(async)8198_V1(UnicodeString param1, UnicodeString param2,
+  UnicodeString param3)
+opcode: Open(async)
+keywords: Runspace
+task: Connect
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2
+- field_type: UnicodeString
+  field_name: param3

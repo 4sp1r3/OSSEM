@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '223'
+version: '0'
+event(fields): TimedTextSendCueTaskStop(Pointer object, Int64 SampleStartTime, Int64
+  SampleEndTime)
+opcode: Stop
+keywords: ''
+task: TimedTextSendCueTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: SampleStartTime
+- field_type: Int64
+  field_name: SampleEndTime

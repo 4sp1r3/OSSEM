@@ -1,0 +1,27 @@
+provider: Microsoft-IE
+event_id: '514'
+version: '0'
+event(fields): Mshtml_Composition_Layer_Candidacy_Failure(Pointer DispNode, UnicodeString
+  NodeDescription, Int32 ReasonCode, UnicodeString ReasonDescription, Pointer DispNode2,
+  UnicodeString NodeDescription2, Int32 CandidacyCode)
+opcode: ''
+keywords: composition
+task: Mshtml_Composition_Layer_Candidacy_Failure
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DispNode
+- field_type: UnicodeString
+  field_name: NodeDescription
+- field_type: Int32
+  field_name: ReasonCode
+- field_type: UnicodeString
+  field_name: ReasonDescription
+- field_type: Pointer
+  field_name: DispNode2
+- field_type: UnicodeString
+  field_name: NodeDescription2
+- field_type: Int32
+  field_name: CandidacyCode

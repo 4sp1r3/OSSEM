@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50038'
+version: '0'
+event(fields): ServiceStateEventErrorInitService(UInt32 StatusCode)
+opcode: ErrorInitService
+keywords: ''
+task: ServiceStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StatusCode

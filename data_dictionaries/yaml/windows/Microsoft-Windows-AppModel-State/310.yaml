@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '310'
+version: '0'
+event(fields): AppModel.Task.StateWinRT.ApplicationDataContainerSettingsServer_HasKeyStart()
+opcode: Start
+keywords: WinRT
+task: AppModel.Task.StateWinRT.ApplicationDataContainerSettingsServer_HasKey
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '705'
+version: '0'
+event(fields): CfgMgr_QueryRemoveStop(UnicodeString Device)
+opcode: Stop
+keywords: CfgMgr
+task: CfgMgr_QueryRemove
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Device

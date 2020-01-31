@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-RemoteApp and Desktop Connections
+event_id: '1036'
+version: '0'
+event(fields): Connection1036(UnicodeString ConnectionName, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: Connection
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ConnectionName
+- field_type: UInt32
+  field_name: ErrorCode

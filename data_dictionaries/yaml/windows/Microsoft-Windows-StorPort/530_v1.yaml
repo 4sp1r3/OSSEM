@@ -1,0 +1,63 @@
+provider: Microsoft-Windows-StorPort
+event_id: '530'
+version: '1'
+event(fields): Port530_V1(UnicodeString MiniportName, UInt32 MiniportEventId, UnicodeString
+  MiniportEventDescription, UInt32 PortNumber, UInt8 Bus, UInt8 Target, UInt8 LUN,
+  UnicodeString Parameter1Name, UInt64 Parameter1Value, UnicodeString Parameter2Name,
+  UInt64 Parameter2Value, UnicodeString Parameter3Name, UInt64 Parameter3Value, UnicodeString
+  Parameter4Name, UInt64 Parameter4Value, UnicodeString Parameter5Name, UInt64 Parameter5Value,
+  UnicodeString Parameter6Name, UInt64 Parameter6Value, UnicodeString Parameter7Name,
+  UInt64 Parameter7Value, UnicodeString Parameter8Name, UInt64 Parameter8Value)
+opcode: ''
+keywords: keyword_200000000000
+task: Port
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MiniportName
+- field_type: UInt32
+  field_name: MiniportEventId
+- field_type: UnicodeString
+  field_name: MiniportEventDescription
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: Bus
+- field_type: UInt8
+  field_name: Target
+- field_type: UInt8
+  field_name: LUN
+- field_type: UnicodeString
+  field_name: Parameter1Name
+- field_type: UInt64
+  field_name: Parameter1Value
+- field_type: UnicodeString
+  field_name: Parameter2Name
+- field_type: UInt64
+  field_name: Parameter2Value
+- field_type: UnicodeString
+  field_name: Parameter3Name
+- field_type: UInt64
+  field_name: Parameter3Value
+- field_type: UnicodeString
+  field_name: Parameter4Name
+- field_type: UInt64
+  field_name: Parameter4Value
+- field_type: UnicodeString
+  field_name: Parameter5Name
+- field_type: UInt64
+  field_name: Parameter5Value
+- field_type: UnicodeString
+  field_name: Parameter6Name
+- field_type: UInt64
+  field_name: Parameter6Value
+- field_type: UnicodeString
+  field_name: Parameter7Name
+- field_type: UInt64
+  field_name: Parameter7Value
+- field_type: UnicodeString
+  field_name: Parameter8Name
+- field_type: UInt64
+  field_name: Parameter8Value

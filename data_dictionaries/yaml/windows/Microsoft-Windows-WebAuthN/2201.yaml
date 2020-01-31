@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2201'
+version: '0'
+event(fields): CtapUsbProviderThreadStop(GUID TransactionId)
+opcode: Stop
+keywords: Ctap Usb
+task: CtapUsbProviderThread
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId

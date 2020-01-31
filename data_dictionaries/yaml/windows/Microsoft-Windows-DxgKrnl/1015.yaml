@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1015'
+version: '0'
+event(fields): MiracastStartMiracastSessionStage(UInt64 MiracastLuid, UInt32 MiracastStartSessionStage)
+opcode: ''
+keywords: Miracast
+task: MiracastStartMiracastSessionStage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UInt32
+  field_name: MiracastStartSessionStage

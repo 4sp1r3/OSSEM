@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18683'
+version: '0'
+event(fields): Shell32_NetFolder_ParseDisplayNameStart(UnicodeString Name)
+opcode: Start
+keywords: Shell
+task: Shell32_NetFolder_ParseDisplayName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name

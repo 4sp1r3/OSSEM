@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceStatusProvider
+event_id: '518'
+version: '0'
+event(fields): GetStatusServicePropertiesStart()
+opcode: Start
+keywords: ''
+task: GetStatusServiceProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

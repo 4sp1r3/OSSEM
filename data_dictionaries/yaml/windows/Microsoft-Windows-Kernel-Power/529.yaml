@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '529'
+version: '0'
+event(fields): PowerAggregatorQueueOverflow(UInt32 Intent, UInt32 Class, UInt32 PowerEvent)
+opcode: ''
+keywords: po:Diagnostic
+task: PowerAggregatorQueueOverflow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Intent
+- field_type: UInt32
+  field_name: Class
+- field_type: UInt32
+  field_name: PowerEvent

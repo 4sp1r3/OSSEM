@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Audio
+event_id: '151'
+version: '0'
+event(fields): AEInterpolator(Pointer objInstance, UInt32 ucType, UInt64 InterpolatedPlayPosition,
+  UInt64 InterpolatedWritePosition, UInt64 RealPlayPosition, UInt64 RealWritePosition,
+  Float SampleRate, Float FilteredError)
+opcode: ''
+keywords: ''
+task: AEInterpolator
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objInstance
+- field_type: UInt32
+  field_name: ucType
+- field_type: UInt64
+  field_name: InterpolatedPlayPosition
+- field_type: UInt64
+  field_name: InterpolatedWritePosition
+- field_type: UInt64
+  field_name: RealPlayPosition
+- field_type: UInt64
+  field_name: RealWritePosition
+- field_type: Float
+  field_name: SampleRate
+- field_type: Float
+  field_name: FilteredError

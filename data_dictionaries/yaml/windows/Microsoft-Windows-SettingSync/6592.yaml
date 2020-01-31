@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6592'
+version: '0'
+event(fields): task_06592(UnicodeString CollectionId, UnicodeString Direction, UnicodeString
+  Priority, GUID OperationId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UnicodeString
+  field_name: Direction
+- field_type: UnicodeString
+  field_name: Priority
+- field_type: GUID
+  field_name: OperationId

@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '37'
+version: '1'
+event(fields): DeviceAllocationStop_V1(Pointer hProcessId, Pointer hDevice, Pointer
+  pDxgAdapter, Pointer hVidMmAlloc, Pointer hVidMmGlobalAlloc, Pointer hDxgResource,
+  Pointer hDxgSharedResource, Pointer hThunkAllocation, Pointer hThunkResource, Pointer
+  PrivateRuntimeResourceHandle, Pointer pVirtualAddress, Pointer hProcessAllocDetails)
+opcode: Stop
+keywords: Resource
+task: DeviceAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hProcessId
+- field_type: Pointer
+  field_name: hDevice
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: hVidMmAlloc
+- field_type: Pointer
+  field_name: hVidMmGlobalAlloc
+- field_type: Pointer
+  field_name: hDxgResource
+- field_type: Pointer
+  field_name: hDxgSharedResource
+- field_type: Pointer
+  field_name: hThunkAllocation
+- field_type: Pointer
+  field_name: hThunkResource
+- field_type: Pointer
+  field_name: PrivateRuntimeResourceHandle
+- field_type: Pointer
+  field_name: pVirtualAddress
+- field_type: Pointer
+  field_name: hProcessAllocDetails

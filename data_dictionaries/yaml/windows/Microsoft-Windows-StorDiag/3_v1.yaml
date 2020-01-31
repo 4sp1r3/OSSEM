@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '3'
+version: '1'
+event(fields): ClassPnPBoostIdleIOrequestClassPnP_Boost_IdleIO_V1(Pointer Irp, Pointer
+  Thread, UInt32 CurrentIOCount, UInt32 ActiveIOCount, UInt32 DeviceNumber)
+opcode: ClassPnP_Boost_IdleIO
+keywords: ClassPnPIdleIO
+task: ClassPnPBoostIdleIOrequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: Thread
+- field_type: UInt32
+  field_name: CurrentIOCount
+- field_type: UInt32
+  field_name: ActiveIOCount
+- field_type: UInt32
+  field_name: DeviceNumber

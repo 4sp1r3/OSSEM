@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '488'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment488(Int32 ErrorCode, UnicodeString
+  Path)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: Path

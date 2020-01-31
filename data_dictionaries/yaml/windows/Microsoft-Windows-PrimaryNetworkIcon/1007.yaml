@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PrimaryNetworkIcon
+event_id: '1007'
+version: '0'
+event(fields): task_01007(GUID GUID, UInt32 DWORD)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: GUID
+- field_type: UInt32
+  field_name: DWORD

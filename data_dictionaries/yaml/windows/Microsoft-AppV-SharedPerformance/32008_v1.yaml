@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '32008'
+version: '1'
+event(fields): VENV.ServiceStartRuntimeStart_V1()
+opcode: Start
+keywords: ''
+task: VENV.ServiceStartRuntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

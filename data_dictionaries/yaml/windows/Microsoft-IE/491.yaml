@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '491'
+version: '0'
+event(fields): Mshtml_IndependentHitTestInfo(Int32 PointerID, Boolean DependentRegion)
+opcode: ''
+keywords: mshtml
+task: Mshtml_IndependentHitTestInfo
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: PointerID
+- field_type: Boolean
+  field_name: DependentRegion

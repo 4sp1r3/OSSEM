@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '514'
+version: '0'
+event(fields): task_0514(UnicodeString Prop_String_1, UnicodeString Prop_String_2,
+  UnicodeString Prop_String_3)
+opcode: ''
+keywords: PeopleSync
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_String_1
+- field_type: UnicodeString
+  field_name: Prop_String_2
+- field_type: UnicodeString
+  field_name: Prop_String_3

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '386'
+version: '0'
+event(fields): InputPanelShowStart()
+opcode: Start
+keywords: immersive
+task: InputPanelShow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

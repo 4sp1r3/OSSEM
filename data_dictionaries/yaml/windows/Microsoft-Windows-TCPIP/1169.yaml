@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1169'
+version: '0'
+event(fields): UdpEndpointSendMessages(Pointer Endpoint, UInt32 NumMessages, UInt32
+  NumBytes, UInt32 LocalSockAddrLength, Binary LocalSockAddr, UInt32 RemoteSockAddrLength,
+  Binary RemoteSockAddr, UInt32 Pid)
+opcode: ''
+keywords: ut:SendPath
+task: UdpEndpointSendMessages
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: NumMessages
+- field_type: UInt32
+  field_name: NumBytes
+- field_type: UInt32
+  field_name: LocalSockAddrLength
+- field_type: Binary
+  field_name: LocalSockAddr
+- field_type: UInt32
+  field_name: RemoteSockAddrLength
+- field_type: Binary
+  field_name: RemoteSockAddr
+- field_type: UInt32
+  field_name: Pid

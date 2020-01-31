@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '6'
+version: '0'
+event(fields): COM_CreateInstanceStop()
+opcode: Stop
+keywords: ''
+task: COM_CreateInstance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

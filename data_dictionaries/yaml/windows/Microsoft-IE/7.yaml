@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '7'
+version: '0'
+event(fields): Mshtml_CMarkup_DOMContentLoadedEvent_Start(UnicodeString AddressName)
+opcode: Start
+keywords: primarynav pageloadbreakdown
+task: Mshtml_CMarkup_DOMContentLoadedEvent_Start
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AddressName

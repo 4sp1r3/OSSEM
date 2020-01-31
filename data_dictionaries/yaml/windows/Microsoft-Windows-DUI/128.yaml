@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DUI
+event_id: '128'
+version: '0'
+event(fields): DirectUI_CreateElementStart128(UnicodeString szResId)
+opcode: Start
+keywords: Default
+task: DirectUI_CreateElement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: szResId

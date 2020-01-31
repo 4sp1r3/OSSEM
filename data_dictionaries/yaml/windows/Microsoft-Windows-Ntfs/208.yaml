@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Ntfs
+event_id: '208'
+version: '0'
+event(fields): MftRecordWrite(Pointer Vcb, HexInt32 BaseFileId, HexInt32 FileId)
+opcode: ''
+keywords: MftRecordWrite
+task: MftRecordWrite
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Vcb
+- field_type: HexInt32
+  field_name: BaseFileId
+- field_type: HexInt32
+  field_name: FileId

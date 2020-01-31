@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '2'
+version: '0'
+event(fields): GCStop(UInt32 Count, UInt16 Depth)
+opcode: Stop
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt16
+  field_name: Depth

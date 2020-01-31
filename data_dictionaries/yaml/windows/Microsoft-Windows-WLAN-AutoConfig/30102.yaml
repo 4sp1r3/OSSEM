@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '30102'
+version: '0'
+event(fields): Perftrack_WfdPairStart(UInt32 RequestId)
+opcode: Start
+keywords: ''
+task: Perftrack_WfdPair
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestId

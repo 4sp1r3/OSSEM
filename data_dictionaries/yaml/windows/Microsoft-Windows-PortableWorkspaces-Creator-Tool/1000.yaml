@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PortableWorkspaces-Creator-Tool
+event_id: '1000'
+version: '0'
+event(fields): task_0(UnicodeString FriendlyName, UnicodeString Name, UnicodeString
+  DriveLetters, UInt64 Size, UInt32 MediaType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FriendlyName
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: DriveLetters
+- field_type: UInt64
+  field_name: Size
+- field_type: UInt32
+  field_name: MediaType

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4011'
+version: '0'
+event(fields): FOLDER_EMPTYFOLDERStart()
+opcode: Start
+keywords: Performance
+task: FOLDER_EMPTYFOLDER
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

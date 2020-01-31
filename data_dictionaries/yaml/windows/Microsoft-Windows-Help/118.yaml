@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '118'
+version: '0'
+event(fields): ReusableTextStart()
+opcode: Start
+keywords: PerfEvent
+task: ReusableText
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

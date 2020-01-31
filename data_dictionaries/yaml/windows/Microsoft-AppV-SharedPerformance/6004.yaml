@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6004'
+version: '0'
+event(fields): GetPackagesStart6004(UnicodeString str)
+opcode: Start
+keywords: ''
+task: GetPackages
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str

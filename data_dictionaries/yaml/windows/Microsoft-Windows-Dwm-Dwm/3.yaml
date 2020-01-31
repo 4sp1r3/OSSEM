@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dwm-Dwm
+event_id: '3'
+version: '0'
+event(fields): TraceGraphicsCapabilities(UInt32 Capability, UInt32 Verified)
+opcode: ''
+keywords: DwmExe
+task: TraceGraphicsCapabilities
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Capability
+- field_type: UInt32
+  field_name: Verified

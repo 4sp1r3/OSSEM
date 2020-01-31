@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TerminalServices-LocalSessionManager
+event_id: '22'
+version: '0'
+event(fields): task_022(UnicodeString User, UInt32 SessionID, UnicodeString Address)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UInt32
+  field_name: SessionID
+- field_type: UnicodeString
+  field_name: Address

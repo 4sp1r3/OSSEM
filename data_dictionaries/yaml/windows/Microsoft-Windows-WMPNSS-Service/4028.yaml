@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4028'
+version: '0'
+event(fields): Results_Pop_SortmapStop(UInt32 SortItemCount, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Results_Pop_Sortmap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SortItemCount
+- field_type: UInt32
+  field_name: ErrorCode

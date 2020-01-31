@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '95'
+version: '0'
+event(fields): ClientRequestError95(Pointer fid_UsbDevice, Pointer fid_URB_Ptr, Int8
+  fid_USBPORT_URB_HEADER)
+opcode: Error
+keywords: Default IRP keyword_400000000000
+task: ClientRequest
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Pointer
+  field_name: fid_URB_Ptr
+- field_type: Int8
+  field_name: fid_USBPORT_URB_HEADER

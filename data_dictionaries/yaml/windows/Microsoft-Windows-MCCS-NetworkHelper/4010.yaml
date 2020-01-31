@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '4010'
+version: '0'
+event(fields): task_04010(Pointer Prop_ptr, UInt32 Prop_uint)
+opcode: ''
+keywords: Debug
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Prop_ptr
+- field_type: UInt32
+  field_name: Prop_uint

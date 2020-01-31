@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '316'
+version: '0'
+event(fields): ScopeManager_Write(UInt32 MaxWID, UInt32 Scope, Boolean IsCompact,
+  UInt32 CacheCapacity)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: ScopeManager_Write
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MaxWID
+- field_type: UInt32
+  field_name: Scope
+- field_type: Boolean
+  field_name: IsCompact
+- field_type: UInt32
+  field_name: CacheCapacity

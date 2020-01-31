@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1005'
+version: '1'
+event(fields): SrvNegotiateValidationFailure_V1(UInt16 ClientNameLength, UnicodeString
+  ClientName, UInt16 UserNameLength, UnicodeString UserName, UInt32 ClientAddressLength,
+  Binary ClientAddress, HexInt32 ExpectedDialect, HexInt32 ExpectedCapabilities, HexInt32
+  ExpectedSecurityMode, HexInt32 ReceivedDialect, HexInt32 ReceivedCapabilities, HexInt32
+  ReceivedSecurityMode, HexInt64 SessionID)
+opcode: ''
+keywords: Operational
+task: SrvNegotiateValidationFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName
+- field_type: UInt16
+  field_name: UserNameLength
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UInt32
+  field_name: ClientAddressLength
+- field_type: Binary
+  field_name: ClientAddress
+- field_type: HexInt32
+  field_name: ExpectedDialect
+- field_type: HexInt32
+  field_name: ExpectedCapabilities
+- field_type: HexInt32
+  field_name: ExpectedSecurityMode
+- field_type: HexInt32
+  field_name: ReceivedDialect
+- field_type: HexInt32
+  field_name: ReceivedCapabilities
+- field_type: HexInt32
+  field_name: ReceivedSecurityMode
+- field_type: HexInt64
+  field_name: SessionID

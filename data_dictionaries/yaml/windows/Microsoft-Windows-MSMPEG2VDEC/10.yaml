@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '10'
+version: '0'
+event(fields): MPEG2_NotifyDiscover(UInt8 PictureType)
+opcode: ''
+keywords: ''
+task: MPEG2_NotifyDiscover
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: PictureType

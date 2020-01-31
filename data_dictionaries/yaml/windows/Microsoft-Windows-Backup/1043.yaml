@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Backup
+event_id: '1043'
+version: '0'
+event(fields): task_01043(UnicodeString RestoreTargetNameList, FILETIME RestoreTime)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RestoreTargetNameList
+- field_type: FILETIME
+  field_name: RestoreTime

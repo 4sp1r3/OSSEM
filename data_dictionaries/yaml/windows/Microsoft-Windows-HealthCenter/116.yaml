@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '116'
+version: '0'
+event(fields): HealthCenter_IconFlyoutStart()
+opcode: Start
+keywords: ''
+task: HealthCenter_IconFlyout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

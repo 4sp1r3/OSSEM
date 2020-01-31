@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51035'
+version: '0'
+event(fields): AddressConfigurationStateEventStaticMode(UInt32 InterfaceId, UInt32
+  StatusCode)
+opcode: StaticMode
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: StatusCode

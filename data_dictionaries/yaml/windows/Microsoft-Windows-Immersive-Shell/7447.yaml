@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7447'
+version: '0'
+event(fields): ConnectedSearch_BlockingTemplateDownloadStop(UInt32 ErrorResult)
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_BlockingTemplateDownload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorResult

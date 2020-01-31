@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2608'
+version: '0'
+event(fields): Settings_SettingsLoadAppWidgetsBG(UInt32 Result)
+opcode: ''
+keywords: ''
+task: Settings_SettingsLoadAppWidgetsBG
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

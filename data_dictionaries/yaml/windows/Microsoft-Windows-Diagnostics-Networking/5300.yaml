@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnostics-Networking
+event_id: '5300'
+version: '0'
+event(fields): RepairFailure(UInt32 ResultHR)
+opcode: ''
+keywords: ndf:NDFCoreEvents keyword_400000000000
+task: RepairFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ResultHR

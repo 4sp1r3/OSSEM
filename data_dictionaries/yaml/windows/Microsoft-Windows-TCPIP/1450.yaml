@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1450'
+version: '0'
+event(fields): IpRouterInformationChangeNotification(UInt32 IfIndex, UInt32 CompartmentId,
+  UInt32 AddressFamily, UInt32 Reason)
+opcode: ''
+keywords: ut:NsiNotification ut:TcpipRouter
+task: IpRouterInformationChangeNotification
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: Reason

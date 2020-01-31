@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '647'
+version: '0'
+event(fields): Mshtml_Generic_Diagnosis_Win_Error(AnsiString WinErrorDescription,
+  Pointer ThisPtr, UInt32 WinError)
+opcode: ''
+keywords: mshtml
+task: Mshtml_Generic_Diagnosis_Win_Error
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: WinErrorDescription
+- field_type: Pointer
+  field_name: ThisPtr
+- field_type: UInt32
+  field_name: WinError

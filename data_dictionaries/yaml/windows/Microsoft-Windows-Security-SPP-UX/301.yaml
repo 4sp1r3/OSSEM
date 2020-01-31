@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-SPP-UX
+event_id: '301'
+version: '0'
+event(fields): Security_SPP_UX_NotifyUserStop()
+opcode: Stop
+keywords: ''
+task: Security_SPP_UX_NotifyUser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

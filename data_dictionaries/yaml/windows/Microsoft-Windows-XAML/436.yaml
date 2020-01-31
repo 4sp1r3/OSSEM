@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-XAML
+event_id: '436'
+version: '0'
+event(fields): ImageRequestDecode(UInt64 ImageId, UnicodeString URI, UnicodeString
+  ImageState, UInt32 ImageStateKey, UInt32 Width, UInt32 Height)
+opcode: ''
+keywords: Images
+task: ImageRequestDecode
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ImageId
+- field_type: UnicodeString
+  field_name: URI
+- field_type: UnicodeString
+  field_name: ImageState
+- field_type: UInt32
+  field_name: ImageStateKey
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height

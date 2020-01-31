@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Ndu
+event_id: '2008'
+version: '0'
+event(fields): TokenTracking(UnicodeString _ExePath, UInt32 _SvcTag, UnicodeString
+  _PkgName, SID _UserId, UInt32 _Cookie, UInt32 _Quota)
+opcode: ''
+keywords: KeywordNduTokenTracking
+task: TokenTracking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: _ExePath
+- field_type: UInt32
+  field_name: _SvcTag
+- field_type: UnicodeString
+  field_name: _PkgName
+- field_type: SID
+  field_name: _UserId
+- field_type: UInt32
+  field_name: _Cookie
+- field_type: UInt32
+  field_name: _Quota

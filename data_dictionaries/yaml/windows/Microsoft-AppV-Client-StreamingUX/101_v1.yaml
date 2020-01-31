@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client-StreamingUX
+event_id: '101'
+version: '1'
+event(fields): task_0101_V1(UInt32 uint32)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: uint32

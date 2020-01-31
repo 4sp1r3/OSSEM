@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '1058'
+version: '0'
+event(fields): DMR_LastChange(UInt32 dispid, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: DMR_LastChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dispid
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11301'
+version: '0'
+event(fields): LockScreenCallBroker_StartCallStart(GUID ConnectionGUID, UnicodeString
+  AppID, UnicodeString AppArguments)
+opcode: Start
+keywords: LockScreenCallBroker
+task: LockScreenCallBroker_StartCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UnicodeString
+  field_name: AppArguments

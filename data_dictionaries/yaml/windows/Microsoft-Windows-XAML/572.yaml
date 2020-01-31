@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '572'
+version: '0'
+event(fields): SetCustomRuntimeDataForResourceDictionaryStop()
+opcode: Stop
+keywords: Core
+task: SetCustomRuntimeDataForResourceDictionary
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

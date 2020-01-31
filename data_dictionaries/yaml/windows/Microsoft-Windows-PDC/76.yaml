@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PDC
+event_id: '76'
+version: '0'
+event(fields): TaskDeregistration(Pointer Client, UInt32 PdcId, UInt32 Status)
+opcode: ''
+keywords: tasks
+task: TaskDeregistration
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: UInt32
+  field_name: PdcId
+- field_type: UInt32
+  field_name: Status

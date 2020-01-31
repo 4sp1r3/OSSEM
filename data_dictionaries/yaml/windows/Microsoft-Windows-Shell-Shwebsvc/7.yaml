@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Shwebsvc
+event_id: '7'
+version: '0'
+event(fields): InitServicesStart()
+opcode: Start
+keywords: ''
+task: InitServices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '456'
+version: '1'
+event(fields): task_0456_V1(GUID SocketID, UInt32 LocalAddressLength, Binary LocalAddress,
+  UInt32 RemoteAddressLength, Binary RemoteAddress, UInt32 PeerSendCreditsGranted,
+  UInt32 PeerSendCredits)
+opcode: ''
+keywords: Credits ut:SendPath
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SocketID
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: PeerSendCreditsGranted
+- field_type: UInt32
+  field_name: PeerSendCredits

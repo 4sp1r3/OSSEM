@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PrintService
+event_id: '204'
+version: '0'
+event(fields): DeletingaprinterconnectionSpoolerOperationSucceeded(UnicodeString Label,
+  HexInt32 ErrorCode, UnicodeString ObjectName)
+opcode: SpoolerOperationSucceeded
+keywords: SPOOLER_KEYWORD_WIN32SPL SPOOLER_KEYWORD_CONNECTION
+task: Deletingaprinterconnection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Label
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ObjectName

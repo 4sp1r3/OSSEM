@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '115'
+version: '0'
+event(fields): CellularAPI115(AnsiString FunctionName, UInt32 Pointer, UInt64 Pointer2)
+opcode: ''
+keywords: Trace
+task: CellularAPI
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: FunctionName
+- field_type: UInt32
+  field_name: Pointer
+- field_type: UInt64
+  field_name: Pointer2

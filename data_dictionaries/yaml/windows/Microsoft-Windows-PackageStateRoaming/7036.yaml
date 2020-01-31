@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PackageStateRoaming
+event_id: '7036'
+version: '0'
+event(fields): NotifyConsistencyMonitorForPFNIfNeededStop(UnicodeString CollectionId,
+  UInt32 HRESULT)
+opcode: Stop
+keywords: PackageStateRoaming
+task: NotifyConsistencyMonitorForPFNIfNeeded
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId
+- field_type: UInt32
+  field_name: HRESULT

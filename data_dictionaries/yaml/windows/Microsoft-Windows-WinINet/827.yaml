@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinINet
+event_id: '827'
+version: '0'
+event(fields): WININET_AUTOPROXY_PERFTRACK_UNKNOWN_DETECTIONStop()
+opcode: Stop
+keywords: WININET_KEYWORD_AUTOPROXY
+task: WININET_AUTOPROXY_PERFTRACK_UNKNOWN_DETECTION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

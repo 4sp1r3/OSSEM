@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50088'
+version: '0'
+event(fields): NetworkParameterStateEventParamChangeRegister(UInt32 ProcID, UInt32
+  UniqueID, AnsiString EventPath, UInt32 ClassIDSize, Binary ClassID, UInt32 OptListSize,
+  Binary OptList, Boolean IsVendor)
+opcode: ParamChangeRegister
+keywords: ''
+task: NetworkParameterStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcID
+- field_type: UInt32
+  field_name: UniqueID
+- field_type: AnsiString
+  field_name: EventPath
+- field_type: UInt32
+  field_name: ClassIDSize
+- field_type: Binary
+  field_name: ClassID
+- field_type: UInt32
+  field_name: OptListSize
+- field_type: Binary
+  field_name: OptList
+- field_type: Boolean
+  field_name: IsVendor

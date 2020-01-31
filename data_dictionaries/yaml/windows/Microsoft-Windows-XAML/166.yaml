@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '166'
+version: '0'
+event(fields): ProcessPointerInputStop()
+opcode: Stop
+keywords: Input
+task: ProcessPointerInput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

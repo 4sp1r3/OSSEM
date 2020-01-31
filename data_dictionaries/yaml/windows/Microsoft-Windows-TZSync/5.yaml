@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TZSync
+event_id: '5'
+version: '0'
+event(fields): ConversiontaskStart()
+opcode: Start
+keywords: ''
+task: Conversiontask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

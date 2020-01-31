@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '123'
+version: '0'
+event(fields): GetMemoryMapStop(UInt32 Status, UInt32 DataSize, UInt32 BufferSize)
+opcode: Stop
+keywords: SoftRestart
+task: GetMemoryMap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: DataSize
+- field_type: UInt32
+  field_name: BufferSize

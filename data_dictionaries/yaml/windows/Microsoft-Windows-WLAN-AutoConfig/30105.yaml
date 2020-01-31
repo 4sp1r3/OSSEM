@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '30105'
+version: '0'
+event(fields): task_030105(UInt32 ReturnValue, UInt32 ReasonCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ReturnValue
+- field_type: UInt32
+  field_name: ReasonCode

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WER-SystemErrorReporting
+event_id: '1003'
+version: '0'
+event(fields): task_0PCODE_64pcode_641003()
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

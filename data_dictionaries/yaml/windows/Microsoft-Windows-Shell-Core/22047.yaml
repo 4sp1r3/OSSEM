@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22047'
+version: '0'
+event(fields): Taskbar_ButtonGroup_Rearranged(Pointer hwndTaskBand, Pointer pTBGroup,
+  UnicodeString pszExePath, UInt32 tbgType, Int32 x, Int32 y)
+opcode: ''
+keywords: Shell
+task: Taskbar_ButtonGroup_Rearranged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwndTaskBand
+- field_type: Pointer
+  field_name: pTBGroup
+- field_type: UnicodeString
+  field_name: pszExePath
+- field_type: UInt32
+  field_name: tbgType
+- field_type: Int32
+  field_name: x
+- field_type: Int32
+  field_name: y

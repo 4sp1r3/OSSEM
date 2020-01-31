@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '77'
+version: '0'
+event(fields): DismAddProvisionedAppxPackageStart(UInt32 SessionId, UnicodeString
+  String)
+opcode: Start
+keywords: DismApiEvent
+task: DismAddProvisionedAppxPackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: String

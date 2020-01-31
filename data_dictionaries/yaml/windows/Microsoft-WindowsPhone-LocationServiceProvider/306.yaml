@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '306'
+version: '0'
+event(fields): Canceled(HexInt32 RequestId, UInt32 RequestType, UInt32 Reason, HexInt32
+  Status)
+opcode: ''
+keywords: Selfhost Orion WebproxyTracing
+task: Canceled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: RequestType
+- field_type: UInt32
+  field_name: Reason
+- field_type: HexInt32
+  field_name: Status

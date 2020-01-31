@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1016'
+version: '0'
+event(fields): WinNatMemoryAllocationFailure(UnicodeString Description)
+opcode: ''
+keywords: ut:Session ut:Binding ut:Translation ut:Configuration ut:NatDrop ut:NatSkip
+  ut:NatForward
+task: WinNatMemoryAllocationFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Description

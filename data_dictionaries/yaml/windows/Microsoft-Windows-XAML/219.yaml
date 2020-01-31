@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '219'
+version: '0'
+event(fields): PresentControllerFrameOnScreenMissed(UInt64 ControllerId, UInt32 PresentId)
+opcode: ''
+keywords: Rendering
+task: PresentControllerFrameOnScreenMissed
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ControllerId
+- field_type: UInt32
+  field_name: PresentId

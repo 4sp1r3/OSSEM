@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1401'
+version: '0'
+event(fields): BackstackManager_GetBackstackStart()
+opcode: Start
+keywords: ''
+task: BackstackManager_GetBackstack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

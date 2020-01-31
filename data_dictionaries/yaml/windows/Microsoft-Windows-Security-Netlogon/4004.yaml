@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Security-Netlogon
+event_id: '4004'
+version: '0'
+event(fields): BlockingNTLM(UnicodeString SChannelName, UnicodeString UserName, UnicodeString
+  DomainName, UnicodeString WorkstationName, UInt32 SChannelType)
+opcode: ''
+keywords: ''
+task: BlockingNTLM
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SChannelName
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UnicodeString
+  field_name: DomainName
+- field_type: UnicodeString
+  field_name: WorkstationName
+- field_type: UInt32
+  field_name: SChannelType

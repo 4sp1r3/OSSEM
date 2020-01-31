@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Wordpad
+event_id: '9'
+version: '0'
+event(fields): task_09(UnicodeString StringParam)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StringParam

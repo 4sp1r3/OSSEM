@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '7'
+version: '0'
+event(fields): LEGACY_EVENTLOCAL_PLAY_BEGIN()
+opcode: LOCAL_PLAY_BEGIN
+keywords: mediaplayer
+task: LEGACY_EVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

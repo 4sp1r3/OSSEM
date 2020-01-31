@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9711'
+version: '0'
+event(fields): Explorer_ExecutingFromStartupMenuStart(UnicodeString Command)
+opcode: Start
+keywords: Shell StartupPerf
+task: Explorer_ExecutingFromStartupMenu
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Command

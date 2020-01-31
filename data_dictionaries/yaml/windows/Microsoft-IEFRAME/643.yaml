@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '643'
+version: '0'
+event(fields): CFaviconHolder_UpdateReal()
+opcode: ''
+keywords: favicon
+task: CFaviconHolder_UpdateReal
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

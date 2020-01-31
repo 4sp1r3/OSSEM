@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '301'
+version: '0'
+event(fields): IHM_InvokeStop(UnicodeString Mode, UnicodeString Method, Int32 IP_Left,
+  Int32 IP_Top, Int32 IP_Right, Int32 IP_Bottom, Int32 Monitor_Left, Int32 Monitor_Top,
+  Int32 Monitor_Right, Int32 Monitor_Bottom)
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: IHM_Invoke
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Mode
+- field_type: UnicodeString
+  field_name: Method
+- field_type: Int32
+  field_name: IP_Left
+- field_type: Int32
+  field_name: IP_Top
+- field_type: Int32
+  field_name: IP_Right
+- field_type: Int32
+  field_name: IP_Bottom
+- field_type: Int32
+  field_name: Monitor_Left
+- field_type: Int32
+  field_name: Monitor_Top
+- field_type: Int32
+  field_name: Monitor_Right
+- field_type: Int32
+  field_name: Monitor_Bottom

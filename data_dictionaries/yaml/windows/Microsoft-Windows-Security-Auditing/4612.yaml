@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4612'
+version: '0'
+event(fields): task_04612(UInt32 AuditsDiscarded)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AuditsDiscarded

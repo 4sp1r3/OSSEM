@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RPC
+event_id: '2'
+version: '1'
+event(fields): RpcServerCall_V1(UnicodeString ImangeName, GUID InterfaceUuid, GUID
+  FilterKey)
+opcode: ''
+keywords: ''
+task: RpcServerCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ImangeName
+- field_type: GUID
+  field_name: InterfaceUuid
+- field_type: GUID
+  field_name: FilterKey

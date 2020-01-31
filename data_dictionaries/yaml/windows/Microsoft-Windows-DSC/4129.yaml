@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DSC
+event_id: '4129'
+version: '0'
+event(fields): SendconfigurationscenarioforLocalconfigurationmanager4129(UnicodeString
+  JobId, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: SendconfigurationscenarioforLocalconfigurationmanager
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UInt32
+  field_name: ErrorCode

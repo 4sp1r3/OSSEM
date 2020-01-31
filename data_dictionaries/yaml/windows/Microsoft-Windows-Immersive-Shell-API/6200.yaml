@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '6200'
+version: '0'
+event(fields): DataTransferManager_API_AppReturnDataStart()
+opcode: Start
+keywords: ''
+task: DataTransferManager_API_AppReturnData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

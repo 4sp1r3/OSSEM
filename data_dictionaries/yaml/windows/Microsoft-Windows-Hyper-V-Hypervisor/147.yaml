@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '147'
+version: '0'
+event(fields): task_0147(UInt8 IoApicId)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: IoApicId

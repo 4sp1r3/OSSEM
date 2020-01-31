@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '60'
+version: '0'
+event(fields): InvalidateMeasure(UInt64 ElementId, UInt64 ParentId)
+opcode: ''
+keywords: ''
+task: InvalidateMeasure
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UInt64
+  field_name: ParentId

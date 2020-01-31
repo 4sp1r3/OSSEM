@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-StorPort
+event_id: '20'
+version: '1'
+event(fields): None20_V1(UInt32 Version, UInt32 Size, HexInt32 Flags, UInt32 ConcurrentChannels,
+  UInt32 FirstRedirectionMessageNumber, UInt32 LastRedirectionMessageNumber, UInt32
+  DeviceNode)
+opcode: ''
+keywords: Config
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Version
+- field_type: UInt32
+  field_name: Size
+- field_type: HexInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ConcurrentChannels
+- field_type: UInt32
+  field_name: FirstRedirectionMessageNumber
+- field_type: UInt32
+  field_name: LastRedirectionMessageNumber
+- field_type: UInt32
+  field_name: DeviceNode

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '2001'
+version: '0'
+event(fields): task_02001(GUID SpaceId, Pointer Irp, Pointer Packet, UInt32 Status,
+  UInt64 Latency)
+opcode: ''
+keywords: Io
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SpaceId
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: Packet
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt64
+  field_name: Latency

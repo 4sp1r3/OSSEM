@@ -1,0 +1,11 @@
+provider: Microsoft-Client-Licensing-Platform
+event_id: '13'
+version: '0'
+event(fields): Service_CallStart13()
+opcode: Start
+keywords: SERVICE_PERF_KEYWORD
+task: Service_Call
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

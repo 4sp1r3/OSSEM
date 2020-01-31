@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '35'
+version: '0'
+event(fields): FindAllLibraryRecordsStart()
+opcode: Start
+keywords: ''
+task: FindAllLibraryRecords
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

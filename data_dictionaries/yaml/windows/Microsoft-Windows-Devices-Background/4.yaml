@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Devices-Background
+event_id: '4'
+version: '0'
+event(fields): Applicationinitiateddeviceservicing/updatetaskStop4(GUID TriggerID,
+  Int32 Duration)
+opcode: Stop
+keywords: ''
+task: Applicationinitiateddeviceservicing/updatetask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TriggerID
+- field_type: Int32
+  field_name: Duration

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1526'
+version: '0'
+event(fields): ShellTask_Undo_UndoThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_Undo_UndoThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

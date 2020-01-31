@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7086'
+version: '0'
+event(fields): Perf_WLRoamCloudSyncSessionUpSyncStop()
+opcode: Stop
+keywords: RoamingSettings
+task: Perf_WLRoamCloudSyncSessionUpSync
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '51'
+version: '0'
+event(fields): ButtonBarCreateStop()
+opcode: Stop
+keywords: ''
+task: ButtonBarCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

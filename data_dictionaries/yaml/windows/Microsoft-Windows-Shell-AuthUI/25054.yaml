@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25054'
+version: '0'
+event(fields): Logon_AutoLogon_IsSingleUserNoPasswordStop25054()
+opcode: Stop
+keywords: ''
+task: Logon_AutoLogon_IsSingleUserNoPassword
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

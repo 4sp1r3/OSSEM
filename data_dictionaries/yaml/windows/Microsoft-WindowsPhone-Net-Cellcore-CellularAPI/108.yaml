@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '108'
+version: '0'
+event(fields): CellularAPI108(AnsiString AnsiStringName1, HexInt32 RilErrorName)
+opcode: ''
+keywords: Error
+task: CellularAPI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: AnsiStringName1
+- field_type: HexInt32
+  field_name: RilErrorName

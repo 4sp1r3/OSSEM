@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1284'
+version: '0'
+event(fields): Server1284()
+opcode: ''
+keywords: Error Server keyword_80000000000
+task: Server
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

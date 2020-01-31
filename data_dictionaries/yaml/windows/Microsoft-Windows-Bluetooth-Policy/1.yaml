@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Bluetooth-Policy
+event_id: '1'
+version: '0'
+event(fields): task_0(UnicodeString PolicyPath, UnicodeString PolicyName, UnicodeString
+  PolicyValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PolicyPath
+- field_type: UnicodeString
+  field_name: PolicyName
+- field_type: UnicodeString
+  field_name: PolicyValue

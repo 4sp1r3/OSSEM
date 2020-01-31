@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DSC
+event_id: '4249'
+version: '0'
+event(fields): task_04249(UnicodeString JobId, UnicodeString ClassName, UnicodeString
+  MessageBody)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: ClassName
+- field_type: UnicodeString
+  field_name: MessageBody

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '115'
+version: '0'
+event(fields): RenderThreadFrameStart()
+opcode: Start
+keywords: Rendering
+task: RenderThreadFrame
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

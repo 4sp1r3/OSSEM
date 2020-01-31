@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '13'
+version: '0'
+event(fields): ThemesOnLogonPostStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: ThemesOnLogonPost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

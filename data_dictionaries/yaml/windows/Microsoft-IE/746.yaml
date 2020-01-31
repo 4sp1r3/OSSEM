@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '746'
+version: '0'
+event(fields): Edgehtml_HtmlPopup(UInt32 HRESULT, UInt32 Left, UInt32 Right, UInt32
+  Top, UInt32 Bottom)
+opcode: ''
+keywords: mshtml
+task: Edgehtml_HtmlPopup
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: Left
+- field_type: UInt32
+  field_name: Right
+- field_type: UInt32
+  field_name: Top
+- field_type: UInt32
+  field_name: Bottom

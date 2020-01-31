@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '50'
+version: '0'
+event(fields): DwmSpriteLogicalSurfUnBind(UInt64 hDwmSprite, UInt64 hLogicalSurf)
+opcode: ''
+keywords: Updates
+task: DwmSpriteLogicalSurfUnBind
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hDwmSprite
+- field_type: UInt64
+  field_name: hLogicalSurf

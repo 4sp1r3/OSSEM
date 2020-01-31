@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10088'
+version: '0'
+event(fields): PnP10088(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UnicodeString
+  Transport, HexInt32 PnPEvent, HexInt32 Status)
+opcode: ''
+keywords: PnP
+task: PnP
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: NetLuid
+- field_type: UnicodeString
+  field_name: Transport
+- field_type: HexInt32
+  field_name: PnPEvent
+- field_type: HexInt32
+  field_name: Status

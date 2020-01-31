@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '526'
+version: '0'
+event(fields): NetRefreshTimerDisarmed()
+opcode: ''
+keywords: po:Diagnostic
+task: NetRefreshTimerDisarmed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

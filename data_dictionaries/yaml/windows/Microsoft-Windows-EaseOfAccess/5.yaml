@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EaseOfAccess
+event_id: '5'
+version: '0'
+event(fields): Magnify_ChangeFocusStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: Magnify_ChangeFocus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

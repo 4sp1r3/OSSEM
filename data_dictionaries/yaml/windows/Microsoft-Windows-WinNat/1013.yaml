@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1013'
+version: '0'
+event(fields): WinNatAddressPoolConfig(UnicodeString InstanceName, UInt32 Address,
+  UInt16 StartingPort, UInt16 EndingPort, UInt64 InterfaceLuid, UInt32 Action, UInt32
+  Status)
+opcode: ''
+keywords: ut:Configuration
+task: WinNatAddressPoolConfig
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InstanceName
+- field_type: UInt32
+  field_name: Address
+- field_type: UInt16
+  field_name: StartingPort
+- field_type: UInt16
+  field_name: EndingPort
+- field_type: UInt64
+  field_name: InterfaceLuid
+- field_type: UInt32
+  field_name: Action
+- field_type: UInt32
+  field_name: Status

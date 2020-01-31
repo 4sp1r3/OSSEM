@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '33'
+version: '0'
+event(fields): QueryStats(UInt32 SruWorkItemType, UInt32 ProviderState, UInt32 DeviceState)
+opcode: ''
+keywords: CodePath
+task: QueryStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SruWorkItemType
+- field_type: UInt32
+  field_name: ProviderState
+- field_type: UInt32
+  field_name: DeviceState

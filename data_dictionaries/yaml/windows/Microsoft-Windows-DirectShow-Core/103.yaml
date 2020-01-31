@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '103'
+version: '0'
+event(fields): DirectShowFilterGraphConnectStop(Pointer context, HexInt32 hr, GUID
+  type, GUID subtype)
+opcode: Stop
+keywords: ''
+task: DirectShowFilterGraphConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: context
+- field_type: HexInt32
+  field_name: hr
+- field_type: GUID
+  field_name: type
+- field_type: GUID
+  field_name: subtype

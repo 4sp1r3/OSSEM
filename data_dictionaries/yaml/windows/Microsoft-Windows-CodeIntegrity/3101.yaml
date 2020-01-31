@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3101'
+version: '0'
+event(fields): RefreshPolicyTaskRefreshPolicyOp3101(UInt32 NumberOfPolicies)
+opcode: RefreshPolicyOp
+keywords: ''
+task: RefreshPolicyTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NumberOfPolicies

@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '83'
+version: '0'
+event(fields): Mshtml_CWindow_ScriptStop(Pointer CDoc, UInt32 Nesting)
+opcode: Stop
+keywords: primarynav pageloadbreakdown
+task: Mshtml_CWindow_Script
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CDoc
+- field_type: UInt32
+  field_name: Nesting

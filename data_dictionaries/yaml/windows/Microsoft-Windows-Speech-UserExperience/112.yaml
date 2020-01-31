@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '112'
+version: '0'
+event(fields): FTUE_MicSetupCompleteToDocHarvestNavigationStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: FTUE_MicSetupCompleteToDocHarvestNavigation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

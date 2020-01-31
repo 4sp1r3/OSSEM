@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '129'
+version: '0'
+event(fields): TouchInjectionEventStart()
+opcode: Start
+keywords: MessagePumpInternalAndInput
+task: TouchInjectionEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4469'
+version: '0'
+event(fields): MFMediaDeviceSourceStartTaskStart(Pointer object)
+opcode: Start
+keywords: ''
+task: MFMediaDeviceSourceStartTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '85'
+version: '0'
+event(fields): CriticalTripPointExceededDiagnostic(UInt16 ThermalZoneDeviceInstanceLength,
+  UnicodeString ThermalZoneDeviceInstance, FILETIME ShutdownTime, UInt32 _CRT)
+opcode: ''
+keywords: po:Thermal
+task: CriticalTripPointExceededDiagnostic
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ThermalZoneDeviceInstanceLength
+- field_type: UnicodeString
+  field_name: ThermalZoneDeviceInstance
+- field_type: FILETIME
+  field_name: ShutdownTime
+- field_type: UInt32
+  field_name: _CRT

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UI-Input-Inking
+event_id: '16'
+version: '0'
+event(fields): Inking_IStrokeCollection_CopyStop()
+opcode: Stop
+keywords: InkStrokeManipulation
+task: Inking_IStrokeCollection_Copy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

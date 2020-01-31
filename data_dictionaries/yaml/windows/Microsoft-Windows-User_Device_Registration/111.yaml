@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '111'
+version: '0'
+event(fields): task_0111(Int32 JoinRequestType, UnicodeString JoinRequestTypeSymbolicName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: JoinRequestType
+- field_type: UnicodeString
+  field_name: JoinRequestTypeSymbolicName

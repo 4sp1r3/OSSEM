@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '221'
+version: '0'
+event(fields): CSearchCrawlScopeManager_HasChildScopeRuleStop(UInt32 hr, Boolean HasChildRule)
+opcode: Stop
+keywords: CSM
+task: CSearchCrawlScopeManager_HasChildScopeRule
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr
+- field_type: Boolean
+  field_name: HasChildRule

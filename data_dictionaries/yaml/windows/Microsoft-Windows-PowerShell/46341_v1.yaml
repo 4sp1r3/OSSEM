@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '46341'
+version: '1'
+event(fields): None46341_V1(GUID TrackingId, GUID ContainerParentJobInstanceId)
+opcode: ''
+keywords: ''
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TrackingId
+- field_type: GUID
+  field_name: ContainerParentJobInstanceId

@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '100'
+version: '0'
+event(fields): CellularAPIStart()
+opcode: Start
+keywords: Performance
+task: CellularAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

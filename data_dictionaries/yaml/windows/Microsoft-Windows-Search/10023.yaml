@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Search
+event_id: '10023'
+version: '0'
+event(fields): task_0PCODE_128pcode_12810023(UnicodeString ExtraInfo, UnicodeString
+  ProtocolHostProcessID, UnicodeString FilterHostProcessID)
+opcode: opcode_128
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtraInfo
+- field_type: UnicodeString
+  field_name: ProtocolHostProcessID
+- field_type: UnicodeString
+  field_name: FilterHostProcessID

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '1012'
+version: '0'
+event(fields): DnsHostFileErrorSystem(UInt32 ErrorCode, UInt32 Location, UInt32 Context)
+opcode: ''
+keywords: ut:DnsAutoLogKeyword
+task: DnsHostFileErrorSystem
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context

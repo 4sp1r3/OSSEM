@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '4'
+version: '1'
+event(fields): ClientStartupStart4_V1(UInt32 Error)
+opcode: Start
+keywords: Startup Logon
+task: ClientStartup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error

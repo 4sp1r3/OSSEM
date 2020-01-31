@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '64'
+version: '0'
+event(fields): URB_FUNCTION_SET_FRAME_LENGTHDispatch()
+opcode: Dispatch
+keywords: Diagnostic
+task: URB_FUNCTION_SET_FRAME_LENGTH
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

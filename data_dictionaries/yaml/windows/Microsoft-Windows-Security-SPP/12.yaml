@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-SPP
+event_id: '12'
+version: '0'
+event(fields): SLSVC_ActionStateCollectStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: SLSVC_ActionStateCollect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

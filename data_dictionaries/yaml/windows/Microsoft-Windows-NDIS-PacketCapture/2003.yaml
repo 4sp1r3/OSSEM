@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NDIS-PacketCapture
+event_id: '2003'
+version: '0'
+event(fields): RulesLoadingState(UInt8 RuleId, UInt8 Directive, UInt16 Length, Binary
+  Value)
+opcode: LoadingState
+keywords: ut:Global
+task: Rules
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: RuleId
+- field_type: UInt8
+  field_name: Directive
+- field_type: UInt16
+  field_name: Length
+- field_type: Binary
+  field_name: Value

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-PDC
+event_id: '19'
+version: '0'
+event(fields): ResiliencyClient(Pointer Client, Pointer Port, UInt32 ResiliencyType,
+  UInt64 References, UInt32 TransactionId, UInt32 CurrentState, UInt32 NextState)
+opcode: ''
+keywords: clients
+task: ResiliencyClient
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: Pointer
+  field_name: Port
+- field_type: UInt32
+  field_name: ResiliencyType
+- field_type: UInt64
+  field_name: References
+- field_type: UInt32
+  field_name: TransactionId
+- field_type: UInt32
+  field_name: CurrentState
+- field_type: UInt32
+  field_name: NextState

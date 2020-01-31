@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '3015'
+version: '0'
+event(fields): task_03015(UnicodeString Name, UInt32 OldValue, UInt32 NewValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt32
+  field_name: OldValue
+- field_type: UInt32
+  field_name: NewValue

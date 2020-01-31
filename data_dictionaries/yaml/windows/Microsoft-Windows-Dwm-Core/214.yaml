@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '214'
+version: '0'
+event(fields): DETECT_TOPLEVELWINDOW_DESTROY(UInt64 hWnd, UInt64 pCollector, UInt64
+  nMetaDataCount)
+opcode: ''
+keywords: DwmCore
+task: DETECT_TOPLEVELWINDOW_DESTROY
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hWnd
+- field_type: UInt64
+  field_name: pCollector
+- field_type: UInt64
+  field_name: nMetaDataCount

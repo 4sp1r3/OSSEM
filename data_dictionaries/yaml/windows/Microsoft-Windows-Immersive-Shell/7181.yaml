@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7181'
+version: '0'
+event(fields): ConnectedSearch_DetailsViewVisibilityBGStop()
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_DetailsViewVisibilityBG
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Spell-Checking
+event_id: '21'
+version: '0'
+event(fields): OptionsSend()
+opcode: Send
+keywords: ''
+task: Options
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

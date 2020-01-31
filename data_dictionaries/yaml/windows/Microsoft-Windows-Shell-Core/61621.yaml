@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61621'
+version: '0'
+event(fields): DataPackage_SetCustomTextStop(UnicodeString FormatId)
+opcode: Stop
+keywords: Shell
+task: DataPackage_SetCustomText
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FormatId

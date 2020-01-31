@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '113'
+version: '0'
+event(fields): UpdateContextRunningTime(Pointer hContext, Int64 RunningTime, Int64
+  RemainingQuantum, UInt64 RemainingYieldBudget, UInt32 QuantumStatus, UInt32 Reason)
+opcode: ''
+keywords: GPUScheduler
+task: UpdateContextRunningTime
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: Int64
+  field_name: RunningTime
+- field_type: Int64
+  field_name: RemainingQuantum
+- field_type: UInt64
+  field_name: RemainingYieldBudget
+- field_type: UInt32
+  field_name: QuantumStatus
+- field_type: UInt32
+  field_name: Reason

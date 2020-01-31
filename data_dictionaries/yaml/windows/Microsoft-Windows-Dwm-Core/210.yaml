@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '210'
+version: '0'
+event(fields): HIT_TEST_TREE_WALKStart(UInt64 hWnd, UInt32 X, UInt32 Y)
+opcode: Start
+keywords: DwmCore DwmInput
+task: HIT_TEST_TREE_WALK
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hWnd
+- field_type: UInt32
+  field_name: X
+- field_type: UInt32
+  field_name: Y

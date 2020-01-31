@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-ZipFolder
+event_id: '5'
+version: '0'
+event(fields): ZipFolder_WizardExtractAllStart()
+opcode: Start
+keywords: ''
+task: ZipFolder_WizardExtractAll
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AssignedAccessBroker
+event_id: '30006'
+version: '0'
+event(fields): UnlockTask()
+opcode: ''
+keywords: ''
+task: UnlockTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

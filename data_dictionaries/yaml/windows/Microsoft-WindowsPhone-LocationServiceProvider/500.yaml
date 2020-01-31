@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '500'
+version: '0'
+event(fields): Geolocation(Pointer GeolocationClass, UInt32 SessionType, UInt32 AgeValue,
+  UInt32 AccuracyValue, UInt32 RequestParameter)
+opcode: ''
+keywords: Selfhost FixSession ClientApi
+task: Geolocation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: GeolocationClass
+- field_type: UInt32
+  field_name: SessionType
+- field_type: UInt32
+  field_name: AgeValue
+- field_type: UInt32
+  field_name: AccuracyValue
+- field_type: UInt32
+  field_name: RequestParameter

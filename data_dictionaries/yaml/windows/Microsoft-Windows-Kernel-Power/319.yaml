@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '319'
+version: '0'
+event(fields): ComponentIdleConstraints(Pointer Token, UInt32 Component, UInt32 StateCount,
+  UInt32 MinimumFStates)
+opcode: ''
+keywords: po:RuntimeFx
+task: ComponentIdleConstraints
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token
+- field_type: UInt32
+  field_name: Component
+- field_type: UInt32
+  field_name: StateCount
+- field_type: UInt32
+  field_name: MinimumFStates

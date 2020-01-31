@@ -1,0 +1,46 @@
+provider: Microsoft-Windows-WHEA-Logger
+event_id: '24'
+version: '0'
+event(fields): task_024(UInt32 ErrorSource, GUID FRUId, AnsiString FRUText, HexInt64
+  ValidBits, UInt16 ErrorType, HexInt32 BusNumber, HexInt32 BusSegment, HexInt64 BusAddress,
+  HexInt64 BusData, HexInt64 Command, UInt8 PCIXCommand, HexInt64 RequesterId, HexInt64
+  CompleterId, HexInt64 TargetId, UInt32 Length, Binary RawData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorSource
+- field_type: GUID
+  field_name: FRUId
+- field_type: AnsiString
+  field_name: FRUText
+- field_type: HexInt64
+  field_name: ValidBits
+- field_type: UInt16
+  field_name: ErrorType
+- field_type: HexInt32
+  field_name: BusNumber
+- field_type: HexInt32
+  field_name: BusSegment
+- field_type: HexInt64
+  field_name: BusAddress
+- field_type: HexInt64
+  field_name: BusData
+- field_type: HexInt64
+  field_name: Command
+- field_type: UInt8
+  field_name: PCIXCommand
+- field_type: HexInt64
+  field_name: RequesterId
+- field_type: HexInt64
+  field_name: CompleterId
+- field_type: HexInt64
+  field_name: TargetId
+- field_type: UInt32
+  field_name: Length
+- field_type: Binary
+  field_name: RawData

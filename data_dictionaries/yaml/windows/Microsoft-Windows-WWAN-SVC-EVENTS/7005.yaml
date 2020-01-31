@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '7005'
+version: '0'
+event(fields): AccountManagement7005()
+opcode: ''
+keywords: ''
+task: AccountManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

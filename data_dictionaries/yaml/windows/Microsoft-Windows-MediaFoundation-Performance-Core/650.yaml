@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '650'
+version: '0'
+event(fields): QM_SampleLag_Task(Pointer object, Pointer SrcObject, Int32 SamplesReceived,
+  Int64 LateSamples, Int64 TotalLateTime_ms, Int64 SampleLatency_hns, Int64 SampleTime_hns)
+opcode: ''
+keywords: ''
+task: QM_SampleLag_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: SrcObject
+- field_type: Int32
+  field_name: SamplesReceived
+- field_type: Int64
+  field_name: LateSamples
+- field_type: Int64
+  field_name: TotalLateTime_ms
+- field_type: Int64
+  field_name: SampleLatency_hns
+- field_type: Int64
+  field_name: SampleTime_hns

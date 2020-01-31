@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2331'
+version: '0'
+event(fields): ExecutionManagerClientIsChildTaskStop()
+opcode: Stop
+keywords: NavigationPerformance ExecutionManagerClient
+task: ExecutionManagerClientIsChildTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

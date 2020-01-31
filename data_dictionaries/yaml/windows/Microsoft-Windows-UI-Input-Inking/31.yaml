@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UI-Input-Inking
+event_id: '31'
+version: '0'
+event(fields): Inking_IInkManager_OnPointerUpdateStart()
+opcode: Start
+keywords: InkStrokeBuilding
+task: Inking_IInkManager_OnPointerUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

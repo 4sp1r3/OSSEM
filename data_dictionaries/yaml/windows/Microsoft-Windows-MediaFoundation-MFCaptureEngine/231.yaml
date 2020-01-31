@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '231'
+version: '0'
+event(fields): MFCaptureEngineInitializationTask(Pointer CaptureEnginePointer, Pointer
+  Source, Pointer RecordSink, Pointer PreviewSink, Pointer PhotoSink, Pointer FrameReaderSink)
+opcode: ''
+keywords: ''
+task: MFCaptureEngineInitializationTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CaptureEnginePointer
+- field_type: Pointer
+  field_name: Source
+- field_type: Pointer
+  field_name: RecordSink
+- field_type: Pointer
+  field_name: PreviewSink
+- field_type: Pointer
+  field_name: PhotoSink
+- field_type: Pointer
+  field_name: FrameReaderSink

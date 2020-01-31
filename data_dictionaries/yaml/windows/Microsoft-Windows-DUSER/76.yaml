@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DUSER
+event_id: '76'
+version: '0'
+event(fields): DUser_TransitionScheduled(UInt32 cTrans, UInt32 uTransIndex, UInt32
+  dwTicket, UInt32 hGadget, UInt32 nProperty, Pointer pTransitionVisual, Pointer pDCompVisual)
+opcode: ''
+keywords: Default
+task: DUser_TransitionScheduled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: cTrans
+- field_type: UInt32
+  field_name: uTransIndex
+- field_type: UInt32
+  field_name: dwTicket
+- field_type: UInt32
+  field_name: hGadget
+- field_type: UInt32
+  field_name: nProperty
+- field_type: Pointer
+  field_name: pTransitionVisual
+- field_type: Pointer
+  field_name: pDCompVisual

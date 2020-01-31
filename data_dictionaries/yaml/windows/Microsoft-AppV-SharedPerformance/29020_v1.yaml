@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '29020'
+version: '1'
+event(fields): StopTask.Start_V1()
+opcode: Start
+keywords: ''
+task: StopTask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '8006'
+version: '0'
+event(fields): SyncPartnershipReconciliationStop(UnicodeString LocalReplicaRoot)
+opcode: ReconciliationStop
+keywords: SyncPartnership
+task: SyncPartnership
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalReplicaRoot

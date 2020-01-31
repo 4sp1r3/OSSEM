@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '383'
+version: '0'
+event(fields): MultiPlaneOverlayDisable(Pointer pDxgAdapter, UInt32 VidPnSourceId,
+  UInt32 SessionId)
+opcode: ''
+keywords: Base
+task: MultiPlaneOverlayDisable
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: SessionId

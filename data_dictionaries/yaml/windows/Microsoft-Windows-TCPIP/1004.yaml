@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1004'
+version: '0'
+event(fields): TcpTcbSynSend(Pointer Tcb, UInt32 ISN, UInt32 RcvWnd, UInt8 RcvWndScale)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:SendPath ut:ConnectPath
+task: TcpTcbSynSend
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: ISN
+- field_type: UInt32
+  field_name: RcvWnd
+- field_type: UInt8
+  field_name: RcvWndScale

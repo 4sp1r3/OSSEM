@@ -1,0 +1,21 @@
+provider: Microsoft-Windows-Audio
+event_id: '49'
+version: '0'
+event(fields): Audio_Glitch_DetectionKSEndpointGlitch:STRENEXCLPULLInvalidBufferCount(Pointer
+  pCAudioRenderPinStandardStreaming, UInt64 DevicePosition, UInt64 StreamPosition,
+  UInt32 AvailableFrames)
+opcode: STRENEXCLPULLInvalidBufferCount
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCAudioRenderPinStandardStreaming
+- field_type: UInt64
+  field_name: DevicePosition
+- field_type: UInt64
+  field_name: StreamPosition
+- field_type: UInt32
+  field_name: AvailableFrames

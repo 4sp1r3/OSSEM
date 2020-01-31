@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WebIO
+event_id: '122'
+version: '0'
+event(fields): ResponseConnectionBufferReceive(Pointer Connection, Pointer DataChunks,
+  UInt32 Length, Binary Data)
+opcode: ''
+keywords: Keyword.RECEIVE keyword_20000000000
+task: ResponseConnectionBufferReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: UInt32
+  field_name: Length
+- field_type: Binary
+  field_name: Data

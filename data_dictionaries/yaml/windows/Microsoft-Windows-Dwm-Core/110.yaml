@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '110'
+version: '0'
+event(fields): SCHEDULE_UPDATE_TIMESStart()
+opcode: Start
+keywords: DwmCore
+task: SCHEDULE_UPDATE_TIMES
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

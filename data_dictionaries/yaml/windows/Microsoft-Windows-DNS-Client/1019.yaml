@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '1019'
+version: '0'
+event(fields): DnsNoServerConfigV6(UInt32 Location, UInt32 Context)
+opcode: ''
+keywords: ''
+task: DnsNoServerConfigV6
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context

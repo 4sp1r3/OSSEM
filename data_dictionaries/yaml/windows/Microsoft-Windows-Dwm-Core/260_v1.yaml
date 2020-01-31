@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '260'
+version: '1'
+event(fields): TELEMETRY_AGGREGATED_TTFF_ANALYSIS_EVENT_V1(UnicodeString AnimationScenario,
+  UInt32 TotalHits, UInt32 metrics1, UInt32 metrics2, UInt32 metrics3)
+opcode: ''
+keywords: DwmCore LowOverheadSmoothnessTracking
+task: TELEMETRY_AGGREGATED_TTFF_ANALYSIS_EVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AnimationScenario
+- field_type: UInt32
+  field_name: TotalHits
+- field_type: UInt32
+  field_name: metrics1
+- field_type: UInt32
+  field_name: metrics2
+- field_type: UInt32
+  field_name: metrics3

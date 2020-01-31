@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '354'
+version: '0'
+event(fields): VirtualizedItemUpdated(UInt64 ElementId, UInt32 Phase)
+opcode: ''
+keywords: Input
+task: VirtualizedItemUpdated
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UInt32
+  field_name: Phase

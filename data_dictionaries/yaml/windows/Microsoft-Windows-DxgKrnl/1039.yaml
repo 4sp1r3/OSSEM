@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1039'
+version: '0'
+event(fields): MiracastUmdSendMiracastEscapeStop(UInt64 MiracastLuid, UInt32 IoControlCode,
+  Boolean HardwareAccess, UInt32 InputBufferSize, UInt32 OutputBufferSize, UInt32
+  ReturnStatus)
+opcode: Stop
+keywords: Miracast
+task: MiracastUmdSendMiracastEscape
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UInt32
+  field_name: IoControlCode
+- field_type: Boolean
+  field_name: HardwareAccess
+- field_type: UInt32
+  field_name: InputBufferSize
+- field_type: UInt32
+  field_name: OutputBufferSize
+- field_type: UInt32
+  field_name: ReturnStatus

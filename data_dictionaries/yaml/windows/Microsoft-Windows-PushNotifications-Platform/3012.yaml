@@ -1,0 +1,21 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3012'
+version: '0'
+event(fields): NewCloudNotificationArrivalStop3012(Int32 TrackingId, UnicodeString
+  AppUserModelId, UInt32 SessionId, GUID MessageId)
+opcode: Stop
+keywords: wpndebug_cloudtoast_isolate wpndebug_localtoast_isolate wpnui wpntroubleshoot
+  wpndev_NotificationE2E
+task: NewCloudNotificationArrival
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: TrackingId
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: GUID
+  field_name: MessageId

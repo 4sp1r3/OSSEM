@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '106'
+version: '0'
+event(fields): WININET_HANDLE_CREATE_FAILED(Pointer HINTERNET, UInt32 Error)
+opcode: ''
+keywords: WININET_KEYWORD_HANDLES
+task: WININET_HANDLE_CREATE_FAILED
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HINTERNET
+- field_type: UInt32
+  field_name: Error

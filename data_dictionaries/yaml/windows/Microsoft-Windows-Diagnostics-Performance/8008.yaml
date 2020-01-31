@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '8008'
+version: '0'
+event(fields): Shutdown_RestoringConfig()
+opcode: ''
+keywords: ShutdownStatus
+task: Shutdown_RestoringConfig
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

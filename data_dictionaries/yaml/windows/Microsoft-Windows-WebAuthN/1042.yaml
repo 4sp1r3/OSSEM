@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '1042'
+version: '0'
+event(fields): NgcGetAssertionRequestInformational(GUID TransactionId, UnicodeString
+  RpId, UnicodeString ClientDataHashAlgId, UInt32 ClientDataLength, UInt32 ClientDataHashLength,
+  Binary ClientDataHash, UInt32 CredentialCount)
+opcode: Informational
+keywords: WebAuthN Ngc
+task: NgcGetAssertionRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UnicodeString
+  field_name: RpId
+- field_type: UnicodeString
+  field_name: ClientDataHashAlgId
+- field_type: UInt32
+  field_name: ClientDataLength
+- field_type: UInt32
+  field_name: ClientDataHashLength
+- field_type: Binary
+  field_name: ClientDataHash
+- field_type: UInt32
+  field_name: CredentialCount

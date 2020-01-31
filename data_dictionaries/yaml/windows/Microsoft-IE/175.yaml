@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '175'
+version: '0'
+event(fields): JScript_CallOutStop(Pointer Element, UInt32 Zero)
+opcode: Stop
+keywords: jscript_verbose
+task: JScript_CallOut
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Element
+- field_type: UInt32
+  field_name: Zero

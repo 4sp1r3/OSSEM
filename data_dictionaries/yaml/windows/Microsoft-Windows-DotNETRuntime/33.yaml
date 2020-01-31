@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '33'
+version: '0'
+event(fields): GCPinObjectAtGCTime(Pointer HandleID, Pointer ObjectID, UInt64 ObjectSize,
+  UnicodeString TypeName, UInt16 ClrInstanceID)
+opcode: PinObjectAtGCTime
+keywords: GCKeyword
+task: GC
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HandleID
+- field_type: Pointer
+  field_name: ObjectID
+- field_type: UInt64
+  field_name: ObjectSize
+- field_type: UnicodeString
+  field_name: TypeName
+- field_type: UInt16
+  field_name: ClrInstanceID

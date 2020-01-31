@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '85'
+version: '0'
+event(fields): DismOptimizeImageStart(UInt32 SessionId)
+opcode: Start
+keywords: DismApiEvent
+task: DismOptimizeImage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '123'
+version: '0'
+event(fields): L2WriteQueueTooSmall(UInt64 CurrentFileSize, UInt64 CurrentWriteQueueSize,
+  UInt64 MaximimWriteQueueSize, UInt32 NewValueSize)
+opcode: ''
+keywords: Events
+task: L2WriteQueueTooSmall
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CurrentFileSize
+- field_type: UInt64
+  field_name: CurrentWriteQueueSize
+- field_type: UInt64
+  field_name: MaximimWriteQueueSize
+- field_type: UInt32
+  field_name: NewValueSize

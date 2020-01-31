@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '485'
+version: '0'
+event(fields): DownloadRequestDataAvailable(UInt64 Id, Int32 Size)
+opcode: ''
+keywords: Images
+task: DownloadRequestDataAvailable
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: Int32
+  field_name: Size

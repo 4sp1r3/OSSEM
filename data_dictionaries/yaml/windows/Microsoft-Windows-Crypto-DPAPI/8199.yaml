@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Crypto-DPAPI
+event_id: '8199'
+version: '0'
+event(fields): MasterKeyOperation8199(Binary CredKeyIdentifier, UnicodeString UserName,
+  SID UserSid)
+opcode: ''
+keywords: ETW_TASK_MASTERKEY_OPERATION
+task: MasterKeyOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: CredKeyIdentifier
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: SID
+  field_name: UserSid

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MSFTEDIT
+event_id: '2'
+version: '0'
+event(fields): PlacingCaretStop(UInt32 param1, UInt32 param2)
+opcode: Stop
+keywords: ''
+task: PlacingCaret
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: param1
+- field_type: UInt32
+  field_name: param2

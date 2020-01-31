@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '26'
+version: '0'
+event(fields): WindowsUpdateAgentCheckforUpdates26(UInt32 updateCount)
+opcode: CheckforUpdates
+keywords: detect success
+task: WindowsUpdateAgent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: updateCount

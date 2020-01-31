@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23065'
+version: '1'
+event(fields): Packaging_ManifestWrite_ShellCommandsStop_V1()
+opcode: Stop
+keywords: ''
+task: Packaging_ManifestWrite_ShellCommands
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

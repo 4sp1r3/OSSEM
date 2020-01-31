@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1018'
+version: '0'
+event(fields): MediaFoundationHandleMediaSampleStart(Pointer Bitpump, UInt64 TimeStamp)
+opcode: Start
+keywords: ''
+task: MediaFoundationHandleMediaSample
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Bitpump
+- field_type: UInt64
+  field_name: TimeStamp

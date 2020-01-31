@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5632'
+version: '0'
+event(fields): task_05632(UnicodeString SSID, UnicodeString Identity, UnicodeString
+  SubjectUserName, UnicodeString SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString
+  PeerMac, UnicodeString LocalMac, GUID IntfGuid, HexInt32 ReasonCode, UnicodeString
+  ReasonText, HexInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: Identity
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: PeerMac
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: GUID
+  field_name: IntfGuid
+- field_type: HexInt32
+  field_name: ReasonCode
+- field_type: UnicodeString
+  field_name: ReasonText
+- field_type: HexInt32
+  field_name: ErrorCode

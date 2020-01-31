@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-User Profiles Service
+event_id: '1539'
+version: '0'
+event(fields): task_01539(UnicodeString Folder, UnicodeString Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Folder
+- field_type: UnicodeString
+  field_name: Error

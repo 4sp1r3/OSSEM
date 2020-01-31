@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1715'
+version: '0'
+event(fields): IDXGIDevice2_OfferResourcesStop(UInt32 m_Ret)
+opcode: Stop
+keywords: ''
+task: IDXGIDevice2_OfferResources
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret

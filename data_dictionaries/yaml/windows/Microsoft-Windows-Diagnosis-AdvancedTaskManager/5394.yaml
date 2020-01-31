@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5394'
+version: '0'
+event(fields): Dashboard_AddDiskStop()
+opcode: Stop
+keywords: dashboard
+task: Dashboard_AddDisk
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

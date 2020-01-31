@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Network-Setup
+event_id: '204'
+version: '0'
+event(fields): CommitchangesStart(GUID TransactionGuid)
+opcode: Start
+keywords: ''
+task: Commitchanges
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionGuid

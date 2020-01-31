@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '39000'
+version: '0'
+event(fields): VReg.ServiceStartRuntimeStart()
+opcode: Start
+keywords: ''
+task: VReg.ServiceStartRuntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

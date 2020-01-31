@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '127'
+version: '0'
+event(fields): QosSupportChanged(Boolean SchedulerDirectedPerfStatesSupported, Boolean
+  PpmQosEnabled, UInt32 PpmQosDisableReasons)
+opcode: ''
+keywords: Diag PerfDiag
+task: QosSupportChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: SchedulerDirectedPerfStatesSupported
+- field_type: Boolean
+  field_name: PpmQosEnabled
+- field_type: UInt32
+  field_name: PpmQosDisableReasons

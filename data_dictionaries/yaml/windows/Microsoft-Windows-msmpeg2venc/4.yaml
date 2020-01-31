@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-msmpeg2venc
+event_id: '4'
+version: '0'
+event(fields): TaskdonebythevideoencoderStart4(UInt32 MessageType, Pointer Param)
+opcode: Start
+keywords: keyword_400000000000
+task: Taskdonebythevideoencoder
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MessageType
+- field_type: Pointer
+  field_name: Param

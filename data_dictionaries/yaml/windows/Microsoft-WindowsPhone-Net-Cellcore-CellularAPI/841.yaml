@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '841'
+version: '0'
+event(fields): CSms841(Int32 HResultName, UInt64 Pointer, UnicodeString String)
+opcode: ''
+keywords: Information
+task: CSms
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HResultName
+- field_type: UInt64
+  field_name: Pointer
+- field_type: UnicodeString
+  field_name: String

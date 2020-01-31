@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '39'
+version: '0'
+event(fields): GCGCDynamicEvent(UnicodeString Name, UInt32 DataSize, Binary Data,
+  UInt16 ClrInstanceID)
+opcode: GCDynamicEvent
+keywords: GCKeyword GCHandleKeyword GCHeapDumpKeyword GCSampledObjectAllocationHighKeyword
+  GCHeapSurvivalAndMovementKeyword GCHeapCollectKeyword GCHeapAndTypeNamesKeyword
+  GCSampledObjectAllocationLowKeyword
+task: GC
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt32
+  field_name: DataSize
+- field_type: Binary
+  field_name: Data
+- field_type: UInt16
+  field_name: ClrInstanceID

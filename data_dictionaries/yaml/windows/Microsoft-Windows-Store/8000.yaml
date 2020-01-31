@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Store
+event_id: '8000'
+version: '0'
+event(fields): LMModuleLoaded(UnicodeString ProcessName, UnicodeString ModuleName,
+  UnicodeString BuildName)
+opcode: ''
+keywords: keyword_100000000000
+task: LMModuleLoaded
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: ModuleName
+- field_type: UnicodeString
+  field_name: BuildName

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SENSE
+event_id: '61'
+version: '0'
+event(fields): task_061(UnicodeString SasUri, Int16 CompressionLevel)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SasUri
+- field_type: Int16
+  field_name: CompressionLevel

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-ReFS
+event_id: '4'
+version: '0'
+event(fields): task_0(Pointer Vcb, UInt16 DeviceNameLength, UnicodeString DeviceName,
+  GUID VolumeGuid, UInt16 VolumeNameLength, UnicodeString VolumeName, UInt16 VolumeLabelLength,
+  UnicodeString VolumeLabel)
+opcode: ''
+keywords: VolumeMount
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Vcb
+- field_type: UInt16
+  field_name: DeviceNameLength
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: GUID
+  field_name: VolumeGuid
+- field_type: UInt16
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UInt16
+  field_name: VolumeLabelLength
+- field_type: UnicodeString
+  field_name: VolumeLabel

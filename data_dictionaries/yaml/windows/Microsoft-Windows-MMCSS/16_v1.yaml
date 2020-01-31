@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MMCSS
+event_id: '16'
+version: '1'
+event(fields): TurboEngaged_V1(UInt32 TurboEngaged)
+opcode: ''
+keywords: ''
+task: TurboEngaged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TurboEngaged

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '389'
+version: '0'
+event(fields): VGPUEtwSessionStop(GUID SessionGuid)
+opcode: Stop
+keywords: VirtualGpu
+task: VGPUEtwSession
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SessionGuid

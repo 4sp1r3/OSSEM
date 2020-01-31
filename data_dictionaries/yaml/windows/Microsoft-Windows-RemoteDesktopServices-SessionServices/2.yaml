@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RemoteDesktopServices-SessionServices
+event_id: '2'
+version: '0'
+event(fields): DisplaycontrolChangesessionresolution2(HexInt32 ErrorCode)
+opcode: Changesessionresolution
+keywords: ''
+task: Displaycontrol
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

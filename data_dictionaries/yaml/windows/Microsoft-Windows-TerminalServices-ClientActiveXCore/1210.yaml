@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1210'
+version: '0'
+event(fields): RdClientRADCworkspaceThiseventisraisedwhenthefeedcacheontheclientlocalmachineismissingiconsorRdpfilesduetocachecorruption!(UnicodeString
+  TenantId, UInt32 ResourceIndex, UnicodeString ResourceType, UInt32 ErrorCode)
+opcode: ThiseventisraisedwhenthefeedcacheontheclientlocalmachineismissingiconsorRdpfilesduetocachecorruption!
+keywords: ''
+task: RdClientRADCworkspace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TenantId
+- field_type: UInt32
+  field_name: ResourceIndex
+- field_type: UnicodeString
+  field_name: ResourceType
+- field_type: UInt32
+  field_name: ErrorCode

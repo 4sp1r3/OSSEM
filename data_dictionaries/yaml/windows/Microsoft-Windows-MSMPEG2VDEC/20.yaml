@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '20'
+version: '0'
+event(fields): DShow_DeliverStart()
+opcode: Start
+keywords: ''
+task: DShow_Deliver
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

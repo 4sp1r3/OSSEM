@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '51'
+version: '0'
+event(fields): IPS_OptInDialog_ShowdialogStart()
+opcode: Start
+keywords: ''
+task: IPS_OptInDialog_Showdialog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

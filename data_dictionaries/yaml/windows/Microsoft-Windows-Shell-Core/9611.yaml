@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9611'
+version: '0'
+event(fields): Explorer_CreateDesktopStart()
+opcode: Start
+keywords: Shell StartupPerf
+task: Explorer_CreateDesktop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

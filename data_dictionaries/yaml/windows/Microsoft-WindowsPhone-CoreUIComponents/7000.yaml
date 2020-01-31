@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '7000'
+version: '0'
+event(fields): NavigationClientRuntimeClassInitializeStart(UInt32 unParam)
+opcode: Start
+keywords: NavigationClient
+task: NavigationClientRuntimeClassInitialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

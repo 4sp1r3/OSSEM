@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '411'
+version: '0'
+event(fields): InstallDriverUpdateTaskStop(UnicodeString Prop_DevnodeId, UInt32 HRESULT)
+opcode: Stop
+keywords: ''
+task: InstallDriverUpdateTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_DevnodeId
+- field_type: UInt32
+  field_name: HRESULT

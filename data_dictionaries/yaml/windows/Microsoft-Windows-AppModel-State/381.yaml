@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '381'
+version: '0'
+event(fields): AppModel.Task.StateWinRT.ApplicationDataCompositeValueServer_LookupStop()
+opcode: Stop
+keywords: WinRT
+task: AppModel.Task.StateWinRT.ApplicationDataCompositeValueServer_Lookup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

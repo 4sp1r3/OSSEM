@@ -1,0 +1,26 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '7001'
+version: '0'
+event(fields): SelfHostInfo_ObjectRevoked(UnicodeString pwsz, UInt32 RegisteredObjectType,
+  UInt32 RegistrarScope, UInt32 hex, UInt32 hex2, UInt32 hex3, Boolean fBool)
+opcode: ''
+keywords: keyword_40000000000
+task: SelfHostInfo_ObjectRevoked
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UInt32
+  field_name: RegisteredObjectType
+- field_type: UInt32
+  field_name: RegistrarScope
+- field_type: UInt32
+  field_name: hex
+- field_type: UInt32
+  field_name: hex2
+- field_type: UInt32
+  field_name: hex3
+- field_type: Boolean
+  field_name: fBool

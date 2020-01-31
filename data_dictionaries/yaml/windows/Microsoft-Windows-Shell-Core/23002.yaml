@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '23002'
+version: '0'
+event(fields): ViewControl_UserSplitButtonClickStop()
+opcode: Stop
+keywords: Shell
+task: ViewControl_UserSplitButtonClick
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

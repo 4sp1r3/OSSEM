@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '1009'
+version: '0'
+event(fields): ServiceStateEventDHCPv6DUIDValidationFailed(UInt32 HWLength, Binary
+  HWAddress, UInt32 DUIDLength, Binary DUID, UInt32 NewHWLength, Binary NewHWAddress,
+  UInt32 NewDUIDLength, Binary NewDUID)
+opcode: DHCPv6DUIDValidationFailed
+keywords: ''
+task: ServiceStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HWLength
+- field_type: Binary
+  field_name: HWAddress
+- field_type: UInt32
+  field_name: DUIDLength
+- field_type: Binary
+  field_name: DUID
+- field_type: UInt32
+  field_name: NewHWLength
+- field_type: Binary
+  field_name: NewHWAddress
+- field_type: UInt32
+  field_name: NewDUIDLength
+- field_type: Binary
+  field_name: NewDUID

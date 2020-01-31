@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UI-Search
+event_id: '3001'
+version: '0'
+event(fields): PerfTrack_SearchPaneOpenStart()
+opcode: Start
+keywords: ''
+task: PerfTrack_SearchPaneOpen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

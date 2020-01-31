@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Help
+event_id: '1020'
+version: '0'
+event(fields): NonPerfEvents1020(UInt32 ApplicationErrorCode, UnicodeString ErrorMessage)
+opcode: ''
+keywords: ''
+task: NonPerfEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ApplicationErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

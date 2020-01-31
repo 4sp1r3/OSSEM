@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '1506'
+version: '0'
+event(fields): DocPerf_Task_Wia_ServiceInitStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Wia_ServiceInit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

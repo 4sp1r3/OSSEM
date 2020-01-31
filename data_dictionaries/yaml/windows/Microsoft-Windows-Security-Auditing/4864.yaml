@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4864'
+version: '0'
+event(fields): task_04864(UInt32 CollisionTargetType, UnicodeString CollisionTargetName,
+  UnicodeString ForestRoot, UnicodeString TopLevelName, UnicodeString DnsName, UnicodeString
+  NetbiosName, SID DomainSid, UInt32 Flags)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CollisionTargetType
+- field_type: UnicodeString
+  field_name: CollisionTargetName
+- field_type: UnicodeString
+  field_name: ForestRoot
+- field_type: UnicodeString
+  field_name: TopLevelName
+- field_type: UnicodeString
+  field_name: DnsName
+- field_type: UnicodeString
+  field_name: NetbiosName
+- field_type: SID
+  field_name: DomainSid
+- field_type: UInt32
+  field_name: Flags

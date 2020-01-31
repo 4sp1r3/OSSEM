@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DVD
+event_id: '13'
+version: '0'
+event(fields): NavDomainChange(Pointer Object, Int32 Domain, Int32 VTSN)
+opcode: ''
+keywords: ''
+task: NavDomainChange
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: Domain
+- field_type: Int32
+  field_name: VTSN

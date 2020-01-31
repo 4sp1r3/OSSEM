@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1356'
+version: '0'
+event(fields): TcpRtcPortRangeAssignment(UInt32 AssignedFromRtcRange, UInt16 Port)
+opcode: ''
+keywords: ut:Global
+task: TcpRtcPortRangeAssignment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AssignedFromRtcRange
+- field_type: UInt16
+  field_name: Port

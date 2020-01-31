@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '125'
+version: '0'
+event(fields): ThermalZoneEnumerated125(UInt16 ThermalZoneDeviceInstanceLength, UnicodeString
+  ThermalZoneDeviceInstance, UInt32 _PSV, UInt32 _TC1, UInt32 _TC2, UInt32 _TSP, UInt32
+  _AC0, UInt32 _AC1, UInt32 _AC2, UInt32 _AC3, UInt32 _AC4, UInt32 _AC5, UInt32 _AC6,
+  UInt32 _AC7, UInt32 _AC8, UInt32 _AC9, UInt32 _CRT, UInt32 _HOT)
+opcode: ''
+keywords: po:Thermal
+task: ThermalZoneEnumerated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ThermalZoneDeviceInstanceLength
+- field_type: UnicodeString
+  field_name: ThermalZoneDeviceInstance
+- field_type: UInt32
+  field_name: _PSV
+- field_type: UInt32
+  field_name: _TC1
+- field_type: UInt32
+  field_name: _TC2
+- field_type: UInt32
+  field_name: _TSP
+- field_type: UInt32
+  field_name: _AC0
+- field_type: UInt32
+  field_name: _AC1
+- field_type: UInt32
+  field_name: _AC2
+- field_type: UInt32
+  field_name: _AC3
+- field_type: UInt32
+  field_name: _AC4
+- field_type: UInt32
+  field_name: _AC5
+- field_type: UInt32
+  field_name: _AC6
+- field_type: UInt32
+  field_name: _AC7
+- field_type: UInt32
+  field_name: _AC8
+- field_type: UInt32
+  field_name: _AC9
+- field_type: UInt32
+  field_name: _CRT
+- field_type: UInt32
+  field_name: _HOT

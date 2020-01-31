@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2499'
+version: '0'
+event(fields): PerfTrack_PLM_WakeOnRPC(UInt32 Wakes, UnicodeString PsmKey)
+opcode: ''
+keywords: PLMComponent
+task: PerfTrack_PLM_WakeOnRPC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Wakes
+- field_type: UnicodeString
+  field_name: PsmKey

@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1804'
+version: '0'
+event(fields): RotationManager1804(Boolean fBool, Boolean fBool2)
+opcode: ''
+keywords: RotationManager
+task: RotationManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fBool
+- field_type: Boolean
+  field_name: fBool2

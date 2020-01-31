@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '15'
+version: '0'
+event(fields): ExtensionCatalog_RoGetExtensionRegistrationByExtensionIdStart(UnicodeString
+  ContractId, UnicodeString ExtensionId)
+opcode: Start
+keywords: ''
+task: ExtensionCatalog_RoGetExtensionRegistrationByExtensionId
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContractId
+- field_type: UnicodeString
+  field_name: ExtensionId

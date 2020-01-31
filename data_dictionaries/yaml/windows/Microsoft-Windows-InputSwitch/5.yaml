@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-InputSwitch
+event_id: '5'
+version: '0'
+event(fields): ShowInputSwitchStart()
+opcode: Start
+keywords: Perf InputSwitch_Keyword
+task: ShowInputSwitch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

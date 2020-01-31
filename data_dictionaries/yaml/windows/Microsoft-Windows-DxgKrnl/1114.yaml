@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1114'
+version: '0'
+event(fields): DripsBlockerTracking_AddActiveTime(UInt32 Entry, UInt32 Activation,
+  UInt32 DAM, AnsiString ProcessName, UnicodeString Reason, UInt32 TimeInMS)
+opcode: ''
+keywords: DxgKrnl_Power
+task: DripsBlockerTracking_AddActiveTime
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Entry
+- field_type: UInt32
+  field_name: Activation
+- field_type: UInt32
+  field_name: DAM
+- field_type: AnsiString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: Reason
+- field_type: UInt32
+  field_name: TimeInMS

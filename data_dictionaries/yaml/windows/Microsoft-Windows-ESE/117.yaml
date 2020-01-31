@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ESE
+event_id: '117'
+version: '0'
+event(fields): ESE_SpaceFreePage_Trace(UInt32 ifmp, UInt32 pgnoFDP, UInt32 pgnoFree,
+  UInt32 objidFDP, UInt8 tce)
+opcode: ''
+keywords: Space DataWorkingSet
+task: ESE_SpaceFreePage_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ifmp
+- field_type: UInt32
+  field_name: pgnoFDP
+- field_type: UInt32
+  field_name: pgnoFree
+- field_type: UInt32
+  field_name: objidFDP
+- field_type: UInt8
+  field_name: tce

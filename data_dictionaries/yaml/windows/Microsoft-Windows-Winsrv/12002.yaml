@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Winsrv
+event_id: '12002'
+version: '0'
+event(fields): ThreadShutdownStop(UInt32 Command)
+opcode: Stop
+keywords: Perf
+task: ThreadShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Command

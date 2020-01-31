@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '633'
+version: '0'
+event(fields): IA2TextRange_AddToSelectionStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: IA2TextRange_AddToSelection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28125'
+version: '0'
+event(fields): Shell32_AppResolver_RefreshCache(Int32 Scenario, Int32 Flags)
+opcode: ''
+keywords: Shell
+task: Shell32_AppResolver_RefreshCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Scenario
+- field_type: Int32
+  field_name: Flags

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4041'
+version: '0'
+event(fields): Remove_AppvClientConnectionGroupStop()
+opcode: Stop
+keywords: ''
+task: Remove_AppvClientConnectionGroup
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

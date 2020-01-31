@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '130'
+version: '0'
+event(fields): MemoryMapRundown(UInt32 SequenceNumber, UInt32 DescriptorCount, Int8
+  MemoryDescriptor)
+opcode: ''
+keywords: MemoryMapRundown
+task: MemoryMapRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SequenceNumber
+- field_type: UInt32
+  field_name: DescriptorCount
+- field_type: Int8
+  field_name: MemoryDescriptor

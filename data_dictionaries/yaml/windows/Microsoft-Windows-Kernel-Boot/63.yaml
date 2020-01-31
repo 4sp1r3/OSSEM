@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '63'
+version: '0'
+event(fields): MeasuredLaunchInvalidTxtSinitRange(UInt64 Base, UInt64 Size)
+opcode: InvalidTxtSinitRange
+keywords: keyword_80000000000
+task: MeasuredLaunch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Base
+- field_type: UInt64
+  field_name: Size

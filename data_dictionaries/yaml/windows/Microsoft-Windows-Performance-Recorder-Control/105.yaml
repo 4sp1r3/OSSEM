@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Performance-Recorder-Control
+event_id: '105'
+version: '0'
+event(fields): Perf_LoadProfileFromStringStop()
+opcode: Stop
+keywords: PerfStatus
+task: Perf_LoadProfileFromString
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

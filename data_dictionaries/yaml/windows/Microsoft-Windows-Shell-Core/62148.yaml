@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62148'
+version: '0'
+event(fields): TileManagement_AppTileInfo_Commit_Temporary(UnicodeString AppUserModelID,
+  UInt32 ErrorCode)
+opcode: ''
+keywords: Shell
+task: TileManagement_AppTileInfo_Commit_Temporary
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelID
+- field_type: UInt32
+  field_name: ErrorCode

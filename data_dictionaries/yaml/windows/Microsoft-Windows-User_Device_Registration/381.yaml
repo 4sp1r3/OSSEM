@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '381'
+version: '0'
+event(fields): task_0381(Int32 ExitCode, UnicodeString UPN, UnicodeString KeyId, UnicodeString
+  AuthToken, UnicodeString RequestId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ExitCode
+- field_type: UnicodeString
+  field_name: UPN
+- field_type: UnicodeString
+  field_name: KeyId
+- field_type: UnicodeString
+  field_name: AuthToken
+- field_type: UnicodeString
+  field_name: RequestId

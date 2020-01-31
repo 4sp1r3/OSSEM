@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HomeGroup-ControlPanel
+event_id: '5020'
+version: '0'
+event(fields): task_05020(UnicodeString Error, UInt32 DWORD)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Error
+- field_type: UInt32
+  field_name: DWORD

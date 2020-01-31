@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2171'
+version: '0'
+event(fields): task_02171()
+opcode: ''
+keywords: wpnend wpntroubleshoot wpndebug_platform_setting
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

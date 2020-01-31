@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shsvcs
+event_id: '11511'
+version: '0'
+event(fields): HDSrv_ProcessInterfaceCallbackStart(UnicodeString ContainerIdentifier,
+  UnicodeString DeviceIdentifier)
+opcode: Start
+keywords: ''
+task: HDSrv_ProcessInterfaceCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContainerIdentifier
+- field_type: UnicodeString
+  field_name: DeviceIdentifier

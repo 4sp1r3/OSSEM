@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '3'
+version: '2'
+event(fields): StoreAdd_V2(UInt64 DataKey, Pointer DataMgr, UInt32 StoreOffset, UInt16
+  CompressedSize, UInt16 Flags)
+opcode: ''
+keywords: StoreOps
+task: StoreAdd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DataKey
+- field_type: Pointer
+  field_name: DataMgr
+- field_type: UInt32
+  field_name: StoreOffset
+- field_type: UInt16
+  field_name: CompressedSize
+- field_type: UInt16
+  field_name: Flags

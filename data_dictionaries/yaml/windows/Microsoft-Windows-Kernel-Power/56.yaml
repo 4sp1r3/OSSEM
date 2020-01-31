@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '56'
+version: '0'
+event(fields): CmShutdownSystemStop()
+opcode: Stop
+keywords: po:Performance po:PerformanceLight
+task: CmShutdownSystem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

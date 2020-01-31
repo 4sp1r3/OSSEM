@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1000'
+version: '0'
+event(fields): task_0(UnicodeString Function, UnicodeString Line, UnicodeString DebugMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Function
+- field_type: UnicodeString
+  field_name: Line
+- field_type: UnicodeString
+  field_name: DebugMessage

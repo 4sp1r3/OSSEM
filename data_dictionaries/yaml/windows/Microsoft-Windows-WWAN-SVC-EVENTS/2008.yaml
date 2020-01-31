@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '2008'
+version: '0'
+event(fields): task_02008(UInt32 WwanApiName, GUID InterfaceGuid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WwanApiName
+- field_type: GUID
+  field_name: InterfaceGuid

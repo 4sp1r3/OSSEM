@@ -1,0 +1,49 @@
+provider: Microsoft-Windows-OfflineFiles
+event_id: '2002'
+version: '0'
+event(fields): task_02002(UnicodeString Path, Boolean ClientIsDir, Boolean ClientChanged,
+  Boolean ClientIsSparse, Boolean ClientCreatedOffline, FILETIME ClientLastWriteTime,
+  FILETIME ClientChangeTime, UInt32 ClientAttributes, UInt64 ClientSize, Boolean ServerIsDir,
+  Boolean ServerChanged, FILETIME ServerLastWriteTime, FILETIME ServerChangeTime,
+  UInt32 ServerAttributes, UInt64 ServerSize, UInt32 SyncState, UnicodeString SyncStateText)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path
+- field_type: Boolean
+  field_name: ClientIsDir
+- field_type: Boolean
+  field_name: ClientChanged
+- field_type: Boolean
+  field_name: ClientIsSparse
+- field_type: Boolean
+  field_name: ClientCreatedOffline
+- field_type: FILETIME
+  field_name: ClientLastWriteTime
+- field_type: FILETIME
+  field_name: ClientChangeTime
+- field_type: UInt32
+  field_name: ClientAttributes
+- field_type: UInt64
+  field_name: ClientSize
+- field_type: Boolean
+  field_name: ServerIsDir
+- field_type: Boolean
+  field_name: ServerChanged
+- field_type: FILETIME
+  field_name: ServerLastWriteTime
+- field_type: FILETIME
+  field_name: ServerChangeTime
+- field_type: UInt32
+  field_name: ServerAttributes
+- field_type: UInt64
+  field_name: ServerSize
+- field_type: UInt32
+  field_name: SyncState
+- field_type: UnicodeString
+  field_name: SyncStateText

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDC
+event_id: '36'
+version: '0'
+event(fields): CsEnterExit(UInt32 At)
+opcode: ''
+keywords: Cs
+task: CsEnterExit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: At

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '11'
+version: '0'
+event(fields): LEGACY_EVENTADD_FILES_LIBRARY_END()
+opcode: ADD_FILES_LIBRARY_END
+keywords: mediaplayer
+task: LEGACY_EVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

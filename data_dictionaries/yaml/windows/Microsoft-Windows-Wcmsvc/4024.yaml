@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '4024'
+version: '0'
+event(fields): MeasureWLANResumeReconnecttaskStop4024(GUID InterfaceGuid)
+opcode: Stop
+keywords: ''
+task: MeasureWLANResumeReconnecttask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

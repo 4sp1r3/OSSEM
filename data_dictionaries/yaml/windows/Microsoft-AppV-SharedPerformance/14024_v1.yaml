@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14024'
+version: '1'
+event(fields): ConfigurePackageCompleteComponentStop_V1(UInt32 Component)
+opcode: Stop
+keywords: ''
+task: ConfigurePackageCompleteComponent
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Component

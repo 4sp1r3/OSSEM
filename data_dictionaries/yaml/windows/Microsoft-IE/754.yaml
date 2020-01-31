@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '754'
+version: '0'
+event(fields): Mshtml_Ortc_Candidate_GatheringStart(Pointer ThisPtr)
+opcode: Start
+keywords: mshtml
+task: Mshtml_Ortc_Candidate_Gathering
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ThisPtr

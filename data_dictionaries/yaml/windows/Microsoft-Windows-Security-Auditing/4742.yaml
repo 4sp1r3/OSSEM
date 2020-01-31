@@ -1,0 +1,78 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4742'
+version: '0'
+event(fields): task_04742(UnicodeString ComputerAccountChange, UnicodeString TargetUserName,
+  UnicodeString TargetDomainName, SID TargetSid, SID SubjectUserSid, UnicodeString
+  SubjectUserName, UnicodeString SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString
+  PrivilegeList, UnicodeString SamAccountName, UnicodeString DisplayName, UnicodeString
+  UserPrincipalName, UnicodeString HomeDirectory, UnicodeString HomePath, UnicodeString
+  ScriptPath, UnicodeString ProfilePath, UnicodeString UserWorkstations, UnicodeString
+  PasswordLastSet, UnicodeString AccountExpires, UnicodeString PrimaryGroupId, UnicodeString
+  AllowedToDelegateTo, UnicodeString OldUacValue, UnicodeString NewUacValue, UnicodeString
+  UserAccountControl, UnicodeString UserParameters, UnicodeString SidHistory, UnicodeString
+  LogonHours, UnicodeString DnsHostName, UnicodeString ServicePrincipalNames)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ComputerAccountChange
+- field_type: UnicodeString
+  field_name: TargetUserName
+- field_type: UnicodeString
+  field_name: TargetDomainName
+- field_type: SID
+  field_name: TargetSid
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: PrivilegeList
+- field_type: UnicodeString
+  field_name: SamAccountName
+- field_type: UnicodeString
+  field_name: DisplayName
+- field_type: UnicodeString
+  field_name: UserPrincipalName
+- field_type: UnicodeString
+  field_name: HomeDirectory
+- field_type: UnicodeString
+  field_name: HomePath
+- field_type: UnicodeString
+  field_name: ScriptPath
+- field_type: UnicodeString
+  field_name: ProfilePath
+- field_type: UnicodeString
+  field_name: UserWorkstations
+- field_type: UnicodeString
+  field_name: PasswordLastSet
+- field_type: UnicodeString
+  field_name: AccountExpires
+- field_type: UnicodeString
+  field_name: PrimaryGroupId
+- field_type: UnicodeString
+  field_name: AllowedToDelegateTo
+- field_type: UnicodeString
+  field_name: OldUacValue
+- field_type: UnicodeString
+  field_name: NewUacValue
+- field_type: UnicodeString
+  field_name: UserAccountControl
+- field_type: UnicodeString
+  field_name: UserParameters
+- field_type: UnicodeString
+  field_name: SidHistory
+- field_type: UnicodeString
+  field_name: LogonHours
+- field_type: UnicodeString
+  field_name: DnsHostName
+- field_type: UnicodeString
+  field_name: ServicePrincipalNames

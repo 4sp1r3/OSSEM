@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OLE-Perf
+event_id: '23'
+version: '0'
+event(fields): OLE_DragDrop_DragOperation_SetDataObjectStart()
+opcode: Start
+keywords: ''
+task: OLE_DragDrop_DragOperation_SetDataObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

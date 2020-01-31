@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '392'
+version: '0'
+event(fields): UpdateDependencyPropertiesForSCR()
+opcode: ''
+keywords: DComp
+task: UpdateDependencyPropertiesForSCR
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

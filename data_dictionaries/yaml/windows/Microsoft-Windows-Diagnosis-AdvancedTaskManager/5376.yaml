@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5376'
+version: '0'
+event(fields): Dashboard_SwitchResourceStop(UInt32 OldPageId, UInt32 NewPageId)
+opcode: Stop
+keywords: dashboard
+task: Dashboard_SwitchResource
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OldPageId
+- field_type: UInt32
+  field_name: NewPageId

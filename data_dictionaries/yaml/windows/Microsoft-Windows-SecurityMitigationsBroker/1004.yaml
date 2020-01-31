@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-SecurityMitigationsBroker
+event_id: '1004'
+version: '0'
+event(fields): SecurityMitigationsBroker.Task.NotifyDisplayDriverUpdate1004(UInt64
+  DriverId, UInt32 ErrorCode)
+opcode: ''
+keywords: SECURITYMITIGATIONBROKER_KEYWORD_BROKER
+task: SecurityMitigationsBroker.Task.NotifyDisplayDriverUpdate
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DriverId
+- field_type: UInt32
+  field_name: ErrorCode

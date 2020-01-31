@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5902'
+version: '1'
+event(fields): PerfTrack_AppActivation_ActivateStop_V1(UnicodeString AppID, UnicodeString
+  PackageMoniker, UnicodeString SqmableContractID, UnicodeString ExeName, UInt32 PreviousExecutionState,
+  UInt32 Opportunistic)
+opcode: Stop
+keywords: ''
+task: PerfTrack_AppActivation_Activate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UnicodeString
+  field_name: PackageMoniker
+- field_type: UnicodeString
+  field_name: SqmableContractID
+- field_type: UnicodeString
+  field_name: ExeName
+- field_type: UInt32
+  field_name: PreviousExecutionState
+- field_type: UInt32
+  field_name: Opportunistic

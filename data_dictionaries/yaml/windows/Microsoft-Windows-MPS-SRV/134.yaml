@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '134'
+version: '0'
+event(fields): Logger_InitializeStop()
+opcode: Stop
+keywords: Service
+task: Logger_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

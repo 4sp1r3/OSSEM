@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WinINet
+event_id: '707'
+version: '0'
+event(fields): WININET_HTTPS_CLIENT_CERT_UNAVAILABLE(Pointer RequestHandle, UInt32
+  Error)
+opcode: ''
+keywords: WININET_KEYWORD_HTTPS WININET_KEYWORD_AOAC
+task: WININET_HTTPS_CLIENT_CERT_UNAVAILABLE
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestHandle
+- field_type: UInt32
+  field_name: Error

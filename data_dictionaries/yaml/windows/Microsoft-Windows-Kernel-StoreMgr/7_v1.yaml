@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-StoreMgr
+event_id: '7'
+version: '1'
+event(fields): StorePageRundown_V1(UInt32 DataKey, Pointer DataMgr, UInt32 StoreOffset,
+  UInt16 CompressedSize, UInt16 Flags)
+opcode: ''
+keywords: StoreContentsRundown
+task: StorePageRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DataKey
+- field_type: Pointer
+  field_name: DataMgr
+- field_type: UInt32
+  field_name: StoreOffset
+- field_type: UInt16
+  field_name: CompressedSize
+- field_type: UInt16
+  field_name: Flags

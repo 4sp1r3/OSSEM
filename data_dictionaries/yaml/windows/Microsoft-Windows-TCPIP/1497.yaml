@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1497'
+version: '0'
+event(fields): IpMulticast1497(UInt32 GroupChangeType, UInt32 IfIndex, UInt32 IPv4Address,
+  UInt32 IpAddrLength, Binary IPv6Address, UInt32 Data, UInt32 Status)
+opcode: ''
+keywords: keyword_80000000000
+task: IpMulticast
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: GroupChangeType
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: IPv4Address
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: Binary
+  field_name: IPv6Address
+- field_type: UInt32
+  field_name: Data
+- field_type: UInt32
+  field_name: Status

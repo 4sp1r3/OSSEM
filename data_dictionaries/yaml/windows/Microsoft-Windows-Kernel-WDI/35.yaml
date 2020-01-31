@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-WDI
+event_id: '35'
+version: '0'
+event(fields): SEMScenarioLifecycleTheSEMreceivedarequesttostartanewscenario,butthemaximumnumberofscenarioswerealreadyin_flight.(GUID
+  ProviderID, UInt16 EventID, UInt8 ScenarioCount, UInt8 ScenarioInflightItems)
+opcode: TheSEMreceivedarequesttostartanewscenario,butthemaximumnumberofscenarioswerealreadyin_flight.
+keywords: ''
+task: SEMScenarioLifecycle
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderID
+- field_type: UInt16
+  field_name: EventID
+- field_type: UInt8
+  field_name: ScenarioCount
+- field_type: UInt8
+  field_name: ScenarioInflightItems

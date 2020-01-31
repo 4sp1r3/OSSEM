@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1021'
+version: '0'
+event(fields): GatewayConnectionSequenceThiseventisraisedinthegatewaytransport1021(UnicodeString
+  Name, UInt32 Value, UnicodeString CustomLevel)
+opcode: Thiseventisraisedinthegatewaytransport
+keywords: ''
+task: GatewayConnectionSequence
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt32
+  field_name: Value
+- field_type: UnicodeString
+  field_name: CustomLevel

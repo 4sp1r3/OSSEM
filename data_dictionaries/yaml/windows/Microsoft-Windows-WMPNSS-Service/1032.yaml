@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1032'
+version: '0'
+event(fields): Objwriter_Act_Write_ElementStop(UInt32 ElementValue, UInt32 Index,
+  Boolean ElementExists, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Objwriter_Act_Write_Element
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ElementValue
+- field_type: UInt32
+  field_name: Index
+- field_type: Boolean
+  field_name: ElementExists
+- field_type: UInt32
+  field_name: ErrorCode

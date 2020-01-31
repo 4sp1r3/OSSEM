@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7439'
+version: '0'
+event(fields): ConnectedSearch_LogTemplateRequestInfo(UInt32 Result, UnicodeString
+  ImpressionGUID, UnicodeString TelemetryID)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogTemplateRequestInfo
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ImpressionGUID
+- field_type: UnicodeString
+  field_name: TelemetryID

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LiveId
+event_id: '6012'
+version: '0'
+event(fields): task_06012(UnicodeString ProcessName)
+opcode: ''
+keywords: Error WlidSvc
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName

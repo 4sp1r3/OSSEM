@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-XAML
+event_id: '221'
+version: '0'
+event(fields): PresentControllerPresent(UInt64 ControllerId, UInt32 PresentId, UInt64
+  BeginPresentQPCTicks, UInt32 QueuedPresentCount, UInt32 FramesToQueue)
+opcode: ''
+keywords: Rendering
+task: PresentControllerPresent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ControllerId
+- field_type: UInt32
+  field_name: PresentId
+- field_type: UInt64
+  field_name: BeginPresentQPCTicks
+- field_type: UInt32
+  field_name: QueuedPresentCount
+- field_type: UInt32
+  field_name: FramesToQueue

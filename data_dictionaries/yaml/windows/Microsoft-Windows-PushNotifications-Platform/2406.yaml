@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2406'
+version: '0'
+event(fields): RequestChannelStart2406(UnicodeString PackageFullName, UnicodeString
+  AppUserModelId, UnicodeString ChannelName, UnicodeString ServiceName)
+opcode: Start
+keywords: wpnend
+task: RequestChannel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UnicodeString
+  field_name: ChannelName
+- field_type: UnicodeString
+  field_name: ServiceName

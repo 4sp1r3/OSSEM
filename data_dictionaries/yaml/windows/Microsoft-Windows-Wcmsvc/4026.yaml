@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '4026'
+version: '0'
+event(fields): MeasureWWANResumeReconnecttaskStop4026(GUID InterfaceGuid)
+opcode: Stop
+keywords: ''
+task: MeasureWWANResumeReconnecttask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

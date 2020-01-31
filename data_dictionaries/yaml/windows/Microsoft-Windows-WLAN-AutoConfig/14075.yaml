@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14075'
+version: '0'
+event(fields): task_014075(Boolean IsAutoConnectEnabled, UInt32 AutoConnectProfileCount,
+  UInt32 AutoConnectFilterControl, Boolean IsManualConnectEnabled, UInt32 ManualConnectProfileCount,
+  UInt32 ManualConnectFilterControl, UnicodeString InterfaceDescription)
+opcode: ''
+keywords: State
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsAutoConnectEnabled
+- field_type: UInt32
+  field_name: AutoConnectProfileCount
+- field_type: UInt32
+  field_name: AutoConnectFilterControl
+- field_type: Boolean
+  field_name: IsManualConnectEnabled
+- field_type: UInt32
+  field_name: ManualConnectProfileCount
+- field_type: UInt32
+  field_name: ManualConnectFilterControl
+- field_type: UnicodeString
+  field_name: InterfaceDescription

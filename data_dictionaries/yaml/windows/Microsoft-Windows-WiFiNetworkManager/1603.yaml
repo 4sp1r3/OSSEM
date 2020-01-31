@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1603'
+version: '0'
+event(fields): task_01603(UInt32 dwValue1, UInt32 dwValue2, UInt32 dwValue3, UInt32
+  dwValue4, UInt32 dwValue5, UInt32 dwValue6, UInt32 dwValue7, UInt32 dwValue8, UInt32
+  dwValue9, UInt32 Flags)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwValue1
+- field_type: UInt32
+  field_name: dwValue2
+- field_type: UInt32
+  field_name: dwValue3
+- field_type: UInt32
+  field_name: dwValue4
+- field_type: UInt32
+  field_name: dwValue5
+- field_type: UInt32
+  field_name: dwValue6
+- field_type: UInt32
+  field_name: dwValue7
+- field_type: UInt32
+  field_name: dwValue8
+- field_type: UInt32
+  field_name: dwValue9
+- field_type: UInt32
+  field_name: Flags

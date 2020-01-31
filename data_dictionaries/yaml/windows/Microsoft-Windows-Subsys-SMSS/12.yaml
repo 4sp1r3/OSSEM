@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Subsys-SMSS
+event_id: '12'
+version: '0'
+event(fields): task_0(UInt16 FileNameLength, UnicodeString FileName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName

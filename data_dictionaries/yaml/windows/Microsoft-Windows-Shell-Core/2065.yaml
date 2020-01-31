@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2065'
+version: '0'
+event(fields): Browseui_AddressEditBox_ParsePathStart(UnicodeString Path)
+opcode: Start
+keywords: Shell
+task: Browseui_AddressEditBox_ParsePath
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path

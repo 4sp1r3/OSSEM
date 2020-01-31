@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '408'
+version: '0'
+event(fields): ManipulationTransformDestroyed(UInt64 address)
+opcode: ''
+keywords: Input
+task: ManipulationTransformDestroyed
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: address

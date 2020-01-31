@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '10001'
+version: '0'
+event(fields): task_010001(UnicodeString p1, HexInt32 p2)
+opcode: ''
+keywords: ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: p1
+- field_type: HexInt32
+  field_name: p2

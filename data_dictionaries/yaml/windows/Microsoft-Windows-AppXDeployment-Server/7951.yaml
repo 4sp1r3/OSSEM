@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '7951'
+version: '0'
+event(fields): task_07951(UnicodeString PackageName, HexInt32 ErrorCode)
+opcode: ''
+keywords: GEOLOCATION_DEH_KEYWORD
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: HexInt32
+  field_name: ErrorCode

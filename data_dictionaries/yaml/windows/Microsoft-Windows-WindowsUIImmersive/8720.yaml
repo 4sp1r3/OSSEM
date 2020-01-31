@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WindowsUIImmersive
+event_id: '8720'
+version: '0'
+event(fields): PopupLightDismissStart(Pointer HWND, HexInt32 ProcessID, HexInt32 Flags)
+opcode: Start
+keywords: ''
+task: PopupLightDismiss
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HWND
+- field_type: HexInt32
+  field_name: ProcessID
+- field_type: HexInt32
+  field_name: Flags

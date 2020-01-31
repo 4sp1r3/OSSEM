@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1145'
+version: '0'
+event(fields): DataLayer_ItemRealizeItemStop()
+opcode: Stop
+keywords: ItemCollection
+task: DataLayer_ItemRealizeItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SENSE
+event_id: '1838'
+version: '0'
+event(fields): task_01838(UInt32 requestedValue, UInt32 minimumAllowedValue, UInt32
+  maximumAllowedValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: requestedValue
+- field_type: UInt32
+  field_name: minimumAllowedValue
+- field_type: UInt32
+  field_name: maximumAllowedValue

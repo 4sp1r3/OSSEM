@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '40'
+version: '0'
+event(fields): ProcessTerminateAllocation(Pointer hVidMmAlloc)
+opcode: ''
+keywords: Resource
+task: ProcessTerminateAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hVidMmAlloc

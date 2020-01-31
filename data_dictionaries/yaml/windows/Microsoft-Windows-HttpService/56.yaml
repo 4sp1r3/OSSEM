@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HttpService
+event_id: '56'
+version: '0'
+event(fields): HTTPSSLTraceTaskSslEndpointCreationFailed(Pointer EndpointConfigObj,
+  UInt32 SecStatus, AnsiString Detail)
+opcode: SslEndpointCreationFailed
+keywords: HTTP_KEYWORD_SETUP HTTP_KEYWORD_SSL
+task: HTTPSSLTraceTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: EndpointConfigObj
+- field_type: UInt32
+  field_name: SecStatus
+- field_type: AnsiString
+  field_name: Detail

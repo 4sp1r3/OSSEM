@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '321'
+version: '0'
+event(fields): Gather_Transaction_Failure_Code(UInt32 Status, UnicodeString URL, UInt32
+  DocID, UInt32 hr)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: Gather_Transaction_Failure_Code
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt32
+  field_name: DocID
+- field_type: UInt32
+  field_name: hr

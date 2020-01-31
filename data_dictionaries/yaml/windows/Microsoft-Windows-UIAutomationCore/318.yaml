@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '318'
+version: '0'
+event(fields): CAutomationElement_GetCachedPatternAsStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CAutomationElement_GetCachedPatternAs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

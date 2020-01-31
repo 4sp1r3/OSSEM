@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7169'
+version: '0'
+event(fields): ConnectedSearch_LogAttributionClickPayload(UnicodeString JSON)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogAttributionClickPayload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JSON

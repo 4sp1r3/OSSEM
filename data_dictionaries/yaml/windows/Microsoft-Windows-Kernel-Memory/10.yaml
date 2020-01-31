@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Kernel-Memory
+event_id: '10'
+version: '0'
+event(fields): MdlAllocation(UInt64 DurationInMicroseconds, UInt64 TotalBytes, UInt64
+  LowAddress, UInt64 HighAddress, UInt64 SkipBytes, Pointer MemoryDescriptorList,
+  UInt32 IdealNode, UInt32 Flags)
+opcode: ''
+keywords: KERNEL_MEM_KEYWORD_PHYSICAL_ALLOC
+task: MdlAllocation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DurationInMicroseconds
+- field_type: UInt64
+  field_name: TotalBytes
+- field_type: UInt64
+  field_name: LowAddress
+- field_type: UInt64
+  field_name: HighAddress
+- field_type: UInt64
+  field_name: SkipBytes
+- field_type: Pointer
+  field_name: MemoryDescriptorList
+- field_type: UInt32
+  field_name: IdealNode
+- field_type: UInt32
+  field_name: Flags

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '12'
+version: '0'
+event(fields): COM_GetClassObjectStop()
+opcode: Stop
+keywords: ''
+task: COM_GetClassObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

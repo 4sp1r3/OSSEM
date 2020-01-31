@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1580'
+version: '0'
+event(fields): ServerTask1580(UInt32 unParam, UInt64 unParam2, UInt64 unParam3)
+opcode: ''
+keywords: ServerTask
+task: ServerTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt64
+  field_name: unParam2
+- field_type: UInt64
+  field_name: unParam3

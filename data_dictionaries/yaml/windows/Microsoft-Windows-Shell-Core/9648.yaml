@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9648'
+version: '0'
+event(fields): Explorer_Startup_StepStart(UnicodeString psz)
+opcode: Start
+keywords: Shell StartupPerf
+task: Explorer_Startup_Step
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

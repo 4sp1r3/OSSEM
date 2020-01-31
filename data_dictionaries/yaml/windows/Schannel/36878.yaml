@@ -1,0 +1,17 @@
+provider: Schannel
+event_id: '36878'
+version: '0'
+event(fields): task_036878(HexInt32 ErrorCode, UInt32 __binLength, Binary pCertificateContext)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: pCertificateContext

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HttpService
+event_id: '15'
+version: '0'
+event(fields): HTTPRequestTraceTaskSndError(UInt64 RequestId, AnsiString Reason, UInt32
+  Status)
+opcode: SndError
+keywords: HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE
+task: HTTPRequestTraceTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RequestId
+- field_type: AnsiString
+  field_name: Reason
+- field_type: UInt32
+  field_name: Status

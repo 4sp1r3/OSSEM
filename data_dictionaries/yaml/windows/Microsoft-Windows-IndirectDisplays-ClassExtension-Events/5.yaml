@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '5'
+version: '0'
+event(fields): AdapterDestroy(Int64 IddAdapterLuid)
+opcode: Destroy
+keywords: DdiCalls
+task: Adapter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: IddAdapterLuid

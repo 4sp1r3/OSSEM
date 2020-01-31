@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '12'
+version: '0'
+event(fields): MAUSBEndpointUpdateInformation(Pointer fid_Controller, Pointer fid_UsbDevice,
+  Pointer fid_Endpoint, UInt8 fid_USB_Endpoint_Descriptor)
+opcode: Information
+keywords: Default
+task: MAUSBEndpointUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Pointer
+  field_name: fid_Endpoint
+- field_type: UInt8
+  field_name: fid_USB_Endpoint_Descriptor

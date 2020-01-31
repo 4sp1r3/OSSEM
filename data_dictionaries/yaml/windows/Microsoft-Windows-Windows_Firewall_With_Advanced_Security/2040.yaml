@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2040'
+version: '0'
+event(fields): task_02040(UInt32 ChangeType, UnicodeString AllDomainProxies, UnicodeString
+  GPConfiguredDomainSubnets, UnicodeString AllDANat64DomainSubnets, UInt32 GPIsAuthoritative)
+opcode: ''
+keywords: ut:AOAC
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ChangeType
+- field_type: UnicodeString
+  field_name: AllDomainProxies
+- field_type: UnicodeString
+  field_name: GPConfiguredDomainSubnets
+- field_type: UnicodeString
+  field_name: AllDANat64DomainSubnets
+- field_type: UInt32
+  field_name: GPIsAuthoritative

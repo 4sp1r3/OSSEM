@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '84'
+version: '0'
+event(fields): MFAudio_Render_GetTimeTaskAudStreamSink_GetTime_BadStreamTime(Pointer
+  object, Int64 phnsTimeNow, Int64 m_mftMaxTimePriorToStreamSwitch)
+opcode: AudStreamSink_GetTime_BadStreamTime
+keywords: ''
+task: MFAudio_Render_GetTimeTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: phnsTimeNow
+- field_type: Int64
+  field_name: m_mftMaxTimePriorToStreamSwitch

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '20003'
+version: '1'
+event(fields): VirtualEnvironmentCreatedActivityStop_V1()
+opcode: Stop
+keywords: ''
+task: VirtualEnvironmentCreatedActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

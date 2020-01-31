@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2124'
+version: '0'
+event(fields): Picker_LocationLabel_Updated()
+opcode: ''
+keywords: ''
+task: Picker_LocationLabel_Updated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

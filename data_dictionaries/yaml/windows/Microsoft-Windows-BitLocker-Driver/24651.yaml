@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-BitLocker-Driver
+event_id: '24651'
+version: '0'
+event(fields): task_024651(HexInt32 ErrorCode, UnicodeString Volume, HexInt32 WritePhase)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: Volume
+- field_type: HexInt32
+  field_name: WritePhase

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UI-Search
+event_id: '502'
+version: '0'
+event(fields): ViewServiceInitStop(UInt32 ServiceIndex, UInt32 Result)
+opcode: Stop
+keywords: ''
+task: ViewServiceInit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ServiceIndex
+- field_type: UInt32
+  field_name: Result

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '267'
+version: '0'
+event(fields): PrimitiveCompositionTextureUpdateStop()
+opcode: Stop
+keywords: Rendering
+task: PrimitiveCompositionTextureUpdate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

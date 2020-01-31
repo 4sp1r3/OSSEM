@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '158'
+version: '0'
+event(fields): PROCESS_COMPOSITION_SURFACE_UPDATE_EVENTStop()
+opcode: Stop
+keywords: DwmCore
+task: PROCESS_COMPOSITION_SURFACE_UPDATE_EVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

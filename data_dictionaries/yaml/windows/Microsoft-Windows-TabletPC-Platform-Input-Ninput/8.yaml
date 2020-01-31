@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '8'
+version: '0'
+event(fields): NinputScrollerInitializeGenericStop()
+opcode: Stop
+keywords: ''
+task: NinputScrollerInitializeGeneric
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

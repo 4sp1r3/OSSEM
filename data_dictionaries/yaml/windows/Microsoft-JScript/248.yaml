@@ -1,0 +1,24 @@
+provider: Microsoft-JScript
+event_id: '248'
+version: '0'
+event(fields): Jscript_GC_Clear_InlineCacheStop(Pointer ThreadContextID, UInt32 ScriptContextCount,
+  UInt32 AllocatedSize, UInt32 PreClearFreeSize, UInt32 FreeSize, UInt32 PolyInlineCacheSize)
+opcode: Stop
+keywords: JScriptGarbageCollection
+task: Jscript_GC_Clear_InlineCache
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ThreadContextID
+- field_type: UInt32
+  field_name: ScriptContextCount
+- field_type: UInt32
+  field_name: AllocatedSize
+- field_type: UInt32
+  field_name: PreClearFreeSize
+- field_type: UInt32
+  field_name: FreeSize
+- field_type: UInt32
+  field_name: PolyInlineCacheSize

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '401'
+version: '0'
+event(fields): TsfCandidateList_GetItemStop()
+opcode: Stop
+keywords: TSF_UIManager
+task: TsfCandidateList_GetItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

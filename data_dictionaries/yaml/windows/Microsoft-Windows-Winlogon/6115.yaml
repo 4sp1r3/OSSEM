@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '6115'
+version: '0'
+event(fields): LockStop6115()
+opcode: Stop
+keywords: PerfDiagnostics
+task: Lock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

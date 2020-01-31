@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UI-Search
+event_id: '602'
+version: '0'
+event(fields): XamlViewShutdownStop(UInt32 XAMLView, UInt32 Result)
+opcode: Stop
+keywords: ''
+task: XamlViewShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: XAMLView
+- field_type: UInt32
+  field_name: Result

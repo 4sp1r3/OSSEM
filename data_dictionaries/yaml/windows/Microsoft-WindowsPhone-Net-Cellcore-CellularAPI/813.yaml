@@ -1,0 +1,31 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '813'
+version: '0'
+event(fields): CSms813(UInt32 DwordName1, UInt32 DwordName2, UInt32 DwordName3, UInt32
+  DwordName4, UInt32 cbBytes5, UInt8 Bytes5, UInt32 cbBytes6, UInt8 Bytes6, UInt64
+  Pointer)
+opcode: ''
+keywords: Information
+task: CSms
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName1
+- field_type: UInt32
+  field_name: DwordName2
+- field_type: UInt32
+  field_name: DwordName3
+- field_type: UInt32
+  field_name: DwordName4
+- field_type: UInt32
+  field_name: cbBytes5
+- field_type: UInt8
+  field_name: Bytes5
+- field_type: UInt32
+  field_name: cbBytes6
+- field_type: UInt8
+  field_name: Bytes6
+- field_type: UInt64
+  field_name: Pointer

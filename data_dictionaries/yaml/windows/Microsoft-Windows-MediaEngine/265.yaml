@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '265'
+version: '0'
+event(fields): SphericalVideoPropertiesChangedTask(Float QuaternionW, Float QuaternionX,
+  Float QuaternionY, Float QuaternionZ, UInt32 FieldOfView)
+opcode: ''
+keywords: ''
+task: SphericalVideoPropertiesChangedTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: QuaternionW
+- field_type: Float
+  field_name: QuaternionX
+- field_type: Float
+  field_name: QuaternionY
+- field_type: Float
+  field_name: QuaternionZ
+- field_type: UInt32
+  field_name: FieldOfView

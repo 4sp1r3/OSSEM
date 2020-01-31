@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-KernelStreaming
+event_id: '211'
+version: '0'
+event(fields): KS_IoProbeandLockStart(HexInt32 PinId, UInt32 BufSize)
+opcode: Start
+keywords: ''
+task: KS_IoProbeandLock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: PinId
+- field_type: UInt32
+  field_name: BufSize

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '96'
+version: '0'
+event(fields): task_096(HexInt32 CPU, HexInt32 ErrorCode)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: CPU
+- field_type: HexInt32
+  field_name: ErrorCode

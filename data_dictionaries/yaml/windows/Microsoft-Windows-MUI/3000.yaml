@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MUI
+event_id: '3000'
+version: '0'
+event(fields): MUINotifyUILanguageChangetaskStart(UInt32 Flags, UnicodeString NewLanguage,
+  UnicodeString PrevLanguage, UInt32 ExtendedFlag)
+opcode: Start
+keywords: ''
+task: MUINotifyUILanguageChangetask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: UnicodeString
+  field_name: NewLanguage
+- field_type: UnicodeString
+  field_name: PrevLanguage
+- field_type: UInt32
+  field_name: ExtendedFlag

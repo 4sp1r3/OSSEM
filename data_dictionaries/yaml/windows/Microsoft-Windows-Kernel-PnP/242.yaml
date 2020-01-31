@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '242'
+version: '0'
+event(fields): task_0242(UnicodeString TargetPath, HexInt64 TargetAffinity, UInt32
+  TargetProcessorCount, UInt32 TargetMemoryCount, HexInt64 TargetMemorySize, UnicodeString
+  SparePath, UInt32 SpareProcessorCount, UInt32 SpareMemoryCount, HexInt64 SpareMemorySize,
+  UInt32 TimeTotal, UInt32 TimeToQuiesce, UInt32 TimeQuiesced, UInt32 TimeToWake,
+  FILETIME TargetProcessors, SYSTEMTIME TargetMemoryRanges, HexInt32 SpareProcessors,
+  HexInt64 SpareMemoryRanges)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TargetPath
+- field_type: HexInt64
+  field_name: TargetAffinity
+- field_type: UInt32
+  field_name: TargetProcessorCount
+- field_type: UInt32
+  field_name: TargetMemoryCount
+- field_type: HexInt64
+  field_name: TargetMemorySize
+- field_type: UnicodeString
+  field_name: SparePath
+- field_type: UInt32
+  field_name: SpareProcessorCount
+- field_type: UInt32
+  field_name: SpareMemoryCount
+- field_type: HexInt64
+  field_name: SpareMemorySize
+- field_type: UInt32
+  field_name: TimeTotal
+- field_type: UInt32
+  field_name: TimeToQuiesce
+- field_type: UInt32
+  field_name: TimeQuiesced
+- field_type: UInt32
+  field_name: TimeToWake
+- field_type: FILETIME
+  field_name: TargetProcessors
+- field_type: SYSTEMTIME
+  field_name: TargetMemoryRanges
+- field_type: HexInt32
+  field_name: SpareProcessors
+- field_type: HexInt64
+  field_name: SpareMemoryRanges

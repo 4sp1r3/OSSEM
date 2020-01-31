@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '40'
+version: '0'
+event(fields): VerifyRevocationStart(UnicodeString EventWriteData)
+opcode: Start
+keywords: PathValidation Revocation
+task: VerifyRevocation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventWriteData

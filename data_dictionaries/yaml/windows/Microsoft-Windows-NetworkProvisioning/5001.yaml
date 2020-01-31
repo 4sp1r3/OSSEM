@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '5001'
+version: '0'
+event(fields): ActivationTask5001(UInt32 ActivationMethod, UnicodeString CarrierId,
+  UnicodeString SubscriberId, UnicodeString Params, Int32 ErrorCode)
+opcode: ''
+keywords: ActivationTask ut:Configuration
+task: ActivationTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ActivationMethod
+- field_type: UnicodeString
+  field_name: CarrierId
+- field_type: UnicodeString
+  field_name: SubscriberId
+- field_type: UnicodeString
+  field_name: Params
+- field_type: Int32
+  field_name: ErrorCode

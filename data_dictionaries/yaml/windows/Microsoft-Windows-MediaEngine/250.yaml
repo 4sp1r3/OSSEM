@@ -1,0 +1,37 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '250'
+version: '0'
+event(fields): ConfigureSwapchainTask(Pointer object, Boolean IsDecode, UInt32 DxgiFormat,
+  UInt32 Width, UInt32 Height, UInt32 ColorSpaceType, UInt32 BufferCount, UInt32 Flags,
+  Int32 Dst_Left, Int32 Dst_Top, Int32 Dst_Right, Int32 Dst_Bottom)
+opcode: ''
+keywords: ''
+task: ConfigureSwapchainTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Boolean
+  field_name: IsDecode
+- field_type: UInt32
+  field_name: DxgiFormat
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: ColorSpaceType
+- field_type: UInt32
+  field_name: BufferCount
+- field_type: UInt32
+  field_name: Flags
+- field_type: Int32
+  field_name: Dst_Left
+- field_type: Int32
+  field_name: Dst_Top
+- field_type: Int32
+  field_name: Dst_Right
+- field_type: Int32
+  field_name: Dst_Bottom

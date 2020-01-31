@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DeviceManagement-Pushrouter
+event_id: '155'
+version: '0'
+event(fields): task_0155(UnicodeString Message1, UnicodeString Message2, UnicodeString
+  Message3, UnicodeString Message4, HexInt32 HexInt1, HexInt32 HexInt3)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message1
+- field_type: UnicodeString
+  field_name: Message2
+- field_type: UnicodeString
+  field_name: Message3
+- field_type: UnicodeString
+  field_name: Message4
+- field_type: HexInt32
+  field_name: HexInt1
+- field_type: HexInt32
+  field_name: HexInt3

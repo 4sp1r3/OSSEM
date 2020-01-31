@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '12822'
+version: '0'
+event(fields): DataDeduplicationScrubbingTask12822(GUID JobInstanceId, UnicodeString
+  VolumeGuidPath, UnicodeString VolumeDisplayName, UInt32 ErrorCode, UnicodeString
+  ErrorMessage)
+opcode: ''
+keywords: Reporting
+task: DataDeduplicationScrubbingTask
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: JobInstanceId
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UnicodeString
+  field_name: VolumeDisplayName
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '12100'
+version: '0'
+event(fields): WWANCellularStateRegistrationState(GUID InterfaceGuid, UInt32 RegisteredType)
+opcode: RegistrationState
+keywords: keyword_400000000000
+task: WWANCellularState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RegisteredType

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4053'
+version: '0'
+event(fields): CP_Get_AttribStop(UInt32 WMPAtom, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: CP_Get_Attrib
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WMPAtom
+- field_type: UInt32
+  field_name: ErrorCode

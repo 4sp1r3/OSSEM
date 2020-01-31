@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '734'
+version: '0'
+event(fields): Mshtml_WebOCEvents_DownloadComplete(Pointer CMarkup)
+opcode: ''
+keywords: webocevents
+task: Mshtml_WebOCEvents_DownloadComplete
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMarkup

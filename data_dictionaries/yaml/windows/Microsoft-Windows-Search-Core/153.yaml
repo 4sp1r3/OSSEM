@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '153'
+version: '0'
+event(fields): Crawl_IsDone(UInt32 CrawlNo, Boolean IsDone)
+opcode: ''
+keywords: Indexing Gatherer
+task: Crawl_IsDone
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CrawlNo
+- field_type: Boolean
+  field_name: IsDone

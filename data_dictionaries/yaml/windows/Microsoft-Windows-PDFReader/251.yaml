@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '251'
+version: '0'
+event(fields): SwitchToStart(Boolean SameWindow)
+opcode: Start
+keywords: Reader
+task: SwitchTo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: SameWindow

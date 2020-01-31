@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1103'
+version: '0'
+event(fields): WnfRepository1103(UInt32 hexCode1)
+opcode: ''
+keywords: Error
+task: WnfRepository
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hexCode1

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '345'
+version: '0'
+event(fields): DCompSetOpacity(UInt64 Visual, Float Opacity, UInt32 IsAnimated)
+opcode: ''
+keywords: DComp
+task: DCompSetOpacity
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Visual
+- field_type: Float
+  field_name: Opacity
+- field_type: UInt32
+  field_name: IsAnimated

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2204'
+version: '0'
+event(fields): SharingManager_GetSharableItemDescriptionStart(UInt32 Index, UInt32
+  AppItemCount)
+opcode: Start
+keywords: ''
+task: SharingManager_GetSharableItemDescription
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: AppItemCount

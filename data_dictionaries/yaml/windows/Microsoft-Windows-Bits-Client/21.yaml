@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '21'
+version: '0'
+event(fields): listenviaWS_Discoveryforserverannouncements21(UnicodeString fqdn, Boolean
+  authenticated, Boolean online, UInt8 addressCount, UInt16 addressLength)
+opcode: ''
+keywords: ''
+task: listenviaWS_Discoveryforserverannouncements
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: fqdn
+- field_type: Boolean
+  field_name: authenticated
+- field_type: Boolean
+  field_name: online
+- field_type: UInt8
+  field_name: addressCount
+- field_type: UInt16
+  field_name: addressLength

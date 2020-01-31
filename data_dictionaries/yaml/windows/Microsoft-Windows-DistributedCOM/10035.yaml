@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DistributedCOM
+event_id: '10035'
+version: '0'
+event(fields): task_010035(UnicodeString ProvidedIid, UnicodeString RequestedIid,
+  UnicodeString HandlerClsid, UnicodeString HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProvidedIid
+- field_type: UnicodeString
+  field_name: RequestedIid
+- field_type: UnicodeString
+  field_name: HandlerClsid
+- field_type: UnicodeString
+  field_name: HRESULT

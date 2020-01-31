@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '309'
+version: '0'
+event(fields): TouchSelectionGripperTetherEnd()
+opcode: ''
+keywords: Input
+task: TouchSelectionGripperTetherEnd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '145'
+version: '0'
+event(fields): OutputLockStop(Pointer CMFTAsyncSimpleBase_OutputLock)
+opcode: Stop
+keywords: ''
+task: OutputLock
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMFTAsyncSimpleBase_OutputLock

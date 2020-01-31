@@ -1,0 +1,21 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3019'
+version: '0'
+event(fields): TileImageDownloadStart(UInt32 RequestId, UInt32 RequestCountInHighPriority,
+  UInt32 RequestCountInMedPriority, UInt32 RequestCountInLowPriority)
+opcode: Start
+keywords: wpnui wpnperf_FirstCloudNotificationWithCloudImage wpnperf_NewCloudNotificationArrivalWithCloudImage
+  wpnperf_MoGoPanningWithCloudImage
+task: TileImageDownload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: RequestCountInHighPriority
+- field_type: UInt32
+  field_name: RequestCountInMedPriority
+- field_type: UInt32
+  field_name: RequestCountInLowPriority

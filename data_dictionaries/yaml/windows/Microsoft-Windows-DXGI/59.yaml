@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DXGI
+event_id: '59'
+version: '0'
+event(fields): GetMultiplaneOverlayCaps(Pointer pIDXGIOutput, UInt32 MaxPlanes, UInt32
+  OverlayMaxRGBPlanes, UInt32 OverlayMaxYUVPlanes, UInt32 OverlayCaps, UInt32 PanelFitterMaxRGBPlanes,
+  UInt32 PanelFitterCaps)
+opcode: ''
+keywords: Events
+task: GetMultiplaneOverlayCaps
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGIOutput
+- field_type: UInt32
+  field_name: MaxPlanes
+- field_type: UInt32
+  field_name: OverlayMaxRGBPlanes
+- field_type: UInt32
+  field_name: OverlayMaxYUVPlanes
+- field_type: UInt32
+  field_name: OverlayCaps
+- field_type: UInt32
+  field_name: PanelFitterMaxRGBPlanes
+- field_type: UInt32
+  field_name: PanelFitterCaps

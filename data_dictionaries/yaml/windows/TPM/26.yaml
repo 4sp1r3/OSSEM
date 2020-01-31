@@ -1,0 +1,13 @@
+provider: TPM
+event_id: '26'
+version: '0'
+event(fields): task_026(HexInt32 locationCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: locationCode

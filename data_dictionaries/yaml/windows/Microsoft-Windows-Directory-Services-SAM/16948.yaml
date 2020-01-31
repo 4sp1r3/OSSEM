@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Directory-Services-SAM
+event_id: '16948'
+version: '0'
+event(fields): task_016948(UnicodeString GroupDN, UnicodeString GroupGUID, UnicodeString
+  GroupSID, UnicodeString Operation, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: GroupDN
+- field_type: UnicodeString
+  field_name: GroupGUID
+- field_type: UnicodeString
+  field_name: GroupSID
+- field_type: UnicodeString
+  field_name: Operation
+- field_type: UInt32
+  field_name: ErrorCode

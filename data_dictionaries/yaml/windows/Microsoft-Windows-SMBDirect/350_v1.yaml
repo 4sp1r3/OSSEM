@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '350'
+version: '1'
+event(fields): task_0350_V1(GUID ListenSocketID, UInt32 LocalAddressLength, Binary
+  LocalAddress, UInt32 RemoteAddressLength, Binary RemoteAddress)
+opcode: ''
+keywords: Accept NDK
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ListenSocketID
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress

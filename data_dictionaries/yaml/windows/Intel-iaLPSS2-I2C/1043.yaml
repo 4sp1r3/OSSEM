@@ -1,0 +1,20 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1043'
+version: '0'
+event(fields): iaLPSS2_I2CInitroutines1043(UInt32 MBAR, UInt64 PA, UInt32 LEN, Pointer
+  VA)
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CInitroutines
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MBAR
+- field_type: UInt64
+  field_name: PA
+- field_type: UInt32
+  field_name: LEN
+- field_type: Pointer
+  field_name: VA

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Sdbus
+event_id: '100'
+version: '0'
+event(fields): Interrupt(HexInt64 SDHostPhysicalAddress, HexInt32 EventMask)
+opcode: ''
+keywords: Interrupt
+task: Interrupt
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: SDHostPhysicalAddress
+- field_type: HexInt32
+  field_name: EventMask

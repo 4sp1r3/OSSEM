@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Documents
+event_id: '2033'
+version: '0'
+event(fields): DocPerf_Task_FilterRenderStart(UInt32 JobId, UnicodeString FilterName)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_FilterRender
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: FilterName

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '5302'
+version: '0'
+event(fields): task_05302(UnicodeString PackageName, HexInt32 ErrorCode, UnicodeString
+  ErrorText, UnicodeString ExtendedData)
+opcode: ''
+keywords: FILETYPE_DEH_KEYWORD
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorText
+- field_type: UnicodeString
+  field_name: ExtendedData

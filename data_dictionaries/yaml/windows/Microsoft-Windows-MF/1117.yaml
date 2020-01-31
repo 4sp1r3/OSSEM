@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1117'
+version: '0'
+event(fields): MediaFoundationRequiredSchema(HexInt32 context, GUID type)
+opcode: ''
+keywords: ''
+task: MediaFoundationRequiredSchema
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: context
+- field_type: GUID
+  field_name: type

@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1068'
+version: '0'
+event(fields): TcpRssTableChange(UInt32 SourceProcessor, UInt32 SourceActivity, UInt32
+  DestinationProcessor, UInt32 DestinationActivity, UInt32 PartitionMovesRemaining,
+  UInt8 TableEntry)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Global
+task: TcpRssTableChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SourceProcessor
+- field_type: UInt32
+  field_name: SourceActivity
+- field_type: UInt32
+  field_name: DestinationProcessor
+- field_type: UInt32
+  field_name: DestinationActivity
+- field_type: UInt32
+  field_name: PartitionMovesRemaining
+- field_type: UInt8
+  field_name: TableEntry

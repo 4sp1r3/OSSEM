@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '4021'
+version: '0'
+event(fields): task_04021(UnicodeString P1_String)
+opcode: ''
+keywords: Debug
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: P1_String

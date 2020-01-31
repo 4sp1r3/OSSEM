@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '43'
+version: '0'
+event(fields): RestorePrintBRMoperationsuccess43(UInt32 LogLevel)
+opcode: PrintBRMoperationsuccess
+keywords: PRINT_BRM_KEYWORD
+task: Restore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LogLevel

@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-Backup
+event_id: '1026'
+version: '1'
+event(fields): task_01026_V1(GUID BackupSetId, FILETIME BackupSetTime, GUID RestoreEventId,
+  Boolean RecoveryFromSSB, UnicodeString BackupTargetPath, UnicodeString AppRestoreAlternateTargetPath,
+  Int32 RestoreState, HexInt32 HRESULT, HexInt32 DetailedHRESULT, FILETIME RestoreTime,
+  UInt32 NumOfComponents, UnicodeString FileSuccessLogPath, UnicodeString FileFailureLogPath,
+  UnicodeString AppsInfo, Boolean AlternateLocationRecovery, Boolean RecreatePath,
+  UnicodeString ComponentInfoSummary)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BackupSetId
+- field_type: FILETIME
+  field_name: BackupSetTime
+- field_type: GUID
+  field_name: RestoreEventId
+- field_type: Boolean
+  field_name: RecoveryFromSSB
+- field_type: UnicodeString
+  field_name: BackupTargetPath
+- field_type: UnicodeString
+  field_name: AppRestoreAlternateTargetPath
+- field_type: Int32
+  field_name: RestoreState
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: HexInt32
+  field_name: DetailedHRESULT
+- field_type: FILETIME
+  field_name: RestoreTime
+- field_type: UInt32
+  field_name: NumOfComponents
+- field_type: UnicodeString
+  field_name: FileSuccessLogPath
+- field_type: UnicodeString
+  field_name: FileFailureLogPath
+- field_type: UnicodeString
+  field_name: AppsInfo
+- field_type: Boolean
+  field_name: AlternateLocationRecovery
+- field_type: Boolean
+  field_name: RecreatePath
+- field_type: UnicodeString
+  field_name: ComponentInfoSummary

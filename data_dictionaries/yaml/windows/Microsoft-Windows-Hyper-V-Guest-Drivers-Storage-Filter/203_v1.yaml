@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter
+event_id: '203'
+version: '1'
+event(fields): PortDispatchingofrequest.203_V1(Pointer Irp, UInt8 Command, UInt64
+  LengthOfTransferinblocks, HexInt64 LBA, Pointer OriginalIrp)
+opcode: Dispatchingofrequest.
+keywords: Write
+task: Port
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt8
+  field_name: Command
+- field_type: UInt64
+  field_name: LengthOfTransferinblocks
+- field_type: HexInt64
+  field_name: LBA
+- field_type: Pointer
+  field_name: OriginalIrp

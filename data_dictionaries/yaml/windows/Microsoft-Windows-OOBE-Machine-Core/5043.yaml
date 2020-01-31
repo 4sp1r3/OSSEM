@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-Machine-Core
+event_id: '5043'
+version: '0'
+event(fields): FinalizeStart()
+opcode: Start
+keywords: msoobe
+task: Finalize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

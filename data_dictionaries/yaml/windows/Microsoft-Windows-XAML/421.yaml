@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-XAML
+event_id: '421'
+version: '0'
+event(fields): ReleaseGraphicsDeviceResourcesStart(Boolean ReleaseDcompDevice, Boolean
+  IsDeviceLost)
+opcode: Start
+keywords: Rendering
+task: ReleaseGraphicsDeviceResources
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: ReleaseDcompDevice
+- field_type: Boolean
+  field_name: IsDeviceLost

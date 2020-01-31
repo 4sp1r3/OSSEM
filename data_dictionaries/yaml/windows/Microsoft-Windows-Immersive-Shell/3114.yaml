@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '3114'
+version: '0'
+event(fields): AutoPlay_Calculate_Response_TimeStop()
+opcode: Stop
+keywords: ''
+task: AutoPlay_Calculate_Response_Time
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

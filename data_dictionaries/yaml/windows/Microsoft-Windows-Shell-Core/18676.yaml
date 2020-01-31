@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18676'
+version: '0'
+event(fields): Shell32_List_LaunchInBasket()
+opcode: ''
+keywords: Shell
+task: Shell32_List_LaunchInBasket
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

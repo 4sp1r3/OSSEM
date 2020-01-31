@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Sysprep
+event_id: '1001'
+version: '0'
+event(fields): RunRegistryDllsStart(UnicodeString BasePath, UnicodeString Phase)
+opcode: Start
+keywords: keyPerformance keySysprep
+task: RunRegistryDlls
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: BasePath
+- field_type: UnicodeString
+  field_name: Phase

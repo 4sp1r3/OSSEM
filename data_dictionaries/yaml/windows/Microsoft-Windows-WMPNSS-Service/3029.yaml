@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '3029'
+version: '0'
+event(fields): Callback_Get_ProfileStart(Boolean IsAlbumArt, Boolean IsTranscode,
+  UInt32 FormatID, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Callback_Get_Profile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsAlbumArt
+- field_type: Boolean
+  field_name: IsTranscode
+- field_type: UInt32
+  field_name: FormatID
+- field_type: UInt32
+  field_name: ErrorCode

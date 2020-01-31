@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1007'
+version: '1'
+event(fields): ProcessinglpksetupunattendedexecutionfromthecommandlineValidatespecifiedpath_V1(UnicodeString
+  Parameter)
+opcode: Validatespecifiedpath
+keywords: ''
+task: Processinglpksetupunattendedexecutionfromthecommandline
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Parameter

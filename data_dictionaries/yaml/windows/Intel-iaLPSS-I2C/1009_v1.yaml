@@ -1,0 +1,24 @@
+provider: Intel-iaLPSS-I2C
+event_id: '1009'
+version: '1'
+event(fields): IOFlowsThroughSPBCxdriverStart_V1(Pointer pRequest, Pointer pDevice,
+  Pointer pTarget, UnicodeString IOCTL, HexInt64 TargetI2CAddress, HexInt64 MMIO)
+opcode: Start
+keywords: ''
+task: IOFlowsThroughSPBCxdriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pRequest
+- field_type: Pointer
+  field_name: pDevice
+- field_type: Pointer
+  field_name: pTarget
+- field_type: UnicodeString
+  field_name: IOCTL
+- field_type: HexInt64
+  field_name: TargetI2CAddress
+- field_type: HexInt64
+  field_name: MMIO

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '17'
+version: '0'
+event(fields): QueryStatsEnergyDelta(UInt32 Component, UInt64 EnergyDelta)
+opcode: EnergyDelta
+keywords: EnergyEstimation
+task: QueryStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Component
+- field_type: UInt64
+  field_name: EnergyDelta

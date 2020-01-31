@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45060'
+version: '1'
+event(fields): NoneTobeusedwhenoperationisjustexecutingamethod45060_V1(UnicodeString
+  Id, UnicodeString InstanceId, UnicodeString Name, UnicodeString Location, UnicodeString
+  State, UnicodeString Command)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: ''
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Id
+- field_type: UnicodeString
+  field_name: InstanceId
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Location
+- field_type: UnicodeString
+  field_name: State
+- field_type: UnicodeString
+  field_name: Command

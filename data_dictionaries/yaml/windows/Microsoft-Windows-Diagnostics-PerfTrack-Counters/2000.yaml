@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack-Counters
+event_id: '2000'
+version: '0'
+event(fields): PerfTrackCounter_Process(Int64 WorkingSetPrivateSize, Pointer QuotaNonPagedPoolUsage,
+  Pointer QuotaPagedPoolUsage, Pointer PrivatePageCount, Pointer VirtualSize, Pointer
+  WorkingSetSize, UInt32 HandleCount, UInt32 SessionId, UInt32 ProcessId, UnicodeString
+  ProcessName)
+opcode: ''
+keywords: ProcessCounter
+task: PerfTrackCounter_Process
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: WorkingSetPrivateSize
+- field_type: Pointer
+  field_name: QuotaNonPagedPoolUsage
+- field_type: Pointer
+  field_name: QuotaPagedPoolUsage
+- field_type: Pointer
+  field_name: PrivatePageCount
+- field_type: Pointer
+  field_name: VirtualSize
+- field_type: Pointer
+  field_name: WorkingSetSize
+- field_type: UInt32
+  field_name: HandleCount
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ProcessName

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Win32k
+event_id: '76'
+version: '0'
+event(fields): AppMessagePumpStart(Int8 CallbackCount, Int32 fGetMessage, UInt32 dwFlags,
+  UInt32 Message)
+opcode: Start
+keywords: MessagePumpInternalAndInput
+task: AppMessagePump
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: CallbackCount
+- field_type: Int32
+  field_name: fGetMessage
+- field_type: UInt32
+  field_name: dwFlags
+- field_type: UInt32
+  field_name: Message

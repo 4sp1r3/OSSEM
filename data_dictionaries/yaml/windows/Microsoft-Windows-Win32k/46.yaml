@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '46'
+version: '0'
+event(fields): BindLogicalSurface(UInt64 hWnd, UInt64 hLogicalSurf)
+opcode: ''
+keywords: Updates
+task: BindLogicalSurface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hWnd
+- field_type: UInt64
+  field_name: hLogicalSurf

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3029'
+version: '0'
+event(fields): task_03029(UInt32 NotificationId, Boolean IsTile, Int32 ErrorCode,
+  UnicodeString URL)
+opcode: ''
+keywords: wpnui wpntroubleshoot
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NotificationId
+- field_type: Boolean
+  field_name: IsTile
+- field_type: Int32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: URL

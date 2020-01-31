@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathRecognizer
+event_id: '25'
+version: '0'
+event(fields): CreateMathRecognizerContextStop()
+opcode: Stop
+keywords: ''
+task: CreateMathRecognizerContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

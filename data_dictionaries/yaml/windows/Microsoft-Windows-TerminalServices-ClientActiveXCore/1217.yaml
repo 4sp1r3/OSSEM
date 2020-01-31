@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1217'
+version: '0'
+event(fields): RdClientRADCworkspaceThiseventisraisedwhenADALauthenticationtokenissuccessfullycreated.()
+opcode: ThiseventisraisedwhenADALauthenticationtokenissuccessfullycreated.
+keywords: ''
+task: RdClientRADCworkspace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

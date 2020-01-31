@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '32'
+version: '0'
+event(fields): PccErrata32()
+opcode: ''
+keywords: Diag PowerDiagnostics
+task: PccErrata
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

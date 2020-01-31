@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61414'
+version: '0'
+event(fields): FileAccessAPI_RenameStart()
+opcode: Start
+keywords: Shell
+task: FileAccessAPI_Rename
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

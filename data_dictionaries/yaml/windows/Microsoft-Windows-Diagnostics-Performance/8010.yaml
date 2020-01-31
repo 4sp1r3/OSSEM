@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '8010'
+version: '0'
+event(fields): Shutdown_ProxyCallback()
+opcode: ''
+keywords: ShutdownStatus
+task: Shutdown_ProxyCallback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

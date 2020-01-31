@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '88'
+version: '0'
+event(fields): SCHEDULE_PRESENTHISTORYTOKEN_GDISYSMEM(UInt64 hlsurf, UInt64 uiCookie,
+  UInt32 dwDirtyFlags)
+opcode: ''
+keywords: DwmCore
+task: SCHEDULE_PRESENTHISTORYTOKEN_GDISYSMEM
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hlsurf
+- field_type: UInt64
+  field_name: uiCookie
+- field_type: UInt32
+  field_name: dwDirtyFlags

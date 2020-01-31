@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1006'
+version: '0'
+event(fields): DriverInitialization1006(UInt32 hr)
+opcode: ''
+keywords: ''
+task: DriverInitialization
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr

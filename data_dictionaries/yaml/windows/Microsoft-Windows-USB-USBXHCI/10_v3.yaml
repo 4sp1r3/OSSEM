@@ -1,0 +1,67 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '10'
+version: '3'
+event(fields): USBXHCIDeviceDeleteInformation_V3(Pointer fid_UcxController, Pointer
+  fid_UsbTtHubDevice, Pointer fid_UsbDevice, UInt32 DeviceSpeed, UInt32 PortPathDepth,
+  UInt32 PortPath, UInt32 fid_SlotId, UInt32 fid_DeviceIsHub, UInt32 fid_NumberOfPorts,
+  UInt32 fid_NumberOfTTs, Struct fid_USB_Device_Descriptor, Boolean fid_IsSecureUSBDevice,
+  Boolean fid_IsProxyUSBDevice, Boolean fid_IsDeviceContextLocal, UInt8 fid_ConfigurationValue,
+  UInt8 fid_InterfaceNumber, UInt8 fid_AlternateSetting, UInt32 fid_LastConfigureEndpointStatus,
+  Boolean fid_IsFirmwareHashValid, Boolean fid_IsFirmwareHashQueried, Boolean fid_IsFirmwareHashFromDevicePresent,
+  Boolean fid_IsFirmwareHashFromSDEVEntryPresent, UInt8 FirmwareHashFromDevice, UInt8
+  FirmwareHashFromSDEVEntry)
+opcode: Information
+keywords: Default
+task: USBXHCIDeviceDelete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: Pointer
+  field_name: fid_UsbTtHubDevice
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt32
+  field_name: DeviceSpeed
+- field_type: UInt32
+  field_name: PortPathDepth
+- field_type: UInt32
+  field_name: PortPath
+- field_type: UInt32
+  field_name: fid_SlotId
+- field_type: UInt32
+  field_name: fid_DeviceIsHub
+- field_type: UInt32
+  field_name: fid_NumberOfPorts
+- field_type: UInt32
+  field_name: fid_NumberOfTTs
+- field_type: Struct
+  field_name: fid_USB_Device_Descriptor
+- field_type: Boolean
+  field_name: fid_IsSecureUSBDevice
+- field_type: Boolean
+  field_name: fid_IsProxyUSBDevice
+- field_type: Boolean
+  field_name: fid_IsDeviceContextLocal
+- field_type: UInt8
+  field_name: fid_ConfigurationValue
+- field_type: UInt8
+  field_name: fid_InterfaceNumber
+- field_type: UInt8
+  field_name: fid_AlternateSetting
+- field_type: UInt32
+  field_name: fid_LastConfigureEndpointStatus
+- field_type: Boolean
+  field_name: fid_IsFirmwareHashValid
+- field_type: Boolean
+  field_name: fid_IsFirmwareHashQueried
+- field_type: Boolean
+  field_name: fid_IsFirmwareHashFromDevicePresent
+- field_type: Boolean
+  field_name: fid_IsFirmwareHashFromSDEVEntryPresent
+- field_type: UInt8
+  field_name: FirmwareHashFromDevice
+- field_type: UInt8
+  field_name: FirmwareHashFromSDEVEntry

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '9000'
+version: '0'
+event(fields): InvokeHandlersStart(UnicodeString HandlerName)
+opcode: Start
+keywords: XmlProcessing ut:Configuration
+task: InvokeHandlers
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HandlerName

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '35011'
+version: '0'
+event(fields): CredUI_ModernDialog_CreatedStop()
+opcode: Stop
+keywords: ''
+task: CredUI_ModernDialog_Created
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,60 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4739'
+version: '0'
+event(fields): task_04739(UnicodeString DomainPolicyChanged, UnicodeString DomainName,
+  SID DomainSid, SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString PrivilegeList, UnicodeString
+  MinPasswordAge, UnicodeString MaxPasswordAge, UnicodeString ForceLogoff, UnicodeString
+  LockoutThreshold, UnicodeString LockoutObservationWindow, UnicodeString LockoutDuration,
+  UnicodeString PasswordProperties, UnicodeString MinPasswordLength, UnicodeString
+  PasswordHistoryLength, UnicodeString MachineAccountQuota, UnicodeString MixedDomainMode,
+  UnicodeString DomainBehaviorVersion, UnicodeString OemInformation)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DomainPolicyChanged
+- field_type: UnicodeString
+  field_name: DomainName
+- field_type: SID
+  field_name: DomainSid
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: PrivilegeList
+- field_type: UnicodeString
+  field_name: MinPasswordAge
+- field_type: UnicodeString
+  field_name: MaxPasswordAge
+- field_type: UnicodeString
+  field_name: ForceLogoff
+- field_type: UnicodeString
+  field_name: LockoutThreshold
+- field_type: UnicodeString
+  field_name: LockoutObservationWindow
+- field_type: UnicodeString
+  field_name: LockoutDuration
+- field_type: UnicodeString
+  field_name: PasswordProperties
+- field_type: UnicodeString
+  field_name: MinPasswordLength
+- field_type: UnicodeString
+  field_name: PasswordHistoryLength
+- field_type: UnicodeString
+  field_name: MachineAccountQuota
+- field_type: UnicodeString
+  field_name: MixedDomainMode
+- field_type: UnicodeString
+  field_name: DomainBehaviorVersion
+- field_type: UnicodeString
+  field_name: OemInformation

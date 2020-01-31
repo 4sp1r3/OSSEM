@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18003'
+version: '0'
+event(fields): Shdocvw_BaseBrowser_ExplorerWindowReady()
+opcode: ''
+keywords: Shell ExplorerPerf
+task: Shdocvw_BaseBrowser_ExplorerWindowReady
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

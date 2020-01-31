@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Photo-Image-Codec
+event_id: '5'
+version: '0'
+event(fields): WMPHOTO_Encoder_EncoderFrameEncodeFrameStop()
+opcode: Stop
+keywords: ''
+task: WMPHOTO_Encoder_EncoderFrameEncodeFrame
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

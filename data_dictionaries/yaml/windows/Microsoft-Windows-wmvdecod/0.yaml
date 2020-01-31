@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-wmvdecod
+event_id: '0'
+version: '0'
+event(fields): wmvdecod_VC1_DecodeTaskStart(UInt64 PictureID, Int32 FrameType, Int32
+  TaskType)
+opcode: Start
+keywords: ''
+task: wmvdecod_VC1_DecodeTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PictureID
+- field_type: Int32
+  field_name: FrameType
+- field_type: Int32
+  field_name: TaskType

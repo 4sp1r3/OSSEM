@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '182'
+version: '0'
+event(fields): ETWGUID_DRAWING_CONTEXT_STATE(Pointer DrawingContext, Pointer Visual,
+  Float ClipLeft, Float ClipTop, Float ClipRight, Float ClipBottom, UInt8 TransformMatrixLength,
+  Binary TransformMatrix, UInt32 AttributedProcessId)
+opcode: ''
+keywords: FrameVisualization
+task: ETWGUID_DRAWING_CONTEXT_STATE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DrawingContext
+- field_type: Pointer
+  field_name: Visual
+- field_type: Float
+  field_name: ClipLeft
+- field_type: Float
+  field_name: ClipTop
+- field_type: Float
+  field_name: ClipRight
+- field_type: Float
+  field_name: ClipBottom
+- field_type: UInt8
+  field_name: TransformMatrixLength
+- field_type: Binary
+  field_name: TransformMatrix
+- field_type: UInt32
+  field_name: AttributedProcessId

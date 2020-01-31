@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '219'
+version: '0'
+event(fields): MFCaptureEngineSinkTaskStart(Pointer SinkPointer, Pointer SamplePointer,
+  UInt32 SinkStreamIndex, UInt64 Timestamp, UInt64 RefTimestamp)
+opcode: Start
+keywords: ''
+task: MFCaptureEngineSinkTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SinkPointer
+- field_type: Pointer
+  field_name: SamplePointer
+- field_type: UInt32
+  field_name: SinkStreamIndex
+- field_type: UInt64
+  field_name: Timestamp
+- field_type: UInt64
+  field_name: RefTimestamp

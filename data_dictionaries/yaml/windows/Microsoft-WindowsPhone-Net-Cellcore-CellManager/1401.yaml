@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1401'
+version: '0'
+event(fields): CellCoreUpdate1401(AnsiString AnsiStringName1, AnsiString AnsiStringName2)
+opcode: ''
+keywords: Error
+task: CellCoreUpdate
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: AnsiStringName1
+- field_type: AnsiString
+  field_name: AnsiStringName2

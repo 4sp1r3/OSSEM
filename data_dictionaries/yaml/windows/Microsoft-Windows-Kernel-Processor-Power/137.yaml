@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '137'
+version: '0'
+event(fields): SoftParkSelection(UInt16 Group, Pointer Processors, Pointer OldPark,
+  Pointer NewPark, Pointer NewSoftPark, UInt8 UnparkCap, UInt8 UnparkFloor, Pointer
+  ForceParkSet, Pointer ForceUnparkSet, Pointer OverUtilizedSet, Pointer IsolatedCores,
+  UInt8 IdealUnparkCount, UInt8 UnparkCount, UInt32 ParkReason)
+opcode: ''
+keywords: Algorithm
+task: SoftParkSelection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: Pointer
+  field_name: Processors
+- field_type: Pointer
+  field_name: OldPark
+- field_type: Pointer
+  field_name: NewPark
+- field_type: Pointer
+  field_name: NewSoftPark
+- field_type: UInt8
+  field_name: UnparkCap
+- field_type: UInt8
+  field_name: UnparkFloor
+- field_type: Pointer
+  field_name: ForceParkSet
+- field_type: Pointer
+  field_name: ForceUnparkSet
+- field_type: Pointer
+  field_name: OverUtilizedSet
+- field_type: Pointer
+  field_name: IsolatedCores
+- field_type: UInt8
+  field_name: IdealUnparkCount
+- field_type: UInt8
+  field_name: UnparkCount
+- field_type: UInt32
+  field_name: ParkReason

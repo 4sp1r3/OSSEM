@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-LiveDump
+event_id: '4'
+version: '0'
+event(fields): LiveDumpCaptureDumpDataAPIDumpFileWriteEnd(UInt32 NTStatus, UInt64
+  TotalBytes, UInt64 HeaderBytes, UInt64 PrimaryDataBytes, UInt64 SecondaryDataBytes)
+opcode: DumpFileWriteEnd
+keywords: ''
+task: LiveDumpCaptureDumpDataAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NTStatus
+- field_type: UInt64
+  field_name: TotalBytes
+- field_type: UInt64
+  field_name: HeaderBytes
+- field_type: UInt64
+  field_name: PrimaryDataBytes
+- field_type: UInt64
+  field_name: SecondaryDataBytes

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6024'
+version: '0'
+event(fields): PublishingRefreshStart()
+opcode: Start
+keywords: ''
+task: PublishingRefresh
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '224'
+version: '0'
+event(fields): IoSpaceMemoryAllocation(UInt32 AllocatedRegions, UInt32 Tries)
+opcode: Allocation
+keywords: ''
+task: IoSpaceMemory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AllocatedRegions
+- field_type: UInt32
+  field_name: Tries

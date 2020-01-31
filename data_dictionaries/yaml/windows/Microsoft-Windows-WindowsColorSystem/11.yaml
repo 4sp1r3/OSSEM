@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '11'
+version: '0'
+event(fields): ProfileManagement11(UInt32 Intent, UInt32 Scope)
+opcode: ''
+keywords: ''
+task: ProfileManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Intent
+- field_type: UInt32
+  field_name: Scope

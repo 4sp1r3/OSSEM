@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NDIS-PacketCapture
+event_id: '1015'
+version: '0'
+event(fields): task_01015(UInt32 MiniportIfIndex, UInt32 LowerIfIndex, UInt32 MediaType,
+  UInt32 ReferenceContext)
+opcode: ''
+keywords: ut:Global
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MiniportIfIndex
+- field_type: UInt32
+  field_name: LowerIfIndex
+- field_type: UInt32
+  field_name: MediaType
+- field_type: UInt32
+  field_name: ReferenceContext

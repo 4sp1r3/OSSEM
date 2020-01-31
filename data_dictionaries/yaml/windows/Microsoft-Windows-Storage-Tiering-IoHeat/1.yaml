@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Storage-Tiering-IoHeat
+event_id: '1'
+version: '0'
+event(fields): HeatInit(GUID VolumeGuid, UInt32 VolumeIdHash)
+opcode: ''
+keywords: STORAGE_TIERING_KEYWORD_INIT
+task: HeatInit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VolumeGuid
+- field_type: UInt32
+  field_name: VolumeIdHash

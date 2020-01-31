@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Battery
+event_id: '14'
+version: '0'
+event(fields): BatteryChargingWatchdogUpdated(Pointer Handle, UInt32 BatteryState,
+  UInt32 WatchdogState, UInt32 WatchdogTimeout)
+opcode: ''
+keywords: ''
+task: BatteryChargingWatchdogUpdated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Handle
+- field_type: UInt32
+  field_name: BatteryState
+- field_type: UInt32
+  field_name: WatchdogState
+- field_type: UInt32
+  field_name: WatchdogTimeout

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '60102'
+version: '0'
+event(fields): task_060102(Binary SourceAddress, UInt32 SourcePort, Binary DestinationAddress,
+  UInt32 DestinationPort, UInt32 Protocol, UInt32 ReferenceContext)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: SourceAddress
+- field_type: UInt32
+  field_name: SourcePort
+- field_type: Binary
+  field_name: DestinationAddress
+- field_type: UInt32
+  field_name: DestinationPort
+- field_type: UInt32
+  field_name: Protocol
+- field_type: UInt32
+  field_name: ReferenceContext

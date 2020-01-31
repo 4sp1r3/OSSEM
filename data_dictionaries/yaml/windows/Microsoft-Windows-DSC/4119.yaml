@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DSC
+event_id: '4119'
+version: '0'
+event(fields): task_04119(UnicodeString JobId, UnicodeString MethodName, UnicodeString
+  ClassName, UnicodeString ResourceID, UInt32 Flags, UInt32 ExecutionMode, UnicodeString
+  ProviderNamespace)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: UnicodeString
+  field_name: ClassName
+- field_type: UnicodeString
+  field_name: ResourceID
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ExecutionMode
+- field_type: UnicodeString
+  field_name: ProviderNamespace

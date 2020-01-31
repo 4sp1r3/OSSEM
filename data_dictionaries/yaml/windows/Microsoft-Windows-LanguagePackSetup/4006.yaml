@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '4006'
+version: '0'
+event(fields): Removinglanguagepack4006()
+opcode: ''
+keywords: ''
+task: Removinglanguagepack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

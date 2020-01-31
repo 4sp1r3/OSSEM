@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-AppHost
+event_id: '112'
+version: '0'
+event(fields): Telemetry.WERReportingAppHostInformation(UnicodeString param1, UnicodeString
+  param2, UnicodeString param3, UnicodeString param4, UnicodeString param5, UnicodeString
+  param6, Int32 PID, UnicodeString ProcessCreationTime, UnicodeString ApplicationBinaryPath,
+  UnicodeString ReportId)
+opcode: AppHostInformation
+keywords: WWAHOST_KEYWORD
+task: Telemetry.WERReporting
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2
+- field_type: UnicodeString
+  field_name: param3
+- field_type: UnicodeString
+  field_name: param4
+- field_type: UnicodeString
+  field_name: param5
+- field_type: UnicodeString
+  field_name: param6
+- field_type: Int32
+  field_name: PID
+- field_type: UnicodeString
+  field_name: ProcessCreationTime
+- field_type: UnicodeString
+  field_name: ApplicationBinaryPath
+- field_type: UnicodeString
+  field_name: ReportId

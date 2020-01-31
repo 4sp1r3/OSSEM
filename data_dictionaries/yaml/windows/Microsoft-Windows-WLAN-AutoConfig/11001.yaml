@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '11001'
+version: '0'
+event(fields): MsmAssociationSuccess_24011_194(UnicodeString Adapter, GUID DeviceGuid,
+  UnicodeString LocalMac, UnicodeString SSID, UnicodeString BSSType, Pointer ConnectionId,
+  Boolean MgmtFrameProtection)
+opcode: Success_24011_194
+keywords: WlanConnect LwtDiagnostic
+task: MsmAssociation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: Pointer
+  field_name: ConnectionId
+- field_type: Boolean
+  field_name: MgmtFrameProtection

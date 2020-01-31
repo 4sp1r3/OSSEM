@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1091'
+version: '0'
+event(fields): DataLayer_CollectionGetItemStop(UInt32 Index, UInt32 Version)
+opcode: Stop
+keywords: ItemCollection
+task: DataLayer_CollectionGetItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: Version

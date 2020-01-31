@@ -1,0 +1,24 @@
+provider: Windows Kernel Trace
+category: '{01853a65-418f-4f36-aefc-dc0f1d2fd235}'
+event_id: '22'
+version: '3'
+event(fields): SystemConfig_V3_PnP(UInt32 IDLength, UInt32 DescriptionLength, UInt32
+  FriendlyNameLength, String DeviceID, String DeviceDescription, String FriendlyName,
+  String PdoName)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: IDLength
+- field_type: UInt32
+  field_name: DescriptionLength
+- field_type: UInt32
+  field_name: FriendlyNameLength
+- field_type: String
+  field_name: DeviceID
+- field_type: String
+  field_name: DeviceDescription
+- field_type: String
+  field_name: FriendlyName
+- field_type: String
+  field_name: PdoName

@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5382'
+version: '0'
+event(fields): task_05382(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString SchemaFriendlyName, GUID
+  Schema, UnicodeString Resource, UnicodeString Identity, UnicodeString PackageSid,
+  UInt32 Flags, UInt32 ReturnCode, FILETIME ProcessCreationTime, UInt32 ClientProcessId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: SchemaFriendlyName
+- field_type: GUID
+  field_name: Schema
+- field_type: UnicodeString
+  field_name: Resource
+- field_type: UnicodeString
+  field_name: Identity
+- field_type: UnicodeString
+  field_name: PackageSid
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ReturnCode
+- field_type: FILETIME
+  field_name: ProcessCreationTime
+- field_type: UInt32
+  field_name: ClientProcessId

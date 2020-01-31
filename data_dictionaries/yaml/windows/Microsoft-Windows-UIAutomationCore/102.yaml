@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '102'
+version: '0'
+event(fields): UIAutomationCoreAPI_UiaClientsAreListeningStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: UIAutomationCoreAPI_UiaClientsAreListening
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

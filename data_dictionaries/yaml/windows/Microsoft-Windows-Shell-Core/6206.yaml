@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6206'
+version: '0'
+event(fields): Thumbnails_CacheLookupStop(UInt32 HRESULT, Boolean LowQuality)
+opcode: Stop
+keywords: Shell
+task: Thumbnails_CacheLookup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: Boolean
+  field_name: LowQuality

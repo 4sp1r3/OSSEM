@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '10061'
+version: '0'
+event(fields): ConnectTaskStart()
+opcode: Start
+keywords: ut:L2ConnectPath keyword_200000000000
+task: ConnectTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14033'
+version: '1'
+event(fields): PublishPackageComplete_1017Start_V1()
+opcode: Start
+keywords: ''
+task: PublishPackageComplete_1017
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

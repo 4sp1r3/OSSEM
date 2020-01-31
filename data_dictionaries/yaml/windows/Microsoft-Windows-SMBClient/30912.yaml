@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30912'
+version: '0'
+event(fields): task_030912()
+opcode: ''
+keywords: Smb_Info
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '12036'
+version: '1'
+event(fields): ConnectTobeusedwhenoperationisjustexecutingamethod12036_V1(UnicodeString
+  param1)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: Runspace
+task: Connect
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

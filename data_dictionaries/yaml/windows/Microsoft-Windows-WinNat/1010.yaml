@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1010'
+version: '0'
+event(fields): WinNatInstanceEvent(UnicodeString InstanceName, UInt32 UdpIdleSessionTimeout,
+  UInt32 TcpTransientConnectionTimeout, UInt32 TcpEstablishedConnectionTimeout, UInt32
+  IcmpQueryTimeout, UInt32 TcpFilteringBehavior, UInt32 UdpFilteringBehavior, Boolean
+  UdpInboundRefresh, Boolean Enabled, UInt32 Status, UInt32 Action)
+opcode: ''
+keywords: ut:Configuration
+task: WinNatInstanceEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InstanceName
+- field_type: UInt32
+  field_name: UdpIdleSessionTimeout
+- field_type: UInt32
+  field_name: TcpTransientConnectionTimeout
+- field_type: UInt32
+  field_name: TcpEstablishedConnectionTimeout
+- field_type: UInt32
+  field_name: IcmpQueryTimeout
+- field_type: UInt32
+  field_name: TcpFilteringBehavior
+- field_type: UInt32
+  field_name: UdpFilteringBehavior
+- field_type: Boolean
+  field_name: UdpInboundRefresh
+- field_type: Boolean
+  field_name: Enabled
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Action

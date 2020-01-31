@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7173'
+version: '0'
+event(fields): ConnectedSearch_DetailArrowClick(UInt32 Result, UnicodeString ImpressionGUID,
+  UnicodeString TargetId, UInt32 ArrowDirection)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_DetailArrowClick
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ImpressionGUID
+- field_type: UnicodeString
+  field_name: TargetId
+- field_type: UInt32
+  field_name: ArrowDirection

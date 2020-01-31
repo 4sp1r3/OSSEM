@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '7017'
+version: '0'
+event(fields): task_07017(UnicodeString ProcessingPackageFullName, UnicodeString FileName,
+  HexInt32 ErrorCode, UnicodeString ErrorText, UInt32 ProcessIndex, UInt32 ProcessCount,
+  UInt32 ProcessId)
+opcode: ''
+keywords: RUNTIME_DEH_KEYWORD
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessingPackageFullName
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorText
+- field_type: UInt32
+  field_name: ProcessIndex
+- field_type: UInt32
+  field_name: ProcessCount
+- field_type: UInt32
+  field_name: ProcessId

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '169'
+version: '0'
+event(fields): SystemIdleStart(UInt32 Source, FILETIME Time)
+opcode: Start
+keywords: po:Diagnostic po:DiagnosticLight
+task: SystemIdle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Source
+- field_type: FILETIME
+  field_name: Time

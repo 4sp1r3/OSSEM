@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19619'
+version: '0'
+event(fields): Shell32_ControlPanel_NavPane_Mode(UInt32 uMode)
+opcode: ''
+keywords: Shell
+task: Shell32_ControlPanel_NavPane_Mode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: uMode

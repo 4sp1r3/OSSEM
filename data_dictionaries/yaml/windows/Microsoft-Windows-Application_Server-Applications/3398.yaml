@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3398'
+version: '0'
+event(fields): ListenerOpen(UnicodeString sharedMemoryName, UnicodeString AppDomain)
+opcode: ''
+keywords: Channel
+task: ListenerOpen
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: sharedMemoryName
+- field_type: UnicodeString
+  field_name: AppDomain

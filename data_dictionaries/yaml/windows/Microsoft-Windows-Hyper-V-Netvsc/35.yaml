@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-Netvsc
+event_id: '35'
+version: '0'
+event(fields): PdApi35(UInt32 Status, Pointer ClientContext)
+opcode: ''
+keywords: ''
+task: PdApi
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: Pointer
+  field_name: ClientContext

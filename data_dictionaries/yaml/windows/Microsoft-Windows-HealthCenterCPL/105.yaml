@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HealthCenterCPL
+event_id: '105'
+version: '0'
+event(fields): WHC_ControlPanel_FixStop(UnicodeString psz)
+opcode: Stop
+keywords: ''
+task: WHC_ControlPanel_Fix
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

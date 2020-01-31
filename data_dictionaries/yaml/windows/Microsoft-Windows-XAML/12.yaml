@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '12'
+version: '0'
+event(fields): PutRootVisualStop()
+opcode: Stop
+keywords: Core
+task: PutRootVisual
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

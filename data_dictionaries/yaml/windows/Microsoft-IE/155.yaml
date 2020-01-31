@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '155'
+version: '0'
+event(fields): Mshtml_PrintPreviewStart()
+opcode: Start
+keywords: extended mshtml
+task: Mshtml_PrintPreview
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuth
+event_id: '1101'
+version: '0'
+event(fields): SecurityProblemStop(HexInt32 StatusCode)
+opcode: Stop
+keywords: AuthHost
+task: SecurityProblem
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: StatusCode

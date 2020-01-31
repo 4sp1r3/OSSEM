@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '5014'
+version: '1'
+event(fields): ControllerUserLogonStop_V1(UInt32 SessionID)
+opcode: Stop
+keywords: ''
+task: ControllerUserLogon
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionID

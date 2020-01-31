@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7317'
+version: '0'
+event(fields): Perf_DeleteAllAppBackupsStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_DeleteAllAppBackups
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '201'
+version: '0'
+event(fields): task_0201(UnicodeString job, GUID jobId, UnicodeString jobOwner, UnicodeString
+  url, GUID transferId, UnicodeString proxyServerList, UnicodeString proxyBypassList,
+  UInt32 error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: job
+- field_type: GUID
+  field_name: jobId
+- field_type: UnicodeString
+  field_name: jobOwner
+- field_type: UnicodeString
+  field_name: url
+- field_type: GUID
+  field_name: transferId
+- field_type: UnicodeString
+  field_name: proxyServerList
+- field_type: UnicodeString
+  field_name: proxyBypassList
+- field_type: UInt32
+  field_name: error

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7253'
+version: '0'
+event(fields): ConnectedSearch_LogLocalLayout(UInt32 Result, UnicodeString ImpressionGUID,
+  UInt32 LayoutAction, UInt32 ResultType)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogLocalLayout
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ImpressionGUID
+- field_type: UInt32
+  field_name: LayoutAction
+- field_type: UInt32
+  field_name: ResultType

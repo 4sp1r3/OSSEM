@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22003'
+version: '0'
+event(fields): Taskbar_LockState_ChangeNotifyStart()
+opcode: Start
+keywords: Shell
+task: Taskbar_LockState_ChangeNotify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

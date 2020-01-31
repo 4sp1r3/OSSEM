@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '64'
+version: '0'
+event(fields): SmoothZoomStart(Double DoubleParam)
+opcode: Start
+keywords: Reader
+task: SmoothZoom
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Double
+  field_name: DoubleParam

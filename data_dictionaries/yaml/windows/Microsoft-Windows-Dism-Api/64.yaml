@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '64'
+version: '0'
+event(fields): DismCheckImageHealthStop(UInt32 SessionId)
+opcode: Stop
+keywords: DismApiEvent
+task: DismCheckImageHealth
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId

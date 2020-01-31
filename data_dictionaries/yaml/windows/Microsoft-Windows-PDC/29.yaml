@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDC
+event_id: '29'
+version: '0'
+event(fields): CsMonitorRequestExit(UInt32 At, UInt32 Status)
+opcode: ''
+keywords: Cs
+task: CsMonitorRequestExit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: At
+- field_type: UInt32
+  field_name: Status

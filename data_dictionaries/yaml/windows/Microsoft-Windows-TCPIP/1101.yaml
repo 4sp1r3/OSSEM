@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1101'
+version: '0'
+event(fields): TcpSwsAvoidanceEnd(Pointer Tcb, UInt32 TimerValue, Pointer BytesToSend,
+  UInt32 SendAvailable, UInt32 Cwnd, Pointer MaxSndWnd)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:SendPath
+task: TcpSwsAvoidanceEnd
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: TimerValue
+- field_type: Pointer
+  field_name: BytesToSend
+- field_type: UInt32
+  field_name: SendAvailable
+- field_type: UInt32
+  field_name: Cwnd
+- field_type: Pointer
+  field_name: MaxSndWnd

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18865'
+version: '0'
+event(fields): Shell32_DragDropHelper_UpdateLayeredWindowStop(UInt32 Value)
+opcode: Stop
+keywords: Shell
+task: Shell32_DragDropHelper_UpdateLayeredWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

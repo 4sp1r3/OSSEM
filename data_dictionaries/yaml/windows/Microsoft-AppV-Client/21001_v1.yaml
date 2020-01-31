@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '21001'
+version: '1'
+event(fields): Integration_V1(UInt32 ErrorHigh, UInt32 ErrorLow)
+opcode: ''
+keywords: Integration
+task: Integration
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow

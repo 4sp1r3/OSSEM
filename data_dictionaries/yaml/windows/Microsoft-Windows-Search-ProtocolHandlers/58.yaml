@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-ProtocolHandlers
+event_id: '58'
+version: '0'
+event(fields): FilterOplockBreak(UnicodeString Description)
+opcode: ''
+keywords: IndexingItem FilePH
+task: FilterOplockBreak
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Description

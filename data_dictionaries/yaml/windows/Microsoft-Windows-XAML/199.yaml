@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '199'
+version: '0'
+event(fields): VirtualizationMeasureStart()
+opcode: Start
+keywords: Layout
+task: VirtualizationMeasure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

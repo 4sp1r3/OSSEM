@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '104'
+version: '0'
+event(fields): MediaFoundationGetConfigurationValueDWORD(Int32 Type, UnicodeString
+  KeyName, UnicodeString ValueName, Int32 lResult, Boolean QuerySize, UInt32 ValueDWORD)
+opcode: ''
+keywords: ''
+task: MediaFoundationGetConfigurationValueDWORD
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Type
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: UnicodeString
+  field_name: ValueName
+- field_type: Int32
+  field_name: lResult
+- field_type: Boolean
+  field_name: QuerySize
+- field_type: UInt32
+  field_name: ValueDWORD

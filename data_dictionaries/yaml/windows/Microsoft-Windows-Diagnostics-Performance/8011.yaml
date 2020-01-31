@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '8011'
+version: '0'
+event(fields): Shutdown_StartCKCLStart()
+opcode: Start
+keywords: ShutdownStatus
+task: Shutdown_StartCKCL
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

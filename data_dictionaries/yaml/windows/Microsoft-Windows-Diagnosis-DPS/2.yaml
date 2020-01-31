@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-DPS
+event_id: '2'
+version: '0'
+event(fields): DPSInitializationTheDiagnosticPolicyServicestarted2()
+opcode: TheDiagnosticPolicyServicestarted
+keywords: scenario
+task: DPSInitialization
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

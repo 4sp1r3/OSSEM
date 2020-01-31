@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '7015'
+version: '0'
+event(fields): AccountManagement7015(UnicodeString mbnInterface)
+opcode: ''
+keywords: ''
+task: AccountManagement
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: mbnInterface

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '125'
+version: '0'
+event(fields): ApplicationLaunchStop()
+opcode: Stop
+keywords: Reader
+task: ApplicationLaunch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

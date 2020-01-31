@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3071'
+version: '0'
+event(fields): LoadWeakCryptoPoliciesLoadWeakCryptoPoliciesFailed(HexInt32 Status)
+opcode: LoadWeakCryptoPoliciesFailed
+keywords: ''
+task: LoadWeakCryptoPolicies
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

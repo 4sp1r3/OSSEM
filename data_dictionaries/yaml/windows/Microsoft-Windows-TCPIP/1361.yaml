@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1361'
+version: '0'
+event(fields): TcpipCloneDropped(Pointer Nbl, Pointer ClonedNbl, UInt32 AddressFamily)
+opcode: ''
+keywords: ut:ReceivePath
+task: TcpipCloneDropped
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Nbl
+- field_type: Pointer
+  field_name: ClonedNbl
+- field_type: UInt32
+  field_name: AddressFamily

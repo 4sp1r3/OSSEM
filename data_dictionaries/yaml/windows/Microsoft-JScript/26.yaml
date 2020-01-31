@@ -1,0 +1,16 @@
+provider: Microsoft-JScript
+event_id: '26'
+version: '0'
+event(fields): Jscript_Projection_AddEventListenerStop(UnicodeString TypeName, UnicodeString
+  MethodName)
+opcode: Stop
+keywords: JScriptProjection
+task: Jscript_Projection_AddEventListener
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TypeName
+- field_type: UnicodeString
+  field_name: MethodName

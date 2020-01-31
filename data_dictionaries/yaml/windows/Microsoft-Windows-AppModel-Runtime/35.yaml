@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '35'
+version: '0'
+event(fields): task_035(UInt32 ErrorCode)
+opcode: ''
+keywords: AppContainer
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

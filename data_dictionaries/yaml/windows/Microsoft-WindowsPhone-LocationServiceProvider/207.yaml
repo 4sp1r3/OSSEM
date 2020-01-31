@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '207'
+version: '0'
+event(fields): LocationSessionStart207(UInt32 SessionId, UInt32 Ioctl, UInt32 Result,
+  UInt32 Duration)
+opcode: Start
+keywords: FixSession Gnss
+task: LocationSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: Ioctl
+- field_type: UInt32
+  field_name: Result
+- field_type: UInt32
+  field_name: Duration

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Win32k
+event_id: '182'
+version: '0'
+event(fields): TranslationUpdateOffsetDWM(Pointer hwnd, Int32 Offsetx, Int32 Offsety)
+opcode: ''
+keywords: Rendering
+task: TranslationUpdateOffsetDWM
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwnd
+- field_type: Int32
+  field_name: Offsetx
+- field_type: Int32
+  field_name: Offsety

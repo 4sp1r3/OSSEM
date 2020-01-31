@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '38'
+version: '0'
+event(fields): WakeDevicesPhaseStop()
+opcode: PhaseStop
+keywords: po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight
+task: WakeDevices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '206'
+version: '0'
+event(fields): MPS_CLNT_API_DeleteAllFirewallRulesStart()
+opcode: Start
+keywords: Client
+task: MPS_CLNT_API_DeleteAllFirewallRules
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

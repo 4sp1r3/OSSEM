@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4062'
+version: '0'
+event(fields): Disable_AppVStart()
+opcode: Start
+keywords: ''
+task: Disable_AppV
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppLocker
+event_id: '8008'
+version: '0'
+event(fields): task_08008(UInt16 FilePathLength, UnicodeString FilePathBuffer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FilePathLength
+- field_type: UnicodeString
+  field_name: FilePathBuffer

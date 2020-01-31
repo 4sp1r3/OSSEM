@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync-Desktop
+event_id: '7008'
+version: '0'
+event(fields): Perf_MicroImageCompressionStart(UInt32 Quality)
+opcode: Start
+keywords: RoamingSettings
+task: Perf_MicroImageCompression
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Quality

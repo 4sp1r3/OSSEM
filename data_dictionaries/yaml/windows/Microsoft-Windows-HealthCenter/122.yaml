@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '122'
+version: '0'
+event(fields): HealthCenter_ProviderInitializedStart(UnicodeString CLSID)
+opcode: Start
+keywords: ''
+task: HealthCenter_ProviderInitialized
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CLSID

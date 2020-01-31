@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '125'
+version: '0'
+event(fields): IConfigManager2_Execute_TaskStop125(UInt32 Result)
+opcode: Stop
+keywords: Error Performance Trace
+task: IConfigManager2_Execute_Task
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

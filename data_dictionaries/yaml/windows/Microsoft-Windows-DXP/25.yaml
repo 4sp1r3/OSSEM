@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DXP
+event_id: '25'
+version: '0'
+event(fields): TasksStop()
+opcode: Stop
+keywords: ''
+task: Tasks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

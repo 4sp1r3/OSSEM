@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5973'
+version: '0'
+event(fields): AppActivation_GlobalAppLog_FailedActivation(UnicodeString AppId, Int32
+  ErrorCode)
+opcode: ''
+keywords: ''
+task: AppActivation_GlobalAppLog_FailedActivation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId
+- field_type: Int32
+  field_name: ErrorCode

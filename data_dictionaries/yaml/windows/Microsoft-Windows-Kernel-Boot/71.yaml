@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '71'
+version: '0'
+event(fields): FileOpenOpenFailure(UInt32 DeviceID, UnicodeString FileName, UInt32
+  Status)
+opcode: OpenFailure
+keywords: ''
+task: FileOpen
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceID
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: Status

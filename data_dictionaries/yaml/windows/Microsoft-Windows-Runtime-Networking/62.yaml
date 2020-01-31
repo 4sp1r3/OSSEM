@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '62'
+version: '0'
+event(fields): APIsRtcCompleteDelivery(UInt32 runtimeClass, UInt32 pendingOperations)
+opcode: RtcCompleteDelivery
+keywords: keywords.Rtc
+task: APIs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: runtimeClass
+- field_type: UInt32
+  field_name: pendingOperations

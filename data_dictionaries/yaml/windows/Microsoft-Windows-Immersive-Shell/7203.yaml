@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7203'
+version: '0'
+event(fields): ConnectedSearch_ServiceLoad()
+opcode: ''
+keywords: ''
+task: ConnectedSearch_ServiceLoad
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

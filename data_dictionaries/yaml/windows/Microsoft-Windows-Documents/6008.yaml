@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Documents
+event_id: '6008'
+version: '0'
+event(fields): DocPerf_Task_Scan_ProcessPostScanJobStop(GUID idGuid)
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_Scan_ProcessPostScanJob
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: idGuid

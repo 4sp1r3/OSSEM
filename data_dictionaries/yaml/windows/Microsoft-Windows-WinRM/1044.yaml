@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinRM
+event_id: '1044'
+version: '0'
+event(fields): Responsehandling1044(UInt32 index, UInt32 totalChunks, UInt32 bytes,
+  AnsiString SoapDocument)
+opcode: ''
+keywords: Keyword.SoapTrace Keyword.Server
+task: Responsehandling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: index
+- field_type: UInt32
+  field_name: totalChunks
+- field_type: UInt32
+  field_name: bytes
+- field_type: AnsiString
+  field_name: SoapDocument

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '41'
+version: '0'
+event(fields): MovePreviousStart(UnicodeString IteratorName)
+opcode: Start
+keywords: ''
+task: MovePrevious
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: IteratorName

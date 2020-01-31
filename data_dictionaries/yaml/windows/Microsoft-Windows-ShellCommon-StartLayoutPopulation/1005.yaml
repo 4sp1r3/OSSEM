@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '1005'
+version: '0'
+event(fields): CuratedTileCollectionTransformer_LayoutInitialization1005(UnicodeString
+  itemId, UnicodeString itemName, UInt32 groupCount, UInt32 tileCount)
+opcode: ''
+keywords: ''
+task: CuratedTileCollectionTransformer_LayoutInitialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: itemId
+- field_type: UnicodeString
+  field_name: itemName
+- field_type: UInt32
+  field_name: groupCount
+- field_type: UInt32
+  field_name: tileCount

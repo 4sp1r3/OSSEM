@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-NDIS-PacketCapture
+event_id: '1001'
+version: '0'
+event(fields): task_0(UInt32 MiniportIfIndex, UInt32 LowerIfIndex, UInt32 FragmentSize,
+  Binary Fragment, UInt64 GftFlowEntryId, UInt64 GftOffloadInformation)
+opcode: ''
+keywords: keyword_20000000000 keyword_40000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MiniportIfIndex
+- field_type: UInt32
+  field_name: LowerIfIndex
+- field_type: UInt32
+  field_name: FragmentSize
+- field_type: Binary
+  field_name: Fragment
+- field_type: UInt64
+  field_name: GftFlowEntryId
+- field_type: UInt64
+  field_name: GftOffloadInformation

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DXGI
+event_id: '886'
+version: '0'
+event(fields): IDXGISwapChainPartner_CheckPresentDurationSupportStart(Pointer pThis,
+  UInt32 DesiredPresentDuration, Pointer pClosestSmallerPresentDuration, Pointer pClosestLargerPresentDuration)
+opcode: Start
+keywords: ''
+task: IDXGISwapChainPartner_CheckPresentDurationSupport
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: DesiredPresentDuration
+- field_type: Pointer
+  field_name: pClosestSmallerPresentDuration
+- field_type: Pointer
+  field_name: pClosestLargerPresentDuration

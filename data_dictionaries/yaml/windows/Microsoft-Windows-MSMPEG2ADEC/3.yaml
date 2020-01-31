@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MSMPEG2ADEC
+event_id: '3'
+version: '0'
+event(fields): AUD_MEDIATYPE_CHANGE(UInt32 srcSamplingRate, Int8 AudioMode)
+opcode: ''
+keywords: ''
+task: AUD_MEDIATYPE_CHANGE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: srcSamplingRate
+- field_type: Int8
+  field_name: AudioMode

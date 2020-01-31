@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-ReFS
+event_id: '520'
+version: '0'
+event(fields): task_0520(UInt16 ObjectNameLength, UnicodeString ObjectName, HexInt32
+  FailureReason)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ObjectNameLength
+- field_type: UnicodeString
+  field_name: ObjectName
+- field_type: HexInt32
+  field_name: FailureReason

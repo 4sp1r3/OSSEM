@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-ProtocolHandlers
+event_id: '37'
+version: '0'
+event(fields): MapiGetAttachmentFromMessageStop()
+opcode: Stop
+keywords: Performance IndexingItem MAPIPH
+task: MapiGetAttachmentFromMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '19'
+version: '0'
+event(fields): HealthCenter_LoadSettings(UnicodeString CanonicalName, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: HealthCenter_LoadSettings
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CanonicalName
+- field_type: UInt32
+  field_name: HRESULT

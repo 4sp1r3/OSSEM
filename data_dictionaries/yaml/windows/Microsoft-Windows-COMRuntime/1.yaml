@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-COMRuntime
+event_id: '1'
+version: '0'
+event(fields): CliModalLoopDelay(UInt32 Flags, UInt32 BlockTimeMs, UInt32 TotalTimeMs)
+opcode: ''
+keywords: CliModalLoop
+task: CliModalLoopDelay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: BlockTimeMs
+- field_type: UInt32
+  field_name: TotalTimeMs

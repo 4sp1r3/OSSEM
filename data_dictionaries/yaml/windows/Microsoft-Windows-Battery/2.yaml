@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Battery
+event_id: '2'
+version: '0'
+event(fields): SystemBatteryStatusRundown(Boolean BatteryPresent, UInt32 PowerState,
+  UInt32 Capacity)
+opcode: ''
+keywords: ''
+task: SystemBatteryStatusRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: BatteryPresent
+- field_type: UInt32
+  field_name: PowerState
+- field_type: UInt32
+  field_name: Capacity

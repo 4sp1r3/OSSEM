@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '351'
+version: '0'
+event(fields): WordBreakerSelector_IncrementHistory(UInt32 LocaleID, UInt32 IncrementCallID)
+opcode: ''
+keywords: IndexingChunk Gatherer
+task: WordBreakerSelector_IncrementHistory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LocaleID
+- field_type: UInt32
+  field_name: IncrementCallID

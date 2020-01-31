@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60011'
+version: '0'
+event(fields): IE_LegacyHistoryAddStop()
+opcode: Stop
+keywords: InternetExplorer
+task: IE_LegacyHistoryAdd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

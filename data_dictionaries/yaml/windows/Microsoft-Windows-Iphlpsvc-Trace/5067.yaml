@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5067'
+version: '0'
+event(fields): task_05067(Pointer ClientContext, UnicodeString TargetAddress)
+opcode: ''
+keywords: iphttps
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ClientContext
+- field_type: UnicodeString
+  field_name: TargetAddress

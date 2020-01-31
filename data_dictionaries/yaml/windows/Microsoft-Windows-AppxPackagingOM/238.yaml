@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '238'
+version: '0'
+event(fields): AppInstaller238(HexInt32 errorCode, UnicodeString reason)
+opcode: ''
+keywords: ''
+task: AppInstaller
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UnicodeString
+  field_name: reason

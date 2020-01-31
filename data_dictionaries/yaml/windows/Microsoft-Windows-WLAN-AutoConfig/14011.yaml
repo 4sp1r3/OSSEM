@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14011'
+version: '0'
+event(fields): task_014011(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UInt32 PHY, UInt32 SoftwareState, UInt32 HardwareState, UInt32 PHYCount)
+opcode: ''
+keywords: IntfContext LwtDiagnostic Telemetry ut:Configuration
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UInt32
+  field_name: PHY
+- field_type: UInt32
+  field_name: SoftwareState
+- field_type: UInt32
+  field_name: HardwareState
+- field_type: UInt32
+  field_name: PHYCount

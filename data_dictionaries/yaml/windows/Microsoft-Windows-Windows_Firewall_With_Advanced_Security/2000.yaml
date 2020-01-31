@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2000'
+version: '0'
+event(fields): task_0(UInt32 CurrentProfile, UInt32 SAIdleTime, UInt32 PresharedKeyEncoding,
+  UInt32 IPSecExempt, UInt32 CrlCheck, UInt32 IPSecThroughNAT, UInt32 PolicyVersionSupported,
+  UInt32 PolicyVersion, UInt32 BinaryVersionSupported, UInt32 DisableStatefulFTP,
+  UInt32 GroupPolicyApplied, UnicodeString RemoteMachineAuthorizationList, UnicodeString
+  RemoteUserAuthorizationList)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CurrentProfile
+- field_type: UInt32
+  field_name: SAIdleTime
+- field_type: UInt32
+  field_name: PresharedKeyEncoding
+- field_type: UInt32
+  field_name: IPSecExempt
+- field_type: UInt32
+  field_name: CrlCheck
+- field_type: UInt32
+  field_name: IPSecThroughNAT
+- field_type: UInt32
+  field_name: PolicyVersionSupported
+- field_type: UInt32
+  field_name: PolicyVersion
+- field_type: UInt32
+  field_name: BinaryVersionSupported
+- field_type: UInt32
+  field_name: DisableStatefulFTP
+- field_type: UInt32
+  field_name: GroupPolicyApplied
+- field_type: UnicodeString
+  field_name: RemoteMachineAuthorizationList
+- field_type: UnicodeString
+  field_name: RemoteUserAuthorizationList

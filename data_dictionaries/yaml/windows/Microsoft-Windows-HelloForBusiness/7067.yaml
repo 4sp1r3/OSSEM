@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7067'
+version: '0'
+event(fields): CertificateEnrollmentInformational(HexInt32 Error, UnicodeString KeyName,
+  UInt32 CertificateType)
+opcode: Informational
+keywords: Internal
+task: CertificateEnrollment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: UInt32
+  field_name: CertificateType

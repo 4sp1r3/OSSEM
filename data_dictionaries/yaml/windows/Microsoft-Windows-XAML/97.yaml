@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '97'
+version: '0'
+event(fields): FindBackgroundPrimitiveStop()
+opcode: Stop
+keywords: Rendering
+task: FindBackgroundPrimitive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

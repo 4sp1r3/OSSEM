@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '65019'
+version: '0'
+event(fields): Logon_LogonFrame_InitializeInputIndicatorStart()
+opcode: Start
+keywords: ''
+task: Logon_LogonFrame_InitializeInputIndicator
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

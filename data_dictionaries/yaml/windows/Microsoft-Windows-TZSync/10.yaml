@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TZSync
+event_id: '10'
+version: '0'
+event(fields): Conversiontask(UnicodeString TimeZoneId)
+opcode: ''
+keywords: ''
+task: Conversiontask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TimeZoneId

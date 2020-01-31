@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5984'
+version: '0'
+event(fields): AppActivation_Log_GenericFailure5984(UnicodeString AppId, UnicodeString
+  ContractId, Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: AppActivation_Log_GenericFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId
+- field_type: UnicodeString
+  field_name: ContractId
+- field_type: Int32
+  field_name: ErrorCode

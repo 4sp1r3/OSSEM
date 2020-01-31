@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1005'
+version: '0'
+event(fields): ConnectionEstablishment1005(UInt32 Status)
+opcode: ''
+keywords: wpnconn wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage
+  wpntroubleshoot wpndebug_connectivity wpndebug_connectivity_isConnected
+task: ConnectionEstablishment
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

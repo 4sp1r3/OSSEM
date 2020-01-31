@@ -1,0 +1,14 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '57'
+version: '2'
+event(fields): WorkerThread(UInt32 TThreadId, UInt64 StartTime, UInt32 ThreadRoutine)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: TThreadId
+- field_type: UInt64
+  field_name: StartTime
+- field_type: UInt32
+  field_name: ThreadRoutine

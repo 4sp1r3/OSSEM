@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-VolumeControl
+event_id: '115'
+version: '0'
+event(fields): task_VolumeLimit_UIVolumeLimit_PropogateToDriver(Pointer object, Boolean
+  bEngageVolumeLimit)
+opcode: VolumeLimit_PropogateToDriver
+keywords: ''
+task: task_VolumeLimit_UI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Boolean
+  field_name: bEngageVolumeLimit

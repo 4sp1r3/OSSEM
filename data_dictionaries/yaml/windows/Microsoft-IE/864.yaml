@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '864'
+version: '0'
+event(fields): Edgehtml_Extensions_WrxMessage(UInt32 Result)
+opcode: ''
+keywords: extensions
+task: Edgehtml_Extensions_WrxMessage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

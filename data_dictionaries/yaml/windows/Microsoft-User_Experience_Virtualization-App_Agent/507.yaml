@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '507'
+version: '0'
+event(fields): AppAgentruntimeAppAgent507(Int32 intValue1)
+opcode: AppAgent
+keywords: ''
+task: AppAgentruntime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: intValue1

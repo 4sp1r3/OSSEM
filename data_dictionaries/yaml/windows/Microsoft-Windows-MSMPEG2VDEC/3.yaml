@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '3'
+version: '0'
+event(fields): H264_DecodeTaskStart(UInt8 TaskID, UInt32 IDRCount, Int32 POC)
+opcode: Start
+keywords: ''
+task: H264_DecodeTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: TaskID
+- field_type: UInt32
+  field_name: IDRCount
+- field_type: Int32
+  field_name: POC

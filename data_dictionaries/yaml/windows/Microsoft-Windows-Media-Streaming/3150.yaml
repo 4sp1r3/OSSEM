@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '3150'
+version: '0'
+event(fields): UPnPRequestStart(Pointer Object, UnicodeString String)
+opcode: Start
+keywords: ''
+task: UPnPRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UnicodeString
+  field_name: String

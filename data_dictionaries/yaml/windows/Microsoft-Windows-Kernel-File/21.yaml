@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-Kernel-File
+event_id: '21'
+version: '0'
+event(fields): Flush(Pointer Irp, Pointer ThreadId, Pointer FileObject, Pointer FileKey)
+opcode: ''
+keywords: KERNEL_FILE_KEYWORD_FILEIO
+task: Flush
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: ThreadId
+- field_type: Pointer
+  field_name: FileObject
+- field_type: Pointer
+  field_name: FileKey

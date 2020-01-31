@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Security-Netlogon
+event_id: '9001'
+version: '0'
+event(fields): MSA9001(UnicodeString Account)
+opcode: ''
+keywords: ''
+task: MSA
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Account

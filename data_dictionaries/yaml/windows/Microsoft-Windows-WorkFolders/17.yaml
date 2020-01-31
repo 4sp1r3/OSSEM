@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '17'
+version: '0'
+event(fields): task_017(UnicodeString ServerURL, UnicodeString SyncTargetType, UnicodeString
+  ServerPartnershipId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServerURL
+- field_type: UnicodeString
+  field_name: SyncTargetType
+- field_type: UnicodeString
+  field_name: ServerPartnershipId

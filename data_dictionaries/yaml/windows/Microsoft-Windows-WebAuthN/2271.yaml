@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2271'
+version: '0'
+event(fields): CtapBleSwitchToU2FInformational(GUID TransactionId, UnicodeString DevicePath,
+  UnicodeString PairedName)
+opcode: Informational
+keywords: Ctap Ble
+task: CtapBleSwitchToU2F
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UnicodeString
+  field_name: DevicePath
+- field_type: UnicodeString
+  field_name: PairedName

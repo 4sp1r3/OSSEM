@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MCCS-DavSyncProvider
+event_id: '122'
+version: '0'
+event(fields): task_0122(HexInt32 Prop_Id, UnicodeString Prop_String, UInt32 Prop_Dword)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_Id
+- field_type: UnicodeString
+  field_name: Prop_String
+- field_type: UInt32
+  field_name: Prop_Dword

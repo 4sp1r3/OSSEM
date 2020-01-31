@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-DPS
+event_id: '155'
+version: '0'
+event(fields): DebugtaskThiseventisraisedwhentheservicereceivesashutdown/stopnotificationfromtheSCM()
+opcode: Thiseventisraisedwhentheservicereceivesashutdown/stopnotificationfromtheSCM
+keywords: perf
+task: Debugtask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

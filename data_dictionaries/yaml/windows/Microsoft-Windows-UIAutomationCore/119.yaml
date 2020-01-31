@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '119'
+version: '0'
+event(fields): UIAutomationCoreAPI_UiaRaiseEventStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: UIAutomationCoreAPI_UiaRaiseEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7551'
+version: '0'
+event(fields): PnP_PlugPlay_ProcessDeviceInstallBatchStart(UInt32 ThreadId)
+opcode: Start
+keywords: UserPnp
+task: PnP_PlugPlay_ProcessDeviceInstallBatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ThreadId

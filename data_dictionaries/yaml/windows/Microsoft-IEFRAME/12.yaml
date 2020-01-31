@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '12'
+version: '0'
+event(fields): Shdocvw_BaseBrowser_DocumentComplete(UInt32 TabID, UInt32 TabState)
+opcode: ''
+keywords: primarynav
+task: Shdocvw_BaseBrowser_DocumentComplete
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID
+- field_type: UInt32
+  field_name: TabState

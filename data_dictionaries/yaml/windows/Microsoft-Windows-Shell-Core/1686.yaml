@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1686'
+version: '0'
+event(fields): ShellTask_LowDisk_WorkThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_LowDisk_WorkThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

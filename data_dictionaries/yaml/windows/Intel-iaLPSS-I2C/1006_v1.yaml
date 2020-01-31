@@ -1,0 +1,17 @@
+provider: Intel-iaLPSS-I2C
+event_id: '1006'
+version: '1'
+event(fields): DevicePowerFlowStop_V1(Pointer FxDevice, Pointer VAddr, HexInt64 PAddr)
+opcode: Stop
+keywords: ''
+task: DevicePowerFlow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FxDevice
+- field_type: Pointer
+  field_name: VAddr
+- field_type: HexInt64
+  field_name: PAddr

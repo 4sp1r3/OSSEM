@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DXGI
+event_id: '44'
+version: '0'
+event(fields): GetFrameStatistics(UInt32 ReturnValue, UInt32 PresentCount, UInt32
+  PresentRefreshCount, UInt32 SyncRefreshCount, UInt64 SyncQPCTime)
+opcode: ''
+keywords: Events
+task: GetFrameStatistics
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ReturnValue
+- field_type: UInt32
+  field_name: PresentCount
+- field_type: UInt32
+  field_name: PresentRefreshCount
+- field_type: UInt32
+  field_name: SyncRefreshCount
+- field_type: UInt64
+  field_name: SyncQPCTime

@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client-StreamingUX
+event_id: '102'
+version: '1'
+event(fields): task_0102_V1(UnicodeString astring)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: astring

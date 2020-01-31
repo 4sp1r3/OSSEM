@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WinINet
+event_id: '812'
+version: '0'
+event(fields): WININET_AUTOPROXY_DOWNLOADFail812(UInt16 _ConfigurationURLLength, AnsiString
+  ConfigurationURL, UInt16 _MIMETypeLength, AnsiString MIMEType, UInt32 Error)
+opcode: Fail
+keywords: WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC
+task: WININET_AUTOPROXY_DOWNLOAD
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _ConfigurationURLLength
+- field_type: AnsiString
+  field_name: ConfigurationURL
+- field_type: UInt16
+  field_name: _MIMETypeLength
+- field_type: AnsiString
+  field_name: MIMEType
+- field_type: UInt32
+  field_name: Error

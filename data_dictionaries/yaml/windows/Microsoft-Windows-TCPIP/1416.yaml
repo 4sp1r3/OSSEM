@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1416'
+version: '0'
+event(fields): TcpFastopenSynRcvdLimit(Pointer Tcb, UInt32 SynRcvdLimit)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Global
+task: TcpFastopenSynRcvdLimit
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: SynRcvdLimit

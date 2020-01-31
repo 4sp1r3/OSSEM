@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Power-Meter-Polling
+event_id: '1'
+version: '0'
+event(fields): PowerMeterRundown(Pointer MeterId, UInt64 DefaultSamplingPeriodInMs,
+  UInt32 MeterNameLength, UnicodeString MeterName, UInt32 MeteredHardwareCount, UnicodeString
+  MeteredHardwareName)
+opcode: ''
+keywords: ''
+task: PowerMeterRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MeterId
+- field_type: UInt64
+  field_name: DefaultSamplingPeriodInMs
+- field_type: UInt32
+  field_name: MeterNameLength
+- field_type: UnicodeString
+  field_name: MeterName
+- field_type: UInt32
+  field_name: MeteredHardwareCount
+- field_type: UnicodeString
+  field_name: MeteredHardwareName

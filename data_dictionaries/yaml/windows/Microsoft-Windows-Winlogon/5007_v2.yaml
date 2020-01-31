@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '5007'
+version: '2'
+event(fields): SystemBootStop_V2(UInt32 SessionId, UInt32 ReadyBootTrainingCountSinceLastServicing,
+  UInt32 SyncPrefetchErrorCode, UInt32 SyncPrefetchDurationMs)
+opcode: Stop
+keywords: PerfDiagnostics
+task: SystemBoot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ReadyBootTrainingCountSinceLastServicing
+- field_type: UInt32
+  field_name: SyncPrefetchErrorCode
+- field_type: UInt32
+  field_name: SyncPrefetchDurationMs

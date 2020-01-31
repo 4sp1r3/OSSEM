@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1233'
+version: '0'
+event(fields): RssPortCapabilities(UInt32 AdapterIndex, UInt32 CapabilitiesFlags,
+  UInt32 NumberOfInterruptMessages, UInt32 NumberOfReceiveQueues)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Rss ut:Global
+task: RssPortCapabilities
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterIndex
+- field_type: UInt32
+  field_name: CapabilitiesFlags
+- field_type: UInt32
+  field_name: NumberOfInterruptMessages
+- field_type: UInt32
+  field_name: NumberOfReceiveQueues

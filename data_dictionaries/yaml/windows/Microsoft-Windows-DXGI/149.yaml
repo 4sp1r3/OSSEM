@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DXGI
+event_id: '149'
+version: '0'
+event(fields): IDXGIOutput_ReleaseOwnershipStop()
+opcode: Stop
+keywords: ''
+task: IDXGIOutput_ReleaseOwnership
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

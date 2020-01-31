@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '51'
+version: '0'
+event(fields): DevicePairing_PairDeviceStop(UnicodeString String1, UInt32 Integer2)
+opcode: Stop
+keywords: ''
+task: DevicePairing_PairDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String1
+- field_type: UInt32
+  field_name: Integer2

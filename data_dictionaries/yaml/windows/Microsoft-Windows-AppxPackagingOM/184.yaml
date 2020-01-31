@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '184'
+version: '0'
+event(fields): AppXPackaging.Task.EncryptionProvider.Creation(HexInt32 errorCode)
+opcode: ''
+keywords: ''
+task: AppXPackaging.Task.EncryptionProvider.Creation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode

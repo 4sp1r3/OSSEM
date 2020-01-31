@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40033'
+version: '0'
+event(fields): VReg.QuerySecurityStop()
+opcode: Stop
+keywords: ''
+task: VReg.QuerySecurity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

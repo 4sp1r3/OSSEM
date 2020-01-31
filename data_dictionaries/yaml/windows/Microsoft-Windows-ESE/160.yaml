@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-ESE
+event_id: '160'
+version: '0'
+event(fields): ESE_IsamDbfilehdrInfo_Trace(UInt8 tsidr, UInt32 ifmp, UInt32 filetype,
+  UInt32 ulMagic, UInt32 ulChecksum, UInt32 cbPageSize, UInt32 ulDbFlags, Binary psignDb)
+opcode: ''
+keywords: StationId
+task: ESE_IsamDbfilehdrInfo_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: tsidr
+- field_type: UInt32
+  field_name: ifmp
+- field_type: UInt32
+  field_name: filetype
+- field_type: UInt32
+  field_name: ulMagic
+- field_type: UInt32
+  field_name: ulChecksum
+- field_type: UInt32
+  field_name: cbPageSize
+- field_type: UInt32
+  field_name: ulDbFlags
+- field_type: Binary
+  field_name: psignDb

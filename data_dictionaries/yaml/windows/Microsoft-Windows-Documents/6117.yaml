@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Documents
+event_id: '6117'
+version: '0'
+event(fields): DocPerf_Task_Setup_FindDriverFromWindowsUpdateStart(UnicodeString Model,
+  UnicodeString Manufacturer, UnicodeString Provider, UnicodeString HardwareID, FILETIME
+  DriverDate, UInt64 DriverVersion)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Setup_FindDriverFromWindowsUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Model
+- field_type: UnicodeString
+  field_name: Manufacturer
+- field_type: UnicodeString
+  field_name: Provider
+- field_type: UnicodeString
+  field_name: HardwareID
+- field_type: FILETIME
+  field_name: DriverDate
+- field_type: UInt64
+  field_name: DriverVersion

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceStatusProvider
+event_id: '520'
+version: '0'
+event(fields): UpdateSyncPropertiesStart()
+opcode: Start
+keywords: ''
+task: UpdateSyncProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

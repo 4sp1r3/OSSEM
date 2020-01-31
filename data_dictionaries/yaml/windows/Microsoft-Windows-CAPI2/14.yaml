@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '14'
+version: '0'
+event(fields): RetrieveIssuerCertificatefromNetworkStart(UnicodeString EventWriteData)
+opcode: Start
+keywords: PathDiscovery Retrieval
+task: RetrieveIssuerCertificatefromNetwork
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventWriteData

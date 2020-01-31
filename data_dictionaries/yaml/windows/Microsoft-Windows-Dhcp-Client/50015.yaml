@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50015'
+version: '0'
+event(fields): ProtocolStateEventNackReceived(UInt32 InterfaceId)
+opcode: NackReceived
+keywords: ''
+task: ProtocolStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId

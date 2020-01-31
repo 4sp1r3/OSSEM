@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '388'
+version: '0'
+event(fields): Mshtml_Composition_Destination_RenderLayerStop()
+opcode: Stop
+keywords: composition
+task: Mshtml_Composition_Destination_RenderLayer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

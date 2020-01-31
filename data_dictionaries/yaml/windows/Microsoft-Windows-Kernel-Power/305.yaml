@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '305'
+version: '0'
+event(fields): DeviceUnregistration(Pointer Token)
+opcode: ''
+keywords: po:RuntimeFx
+task: DeviceUnregistration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token

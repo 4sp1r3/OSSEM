@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '71'
+version: '0'
+event(fields): AllocationFault(Pointer hAllocationHandle, UInt32 Reason, Boolean Write)
+opcode: ''
+keywords: Base
+task: AllocationFault
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAllocationHandle
+- field_type: UInt32
+  field_name: Reason
+- field_type: Boolean
+  field_name: Write

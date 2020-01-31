@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '80'
+version: '0'
+event(fields): GatherProject_AdviseRequestStatus(UInt32 Value)
+opcode: ''
+keywords: Gatherer
+task: GatherProject_AdviseRequestStatus
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

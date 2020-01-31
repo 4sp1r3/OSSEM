@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '208'
+version: '0'
+event(fields): EarlyLaunchAntiMalwareStop208(UInt32 ElamStatus)
+opcode: Stop
+keywords: Performance
+task: EarlyLaunchAntiMalware
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ElamStatus

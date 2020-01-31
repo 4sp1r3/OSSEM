@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '280'
+version: '0'
+event(fields): MediaFoundationUpdateHistoryStop(Pointer object)
+opcode: Stop
+keywords: ''
+task: MediaFoundationUpdateHistory
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

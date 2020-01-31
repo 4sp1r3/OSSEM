@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '134'
+version: '0'
+event(fields): ThreadSchedulingStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: Threading
+task: ThreadScheduling
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Narrator
+event_id: '50'
+version: '0'
+event(fields): NarratorPlaySound(Int32 SoundResourceId)
+opcode: ''
+keywords: PerfInstrumentation
+task: NarratorPlaySound
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: SoundResourceId

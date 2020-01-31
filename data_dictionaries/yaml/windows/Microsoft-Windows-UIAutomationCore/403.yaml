@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '403'
+version: '0'
+event(fields): CTextRange_CloneStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CTextRange_Clone
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '70'
+version: '0'
+event(fields): InnerIterationStop(Pointer hAllocationGlobalHandle, UInt32 Status,
+  UInt32 SegmentId, UInt64 SegmentOffset)
+opcode: Stop
+keywords: Base
+task: InnerIteration
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: SegmentId
+- field_type: UInt64
+  field_name: SegmentOffset

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '92'
+version: '0'
+event(fields): task_092(UnicodeString Description)
+opcode: ''
+keywords: Reader
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Description

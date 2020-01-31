@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23050'
+version: '1'
+event(fields): Packaging_ManifestWrite_BrowserStart_V1()
+opcode: Start
+keywords: ''
+task: Packaging_ManifestWrite_Browser
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

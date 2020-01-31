@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-International
+event_id: '2000'
+version: '0'
+event(fields): NLSlocalefunctionsNLSinitialization2000(UnicodeString RegistryKey)
+opcode: NLSinitialization
+keywords: ''
+task: NLSlocalefunctions
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RegistryKey

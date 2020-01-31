@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Web-Http
+event_id: '19'
+version: '0'
+event(fields): HttpAsyncI/O19(Pointer obj, UnicodeString statusDescription)
+opcode: ''
+keywords: ''
+task: HttpAsyncI/O
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: obj
+- field_type: UnicodeString
+  field_name: statusDescription

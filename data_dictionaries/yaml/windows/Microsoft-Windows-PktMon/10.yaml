@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PktMon
+event_id: '10'
+version: '0'
+event(fields): task_0(UInt32 Status)
+opcode: ''
+keywords: Config
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AAD
+event_id: '1108'
+version: '0'
+event(fields): AadTokenBrokerPluginOperation1108(UInt32 Error, UnicodeString ErrorMessage,
+  UnicodeString AdditionalInformation)
+opcode: ''
+keywords: Error Analytic
+task: AadTokenBrokerPluginOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: AdditionalInformation

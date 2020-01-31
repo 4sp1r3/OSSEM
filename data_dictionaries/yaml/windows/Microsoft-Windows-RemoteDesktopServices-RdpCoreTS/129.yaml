@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '129'
+version: '0'
+event(fields): RemoteFXmodule_4NetworkBinding(UnicodeString TransportProtocolName,
+  UInt16 Port)
+opcode: NetworkBinding
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TransportProtocolName
+- field_type: UInt16
+  field_name: Port

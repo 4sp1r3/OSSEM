@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '2001'
+version: '0'
+event(fields): UdmSessionHandleEnsureConnected_STOP()
+opcode: Stop
+keywords: Performance
+task: UdmSessionHandleEnsureConnected_STOP
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

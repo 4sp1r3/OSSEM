@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SPB-ClassExtension
+event_id: '1012'
+version: '1'
+event(fields): I/OoperationflowthroughSPBCxIoForwardToControllerQueue_V1()
+opcode: IoForwardToControllerQueue
+keywords: ''
+task: I/OoperationflowthroughSPBCx
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

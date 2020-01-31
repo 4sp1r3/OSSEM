@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '9512'
+version: '0'
+event(fields): task_09512(UnicodeString PackageFullname, UnicodeString errorString)
+opcode: ''
+keywords: keyword_80000000000
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullname
+- field_type: UnicodeString
+  field_name: errorString

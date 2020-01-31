@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-International
+event_id: '1003'
+version: '0'
+event(fields): NLScodepagefunctionsNLSdatatableoperations(UInt32 CodePage, UnicodeString
+  FileName)
+opcode: NLSdatatableoperations
+keywords: ''
+task: NLScodepagefunctions
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CodePage
+- field_type: UnicodeString
+  field_name: FileName

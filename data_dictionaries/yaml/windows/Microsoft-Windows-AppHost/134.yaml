@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-AppHost
+event_id: '134'
+version: '0'
+event(fields): Infrastructure.LifecycleAppHostOperationFailed134(UnicodeString Function,
+  UnicodeString Module, Int32 WebInstance, HexInt32 HResult, Int32 PID, UnicodeString
+  PackageFullName, UnicodeString AppUserModelId)
+opcode: AppHostOperationFailed
+keywords: WWAHOST_KEYWORD
+task: Infrastructure.Lifecycle
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Function
+- field_type: UnicodeString
+  field_name: Module
+- field_type: Int32
+  field_name: WebInstance
+- field_type: HexInt32
+  field_name: HResult
+- field_type: Int32
+  field_name: PID
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppUserModelId

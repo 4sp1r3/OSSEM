@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '573'
+version: '0'
+event(fields): Mshtml_TravelLogPrerendering573(UnicodeString URL)
+opcode: ''
+keywords: mshtml
+task: Mshtml_TravelLogPrerendering
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL

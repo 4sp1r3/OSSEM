@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50030'
+version: '0'
+event(fields): AddressConfigurationStateEventPlumbingError(UInt32 InterfaceId, UInt32
+  StatusCode)
+opcode: PlumbingError
+keywords: keyword_200000000000
+task: AddressConfigurationStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: StatusCode

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Serial-ClassExtension
+event_id: '1004'
+version: '1'
+event(fields): RequestreceivedbytheserialclassextensionStart_V1(Pointer Request, UInt32
+  Length)
+opcode: Start
+keywords: ''
+task: Requestreceivedbytheserialclassextension
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: UInt32
+  field_name: Length

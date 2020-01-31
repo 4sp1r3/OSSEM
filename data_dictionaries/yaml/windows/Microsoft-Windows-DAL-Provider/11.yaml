@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DAL-Provider
+event_id: '11'
+version: '0'
+event(fields): task_011(Int32 MI_Result, UnicodeString Operation)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: MI_Result
+- field_type: UnicodeString
+  field_name: Operation

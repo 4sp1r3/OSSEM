@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '60'
+version: '0'
+event(fields): task_060(GUID DialogGuid, UInt32 ChainId, UInt32 ButtonId)
+opcode: ''
+keywords: WDI
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DialogGuid
+- field_type: UInt32
+  field_name: ChainId
+- field_type: UInt32
+  field_name: ButtonId

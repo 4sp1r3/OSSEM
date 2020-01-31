@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18640'
+version: '0'
+event(fields): Shell32_PSC_Explorer_Template_ChangeStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_PSC_Explorer_Template_Change
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

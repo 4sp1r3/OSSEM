@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '10112'
+version: '1'
+event(fields): User_modeDriverproblems.10112_V1(GUID LifetimeId, UnicodeString FriendlyName,
+  UnicodeString Location, UnicodeString InstanceId, UInt32 RestartCount)
+opcode: ''
+keywords: ''
+task: User_modeDriverproblems.
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId
+- field_type: UnicodeString
+  field_name: FriendlyName
+- field_type: UnicodeString
+  field_name: Location
+- field_type: UnicodeString
+  field_name: InstanceId
+- field_type: UInt32
+  field_name: RestartCount

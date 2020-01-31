@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '210'
+version: '0'
+event(fields): Winrmservicestart/stop210(UInt32 errorCode)
+opcode: Stop
+keywords: Keyword.Server
+task: Winrmservicestart/stop
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: errorCode

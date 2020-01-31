@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Program-Compatibility-Assistant
+event_id: '15'
+version: '0'
+event(fields): task_015(UInt32 TokenDataSize, Binary TokenData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TokenDataSize
+- field_type: Binary
+  field_name: TokenData

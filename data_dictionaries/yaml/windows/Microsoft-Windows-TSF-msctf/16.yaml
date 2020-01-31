@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '16'
+version: '0'
+event(fields): CreateMessageWindow()
+opcode: ''
+keywords: Status
+task: CreateMessageWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

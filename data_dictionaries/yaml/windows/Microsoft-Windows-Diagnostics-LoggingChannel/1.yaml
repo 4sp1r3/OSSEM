@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnostics-LoggingChannel
+event_id: '1'
+version: '0'
+event(fields): task_0(UnicodeString LoggingChannelName, UnicodeString StringMessage)
+opcode: ''
+keywords: K_LogMsg
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LoggingChannelName
+- field_type: UnicodeString
+  field_name: StringMessage

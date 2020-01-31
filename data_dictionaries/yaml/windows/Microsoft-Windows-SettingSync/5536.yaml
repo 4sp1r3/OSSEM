@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '5536'
+version: '0'
+event(fields): task_05536(Boolean Boolean, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Boolean
+- field_type: UInt32
+  field_name: HRESULT

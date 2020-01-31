@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1199'
+version: '0'
+event(fields): TcpReassemblyExit(Pointer Tcb, UInt32 SndUna, UInt32 SndMax)
+opcode: ''
+keywords: ut:ReceivePath
+task: TcpReassemblyExit
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: SndUna
+- field_type: UInt32
+  field_name: SndMax

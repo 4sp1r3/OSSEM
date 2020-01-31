@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '67'
+version: '0'
+event(fields): StylusUpStop()
+opcode: Stop
+keywords: ''
+task: StylusUp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

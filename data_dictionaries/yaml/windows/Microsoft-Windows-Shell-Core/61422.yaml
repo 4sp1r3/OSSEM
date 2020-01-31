@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61422'
+version: '0'
+event(fields): FileAccessAPI_AddReplacePersistedItemStart()
+opcode: Start
+keywords: Shell
+task: FileAccessAPI_AddReplacePersistedItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

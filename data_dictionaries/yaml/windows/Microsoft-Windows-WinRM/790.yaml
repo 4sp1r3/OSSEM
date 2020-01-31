@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '790'
+version: '0'
+event(fields): RequesthandlingStop(UnicodeString operation)
+opcode: Stop
+keywords: Keyword.Server
+task: Requesthandling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: operation

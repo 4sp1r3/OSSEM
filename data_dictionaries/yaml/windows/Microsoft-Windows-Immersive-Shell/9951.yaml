@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '9951'
+version: '0'
+event(fields): DllGetClassObject_SxS(UnicodeString SxSModule, UnicodeString CLSID)
+opcode: ''
+keywords: ''
+task: DllGetClassObject_SxS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SxSModule
+- field_type: UnicodeString
+  field_name: CLSID

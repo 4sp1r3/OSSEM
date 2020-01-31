@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '103'
+version: '0'
+event(fields): AudStreamSink_CreateAudioStreamInternal_TaskStart(Pointer object, Int32
+  dwFlags, Boolean bUseResampler, Boolean bClockRateMatchEnabled, Boolean bUseLightWeightConverters)
+opcode: Start
+keywords: ''
+task: AudStreamSink_CreateAudioStreamInternal_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: dwFlags
+- field_type: Boolean
+  field_name: bUseResampler
+- field_type: Boolean
+  field_name: bClockRateMatchEnabled
+- field_type: Boolean
+  field_name: bUseLightWeightConverters

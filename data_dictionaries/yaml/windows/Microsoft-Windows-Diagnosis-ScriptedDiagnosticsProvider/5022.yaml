@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '5022'
+version: '0'
+event(fields): task_05022(AnsiString Name, Pointer Address)
+opcode: ''
+keywords: object
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Name
+- field_type: Pointer
+  field_name: Address

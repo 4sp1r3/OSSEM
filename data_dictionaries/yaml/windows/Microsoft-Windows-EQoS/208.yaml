@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-EQoS
+event_id: '208'
+version: '0'
+event(fields): task_0208(UInt32 PolicyType, UInt32 Index)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PolicyType
+- field_type: UInt32
+  field_name: Index

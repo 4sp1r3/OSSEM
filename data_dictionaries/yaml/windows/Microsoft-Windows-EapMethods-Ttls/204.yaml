@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-EapMethods-Ttls
+event_id: '204'
+version: '0'
+event(fields): PerformancemetriceventStart204(UnicodeString CAThumbprint, UnicodeString
+  ServerName)
+opcode: Start
+keywords: ''
+task: Performancemetricevent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CAThumbprint
+- field_type: UnicodeString
+  field_name: ServerName

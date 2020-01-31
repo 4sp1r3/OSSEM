@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1014'
+version: '0'
+event(fields): SensorsCxInitializationTask1014(Pointer WdfDevice, Pointer SENSOROBJECT,
+  UInt32 MaxDataSize)
+opcode: ''
+keywords: ''
+task: SensorsCxInitializationTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: Pointer
+  field_name: SENSOROBJECT
+- field_type: UInt32
+  field_name: MaxDataSize

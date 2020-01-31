@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '281'
+version: '0'
+event(fields): PagingPreparationStart(Pointer pDmaBuffer)
+opcode: Start
+keywords: Base
+task: PagingPreparation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDmaBuffer

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winsrv
+event_id: '12007'
+version: '0'
+event(fields): WaitForProcessStart()
+opcode: Start
+keywords: Perf
+task: WaitForProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '283'
+version: '0'
+event(fields): MediaEngineCallMarshalingStart283(Pointer Object, UInt32 CallId, UInt32
+  Id)
+opcode: Start
+keywords: ''
+task: MediaEngineCallMarshaling
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: CallId
+- field_type: UInt32
+  field_name: Id

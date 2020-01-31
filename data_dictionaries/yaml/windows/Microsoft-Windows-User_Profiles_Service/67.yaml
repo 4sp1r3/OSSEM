@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-User Profiles Service
+event_id: '67'
+version: '0'
+event(fields): task_067(UnicodeString LogonType, UnicodeString LocalPath, UnicodeString
+  ProfileType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LogonType
+- field_type: UnicodeString
+  field_name: LocalPath
+- field_type: UnicodeString
+  field_name: ProfileType

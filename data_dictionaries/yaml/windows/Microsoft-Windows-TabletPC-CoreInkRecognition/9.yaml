@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '9'
+version: '0'
+event(fields): RECO_API_CreateContextStart()
+opcode: Start
+keywords: ''
+task: RECO_API_CreateContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

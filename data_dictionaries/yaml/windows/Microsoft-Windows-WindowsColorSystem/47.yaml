@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '47'
+version: '0'
+event(fields): ColorTranslation47()
+opcode: ''
+keywords: ''
+task: ColorTranslation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

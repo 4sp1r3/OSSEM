@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '836'
+version: '0'
+event(fields): CSms836(UnicodeString StringName1, UInt32 DwordName1, UInt64 Pointer1)
+opcode: ''
+keywords: Information
+task: CSms
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StringName1
+- field_type: UInt32
+  field_name: DwordName1
+- field_type: UInt64
+  field_name: Pointer1

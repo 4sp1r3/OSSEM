@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '476'
+version: '0'
+event(fields): ThreadedJobQueueThreadLifetimeStop(UInt64 Id)
+opcode: Stop
+keywords: Core
+task: ThreadedJobQueueThreadLifetime
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2265'
+version: '0'
+event(fields): SharingManager_RetrieveSquare30x30LogoStop(UInt32 Result)
+opcode: Stop
+keywords: ''
+task: SharingManager_RetrieveSquare30x30Logo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

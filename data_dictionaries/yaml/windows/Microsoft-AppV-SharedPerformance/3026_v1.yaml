@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3026'
+version: '1'
+event(fields): PublishPackageFinalizeStop_V1()
+opcode: Stop
+keywords: ''
+task: PublishPackageFinalize
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

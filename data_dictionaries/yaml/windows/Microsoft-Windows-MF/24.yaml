@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '24'
+version: '0'
+event(fields): MediaFoundationDevproxyMFTDynamicFormatChangeStop(UnicodeString FormatInfoStruct)
+opcode: Stop
+keywords: ''
+task: MediaFoundationDevproxyMFTDynamicFormatChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FormatInfoStruct

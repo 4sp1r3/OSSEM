@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IE-F12-Provider
+event_id: '353'
+version: '0'
+event(fields): Debugger_SpecifyUrlAsJMCTypeStart(UnicodeString TraceDescription)
+opcode: Start
+keywords: ''
+task: Debugger_SpecifyUrlAsJMCType
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceDescription

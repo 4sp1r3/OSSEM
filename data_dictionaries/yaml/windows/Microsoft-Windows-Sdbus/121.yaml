@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Sdbus
+event_id: '121'
+version: '0'
+event(fields): InterruptStart121()
+opcode: Start
+keywords: Sdio
+task: Interrupt
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

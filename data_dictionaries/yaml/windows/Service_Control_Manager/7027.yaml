@@ -1,0 +1,11 @@
+provider: Service Control Manager
+event_id: '7027'
+version: '0'
+event(fields): task_0PCODE_192pcode_1927027()
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

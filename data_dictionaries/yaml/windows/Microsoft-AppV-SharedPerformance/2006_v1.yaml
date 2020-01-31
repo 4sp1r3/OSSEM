@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '2006'
+version: '1'
+event(fields): CreatePackageMachinePolicyDocumentFromFileStop_V1()
+opcode: Stop
+keywords: ''
+task: CreatePackageMachinePolicyDocumentFromFile
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

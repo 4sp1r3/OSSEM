@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WebAuth
+event_id: '1020'
+version: '0'
+event(fields): NavigationRedirectStart(UnicodeString RedirectedUrl, UnicodeString
+  OriginalUrl, UInt32 HttpStatusCode)
+opcode: Start
+keywords: AuthHost
+task: NavigationRedirect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RedirectedUrl
+- field_type: UnicodeString
+  field_name: OriginalUrl
+- field_type: UInt32
+  field_name: HttpStatusCode

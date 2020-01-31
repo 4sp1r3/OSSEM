@@ -1,0 +1,15 @@
+provider: Microsoft-Gaming-Services
+event_id: '9010'
+version: '0'
+event(fields): GamingServices_9009Warning(UnicodeString Message, HexInt32 ErrorCode)
+opcode: Warning
+keywords: GamingServices
+task: GamingServices_9009
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: HexInt32
+  field_name: ErrorCode

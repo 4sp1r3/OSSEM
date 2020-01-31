@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '5026'
+version: '0'
+event(fields): task_05026(UInt32 Error, UnicodeString IndexPath)
+opcode: ''
+keywords: search
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: IndexPath

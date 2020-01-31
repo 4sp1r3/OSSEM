@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3348'
+version: '0'
+event(fields): ServiceHostFault(UnicodeString EventSource, UnicodeString AppDomain)
+opcode: ''
+keywords: TCP
+task: ServiceHostFault
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventSource
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1805'
+version: '0'
+event(fields): IDXGIDevice3_TrimStop()
+opcode: Stop
+keywords: Devices
+task: IDXGIDevice3_Trim
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

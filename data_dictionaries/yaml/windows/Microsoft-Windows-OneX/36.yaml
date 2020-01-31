@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-OneX
+event_id: '36'
+version: '0'
+event(fields): Port(UInt32 PortId, UnicodeString FriendlyName)
+opcode: ''
+keywords: Supplicant ut:Authentication
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId
+- field_type: UnicodeString
+  field_name: FriendlyName

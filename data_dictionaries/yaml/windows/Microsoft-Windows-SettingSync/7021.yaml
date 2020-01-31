@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7021'
+version: '0'
+event(fields): Perf_GetUnitStart(UnicodeString CollectionId)
+opcode: Start
+keywords: RoamingSettings
+task: Perf_GetUnit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId

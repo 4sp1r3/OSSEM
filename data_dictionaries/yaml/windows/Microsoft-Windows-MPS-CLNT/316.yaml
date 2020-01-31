@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '316'
+version: '0'
+event(fields): MPS_CLNT_API_VerifyMainModeRuleQueryStart()
+opcode: Start
+keywords: Client
+task: MPS_CLNT_API_VerifyMainModeRuleQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

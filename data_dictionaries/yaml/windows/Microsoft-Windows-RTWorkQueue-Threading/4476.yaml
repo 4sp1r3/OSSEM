@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4476'
+version: '0'
+event(fields): WorkQueue:MMCSSTransitionStart(Pointer WorkQueuePointer, UInt32 WorkQueueID,
+  UnicodeString Class, Int32 Priority, UInt32 TaskID)
+opcode: Start
+keywords: ''
+task: WorkQueue:MMCSSTransition
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WorkQueuePointer
+- field_type: UInt32
+  field_name: WorkQueueID
+- field_type: UnicodeString
+  field_name: Class
+- field_type: Int32
+  field_name: Priority
+- field_type: UInt32
+  field_name: TaskID

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '82'
+version: '0'
+event(fields): LaunchApp_IssueLaunchCommandStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: LaunchApp_IssueLaunchCommand
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

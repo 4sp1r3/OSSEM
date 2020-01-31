@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Documents
+event_id: '6306'
+version: '0'
+event(fields): DocPerf_Task_WSDMon_BackupServiceIdStop(UnicodeString PortName)
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_WSDMon_BackupServiceId
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PortName

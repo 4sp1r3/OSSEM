@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '810'
+version: '1'
+event(fields): WINHTTP_AUTOPROXY_DOWNLOADStop_V1(UInt16 _ConfigurationURLLength, UnicodeString
+  ConfigurationURL)
+opcode: Stop
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_AUTOPROXY_DOWNLOAD
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _ConfigurationURLLength
+- field_type: UnicodeString
+  field_name: ConfigurationURL

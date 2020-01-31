@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Kernel-Acpi
+event_id: '6'
+version: '0'
+event(fields): ActiveCoolingDevicePower6(UInt16 ThermalZoneDeviceInstanceLength, UnicodeString
+  ThermalZoneDeviceInstance, UInt32 ActiveCoolingLevel, UInt32 ActiveCoolingDeviceIndex,
+  UInt16 FanDeviceInstanceLength, UnicodeString FanDeviceInstance, UInt16 PowerState)
+opcode: ''
+keywords: acpi:Thermal
+task: ActiveCoolingDevicePower
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ThermalZoneDeviceInstanceLength
+- field_type: UnicodeString
+  field_name: ThermalZoneDeviceInstance
+- field_type: UInt32
+  field_name: ActiveCoolingLevel
+- field_type: UInt32
+  field_name: ActiveCoolingDeviceIndex
+- field_type: UInt16
+  field_name: FanDeviceInstanceLength
+- field_type: UnicodeString
+  field_name: FanDeviceInstance
+- field_type: UInt16
+  field_name: PowerState

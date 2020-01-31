@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Windows Defender
+event_id: '1126'
+version: '0'
+event(fields): task_01126(UnicodeString ProductName, UnicodeString ProductVersion,
+  UnicodeString ID, UnicodeString DetectionTime, UnicodeString User, UnicodeString
+  Destination, UnicodeString ProcessName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UnicodeString
+  field_name: ProductVersion
+- field_type: UnicodeString
+  field_name: ID
+- field_type: UnicodeString
+  field_name: DetectionTime
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: Destination
+- field_type: UnicodeString
+  field_name: ProcessName

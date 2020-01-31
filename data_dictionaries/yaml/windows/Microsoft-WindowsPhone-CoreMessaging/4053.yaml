@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '4053'
+version: '0'
+event(fields): Messaging_AlpcFlushStop(UInt32 ExternalPriority, UInt32 unParam, UInt32
+  unParam2)
+opcode: Stop
+keywords: MessagingPerformance Messaging
+task: Messaging_AlpcFlush
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ExternalPriority
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2

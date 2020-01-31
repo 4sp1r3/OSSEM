@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-IdCtrls
+event_id: '5023'
+version: '0'
+event(fields): task_05023(UnicodeString Method, UnicodeString String)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Method
+- field_type: UnicodeString
+  field_name: String

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '45'
+version: '0'
+event(fields): PrepareHardwareError45(Pointer fid_UsbDevice)
+opcode: Error
+keywords: Default PnP keyword_400000000000
+task: PrepareHardware
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice

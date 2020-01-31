@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '153'
+version: '0'
+event(fields): DdiQueryDeviceDescriptorStop(UInt32 DeviceDescriptorOffset, UInt32
+  DeviceDescriptorLength, Binary DeviceDescriptor, Pointer MiniportContext, UInt32
+  ChildUid, UInt32 Status, Pointer DeviceDescriptorBuffer)
+opcode: Stop
+keywords: Base
+task: DdiQueryDeviceDescriptor
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceDescriptorOffset
+- field_type: UInt32
+  field_name: DeviceDescriptorLength
+- field_type: Binary
+  field_name: DeviceDescriptor
+- field_type: Pointer
+  field_name: MiniportContext
+- field_type: UInt32
+  field_name: ChildUid
+- field_type: UInt32
+  field_name: Status
+- field_type: Pointer
+  field_name: DeviceDescriptorBuffer

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PerfOS
+event_id: '1000'
+version: '1'
+event(fields): task_01000_V1(UInt32 Win32Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Win32Error

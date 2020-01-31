@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AAD
+event_id: '1151'
+version: '0'
+event(fields): AadCloudAPPluginOperation1151(HexInt32 Status)
+opcode: ''
+keywords: Error Operational
+task: AadCloudAPPluginOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

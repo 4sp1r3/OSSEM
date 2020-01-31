@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18879'
+version: '0'
+event(fields): Shell32_AppDestList_Custom_AppendCategoryStart()
+opcode: Start
+keywords: Shell
+task: Shell32_AppDestList_Custom_AppendCategory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '834'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.StateRepositoryFixIntegrity834(HexInt32
+  ErrorCode)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD keyword_400000000000
+task: AppXDeployment.Task.Server.Deployment.StateRepositoryFixIntegrity
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

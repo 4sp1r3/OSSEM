@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WCN-Config-Registrar
+event_id: '8000'
+version: '0'
+event(fields): task_0(GUID SessionGuid, GUID PeerUuid, UInt32 Trigger)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SessionGuid
+- field_type: GUID
+  field_name: PeerUuid
+- field_type: UInt32
+  field_name: Trigger

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '28'
+version: '0'
+event(fields): Servicestartup28(UInt32 ErrorCode, UnicodeString ChannelPath)
+opcode: ''
+keywords: el:Availability el:Settings
+task: Servicestartup
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ChannelPath

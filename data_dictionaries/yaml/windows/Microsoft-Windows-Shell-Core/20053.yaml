@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '20053'
+version: '0'
+event(fields): Pinned_Destinations_StartMenuTaskbar(GUID SqmSessionGuid, UInt32 SqmID,
+  UInt32 SqmType, UInt32 SqmStreamRowLength, Int16 SqmStreamRow)
+opcode: ''
+keywords: Shell
+task: Pinned_Destinations_StartMenuTaskbar
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SqmSessionGuid
+- field_type: UInt32
+  field_name: SqmID
+- field_type: UInt32
+  field_name: SqmType
+- field_type: UInt32
+  field_name: SqmStreamRowLength
+- field_type: Int16
+  field_name: SqmStreamRow

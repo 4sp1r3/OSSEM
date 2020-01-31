@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4317'
+version: '0'
+event(fields): CTX_OPENENTRYStop()
+opcode: Stop
+keywords: Performance
+task: CTX_OPENENTRY
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

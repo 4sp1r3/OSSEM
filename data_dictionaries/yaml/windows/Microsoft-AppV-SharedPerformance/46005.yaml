@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '46005'
+version: '0'
+event(fields): task_0Stop46005()
+opcode: Stop
+keywords: ''
+task: task_0
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

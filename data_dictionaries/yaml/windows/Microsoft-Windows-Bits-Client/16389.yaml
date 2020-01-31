@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '16389'
+version: '0'
+event(fields): task_016389(GUID Id, UnicodeString Title, UnicodeString Owner, UInt32
+  DayCount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UnicodeString
+  field_name: Title
+- field_type: UnicodeString
+  field_name: Owner
+- field_type: UInt32
+  field_name: DayCount

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '50'
+version: '0'
+event(fields): MFPlayStart50(Pointer Object, Float Left, Float Top, Float Right, Float
+  Bottom)
+opcode: Start
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Float
+  field_name: Left
+- field_type: Float
+  field_name: Top
+- field_type: Float
+  field_name: Right
+- field_type: Float
+  field_name: Bottom

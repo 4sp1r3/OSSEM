@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '714'
+version: '0'
+event(fields): Mshtml_CDragPreview_CreateSurfaceStart(Pointer DragPreview)
+opcode: Start
+keywords: draganddrop touch
+task: Mshtml_CDragPreview_CreateSurface
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DragPreview

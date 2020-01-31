@@ -1,0 +1,58 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '99'
+version: '1'
+event(fields): PowerRequestRundown_V1(Pointer Token, UInt32 Type, UInt32 ProcessID,
+  UInt32 SessionID, Boolean Legacy, Boolean SystemAllowed, Boolean DisplayAllowed,
+  Boolean AwayModeAllowed, UInt32 SystemCount, UInt32 DisplayCount, UInt32 AwayModeCount,
+  UInt16 CallerLength, UInt16 ContextLength, UnicodeString Caller, UnicodeString Context,
+  Boolean ExecutionRequiredAllowed, Boolean PerformanceBoostAllowed, Boolean FullScreenVideoAllowed,
+  UInt32 ExecutionRequiredCount, UInt32 PerformanceBoostCount, UInt32 FullScreenVideoCount)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: PowerRequestRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: UInt32
+  field_name: SessionID
+- field_type: Boolean
+  field_name: Legacy
+- field_type: Boolean
+  field_name: SystemAllowed
+- field_type: Boolean
+  field_name: DisplayAllowed
+- field_type: Boolean
+  field_name: AwayModeAllowed
+- field_type: UInt32
+  field_name: SystemCount
+- field_type: UInt32
+  field_name: DisplayCount
+- field_type: UInt32
+  field_name: AwayModeCount
+- field_type: UInt16
+  field_name: CallerLength
+- field_type: UInt16
+  field_name: ContextLength
+- field_type: UnicodeString
+  field_name: Caller
+- field_type: UnicodeString
+  field_name: Context
+- field_type: Boolean
+  field_name: ExecutionRequiredAllowed
+- field_type: Boolean
+  field_name: PerformanceBoostAllowed
+- field_type: Boolean
+  field_name: FullScreenVideoAllowed
+- field_type: UInt32
+  field_name: ExecutionRequiredCount
+- field_type: UInt32
+  field_name: PerformanceBoostCount
+- field_type: UInt32
+  field_name: FullScreenVideoCount

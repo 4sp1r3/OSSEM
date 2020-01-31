@@ -1,0 +1,21 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '61'
+version: '2'
+event(fields): ThreadMigration(UInt32 ThreadId, UInt16 SourceProcessorIndex, UInt16
+  TargetProcessorIndex, UInt8 Priority, Boolean IdealProcessorAdjust, UInt16 OldIdealProcessorIndex)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: ThreadId
+- field_type: UInt16
+  field_name: SourceProcessorIndex
+- field_type: UInt16
+  field_name: TargetProcessorIndex
+- field_type: UInt8
+  field_name: Priority
+- field_type: Boolean
+  field_name: IdealProcessorAdjust
+- field_type: UInt16
+  field_name: OldIdealProcessorIndex

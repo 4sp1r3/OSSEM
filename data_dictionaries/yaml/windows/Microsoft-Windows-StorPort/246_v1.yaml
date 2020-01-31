@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-StorPort
+event_id: '246'
+version: '1'
+event(fields): PortStop246_V1(Pointer PoHandle, UInt32 PortNumber, UInt32 Component)
+opcode: Stop
+keywords: Power
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PoHandle
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt32
+  field_name: Component

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '373'
+version: '0'
+event(fields): TransferAllocationOwnership(Pointer hVidmmGlobalAlloc, UInt32 OldOwnerPid,
+  UInt32 NewOwnerPid)
+opcode: ''
+keywords: Resource
+task: TransferAllocationOwnership
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hVidmmGlobalAlloc
+- field_type: UInt32
+  field_name: OldOwnerPid
+- field_type: UInt32
+  field_name: NewOwnerPid

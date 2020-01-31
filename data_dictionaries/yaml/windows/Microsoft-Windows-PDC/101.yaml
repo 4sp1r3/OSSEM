@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDC
+event_id: '101'
+version: '0'
+event(fields): PhaseAccounting(UInt32 DataCount, AnsiString Data)
+opcode: ''
+keywords: sleepstudy
+task: PhaseAccounting
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DataCount
+- field_type: AnsiString
+  field_name: Data

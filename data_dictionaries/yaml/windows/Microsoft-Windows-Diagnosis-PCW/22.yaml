@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Diagnosis-PCW
+event_id: '22'
+version: '0'
+event(fields): task_022(UInt32 ErrorCode, UInt16 CounterSetNameLength, UnicodeString
+  CounterSetName, UInt16 InstanceNameLength, UnicodeString InstanceName)
+opcode: ''
+keywords: errors
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt16
+  field_name: CounterSetNameLength
+- field_type: UnicodeString
+  field_name: CounterSetName
+- field_type: UInt16
+  field_name: InstanceNameLength
+- field_type: UnicodeString
+  field_name: InstanceName

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '124'
+version: '0'
+event(fields): Startup_MoveDataFiles_CopyDir(UnicodeString OldPath, UnicodeString
+  NewPath)
+opcode: ''
+keywords: Service
+task: Startup_MoveDataFiles_CopyDir
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: OldPath
+- field_type: UnicodeString
+  field_name: NewPath

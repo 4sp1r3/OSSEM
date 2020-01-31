@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '503'
+version: '0'
+event(fields): PlumberPolicyAbortStop()
+opcode: Stop
+keywords: Service
+task: PlumberPolicyAbort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

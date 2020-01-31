@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '350'
+version: '0'
+event(fields): UnifiedListView_MultipleCharacterQuery()
+opcode: ''
+keywords: unifiedlistview
+task: UnifiedListView_MultipleCharacterQuery
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

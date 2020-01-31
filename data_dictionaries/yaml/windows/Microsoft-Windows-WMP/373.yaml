@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '373'
+version: '0'
+event(fields): HME_UPnPDiscoveryBeginStop(Boolean IgnoreUPnPDiscovery, UInt32 HRESULT)
+opcode: Stop
+keywords: mediaplayer
+task: HME_UPnPDiscoveryBegin
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IgnoreUPnPDiscovery
+- field_type: UInt32
+  field_name: HRESULT

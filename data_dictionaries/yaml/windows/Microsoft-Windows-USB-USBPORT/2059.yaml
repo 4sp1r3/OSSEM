@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '2059'
+version: '0'
+event(fields): MiniportResumeDispatch2059(UnicodeString fid_USBPORT_HC)
+opcode: Dispatch
+keywords: Diagnostic
+task: MiniportResume
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: fid_USBPORT_HC

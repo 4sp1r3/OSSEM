@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-ESE
+event_id: '143'
+version: '0'
+event(fields): ESE_CacheScavengeProgress_Trace(Int64 iRun, Int32 cbfVisited, Int32
+  cbfCacheSize, Int32 cbfCacheTarget, Int32 cbfCacheSizeStartShrink, UInt32 dtickShrinkDuration,
+  Int32 cbfAvail, Int32 cbfAvailPoolLow, Int32 cbfAvailPoolHigh, Int32 cbfFlushPending,
+  Int32 cbfFlushPendingSlow, Int32 cbfFlushPendingHung, Int32 cbfOutOfMemory, Int32
+  cbfPermanentErrs, Int32 eStopReason, Int32 errRun)
+opcode: ''
+keywords: Performance BF
+task: ESE_CacheScavengeProgress_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: iRun
+- field_type: Int32
+  field_name: cbfVisited
+- field_type: Int32
+  field_name: cbfCacheSize
+- field_type: Int32
+  field_name: cbfCacheTarget
+- field_type: Int32
+  field_name: cbfCacheSizeStartShrink
+- field_type: UInt32
+  field_name: dtickShrinkDuration
+- field_type: Int32
+  field_name: cbfAvail
+- field_type: Int32
+  field_name: cbfAvailPoolLow
+- field_type: Int32
+  field_name: cbfAvailPoolHigh
+- field_type: Int32
+  field_name: cbfFlushPending
+- field_type: Int32
+  field_name: cbfFlushPendingSlow
+- field_type: Int32
+  field_name: cbfFlushPendingHung
+- field_type: Int32
+  field_name: cbfOutOfMemory
+- field_type: Int32
+  field_name: cbfPermanentErrs
+- field_type: Int32
+  field_name: eStopReason
+- field_type: Int32
+  field_name: errRun

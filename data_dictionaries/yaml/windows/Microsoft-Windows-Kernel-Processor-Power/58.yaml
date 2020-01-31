@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '58'
+version: '0'
+event(fields): PepGetIdleStates58(UInt16 Group, UInt8 Number, UInt32 MaximumCoordinatedProcessors,
+  UInt32 StateCount, Int16 States)
+opcode: ''
+keywords: Diag
+task: PepGetIdleStates
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: MaximumCoordinatedProcessors
+- field_type: UInt32
+  field_name: StateCount
+- field_type: Int16
+  field_name: States

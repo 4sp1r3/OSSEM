@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60714'
+version: '0'
+event(fields): Shell32_CDesktopWallpaper_AutoSpan(UnicodeString pszFilePath, UInt32
+  uImageWidth, UInt32 uImageHeight)
+opcode: ''
+keywords: Shell
+task: Shell32_CDesktopWallpaper_AutoSpan
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pszFilePath
+- field_type: UInt32
+  field_name: uImageWidth
+- field_type: UInt32
+  field_name: uImageHeight

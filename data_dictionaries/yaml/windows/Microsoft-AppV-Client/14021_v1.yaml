@@ -1,0 +1,17 @@
+provider: Microsoft-AppV-Client
+event_id: '14021'
+version: '1'
+event(fields): Streaming14021_V1(GUID tGuid, UnicodeString tString, Int32 HResult)
+opcode: ''
+keywords: Streaming
+task: Streaming
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: tGuid
+- field_type: UnicodeString
+  field_name: tString
+- field_type: Int32
+  field_name: HResult

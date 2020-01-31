@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1506'
+version: '0'
+event(fields): IpReassembly1506(UInt32 Release, UInt32 AddressFamily, UInt32 IfIndex)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:ReceivePath keyword_10000000000
+task: IpReassembly
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Release
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: IfIndex

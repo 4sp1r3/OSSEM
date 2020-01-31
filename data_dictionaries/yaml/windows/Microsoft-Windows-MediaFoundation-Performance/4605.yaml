@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4605'
+version: '0'
+event(fields): MFContentProtectionDeviceCalltaskStop(Pointer object, UInt32 functionID,
+  UInt32 inputbytes, UInt32 outputbytes, UInt32 msTransportTime, UInt32 msExecutionTime,
+  UInt32 msTotal, UInt32 hrResult)
+opcode: Stop
+keywords: ''
+task: MFContentProtectionDeviceCalltask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: functionID
+- field_type: UInt32
+  field_name: inputbytes
+- field_type: UInt32
+  field_name: outputbytes
+- field_type: UInt32
+  field_name: msTransportTime
+- field_type: UInt32
+  field_name: msExecutionTime
+- field_type: UInt32
+  field_name: msTotal
+- field_type: UInt32
+  field_name: hrResult

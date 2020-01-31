@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '295'
+version: '0'
+event(fields): MIDMANIPULATION_UPDATE_INTERACTION_REMOVAL(Pointer Interaction, Pointer
+  Visual)
+opcode: ''
+keywords: DwmCore DwmInput
+task: MIDMANIPULATION_UPDATE_INTERACTION_REMOVAL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Interaction
+- field_type: Pointer
+  field_name: Visual

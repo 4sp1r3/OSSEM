@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-LiveId
+event_id: '6114'
+version: '0'
+event(fields): task_06114(UInt32 RequestType, AnsiString cid, UInt32 ErrorCode, AnsiString
+  MachineEnvironment)
+opcode: ''
+keywords: Error Operational WlidSvc SOAP
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestType
+- field_type: AnsiString
+  field_name: cid
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: AnsiString
+  field_name: MachineEnvironment

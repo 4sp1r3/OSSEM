@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WWAN-CFE
+event_id: '7'
+version: '0'
+event(fields): L2_Connect_DurationStop()
+opcode: Stop
+keywords: ''
+task: L2_Connect_Duration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '46'
+version: '0'
+event(fields): CustomDriverMarker46(Pointer pID3D11Device, Int32 StringIndex, UnicodeString
+  Description)
+opcode: ''
+keywords: DriverCustomMarkers
+task: CustomDriverMarker
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D11Device
+- field_type: Int32
+  field_name: StringIndex
+- field_type: UnicodeString
+  field_name: Description

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '808'
+version: '0'
+event(fields): WINHTTP_AUTOPROXY_SEARCHFail(UInt32 Error)
+opcode: Fail
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_AUTOPROXY_SEARCH
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error

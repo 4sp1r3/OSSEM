@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ThemeCPL
+event_id: '0'
+version: '0'
+event(fields): ThemeCPL_Personalization_Page_Ready()
+opcode: ''
+keywords: ''
+task: ThemeCPL_Personalization_Page_Ready
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

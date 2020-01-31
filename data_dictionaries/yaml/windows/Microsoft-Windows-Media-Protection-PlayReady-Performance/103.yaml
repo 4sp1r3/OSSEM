@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '103'
+version: '0'
+event(fields): MFTProcessingLoopStateWaitingForStartStop(Pointer CMFTAsyncSimpleBase_ptr)
+opcode: Stop
+keywords: ''
+task: MFTProcessingLoopStateWaitingForStart
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMFTAsyncSimpleBase_ptr

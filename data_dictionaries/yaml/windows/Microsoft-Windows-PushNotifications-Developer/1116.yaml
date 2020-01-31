@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Developer
+event_id: '1116'
+version: '0'
+event(fields): ToastErrorStart()
+opcode: Start
+keywords: ''
+task: ToastError
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '16405'
+version: '0'
+event(fields): task_016405(UnicodeString Key, UnicodeString SubKeyOrValueName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Key
+- field_type: UnicodeString
+  field_name: SubKeyOrValueName

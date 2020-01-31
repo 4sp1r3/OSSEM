@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-HttpService
+event_id: '94'
+version: '0'
+event(fields): HTTPSSLTraceTaskSslEndpointConfigRejected(UInt32 AddressLength, Binary
+  Address)
+opcode: SslEndpointConfigRejected
+keywords: HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL
+task: HTTPSSLTraceTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: Binary
+  field_name: Address

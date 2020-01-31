@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1057'
+version: '1'
+event(fields): AppSkip_V1(HexInt32 AppNameKey, UnicodeString AUMID, UInt32 AppSkipReason)
+opcode: ''
+keywords: PfAp
+task: AppSkip
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: AppNameKey
+- field_type: UnicodeString
+  field_name: AUMID
+- field_type: UInt32
+  field_name: AppSkipReason

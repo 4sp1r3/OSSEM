@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Security-EnterpriseData-FileRevocationManager
+event_id: '0'
+version: '0'
+event(fields): task_0ProtectIdentityoperation.(UnicodeString EntIDString, UnicodeString
+  AppIDString)
+opcode: ProtectIdentityoperation.
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EntIDString
+- field_type: UnicodeString
+  field_name: AppIDString

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18863'
+version: '0'
+event(fields): Shell32_AutoDestList_PinItemStart()
+opcode: Start
+keywords: Shell
+task: Shell32_AutoDestList_PinItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

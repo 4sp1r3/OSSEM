@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-PCW
+event_id: '7'
+version: '0'
+event(fields): task_07(GUID ProviderGuid, UInt32 RequestCode)
+opcode: ''
+keywords: notifications
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderGuid
+- field_type: UInt32
+  field_name: RequestCode

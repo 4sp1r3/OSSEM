@@ -1,0 +1,15 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1067'
+version: '0'
+event(fields): iaLPSS2_I2CPowerroutines1067(UInt32 MonitorState, UInt32 Timeout)
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CPowerroutines
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MonitorState
+- field_type: UInt32
+  field_name: Timeout

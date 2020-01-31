@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '5003'
+version: '0'
+event(fields): Create_Media_ServerStart(Pointer Address, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Create_Media_Server
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Address
+- field_type: UInt32
+  field_name: ErrorCode

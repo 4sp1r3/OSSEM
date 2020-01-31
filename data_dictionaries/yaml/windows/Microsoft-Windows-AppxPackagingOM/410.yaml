@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '410'
+version: '0'
+event(fields): AppXPackaging.Task.Signature.EappxSipVerifyIndirectDataStart()
+opcode: Start
+keywords: ''
+task: AppXPackaging.Task.Signature.EappxSipVerifyIndirectData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

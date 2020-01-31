@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DUI
+event_id: '127'
+version: '0'
+event(fields): DirectUI_TouchScrollViewer_IntersectTestStop(UInt64 uiTileID, Int32
+  nRectTop, Int32 nRectBottom, Int32 nRectLeft, Int32 nRectRight)
+opcode: Stop
+keywords: Default
+task: DirectUI_TouchScrollViewer_IntersectTest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: uiTileID
+- field_type: Int32
+  field_name: nRectTop
+- field_type: Int32
+  field_name: nRectBottom
+- field_type: Int32
+  field_name: nRectLeft
+- field_type: Int32
+  field_name: nRectRight

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '20023'
+version: '0'
+event(fields): task_020023(GUID InterfaceGuid, UInt32 Status)
+opcode: ''
+keywords: MSM keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: Status

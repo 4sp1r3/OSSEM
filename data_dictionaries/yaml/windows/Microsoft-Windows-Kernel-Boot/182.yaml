@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '182'
+version: '0'
+event(fields): IoSpaceMemoryEnumerateFailure(UInt32 Status)
+opcode: EnumerateFailure
+keywords: SoftRestart
+task: IoSpaceMemory
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

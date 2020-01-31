@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1224'
+version: '0'
+event(fields): task_01224(UInt32 Bytes, Binary Payload, UInt32 ConnectionType)
+opcode: ''
+keywords: wnptrans
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Bytes
+- field_type: Binary
+  field_name: Payload
+- field_type: UInt32
+  field_name: ConnectionType

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SENSE
+event_id: '96'
+version: '0'
+event(fields): task_096(HexInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HRESULT

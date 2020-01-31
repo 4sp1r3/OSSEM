@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '305'
+version: '1'
+event(fields): ReferenceWrittenPrimaries_V1(Pointer hContext, UInt32 SubmitSequence,
+  UInt32 uiNbWrittenPrimaries, Pointer WrittenPrimaries, Pointer pQueuePacket)
+opcode: ''
+keywords: References
+task: ReferenceWrittenPrimaries
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: SubmitSequence
+- field_type: UInt32
+  field_name: uiNbWrittenPrimaries
+- field_type: Pointer
+  field_name: WrittenPrimaries
+- field_type: Pointer
+  field_name: pQueuePacket

@@ -1,0 +1,57 @@
+provider: Microsoft-Windows-SEC
+event_id: '18'
+version: '0'
+event(fields): task_018(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime,
+  HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, HexInt32 TargetProcessId, Int64
+  TargetProcessTime, UnicodeString TargetProcessName, HexInt32 TargetThreadId, Pointer
+  TargetThreadStartAddress, UInt32 StartAddressVadQueryResult, Pointer StartAddressVadAllocationBase,
+  UInt32 StartAddressVadAllocationProtect, UInt32 StartAddressVadRegionType, Pointer
+  StartAddressVadRegionSize, UInt32 StartAddressVadProtect, UInt64 SourceProcessStartKey,
+  UInt64 TargetProcessStartKey, UnicodeString MappedModuleName)
+opcode: ''
+keywords: Event18
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: HexInt32
+  field_name: ProcessId
+- field_type: Int64
+  field_name: ProcessTime
+- field_type: HexInt32
+  field_name: ThreadId
+- field_type: SID
+  field_name: UserSid
+- field_type: HexInt32
+  field_name: SessionId
+- field_type: HexInt32
+  field_name: TargetProcessId
+- field_type: Int64
+  field_name: TargetProcessTime
+- field_type: UnicodeString
+  field_name: TargetProcessName
+- field_type: HexInt32
+  field_name: TargetThreadId
+- field_type: Pointer
+  field_name: TargetThreadStartAddress
+- field_type: UInt32
+  field_name: StartAddressVadQueryResult
+- field_type: Pointer
+  field_name: StartAddressVadAllocationBase
+- field_type: UInt32
+  field_name: StartAddressVadAllocationProtect
+- field_type: UInt32
+  field_name: StartAddressVadRegionType
+- field_type: Pointer
+  field_name: StartAddressVadRegionSize
+- field_type: UInt32
+  field_name: StartAddressVadProtect
+- field_type: UInt64
+  field_name: SourceProcessStartKey
+- field_type: UInt64
+  field_name: TargetProcessStartKey
+- field_type: UnicodeString
+  field_name: MappedModuleName

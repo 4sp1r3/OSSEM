@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '43'
+version: '0'
+event(fields): BrightnessAndTransitionTimes(UInt32 EffectiveBrightnessPercentage,
+  UInt32 EffectiveBrightnessMillinits, UInt32 NewBrightnessTransitionTime, UInt32
+  DimmingTransitionTime, UInt32 DimmedBrightnessPercentage, UInt32 DimmedBrightnessMillinits,
+  UInt32 NewDimmedTransitionTime, UInt32 UnDimmingTransitionTime)
+opcode: ''
+keywords: BrightnessTransition
+task: BrightnessAndTransitionTimes
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EffectiveBrightnessPercentage
+- field_type: UInt32
+  field_name: EffectiveBrightnessMillinits
+- field_type: UInt32
+  field_name: NewBrightnessTransitionTime
+- field_type: UInt32
+  field_name: DimmingTransitionTime
+- field_type: UInt32
+  field_name: DimmedBrightnessPercentage
+- field_type: UInt32
+  field_name: DimmedBrightnessMillinits
+- field_type: UInt32
+  field_name: NewDimmedTransitionTime
+- field_type: UInt32
+  field_name: UnDimmingTransitionTime

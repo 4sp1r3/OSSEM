@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '126'
+version: '0'
+event(fields): ManifestParseManifest126(HexInt32 errorCode, UInt32 lineNumber, UInt32
+  columnNumber, UnicodeString fullValue, UnicodeString fieldValue)
+opcode: ParseManifest
+keywords: ''
+task: Manifest
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UInt32
+  field_name: lineNumber
+- field_type: UInt32
+  field_name: columnNumber
+- field_type: UnicodeString
+  field_name: fullValue
+- field_type: UnicodeString
+  field_name: fieldValue

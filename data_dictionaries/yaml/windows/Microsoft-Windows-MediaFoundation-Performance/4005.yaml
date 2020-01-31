@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4005'
+version: '0'
+event(fields): EvrDWMDequeue(AnsiString tag, Pointer object, Pointer sample, Int64
+  originalTargetQPC, Int64 targetQPC, Int64 targetAhead, Int64 submittedQPC, Int64
+  submittedAhead, Int64 now, Int64 presentTime, UInt64 dwmFramesPresented, Int64 dwmRefreshStartCount,
+  UInt32 buffersEmpty, Int64 refreshFrameCount)
+opcode: ''
+keywords: ''
+task: EvrDWMDequeue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: sample
+- field_type: Int64
+  field_name: originalTargetQPC
+- field_type: Int64
+  field_name: targetQPC
+- field_type: Int64
+  field_name: targetAhead
+- field_type: Int64
+  field_name: submittedQPC
+- field_type: Int64
+  field_name: submittedAhead
+- field_type: Int64
+  field_name: now
+- field_type: Int64
+  field_name: presentTime
+- field_type: UInt64
+  field_name: dwmFramesPresented
+- field_type: Int64
+  field_name: dwmRefreshStartCount
+- field_type: UInt32
+  field_name: buffersEmpty
+- field_type: Int64
+  field_name: refreshFrameCount

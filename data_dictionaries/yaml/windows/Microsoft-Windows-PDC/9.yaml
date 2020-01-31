@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDC
+event_id: '9'
+version: '0'
+event(fields): ActivatorClientAcknowledgement(Pointer Client, UInt32 State)
+opcode: ''
+keywords: activators
+task: ActivatorClientAcknowledgement
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: UInt32
+  field_name: State

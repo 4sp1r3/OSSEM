@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DVD
+event_id: '14'
+version: '0'
+event(fields): NavSendErrorNotification(Pointer Object, Int32 Param1, Int32 Param2)
+opcode: ''
+keywords: ''
+task: NavSendErrorNotification
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: Param1
+- field_type: Int32
+  field_name: Param2

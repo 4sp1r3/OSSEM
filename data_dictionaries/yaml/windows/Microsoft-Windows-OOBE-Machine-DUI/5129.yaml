@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OOBE-Machine-DUI
+event_id: '5129'
+version: '0'
+event(fields): RtfReader_LoadFile5129(UnicodeString Text)
+opcode: ''
+keywords: msoobe
+task: RtfReader_LoadFile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Text

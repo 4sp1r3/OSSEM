@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18764'
+version: '0'
+event(fields): Shell32_KnownFolderManager_Redirect_CopyStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_KnownFolderManager_Redirect_Copy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ModernDeployment-Diagnostics-Provider
+event_id: '113'
+version: '0'
+event(fields): task_0113(Int32 Int1)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Int1

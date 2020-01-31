@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Backup
+event_id: '198'
+version: '0'
+event(fields): task_0198(UnicodeString VolumeFriendlyName, UnicodeString VolumeAccessPath)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VolumeFriendlyName
+- field_type: UnicodeString
+  field_name: VolumeAccessPath

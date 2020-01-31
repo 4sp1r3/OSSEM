@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5054'
+version: '0'
+event(fields): VMT_VID_MEMORY_BLOCK_PHU_TEARDOWNStart(UInt64 MbpArraySize, UInt32
+  KsrRunCount, GUID PartitionGuid)
+opcode: Start
+keywords: VMK_MEMORY_BLOCK
+task: VMT_VID_MEMORY_BLOCK_PHU_TEARDOWN
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MbpArraySize
+- field_type: UInt32
+  field_name: KsrRunCount
+- field_type: GUID
+  field_name: PartitionGuid

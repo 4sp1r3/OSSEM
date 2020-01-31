@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '149'
+version: '0'
+event(fields): PointerDownStart()
+opcode: Start
+keywords: Input
+task: PointerDown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

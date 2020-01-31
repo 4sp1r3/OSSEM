@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathRecognizer
+event_id: '15'
+version: '0'
+event(fields): RecognitionStructureRecoStart()
+opcode: Start
+keywords: ''
+task: RecognitionStructureReco
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

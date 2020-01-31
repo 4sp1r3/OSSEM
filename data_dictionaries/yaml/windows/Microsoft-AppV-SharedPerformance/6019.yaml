@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6019'
+version: '0'
+event(fields): CancelLoadStop()
+opcode: Stop
+keywords: ''
+task: CancelLoad
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

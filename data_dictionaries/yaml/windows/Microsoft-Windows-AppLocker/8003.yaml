@@ -1,0 +1,52 @@
+provider: Microsoft-Windows-AppLocker
+event_id: '8003'
+version: '0'
+event(fields): task_08003(UInt16 PolicyNameLength, UnicodeString PolicyNameBuffer,
+  GUID RuleId, UInt16 RuleNameLength, UnicodeString RuleNameBuffer, UInt16 RuleSddlLength,
+  UnicodeString RuleSddlBuffer, SID TargetUser, UInt32 TargetProcessId, UInt16 FilePathLength,
+  UnicodeString FilePathBuffer, UInt16 FileHashLength, Binary FileHash, UInt16 FqbnLength,
+  UnicodeString Fqbn, HexInt64 TargetLogonId, UInt16 FullFilePathLength, UnicodeString
+  FullFilePathBuffer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: PolicyNameLength
+- field_type: UnicodeString
+  field_name: PolicyNameBuffer
+- field_type: GUID
+  field_name: RuleId
+- field_type: UInt16
+  field_name: RuleNameLength
+- field_type: UnicodeString
+  field_name: RuleNameBuffer
+- field_type: UInt16
+  field_name: RuleSddlLength
+- field_type: UnicodeString
+  field_name: RuleSddlBuffer
+- field_type: SID
+  field_name: TargetUser
+- field_type: UInt32
+  field_name: TargetProcessId
+- field_type: UInt16
+  field_name: FilePathLength
+- field_type: UnicodeString
+  field_name: FilePathBuffer
+- field_type: UInt16
+  field_name: FileHashLength
+- field_type: Binary
+  field_name: FileHash
+- field_type: UInt16
+  field_name: FqbnLength
+- field_type: UnicodeString
+  field_name: Fqbn
+- field_type: HexInt64
+  field_name: TargetLogonId
+- field_type: UInt16
+  field_name: FullFilePathLength
+- field_type: UnicodeString
+  field_name: FullFilePathBuffer

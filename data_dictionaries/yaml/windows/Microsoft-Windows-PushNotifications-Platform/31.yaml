@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '31'
+version: '0'
+event(fields): task_031(UInt64 TotalSize)
+opcode: ''
+keywords: wpnplat
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TotalSize

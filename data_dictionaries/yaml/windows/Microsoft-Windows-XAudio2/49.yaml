@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAudio2
+event_id: '49'
+version: '0'
+event(fields): SubmixVoiceCreate49(UInt32 OriginalHz, UInt32 NewHz, UInt32 Quantum)
+opcode: Create
+keywords: ''
+task: SubmixVoice
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OriginalHz
+- field_type: UInt32
+  field_name: NewHz
+- field_type: UInt32
+  field_name: Quantum

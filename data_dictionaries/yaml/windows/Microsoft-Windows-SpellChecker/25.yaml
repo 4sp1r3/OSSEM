@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SpellChecker
+event_id: '25'
+version: '0'
+event(fields): SettingandGettingOptionsStart25()
+opcode: Start
+keywords: ''
+task: SettingandGettingOptions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

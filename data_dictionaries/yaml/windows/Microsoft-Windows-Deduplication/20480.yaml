@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20480'
+version: '0'
+event(fields): OpenstreamstorestreamStart(Binary StartingChunkId, UInt64 FileId)
+opcode: Start
+keywords: KmStreamStore
+task: Openstreamstorestream
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: StartingChunkId
+- field_type: UInt64
+  field_name: FileId

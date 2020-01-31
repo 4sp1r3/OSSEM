@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '55'
+version: '1'
+event(fields): MergeThreadStop_V1(UInt32 Level, UInt64 Type)
+opcode: Stop
+keywords: Performance Indexing IndexPI
+task: MergeThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Level
+- field_type: UInt64
+  field_name: Type

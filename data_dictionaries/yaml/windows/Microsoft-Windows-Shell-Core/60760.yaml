@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60760'
+version: '0'
+event(fields): Shell32_ActiveSetup_RunSetupCommandStop(UnicodeString pszPathName)
+opcode: Stop
+keywords: Shell ActiveSetup
+task: Shell32_ActiveSetup_RunSetupCommand
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pszPathName

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4898'
+version: '0'
+event(fields): task_04898(UnicodeString TemplateInternalName, UnicodeString TemplateVersion,
+  UnicodeString TemplateSchemaVersion, UnicodeString TemplateOID, UnicodeString TemplateDSObjectFQDN,
+  UnicodeString DCDNSName, UnicodeString TemplateContent, UnicodeString SecurityDescriptor)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TemplateInternalName
+- field_type: UnicodeString
+  field_name: TemplateVersion
+- field_type: UnicodeString
+  field_name: TemplateSchemaVersion
+- field_type: UnicodeString
+  field_name: TemplateOID
+- field_type: UnicodeString
+  field_name: TemplateDSObjectFQDN
+- field_type: UnicodeString
+  field_name: DCDNSName
+- field_type: UnicodeString
+  field_name: TemplateContent
+- field_type: UnicodeString
+  field_name: SecurityDescriptor

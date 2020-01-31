@@ -1,0 +1,26 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2804'
+version: '0'
+event(fields): TimeoutInfo2804(Int32 Param, Int32 Param2, Int32 Param3, Int32 Param4,
+  Int32 Param5, Int32 Param6, Int32 Param7)
+opcode: ''
+keywords: TimeoutInfo
+task: TimeoutInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Param
+- field_type: Int32
+  field_name: Param2
+- field_type: Int32
+  field_name: Param3
+- field_type: Int32
+  field_name: Param4
+- field_type: Int32
+  field_name: Param5
+- field_type: Int32
+  field_name: Param6
+- field_type: Int32
+  field_name: Param7

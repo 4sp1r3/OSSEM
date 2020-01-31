@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4312'
+version: '0'
+event(fields): CTX_LOADDEFAULTMESSAGESTOREStart()
+opcode: Start
+keywords: Performance
+task: CTX_LOADDEFAULTMESSAGESTORE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

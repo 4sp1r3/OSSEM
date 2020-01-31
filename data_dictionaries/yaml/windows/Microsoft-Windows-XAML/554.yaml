@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '554'
+version: '0'
+event(fields): SetCustomRuntimeDataForDeferredElementStop()
+opcode: Stop
+keywords: Core
+task: SetCustomRuntimeDataForDeferredElement
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

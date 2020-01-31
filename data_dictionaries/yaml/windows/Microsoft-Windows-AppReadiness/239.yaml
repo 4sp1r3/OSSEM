@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '239'
+version: '0'
+event(fields): AppReadiness_User_ProcessTasksStop239(HexInt32 ExitCode)
+opcode: Stop
+keywords: Tasks keyword_400000000000
+task: AppReadiness_User_ProcessTasks
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ExitCode

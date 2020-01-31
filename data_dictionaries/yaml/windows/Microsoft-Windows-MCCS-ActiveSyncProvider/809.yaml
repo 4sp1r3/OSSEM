@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '809'
+version: '0'
+event(fields): task_0809(HexInt32 Prop_Dword)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_Dword

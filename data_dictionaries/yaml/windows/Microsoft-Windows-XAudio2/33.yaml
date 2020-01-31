@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-XAudio2
+event_id: '33'
+version: '0'
+event(fields): Shutdown33(UInt32 SourceVoiceCount, UInt32 SubmixVoiceCount, UInt32
+  MasteringVoiceCount)
+opcode: ''
+keywords: ''
+task: Shutdown
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SourceVoiceCount
+- field_type: UInt32
+  field_name: SubmixVoiceCount
+- field_type: UInt32
+  field_name: MasteringVoiceCount

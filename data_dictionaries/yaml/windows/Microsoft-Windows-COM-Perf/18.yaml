@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '18'
+version: '0'
+event(fields): ExtensionCatalog_QueryCatalogStop(Int32 HRESULT, UnicodeString ContractId)
+opcode: Stop
+keywords: ''
+task: ExtensionCatalog_QueryCatalog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HRESULT
+- field_type: UnicodeString
+  field_name: ContractId

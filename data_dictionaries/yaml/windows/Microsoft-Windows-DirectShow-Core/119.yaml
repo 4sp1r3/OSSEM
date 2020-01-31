@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '119'
+version: '0'
+event(fields): DirectShowFilterGraphGetStateStart(Pointer context, UInt32 timeout)
+opcode: Start
+keywords: ''
+task: DirectShowFilterGraphGetState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: context
+- field_type: UInt32
+  field_name: timeout

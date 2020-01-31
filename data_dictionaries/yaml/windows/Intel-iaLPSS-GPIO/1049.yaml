@@ -1,0 +1,17 @@
+provider: Intel-iaLPSS-GPIO
+event_id: '1049'
+version: '0'
+event(fields): GpioIOoperations1049(HexInt32 BankID, HexInt64 SetValue, HexInt64 ClearValue)
+opcode: ''
+keywords: ''
+task: GpioIOoperations
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: BankID
+- field_type: HexInt64
+  field_name: SetValue
+- field_type: HexInt64
+  field_name: ClearValue

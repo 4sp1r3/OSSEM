@@ -1,0 +1,69 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '8'
+version: '2'
+event(fields): Smb2RequestCreate_V2(UInt64 SessionId, UInt32 ProcessId, UInt32 TreeId,
+  UInt64 MessageId, UInt64 MasterMessageId, UInt16 Command, UInt16 CreditsRequested,
+  UInt32 Flags, UInt8 SecurityFlags, UInt8 RequestedOplockLevel, UInt32 ImpersonationLevel,
+  UInt64 CreateFlags, UInt64 RootDirectoryFid, Int32 DesiredAccess, Int32 FileAttributes,
+  Int32 ShareAccess, Int32 CreateDisposition, Int32 CreateOptions, UInt16 NameLength,
+  UnicodeString FileName, UInt32 CreateContextsCount, GUID LeaseKey, UInt32 LeaseLevel,
+  GUID ConnectionGUID, GUID SessionGUID, GUID TreeConnectGUID)
+opcode: ''
+keywords: Request
+task: Smb2RequestCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: TreeId
+- field_type: UInt64
+  field_name: MessageId
+- field_type: UInt64
+  field_name: MasterMessageId
+- field_type: UInt16
+  field_name: Command
+- field_type: UInt16
+  field_name: CreditsRequested
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt8
+  field_name: SecurityFlags
+- field_type: UInt8
+  field_name: RequestedOplockLevel
+- field_type: UInt32
+  field_name: ImpersonationLevel
+- field_type: UInt64
+  field_name: CreateFlags
+- field_type: UInt64
+  field_name: RootDirectoryFid
+- field_type: Int32
+  field_name: DesiredAccess
+- field_type: Int32
+  field_name: FileAttributes
+- field_type: Int32
+  field_name: ShareAccess
+- field_type: Int32
+  field_name: CreateDisposition
+- field_type: Int32
+  field_name: CreateOptions
+- field_type: UInt16
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: CreateContextsCount
+- field_type: GUID
+  field_name: LeaseKey
+- field_type: UInt32
+  field_name: LeaseLevel
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: TreeConnectGUID

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '256'
+version: '0'
+event(fields): EnumMonitorsStart(Pointer Object)
+opcode: Start
+keywords: ''
+task: EnumMonitors
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

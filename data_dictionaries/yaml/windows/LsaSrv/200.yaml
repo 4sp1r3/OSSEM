@@ -1,0 +1,36 @@
+provider: LsaSrv
+event_id: '200'
+version: '0'
+event(fields): task_0200(UnicodeString UserName, UnicodeString DomainName, HexInt64
+  LogonId, SYSTEMTIME LogoffTime, UInt32 PID, UnicodeString Program, UnicodeString
+  PrincipalName, UnicodeString ServerName, UnicodeString PackageName, UnicodeString
+  CallType, HexInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UnicodeString
+  field_name: DomainName
+- field_type: HexInt64
+  field_name: LogonId
+- field_type: SYSTEMTIME
+  field_name: LogoffTime
+- field_type: UInt32
+  field_name: PID
+- field_type: UnicodeString
+  field_name: Program
+- field_type: UnicodeString
+  field_name: PrincipalName
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UnicodeString
+  field_name: CallType
+- field_type: HexInt32
+  field_name: ErrorCode

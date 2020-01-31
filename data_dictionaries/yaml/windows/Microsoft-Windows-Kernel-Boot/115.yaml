@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '115'
+version: '0'
+event(fields): CancelBootStart(Boolean FreePersistentPages)
+opcode: Start
+keywords: SoftRestart
+task: CancelBoot
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: FreePersistentPages

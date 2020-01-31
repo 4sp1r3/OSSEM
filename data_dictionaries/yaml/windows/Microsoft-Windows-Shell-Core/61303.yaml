@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61303'
+version: '0'
+event(fields): Shell32_DiscImage_MountVerbStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_DiscImage_MountVerb
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

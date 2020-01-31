@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataUtils
+event_id: '102'
+version: '0'
+event(fields): task_0102(UnicodeString Prop_Trace_UnicodeString)
+opcode: ''
+keywords: ServiceBase keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_Trace_UnicodeString

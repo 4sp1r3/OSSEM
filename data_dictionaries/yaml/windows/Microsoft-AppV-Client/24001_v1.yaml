@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '24001'
+version: '1'
+event(fields): Enable/DisableAppv_V1(Int32 Error)
+opcode: ''
+keywords: AppManagementConfiguration
+task: Enable/DisableAppv
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Error

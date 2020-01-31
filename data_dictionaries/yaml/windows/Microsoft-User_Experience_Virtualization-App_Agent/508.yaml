@@ -1,0 +1,11 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '508'
+version: '0'
+event(fields): AppAgentruntimeTemplateService()
+opcode: TemplateService
+keywords: ''
+task: AppAgentruntime
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

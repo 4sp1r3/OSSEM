@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '158'
+version: '0'
+event(fields): task_0158(UnicodeString PackageFullName, UInt32 Type, UInt32 Reason)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Reason

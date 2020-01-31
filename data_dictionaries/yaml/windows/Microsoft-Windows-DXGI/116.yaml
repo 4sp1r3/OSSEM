@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DXGI
+event_id: '116'
+version: '0'
+event(fields): IDXGIAdapter_GetParentStart(Pointer pThis, GUID riid, Pointer ppvObject)
+opcode: Start
+keywords: ''
+task: IDXGIAdapter_GetParent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: GUID
+  field_name: riid
+- field_type: Pointer
+  field_name: ppvObject

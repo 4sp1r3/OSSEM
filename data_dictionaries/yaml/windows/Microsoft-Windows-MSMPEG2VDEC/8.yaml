@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '8'
+version: '0'
+event(fields): H264_SetQualityMode(UInt8 QualityMode)
+opcode: ''
+keywords: ''
+task: H264_SetQualityMode
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: QualityMode

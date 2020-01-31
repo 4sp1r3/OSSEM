@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '46012'
+version: '0'
+event(fields): InstallAssemblyStart(UnicodeString ustring)
+opcode: Start
+keywords: ''
+task: InstallAssembly
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ustring

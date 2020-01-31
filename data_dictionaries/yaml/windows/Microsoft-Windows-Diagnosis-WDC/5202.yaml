@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-WDC
+event_id: '5202'
+version: '0'
+event(fields): PerfTrack_TabSwitchStart(UInt32 TabId)
+opcode: Start
+keywords: ''
+task: PerfTrack_TabSwitch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabId

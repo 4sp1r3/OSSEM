@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Bluetooth-Policy
+event_id: '8'
+version: '0'
+event(fields): task_08(UnicodeString Accepted, Int16 Psm, UInt64 BtAddr, UnicodeString
+  PolicyPath, UnicodeString PolicyName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Accepted
+- field_type: Int16
+  field_name: Psm
+- field_type: UInt64
+  field_name: BtAddr
+- field_type: UnicodeString
+  field_name: PolicyPath
+- field_type: UnicodeString
+  field_name: PolicyName

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '1512'
+version: '0'
+event(fields): DocPerf_Task_Wia_ServicePauseStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Wia_ServicePause
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

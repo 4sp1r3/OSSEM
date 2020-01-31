@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DUSER
+event_id: '78'
+version: '0'
+event(fields): DUser_ModifyDCompTransform(Pointer pTransitionVisual, Pointer pDCompVisual,
+  Int32 nTransformType, Pointer pTransform, Boolean fAnimation)
+opcode: ''
+keywords: Default
+task: DUser_ModifyDCompTransform
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pTransitionVisual
+- field_type: Pointer
+  field_name: pDCompVisual
+- field_type: Int32
+  field_name: nTransformType
+- field_type: Pointer
+  field_name: pTransform
+- field_type: Boolean
+  field_name: fAnimation

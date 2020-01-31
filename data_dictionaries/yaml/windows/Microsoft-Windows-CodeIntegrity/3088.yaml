@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3088'
+version: '0'
+event(fields): CreateSectionSmartlockerVerbose(UInt16 FileNameLength, UnicodeString
+  FileName, HexInt32 StatusCode, Boolean ManagedInstallerEnabled, Boolean PassesManagedInstaller,
+  Boolean SmartlockerEnabled, Boolean PassesSmartlocker, Int32 DefenderTrust, Boolean
+  AuditEnabled, UInt16 PolicyNameLength, UnicodeString PolicyName, UInt16 PolicyIDLength,
+  UnicodeString PolicyID)
+opcode: SmartlockerVerbose
+keywords: ''
+task: CreateSection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: HexInt32
+  field_name: StatusCode
+- field_type: Boolean
+  field_name: ManagedInstallerEnabled
+- field_type: Boolean
+  field_name: PassesManagedInstaller
+- field_type: Boolean
+  field_name: SmartlockerEnabled
+- field_type: Boolean
+  field_name: PassesSmartlocker
+- field_type: Int32
+  field_name: DefenderTrust
+- field_type: Boolean
+  field_name: AuditEnabled
+- field_type: UInt16
+  field_name: PolicyNameLength
+- field_type: UnicodeString
+  field_name: PolicyName
+- field_type: UInt16
+  field_name: PolicyIDLength
+- field_type: UnicodeString
+  field_name: PolicyID

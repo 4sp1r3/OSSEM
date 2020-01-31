@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '1'
+version: '0'
+event(fields): PluginManager(GUID clsid)
+opcode: ''
+keywords: ''
+task: PluginManager
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: clsid

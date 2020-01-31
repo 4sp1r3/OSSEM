@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '803'
+version: '0'
+event(fields): SaveRegistrationPreferences803(UInt32 hexCode1, UInt32 hexCode2, UInt32
+  hexCode3)
+opcode: ''
+keywords: Trace
+task: SaveRegistrationPreferences
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hexCode1
+- field_type: UInt32
+  field_name: hexCode2
+- field_type: UInt32
+  field_name: hexCode3

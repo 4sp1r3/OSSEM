@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RTWorkQueue-Extended
+event_id: '4'
+version: '0'
+event(fields): WorkQueue:ExtendedInvalidCallbackAttempt(Pointer Platform, Pointer
+  Callback, UInt32 WorkQueueID)
+opcode: ''
+keywords: ''
+task: WorkQueue:ExtendedInvalidCallbackAttempt
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Platform
+- field_type: Pointer
+  field_name: Callback
+- field_type: UInt32
+  field_name: WorkQueueID

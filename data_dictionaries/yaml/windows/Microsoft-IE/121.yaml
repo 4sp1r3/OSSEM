@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '121'
+version: '0'
+event(fields): Mshtml_DOM_Marshalling_NativeStart(Pointer VTable, UInt32 MethodType)
+opcode: Start
+keywords: marshalling
+task: Mshtml_DOM_Marshalling_Native
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: VTable
+- field_type: UInt32
+  field_name: MethodType

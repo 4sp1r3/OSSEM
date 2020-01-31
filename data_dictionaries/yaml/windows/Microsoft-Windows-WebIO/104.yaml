@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WebIO
+event_id: '104'
+version: '0'
+event(fields): RequestWaitingForConnectionStop(Pointer Request, Pointer ConnMgr, Pointer
+  Connection)
+opcode: Stop
+keywords: ''
+task: RequestWaitingForConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: Pointer
+  field_name: ConnMgr
+- field_type: Pointer
+  field_name: Connection

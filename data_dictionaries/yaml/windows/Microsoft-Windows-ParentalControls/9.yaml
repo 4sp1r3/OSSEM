@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '9'
+version: '0'
+event(fields): IMLeaveLaunch(UnicodeString Application, UnicodeString Version, UnicodeString
+  AccountName, UnicodeString ConversationID, UnicodeString LeavingIP, UnicodeString
+  LeavingUser, UInt32 Reason, UInt32 MemberCount, UnicodeString Member, UInt32 Flags)
+opcode: Launch
+keywords: WPC ThirdParty
+task: IMLeave
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Application
+- field_type: UnicodeString
+  field_name: Version
+- field_type: UnicodeString
+  field_name: AccountName
+- field_type: UnicodeString
+  field_name: ConversationID
+- field_type: UnicodeString
+  field_name: LeavingIP
+- field_type: UnicodeString
+  field_name: LeavingUser
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: MemberCount
+- field_type: UnicodeString
+  field_name: Member
+- field_type: UInt32
+  field_name: Flags

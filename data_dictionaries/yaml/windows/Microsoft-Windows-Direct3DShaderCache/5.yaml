@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '5'
+version: '0'
+event(fields): CreateShaderCacheStop(Int32 Return, Pointer Cache)
+opcode: Stop
+keywords: APIs Profiling
+task: CreateShaderCache
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Return
+- field_type: Pointer
+  field_name: Cache

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '367'
+version: '0'
+event(fields): AppXPackaging.Task.BundleWriterStop()
+opcode: Stop
+keywords: keyword_400000000000
+task: AppXPackaging.Task.BundleWriter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

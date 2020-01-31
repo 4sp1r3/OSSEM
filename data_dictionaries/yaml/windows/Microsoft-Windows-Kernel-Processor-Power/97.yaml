@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '97'
+version: '0'
+event(fields): ComputeEnergy(UInt32 EfficiencyClass, UInt64 EnergyInMicroJoules)
+opcode: ''
+keywords: EnergyEstimation
+task: ComputeEnergy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EfficiencyClass
+- field_type: UInt64
+  field_name: EnergyInMicroJoules

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-VHDMP
+event_id: '3'
+version: '0'
+event(fields): task_03(UnicodeString VhdFileName, UInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VhdFileName
+- field_type: UInt32
+  field_name: Status

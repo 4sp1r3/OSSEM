@@ -1,0 +1,22 @@
+provider: Intel-iaLPSS-I2C
+event_id: '1021'
+version: '1'
+event(fields): EnumerationofSPBCxdriver1021_V1(Pointer TxDmaEnabler, Pointer RxDmaEnabler,
+  Pointer WDFDevice, HexInt64 MMIO, UnicodeString Status)
+opcode: ''
+keywords: ''
+task: EnumerationofSPBCxdriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TxDmaEnabler
+- field_type: Pointer
+  field_name: RxDmaEnabler
+- field_type: Pointer
+  field_name: WDFDevice
+- field_type: HexInt64
+  field_name: MMIO
+- field_type: UnicodeString
+  field_name: Status

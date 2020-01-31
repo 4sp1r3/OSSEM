@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '801'
+version: '0'
+event(fields): ChildKeyPanel_OpenedStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: ChildKeyPanel_Opened
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

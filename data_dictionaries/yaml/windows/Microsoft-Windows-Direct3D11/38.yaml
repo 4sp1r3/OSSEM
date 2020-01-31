@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '38'
+version: '0'
+event(fields): Marker(Pointer pID3D11DeviceContext, UInt64 APISequenceNumber, UnicodeString
+  Label, Int32 Data)
+opcode: ''
+keywords: Markers
+task: Marker
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D11DeviceContext
+- field_type: UInt64
+  field_name: APISequenceNumber
+- field_type: UnicodeString
+  field_name: Label
+- field_type: Int32
+  field_name: Data

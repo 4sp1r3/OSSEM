@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '113'
+version: '0'
+event(fields): BatteryMeter_ChangeIconStateStart()
+opcode: Start
+keywords: BatteryMeter
+task: BatteryMeter_ChangeIconState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

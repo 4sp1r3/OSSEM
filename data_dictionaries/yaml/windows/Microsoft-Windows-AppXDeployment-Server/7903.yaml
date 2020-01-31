@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '7903'
+version: '0'
+event(fields): AppXDeployment.Task.Server.ExtensionsStart7903()
+opcode: Start
+keywords: SEARCHINDEXER_EXTENSION_KEYWORD
+task: AppXDeployment.Task.Server.Extensions
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

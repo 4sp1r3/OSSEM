@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '24645'
+version: '0'
+event(fields): QueuewriterequestondedupfileStop(UInt32 CompletionStatus)
+opcode: Stop
+keywords: Filter
+task: Queuewriterequestondedupfile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CompletionStatus

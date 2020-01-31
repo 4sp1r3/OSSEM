@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7291'
+version: '0'
+event(fields): ConnectedSearch_RetryTimerCallback()
+opcode: ''
+keywords: ''
+task: ConnectedSearch_RetryTimerCallback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

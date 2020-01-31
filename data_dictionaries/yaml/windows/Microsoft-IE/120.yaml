@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '120'
+version: '0'
+event(fields): Mshtml_DOM_Marshalling_InvokeExStop(Pointer Thunk, UInt32 DispID, UInt32
+  Derived, UInt32 hr)
+opcode: Stop
+keywords: marshalling
+task: Mshtml_DOM_Marshalling_InvokeEx
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Thunk
+- field_type: UInt32
+  field_name: DispID
+- field_type: UInt32
+  field_name: Derived
+- field_type: UInt32
+  field_name: hr

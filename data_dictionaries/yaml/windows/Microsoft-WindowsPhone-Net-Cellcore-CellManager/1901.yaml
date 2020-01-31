@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1901'
+version: '0'
+event(fields): CmHelper1901(UInt32 dwCode1)
+opcode: ''
+keywords: Error
+task: CmHelper
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwCode1

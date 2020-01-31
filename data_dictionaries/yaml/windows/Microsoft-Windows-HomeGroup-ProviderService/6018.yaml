@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HomeGroup-ProviderService
+event_id: '6018'
+version: '0'
+event(fields): Homegroup_VerifyBuffersStop()
+opcode: Stop
+keywords: ''
+task: Homegroup_VerifyBuffers
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2402'
+version: '0'
+event(fields): NavigationWindow2402(Pointer ptr)
+opcode: ''
+keywords: Error
+task: NavigationWindow
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ptr

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PackageStateRoaming
+event_id: '7026'
+version: '0'
+event(fields): Perf_FastPathSessionStop(UInt32 Count)
+opcode: Stop
+keywords: PackageStateRoaming
+task: Perf_FastPathSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '23'
+version: '0'
+event(fields): Upload_SevilleEventStorage_TierChange(UnicodeString Environment, UInt32
+  PercentageFullInEachRingBuffer)
+opcode: ''
+keywords: Upload
+task: Upload_SevilleEventStorage_TierChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: UInt32
+  field_name: PercentageFullInEachRingBuffer

@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '2'
+version: '2'
+event(fields): ProcessStop_V2(UInt32 ProcessID, UInt64 ProcessSequenceNumber, FILETIME
+  CreateTime, FILETIME ExitTime, UInt32 ExitCode, UInt32 TokenElevationType, UInt32
+  HandleCount, UInt64 CommitCharge, UInt64 CommitPeak, UInt64 CPUCycleCount, UInt32
+  ReadOperationCount, UInt32 WriteOperationCount, UInt32 ReadTransferKiloBytes, UInt32
+  WriteTransferKiloBytes, UInt32 HardFaultCount, AnsiString ImageName)
+opcode: Stop
+keywords: WINEVENT_KEYWORD_PROCESS
+task: ProcessStop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: UInt64
+  field_name: ProcessSequenceNumber
+- field_type: FILETIME
+  field_name: CreateTime
+- field_type: FILETIME
+  field_name: ExitTime
+- field_type: UInt32
+  field_name: ExitCode
+- field_type: UInt32
+  field_name: TokenElevationType
+- field_type: UInt32
+  field_name: HandleCount
+- field_type: UInt64
+  field_name: CommitCharge
+- field_type: UInt64
+  field_name: CommitPeak
+- field_type: UInt64
+  field_name: CPUCycleCount
+- field_type: UInt32
+  field_name: ReadOperationCount
+- field_type: UInt32
+  field_name: WriteOperationCount
+- field_type: UInt32
+  field_name: ReadTransferKiloBytes
+- field_type: UInt32
+  field_name: WriteTransferKiloBytes
+- field_type: UInt32
+  field_name: HardFaultCount
+- field_type: AnsiString
+  field_name: ImageName

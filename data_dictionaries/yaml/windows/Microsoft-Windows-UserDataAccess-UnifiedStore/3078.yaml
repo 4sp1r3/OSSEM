@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '3078'
+version: '0'
+event(fields): task_03078(HexInt32 Arg1, HexInt32 Arg2, UInt32 Arg3, HexInt32 Arg4)
+opcode: ''
+keywords: Error Unified_Store ChangeTracking
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Arg1
+- field_type: HexInt32
+  field_name: Arg2
+- field_type: UInt32
+  field_name: Arg3
+- field_type: HexInt32
+  field_name: Arg4

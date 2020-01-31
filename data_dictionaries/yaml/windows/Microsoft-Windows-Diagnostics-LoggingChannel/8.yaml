@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Diagnostics-LoggingChannel
+event_id: '8'
+version: '0'
+event(fields): task_08(UnicodeString LoggingChannelName, UnicodeString StringValue,
+  Int32 IntegerValue)
+opcode: ''
+keywords: K_LogPair
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LoggingChannelName
+- field_type: UnicodeString
+  field_name: StringValue
+- field_type: Int32
+  field_name: IntegerValue

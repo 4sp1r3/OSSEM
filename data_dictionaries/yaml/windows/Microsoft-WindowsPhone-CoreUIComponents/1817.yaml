@@ -1,0 +1,24 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1817'
+version: '0'
+event(fields): RotationManagerComputeDesiredOrientation(Boolean fBool, UInt32 hex,
+  UInt32 hex2, UInt32 hex3, UInt32 hex4, UInt32 hex5)
+opcode: ''
+keywords: RotationManager
+task: RotationManagerComputeDesiredOrientation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fBool
+- field_type: UInt32
+  field_name: hex
+- field_type: UInt32
+  field_name: hex2
+- field_type: UInt32
+  field_name: hex3
+- field_type: UInt32
+  field_name: hex4
+- field_type: UInt32
+  field_name: hex5

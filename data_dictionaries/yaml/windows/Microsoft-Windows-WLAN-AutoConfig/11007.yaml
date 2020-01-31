@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '11007'
+version: '0'
+event(fields): task_011007(UnicodeString Adapter, GUID DeviceGuid, UnicodeString LocalMac,
+  UnicodeString SSID, UnicodeString BSSType, UnicodeString IhvSecuritySetting, Pointer
+  ConnectionId)
+opcode: ''
+keywords: LwtDiagnostic
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UnicodeString
+  field_name: IhvSecuritySetting
+- field_type: Pointer
+  field_name: ConnectionId

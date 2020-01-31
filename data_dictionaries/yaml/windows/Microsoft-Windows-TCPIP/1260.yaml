@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1260'
+version: '0'
+event(fields): Ndkpi_Register_Mr(Pointer NdkMr, Pointer Mdl, UInt64 Length, UInt32
+  Flags, Pointer RequestContext)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Register_Mr
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkMr
+- field_type: Pointer
+  field_name: Mdl
+- field_type: UInt64
+  field_name: Length
+- field_type: UInt32
+  field_name: Flags
+- field_type: Pointer
+  field_name: RequestContext

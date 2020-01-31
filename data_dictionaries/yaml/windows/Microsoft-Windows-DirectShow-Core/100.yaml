@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '100'
+version: '0'
+event(fields): DirectShowFilterGraphRenderFileStart(Pointer context, UnicodeString
+  url)
+opcode: Start
+keywords: ''
+task: DirectShowFilterGraphRenderFile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: context
+- field_type: UnicodeString
+  field_name: url

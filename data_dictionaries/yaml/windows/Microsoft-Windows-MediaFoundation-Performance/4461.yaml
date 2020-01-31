@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4461'
+version: '0'
+event(fields): DXGIMapSurfaceStop(Pointer surface)
+opcode: Stop
+keywords: ''
+task: DXGIMapSurface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: surface

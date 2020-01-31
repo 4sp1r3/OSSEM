@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '30110'
+version: '0'
+event(fields): task_030110(UInt16 ServerNameLength, UnicodeString ServerName, Pointer
+  MidWindow)
+opcode: ''
+keywords: Smb_Perf
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: Pointer
+  field_name: MidWindow

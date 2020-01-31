@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '1402'
+version: '0'
+event(fields): CuratedTileCollectionTransformer_InternalManagement1402()
+opcode: ''
+keywords: ''
+task: CuratedTileCollectionTransformer_InternalManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

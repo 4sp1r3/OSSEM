@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '177'
+version: '0'
+event(fields): CsComplianceUpdate(UInt32 Type, UInt32 State)
+opcode: ''
+keywords: po:Diagnostic
+task: CsComplianceUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: State

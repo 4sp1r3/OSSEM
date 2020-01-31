@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '31'
+version: '0'
+event(fields): aparticularrequestwithinapeersearchStop31(GUID requestId, GUID SearchId,
+  UInt32 hr)
+opcode: Stop
+keywords: ''
+task: aparticularrequestwithinapeersearch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: requestId
+- field_type: GUID
+  field_name: SearchId
+- field_type: UInt32
+  field_name: hr

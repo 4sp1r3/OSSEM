@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-Win32k
+event_id: '154'
+version: '0'
+event(fields): DelegatedInputWorkerStart(Int8 CallbackCount, Pointer pqmsg, Boolean
+  WindowDelegated, Boolean WasWindowDelegated, Boolean Delegated, Boolean WasDelegated,
+  Boolean Processed, Boolean fDelayedFree, Pointer hwnd, Pointer WParam, Pointer LParam,
+  UInt32 message, UInt32 inputReadyTimeMs, UInt32 hdfResponse)
+opcode: Start
+keywords: MessagePumpInternalAndInput
+task: DelegatedInputWorker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int8
+  field_name: CallbackCount
+- field_type: Pointer
+  field_name: pqmsg
+- field_type: Boolean
+  field_name: WindowDelegated
+- field_type: Boolean
+  field_name: WasWindowDelegated
+- field_type: Boolean
+  field_name: Delegated
+- field_type: Boolean
+  field_name: WasDelegated
+- field_type: Boolean
+  field_name: Processed
+- field_type: Boolean
+  field_name: fDelayedFree
+- field_type: Pointer
+  field_name: hwnd
+- field_type: Pointer
+  field_name: WParam
+- field_type: Pointer
+  field_name: LParam
+- field_type: UInt32
+  field_name: message
+- field_type: UInt32
+  field_name: inputReadyTimeMs
+- field_type: UInt32
+  field_name: hdfResponse

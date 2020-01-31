@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-L2NACP
+event_id: '13024'
+version: '0'
+event(fields): task_013024(UInt32 Result, GUID InterfaceGuid)
+opcode: ''
+keywords: Credential ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: GUID
+  field_name: InterfaceGuid

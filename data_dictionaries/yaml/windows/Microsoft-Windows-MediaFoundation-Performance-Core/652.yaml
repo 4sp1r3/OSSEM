@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '652'
+version: '0'
+event(fields): QM_AdviseClientsOnBranchStop(Pointer object, Pointer Node, Int32 OutputIndex,
+  UInt32 WorkQueueID)
+opcode: Stop
+keywords: ''
+task: QM_AdviseClientsOnBranch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: Node
+- field_type: Int32
+  field_name: OutputIndex
+- field_type: UInt32
+  field_name: WorkQueueID

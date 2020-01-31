@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '47'
+version: '0'
+event(fields): FontResourceLoadStop()
+opcode: Stop
+keywords: Reader
+task: FontResourceLoad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

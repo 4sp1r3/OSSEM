@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1230'
+version: '0'
+event(fields): RssBindingChange(UInt32 InterfaceIndex, UInt16 AddressFamily, UInt32
+  Bind)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis ut:Rss ut:Global
+task: RssBindingChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: UInt16
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: Bind

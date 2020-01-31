@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5050'
+version: '0'
+event(fields): UdwmTetherVisualStop()
+opcode: Stop
+keywords: Udwm
+task: UdwmTetherVisual
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

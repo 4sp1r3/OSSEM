@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1623'
+version: '0'
+event(fields): AppsFolderItemState_Commit(UInt32 ItemsToProcess, Boolean StartTask,
+  UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: AppsFolderItemState_Commit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ItemsToProcess
+- field_type: Boolean
+  field_name: StartTask
+- field_type: UInt32
+  field_name: HRESULT

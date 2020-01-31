@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '58'
+version: '0'
+event(fields): ProcessLayoutForTransitionStop()
+opcode: Stop
+keywords: Animation
+task: ProcessLayoutForTransition
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '129'
+version: '0'
+event(fields): DisconnectHypervisorStart()
+opcode: Start
+keywords: SoftRestart
+task: DisconnectHypervisor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

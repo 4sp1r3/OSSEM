@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '54'
+version: '0'
+event(fields): OverlaySuspendResume(UInt32 Reason, Boolean Suspend)
+opcode: ''
+keywords: ''
+task: OverlaySuspendResume
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: Boolean
+  field_name: Suspend

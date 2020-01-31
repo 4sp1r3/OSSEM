@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '34'
+version: '0'
+event(fields): TransformCreation34(HexInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: TransformCreation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '682'
+version: '0'
+event(fields): Mshtml_CDMDraggableTouchTarget_ReturnTargetToOriginalLocation(Int32
+  rcWidth, Int32 rcHeight, Pointer CDMDraggableTouchTarget)
+opcode: ''
+keywords: draganddrop touch
+task: Mshtml_CDMDraggableTouchTarget_ReturnTargetToOriginalLocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: rcWidth
+- field_type: Int32
+  field_name: rcHeight
+- field_type: Pointer
+  field_name: CDMDraggableTouchTarget

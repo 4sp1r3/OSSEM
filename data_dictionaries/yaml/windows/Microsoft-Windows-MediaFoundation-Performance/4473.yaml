@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4473'
+version: '0'
+event(fields): Attributes_CopyAllItemsStart(Pointer SrcPtr, UInt32 Count, Pointer
+  DstPtr)
+opcode: Start
+keywords: ''
+task: Attributes_CopyAllItems
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SrcPtr
+- field_type: UInt32
+  field_name: Count
+- field_type: Pointer
+  field_name: DstPtr

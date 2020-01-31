@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1401'
+version: '0'
+event(fields): RdClientPipelineworkspaceThiseventisraisedwhenprotocolcapsarereceivedfromtheserver.Welogtheversionselected,andtheclientmodeandAVCcapability.(HexInt32
+  Version, UInt32 ClientMode, UInt32 AvcEnabled)
+opcode: Thiseventisraisedwhenprotocolcapsarereceivedfromtheserver.Welogtheversionselected,andtheclientmodeandAVCcapability.
+keywords: ''
+task: RdClientPipelineworkspace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Version
+- field_type: UInt32
+  field_name: ClientMode
+- field_type: UInt32
+  field_name: AvcEnabled

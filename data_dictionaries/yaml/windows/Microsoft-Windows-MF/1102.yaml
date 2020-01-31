@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MF
+event_id: '1102'
+version: '0'
+event(fields): MediaFoundationIMFInputTrustAuthority_GetPolicy(UInt32 streamid, UInt32
+  Action, Boolean policyReturned, HexInt32 hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationIMFInputTrustAuthority_GetPolicy
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: streamid
+- field_type: UInt32
+  field_name: Action
+- field_type: Boolean
+  field_name: policyReturned
+- field_type: HexInt32
+  field_name: hr

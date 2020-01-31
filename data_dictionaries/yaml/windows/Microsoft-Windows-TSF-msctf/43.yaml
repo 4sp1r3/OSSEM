@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '43'
+version: '0'
+event(fields): ProcessALPCMessageStop(UInt32 param)
+opcode: Stop
+keywords: ALPC
+task: ProcessALPCMessage
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: param

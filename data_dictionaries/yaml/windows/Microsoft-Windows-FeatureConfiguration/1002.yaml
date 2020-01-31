@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-FeatureConfiguration
+event_id: '1002'
+version: '0'
+event(fields): FeatureConfigurationEvents1002(UnicodeString RegKeyName, UnicodeString
+  ValueName, UInt32 ValueType, Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: FeatureConfigurationEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RegKeyName
+- field_type: UnicodeString
+  field_name: ValueName
+- field_type: UInt32
+  field_name: ValueType
+- field_type: Int32
+  field_name: ErrorCode

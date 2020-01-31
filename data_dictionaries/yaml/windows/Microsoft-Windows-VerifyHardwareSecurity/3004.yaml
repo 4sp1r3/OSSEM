@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-VerifyHardwareSecurity
+event_id: '3004'
+version: '0'
+event(fields): CheckCertificatesERTSFAILEDCHECKertsFailedCheck(UnicodeString name,
+  UnicodeString database, Binary bytes)
+opcode: certsFailedCheck
+keywords: ''
+task: CheckCertificates
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: name
+- field_type: UnicodeString
+  field_name: database
+- field_type: Binary
+  field_name: bytes

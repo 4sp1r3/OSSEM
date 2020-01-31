@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1007'
+version: '1'
+event(fields): InMemoryDecompression_V1(UInt32 StoreId, UInt32 PageCount, UInt32 ScoreLevel)
+opcode: ''
+keywords: Store
+task: InMemoryDecompression
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StoreId
+- field_type: UInt32
+  field_name: PageCount
+- field_type: UInt32
+  field_name: ScoreLevel

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4808'
+version: '0'
+event(fields): DiscoveryMessageNoContent(UnicodeString messageType, UnicodeString
+  AppDomain)
+opcode: NoContent
+keywords: Discovery
+task: DiscoveryMessage
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: messageType
+- field_type: UnicodeString
+  field_name: AppDomain

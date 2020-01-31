@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '221'
+version: '0'
+event(fields): Mshtml_MediaEngine_SeekStart(UInt32 MediaEngineID, Float Time)
+opcode: Start
+keywords: mediaengine
+task: Mshtml_MediaEngine_Seek
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaEngineID
+- field_type: Float
+  field_name: Time

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Audio
+event_id: '3'
+version: '0'
+event(fields): AudioServer_Fail_Subsystem_Startup(UnicodeString szSubsystemName, UInt32
+  dwSubsystemFailureCode)
+opcode: ''
+keywords: ''
+task: AudioServer_Fail_Subsystem_Startup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: szSubsystemName
+- field_type: UInt32
+  field_name: dwSubsystemFailureCode

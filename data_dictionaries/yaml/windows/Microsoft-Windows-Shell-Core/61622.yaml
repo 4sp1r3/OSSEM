@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61622'
+version: '0'
+event(fields): DataPackage_GetHtmlStart()
+opcode: Start
+keywords: Shell
+task: DataPackage_GetHtml
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

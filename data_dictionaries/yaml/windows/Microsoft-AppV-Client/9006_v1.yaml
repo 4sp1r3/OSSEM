@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client
+event_id: '9006'
+version: '1'
+event(fields): PSObjectGetPropertyValue9006_V1()
+opcode: ''
+keywords: ClientManagement
+task: PSObjectGetPropertyValue
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

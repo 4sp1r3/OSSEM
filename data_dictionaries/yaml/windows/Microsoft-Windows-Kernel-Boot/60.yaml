@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '60'
+version: '0'
+event(fields): InvalidNfitTable()
+opcode: ''
+keywords: ''
+task: InvalidNfitTable
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

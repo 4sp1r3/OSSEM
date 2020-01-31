@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60826'
+version: '0'
+event(fields): ShellLib_DUIControls_CandidateList_ViewRenderStop(Int32 PageIndex,
+  UInt32 HRESULT)
+opcode: Stop
+keywords: Controls
+task: ShellLib_DUIControls_CandidateList_ViewRender
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: PageIndex
+- field_type: UInt32
+  field_name: HRESULT

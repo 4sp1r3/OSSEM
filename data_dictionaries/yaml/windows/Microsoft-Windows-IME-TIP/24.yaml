@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-TIP
+event_id: '24'
+version: '0'
+event(fields): TaskID:IMECandidateCloseStop()
+opcode: Stop
+keywords: ''
+task: TaskID:IMECandidateClose
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19427'
+version: '0'
+event(fields): IconCache_LookupIconStop()
+opcode: Stop
+keywords: FileClassStoreAndIconCache
+task: IconCache_LookupIcon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

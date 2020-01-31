@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSFTEDIT
+event_id: '3'
+version: '0'
+event(fields): PlacingCaret()
+opcode: ''
+keywords: ''
+task: PlacingCaret
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

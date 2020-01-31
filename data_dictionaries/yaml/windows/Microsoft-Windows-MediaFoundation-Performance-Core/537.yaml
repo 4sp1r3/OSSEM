@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '537'
+version: '0'
+event(fields): AudCaptureStream_Info_TaskAudCaptureStream_CreateCaptureStream_WAVEFORMAT(Pointer
+  object, UInt32 wFormatTag, UInt16 nChannels, UInt32 nSamplesPerSec, UInt32 nAvgBytesPerSec,
+  UInt16 nBlockAlign, UInt16 wBitsPerSample, UInt16 cbSize)
+opcode: AudCaptureStream_CreateCaptureStream_WAVEFORMAT
+keywords: ''
+task: AudCaptureStream_Info_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: wFormatTag
+- field_type: UInt16
+  field_name: nChannels
+- field_type: UInt32
+  field_name: nSamplesPerSec
+- field_type: UInt32
+  field_name: nAvgBytesPerSec
+- field_type: UInt16
+  field_name: nBlockAlign
+- field_type: UInt16
+  field_name: wBitsPerSample
+- field_type: UInt16
+  field_name: cbSize

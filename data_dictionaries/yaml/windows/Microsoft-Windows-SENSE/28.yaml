@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SENSE
+event_id: '28'
+version: '0'
+event(fields): task_028(HexInt32 HRESULT, Int32 diskSizeQuotaValue, Int32 dailyUploadQuotaValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: Int32
+  field_name: diskSizeQuotaValue
+- field_type: Int32
+  field_name: dailyUploadQuotaValue

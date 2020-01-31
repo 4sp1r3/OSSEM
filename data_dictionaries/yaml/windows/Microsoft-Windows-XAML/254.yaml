@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '254'
+version: '0'
+event(fields): DCompUpdateContentSize(UInt64 VisualId, UInt32 Width, UInt32 Height)
+opcode: ''
+keywords: Rendering
+task: DCompUpdateContentSize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: VisualId
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height

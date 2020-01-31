@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '21015'
+version: '0'
+event(fields): task_021015(UInt32 AdapterId, GUID InterfaceGuid, UInt32 SessionId,
+  UInt32 PortId, Binary LocalAddr, Binary PeerAddr, UInt32 OldState, UInt32 NewState)
+opcode: ''
+keywords: MSMSEC ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterId
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: PortId
+- field_type: Binary
+  field_name: LocalAddr
+- field_type: Binary
+  field_name: PeerAddr
+- field_type: UInt32
+  field_name: OldState
+- field_type: UInt32
+  field_name: NewState

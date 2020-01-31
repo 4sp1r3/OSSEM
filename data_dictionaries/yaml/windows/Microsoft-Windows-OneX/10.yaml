@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-OneX
+event_id: '10'
+version: '0'
+event(fields): EAP10(UInt32 PortId, UInt32 Response)
+opcode: ''
+keywords: EAP ut:Authentication
+task: EAP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId
+- field_type: UInt32
+  field_name: Response

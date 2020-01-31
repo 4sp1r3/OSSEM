@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '202'
+version: '0'
+event(fields): GCMark(UInt32 HeapNum, UInt16 ClrInstanceID, UInt32 Type, UInt64 Bytes)
+opcode: Mark
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapNum
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt64
+  field_name: Bytes

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27204'
+version: '0'
+event(fields): PerfTrack_HomeGroup_EnumInNavPaneStop()
+opcode: Stop
+keywords: Shell WDI
+task: PerfTrack_HomeGroup_EnumInNavPane
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

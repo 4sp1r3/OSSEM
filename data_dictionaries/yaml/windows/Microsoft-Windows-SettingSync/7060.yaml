@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7060'
+version: '0'
+event(fields): Perf_WLRoamGetPolicyDocumentNetworkRequestStop()
+opcode: Stop
+keywords: RoamingSettings
+task: Perf_WLRoamGetPolicyDocumentNetworkRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

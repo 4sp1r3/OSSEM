@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '458'
+version: '0'
+event(fields): Mshtml_UrlAction_ActiveX_Immersive_Incompatible(GUID Clsid)
+opcode: ''
+keywords: subsystem mshtml
+task: Mshtml_UrlAction_ActiveX_Immersive_Incompatible
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Clsid

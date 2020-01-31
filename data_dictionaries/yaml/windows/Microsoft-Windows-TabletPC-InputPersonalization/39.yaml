@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '39'
+version: '0'
+event(fields): IPS_TIPTEXTCONTRIBUTOR_ProcessMessagesStart()
+opcode: Start
+keywords: ''
+task: IPS_TIPTEXTCONTRIBUTOR_ProcessMessages
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6550'
+version: '0'
+event(fields): task_06550(UnicodeString Message, UInt32 FilterMode, Boolean IsApplicable)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UInt32
+  field_name: FilterMode
+- field_type: Boolean
+  field_name: IsApplicable

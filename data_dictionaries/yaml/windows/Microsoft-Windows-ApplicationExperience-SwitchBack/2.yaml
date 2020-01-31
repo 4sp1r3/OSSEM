@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-ApplicationExperience-SwitchBack
+event_id: '2'
+version: '0'
+event(fields): AeSbImpl(GUID SwitchBranchImplGuid, UInt16 SwitchBranchImplNameLength,
+  UnicodeString SwitchBranchImplName, UInt16 SwitchBranchImplDescriptionLength, UnicodeString
+  SwitchBranchImplDescription)
+opcode: ''
+keywords: ''
+task: AeSbImpl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SwitchBranchImplGuid
+- field_type: UInt16
+  field_name: SwitchBranchImplNameLength
+- field_type: UnicodeString
+  field_name: SwitchBranchImplName
+- field_type: UInt16
+  field_name: SwitchBranchImplDescriptionLength
+- field_type: UnicodeString
+  field_name: SwitchBranchImplDescription

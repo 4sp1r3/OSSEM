@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '201'
+version: '0'
+event(fields): task_0201(Boolean P1_Boolean, Int32 P2_Int32)
+opcode: ''
+keywords: Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: P1_Boolean
+- field_type: Int32
+  field_name: P2_Int32

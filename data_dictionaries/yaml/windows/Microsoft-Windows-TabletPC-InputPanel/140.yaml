@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '140'
+version: '0'
+event(fields): KSGenerator_Send()
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: KSGenerator_Send
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

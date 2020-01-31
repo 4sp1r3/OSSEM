@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '101'
+version: '0'
+event(fields): CommandPoolStart(Pointer pID3D12Device, Pointer pID3D12CommandPool)
+opcode: Start
+keywords: Resources ObjectLifetime
+task: CommandPool
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12CommandPool

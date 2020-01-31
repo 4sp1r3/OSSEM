@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DesktopActivityModerator
+event_id: '60'
+version: '0'
+event(fields): IoTrackingPerfTrack(UInt32 DeviceBucket, UInt32 ElapsedTimeMs, UInt32
+  FastIoCount, UInt32 SlowIoCount)
+opcode: ''
+keywords: IoTracking
+task: IoTrackingPerfTrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceBucket
+- field_type: UInt32
+  field_name: ElapsedTimeMs
+- field_type: UInt32
+  field_name: FastIoCount
+- field_type: UInt32
+  field_name: SlowIoCount

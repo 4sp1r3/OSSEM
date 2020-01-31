@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '504'
+version: '1'
+event(fields): ClassCompletionofrequest.504_V1(GUID DeviceGUID, UInt32 DeviceNumber,
+  AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber,
+  HexInt32 IrpStatus, HexInt32 IoctlControlCode)
+opcode: Completionofrequest.
+keywords: IOCTL
+task: Class
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGUID
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: AnsiString
+  field_name: Vendor
+- field_type: AnsiString
+  field_name: Model
+- field_type: AnsiString
+  field_name: FirmwareVersion
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: HexInt32
+  field_name: IrpStatus
+- field_type: HexInt32
+  field_name: IoctlControlCode

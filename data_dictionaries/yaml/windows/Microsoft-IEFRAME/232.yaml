@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '232'
+version: '0'
+event(fields): Find_MatchAndHighlightHitsStop(UInt32 Status, UInt32 Count)
+opcode: Stop
+keywords: primarynav
+task: Find_MatchAndHighlightHits
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Count

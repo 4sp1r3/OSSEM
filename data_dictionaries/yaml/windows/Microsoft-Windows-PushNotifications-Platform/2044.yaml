@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2044'
+version: '0'
+event(fields): PeriodicPollStop2044(UnicodeString AppUserModelID, UInt32 NotificationType)
+opcode: Stop
+keywords: wpnend wpntroubleshoot wpndebug_polling_error
+task: PeriodicPoll
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelID
+- field_type: UInt32
+  field_name: NotificationType

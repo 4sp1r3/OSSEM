@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-EnhancedStorage-EhStorTcgDrv
+event_id: '13'
+version: '0'
+event(fields): DriverGeneral13(UInt32 BandID, UInt32 Authorize, HexInt32 Status)
+opcode: General
+keywords: ''
+task: Driver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BandID
+- field_type: UInt32
+  field_name: Authorize
+- field_type: HexInt32
+  field_name: Status

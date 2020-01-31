@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MF
+event_id: '19'
+version: '0'
+event(fields): MediaFoundationDevproxyD3DAllocatorD3DAllocatorCreated(Pointer PinPtr,
+  Pointer D3DManagerPtr)
+opcode: D3DAllocatorCreated
+keywords: ''
+task: MediaFoundationDevproxyD3DAllocator
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PinPtr
+- field_type: Pointer
+  field_name: D3DManagerPtr

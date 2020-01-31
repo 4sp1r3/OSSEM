@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '295'
+version: '0'
+event(fields): CompositePE295(Double SpeedEstimate, Double Bearing, UInt32 NumberOfPositions)
+opcode: ''
+keywords: SpeedEstimatorTracing
+task: CompositePE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Double
+  field_name: SpeedEstimate
+- field_type: Double
+  field_name: Bearing
+- field_type: UInt32
+  field_name: NumberOfPositions

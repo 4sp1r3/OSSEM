@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DUSER
+event_id: '29'
+version: '0'
+event(fields): DUser_CreateCompatibleBitmapStop(UInt32 hGadget, Pointer pVisual, Int32
+  nWidth, Int32 nHeight)
+opcode: Stop
+keywords: Default
+task: DUser_CreateCompatibleBitmap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hGadget
+- field_type: Pointer
+  field_name: pVisual
+- field_type: Int32
+  field_name: nWidth
+- field_type: Int32
+  field_name: nHeight

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Magnification
+event_id: '2'
+version: '0'
+event(fields): LensDestroy(UInt64 hWndLensCtx)
+opcode: ''
+keywords: Magnification
+task: LensDestroy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hWndLensCtx

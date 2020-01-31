@@ -1,0 +1,17 @@
+provider: Windows Kernel Trace
+category: '{f8f10121-b617-4a56-868b-9df1b27fe32c}'
+event_id: '34'
+version: '0'
+event(fields): MMCSSEvent(UInt32 ScheduledPID, UInt32 ScheduledTID, UInt32 SchedulingPriority,
+  UInt32 TaskIndex)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScheduledPID
+- field_type: UInt32
+  field_name: ScheduledTID
+- field_type: UInt32
+  field_name: SchedulingPriority
+- field_type: UInt32
+  field_name: TaskIndex

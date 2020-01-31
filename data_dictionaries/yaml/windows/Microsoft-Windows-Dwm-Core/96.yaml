@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '96'
+version: '0'
+event(fields): ETWGUID_MAGNIFIERRENDERTARGET_CAPTUREBITSStart(UInt64 hwndLensContext,
+  UInt64 UpdateId, Int32 OffsetX, Int32 OffsetY, Float S_11, Float S_22, Float DX,
+  Float DY)
+opcode: Start
+keywords: DwmCore
+task: ETWGUID_MAGNIFIERRENDERTARGET_CAPTUREBITS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hwndLensContext
+- field_type: UInt64
+  field_name: UpdateId
+- field_type: Int32
+  field_name: OffsetX
+- field_type: Int32
+  field_name: OffsetY
+- field_type: Float
+  field_name: S_11
+- field_type: Float
+  field_name: S_22
+- field_type: Float
+  field_name: DX
+- field_type: Float
+  field_name: DY

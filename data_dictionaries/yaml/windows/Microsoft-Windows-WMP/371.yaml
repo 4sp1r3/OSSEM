@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WMP
+event_id: '371'
+version: '0'
+event(fields): HME_EnableSharingStop(Pointer IWMMediaLibrary, Boolean EnableSharing,
+  Boolean UpdateACLs, UInt32 HRESULT)
+opcode: Stop
+keywords: mediaplayer
+task: HME_EnableSharing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: IWMMediaLibrary
+- field_type: Boolean
+  field_name: EnableSharing
+- field_type: Boolean
+  field_name: UpdateACLs
+- field_type: UInt32
+  field_name: HRESULT

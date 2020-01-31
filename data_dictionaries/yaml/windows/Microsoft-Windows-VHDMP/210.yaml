@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-VHDMP
+event_id: '210'
+version: '0'
+event(fields): task_0210(UInt64 VirtualDisk, UnicodeString LogFileName, UInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: VirtualDisk
+- field_type: UnicodeString
+  field_name: LogFileName
+- field_type: UInt32
+  field_name: Status

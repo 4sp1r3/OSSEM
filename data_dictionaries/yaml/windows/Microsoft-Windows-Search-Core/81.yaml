@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '81'
+version: '0'
+event(fields): GatherProject_PrepareStatusChange(UInt32 Value)
+opcode: ''
+keywords: Gatherer
+task: GatherProject_PrepareStatusChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

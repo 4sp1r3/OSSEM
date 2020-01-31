@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '2'
+version: '0'
+event(fields): CrawlStop()
+opcode: Stop
+keywords: Performance Indexing Gatherer
+task: Crawl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

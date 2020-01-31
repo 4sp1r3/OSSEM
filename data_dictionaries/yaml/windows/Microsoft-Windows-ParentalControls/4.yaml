@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '4'
+version: '0'
+event(fields): EmailReceivedLaunch(UnicodeString Sender, UnicodeString Application,
+  UnicodeString Version, UnicodeString Subject, UInt32 Reason, UInt32 RecipientCount,
+  UnicodeString Recipient, UInt32 AttachmentCount, UnicodeString AttachmentName, SYSTEMTIME
+  ReceivedTime, UnicodeString EmailAccount)
+opcode: Launch
+keywords: WPC ThirdParty
+task: EmailReceived
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Sender
+- field_type: UnicodeString
+  field_name: Application
+- field_type: UnicodeString
+  field_name: Version
+- field_type: UnicodeString
+  field_name: Subject
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: RecipientCount
+- field_type: UnicodeString
+  field_name: Recipient
+- field_type: UInt32
+  field_name: AttachmentCount
+- field_type: UnicodeString
+  field_name: AttachmentName
+- field_type: SYSTEMTIME
+  field_name: ReceivedTime
+- field_type: UnicodeString
+  field_name: EmailAccount

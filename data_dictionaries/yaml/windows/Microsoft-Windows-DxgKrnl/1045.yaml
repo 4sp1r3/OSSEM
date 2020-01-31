@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1045'
+version: '0'
+event(fields): MiracastStopMiracastSessionAbnormal(UInt32 StopSessionReason, UInt32
+  StopSessionErrorCode, UInt32 GraphicsDeviceId, UnicodeString SinkDeviceInformation)
+opcode: ''
+keywords: Miracast
+task: MiracastStopMiracastSessionAbnormal
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StopSessionReason
+- field_type: UInt32
+  field_name: StopSessionErrorCode
+- field_type: UInt32
+  field_name: GraphicsDeviceId
+- field_type: UnicodeString
+  field_name: SinkDeviceInformation

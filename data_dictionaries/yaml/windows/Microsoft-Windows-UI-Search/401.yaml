@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UI-Search
+event_id: '401'
+version: '0'
+event(fields): XAMLContentStart()
+opcode: Start
+keywords: ''
+task: XAMLContent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

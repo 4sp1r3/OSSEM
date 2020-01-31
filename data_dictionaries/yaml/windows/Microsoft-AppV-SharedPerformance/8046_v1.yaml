@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8046'
+version: '1'
+event(fields): PublishPackageUndoStart_V1(UInt64 ActivityId)
+opcode: Start
+keywords: ''
+task: PublishPackageUndo
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ActivityId

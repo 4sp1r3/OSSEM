@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '39'
+version: '0'
+event(fields): task_039(UnicodeString HiveName, UInt32 HiveLoadStatus)
+opcode: ''
+keywords: keyword_200000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HiveName
+- field_type: UInt32
+  field_name: HiveLoadStatus

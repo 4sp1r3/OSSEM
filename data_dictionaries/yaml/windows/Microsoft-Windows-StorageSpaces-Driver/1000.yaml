@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1000'
+version: '0'
+event(fields): task_01000(GUID Id, AnsiString Function, UInt32 Line, UInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: AnsiString
+  field_name: Function
+- field_type: UInt32
+  field_name: Line
+- field_type: UInt32
+  field_name: Status

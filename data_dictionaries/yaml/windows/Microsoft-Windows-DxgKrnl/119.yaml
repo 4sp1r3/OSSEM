@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '119'
+version: '0'
+event(fields): DpiAddDeviceStop(Pointer DriverObject, Pointer PhysicalDeviceObject,
+  UInt32 Status)
+opcode: Stop
+keywords: Base
+task: DpiAddDevice
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DriverObject
+- field_type: Pointer
+  field_name: PhysicalDeviceObject
+- field_type: UInt32
+  field_name: Status

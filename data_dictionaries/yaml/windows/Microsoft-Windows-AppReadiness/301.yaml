@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '301'
+version: '0'
+event(fields): AppReadiness_ExecuteTaskStop(UnicodeString User, UnicodeString TaskId,
+  Int32 Result, Double Duration)
+opcode: Stop
+keywords: Tasks
+task: AppReadiness_ExecuteTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: TaskId
+- field_type: Int32
+  field_name: Result
+- field_type: Double
+  field_name: Duration

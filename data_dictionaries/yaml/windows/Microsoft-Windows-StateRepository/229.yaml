@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '229'
+version: '0'
+event(fields): StateRepository.Task.WinRTAPI229(Int32 LastKnownStatus)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD keyword_200000000000
+task: StateRepository.Task.WinRTAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: LastKnownStatus

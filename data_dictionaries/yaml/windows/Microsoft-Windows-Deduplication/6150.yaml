@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '6150'
+version: '0'
+event(fields): task_06150(UInt32 JobType, GUID JobInstanceId, UnicodeString VolumeGuidPath,
+  UnicodeString VolumeDisplayName, UInt32 AvailableMemoryMB, UInt32 JobPriorityType,
+  Boolean Full, Boolean ReadOnly)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobType
+- field_type: GUID
+  field_name: JobInstanceId
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UnicodeString
+  field_name: VolumeDisplayName
+- field_type: UInt32
+  field_name: AvailableMemoryMB
+- field_type: UInt32
+  field_name: JobPriorityType
+- field_type: Boolean
+  field_name: Full
+- field_type: Boolean
+  field_name: ReadOnly

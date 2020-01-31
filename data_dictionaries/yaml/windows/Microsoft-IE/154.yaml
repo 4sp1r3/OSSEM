@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '154'
+version: '0'
+event(fields): Mshtml_ZoomEvent()
+opcode: ''
+keywords: extended mshtml
+task: Mshtml_ZoomEvent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

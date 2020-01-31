@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Disk
+event_id: '1'
+version: '1'
+event(fields): DiskCacheInformationOpCodeDiskCacheInfo_V1(UInt8 ReadCacheEnabled,
+  UInt8 WriteCacheEnabled, UInt8 ReadRetentionPriority, UInt8 WriteRetentionPriority,
+  UInt8 PrefetchScalar, UInt16 DisablePrefetchTransferLength, UInt16 Minimum, UInt16
+  Maximum, UInt16 MaximumBlocks, UInt32 DeviceNumber)
+opcode: OpCodeDiskCacheInfo
+keywords: DiskCache
+task: DiskCacheInformation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ReadCacheEnabled
+- field_type: UInt8
+  field_name: WriteCacheEnabled
+- field_type: UInt8
+  field_name: ReadRetentionPriority
+- field_type: UInt8
+  field_name: WriteRetentionPriority
+- field_type: UInt8
+  field_name: PrefetchScalar
+- field_type: UInt16
+  field_name: DisablePrefetchTransferLength
+- field_type: UInt16
+  field_name: Minimum
+- field_type: UInt16
+  field_name: Maximum
+- field_type: UInt16
+  field_name: MaximumBlocks
+- field_type: UInt32
+  field_name: DeviceNumber

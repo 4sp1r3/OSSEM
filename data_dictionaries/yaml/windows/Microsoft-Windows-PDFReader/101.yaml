@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '101'
+version: '0'
+event(fields): LaunchURI(UnicodeString StringParam, UInt32 HResultParam)
+opcode: ''
+keywords: Reader
+task: LaunchURI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StringParam
+- field_type: UInt32
+  field_name: HResultParam

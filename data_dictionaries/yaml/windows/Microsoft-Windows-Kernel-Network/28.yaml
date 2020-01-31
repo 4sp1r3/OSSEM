@@ -1,0 +1,44 @@
+provider: Microsoft-Windows-Kernel-Network
+event_id: '28'
+version: '0'
+event(fields): KERNEL_NETWORK_TASK_TCPIPConnectionattempted.28(UInt32 PID, UInt32
+  size, Binary daddr, Binary saddr, UInt16 dport, UInt16 sport, UInt16 mss, UInt16
+  sackopt, UInt16 tsopt, UInt16 wsopt, UInt32 rcvwin, UInt16 rcvwinscale, UInt16 sndwinscale,
+  UInt32 seqnum, UInt32 connid)
+opcode: Connectionattempted.
+keywords: KERNEL_NETWORK_KEYWORD_IPV6
+task: KERNEL_NETWORK_TASK_TCPIP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PID
+- field_type: UInt32
+  field_name: size
+- field_type: Binary
+  field_name: daddr
+- field_type: Binary
+  field_name: saddr
+- field_type: UInt16
+  field_name: dport
+- field_type: UInt16
+  field_name: sport
+- field_type: UInt16
+  field_name: mss
+- field_type: UInt16
+  field_name: sackopt
+- field_type: UInt16
+  field_name: tsopt
+- field_type: UInt16
+  field_name: wsopt
+- field_type: UInt32
+  field_name: rcvwin
+- field_type: UInt16
+  field_name: rcvwinscale
+- field_type: UInt16
+  field_name: sndwinscale
+- field_type: UInt32
+  field_name: seqnum
+- field_type: UInt32
+  field_name: connid

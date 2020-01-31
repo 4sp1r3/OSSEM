@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMPDMCUI
+event_id: '2000'
+version: '0'
+event(fields): PLAY_PAUSE_BUTTONStart()
+opcode: Start
+keywords: ''
+task: PLAY_PAUSE_BUTTON
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

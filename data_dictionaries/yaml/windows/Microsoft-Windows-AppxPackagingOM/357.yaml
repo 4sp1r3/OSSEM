@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '357'
+version: '0'
+event(fields): AppXPackaging.Task.Signature.AppxSipRemoveSignatureStop()
+opcode: Stop
+keywords: ''
+task: AppXPackaging.Task.Signature.AppxSipRemoveSignature
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

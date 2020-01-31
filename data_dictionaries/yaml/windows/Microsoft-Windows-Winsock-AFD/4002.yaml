@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4002'
+version: '0'
+event(fields): AfdRioCreateCqOpen(Pointer Cq, Pointer RegistrationDomain, UInt32 EntryCount,
+  Pointer UserAddress, Pointer SystemAddress, UInt32 BufferSize, UInt32 CqIndex, UInt32
+  NotificationType, Pointer NotificationHandle, Pointer NotificationObject, Pointer
+  NotificationContext1, Pointer NotificationContext2, UInt32 Status)
+opcode: Open
+keywords: AFD_KW_RIO
+task: AfdRioCreateCq
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Cq
+- field_type: Pointer
+  field_name: RegistrationDomain
+- field_type: UInt32
+  field_name: EntryCount
+- field_type: Pointer
+  field_name: UserAddress
+- field_type: Pointer
+  field_name: SystemAddress
+- field_type: UInt32
+  field_name: BufferSize
+- field_type: UInt32
+  field_name: CqIndex
+- field_type: UInt32
+  field_name: NotificationType
+- field_type: Pointer
+  field_name: NotificationHandle
+- field_type: Pointer
+  field_name: NotificationObject
+- field_type: Pointer
+  field_name: NotificationContext1
+- field_type: Pointer
+  field_name: NotificationContext2
+- field_type: UInt32
+  field_name: Status

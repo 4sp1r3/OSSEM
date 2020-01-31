@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '1100'
+version: '0'
+event(fields): task_0(UnicodeString Uri, UnicodeString ReferrerUri, UnicodeString
+  RedirectUri, UInt32 CallingProcessId, UInt64 CallingProcessCreationTime, UnicodeString
+  RequestId, UnicodeString FinalResult)
+opcode: ''
+keywords: info
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Uri
+- field_type: UnicodeString
+  field_name: ReferrerUri
+- field_type: UnicodeString
+  field_name: RedirectUri
+- field_type: UInt32
+  field_name: CallingProcessId
+- field_type: UInt64
+  field_name: CallingProcessCreationTime
+- field_type: UnicodeString
+  field_name: RequestId
+- field_type: UnicodeString
+  field_name: FinalResult

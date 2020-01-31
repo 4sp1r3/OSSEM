@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '112'
+version: '0'
+event(fields): BatteryMeter_DisplayTaskbarPropertiesStop()
+opcode: Stop
+keywords: BatteryMeter
+task: BatteryMeter_DisplayTaskbarProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

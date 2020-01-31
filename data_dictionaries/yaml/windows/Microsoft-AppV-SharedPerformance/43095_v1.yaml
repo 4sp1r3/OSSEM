@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '43095'
+version: '1'
+event(fields): PublishExtensionPoint_4304Stop_V1()
+opcode: Stop
+keywords: ''
+task: PublishExtensionPoint_4304
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4778'
+version: '0'
+event(fields): task_04778(UnicodeString AccountName, UnicodeString AccountDomain,
+  HexInt64 LogonID, UnicodeString SessionName, UnicodeString ClientName, UnicodeString
+  ClientAddress)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AccountName
+- field_type: UnicodeString
+  field_name: AccountDomain
+- field_type: HexInt64
+  field_name: LogonID
+- field_type: UnicodeString
+  field_name: SessionName
+- field_type: UnicodeString
+  field_name: ClientName
+- field_type: UnicodeString
+  field_name: ClientAddress

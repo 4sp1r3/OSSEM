@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1023'
+version: '0'
+event(fields): MediaFoundationDispatchNodeInputEventStop(Pointer Node, UInt32 hr)
+opcode: Stop
+keywords: ''
+task: MediaFoundationDispatchNodeInputEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Node
+- field_type: UInt32
+  field_name: hr

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4497'
+version: '0'
+event(fields): CpuGroupMaskChangeWnfCallback(UInt32 ChangeStamp, UInt32 CurChangeStamp,
+  UInt64 ProcessorGroup, UInt64 ProcessorMask, UInt32 Length)
+opcode: ''
+keywords: ''
+task: CpuGroupMaskChangeWnfCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ChangeStamp
+- field_type: UInt32
+  field_name: CurChangeStamp
+- field_type: UInt64
+  field_name: ProcessorGroup
+- field_type: UInt64
+  field_name: ProcessorMask
+- field_type: UInt32
+  field_name: Length

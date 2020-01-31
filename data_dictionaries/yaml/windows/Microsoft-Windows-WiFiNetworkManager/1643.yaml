@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1643'
+version: '0'
+event(fields): task_01643(AnsiString szString, Binary BSSID, UInt32 dwValue1, UInt32
+  dwValue2, UInt32 dwValue3)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: szString
+- field_type: Binary
+  field_name: BSSID
+- field_type: UInt32
+  field_name: dwValue1
+- field_type: UInt32
+  field_name: dwValue2
+- field_type: UInt32
+  field_name: dwValue3

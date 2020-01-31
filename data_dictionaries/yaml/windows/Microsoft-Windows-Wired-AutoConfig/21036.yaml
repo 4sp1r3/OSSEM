@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Wired-AutoConfig
+event_id: '21036'
+version: '0'
+event(fields): MSM21036(GUID InterfaceGuid, UnicodeString InterfaceDescription, UInt32
+  Location, UInt32 Context)
+opcode: ''
+keywords: MSM ut:Authentication
+task: MSM
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context

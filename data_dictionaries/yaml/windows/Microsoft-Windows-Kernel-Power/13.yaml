@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '13'
+version: '0'
+event(fields): QueryAppsStop(UInt32 Pid)
+opcode: Stop
+keywords: po:Performance po:PerformanceLight
+task: QueryApps
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Pid

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '249'
+version: '0'
+event(fields): MPS_CLNT_API_DeleteCryptoSetStop()
+opcode: Stop
+keywords: Client
+task: MPS_CLNT_API_DeleteCryptoSet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

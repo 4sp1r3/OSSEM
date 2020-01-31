@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SEC
+event_id: '2'
+version: '0'
+event(fields): task_02(Int64 DriverUnloadTime)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: DriverUnloadTime

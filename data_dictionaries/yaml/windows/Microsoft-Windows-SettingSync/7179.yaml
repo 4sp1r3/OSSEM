@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7179'
+version: '0'
+event(fields): Perf_AppSyncUninstallAppStart()
+opcode: Start
+keywords: AppSync
+task: Perf_AppSyncUninstallApp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

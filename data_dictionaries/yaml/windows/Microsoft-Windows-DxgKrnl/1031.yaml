@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1031'
+version: '0'
+event(fields): MiracastUmdDriverCbMiracastIoControl(UInt64 MiracastLuid, Boolean HardwareAccess,
+  UInt32 InputBufferSize, UInt32 OutputBufferSize)
+opcode: ''
+keywords: Miracast
+task: MiracastUmdDriverCbMiracastIoControl
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: Boolean
+  field_name: HardwareAccess
+- field_type: UInt32
+  field_name: InputBufferSize
+- field_type: UInt32
+  field_name: OutputBufferSize

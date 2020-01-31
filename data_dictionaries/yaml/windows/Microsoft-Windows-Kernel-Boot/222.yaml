@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '222'
+version: '0'
+event(fields): MeasuredLaunchPpamFailure(UInt32 TxtStatus, UInt64 Argument1, UInt64
+  Argument2)
+opcode: PpamFailure
+keywords: ''
+task: MeasuredLaunch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TxtStatus
+- field_type: UInt64
+  field_name: Argument1
+- field_type: UInt64
+  field_name: Argument2

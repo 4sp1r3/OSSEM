@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-International
+event_id: '13007'
+version: '0'
+event(fields): NLSUnattendedRegionalandLanguageOptionsNLSoperations13007(UInt32 Value)
+opcode: NLSoperations
+keywords: ''
+task: NLSUnattendedRegionalandLanguageOptions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

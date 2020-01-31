@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '506'
+version: '0'
+event(fields): RichEditProxy_GetVisibleRangeStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: RichEditProxy_GetVisibleRange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

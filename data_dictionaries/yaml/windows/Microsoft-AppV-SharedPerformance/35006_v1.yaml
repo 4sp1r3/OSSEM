@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '35006'
+version: '1'
+event(fields): VFSqueryfullattributesfileStart_V1()
+opcode: Start
+keywords: ''
+task: VFSqueryfullattributesfile
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

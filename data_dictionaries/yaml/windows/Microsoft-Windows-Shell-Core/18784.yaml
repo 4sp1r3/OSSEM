@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18784'
+version: '0'
+event(fields): Shell32_SubCommandMenu_EnumerateStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_SubCommandMenu_Enumerate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

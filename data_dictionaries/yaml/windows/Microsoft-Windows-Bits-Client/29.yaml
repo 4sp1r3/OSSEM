@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '29'
+version: '0'
+event(fields): aparticularrequestwithinapeersearchStart(GUID requestId, GUID searchId,
+  UnicodeString peer)
+opcode: Start
+keywords: ''
+task: aparticularrequestwithinapeersearch
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: requestId
+- field_type: GUID
+  field_name: searchId
+- field_type: UnicodeString
+  field_name: peer

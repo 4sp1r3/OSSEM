@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10202'
+version: '0'
+event(fields): ReceiveThrottling10202(UInt32 NetLuidIndex)
+opcode: ''
+keywords: ReceiveThrottling
+task: ReceiveThrottling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NetLuidIndex

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDC
+event_id: '41'
+version: '0'
+event(fields): CsConnectionEvent()
+opcode: ''
+keywords: Cs
+task: CsConnectionEvent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

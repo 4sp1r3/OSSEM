@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '3022'
+version: '0'
+event(fields): task_03022(UnicodeString Message, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UInt32
+  field_name: HRESULT

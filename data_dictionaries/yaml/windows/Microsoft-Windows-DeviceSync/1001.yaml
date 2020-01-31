@@ -1,0 +1,37 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '1001'
+version: '0'
+event(fields): task_0(GUID Error_DUID, GUID Error_Partnership, UInt8 Error_Type, Int32
+  Error_HResult, FILETIME Error_Time, UInt32 nameLen, Binary dataName, UInt32 descLen,
+  Binary dataDesc, UInt32 detailLen, Binary dataDetail, UnicodeString Error_Link)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Error_DUID
+- field_type: GUID
+  field_name: Error_Partnership
+- field_type: UInt8
+  field_name: Error_Type
+- field_type: Int32
+  field_name: Error_HResult
+- field_type: FILETIME
+  field_name: Error_Time
+- field_type: UInt32
+  field_name: nameLen
+- field_type: Binary
+  field_name: dataName
+- field_type: UInt32
+  field_name: descLen
+- field_type: Binary
+  field_name: dataDesc
+- field_type: UInt32
+  field_name: detailLen
+- field_type: Binary
+  field_name: dataDetail
+- field_type: UnicodeString
+  field_name: Error_Link

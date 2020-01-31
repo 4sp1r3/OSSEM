@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '196'
+version: '0'
+event(fields): SCHEDULE_SURFACEUPDATE(Pointer luidSurface, UInt64 bindId, UInt64 PresentCount,
+  UInt64 fenceValue, UInt32 bDirectFlip, UInt32 DXGI_ALPHA_MODE, UInt64 hmonAssociation,
+  UInt32 bStereoPreferRight, UInt32 bTemporaryMono, UInt32 bSwapPool, UInt32 BufferContentType,
+  UInt32 bIndependentFlip, UInt32 uPesentDuration, UInt32 BufferRealizationType, UInt32
+  uRealizationIndex, UInt64 hDxSurface)
+opcode: ''
+keywords: DwmCore
+task: SCHEDULE_SURFACEUPDATE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: luidSurface
+- field_type: UInt64
+  field_name: bindId
+- field_type: UInt64
+  field_name: PresentCount
+- field_type: UInt64
+  field_name: fenceValue
+- field_type: UInt32
+  field_name: bDirectFlip
+- field_type: UInt32
+  field_name: DXGI_ALPHA_MODE
+- field_type: UInt64
+  field_name: hmonAssociation
+- field_type: UInt32
+  field_name: bStereoPreferRight
+- field_type: UInt32
+  field_name: bTemporaryMono
+- field_type: UInt32
+  field_name: bSwapPool
+- field_type: UInt32
+  field_name: BufferContentType
+- field_type: UInt32
+  field_name: bIndependentFlip
+- field_type: UInt32
+  field_name: uPesentDuration
+- field_type: UInt32
+  field_name: BufferRealizationType
+- field_type: UInt32
+  field_name: uRealizationIndex
+- field_type: UInt64
+  field_name: hDxSurface

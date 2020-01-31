@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '718'
+version: '0'
+event(fields): Mshtml_CTouchDragDropHelper_DragInitiatedStart(Pointer TouchDragDropHelper,
+  Pointer Element)
+opcode: Start
+keywords: draganddrop touch
+task: Mshtml_CTouchDragDropHelper_DragInitiated
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TouchDragDropHelper
+- field_type: Pointer
+  field_name: Element

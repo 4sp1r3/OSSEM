@@ -1,0 +1,14 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '63'
+version: '2'
+event(fields): KernelQueueDequeue(UInt32 ThreadId, UInt32 EntryCount, UInt32 Entries)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: ThreadId
+- field_type: UInt32
+  field_name: EntryCount
+- field_type: UInt32
+  field_name: Entries

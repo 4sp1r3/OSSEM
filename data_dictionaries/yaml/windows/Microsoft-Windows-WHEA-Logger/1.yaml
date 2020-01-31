@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WHEA-Logger
+event_id: '1'
+version: '0'
+event(fields): task_0(UInt32 Length, Binary RawData)
+opcode: ''
+keywords: Errlog
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Length
+- field_type: Binary
+  field_name: RawData

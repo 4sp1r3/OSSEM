@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HomeGroup-ControlPanel
+event_id: '7006'
+version: '0'
+event(fields): Initialization_FinishedPageStop()
+opcode: Stop
+keywords: HomeGroup
+task: Initialization_FinishedPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

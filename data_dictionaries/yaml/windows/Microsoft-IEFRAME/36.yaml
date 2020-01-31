@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '36'
+version: '0'
+event(fields): Imaging_SendIconicThumbnailStart()
+opcode: Start
+keywords: primarynav
+task: Imaging_SendIconicThumbnail
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

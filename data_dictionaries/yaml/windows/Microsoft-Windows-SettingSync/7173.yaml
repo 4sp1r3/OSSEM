@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7173'
+version: '0'
+event(fields): Perf_AppSyncRequestStoreApplicabilityStart()
+opcode: Start
+keywords: AppSync
+task: Perf_AppSyncRequestStoreApplicability
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

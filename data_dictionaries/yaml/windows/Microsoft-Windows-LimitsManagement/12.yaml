@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-LimitsManagement
+event_id: '12'
+version: '0'
+event(fields): MitigationRundown(UInt64 Token, UInt32 Type, UInt32 DisengagedValue,
+  UInt32 FullyEngagedValue, UInt32 Value, UnicodeString Name)
+opcode: ''
+keywords: ''
+task: MitigationRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Token
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: DisengagedValue
+- field_type: UInt32
+  field_name: FullyEngagedValue
+- field_type: UInt32
+  field_name: Value
+- field_type: UnicodeString
+  field_name: Name

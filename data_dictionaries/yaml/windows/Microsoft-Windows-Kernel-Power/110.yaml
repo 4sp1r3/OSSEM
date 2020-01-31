@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '110'
+version: '0'
+event(fields): SystemTimerResolutionStackRundown(UInt32 RequestedPeriod, UInt32 Pid,
+  UInt16 AppNameLength, UnicodeString AppName, UInt32 StackSize, Pointer Stack)
+opcode: ''
+keywords: po:Diagnostic
+task: SystemTimerResolutionStackRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestedPeriod
+- field_type: UInt32
+  field_name: Pid
+- field_type: UInt16
+  field_name: AppNameLength
+- field_type: UnicodeString
+  field_name: AppName
+- field_type: UInt32
+  field_name: StackSize
+- field_type: Pointer
+  field_name: Stack

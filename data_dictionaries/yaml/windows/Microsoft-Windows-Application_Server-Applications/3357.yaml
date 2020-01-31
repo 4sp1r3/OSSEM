@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3357'
+version: '0'
+event(fields): SecurityVerification3357(UnicodeString AppDomain)
+opcode: ''
+keywords: Security
+task: SecurityVerification
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

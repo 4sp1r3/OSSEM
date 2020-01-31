@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SpellChecker
+event_id: '9'
+version: '0'
+event(fields): CheckspellingStart9()
+opcode: Start
+keywords: ''
+task: Checkspelling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

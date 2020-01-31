@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '146'
+version: '0'
+event(fields): task_0146(UInt32 ChainingCountRequests, UInt32 ChainLoggingRate, UInt32
+  ChainingCountSuccess, UInt32 ChainingCountFailure)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ChainingCountRequests
+- field_type: UInt32
+  field_name: ChainLoggingRate
+- field_type: UInt32
+  field_name: ChainingCountSuccess
+- field_type: UInt32
+  field_name: ChainingCountFailure

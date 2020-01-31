@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3347'
+version: '0'
+event(fields): ConnectionAcceptStop3347(UnicodeString AppDomain)
+opcode: Stop
+keywords: TCP
+task: ConnectionAccept
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

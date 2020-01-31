@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '352'
+version: '0'
+event(fields): CandidateView_SetTopStop()
+opcode: Stop
+keywords: TSF_UIManager
+task: CandidateView_SetTop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1482'
+version: '0'
+event(fields): UdpSegmentMessage(Pointer Endpoint, UInt32 SegmentSize, UInt64 MessageLength,
+  UInt32 HwDatagrams, UInt32 HwSegments, UInt32 SwSegments, UInt32 Status)
+opcode: ''
+keywords: ut:SendPath
+task: UdpSegmentMessage
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: SegmentSize
+- field_type: UInt64
+  field_name: MessageLength
+- field_type: UInt32
+  field_name: HwDatagrams
+- field_type: UInt32
+  field_name: HwSegments
+- field_type: UInt32
+  field_name: SwSegments
+- field_type: UInt32
+  field_name: Status

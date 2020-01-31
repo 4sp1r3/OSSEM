@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-Win32k
+event_id: '217'
+version: '0'
+event(fields): TouchPadHWTimeStamp(UInt32 ScanTime, UInt32 dwTime, UInt64 QPCTime,
+  UInt32 XLogicalT, UInt32 YLogicalT, UInt32 XLogicalC, UInt32 YLogicalC, UInt32 XHimetricT,
+  UInt32 YHimetricT, Boolean Button, UInt32 Count, UInt32 Identifier, UInt32 Width,
+  UInt32 Height, Boolean Confidence, UInt32 Pressure, UInt32 DeviceType)
+opcode: ''
+keywords: TouchInput
+task: TouchPadHWTimeStamp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScanTime
+- field_type: UInt32
+  field_name: dwTime
+- field_type: UInt64
+  field_name: QPCTime
+- field_type: UInt32
+  field_name: XLogicalT
+- field_type: UInt32
+  field_name: YLogicalT
+- field_type: UInt32
+  field_name: XLogicalC
+- field_type: UInt32
+  field_name: YLogicalC
+- field_type: UInt32
+  field_name: XHimetricT
+- field_type: UInt32
+  field_name: YHimetricT
+- field_type: Boolean
+  field_name: Button
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt32
+  field_name: Identifier
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: Boolean
+  field_name: Confidence
+- field_type: UInt32
+  field_name: Pressure
+- field_type: UInt32
+  field_name: DeviceType

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '64509'
+version: '0'
+event(fields): LockScreenCallBroker_AccessibleNameChanged(GUID guid, UnicodeString
+  message)
+opcode: ''
+keywords: ''
+task: LockScreenCallBroker_AccessibleNameChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: guid
+- field_type: UnicodeString
+  field_name: message

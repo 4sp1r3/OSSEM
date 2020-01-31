@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CloudStore
+event_id: '2001'
+version: '0'
+event(fields): task_02001(UInt16 FieldId, UInt32 BondDataType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FieldId
+- field_type: UInt32
+  field_name: BondDataType

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '11'
+version: '0'
+event(fields): HomeButtonNavigationStop()
+opcode: Stop
+keywords: ''
+task: HomeButtonNavigation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

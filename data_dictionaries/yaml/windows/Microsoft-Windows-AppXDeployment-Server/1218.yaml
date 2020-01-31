@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1218'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.TilesStateHandlerStop()
+opcode: Stop
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.TilesStateHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

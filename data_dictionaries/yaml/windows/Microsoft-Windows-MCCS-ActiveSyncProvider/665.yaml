@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '665'
+version: '0'
+event(fields): SPERF_TAG_SEND_MAILStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_SEND_MAIL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

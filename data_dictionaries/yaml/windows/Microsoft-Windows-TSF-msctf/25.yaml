@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '25'
+version: '0'
+event(fields): CreateAssemblyListStart()
+opcode: Start
+keywords: Perf
+task: CreateAssemblyList
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

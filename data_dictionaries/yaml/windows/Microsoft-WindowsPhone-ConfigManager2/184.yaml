@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '184'
+version: '0'
+event(fields): None184(UInt32 hr1, UInt32 hr2, UInt32 hr3)
+opcode: ''
+keywords: Error Trace
+task: None
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr1
+- field_type: UInt32
+  field_name: hr2
+- field_type: UInt32
+  field_name: hr3

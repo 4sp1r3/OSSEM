@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62442'
+version: '0'
+event(fields): AppDefaults_UpgradeToRecommendedApp(UnicodeString ProgId, UnicodeString
+  CurrentDefaultProgId, UnicodeString ExtOrUriScheme)
+opcode: ''
+keywords: ''
+task: AppDefaults_UpgradeToRecommendedApp
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProgId
+- field_type: UnicodeString
+  field_name: CurrentDefaultProgId
+- field_type: UnicodeString
+  field_name: ExtOrUriScheme

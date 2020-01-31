@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2071'
+version: '0'
+event(fields): Browseui_Breadcrumb_RebuildToolbarStart()
+opcode: Start
+keywords: Shell
+task: Browseui_Breadcrumb_RebuildToolbar
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,19 @@
+provider: Thread Pool
+category: '{c861d0e2-a2c1-4d36-9f9c-970bab943a12}'
+event_id: '32'
+version: '2'
+event(fields): TP_V2_CBEnqueue(UInt32 PoolId, UInt32 TaskId, UInt32 CallbackFunction,
+  UInt32 CallbackContext, UInt32 SubProcessTag)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: PoolId
+- field_type: UInt32
+  field_name: TaskId
+- field_type: UInt32
+  field_name: CallbackFunction
+- field_type: UInt32
+  field_name: CallbackContext
+- field_type: UInt32
+  field_name: SubProcessTag

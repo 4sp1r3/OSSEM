@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '27'
+version: '0'
+event(fields): ThrottleStatesErrata()
+opcode: ''
+keywords: ''
+task: ThrottleStatesErrata
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

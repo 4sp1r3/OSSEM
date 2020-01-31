@@ -1,0 +1,69 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '215'
+version: '0'
+event(fields): PresentHistoryDetailedStart(Pointer hAdapter, Pointer Token, UInt32
+  Model, UInt32 TokenSize, UInt64 TokenData, UInt32 ScrollRectleft, UInt32 ScrollRectright,
+  UInt32 ScrollRecttop, UInt32 ScrollRectbottom, UInt32 ScrollOffsetX, UInt32 ScrollOffsetY,
+  UInt32 DirtyRectCount, Int32 Left, Int32 Right, Int32 Top, Int32 Bottom, UInt32
+  SourceRectleft, UInt32 SourceRectright, UInt32 SourceRecttop, UInt32 SourceRectbottom,
+  UInt32 DestWidth, UInt32 DestHeight, UInt32 TargetRectleft, UInt32 TargetRectright,
+  UInt32 TargetRecttop, UInt32 TargetRectbottom)
+opcode: Start
+keywords: Base
+task: PresentHistoryDetailed
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAdapter
+- field_type: Pointer
+  field_name: Token
+- field_type: UInt32
+  field_name: Model
+- field_type: UInt32
+  field_name: TokenSize
+- field_type: UInt64
+  field_name: TokenData
+- field_type: UInt32
+  field_name: ScrollRectleft
+- field_type: UInt32
+  field_name: ScrollRectright
+- field_type: UInt32
+  field_name: ScrollRecttop
+- field_type: UInt32
+  field_name: ScrollRectbottom
+- field_type: UInt32
+  field_name: ScrollOffsetX
+- field_type: UInt32
+  field_name: ScrollOffsetY
+- field_type: UInt32
+  field_name: DirtyRectCount
+- field_type: Int32
+  field_name: Left
+- field_type: Int32
+  field_name: Right
+- field_type: Int32
+  field_name: Top
+- field_type: Int32
+  field_name: Bottom
+- field_type: UInt32
+  field_name: SourceRectleft
+- field_type: UInt32
+  field_name: SourceRectright
+- field_type: UInt32
+  field_name: SourceRecttop
+- field_type: UInt32
+  field_name: SourceRectbottom
+- field_type: UInt32
+  field_name: DestWidth
+- field_type: UInt32
+  field_name: DestHeight
+- field_type: UInt32
+  field_name: TargetRectleft
+- field_type: UInt32
+  field_name: TargetRectright
+- field_type: UInt32
+  field_name: TargetRecttop
+- field_type: UInt32
+  field_name: TargetRectbottom

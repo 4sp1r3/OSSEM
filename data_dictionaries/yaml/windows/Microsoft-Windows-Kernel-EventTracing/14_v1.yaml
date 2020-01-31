@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '14'
+version: '1'
+event(fields): ProviderEnable_V1(GUID ProviderName, UnicodeString SessionName, UInt64
+  MatchAnyKeyword, UInt64 MatchAllKeyword, UInt32 EnableProperty, UInt8 Level)
+opcode: Enable
+keywords: ETW_KEYWORD_PROVIDER ETW_KEYWORD_ENABLEMENT
+task: Provider
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderName
+- field_type: UnicodeString
+  field_name: SessionName
+- field_type: UInt64
+  field_name: MatchAnyKeyword
+- field_type: UInt64
+  field_name: MatchAllKeyword
+- field_type: UInt32
+  field_name: EnableProperty
+- field_type: UInt8
+  field_name: Level

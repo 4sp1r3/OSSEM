@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '139'
+version: '0'
+event(fields): Responsehandling139()
+opcode: ''
+keywords: Keyword.Client
+task: Responsehandling
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

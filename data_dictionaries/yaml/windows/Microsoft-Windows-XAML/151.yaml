@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '151'
+version: '0'
+event(fields): PointerUpdateStart()
+opcode: Start
+keywords: Input
+task: PointerUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

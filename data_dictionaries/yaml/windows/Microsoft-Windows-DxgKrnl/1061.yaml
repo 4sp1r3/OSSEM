@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1061'
+version: '0'
+event(fields): IndirectSwapChainMarkAbandoned(Pointer pSwapChain, Pointer ProducerEventSignaled,
+  Pointer ClientEventSignaled)
+opcode: ''
+keywords: IndirectSwapChain MixedReality
+task: IndirectSwapChainMarkAbandoned
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pSwapChain
+- field_type: Pointer
+  field_name: ProducerEventSignaled
+- field_type: Pointer
+  field_name: ClientEventSignaled

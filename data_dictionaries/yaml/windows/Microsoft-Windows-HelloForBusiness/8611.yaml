@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '8611'
+version: '0'
+event(fields): ContainerDeletionStop8611()
+opcode: Stop
+keywords: Internal
+task: ContainerDeletion
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

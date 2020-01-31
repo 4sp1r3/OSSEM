@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Resource-Exhaustion-Resolver
+event_id: '1006'
+version: '0'
+event(fields): LifecycleEventsEventsloggedwhentheresourceexhaustionresolverisstopped.1006(UInt32
+  ErrorCode)
+opcode: Eventsloggedwhentheresourceexhaustionresolverisstopped.
+keywords: RDR_RES_KEYWORD_LIFECYCLE
+task: LifecycleEvents
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

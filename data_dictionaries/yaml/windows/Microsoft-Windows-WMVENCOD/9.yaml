@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMVENCOD
+event_id: '9'
+version: '0'
+event(fields): VC1ENC_FRAME_PTOI_INFO(Int64 SampleTime, Pointer EncoderInstance)
+opcode: ''
+keywords: ''
+task: VC1ENC_FRAME_PTOI_INFO
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: SampleTime
+- field_type: Pointer
+  field_name: EncoderInstance

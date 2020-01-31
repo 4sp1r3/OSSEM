@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '11005'
+version: '1'
+event(fields): task_0OID_Handling11005_V1(GUID InterfaceGuid, UInt32 RequestId, UInt32
+  WwanStatus, UInt32 NetworkErrorCode, UInt32 RegisterState, UInt32 RegisterMode,
+  UnicodeString ProviderId, UnicodeString ProviderName, UnicodeString RoamingText,
+  UInt32 RegistrationFlags, UInt32 PreferredDataClasses)
+opcode: OID_Handling
+keywords: LwtDiagnostic WwanOid keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: WwanStatus
+- field_type: UInt32
+  field_name: NetworkErrorCode
+- field_type: UInt32
+  field_name: RegisterState
+- field_type: UInt32
+  field_name: RegisterMode
+- field_type: UnicodeString
+  field_name: ProviderId
+- field_type: UnicodeString
+  field_name: ProviderName
+- field_type: UnicodeString
+  field_name: RoamingText
+- field_type: UInt32
+  field_name: RegistrationFlags
+- field_type: UInt32
+  field_name: PreferredDataClasses

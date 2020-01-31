@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '43'
+version: '0'
+event(fields): DXVA_ReleaseBufferStop()
+opcode: Stop
+keywords: ''
+task: DXVA_ReleaseBuffer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DisplayColorCalibration
+event_id: '4'
+version: '0'
+event(fields): DisplayColorCalibration4(UnicodeString Setting)
+opcode: ''
+keywords: ''
+task: DisplayColorCalibration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Setting

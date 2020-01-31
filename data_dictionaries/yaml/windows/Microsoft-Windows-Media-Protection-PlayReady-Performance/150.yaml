@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '150'
+version: '0'
+event(fields): Oem_MemAllocStart(UInt32 Size)
+opcode: Start
+keywords: ''
+task: Oem_MemAlloc
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Size

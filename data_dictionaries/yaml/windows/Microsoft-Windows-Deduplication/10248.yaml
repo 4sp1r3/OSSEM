@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '10248'
+version: '0'
+event(fields): task_010248(UInt64 FileId, UnicodeString FilePath, UInt64 FileSize,
+  UInt32 Flags, UInt32 TotalRanges, UInt32 SkippedRanges, UInt32 AbortedRanges, UInt32
+  CommittedRanges, UInt32 ErrorCode, UnicodeString ErrorMessage, UnicodeString Description,
+  UnicodeString SourceFile, UInt32 LineNumber)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: FileId
+- field_type: UnicodeString
+  field_name: FilePath
+- field_type: UInt64
+  field_name: FileSize
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: TotalRanges
+- field_type: UInt32
+  field_name: SkippedRanges
+- field_type: UInt32
+  field_name: AbortedRanges
+- field_type: UInt32
+  field_name: CommittedRanges
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: Description
+- field_type: UnicodeString
+  field_name: SourceFile
+- field_type: UInt32
+  field_name: LineNumber

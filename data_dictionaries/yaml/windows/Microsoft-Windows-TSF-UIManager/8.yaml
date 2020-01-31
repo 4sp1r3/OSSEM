@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '8'
+version: '0'
+event(fields): IUIManager_ShowImeCommandsStop()
+opcode: Stop
+keywords: TSF_UIManager
+task: IUIManager_ShowImeCommands
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

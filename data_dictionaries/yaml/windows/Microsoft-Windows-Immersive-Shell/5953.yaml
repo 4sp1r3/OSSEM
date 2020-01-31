@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5953'
+version: '0'
+event(fields): AppActivation_Log_MultiplePackages(UnicodeString AppId, UnicodeString
+  ContractId, UnicodeString PackageFamilyName)
+opcode: ''
+keywords: ''
+task: AppActivation_Log_MultiplePackages
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId
+- field_type: UnicodeString
+  field_name: ContractId
+- field_type: UnicodeString
+  field_name: PackageFamilyName

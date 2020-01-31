@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3453'
+version: '0'
+event(fields): RemoteRegistrarClient_FindCrossProcConnectionStop()
+opcode: Stop
+keywords: MessagingPerformance RegistrarClient
+task: RemoteRegistrarClient_FindCrossProcConnection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerCfg
+event_id: '106'
+version: '0'
+event(fields): PowerCpl_SaveAllStop()
+opcode: Stop
+keywords: PowerCpl
+task: PowerCpl_SaveAll
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

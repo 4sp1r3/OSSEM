@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '130'
+version: '0'
+event(fields): ETWGUID_SLICER_CAPTUREStart(UInt64 hWndContext, Int32 left, Int32 top,
+  Int32 right, Int32 bottom, Int32 cMaxFramesToCapture, Int32 cFramesToSkip)
+opcode: Start
+keywords: DwmCore
+task: ETWGUID_SLICER_CAPTURE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hWndContext
+- field_type: Int32
+  field_name: left
+- field_type: Int32
+  field_name: top
+- field_type: Int32
+  field_name: right
+- field_type: Int32
+  field_name: bottom
+- field_type: Int32
+  field_name: cMaxFramesToCapture
+- field_type: Int32
+  field_name: cFramesToSkip

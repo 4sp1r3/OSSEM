@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61340'
+version: '0'
+event(fields): OperationManager_TileAdded(UInt32 TileID, UInt32 TileCount)
+opcode: ''
+keywords: Shell
+task: OperationManager_TileAdded
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TileID
+- field_type: UInt32
+  field_name: TileCount

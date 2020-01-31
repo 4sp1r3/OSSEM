@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Spell-Checking
+event_id: '31'
+version: '0'
+event(fields): task_031(UInt32 wordlist, Int32 hr)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: wordlist
+- field_type: Int32
+  field_name: hr

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19441'
+version: '0'
+event(fields): IconCache_CacheMiss(UnicodeString PathToIcon, Int32 IconOffset)
+opcode: ''
+keywords: FileClassStoreAndIconCache
+task: IconCache_CacheMiss
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PathToIcon
+- field_type: Int32
+  field_name: IconOffset

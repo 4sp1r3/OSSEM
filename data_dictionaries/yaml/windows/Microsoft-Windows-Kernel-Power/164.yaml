@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '164'
+version: '0'
+event(fields): ThermalStandbyNotification()
+opcode: ''
+keywords: po:Thermal
+task: ThermalStandbyNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

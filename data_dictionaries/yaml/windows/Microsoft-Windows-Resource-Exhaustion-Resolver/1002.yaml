@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Resource-Exhaustion-Resolver
+event_id: '1002'
+version: '0'
+event(fields): LifecycleEventsEventsloggedwhentheresourceexhaustionresolverisstopped.()
+opcode: Eventsloggedwhentheresourceexhaustionresolverisstopped.
+keywords: RDR_RES_KEYWORD_LIFECYCLE
+task: LifecycleEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

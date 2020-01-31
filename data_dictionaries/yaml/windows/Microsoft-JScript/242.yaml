@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '242'
+version: '0'
+event(fields): Jscript_Internal_Generic_Event(UnicodeString eventData)
+opcode: ''
+keywords: Internal
+task: Jscript_Internal_Generic_Event
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: eventData

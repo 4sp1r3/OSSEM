@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NdisImPlatformSysEvtProvider
+event_id: '16994'
+version: '0'
+event(fields): task_0PCODE_128pcode_12816994(UnicodeString Member, UnicodeString Status)
+opcode: opcode_128
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Member
+- field_type: UnicodeString
+  field_name: Status

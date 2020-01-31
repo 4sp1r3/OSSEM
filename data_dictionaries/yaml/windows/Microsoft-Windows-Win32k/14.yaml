@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Win32k
+event_id: '14'
+version: '0'
+event(fields): LockAcquireExclusive(Pointer LockId, UInt32 LockLevel, UnicodeString
+  LockName)
+opcode: ''
+keywords: Concurrency
+task: LockAcquireExclusive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: LockId
+- field_type: UInt32
+  field_name: LockLevel
+- field_type: UnicodeString
+  field_name: LockName

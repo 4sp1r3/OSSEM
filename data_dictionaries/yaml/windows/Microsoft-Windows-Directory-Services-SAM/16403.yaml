@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Directory-Services-SAM
+event_id: '16403'
+version: '0'
+event(fields): task_016403(UnicodeString AccountName, UnicodeString ErrorMessage,
+  UInt32 __binLength, Binary ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AccountName
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: ErrorCode

@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '145'
+version: '2'
+event(fields): ThermalZoneRundown_V2(UInt16 ThermalZoneDeviceInstanceLength, UnicodeString
+  ThermalZoneDeviceInstance, UInt16 ActiveCoolingState, Int32 ActivePoint, UInt16
+  PassiveCoolingState, Int32 ThrottleLimit, Boolean ThermalStandby, Boolean OverThrottled,
+  UInt16 DescriptionLength, UnicodeString Description)
+opcode: ''
+keywords: po:Thermal
+task: ThermalZoneRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ThermalZoneDeviceInstanceLength
+- field_type: UnicodeString
+  field_name: ThermalZoneDeviceInstance
+- field_type: UInt16
+  field_name: ActiveCoolingState
+- field_type: Int32
+  field_name: ActivePoint
+- field_type: UInt16
+  field_name: PassiveCoolingState
+- field_type: Int32
+  field_name: ThrottleLimit
+- field_type: Boolean
+  field_name: ThermalStandby
+- field_type: Boolean
+  field_name: OverThrottled
+- field_type: UInt16
+  field_name: DescriptionLength
+- field_type: UnicodeString
+  field_name: Description

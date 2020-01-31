@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6401'
+version: '0'
+event(fields): AppList_PopulateElementWithExtensionTilesStop()
+opcode: Stop
+keywords: ''
+task: AppList_PopulateElementWithExtensionTiles
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

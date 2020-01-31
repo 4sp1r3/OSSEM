@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Power-CAD
+event_id: '209'
+version: '0'
+event(fields): Notify209(UInt32 PowerSourceId, UInt16 Version, UInt32 Flags, UInt32
+  MaxCurrent, UInt32 Voltage, UInt32 PortType, UInt64 PortId, UInt32 PowerSourceInformation,
+  GUID OemCharger)
+opcode: ''
+keywords: Notify
+task: Notify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PowerSourceId
+- field_type: UInt16
+  field_name: Version
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: MaxCurrent
+- field_type: UInt32
+  field_name: Voltage
+- field_type: UInt32
+  field_name: PortType
+- field_type: UInt64
+  field_name: PortId
+- field_type: UInt32
+  field_name: PowerSourceInformation
+- field_type: GUID
+  field_name: OemCharger

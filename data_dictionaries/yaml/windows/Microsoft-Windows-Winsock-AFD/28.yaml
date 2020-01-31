@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '28'
+version: '0'
+event(fields): task_028(Pointer Process, Pointer Endpoint, Pointer Buffer, UInt32
+  BufferLength)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: BufferLength

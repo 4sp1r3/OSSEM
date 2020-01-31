@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '104'
+version: '0'
+event(fields): IPSocketInformation(Pointer fid_FdoContext, UInt32 fid_LocalAddressLength,
+  Binary fid_LocalAddress, UInt32 fid_RemoteAddressLength, Binary fid_RemoteAddress,
+  UInt32 fid_NtStatus)
+opcode: Information
+keywords: Default
+task: IPSocket
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_FdoContext
+- field_type: UInt32
+  field_name: fid_LocalAddressLength
+- field_type: Binary
+  field_name: fid_LocalAddress
+- field_type: UInt32
+  field_name: fid_RemoteAddressLength
+- field_type: Binary
+  field_name: fid_RemoteAddress
+- field_type: UInt32
+  field_name: fid_NtStatus

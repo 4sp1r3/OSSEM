@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '52'
+version: '0'
+event(fields): task_052(Int64 TimeOffsetSeconds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: TimeOffsetSeconds

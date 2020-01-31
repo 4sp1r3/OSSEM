@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3433'
+version: '0'
+event(fields): RemoteRegistrarClient_UnregisterReverseConnectionPortStop()
+opcode: Stop
+keywords: MessagingPerformance RegistrarClient
+task: RemoteRegistrarClient_UnregisterReverseConnectionPort
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,25 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '6003'
+version: '0'
+event(fields): BrokerSessionManagerDoPendingInitiateModernActivation(UInt32 hex, UInt32
+  unParam, UnicodeString pwsz, UnicodeString pwsz2, UInt32 unParam2, UnicodeString
+  pwsz3)
+opcode: ''
+keywords: BrokerSessionManager
+task: BrokerSessionManagerDoPendingInitiateModernActivation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex
+- field_type: UInt32
+  field_name: unParam
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UnicodeString
+  field_name: pwsz2
+- field_type: UInt32
+  field_name: unParam2
+- field_type: UnicodeString
+  field_name: pwsz3

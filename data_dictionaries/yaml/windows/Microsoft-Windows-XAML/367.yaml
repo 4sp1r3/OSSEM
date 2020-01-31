@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '367'
+version: '0'
+event(fields): ImageCopyToVideoMemoryStop(UInt64 Id)
+opcode: Stop
+keywords: Images
+task: ImageCopyToVideoMemory
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id

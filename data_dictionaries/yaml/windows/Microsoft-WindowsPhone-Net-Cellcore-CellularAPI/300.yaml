@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '300'
+version: '0'
+event(fields): CUICCStart(UInt64 Pointer)
+opcode: Start
+keywords: Performance UICC
+task: CUICC
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Pointer

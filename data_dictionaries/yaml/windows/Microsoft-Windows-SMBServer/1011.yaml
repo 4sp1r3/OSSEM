@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1011'
+version: '0'
+event(fields): SrvEndpointRemoved(UInt16 NameLength, UnicodeString Name, UInt16 DomainNameLength,
+  UnicodeString DomainName, UInt16 TransportNameLength, UnicodeString TransportName)
+opcode: ''
+keywords: Operational
+task: SrvEndpointRemoved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt16
+  field_name: DomainNameLength
+- field_type: UnicodeString
+  field_name: DomainName
+- field_type: UInt16
+  field_name: TransportNameLength
+- field_type: UnicodeString
+  field_name: TransportName

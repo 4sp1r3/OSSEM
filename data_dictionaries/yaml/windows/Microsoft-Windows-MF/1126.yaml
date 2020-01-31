@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MF
+event_id: '1126'
+version: '0'
+event(fields): MediaFoundationAsyncWrapperProcessInput(MFT)Start(Pointer WrapperPtr,
+  UInt32 StreamID, Pointer SamplePtr)
+opcode: Start
+keywords: ''
+task: MediaFoundationAsyncWrapperProcessInput(MFT)
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WrapperPtr
+- field_type: UInt32
+  field_name: StreamID
+- field_type: Pointer
+  field_name: SamplePtr

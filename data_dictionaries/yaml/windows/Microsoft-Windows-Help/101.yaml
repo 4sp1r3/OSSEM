@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Help
+event_id: '101'
+version: '0'
+event(fields): NavigationStop(UnicodeString url)
+opcode: Stop
+keywords: ''
+task: Navigation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: url

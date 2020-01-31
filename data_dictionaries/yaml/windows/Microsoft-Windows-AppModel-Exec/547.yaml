@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '547'
+version: '0'
+event(fields): BM_OnUserLogoff(UInt32 SessionId, UnicodeString UserSid, UInt32 HRESULT)
+opcode: ''
+keywords: BM ExecProductionCircular ExecDevPlatCircular
+task: BM_OnUserLogoff
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: UserSid
+- field_type: UInt32
+  field_name: HRESULT

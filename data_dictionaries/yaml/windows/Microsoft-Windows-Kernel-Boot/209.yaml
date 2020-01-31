@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '209'
+version: '0'
+event(fields): BootSIDrtmSvnCheck(UInt32 SvnCounterId, UInt32 StatusCode, UInt32 SvnValue,
+  UInt32 PrevSvnValue)
+opcode: DrtmSvnCheck
+keywords: ''
+task: BootSI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SvnCounterId
+- field_type: UInt32
+  field_name: StatusCode
+- field_type: UInt32
+  field_name: SvnValue
+- field_type: UInt32
+  field_name: PrevSvnValue

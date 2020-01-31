@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '3073'
+version: '0'
+event(fields): MediaProc:DynamicTransformRemovalStart(Pointer object)
+opcode: Start
+keywords: ''
+task: MediaProc:DynamicTransformRemoval
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4803'
+version: '0'
+event(fields): DiscoveryClientReceivedMulticastSuppression(UnicodeString AppDomain)
+opcode: ReceivedMulticastSuppression
+keywords: Discovery
+task: DiscoveryClient
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

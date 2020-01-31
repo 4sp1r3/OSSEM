@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '162'
+version: '0'
+event(fields): CDRMMemoryCacheClearFreeListStart(Pointer CDRMMemoryCacheClearFreeList_ptr)
+opcode: Start
+keywords: ''
+task: CDRMMemoryCacheClearFreeList
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CDRMMemoryCacheClearFreeList_ptr

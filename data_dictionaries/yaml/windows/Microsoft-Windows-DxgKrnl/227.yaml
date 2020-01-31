@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '227'
+version: '0'
+event(fields): ReportCommittedGlobalAllocationDCStart(Pointer hGlobalAllocationHandle,
+  UInt32 ulSegmentId, UInt64 SegmentOffset)
+opcode: DC_Start
+keywords: Base
+task: ReportCommittedGlobalAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hGlobalAllocationHandle
+- field_type: UInt32
+  field_name: ulSegmentId
+- field_type: UInt64
+  field_name: SegmentOffset

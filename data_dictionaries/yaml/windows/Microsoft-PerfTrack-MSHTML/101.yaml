@@ -1,0 +1,15 @@
+provider: Microsoft-PerfTrack-MSHTML
+event_id: '101'
+version: '0'
+event(fields): NavigationStart(UInt64 ObjectMSHTML, UInt32 Counter)
+opcode: Start
+keywords: ''
+task: Navigation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ObjectMSHTML
+- field_type: UInt32
+  field_name: Counter

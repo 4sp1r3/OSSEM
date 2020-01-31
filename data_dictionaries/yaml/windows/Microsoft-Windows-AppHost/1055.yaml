@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1055'
+version: '0'
+event(fields): Infrastructure.WebInstance.InitializeStart()
+opcode: Start
+keywords: WwaHost
+task: Infrastructure.WebInstance.Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

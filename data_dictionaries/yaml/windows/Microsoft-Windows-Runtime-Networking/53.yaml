@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '53'
+version: '0'
+event(fields): WebSocketReceiveProcessingafterread53(Pointer obj, UInt32 length)
+opcode: Processingafterread
+keywords: keywords.WebSocket
+task: WebSocketReceive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: obj
+- field_type: UInt32
+  field_name: length

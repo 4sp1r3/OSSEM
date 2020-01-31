@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7455'
+version: '0'
+event(fields): ConnectedSearch_Settings_MeteredConnection7455()
+opcode: ''
+keywords: ''
+task: ConnectedSearch_Settings_MeteredConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

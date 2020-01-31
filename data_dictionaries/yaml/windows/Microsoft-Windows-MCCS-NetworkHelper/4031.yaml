@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '4031'
+version: '0'
+event(fields): task_04031()
+opcode: ''
+keywords: Debug
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

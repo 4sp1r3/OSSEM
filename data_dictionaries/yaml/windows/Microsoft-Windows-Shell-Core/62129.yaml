@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62129'
+version: '0'
+event(fields): TileManagement_PackageInfo_CommitStop(UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: TileManagement_PackageInfo_Commit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

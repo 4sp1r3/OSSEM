@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '79'
+version: '0'
+event(fields): CDBURNStop()
+opcode: Stop
+keywords: mediaplayer
+task: CDBURN
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

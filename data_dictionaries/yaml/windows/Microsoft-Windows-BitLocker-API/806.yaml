@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '806'
+version: '0'
+event(fields): task_0806(GUID IdentificationGUID, SYSTEMTIME ResealTime)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IdentificationGUID
+- field_type: SYSTEMTIME
+  field_name: ResealTime

@@ -1,0 +1,66 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '516'
+version: '6'
+event(fields): SpmScenarioStop_V6(UInt32 EnergyDrain, UInt64 DripsResidencyInUs, Boolean
+  OnAc, UInt64 HwDripsResidencyInUs, UInt64 PreVetoCount, UInt64 VetoCount, UInt64
+  DurationInUs, UInt32 FullChargeCapacity, UInt64 NonActivatedCpuInUs, UInt8 IRTruncatePercentage,
+  UInt32 DesignCapacity, UInt64 AudioDurationInUs, UInt32 Reason, Boolean DisconnectedStandby,
+  Boolean AoAcCompliantNic, UInt64 NonAttributedCpuInUs, Boolean EnergySaverPolicy,
+  UInt32 VideoTimeoutInSec, UInt32 LockConsoleTimeoutInSec, UInt32 StandbyTimeoutInSec,
+  UInt32 ModernSleepEnabledActionsBitmask, UInt32 ModernSleepAppliedActionsBitmask,
+  UInt32 EnergyDrainV2Flags, Int64 EnergyDrainV2)
+opcode: ''
+keywords: po:SleepStudy
+task: SpmScenarioStop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EnergyDrain
+- field_type: UInt64
+  field_name: DripsResidencyInUs
+- field_type: Boolean
+  field_name: OnAc
+- field_type: UInt64
+  field_name: HwDripsResidencyInUs
+- field_type: UInt64
+  field_name: PreVetoCount
+- field_type: UInt64
+  field_name: VetoCount
+- field_type: UInt64
+  field_name: DurationInUs
+- field_type: UInt32
+  field_name: FullChargeCapacity
+- field_type: UInt64
+  field_name: NonActivatedCpuInUs
+- field_type: UInt8
+  field_name: IRTruncatePercentage
+- field_type: UInt32
+  field_name: DesignCapacity
+- field_type: UInt64
+  field_name: AudioDurationInUs
+- field_type: UInt32
+  field_name: Reason
+- field_type: Boolean
+  field_name: DisconnectedStandby
+- field_type: Boolean
+  field_name: AoAcCompliantNic
+- field_type: UInt64
+  field_name: NonAttributedCpuInUs
+- field_type: Boolean
+  field_name: EnergySaverPolicy
+- field_type: UInt32
+  field_name: VideoTimeoutInSec
+- field_type: UInt32
+  field_name: LockConsoleTimeoutInSec
+- field_type: UInt32
+  field_name: StandbyTimeoutInSec
+- field_type: UInt32
+  field_name: ModernSleepEnabledActionsBitmask
+- field_type: UInt32
+  field_name: ModernSleepAppliedActionsBitmask
+- field_type: UInt32
+  field_name: EnergyDrainV2Flags
+- field_type: Int64
+  field_name: EnergyDrainV2

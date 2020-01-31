@@ -1,0 +1,70 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5451'
+version: '1'
+event(fields): task_05451_V1(UnicodeString LocalAddress, UnicodeString LocalAddressMask,
+  UInt32 LocalPort, UnicodeString LocalTunnelEndpoint, UnicodeString RemoteAddress,
+  UnicodeString RemoteAddressMask, UInt32 RemotePort, UnicodeString PeerPrivateAddress,
+  UnicodeString RemoteTunnelEndpoint, UInt32 IpProtocol, UnicodeString KeyingModuleName,
+  UnicodeString AhAuthType, UnicodeString EspAuthType, UnicodeString CipherType, UInt32
+  LifetimeSeconds, UInt32 LifetimeKilobytes, UInt32 LifetimePackets, UnicodeString
+  Mode, UnicodeString Role, UInt64 TransportFilterId, UInt64 MainModeSaId, UInt64
+  QuickModeSaId, UInt64 InboundSpi, UInt64 OutboundSpi, UInt64 TunnelId, UInt64 TrafficSelectorId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalAddress
+- field_type: UnicodeString
+  field_name: LocalAddressMask
+- field_type: UInt32
+  field_name: LocalPort
+- field_type: UnicodeString
+  field_name: LocalTunnelEndpoint
+- field_type: UnicodeString
+  field_name: RemoteAddress
+- field_type: UnicodeString
+  field_name: RemoteAddressMask
+- field_type: UInt32
+  field_name: RemotePort
+- field_type: UnicodeString
+  field_name: PeerPrivateAddress
+- field_type: UnicodeString
+  field_name: RemoteTunnelEndpoint
+- field_type: UInt32
+  field_name: IpProtocol
+- field_type: UnicodeString
+  field_name: KeyingModuleName
+- field_type: UnicodeString
+  field_name: AhAuthType
+- field_type: UnicodeString
+  field_name: EspAuthType
+- field_type: UnicodeString
+  field_name: CipherType
+- field_type: UInt32
+  field_name: LifetimeSeconds
+- field_type: UInt32
+  field_name: LifetimeKilobytes
+- field_type: UInt32
+  field_name: LifetimePackets
+- field_type: UnicodeString
+  field_name: Mode
+- field_type: UnicodeString
+  field_name: Role
+- field_type: UInt64
+  field_name: TransportFilterId
+- field_type: UInt64
+  field_name: MainModeSaId
+- field_type: UInt64
+  field_name: QuickModeSaId
+- field_type: UInt64
+  field_name: InboundSpi
+- field_type: UInt64
+  field_name: OutboundSpi
+- field_type: UInt64
+  field_name: TunnelId
+- field_type: UInt64
+  field_name: TrafficSelectorId

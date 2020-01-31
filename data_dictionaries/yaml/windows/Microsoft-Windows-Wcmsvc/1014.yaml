@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '1014'
+version: '0'
+event(fields): task_01014(GUID InterfaceGUID, UnicodeString ProfileName, UInt32 WcmOpcode,
+  UInt32 Datalength, UInt32 CallerProcessID, UInt32 ReturnValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGUID
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UInt32
+  field_name: WcmOpcode
+- field_type: UInt32
+  field_name: Datalength
+- field_type: UInt32
+  field_name: CallerProcessID
+- field_type: UInt32
+  field_name: ReturnValue

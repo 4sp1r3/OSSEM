@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '610'
+version: '0'
+event(fields): AdaptiveMediaSourceDownloadStop(Pointer AdaptiveMediaSource, Int32
+  StopReason)
+opcode: Stop
+keywords: keyword_100000000000
+task: AdaptiveMediaSourceDownload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdaptiveMediaSource
+- field_type: Int32
+  field_name: StopReason

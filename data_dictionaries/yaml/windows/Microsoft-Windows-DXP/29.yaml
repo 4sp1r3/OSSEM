@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXP
+event_id: '29'
+version: '0'
+event(fields): DeviceConnectStop29(UnicodeString DeviceID)
+opcode: Stop
+keywords: ''
+task: DeviceConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceID

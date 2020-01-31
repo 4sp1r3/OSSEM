@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-HttpService
+event_id: '3'
+version: '0'
+event(fields): HTTPRequestTraceTaskDeliver(Pointer RequestObj, UInt64 RequestId, UInt32
+  SiteId, UnicodeString RequestQueueName, UnicodeString Url, UInt32 Status)
+opcode: Deliver
+keywords: HTTP_KEYWORD_REQUEST HTTP_KEYWORD_REQUEST_QUEUE
+task: HTTPRequestTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestObj
+- field_type: UInt64
+  field_name: RequestId
+- field_type: UInt32
+  field_name: SiteId
+- field_type: UnicodeString
+  field_name: RequestQueueName
+- field_type: UnicodeString
+  field_name: Url
+- field_type: UInt32
+  field_name: Status

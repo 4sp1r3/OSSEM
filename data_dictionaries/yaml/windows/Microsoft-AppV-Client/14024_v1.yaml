@@ -1,0 +1,17 @@
+provider: Microsoft-AppV-Client
+event_id: '14024'
+version: '1'
+event(fields): Streaming14024_V1(UnicodeString File, Pointer Pid, UnicodeString Sid)
+opcode: ''
+keywords: Streaming
+task: Streaming
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: File
+- field_type: Pointer
+  field_name: Pid
+- field_type: UnicodeString
+  field_name: Sid

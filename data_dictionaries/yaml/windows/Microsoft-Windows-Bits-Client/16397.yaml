@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '16397'
+version: '0'
+event(fields): task_016397(UnicodeString entityName, UInt32 currentSize, UInt32 currentLimit)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: entityName
+- field_type: UInt32
+  field_name: currentSize
+- field_type: UInt32
+  field_name: currentLimit

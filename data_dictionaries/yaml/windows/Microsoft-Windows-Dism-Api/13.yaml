@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '13'
+version: '0'
+event(fields): EnqueueCommandObjectStart(UInt32 SessionId)
+opcode: Start
+keywords: DismApiCommandThreadEvent DismApiCommandQueueEvent DismApiSessionTableEvent
+task: EnqueueCommandObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId

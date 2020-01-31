@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5000'
+version: '0'
+event(fields): task_05000(UnicodeString InterfaceName, UInt32 InterfaceType, UInt32
+  RegistryState, UInt32 CurrentState, UnicodeString URL, UInt32 AuthenticationMode)
+opcode: ''
+keywords: iphttps
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InterfaceName
+- field_type: UInt32
+  field_name: InterfaceType
+- field_type: UInt32
+  field_name: RegistryState
+- field_type: UInt32
+  field_name: CurrentState
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt32
+  field_name: AuthenticationMode

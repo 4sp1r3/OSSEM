@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-PDC
+event_id: '63'
+version: '0'
+event(fields): EnterConnectedStandbyEnd(UInt32 DisableInputToPLMEntry, UInt32 DisableInputToDAMEntry,
+  UInt32 DisableInputToLowPowerEpochEntry, UInt32 PhaseTimesConnection, UInt32 PhaseTimesPresence,
+  UInt32 PhaseTimesPlmAndResiliencyNotification, UInt32 PhaseTimesMaintenance, UInt32
+  PhaseTimesDamAndLowPower)
+opcode: ''
+keywords: Cs CsDiag
+task: EnterConnectedStandbyEnd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DisableInputToPLMEntry
+- field_type: UInt32
+  field_name: DisableInputToDAMEntry
+- field_type: UInt32
+  field_name: DisableInputToLowPowerEpochEntry
+- field_type: UInt32
+  field_name: PhaseTimesConnection
+- field_type: UInt32
+  field_name: PhaseTimesPresence
+- field_type: UInt32
+  field_name: PhaseTimesPlmAndResiliencyNotification
+- field_type: UInt32
+  field_name: PhaseTimesMaintenance
+- field_type: UInt32
+  field_name: PhaseTimesDamAndLowPower

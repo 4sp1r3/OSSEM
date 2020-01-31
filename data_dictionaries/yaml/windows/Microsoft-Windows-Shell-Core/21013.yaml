@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '21013'
+version: '0'
+event(fields): SystemTray_SystemPromote(GUID guid, UInt32 uID, UInt32 HWND, UInt32
+  Result)
+opcode: ''
+keywords: Shell
+task: SystemTray_SystemPromote
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: guid
+- field_type: UInt32
+  field_name: uID
+- field_type: UInt32
+  field_name: HWND
+- field_type: UInt32
+  field_name: Result

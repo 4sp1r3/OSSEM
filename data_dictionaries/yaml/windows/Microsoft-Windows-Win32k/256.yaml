@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '256'
+version: '0'
+event(fields): DitMmcssWorkStart()
+opcode: Start
+keywords: MessagePumpInternalAndInput ComponentHosting
+task: DitMmcssWork
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

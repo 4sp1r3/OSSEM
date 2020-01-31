@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51079'
+version: '0'
+event(fields): ProtocolStateEventDisableDhcpV6(UInt32 InterfaceId, UInt32 DwordVal1)
+opcode: DisableDhcpV6
+keywords: ''
+task: ProtocolStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: DwordVal1

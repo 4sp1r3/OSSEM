@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TerminalServices-LocalSessionManager
+event_id: '39'
+version: '0'
+event(fields): task_039(UInt32 TargetSession, UInt32 Source)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TargetSession
+- field_type: UInt32
+  field_name: Source

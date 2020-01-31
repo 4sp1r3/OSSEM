@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-ESE
+event_id: '115'
+version: '0'
+event(fields): ESE_SpaceFreeExt_Trace(UInt32 ifmp, UInt32 pgnoFDP, UInt32 pgnoFirst,
+  UInt32 cpg, UInt32 objidFDP, UInt8 tce)
+opcode: ''
+keywords: Space
+task: ESE_SpaceFreeExt_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ifmp
+- field_type: UInt32
+  field_name: pgnoFDP
+- field_type: UInt32
+  field_name: pgnoFirst
+- field_type: UInt32
+  field_name: cpg
+- field_type: UInt32
+  field_name: objidFDP
+- field_type: UInt8
+  field_name: tce

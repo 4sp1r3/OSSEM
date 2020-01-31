@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '601'
+version: '0'
+event(fields): AM_CreatingActivationPlugins601(UInt32 HRESULT, GUID PluginClsid)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular
+task: AM_CreatingActivationPlugins
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: GUID
+  field_name: PluginClsid

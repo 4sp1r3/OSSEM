@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '35'
+version: '0'
+event(fields): task_035(UnicodeString TimeSource, UInt32 TimeSourceRefId, UInt32 CurrentStratumNumber)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TimeSource
+- field_type: UInt32
+  field_name: TimeSourceRefId
+- field_type: UInt32
+  field_name: CurrentStratumNumber

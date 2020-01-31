@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '39459'
+version: '0'
+event(fields): TrackingProfile(UnicodeString Data, UnicodeString Activity, UnicodeString
+  AppDomain)
+opcode: ''
+keywords: WFRuntime
+task: TrackingProfile
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Data
+- field_type: UnicodeString
+  field_name: Activity
+- field_type: UnicodeString
+  field_name: AppDomain

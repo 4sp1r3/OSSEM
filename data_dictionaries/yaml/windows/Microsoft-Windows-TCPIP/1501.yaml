@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1501'
+version: '0'
+event(fields): TcpipMediaReconnect(UInt32 IfIndex)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis
+task: TcpipMediaReconnect
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex

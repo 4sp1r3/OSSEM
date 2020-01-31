@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PackageStateRoaming
+event_id: '6030'
+version: '0'
+event(fields): task_06030()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

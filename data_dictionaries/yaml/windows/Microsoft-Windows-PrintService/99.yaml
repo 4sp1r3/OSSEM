@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintService
+event_id: '99'
+version: '0'
+event(fields): ProcessterminationduetocriticalfailureUnexpectedprocesstermination(UInt32
+  OperationCode, HexInt32 Error)
+opcode: Unexpectedprocesstermination
+keywords: SPOOLER_KEYWORD
+task: Processterminationduetocriticalfailure
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OperationCode
+- field_type: HexInt32
+  field_name: Error

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '23'
+version: '0'
+event(fields): UIManager_OnAnimationFinishStart()
+opcode: Start
+keywords: TSF_UIManager
+task: UIManager_OnAnimationFinish
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

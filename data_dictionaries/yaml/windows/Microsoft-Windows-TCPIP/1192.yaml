@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1192'
+version: '0'
+event(fields): TcpAcquireWeakRefPort(Pointer PortAcquirer, UInt16 PortNumber, UInt32
+  WeakReference, Pointer OriginalAcquirer)
+opcode: ''
+keywords: ut:ConnectPath
+task: TcpAcquireWeakRefPort
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PortAcquirer
+- field_type: UInt16
+  field_name: PortNumber
+- field_type: UInt32
+  field_name: WeakReference
+- field_type: Pointer
+  field_name: OriginalAcquirer

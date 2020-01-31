@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18742'
+version: '0'
+event(fields): Shell32_IndexInfoCache_RefreshStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_IndexInfoCache_Refresh
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '34005'
+version: '1'
+event(fields): VFSservicestopruntimeStop_V1()
+opcode: Stop
+keywords: ''
+task: VFSservicestopruntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

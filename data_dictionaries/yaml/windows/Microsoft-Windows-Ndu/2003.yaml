@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Ndu
+event_id: '2003'
+version: '0'
+event(fields): PerInterfaceStats(UInt64 _IfLuid, UInt32 _ProcNum, UInt16 _ListIndex)
+opcode: ''
+keywords: KeywordNduPerInterfaceStats
+task: PerInterfaceStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: _IfLuid
+- field_type: UInt32
+  field_name: _ProcNum
+- field_type: UInt16
+  field_name: _ListIndex

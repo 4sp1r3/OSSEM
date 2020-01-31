@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6049'
+version: '0'
+event(fields): GetConfigurationStop()
+opcode: Stop
+keywords: ''
+task: GetConfiguration
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

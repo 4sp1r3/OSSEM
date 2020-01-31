@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '338'
+version: '0'
+event(fields): BlockOnGPUStart(UInt64 Device)
+opcode: Start
+keywords: Rendering
+task: BlockOnGPU
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Device

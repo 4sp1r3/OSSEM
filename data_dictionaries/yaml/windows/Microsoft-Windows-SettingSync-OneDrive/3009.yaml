@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '3009'
+version: '0'
+event(fields): task_03009(UnicodeString PropStoreName, UnicodeString SettingUnitId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PropStoreName
+- field_type: UnicodeString
+  field_name: SettingUnitId

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '1005'
+version: '0'
+event(fields): Boot_CapturedDCL(UInt32 HResult)
+opcode: ''
+keywords: BootStatus
+task: Boot_CapturedDCL
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HResult

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '228'
+version: '0'
+event(fields): DitEngaged()
+opcode: ''
+keywords: MessagePumpInternalAndInput ComponentHosting
+task: DitEngaged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

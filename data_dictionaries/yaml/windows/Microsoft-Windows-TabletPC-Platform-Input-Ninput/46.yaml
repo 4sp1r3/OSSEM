@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '46'
+version: '0'
+event(fields): NinputICStopStart()
+opcode: Start
+keywords: ''
+task: NinputICStop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,24 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1010'
+version: '0'
+event(fields): CellRPCHandler1010(GUID guidCode1, GUID guidCode2, UInt32 dwCode1,
+  UInt32 dwCode2, UInt32 dwCode3, UInt32 rilSetSystemSelectionPrefsFlag)
+opcode: ''
+keywords: Trace
+task: CellRPCHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: guidCode1
+- field_type: GUID
+  field_name: guidCode2
+- field_type: UInt32
+  field_name: dwCode1
+- field_type: UInt32
+  field_name: dwCode2
+- field_type: UInt32
+  field_name: dwCode3
+- field_type: UInt32
+  field_name: rilSetSystemSelectionPrefsFlag

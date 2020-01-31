@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '26'
+version: '0'
+event(fields): PlaceholderTile_AutoInstallStart()
+opcode: Start
+keywords: ''
+task: PlaceholderTile_AutoInstall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '26011'
+version: '1'
+event(fields): IRP_MJ_READtask.Stop_V1()
+opcode: Stop
+keywords: ''
+task: IRP_MJ_READtask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

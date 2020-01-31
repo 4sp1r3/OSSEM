@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '7064'
+version: '0'
+event(fields): DocPerf_Task_XpsViewer_MainframeBase_OpenPackageStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_XpsViewer_MainframeBase_OpenPackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

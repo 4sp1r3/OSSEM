@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '501'
+version: '1'
+event(fields): DesktopWindowManagerMonitoringVideoMemoryResponsiveness_V1(UInt32 Reason,
+  UInt32 Diagnosis)
+opcode: VideoMemoryResponsiveness
+keywords: EventLog
+task: DesktopWindowManagerMonitoring
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Diagnosis

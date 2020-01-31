@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OverlayFilter
+event_id: '24842'
+version: '0'
+event(fields): TheWindowsOverlayTaskActionError(UInt32 hr)
+opcode: ActionError
+keywords: ''
+task: TheWindowsOverlayTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr

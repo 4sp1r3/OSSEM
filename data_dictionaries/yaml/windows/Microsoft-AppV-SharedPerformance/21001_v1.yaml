@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '21001'
+version: '1'
+event(fields): Packaging_3600Stop_V1()
+opcode: Stop
+keywords: ''
+task: Packaging_3600
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

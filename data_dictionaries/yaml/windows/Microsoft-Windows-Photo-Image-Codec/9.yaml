@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Photo-Image-Codec
+event_id: '9'
+version: '0'
+event(fields): WMPHOTO_Encoder_EncodeThumbnail_Info()
+opcode: ''
+keywords: ''
+task: WMPHOTO_Encoder_EncodeThumbnail_Info
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

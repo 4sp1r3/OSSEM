@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DXGI
+event_id: '872'
+version: '0'
+event(fields): IDXGISwapChainPartner_GetDestSizeStart(Pointer pThis, Pointer pWidth,
+  Pointer pHeight)
+opcode: Start
+keywords: ''
+task: IDXGISwapChainPartner_GetDestSize
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pWidth
+- field_type: Pointer
+  field_name: pHeight

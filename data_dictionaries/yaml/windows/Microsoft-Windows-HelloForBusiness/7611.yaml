@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7611'
+version: '0'
+event(fields): ContainerDeletionStop7611(HexInt32 Error)
+opcode: Stop
+keywords: Internal
+task: ContainerDeletion
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error

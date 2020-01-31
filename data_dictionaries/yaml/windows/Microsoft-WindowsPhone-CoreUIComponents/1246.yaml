@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1246'
+version: '0'
+event(fields): ForegroundTaskManagerIsValidTaskPidStart()
+opcode: Start
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerIsValidTaskPid
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

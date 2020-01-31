@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62201'
+version: '0'
+event(fields): Activation_Watermark_Window_Creation_Error(UInt32 Result)
+opcode: ''
+keywords: ''
+task: Activation_Watermark_Window_Creation_Error
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

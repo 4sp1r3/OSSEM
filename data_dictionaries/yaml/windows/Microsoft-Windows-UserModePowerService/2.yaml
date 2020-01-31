@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '2'
+version: '0'
+event(fields): RundownPowerScheme(GUID SchemeGuid)
+opcode: ''
+keywords: ''
+task: RundownPowerScheme
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SchemeGuid

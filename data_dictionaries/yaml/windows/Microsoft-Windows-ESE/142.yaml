@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ESE
+event_id: '142'
+version: '0'
+event(fields): ESE_CacheLimitResize_Trace(Int64 cbfCacheSizeLimitInitial, Int64 cbfCacheSizeLimitFinal)
+opcode: ''
+keywords: Performance BF
+task: ESE_CacheLimitResize_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: cbfCacheSizeLimitInitial
+- field_type: Int64
+  field_name: cbfCacheSizeLimitFinal

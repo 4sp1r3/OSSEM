@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '44'
+version: '3'
+event(fields): AdaptiveStandbyBatteryReserveAction_V3(UInt32 TimeInStandby, UInt32
+  GracePeriod, UInt32 RemainingBatteryPercentage, UInt32 RemainingBatteryTime, UInt32
+  ReserveBatteryTime, Boolean ExecuteAction, UInt32 RejectReason, UInt32 DataSources,
+  UInt32 CsSessionId)
+opcode: BatteryReserveAction
+keywords: AdaptiveStandby
+task: AdaptiveStandby
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimeInStandby
+- field_type: UInt32
+  field_name: GracePeriod
+- field_type: UInt32
+  field_name: RemainingBatteryPercentage
+- field_type: UInt32
+  field_name: RemainingBatteryTime
+- field_type: UInt32
+  field_name: ReserveBatteryTime
+- field_type: Boolean
+  field_name: ExecuteAction
+- field_type: UInt32
+  field_name: RejectReason
+- field_type: UInt32
+  field_name: DataSources
+- field_type: UInt32
+  field_name: CsSessionId

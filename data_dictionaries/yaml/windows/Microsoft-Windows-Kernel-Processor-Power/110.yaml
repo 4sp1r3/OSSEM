@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '110'
+version: '0'
+event(fields): IdleDurationExpiration(UInt16 GroupCount, AnsiString Group)
+opcode: ''
+keywords: Diag
+task: IdleDurationExpiration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: GroupCount
+- field_type: AnsiString
+  field_name: Group

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1813'
+version: '0'
+event(fields): RecoverTeardown(Pointer pThis, UInt32 TeardownCount, UInt32 Recover)
+opcode: ''
+keywords: ''
+task: RecoverTeardown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: TeardownCount
+- field_type: UInt32
+  field_name: Recover

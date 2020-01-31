@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4507'
+version: '0'
+event(fields): OPENSTREAMPROPERTYStop()
+opcode: Stop
+keywords: Performance
+task: OPENSTREAMPROPERTY
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '127'
+version: '0'
+event(fields): ManifestParseManifest127(HexInt32 errorCode, UInt32 lineNumber, UInt32
+  columnNumber, UnicodeString fieldName, UnicodeString fieldValue, UInt32 duplicateLineNumber,
+  UInt32 duplicateColumnNumber)
+opcode: ParseManifest
+keywords: ''
+task: Manifest
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: UInt32
+  field_name: lineNumber
+- field_type: UInt32
+  field_name: columnNumber
+- field_type: UnicodeString
+  field_name: fieldName
+- field_type: UnicodeString
+  field_name: fieldValue
+- field_type: UInt32
+  field_name: duplicateLineNumber
+- field_type: UInt32
+  field_name: duplicateColumnNumber

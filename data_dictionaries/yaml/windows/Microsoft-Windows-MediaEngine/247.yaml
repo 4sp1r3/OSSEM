@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '247'
+version: '0'
+event(fields): PresentRestart(Pointer Object, UInt32 PresentCount)
+opcode: ''
+keywords: ''
+task: PresentRestart
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: PresentCount

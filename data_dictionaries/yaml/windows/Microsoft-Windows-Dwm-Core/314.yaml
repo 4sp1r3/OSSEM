@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '314'
+version: '0'
+event(fields): ENDFRAME_TESSELLATED_PRIMITIVES_STATS(UInt32 TessellatedRect_UnClipped,
+  UInt32 TessellatedRect_AxisAlignedRectClip, UInt32 TessellatedRect_GeneralClip)
+opcode: ''
+keywords: DwmCore
+task: ENDFRAME_TESSELLATED_PRIMITIVES_STATS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TessellatedRect_UnClipped
+- field_type: UInt32
+  field_name: TessellatedRect_AxisAlignedRectClip
+- field_type: UInt32
+  field_name: TessellatedRect_GeneralClip

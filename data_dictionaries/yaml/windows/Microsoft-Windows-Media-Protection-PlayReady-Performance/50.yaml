@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '50'
+version: '0'
+event(fields): CBlackboxWithTEEStorePasswordCallbackStart(Pointer Object, UInt32 HResult)
+opcode: Start
+keywords: ''
+task: CBlackboxWithTEEStorePasswordCallback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: HResult

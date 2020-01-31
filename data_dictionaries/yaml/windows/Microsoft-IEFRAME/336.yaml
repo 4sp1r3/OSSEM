@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '336'
+version: '0'
+event(fields): Tab_Recover_Complete()
+opcode: ''
+keywords: primarynav
+task: Tab_Recover_Complete
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

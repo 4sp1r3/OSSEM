@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '1501'
+version: '0'
+event(fields): PerfTrack_moStart(UInt32 ScenarioId, UInt32 ControlFlags, UnicodeString
+  MatchKey, UnicodeString ScenarioName)
+opcode: Start
+keywords: ''
+task: PerfTrack_moStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScenarioId
+- field_type: UInt32
+  field_name: ControlFlags
+- field_type: UnicodeString
+  field_name: MatchKey
+- field_type: UnicodeString
+  field_name: ScenarioName

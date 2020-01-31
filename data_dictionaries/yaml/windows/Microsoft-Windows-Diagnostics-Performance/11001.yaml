@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '11001'
+version: '0'
+event(fields): Standby_ReceivedEvent(GUID GUID, UInt16 EventId, UInt32 InternalState)
+opcode: ''
+keywords: StandbyStatus
+task: Standby_ReceivedEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: GUID
+- field_type: UInt16
+  field_name: EventId
+- field_type: UInt32
+  field_name: InternalState

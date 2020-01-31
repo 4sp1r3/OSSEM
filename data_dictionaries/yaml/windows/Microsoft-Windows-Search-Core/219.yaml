@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '219'
+version: '0'
+event(fields): CSearchCrawlScopeManager_GetParentScopeVersionIdStop(UInt32 hr, UInt32
+  ScopeId)
+opcode: Stop
+keywords: CSM
+task: CSearchCrawlScopeManager_GetParentScopeVersionId
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr
+- field_type: UInt32
+  field_name: ScopeId

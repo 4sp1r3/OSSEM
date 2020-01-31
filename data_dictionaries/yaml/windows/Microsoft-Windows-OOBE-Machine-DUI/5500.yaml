@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-Machine-DUI
+event_id: '5500'
+version: '0'
+event(fields): EULAWizardPage_OEMEulaShown()
+opcode: ''
+keywords: msoobe
+task: EULAWizardPage_OEMEulaShown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

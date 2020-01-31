@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60111'
+version: '0'
+event(fields): StructuredQuery_LoadSchemaBinaryStart()
+opcode: Start
+keywords: StructuredQuery
+task: StructuredQuery_LoadSchemaBinary
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

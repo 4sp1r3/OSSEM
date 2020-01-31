@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ADSI
+event_id: '2'
+version: '0'
+event(fields): task_02(UnicodeString Message)
+opcode: ''
+keywords: schema
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message

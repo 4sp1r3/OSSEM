@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '4023'
+version: '0'
+event(fields): DocPerf_Task_Xps_ProcessPageStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Xps_ProcessPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

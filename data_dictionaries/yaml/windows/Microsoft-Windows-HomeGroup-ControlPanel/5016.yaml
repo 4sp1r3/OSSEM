@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-HomeGroup-ControlPanel
+event_id: '5016'
+version: '0'
+event(fields): task_05016(UnicodeString Error, GUID guid, UInt32 DWORD)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Error
+- field_type: GUID
+  field_name: guid
+- field_type: UInt32
+  field_name: DWORD

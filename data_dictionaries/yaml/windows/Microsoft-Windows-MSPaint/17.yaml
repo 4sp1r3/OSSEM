@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSPaint
+event_id: '17'
+version: '0'
+event(fields): task_017(Int32 ToolCrosssection)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ToolCrosssection

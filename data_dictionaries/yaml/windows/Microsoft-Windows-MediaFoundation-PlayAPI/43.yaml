@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '43'
+version: '0'
+event(fields): MFPlayStop43(Pointer Object, UInt32 ErrorCode, Float Balance)
+opcode: Stop
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: Float
+  field_name: Balance

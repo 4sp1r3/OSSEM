@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '502'
+version: '0'
+event(fields): task_0502(UInt32 ClientProcessId, FILETIME ClientStartTime, GUID FixID,
+  HexInt32 Flags, GUID ProductCode, GUID PackageCode, UnicodeString MsiPath, UnicodeString
+  FixName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ClientProcessId
+- field_type: FILETIME
+  field_name: ClientStartTime
+- field_type: GUID
+  field_name: FixID
+- field_type: HexInt32
+  field_name: Flags
+- field_type: GUID
+  field_name: ProductCode
+- field_type: GUID
+  field_name: PackageCode
+- field_type: UnicodeString
+  field_name: MsiPath
+- field_type: UnicodeString
+  field_name: FixName

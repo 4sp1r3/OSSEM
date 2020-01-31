@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shsvcs
+event_id: '11514'
+version: '0'
+event(fields): HDSrv_CreateSafeFileHandleStop()
+opcode: Stop
+keywords: ''
+task: HDSrv_CreateSafeFileHandle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

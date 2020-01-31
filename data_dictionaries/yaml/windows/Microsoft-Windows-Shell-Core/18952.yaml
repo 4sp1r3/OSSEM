@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18952'
+version: '0'
+event(fields): Shell32_SHChangeNotify_Register_NotifyThreadStart()
+opcode: Start
+keywords: Shell
+task: Shell32_SHChangeNotify_Register_NotifyThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '657'
+version: '0'
+event(fields): Smb2FileCCFClose(GUID OpenGUID, GUID AppInstanceGUID)
+opcode: ''
+keywords: File
+task: Smb2FileCCFClose
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: OpenGUID
+- field_type: GUID
+  field_name: AppInstanceGUID

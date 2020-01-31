@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7213'
+version: '0'
+event(fields): ConnectedSearch_InstrumentationUpload(UnicodeString Body, UnicodeString
+  QueryString, UInt32 Result)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_InstrumentationUpload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Body
+- field_type: UnicodeString
+  field_name: QueryString
+- field_type: UInt32
+  field_name: Result

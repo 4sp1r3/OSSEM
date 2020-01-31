@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '23'
+version: '0'
+event(fields): ExtensionCatalog_MoveNextStart(UnicodeString ContractId)
+opcode: Start
+keywords: ''
+task: ExtensionCatalog_MoveNext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContractId

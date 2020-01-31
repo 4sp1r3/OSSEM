@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '506'
+version: '0'
+event(fields): ServiceHostCreateStop(UnicodeString AppDomain)
+opcode: Stop
+keywords: WebHost
+task: ServiceHostCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

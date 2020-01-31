@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Management-SecureAssessment
+event_id: '207'
+version: '0'
+event(fields): Lockdown207()
+opcode: ''
+keywords: SecureAssessment
+task: Lockdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

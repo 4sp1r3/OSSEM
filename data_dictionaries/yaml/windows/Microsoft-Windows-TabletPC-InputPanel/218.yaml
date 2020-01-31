@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '218'
+version: '0'
+event(fields): Tabtip_Tiptsf_Reconversion_SetResult_FinalizedStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: Tabtip_Tiptsf_Reconversion_SetResult_Finalized
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

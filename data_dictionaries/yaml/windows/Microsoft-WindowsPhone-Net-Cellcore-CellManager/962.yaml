@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '962'
+version: '0'
+event(fields): CellularModemContainer962(Int32 HResultName)
+opcode: ''
+keywords: Error
+task: CellularModemContainer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HResultName

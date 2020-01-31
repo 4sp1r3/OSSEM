@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '383'
+version: '0'
+event(fields): Mshtml_Composition_LayerManager_InitializeStart()
+opcode: Start
+keywords: composition
+task: Mshtml_Composition_LayerManager_Initialize
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '30104'
+version: '0'
+event(fields): WLANConnecttonetworkStop(GUID InterfaceGuid)
+opcode: Stop
+keywords: ''
+task: WLANConnecttonetwork
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

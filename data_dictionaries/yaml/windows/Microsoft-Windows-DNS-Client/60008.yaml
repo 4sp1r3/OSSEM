@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '60008'
+version: '0'
+event(fields): DnsPolicyReadError(UnicodeString RuleName, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: DnsPolicyReadError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RuleName
+- field_type: UInt32
+  field_name: ErrorCode

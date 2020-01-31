@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '21029'
+version: '0'
+event(fields): task_021029(UInt32 AdapterId, GUID InterfaceGuid)
+opcode: ''
+keywords: MSMSEC Telemetry ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterId
+- field_type: GUID
+  field_name: InterfaceGuid

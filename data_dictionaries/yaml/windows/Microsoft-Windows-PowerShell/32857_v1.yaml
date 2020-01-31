@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '32857'
+version: '1'
+event(fields): task_0Disconnect32857_V1(UnicodeString param1, UnicodeString param2,
+  UnicodeString param3)
+opcode: Disconnect
+keywords: Transport
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2
+- field_type: UnicodeString
+  field_name: param3

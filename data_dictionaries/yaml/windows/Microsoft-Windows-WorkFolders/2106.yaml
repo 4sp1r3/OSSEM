@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '2106'
+version: '0'
+event(fields): task_02106(GUID LocalEpoch, GUID ServerEpoch)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LocalEpoch
+- field_type: GUID
+  field_name: ServerEpoch

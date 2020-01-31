@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-DavSyncProvider
+event_id: '137'
+version: '0'
+event(fields): task_0137(HexInt32 Prop_Id)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_Id

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1115'
+version: '0'
+event(fields): task_01115(UInt64 MsgId, UInt32 CommandSize, Binary Command, AnsiString
+  Namespace, UInt32 PayloadSize, Binary Payload)
+opcode: ''
+keywords: wpnprv
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MsgId
+- field_type: UInt32
+  field_name: CommandSize
+- field_type: Binary
+  field_name: Command
+- field_type: AnsiString
+  field_name: Namespace
+- field_type: UInt32
+  field_name: PayloadSize
+- field_type: Binary
+  field_name: Payload

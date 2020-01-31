@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '9647'
+version: '0'
+event(fields): AppXDeployment.Task.Server.OSIM9647(HexInt32 ErrorCode, UnicodeString
+  String1, UnicodeString String2, Boolean Bool1)
+opcode: ''
+keywords: OSIM_KEYWORD keyword_80000000000
+task: AppXDeployment.Task.Server.OSIM
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: String1
+- field_type: UnicodeString
+  field_name: String2
+- field_type: Boolean
+  field_name: Bool1

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SENSE
+event_id: '1837'
+version: '0'
+event(fields): task_01837(UnicodeString previousCriticalityValue, Boolean IsDefault,
+  UInt32 newCriticalityValue, HexInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: previousCriticalityValue
+- field_type: Boolean
+  field_name: IsDefault
+- field_type: UInt32
+  field_name: newCriticalityValue
+- field_type: HexInt32
+  field_name: HRESULT

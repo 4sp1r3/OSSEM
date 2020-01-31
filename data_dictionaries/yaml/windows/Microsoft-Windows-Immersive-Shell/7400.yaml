@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7400'
+version: '0'
+event(fields): ConnectedSearch_LogTemplateFallbackPayload(UnicodeString JSON)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_LogTemplateFallbackPayload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JSON

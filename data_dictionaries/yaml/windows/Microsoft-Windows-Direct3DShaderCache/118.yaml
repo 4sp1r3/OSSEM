@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '118'
+version: '0'
+event(fields): GuardFileError()
+opcode: ''
+keywords: Events
+task: GuardFileError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

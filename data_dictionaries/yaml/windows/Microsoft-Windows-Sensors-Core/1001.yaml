@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1001'
+version: '0'
+event(fields): SensorsCxInitializationTask(Pointer WdfDeviceInit)
+opcode: ''
+keywords: ''
+task: SensorsCxInitializationTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDeviceInit

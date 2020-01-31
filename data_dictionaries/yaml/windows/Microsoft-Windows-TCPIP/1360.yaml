@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1360'
+version: '0'
+event(fields): TcpipNblClonedForRaw(Pointer Nbl, Pointer ClonedNbl, UInt32 IPTransportProtocol,
+  UInt32 AddressFamily)
+opcode: ''
+keywords: ut:ReceivePath
+task: TcpipNblClonedForRaw
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Nbl
+- field_type: Pointer
+  field_name: ClonedNbl
+- field_type: UInt32
+  field_name: IPTransportProtocol
+- field_type: UInt32
+  field_name: AddressFamily

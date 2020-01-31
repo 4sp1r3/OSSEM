@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '7054'
+version: '0'
+event(fields): PrerequisitesCheckStop(HexInt32 Error)
+opcode: Stop
+keywords: Internal
+task: PrerequisitesCheck
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error

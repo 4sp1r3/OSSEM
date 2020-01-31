@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '22'
+version: '0'
+event(fields): ScreenSaverProcess(UInt32 Action)
+opcode: ''
+keywords: win32Power
+task: ScreenSaverProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Action

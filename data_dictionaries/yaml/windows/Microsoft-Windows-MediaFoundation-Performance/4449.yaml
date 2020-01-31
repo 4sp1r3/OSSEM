@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4449'
+version: '0'
+event(fields): PropertyHandlerThumbnailGenerationBestFrame(Pointer object, UInt32
+  contentType, UInt32 bestFrameIndex, UInt32 totalFrameDecoded, UInt64 timeoutin100NS,
+  Boolean isTimeout)
+opcode: ''
+keywords: ''
+task: PropertyHandlerThumbnailGenerationBestFrame
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: contentType
+- field_type: UInt32
+  field_name: bestFrameIndex
+- field_type: UInt32
+  field_name: totalFrameDecoded
+- field_type: UInt64
+  field_name: timeoutin100NS
+- field_type: Boolean
+  field_name: isTimeout

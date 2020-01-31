@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '1017'
+version: '0'
+event(fields): AppReadiness_Api_EnterLogonPhaseStart(UnicodeString User, UInt32 ProcessId)
+opcode: Start
+keywords: Api
+task: AppReadiness_Api_EnterLogonPhase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UInt32
+  field_name: ProcessId

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '324'
+version: '0'
+event(fields): PagingQueuePacket(Pointer PagingQueue, Pointer PagingQueuePacket, UInt64
+  SequenceId)
+opcode: ''
+keywords: Base
+task: PagingQueuePacket
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PagingQueue
+- field_type: Pointer
+  field_name: PagingQueuePacket
+- field_type: UInt64
+  field_name: SequenceId

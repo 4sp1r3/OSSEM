@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18634'
+version: '0'
+event(fields): Shell32_MountPoint_WMDeviceChange_NetShareArrivalStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_MountPoint_WMDeviceChange_NetShareArrival
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

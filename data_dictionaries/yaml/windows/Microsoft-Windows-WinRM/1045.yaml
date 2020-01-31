@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '1045'
+version: '0'
+event(fields): ResponsehandlingStart()
+opcode: Start
+keywords: Keyword.Client
+task: Responsehandling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

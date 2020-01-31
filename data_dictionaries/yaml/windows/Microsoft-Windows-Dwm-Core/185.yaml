@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '185'
+version: '0'
+event(fields): ETWGUID_CVI_UPDATE(Pointer CVI, Pointer SourceVisual, Float ViewboxLeft,
+  Float ViewboxTop, Float ViewboxWidth, Float ViewboxHeight, Int32 SurfaceWidth, Int32
+  SurfaceHeight)
+opcode: ''
+keywords: DwmCore FrameVisualization
+task: ETWGUID_CVI_UPDATE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CVI
+- field_type: Pointer
+  field_name: SourceVisual
+- field_type: Float
+  field_name: ViewboxLeft
+- field_type: Float
+  field_name: ViewboxTop
+- field_type: Float
+  field_name: ViewboxWidth
+- field_type: Float
+  field_name: ViewboxHeight
+- field_type: Int32
+  field_name: SurfaceWidth
+- field_type: Int32
+  field_name: SurfaceHeight

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WebcamExperience
+event_id: '100'
+version: '0'
+event(fields): Webcam_StartupStart()
+opcode: Start
+keywords: ''
+task: Webcam_Startup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4872'
+version: '0'
+event(fields): task_04872(UnicodeString IsBaseCRL, UnicodeString CRLNumber, UnicodeString
+  KeyContainer, UnicodeString NextPublish, UnicodeString PublishURLs)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: IsBaseCRL
+- field_type: UnicodeString
+  field_name: CRLNumber
+- field_type: UnicodeString
+  field_name: KeyContainer
+- field_type: UnicodeString
+  field_name: NextPublish
+- field_type: UnicodeString
+  field_name: PublishURLs

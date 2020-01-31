@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-WMP
+event_id: '463'
+version: '0'
+event(fields): WMPDMR_AVTRANSPORT_ACTIONSStop463(UInt32 result, UInt64 instanceID,
+  Int64 Track, UnicodeString TrackDuration, UnicodeString MetaData, UnicodeString
+  TrackURI)
+opcode: Stop
+keywords: mediaplayer
+task: WMPDMR_AVTRANSPORT_ACTIONS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: result
+- field_type: UInt64
+  field_name: instanceID
+- field_type: Int64
+  field_name: Track
+- field_type: UnicodeString
+  field_name: TrackDuration
+- field_type: UnicodeString
+  field_name: MetaData
+- field_type: UnicodeString
+  field_name: TrackURI

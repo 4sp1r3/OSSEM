@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-UfxSynopsys
+event_id: '301'
+version: '0'
+event(fields): EndpointInformation(AnsiString fSynopsysEndpoint, UInt8 fSynopsysEndpointDescriptor)
+opcode: ''
+keywords: Diagnostic
+task: EndpointInformation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: fSynopsysEndpoint
+- field_type: UInt8
+  field_name: fSynopsysEndpointDescriptor

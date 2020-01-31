@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TextPredictionEngine
+event_id: '1'
+version: '0'
+event(fields): TPLangMod_API_InitStart()
+opcode: Start
+keywords: ''
+task: TPLangMod_API_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

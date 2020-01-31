@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1443'
+version: '0'
+event(fields): IpNeighborChangeNotification(UInt32 IpAddrLength, Binary IPAddress,
+  UInt32 DlAddrLength, Binary DLAddress, UInt32 IfIndex, UInt32 CompartmentId, UInt32
+  NeighborState, UInt32 Reason)
+opcode: ''
+keywords: ut:TcpipRoute ut:NsiNotification
+task: IpNeighborChangeNotification
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: Binary
+  field_name: IPAddress
+- field_type: UInt32
+  field_name: DlAddrLength
+- field_type: Binary
+  field_name: DLAddress
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: NeighborState
+- field_type: UInt32
+  field_name: Reason

@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '164'
+version: '0'
+event(fields): Mshtml_CssLayout_BuildDisplayStop()
+opcode: Stop
+keywords: verbose
+task: Mshtml_CssLayout_BuildDisplay
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

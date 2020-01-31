@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3042'
+version: '1'
+event(fields): PublishPackageGroupGetOldGroupDataStop_V1()
+opcode: Stop
+keywords: ''
+task: PublishPackageGroupGetOldGroupData
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

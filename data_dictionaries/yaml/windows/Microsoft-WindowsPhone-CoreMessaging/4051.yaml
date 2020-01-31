@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '4051'
+version: '0'
+event(fields): Messaging_AlpcSend(UInt32 unParam, UInt32 unParam2)
+opcode: ''
+keywords: MessagingPerformance Messaging
+task: Messaging_AlpcSend
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2

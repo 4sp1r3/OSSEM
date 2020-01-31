@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAML
+event_id: '396'
+version: '0'
+event(fields): InitializeMediaEffect(UInt64 Id, UnicodeString EffectId, UInt32 EffectType,
+  UInt32 EffectOptional)
+opcode: ''
+keywords: Media
+task: InitializeMediaEffect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UnicodeString
+  field_name: EffectId
+- field_type: UInt32
+  field_name: EffectType
+- field_type: UInt32
+  field_name: EffectOptional

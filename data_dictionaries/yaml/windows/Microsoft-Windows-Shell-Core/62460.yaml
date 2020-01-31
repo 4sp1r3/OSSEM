@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62460'
+version: '0'
+event(fields): OOBEHealth_Progress(Int32 DataVersion, UInt64 HealthStateFlags, UInt64
+  CensusFlags, UInt64 SecondsSinceBoot, UnicodeString ImageIdentifier, UnicodeString
+  TrackingInfo)
+opcode: ''
+keywords: Shell OOBEHealth
+task: OOBEHealth_Progress
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: DataVersion
+- field_type: UInt64
+  field_name: HealthStateFlags
+- field_type: UInt64
+  field_name: CensusFlags
+- field_type: UInt64
+  field_name: SecondsSinceBoot
+- field_type: UnicodeString
+  field_name: ImageIdentifier
+- field_type: UnicodeString
+  field_name: TrackingInfo

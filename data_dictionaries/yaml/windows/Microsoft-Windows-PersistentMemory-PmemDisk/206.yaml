@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-PersistentMemory-PmemDisk
+event_id: '206'
+version: '0'
+event(fields): task_0206(GUID LogicalPersistentMemoryDiskGuid, AnsiString VendorId,
+  AnsiString ProductId, AnsiString SerialNumber, GUID PhysicalNvdimmGuid, UInt32 NfitHandle,
+  UInt32 NvdimmHealthStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LogicalPersistentMemoryDiskGuid
+- field_type: AnsiString
+  field_name: VendorId
+- field_type: AnsiString
+  field_name: ProductId
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: GUID
+  field_name: PhysicalNvdimmGuid
+- field_type: UInt32
+  field_name: NfitHandle
+- field_type: UInt32
+  field_name: NvdimmHealthStatus

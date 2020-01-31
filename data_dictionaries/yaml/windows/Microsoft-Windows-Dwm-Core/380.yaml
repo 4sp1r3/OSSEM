@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '380'
+version: '0'
+event(fields): COMPUTESCRIBBLE_POSTRENDER(UInt64 FrameID, UInt32 FlipCount, UInt32
+  LastPresentCount, UInt32 FrameStatsPresentCount, UInt32 CurrentSyncRefreshCount)
+opcode: ''
+keywords: DwmCore
+task: COMPUTESCRIBBLE_POSTRENDER
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: FrameID
+- field_type: UInt32
+  field_name: FlipCount
+- field_type: UInt32
+  field_name: LastPresentCount
+- field_type: UInt32
+  field_name: FrameStatsPresentCount
+- field_type: UInt32
+  field_name: CurrentSyncRefreshCount

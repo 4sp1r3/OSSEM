@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '204'
+version: '1'
+event(fields): OsLoader_V1(UInt64 OSLoaderStart, UInt64 OSLoaderEnd, UInt64 PreloadEndTime,
+  UInt64 TcbLoaderStartTime, UInt64 LoadHypervisorTime, UInt64 LaunchHypervisorTime,
+  UInt64 LoadVsmTime, UInt64 LaunchVsmTime)
+opcode: ''
+keywords: Performance
+task: OsLoader
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OSLoaderStart
+- field_type: UInt64
+  field_name: OSLoaderEnd
+- field_type: UInt64
+  field_name: PreloadEndTime
+- field_type: UInt64
+  field_name: TcbLoaderStartTime
+- field_type: UInt64
+  field_name: LoadHypervisorTime
+- field_type: UInt64
+  field_name: LaunchHypervisorTime
+- field_type: UInt64
+  field_name: LoadVsmTime
+- field_type: UInt64
+  field_name: LaunchVsmTime

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4677'
+version: '0'
+event(fields): Tiles_Cache_Remap_Failed(UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: Tiles_Cache_Remap_Failed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '313'
+version: '0'
+event(fields): ENDFRAME_PRIMITIVE_GROUP_STATS(UInt32 PrimitiveGroupToDrawListGeneratorCreated,
+  UInt32 PrimitiveGroupToDrawListGeneratorCacheUpdated)
+opcode: ''
+keywords: DwmCore
+task: ENDFRAME_PRIMITIVE_GROUP_STATS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PrimitiveGroupToDrawListGeneratorCreated
+- field_type: UInt32
+  field_name: PrimitiveGroupToDrawListGeneratorCacheUpdated

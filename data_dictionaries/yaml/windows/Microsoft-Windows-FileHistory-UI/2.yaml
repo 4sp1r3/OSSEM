@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-UI
+event_id: '2'
+version: '0'
+event(fields): ApplicationStart()
+opcode: Start
+keywords: ''
+task: ApplicationStart
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

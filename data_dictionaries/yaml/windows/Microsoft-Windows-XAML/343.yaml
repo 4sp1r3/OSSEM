@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '343'
+version: '0'
+event(fields): CompTreeCreateMediaNode(UInt64 CompNode)
+opcode: ''
+keywords: DComp
+task: CompTreeCreateMediaNode
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CompNode

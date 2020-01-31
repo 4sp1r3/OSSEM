@@ -1,0 +1,19 @@
+provider: Heap Trace Provider
+category: '{222962ab-6180-4b88-a825-346b75f2a24a}'
+event_id: '53'
+version: '2'
+event(fields): HeapSubsegmentInitialize(UInt32 HeapHandle, UInt32 SubSegment, Object
+  BlockSize, Object BlockCount, UInt32 AffinityIndex)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapHandle
+- field_type: UInt32
+  field_name: SubSegment
+- field_type: Object
+  field_name: BlockSize
+- field_type: Object
+  field_name: BlockCount
+- field_type: UInt32
+  field_name: AffinityIndex

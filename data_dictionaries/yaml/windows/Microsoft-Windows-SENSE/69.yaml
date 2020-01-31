@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SENSE
+event_id: '69'
+version: '0'
+event(fields): task_069(UnicodeString parameter)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: parameter

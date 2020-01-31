@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9041'
+version: '0'
+event(fields): Perf_WLRoamDeleteBackupFolderStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamDeleteBackupFolder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

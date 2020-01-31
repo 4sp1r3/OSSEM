@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '187'
+version: '0'
+event(fields): ETWGUID_DIRECTFLIP_CANDIDATEOVERWRITEVENT(UInt64 hCompSurf, UInt32
+  nodeType, UInt32 nodeContentType, Int32 nodeBoundsLeft, Int32 nodeBoundsTop, Int32
+  nodeBoundsRight, Int32 nodeBoundsBottom)
+opcode: ''
+keywords: DwmCore
+task: ETWGUID_DIRECTFLIP_CANDIDATEOVERWRITEVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hCompSurf
+- field_type: UInt32
+  field_name: nodeType
+- field_type: UInt32
+  field_name: nodeContentType
+- field_type: Int32
+  field_name: nodeBoundsLeft
+- field_type: Int32
+  field_name: nodeBoundsTop
+- field_type: Int32
+  field_name: nodeBoundsRight
+- field_type: Int32
+  field_name: nodeBoundsBottom

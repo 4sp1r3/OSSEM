@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1279'
+version: '0'
+event(fields): Ndkpi_Release_Lam(Pointer NdkAdapter, Pointer LAMBuffer)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Release_Lam
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkAdapter
+- field_type: Pointer
+  field_name: LAMBuffer

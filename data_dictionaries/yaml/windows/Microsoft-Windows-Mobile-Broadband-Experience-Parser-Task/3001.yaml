@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Mobile-Broadband-Experience-Parser-Task
+event_id: '3001'
+version: '0'
+event(fields): task_03001(UnicodeString path)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: path

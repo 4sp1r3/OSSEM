@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4004'
+version: '0'
+event(fields): Convert_QueryStop(UnicodeString ContainerID, UnicodeString UPnPClassToReturn,
+  UnicodeString Query, Boolean OnlyItemsInSearchResults, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Convert_Query
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContainerID
+- field_type: UnicodeString
+  field_name: UPnPClassToReturn
+- field_type: UnicodeString
+  field_name: Query
+- field_type: Boolean
+  field_name: OnlyItemsInSearchResults
+- field_type: UInt32
+  field_name: ErrorCode

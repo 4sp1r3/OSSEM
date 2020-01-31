@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '211'
+version: '0'
+event(fields): CUIAutomation_CreateProxyFactoryEntryStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CUIAutomation_CreateProxyFactoryEntry
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

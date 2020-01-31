@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '62'
+version: '0'
+event(fields): DirectUI_ScrollTrackJumpStop()
+opcode: Stop
+keywords: Default
+task: DirectUI_ScrollTrackJump
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

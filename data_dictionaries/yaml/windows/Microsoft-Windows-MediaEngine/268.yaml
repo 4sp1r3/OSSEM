@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '268'
+version: '0'
+event(fields): EDRStateChangedTask(Boolean Enabled, Boolean IsAC, Boolean IsMediaOptimizedForDisplayQuality,
+  Boolean IsLowerScreenBrightnessActive, Boolean IsBrightnessPolicyActive, UInt32
+  ContentMaxLuminance, UInt32 DisplayMaxLuminance)
+opcode: ''
+keywords: ''
+task: EDRStateChangedTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Enabled
+- field_type: Boolean
+  field_name: IsAC
+- field_type: Boolean
+  field_name: IsMediaOptimizedForDisplayQuality
+- field_type: Boolean
+  field_name: IsLowerScreenBrightnessActive
+- field_type: Boolean
+  field_name: IsBrightnessPolicyActive
+- field_type: UInt32
+  field_name: ContentMaxLuminance
+- field_type: UInt32
+  field_name: DisplayMaxLuminance

@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '681'
+version: '0'
+event(fields): Mshtml_CDMDraggableTouchTarget_HandleDragStateChanges(Boolean fIsDraggingRequested,
+  Boolean fIsPreviewCurrentlyDisplayed, Pointer CDMDraggableTouchTarget)
+opcode: ''
+keywords: draganddrop touch
+task: Mshtml_CDMDraggableTouchTarget_HandleDragStateChanges
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fIsDraggingRequested
+- field_type: Boolean
+  field_name: fIsPreviewCurrentlyDisplayed
+- field_type: Pointer
+  field_name: CDMDraggableTouchTarget

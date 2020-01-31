@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7172'
+version: '0'
+event(fields): Perf_AppSyncReacquireAppsStop(UInt32 HRESULT)
+opcode: Stop
+keywords: AppSync
+task: Perf_AppSyncReacquireApps
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3016'
+version: '0'
+event(fields): task_03016(UInt32 OverridedNotificationId, UInt32 OverridingNotificationId)
+opcode: ''
+keywords: wpnui wpndev_NotificationE2E
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OverridedNotificationId
+- field_type: UInt32
+  field_name: OverridingNotificationId

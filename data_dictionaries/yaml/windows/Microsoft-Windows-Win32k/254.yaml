@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Win32k
+event_id: '254'
+version: '0'
+event(fields): TrappedAppContainerRender(AnsiString RenderSourceProcessName, UnicodeString
+  RenderSourcePackageName, AnsiString RenderTargetProcessName, UnicodeString RenderTargetPackageName)
+opcode: ''
+keywords: TrappedACRendering
+task: TrappedAppContainerRender
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: RenderSourceProcessName
+- field_type: UnicodeString
+  field_name: RenderSourcePackageName
+- field_type: AnsiString
+  field_name: RenderTargetProcessName
+- field_type: UnicodeString
+  field_name: RenderTargetPackageName

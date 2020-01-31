@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '242'
+version: '0'
+event(fields): Mshtml_CTimerMan_WaitStart(Pointer TimerMan, UInt32 Info)
+opcode: Start
+keywords: paintbeat
+task: Mshtml_CTimerMan_Wait
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TimerMan
+- field_type: UInt32
+  field_name: Info

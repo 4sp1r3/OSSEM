@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '109'
+version: '0'
+event(fields): ProtocolHostNameConflict_Killed(UInt32 ProcessID, UnicodeString SID)
+opcode: ''
+keywords: Service
+task: ProtocolHostNameConflict_Killed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: UnicodeString
+  field_name: SID

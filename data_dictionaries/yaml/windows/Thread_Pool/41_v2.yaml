@@ -1,0 +1,23 @@
+provider: Thread Pool
+category: '{c861d0e2-a2c1-4d36-9f9c-970bab943a12}'
+event_id: '41'
+version: '2'
+event(fields): TP_V2_WTNodeSwitch(UInt32 PoolId, UInt32 CurrentNode, UInt32 NextNode,
+  UInt16 CurrentGroup, UInt16 NextGroup, UInt32 CurrentWorkerCount, UInt32 NextWorkerCount)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: PoolId
+- field_type: UInt32
+  field_name: CurrentNode
+- field_type: UInt32
+  field_name: NextNode
+- field_type: UInt16
+  field_name: CurrentGroup
+- field_type: UInt16
+  field_name: NextGroup
+- field_type: UInt32
+  field_name: CurrentWorkerCount
+- field_type: UInt32
+  field_name: NextWorkerCount

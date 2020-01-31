@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client
+event_id: '4011'
+version: '1'
+event(fields): ExecuteEmbeddedScripts4011_V1()
+opcode: ''
+keywords: EmbeddedScripting
+task: ExecuteEmbeddedScripts
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

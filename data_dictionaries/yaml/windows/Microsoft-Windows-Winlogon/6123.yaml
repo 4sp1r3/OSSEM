@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '6123'
+version: '0'
+event(fields): AssignedAccessLogon()
+opcode: ''
+keywords: keyword_200000000000
+task: AssignedAccessLogon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

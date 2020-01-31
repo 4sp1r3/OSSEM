@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '43'
+version: '0'
+event(fields): MonitorOpmSetMftContext(Int64 IddAdapterLuid, UInt32 ConnectorIndex,
+  Int64 MftContext)
+opcode: OpmSetMftContext
+keywords: DdiCallbacks
+task: Monitor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: IddAdapterLuid
+- field_type: UInt32
+  field_name: ConnectorIndex
+- field_type: Int64
+  field_name: MftContext

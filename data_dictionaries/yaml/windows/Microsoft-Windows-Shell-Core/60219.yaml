@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60219'
+version: '0'
+event(fields): SearchBox_SearchConversionList_AnimationStop(UInt32 AnimId)
+opcode: Stop
+keywords: Shell
+task: SearchBox_SearchConversionList_Animation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AnimId

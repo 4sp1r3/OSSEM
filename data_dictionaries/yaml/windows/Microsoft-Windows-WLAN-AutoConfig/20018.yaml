@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '20018'
+version: '0'
+event(fields): task_020018(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UnicodeString SSID, UInt32 BSSIDCount, Binary BSSIDList)
+opcode: ''
+keywords: MSM ut:L2ConnectPath
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UInt32
+  field_name: BSSIDCount
+- field_type: Binary
+  field_name: BSSIDList

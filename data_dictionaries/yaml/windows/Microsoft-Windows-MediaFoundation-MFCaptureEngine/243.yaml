@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '243'
+version: '0'
+event(fields): MFCaptureEngineSetCurrentDeviceMediaTypeTaskStop(Pointer Pointer, UInt32
+  dwSourceStreamIndex, AnsiString pMediaType, UInt32 HResult)
+opcode: Stop
+keywords: ''
+task: MFCaptureEngineSetCurrentDeviceMediaTypeTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Pointer
+- field_type: UInt32
+  field_name: dwSourceStreamIndex
+- field_type: AnsiString
+  field_name: pMediaType
+- field_type: UInt32
+  field_name: HResult

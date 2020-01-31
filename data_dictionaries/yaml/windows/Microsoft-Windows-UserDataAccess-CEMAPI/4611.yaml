@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4611'
+version: '0'
+event(fields): CONVERSATIONID_SETStop()
+opcode: Stop
+keywords: Performance
+task: CONVERSATIONID_SET
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

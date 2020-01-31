@@ -1,0 +1,11 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1049'
+version: '0'
+event(fields): iaLPSS2_I2CInitroutines1049()
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CInitroutines
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

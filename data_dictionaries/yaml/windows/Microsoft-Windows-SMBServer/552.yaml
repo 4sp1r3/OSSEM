@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '552'
+version: '0'
+event(fields): Smb2SessionAuthenticated(GUID SessionGUID, GUID ConnectionGUID, UInt16
+  UserNameLength, UnicodeString UserName, UInt16 DomainNameLength, UnicodeString DomainName)
+opcode: ''
+keywords: Session
+task: Smb2SessionAuthenticated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SessionGUID
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: UInt16
+  field_name: UserNameLength
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UInt16
+  field_name: DomainNameLength
+- field_type: UnicodeString
+  field_name: DomainName

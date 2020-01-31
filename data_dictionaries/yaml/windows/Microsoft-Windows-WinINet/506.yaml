@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WinINet
+event_id: '506'
+version: '0'
+event(fields): WININET_COOKIE_REQUEST_HEADER_CREATED(UInt32 URLLength, AnsiString
+  URL)
+opcode: ''
+keywords: WININET_KEYWORD_COOKIES
+task: WININET_COOKIE_REQUEST_HEADER_CREATED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: URLLength
+- field_type: AnsiString
+  field_name: URL

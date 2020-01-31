@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '350'
+version: '0'
+event(fields): Mshtml_MediaElement_PlayPauseStart350(UInt32 MediaElementId)
+opcode: Start
+keywords: subsystem mshtml
+task: Mshtml_MediaElement_PlayPause
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaElementId

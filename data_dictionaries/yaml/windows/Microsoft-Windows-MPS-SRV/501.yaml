@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '501'
+version: '0'
+event(fields): PlumberPolicyBeginStart()
+opcode: Start
+keywords: Service
+task: PlumberPolicyBegin
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

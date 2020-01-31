@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-StorageManagement-WSP-Spaces
+event_id: '2007'
+version: '0'
+event(fields): task_02007(UnicodeString ClassName, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ClassName
+- field_type: UInt32
+  field_name: ErrorCode

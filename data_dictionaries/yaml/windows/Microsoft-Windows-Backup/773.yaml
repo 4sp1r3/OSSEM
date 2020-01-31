@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Backup
+event_id: '773'
+version: '0'
+event(fields): task_0Stop773(FILETIME RestoreTime, UInt32 ErrorCode, UnicodeString
+  ErrorMessage)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: RestoreTime
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

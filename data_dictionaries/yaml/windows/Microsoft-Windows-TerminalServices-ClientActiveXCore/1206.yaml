@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1206'
+version: '0'
+event(fields): RdClientRADCworkspaceThiseventisraisedwhenaworkspaceeventlikesubscribe/updatefailed!(UnicodeString
+  Event, UnicodeString TenantId, UInt32 TotalTimeWithoutAdal, UInt32 AdalTime, UInt32
+  ErrorCode)
+opcode: Thiseventisraisedwhenaworkspaceeventlikesubscribe/updatefailed!
+keywords: ''
+task: RdClientRADCworkspace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Event
+- field_type: UnicodeString
+  field_name: TenantId
+- field_type: UInt32
+  field_name: TotalTimeWithoutAdal
+- field_type: UInt32
+  field_name: AdalTime
+- field_type: UInt32
+  field_name: ErrorCode

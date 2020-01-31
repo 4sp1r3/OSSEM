@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WPD-CompositeClassDriver
+event_id: '201'
+version: '0'
+event(fields): TransportManagement201(UnicodeString TransportSymbolicLink)
+opcode: ''
+keywords: ''
+task: TransportManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TransportSymbolicLink

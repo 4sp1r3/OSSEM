@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '709'
+version: '0'
+event(fields): Mshtml_Fire_MSManipulationStateChange(Pointer Element, UInt32 PreviousState,
+  UInt32 CurrentState)
+opcode: ''
+keywords: touch
+task: Mshtml_Fire_MSManipulationStateChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Element
+- field_type: UInt32
+  field_name: PreviousState
+- field_type: UInt32
+  field_name: CurrentState

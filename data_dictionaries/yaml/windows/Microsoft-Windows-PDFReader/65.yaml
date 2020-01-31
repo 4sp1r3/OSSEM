@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '65'
+version: '0'
+event(fields): SmoothZoomStop()
+opcode: Stop
+keywords: Reader
+task: SmoothZoom
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

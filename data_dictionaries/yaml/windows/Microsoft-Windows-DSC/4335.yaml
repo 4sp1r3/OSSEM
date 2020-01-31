@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DSC
+event_id: '4335'
+version: '0'
+event(fields): task_04335(UnicodeString JobId, UnicodeString clientChecksum, UnicodeString
+  checkSumFromServer)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: clientChecksum
+- field_type: UnicodeString
+  field_name: checkSumFromServer

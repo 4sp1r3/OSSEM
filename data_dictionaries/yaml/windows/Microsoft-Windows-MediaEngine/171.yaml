@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '171'
+version: '0'
+event(fields): MediaFoundationPresent_MapSample(Pointer object, Int64 QPCnow_us, Float
+  rate, Int64 ClockTime0_us, Int64 QPC0_us, Int64 SampleTime_us, Int64 SampleQPC_us,
+  Int64 SampleQPCAhead_us, Boolean Dejitter)
+opcode: ''
+keywords: ''
+task: MediaFoundationPresent_MapSample
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: QPCnow_us
+- field_type: Float
+  field_name: rate
+- field_type: Int64
+  field_name: ClockTime0_us
+- field_type: Int64
+  field_name: QPC0_us
+- field_type: Int64
+  field_name: SampleTime_us
+- field_type: Int64
+  field_name: SampleQPC_us
+- field_type: Int64
+  field_name: SampleQPCAhead_us
+- field_type: Boolean
+  field_name: Dejitter

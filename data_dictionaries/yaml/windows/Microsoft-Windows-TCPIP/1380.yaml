@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1380'
+version: '0'
+event(fields): TcpLedbatState(Pointer Tcb, UInt32 LedbatEvent, UInt32 Cwnd, UInt32
+  SsThresh, UInt32 SndWnd, UInt16 BaseDelayMs, UInt16 CurrentDelayMs, UInt32 RemainingTimeMs,
+  Int32 DelayBasedCwndFactorPercent)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Ledbat ut:SendPath
+task: TcpLedbatState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: LedbatEvent
+- field_type: UInt32
+  field_name: Cwnd
+- field_type: UInt32
+  field_name: SsThresh
+- field_type: UInt32
+  field_name: SndWnd
+- field_type: UInt16
+  field_name: BaseDelayMs
+- field_type: UInt16
+  field_name: CurrentDelayMs
+- field_type: UInt32
+  field_name: RemainingTimeMs
+- field_type: Int32
+  field_name: DelayBasedCwndFactorPercent

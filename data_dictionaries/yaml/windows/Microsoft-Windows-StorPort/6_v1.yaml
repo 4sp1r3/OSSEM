@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-StorPort
+event_id: '6'
+version: '1'
+event(fields): LinkUpnotificationOpCodeLinkUp_V1(Pointer MiniportExtension, UInt32
+  PortNumber)
+opcode: OpCodeLinkUp
+keywords: PortNotification
+task: LinkUpnotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportExtension
+- field_type: UInt32
+  field_name: PortNumber

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '21011'
+version: '0'
+event(fields): SystemTray_IconModified(UInt32 TrayCode, GUID guid, UInt32 uID, UInt32
+  HWND)
+opcode: ''
+keywords: Shell
+task: SystemTray_IconModified
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TrayCode
+- field_type: GUID
+  field_name: guid
+- field_type: UInt32
+  field_name: uID
+- field_type: UInt32
+  field_name: HWND

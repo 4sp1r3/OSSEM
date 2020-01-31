@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '1025'
+version: '0'
+event(fields): WebAuthNNgcGetAssertionStop1025(GUID TransactionId, HexInt32 Error,
+  Int32 HResult)
+opcode: Stop
+keywords: WebAuthN Ngc
+task: WebAuthNNgcGetAssertion
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: HexInt32
+  field_name: Error
+- field_type: Int32
+  field_name: HResult

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '57397'
+version: '0'
+event(fields): task_057397(UnicodeString data1, UnicodeString SerializedException,
+  UnicodeString AppDomain)
+opcode: ''
+keywords: Infrastructure
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: SerializedException
+- field_type: UnicodeString
+  field_name: AppDomain

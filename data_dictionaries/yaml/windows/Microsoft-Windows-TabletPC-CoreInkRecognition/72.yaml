@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '72'
+version: '0'
+event(fields): RECO_TRAINER_RecoTransferLayerStop()
+opcode: Stop
+keywords: ''
+task: RECO_TRAINER_RecoTransferLayer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

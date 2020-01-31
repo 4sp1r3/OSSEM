@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4826'
+version: '0'
+event(fields): task_04826(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString LoadOptions, UnicodeString
+  AdvancedOptions, UnicodeString ConfigAccessPolicy, UnicodeString RemoteEventLogging,
+  UnicodeString KernelDebug, UnicodeString VsmLaunchType, UnicodeString TestSigning,
+  UnicodeString FlightSigning, UnicodeString DisableIntegrityChecks, UnicodeString
+  HypervisorLoadOptions, UnicodeString HypervisorLaunchType, UnicodeString HypervisorDebug)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: LoadOptions
+- field_type: UnicodeString
+  field_name: AdvancedOptions
+- field_type: UnicodeString
+  field_name: ConfigAccessPolicy
+- field_type: UnicodeString
+  field_name: RemoteEventLogging
+- field_type: UnicodeString
+  field_name: KernelDebug
+- field_type: UnicodeString
+  field_name: VsmLaunchType
+- field_type: UnicodeString
+  field_name: TestSigning
+- field_type: UnicodeString
+  field_name: FlightSigning
+- field_type: UnicodeString
+  field_name: DisableIntegrityChecks
+- field_type: UnicodeString
+  field_name: HypervisorLoadOptions
+- field_type: UnicodeString
+  field_name: HypervisorLaunchType
+- field_type: UnicodeString
+  field_name: HypervisorDebug

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '1204'
+version: '0'
+event(fields): CuratedTileCollectionTransformer_InternalManagement1204(GUID itemId,
+  GUID containerId, UnicodeString collectionName)
+opcode: ''
+keywords: ''
+task: CuratedTileCollectionTransformer_InternalManagement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: itemId
+- field_type: GUID
+  field_name: containerId
+- field_type: UnicodeString
+  field_name: collectionName

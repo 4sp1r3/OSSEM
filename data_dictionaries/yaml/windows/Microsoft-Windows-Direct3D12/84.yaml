@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '84'
+version: '0'
+event(fields): VideoDecoderStart(Pointer pID3D12Device, Pointer pID3D12VideoDecoder,
+  UInt32 NodeMask, GUID DecodeProfile, UInt32 BitstreamEncryption, UInt32 InterlaceFormat)
+opcode: Start
+keywords: Resources ObjectLifetime
+task: VideoDecoder
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12VideoDecoder
+- field_type: UInt32
+  field_name: NodeMask
+- field_type: GUID
+  field_name: DecodeProfile
+- field_type: UInt32
+  field_name: BitstreamEncryption
+- field_type: UInt32
+  field_name: InterlaceFormat

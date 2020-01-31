@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HomeGroup-ListenerService
+event_id: '320'
+version: '0'
+event(fields): HomeGroup_ListenerService_HomeAccess_HomeGroupDepartedStop()
+opcode: Stop
+keywords: ''
+task: HomeGroup_ListenerService_HomeAccess_HomeGroupDeparted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3226'
+version: '0'
+event(fields): Adapter_HostModeRunStop(Int32 param)
+opcode: Stop
+keywords: MessagingPerformance Dispatcher
+task: Adapter_HostModeRun
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: param

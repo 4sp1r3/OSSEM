@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '169'
+version: '0'
+event(fields): RemoteFXmodule_4Runtime169(UInt32 MajorType, UInt32 MinorType, UnicodeString
+  ServerName)
+opcode: Runtime
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MajorType
+- field_type: UInt32
+  field_name: MinorType
+- field_type: UnicodeString
+  field_name: ServerName

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '7'
+version: '1'
+event(fields): task_07_V1(UInt32 BaseAffinityNode, UInt32 MaxAffinityNode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BaseAffinityNode
+- field_type: UInt32
+  field_name: MaxAffinityNode

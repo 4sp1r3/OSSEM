@@ -1,0 +1,98 @@
+provider: Microsoft-Windows-Threat-Intelligence
+event_id: '25'
+version: '0'
+event(fields): KERNEL_THREATINT_TASK_SETTHREADCONTEXT25(UInt32 CallingProcessId, FILETIME
+  CallingProcessCreateTime, UInt64 CallingProcessStartKey, UInt8 CallingProcessSignatureLevel,
+  UInt8 CallingProcessSectionSignatureLevel, UInt8 CallingProcessProtection, UInt32
+  CallingThreadId, FILETIME CallingThreadCreateTime, UInt32 TargetProcessId, FILETIME
+  TargetProcessCreateTime, UInt64 TargetProcessStartKey, UInt8 TargetProcessSignatureLevel,
+  UInt8 TargetProcessSectionSignatureLevel, UInt8 TargetProcessProtection, UInt32
+  TargetThreadId, FILETIME TargetThreadCreateTime, UInt32 ContextFlags, UInt16 ContextMask,
+  Pointer Pc, Pointer Sp, Pointer Lr, Pointer Fp, Pointer Reg0, Pointer Reg1, Pointer
+  Reg2, Pointer Reg3, Pointer Reg4, Pointer Reg5, Pointer Reg6, Pointer Reg7, FILETIME
+  RealEventTime, UInt32 PcVadQueryResult, Pointer PcVadAllocationBase, UInt32 PcVadAllocationProtect,
+  UInt32 PcVadRegionType, Pointer PcVadRegionSize, Pointer PcVadCommitSize, UnicodeString
+  PcVadMmfName)
+opcode: ''
+keywords: KERNEL_THREATINT_KEYWORD_SETTHREADCONTEXT_REMOTE_KERNEL_CALLER
+task: KERNEL_THREATINT_TASK_SETTHREADCONTEXT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CallingProcessId
+- field_type: FILETIME
+  field_name: CallingProcessCreateTime
+- field_type: UInt64
+  field_name: CallingProcessStartKey
+- field_type: UInt8
+  field_name: CallingProcessSignatureLevel
+- field_type: UInt8
+  field_name: CallingProcessSectionSignatureLevel
+- field_type: UInt8
+  field_name: CallingProcessProtection
+- field_type: UInt32
+  field_name: CallingThreadId
+- field_type: FILETIME
+  field_name: CallingThreadCreateTime
+- field_type: UInt32
+  field_name: TargetProcessId
+- field_type: FILETIME
+  field_name: TargetProcessCreateTime
+- field_type: UInt64
+  field_name: TargetProcessStartKey
+- field_type: UInt8
+  field_name: TargetProcessSignatureLevel
+- field_type: UInt8
+  field_name: TargetProcessSectionSignatureLevel
+- field_type: UInt8
+  field_name: TargetProcessProtection
+- field_type: UInt32
+  field_name: TargetThreadId
+- field_type: FILETIME
+  field_name: TargetThreadCreateTime
+- field_type: UInt32
+  field_name: ContextFlags
+- field_type: UInt16
+  field_name: ContextMask
+- field_type: Pointer
+  field_name: Pc
+- field_type: Pointer
+  field_name: Sp
+- field_type: Pointer
+  field_name: Lr
+- field_type: Pointer
+  field_name: Fp
+- field_type: Pointer
+  field_name: Reg0
+- field_type: Pointer
+  field_name: Reg1
+- field_type: Pointer
+  field_name: Reg2
+- field_type: Pointer
+  field_name: Reg3
+- field_type: Pointer
+  field_name: Reg4
+- field_type: Pointer
+  field_name: Reg5
+- field_type: Pointer
+  field_name: Reg6
+- field_type: Pointer
+  field_name: Reg7
+- field_type: FILETIME
+  field_name: RealEventTime
+- field_type: UInt32
+  field_name: PcVadQueryResult
+- field_type: Pointer
+  field_name: PcVadAllocationBase
+- field_type: UInt32
+  field_name: PcVadAllocationProtect
+- field_type: UInt32
+  field_name: PcVadRegionType
+- field_type: Pointer
+  field_name: PcVadRegionSize
+- field_type: Pointer
+  field_name: PcVadCommitSize
+- field_type: UnicodeString
+  field_name: PcVadMmfName

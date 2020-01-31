@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62421'
+version: '0'
+event(fields): LogonTask_RestoreStop(UInt32 ApplicableProfileCount)
+opcode: Stop
+keywords: Restore
+task: LogonTask_Restore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ApplicableProfileCount

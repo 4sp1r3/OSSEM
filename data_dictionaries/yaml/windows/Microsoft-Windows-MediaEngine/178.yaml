@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '178'
+version: '0'
+event(fields): MediaEngineGetEngineStatisticsStart(UInt32 id, UInt32 Type)
+opcode: Start
+keywords: ''
+task: MediaEngineGetEngineStatistics
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id
+- field_type: UInt32
+  field_name: Type

@@ -1,0 +1,17 @@
+provider: Microsoft-AppV-Client-StreamingUX
+event_id: '61'
+version: '1'
+event(fields): task_061_V1(GUID packageId, GUID versionId, UInt64 percentageComplete)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: packageId
+- field_type: GUID
+  field_name: versionId
+- field_type: UInt64
+  field_name: percentageComplete

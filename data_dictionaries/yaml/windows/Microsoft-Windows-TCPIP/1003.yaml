@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1003'
+version: '0'
+event(fields): TcpInspectConnectComplete(Pointer Tcb, UInt32 Status, UInt32 AddressFamily)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Endpoint ut:ConnectPath
+task: TcpInspectConnectComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: AddressFamily

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '11'
+version: '0'
+event(fields): peerneighborlist(server)_listeningforclientsStop(UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: peerneighborlist(server)_listeningforclients
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

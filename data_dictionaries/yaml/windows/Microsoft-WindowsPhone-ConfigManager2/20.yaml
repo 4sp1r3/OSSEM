@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '20'
+version: '0'
+event(fields): ICSPNode_DeleteProperty_TaskStart()
+opcode: Start
+keywords: Performance
+task: ICSPNode_DeleteProperty_Task
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

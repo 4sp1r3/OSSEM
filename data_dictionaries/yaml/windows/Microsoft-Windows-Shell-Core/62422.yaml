@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62422'
+version: '0'
+event(fields): LogonTask_Restore(UInt32 FormFactor, UnicodeString DeviceName, UnicodeString
+  OEMName, UnicodeString HardwareId, UInt16 SystemDatewMonth, UInt16 SystemDatewDay,
+  UInt16 SystemDatewYear, UInt16 SystemDatewHour, UInt16 SystemDatewMinute, UInt16
+  SystemDatewSecond)
+opcode: ''
+keywords: Restore
+task: LogonTask_Restore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FormFactor
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: UnicodeString
+  field_name: OEMName
+- field_type: UnicodeString
+  field_name: HardwareId
+- field_type: UInt16
+  field_name: SystemDatewMonth
+- field_type: UInt16
+  field_name: SystemDatewDay
+- field_type: UInt16
+  field_name: SystemDatewYear
+- field_type: UInt16
+  field_name: SystemDatewHour
+- field_type: UInt16
+  field_name: SystemDatewMinute
+- field_type: UInt16
+  field_name: SystemDatewSecond

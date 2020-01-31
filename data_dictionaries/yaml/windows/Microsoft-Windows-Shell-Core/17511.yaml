@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17511'
+version: '0'
+event(fields): ResolveUserNames_MultipleSidsToNamesLookupStart()
+opcode: Start
+keywords: Properties
+task: ResolveUserNames_MultipleSidsToNamesLookup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

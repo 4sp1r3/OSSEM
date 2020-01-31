@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-International
+event_id: '10112'
+version: '0'
+event(fields): NLSUnattendedRegionalandLanguageOptionsNLSoperations10112()
+opcode: NLSoperations
+keywords: ''
+task: NLSUnattendedRegionalandLanguageOptions
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

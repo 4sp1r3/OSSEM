@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '262'
+version: '0'
+event(fields): MPS_CLNT_API_VerifyConnectionSecurityRuleStart()
+opcode: Start
+keywords: Client
+task: MPS_CLNT_API_VerifyConnectionSecurityRule
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

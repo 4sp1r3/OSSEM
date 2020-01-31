@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '5115'
+version: '0'
+event(fields): task_05115(Boolean IsServiceRestart, Boolean IsMachineBoot, UInt32
+  GpsvcTimeElapsedInMilliseconds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsServiceRestart
+- field_type: Boolean
+  field_name: IsMachineBoot
+- field_type: UInt32
+  field_name: GpsvcTimeElapsedInMilliseconds

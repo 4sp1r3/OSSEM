@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '1017'
+version: '0'
+event(fields): AfdConnectConnected(UInt32 EnterExit, UInt32 Location, Pointer Process,
+  Pointer Endpoint, UInt32 Status)
+opcode: Connected
+keywords: AFD_KW_SOURCE_WINSOCK
+task: AfdConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EnterExit
+- field_type: UInt32
+  field_name: Location
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-StorPort
+event_id: '503'
+version: '1'
+event(fields): None503_V1(UInt32 PortNumber, UInt8 PathID, UInt8 TargetID, UInt8 LUN,
+  GUID ClassDeviceGuid, UInt32 Reason)
+opcode: ''
+keywords: DeviceState
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt8
+  field_name: PathID
+- field_type: UInt8
+  field_name: TargetID
+- field_type: UInt8
+  field_name: LUN
+- field_type: GUID
+  field_name: ClassDeviceGuid
+- field_type: UInt32
+  field_name: Reason

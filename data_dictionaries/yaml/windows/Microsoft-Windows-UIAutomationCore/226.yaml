@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '226'
+version: '0'
+event(fields): CUIAutomation_ElementFromPointBuildCacheStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CUIAutomation_ElementFromPointBuildCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

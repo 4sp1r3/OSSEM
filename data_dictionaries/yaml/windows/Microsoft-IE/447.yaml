@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '447'
+version: '0'
+event(fields): Mshtml_TouchSelection_TouchSelectionManipulation_InitiationStop()
+opcode: Stop
+keywords: mshtml touch
+task: Mshtml_TouchSelection_TouchSelectionManipulation_Initiation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '22'
+version: '0'
+event(fields): KMDDeviceCreateStart()
+opcode: Start
+keywords: Devices
+task: KMDDeviceCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

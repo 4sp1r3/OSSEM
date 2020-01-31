@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4306'
+version: '0'
+event(fields): CTX_CREATEINSTANCEStart()
+opcode: Start
+keywords: Performance
+task: CTX_CREATEINSTANCE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '28'
+version: '0'
+event(fields): SessionStateTransition(UInt32 SessionId, UInt32 TransitionId, UInt32
+  Transition)
+opcode: SessionStateTransition
+keywords: Session
+task: SessionStateTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: TransitionId
+- field_type: UInt32
+  field_name: Transition

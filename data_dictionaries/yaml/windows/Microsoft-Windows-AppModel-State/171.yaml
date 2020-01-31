@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '171'
+version: '0'
+event(fields): AppModel.Task.StateWinRT.ApplicationDataServer_GetVersionStop()
+opcode: Stop
+keywords: WinRT
+task: AppModel.Task.StateWinRT.ApplicationDataServer_GetVersion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

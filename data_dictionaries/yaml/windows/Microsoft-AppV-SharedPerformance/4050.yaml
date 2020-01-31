@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4050'
+version: '0'
+event(fields): Get_AppvClientConfigurationStart()
+opcode: Start
+keywords: ''
+task: Get_AppvClientConfiguration
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

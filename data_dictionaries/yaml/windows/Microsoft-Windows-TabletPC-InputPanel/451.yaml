@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '451'
+version: '0'
+event(fields): Perftrack_IHM_ImmersiveInvokeStop(UnicodeString AppUserModelID, UnicodeString
+  PackageFullName)
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: Perftrack_IHM_ImmersiveInvoke
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelID
+- field_type: UnicodeString
+  field_name: PackageFullName

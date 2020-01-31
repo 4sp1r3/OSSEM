@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Devices-Background
+event_id: '12'
+version: '0'
+event(fields): ApplicationinitiateddevicebackgroundtaskStop(GUID TriggerID, UInt32
+  Reason, UnicodeString Device)
+opcode: Stop
+keywords: ''
+task: Applicationinitiateddevicebackgroundtask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TriggerID
+- field_type: UInt32
+  field_name: Reason
+- field_type: UnicodeString
+  field_name: Device

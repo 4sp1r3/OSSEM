@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4025'
+version: '0'
+event(fields): ProxyDetectionStart()
+opcode: Start
+keywords: LwtDiagnostic keyword_200000000000
+task: ProxyDetection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

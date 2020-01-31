@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-UnifiedStore
+event_id: '3023'
+version: '0'
+event(fields): task_03023(UnicodeString Prop_Trace_UnicodeString)
+opcode: ''
+keywords: Unified_Store Warning
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_Trace_UnicodeString

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DXGI
+event_id: '73'
+version: '0'
+event(fields): Factory(Pointer pIDXGIFactory, Boolean ReparentingOccurred, UInt32
+  DecidingFactor, AnsiString Message)
+opcode: ''
+keywords: Events
+task: Factory
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGIFactory
+- field_type: Boolean
+  field_name: ReparentingOccurred
+- field_type: UInt32
+  field_name: DecidingFactor
+- field_type: AnsiString
+  field_name: Message

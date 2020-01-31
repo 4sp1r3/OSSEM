@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '878'
+version: '0'
+event(fields): task_0878(UInt64 p1_UInt64, UnicodeString p2_String, Boolean p3_Boolean,
+  Boolean p4_Boolean, UInt32 p5_UInt32)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: p1_UInt64
+- field_type: UnicodeString
+  field_name: p2_String
+- field_type: Boolean
+  field_name: p3_Boolean
+- field_type: Boolean
+  field_name: p4_Boolean
+- field_type: UInt32
+  field_name: p5_UInt32

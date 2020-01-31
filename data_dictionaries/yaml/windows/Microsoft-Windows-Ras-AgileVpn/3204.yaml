@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Ras-AgileVpn
+event_id: '3204'
+version: '0'
+event(fields): task_03204(UInt64 TSID, UInt32 fDelete)
+opcode: ''
+keywords: AGILEVPN
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TSID
+- field_type: UInt32
+  field_name: fDelete

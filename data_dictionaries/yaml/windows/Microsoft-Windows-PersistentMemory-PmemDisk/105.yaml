@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PersistentMemory-PmemDisk
+event_id: '105'
+version: '0'
+event(fields): task_0105(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, Pointer
+  Irp, HexInt32 NTStatus)
+opcode: ''
+keywords: Read Write PagingRead PagingWrite
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PersistentMemoryDiskGuid
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: Pointer
+  field_name: Irp
+- field_type: HexInt32
+  field_name: NTStatus

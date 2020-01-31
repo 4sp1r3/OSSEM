@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5016'
+version: '0'
+event(fields): task_0(AnsiString FileName, UInt32 Line, Pointer Address, Pointer Size)
+opcode: ''
+keywords: memory
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: FileName
+- field_type: UInt32
+  field_name: Line
+- field_type: Pointer
+  field_name: Address
+- field_type: Pointer
+  field_name: Size

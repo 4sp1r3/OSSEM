@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '244'
+version: '0'
+event(fields): StateRepository.Task.DataAccessLayer244(UInt64 TimeoutMSec, UInt64
+  ElapsedTimeMSec)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD
+task: StateRepository.Task.DataAccessLayer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TimeoutMSec
+- field_type: UInt64
+  field_name: ElapsedTimeMSec

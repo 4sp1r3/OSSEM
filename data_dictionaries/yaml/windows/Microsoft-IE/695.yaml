@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '695'
+version: '0'
+event(fields): Mshtml_CDoubleTap_PanAndZoom(UInt32 Reason, Float DesiredOffsetX, Float
+  DesiredOffsetY, Float DesiredZoomFactor)
+opcode: ''
+keywords: touch
+task: Mshtml_CDoubleTap_PanAndZoom
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: Float
+  field_name: DesiredOffsetX
+- field_type: Float
+  field_name: DesiredOffsetY
+- field_type: Float
+  field_name: DesiredZoomFactor

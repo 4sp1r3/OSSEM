@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinRM
+event_id: '1295'
+version: '0'
+event(fields): Userauthentication1295(UnicodeString username, UnicodeString authenticationMechanism)
+opcode: ''
+keywords: Keyword.Server Keyword.Security
+task: Userauthentication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: username
+- field_type: UnicodeString
+  field_name: authenticationMechanism

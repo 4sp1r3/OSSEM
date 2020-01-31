@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '328'
+version: '0'
+event(fields): GathererRecoverStop(UInt32 hr)
+opcode: Stop
+keywords: Service Gatherer
+task: GathererRecover
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr

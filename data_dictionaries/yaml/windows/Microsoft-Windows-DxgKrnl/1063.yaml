@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1063'
+version: '0'
+event(fields): IndirectSwapChainRelease(Pointer pSwapChain, UInt32 Status, Int32 bProducer,
+  UInt32 MetadataSize, Pointer EventSignaled)
+opcode: ''
+keywords: IndirectSwapChain
+task: IndirectSwapChainRelease
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pSwapChain
+- field_type: UInt32
+  field_name: Status
+- field_type: Int32
+  field_name: bProducer
+- field_type: UInt32
+  field_name: MetadataSize
+- field_type: Pointer
+  field_name: EventSignaled

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '182'
+version: '0'
+event(fields): GetDeviceState(Pointer hDevice, UInt32 DeviceState)
+opcode: ''
+keywords: Base
+task: GetDeviceState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hDevice
+- field_type: UInt32
+  field_name: DeviceState

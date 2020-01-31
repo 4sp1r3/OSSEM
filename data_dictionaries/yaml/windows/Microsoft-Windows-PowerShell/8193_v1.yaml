@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '8193'
+version: '1'
+event(fields): ConnectOBEUSEDWHENANOBJECTISCONSTRUCTEDobeusedwhenanobjectisconstructed_V1(UnicodeString
+  param1)
+opcode: tobeusedwhenanobjectisconstructed
+keywords: Runspace
+task: Connect
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

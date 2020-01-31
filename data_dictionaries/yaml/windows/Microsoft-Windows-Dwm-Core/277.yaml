@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '277'
+version: '0'
+event(fields): MANIPULATION_CONTEXT_NEW_CONTACT(Pointer manipulationContextPointer,
+  UInt32 pointerId)
+opcode: ''
+keywords: DwmCore DwmInput
+task: MANIPULATION_CONTEXT_NEW_CONTACT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: manipulationContextPointer
+- field_type: UInt32
+  field_name: pointerId

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Disk
+event_id: '221'
+version: '1'
+event(fields): ClassDispatchingofrequest.221_V1(UInt32 DeviceNumber, Pointer Irp,
+  HexInt32 MajorFunction, HexInt32 MinorFunction, HexInt32 Parameter)
+opcode: Dispatchingofrequest.
+keywords: PassThrough IOCTL
+task: Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: Pointer
+  field_name: Irp
+- field_type: HexInt32
+  field_name: MajorFunction
+- field_type: HexInt32
+  field_name: MinorFunction
+- field_type: HexInt32
+  field_name: Parameter

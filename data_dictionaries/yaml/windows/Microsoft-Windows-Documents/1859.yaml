@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '1859'
+version: '0'
+event(fields): DocPerf_Task_PrintTicket_MergeAndValidatePrintTicketStop()
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_PrintTicket_MergeAndValidatePrintTicket
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

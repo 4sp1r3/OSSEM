@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '1030'
+version: '0'
+event(fields): AfdBindWithAddressConnected(UInt32 EnterExit, UInt32 Location, Pointer
+  Process, Pointer Endpoint, UInt32 Status, UInt32 AddressLen, Binary Address)
+opcode: Connected
+keywords: AFD_KW_SOURCE_WINSOCK
+task: AfdBindWithAddress
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EnterExit
+- field_type: UInt32
+  field_name: Location
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: AddressLen
+- field_type: Binary
+  field_name: Address

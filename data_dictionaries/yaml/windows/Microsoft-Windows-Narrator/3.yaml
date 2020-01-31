@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '3'
+version: '0'
+event(fields): ScrapeWindowStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: ScrapeWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

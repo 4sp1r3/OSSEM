@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1631'
+version: '0'
+event(fields): AppsFolder_ImmersiveApp_InstallRequest1631(UnicodeString Package, UInt32
+  Result)
+opcode: ''
+keywords: ''
+task: AppsFolder_ImmersiveApp_InstallRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Package
+- field_type: UInt32
+  field_name: Result

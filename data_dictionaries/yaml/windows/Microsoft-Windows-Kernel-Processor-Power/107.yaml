@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '107'
+version: '0'
+event(fields): ProfileStatusRundown(UInt32 Flags)
+opcode: ''
+keywords: PowerDiagnostics Algorithm Profiles
+task: ProfileStatusRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags

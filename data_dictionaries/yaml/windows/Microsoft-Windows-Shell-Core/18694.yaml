@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18694'
+version: '0'
+event(fields): Shell32_DefView_Property_ExtractionStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_DefView_Property_Extraction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

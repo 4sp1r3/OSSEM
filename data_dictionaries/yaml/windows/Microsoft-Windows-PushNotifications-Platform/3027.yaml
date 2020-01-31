@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3027'
+version: '0'
+event(fields): task_03027(UInt32 SlotIndex, UInt32 NotificationId, UInt32 BITSPriority,
+  Boolean IsTile, UnicodeString URL)
+opcode: ''
+keywords: wpnui
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SlotIndex
+- field_type: UInt32
+  field_name: NotificationId
+- field_type: UInt32
+  field_name: BITSPriority
+- field_type: Boolean
+  field_name: IsTile
+- field_type: UnicodeString
+  field_name: URL

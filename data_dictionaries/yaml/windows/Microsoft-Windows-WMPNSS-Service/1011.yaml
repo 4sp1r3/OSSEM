@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1011'
+version: '0'
+event(fields): Browse_Write_ResultStart(UInt32 WrittenCount, UInt32 TotalResultLength)
+opcode: Start
+keywords: ''
+task: Browse_Write_Result
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WrittenCount
+- field_type: UInt32
+  field_name: TotalResultLength

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '86'
+version: '0'
+event(fields): DirectUI_TouchScrollViewer_InitializeRegionStop()
+opcode: Stop
+keywords: Default
+task: DirectUI_TouchScrollViewer_InitializeRegion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

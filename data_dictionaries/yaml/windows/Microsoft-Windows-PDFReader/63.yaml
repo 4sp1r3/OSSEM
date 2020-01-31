@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '63'
+version: '0'
+event(fields): StepZoomStop()
+opcode: Stop
+keywords: Reader
+task: StepZoom
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

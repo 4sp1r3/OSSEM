@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '1018'
+version: '0'
+event(fields): AddressConfigurationStateEventDhcpv6InitFailed(UInt32 StatusCode)
+opcode: Dhcpv6InitFailed
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StatusCode

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60914'
+version: '0'
+event(fields): ShellTask_Download_SafeOpenPromptForShellExec(UInt32 HRESULT)
+opcode: ''
+keywords: Shell
+task: ShellTask_Download_SafeOpenPromptForShellExec
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

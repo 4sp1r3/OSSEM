@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '139'
+version: '0'
+event(fields): WriteCharMapStop()
+opcode: Stop
+keywords: PerfEvent
+task: WriteCharMap
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

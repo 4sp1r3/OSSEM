@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '617'
+version: '0'
+event(fields): Mshtml_RenderTask_ApplyPSPStop(Pointer RenderTask)
+opcode: Stop
+keywords: subsystem composition
+task: Mshtml_RenderTask_ApplyPSP
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RenderTask

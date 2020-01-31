@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WorkFolders
+event_id: '502'
+version: '0'
+event(fields): task_0502(UnicodeString LocalFolder, UnicodeString ServerURI, UnicodeString
+  ServerPartnershipId, UnicodeString HResultStr, Int32 HResult)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocalFolder
+- field_type: UnicodeString
+  field_name: ServerURI
+- field_type: UnicodeString
+  field_name: ServerPartnershipId
+- field_type: UnicodeString
+  field_name: HResultStr
+- field_type: Int32
+  field_name: HResult

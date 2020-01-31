@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '258'
+version: '0'
+event(fields): VirtualSurfaceImageSourceUpdatePriority(UInt32 HighPriority)
+opcode: ''
+keywords: Rendering
+task: VirtualSurfaceImageSourceUpdatePriority
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HighPriority

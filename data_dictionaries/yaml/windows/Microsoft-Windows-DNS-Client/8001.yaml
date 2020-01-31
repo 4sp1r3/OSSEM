@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '8001'
+version: '0'
+event(fields): DnsGenericError(UInt32 ErrorCode)
+opcode: ''
+keywords: ut:DnsAutoLogKeyword
+task: DnsGenericError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '159'
+version: '0'
+event(fields): GPMon_ShutdownStart()
+opcode: Start
+keywords: Service
+task: GPMon_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

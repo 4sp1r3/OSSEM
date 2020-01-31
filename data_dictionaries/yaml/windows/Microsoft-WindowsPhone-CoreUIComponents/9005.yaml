@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9005'
+version: '0'
+event(fields): ViewManagerInitiateShutdown()
+opcode: InitiateShutdown
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Network-Connection-Broker
+event_id: '2009'
+version: '0'
+event(fields): task_02009(GUID BrokerEventId, UnicodeString SocketId, Int32 SocketType,
+  Int32 TriggerReason, Int32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BrokerEventId
+- field_type: UnicodeString
+  field_name: SocketId
+- field_type: Int32
+  field_name: SocketType
+- field_type: Int32
+  field_name: TriggerReason
+- field_type: Int32
+  field_name: Status

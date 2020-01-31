@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '410'
+version: '0'
+event(fields): CTextRange_ExpandToEnclosingUnitStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CTextRange_ExpandToEnclosingUnit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

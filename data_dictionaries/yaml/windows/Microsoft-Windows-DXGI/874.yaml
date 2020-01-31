@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '874'
+version: '0'
+event(fields): IDXGISwapChainPartner_SetColorSpaceStart(Pointer pThis, UInt32 YCbCrFlags)
+opcode: Start
+keywords: ''
+task: IDXGISwapChainPartner_SetColorSpace
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: YCbCrFlags

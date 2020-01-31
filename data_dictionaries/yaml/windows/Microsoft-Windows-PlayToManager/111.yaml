@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PlayToManager
+event_id: '111'
+version: '0'
+event(fields): PlayToManager_SourceRequestEventInvokeTimeStop()
+opcode: Stop
+keywords: ''
+task: PlayToManager_SourceRequestEventInvokeTime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

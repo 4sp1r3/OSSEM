@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '311'
+version: '0'
+event(fields): WinRTTranscode_Task311(Pointer transcode, Boolean remuxing)
+opcode: ''
+keywords: keyword_400000000000
+task: WinRTTranscode_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: transcode
+- field_type: Boolean
+  field_name: remuxing

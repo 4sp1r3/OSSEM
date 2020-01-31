@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSPaint
+event_id: '9'
+version: '0'
+event(fields): Commit_ToolStart(Int32 ToolID)
+opcode: Start
+keywords: ''
+task: Commit_Tool
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ToolID

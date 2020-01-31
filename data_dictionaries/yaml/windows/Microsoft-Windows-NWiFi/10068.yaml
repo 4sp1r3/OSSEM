@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10068'
+version: '0'
+event(fields): StartingdevicenetworkatIMdriverStop10068(GUID InterfaceGuid, UInt32
+  ErrorCode, Pointer ContextHandle, AnsiString MAC, AnsiString SSID)
+opcode: Stop
+keywords: SOFTAP
+task: StartingdevicenetworkatIMdriver
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: Pointer
+  field_name: ContextHandle
+- field_type: AnsiString
+  field_name: MAC
+- field_type: AnsiString
+  field_name: SSID

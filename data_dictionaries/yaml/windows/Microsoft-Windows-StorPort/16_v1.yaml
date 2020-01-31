@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-StorPort
+event_id: '16'
+version: '1'
+event(fields): None16_V1(UnicodeString AdapterName, UInt32 PortNumber, UInt32 InitialCount,
+  UInt32 MaxCount, UInt32 ResourceSize, HexInt64 MemorySize)
+opcode: ''
+keywords: Config
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AdapterName
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt32
+  field_name: InitialCount
+- field_type: UInt32
+  field_name: MaxCount
+- field_type: UInt32
+  field_name: ResourceSize
+- field_type: HexInt64
+  field_name: MemorySize

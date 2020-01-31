@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '89'
+version: '0'
+event(fields): CNodeWrapper_RollbackAddStart89()
+opcode: Start
+keywords: Performance
+task: CNodeWrapper_RollbackAdd
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

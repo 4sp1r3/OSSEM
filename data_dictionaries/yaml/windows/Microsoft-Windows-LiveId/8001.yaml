@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-LiveId
+event_id: '8001'
+version: '0'
+event(fields): task_08001(AnsiString FileName, UInt32 LineNumber, UnicodeString description)
+opcode: ''
+keywords: Error WlidCli
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: FileName
+- field_type: UInt32
+  field_name: LineNumber
+- field_type: UnicodeString
+  field_name: description

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Sensors
+event_id: '10003'
+version: '0'
+event(fields): PerfTrackmeasurementofauto_rotation_10002(UInt32 EventId, UInt32 QuadrantChangeInterval,
+  UInt32 Angle)
+opcode: ''
+keywords: SensPerf
+task: PerfTrackmeasurementofauto_rotation_10002
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EventId
+- field_type: UInt32
+  field_name: QuadrantChangeInterval
+- field_type: UInt32
+  field_name: Angle

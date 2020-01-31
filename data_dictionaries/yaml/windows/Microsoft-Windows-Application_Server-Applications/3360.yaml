@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3360'
+version: '0'
+event(fields): SecurityImpersonation3360(UnicodeString AppDomain)
+opcode: ''
+keywords: Security
+task: SecurityImpersonation
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

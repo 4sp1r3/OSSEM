@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '854'
+version: '0'
+event(fields): Mshtml_EventLoop_MessageGroupCallbackStop(Boolean AllowExecution)
+opcode: ''
+keywords: gwnd
+task: Mshtml_EventLoop_MessageGroupCallbackStop
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: AllowExecution

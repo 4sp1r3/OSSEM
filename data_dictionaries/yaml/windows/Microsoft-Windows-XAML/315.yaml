@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '315'
+version: '0'
+event(fields): ComputeSnappingModeStart()
+opcode: Start
+keywords: Input
+task: ComputeSnappingMode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

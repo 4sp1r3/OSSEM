@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '206'
+version: '0'
+event(fields): MLS206(UnicodeString Name, UInt32 HRESULT)
+opcode: ''
+keywords: mls
+task: MLS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt32
+  field_name: HRESULT

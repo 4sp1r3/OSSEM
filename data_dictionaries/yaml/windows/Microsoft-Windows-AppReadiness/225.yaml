@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '225'
+version: '0'
+event(fields): AppReadiness_User_Shutdown(UnicodeString Username, UnicodeString Task)
+opcode: ''
+keywords: User
+task: AppReadiness_User_Shutdown
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Username
+- field_type: UnicodeString
+  field_name: Task

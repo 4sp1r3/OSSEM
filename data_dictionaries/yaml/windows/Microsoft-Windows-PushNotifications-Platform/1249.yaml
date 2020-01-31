@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1249'
+version: '0'
+event(fields): task_01249()
+opcode: ''
+keywords: wnptrans
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '15517'
+version: '0'
+event(fields): PropertySchema_SaveAsBinaryFormStart()
+opcode: Start
+keywords: Properties
+task: PropertySchema_SaveAsBinaryForm
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

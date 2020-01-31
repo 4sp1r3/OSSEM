@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '3'
+version: '0'
+event(fields): AdapterCommit(Int64 IddAdapterLuid)
+opcode: Commit
+keywords: DdiCallbacks
+task: Adapter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: IddAdapterLuid

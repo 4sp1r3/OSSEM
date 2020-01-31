@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '763'
+version: '0'
+event(fields): SPERF_TAG_FORGET_IRRELEVANT_PEOPLE_CHANGESStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_FORGET_IRRELEVANT_PEOPLE_CHANGES
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Setup
+event_id: '1001'
+version: '0'
+event(fields): ExecuteSetupPhaseStart(UInt32 SetupPhase)
+opcode: Start
+keywords: keyPerformance keyword_400000000000
+task: ExecuteSetupPhase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SetupPhase

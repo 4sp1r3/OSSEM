@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PortableWorkspaces-Creator-Tool
+event_id: '1001'
+version: '0'
+event(fields): task_01001(UnicodeString Path, UInt32 Architecture, Boolean IsEnterprise)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UInt32
+  field_name: Architecture
+- field_type: Boolean
+  field_name: IsEnterprise

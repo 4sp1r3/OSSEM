@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '16031'
+version: '1'
+event(fields): PublishapackageStop_V1()
+opcode: Stop
+keywords: ''
+task: Publishapackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

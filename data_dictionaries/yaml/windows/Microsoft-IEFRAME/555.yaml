@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '555'
+version: '0'
+event(fields): TabRoaming_KeepTabInDirtyList(GUID TabId)
+opcode: ''
+keywords: roaming
+task: TabRoaming_KeepTabInDirtyList
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TabId

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '274'
+version: '0'
+event(fields): StateRepository.Task.DataAccessLayer274(HexInt32 ErrorCode, HexInt32
+  Options, Int32 Disposition, UInt64 ErrorCount)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD keyword_200000000000
+task: StateRepository.Task.DataAccessLayer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: HexInt32
+  field_name: Options
+- field_type: Int32
+  field_name: Disposition
+- field_type: UInt64
+  field_name: ErrorCount

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-VWiFi
+event_id: '25003'
+version: '0'
+event(fields): EnableVWiFiStop(GUID IfGuid, UnicodeString FriendlyName, GUID VIfGuid)
+opcode: Stop
+keywords: ''
+task: EnableVWiFi
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UnicodeString
+  field_name: FriendlyName
+- field_type: GUID
+  field_name: VIfGuid

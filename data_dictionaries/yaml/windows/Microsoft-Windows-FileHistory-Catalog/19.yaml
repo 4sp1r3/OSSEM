@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '19'
+version: '0'
+event(fields): FindNsRecordsByFullPathStart(UnicodeString Path, Int32 InitialPosition)
+opcode: Start
+keywords: ''
+task: FindNsRecordsByFullPath
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path
+- field_type: Int32
+  field_name: InitialPosition

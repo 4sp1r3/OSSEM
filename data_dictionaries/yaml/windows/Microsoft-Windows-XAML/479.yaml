@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '479'
+version: '0'
+event(fields): ThreadedJobQueueJobStop(UInt64 ParentId, UInt64 ChildId)
+opcode: Stop
+keywords: Core
+task: ThreadedJobQueueJob
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ParentId
+- field_type: UInt64
+  field_name: ChildId

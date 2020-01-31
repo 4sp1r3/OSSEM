@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '223'
+version: '0'
+event(fields): task_0223(UInt32 Option, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Option
+- field_type: UInt32
+  field_name: ErrorCode

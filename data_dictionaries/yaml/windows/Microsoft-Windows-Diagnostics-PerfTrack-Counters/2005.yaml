@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack-Counters
+event_id: '2005'
+version: '0'
+event(fields): PerfTrackCounter_SessionPoolTag(UInt32 PagedAllocs, UInt32 PagedFrees,
+  Pointer PagedUsed, UInt32 NonPagedAllocs, UInt32 NonPagedFrees, Pointer NonPagedUsed,
+  UInt32 SessionId, AnsiString Tag)
+opcode: ''
+keywords: SessionPoolTagCounter
+task: PerfTrackCounter_SessionPoolTag
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PagedAllocs
+- field_type: UInt32
+  field_name: PagedFrees
+- field_type: Pointer
+  field_name: PagedUsed
+- field_type: UInt32
+  field_name: NonPagedAllocs
+- field_type: UInt32
+  field_name: NonPagedFrees
+- field_type: Pointer
+  field_name: NonPagedUsed
+- field_type: UInt32
+  field_name: SessionId
+- field_type: AnsiString
+  field_name: Tag

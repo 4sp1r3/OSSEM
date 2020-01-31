@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18811'
+version: '0'
+event(fields): Shell32_CopyEngine_RecycleItemStart()
+opcode: Start
+keywords: CopyEngine
+task: Shell32_CopyEngine_RecycleItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

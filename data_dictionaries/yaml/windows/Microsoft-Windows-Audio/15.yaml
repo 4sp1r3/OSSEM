@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Audio
+event_id: '15'
+version: '0'
+event(fields): AudioPerf_Task_EndpointVolumeStop()
+opcode: Stop
+keywords: ''
+task: AudioPerf_Task_EndpointVolume
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

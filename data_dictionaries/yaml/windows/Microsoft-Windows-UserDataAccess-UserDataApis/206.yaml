@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '206'
+version: '0'
+event(fields): ProcessMuteStateNotificationStart()
+opcode: Start
+keywords: Performance
+task: ProcessMuteStateNotification
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

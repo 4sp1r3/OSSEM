@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '915'
+version: '0'
+event(fields): CellularModemContainer915()
+opcode: ''
+keywords: Error
+task: CellularModemContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

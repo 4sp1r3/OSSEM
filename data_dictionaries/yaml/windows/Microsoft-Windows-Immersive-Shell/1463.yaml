@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1463'
+version: '0'
+event(fields): DropFeedbackItem_Update(UInt32 ID, Int32 Left, Int32 Top, Int32 Right,
+  Int32 Bottom)
+opcode: ''
+keywords: ''
+task: DropFeedbackItem_Update
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ID
+- field_type: Int32
+  field_name: Left
+- field_type: Int32
+  field_name: Top
+- field_type: Int32
+  field_name: Right
+- field_type: Int32
+  field_name: Bottom

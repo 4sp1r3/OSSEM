@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '327'
+version: '0'
+event(fields): Taskstoppingduetoswitchingtobatteries(UnicodeString TaskName, GUID
+  TaskInstanceId)
+opcode: ''
+keywords: ''
+task: Taskstoppingduetoswitchingtobatteries
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: GUID
+  field_name: TaskInstanceId

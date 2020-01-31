@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '24'
+version: '0'
+event(fields): StateModel_SessionActivatedStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: StateModel_SessionActivated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

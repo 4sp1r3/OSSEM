@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CertPolEng
+event_id: '26'
+version: '0'
+event(fields): task_026(UnicodeString psz)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

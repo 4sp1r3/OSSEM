@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PrintService
+event_id: '309'
+version: '0'
+event(fields): PrintingadocumentSpoolerOperationSucceeded309(UnicodeString param1,
+  UnicodeString param2, UnicodeString param3, UnicodeString param4)
+opcode: SpoolerOperationSucceeded
+keywords: SPOOLER_KEYWORD_JOB SPOOLER_KEYWORD_CLASSIC
+task: Printingadocument
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2
+- field_type: UnicodeString
+  field_name: param3
+- field_type: UnicodeString
+  field_name: param4

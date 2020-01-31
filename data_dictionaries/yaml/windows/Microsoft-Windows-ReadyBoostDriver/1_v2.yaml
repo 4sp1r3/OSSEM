@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '1'
+version: '2'
+event(fields): StoreReadStart_V2(UInt64 ByteOffset, Pointer Irp, UInt32 ByteLength,
+  UInt32 Flags, Pointer FileKey, UInt16 StoreId, UInt16 VolumeId)
+opcode: Start
+keywords: StoreOps
+task: StoreRead
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ByteOffset
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt32
+  field_name: ByteLength
+- field_type: UInt32
+  field_name: Flags
+- field_type: Pointer
+  field_name: FileKey
+- field_type: UInt16
+  field_name: StoreId
+- field_type: UInt16
+  field_name: VolumeId

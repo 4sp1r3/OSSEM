@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wallet
+event_id: '303'
+version: '0'
+event(fields): Core_OpenDatabaseStart()
+opcode: Start
+keywords: Performance
+task: Core_OpenDatabase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

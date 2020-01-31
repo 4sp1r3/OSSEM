@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '211'
+version: '0'
+event(fields): Mshtml_MsPerformance_Mark(UnicodeString Name)
+opcode: ''
+keywords: primarynav
+task: Mshtml_MsPerformance_Mark
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name

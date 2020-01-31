@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Resource-Exhaustion-Resolver
+event_id: '1016'
+version: '0'
+event(fields): ResolutionEventsEventsloggedafterperformingtheresolutionactions1016(UInt32
+  ErrorCode, UInt8 ResolutionAttempted)
+opcode: Eventsloggedafterperformingtheresolutionactions
+keywords: RDR_RES_KEYWORD_MEMORY_EXHAUSTION
+task: ResolutionEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt8
+  field_name: ResolutionAttempted

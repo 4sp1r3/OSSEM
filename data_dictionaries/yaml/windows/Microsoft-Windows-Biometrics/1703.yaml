@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Biometrics
+event_id: '1703'
+version: '0'
+event(fields): WBioSrvc1703(UnicodeString SID, UnicodeString Username, UInt32 Type,
+  HexInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: WBioSrvc
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SID
+- field_type: UnicodeString
+  field_name: Username
+- field_type: UInt32
+  field_name: Type
+- field_type: HexInt32
+  field_name: ErrorCode

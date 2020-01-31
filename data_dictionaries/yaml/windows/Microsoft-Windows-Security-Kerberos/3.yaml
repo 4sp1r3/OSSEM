@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-Security-Kerberos
+event_id: '3'
+version: '0'
+event(fields): task_0PCODE_128pcode_128(UnicodeString LogonSession, UnicodeString
+  ClientTime, UnicodeString ServerTime, UnicodeString ErrorCode, UnicodeString ErrorMessage,
+  UnicodeString ExtendedError, UnicodeString ClientRealm, UnicodeString ClientName,
+  UnicodeString ServerRealm, UnicodeString ServerName, UnicodeString TargetName, UnicodeString
+  ErrorText, UnicodeString File, UnicodeString Line, UInt32 __binLength, Binary binary)
+opcode: opcode_128
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LogonSession
+- field_type: UnicodeString
+  field_name: ClientTime
+- field_type: UnicodeString
+  field_name: ServerTime
+- field_type: UnicodeString
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: ExtendedError
+- field_type: UnicodeString
+  field_name: ClientRealm
+- field_type: UnicodeString
+  field_name: ClientName
+- field_type: UnicodeString
+  field_name: ServerRealm
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UnicodeString
+  field_name: TargetName
+- field_type: UnicodeString
+  field_name: ErrorText
+- field_type: UnicodeString
+  field_name: File
+- field_type: UnicodeString
+  field_name: Line
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: binary

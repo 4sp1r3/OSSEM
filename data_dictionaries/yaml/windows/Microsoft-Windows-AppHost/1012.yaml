@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1012'
+version: '0'
+event(fields): NavigationStop(UInt64 ObjectWWA, UInt32 Counter, UnicodeString PackageFullName,
+  UnicodeString AppID, HexInt32 NavigationInfo)
+opcode: Stop
+keywords: WwaHost
+task: Navigation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ObjectWWA
+- field_type: UInt32
+  field_name: Counter
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: HexInt32
+  field_name: NavigationInfo

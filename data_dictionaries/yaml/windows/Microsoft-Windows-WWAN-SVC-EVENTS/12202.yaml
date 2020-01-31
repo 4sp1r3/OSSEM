@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '12202'
+version: '0'
+event(fields): WWANConnectionAutoConnect12202(GUID InterfaceGuid, Boolean IsExecutorAvailable,
+  Boolean IsAutoConnectEnabled, Boolean IsGPolicyDisableAc, Boolean IsClientDisableAc,
+  Boolean IsAutoProfileWithAllowedPri, Boolean IsPowerStatesAllowingAc)
+opcode: AutoConnect
+keywords: LwtDiagnostic ContextLifeCycle keyword_400000000000
+task: WWANConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: Boolean
+  field_name: IsExecutorAvailable
+- field_type: Boolean
+  field_name: IsAutoConnectEnabled
+- field_type: Boolean
+  field_name: IsGPolicyDisableAc
+- field_type: Boolean
+  field_name: IsClientDisableAc
+- field_type: Boolean
+  field_name: IsAutoProfileWithAllowedPri
+- field_type: Boolean
+  field_name: IsPowerStatesAllowingAc

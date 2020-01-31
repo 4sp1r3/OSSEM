@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '8027'
+version: '0'
+event(fields): AppointmentActions_ReplaceAppointment(UnicodeString ReportedError)
+opcode: ''
+keywords: ''
+task: AppointmentActions_ReplaceAppointment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ReportedError

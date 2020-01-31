@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1047'
+version: '0'
+event(fields): Objwriter_Write_ElementStart(UInt32 ElementValue, Boolean IsSelected,
+  UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Objwriter_Write_Element
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ElementValue
+- field_type: Boolean
+  field_name: IsSelected
+- field_type: UInt32
+  field_name: ErrorCode

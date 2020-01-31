@@ -1,0 +1,29 @@
+provider: Microsoft-IE
+event_id: '655'
+version: '0'
+event(fields): Mshtml_Video_SizingStart(UInt32 Width, UInt32 Height, UInt32 PresenterWidth,
+  UInt32 PresenterHeight, Float ScaleFactor, UInt32 DisableDComp, UInt32 DCompState,
+  Pointer ThisPtr)
+opcode: Start
+keywords: mshtml
+task: Mshtml_Video_Sizing
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: PresenterWidth
+- field_type: UInt32
+  field_name: PresenterHeight
+- field_type: Float
+  field_name: ScaleFactor
+- field_type: UInt32
+  field_name: DisableDComp
+- field_type: UInt32
+  field_name: DCompState
+- field_type: Pointer
+  field_name: ThisPtr

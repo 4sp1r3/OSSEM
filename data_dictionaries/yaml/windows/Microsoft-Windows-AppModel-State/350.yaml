@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '350'
+version: '0'
+event(fields): AppModel.Task.StateWinRT.ApplicationDataContainerSettingsServer_ClearStart()
+opcode: Start
+keywords: WinRT
+task: AppModel.Task.StateWinRT.ApplicationDataContainerSettingsServer_Clear
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,54 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '260'
+version: '0'
+event(fields): task_0260(UnicodeString Configuration, UnicodeString TimeProviders,
+  UInt64 LeapIndicator, UInt64 Stratum, UnicodeString Precision, UnicodeString RootDelay,
+  UnicodeString RootDispersion, UnicodeString ReferenceId, UnicodeString LastSuccessfulSyncTime,
+  UnicodeString Source, UInt64 PollInterval, UnicodeString PhaseOffset, UInt64 ClockRate,
+  UInt64 StateMachine, UInt64 TimeSourceFlags, UInt64 ServerRole, UInt64 LastSyncError,
+  UnicodeString TimeSinceLastGoodSync, UInt64 TickCount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Configuration
+- field_type: UnicodeString
+  field_name: TimeProviders
+- field_type: UInt64
+  field_name: LeapIndicator
+- field_type: UInt64
+  field_name: Stratum
+- field_type: UnicodeString
+  field_name: Precision
+- field_type: UnicodeString
+  field_name: RootDelay
+- field_type: UnicodeString
+  field_name: RootDispersion
+- field_type: UnicodeString
+  field_name: ReferenceId
+- field_type: UnicodeString
+  field_name: LastSuccessfulSyncTime
+- field_type: UnicodeString
+  field_name: Source
+- field_type: UInt64
+  field_name: PollInterval
+- field_type: UnicodeString
+  field_name: PhaseOffset
+- field_type: UInt64
+  field_name: ClockRate
+- field_type: UInt64
+  field_name: StateMachine
+- field_type: UInt64
+  field_name: TimeSourceFlags
+- field_type: UInt64
+  field_name: ServerRole
+- field_type: UInt64
+  field_name: LastSyncError
+- field_type: UnicodeString
+  field_name: TimeSinceLastGoodSync
+- field_type: UInt64
+  field_name: TickCount

@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '23'
+version: '1'
+event(fields): BackgroundTaskDCStop_V1(GUID WorkItemId, GUID BrokerId, GUID TriggerEventId,
+  UInt32 TriggerEventType, Boolean CriticalActivation, UInt16 EntryPointLength, UnicodeString
+  EntryPoint, UInt16 NameLength, UnicodeString TaskName, UnicodeString PackageFullName,
+  SID UserSid, UInt16 ConditionCount, Boolean ConditinalEvent)
+opcode: DC_Stop
+keywords: BackgroundTask
+task: BackgroundTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: WorkItemId
+- field_type: GUID
+  field_name: BrokerId
+- field_type: GUID
+  field_name: TriggerEventId
+- field_type: UInt32
+  field_name: TriggerEventType
+- field_type: Boolean
+  field_name: CriticalActivation
+- field_type: UInt16
+  field_name: EntryPointLength
+- field_type: UnicodeString
+  field_name: EntryPoint
+- field_type: UInt16
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: SID
+  field_name: UserSid
+- field_type: UInt16
+  field_name: ConditionCount
+- field_type: Boolean
+  field_name: ConditinalEvent

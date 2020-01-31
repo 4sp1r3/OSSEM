@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '111'
+version: '0'
+event(fields): MSVideoProcessoftMFT_ColorConvStart(HexInt32 fourCCSrc, HexInt32 fourCCDst)
+opcode: Start
+keywords: ''
+task: MSVideoProcessoftMFT_ColorConv
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: fourCCSrc
+- field_type: HexInt32
+  field_name: fourCCDst

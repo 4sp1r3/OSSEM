@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '620'
+version: '0'
+event(fields): Mshtml_CDoc_OnSuspendDocumentStart(UInt32 SuspendLevel, UInt32 HR)
+opcode: Start
+keywords: mshtml
+task: Mshtml_CDoc_OnSuspendDocument
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SuspendLevel
+- field_type: UInt32
+  field_name: HR

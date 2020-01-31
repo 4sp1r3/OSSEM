@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WebIO
+event_id: '721'
+version: '0'
+event(fields): SSLReceiveEntityStop(Pointer Connection, Pointer SslIOContext, Pointer
+  DataChunks, Pointer PlainData, UInt32 PlainDataLength, UInt32 Information, UInt32
+  Error)
+opcode: Stop
+keywords: Keyword.RECEIVE
+task: SSLReceiveEntity
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: SslIOContext
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: Pointer
+  field_name: PlainData
+- field_type: UInt32
+  field_name: PlainDataLength
+- field_type: UInt32
+  field_name: Information
+- field_type: UInt32
+  field_name: Error

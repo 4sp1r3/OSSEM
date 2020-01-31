@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-FunctionDiscovery
+event_id: '1018'
+version: '0'
+event(fields): FunDisc_FunctionInstanceCollectionQueryStart(UnicodeString Category,
+  UnicodeString Subcategory)
+opcode: Start
+keywords: ''
+task: FunDisc_FunctionInstanceCollectionQueryStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Category
+- field_type: UnicodeString
+  field_name: Subcategory

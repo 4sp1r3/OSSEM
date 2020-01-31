@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1019'
+version: '0'
+event(fields): Deviceisbeingpowereddown()
+opcode: ''
+keywords: SensPerf
+task: Deviceisbeingpowereddown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

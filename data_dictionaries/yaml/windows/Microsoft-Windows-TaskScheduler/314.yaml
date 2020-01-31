@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '314'
+version: '0'
+event(fields): TaskEngineidle(UnicodeString TaskEngineName)
+opcode: ''
+keywords: ''
+task: TaskEngineidle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskEngineName

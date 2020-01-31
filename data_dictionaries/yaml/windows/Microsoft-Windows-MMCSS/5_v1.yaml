@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MMCSS
+event_id: '5'
+version: '1'
+event(fields): Service_Start_V1()
+opcode: ''
+keywords: ''
+task: Service_Start
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

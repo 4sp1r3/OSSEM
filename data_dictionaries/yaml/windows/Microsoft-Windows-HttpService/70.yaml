@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-HttpService
+event_id: '70'
+version: '0'
+event(fields): HTTPRequestTraceTaskFlowInitFailed(UInt32 Bandwidth, UInt32 PeakBandwidth,
+  UInt32 BurstSize, UInt32 Status)
+opcode: FlowInitFailed
+keywords: HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE
+task: HTTPRequestTraceTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Bandwidth
+- field_type: UInt32
+  field_name: PeakBandwidth
+- field_type: UInt32
+  field_name: BurstSize
+- field_type: UInt32
+  field_name: Status

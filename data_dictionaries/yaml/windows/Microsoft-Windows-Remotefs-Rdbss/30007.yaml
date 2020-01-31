@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Remotefs-Rdbss
+event_id: '30007'
+version: '0'
+event(fields): task_030007(Pointer RxContext, Pointer Fcb, UInt32 Mode)
+opcode: ''
+keywords: Rdbss_Perf
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RxContext
+- field_type: Pointer
+  field_name: Fcb
+- field_type: UInt32
+  field_name: Mode

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '303'
+version: '0'
+event(fields): DeviceRegistration(Pointer Token, Pointer Plugin, UInt8 PowerState,
+  UInt32 Status, UInt16 IdLength, UnicodeString Id, UInt32 ComponentCount)
+opcode: ''
+keywords: po:RuntimeFx
+task: DeviceRegistration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token
+- field_type: Pointer
+  field_name: Plugin
+- field_type: UInt8
+  field_name: PowerState
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt16
+  field_name: IdLength
+- field_type: UnicodeString
+  field_name: Id
+- field_type: UInt32
+  field_name: ComponentCount

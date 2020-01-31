@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3422'
+version: '0'
+event(fields): TransportSendStart3422(Int32 websocketId, Int32 byteCount, UnicodeString
+  remoteAddress, UnicodeString AppDomain)
+opcode: Start
+keywords: HTTP
+task: TransportSend
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: websocketId
+- field_type: Int32
+  field_name: byteCount
+- field_type: UnicodeString
+  field_name: remoteAddress
+- field_type: UnicodeString
+  field_name: AppDomain

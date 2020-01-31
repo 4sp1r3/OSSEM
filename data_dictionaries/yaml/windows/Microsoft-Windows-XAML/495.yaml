@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '495'
+version: '0'
+event(fields): RaiseAllLoadedEventsStart()
+opcode: Start
+keywords: Core
+task: RaiseAllLoadedEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

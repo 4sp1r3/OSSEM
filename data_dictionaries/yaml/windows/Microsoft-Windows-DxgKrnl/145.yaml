@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '145'
+version: '0'
+event(fields): DdiDispatchIoRequestStop(Pointer MiniportContext, UInt32 VidPnSourceId,
+  UInt32 IoControlCode, Pointer StatusBlock, UInt32 InputBufferLength, UInt32 OutputBufferLength,
+  UInt32 Status)
+opcode: Stop
+keywords: Base
+task: DdiDispatchIoRequest
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportContext
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: IoControlCode
+- field_type: Pointer
+  field_name: StatusBlock
+- field_type: UInt32
+  field_name: InputBufferLength
+- field_type: UInt32
+  field_name: OutputBufferLength
+- field_type: UInt32
+  field_name: Status

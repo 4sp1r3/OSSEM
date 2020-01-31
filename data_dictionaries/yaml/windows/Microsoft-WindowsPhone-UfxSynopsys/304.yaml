@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-UfxSynopsys
+event_id: '304'
+version: '0'
+event(fields): RegisterInformation(UInt32 Configuration, UInt32 Control, UInt32 EnabledEvents,
+  UInt32 Status)
+opcode: ''
+keywords: Diagnostic
+task: RegisterInformation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Configuration
+- field_type: UInt32
+  field_name: Control
+- field_type: UInt32
+  field_name: EnabledEvents
+- field_type: UInt32
+  field_name: Status

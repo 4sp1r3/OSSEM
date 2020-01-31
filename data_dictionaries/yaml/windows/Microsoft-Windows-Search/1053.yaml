@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search
+event_id: '1053'
+version: '0'
+event(fields): task_0PCODE_128pcode_1281053(UnicodeString Code, UnicodeString StackTrace)
+opcode: opcode_128
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Code
+- field_type: UnicodeString
+  field_name: StackTrace

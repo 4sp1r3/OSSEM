@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '7110'
+version: '0'
+event(fields): AppHistory_AddDesktopApplicationStart()
+opcode: Start
+keywords: datamonitor
+task: AppHistory_AddDesktopApplication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

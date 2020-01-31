@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DotNETRuntimeRundown
+event_id: '157'
+version: '1'
+event(fields): LoaderAppDomainDCStart_V1(UInt64 AppDomainID, UInt32 AppDomainFlags,
+  UnicodeString AppDomainName, UInt32 AppDomainIndex, UInt16 ClrInstanceID)
+opcode: AppDomainDCStart
+keywords: LoaderRundownKeyword
+task: Loader
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: AppDomainID
+- field_type: UInt32
+  field_name: AppDomainFlags
+- field_type: UnicodeString
+  field_name: AppDomainName
+- field_type: UInt32
+  field_name: AppDomainIndex
+- field_type: UInt16
+  field_name: ClrInstanceID

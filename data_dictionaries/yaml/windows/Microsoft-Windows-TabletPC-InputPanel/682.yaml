@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '682'
+version: '0'
+event(fields): SoftKeyboard_Prediction_Prediction_Insert(UnicodeString String)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_Prediction_Prediction_Insert
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String

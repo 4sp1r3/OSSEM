@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2400'
+version: '0'
+event(fields): task_02400(UnicodeString PackageFullName, UnicodeString AppUserModelId,
+  UInt32 Capabilities, UInt32 WNFEventNameLength, Binary WNFEventName)
+opcode: ''
+keywords: wpnend
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: Capabilities
+- field_type: UInt32
+  field_name: WNFEventNameLength
+- field_type: Binary
+  field_name: WNFEventName

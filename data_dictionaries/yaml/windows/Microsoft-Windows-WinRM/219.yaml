@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '219'
+version: '0'
+event(fields): Winrmservicestart/stop219(UnicodeString param1)
+opcode: ''
+keywords: Keyword.Server
+task: Winrmservicestart/stop
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

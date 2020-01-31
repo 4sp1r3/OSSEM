@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1205'
+version: '0'
+event(fields): SensorClassExtensionProcessIoControlHandlerStart()
+opcode: Start
+keywords: SensPerf
+task: SensorClassExtensionProcessIoControlHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

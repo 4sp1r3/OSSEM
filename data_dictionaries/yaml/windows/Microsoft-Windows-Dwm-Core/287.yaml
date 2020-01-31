@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '287'
+version: '0'
+event(fields): ADVANCED_DIRECTFLIP_RESTORECONTENT(UInt64 surfaceLuid, Int32 RestoreRectangleCount,
+  Int32 RestoreBoundsLeft, Int32 RestoreBoundsTop, Int32 RestoreBoundsRight, Int32
+  RestoreBoundsBottom)
+opcode: ''
+keywords: DwmCore
+task: ADVANCED_DIRECTFLIP_RESTORECONTENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: surfaceLuid
+- field_type: Int32
+  field_name: RestoreRectangleCount
+- field_type: Int32
+  field_name: RestoreBoundsLeft
+- field_type: Int32
+  field_name: RestoreBoundsTop
+- field_type: Int32
+  field_name: RestoreBoundsRight
+- field_type: Int32
+  field_name: RestoreBoundsBottom

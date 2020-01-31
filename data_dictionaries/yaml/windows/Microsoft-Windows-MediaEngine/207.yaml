@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '207'
+version: '0'
+event(fields): EMEKeyMessageStart207(UnicodeString sessionId, UInt32 length, Binary
+  data, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: EMEKeyMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: sessionId
+- field_type: UInt32
+  field_name: length
+- field_type: Binary
+  field_name: data
+- field_type: UInt32
+  field_name: ErrorCode

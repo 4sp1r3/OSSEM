@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2ADEC
+event_id: '1'
+version: '0'
+event(fields): DECODEStart()
+opcode: Start
+keywords: ''
+task: DECODE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

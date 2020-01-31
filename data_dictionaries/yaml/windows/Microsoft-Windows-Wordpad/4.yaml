@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wordpad
+event_id: '4'
+version: '0'
+event(fields): task_04()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

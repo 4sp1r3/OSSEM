@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9078'
+version: '0'
+event(fields): Perf_WLRoamFindChangesStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamFindChanges
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

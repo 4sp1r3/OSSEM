@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '34'
+version: '0'
+event(fields): task_034(UnicodeString jobName, GUID jobId, UInt64 FileCount, UInt32
+  jobTransferPolicy, UInt32 globalTransferPolicy)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: jobName
+- field_type: GUID
+  field_name: jobId
+- field_type: UInt64
+  field_name: FileCount
+- field_type: UInt32
+  field_name: jobTransferPolicy
+- field_type: UInt32
+  field_name: globalTransferPolicy

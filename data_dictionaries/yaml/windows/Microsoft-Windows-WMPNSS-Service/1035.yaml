@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1035'
+version: '0'
+event(fields): Objwriter_Act_Write_Album_Art_ElementStart(UInt32 CompatFlags, UInt32
+  ErrorCode)
+opcode: Start
+keywords: ''
+task: Objwriter_Act_Write_Album_Art_Element
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CompatFlags
+- field_type: UInt32
+  field_name: ErrorCode

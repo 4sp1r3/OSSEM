@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '25'
+version: '0'
+event(fields): DShow_GetOutputStart()
+opcode: Start
+keywords: ''
+task: DShow_GetOutput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

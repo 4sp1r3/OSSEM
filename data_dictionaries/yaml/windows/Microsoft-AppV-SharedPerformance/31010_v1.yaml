@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '31010'
+version: '1'
+event(fields): VCOM.ProcessStartRuntimeStart_V1()
+opcode: Start
+keywords: ''
+task: VCOM.ProcessStartRuntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

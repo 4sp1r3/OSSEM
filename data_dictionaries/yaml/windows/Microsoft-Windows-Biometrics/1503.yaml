@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Biometrics
+event_id: '1503'
+version: '0'
+event(fields): BioCredProv1503(HexInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: BioCredProv
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

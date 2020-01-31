@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '30'
+version: '0'
+event(fields): PlaceholderTile_AutoInstall30(UnicodeString tileAumid, UInt64 appSize)
+opcode: ''
+keywords: ''
+task: PlaceholderTile_AutoInstall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: tileAumid
+- field_type: UInt64
+  field_name: appSize

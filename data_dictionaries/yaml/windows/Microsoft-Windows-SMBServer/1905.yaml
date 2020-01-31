@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1905'
+version: '0'
+event(fields): SrvSessionInvalidate1905(HexInt64 SessionId, UInt32 InstanceId, UnicodeString
+  Reason)
+opcode: ''
+keywords: Operational
+task: SrvSessionInvalidate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: InstanceId
+- field_type: UnicodeString
+  field_name: Reason

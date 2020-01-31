@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-HttpService
+event_id: '8'
+version: '0'
+event(fields): HTTPRequestTraceTaskFastResp(UInt64 RequestId, UInt64 ConnectionId,
+  UInt16 StatusCode, AnsiString Verb, UInt32 HeaderLength, UInt16 EntityChunkCount,
+  UInt32 CachePolicy)
+opcode: FastResp
+keywords: HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE
+task: HTTPRequestTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RequestId
+- field_type: UInt64
+  field_name: ConnectionId
+- field_type: UInt16
+  field_name: StatusCode
+- field_type: AnsiString
+  field_name: Verb
+- field_type: UInt32
+  field_name: HeaderLength
+- field_type: UInt16
+  field_name: EntityChunkCount
+- field_type: UInt32
+  field_name: CachePolicy

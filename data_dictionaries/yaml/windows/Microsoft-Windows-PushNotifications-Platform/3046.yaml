@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3046'
+version: '0'
+event(fields): ToastRequestNotificationStart3046()
+opcode: Start
+keywords: wpnui wpndev_NotificationE2E
+task: ToastRequestNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

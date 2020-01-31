@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '28'
+version: '0'
+event(fields): StrokeWriteStop()
+opcode: Stop
+keywords: ''
+task: StrokeWrite
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

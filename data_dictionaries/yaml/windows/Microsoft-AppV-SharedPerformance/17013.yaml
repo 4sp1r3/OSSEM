@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '17013'
+version: '0'
+event(fields): StageallpolicyXMLsStop()
+opcode: Stop
+keywords: ''
+task: StageallpolicyXMLs
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

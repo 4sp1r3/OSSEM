@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1006'
+version: '0'
+event(fields): WFApplicationStateChangeUnhandledException(UnicodeString data1, UnicodeString
+  data2, UnicodeString data3, UnicodeString data4, UnicodeString SerializedException,
+  UnicodeString AppDomain)
+opcode: UnhandledException
+keywords: WFRuntime
+task: WFApplicationStateChange
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: data2
+- field_type: UnicodeString
+  field_name: data3
+- field_type: UnicodeString
+  field_name: data4
+- field_type: UnicodeString
+  field_name: SerializedException
+- field_type: UnicodeString
+  field_name: AppDomain

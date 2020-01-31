@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dism-Api
+event_id: '30'
+version: '0'
+event(fields): DismGetImageInfoStop(UnicodeString String)
+opcode: Stop
+keywords: DismApiEvent
+task: DismGetImageInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '88'
+version: '0'
+event(fields): DISCMEDIACHANGERemoved(UnicodeString Value1, UnicodeString Value2)
+opcode: Removed
+keywords: mediaplayer
+task: DISCMEDIACHANGE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Value1
+- field_type: UnicodeString
+  field_name: Value2

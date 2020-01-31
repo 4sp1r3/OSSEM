@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1357'
+version: '0'
+event(fields): TcpipAoacFailFast(UInt32 RequestType, Pointer TcbOrEndpoint, UInt32
+  LocalAddressLength, Binary LocalAddress, UInt32 RemoteAddressLength, Binary RemoteAddress,
+  UInt32 Status, UInt32 ProcessId, UInt32 InterfaceIndex)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis ut:TcpipCsDiag ut:Global
+task: TcpipAoacFailFast
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestType
+- field_type: Pointer
+  field_name: TcbOrEndpoint
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: InterfaceIndex

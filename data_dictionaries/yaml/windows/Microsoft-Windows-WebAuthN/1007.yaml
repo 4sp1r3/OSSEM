@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '1007'
+version: '0'
+event(fields): WebAuthNCtapSendCommandStop(GUID TransactionId)
+opcode: Stop
+keywords: WebAuthN Ctap
+task: WebAuthNCtapSendCommand
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId

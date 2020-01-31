@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4212'
+version: '0'
+event(fields): SqlCommandExecute4212(UnicodeString data1, UnicodeString AppDomain)
+opcode: ''
+keywords: WFInstanceStore
+task: SqlCommandExecute
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

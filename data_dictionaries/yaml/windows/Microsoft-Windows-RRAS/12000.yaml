@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RRAS
+event_id: '12000'
+version: '0'
+event(fields): task_012000(UnicodeString DebugString)
+opcode: ''
+keywords: ut:Mprapi
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DebugString

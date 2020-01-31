@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4202'
+version: '0'
+event(fields): STORE_OPENFOLDERStart()
+opcode: Start
+keywords: Performance
+task: STORE_OPENFOLDER
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

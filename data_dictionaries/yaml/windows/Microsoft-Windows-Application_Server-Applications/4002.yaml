@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4002'
+version: '0'
+event(fields): WASActivation(UnicodeString SerializedException, UnicodeString AppDomain)
+opcode: ''
+keywords: ActivationServices
+task: WASActivation
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SerializedException
+- field_type: UnicodeString
+  field_name: AppDomain

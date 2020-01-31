@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5909'
+version: '0'
+event(fields): AppActivation_UnresponsiveApplicationCheck(Boolean AppClosed)
+opcode: ''
+keywords: ''
+task: AppActivation_UnresponsiveApplicationCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: AppClosed

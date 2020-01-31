@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '48'
+version: '0'
+event(fields): SocketConnectTCPconnected48(Pointer obj, UInt32 size, Binary address)
+opcode: TCPconnected
+keywords: keywords.Socket
+task: SocketConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: obj
+- field_type: UInt32
+  field_name: size
+- field_type: Binary
+  field_name: address

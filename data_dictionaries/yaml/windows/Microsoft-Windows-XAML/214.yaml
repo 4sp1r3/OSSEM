@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '214'
+version: '0'
+event(fields): ApplicationSuspendStart()
+opcode: Start
+keywords: Appmodel
+task: ApplicationSuspend
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

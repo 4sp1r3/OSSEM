@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TPM-WMI
+event_id: '769'
+version: '0'
+event(fields): task_0769(UInt32 OldOSManagedAuthLevel, UInt32 NewOSManagedAuthLevel)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OldOSManagedAuthLevel
+- field_type: UInt32
+  field_name: NewOSManagedAuthLevel

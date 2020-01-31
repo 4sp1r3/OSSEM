@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '11010'
+version: '1'
+event(fields): ManifestValidateAppXNamespaceStart_V1()
+opcode: Start
+keywords: ''
+task: ManifestValidateAppXNamespace
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

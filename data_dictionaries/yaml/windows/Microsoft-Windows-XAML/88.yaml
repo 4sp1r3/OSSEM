@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '88'
+version: '0'
+event(fields): EndStoryboard(UInt64 ElementId)
+opcode: ''
+keywords: Animation
+task: EndStoryboard
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId

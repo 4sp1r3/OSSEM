@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2028'
+version: '0'
+event(fields): CoreApplicationLeavingBackgroundDispatchStart()
+opcode: Start
+keywords: ''
+task: CoreApplicationLeavingBackgroundDispatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

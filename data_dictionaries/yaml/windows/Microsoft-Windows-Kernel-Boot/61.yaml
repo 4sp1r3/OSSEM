@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '61'
+version: '0'
+event(fields): MeasuredLaunchTxtLaunchPrepared(UInt64 PmrLowBase, UInt64 PmrLowSize,
+  UInt64 PmrHighBase, UInt64 PmrHighSize, Boolean FirmwareProvidedAcm)
+opcode: TxtLaunchPrepared
+keywords: keyword_80000000000
+task: MeasuredLaunch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PmrLowBase
+- field_type: UInt64
+  field_name: PmrLowSize
+- field_type: UInt64
+  field_name: PmrHighBase
+- field_type: UInt64
+  field_name: PmrHighSize
+- field_type: Boolean
+  field_name: FirmwareProvidedAcm

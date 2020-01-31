@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '35'
+version: '0'
+event(fields): D0ExitStart(Pointer fid_UsbDevice, UInt32 fid_TargetState, UInt32 fid_PowerAction,
+  UInt16 fid_WaitWakePending)
+opcode: Start
+keywords: Default Power
+task: D0Exit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt32
+  field_name: fid_TargetState
+- field_type: UInt32
+  field_name: fid_PowerAction
+- field_type: UInt16
+  field_name: fid_WaitWakePending

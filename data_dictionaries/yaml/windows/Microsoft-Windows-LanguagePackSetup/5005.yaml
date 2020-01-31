@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '5005'
+version: '0'
+event(fields): TasktotestNotifyUILanguagecallbackdll.5005(UnicodeString CallbackAPIName,
+  UInt32 ErrorStatus)
+opcode: ''
+keywords: ''
+task: TasktotestNotifyUILanguagecallbackdll.
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CallbackAPIName
+- field_type: UInt32
+  field_name: ErrorStatus

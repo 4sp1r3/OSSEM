@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5075'
+version: '0'
+event(fields): task_05075(HexInt64 PhysicalAddress, UInt8 PlatformDirected, UnicodeString
+  PartitionFriendlyName, UnicodeString PartitionName, UInt8 Consumed)
+opcode: ''
+keywords: ''
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: PhysicalAddress
+- field_type: UInt8
+  field_name: PlatformDirected
+- field_type: UnicodeString
+  field_name: PartitionFriendlyName
+- field_type: UnicodeString
+  field_name: PartitionName
+- field_type: UInt8
+  field_name: Consumed

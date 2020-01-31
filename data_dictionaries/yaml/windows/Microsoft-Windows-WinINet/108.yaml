@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-WinINet
+event_id: '108'
+version: '0'
+event(fields): WININET_HTTP_REQUEST_HANDLE_CREATED108(Pointer ConnectionHandle, UInt16
+  _ServerNameLength, AnsiString ServerName, UInt32 ServerPort, UInt16 _ServiceLength,
+  AnsiString Service)
+opcode: ''
+keywords: WININET_KEYWORD_HANDLES WININET_KEYWORD_HTTPDIAG
+task: WININET_HTTP_REQUEST_HANDLE_CREATED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ConnectionHandle
+- field_type: UInt16
+  field_name: _ServerNameLength
+- field_type: AnsiString
+  field_name: ServerName
+- field_type: UInt32
+  field_name: ServerPort
+- field_type: UInt16
+  field_name: _ServiceLength
+- field_type: AnsiString
+  field_name: Service

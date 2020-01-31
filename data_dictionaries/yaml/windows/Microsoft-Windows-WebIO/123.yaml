@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-WebIO
+event_id: '123'
+version: '0'
+event(fields): ResponseParserStart(Pointer Request, Pointer Connection, Pointer Buffer,
+  UInt32 BufferLengthConsumed, UInt32 BufferLengthData, UInt32 BufferLengthRemaining,
+  Pointer ChunkData, UInt32 ChunkDataLength, UInt32 Error)
+opcode: Start
+keywords: Keyword.RECEIVE
+task: ResponseParser
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: BufferLengthConsumed
+- field_type: UInt32
+  field_name: BufferLengthData
+- field_type: UInt32
+  field_name: BufferLengthRemaining
+- field_type: Pointer
+  field_name: ChunkData
+- field_type: UInt32
+  field_name: ChunkDataLength
+- field_type: UInt32
+  field_name: Error

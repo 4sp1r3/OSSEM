@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DesktopActivityModerator
+event_id: '23'
+version: '0'
+event(fields): ThrottleStart(Boolean SuspendFlag)
+opcode: Start
+keywords: Control
+task: Throttle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: SuspendFlag

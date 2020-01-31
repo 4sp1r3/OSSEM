@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '10002'
+version: '0'
+event(fields): LogTrace10002(UnicodeString p1_String)
+opcode: ''
+keywords: ExecProductionCritical
+task: LogTrace
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: p1_String

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MP4SDECD
+event_id: '3'
+version: '0'
+event(fields): MP4SDECD_InitStop()
+opcode: Stop
+keywords: ''
+task: MP4SDECD_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

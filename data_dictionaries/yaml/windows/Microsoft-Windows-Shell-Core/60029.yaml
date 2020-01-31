@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60029'
+version: '0'
+event(fields): IE_ExtensionSetSiteStop()
+opcode: Stop
+keywords: InternetExplorer
+task: IE_ExtensionSetSite
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

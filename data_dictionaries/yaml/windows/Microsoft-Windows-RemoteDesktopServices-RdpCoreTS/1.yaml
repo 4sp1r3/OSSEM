@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '1'
+version: '0'
+event(fields): RDPStackInitialize(HexInt32 HresultCode)
+opcode: Initialize
+keywords: ''
+task: RDPStack
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HresultCode

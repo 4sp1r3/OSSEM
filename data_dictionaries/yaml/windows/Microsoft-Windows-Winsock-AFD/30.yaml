@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '30'
+version: '0'
+event(fields): task_030(Pointer Process, Int32 HandleCount, Int32 Timeout)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Process
+- field_type: Int32
+  field_name: HandleCount
+- field_type: Int32
+  field_name: Timeout

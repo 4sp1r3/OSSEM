@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Network-Setup
+event_id: '102'
+version: '0'
+event(fields): Runservice102(Int32 Code)
+opcode: ''
+keywords: ''
+task: Runservice
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Code

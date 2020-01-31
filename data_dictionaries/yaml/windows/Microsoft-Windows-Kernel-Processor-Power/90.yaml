@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '90'
+version: '0'
+event(fields): PerfSelectProcessorState(UInt16 Group, UInt8 Number, UInt32 ResolvedUtilization,
+  UInt32 Target, UInt32 ResolvedTarget, UInt32 Flags)
+opcode: ''
+keywords: Algorithm
+task: PerfSelectProcessorState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number
+- field_type: UInt32
+  field_name: ResolvedUtilization
+- field_type: UInt32
+  field_name: Target
+- field_type: UInt32
+  field_name: ResolvedTarget
+- field_type: UInt32
+  field_name: Flags

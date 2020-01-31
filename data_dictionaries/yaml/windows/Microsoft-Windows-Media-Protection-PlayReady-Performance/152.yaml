@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '152'
+version: '0'
+event(fields): Oem_MemFreeStart(Pointer Oem_MemFree_ptr)
+opcode: Start
+keywords: ''
+task: Oem_MemFree
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Oem_MemFree_ptr

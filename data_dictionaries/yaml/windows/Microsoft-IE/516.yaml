@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '516'
+version: '0'
+event(fields): Mshtml_Composition_Layer_Reverted(Pointer DispNode, UnicodeString NodeDescription,
+  Int32 ReasonCode)
+opcode: ''
+keywords: composition_verbose
+task: Mshtml_Composition_Layer_Reverted
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DispNode
+- field_type: UnicodeString
+  field_name: NodeDescription
+- field_type: Int32
+  field_name: ReasonCode

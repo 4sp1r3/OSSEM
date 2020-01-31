@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-XAudio2
+event_id: '256'
+version: '0'
+event(fields): Processing(UInt32 MinimumCyclesPerQuantum, UInt32 MaximumCyclesPerQuantum,
+  UInt32 GlitchesSinceEngineStarted, Float CpuUsage, UInt32 LatencyInSamples, UInt32
+  TotalMemoryUsage, UInt32 ActiveSourceVoices, UInt32 TotalSourceVoices, UInt32 ActiveSubmixVoices,
+  UInt32 ActiveResamplers, UInt32 ActiveMatrixMixers)
+opcode: ''
+keywords: ''
+task: Processing
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MinimumCyclesPerQuantum
+- field_type: UInt32
+  field_name: MaximumCyclesPerQuantum
+- field_type: UInt32
+  field_name: GlitchesSinceEngineStarted
+- field_type: Float
+  field_name: CpuUsage
+- field_type: UInt32
+  field_name: LatencyInSamples
+- field_type: UInt32
+  field_name: TotalMemoryUsage
+- field_type: UInt32
+  field_name: ActiveSourceVoices
+- field_type: UInt32
+  field_name: TotalSourceVoices
+- field_type: UInt32
+  field_name: ActiveSubmixVoices
+- field_type: UInt32
+  field_name: ActiveResamplers
+- field_type: UInt32
+  field_name: ActiveMatrixMixers

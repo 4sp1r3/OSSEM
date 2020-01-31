@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MF
+event_id: '1313'
+version: '0'
+event(fields): SrcStreamNeedMoreSamples(Pointer Object, Int32 UseSampleBasedBuffering,
+  Float Rate, Int32 IsEOS, Int32 UnprocessedSamples, Int32 Prerolled)
+opcode: ''
+keywords: ''
+task: SrcStreamNeedMoreSamples
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: UseSampleBasedBuffering
+- field_type: Float
+  field_name: Rate
+- field_type: Int32
+  field_name: IsEOS
+- field_type: Int32
+  field_name: UnprocessedSamples
+- field_type: Int32
+  field_name: Prerolled

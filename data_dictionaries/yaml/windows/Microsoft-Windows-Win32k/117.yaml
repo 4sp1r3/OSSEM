@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Win32k
+event_id: '117'
+version: '0'
+event(fields): RenderingTranslationUpdate(Pointer hwnd, UInt32 DirtyLeft, UInt32 DirtyTop,
+  UInt32 DirtyRight, UInt32 DirtyBottom)
+opcode: TranslationUpdate
+keywords: Rendering
+task: Rendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hwnd
+- field_type: UInt32
+  field_name: DirtyLeft
+- field_type: UInt32
+  field_name: DirtyTop
+- field_type: UInt32
+  field_name: DirtyRight
+- field_type: UInt32
+  field_name: DirtyBottom

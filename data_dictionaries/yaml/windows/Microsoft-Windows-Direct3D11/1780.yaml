@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1780'
+version: '0'
+event(fields): ID3D11VideoContext_GetDecoderBufferStart(Pointer pThis, Pointer pDecoder,
+  UInt32 Type, UInt32 pBufferSize, Pointer ppBuffer)
+opcode: Start
+keywords: ''
+task: ID3D11VideoContext_GetDecoderBuffer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pDecoder
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: pBufferSize
+- field_type: Pointer
+  field_name: ppBuffer

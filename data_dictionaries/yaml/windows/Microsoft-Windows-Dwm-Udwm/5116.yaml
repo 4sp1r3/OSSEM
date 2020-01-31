@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5116'
+version: '0'
+event(fields): UdwmHardwareExpressionHintFired()
+opcode: ''
+keywords: Udwm
+task: UdwmHardwareExpressionHintFired
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

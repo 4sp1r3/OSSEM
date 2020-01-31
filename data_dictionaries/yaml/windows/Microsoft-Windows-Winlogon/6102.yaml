@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '6102'
+version: '0'
+event(fields): LogoffRequestToUserFeedbackStop(UInt32 Flags)
+opcode: Stop
+keywords: PerfDiagnostics
+task: LogoffRequestToUserFeedback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags

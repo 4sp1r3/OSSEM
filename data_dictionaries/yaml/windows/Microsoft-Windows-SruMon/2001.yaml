@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SruMon
+event_id: '2001'
+version: '0'
+event(fields): SruMonDebugTrace(UnicodeString _DebugString)
+opcode: ''
+keywords: KeywordSruMonDebugTrace
+task: SruMonDebugTrace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: _DebugString

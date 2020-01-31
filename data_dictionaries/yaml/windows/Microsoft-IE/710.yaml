@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '710'
+version: '0'
+event(fields): Mshtml_CDragPreview_RenderPreviewStart(Pointer DragPreview)
+opcode: Start
+keywords: draganddrop touch
+task: Mshtml_CDragPreview_RenderPreview
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DragPreview

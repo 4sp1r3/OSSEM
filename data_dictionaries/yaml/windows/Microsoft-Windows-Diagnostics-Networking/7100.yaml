@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnostics-Networking
+event_id: '7100'
+version: '0'
+event(fields): Debug7100(UnicodeString DebugMessage)
+opcode: ''
+keywords: ndf:NDFCoreEvents keyword_400000000000
+task: Debug
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DebugMessage

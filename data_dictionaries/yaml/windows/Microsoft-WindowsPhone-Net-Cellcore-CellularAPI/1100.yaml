@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '1100'
+version: '0'
+event(fields): CellVoice(UInt32 DwordName1, UInt32 DwordName2, UInt32 DwordName3,
+  UInt32 supSvcDataStatus)
+opcode: ''
+keywords: Error
+task: CellVoice
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName1
+- field_type: UInt32
+  field_name: DwordName2
+- field_type: UInt32
+  field_name: DwordName3
+- field_type: UInt32
+  field_name: supSvcDataStatus

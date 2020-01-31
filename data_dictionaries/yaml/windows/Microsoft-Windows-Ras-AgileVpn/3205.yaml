@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Ras-AgileVpn
+event_id: '3205'
+version: '0'
+event(fields): task_03205(UInt64 TunnelID, UInt32 Status)
+opcode: ''
+keywords: AGILEVPN
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TunnelID
+- field_type: UInt32
+  field_name: Status

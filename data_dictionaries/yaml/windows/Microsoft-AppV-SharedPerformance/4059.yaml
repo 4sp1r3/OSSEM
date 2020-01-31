@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4059'
+version: '0'
+event(fields): Get_AppvClientModeStop()
+opcode: Stop
+keywords: ''
+task: Get_AppvClientMode
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

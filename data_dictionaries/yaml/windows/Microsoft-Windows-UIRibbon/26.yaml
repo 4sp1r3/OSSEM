@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIRibbon
+event_id: '26'
+version: '0'
+event(fields): FontControlsInitializeFMSStart()
+opcode: Start
+keywords: Default
+task: FontControlsInitializeFMS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

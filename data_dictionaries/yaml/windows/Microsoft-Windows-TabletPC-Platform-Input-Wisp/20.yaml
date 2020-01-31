@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Wisp
+event_id: '20'
+version: '0'
+event(fields): TABLET_INPUT_Multi_Touch_Gesture_Action_InitiateStop()
+opcode: Stop
+keywords: ''
+task: TABLET_INPUT_Multi_Touch_Gesture_Action_Initiate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

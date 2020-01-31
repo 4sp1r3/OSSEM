@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Networking
+event_id: '8006'
+version: '0'
+event(fields): Stop8006()
+opcode: Stop
+keywords: ndf:Performance
+task: Stop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

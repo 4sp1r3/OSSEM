@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Network-Connection-Broker
+event_id: '2010'
+version: '0'
+event(fields): task_02010(GUID BrokerEventId, Int32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BrokerEventId
+- field_type: Int32
+  field_name: Status

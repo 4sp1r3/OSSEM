@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '664'
+version: '0'
+event(fields): NewTabPage_SearchLogo_ShowStart()
+opcode: Start
+keywords: primarynav
+task: NewTabPage_SearchLogo_Show
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

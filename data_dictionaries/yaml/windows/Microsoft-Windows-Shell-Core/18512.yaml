@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18512'
+version: '0'
+event(fields): Shell32_AutoPlay_IDynamicHWHandlerStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_AutoPlay_IDynamicHWHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

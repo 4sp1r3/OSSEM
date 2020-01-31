@@ -1,0 +1,24 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9015'
+version: '0'
+event(fields): ViewManagerRequestNavigateToView(UInt32 unParam, UInt32 unParam2, UInt32
+  unParam3, UInt64 unParam4, UInt64 unParam5, Boolean fBool)
+opcode: RequestNavigateToView
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2
+- field_type: UInt32
+  field_name: unParam3
+- field_type: UInt64
+  field_name: unParam4
+- field_type: UInt64
+  field_name: unParam5
+- field_type: Boolean
+  field_name: fBool

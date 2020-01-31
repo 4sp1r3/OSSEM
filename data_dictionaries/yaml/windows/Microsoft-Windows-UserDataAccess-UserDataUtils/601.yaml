@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataUtils
+event_id: '601'
+version: '0'
+event(fields): task_0601(UnicodeString P1_UnicodeString, UnicodeString P2_UnicodeString)
+opcode: ''
+keywords: UserDataAccessUtils
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: P1_UnicodeString
+- field_type: UnicodeString
+  field_name: P2_UnicodeString

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4013'
+version: '0'
+event(fields): MessageQueueRegisterStop(UnicodeString Uri, UnicodeString AppDomain)
+opcode: Stop
+keywords: ActivationServices
+task: MessageQueueRegister
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Uri
+- field_type: UnicodeString
+  field_name: AppDomain

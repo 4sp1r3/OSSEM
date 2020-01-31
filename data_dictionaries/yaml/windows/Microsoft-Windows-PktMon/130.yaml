@@ -1,0 +1,55 @@
+provider: Microsoft-Windows-PktMon
+event_id: '130'
+version: '0'
+event(fields): task_0130(Binary DestinationMAC, Binary SourceMAC, UInt16 EtherType,
+  UInt16 VlanId, Binary DestinationIP, Binary SourceIP, UInt8 Protocol, UInt16 DestinationPort,
+  UInt16 SourcePort, UInt8 TCPFlags, UInt64 PktGroupId, UInt16 PktCount, UInt16 AppearanceCount,
+  UInt16 DirTag, UInt16 PacketType, UInt16 ComponentId, UInt16 EdgeId, UInt16 FilterId,
+  UInt32 DropReason, UInt32 DropLocation)
+opcode: ''
+keywords: NblParsed
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: DestinationMAC
+- field_type: Binary
+  field_name: SourceMAC
+- field_type: UInt16
+  field_name: EtherType
+- field_type: UInt16
+  field_name: VlanId
+- field_type: Binary
+  field_name: DestinationIP
+- field_type: Binary
+  field_name: SourceIP
+- field_type: UInt8
+  field_name: Protocol
+- field_type: UInt16
+  field_name: DestinationPort
+- field_type: UInt16
+  field_name: SourcePort
+- field_type: UInt8
+  field_name: TCPFlags
+- field_type: UInt64
+  field_name: PktGroupId
+- field_type: UInt16
+  field_name: PktCount
+- field_type: UInt16
+  field_name: AppearanceCount
+- field_type: UInt16
+  field_name: DirTag
+- field_type: UInt16
+  field_name: PacketType
+- field_type: UInt16
+  field_name: ComponentId
+- field_type: UInt16
+  field_name: EdgeId
+- field_type: UInt16
+  field_name: FilterId
+- field_type: UInt32
+  field_name: DropReason
+- field_type: UInt32
+  field_name: DropLocation

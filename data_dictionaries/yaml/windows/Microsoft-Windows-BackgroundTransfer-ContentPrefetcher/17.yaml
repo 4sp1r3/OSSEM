@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-BackgroundTransfer-ContentPrefetcher
+event_id: '17'
+version: '0'
+event(fields): IndirectContentURI17(UInt32 count)
+opcode: ''
+keywords: ''
+task: IndirectContentURI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: count

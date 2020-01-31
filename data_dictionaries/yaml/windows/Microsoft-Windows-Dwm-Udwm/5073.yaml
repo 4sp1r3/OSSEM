@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5073'
+version: '0'
+event(fields): UdwmPenBarrelStop(UInt32 PointerID)
+opcode: Stop
+keywords: Udwm
+task: UdwmPenBarrel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PointerID

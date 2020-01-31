@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '83'
+version: '0'
+event(fields): GDISPRITE_LOGICALSURFACE_ASSOCIATION(UInt64 GdiSpritePointer, UInt64
+  logicalSurfaceHandle)
+opcode: ''
+keywords: DwmCore
+task: GDISPRITE_LOGICALSURFACE_ASSOCIATION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: GdiSpritePointer
+- field_type: UInt64
+  field_name: logicalSurfaceHandle

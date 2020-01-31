@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '168'
+version: '0'
+event(fields): RemoteFXmodule_4Initialize168(UInt32 MonitorNum, UInt32 MonitorWidth,
+  UInt32 MonitorHeight, UInt32 MonitorX, UInt32 MonitorY, UnicodeString ServerName)
+opcode: Initialize
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MonitorNum
+- field_type: UInt32
+  field_name: MonitorWidth
+- field_type: UInt32
+  field_name: MonitorHeight
+- field_type: UInt32
+  field_name: MonitorX
+- field_type: UInt32
+  field_name: MonitorY
+- field_type: UnicodeString
+  field_name: ServerName

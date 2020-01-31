@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Audio
+event_id: '2'
+version: '0'
+event(fields): AudioServer_Fail_Set_Service_Status(UInt32 dwServiceType, UInt32 dwCurrentState,
+  UInt32 dwControlsAccepted, UInt32 dwWin32ExitCode, UInt32 dwServiceSpecificExitCode,
+  UInt32 dwCheckPoint, UInt32 dwWaitHint)
+opcode: ''
+keywords: ''
+task: AudioServer_Fail_Set_Service_Status
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwServiceType
+- field_type: UInt32
+  field_name: dwCurrentState
+- field_type: UInt32
+  field_name: dwControlsAccepted
+- field_type: UInt32
+  field_name: dwWin32ExitCode
+- field_type: UInt32
+  field_name: dwServiceSpecificExitCode
+- field_type: UInt32
+  field_name: dwCheckPoint
+- field_type: UInt32
+  field_name: dwWaitHint

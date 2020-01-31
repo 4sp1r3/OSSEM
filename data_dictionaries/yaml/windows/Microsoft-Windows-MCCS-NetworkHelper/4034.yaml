@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-NetworkHelper
+event_id: '4034'
+version: '0'
+event(fields): task_04034(Int32 Prop_int1, Int32 Prop_int2)
+opcode: ''
+keywords: Debug
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Prop_int1
+- field_type: Int32
+  field_name: Prop_int2

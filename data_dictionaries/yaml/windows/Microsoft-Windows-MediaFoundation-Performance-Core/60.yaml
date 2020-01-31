@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '60'
+version: '0'
+event(fields): MFMFAudio_Render_StreamSinkAudStreamSink_ProcessSample_Info(Pointer
+  object, Int64 mfRenderTime, Boolean fDiscontinuity, UInt32 mfAudioState, Boolean
+  IsRateZero)
+opcode: AudStreamSink_ProcessSample_Info
+keywords: ''
+task: MFMFAudio_Render_StreamSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: mfRenderTime
+- field_type: Boolean
+  field_name: fDiscontinuity
+- field_type: UInt32
+  field_name: mfAudioState
+- field_type: Boolean
+  field_name: IsRateZero

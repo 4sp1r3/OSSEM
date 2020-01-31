@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '219'
+version: '0'
+event(fields): Frame_MinIETabBandCreateStart()
+opcode: Start
+keywords: primarynav
+task: Frame_MinIETabBandCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

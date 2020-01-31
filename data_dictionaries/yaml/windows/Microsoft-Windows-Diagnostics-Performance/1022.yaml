@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '1022'
+version: '0'
+event(fields): Boot_CancelledAnalysisViaRegistry()
+opcode: ''
+keywords: BootStatus
+task: Boot_CancelledAnalysisViaRegistry
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

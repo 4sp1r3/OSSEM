@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '25'
+version: '0'
+event(fields): PerfStatesErrata25()
+opcode: ''
+keywords: Diag PowerDiagnostics
+task: PerfStatesErrata
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

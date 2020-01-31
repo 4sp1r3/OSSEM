@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2806'
+version: '0'
+event(fields): TileUI_TileActivatedEvent_Fired(UnicodeString ApplicationId, UnicodeString
+  ActivationParameters)
+opcode: ''
+keywords: ''
+task: TileUI_TileActivatedEvent_Fired
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApplicationId
+- field_type: UnicodeString
+  field_name: ActivationParameters

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '10004'
+version: '0'
+event(fields): task_010004(UnicodeString PackageFullName, UInt32 DeploymentOperation,
+  UInt32 State, UInt32 Percentage, HexInt32 ErrorCode, Boolean IsImpersonating)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UInt32
+  field_name: DeploymentOperation
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Percentage
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: Boolean
+  field_name: IsImpersonating

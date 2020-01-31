@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '15019'
+version: '0'
+event(fields): Common_CredProviderThreadProcStart()
+opcode: Start
+keywords: ''
+task: Common_CredProviderThreadProc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

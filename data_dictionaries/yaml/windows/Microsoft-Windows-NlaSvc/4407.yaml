@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4407'
+version: '0'
+event(fields): InterfaceMediaConnect(GUID InterfaceGuid, UnicodeString AdapterName)
+opcode: MediaConnect
+keywords: Identification LwtDiagnostic
+task: Interface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: AdapterName

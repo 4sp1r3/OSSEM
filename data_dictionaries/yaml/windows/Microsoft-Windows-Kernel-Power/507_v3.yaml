@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '507'
+version: '3'
+event(fields): CsExitReason_V3(UInt32 EnergyDrain, UInt64 ActiveResidencyInUs, UInt64
+  NonDripsTimeActivatedInUs, UInt64 FirstDripsEntryInUs, UInt64 DripsResidencyInUs,
+  UInt64 DurationInUs, UInt32 DripsTransitions, UInt8 FullChargeCapacityRatio, Boolean
+  AudioPlaying, UInt32 Reason, UInt64 AudioPlaybackInUs, UInt64 NonActivatedCpuInUs,
+  Boolean PowerStateAc, UInt64 HwDripsResidencyInUs, UInt64 ExitLatencyInUs, Boolean
+  DisconnectedStandby, Boolean AoAcCompliantNic)
+opcode: ''
+keywords: po:Diagnostic po:SleepStudy po:DiagnosticLight
+task: CsExitReason
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EnergyDrain
+- field_type: UInt64
+  field_name: ActiveResidencyInUs
+- field_type: UInt64
+  field_name: NonDripsTimeActivatedInUs
+- field_type: UInt64
+  field_name: FirstDripsEntryInUs
+- field_type: UInt64
+  field_name: DripsResidencyInUs
+- field_type: UInt64
+  field_name: DurationInUs
+- field_type: UInt32
+  field_name: DripsTransitions
+- field_type: UInt8
+  field_name: FullChargeCapacityRatio
+- field_type: Boolean
+  field_name: AudioPlaying
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt64
+  field_name: AudioPlaybackInUs
+- field_type: UInt64
+  field_name: NonActivatedCpuInUs
+- field_type: Boolean
+  field_name: PowerStateAc
+- field_type: UInt64
+  field_name: HwDripsResidencyInUs
+- field_type: UInt64
+  field_name: ExitLatencyInUs
+- field_type: Boolean
+  field_name: DisconnectedStandby
+- field_type: Boolean
+  field_name: AoAcCompliantNic

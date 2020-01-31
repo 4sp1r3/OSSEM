@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-ESE
+event_id: '133'
+version: '0'
+event(fields): ESE_TaskManagerRun_Trace(Pointer ptm, Pointer pfnCompletion, UInt32
+  dwCompletionKey1, Pointer dwCompletionKey2, UInt32 gle, Pointer dwThreadContext)
+opcode: ''
+keywords: Task
+task: ESE_TaskManagerRun_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ptm
+- field_type: Pointer
+  field_name: pfnCompletion
+- field_type: UInt32
+  field_name: dwCompletionKey1
+- field_type: Pointer
+  field_name: dwCompletionKey2
+- field_type: UInt32
+  field_name: gle
+- field_type: Pointer
+  field_name: dwThreadContext

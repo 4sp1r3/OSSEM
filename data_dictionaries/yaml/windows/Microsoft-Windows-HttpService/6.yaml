@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HttpService
+event_id: '6'
+version: '0'
+event(fields): HTTPRequestTraceTaskRecvBody(UInt64 RequestId, UInt64 ConnectionId)
+opcode: RecvBody
+keywords: HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE
+task: HTTPRequestTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RequestId
+- field_type: UInt64
+  field_name: ConnectionId

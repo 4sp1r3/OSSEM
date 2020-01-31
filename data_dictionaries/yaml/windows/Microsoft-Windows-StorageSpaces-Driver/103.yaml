@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '103'
+version: '0'
+event(fields): task_0103(GUID Id, UInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UInt32
+  field_name: Status

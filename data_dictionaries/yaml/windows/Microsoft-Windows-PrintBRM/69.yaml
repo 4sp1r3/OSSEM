@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '69'
+version: '0'
+event(fields): RestorePrintBRMoperationfailure69(UnicodeString Address, UnicodeString
+  PortName)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_PORT_KEYWORD
+task: Restore
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Address
+- field_type: UnicodeString
+  field_name: PortName

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-PDC
+event_id: '124'
+version: '0'
+event(fields): PdcPhaseRundown(UInt8 Phase, Int32 ReferenceCount, Boolean IsHandlerEngaged,
+  UInt8 NotificationsState, UInt32 NotificationsStatus, UInt32 PdcSequenceId, UInt32
+  EntryWaitTimeInSeconds, UInt32 EntryWatchdogTimeoutInSeconds)
+opcode: ''
+keywords: Cs CsDiag
+task: PdcPhaseRundown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Phase
+- field_type: Int32
+  field_name: ReferenceCount
+- field_type: Boolean
+  field_name: IsHandlerEngaged
+- field_type: UInt8
+  field_name: NotificationsState
+- field_type: UInt32
+  field_name: NotificationsStatus
+- field_type: UInt32
+  field_name: PdcSequenceId
+- field_type: UInt32
+  field_name: EntryWaitTimeInSeconds
+- field_type: UInt32
+  field_name: EntryWatchdogTimeoutInSeconds

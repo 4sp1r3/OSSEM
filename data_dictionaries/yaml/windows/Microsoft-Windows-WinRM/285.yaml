@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '285'
+version: '0'
+event(fields): WSManAPIcall285(UnicodeString operationName)
+opcode: ''
+keywords: Keyword.Server
+task: WSManAPIcall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: operationName

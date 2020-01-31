@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '237'
+version: '0'
+event(fields): TouchPadEnabledStatusChangeStart()
+opcode: Start
+keywords: TouchInput
+task: TouchPadEnabledStatusChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8049'
+version: '1'
+event(fields): UnpublishPackage_1519Stop_V1(UInt64 ActivityId)
+opcode: Stop
+keywords: ''
+task: UnpublishPackage_1519
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ActivityId

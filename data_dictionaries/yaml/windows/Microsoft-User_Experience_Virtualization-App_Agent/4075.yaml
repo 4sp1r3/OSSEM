@@ -1,0 +1,18 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '4075'
+version: '0'
+event(fields): SynchronizationtofilesystemAppAgent4075(UnicodeString String1, UnicodeString
+  String2, UnicodeString String3)
+opcode: AppAgent
+keywords: ''
+task: Synchronizationtofilesystem
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String1
+- field_type: UnicodeString
+  field_name: String2
+- field_type: UnicodeString
+  field_name: String3

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDC
+event_id: '58'
+version: '0'
+event(fields): NotificationReceived58(Pointer Client, UInt32 PdcSequence)
+opcode: ''
+keywords: suspendresume
+task: NotificationReceived
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: UInt32
+  field_name: PdcSequence

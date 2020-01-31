@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '554'
+version: '0'
+event(fields): Mshtml_Scheduler_API()
+opcode: ''
+keywords: scheduler_api jscript_verbose
+task: Mshtml_Scheduler_API
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

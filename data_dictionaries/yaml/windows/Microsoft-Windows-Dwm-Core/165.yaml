@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '165'
+version: '0'
+event(fields): ETWGUID_POP_EXTERNAL_LAYER_EVENTStart()
+opcode: Start
+keywords: DwmCore FrameVisualization
+task: ETWGUID_POP_EXTERNAL_LAYER_EVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

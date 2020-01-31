@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62404'
+version: '0'
+event(fields): CloudExperienceHost_WebAppActivityStart(UnicodeString CXID)
+opcode: Start
+keywords: Shell CloudExperienceHost
+task: CloudExperienceHost_WebAppActivity
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CXID

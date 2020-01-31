@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '8'
+version: '0'
+event(fields): ImageHashCheck(UnicodeString ImageName)
+opcode: ''
+keywords: keyword_80000000000 keyword_200000000000
+task: ImageHashCheck
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ImageName

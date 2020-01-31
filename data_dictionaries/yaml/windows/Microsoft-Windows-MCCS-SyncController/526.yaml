@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '526'
+version: '0'
+event(fields): task_0526(HexInt32 Prop_Dword_1)
+opcode: ''
+keywords: StateTransition
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_Dword_1

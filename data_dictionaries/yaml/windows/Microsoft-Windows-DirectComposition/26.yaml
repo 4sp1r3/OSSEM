@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '26'
+version: '0'
+event(fields): ATLAS_USE_INFO(UInt64 Id, UInt64 Owner, UInt32 UseType, Int32 XData,
+  Int32 YData)
+opcode: ''
+keywords: DCompDiagnostic DCompMemory
+task: ATLAS_USE_INFO
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt64
+  field_name: Owner
+- field_type: UInt32
+  field_name: UseType
+- field_type: Int32
+  field_name: XData
+- field_type: Int32
+  field_name: YData

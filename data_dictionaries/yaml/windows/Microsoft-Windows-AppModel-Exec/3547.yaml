@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '3547'
+version: '0'
+event(fields): LogTrace3547(UInt32 p1_UInt32)
+opcode: ''
+keywords: ExecMan ExecProductionCircular ExecDevPlatCircular
+task: LogTrace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: p1_UInt32

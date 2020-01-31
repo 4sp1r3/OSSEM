@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Partition
+event_id: '1004'
+version: '0'
+event(fields): task_01004(Pointer Process, UInt64 IncrementEnergy, UInt64 IdleTime,
+  UInt8 LastIdleState)
+opcode: ''
+keywords: power
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Process
+- field_type: UInt64
+  field_name: IncrementEnergy
+- field_type: UInt64
+  field_name: IdleTime
+- field_type: UInt8
+  field_name: LastIdleState

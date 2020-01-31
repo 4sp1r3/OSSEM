@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '43083'
+version: '1'
+event(fields): DeserializePolicy.Stop_V1()
+opcode: Stop
+keywords: ''
+task: DeserializePolicy.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

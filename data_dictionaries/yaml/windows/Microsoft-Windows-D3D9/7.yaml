@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-D3D9
+event_id: '7'
+version: '0'
+event(fields): FlipExSurfaceTimeout(UInt64 LogicalSurfaceHandle, UInt32 BackBufferNumber,
+  UInt32 BackBufferHandle)
+opcode: ''
+keywords: Events
+task: FlipExSurfaceTimeout
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: LogicalSurfaceHandle
+- field_type: UInt32
+  field_name: BackBufferNumber
+- field_type: UInt32
+  field_name: BackBufferHandle

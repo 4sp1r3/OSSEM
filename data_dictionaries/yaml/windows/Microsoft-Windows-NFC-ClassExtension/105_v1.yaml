@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-NFC-ClassExtension
+event_id: '105'
+version: '1'
+event(fields): IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGEStop_V1(Pointer FileObject, UInt32
+  Status, UInt64 Information)
+opcode: Stop
+keywords: NFP
+task: IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FileObject
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt64
+  field_name: Information

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IME-CustomerFeedbackManager
+event_id: '18'
+version: '0'
+event(fields): IME_SQMsender18(UInt32 GLE)
+opcode: ''
+keywords: ''
+task: IME_SQMsender
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: GLE

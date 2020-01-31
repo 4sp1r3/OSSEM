@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '115'
+version: '0'
+event(fields): DirectShowFilterGraphRunStop(Pointer context, Pointer failingFilter,
+  UnicodeString failingFilterName, HexInt32 hr)
+opcode: Stop
+keywords: ''
+task: DirectShowFilterGraphRun
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: context
+- field_type: Pointer
+  field_name: failingFilter
+- field_type: UnicodeString
+  field_name: failingFilterName
+- field_type: HexInt32
+  field_name: hr

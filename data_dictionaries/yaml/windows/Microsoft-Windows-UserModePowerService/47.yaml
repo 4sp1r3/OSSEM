@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '47'
+version: '0'
+event(fields): AdaptiveStandbySrumFailure(UInt32 Action, UInt32 Error)
+opcode: SrumFailure
+keywords: AdaptiveStandby
+task: AdaptiveStandby
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Action
+- field_type: UInt32
+  field_name: Error

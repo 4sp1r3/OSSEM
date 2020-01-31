@@ -1,0 +1,15 @@
+provider: Intel-iaLPSS-GPIO
+event_id: '1048'
+version: '0'
+event(fields): GpioIOoperations(HexInt32 BankID, HexInt32 PinValues)
+opcode: ''
+keywords: ''
+task: GpioIOoperations
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: BankID
+- field_type: HexInt32
+  field_name: PinValues

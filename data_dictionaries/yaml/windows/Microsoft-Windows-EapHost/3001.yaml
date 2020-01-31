@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-EapHost
+event_id: '3001'
+version: '0'
+event(fields): Common(UnicodeString ModuleName, UInt32 Error)
+opcode: ''
+keywords: Reg
+task: Common
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ModuleName
+- field_type: UInt32
+  field_name: Error

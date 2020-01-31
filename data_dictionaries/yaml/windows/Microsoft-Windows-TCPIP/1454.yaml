@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1454'
+version: '0'
+event(fields): InetInspect(Pointer Owner, Pointer InspectHandle, UInt32 InspectType,
+  UInt32 InspectAction, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipDiagnosis
+task: InetInspect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Owner
+- field_type: Pointer
+  field_name: InspectHandle
+- field_type: UInt32
+  field_name: InspectType
+- field_type: UInt32
+  field_name: InspectAction
+- field_type: UInt32
+  field_name: Status

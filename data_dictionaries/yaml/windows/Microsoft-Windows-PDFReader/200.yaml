@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '200'
+version: '0'
+event(fields): PageView(Int32 Aspect, UInt32 PageIndex)
+opcode: ''
+keywords: Reader
+task: PageView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Aspect
+- field_type: UInt32
+  field_name: PageIndex

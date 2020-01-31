@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '105'
+version: '0'
+event(fields): HealthCenter_LoadFromCacheStop()
+opcode: Stop
+keywords: ''
+task: HealthCenter_LoadFromCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

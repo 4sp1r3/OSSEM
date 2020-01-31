@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4291'
+version: '0'
+event(fields): TimerLate(AnsiString tag, Pointer object, Int64 eventTime, Int64 lateBy,
+  Pointer callback)
+opcode: ''
+keywords: ''
+task: TimerLate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: eventTime
+- field_type: Int64
+  field_name: lateBy
+- field_type: Pointer
+  field_name: callback

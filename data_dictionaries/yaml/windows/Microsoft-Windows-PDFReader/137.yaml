@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '137'
+version: '0'
+event(fields): PageAsyncPrintPreviewStart(UInt32 UInt32Param)
+opcode: Start
+keywords: Reader
+task: PageAsyncPrintPreview
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UInt32Param

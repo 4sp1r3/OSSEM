@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '1047'
+version: '0'
+event(fields): ResponsehandlingStart1047(UnicodeString status)
+opcode: Start
+keywords: Keyword.Client
+task: Responsehandling
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: status

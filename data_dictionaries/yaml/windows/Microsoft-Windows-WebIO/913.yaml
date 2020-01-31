@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WebIO
+event_id: '913'
+version: '0'
+event(fields): ProtocolReceiveDataCallbackStart(Pointer ProtocolObject, UInt64 Handle,
+  Pointer Context, UInt32 Error, UInt64 Information)
+opcode: Start
+keywords: Keyword.API Keyword.RECEIVE
+task: ProtocolReceiveDataCallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ProtocolObject
+- field_type: UInt64
+  field_name: Handle
+- field_type: Pointer
+  field_name: Context
+- field_type: UInt32
+  field_name: Error
+- field_type: UInt64
+  field_name: Information

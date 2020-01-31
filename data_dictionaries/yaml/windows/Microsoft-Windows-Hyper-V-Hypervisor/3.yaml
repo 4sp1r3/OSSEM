@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '3'
+version: '0'
+event(fields): task_03()
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

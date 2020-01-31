@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '2000'
+version: '0'
+event(fields): UdmSessionHandleEnsureConnected_START()
+opcode: Start
+keywords: Performance
+task: UdmSessionHandleEnsureConnected_START
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

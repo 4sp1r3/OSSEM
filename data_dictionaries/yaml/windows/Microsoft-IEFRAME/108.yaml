@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '108'
+version: '0'
+event(fields): Frame_SearchBandCreateStart()
+opcode: Start
+keywords: primarynav
+task: Frame_SearchBandCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

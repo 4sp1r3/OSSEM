@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '17'
+version: '0'
+event(fields): MFAudio_Render_EngineStreamTaskAudEngineStream_HandleEOSBuffer_Info(Pointer
+  object, Int64 ullEOSPosition, Boolean m_bIsEventDriven, Boolean IsOffloadedStream,
+  Boolean IsOffloadedCompressedStream)
+opcode: AudEngineStream_HandleEOSBuffer_Info
+keywords: ''
+task: MFAudio_Render_EngineStreamTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: ullEOSPosition
+- field_type: Boolean
+  field_name: m_bIsEventDriven
+- field_type: Boolean
+  field_name: IsOffloadedStream
+- field_type: Boolean
+  field_name: IsOffloadedCompressedStream

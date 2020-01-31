@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '507'
+version: '0'
+event(fields): task_0507(UnicodeString PackageFullName, UnicodeString ResourceName)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: ResourceName

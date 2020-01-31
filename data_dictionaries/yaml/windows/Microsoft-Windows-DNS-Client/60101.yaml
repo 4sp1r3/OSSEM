@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '60101'
+version: '0'
+event(fields): DnsV4Tuple(UInt32 SourceAddress, UInt32 SourcePort, UInt32 DestinationAddress,
+  UInt32 DestinationPort, UInt32 Protocol, UInt32 ReferenceContext)
+opcode: ''
+keywords: ''
+task: DnsV4Tuple
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SourceAddress
+- field_type: UInt32
+  field_name: SourcePort
+- field_type: UInt32
+  field_name: DestinationAddress
+- field_type: UInt32
+  field_name: DestinationPort
+- field_type: UInt32
+  field_name: Protocol
+- field_type: UInt32
+  field_name: ReferenceContext

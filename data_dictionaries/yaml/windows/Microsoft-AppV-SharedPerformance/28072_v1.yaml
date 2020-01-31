@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '28072'
+version: '1'
+event(fields): TransportcancelrequestoperationStop_V1()
+opcode: Stop
+keywords: ''
+task: Transportcancelrequestoperation
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

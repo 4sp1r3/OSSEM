@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '426'
+version: '0'
+event(fields): PopulateStaticQuirkCacheStart()
+opcode: Start
+keywords: ''
+task: PopulateStaticQuirkCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

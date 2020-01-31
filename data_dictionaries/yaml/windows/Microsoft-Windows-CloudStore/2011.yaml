@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-CloudStore
+event_id: '2011'
+version: '0'
+event(fields): task_02011(AnsiString QualifiedTypeName, UInt32 Size, Binary Data)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: QualifiedTypeName
+- field_type: UInt32
+  field_name: Size
+- field_type: Binary
+  field_name: Data

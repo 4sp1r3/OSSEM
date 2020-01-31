@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6714'
+version: '0'
+event(fields): SecondaryTile_FlyoutDisplayedStart(UInt32 ApiType)
+opcode: Start
+keywords: ''
+task: SecondaryTile_FlyoutDisplayed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ApiType

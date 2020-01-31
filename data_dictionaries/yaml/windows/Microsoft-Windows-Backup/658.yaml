@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Backup
+event_id: '658'
+version: '0'
+event(fields): task_0658(UnicodeString BackupTargetFriendlyName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: BackupTargetFriendlyName

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1281'
+version: '0'
+event(fields): Ndkpi_Srq_Notification_Callback(Pointer SrqNotificationContext, UInt32
+  SrqStatus)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Srq_Notification_Callback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SrqNotificationContext
+- field_type: UInt32
+  field_name: SrqStatus

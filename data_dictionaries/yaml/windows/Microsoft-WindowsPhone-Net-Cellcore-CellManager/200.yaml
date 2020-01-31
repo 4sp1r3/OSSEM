@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '200'
+version: '0'
+event(fields): CellService()
+opcode: ''
+keywords: Error
+task: CellService
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

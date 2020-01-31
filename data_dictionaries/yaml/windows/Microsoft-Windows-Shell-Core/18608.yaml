@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18608'
+version: '0'
+event(fields): Shell32_MountPoint_SHHardwareEvent_DeviceUpdatedStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_MountPoint_SHHardwareEvent_DeviceUpdated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

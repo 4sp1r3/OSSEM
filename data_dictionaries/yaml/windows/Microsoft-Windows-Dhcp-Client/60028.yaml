@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '60028'
+version: '0'
+event(fields): AddressConfigurationStateEventCreateRenewalSignalHandleFailed(UInt32
+  StatusCode)
+opcode: CreateRenewalSignalHandleFailed
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StatusCode

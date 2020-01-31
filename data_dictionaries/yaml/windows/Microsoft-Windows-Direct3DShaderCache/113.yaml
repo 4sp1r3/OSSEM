@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '113'
+version: '0'
+event(fields): DoubleAdd()
+opcode: ''
+keywords: Events
+task: DoubleAdd
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

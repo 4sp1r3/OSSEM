@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-ModernDeployment-Diagnostics-Provider
+event_id: '192'
+version: '0'
+event(fields): task_0192(HexInt32 HRESULT, Int32 WaitMs, Int32 AttemptNumber, Int32
+  MaxAttempts)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: Int32
+  field_name: WaitMs
+- field_type: Int32
+  field_name: AttemptNumber
+- field_type: Int32
+  field_name: MaxAttempts

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '477'
+version: '0'
+event(fields): ThreadedJobQueueInactivity(UInt64 Id)
+opcode: ''
+keywords: Core
+task: ThreadedJobQueueInactivity
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id

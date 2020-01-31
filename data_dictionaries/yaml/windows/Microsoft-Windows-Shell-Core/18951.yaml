@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18951'
+version: '0'
+event(fields): Shell32_SHChangeNotify_Register_ClientStop(UInt32 ID, UInt32 HWND)
+opcode: Stop
+keywords: Shell
+task: Shell32_SHChangeNotify_Register_Client
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ID
+- field_type: UInt32
+  field_name: HWND

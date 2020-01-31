@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '154'
+version: '0'
+event(fields): DdiSetPowerStateStart(Pointer MiniportContext, UInt32 DeviceUid, Int32
+  DevicePowerState, Int32 ActionType, UInt32 Status)
+opcode: Start
+keywords: Base
+task: DdiSetPowerState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportContext
+- field_type: UInt32
+  field_name: DeviceUid
+- field_type: Int32
+  field_name: DevicePowerState
+- field_type: Int32
+  field_name: ActionType
+- field_type: UInt32
+  field_name: Status

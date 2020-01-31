@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-VHDMP
+event_id: '20'
+version: '0'
+event(fields): task_020(UnicodeString VhdFileName, GUID VhdInstanceId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VhdFileName
+- field_type: GUID
+  field_name: VhdInstanceId

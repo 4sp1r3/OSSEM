@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '2'
+version: '0'
+event(fields): FSLoader_LoadKeyboardDefStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: FSLoader_LoadKeyboardDef
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

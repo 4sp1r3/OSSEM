@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Ndu
+event_id: '2011'
+version: '0'
+event(fields): PerInterfaceStats2011(UInt64 _IfLuid, UInt32 _ProfileId)
+opcode: ''
+keywords: KeywordNduPerInterfaceStats
+task: PerInterfaceStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: _IfLuid
+- field_type: UInt32
+  field_name: _ProfileId

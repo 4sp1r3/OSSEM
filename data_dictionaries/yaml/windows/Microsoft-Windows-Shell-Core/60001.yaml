@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60001'
+version: '0'
+event(fields): IE_HistoryBrokerStartupStop()
+opcode: Stop
+keywords: InternetExplorer
+task: IE_HistoryBrokerStartup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

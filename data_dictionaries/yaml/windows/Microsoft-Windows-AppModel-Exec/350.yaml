@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '350'
+version: '0'
+event(fields): task_0350(UnicodeString AUMID, Pointer Hwnd, Int32 WindowChange, Boolean
+  DeferredVisibility, HexInt32 ErrorCode)
+opcode: ''
+keywords: PLM ExecProductionCircular ExecDevPlatCircular
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AUMID
+- field_type: Pointer
+  field_name: Hwnd
+- field_type: Int32
+  field_name: WindowChange
+- field_type: Boolean
+  field_name: DeferredVisibility
+- field_type: HexInt32
+  field_name: ErrorCode

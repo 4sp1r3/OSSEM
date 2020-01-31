@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '200'
+version: '0'
+event(fields): task_0200(UnicodeString url, UInt32 hr, UnicodeString proxy, UnicodeString
+  job, UnicodeString owner, GUID jobId, GUID xferId, UnicodeString proxyServerList)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: url
+- field_type: UInt32
+  field_name: hr
+- field_type: UnicodeString
+  field_name: proxy
+- field_type: UnicodeString
+  field_name: job
+- field_type: UnicodeString
+  field_name: owner
+- field_type: GUID
+  field_name: jobId
+- field_type: GUID
+  field_name: xferId
+- field_type: UnicodeString
+  field_name: proxyServerList

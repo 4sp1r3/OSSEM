@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-ReadyBoost
+event_id: '1015'
+version: '0'
+event(fields): ReadyBoot(FILETIME RB_BootTimeUTC, FILETIME RB_LastBootPlanUTC, UInt64
+  RB_IoReadKB, UInt64 RB_CacheHitKB, UInt64 RB_CompressedDataSizeKB, UInt64 RB_RawDataSizeKB,
+  Int64 RB_BootPrefetchDiskTimeUs, Int64 RB_BootPrefetchDataReadBytes, Double RB_CacheHitPercentage,
+  Double RB_CacheFragmentation, Double RB_CompressionRatio, UInt32 RB_IoReadCount,
+  UInt32 RB_CacheHitCount, UInt32 RB_CacheSizeKB, UInt32 RB_LastBootPlanUserTimeLength,
+  UnicodeString RB_LastBootPlanUserTime)
+opcode: ''
+keywords: Diag
+task: ReadyBoot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: RB_BootTimeUTC
+- field_type: FILETIME
+  field_name: RB_LastBootPlanUTC
+- field_type: UInt64
+  field_name: RB_IoReadKB
+- field_type: UInt64
+  field_name: RB_CacheHitKB
+- field_type: UInt64
+  field_name: RB_CompressedDataSizeKB
+- field_type: UInt64
+  field_name: RB_RawDataSizeKB
+- field_type: Int64
+  field_name: RB_BootPrefetchDiskTimeUs
+- field_type: Int64
+  field_name: RB_BootPrefetchDataReadBytes
+- field_type: Double
+  field_name: RB_CacheHitPercentage
+- field_type: Double
+  field_name: RB_CacheFragmentation
+- field_type: Double
+  field_name: RB_CompressionRatio
+- field_type: UInt32
+  field_name: RB_IoReadCount
+- field_type: UInt32
+  field_name: RB_CacheHitCount
+- field_type: UInt32
+  field_name: RB_CacheSizeKB
+- field_type: UInt32
+  field_name: RB_LastBootPlanUserTimeLength
+- field_type: UnicodeString
+  field_name: RB_LastBootPlanUserTime

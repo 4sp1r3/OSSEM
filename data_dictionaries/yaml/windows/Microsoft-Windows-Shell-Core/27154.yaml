@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27154'
+version: '0'
+event(fields): PerfTrack_StartMenu_ControlPanelStop()
+opcode: Stop
+keywords: Shell WDI
+task: PerfTrack_StartMenu_ControlPanel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

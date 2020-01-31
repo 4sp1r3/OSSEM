@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '376'
+version: '0'
+event(fields): AppXPackaging.Task.Signature.AppxBundleSipPutSignatureStart()
+opcode: Start
+keywords: ''
+task: AppXPackaging.Task.Signature.AppxBundleSipPutSignature
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

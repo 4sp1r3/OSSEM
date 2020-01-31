@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '98'
+version: '0'
+event(fields): CPUNotificationStop(Pointer hAdapter, Pointer hSyncObject, UInt32 Reason,
+  UInt32 Flags, Pointer SharedHandle, Pointer Event)
+opcode: Stop
+keywords: Base
+task: CPUNotification
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAdapter
+- field_type: Pointer
+  field_name: hSyncObject
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Flags
+- field_type: Pointer
+  field_name: SharedHandle
+- field_type: Pointer
+  field_name: Event

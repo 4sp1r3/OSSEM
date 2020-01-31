@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Wired-AutoConfig
+event_id: '15506'
+version: '0'
+event(fields): task_015506(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UnicodeString ReasonCode, UInt32 BlockingTime)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UnicodeString
+  field_name: ReasonCode
+- field_type: UInt32
+  field_name: BlockingTime

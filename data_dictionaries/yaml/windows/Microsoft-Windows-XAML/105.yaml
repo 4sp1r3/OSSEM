@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '105'
+version: '0'
+event(fields): SetMaximumFrameLatency(UInt32 FrameCount)
+opcode: ''
+keywords: Rendering
+task: SetMaximumFrameLatency
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FrameCount

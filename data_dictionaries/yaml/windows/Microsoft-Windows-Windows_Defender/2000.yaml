@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-Windows Defender
+event_id: '2000'
+version: '0'
+event(fields): task_02000(UnicodeString ProductName, UnicodeString ProductVersion,
+  UnicodeString CurrentsecurityintelligenceVersion, UnicodeString PrevioussecurityintelligenceVersion,
+  UnicodeString Unused, UnicodeString Unused2, UnicodeString Unused3, UnicodeString
+  Domain, UnicodeString User, UnicodeString SID, UnicodeString SecurityintelligenceTypeIndex,
+  UnicodeString SecurityintelligenceType, UnicodeString UpdateTypeIndex, UnicodeString
+  UpdateType, UnicodeString CurrentEngineVersion, UnicodeString PreviousEngineVersion)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UnicodeString
+  field_name: ProductVersion
+- field_type: UnicodeString
+  field_name: CurrentsecurityintelligenceVersion
+- field_type: UnicodeString
+  field_name: PrevioussecurityintelligenceVersion
+- field_type: UnicodeString
+  field_name: Unused
+- field_type: UnicodeString
+  field_name: Unused2
+- field_type: UnicodeString
+  field_name: Unused3
+- field_type: UnicodeString
+  field_name: Domain
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: SID
+- field_type: UnicodeString
+  field_name: SecurityintelligenceTypeIndex
+- field_type: UnicodeString
+  field_name: SecurityintelligenceType
+- field_type: UnicodeString
+  field_name: UpdateTypeIndex
+- field_type: UnicodeString
+  field_name: UpdateType
+- field_type: UnicodeString
+  field_name: CurrentEngineVersion
+- field_type: UnicodeString
+  field_name: PreviousEngineVersion

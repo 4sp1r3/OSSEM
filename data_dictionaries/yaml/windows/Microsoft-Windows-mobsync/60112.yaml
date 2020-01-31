@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-mobsync
+event_id: '60112'
+version: '0'
+event(fields): SyncMgrTraceId_HandlerLoadStop()
+opcode: Stop
+keywords: ''
+task: SyncMgrTraceId_HandlerLoad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

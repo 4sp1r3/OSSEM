@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-User-ControlPanel
+event_id: '25001'
+version: '0'
+event(fields): PerfTrack_UAM_TaskFlowPageChangeStop(UInt32 TaskFlowID, UInt32 PageIndex)
+opcode: Stop
+keywords: ''
+task: PerfTrack_UAM_TaskFlowPageChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TaskFlowID
+- field_type: UInt32
+  field_name: PageIndex

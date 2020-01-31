@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Network-and-Sharing-Center
+event_id: '6004'
+version: '0'
+event(fields): Initialization_PageStop()
+opcode: Stop
+keywords: ''
+task: Initialization_Page
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

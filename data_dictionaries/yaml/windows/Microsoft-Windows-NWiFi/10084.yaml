@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10084'
+version: '0'
+event(fields): task_010084(UnicodeString StatusAnnotation, UInt32 Status, UInt32 Context1)
+opcode: ''
+keywords: AssocMgr ut:L2ConnectPath
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StatusAnnotation
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Context1

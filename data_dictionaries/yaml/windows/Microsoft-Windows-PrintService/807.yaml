@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintService
+event_id: '807'
+version: '0'
+event(fields): Printjobdiagnostics807(UInt32 JobId)
+opcode: ''
+keywords: ''
+task: Printjobdiagnostics
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobId

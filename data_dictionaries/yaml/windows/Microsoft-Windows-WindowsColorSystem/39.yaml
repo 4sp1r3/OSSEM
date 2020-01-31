@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '39'
+version: '0'
+event(fields): TransformCreation39(UnicodeString Tag, UInt32 LutType, UnicodeString
+  Class, UInt32 Intent)
+opcode: ''
+keywords: wcse:Lino
+task: TransformCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Tag
+- field_type: UInt32
+  field_name: LutType
+- field_type: UnicodeString
+  field_name: Class
+- field_type: UInt32
+  field_name: Intent

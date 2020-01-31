@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '14'
+version: '0'
+event(fields): EmailContactLaunch(UnicodeString Application, UnicodeString Version,
+  UnicodeString OldName, UnicodeString OldAddress, UnicodeString NewName, UnicodeString
+  NewAddress, UInt32 Reason, UnicodeString EmailAccount)
+opcode: Launch
+keywords: WPC ThirdParty
+task: EmailContact
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Application
+- field_type: UnicodeString
+  field_name: Version
+- field_type: UnicodeString
+  field_name: OldName
+- field_type: UnicodeString
+  field_name: OldAddress
+- field_type: UnicodeString
+  field_name: NewName
+- field_type: UnicodeString
+  field_name: NewAddress
+- field_type: UInt32
+  field_name: Reason
+- field_type: UnicodeString
+  field_name: EmailAccount

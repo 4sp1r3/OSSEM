@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6642'
+version: '0'
+event(fields): ConnectCharm_DisplayUIStop(UInt32 Count)
+opcode: Stop
+keywords: ''
+task: ConnectCharm_DisplayUI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count

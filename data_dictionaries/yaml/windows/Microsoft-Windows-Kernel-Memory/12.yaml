@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Memory
+event_id: '12'
+version: '0'
+event(fields): MemInfoNode(UInt32 PartitionId, UInt32 Count, Int8 MemoryNodeInfo)
+opcode: ''
+keywords: KERNEL_MEM_KEYWORD_MEMINFO_NODE
+task: MemInfoNode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PartitionId
+- field_type: UInt32
+  field_name: Count
+- field_type: Int8
+  field_name: MemoryNodeInfo

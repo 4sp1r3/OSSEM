@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Win32k
+event_id: '255'
+version: '0'
+event(fields): CursorSize(UInt32 iCursorDim, UInt32 cx, UInt32 cy)
+opcode: ''
+keywords: Updates
+task: CursorSize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: iCursorDim
+- field_type: UInt32
+  field_name: cx
+- field_type: UInt32
+  field_name: cy

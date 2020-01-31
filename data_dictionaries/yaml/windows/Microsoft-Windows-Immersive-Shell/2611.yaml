@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2611'
+version: '0'
+event(fields): Settings_SettingsLoadAppElementsStart()
+opcode: Start
+keywords: ''
+task: Settings_SettingsLoadAppElements
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

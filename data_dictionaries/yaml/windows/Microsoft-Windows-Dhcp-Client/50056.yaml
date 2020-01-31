@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50056'
+version: '0'
+event(fields): AddressConfigurationStateEventGatewayUnreachable(UInt32 InterfaceId)
+opcode: GatewayUnreachable
+keywords: keyword_200000000000
+task: AddressConfigurationStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId

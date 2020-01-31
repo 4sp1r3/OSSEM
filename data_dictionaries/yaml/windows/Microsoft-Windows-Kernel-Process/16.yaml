@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '16'
+version: '0'
+event(fields): task_0()
+opcode: ''
+keywords: WINEVENT_KEYWORD_ENABLE_PROCESS_TRACING_CALLBACKS
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

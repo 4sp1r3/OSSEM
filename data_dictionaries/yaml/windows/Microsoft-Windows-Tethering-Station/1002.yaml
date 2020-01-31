@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Tethering-Station
+event_id: '1002'
+version: '0'
+event(fields): task_0Stop(GUID WlanInterfaceGuid, UInt32 Scenario, UInt32 Result)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: WlanInterfaceGuid
+- field_type: UInt32
+  field_name: Scenario
+- field_type: UInt32
+  field_name: Result

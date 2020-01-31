@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '116'
+version: '0'
+event(fields): CellularAPI116(UInt32 DwordName, UInt64 PointerName, GUID GuidName)
+opcode: ''
+keywords: Trace
+task: CellularAPI
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName
+- field_type: UInt64
+  field_name: PointerName
+- field_type: GUID
+  field_name: GuidName

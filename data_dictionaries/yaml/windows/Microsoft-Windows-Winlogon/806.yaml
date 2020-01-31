@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '806'
+version: '0'
+event(fields): NotifySubscriberStop(UInt32 Event, UnicodeString SubscriberName)
+opcode: Stop
+keywords: PerfInstrumentation keyword_200000000000
+task: NotifySubscriber
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Event
+- field_type: UnicodeString
+  field_name: SubscriberName

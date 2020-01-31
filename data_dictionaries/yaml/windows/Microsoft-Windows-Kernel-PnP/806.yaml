@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '806'
+version: '0'
+event(fields): ProcessDeviceRestartStop(HexInt32 Phase, UnicodeString Device)
+opcode: Stop
+keywords: Enumeration
+task: ProcessDeviceRestart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Phase
+- field_type: UnicodeString
+  field_name: Device

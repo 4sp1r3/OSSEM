@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-BitLocker-DrivePreparationTool
+event_id: '4101'
+version: '1'
+event(fields): task_0Initialization4101_V1(UInt64 ExtentOffset, UInt64 NewPartitionSize,
+  UnicodeString NewDriveLetter)
+opcode: Initialization
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ExtentOffset
+- field_type: UInt64
+  field_name: NewPartitionSize
+- field_type: UnicodeString
+  field_name: NewDriveLetter

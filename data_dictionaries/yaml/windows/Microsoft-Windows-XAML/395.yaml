@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '395'
+version: '0'
+event(fields): ExternalAtlasSizeOverride(UInt64 Id, UInt32 Width, UInt32 Height)
+opcode: ''
+keywords: ''
+task: ExternalAtlasSizeOverride
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height

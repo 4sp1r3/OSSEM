@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '702'
+version: '0'
+event(fields): Smb2ShareDelete(UInt16 ShareNameLength, UnicodeString ShareName, UInt16
+  ServerNameLength, UnicodeString ServerName)
+opcode: ''
+keywords: Share
+task: Smb2ShareDelete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName

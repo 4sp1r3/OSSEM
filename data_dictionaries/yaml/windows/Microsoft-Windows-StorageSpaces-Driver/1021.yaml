@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1021'
+version: '0'
+event(fields): task_01021(GUID PoolId, GUID SpaceId, UInt64 SequenceNumber)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PoolId
+- field_type: GUID
+  field_name: SpaceId
+- field_type: UInt64
+  field_name: SequenceNumber

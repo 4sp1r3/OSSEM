@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9048'
+version: '0'
+event(fields): Perf_WLRoamGetCloudStorageUsageStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamGetCloudStorageUsage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

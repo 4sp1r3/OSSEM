@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-Kernel-Network
+event_id: '29'
+version: '0'
+event(fields): KERNEL_NETWORK_TASK_TCPIPDisconnectissued.29(UInt32 PID, UInt32 size,
+  Binary daddr, Binary saddr, UInt16 dport, UInt16 sport, UInt32 seqnum, UInt32 connid)
+opcode: Disconnectissued.
+keywords: KERNEL_NETWORK_KEYWORD_IPV6
+task: KERNEL_NETWORK_TASK_TCPIP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PID
+- field_type: UInt32
+  field_name: size
+- field_type: Binary
+  field_name: daddr
+- field_type: Binary
+  field_name: saddr
+- field_type: UInt16
+  field_name: dport
+- field_type: UInt16
+  field_name: sport
+- field_type: UInt32
+  field_name: seqnum
+- field_type: UInt32
+  field_name: connid

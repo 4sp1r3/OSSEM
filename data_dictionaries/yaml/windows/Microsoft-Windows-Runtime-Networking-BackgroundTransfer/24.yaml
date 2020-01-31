@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Runtime-Networking-BackgroundTransfer
+event_id: '24'
+version: '0'
+event(fields): BackgroundTransfer24(GUID CompletionGroupId, UInt32 LocationId, HexInt32
+  Error)
+opcode: ''
+keywords: keywords.KW_ALL
+task: BackgroundTransfer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CompletionGroupId
+- field_type: UInt32
+  field_name: LocationId
+- field_type: HexInt32
+  field_name: Error

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '48'
+version: '0'
+event(fields): LEGACY_EVENTPROC_START()
+opcode: PROC_START
+keywords: mediaplayer
+task: LEGACY_EVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

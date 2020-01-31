@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathRecognizer
+event_id: '13'
+version: '0'
+event(fields): RecognitionSymbolRecoStart()
+opcode: Start
+keywords: ''
+task: RecognitionSymbolReco
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

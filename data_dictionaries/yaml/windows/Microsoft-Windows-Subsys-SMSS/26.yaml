@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Subsys-SMSS
+event_id: '26'
+version: '0'
+event(fields): smss:InitializeKnownDllsStop(UInt32 Status)
+opcode: Stop
+keywords: smss:Diagnostics
+task: smss:InitializeKnownDlls
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

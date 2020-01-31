@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ThemeCPL
+event_id: '6'
+version: '0'
+event(fields): Personalization_ThemeSwitchStart()
+opcode: Start
+keywords: ThemeCPL
+task: Personalization_ThemeSwitch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

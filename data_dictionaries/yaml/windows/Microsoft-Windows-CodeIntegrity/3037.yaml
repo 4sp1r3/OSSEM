@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3037'
+version: '0'
+event(fields): CreateSectionUnsignedImageLoaded(UInt16 FileNameLength, UnicodeString
+  FileNameBuffer)
+opcode: UnsignedImageLoaded
+keywords: ''
+task: CreateSection
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '3020'
+version: '1'
+event(fields): PnporPowerManagementoperationtoaparticulardriverinadevicestack.Stop3020_V1(GUID
+  LifetimeId, UnicodeString InstanceId, UInt32 Level, UInt8 StateMachine, UInt32 Event)
+opcode: Stop
+keywords: ''
+task: PnporPowerManagementoperationtoaparticulardriverinadevicestack.
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId
+- field_type: UnicodeString
+  field_name: InstanceId
+- field_type: UInt32
+  field_name: Level
+- field_type: UInt8
+  field_name: StateMachine
+- field_type: UInt32
+  field_name: Event

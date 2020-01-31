@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '2000'
+version: '0'
+event(fields): task_02000(UInt16 ReassembledEventID, UInt32 FragmentSize, Binary FragmentData)
+opcode: ''
+keywords: keyword_40000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ReassembledEventID
+- field_type: UInt32
+  field_name: FragmentSize
+- field_type: Binary
+  field_name: FragmentData

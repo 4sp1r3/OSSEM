@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '223'
+version: '0'
+event(fields): DITSpeedHitTestFailedRevalidation(Pointer Hwnd)
+opcode: ''
+keywords: MessagePumpInternalAndInput ComponentHosting
+task: DITSpeedHitTestFailedRevalidation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Hwnd

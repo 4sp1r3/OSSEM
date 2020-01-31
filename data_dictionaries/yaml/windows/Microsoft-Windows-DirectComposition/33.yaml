@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '33'
+version: '0'
+event(fields): PUSH_DOWNStart(UInt64 surfacePointer)
+opcode: Start
+keywords: DCompDiagnostic DCompMemory
+task: PUSH_DOWN
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: surfacePointer

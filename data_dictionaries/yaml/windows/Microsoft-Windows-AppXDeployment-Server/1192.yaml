@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1192'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.SISOptimizationStop1192()
+opcode: Stop
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.SISOptimization
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSDTC Client 2
+event_id: '4872'
+version: '0'
+event(fields): task_0PCODE_128pcode_128()
+opcode: opcode_128
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

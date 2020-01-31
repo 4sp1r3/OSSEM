@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-Kernel-Memory
+event_id: '1'
+version: '1'
+event(fields): MemInfo_V1(UInt8 PriorityLevels, Pointer ZeroPageCount, Pointer FreePageCount,
+  Pointer ModifiedPageCount, Pointer ModifiedNoWritePageCount, Pointer BadPageCount,
+  Pointer StandbyPageCounts, Pointer RepurposedPageCounts, Pointer ModifiedPageCountPageFile,
+  Pointer PagedPoolPageCount, Pointer NonPagedPoolPageCount, Pointer MdlPageCount,
+  Pointer CommitPageCount)
+opcode: ''
+keywords: KERNEL_MEM_KEYWORD_MEMINFO
+task: MemInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: PriorityLevels
+- field_type: Pointer
+  field_name: ZeroPageCount
+- field_type: Pointer
+  field_name: FreePageCount
+- field_type: Pointer
+  field_name: ModifiedPageCount
+- field_type: Pointer
+  field_name: ModifiedNoWritePageCount
+- field_type: Pointer
+  field_name: BadPageCount
+- field_type: Pointer
+  field_name: StandbyPageCounts
+- field_type: Pointer
+  field_name: RepurposedPageCounts
+- field_type: Pointer
+  field_name: ModifiedPageCountPageFile
+- field_type: Pointer
+  field_name: PagedPoolPageCount
+- field_type: Pointer
+  field_name: NonPagedPoolPageCount
+- field_type: Pointer
+  field_name: MdlPageCount
+- field_type: Pointer
+  field_name: CommitPageCount

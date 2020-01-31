@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4437'
+version: '0'
+event(fields): DXGIBufferStart(Pointer Buffer, UInt32 Width, UInt32 Height, UInt32
+  Format)
+opcode: Start
+keywords: ''
+task: DXGIBuffer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: Format

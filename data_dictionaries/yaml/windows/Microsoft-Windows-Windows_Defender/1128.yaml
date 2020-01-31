@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Windows Defender
+event_id: '1128'
+version: '0'
+event(fields): task_01128(UnicodeString ProductName, UnicodeString ProductVersion,
+  UnicodeString Unused, UnicodeString ID, UnicodeString DetectionTime, UnicodeString
+  User, UnicodeString Path, UnicodeString ProcessName, UnicodeString SecurityintelligenceVersion,
+  UnicodeString EngineVersion)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UnicodeString
+  field_name: ProductVersion
+- field_type: UnicodeString
+  field_name: Unused
+- field_type: UnicodeString
+  field_name: ID
+- field_type: UnicodeString
+  field_name: DetectionTime
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: SecurityintelligenceVersion
+- field_type: UnicodeString
+  field_name: EngineVersion

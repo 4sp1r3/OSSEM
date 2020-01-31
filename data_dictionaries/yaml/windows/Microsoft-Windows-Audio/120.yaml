@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Audio
+event_id: '120'
+version: '0'
+event(fields): Pump:MultiMediamodeStop(Pointer PumpInstance)
+opcode: Stop
+keywords: ''
+task: Pump:MultiMediamode
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PumpInstance

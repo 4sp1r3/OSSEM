@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '1000'
+version: '0'
+event(fields): AfdCreateOpen(UInt32 EnterExit, UInt32 Location, Pointer Process, Pointer
+  Endpoint, UInt32 AddressFamily, UInt32 SocketType, UInt32 Protocol, Pointer ProcessId,
+  UInt32 Status)
+opcode: Open
+keywords: AFD_KW_SOURCE_WINSOCK
+task: AfdCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EnterExit
+- field_type: UInt32
+  field_name: Location
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: SocketType
+- field_type: UInt32
+  field_name: Protocol
+- field_type: Pointer
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: Status

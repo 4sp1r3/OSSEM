@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '89'
+version: '0'
+event(fields): ILStubStubCacheHit(UInt16 ClrInstanceID, UInt64 ModuleID, UInt64 StubMethodID,
+  UInt32 ManagedInteropMethodToken, UnicodeString ManagedInteropMethodNamespace, UnicodeString
+  ManagedInteropMethodName, UnicodeString ManagedInteropMethodSignature)
+opcode: StubCacheHit
+keywords: InteropKeyword
+task: ILStub
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: UInt64
+  field_name: ModuleID
+- field_type: UInt64
+  field_name: StubMethodID
+- field_type: UInt32
+  field_name: ManagedInteropMethodToken
+- field_type: UnicodeString
+  field_name: ManagedInteropMethodNamespace
+- field_type: UnicodeString
+  field_name: ManagedInteropMethodName
+- field_type: UnicodeString
+  field_name: ManagedInteropMethodSignature

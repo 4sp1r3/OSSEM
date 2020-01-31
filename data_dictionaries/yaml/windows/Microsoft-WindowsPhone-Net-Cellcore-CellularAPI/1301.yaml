@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '1301'
+version: '0'
+event(fields): CWnfSubscription1301(AnsiString FunctionName, UInt32 cbBytes, UInt8
+  Bytes, UInt64 Pointer1, UInt64 Pointer2)
+opcode: ''
+keywords: Information
+task: CWnfSubscription
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: FunctionName
+- field_type: UInt32
+  field_name: cbBytes
+- field_type: UInt8
+  field_name: Bytes
+- field_type: UInt64
+  field_name: Pointer1
+- field_type: UInt64
+  field_name: Pointer2

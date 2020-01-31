@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-Security-Mitigations
+event_id: '5'
+version: '0'
+event(fields): KERNEL_MITIGATION_TASK_PROHIBIT_LOWIL_IMAGE_MAP(UInt16 ProcessPathLength,
+  UnicodeString ProcessPath, UInt16 ProcessCommandLineLength, UnicodeString ProcessCommandLine,
+  UInt32 ProcessId, FILETIME ProcessCreateTime, UInt64 ProcessStartKey, UInt8 ProcessSignatureLevel,
+  UInt8 ProcessSectionSignatureLevel, UInt8 ProcessProtection, UInt32 TargetThreadId,
+  FILETIME TargetThreadCreateTime, UInt16 ImageNameLength, UnicodeString ImageName)
+opcode: ''
+keywords: ''
+task: KERNEL_MITIGATION_TASK_PROHIBIT_LOWIL_IMAGE_MAP
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ProcessPathLength
+- field_type: UnicodeString
+  field_name: ProcessPath
+- field_type: UInt16
+  field_name: ProcessCommandLineLength
+- field_type: UnicodeString
+  field_name: ProcessCommandLine
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: FILETIME
+  field_name: ProcessCreateTime
+- field_type: UInt64
+  field_name: ProcessStartKey
+- field_type: UInt8
+  field_name: ProcessSignatureLevel
+- field_type: UInt8
+  field_name: ProcessSectionSignatureLevel
+- field_type: UInt8
+  field_name: ProcessProtection
+- field_type: UInt32
+  field_name: TargetThreadId
+- field_type: FILETIME
+  field_name: TargetThreadCreateTime
+- field_type: UInt16
+  field_name: ImageNameLength
+- field_type: UnicodeString
+  field_name: ImageName

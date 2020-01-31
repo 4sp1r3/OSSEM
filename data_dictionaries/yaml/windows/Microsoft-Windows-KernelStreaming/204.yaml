@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-KernelStreaming
+event_id: '204'
+version: '0'
+event(fields): KS_CameraGrabStart(Pointer ProcessId, UInt32 PinId, Pointer FilterAddress)
+opcode: Start
+keywords: ''
+task: KS_CameraGrab
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: PinId
+- field_type: Pointer
+  field_name: FilterAddress

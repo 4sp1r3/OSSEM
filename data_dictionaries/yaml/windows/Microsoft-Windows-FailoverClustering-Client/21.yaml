@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FailoverClustering-Client
+event_id: '21'
+version: '0'
+event(fields): task_021(UnicodeString Parameter1)
+opcode: ''
+keywords: Group
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Parameter1

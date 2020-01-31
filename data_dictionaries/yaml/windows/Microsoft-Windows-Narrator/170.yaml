@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Narrator
+event_id: '170'
+version: '0'
+event(fields): UiaFocusEventReceivedStart(Int32 ElementAddress)
+opcode: Start
+keywords: PerfInstrumentation
+task: UiaFocusEventReceived
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ElementAddress

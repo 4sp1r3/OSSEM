@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MPRMSG
+event_id: '20267'
+version: '0'
+event(fields): task_020267(UnicodeString param1, UnicodeString param2, UnicodeString
+  param3, UnicodeString param4, UInt32 __binLength, Binary binary)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2
+- field_type: UnicodeString
+  field_name: param3
+- field_type: UnicodeString
+  field_name: param4
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: binary

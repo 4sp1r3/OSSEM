@@ -1,0 +1,35 @@
+provider: Windows Kernel Trace
+category: '{01853a65-418f-4f36-aefc-dc0f1d2fd235}'
+event_id: '22'
+version: '5'
+event(fields): SystemConfig_PnP(Object ClassGuid, UInt32 UpperFiltersCount, UInt32
+  LowerFiltersCount, UInt32 DevStatus, UInt32 DevProblem, String DeviceID, String
+  DeviceDescription, String FriendlyName, String PdoName, String ServiceName, String
+  UpperFilters, String LowerFilters)
+event_type: ''
+description: ''
+event_fields:
+- field_type: Object
+  field_name: ClassGuid
+- field_type: UInt32
+  field_name: UpperFiltersCount
+- field_type: UInt32
+  field_name: LowerFiltersCount
+- field_type: UInt32
+  field_name: DevStatus
+- field_type: UInt32
+  field_name: DevProblem
+- field_type: String
+  field_name: DeviceID
+- field_type: String
+  field_name: DeviceDescription
+- field_type: String
+  field_name: FriendlyName
+- field_type: String
+  field_name: PdoName
+- field_type: String
+  field_name: ServiceName
+- field_type: String
+  field_name: UpperFilters
+- field_type: String
+  field_name: LowerFilters

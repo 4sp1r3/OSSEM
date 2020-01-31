@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7183'
+version: '0'
+event(fields): Perf_WLRoamCheckIfBackupIsDisabledStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamCheckIfBackupIsDisabled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

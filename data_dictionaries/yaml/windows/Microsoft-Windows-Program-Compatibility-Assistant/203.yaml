@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Program-Compatibility-Assistant
+event_id: '203'
+version: '0'
+event(fields): task_0203()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

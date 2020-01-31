@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1387'
+version: '0'
+event(fields): TcpRack(Pointer Tcb, UInt32 RackEvent, UInt32 RackMinRtt, UInt32 RackReoWind,
+  UInt32 RackTimeSlotDeltaMin, UInt32 SequenceNumber, UInt32 Timestamp, UInt32 RttSample)
+opcode: ''
+keywords: ut:SendPath
+task: TcpRack
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: RackEvent
+- field_type: UInt32
+  field_name: RackMinRtt
+- field_type: UInt32
+  field_name: RackReoWind
+- field_type: UInt32
+  field_name: RackTimeSlotDeltaMin
+- field_type: UInt32
+  field_name: SequenceNumber
+- field_type: UInt32
+  field_name: Timestamp
+- field_type: UInt32
+  field_name: RttSample

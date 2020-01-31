@@ -1,0 +1,15 @@
+provider: TPM
+event_id: '20'
+version: '0'
+event(fields): task_020(HexInt32 locationCode, UInt32 Data)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: locationCode
+- field_type: UInt32
+  field_name: Data

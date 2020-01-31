@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1410'
+version: '0'
+event(fields): OpenSearch_NormalizeResultsPageStop()
+opcode: Stop
+keywords: Shell
+task: OpenSearch_NormalizeResultsPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

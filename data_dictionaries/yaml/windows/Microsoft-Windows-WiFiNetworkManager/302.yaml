@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '302'
+version: '0'
+event(fields): task_0302()
+opcode: ''
+keywords: ScnEvt
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

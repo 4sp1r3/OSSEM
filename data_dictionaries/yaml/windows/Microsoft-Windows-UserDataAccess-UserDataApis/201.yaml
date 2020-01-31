@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '201'
+version: '0'
+event(fields): StartCallStart()
+opcode: Start
+keywords: Performance
+task: StartCall
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

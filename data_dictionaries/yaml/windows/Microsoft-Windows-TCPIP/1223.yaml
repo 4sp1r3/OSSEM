@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1223'
+version: '0'
+event(fields): TcpTemplateParameters(Pointer Tcb, UInt32 TemplateType, UInt32 MinRto,
+  UInt32 EnableCwndRestart, UInt32 InitialCwnd, UInt32 CongestionAlgorithm, UInt32
+  MaxDataRetransmissions, UInt32 DelayedAckTicks, UInt32 DelayedAckFrequency, UInt32
+  Rack, UInt32 TailLossProbe)
+opcode: ''
+keywords: ut:Global
+task: TcpTemplateParameters
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: TemplateType
+- field_type: UInt32
+  field_name: MinRto
+- field_type: UInt32
+  field_name: EnableCwndRestart
+- field_type: UInt32
+  field_name: InitialCwnd
+- field_type: UInt32
+  field_name: CongestionAlgorithm
+- field_type: UInt32
+  field_name: MaxDataRetransmissions
+- field_type: UInt32
+  field_name: DelayedAckTicks
+- field_type: UInt32
+  field_name: DelayedAckFrequency
+- field_type: UInt32
+  field_name: Rack
+- field_type: UInt32
+  field_name: TailLossProbe

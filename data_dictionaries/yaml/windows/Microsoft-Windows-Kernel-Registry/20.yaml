@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '20'
+version: '0'
+event(fields): Thisgroupofeventstrackstheperformanceofunloadinghives.Start(UnicodeString
+  HiveFilePath, UnicodeString HiveMountPoint)
+opcode: Start
+keywords: ''
+task: Thisgroupofeventstrackstheperformanceofunloadinghives.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HiveFilePath
+- field_type: UnicodeString
+  field_name: HiveMountPoint

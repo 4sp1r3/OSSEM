@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-BranchCacheMonitoring
+event_id: '206'
+version: '0'
+event(fields): task_0206(UInt64 RequestId, UnicodeString URL, UInt32 ClientIPv4Address,
+  Binary ClientIPv6Address, UInt64 PeerDistMinContentInformationVersion, UInt64 PeerDistMaxContentInformationVersion,
+  UInt64 PCCRTPProtocolVersion, Boolean RangeRequest, UInt32 RangeCount, UInt64 FirstRangeOffset,
+  UInt64 FirstRangeLenght, UInt16 HTTPProtocolMajorVersion, UInt16 HTTPProtocolMinorVersion,
+  UInt16 HTTPStatusCode, UInt64 OriginalContentLength, UInt64 EncodedContentLength)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RequestId
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt32
+  field_name: ClientIPv4Address
+- field_type: Binary
+  field_name: ClientIPv6Address
+- field_type: UInt64
+  field_name: PeerDistMinContentInformationVersion
+- field_type: UInt64
+  field_name: PeerDistMaxContentInformationVersion
+- field_type: UInt64
+  field_name: PCCRTPProtocolVersion
+- field_type: Boolean
+  field_name: RangeRequest
+- field_type: UInt32
+  field_name: RangeCount
+- field_type: UInt64
+  field_name: FirstRangeOffset
+- field_type: UInt64
+  field_name: FirstRangeLenght
+- field_type: UInt16
+  field_name: HTTPProtocolMajorVersion
+- field_type: UInt16
+  field_name: HTTPProtocolMinorVersion
+- field_type: UInt16
+  field_name: HTTPStatusCode
+- field_type: UInt64
+  field_name: OriginalContentLength
+- field_type: UInt64
+  field_name: EncodedContentLength

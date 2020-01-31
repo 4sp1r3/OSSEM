@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML
+event_id: '247'
+version: '1'
+event(fields): DCompSet2DTransform_V1(UInt64 Visual, UInt64 Transform, UInt32 IsAnimated)
+opcode: ''
+keywords: DComp
+task: DCompSet2DTransform
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Visual
+- field_type: UInt64
+  field_name: Transform
+- field_type: UInt32
+  field_name: IsAnimated

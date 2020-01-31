@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PerfNet
+event_id: '2001'
+version: '1'
+event(fields): task_02001_V1(UInt32 Win32Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Win32Error

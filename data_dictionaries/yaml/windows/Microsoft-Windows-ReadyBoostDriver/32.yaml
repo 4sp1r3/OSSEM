@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '32'
+version: '0'
+event(fields): SyncCallStart(Pointer Key)
+opcode: Start
+keywords: ReadyBoot
+task: SyncCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Key

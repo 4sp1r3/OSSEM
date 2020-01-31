@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-PLA
+event_id: '3002'
+version: '0'
+event(fields): task_03002(UnicodeString ReportFileName, UnicodeString Description)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ReportFileName
+- field_type: UnicodeString
+  field_name: Description

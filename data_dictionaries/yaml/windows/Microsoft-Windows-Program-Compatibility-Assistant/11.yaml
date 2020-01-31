@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Program-Compatibility-Assistant
+event_id: '11'
+version: '0'
+event(fields): task_011(UInt32 DisplayNameSize, UnicodeString DisplayName, UInt32
+  FullImagePathSize, UnicodeString FullImagePath, UInt32 SessionId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DisplayNameSize
+- field_type: UnicodeString
+  field_name: DisplayName
+- field_type: UInt32
+  field_name: FullImagePathSize
+- field_type: UnicodeString
+  field_name: FullImagePath
+- field_type: UInt32
+  field_name: SessionId

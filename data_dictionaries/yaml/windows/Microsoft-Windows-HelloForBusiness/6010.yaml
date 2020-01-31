@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '6010'
+version: '0'
+event(fields): KeyUseInformational(UnicodeString KeyName, UInt32 KeyUseCredUnavailableReason)
+opcode: Informational
+keywords: Internal
+task: KeyUse
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: UInt32
+  field_name: KeyUseCredUnavailableReason

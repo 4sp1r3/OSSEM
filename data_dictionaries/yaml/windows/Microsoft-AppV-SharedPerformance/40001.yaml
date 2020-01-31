@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40001'
+version: '0'
+event(fields): VReg.CreateKeyStop()
+opcode: Stop
+keywords: ''
+task: VReg.CreateKey
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

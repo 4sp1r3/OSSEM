@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '5'
+version: '0'
+event(fields): RemoteFXmoduleInitialize5(HexInt32 StatusCode)
+opcode: Initialize
+keywords: ''
+task: RemoteFXmodule
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: StatusCode

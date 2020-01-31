@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '545'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment545(UnicodeString PackageFullName,
+  UnicodeString FullFilePath, UnicodeString ErrorText, UnicodeString ErrorDescription,
+  Int32 LineNumber, Int32 ColumnNumber)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: FullFilePath
+- field_type: UnicodeString
+  field_name: ErrorText
+- field_type: UnicodeString
+  field_name: ErrorDescription
+- field_type: Int32
+  field_name: LineNumber
+- field_type: Int32
+  field_name: ColumnNumber

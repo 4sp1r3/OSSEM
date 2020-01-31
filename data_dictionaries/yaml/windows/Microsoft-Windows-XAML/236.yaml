@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-XAML
+event_id: '236'
+version: '0'
+event(fields): PresentControllerConvertQpcToVBlankNoFrameStats(UInt64 ControllerId,
+  UInt64 QPCTicks, UInt64 VBlank0InQPCTicks, Float QPCTicksPerVBlank, UInt32 VBlankCount)
+opcode: ''
+keywords: Rendering
+task: PresentControllerConvertQpcToVBlankNoFrameStats
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ControllerId
+- field_type: UInt64
+  field_name: QPCTicks
+- field_type: UInt64
+  field_name: VBlank0InQPCTicks
+- field_type: Float
+  field_name: QPCTicksPerVBlank
+- field_type: UInt32
+  field_name: VBlankCount

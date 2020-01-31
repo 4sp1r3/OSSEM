@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '3431'
+version: '0'
+event(fields): RemoteRegistrarClient_GetOrCreateReverseConnectionPortIDStop()
+opcode: Stop
+keywords: MessagingPerformance RegistrarClient
+task: RemoteRegistrarClient_GetOrCreateReverseConnectionPortID
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

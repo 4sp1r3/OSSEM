@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '4059'
+version: '0'
+event(fields): task_04059(UInt32 BadorInvalidPacket)
+opcode: ''
+keywords: teredo
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BadorInvalidPacket

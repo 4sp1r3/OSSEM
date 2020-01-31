@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-Machine-DUI
+event_id: '5118'
+version: '0'
+event(fields): WebWizardHost_FinalBack()
+opcode: ''
+keywords: msoobe
+task: WebWizardHost_FinalBack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

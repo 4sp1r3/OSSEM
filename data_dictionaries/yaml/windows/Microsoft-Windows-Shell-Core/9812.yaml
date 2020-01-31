@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9812'
+version: '0'
+event(fields): Explorer_PinnedListItemRemoved(UInt32 HRESULT, Int32 CallerId)
+opcode: ''
+keywords: Shell
+task: Explorer_PinnedListItemRemoved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: Int32
+  field_name: CallerId

@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1219'
+version: '0'
+event(fields): ForegroundTaskManager1219(UInt32 unParam)
+opcode: ''
+keywords: Error
+task: ForegroundTaskManager
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

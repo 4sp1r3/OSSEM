@@ -1,0 +1,47 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4661'
+version: '0'
+event(fields): task_04661(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString ObjectServer, UnicodeString
+  ObjectType, UnicodeString ObjectName, Pointer HandleId, GUID TransactionId, UnicodeString
+  AccessList, HexInt32 AccessMask, UnicodeString PrivilegeList, UnicodeString Properties,
+  UInt32 RestrictedSidCount, Pointer ProcessId, UnicodeString ProcessName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: ObjectServer
+- field_type: UnicodeString
+  field_name: ObjectType
+- field_type: UnicodeString
+  field_name: ObjectName
+- field_type: Pointer
+  field_name: HandleId
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UnicodeString
+  field_name: AccessList
+- field_type: HexInt32
+  field_name: AccessMask
+- field_type: UnicodeString
+  field_name: PrivilegeList
+- field_type: UnicodeString
+  field_name: Properties
+- field_type: UInt32
+  field_name: RestrictedSidCount
+- field_type: Pointer
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ProcessName

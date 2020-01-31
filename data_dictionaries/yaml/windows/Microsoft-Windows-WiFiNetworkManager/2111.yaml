@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '2111'
+version: '0'
+event(fields): task_02111(UnicodeString ssid, UnicodeString bssid)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ssid
+- field_type: UnicodeString
+  field_name: bssid

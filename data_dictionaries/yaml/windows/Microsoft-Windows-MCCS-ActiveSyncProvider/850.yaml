@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '850'
+version: '0'
+event(fields): task_0850(HexInt32 Prop_Dword, HexInt32 Prop_HRESULT)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Prop_Dword
+- field_type: HexInt32
+  field_name: Prop_HRESULT

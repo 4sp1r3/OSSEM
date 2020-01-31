@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1431'
+version: '0'
+event(fields): IpCompartmentCleanup(UInt32 CompartmentId, UInt32 AddressFamily, UInt32
+  Private, UInt32 Status)
+opcode: ''
+keywords: ut:Global
+task: IpCompartmentCleanup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: AddressFamily
+- field_type: UInt32
+  field_name: Private
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '350'
+version: '0'
+event(fields): CandidateView_Click(UInt32 value)
+opcode: ''
+keywords: TSF_UIManager
+task: CandidateView_Click
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: value

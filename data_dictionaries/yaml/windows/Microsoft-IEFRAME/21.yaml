@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '21'
+version: '0'
+event(fields): Browseui_Tabs_CloseTabStop(UInt32 TabID)
+opcode: Stop
+keywords: primarynav
+task: Browseui_Tabs_CloseTab
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID

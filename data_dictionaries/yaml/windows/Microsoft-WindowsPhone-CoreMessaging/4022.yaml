@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '4022'
+version: '0'
+event(fields): Messaging_FlushPendingStreamsStart(UInt32 ExternalPriority)
+opcode: Start
+keywords: MessagingPerformance Messaging
+task: Messaging_FlushPendingStreams
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ExternalPriority

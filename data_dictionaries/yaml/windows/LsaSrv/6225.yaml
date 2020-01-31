@@ -1,0 +1,11 @@
+provider: LsaSrv
+event_id: '6225'
+version: '0'
+event(fields): LSALogonStart()
+opcode: Start
+keywords: ''
+task: LSALogon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

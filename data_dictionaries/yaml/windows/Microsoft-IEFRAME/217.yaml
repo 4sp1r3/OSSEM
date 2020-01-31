@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '217'
+version: '0'
+event(fields): DLM_DownloadBar_CloseStart(Boolean OnCloseButton)
+opcode: Start
+keywords: primarynav
+task: DLM_DownloadBar_Close
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: OnCloseButton

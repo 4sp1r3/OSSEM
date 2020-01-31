@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '41'
+version: '2'
+event(fields): DirtyTransition_V2(UInt32 BugcheckCode, Pointer BugcheckParameter1,
+  Pointer BugcheckParameter2, Pointer BugcheckParameter3, Pointer BugcheckParameter4,
+  Boolean SleepInProgress, UInt64 PowerButtonTimestamp, UInt32 BootAppStatus)
+opcode: ''
+keywords: po:Simple
+task: DirtyTransition
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BugcheckCode
+- field_type: Pointer
+  field_name: BugcheckParameter1
+- field_type: Pointer
+  field_name: BugcheckParameter2
+- field_type: Pointer
+  field_name: BugcheckParameter3
+- field_type: Pointer
+  field_name: BugcheckParameter4
+- field_type: Boolean
+  field_name: SleepInProgress
+- field_type: UInt64
+  field_name: PowerButtonTimestamp
+- field_type: UInt32
+  field_name: BootAppStatus

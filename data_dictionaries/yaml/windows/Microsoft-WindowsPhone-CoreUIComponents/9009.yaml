@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9009'
+version: '0'
+event(fields): ViewManagerActiveViewChanged(UInt32 unParam)
+opcode: ActiveViewChanged
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

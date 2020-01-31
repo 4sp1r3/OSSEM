@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '49153'
+version: '1'
+event(fields): None49153_V1(UnicodeString param1, UnicodeString param2)
+opcode: ''
+keywords: ''
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2

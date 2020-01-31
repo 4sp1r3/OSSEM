@@ -1,0 +1,68 @@
+provider: Microsoft-Windows-BranchCacheMonitoring
+event_id: '101'
+version: '0'
+event(fields): task_0101(UInt64 CompletedDataDownloads, UInt64 SuccessfulDataDownloads,
+  UInt64 MaxObservedSimultaneousDownloads, UInt64 AverageDownloadByteRate, UInt64
+  CompletedDataUploads, UInt64 SuccessfulDataUploads, UInt64 MaxObservedSimultaneousUploads,
+  UInt32 AverageServingLatency, UInt32 MaxObservedServingLatency, Double CurrentAverageInboundRequestFrequency,
+  Double MaxObservedAverageInboundRequestFrequency, UInt64 AverageDiscoveryTime, UInt64
+  AttemptedNetworkDiscoveries, UInt64 AttemptedV1NetworkDiscoveries, UInt64 AttemptedV2NetworkDiscoveries,
+  UInt64 SuccessfulNetworkDiscoveries, UInt64 SuccessfulV1NetworkDiscoveries, UInt64
+  SuccessfulV2NetworkDiscoveries, UInt64 SuppressedDiscoveries, UInt64 PreDiscoveries,
+  Double CurrentAverageInboundDiscoveryFrequency, Double MaxObservedAverageInboundDiscoveryFrequency,
+  UInt64 TotalBytesServed, UInt64 TotalBytesRetrieved)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CompletedDataDownloads
+- field_type: UInt64
+  field_name: SuccessfulDataDownloads
+- field_type: UInt64
+  field_name: MaxObservedSimultaneousDownloads
+- field_type: UInt64
+  field_name: AverageDownloadByteRate
+- field_type: UInt64
+  field_name: CompletedDataUploads
+- field_type: UInt64
+  field_name: SuccessfulDataUploads
+- field_type: UInt64
+  field_name: MaxObservedSimultaneousUploads
+- field_type: UInt32
+  field_name: AverageServingLatency
+- field_type: UInt32
+  field_name: MaxObservedServingLatency
+- field_type: Double
+  field_name: CurrentAverageInboundRequestFrequency
+- field_type: Double
+  field_name: MaxObservedAverageInboundRequestFrequency
+- field_type: UInt64
+  field_name: AverageDiscoveryTime
+- field_type: UInt64
+  field_name: AttemptedNetworkDiscoveries
+- field_type: UInt64
+  field_name: AttemptedV1NetworkDiscoveries
+- field_type: UInt64
+  field_name: AttemptedV2NetworkDiscoveries
+- field_type: UInt64
+  field_name: SuccessfulNetworkDiscoveries
+- field_type: UInt64
+  field_name: SuccessfulV1NetworkDiscoveries
+- field_type: UInt64
+  field_name: SuccessfulV2NetworkDiscoveries
+- field_type: UInt64
+  field_name: SuppressedDiscoveries
+- field_type: UInt64
+  field_name: PreDiscoveries
+- field_type: Double
+  field_name: CurrentAverageInboundDiscoveryFrequency
+- field_type: Double
+  field_name: MaxObservedAverageInboundDiscoveryFrequency
+- field_type: UInt64
+  field_name: TotalBytesServed
+- field_type: UInt64
+  field_name: TotalBytesRetrieved

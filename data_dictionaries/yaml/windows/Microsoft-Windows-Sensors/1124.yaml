@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1124'
+version: '0'
+event(fields): SensorServicesettingsensorstateinaggregatedsensorStop(UInt32 SensorState)
+opcode: Stop
+keywords: SensPerf
+task: SensorServicesettingsensorstateinaggregatedsensor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SensorState

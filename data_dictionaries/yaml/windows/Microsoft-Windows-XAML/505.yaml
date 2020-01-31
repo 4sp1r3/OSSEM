@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '505'
+version: '0'
+event(fields): GenerateMCContainerStart(Int32 ItemIndex)
+opcode: Start
+keywords: Core
+task: GenerateMCContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ItemIndex

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '117'
+version: '0'
+event(fields): Notify_InitializeStart()
+opcode: Start
+keywords: Service
+task: Notify_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

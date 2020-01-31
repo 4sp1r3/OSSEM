@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9025'
+version: '0'
+event(fields): ViewManagerAddWindowToView(UInt32 unParam, UInt32 unParam2, Boolean
+  fBool, Boolean fBool2)
+opcode: AddWindowToView
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2
+- field_type: Boolean
+  field_name: fBool
+- field_type: Boolean
+  field_name: fBool2

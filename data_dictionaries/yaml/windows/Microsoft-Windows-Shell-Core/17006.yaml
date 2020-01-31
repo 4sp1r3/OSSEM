@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17006'
+version: '0'
+event(fields): ScopePicker_Folders_RenderingStop()
+opcode: Stop
+keywords: Shell
+task: ScopePicker_Folders_Rendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

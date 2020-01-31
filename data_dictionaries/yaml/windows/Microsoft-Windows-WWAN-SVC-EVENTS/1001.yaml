@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '1001'
+version: '0'
+event(fields): task_0(AnsiString FunctionCall, UnicodeString Message)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: FunctionCall
+- field_type: UnicodeString
+  field_name: Message

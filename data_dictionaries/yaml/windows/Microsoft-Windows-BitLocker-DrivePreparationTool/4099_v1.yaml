@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-BitLocker-DrivePreparationTool
+event_id: '4099'
+version: '1'
+event(fields): task_0Initialization4099_V1(UnicodeString RawCommandLine, Boolean ShowUsage,
+  Boolean DisplayDriveInfo, UnicodeString TargetDriveLetter, UInt32 TargetAction,
+  UnicodeString NewSystemDriveLetter, Int64 ShrinkSize, Boolean QuietMode, Boolean
+  AutoRestart)
+opcode: Initialization
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RawCommandLine
+- field_type: Boolean
+  field_name: ShowUsage
+- field_type: Boolean
+  field_name: DisplayDriveInfo
+- field_type: UnicodeString
+  field_name: TargetDriveLetter
+- field_type: UInt32
+  field_name: TargetAction
+- field_type: UnicodeString
+  field_name: NewSystemDriveLetter
+- field_type: Int64
+  field_name: ShrinkSize
+- field_type: Boolean
+  field_name: QuietMode
+- field_type: Boolean
+  field_name: AutoRestart

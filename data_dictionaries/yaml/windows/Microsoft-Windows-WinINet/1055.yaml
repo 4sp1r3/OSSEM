@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1055'
+version: '0'
+event(fields): Wininet_SelectStart(Pointer Request, UInt32 Flags)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_Select
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: UInt32
+  field_name: Flags

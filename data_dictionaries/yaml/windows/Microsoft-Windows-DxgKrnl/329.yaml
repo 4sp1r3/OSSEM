@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '329'
+version: '0'
+event(fields): SetProcessStatus(Pointer EProcess, UInt32 ProcessStatus)
+opcode: ''
+keywords: Base
+task: SetProcessStatus
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: EProcess
+- field_type: UInt32
+  field_name: ProcessStatus

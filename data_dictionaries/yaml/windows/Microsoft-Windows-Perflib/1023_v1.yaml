@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Perflib
+event_id: '1023'
+version: '1'
+event(fields): task_01023_V1(UnicodeString Library, UInt32 Win32Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Library
+- field_type: UInt32
+  field_name: Win32Error

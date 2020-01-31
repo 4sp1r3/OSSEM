@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '10117'
+version: '1'
+event(fields): Installationorupdateofdevicedrivers.10117_V1(UnicodeString ServiceName,
+  UInt32 ActualFuntionTableCount, UInt32 ExpectedFuntionTableCount)
+opcode: ''
+keywords: ''
+task: Installationorupdateofdevicedrivers.
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ServiceName
+- field_type: UInt32
+  field_name: ActualFuntionTableCount
+- field_type: UInt32
+  field_name: ExpectedFuntionTableCount

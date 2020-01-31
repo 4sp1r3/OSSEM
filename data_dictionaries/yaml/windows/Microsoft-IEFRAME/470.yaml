@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '470'
+version: '0'
+event(fields): BrowserRoamedSettingChange_TrackingProtectionStart(UInt64 HWND)
+opcode: Start
+keywords: roaming
+task: BrowserRoamedSettingChange_TrackingProtection
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: HWND

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1310'
+version: '0'
+event(fields): AppLayoutItem(UnicodeString AppUserModelID, UInt32 Left, UInt32 Top,
+  UInt32 Right, UInt32 Bottom)
+opcode: ''
+keywords: ''
+task: AppLayoutItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelID
+- field_type: UInt32
+  field_name: Left
+- field_type: UInt32
+  field_name: Top
+- field_type: UInt32
+  field_name: Right
+- field_type: UInt32
+  field_name: Bottom

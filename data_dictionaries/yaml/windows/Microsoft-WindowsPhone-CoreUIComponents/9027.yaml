@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9027'
+version: '0'
+event(fields): ViewManagerServerWindowCreated(UInt32 unParam, Int32 hresult)
+opcode: ServerWindowCreated
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: Int32
+  field_name: hresult

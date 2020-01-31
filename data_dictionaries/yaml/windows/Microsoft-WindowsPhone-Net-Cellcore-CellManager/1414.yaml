@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1414'
+version: '0'
+event(fields): SettingMigrate1414(UnicodeString wszString1, UnicodeString wszString2,
+  UInt32 dwCode2)
+opcode: ''
+keywords: Trace
+task: SettingMigrate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: wszString1
+- field_type: UnicodeString
+  field_name: wszString2
+- field_type: UInt32
+  field_name: dwCode2

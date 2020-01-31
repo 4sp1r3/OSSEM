@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30004'
+version: '1'
+event(fields): ManifestRead_3901Stop_V1()
+opcode: Stop
+keywords: ''
+task: ManifestRead_3901
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

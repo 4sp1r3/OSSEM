@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60026'
+version: '0'
+event(fields): IE_ExtensionCreateStart()
+opcode: Start
+keywords: InternetExplorer
+task: IE_ExtensionCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5159'
+version: '0'
+event(fields): task_05159(UInt64 ProcessId, UnicodeString Application, UnicodeString
+  SourceAddress, UnicodeString SourcePort, UInt32 Protocol, UInt64 FilterRTID, UnicodeString
+  LayerName, UInt64 LayerRTID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: Application
+- field_type: UnicodeString
+  field_name: SourceAddress
+- field_type: UnicodeString
+  field_name: SourcePort
+- field_type: UInt32
+  field_name: Protocol
+- field_type: UInt64
+  field_name: FilterRTID
+- field_type: UnicodeString
+  field_name: LayerName
+- field_type: UInt64
+  field_name: LayerRTID

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '55'
+version: '0'
+event(fields): ColorCalibration55()
+opcode: ''
+keywords: ''
+task: ColorCalibration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

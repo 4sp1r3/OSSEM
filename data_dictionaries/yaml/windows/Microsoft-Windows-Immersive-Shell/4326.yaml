@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4326'
+version: '0'
+event(fields): ImmersiveMonitorDestroyPerMonitorComponents(UInt32 MonitorIdentity,
+  Pointer HMonitor, UInt32 Left, UInt32 Top)
+opcode: ''
+keywords: ''
+task: ImmersiveMonitorDestroyPerMonitorComponents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MonitorIdentity
+- field_type: Pointer
+  field_name: HMonitor
+- field_type: UInt32
+  field_name: Left
+- field_type: UInt32
+  field_name: Top

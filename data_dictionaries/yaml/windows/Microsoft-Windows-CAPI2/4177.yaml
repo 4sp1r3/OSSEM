@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '4177'
+version: '0'
+event(fields): task_04177(UnicodeString 1, UnicodeString 2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: '1'
+- field_type: UnicodeString
+  field_name: '2'

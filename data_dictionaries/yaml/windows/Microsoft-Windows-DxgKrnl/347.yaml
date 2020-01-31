@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '347'
+version: '0'
+event(fields): VidMmTryOperation(UInt32 Status, UInt32 PageInPass, Boolean OverBudget,
+  UInt32 PriorityBandRestriction, Boolean PageInPreferredOnly, Boolean Recoverable,
+  Pointer FailedVidMmAlloc)
+opcode: ''
+keywords: VidMmWorkerThread
+task: VidMmTryOperation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: PageInPass
+- field_type: Boolean
+  field_name: OverBudget
+- field_type: UInt32
+  field_name: PriorityBandRestriction
+- field_type: Boolean
+  field_name: PageInPreferredOnly
+- field_type: Boolean
+  field_name: Recoverable
+- field_type: Pointer
+  field_name: FailedVidMmAlloc

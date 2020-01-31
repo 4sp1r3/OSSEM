@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1119'
+version: '0'
+event(fields): Wininet_BlobServerContainerStart1119(Pointer Object, UnicodeString
+  Url)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_BlobServerContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UnicodeString
+  field_name: Url

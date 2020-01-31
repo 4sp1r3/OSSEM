@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-RadioManager
+event_id: '8001'
+version: '0'
+event(fields): SystemRadioTurnOnStop()
+opcode: Stop
+keywords: ''
+task: SystemRadioTurnOn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

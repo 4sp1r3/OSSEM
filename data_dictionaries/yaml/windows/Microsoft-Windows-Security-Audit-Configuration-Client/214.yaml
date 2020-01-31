@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-Audit-Configuration-Client
+event_id: '214'
+version: '0'
+event(fields): task_0214()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

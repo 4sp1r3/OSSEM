@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '258'
+version: '0'
+event(fields): MPS_CLNT_API_EnumPhase2SAsStart()
+opcode: Start
+keywords: Client
+task: MPS_CLNT_API_EnumPhase2SAs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

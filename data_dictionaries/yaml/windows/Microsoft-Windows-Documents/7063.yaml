@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Documents
+event_id: '7063'
+version: '0'
+event(fields): DocPerf_Task_XpsViewer_MainframeBase_DisplayMessageIDStop(UInt32 ID)
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_XpsViewer_MainframeBase_DisplayMessageID
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ID

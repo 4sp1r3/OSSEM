@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '213'
+version: '0'
+event(fields): Mshtml_AttachIDispImage(UInt64 Object, UInt64 Value)
+opcode: ''
+keywords: subsystem
+task: Mshtml_AttachIDispImage
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object
+- field_type: UInt64
+  field_name: Value

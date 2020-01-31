@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DXGI
+event_id: '74'
+version: '0'
+event(fields): SwapChain(Pointer pIDXGISwapchain, Pointer m_pPreferredOutput, UInt32
+  NewSyncInterval)
+opcode: ''
+keywords: Events
+task: SwapChain
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapchain
+- field_type: Pointer
+  field_name: m_pPreferredOutput
+- field_type: UInt32
+  field_name: NewSyncInterval

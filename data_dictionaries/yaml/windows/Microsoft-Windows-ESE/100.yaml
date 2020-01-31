@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ESE
+event_id: '100'
+version: '0'
+event(fields): ESE_TraceBaseId_Trace()
+opcode: ''
+keywords: Trace
+task: ESE_TraceBaseId_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

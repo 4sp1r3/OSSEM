@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-ConfigManager
+event_id: '7'
+version: '0'
+event(fields): ReassociationStart7(Boolean OverwriteIfExists)
+opcode: Start
+keywords: ''
+task: Reassociation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: OverwriteIfExists

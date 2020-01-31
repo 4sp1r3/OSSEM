@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6645'
+version: '0'
+event(fields): ConnectCharm_PrintSourceEvaluateStop(UInt32 HRESULT)
+opcode: Stop
+keywords: ''
+task: ConnectCharm_PrintSourceEvaluate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

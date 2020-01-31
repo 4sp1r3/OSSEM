@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wallet
+event_id: '100'
+version: '0'
+event(fields): LaunchStart()
+opcode: Start
+keywords: Performance
+task: Launch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

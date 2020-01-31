@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '602'
+version: '0'
+event(fields): Smb2TreeConnectTerminateStop(GUID TreeConnectGUID, GUID SessionGUID)
+opcode: Stop
+keywords: TreeConnect
+task: Smb2TreeConnectTerminate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TreeConnectGUID
+- field_type: GUID
+  field_name: SessionGUID

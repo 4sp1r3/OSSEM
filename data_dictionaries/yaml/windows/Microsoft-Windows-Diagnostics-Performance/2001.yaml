@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '2001'
+version: '0'
+event(fields): Shell_DegradationDetectedStepUp()
+opcode: StepUp
+keywords: ShellStatus
+task: Shell_DegradationDetected
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '325'
+version: '0'
+event(fields): NotificationBar_UpdateStop()
+opcode: Stop
+keywords: notification
+task: NotificationBar_Update
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

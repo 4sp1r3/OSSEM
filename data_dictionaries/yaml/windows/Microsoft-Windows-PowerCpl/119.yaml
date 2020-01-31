@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerCpl
+event_id: '119'
+version: '0'
+event(fields): PowerCpl_LaunchStop()
+opcode: Stop
+keywords: PowerCpl
+task: PowerCpl_Launch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

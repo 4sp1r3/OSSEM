@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WebIO
+event_id: '202'
+version: '0'
+event(fields): ConnectionSocketConnectStop202(Pointer Connection, UInt64 SocketHandle,
+  UInt32 AddressLength, UnicodeString Address, Pointer Context, UInt64 RemainingAddressCount,
+  UInt32 Error)
+opcode: Stop
+keywords: Keyword.L3_CONNECT
+task: ConnectionSocketConnect
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: UInt64
+  field_name: SocketHandle
+- field_type: UInt32
+  field_name: AddressLength
+- field_type: UnicodeString
+  field_name: Address
+- field_type: Pointer
+  field_name: Context
+- field_type: UInt64
+  field_name: RemainingAddressCount
+- field_type: UInt32
+  field_name: Error

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '1015'
+version: '0'
+event(fields): PublishPackageStart()
+opcode: Start
+keywords: ''
+task: PublishPackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '15516'
+version: '0'
+event(fields): PropertySchema_LoadFromSavedBinaryFormStop()
+opcode: Stop
+keywords: Properties
+task: PropertySchema_LoadFromSavedBinaryForm
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

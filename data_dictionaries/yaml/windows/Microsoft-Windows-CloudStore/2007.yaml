@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CloudStore
+event_id: '2007'
+version: '0'
+event(fields): task_02007(UInt64 Index)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Index

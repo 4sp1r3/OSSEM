@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MPEG2_DLNA-Encoder
+event_id: '17'
+version: '0'
+event(fields): MuxSessionConfig(UInt8 MuxFormat)
+opcode: ''
+keywords: ''
+task: MuxSessionConfig
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: MuxFormat

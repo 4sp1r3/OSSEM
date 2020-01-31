@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '1030'
+version: '1'
+event(fields): ConfigurePackage1030_V1(GUID Package, GUID Version)
+opcode: ''
+keywords: Publishing
+task: ConfigurePackage
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Package
+- field_type: GUID
+  field_name: Version

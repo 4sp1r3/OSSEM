@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '810'
+version: '0'
+event(fields): task_0810(GUID Prop_Guid, HexInt32 Prop_Dword_1, UInt32 Prop_Dword_2,
+  UInt32 Prop_Dword_3, UInt32 Prop_Dword_4, UInt32 Prop_ScheduleTriggerRequirementFlags,
+  UInt32 EngineGuid)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Prop_Guid
+- field_type: HexInt32
+  field_name: Prop_Dword_1
+- field_type: UInt32
+  field_name: Prop_Dword_2
+- field_type: UInt32
+  field_name: Prop_Dword_3
+- field_type: UInt32
+  field_name: Prop_Dword_4
+- field_type: UInt32
+  field_name: Prop_ScheduleTriggerRequirementFlags
+- field_type: UInt32
+  field_name: EngineGuid

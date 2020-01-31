@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3084'
+version: '0'
+event(fields): WhqlEnforcementWhqlSettings(HexInt32 Settings, UInt8 Exemption)
+opcode: WhqlSettings
+keywords: ''
+task: WhqlEnforcement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Settings
+- field_type: UInt8
+  field_name: Exemption

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '301'
+version: '0'
+event(fields): CandidateWindowUIManager_CreateInstanceStop()
+opcode: Stop
+keywords: TSF_UIManager
+task: CandidateWindowUIManager_CreateInstance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

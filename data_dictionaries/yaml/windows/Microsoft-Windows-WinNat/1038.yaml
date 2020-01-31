@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1038'
+version: '0'
+event(fields): WinNatMTaskGenericEventInformational(UnicodeString Info)
+opcode: ''
+keywords: ut:NatGeneric
+task: WinNatMTaskGenericEventInformational
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Info

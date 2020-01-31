@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ErrorReportingConsole
+event_id: '109'
+version: '0'
+event(fields): PrsCheckForSolutionsStart()
+opcode: Start
+keywords: ''
+task: PrsCheckForSolutions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

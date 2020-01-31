@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '24'
+version: '0'
+event(fields): QueryStatsBatteryState(UInt32 StateFlags, UInt32 MaxCapacity, UInt32
+  RemainingCapacity, UInt32 Rate, UInt32 EstimatedTime)
+opcode: BatteryState
+keywords: ''
+task: QueryStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StateFlags
+- field_type: UInt32
+  field_name: MaxCapacity
+- field_type: UInt32
+  field_name: RemainingCapacity
+- field_type: UInt32
+  field_name: Rate
+- field_type: UInt32
+  field_name: EstimatedTime

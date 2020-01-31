@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1903'
+version: '0'
+event(fields): CmHelper1903(AnsiString AnsiStringName, UInt32 ActualIccIdLength, UInt8
+  ActualIccId, UInt32 ExpectedIccIdLength, UInt8 ExpectedIccId)
+opcode: ''
+keywords: Error
+task: CmHelper
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: AnsiStringName
+- field_type: UInt32
+  field_name: ActualIccIdLength
+- field_type: UInt8
+  field_name: ActualIccId
+- field_type: UInt32
+  field_name: ExpectedIccIdLength
+- field_type: UInt8
+  field_name: ExpectedIccId

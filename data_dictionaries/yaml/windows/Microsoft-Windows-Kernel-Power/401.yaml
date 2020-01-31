@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '401'
+version: '0'
+event(fields): SessionClosed(UInt32 SessionId, Boolean Console)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SessionClosed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: Boolean
+  field_name: Console

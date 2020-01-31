@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '303'
+version: '0'
+event(fields): IHM_DismissStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: IHM_Dismiss
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

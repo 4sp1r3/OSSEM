@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '91'
+version: '0'
+event(fields): MAINFRAME_DESTROYStart()
+opcode: Start
+keywords: mediaplayer
+task: MAINFRAME_DESTROY
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

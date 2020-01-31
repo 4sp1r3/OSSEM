@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '9005'
+version: '0'
+event(fields): SecondaryLogon_ChangedState(UInt32 NewState)
+opcode: ''
+keywords: SecondaryLogonStatus
+task: SecondaryLogon_ChangedState
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NewState

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDC
+event_id: '27'
+version: '0'
+event(fields): CsDisplayState(UInt32 On)
+opcode: ''
+keywords: Cs
+task: CsDisplayState
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: 'On'

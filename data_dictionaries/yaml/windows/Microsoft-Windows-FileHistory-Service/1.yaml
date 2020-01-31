@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-Service
+event_id: '1'
+version: '0'
+event(fields): ConfigurationLoadStart()
+opcode: Start
+keywords: ''
+task: ConfigurationLoad
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

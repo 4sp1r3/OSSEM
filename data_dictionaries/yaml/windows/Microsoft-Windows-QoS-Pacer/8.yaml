@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-QoS-Pacer
+event_id: '8'
+version: '0'
+event(fields): task_08(Int16 DsClass, Int16 TrafficClass, Int16 Wmm)
+opcode: ''
+keywords: keyword_40000000000
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int16
+  field_name: DsClass
+- field_type: Int16
+  field_name: TrafficClass
+- field_type: Int16
+  field_name: Wmm

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '8010'
+version: '0'
+event(fields): FinishInstallOperationsstatehaschanged.(UInt32 hc_stateid)
+opcode: ''
+keywords: ''
+task: FinishInstallOperationsstatehaschanged.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hc_stateid

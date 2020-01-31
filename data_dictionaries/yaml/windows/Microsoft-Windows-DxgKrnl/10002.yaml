@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '10002'
+version: '0'
+event(fields): PerfTrack_DMM_Hotplug_Monitor_Set_VideoModeStop10002(UInt32 PerfTrack_Uniqueness_Id)
+opcode: Stop
+keywords: DxgKrnl
+task: PerfTrack_DMM_Hotplug_Monitor_Set_VideoMode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PerfTrack_Uniqueness_Id

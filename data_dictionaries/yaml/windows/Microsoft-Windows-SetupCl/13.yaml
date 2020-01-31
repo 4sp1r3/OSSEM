@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SetupCl
+event_id: '13'
+version: '0'
+event(fields): SetupCltaskStop13(UnicodeString HiveName)
+opcode: Stop
+keywords: keyPerformance
+task: SetupCltask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HiveName

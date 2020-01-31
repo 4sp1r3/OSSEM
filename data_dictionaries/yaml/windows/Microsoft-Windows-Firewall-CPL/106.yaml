@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Firewall-CPL
+event_id: '106'
+version: '0'
+event(fields): SetFirewallOnStop()
+opcode: Stop
+keywords: FirewallCpl
+task: SetFirewallOn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-XAML
+event_id: '364'
+version: '0'
+event(fields): ImageEnsureAndUpdateHardwareResourcesStart(UInt64 ImageId, UnicodeString
+  URI)
+opcode: Start
+keywords: Images
+task: ImageEnsureAndUpdateHardwareResources
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ImageId
+- field_type: UnicodeString
+  field_name: URI

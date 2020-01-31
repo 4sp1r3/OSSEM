@@ -1,0 +1,11 @@
+provider: Intel-iaLPSS2-GPIO2
+event_id: '1032'
+version: '0'
+event(fields): iaLPSS_GPIO2GpioCxDDIcalls1032()
+opcode: ''
+keywords: ''
+task: iaLPSS_GPIO2GpioCxDDIcalls
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

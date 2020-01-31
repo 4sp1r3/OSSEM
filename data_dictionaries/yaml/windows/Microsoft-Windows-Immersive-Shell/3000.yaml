@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '3000'
+version: '0'
+event(fields): Watermark_Register_Licensing_Event_Error(UInt32 Result)
+opcode: ''
+keywords: ''
+task: Watermark_Register_Licensing_Event_Error
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1602'
+version: '0'
+event(fields): task_01602(UnicodeString szString1, UInt32 dwValue1, UInt32 dwValue2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: szString1
+- field_type: UInt32
+  field_name: dwValue1
+- field_type: UInt32
+  field_name: dwValue2

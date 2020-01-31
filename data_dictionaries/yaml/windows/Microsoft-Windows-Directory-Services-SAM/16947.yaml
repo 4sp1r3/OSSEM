@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Directory-Services-SAM
+event_id: '16947'
+version: '0'
+event(fields): task_016947(UnicodeString OID, UnicodeString OIDObjectDN, UnicodeString
+  GroupDN, UnicodeString GroupGUID, UnicodeString GroupSID, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: OID
+- field_type: UnicodeString
+  field_name: OIDObjectDN
+- field_type: UnicodeString
+  field_name: GroupDN
+- field_type: UnicodeString
+  field_name: GroupGUID
+- field_type: UnicodeString
+  field_name: GroupSID
+- field_type: UInt32
+  field_name: ErrorCode

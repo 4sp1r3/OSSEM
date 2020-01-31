@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WPDClassInstaller
+event_id: '101'
+version: '0'
+event(fields): DriverPerformanceStop(UInt32 InstallFunctionCode, UnicodeString InstallFunctionName,
+  UInt32 ReturnCode)
+opcode: Stop
+keywords: ''
+task: DriverPerformance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InstallFunctionCode
+- field_type: UnicodeString
+  field_name: InstallFunctionName
+- field_type: UInt32
+  field_name: ReturnCode

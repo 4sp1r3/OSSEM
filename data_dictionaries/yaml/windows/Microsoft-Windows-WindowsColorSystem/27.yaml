@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '27'
+version: '0'
+event(fields): TransformCreation27(Float Min, Float Max)
+opcode: ''
+keywords: wcse:Cite
+task: TransformCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: Min
+- field_type: Float
+  field_name: Max

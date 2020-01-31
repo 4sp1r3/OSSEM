@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '15'
+version: '0'
+event(fields): TelemetryCheck(UnicodeString GUID, UnicodeString DV, UnicodeString
+  FV, UnicodeString OSV, UnicodeString BrowserLang, UnicodeString ReportType, UnicodeString
+  ClientID, UnicodeString TopURL, UnicodeString RawTopURL, UnicodeString TopReferURL,
+  UnicodeString RawTopReferURL, UnicodeString HostIP, UnicodeString Threats, UInt32
+  FramesCount, UnicodeString WhyString)
+opcode: ''
+keywords: functionality
+task: TelemetryCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: GUID
+- field_type: UnicodeString
+  field_name: DV
+- field_type: UnicodeString
+  field_name: FV
+- field_type: UnicodeString
+  field_name: OSV
+- field_type: UnicodeString
+  field_name: BrowserLang
+- field_type: UnicodeString
+  field_name: ReportType
+- field_type: UnicodeString
+  field_name: ClientID
+- field_type: UnicodeString
+  field_name: TopURL
+- field_type: UnicodeString
+  field_name: RawTopURL
+- field_type: UnicodeString
+  field_name: TopReferURL
+- field_type: UnicodeString
+  field_name: RawTopReferURL
+- field_type: UnicodeString
+  field_name: HostIP
+- field_type: UnicodeString
+  field_name: Threats
+- field_type: UInt32
+  field_name: FramesCount
+- field_type: UnicodeString
+  field_name: WhyString

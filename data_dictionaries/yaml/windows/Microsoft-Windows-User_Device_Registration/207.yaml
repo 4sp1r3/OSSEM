@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '207'
+version: '0'
+event(fields): task_0207(UnicodeString FunctionName, UnicodeString ParameterName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FunctionName
+- field_type: UnicodeString
+  field_name: ParameterName

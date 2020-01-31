@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '7108'
+version: '0'
+event(fields): AppHistory_AddImmersiveApplicationStart()
+opcode: Start
+keywords: datamonitor
+task: AppHistory_AddImmersiveApplication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

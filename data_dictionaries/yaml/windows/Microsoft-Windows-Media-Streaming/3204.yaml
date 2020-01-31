@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '3204'
+version: '0'
+event(fields): PlayTo_VerifyShouldDisplayStop(UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: PlayTo_VerifyShouldDisplay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

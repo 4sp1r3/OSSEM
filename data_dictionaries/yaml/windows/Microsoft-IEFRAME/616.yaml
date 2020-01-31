@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '616'
+version: '0'
+event(fields): Shdocvw_VirtualTab_RedirectUrlWithBindInfo()
+opcode: ''
+keywords: primarynav
+task: Shdocvw_VirtualTab_RedirectUrlWithBindInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

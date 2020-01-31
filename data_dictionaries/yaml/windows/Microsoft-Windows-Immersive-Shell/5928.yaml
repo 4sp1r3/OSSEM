@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5928'
+version: '0'
+event(fields): AppActivation_RPCTimeout_WaitStop(UnicodeString PsmKey, UInt32 WaitSignal)
+opcode: Stop
+keywords: ''
+task: AppActivation_RPCTimeout_Wait
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: WaitSignal

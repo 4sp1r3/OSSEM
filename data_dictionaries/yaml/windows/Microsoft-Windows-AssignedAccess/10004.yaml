@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AssignedAccess
+event_id: '10004'
+version: '0'
+event(fields): ConfiguringAssignedAccess10004(UnicodeString AppID)
+opcode: ''
+keywords: ''
+task: ConfiguringAssignedAccess
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID

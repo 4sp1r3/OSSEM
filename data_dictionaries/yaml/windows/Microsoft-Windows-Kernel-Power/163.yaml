@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '163'
+version: '0'
+event(fields): ThermalZoneOverthrottledUpdate(UInt16 ThermalZoneDeviceInstanceLength,
+  UnicodeString ThermalZoneDeviceInstance, Boolean Engaged)
+opcode: ''
+keywords: po:Thermal
+task: ThermalZoneOverthrottledUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ThermalZoneDeviceInstanceLength
+- field_type: UnicodeString
+  field_name: ThermalZoneDeviceInstance
+- field_type: Boolean
+  field_name: Engaged

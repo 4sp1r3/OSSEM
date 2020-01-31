@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '262'
+version: '0'
+event(fields): DXWorkCompleteStart(Pointer Object, Pointer Sample)
+opcode: Start
+keywords: ''
+task: DXWorkComplete
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: Sample

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Kernel-File
+event_id: '20'
+version: '1'
+event(fields): DirEnum_V1(Pointer Irp, Pointer FileObject, Pointer FileKey, UInt32
+  IssuingThreadId, UInt32 Length, UInt32 InfoClass, UInt32 FileIndex, UnicodeString
+  FileName)
+opcode: ''
+keywords: KERNEL_FILE_KEYWORD_FILEIO
+task: DirEnum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: Pointer
+  field_name: FileObject
+- field_type: Pointer
+  field_name: FileKey
+- field_type: UInt32
+  field_name: IssuingThreadId
+- field_type: UInt32
+  field_name: Length
+- field_type: UInt32
+  field_name: InfoClass
+- field_type: UInt32
+  field_name: FileIndex
+- field_type: UnicodeString
+  field_name: FileName

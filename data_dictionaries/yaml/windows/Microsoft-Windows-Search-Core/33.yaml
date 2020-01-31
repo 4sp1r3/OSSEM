@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '33'
+version: '0'
+event(fields): RetrieveValueStop()
+opcode: Stop
+keywords: ''
+task: RetrieveValue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

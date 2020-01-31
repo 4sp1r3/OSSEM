@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '163'
+version: '0'
+event(fields): DynDataNLA2ndPhase_ShutdownStart()
+opcode: Start
+keywords: Service
+task: DynDataNLA2ndPhase_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

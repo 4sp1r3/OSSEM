@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '44'
+version: '1'
+event(fields): IOThreadCreationStart_V1(UInt32 IOThreadCount, UInt32 RetiredIOThreads,
+  UInt16 ClrInstanceID)
+opcode: Start
+keywords: ThreadingKeyword
+task: IOThreadCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IOThreadCount
+- field_type: UInt32
+  field_name: RetiredIOThreads
+- field_type: UInt16
+  field_name: ClrInstanceID

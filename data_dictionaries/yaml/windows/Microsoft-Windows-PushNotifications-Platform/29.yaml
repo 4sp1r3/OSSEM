@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '29'
+version: '0'
+event(fields): DefragFileStart29()
+opcode: Start
+keywords: wpnplat wpntroubleshoot
+task: DefragFile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

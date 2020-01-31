@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PDC
+event_id: '73'
+version: '0'
+event(fields): ResiliencyClientRegistrationRundown(Pointer Client, UInt64 ClientReferences,
+  UInt32 CurrentState, UInt32 Type)
+opcode: ''
+keywords: clients CsDiag
+task: ResiliencyClientRegistrationRundown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Client
+- field_type: UInt64
+  field_name: ClientReferences
+- field_type: UInt32
+  field_name: CurrentState
+- field_type: UInt32
+  field_name: Type

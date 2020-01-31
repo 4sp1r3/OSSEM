@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '6'
+version: '0'
+event(fields): WSManSessioninitializeStart(UnicodeString connection)
+opcode: Start
+keywords: Keyword.Client
+task: WSManSessioninitialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: connection

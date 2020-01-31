@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PDC
+event_id: '128'
+version: '0'
+event(fields): PdcInvalidArgumentToFunction(UInt32 FunctionNameLength, UnicodeString
+  FunctionName, UInt32 ArgumentNameLength, UnicodeString ArgumentName)
+opcode: ''
+keywords: ''
+task: PdcInvalidArgumentToFunction
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FunctionNameLength
+- field_type: UnicodeString
+  field_name: FunctionName
+- field_type: UInt32
+  field_name: ArgumentNameLength
+- field_type: UnicodeString
+  field_name: ArgumentName

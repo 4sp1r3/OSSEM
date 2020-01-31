@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '827'
+version: '0'
+event(fields): WINHTTP_AUTOPROXY_PERFTRACK_UNKNOWN_DETECTIONStop()
+opcode: Stop
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_AUTOPROXY_PERFTRACK_UNKNOWN_DETECTION
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

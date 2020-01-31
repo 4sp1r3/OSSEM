@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-ThemeCPL
+event_id: '4'
+version: '0'
+event(fields): Personalization_HubPageInitStart(GUID SqmSessionGuid, UInt32 SqmID,
+  UInt32 SqmType, UInt32 SqmDWORDDatapointValue)
+opcode: Start
+keywords: ''
+task: Personalization_HubPageInit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SqmSessionGuid
+- field_type: UInt32
+  field_name: SqmID
+- field_type: UInt32
+  field_name: SqmType
+- field_type: UInt32
+  field_name: SqmDWORDDatapointValue

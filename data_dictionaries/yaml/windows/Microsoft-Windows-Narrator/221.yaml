@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Narrator
+event_id: '221'
+version: '0'
+event(fields): CacheSessionStop(Int32 HitCount, Int32 MissCount, Int32 IgnoreCount,
+  Int32 RemoveCount)
+opcode: Stop
+keywords: PerfInstrumentation
+task: CacheSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HitCount
+- field_type: Int32
+  field_name: MissCount
+- field_type: Int32
+  field_name: IgnoreCount
+- field_type: Int32
+  field_name: RemoveCount

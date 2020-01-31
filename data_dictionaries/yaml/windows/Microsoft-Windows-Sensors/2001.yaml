@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Sensors
+event_id: '2001'
+version: '0'
+event(fields): PerfMarkersfortimebetweenstartingLocationAPIandconsentpromptappearsStart()
+opcode: Start
+keywords: SensPerf
+task: PerfMarkersfortimebetweenstartingLocationAPIandconsentpromptappears
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

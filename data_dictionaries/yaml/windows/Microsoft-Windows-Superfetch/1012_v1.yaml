@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1012'
+version: '1'
+event(fields): StoreLogDelete_V1(UInt32 StoreBitmap)
+opcode: ''
+keywords: StoreLog
+task: StoreLogDelete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StoreBitmap

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '57400'
+version: '0'
+event(fields): task_057400(UnicodeString ExtendedData, UnicodeString AppDomain)
+opcode: ''
+keywords: Infrastructure
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtendedData
+- field_type: UnicodeString
+  field_name: AppDomain

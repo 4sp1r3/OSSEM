@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '156'
+version: '0'
+event(fields): ImmersiveShellLayoutInvalidate(UInt32 InvalidationReason)
+opcode: ''
+keywords: ''
+task: ImmersiveShellLayoutInvalidate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InvalidationReason

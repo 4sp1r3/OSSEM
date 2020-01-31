@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AssignedAccessBroker
+event_id: '30007'
+version: '0'
+event(fields): LockAppPidTask(UnicodeString Interface, HexInt32 HResult)
+opcode: ''
+keywords: ''
+task: LockAppPidTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Interface
+- field_type: HexInt32
+  field_name: HResult

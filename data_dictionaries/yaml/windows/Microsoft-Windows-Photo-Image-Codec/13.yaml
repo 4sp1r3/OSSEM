@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Photo-Image-Codec
+event_id: '13'
+version: '0'
+event(fields): WMPHOTO_Transcoder_TranscodeParams_Info(Int32 ROIWidth, Int32 ROIHeight,
+  Int32 ROIX, Int32 ROIY, UInt8 Subband, UInt8 BitStreamFormat, UInt8 Orientation,
+  UInt8 IgnoreOverlap, UInt8 DiscardAlpha)
+opcode: ''
+keywords: ''
+task: WMPHOTO_Transcoder_TranscodeParams_Info
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ROIWidth
+- field_type: Int32
+  field_name: ROIHeight
+- field_type: Int32
+  field_name: ROIX
+- field_type: Int32
+  field_name: ROIY
+- field_type: UInt8
+  field_name: Subband
+- field_type: UInt8
+  field_name: BitStreamFormat
+- field_type: UInt8
+  field_name: Orientation
+- field_type: UInt8
+  field_name: IgnoreOverlap
+- field_type: UInt8
+  field_name: DiscardAlpha

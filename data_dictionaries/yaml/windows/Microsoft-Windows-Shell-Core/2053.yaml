@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '2053'
+version: '0'
+event(fields): Browseui_SearchControl_PositionChildWindowsStart()
+opcode: Start
+keywords: Shell
+task: Browseui_SearchControl_PositionChildWindows
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

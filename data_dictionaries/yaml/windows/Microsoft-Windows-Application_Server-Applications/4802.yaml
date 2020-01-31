@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4802'
+version: '0'
+event(fields): DiscoveryClientExceptionSuppressed(UnicodeString SerializedException,
+  UnicodeString AppDomain)
+opcode: ExceptionSuppressed
+keywords: Discovery
+task: DiscoveryClient
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SerializedException
+- field_type: UnicodeString
+  field_name: AppDomain

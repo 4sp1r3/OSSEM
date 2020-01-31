@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5380'
+version: '0'
+event(fields): Dashboard_Disk_EnumerateDisksStop(UInt32 DiskCount)
+opcode: Stop
+keywords: dashboard
+task: Dashboard_Disk_EnumerateDisks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DiskCount

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-AppCompat
+event_id: '10'
+version: '0'
+event(fields): CompatMapQuirksStart()
+opcode: Start
+keywords: ''
+task: CompatMapQuirks
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

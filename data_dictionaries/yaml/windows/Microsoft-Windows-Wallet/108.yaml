@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wallet
+event_id: '108'
+version: '0'
+event(fields): Item_SaveStart()
+opcode: Start
+keywords: Performance
+task: Item_Save
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

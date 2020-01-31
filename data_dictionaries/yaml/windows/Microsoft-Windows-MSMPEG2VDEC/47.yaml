@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '47'
+version: '0'
+event(fields): DXVA_EndFrameStop()
+opcode: Stop
+keywords: ''
+task: DXVA_EndFrame
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

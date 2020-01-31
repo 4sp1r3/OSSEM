@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '90'
+version: '0'
+event(fields): BitmapCacheCreated(UInt64 CacheId)
+opcode: ''
+keywords: CachedComposition
+task: BitmapCacheCreated
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CacheId

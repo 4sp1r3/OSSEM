@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3074'
+version: '0'
+event(fields): ValidatePageHashHvciPageVerificationFailure(HexInt32 Status)
+opcode: HvciPageVerificationFailure
+keywords: ''
+task: ValidatePageHash
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

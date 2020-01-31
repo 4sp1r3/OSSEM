@@ -1,0 +1,12 @@
+provider: Windows Kernel Trace
+category: '{89497f50-effe-4440-8cf2-ce6b1cdcaca7}'
+event_id: '49'
+version: '2'
+event(fields): ObObjectEvent(UInt32 Object, UInt16 ObjectType)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: Object
+- field_type: UInt16
+  field_name: ObjectType

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '172'
+version: '0'
+event(fields): PresentHistory(Pointer hAdapter, Pointer Token, UInt32 Model, UInt32
+  TokenSize, UInt64 TokenData)
+opcode: ''
+keywords: Base
+task: PresentHistory
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAdapter
+- field_type: Pointer
+  field_name: Token
+- field_type: UInt32
+  field_name: Model
+- field_type: UInt32
+  field_name: TokenSize
+- field_type: UInt64
+  field_name: TokenData

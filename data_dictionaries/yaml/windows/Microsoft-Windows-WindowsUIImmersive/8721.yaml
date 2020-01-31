@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WindowsUIImmersive
+event_id: '8721'
+version: '0'
+event(fields): PopupLightDismissStop()
+opcode: Stop
+keywords: ''
+task: PopupLightDismiss
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

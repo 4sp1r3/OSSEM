@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1056'
+version: '0'
+event(fields): TcpGlobalReassemblyLimitViolation(UInt32 SynAttacksDetected, UInt32
+  ReassemblyLimitViolations, UInt32 ConnectionRateLimitBacklog, UInt32 ConnectionRateLimitViolations,
+  UInt32 LandAttackSegmentsDropped, UInt32 ConnectionRateLimitDepth)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:Global
+task: TcpGlobalReassemblyLimitViolation
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SynAttacksDetected
+- field_type: UInt32
+  field_name: ReassemblyLimitViolations
+- field_type: UInt32
+  field_name: ConnectionRateLimitBacklog
+- field_type: UInt32
+  field_name: ConnectionRateLimitViolations
+- field_type: UInt32
+  field_name: LandAttackSegmentsDropped
+- field_type: UInt32
+  field_name: ConnectionRateLimitDepth

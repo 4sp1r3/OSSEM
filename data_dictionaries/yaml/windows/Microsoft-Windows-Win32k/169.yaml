@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '169'
+version: '0'
+event(fields): WakeInputIdle(Pointer pti)
+opcode: ''
+keywords: MessagePumpInternalAndInput
+task: WakeInputIdle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pti

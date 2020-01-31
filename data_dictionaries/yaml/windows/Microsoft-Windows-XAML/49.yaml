@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-XAML
+event_id: '49'
+version: '0'
+event(fields): ArrangeElementStart(UInt64 ElementId, Float Left, Float Top, Float
+  Width, Float Height)
+opcode: Start
+keywords: Detailed
+task: ArrangeElement
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: Float
+  field_name: Left
+- field_type: Float
+  field_name: Top
+- field_type: Float
+  field_name: Width
+- field_type: Float
+  field_name: Height

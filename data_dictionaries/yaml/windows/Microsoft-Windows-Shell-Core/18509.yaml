@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18509'
+version: '0'
+event(fields): Shell32_AutoListEditor_LaunchSearch()
+opcode: ''
+keywords: Shell
+task: Shell32_AutoListEditor_LaunchSearch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

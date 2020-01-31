@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-Vault
+event_id: '106'
+version: '0'
+event(fields): VaultPerformanceStart106()
+opcode: Start
+keywords: ''
+task: VaultPerformance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

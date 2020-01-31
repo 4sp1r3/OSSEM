@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '61008'
+version: '0'
+event(fields): PicturePassword_EnrollmentUXErrorShown()
+opcode: ''
+keywords: ''
+task: PicturePassword_EnrollmentUXErrorShown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

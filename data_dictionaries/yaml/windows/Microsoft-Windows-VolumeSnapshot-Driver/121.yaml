@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-VolumeSnapshot-Driver
+event_id: '121'
+version: '0'
+event(fields): task_0121(UInt16 VolumeNameLength, UnicodeString VolumeName, UInt16
+  DiffVolumeNameLength, UnicodeString DiffVolumeName, UInt32 OriginalErrorLogCode,
+  HexInt32 OriginalErrorStatus, HexInt32 OriginalSourceFile, UInt16 OriginalSourceLine,
+  UInt32 OriginalSourceTag, HexInt32 ErrorStatus, HexInt32 SourceFile, UInt16 SourceLine,
+  UInt32 SourceTag)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UInt16
+  field_name: DiffVolumeNameLength
+- field_type: UnicodeString
+  field_name: DiffVolumeName
+- field_type: UInt32
+  field_name: OriginalErrorLogCode
+- field_type: HexInt32
+  field_name: OriginalErrorStatus
+- field_type: HexInt32
+  field_name: OriginalSourceFile
+- field_type: UInt16
+  field_name: OriginalSourceLine
+- field_type: UInt32
+  field_name: OriginalSourceTag
+- field_type: HexInt32
+  field_name: ErrorStatus
+- field_type: HexInt32
+  field_name: SourceFile
+- field_type: UInt16
+  field_name: SourceLine
+- field_type: UInt32
+  field_name: SourceTag

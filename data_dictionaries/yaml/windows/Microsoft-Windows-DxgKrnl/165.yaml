@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '165'
+version: '0'
+event(fields): ExternalEventStop(GUID EventGuid, UInt8 EventType, UInt16 BufferSize,
+  Binary Buffer)
+opcode: Stop
+keywords: Base
+task: ExternalEvent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: EventGuid
+- field_type: UInt8
+  field_name: EventType
+- field_type: UInt16
+  field_name: BufferSize
+- field_type: Binary
+  field_name: Buffer

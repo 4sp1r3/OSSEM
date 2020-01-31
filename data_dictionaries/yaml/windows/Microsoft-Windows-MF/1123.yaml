@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MF
+event_id: '1123'
+version: '0'
+event(fields): MediaFoundationOTAApplyProtection(GUID type, UInt32 level, HexInt32
+  hr)
+opcode: ''
+keywords: ''
+task: MediaFoundationOTAApplyProtection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: type
+- field_type: UInt32
+  field_name: level
+- field_type: HexInt32
+  field_name: hr

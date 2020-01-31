@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '45'
+version: '0'
+event(fields): PatchLocationList(Pointer hContext, Pointer pDmaBuffer, UInt32 PatchLocationCount,
+  UInt32 PatchLocationAllocationIndex, UInt32 PatchLocationSlotId, UInt32 PatchLocationReserved,
+  UInt32 PatchLocationDriverId, UInt32 PatchLocationAllocationOffset, UInt32 PatchLocationPatchOffset,
+  UInt32 PatchLocationSplitOffset)
+opcode: ''
+keywords: Patch
+task: PatchLocationList
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: Pointer
+  field_name: pDmaBuffer
+- field_type: UInt32
+  field_name: PatchLocationCount
+- field_type: UInt32
+  field_name: PatchLocationAllocationIndex
+- field_type: UInt32
+  field_name: PatchLocationSlotId
+- field_type: UInt32
+  field_name: PatchLocationReserved
+- field_type: UInt32
+  field_name: PatchLocationDriverId
+- field_type: UInt32
+  field_name: PatchLocationAllocationOffset
+- field_type: UInt32
+  field_name: PatchLocationPatchOffset
+- field_type: UInt32
+  field_name: PatchLocationSplitOffset

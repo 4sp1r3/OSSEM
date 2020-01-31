@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2114'
+version: '0'
+event(fields): ImmersiveSettingsPane_CommandsRequestedEventHandler()
+opcode: ''
+keywords: ''
+task: ImmersiveSettingsPane_CommandsRequestedEventHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

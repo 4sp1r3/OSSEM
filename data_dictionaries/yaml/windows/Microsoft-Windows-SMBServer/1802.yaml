@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1802'
+version: '0'
+event(fields): SrvNetGetNextIdFailure(UInt32 Status)
+opcode: ''
+keywords: Operational
+task: SrvNetGetNextIdFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

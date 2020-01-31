@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4024'
+version: '0'
+event(fields): FOLDER_DELETEFOLDERStop()
+opcode: Stop
+keywords: Performance
+task: FOLDER_DELETEFOLDER
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

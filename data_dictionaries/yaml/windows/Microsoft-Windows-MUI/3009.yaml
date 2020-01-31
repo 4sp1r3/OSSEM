@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MUI
+event_id: '3009'
+version: '0'
+event(fields): MUIresourcecachebuilderEnd(UnicodeString Name)
+opcode: End
+keywords: ''
+task: MUIresourcecachebuilder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name

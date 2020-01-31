@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '32'
+version: '0'
+event(fields): DESTROY_CLUMP(UInt64 clumpPointer)
+opcode: ''
+keywords: DCompDiagnostic DCompMemory
+task: DESTROY_CLUMP
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: clumpPointer

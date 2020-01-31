@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Ras-AgileVpn
+event_id: '2103'
+version: '0'
+event(fields): task_02103(AnsiString DebugString, GUID RoutingDomainID, AnsiString
+  RRASUserName, AnsiString PortNo)
+opcode: ''
+keywords: AGILEVPN_ADMIN
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: DebugString
+- field_type: GUID
+  field_name: RoutingDomainID
+- field_type: AnsiString
+  field_name: RRASUserName
+- field_type: AnsiString
+  field_name: PortNo

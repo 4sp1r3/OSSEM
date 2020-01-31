@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '1104'
+version: '0'
+event(fields): CborDecodeGetAssertionResponseInformational(GUID TransactionId, UInt32
+  RpIdHashLength, Binary RpIdHash, HexInt32 Flags, HexInt32 SignCount, UInt32 CredentialIdLength,
+  Binary CredentialId, UInt32 ResponseLength, Binary Response)
+opcode: Informational
+keywords: WebAuthN Ctap Cbor
+task: CborDecodeGetAssertionResponse
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UInt32
+  field_name: RpIdHashLength
+- field_type: Binary
+  field_name: RpIdHash
+- field_type: HexInt32
+  field_name: Flags
+- field_type: HexInt32
+  field_name: SignCount
+- field_type: UInt32
+  field_name: CredentialIdLength
+- field_type: Binary
+  field_name: CredentialId
+- field_type: UInt32
+  field_name: ResponseLength
+- field_type: Binary
+  field_name: Response

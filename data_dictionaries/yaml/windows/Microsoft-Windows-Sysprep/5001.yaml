@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Sysprep
+event_id: '5001'
+version: '0'
+event(fields): Deletingfile(s)ofapatternStart(UnicodeString DirectoryPath, UnicodeString
+  FilePattern)
+opcode: Start
+keywords: keyPerformance keySysprep
+task: Deletingfile(s)ofapattern
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DirectoryPath
+- field_type: UnicodeString
+  field_name: FilePattern

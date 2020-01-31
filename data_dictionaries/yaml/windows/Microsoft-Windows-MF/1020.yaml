@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MF
+event_id: '1020'
+version: '0'
+event(fields): MediaFoundationHandleMediaSample_ProcessStart(Pointer Bitpump, Pointer
+  pSample)
+opcode: Start
+keywords: ''
+task: MediaFoundationHandleMediaSample_Process
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Bitpump
+- field_type: Pointer
+  field_name: pSample

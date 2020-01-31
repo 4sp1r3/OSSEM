@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4060'
+version: '0'
+event(fields): On_Content_Prov_ChangedStart(Pointer Address, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: On_Content_Prov_Changed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Address
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '3004'
+version: '0'
+event(fields): Watermark_Render_Error(UInt32 Result)
+opcode: ''
+keywords: ''
+task: Watermark_Render_Error
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

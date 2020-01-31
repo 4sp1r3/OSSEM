@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceStatusProvider
+event_id: '506'
+version: '0'
+event(fields): SyncSourcesCreationStart()
+opcode: Start
+keywords: ''
+task: SyncSourcesCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

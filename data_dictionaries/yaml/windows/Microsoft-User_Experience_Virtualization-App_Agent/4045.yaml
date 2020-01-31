@@ -1,0 +1,11 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '4045'
+version: '0'
+event(fields): SynchronizationtofilesystemAppAgent4045()
+opcode: AppAgent
+keywords: ''
+task: Synchronizationtofilesystem
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

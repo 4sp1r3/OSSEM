@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '246'
+version: '0'
+event(fields): LegacyTouchPadDetectionStop()
+opcode: Stop
+keywords: TouchInput
+task: LegacyTouchPadDetection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DSC
+event_id: '4508'
+version: '0'
+event(fields): task_04508(UnicodeString JobId, UnicodeString ReportManagerName, UnicodeString
+  ConfigurationId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: ReportManagerName
+- field_type: UnicodeString
+  field_name: ConfigurationId

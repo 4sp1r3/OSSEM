@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '53'
+version: '0'
+event(fields): IPS_OptInDialog_ServerStart()
+opcode: Start
+keywords: ''
+task: IPS_OptInDialog_Server
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

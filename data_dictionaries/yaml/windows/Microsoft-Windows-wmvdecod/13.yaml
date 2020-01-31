@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-wmvdecod
+event_id: '13'
+version: '0'
+event(fields): wmvdecod_DeblockingStart(UInt32 Level)
+opcode: Start
+keywords: ''
+task: wmvdecod_Deblocking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Level

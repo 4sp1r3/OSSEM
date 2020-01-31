@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '52'
+version: '0'
+event(fields): ICSP_ConfigManagerNotification_TaskStart()
+opcode: Start
+keywords: Performance Trace
+task: ICSP_ConfigManagerNotification_Task
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

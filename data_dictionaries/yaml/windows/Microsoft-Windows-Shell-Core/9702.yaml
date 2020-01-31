@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9702'
+version: '0'
+event(fields): Explorer_ProcessRunOnceExStop()
+opcode: Stop
+keywords: Shell StartupPerf
+task: Explorer_ProcessRunOnceEx
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

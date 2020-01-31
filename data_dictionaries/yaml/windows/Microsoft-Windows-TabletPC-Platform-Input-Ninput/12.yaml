@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '12'
+version: '0'
+event(fields): NinputSendWmGestureGlobalStop()
+opcode: Stop
+keywords: ''
+task: NinputSendWmGestureGlobal
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

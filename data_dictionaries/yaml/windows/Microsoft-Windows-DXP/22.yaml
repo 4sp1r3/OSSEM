@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DXP
+event_id: '22'
+version: '0'
+event(fields): DeviceAccessStart()
+opcode: Start
+keywords: ''
+task: DeviceAccess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

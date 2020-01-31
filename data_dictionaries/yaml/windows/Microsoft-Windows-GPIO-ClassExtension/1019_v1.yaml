@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-GPIO-ClassExtension
+event_id: '1019'
+version: '1'
+event(fields): GPIObankinterruptflowthroughMSGPIOCLXQueryActiveInterruptsStart_V1(UnicodeString
+  ControllerBiosName, UInt16 BankId)
+opcode: QueryActiveInterruptsStart
+keywords: ''
+task: GPIObankinterruptflowthroughMSGPIOCLX
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ControllerBiosName
+- field_type: UInt16
+  field_name: BankId

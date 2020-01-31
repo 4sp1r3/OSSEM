@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-HttpService
+event_id: '52'
+version: '0'
+event(fields): HTTPRequestTraceTaskParseRequestFailed(UInt32 Status, UInt64 RequestId,
+  AnsiString Reason, UInt32 ErrorCode, UInt32 HintLength, Binary HintData)
+opcode: ParseRequestFailed
+keywords: HTTP_KEYWORD_REQUEST
+task: HTTPRequestTraceTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt64
+  field_name: RequestId
+- field_type: AnsiString
+  field_name: Reason
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: HintLength
+- field_type: Binary
+  field_name: HintData

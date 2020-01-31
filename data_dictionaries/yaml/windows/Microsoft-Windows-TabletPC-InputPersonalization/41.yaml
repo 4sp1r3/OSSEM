@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '41'
+version: '0'
+event(fields): IPS_INKSTORE_AddTipInkStart()
+opcode: Start
+keywords: ''
+task: IPS_INKSTORE_AddTipInk
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

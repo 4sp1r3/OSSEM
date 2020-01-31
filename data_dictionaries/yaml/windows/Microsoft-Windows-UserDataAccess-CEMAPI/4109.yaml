@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4109'
+version: '0'
+event(fields): QUERYROWS_SEARCHFOLDERStop()
+opcode: Stop
+keywords: Performance
+task: QUERYROWS_SEARCHFOLDER
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

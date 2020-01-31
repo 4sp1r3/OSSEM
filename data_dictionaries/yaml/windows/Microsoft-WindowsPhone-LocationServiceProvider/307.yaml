@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '307'
+version: '0'
+event(fields): WinHttpEvent(HexInt32 WebproxyRequestId, UInt32 WebproxyRequestType,
+  HexInt32 WinHttpHandle, UInt32 WinHttpEventType, UInt32 WinhttpCallbackStatus)
+opcode: ''
+keywords: WebproxyTracing
+task: WinHttpEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: WebproxyRequestId
+- field_type: UInt32
+  field_name: WebproxyRequestType
+- field_type: HexInt32
+  field_name: WinHttpHandle
+- field_type: UInt32
+  field_name: WinHttpEventType
+- field_type: UInt32
+  field_name: WinhttpCallbackStatus

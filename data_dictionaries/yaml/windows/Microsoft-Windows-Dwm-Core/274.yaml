@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '274'
+version: '0'
+event(fields): INTERACTION_DESTROYED(Pointer Interaction, Pointer Resource, UInt32
+  HitTestHandle)
+opcode: ''
+keywords: DwmCore DwmInput
+task: INTERACTION_DESTROYED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Interaction
+- field_type: Pointer
+  field_name: Resource
+- field_type: UInt32
+  field_name: HitTestHandle

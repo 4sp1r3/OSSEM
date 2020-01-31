@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '209'
+version: '0'
+event(fields): CUIAutomation_CreateCacheRequestStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CUIAutomation_CreateCacheRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

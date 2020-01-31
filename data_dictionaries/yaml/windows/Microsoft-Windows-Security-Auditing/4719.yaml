@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4719'
+version: '0'
+event(fields): task_04719(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString CategoryId, UnicodeString
+  SubcategoryId, GUID SubcategoryGuid, UnicodeString AuditPolicyChanges)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: CategoryId
+- field_type: UnicodeString
+  field_name: SubcategoryId
+- field_type: GUID
+  field_name: SubcategoryGuid
+- field_type: UnicodeString
+  field_name: AuditPolicyChanges

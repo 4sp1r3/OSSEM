@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1673'
+version: '0'
+event(fields): ShellTask_RecycleBin_CompactAndPurgeThreadStop()
+opcode: Stop
+keywords: Shell
+task: ShellTask_RecycleBin_CompactAndPurgeThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WebIO
+event_id: '211'
+version: '0'
+event(fields): ConnectionNameResolutionStart(Pointer CacheEntry, UnicodeString ResolveName,
+  UInt32 Flags, UInt32 Error, UInt32 AddressCount)
+opcode: Start
+keywords: ''
+task: ConnectionNameResolution
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CacheEntry
+- field_type: UnicodeString
+  field_name: ResolveName
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Error
+- field_type: UInt32
+  field_name: AddressCount

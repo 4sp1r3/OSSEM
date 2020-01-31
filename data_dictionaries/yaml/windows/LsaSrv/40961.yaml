@@ -1,0 +1,13 @@
+provider: LsaSrv
+event_id: '40961'
+version: '0'
+event(fields): task_040961(UnicodeString Target)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Target

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Threat-Intelligence
+event_id: '29'
+version: '0'
+event(fields): KERNEL_THREATINT_TASK_DRIVER_DEVICE(UInt16 DriverNameLength, UnicodeString
+  DriverName, UInt32 CodeIntegrityOption)
+opcode: ''
+keywords: KERNEL_THREATINT_KEYWORD_DRIVER_EVENTS
+task: KERNEL_THREATINT_TASK_DRIVER_DEVICE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: DriverNameLength
+- field_type: UnicodeString
+  field_name: DriverName
+- field_type: UInt32
+  field_name: CodeIntegrityOption

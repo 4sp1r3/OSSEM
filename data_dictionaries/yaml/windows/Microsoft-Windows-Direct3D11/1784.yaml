@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1784'
+version: '0'
+event(fields): ID3D11VideoContext_DecoderBeginFrameStart(Pointer pThis, Pointer pDecoder,
+  Pointer View, UInt32 ContentKeySize, Pointer pContentKey)
+opcode: Start
+keywords: ''
+task: ID3D11VideoContext_DecoderBeginFrame
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pDecoder
+- field_type: Pointer
+  field_name: View
+- field_type: UInt32
+  field_name: ContentKeySize
+- field_type: Pointer
+  field_name: pContentKey

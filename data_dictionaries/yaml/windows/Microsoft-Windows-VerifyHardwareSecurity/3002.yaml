@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-VerifyHardwareSecurity
+event_id: '3002'
+version: '0'
+event(fields): CheckSecureBootEnabledECUREBOOTENABLEDFAILEDCHECKecurebootEnabledFailedCheck()
+opcode: securebootEnabledFailedCheck
+keywords: ''
+task: CheckSecureBootEnabled
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

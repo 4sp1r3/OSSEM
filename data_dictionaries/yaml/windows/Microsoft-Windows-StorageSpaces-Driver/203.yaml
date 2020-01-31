@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '203'
+version: '0'
+event(fields): task_0203(GUID Id, UInt32 Status, Int32 DeviceNumber, UnicodeString
+  DriveManufacturer, UnicodeString DriveModel, UnicodeString DriveSerial, UnicodeString
+  EnclosureManufacturer, UnicodeString EnclosureModel, UnicodeString EnclosureSerial,
+  Int32 Slot)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UInt32
+  field_name: Status
+- field_type: Int32
+  field_name: DeviceNumber
+- field_type: UnicodeString
+  field_name: DriveManufacturer
+- field_type: UnicodeString
+  field_name: DriveModel
+- field_type: UnicodeString
+  field_name: DriveSerial
+- field_type: UnicodeString
+  field_name: EnclosureManufacturer
+- field_type: UnicodeString
+  field_name: EnclosureModel
+- field_type: UnicodeString
+  field_name: EnclosureSerial
+- field_type: Int32
+  field_name: Slot

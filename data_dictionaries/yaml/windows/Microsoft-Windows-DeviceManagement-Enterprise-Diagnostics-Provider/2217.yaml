@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider
+event_id: '2217'
+version: '0'
+event(fields): task_02217()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

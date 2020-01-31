@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NdisImPlatformEventProvider
+event_id: '11'
+version: '0'
+event(fields): task_011(UnicodeString TeamNic, UnicodeString Member, UInt32 PacketFilter)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TeamNic
+- field_type: UnicodeString
+  field_name: Member
+- field_type: UInt32
+  field_name: PacketFilter

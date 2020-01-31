@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '1311'
+version: '0'
+event(fields): SKINPAINTStart1311()
+opcode: Start
+keywords: mediaplayer
+task: SKINPAINT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

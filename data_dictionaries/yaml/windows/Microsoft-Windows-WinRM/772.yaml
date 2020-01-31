@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinRM
+event_id: '772'
+version: '0'
+event(fields): Requesthandling772(UInt32 index, UInt32 totalChunks, UInt32 bytes,
+  UnicodeString SoapDocument)
+opcode: ''
+keywords: Keyword.SoapTrace Keyword.Server
+task: Requesthandling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: index
+- field_type: UInt32
+  field_name: totalChunks
+- field_type: UInt32
+  field_name: bytes
+- field_type: UnicodeString
+  field_name: SoapDocument

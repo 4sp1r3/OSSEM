@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '5'
+version: '0'
+event(fields): task_05(UnicodeString SubKey, UnicodeString ValueName, UInt32 SettingType,
+  UInt32 UInt32, UInt64 UInt64, UnicodeString String, UInt32 BinaryLength, Binary
+  Binary)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SubKey
+- field_type: UnicodeString
+  field_name: ValueName
+- field_type: UInt32
+  field_name: SettingType
+- field_type: UInt32
+  field_name: UInt32
+- field_type: UInt64
+  field_name: UInt64
+- field_type: UnicodeString
+  field_name: String
+- field_type: UInt32
+  field_name: BinaryLength
+- field_type: Binary
+  field_name: Binary

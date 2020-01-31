@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '38024'
+version: '1'
+event(fields): VObjects.ProcessApplyHooksStart_V1()
+opcode: Start
+keywords: ''
+task: VObjects.ProcessApplyHooks
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

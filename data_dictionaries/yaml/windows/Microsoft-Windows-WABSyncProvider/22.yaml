@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WABSyncProvider
+event_id: '22'
+version: '0'
+event(fields): UpdateItemStop()
+opcode: Stop
+keywords: ''
+task: UpdateItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

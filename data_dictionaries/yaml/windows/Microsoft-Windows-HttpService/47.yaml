@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-HttpService
+event_id: '47'
+version: '0'
+event(fields): HTTPLoggingTraceTaskLoggingConfigFailed(UInt32 Status, UInt32 Type,
+  UInt32 Group, UnicodeString Directory, UnicodeString Software, UInt32 SiteId)
+opcode: LoggingConfigFailed
+keywords: HTTP_KEYWORD_LOGGING
+task: HTTPLoggingTraceTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Group
+- field_type: UnicodeString
+  field_name: Directory
+- field_type: UnicodeString
+  field_name: Software
+- field_type: UInt32
+  field_name: SiteId

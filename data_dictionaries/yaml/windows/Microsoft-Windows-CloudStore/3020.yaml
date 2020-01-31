@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-CloudStore
+event_id: '3020'
+version: '0'
+event(fields): task_03020(AnsiString CorrelationVector, UInt16 ActivitiesCount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: CorrelationVector
+- field_type: UInt16
+  field_name: ActivitiesCount

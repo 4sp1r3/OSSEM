@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1648'
+version: '0'
+event(fields): ShellTask_SearchHelpers_CheckCrawlScopeThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_SearchHelpers_CheckCrawlScopeThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

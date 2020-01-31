@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-msmpeg2venc
+event_id: '0'
+version: '0'
+event(fields): TaskdonebythevideoencoderStart(UInt64 InputStreamID, Pointer pSample,
+  UInt32 dwFlags)
+opcode: Start
+keywords: keyword_800000000000
+task: Taskdonebythevideoencoder
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: InputStreamID
+- field_type: Pointer
+  field_name: pSample
+- field_type: UInt32
+  field_name: dwFlags

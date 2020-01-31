@@ -1,0 +1,8 @@
+provider: Windows Kernel Trace
+category: '{0268a8b6-74fd-4302-9dd0-6e8f1795c0cf}'
+event_id: '42'
+version: '2'
+event(fields): PoolSnapshot()
+event_type: ''
+description: ''
+event_fields: []

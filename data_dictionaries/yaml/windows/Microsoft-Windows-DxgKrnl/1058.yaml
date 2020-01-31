@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1058'
+version: '0'
+event(fields): IndirectSwapChainSurfaceList(Pointer pSwapChain, UInt32 SurfaceIdx,
+  Pointer hVidMmAllocation)
+opcode: ''
+keywords: IndirectSwapChain MixedReality
+task: IndirectSwapChainSurfaceList
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pSwapChain
+- field_type: UInt32
+  field_name: SurfaceIdx
+- field_type: Pointer
+  field_name: hVidMmAllocation

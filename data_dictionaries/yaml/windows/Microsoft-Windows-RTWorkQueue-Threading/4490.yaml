@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4490'
+version: '0'
+event(fields): WorkQueue:ExecuteTimer(Pointer WorkQueuePointer, UInt32 WorkQueueID,
+  Pointer TimerPointer, Boolean IsPeriodic)
+opcode: ''
+keywords: ''
+task: WorkQueue:ExecuteTimer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WorkQueuePointer
+- field_type: UInt32
+  field_name: WorkQueueID
+- field_type: Pointer
+  field_name: TimerPointer
+- field_type: Boolean
+  field_name: IsPeriodic

@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '74'
+version: '0'
+event(fields): Mshtml_HtmPre_RunStop(UInt32 HR, Pointer CHtmPrePtr, UInt32 fDataPend,
+  UInt32 fSuspended, UInt64 Object)
+opcode: Stop
+keywords: primarynav mshtml pageloadbreakdown
+task: Mshtml_HtmPre_Run
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HR
+- field_type: Pointer
+  field_name: CHtmPrePtr
+- field_type: UInt32
+  field_name: fDataPend
+- field_type: UInt32
+  field_name: fSuspended
+- field_type: UInt64
+  field_name: Object

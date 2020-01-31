@@ -1,0 +1,29 @@
+provider: Microsoft-IE
+event_id: '408'
+version: '1'
+event(fields): Mshtml_Animations_AnimatingStart_V1(Pointer AnimationClientObject,
+  Pointer StoryboardObject, Pointer TreeNode, Double DurationInSeconds, Double DelayInSeconds,
+  UInt32 NumberOfProperties, UnicodeString AnimationName, UInt64 DDTObject)
+opcode: Start
+keywords: animation
+task: Mshtml_Animations_Animating
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AnimationClientObject
+- field_type: Pointer
+  field_name: StoryboardObject
+- field_type: Pointer
+  field_name: TreeNode
+- field_type: Double
+  field_name: DurationInSeconds
+- field_type: Double
+  field_name: DelayInSeconds
+- field_type: UInt32
+  field_name: NumberOfProperties
+- field_type: UnicodeString
+  field_name: AnimationName
+- field_type: UInt64
+  field_name: DDTObject

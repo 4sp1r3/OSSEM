@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WindowsUIImmersive
+event_id: '8713'
+version: '0'
+event(fields): PopupProgrammaticHideStart()
+opcode: Start
+keywords: ''
+task: PopupProgrammaticHide
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

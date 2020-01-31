@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '622'
+version: '0'
+event(fields): SoftKeyboard_OutputManager_TypedAlternatesReady()
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_OutputManager_TypedAlternatesReady
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

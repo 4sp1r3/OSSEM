@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2106'
+version: '0'
+event(fields): CtapFunctionInformational2106(UnicodeString Name, UnicodeString Value)
+opcode: Informational
+keywords: Ctap
+task: CtapFunction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Value

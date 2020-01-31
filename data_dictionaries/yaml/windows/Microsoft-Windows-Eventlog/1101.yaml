@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '1101'
+version: '0'
+event(fields): Eventprocessing1101(UInt8 Reason)
+opcode: ''
+keywords: ''
+task: Eventprocessing
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Reason

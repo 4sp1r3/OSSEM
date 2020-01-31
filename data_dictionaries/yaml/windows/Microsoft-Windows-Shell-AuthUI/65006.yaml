@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '65006'
+version: '0'
+event(fields): Booting_Animation_TimerProcStop()
+opcode: Stop
+keywords: ''
+task: Booting_Animation_TimerProc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

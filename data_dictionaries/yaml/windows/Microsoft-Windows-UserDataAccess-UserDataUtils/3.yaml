@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataUtils
+event_id: '3'
+version: '0'
+event(fields): Trace(Pointer Message)
+opcode: ''
+keywords: debug
+task: Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Message

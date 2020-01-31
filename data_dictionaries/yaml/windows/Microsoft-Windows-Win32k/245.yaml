@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '245'
+version: '0'
+event(fields): LegacyTouchPadDetectionStart()
+opcode: Start
+keywords: TouchInput
+task: LegacyTouchPadDetection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

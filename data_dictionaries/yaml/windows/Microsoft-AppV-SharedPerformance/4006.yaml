@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4006'
+version: '0'
+event(fields): Publish_AppvPackageStart(GUID Guid)
+opcode: Start
+keywords: ''
+task: Publish_AppvPackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Guid

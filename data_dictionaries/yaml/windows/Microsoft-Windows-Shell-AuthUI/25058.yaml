@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25058'
+version: '0'
+event(fields): Logon_LaunchToReadyForInputStop(UInt32 ReadyForInputScenario)
+opcode: Stop
+keywords: ''
+task: Logon_LaunchToReadyForInput
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ReadyForInputScenario

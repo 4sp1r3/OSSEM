@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '1008'
+version: '0'
+event(fields): DMR_OnStateChangedStart()
+opcode: Start
+keywords: ''
+task: DMR_OnStateChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

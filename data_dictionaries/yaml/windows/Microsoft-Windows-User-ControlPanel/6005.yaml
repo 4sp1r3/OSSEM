@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-User-ControlPanel
+event_id: '6005'
+version: '0'
+event(fields): Settings_UserCreateStart()
+opcode: Start
+keywords: ''
+task: Settings_UserCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

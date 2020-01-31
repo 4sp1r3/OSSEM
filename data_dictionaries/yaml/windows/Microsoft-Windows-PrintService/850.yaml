@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintService
+event_id: '850'
+version: '0'
+event(fields): PrintdriveroperationSpoolerOperationFailed(UnicodeString Driver, UnicodeString
+  Function)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_DRIVER
+task: Printdriveroperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Driver
+- field_type: UnicodeString
+  field_name: Function

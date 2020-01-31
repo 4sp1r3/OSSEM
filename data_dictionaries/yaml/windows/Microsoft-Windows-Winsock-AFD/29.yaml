@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '29'
+version: '0'
+event(fields): task_029(Pointer Process, Pointer Endpoint, UInt32 Option, UInt32 Value)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: Option
+- field_type: UInt32
+  field_name: Value

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '26031'
+version: '2'
+event(fields): Createfilemessagetask.Stop_V2()
+opcode: Stop
+keywords: ''
+task: Createfilemessagetask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

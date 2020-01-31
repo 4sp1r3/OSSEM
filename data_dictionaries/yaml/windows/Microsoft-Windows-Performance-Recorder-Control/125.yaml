@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Performance-Recorder-Control
+event_id: '125'
+version: '0'
+event(fields): Perf_CancelProfilesStop()
+opcode: Stop
+keywords: PerfStatus
+task: Perf_CancelProfiles
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

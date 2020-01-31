@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Audio
+event_id: '34'
+version: '0'
+event(fields): Audio_Glitch_DetectionEngineGlitch:CPServerOutputEndpoint_QueueFullPacketDrop(Pointer
+  pCCrossProcessServerOutputEndpoint, UInt64 WriteBytePos, UInt32 DroppedBytes, UInt64
+  ReadBytePos, UInt32 BytesToWrite)
+opcode: CPServerOutputEndpoint_QueueFullPacketDrop
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCCrossProcessServerOutputEndpoint
+- field_type: UInt64
+  field_name: WriteBytePos
+- field_type: UInt32
+  field_name: DroppedBytes
+- field_type: UInt64
+  field_name: ReadBytePos
+- field_type: UInt32
+  field_name: BytesToWrite

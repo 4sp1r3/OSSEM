@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '481'
+version: '0'
+event(fields): Mshtml_CView_HitTest_MessageContextStop(Pointer View, UInt32 HTC)
+opcode: Stop
+keywords: mshtml
+task: Mshtml_CView_HitTest_MessageContext
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: View
+- field_type: UInt32
+  field_name: HTC

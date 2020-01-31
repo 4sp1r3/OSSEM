@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-RPC
+event_id: '11'
+version: '1'
+event(fields): Debug11_V1(UInt64 SubjectPointer, UInt32 FragmentSize, Binary Fragment)
+opcode: ''
+keywords: ''
+task: Debug
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SubjectPointer
+- field_type: UInt32
+  field_name: FragmentSize
+- field_type: Binary
+  field_name: Fragment

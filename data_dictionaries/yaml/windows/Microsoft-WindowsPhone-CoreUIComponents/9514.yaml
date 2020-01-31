@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9514'
+version: '0'
+event(fields): ViewManager9514(UInt32 unParam, UInt64 unParam2)
+opcode: ''
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt64
+  field_name: unParam2

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4019'
+version: '0'
+event(fields): Results_Get_ItemStart(UInt32 Index, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Results_Get_Item
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: ErrorCode

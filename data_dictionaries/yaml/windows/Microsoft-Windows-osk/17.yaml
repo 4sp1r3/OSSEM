@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-osk
+event_id: '17'
+version: '0'
+event(fields): SetDockedState(Int32 tcid)
+opcode: ''
+keywords: PerfInstrumentation
+task: SetDockedState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: tcid

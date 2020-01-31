@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Audio
+event_id: '20'
+version: '0'
+event(fields): AudioSession_Stream_Resource_Type(UInt32 Format, UInt32 SamplingRate,
+  Boolean bAudioSrvStreamResourceType)
+opcode: ''
+keywords: ''
+task: AudioSession_Stream_Resource_Type
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: SamplingRate
+- field_type: Boolean
+  field_name: bAudioSrvStreamResourceType

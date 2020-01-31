@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack-Counters
+event_id: '2003'
+version: '0'
+event(fields): PerfTrackCounter_SessionPool(Pointer PagedPoolPages, Pointer NonPagedPoolPages,
+  UInt32 SessionId)
+opcode: ''
+keywords: SessionPoolCounter
+task: PerfTrackCounter_SessionPool
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PagedPoolPages
+- field_type: Pointer
+  field_name: NonPagedPoolPages
+- field_type: UInt32
+  field_name: SessionId

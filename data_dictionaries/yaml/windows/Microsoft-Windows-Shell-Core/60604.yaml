@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60604'
+version: '0'
+event(fields): ItemsView_UIItemsView_BatchTimerStop(UInt32 Events)
+opcode: Stop
+keywords: Shell ExplorerPerf
+task: ItemsView_UIItemsView_BatchTimer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Events

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MF
+event_id: '15'
+version: '0'
+event(fields): MediaFoundationDevproxyVideoPluginProcessInputStart(Pointer PinPtr,
+  Pointer SamplePtr)
+opcode: Start
+keywords: ''
+task: MediaFoundationDevproxyVideoPluginProcessInput
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PinPtr
+- field_type: Pointer
+  field_name: SamplePtr

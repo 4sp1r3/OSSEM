@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1027'
+version: '0'
+event(fields): AutoLists_MSSQueryAddResultsToQueueStart()
+opcode: Start
+keywords: Shell
+task: AutoLists_MSSQueryAddResultsToQueue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

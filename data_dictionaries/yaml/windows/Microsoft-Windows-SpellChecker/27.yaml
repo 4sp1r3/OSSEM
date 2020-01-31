@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SpellChecker
+event_id: '27'
+version: '0'
+event(fields): TeardownStart()
+opcode: Start
+keywords: ''
+task: Teardown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

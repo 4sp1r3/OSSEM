@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider
+event_id: '212'
+version: '0'
+event(fields): task_0212(HexInt32 HRESULT1, HexInt32 HRESULT2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HRESULT1
+- field_type: HexInt32
+  field_name: HRESULT2

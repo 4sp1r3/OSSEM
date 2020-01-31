@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '353'
+version: '0'
+event(fields): VidMmResumeDevice(Pointer pDxgDevice)
+opcode: ''
+keywords: VidMmWorkerThread
+task: VidMmResumeDevice
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgDevice

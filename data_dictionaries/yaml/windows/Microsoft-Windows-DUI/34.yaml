@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '34'
+version: '0'
+event(fields): DirectUI_ScrollBottomStop()
+opcode: Stop
+keywords: Default
+task: DirectUI_ScrollBottom
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

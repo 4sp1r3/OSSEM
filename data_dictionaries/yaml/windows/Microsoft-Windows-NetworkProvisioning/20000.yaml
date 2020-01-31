@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '20000'
+version: '0'
+event(fields): ProvisioningAgent(UnicodeString CallerAppId, Int32 ErrorCode)
+opcode: ''
+keywords: Diagnostics ProvisioningAgent ut:Configuration
+task: ProvisioningAgent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CallerAppId
+- field_type: Int32
+  field_name: ErrorCode

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FileHistory-Service
+event_id: '10'
+version: '0'
+event(fields): BackupStop(UnicodeString ConfigFilePath, Boolean StopSync)
+opcode: Stop
+keywords: ''
+task: BackupStop
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ConfigFilePath
+- field_type: Boolean
+  field_name: StopSync

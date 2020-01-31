@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '853'
+version: '0'
+event(fields): RebalanceStop(UInt16 DeviceInstanceLength, UnicodeString DeviceInstance,
+  UInt32 Status)
+opcode: Stop
+keywords: Enumeration
+task: Rebalance
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: DeviceInstanceLength
+- field_type: UnicodeString
+  field_name: DeviceInstance
+- field_type: UInt32
+  field_name: Status

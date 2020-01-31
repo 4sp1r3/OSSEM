@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '30'
+version: '0'
+event(fields): GCSetGCHandle(Pointer HandleID, Pointer ObjectID, UInt32 Kind, UInt32
+  Generation, UInt64 AppDomainID, UInt16 ClrInstanceID)
+opcode: SetGCHandle
+keywords: GCHandleKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HandleID
+- field_type: Pointer
+  field_name: ObjectID
+- field_type: UInt32
+  field_name: Kind
+- field_type: UInt32
+  field_name: Generation
+- field_type: UInt64
+  field_name: AppDomainID
+- field_type: UInt16
+  field_name: ClrInstanceID

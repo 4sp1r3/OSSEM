@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '35'
+version: '1'
+event(fields): PerfStatesError35_V1(UInt16 Group, UInt8 Number)
+opcode: ''
+keywords: ''
+task: PerfStatesError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PersistentMemory-Nvdimm
+event_id: '203'
+version: '1'
+event(fields): task_0203_V1(GUID DeviceGuid, HexInt32 NfitHandle, UInt32 UnsafeShutdownCount,
+  UInt32 BaselineUnsafeShutdownCount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: HexInt32
+  field_name: NfitHandle
+- field_type: UInt32
+  field_name: UnsafeShutdownCount
+- field_type: UInt32
+  field_name: BaselineUnsafeShutdownCount

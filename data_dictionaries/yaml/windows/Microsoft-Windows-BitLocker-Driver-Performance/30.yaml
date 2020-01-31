@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-BitLocker-Driver-Performance
+event_id: '30'
+version: '0'
+event(fields): fve:IoEncryptRequestStop(Pointer DevObjPtr, Pointer SubIrpPtr, UInt64
+  Offset, UInt32 Size)
+opcode: Stop
+keywords: fve:CryptoPerformance
+task: fve:IoEncryptRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DevObjPtr
+- field_type: Pointer
+  field_name: SubIrpPtr
+- field_type: UInt64
+  field_name: Offset
+- field_type: UInt32
+  field_name: Size

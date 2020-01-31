@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-XAML
+event_id: '92'
+version: '0'
+event(fields): BitmapCacheUpdated(UInt64 CacheId, UInt32 X, UInt32 Y, UInt32 UpdateWidth,
+  UInt32 UpdateHeight, UInt32 SurfaceWidth, UInt32 SurfaceHeight)
+opcode: ''
+keywords: CachedComposition
+task: BitmapCacheUpdated
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CacheId
+- field_type: UInt32
+  field_name: X
+- field_type: UInt32
+  field_name: Y
+- field_type: UInt32
+  field_name: UpdateWidth
+- field_type: UInt32
+  field_name: UpdateHeight
+- field_type: UInt32
+  field_name: SurfaceWidth
+- field_type: UInt32
+  field_name: SurfaceHeight

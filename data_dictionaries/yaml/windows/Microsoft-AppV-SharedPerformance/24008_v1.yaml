@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '24008'
+version: '1'
+event(fields): UnpublishingStart_V1()
+opcode: Start
+keywords: ''
+task: Unpublishing
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

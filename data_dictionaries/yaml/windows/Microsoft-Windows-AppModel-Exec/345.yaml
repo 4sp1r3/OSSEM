@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '345'
+version: '0'
+event(fields): task_0345(HexInt32 Category, UnicodeString PsmKey)
+opcode: ''
+keywords: PLM ExecProductionCircular ExecDevPlatCircular
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Category
+- field_type: UnicodeString
+  field_name: PsmKey

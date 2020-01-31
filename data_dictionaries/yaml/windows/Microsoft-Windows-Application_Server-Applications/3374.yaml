@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3374'
+version: '0'
+event(fields): MessageDecodingStart3374(UnicodeString AppDomain)
+opcode: Start
+keywords: Channel
+task: MessageDecoding
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6637'
+version: '0'
+event(fields): ConnectCharm_ProximitySendSupportCheckStop()
+opcode: Stop
+keywords: ''
+task: ConnectCharm_ProximitySendSupportCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

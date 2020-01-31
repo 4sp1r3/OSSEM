@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-User-ControlPanel
+event_id: '7018'
+version: '0'
+event(fields): UserAccount_Taskflow_WebWizardPage7018()
+opcode: ''
+keywords: ''
+task: UserAccount_Taskflow_WebWizardPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

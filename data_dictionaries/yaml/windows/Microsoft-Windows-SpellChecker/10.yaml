@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SpellChecker
+event_id: '10'
+version: '0'
+event(fields): CheckspellingStop10()
+opcode: Stop
+keywords: ''
+task: Checkspelling
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

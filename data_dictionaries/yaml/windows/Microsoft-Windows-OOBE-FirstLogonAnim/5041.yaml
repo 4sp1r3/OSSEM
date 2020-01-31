@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-OOBE-FirstLogonAnim
+event_id: '5041'
+version: '0'
+event(fields): AnimationStart(Boolean fOOBE, Boolean fExistingUser, Boolean fZDP,
+  Boolean fExplorer)
+opcode: Start
+keywords: FirstLogonAnim
+task: Animation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fOOBE
+- field_type: Boolean
+  field_name: fExistingUser
+- field_type: Boolean
+  field_name: fZDP
+- field_type: Boolean
+  field_name: fExplorer

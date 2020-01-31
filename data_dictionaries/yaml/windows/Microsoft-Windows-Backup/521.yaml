@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Backup
+event_id: '521'
+version: '0'
+event(fields): task_0521(FILETIME BackupTime, UInt32 ErrorCode, UnicodeString ErrorMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: BackupTime
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage

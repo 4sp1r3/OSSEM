@@ -1,0 +1,15 @@
+provider: Microsoft-IEFRAME
+event_id: '317'
+version: '0'
+event(fields): NotificationManager_SendResponse(Int32 LayerValue, UInt32 CommandID)
+opcode: ''
+keywords: notification
+task: NotificationManager_SendResponse
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: LayerValue
+- field_type: UInt32
+  field_name: CommandID

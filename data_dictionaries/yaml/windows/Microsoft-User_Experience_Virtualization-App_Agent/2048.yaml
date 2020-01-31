@@ -1,0 +1,18 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '2048'
+version: '0'
+event(fields): Orchestrator_120AppAgent2048(UnicodeString WString1, UnicodeString
+  WString2, Int32 HRESULT1)
+opcode: AppAgent
+keywords: ''
+task: Orchestrator_120
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: WString1
+- field_type: UnicodeString
+  field_name: WString2
+- field_type: Int32
+  field_name: HRESULT1

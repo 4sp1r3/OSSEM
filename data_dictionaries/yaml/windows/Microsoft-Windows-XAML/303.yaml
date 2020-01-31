@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '303'
+version: '0'
+event(fields): ElementStyleChanged(UInt64 ElementId, UInt64 StyleId)
+opcode: ''
+keywords: Core
+task: ElementStyleChanged
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UInt64
+  field_name: StyleId

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2401'
+version: '0'
+event(fields): CtapTestProviderThreadStop(GUID TransactionId)
+opcode: Stop
+keywords: Ctap Test
+task: CtapTestProviderThread
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId

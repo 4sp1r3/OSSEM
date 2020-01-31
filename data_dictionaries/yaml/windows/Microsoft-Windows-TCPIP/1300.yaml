@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1300'
+version: '0'
+event(fields): TcpConnectionRundown(Pointer Tcb, UInt32 LocalAddressLength, Binary
+  LocalAddress, UInt32 RemoteAddressLength, Binary RemoteAddress, UInt32 State, UInt32
+  Pid)
+opcode: ''
+keywords: ut:TcpipTcb ut:TcpipDiagnosis ut:Endpoint ut:ConnectPath
+task: TcpConnectionRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Pid

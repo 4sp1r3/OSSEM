@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DUSER
+event_id: '46'
+version: '0'
+event(fields): DUser_DCompCommitStart(Int32 nSize)
+opcode: Start
+keywords: Default
+task: DUser_DCompCommit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: nSize

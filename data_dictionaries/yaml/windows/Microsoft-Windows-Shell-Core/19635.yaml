@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19635'
+version: '0'
+event(fields): Explorer_ControlPanel_Settings_SyncStart()
+opcode: Start
+keywords: Shell
+task: Explorer_ControlPanel_Settings_Sync
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

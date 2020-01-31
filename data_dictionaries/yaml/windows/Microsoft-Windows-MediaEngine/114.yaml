@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '114'
+version: '0'
+event(fields): MediaFoundationDroppedFrame(UInt32 id, UInt32 location, Int64 pts,
+  Int64 clock)
+opcode: ''
+keywords: ''
+task: MediaFoundationDroppedFrame
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id
+- field_type: UInt32
+  field_name: location
+- field_type: Int64
+  field_name: pts
+- field_type: Int64
+  field_name: clock

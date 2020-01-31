@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '1008'
+version: '0'
+event(fields): ConnectionSequenceThiseventisraisedduringtheauthenticationprocess(UnicodeString
+  TraceMessage, UInt32 ErrorCode)
+opcode: Thiseventisraisedduringtheauthenticationprocess
+keywords: ''
+task: ConnectionSequence
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceMessage
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shsvcs
+event_id: '11504'
+version: '0'
+event(fields): HDSrv_Service_Stop()
+opcode: Stop
+keywords: ''
+task: HDSrv_Service_Stop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

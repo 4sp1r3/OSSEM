@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-OneX
+event_id: '56'
+version: '0'
+event(fields): User56(UInt32 PortId, UInt32 Size, UInt32 SessionId)
+opcode: ''
+keywords: OneXUI LwtDiagnostic ut:Authentication
+task: User
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId
+- field_type: UInt32
+  field_name: Size
+- field_type: UInt32
+  field_name: SessionId

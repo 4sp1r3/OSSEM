@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '7008'
+version: '0'
+event(fields): AccountManagement7008(UInt32 error, Int32 hresult)
+opcode: ''
+keywords: ''
+task: AccountManagement
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: error
+- field_type: Int32
+  field_name: hresult

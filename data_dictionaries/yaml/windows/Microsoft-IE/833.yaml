@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '833'
+version: '0'
+event(fields): Mshtml_EventLoop_QueueSentinel(Int32 Priority)
+opcode: ''
+keywords: gwnd
+task: Mshtml_EventLoop_QueueSentinel
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Priority

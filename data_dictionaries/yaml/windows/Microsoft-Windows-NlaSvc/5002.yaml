@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '5002'
+version: '0'
+event(fields): Identified5002(GUID InterfaceGuid, UInt32 SignatureSource, UInt32 SignatureCharacteristics)
+opcode: ''
+keywords: ''
+task: Identified
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: SignatureSource
+- field_type: UInt32
+  field_name: SignatureCharacteristics

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Audio
+event_id: '18'
+version: '0'
+event(fields): AudioDG_Glitch_Threshold_Exceeded(UInt32 dwAudioDgTerminationCode)
+opcode: ''
+keywords: ''
+task: AudioDG_Glitch_Threshold_Exceeded
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwAudioDgTerminationCode

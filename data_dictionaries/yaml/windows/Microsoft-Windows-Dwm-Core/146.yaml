@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '146'
+version: '0'
+event(fields): ETWGUID_DIRECTFLIP_SUPPORTEVENT(UInt64 hCompSurf, UInt32 fSupported,
+  UInt32 fDirectFlipEnabledSurface, UInt32 rotation, UInt32 alphaMode, UInt32 fStereoContent,
+  UInt32 fMonitorSpecificContent, UInt32 surfaceWidth, UInt32 surfaceHeight)
+opcode: ''
+keywords: DwmCore
+task: ETWGUID_DIRECTFLIP_SUPPORTEVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hCompSurf
+- field_type: UInt32
+  field_name: fSupported
+- field_type: UInt32
+  field_name: fDirectFlipEnabledSurface
+- field_type: UInt32
+  field_name: rotation
+- field_type: UInt32
+  field_name: alphaMode
+- field_type: UInt32
+  field_name: fStereoContent
+- field_type: UInt32
+  field_name: fMonitorSpecificContent
+- field_type: UInt32
+  field_name: surfaceWidth
+- field_type: UInt32
+  field_name: surfaceHeight

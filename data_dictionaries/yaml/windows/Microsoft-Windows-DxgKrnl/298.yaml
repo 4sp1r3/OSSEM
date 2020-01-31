@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '298'
+version: '0'
+event(fields): CreateSyncPoint(Pointer hDevice, UInt64 SyncPointId, UInt32 ContextCount,
+  Pointer ContextArray, UInt64 SubmissionIdArray)
+opcode: ''
+keywords: Base
+task: CreateSyncPoint
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hDevice
+- field_type: UInt64
+  field_name: SyncPointId
+- field_type: UInt32
+  field_name: ContextCount
+- field_type: Pointer
+  field_name: ContextArray
+- field_type: UInt64
+  field_name: SubmissionIdArray

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '281'
+version: '0'
+event(fields): DCompInsertPrimitiveAtHead(UInt64 Primitive, UInt64 PrimitiveGroup)
+opcode: ''
+keywords: DComp
+task: DCompInsertPrimitiveAtHead
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Primitive
+- field_type: UInt64
+  field_name: PrimitiveGroup

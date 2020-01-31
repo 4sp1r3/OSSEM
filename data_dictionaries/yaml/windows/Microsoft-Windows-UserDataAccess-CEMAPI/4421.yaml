@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4421'
+version: '0'
+event(fields): MSG_POSTPROCESSWRITEStop()
+opcode: Stop
+keywords: Performance
+task: MSG_POSTPROCESSWRITE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

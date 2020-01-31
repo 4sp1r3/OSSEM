@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSFTEDIT
+event_id: '19'
+version: '0'
+event(fields): ComputeSnappingModeStop()
+opcode: Stop
+keywords: ''
+task: ComputeSnappingMode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

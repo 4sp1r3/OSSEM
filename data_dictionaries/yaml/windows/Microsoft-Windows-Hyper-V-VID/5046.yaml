@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5046'
+version: '0'
+event(fields): VMT_VID_ALLOCATE_PARTITION_NODE_PAGESStart(UInt64 LowAddress, UInt64
+  HighAddress, UInt64 SkipBytes, UInt64 TotalBytes, UInt32 CacheType, UInt8 NodeIndex,
+  UInt32 Flags, Pointer MemoryPartition, GUID PartitionGuid)
+opcode: Start
+keywords: VMK_ALLOCATE_PAGES
+task: VMT_VID_ALLOCATE_PARTITION_NODE_PAGES
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: LowAddress
+- field_type: UInt64
+  field_name: HighAddress
+- field_type: UInt64
+  field_name: SkipBytes
+- field_type: UInt64
+  field_name: TotalBytes
+- field_type: UInt32
+  field_name: CacheType
+- field_type: UInt8
+  field_name: NodeIndex
+- field_type: UInt32
+  field_name: Flags
+- field_type: Pointer
+  field_name: MemoryPartition
+- field_type: GUID
+  field_name: PartitionGuid

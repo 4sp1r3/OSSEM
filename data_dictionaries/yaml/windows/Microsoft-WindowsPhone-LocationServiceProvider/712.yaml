@@ -1,0 +1,35 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '712'
+version: '0'
+event(fields): GeofenceTracking712(UInt32 AppId, UInt32 GeofenceId, Double Latitude,
+  Double Longitude, Double Radius, UInt64 DwellTime, FILETIME StartTime, UInt64 Duration,
+  Boolean SingleUse, UInt32 TrackedGeofencesCount, UInt32 InternalTrackedGeofencesCount)
+opcode: ''
+keywords: Selfhost GeofenceTracking
+task: GeofenceTracking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AppId
+- field_type: UInt32
+  field_name: GeofenceId
+- field_type: Double
+  field_name: Latitude
+- field_type: Double
+  field_name: Longitude
+- field_type: Double
+  field_name: Radius
+- field_type: UInt64
+  field_name: DwellTime
+- field_type: FILETIME
+  field_name: StartTime
+- field_type: UInt64
+  field_name: Duration
+- field_type: Boolean
+  field_name: SingleUse
+- field_type: UInt32
+  field_name: TrackedGeofencesCount
+- field_type: UInt32
+  field_name: InternalTrackedGeofencesCount

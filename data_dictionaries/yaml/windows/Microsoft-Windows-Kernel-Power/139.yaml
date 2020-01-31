@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '139'
+version: '0'
+event(fields): ThermalDurationPerfTrack(UInt32 ThrottleDuration, UInt16 ZoneLength,
+  UnicodeString Zone)
+opcode: ''
+keywords: ''
+task: ThermalDurationPerfTrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ThrottleDuration
+- field_type: UInt16
+  field_name: ZoneLength
+- field_type: UnicodeString
+  field_name: Zone

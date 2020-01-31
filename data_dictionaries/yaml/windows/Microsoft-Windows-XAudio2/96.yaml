@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAudio2
+event_id: '96'
+version: '0'
+event(fields): ProcessingPerformanceWarning(Float Time, UInt32 Callback)
+opcode: PerformanceWarning
+keywords: ''
+task: Processing
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: Time
+- field_type: UInt32
+  field_name: Callback

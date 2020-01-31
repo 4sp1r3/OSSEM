@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '5001'
+version: '0'
+event(fields): task_05001(UnicodeString ApplicationName, UnicodeString ApplicationVersion,
+  UnicodeString ExecutablePath, UnicodeString ScenarioId, UnicodeString Result, UnicodeString
+  ResultID, UnicodeString CompatibilityLayer, UnicodeString FileID, UnicodeString
+  ProgramID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApplicationName
+- field_type: UnicodeString
+  field_name: ApplicationVersion
+- field_type: UnicodeString
+  field_name: ExecutablePath
+- field_type: UnicodeString
+  field_name: ScenarioId
+- field_type: UnicodeString
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ResultID
+- field_type: UnicodeString
+  field_name: CompatibilityLayer
+- field_type: UnicodeString
+  field_name: FileID
+- field_type: UnicodeString
+  field_name: ProgramID

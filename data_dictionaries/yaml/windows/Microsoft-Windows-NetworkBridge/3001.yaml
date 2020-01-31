@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-NetworkBridge
+event_id: '3001'
+version: '0'
+event(fields): task_0()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

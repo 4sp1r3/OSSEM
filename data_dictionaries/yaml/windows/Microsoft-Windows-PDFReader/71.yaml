@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '71'
+version: '0'
+event(fields): CommandBarShowStop(UInt32 UInt32Param)
+opcode: Stop
+keywords: Reader
+task: CommandBarShow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UInt32Param

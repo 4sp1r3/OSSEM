@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '58'
+version: '0'
+event(fields): CiceroServerStart(UInt32 param)
+opcode: Start
+keywords: Status
+task: CiceroServer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: param

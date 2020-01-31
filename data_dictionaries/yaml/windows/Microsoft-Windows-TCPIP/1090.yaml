@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1090'
+version: '0'
+event(fields): TcpReleaseIndication(Pointer NBL)
+opcode: ''
+keywords: ut:ReceivePath
+task: TcpReleaseIndication
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NBL

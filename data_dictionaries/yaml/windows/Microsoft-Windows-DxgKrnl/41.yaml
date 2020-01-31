@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '41'
+version: '0'
+event(fields): Lock(Pointer hDevice, Pointer hAllocationHandle, UInt32 dwFlags, UInt32
+  uiLockStatus)
+opcode: ''
+keywords: Base
+task: Lock
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hDevice
+- field_type: Pointer
+  field_name: hAllocationHandle
+- field_type: UInt32
+  field_name: dwFlags
+- field_type: UInt32
+  field_name: uiLockStatus

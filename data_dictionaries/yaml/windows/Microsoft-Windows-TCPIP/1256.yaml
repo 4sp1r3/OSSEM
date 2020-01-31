@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1256'
+version: '0'
+event(fields): Ndkpi_Create_Mr(Pointer NdkPd, UInt32 FastRegister, Pointer RequestContext)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Create_Mr
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkPd
+- field_type: UInt32
+  field_name: FastRegister
+- field_type: Pointer
+  field_name: RequestContext

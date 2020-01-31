@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14051'
+version: '1'
+event(fields): PublishPackageGroupComponentStart_V1(UInt32 Component)
+opcode: Start
+keywords: ''
+task: PublishPackageGroupComponent
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Component

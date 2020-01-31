@@ -1,0 +1,13 @@
+provider: LsaSrv
+event_id: '6035'
+version: '0'
+event(fields): task_06035(SID SID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SID

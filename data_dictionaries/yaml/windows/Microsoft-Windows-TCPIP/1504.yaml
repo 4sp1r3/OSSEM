@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1504'
+version: '0'
+event(fields): TcpipIpRedirectPath(UInt32 IfIndex, UInt32 IPv4DestinationAddress,
+  UInt32 IPv4NextHop, UInt32 IpAddrLength, Binary IPv6DestinationAddress, Binary IPv6NextHop)
+opcode: ''
+keywords: ut:TcpipDiagnosis ut:TcpipRouter
+task: TcpipIpRedirectPath
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: IPv4DestinationAddress
+- field_type: UInt32
+  field_name: IPv4NextHop
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: Binary
+  field_name: IPv6DestinationAddress
+- field_type: Binary
+  field_name: IPv6NextHop

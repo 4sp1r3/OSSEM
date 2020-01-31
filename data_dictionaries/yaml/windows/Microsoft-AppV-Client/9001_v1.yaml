@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '9001'
+version: '1'
+event(fields): PowerShellInvoke_V1(UnicodeString Command, UnicodeString ErrorWarning)
+opcode: ''
+keywords: ClientManagement
+task: PowerShellInvoke
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Command
+- field_type: UnicodeString
+  field_name: ErrorWarning

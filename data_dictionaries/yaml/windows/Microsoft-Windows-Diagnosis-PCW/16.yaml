@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Diagnosis-PCW
+event_id: '16'
+version: '0'
+event(fields): task_016(UInt32 Error, GUID CounterSetGuid, UnicodeString InstanceName,
+  UInt32 InstanceId, UInt32 CounterId)
+opcode: ''
+keywords: errors
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error
+- field_type: GUID
+  field_name: CounterSetGuid
+- field_type: UnicodeString
+  field_name: InstanceName
+- field_type: UInt32
+  field_name: InstanceId
+- field_type: UInt32
+  field_name: CounterId

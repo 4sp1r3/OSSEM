@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '12'
+version: '0'
+event(fields): URSCall12(UnicodeString URL, UnicodeString RawURL, UnicodeString UrlType,
+  UnicodeString ReqType, UnicodeString HostIP)
+opcode: ''
+keywords: functionality
+task: URSCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UnicodeString
+  field_name: RawURL
+- field_type: UnicodeString
+  field_name: UrlType
+- field_type: UnicodeString
+  field_name: ReqType
+- field_type: UnicodeString
+  field_name: HostIP

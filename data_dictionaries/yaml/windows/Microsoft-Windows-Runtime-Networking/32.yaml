@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '32'
+version: '0'
+event(fields): WebSocketConnectHTTPoperation32(UnicodeString uri, UInt32 hresult,
+  Int32 errorMessage)
+opcode: HTTPoperation
+keywords: keywords.Http
+task: WebSocketConnect
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: uri
+- field_type: UInt32
+  field_name: hresult
+- field_type: Int32
+  field_name: errorMessage

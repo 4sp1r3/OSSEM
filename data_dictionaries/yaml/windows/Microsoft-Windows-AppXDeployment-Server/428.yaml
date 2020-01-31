@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '428'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Dependency428(UnicodeString PackageMoniker,
+  UnicodeString PackageMoniker2)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Dependency
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageMoniker
+- field_type: UnicodeString
+  field_name: PackageMoniker2

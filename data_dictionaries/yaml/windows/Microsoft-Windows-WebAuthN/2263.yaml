@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2263'
+version: '0'
+event(fields): CtapBleDeviceThreadStop2263(GUID TransactionId, UnicodeString DevicePath,
+  UnicodeString PairedName, GUID AAGuid, Boolean U2fProtocol, UInt32 State, HexInt32
+  Status, HexInt32 Error, HexInt32 Win32Error)
+opcode: Stop
+keywords: Ctap Ble
+task: CtapBleDeviceThread
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UnicodeString
+  field_name: DevicePath
+- field_type: UnicodeString
+  field_name: PairedName
+- field_type: GUID
+  field_name: AAGuid
+- field_type: Boolean
+  field_name: U2fProtocol
+- field_type: UInt32
+  field_name: State
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: Error
+- field_type: HexInt32
+  field_name: Win32Error

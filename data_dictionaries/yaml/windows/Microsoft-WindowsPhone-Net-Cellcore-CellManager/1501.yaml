@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1501'
+version: '0'
+event(fields): CellManagerArd1501(UInt32 rilSystemTypeName, UInt32 ardTypeName)
+opcode: ''
+keywords: Trace
+task: CellManagerArd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: rilSystemTypeName
+- field_type: UInt32
+  field_name: ardTypeName

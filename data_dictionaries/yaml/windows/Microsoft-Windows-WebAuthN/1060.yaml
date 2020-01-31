@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '1060'
+version: '0'
+event(fields): WebAuthNErrorInformational(GUID TransactionId, AnsiString Action, HexInt32
+  Error, Int32 HResult)
+opcode: Informational
+keywords: WebAuthN
+task: WebAuthNError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: AnsiString
+  field_name: Action
+- field_type: HexInt32
+  field_name: Error
+- field_type: Int32
+  field_name: HResult

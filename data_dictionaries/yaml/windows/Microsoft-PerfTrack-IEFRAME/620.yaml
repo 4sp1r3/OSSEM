@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '620'
+version: '0'
+event(fields): Search_SuggestionsProcessing_PerftrackStop(UInt64 Object)
+opcode: Stop
+keywords: ''
+task: Search_SuggestionsProcessing_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

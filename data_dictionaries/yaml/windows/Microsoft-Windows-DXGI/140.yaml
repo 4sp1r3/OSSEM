@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DXGI
+event_id: '140'
+version: '0'
+event(fields): IDXGIOutput_GetDisplayModeListStart(Pointer pThis, UInt32 EnumFormat,
+  UInt32 dwFlags, UInt32 pNumModes, Binary pDesc)
+opcode: Start
+keywords: ''
+task: IDXGIOutput_GetDisplayModeList
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: EnumFormat
+- field_type: UInt32
+  field_name: dwFlags
+- field_type: UInt32
+  field_name: pNumModes
+- field_type: Binary
+  field_name: pDesc

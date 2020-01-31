@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-Kerberos
+event_id: '203'
+version: '0'
+event(fields): task_0203()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

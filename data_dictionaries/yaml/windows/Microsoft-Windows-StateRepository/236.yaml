@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '236'
+version: '0'
+event(fields): StateRepository.Task.Migrate236(UnicodeString Name)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD
+task: StateRepository.Task.Migrate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name

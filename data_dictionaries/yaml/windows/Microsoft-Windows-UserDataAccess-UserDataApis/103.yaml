@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '103'
+version: '0'
+event(fields): task_0103(UInt32 Prop_HexInt32)
+opcode: ''
+keywords: VoipCallCoordinator
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_HexInt32

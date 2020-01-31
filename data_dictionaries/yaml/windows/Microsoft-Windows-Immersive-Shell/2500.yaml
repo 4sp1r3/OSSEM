@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2500'
+version: '0'
+event(fields): UserTile_Flyout_LaunchStart()
+opcode: Start
+keywords: ''
+task: UserTile_Flyout_Launch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

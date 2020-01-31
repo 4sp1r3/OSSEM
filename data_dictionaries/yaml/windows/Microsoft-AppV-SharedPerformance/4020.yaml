@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4020'
+version: '0'
+event(fields): Get_AppvPublishingServerStart()
+opcode: Start
+keywords: ''
+task: Get_AppvPublishingServer
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

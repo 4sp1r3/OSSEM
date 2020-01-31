@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '180'
+version: '0'
+event(fields): SVRRequestSample(Pointer object, UInt32 RequestsPending, UInt32 FrameQueueCount)
+opcode: ''
+keywords: ''
+task: SVRRequestSample
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: RequestsPending
+- field_type: UInt32
+  field_name: FrameQueueCount

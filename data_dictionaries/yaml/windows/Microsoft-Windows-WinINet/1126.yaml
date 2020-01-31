@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1126'
+version: '0'
+event(fields): Wininet_CacheClientBloomFilterStop(UInt32 HResult)
+opcode: Stop
+keywords: WININET_KEYWORD_IE
+task: Wininet_CacheClientBloomFilter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HResult

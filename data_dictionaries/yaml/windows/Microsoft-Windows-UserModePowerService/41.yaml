@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '41'
+version: '0'
+event(fields): SleepStudySleepSessionReloggingMissingStart(UInt32 Type, UInt32 Id)
+opcode: MissingStart
+keywords: SleepStudy
+task: SleepStudySleepSessionRelogging
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Id

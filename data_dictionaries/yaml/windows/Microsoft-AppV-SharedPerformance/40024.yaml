@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40024'
+version: '0'
+event(fields): VReg.QueryMultipleValuesStart()
+opcode: Start
+keywords: ''
+task: VReg.QueryMultipleValues
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

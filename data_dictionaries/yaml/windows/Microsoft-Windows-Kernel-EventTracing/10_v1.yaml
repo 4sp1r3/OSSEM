@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '10'
+version: '1'
+event(fields): SessionStart10_V1(GUID SessionGuid, UInt32 LoggerMode, UnicodeString
+  SessionName, UnicodeString LogFileName, UInt32 MinimumBuffers, UInt32 MaximumBuffers,
+  UInt32 BufferSize, UInt32 PeakBuffersCount, UInt32 CurrentBuffersCount, UInt32 FlushThreshold)
+opcode: Start
+keywords: ETW_KEYWORD_SESSION
+task: Session
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SessionGuid
+- field_type: UInt32
+  field_name: LoggerMode
+- field_type: UnicodeString
+  field_name: SessionName
+- field_type: UnicodeString
+  field_name: LogFileName
+- field_type: UInt32
+  field_name: MinimumBuffers
+- field_type: UInt32
+  field_name: MaximumBuffers
+- field_type: UInt32
+  field_name: BufferSize
+- field_type: UInt32
+  field_name: PeakBuffersCount
+- field_type: UInt32
+  field_name: CurrentBuffersCount
+- field_type: UInt32
+  field_name: FlushThreshold

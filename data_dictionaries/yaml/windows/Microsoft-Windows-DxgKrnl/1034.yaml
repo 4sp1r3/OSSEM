@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1034'
+version: '0'
+event(fields): MiracastUmdDriverCbRegisterForDataRateNotifications(UInt64 MiracastLuid,
+  Pointer pfnDataRateNotify)
+opcode: ''
+keywords: Miracast
+task: MiracastUmdDriverCbRegisterForDataRateNotifications
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: Pointer
+  field_name: pfnDataRateNotify

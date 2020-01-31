@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1102'
+version: '0'
+event(fields): task_01102(Int32 TransactionId, AnsiString ChannelId, AnsiString PackageFullName,
+  UInt32 Properties, UInt32 CommandSize, Binary Command, AnsiString Namespace, UInt64
+  ContextId, UInt32 PayloadSize, Binary Payload, UInt64 UserId)
+opcode: ''
+keywords: wpnprv
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: TransactionId
+- field_type: AnsiString
+  field_name: ChannelId
+- field_type: AnsiString
+  field_name: PackageFullName
+- field_type: UInt32
+  field_name: Properties
+- field_type: UInt32
+  field_name: CommandSize
+- field_type: Binary
+  field_name: Command
+- field_type: AnsiString
+  field_name: Namespace
+- field_type: UInt64
+  field_name: ContextId
+- field_type: UInt32
+  field_name: PayloadSize
+- field_type: Binary
+  field_name: Payload
+- field_type: UInt64
+  field_name: UserId

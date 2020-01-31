@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '1035'
+version: '0'
+event(fields): task_01035(UnicodeString APNname, UnicodeString ProviderID, UnicodeString
+  SubscriberID, UnicodeString Profilename)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: APNname
+- field_type: UnicodeString
+  field_name: ProviderID
+- field_type: UnicodeString
+  field_name: SubscriberID
+- field_type: UnicodeString
+  field_name: Profilename

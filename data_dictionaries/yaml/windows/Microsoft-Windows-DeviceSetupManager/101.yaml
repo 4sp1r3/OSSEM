@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '101'
+version: '0'
+event(fields): task_0101(Int64 Prop_UpTime_Seconds, Int64 Prop_WorkTime_MilliSeconds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: Prop_UpTime_Seconds
+- field_type: Int64
+  field_name: Prop_WorkTime_MilliSeconds

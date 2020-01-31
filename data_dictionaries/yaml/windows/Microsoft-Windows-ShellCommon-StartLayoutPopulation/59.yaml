@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '59'
+version: '0'
+event(fields): StartTileCollection_TDLMigration59()
+opcode: ''
+keywords: ''
+task: StartTileCollection_TDLMigration
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

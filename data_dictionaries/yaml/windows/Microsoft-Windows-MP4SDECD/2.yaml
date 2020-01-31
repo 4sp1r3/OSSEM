@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MP4SDECD
+event_id: '2'
+version: '0'
+event(fields): MP4SDECD_InitStart(UInt32 FourCC, UInt32 FrameRate, Int32 WidthSource,
+  Int32 WidthHeight)
+opcode: Start
+keywords: ''
+task: MP4SDECD_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FourCC
+- field_type: UInt32
+  field_name: FrameRate
+- field_type: Int32
+  field_name: WidthSource
+- field_type: Int32
+  field_name: WidthHeight

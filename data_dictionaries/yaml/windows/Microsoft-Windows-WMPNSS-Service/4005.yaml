@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4005'
+version: '0'
+event(fields): Verify_UPnP_ClassStart(UnicodeString ClassName, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Verify_UPnP_Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ClassName
+- field_type: UInt32
+  field_name: ErrorCode

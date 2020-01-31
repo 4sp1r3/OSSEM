@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '34'
+version: '0'
+event(fields): MediaFoundationDevproxyDMFTNotificationInit(Pointer SamplePtr)
+opcode: ''
+keywords: ''
+task: MediaFoundationDevproxyDMFTNotificationInit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SamplePtr

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '604'
+version: '0'
+event(fields): task_0604(UnicodeString AspNetRoutePrefix, UnicodeString ServiceType,
+  UnicodeString ServiceHostFactoryType, UnicodeString AppDomain)
+opcode: ''
+keywords: RoutingServices
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AspNetRoutePrefix
+- field_type: UnicodeString
+  field_name: ServiceType
+- field_type: UnicodeString
+  field_name: ServiceHostFactoryType
+- field_type: UnicodeString
+  field_name: AppDomain

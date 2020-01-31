@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Setup
+event_id: '2004'
+version: '0'
+event(fields): OSinformation(UnicodeString OSName, UnicodeString OSEditionID, UInt32
+  OSmajorversion, UInt32 OSminorversion, UInt32 OSbuildversion, UnicodeString OSservicepackName,
+  UInt32 OSservicepackmajorversion, UInt32 OSservicepackminorversion)
+opcode: ''
+keywords: keyword_400000000000
+task: OSinformation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: OSName
+- field_type: UnicodeString
+  field_name: OSEditionID
+- field_type: UInt32
+  field_name: OSmajorversion
+- field_type: UInt32
+  field_name: OSminorversion
+- field_type: UInt32
+  field_name: OSbuildversion
+- field_type: UnicodeString
+  field_name: OSservicepackName
+- field_type: UInt32
+  field_name: OSservicepackmajorversion
+- field_type: UInt32
+  field_name: OSservicepackminorversion

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PrintService
+event_id: '814'
+version: '0'
+event(fields): InitializingaprintprocessorSpoolerOperationFailed814(UnicodeString
+  Processor, UnicodeString Environment, UnicodeString Path, HexInt32 ErrorCode)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_LOCALSPL
+task: Initializingaprintprocessor
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Processor
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: UnicodeString
+  field_name: Path
+- field_type: HexInt32
+  field_name: ErrorCode

@@ -1,0 +1,22 @@
+provider: Microsoft-JScript
+event_id: '159'
+version: '0'
+event(fields): Jscript_AsyncCausality_StackTrace(UInt64 AsyncOperationId, UInt16 FrameCount,
+  UInt16 NameBufferCount, UnicodeString NameBuffer, Int16 Frames)
+opcode: ''
+keywords: JScriptAsyncCausality
+task: Jscript_AsyncCausality_StackTrace
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: AsyncOperationId
+- field_type: UInt16
+  field_name: FrameCount
+- field_type: UInt16
+  field_name: NameBufferCount
+- field_type: UnicodeString
+  field_name: NameBuffer
+- field_type: Int16
+  field_name: Frames

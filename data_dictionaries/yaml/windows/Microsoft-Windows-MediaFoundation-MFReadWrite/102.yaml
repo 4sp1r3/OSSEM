@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-MFReadWrite
+event_id: '102'
+version: '0'
+event(fields): SinkWriter_BeginWriting(Pointer Object)
+opcode: ''
+keywords: ''
+task: SinkWriter_BeginWriting
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

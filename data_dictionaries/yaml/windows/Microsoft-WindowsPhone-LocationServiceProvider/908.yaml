@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '908'
+version: '0'
+event(fields): GeofenceStore908(UnicodeString Message, UInt32 hr)
+opcode: ''
+keywords: Selfhost GeofenceStore
+task: GeofenceStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UInt32
+  field_name: hr

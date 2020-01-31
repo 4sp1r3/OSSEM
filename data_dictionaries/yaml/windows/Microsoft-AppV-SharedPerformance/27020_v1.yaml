@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27020'
+version: '1'
+event(fields): HandlePackageLoadActivityStart_V1()
+opcode: Start
+keywords: ''
+task: HandlePackageLoadActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

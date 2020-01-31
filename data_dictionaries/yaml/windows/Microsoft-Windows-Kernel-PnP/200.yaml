@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '200'
+version: '0'
+event(fields): BootStart()
+opcode: Start
+keywords: Performance
+task: BootStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,37 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '323'
+version: '0'
+event(fields): PerformanceStateSetRegistration(Pointer Token, UInt32 Component, UInt32
+  Set, UInt16 NameLength, UnicodeString Name, UInt32 Type, UInt32 Unit, UInt64 Minimum,
+  UInt64 Maximum, UInt32 StateCount, UInt64 StateValues, UInt64 CurrentState)
+opcode: ''
+keywords: po:RuntimeFx
+task: PerformanceStateSetRegistration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Token
+- field_type: UInt32
+  field_name: Component
+- field_type: UInt32
+  field_name: Set
+- field_type: UInt16
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Unit
+- field_type: UInt64
+  field_name: Minimum
+- field_type: UInt64
+  field_name: Maximum
+- field_type: UInt32
+  field_name: StateCount
+- field_type: UInt64
+  field_name: StateValues
+- field_type: UInt64
+  field_name: CurrentState

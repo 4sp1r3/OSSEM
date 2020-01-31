@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '71'
+version: '0'
+event(fields): WMP_PlayMusicStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: WMP_PlayMusic
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

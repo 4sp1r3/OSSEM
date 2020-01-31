@@ -1,0 +1,18 @@
+provider: LsaSrv
+event_id: '6182'
+version: '0'
+event(fields): task_06182(HexInt64 TargetLogonId, UnicodeString AccountName, UnicodeString
+  DomainName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: TargetLogonId
+- field_type: UnicodeString
+  field_name: AccountName
+- field_type: UnicodeString
+  field_name: DomainName

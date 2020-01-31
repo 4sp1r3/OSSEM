@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19900'
+version: '0'
+event(fields): StartButton_ChangeState(Int32 OldState, Int32 NewState)
+opcode: ''
+keywords: Shell
+task: StartButton_ChangeState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: OldState
+- field_type: Int32
+  field_name: NewState

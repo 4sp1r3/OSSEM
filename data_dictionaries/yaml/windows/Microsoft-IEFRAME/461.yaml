@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '461'
+version: '0'
+event(fields): TabRoaming_SessionTimerFired()
+opcode: ''
+keywords: roaming
+task: TabRoaming_SessionTimerFired
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

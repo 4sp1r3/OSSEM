@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6202'
+version: '0'
+event(fields): AccessibilityDocking_ReserveDockingSpaceStart()
+opcode: Start
+keywords: ''
+task: AccessibilityDocking_ReserveDockingSpace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

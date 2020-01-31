@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TerminalServices-RemoteConnectionManager
+event_id: '1281'
+version: '0'
+event(fields): task_01281(UnicodeString Param1, UnicodeString Param2, Int32 Param3)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Param1
+- field_type: UnicodeString
+  field_name: Param2
+- field_type: Int32
+  field_name: Param3

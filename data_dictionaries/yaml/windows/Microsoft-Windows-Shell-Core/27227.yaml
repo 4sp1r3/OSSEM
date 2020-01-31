@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27227'
+version: '0'
+event(fields): PerfTrack_StartPane_TopMatchReadyStop27227()
+opcode: Stop
+keywords: Shell
+task: PerfTrack_StartPane_TopMatchReady
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

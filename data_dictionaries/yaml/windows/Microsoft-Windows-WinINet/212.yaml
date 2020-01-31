@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WinINet
+event_id: '212'
+version: '0'
+event(fields): WININET_REQUEST_HEADER_OPTIONAL(Pointer RequestHandle, UInt16 Length,
+  AnsiString Headers)
+opcode: ''
+keywords: WININET_KEYWORD_HTTP keyword_20000000000
+task: WININET_REQUEST_HEADER_OPTIONAL
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestHandle
+- field_type: UInt16
+  field_name: Length
+- field_type: AnsiString
+  field_name: Headers

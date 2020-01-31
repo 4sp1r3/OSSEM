@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '7002'
+version: '0'
+event(fields): AccountManagement7002(UnicodeString mbnInterface, Int32 cellularClass)
+opcode: ''
+keywords: ''
+task: AccountManagement
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: mbnInterface
+- field_type: Int32
+  field_name: cellularClass

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '87'
+version: '0'
+event(fields): FrameworkElementLoadingStop()
+opcode: Stop
+keywords: ''
+task: FrameworkElementLoading
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

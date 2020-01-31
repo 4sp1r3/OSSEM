@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '624'
+version: '0'
+event(fields): SoftKeyboard_OutputManager_DocumentContextReady(UnicodeString PreContext,
+  UnicodeString PostContext)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_OutputManager_DocumentContextReady
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PreContext
+- field_type: UnicodeString
+  field_name: PostContext

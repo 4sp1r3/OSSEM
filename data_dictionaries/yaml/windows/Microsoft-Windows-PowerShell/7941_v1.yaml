@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '7941'
+version: '1'
+event(fields): task_0Tobeusedwhenoperationisjustexecutingamethod_V1(GUID currentActivityId,
+  GUID parentActivityId)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: currentActivityId
+- field_type: GUID
+  field_name: parentActivityId

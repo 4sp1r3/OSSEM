@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2113'
+version: '0'
+event(fields): Picker_JumpBar_MenuInvokedStop()
+opcode: Stop
+keywords: ''
+task: Picker_JumpBar_MenuInvoked
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

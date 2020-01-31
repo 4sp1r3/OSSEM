@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '2'
+version: '0'
+event(fields): AppAgent(UnicodeString WString1)
+opcode: AppAgent
+keywords: DebugTrace
+task: AppAgent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: WString1

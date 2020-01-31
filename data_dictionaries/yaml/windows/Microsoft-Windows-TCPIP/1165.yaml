@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1165'
+version: '0'
+event(fields): TcpCTcpGamma(Pointer Tcb, UInt32 Gamma, UInt32 AverageBacklog, UInt32
+  AverageBacklogAcrossLFP)
+opcode: ''
+keywords: ut:TcpipCtcp ut:SendPath
+task: TcpCTcpGamma
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Gamma
+- field_type: UInt32
+  field_name: AverageBacklog
+- field_type: UInt32
+  field_name: AverageBacklogAcrossLFP

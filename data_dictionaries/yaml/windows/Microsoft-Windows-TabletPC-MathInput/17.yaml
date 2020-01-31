@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '17'
+version: '0'
+event(fields): HintRedoStop()
+opcode: Stop
+keywords: ''
+task: HintRedo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

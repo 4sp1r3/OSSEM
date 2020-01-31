@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Audio
+event_id: '42'
+version: '0'
+event(fields): Audio_Glitch_DetectionKSEndpointGlitch:RTCAPStreamPosAheadofHWPos(Pointer
+  pCAudioCapturePinRealtimeStreaming, UInt64 WritePosition, UInt64 PlayPosition, UInt64
+  StreamPosition, UInt64 StreamPosMinusReadPos)
+opcode: RTCAPStreamPosAheadofHWPos
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCAudioCapturePinRealtimeStreaming
+- field_type: UInt64
+  field_name: WritePosition
+- field_type: UInt64
+  field_name: PlayPosition
+- field_type: UInt64
+  field_name: StreamPosition
+- field_type: UInt64
+  field_name: StreamPosMinusReadPos

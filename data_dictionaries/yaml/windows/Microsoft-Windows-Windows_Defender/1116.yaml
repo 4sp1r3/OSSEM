@@ -1,0 +1,108 @@
+provider: Microsoft-Windows-Windows Defender
+event_id: '1116'
+version: '0'
+event(fields): task_01116(UnicodeString ProductName, UnicodeString ProductVersion,
+  UnicodeString DetectionID, UnicodeString DetectionTime, UnicodeString Unused, UnicodeString
+  Unused2, UnicodeString ThreatID, UnicodeString ThreatName, UnicodeString SeverityID,
+  UnicodeString SeverityName, UnicodeString CategoryID, UnicodeString CategoryName,
+  UnicodeString FWLink, UnicodeString StatusCode, UnicodeString StatusDescription,
+  UnicodeString State, UnicodeString SourceID, UnicodeString SourceName, UnicodeString
+  ProcessName, UnicodeString DetectionUser, UnicodeString Unused3, UnicodeString Path,
+  UnicodeString OriginID, UnicodeString OriginName, UnicodeString ExecutionID, UnicodeString
+  ExecutionName, UnicodeString TypeID, UnicodeString TypeName, UnicodeString PreExecutionStatus,
+  UnicodeString ActionID, UnicodeString ActionName, UnicodeString Unused4, UnicodeString
+  ErrorCode, UnicodeString ErrorDescription, UnicodeString Unused5, UnicodeString
+  PostCleanStatus, UnicodeString AdditionalActionsID, UnicodeString AdditionalActionsString,
+  UnicodeString RemediationUser, UnicodeString Unused6, UnicodeString SecurityintelligenceVersion,
+  UnicodeString EngineVersion)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UnicodeString
+  field_name: ProductVersion
+- field_type: UnicodeString
+  field_name: DetectionID
+- field_type: UnicodeString
+  field_name: DetectionTime
+- field_type: UnicodeString
+  field_name: Unused
+- field_type: UnicodeString
+  field_name: Unused2
+- field_type: UnicodeString
+  field_name: ThreatID
+- field_type: UnicodeString
+  field_name: ThreatName
+- field_type: UnicodeString
+  field_name: SeverityID
+- field_type: UnicodeString
+  field_name: SeverityName
+- field_type: UnicodeString
+  field_name: CategoryID
+- field_type: UnicodeString
+  field_name: CategoryName
+- field_type: UnicodeString
+  field_name: FWLink
+- field_type: UnicodeString
+  field_name: StatusCode
+- field_type: UnicodeString
+  field_name: StatusDescription
+- field_type: UnicodeString
+  field_name: State
+- field_type: UnicodeString
+  field_name: SourceID
+- field_type: UnicodeString
+  field_name: SourceName
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: UnicodeString
+  field_name: DetectionUser
+- field_type: UnicodeString
+  field_name: Unused3
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UnicodeString
+  field_name: OriginID
+- field_type: UnicodeString
+  field_name: OriginName
+- field_type: UnicodeString
+  field_name: ExecutionID
+- field_type: UnicodeString
+  field_name: ExecutionName
+- field_type: UnicodeString
+  field_name: TypeID
+- field_type: UnicodeString
+  field_name: TypeName
+- field_type: UnicodeString
+  field_name: PreExecutionStatus
+- field_type: UnicodeString
+  field_name: ActionID
+- field_type: UnicodeString
+  field_name: ActionName
+- field_type: UnicodeString
+  field_name: Unused4
+- field_type: UnicodeString
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorDescription
+- field_type: UnicodeString
+  field_name: Unused5
+- field_type: UnicodeString
+  field_name: PostCleanStatus
+- field_type: UnicodeString
+  field_name: AdditionalActionsID
+- field_type: UnicodeString
+  field_name: AdditionalActionsString
+- field_type: UnicodeString
+  field_name: RemediationUser
+- field_type: UnicodeString
+  field_name: Unused6
+- field_type: UnicodeString
+  field_name: SecurityintelligenceVersion
+- field_type: UnicodeString
+  field_name: EngineVersion

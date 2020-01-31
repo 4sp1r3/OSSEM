@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '209'
+version: '0'
+event(fields): UiaAutomationEventHandlerStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: UiaAutomationEventHandler
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

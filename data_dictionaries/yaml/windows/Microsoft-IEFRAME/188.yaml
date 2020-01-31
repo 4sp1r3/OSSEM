@@ -1,0 +1,16 @@
+provider: Microsoft-IEFRAME
+event_id: '188'
+version: '0'
+event(fields): Shdocvw_BaseBrowser_FireEvent_DownloadBeginStop(UInt32 TabID, UInt32
+  TabState)
+opcode: Stop
+keywords: primarynav
+task: Shdocvw_BaseBrowser_FireEvent_DownloadBegin
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID
+- field_type: UInt32
+  field_name: TabState

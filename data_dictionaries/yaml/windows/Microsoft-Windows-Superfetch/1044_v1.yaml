@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1044'
+version: '1'
+event(fields): PrelaunchStop_V1(HexInt32 HResult)
+opcode: Stop
+keywords: PfAp
+task: Prelaunch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HResult

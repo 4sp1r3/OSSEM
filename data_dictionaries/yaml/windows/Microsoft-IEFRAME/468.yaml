@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '468'
+version: '0'
+event(fields): BrowserRoamedSettingChange_FlipAheadStart(UInt64 HWND)
+opcode: Start
+keywords: roaming
+task: BrowserRoamedSettingChange_FlipAhead
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: HWND

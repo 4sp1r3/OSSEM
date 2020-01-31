@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Security-Netlogon
+event_id: '9004'
+version: '0'
+event(fields): LOCATOR(UInt32 RequestsRejected)
+opcode: ''
+keywords: ''
+task: LOCATOR
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestsRejected

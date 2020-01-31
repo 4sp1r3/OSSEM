@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '462'
+version: '0'
+event(fields): Mshtml_IndependentAnimation_Start(Pointer AnimationID, Pointer AnimationInstanceObject,
+  UInt32 AnimationPropertyId, Boolean IsTransition, UInt64 QPCScheduleTime)
+opcode: Start
+keywords: animation
+task: Mshtml_IndependentAnimation_Start
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AnimationID
+- field_type: Pointer
+  field_name: AnimationInstanceObject
+- field_type: UInt32
+  field_name: AnimationPropertyId
+- field_type: Boolean
+  field_name: IsTransition
+- field_type: UInt64
+  field_name: QPCScheduleTime

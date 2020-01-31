@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '45'
+version: '0'
+event(fields): Mshtml_HtmPost_PostManSetTimer(UInt32 dw, Pointer HWND)
+opcode: ''
+keywords: subsystem mshtml
+task: Mshtml_HtmPost_PostManSetTimer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dw
+- field_type: Pointer
+  field_name: HWND

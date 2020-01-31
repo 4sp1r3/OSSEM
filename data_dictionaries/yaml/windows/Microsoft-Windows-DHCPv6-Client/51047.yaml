@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51047'
+version: '0'
+event(fields): ServiceStateEventServiceStop(UInt32 DwordVal)
+opcode: ServiceStop
+keywords: ''
+task: ServiceStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordVal

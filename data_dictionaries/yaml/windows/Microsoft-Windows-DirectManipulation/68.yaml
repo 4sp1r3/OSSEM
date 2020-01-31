@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DirectManipulation
+event_id: '68'
+version: '0'
+event(fields): Manipulation_Behaviors68(Pointer content, Int32 motionType, UInt32
+  index, Int32 bIsNewSnapValues, Float newSnapPointValue)
+opcode: ''
+keywords: ''
+task: Manipulation_Behaviors
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: content
+- field_type: Int32
+  field_name: motionType
+- field_type: UInt32
+  field_name: index
+- field_type: Int32
+  field_name: bIsNewSnapValues
+- field_type: Float
+  field_name: newSnapPointValue

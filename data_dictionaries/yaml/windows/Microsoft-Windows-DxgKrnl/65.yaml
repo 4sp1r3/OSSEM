@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '65'
+version: '0'
+event(fields): RenameAllocationStop(Pointer hAllocationGlobalHandle, Pointer hAllocationHandle,
+  UInt32 Count)
+opcode: Stop
+keywords: Resource
+task: RenameAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: Pointer
+  field_name: hAllocationHandle
+- field_type: UInt32
+  field_name: Count

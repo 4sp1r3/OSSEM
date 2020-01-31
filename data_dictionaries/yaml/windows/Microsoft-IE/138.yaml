@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '138'
+version: '0'
+event(fields): Mshtml_View_RenderViewStop(Pointer View, UInt32 Exit)
+opcode: Stop
+keywords: subsystem mshtml pageloadbreakdown
+task: Mshtml_View_RenderView
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: View
+- field_type: UInt32
+  field_name: Exit

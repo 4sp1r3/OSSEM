@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '602'
+version: '0'
+event(fields): AM_CreatingActivationPlugins602(GUID PluginClsid)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular
+task: AM_CreatingActivationPlugins
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PluginClsid

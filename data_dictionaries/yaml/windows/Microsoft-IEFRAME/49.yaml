@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '49'
+version: '0'
+event(fields): EnumHistoryRecordsStop()
+opcode: Stop
+keywords: primarynav
+task: EnumHistoryRecords
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

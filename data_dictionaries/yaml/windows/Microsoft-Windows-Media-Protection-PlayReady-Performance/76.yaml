@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '76'
+version: '0'
+event(fields): CBlackboxWithTEEParseProvisioningResponseFromNetworkStart(Pointer Object,
+  UInt32 HResult)
+opcode: Start
+keywords: ''
+task: CBlackboxWithTEEParseProvisioningResponseFromNetwork
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: HResult

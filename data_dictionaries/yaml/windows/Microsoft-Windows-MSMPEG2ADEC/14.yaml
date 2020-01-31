@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSMPEG2ADEC
+event_id: '14'
+version: '0'
+event(fields): AUDDECODE_FRAME_ERROR(UInt32 dwordarg)
+opcode: ''
+keywords: ''
+task: AUDDECODE_FRAME_ERROR
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwordarg

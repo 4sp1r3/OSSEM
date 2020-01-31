@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-WebIO
+event_id: '705'
+version: '0'
+event(fields): SSLInitializeSecurityContext705(Pointer Connection, UInt64 SecurityHandleHigh,
+  UInt64 SecurityHandleLow, Pointer DataChunks, UInt32 DataChunkBufferLength, Binary
+  Data)
+opcode: ''
+keywords: Keyword.SECURITY
+task: SSLInitializeSecurityContext
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: UInt64
+  field_name: SecurityHandleHigh
+- field_type: UInt64
+  field_name: SecurityHandleLow
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: UInt32
+  field_name: DataChunkBufferLength
+- field_type: Binary
+  field_name: Data

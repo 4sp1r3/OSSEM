@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Web-Http
+event_id: '34'
+version: '0'
+event(fields): HttpOperation34(UInt32 asyncOperation, Pointer asyncObject)
+opcode: ''
+keywords: ''
+task: HttpOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: asyncOperation
+- field_type: Pointer
+  field_name: asyncObject

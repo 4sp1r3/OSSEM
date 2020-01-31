@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '96'
+version: '0'
+event(fields): Backoff_State(UInt32 BackoffReason, UInt32 IndexNewItemReason, UInt32
+  AllReasons, UInt32 FeatureDisabled, UInt32 PowerSetting, Boolean BackoffRecoveryIsON,
+  Boolean ProcessNotifications, Boolean BackOffOnPendingNotifications, UInt32 PendingHiPriNotifications,
+  Boolean BackOffOnPowerSetting, Boolean XPScreenSaverAndNoBattery, Boolean EnablePHBackoff,
+  Boolean Merging)
+opcode: ''
+keywords: Backoff
+task: Backoff_State
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BackoffReason
+- field_type: UInt32
+  field_name: IndexNewItemReason
+- field_type: UInt32
+  field_name: AllReasons
+- field_type: UInt32
+  field_name: FeatureDisabled
+- field_type: UInt32
+  field_name: PowerSetting
+- field_type: Boolean
+  field_name: BackoffRecoveryIsON
+- field_type: Boolean
+  field_name: ProcessNotifications
+- field_type: Boolean
+  field_name: BackOffOnPendingNotifications
+- field_type: UInt32
+  field_name: PendingHiPriNotifications
+- field_type: Boolean
+  field_name: BackOffOnPowerSetting
+- field_type: Boolean
+  field_name: XPScreenSaverAndNoBattery
+- field_type: Boolean
+  field_name: EnablePHBackoff
+- field_type: Boolean
+  field_name: Merging

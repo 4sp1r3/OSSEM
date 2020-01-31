@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1037'
+version: '0'
+event(fields): AppXDeployment.Task.Server.StagingManagerStop1037(UnicodeString FileName,
+  HexInt64 Offset, HexInt64 Size)
+opcode: Stop
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.StagingManager
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: HexInt64
+  field_name: Offset
+- field_type: HexInt64
+  field_name: Size

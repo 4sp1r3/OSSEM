@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '110'
+version: '0'
+event(fields): EventprocessingStart(GUID PublisherGuid, UnicodeString PublisherName)
+opcode: Start
+keywords: ''
+task: Eventprocessing
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PublisherGuid
+- field_type: UnicodeString
+  field_name: PublisherName

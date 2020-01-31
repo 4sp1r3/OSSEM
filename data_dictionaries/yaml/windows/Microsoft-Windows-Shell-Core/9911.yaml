@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9911'
+version: '0'
+event(fields): Shell32_ObservableCollection_OnCollectionChanged()
+opcode: ''
+keywords: Shell
+task: Shell32_ObservableCollection_OnCollectionChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

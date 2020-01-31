@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-VIRTDISK
+event_id: '2'
+version: '0'
+event(fields): Openvirtualdisk.Stop(Pointer VhdHandle, UInt32 VhdStatus)
+opcode: Stop
+keywords: ''
+task: Openvirtualdisk.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: VhdHandle
+- field_type: UInt32
+  field_name: VhdStatus

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4053'
+version: '0'
+event(fields): Set_AppvClientConfigurationStop()
+opcode: Stop
+keywords: ''
+task: Set_AppvClientConfiguration
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

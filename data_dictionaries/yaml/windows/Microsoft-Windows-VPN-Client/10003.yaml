@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-VPN-Client
+event_id: '10003'
+version: '0'
+event(fields): VPNWmiDeleteSuccess(UnicodeString VpnConnectionName)
+opcode: Success
+keywords: ''
+task: VPNWmiDelete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VpnConnectionName

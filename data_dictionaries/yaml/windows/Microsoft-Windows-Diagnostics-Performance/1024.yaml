@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '1024'
+version: '0'
+event(fields): Boot_RurReadAheadStart()
+opcode: Start
+keywords: BootStatus
+task: Boot_RurReadAhead
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

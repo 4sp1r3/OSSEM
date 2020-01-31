@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '112'
+version: '0'
+event(fields): DirectShowFilterGraphStopStart(Pointer context)
+opcode: Start
+keywords: ''
+task: DirectShowFilterGraphStop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: context

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '228'
+version: '0'
+event(fields): CUIAutomation_GetFocusedElementStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CUIAutomation_GetFocusedElement
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

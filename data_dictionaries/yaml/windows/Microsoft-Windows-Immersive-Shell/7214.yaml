@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7214'
+version: '0'
+event(fields): ConnectedSearch_ConnectionEstablished(UInt32 EndpointCode, UnicodeString
+  Hostname, UnicodeString ObjectName, UnicodeString UserAgent)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_ConnectionEstablished
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EndpointCode
+- field_type: UnicodeString
+  field_name: Hostname
+- field_type: UnicodeString
+  field_name: ObjectName
+- field_type: UnicodeString
+  field_name: UserAgent

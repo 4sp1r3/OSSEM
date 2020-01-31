@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '488'
+version: '0'
+event(fields): XYFocusNotFound(UInt64 ElementId, UnicodeString Direction)
+opcode: ''
+keywords: Input
+task: XYFocusNotFound
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UnicodeString
+  field_name: Direction

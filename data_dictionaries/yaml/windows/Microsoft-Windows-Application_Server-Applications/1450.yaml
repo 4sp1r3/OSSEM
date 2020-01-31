@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1450'
+version: '0'
+event(fields): WFMessageSend(UnicodeString AppDomain)
+opcode: Send
+keywords: WFServices
+task: WFMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

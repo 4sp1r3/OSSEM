@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AppWizCpl
+event_id: '3'
+version: '0'
+event(fields): AppWizCpl_SoftwareExplorer_RemoveApplicationLaunchStop()
+opcode: Stop
+keywords: ''
+task: AppWizCpl_SoftwareExplorer_RemoveApplicationLaunch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

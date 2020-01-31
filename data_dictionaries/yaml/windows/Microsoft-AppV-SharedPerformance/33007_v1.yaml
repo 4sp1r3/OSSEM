@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '33007'
+version: '1'
+event(fields): VFONTS.ProcessDllDetachStop_V1()
+opcode: Stop
+keywords: ''
+task: VFONTS.ProcessDllDetach
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

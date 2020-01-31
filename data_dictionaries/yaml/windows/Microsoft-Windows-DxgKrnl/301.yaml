@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '301'
+version: '0'
+event(fields): RecycleRangeTracking(Pointer EProcess, Pointer Range, Pointer Block,
+  Pointer Section, Pointer Heap, Pointer StartAddress, Pointer EndAddress, UInt32
+  HeapType, UInt32 CreationState)
+opcode: ''
+keywords: Memory
+task: RecycleRangeTracking
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: EProcess
+- field_type: Pointer
+  field_name: Range
+- field_type: Pointer
+  field_name: Block
+- field_type: Pointer
+  field_name: Section
+- field_type: Pointer
+  field_name: Heap
+- field_type: Pointer
+  field_name: StartAddress
+- field_type: Pointer
+  field_name: EndAddress
+- field_type: UInt32
+  field_name: HeapType
+- field_type: UInt32
+  field_name: CreationState

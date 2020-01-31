@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Minstore
+event_id: '25'
+version: '1'
+event(fields): AllocationContainermove_V1(UInt32 SourceTier, UInt32 TargetTier, HexInt64
+  SourceStartOfRange, HexInt64 SourceCountOfRange, HexInt64 TargetPhysicalOffset,
+  UInt32 SsdFillRatio, UInt32 HddFillRatio, Boolean IsTargetReserved, HexInt64 DestageAllocationCount,
+  Boolean FailedSsdDestage)
+opcode: Containermove
+keywords: ''
+task: Allocation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SourceTier
+- field_type: UInt32
+  field_name: TargetTier
+- field_type: HexInt64
+  field_name: SourceStartOfRange
+- field_type: HexInt64
+  field_name: SourceCountOfRange
+- field_type: HexInt64
+  field_name: TargetPhysicalOffset
+- field_type: UInt32
+  field_name: SsdFillRatio
+- field_type: UInt32
+  field_name: HddFillRatio
+- field_type: Boolean
+  field_name: IsTargetReserved
+- field_type: HexInt64
+  field_name: DestageAllocationCount
+- field_type: Boolean
+  field_name: FailedSsdDestage

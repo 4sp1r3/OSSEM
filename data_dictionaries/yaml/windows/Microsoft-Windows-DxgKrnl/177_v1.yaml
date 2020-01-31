@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '177'
+version: '1'
+event(fields): DmaPacket_V1(Pointer hContext, UInt32 PacketType, UInt64 uliCompletionId,
+  UInt32 ulQueueSubmitSequence, UInt32 InterruptType, UInt32 QuantumStatus, UInt64
+  FaultedVirtualAddress, UInt32 PageFaultFlags, Pointer FaultedProcessHandle)
+opcode: ''
+keywords: Base
+task: DmaPacket
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: PacketType
+- field_type: UInt64
+  field_name: uliCompletionId
+- field_type: UInt32
+  field_name: ulQueueSubmitSequence
+- field_type: UInt32
+  field_name: InterruptType
+- field_type: UInt32
+  field_name: QuantumStatus
+- field_type: UInt64
+  field_name: FaultedVirtualAddress
+- field_type: UInt32
+  field_name: PageFaultFlags
+- field_type: Pointer
+  field_name: FaultedProcessHandle

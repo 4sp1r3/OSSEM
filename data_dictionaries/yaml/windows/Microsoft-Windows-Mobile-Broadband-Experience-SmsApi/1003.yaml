@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Mobile-Broadband-Experience-SmsApi
+event_id: '1003'
+version: '0'
+event(fields): SendMessageStop()
+opcode: Stop
+keywords: ''
+task: SendMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

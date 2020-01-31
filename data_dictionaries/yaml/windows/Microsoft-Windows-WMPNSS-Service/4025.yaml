@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4025'
+version: '0'
+event(fields): Results_InitializeStart(Boolean BrowseChildren, UInt32 BrowseIndex,
+  UInt32 RequestedCount, UInt32 SortItemCount, UInt32 ItemCount, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Results_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: BrowseChildren
+- field_type: UInt32
+  field_name: BrowseIndex
+- field_type: UInt32
+  field_name: RequestedCount
+- field_type: UInt32
+  field_name: SortItemCount
+- field_type: UInt32
+  field_name: ItemCount
+- field_type: UInt32
+  field_name: ErrorCode

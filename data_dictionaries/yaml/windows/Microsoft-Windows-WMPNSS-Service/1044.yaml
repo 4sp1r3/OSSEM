@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1044'
+version: '0'
+event(fields): Objwriter_Get_Element_Attrib_ValueStop(UInt32 ElementValue, UInt32
+  Index, UInt32 AttributeValue, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Objwriter_Get_Element_Attrib_Value
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ElementValue
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: AttributeValue
+- field_type: UInt32
+  field_name: ErrorCode

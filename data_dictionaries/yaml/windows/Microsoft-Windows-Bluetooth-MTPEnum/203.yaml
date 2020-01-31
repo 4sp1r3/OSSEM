@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Bluetooth-MTPEnum
+event_id: '203'
+version: '0'
+event(fields): LinkState203(UnicodeString Name)
+opcode: ''
+keywords: ''
+task: LinkState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name

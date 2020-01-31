@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '47007'
+version: '1'
+event(fields): ShellExtensionsPublishing_DeserializePolicyStop_V1()
+opcode: Stop
+keywords: ''
+task: ShellExtensionsPublishing_DeserializePolicy
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

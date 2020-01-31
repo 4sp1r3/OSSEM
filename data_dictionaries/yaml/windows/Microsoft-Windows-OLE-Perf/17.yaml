@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OLE-Perf
+event_id: '17'
+version: '0'
+event(fields): OLE_DragDrop_UnregisterInternalStart()
+opcode: Start
+keywords: ''
+task: OLE_DragDrop_UnregisterInternal
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1503'
+version: '0'
+event(fields): TcpipActiveRefFailure(UInt32 Release, UInt32 IfIndex, UInt32 Subtask,
+  UInt32 Status)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis
+task: TcpipActiveRefFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Release
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: Subtask
+- field_type: UInt32
+  field_name: Status

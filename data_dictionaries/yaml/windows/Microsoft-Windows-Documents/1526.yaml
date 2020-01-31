@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Documents
+event_id: '1526'
+version: '0'
+event(fields): DocPerf_Task_ScanRT_FromIdAsyncStart(UnicodeString Id)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_ScanRT_FromIdAsync
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Id

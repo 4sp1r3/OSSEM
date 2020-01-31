@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '341'
+version: '0'
+event(fields): Unlock341(Pointer pAlloc)
+opcode: ''
+keywords: Base
+task: Unlock
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pAlloc

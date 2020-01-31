@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '1'
+version: '0'
+event(fields): PowerTransitionStart(UInt32 Reason, UInt32 Flags, FILETIME Time)
+opcode: Start
+keywords: po:Scenario po:Performance po:SleepDiagnostic po:WdiDiagnostic
+task: PowerTransition
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Flags
+- field_type: FILETIME
+  field_name: Time

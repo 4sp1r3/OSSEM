@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '11008'
+version: '0'
+event(fields): IhvSecuritySuccess_24013_201(UnicodeString Adapter, GUID DeviceGuid,
+  UnicodeString LocalMac, UnicodeString SSID, UnicodeString BSSType, Pointer ConnectionId)
+opcode: Success_24013_201
+keywords: WlanConnect LwtDiagnostic
+task: IhvSecurity
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: Pointer
+  field_name: ConnectionId

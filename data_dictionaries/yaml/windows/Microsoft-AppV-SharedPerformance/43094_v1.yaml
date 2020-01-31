@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '43094'
+version: '1'
+event(fields): PublishExtensionPoint_4304Start_V1()
+opcode: Start
+keywords: ''
+task: PublishExtensionPoint_4304
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

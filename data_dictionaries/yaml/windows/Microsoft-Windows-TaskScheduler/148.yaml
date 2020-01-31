@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '148'
+version: '0'
+event(fields): TaskimagerecoveringfailedafterOSmigration(UnicodeString TaskName, HexInt32
+  ResultCode)
+opcode: ''
+keywords: ''
+task: TaskimagerecoveringfailedafterOSmigration
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: HexInt32
+  field_name: ResultCode

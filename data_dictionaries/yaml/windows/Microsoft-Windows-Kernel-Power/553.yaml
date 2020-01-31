@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '553'
+version: '0'
+event(fields): DirectedFxPowerStateFailure(Pointer FxDevice, Pointer DeviceNode, UInt32
+  InstancePathLength, UnicodeString InstancePath)
+opcode: ''
+keywords: po:Diagnostic
+task: DirectedFxPowerStateFailure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FxDevice
+- field_type: Pointer
+  field_name: DeviceNode
+- field_type: UInt32
+  field_name: InstancePathLength
+- field_type: UnicodeString
+  field_name: InstancePath

@@ -1,0 +1,79 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '6278'
+version: '0'
+event(fields): task_06278(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, UnicodeString FullyQualifiedSubjectUserName, SID SubjectMachineSID,
+  UnicodeString SubjectMachineName, UnicodeString FullyQualifiedSubjectMachineName,
+  UnicodeString MachineInventory, UnicodeString CalledStationID, UnicodeString CallingStationID,
+  UnicodeString NASIPv4Address, UnicodeString NASIPv6Address, UnicodeString NASIdentifier,
+  UnicodeString NASPortType, UnicodeString NASPort, UnicodeString ClientName, UnicodeString
+  ClientIPAddress, UnicodeString ProxyPolicyName, UnicodeString NetworkPolicyName,
+  UnicodeString AuthenticationProvider, UnicodeString AuthenticationServer, UnicodeString
+  AuthenticationType, UnicodeString EAPType, UnicodeString AccountSessionIdentifier,
+  UnicodeString QuarantineState, UnicodeString ExtendedQuarantineState, UnicodeString
+  QuarantineSessionID, UnicodeString QuarantineHelpURL, UnicodeString QuarantineSystemHealthResult)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: UnicodeString
+  field_name: FullyQualifiedSubjectUserName
+- field_type: SID
+  field_name: SubjectMachineSID
+- field_type: UnicodeString
+  field_name: SubjectMachineName
+- field_type: UnicodeString
+  field_name: FullyQualifiedSubjectMachineName
+- field_type: UnicodeString
+  field_name: MachineInventory
+- field_type: UnicodeString
+  field_name: CalledStationID
+- field_type: UnicodeString
+  field_name: CallingStationID
+- field_type: UnicodeString
+  field_name: NASIPv4Address
+- field_type: UnicodeString
+  field_name: NASIPv6Address
+- field_type: UnicodeString
+  field_name: NASIdentifier
+- field_type: UnicodeString
+  field_name: NASPortType
+- field_type: UnicodeString
+  field_name: NASPort
+- field_type: UnicodeString
+  field_name: ClientName
+- field_type: UnicodeString
+  field_name: ClientIPAddress
+- field_type: UnicodeString
+  field_name: ProxyPolicyName
+- field_type: UnicodeString
+  field_name: NetworkPolicyName
+- field_type: UnicodeString
+  field_name: AuthenticationProvider
+- field_type: UnicodeString
+  field_name: AuthenticationServer
+- field_type: UnicodeString
+  field_name: AuthenticationType
+- field_type: UnicodeString
+  field_name: EAPType
+- field_type: UnicodeString
+  field_name: AccountSessionIdentifier
+- field_type: UnicodeString
+  field_name: QuarantineState
+- field_type: UnicodeString
+  field_name: ExtendedQuarantineState
+- field_type: UnicodeString
+  field_name: QuarantineSessionID
+- field_type: UnicodeString
+  field_name: QuarantineHelpURL
+- field_type: UnicodeString
+  field_name: QuarantineSystemHealthResult

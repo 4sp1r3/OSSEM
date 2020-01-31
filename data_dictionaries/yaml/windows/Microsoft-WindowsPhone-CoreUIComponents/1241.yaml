@@ -1,0 +1,16 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1241'
+version: '0'
+event(fields): ForegroundTaskManagerGetApplicationDisplayNameStop(UnicodeString pwsz,
+  UInt32 navigationError)
+opcode: Stop
+keywords: NavigationPerformance ForegroundTaskManager
+task: ForegroundTaskManagerGetApplicationDisplayName
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UInt32
+  field_name: navigationError

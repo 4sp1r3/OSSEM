@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Partition
+event_id: '1003'
+version: '0'
+event(fields): task_01003(Pointer Process, UInt64 IncrementEnergy, UInt64 SrvTime,
+  UInt64 EndByteOffset, UInt32 IoSize, UInt8 LastIdleState, UInt8 IsRandom)
+opcode: ''
+keywords: power
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Process
+- field_type: UInt64
+  field_name: IncrementEnergy
+- field_type: UInt64
+  field_name: SrvTime
+- field_type: UInt64
+  field_name: EndByteOffset
+- field_type: UInt32
+  field_name: IoSize
+- field_type: UInt8
+  field_name: LastIdleState
+- field_type: UInt8
+  field_name: IsRandom

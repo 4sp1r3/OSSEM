@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22058'
+version: '0'
+event(fields): Taskbar_ThumbBar_AddButtons(UInt32 Count)
+opcode: ''
+keywords: Shell
+task: Taskbar_ThumbBar_AddButtons
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count

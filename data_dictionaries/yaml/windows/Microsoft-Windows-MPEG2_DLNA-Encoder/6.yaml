@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPEG2_DLNA-Encoder
+event_id: '6'
+version: '0'
+event(fields): MPEG_2Encode/MuxforDLNA6()
+opcode: ''
+keywords: ''
+task: MPEG_2Encode/MuxforDLNA
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

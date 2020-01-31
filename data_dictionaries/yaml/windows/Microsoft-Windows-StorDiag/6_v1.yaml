@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '6'
+version: '1'
+event(fields): ClassDispatchingofrequest.6_V1(UInt32 DeviceNumber, Pointer Irp, Boolean
+  IsWrite, HexInt64 FirstStartingLBA, UInt64 LengthOfTransferinbytes)
+opcode: Dispatchingofrequest.
+keywords: CopyOffload_Write Write
+task: Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: Pointer
+  field_name: Irp
+- field_type: Boolean
+  field_name: IsWrite
+- field_type: HexInt64
+  field_name: FirstStartingLBA
+- field_type: UInt64
+  field_name: LengthOfTransferinbytes

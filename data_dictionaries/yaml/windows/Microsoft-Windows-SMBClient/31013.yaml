@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '31013'
+version: '0'
+event(fields): task_031013(UInt16 Smb2Command, UInt64 MessageId, UInt64 SessionId,
+  UInt32 TreeId, UInt16 ServerNameLength, UnicodeString ServerName, UInt32 Status,
+  UInt32 MessageSize, UInt32 FragmentOffset, UInt32 FragmentSize, Binary FragmentData)
+opcode: ''
+keywords: Smb_Security
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Smb2Command
+- field_type: UInt64
+  field_name: MessageId
+- field_type: UInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: TreeId
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: MessageSize
+- field_type: UInt32
+  field_name: FragmentOffset
+- field_type: UInt32
+  field_name: FragmentSize
+- field_type: Binary
+  field_name: FragmentData

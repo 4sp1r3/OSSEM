@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '505'
+version: '0'
+event(fields): Mshtml_CDoc_PaintRect505(UInt32 left, UInt32 top, UInt32 right, UInt32
+  bottom)
+opcode: ''
+keywords: composition
+task: Mshtml_CDoc_PaintRect
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: left
+- field_type: UInt32
+  field_name: top
+- field_type: UInt32
+  field_name: right
+- field_type: UInt32
+  field_name: bottom

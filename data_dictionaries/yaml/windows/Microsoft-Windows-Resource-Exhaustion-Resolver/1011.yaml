@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Resource-Exhaustion-Resolver
+event_id: '1011'
+version: '0'
+event(fields): ResolutionEventsEventsloggedafterperformingtheresolutionactions1011(UInt32
+  ReasonCode, Int32 UserAction, UInt8 MaxCommit)
+opcode: Eventsloggedafterperformingtheresolutionactions
+keywords: RDR_RES_KEYWORD_MEMORY_EXHAUSTION
+task: ResolutionEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ReasonCode
+- field_type: Int32
+  field_name: UserAction
+- field_type: UInt8
+  field_name: MaxCommit

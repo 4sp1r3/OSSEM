@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '59'
+version: '0'
+event(fields): BackoffThreadWaitStart(UInt32 Value)
+opcode: Start
+keywords: Performance Backoff
+task: BackoffThreadWait
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

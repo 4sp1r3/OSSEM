@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '37013'
+version: '1'
+event(fields): InjectNotificationTask.VIRTMAN.Stop_V1()
+opcode: Stop
+keywords: ''
+task: InjectNotificationTask.VIRTMAN.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '328'
+version: '0'
+event(fields): CommitVirtualAddressStop(Pointer VidMmAlloc)
+opcode: Stop
+keywords: GPUVA
+task: CommitVirtualAddress
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: VidMmAlloc

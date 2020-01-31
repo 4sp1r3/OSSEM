@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '545'
+version: '1'
+event(fields): DirectedDripsDeviceVisit_V1(UInt32 BroadcastTreeId, Boolean IsRootDevice,
+  Pointer DeviceNode, UInt32 InstancePathLength, UnicodeString InstancePath, UInt32
+  VisitType)
+opcode: ''
+keywords: po:Diagnostic
+task: DirectedDripsDeviceVisit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BroadcastTreeId
+- field_type: Boolean
+  field_name: IsRootDevice
+- field_type: Pointer
+  field_name: DeviceNode
+- field_type: UInt32
+  field_name: InstancePathLength
+- field_type: UnicodeString
+  field_name: InstancePath
+- field_type: UInt32
+  field_name: VisitType

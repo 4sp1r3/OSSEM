@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Runtime-Networking-BackgroundTransfer
+event_id: '23'
+version: '0'
+event(fields): BackgroundTransferOperation23(GUID OperationId, UInt32 ElapsedTimeInSeconds,
+  UInt64 TotalBytesRemaining, UInt64 TransferSpeedInBytesPerSeconds, UInt64 EtaInSeconds)
+opcode: ''
+keywords: keywords.KW_ALL
+task: BackgroundTransferOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: OperationId
+- field_type: UInt32
+  field_name: ElapsedTimeInSeconds
+- field_type: UInt64
+  field_name: TotalBytesRemaining
+- field_type: UInt64
+  field_name: TransferSpeedInBytesPerSeconds
+- field_type: UInt64
+  field_name: EtaInSeconds

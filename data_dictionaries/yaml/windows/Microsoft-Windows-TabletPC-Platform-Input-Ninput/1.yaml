@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '1'
+version: '0'
+event(fields): NinputWmPointerStart(UInt32 frameId)
+opcode: Start
+keywords: ''
+task: NinputWmPointer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: frameId

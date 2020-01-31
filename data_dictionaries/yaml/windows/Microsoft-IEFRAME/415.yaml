@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '415'
+version: '0'
+event(fields): Browseui_Tabs_MarkTabAsHungStart(UInt32 TabID)
+opcode: Start
+keywords: hang
+task: Browseui_Tabs_MarkTabAsHung
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID

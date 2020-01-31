@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '181'
+version: '0'
+event(fields): Packagereader181()
+opcode: ''
+keywords: ''
+task: Packagereader
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-EnhancedStorage-EhStorTcgDrv
+event_id: '2'
+version: '0'
+event(fields): DriverGeneral2(AnsiString Context, UInt32 Win32Err, HexInt32 ErrorParam1,
+  HexInt32 ErrorParam2, HexInt32 ErrorParam3, HexInt32 ErrorParam4)
+opcode: General
+keywords: ''
+task: Driver
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Context
+- field_type: UInt32
+  field_name: Win32Err
+- field_type: HexInt32
+  field_name: ErrorParam1
+- field_type: HexInt32
+  field_name: ErrorParam2
+- field_type: HexInt32
+  field_name: ErrorParam3
+- field_type: HexInt32
+  field_name: ErrorParam4

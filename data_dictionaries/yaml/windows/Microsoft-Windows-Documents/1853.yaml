@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '1853'
+version: '0'
+event(fields): DocPerf_Task_PrintTicket_ConvertDevModeToPrintTicketStop()
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_PrintTicket_ConvertDevModeToPrintTicket
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

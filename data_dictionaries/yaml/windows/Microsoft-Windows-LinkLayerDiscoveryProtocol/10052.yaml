@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-LinkLayerDiscoveryProtocol
+event_id: '10052'
+version: '0'
+event(fields): task_010052(UInt32 IfIndex, UInt32 MsapIdLength, Binary MsapId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt32
+  field_name: MsapIdLength
+- field_type: Binary
+  field_name: MsapId

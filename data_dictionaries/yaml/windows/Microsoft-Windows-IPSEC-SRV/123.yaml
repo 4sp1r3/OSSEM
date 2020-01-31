@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IPSEC-SRV
+event_id: '123'
+version: '0'
+event(fields): IPSEC_BFE_FilterDeleteByKeyStart()
+opcode: Start
+keywords: PolicyAgent
+task: IPSEC_BFE_FilterDeleteByKey
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppModel-State
+event_id: '491'
+version: '0'
+event(fields): AppModel.Task.StateWinRT.ApplicationDataServer_ForUserStop()
+opcode: Stop
+keywords: WinRT
+task: AppModel.Task.StateWinRT.ApplicationDataServer_ForUser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

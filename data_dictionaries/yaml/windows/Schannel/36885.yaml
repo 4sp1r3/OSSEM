@@ -1,0 +1,11 @@
+provider: Schannel
+event_id: '36885'
+version: '0'
+event(fields): task_036885()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '301'
+version: '0'
+event(fields): ServerQuery_ForcePublishStop(UInt32 Qid)
+opcode: Stop
+keywords: Performance Indexing Querying IndexPI
+task: ServerQuery_ForcePublish
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Qid

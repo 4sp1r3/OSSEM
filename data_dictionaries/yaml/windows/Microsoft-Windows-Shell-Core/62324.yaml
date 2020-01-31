@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62324'
+version: '0'
+event(fields): FilePlaceholder_SetPlaceholderStatesStart(UnicodeString FileName, UInt32
+  NewValues, UInt32 ValuesToChange)
+opcode: Start
+keywords: Shell
+task: FilePlaceholder_SetPlaceholderStates
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: NewValues
+- field_type: UInt32
+  field_name: ValuesToChange

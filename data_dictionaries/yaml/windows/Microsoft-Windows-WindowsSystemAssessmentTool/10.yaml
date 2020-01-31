@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsSystemAssessmentTool
+event_id: '10'
+version: '0'
+event(fields): Application10(UInt16 PhaseID)
+opcode: ''
+keywords: ''
+task: Application
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: PhaseID

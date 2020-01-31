@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-ReFS
+event_id: '140'
+version: '0'
+event(fields): task_0140(UInt16 VolumeIdLength, UnicodeString VolumeId, HexInt32 FailureReason,
+  HexInt32 SourceFile, UInt16 SourceLine, UInt32 SourceTag)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: VolumeIdLength
+- field_type: UnicodeString
+  field_name: VolumeId
+- field_type: HexInt32
+  field_name: FailureReason
+- field_type: HexInt32
+  field_name: SourceFile
+- field_type: UInt16
+  field_name: SourceLine
+- field_type: UInt32
+  field_name: SourceTag

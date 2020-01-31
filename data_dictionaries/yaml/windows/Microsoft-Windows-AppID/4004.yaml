@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppID
+event_id: '4004'
+version: '0'
+event(fields): task_04004(UInt16 FilePathLength, UnicodeString FilePathBuffer, UInt16
+  PublisherNameLength, UnicodeString PublisherNameBuffer, HexInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FilePathLength
+- field_type: UnicodeString
+  field_name: FilePathBuffer
+- field_type: UInt16
+  field_name: PublisherNameLength
+- field_type: UnicodeString
+  field_name: PublisherNameBuffer
+- field_type: HexInt32
+  field_name: Status

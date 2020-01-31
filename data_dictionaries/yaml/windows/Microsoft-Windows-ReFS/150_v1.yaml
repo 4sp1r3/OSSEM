@@ -1,0 +1,116 @@
+provider: Microsoft-Windows-ReFS
+event_id: '150'
+version: '1'
+event(fields): task_0150_V1(GUID VolumeCorrelationId, UInt32 VolumeNameLength, UnicodeString
+  VolumeName, UInt64 SampleDuration, UInt64 FreeSpaceInRandomlyWriteableTierMin, UInt64
+  FreeSpaceInRandomlyWriteableTierMax, UInt64 FreeSpaceInRandomlyWriteableTierAvg,
+  UInt64 FreeSpaceInSMRTierMin, UInt64 FreeSpaceInSMRTierMax, UInt64 FreeSpaceInSMRTierAvg,
+  UInt64 UsableFreeSpaceInSMRTierMin, UInt64 UsableFreeSpaceInSMRTierMax, UInt64 UsableFreeSpaceInSMRTierAvg,
+  UInt64 WriteSerializationAbortedWrites, UInt64 WriteSerializationEvents, UInt64
+  WriteSerializationLatencyAvg, UInt64 WriteSerializationLatencyMax, UInt64 WriteSerializationBlockedEvents,
+  UInt64 WriteSerializationBlockedLatencyAvg, UInt64 StartGCCallsInvoked, UInt64 StartGCCallsFailed,
+  UInt64 StartGCFullSpeedCallsInvoked, UInt64 StartGCFullSpeedCallsFailed, UInt64
+  PauseGCCallsInvoked, UInt64 PauseGCCallsFailed, UInt64 StopGCCallsInvoked, UInt64
+  StopGCCallsFailed, UInt64 FullSMRBandClusterAllocations, UInt64 SharedSMRBandClusterAllocations,
+  UInt64 GCReadLatencyTotal, UInt64 GCReadLatencyAvg, UInt64 GCReadLatencyMax, UInt64
+  GCTotalReadIOs, UInt64 GCWriteLatencyTotal, UInt64 GCWriteLatencyAvg, UInt64 GCWriteLatencyMax,
+  UInt64 GCTotalWriteIOs, UInt64 DiskFullRequiresGC, UInt64 SMRZoneFull, UInt64 CMRZoneFull,
+  UInt64 InvalidSectorErrors, UInt64 IoDeviceErrors, UInt64 WriteErrors, UInt64 ReadErrors,
+  UInt64 SMRWriteHeadRequeries)
+opcode: ''
+keywords: Statistics
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VolumeCorrelationId
+- field_type: UInt32
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UInt64
+  field_name: SampleDuration
+- field_type: UInt64
+  field_name: FreeSpaceInRandomlyWriteableTierMin
+- field_type: UInt64
+  field_name: FreeSpaceInRandomlyWriteableTierMax
+- field_type: UInt64
+  field_name: FreeSpaceInRandomlyWriteableTierAvg
+- field_type: UInt64
+  field_name: FreeSpaceInSMRTierMin
+- field_type: UInt64
+  field_name: FreeSpaceInSMRTierMax
+- field_type: UInt64
+  field_name: FreeSpaceInSMRTierAvg
+- field_type: UInt64
+  field_name: UsableFreeSpaceInSMRTierMin
+- field_type: UInt64
+  field_name: UsableFreeSpaceInSMRTierMax
+- field_type: UInt64
+  field_name: UsableFreeSpaceInSMRTierAvg
+- field_type: UInt64
+  field_name: WriteSerializationAbortedWrites
+- field_type: UInt64
+  field_name: WriteSerializationEvents
+- field_type: UInt64
+  field_name: WriteSerializationLatencyAvg
+- field_type: UInt64
+  field_name: WriteSerializationLatencyMax
+- field_type: UInt64
+  field_name: WriteSerializationBlockedEvents
+- field_type: UInt64
+  field_name: WriteSerializationBlockedLatencyAvg
+- field_type: UInt64
+  field_name: StartGCCallsInvoked
+- field_type: UInt64
+  field_name: StartGCCallsFailed
+- field_type: UInt64
+  field_name: StartGCFullSpeedCallsInvoked
+- field_type: UInt64
+  field_name: StartGCFullSpeedCallsFailed
+- field_type: UInt64
+  field_name: PauseGCCallsInvoked
+- field_type: UInt64
+  field_name: PauseGCCallsFailed
+- field_type: UInt64
+  field_name: StopGCCallsInvoked
+- field_type: UInt64
+  field_name: StopGCCallsFailed
+- field_type: UInt64
+  field_name: FullSMRBandClusterAllocations
+- field_type: UInt64
+  field_name: SharedSMRBandClusterAllocations
+- field_type: UInt64
+  field_name: GCReadLatencyTotal
+- field_type: UInt64
+  field_name: GCReadLatencyAvg
+- field_type: UInt64
+  field_name: GCReadLatencyMax
+- field_type: UInt64
+  field_name: GCTotalReadIOs
+- field_type: UInt64
+  field_name: GCWriteLatencyTotal
+- field_type: UInt64
+  field_name: GCWriteLatencyAvg
+- field_type: UInt64
+  field_name: GCWriteLatencyMax
+- field_type: UInt64
+  field_name: GCTotalWriteIOs
+- field_type: UInt64
+  field_name: DiskFullRequiresGC
+- field_type: UInt64
+  field_name: SMRZoneFull
+- field_type: UInt64
+  field_name: CMRZoneFull
+- field_type: UInt64
+  field_name: InvalidSectorErrors
+- field_type: UInt64
+  field_name: IoDeviceErrors
+- field_type: UInt64
+  field_name: WriteErrors
+- field_type: UInt64
+  field_name: ReadErrors
+- field_type: UInt64
+  field_name: SMRWriteHeadRequeries

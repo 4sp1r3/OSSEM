@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '114'
+version: '0'
+event(fields): task_0114(Boolean PackageLevel, HexInt32 ErrorCode, Int64 Cookie)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: PackageLevel
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: Int64
+  field_name: Cookie

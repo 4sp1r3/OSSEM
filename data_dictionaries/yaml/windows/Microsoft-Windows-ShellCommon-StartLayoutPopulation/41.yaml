@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '41'
+version: '0'
+event(fields): StartLayoutBackgroundTask_DownloadAppAssetsStop41(UnicodeString value)
+opcode: Stop
+keywords: ''
+task: StartLayoutBackgroundTask_DownloadAppAssets
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '7112'
+version: '0'
+event(fields): AppHistory_ProcessSrumRecordSetStart(UInt32 SrumProvider, UInt64 SrumRecordSetCount)
+opcode: Start
+keywords: datamonitor
+task: AppHistory_ProcessSrumRecordSet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SrumProvider
+- field_type: UInt64
+  field_name: SrumRecordSetCount

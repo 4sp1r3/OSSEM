@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '1106'
+version: '0'
+event(fields): IdleDetection_Sample(UnicodeString Resource, UInt32 ResourceId, UInt32
+  BusyPercentage, Int64 LastIdleTime, Int64 LastTotalTime, Int64 CurrentIdleTime,
+  Int64 CurrentTotalTime)
+opcode: ''
+keywords: PerfTrackStatus
+task: IdleDetection_Sample
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Resource
+- field_type: UInt32
+  field_name: ResourceId
+- field_type: UInt32
+  field_name: BusyPercentage
+- field_type: Int64
+  field_name: LastIdleTime
+- field_type: Int64
+  field_name: LastTotalTime
+- field_type: Int64
+  field_name: CurrentIdleTime
+- field_type: Int64
+  field_name: CurrentTotalTime

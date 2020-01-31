@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Speech-UserExperience
+event_id: '4'
+version: '0'
+event(fields): MSAA_PopulateGrammarStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: MSAA_PopulateGrammar
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

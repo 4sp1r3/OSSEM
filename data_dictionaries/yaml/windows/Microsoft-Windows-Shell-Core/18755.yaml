@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18755'
+version: '0'
+event(fields): Shell32_ItemStore_ExtractPropertyStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_ItemStore_ExtractProperty
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

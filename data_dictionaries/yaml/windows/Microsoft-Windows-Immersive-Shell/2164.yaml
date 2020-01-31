@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2164'
+version: '0'
+event(fields): Picker_AppInstanceView_Commit()
+opcode: ''
+keywords: ''
+task: Picker_AppInstanceView_Commit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

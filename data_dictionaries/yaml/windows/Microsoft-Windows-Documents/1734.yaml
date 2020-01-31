@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '1734'
+version: '0'
+event(fields): DocPerf_Task_PS_AddPrinterPort_SplAPIStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_PS_AddPrinterPort_SplAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

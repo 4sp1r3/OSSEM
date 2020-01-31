@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DUI
+event_id: '90'
+version: '0'
+event(fields): DirectUI_AnimationTrapStoryboard(UInt32 id, UInt32 type)
+opcode: ''
+keywords: Default
+task: DirectUI_AnimationTrapStoryboard
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id
+- field_type: UInt32
+  field_name: type

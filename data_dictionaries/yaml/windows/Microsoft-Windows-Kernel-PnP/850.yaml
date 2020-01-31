@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '850'
+version: '0'
+event(fields): AssignResourcesStart(UnicodeString Device)
+opcode: Start
+keywords: Enumeration
+task: AssignResources
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Device

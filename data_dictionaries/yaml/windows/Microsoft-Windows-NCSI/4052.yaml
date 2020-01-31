@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4052'
+version: '0'
+event(fields): task_04052(GUID InterfaceGuid, UInt64 IfLuid, Boolean HasPreferredGlobalAddressIPv4,
+  Boolean HasPreferredGlobalAddressIPv6, UInt8 InternetCapabilityIPv4, UInt8 InternetCapabilityIPv6,
+  UInt8 InternetTestIPv4, UInt8 InternetTestIPv6)
+opcode: ''
+keywords: LwtDiagnostic
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt64
+  field_name: IfLuid
+- field_type: Boolean
+  field_name: HasPreferredGlobalAddressIPv4
+- field_type: Boolean
+  field_name: HasPreferredGlobalAddressIPv6
+- field_type: UInt8
+  field_name: InternetCapabilityIPv4
+- field_type: UInt8
+  field_name: InternetCapabilityIPv6
+- field_type: UInt8
+  field_name: InternetTestIPv4
+- field_type: UInt8
+  field_name: InternetTestIPv6

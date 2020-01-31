@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-GPIO-ClassExtension
+event_id: '1007'
+version: '1'
+event(fields): task_0DeferredInterruptActivitiesComplete_V1()
+opcode: DeferredInterruptActivitiesComplete
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

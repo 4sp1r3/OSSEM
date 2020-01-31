@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '217'
+version: '0'
+event(fields): PresentTimerStop(Pointer Object, Int32 Period)
+opcode: Stop
+keywords: ''
+task: PresentTimer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: Period

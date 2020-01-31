@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '18'
+version: '0'
+event(fields): InkDragAndDropStart()
+opcode: Start
+keywords: ''
+task: InkDragAndDrop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

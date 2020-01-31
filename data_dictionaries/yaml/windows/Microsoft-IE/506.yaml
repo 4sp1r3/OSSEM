@@ -1,0 +1,24 @@
+provider: Microsoft-IE
+event_id: '506'
+version: '0'
+event(fields): Mshtml_Composition_Scroller_PVR(Pointer Scroller, Int32 RectType, Int32
+  left, Int32 top, Int32 right, Int32 bottom)
+opcode: ''
+keywords: composition
+task: Mshtml_Composition_Scroller_PVR
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Scroller
+- field_type: Int32
+  field_name: RectType
+- field_type: Int32
+  field_name: left
+- field_type: Int32
+  field_name: top
+- field_type: Int32
+  field_name: right
+- field_type: Int32
+  field_name: bottom

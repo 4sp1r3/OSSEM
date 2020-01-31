@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1800'
+version: '0'
+event(fields): SSClusterCaFailure(UInt16 ServerNameLength, UnicodeString ServerName,
+  UInt16 ShareNameLength, UnicodeString ShareName)
+opcode: ''
+keywords: Operational
+task: SSClusterCaFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '133'
+version: '0'
+event(fields): RemoteFXmodule_4NetworkDetect133(UInt32 TunnelID, UInt32 RTT, UInt32
+  Bandwidth)
+opcode: NetworkDetect
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TunnelID
+- field_type: UInt32
+  field_name: RTT
+- field_type: UInt32
+  field_name: Bandwidth

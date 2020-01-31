@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1246'
+version: '0'
+event(fields): RssPortRundown(UInt32 AdapterIndex, UInt32 HashInfo, UInt32 MaximumProcessors,
+  UInt16 GroupNumber, UInt64 GroupAffinity, UInt64 ActiveAffinity, UInt32 ActiveMode,
+  UInt32 IndirectionTableSize, Binary IndirectionTable)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis ut:Rss ut:Global
+task: RssPortRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterIndex
+- field_type: UInt32
+  field_name: HashInfo
+- field_type: UInt32
+  field_name: MaximumProcessors
+- field_type: UInt16
+  field_name: GroupNumber
+- field_type: UInt64
+  field_name: GroupAffinity
+- field_type: UInt64
+  field_name: ActiveAffinity
+- field_type: UInt32
+  field_name: ActiveMode
+- field_type: UInt32
+  field_name: IndirectionTableSize
+- field_type: Binary
+  field_name: IndirectionTable

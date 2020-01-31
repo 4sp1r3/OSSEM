@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6050'
+version: '0'
+event(fields): GetConfigurationStart6050(UnicodeString str)
+opcode: Start
+keywords: ''
+task: GetConfiguration
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: str

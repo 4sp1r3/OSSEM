@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60905'
+version: '0'
+event(fields): ShellTask_ExecAssoc_ScrubZoneIdentifierStart(UnicodeString psz)
+opcode: Start
+keywords: Shell
+task: ShellTask_ExecAssoc_ScrubZoneIdentifier
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

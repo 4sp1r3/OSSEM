@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '307'
+version: '0'
+event(fields): DocAborted_CBOverflow(UInt32 DocID)
+opcode: ''
+keywords: Indexing IndexPI
+task: DocAborted_CBOverflow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DocID

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2211'
+version: '0'
+event(fields): CtapUsbDeviceThreadStop(GUID TransactionId, UnicodeString DevicePath,
+  UnicodeString Manufacturer, UnicodeString Product, GUID AAGuid, Boolean U2fProtocol)
+opcode: Stop
+keywords: Ctap Usb
+task: CtapUsbDeviceThread
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UnicodeString
+  field_name: DevicePath
+- field_type: UnicodeString
+  field_name: Manufacturer
+- field_type: UnicodeString
+  field_name: Product
+- field_type: GUID
+  field_name: AAGuid
+- field_type: Boolean
+  field_name: U2fProtocol

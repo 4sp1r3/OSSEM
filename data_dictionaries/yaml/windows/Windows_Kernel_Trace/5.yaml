@@ -1,0 +1,26 @@
+provider: Windows Kernel Trace
+category: '{68fdd900-4a3e-11d1-84f4-0000f80464e3}'
+event_id: '5'
+version: '0'
+event(fields): Header_Extension_V0_TypeGroup(UInt32 GroupMask1, UInt32 GroupMask2,
+  UInt32 GroupMask3, UInt32 GroupMask4, UInt32 GroupMask5, UInt32 GroupMask6, UInt32
+  GroupMask7, UInt32 GroupMask8)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: GroupMask1
+- field_type: UInt32
+  field_name: GroupMask2
+- field_type: UInt32
+  field_name: GroupMask3
+- field_type: UInt32
+  field_name: GroupMask4
+- field_type: UInt32
+  field_name: GroupMask5
+- field_type: UInt32
+  field_name: GroupMask6
+- field_type: UInt32
+  field_name: GroupMask7
+- field_type: UInt32
+  field_name: GroupMask8

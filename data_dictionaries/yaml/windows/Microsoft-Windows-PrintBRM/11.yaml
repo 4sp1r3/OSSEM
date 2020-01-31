@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '11'
+version: '0'
+event(fields): RestorePrintBRMoperationfailure11(UnicodeString PrinterName, UnicodeString
+  PortName)
+opcode: PrintBRMoperationfailure
+keywords: PRINT_QUEUE_KEYWORD
+task: Restore
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PrinterName
+- field_type: UnicodeString
+  field_name: PortName

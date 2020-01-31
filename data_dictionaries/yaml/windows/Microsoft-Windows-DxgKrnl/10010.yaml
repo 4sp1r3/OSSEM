@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '10010'
+version: '0'
+event(fields): DMM_SnapPerfCounters(UInt64 Misc_ActiveVidPnBasedDisplayModeListSizeSum,
+  UInt64 Misc_UniqueModesFromUnionListSizeSum, UInt32 CallCount_GetUniqueModesFromUnionList,
+  UInt32 CallCount_DXGADAPTER_DdiEnumVidPnCofuncModality, UInt32 CallCount_DXGK_VIDPNSOURCEMODESET_INTERFACE_V1_IMPL_AcquirePinnedModeInfo,
+  UInt32 CallCount_DXGK_VIDPNSOURCEMODESET_INTERFACE_V1_IMPL_CreateNewModeInfo, UInt32
+  CallCount_DXGK_VIDPNTARGETMODESET_INTERFACE_V1_IMPL_AcquirePinnedModeInfo, UInt32
+  CallCount_DXGK_VIDPNTARGETMODESET_INTERFACE_V1_IMPL_CreateNewModeInfo, UInt32 CallCount_DXGK_VIDPNTOPOLOGY_INTERFACE_V1_IMPL_AcquireFirstPathInfo,
+  UInt32 CallCount_DXGK_VIDPNTOPOLOGY_INTERFACE_V1_IMPL_AcquireNextPathInfo, UInt64
+  TickCount_GetUniqueModesFromUnionList)
+opcode: ''
+keywords: DxgKrnl
+task: DMM_SnapPerfCounters
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Misc_ActiveVidPnBasedDisplayModeListSizeSum
+- field_type: UInt64
+  field_name: Misc_UniqueModesFromUnionListSizeSum
+- field_type: UInt32
+  field_name: CallCount_GetUniqueModesFromUnionList
+- field_type: UInt32
+  field_name: CallCount_DXGADAPTER_DdiEnumVidPnCofuncModality
+- field_type: UInt32
+  field_name: CallCount_DXGK_VIDPNSOURCEMODESET_INTERFACE_V1_IMPL_AcquirePinnedModeInfo
+- field_type: UInt32
+  field_name: CallCount_DXGK_VIDPNSOURCEMODESET_INTERFACE_V1_IMPL_CreateNewModeInfo
+- field_type: UInt32
+  field_name: CallCount_DXGK_VIDPNTARGETMODESET_INTERFACE_V1_IMPL_AcquirePinnedModeInfo
+- field_type: UInt32
+  field_name: CallCount_DXGK_VIDPNTARGETMODESET_INTERFACE_V1_IMPL_CreateNewModeInfo
+- field_type: UInt32
+  field_name: CallCount_DXGK_VIDPNTOPOLOGY_INTERFACE_V1_IMPL_AcquireFirstPathInfo
+- field_type: UInt32
+  field_name: CallCount_DXGK_VIDPNTOPOLOGY_INTERFACE_V1_IMPL_AcquireNextPathInfo
+- field_type: UInt64
+  field_name: TickCount_GetUniqueModesFromUnionList

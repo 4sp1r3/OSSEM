@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '354'
+version: '0'
+event(fields): Browseui_Tabs_OnNavigateComplete2()
+opcode: ''
+keywords: primarynav
+task: Browseui_Tabs_OnNavigateComplete2
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

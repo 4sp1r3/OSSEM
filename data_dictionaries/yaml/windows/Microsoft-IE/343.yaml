@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '343'
+version: '0'
+event(fields): Mshtml_Animations_UpdateStop(UInt32 NumberOfUpdates, UInt32 NumberOfUpdateSkips)
+opcode: Stop
+keywords: animation
+task: Mshtml_Animations_Update
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NumberOfUpdates
+- field_type: UInt32
+  field_name: NumberOfUpdateSkips

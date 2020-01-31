@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50064'
+version: '0'
+event(fields): AddressConfigurationStateEventCacheScavengerRun(UInt32 InterfaceId)
+opcode: CacheScavengerRun
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId

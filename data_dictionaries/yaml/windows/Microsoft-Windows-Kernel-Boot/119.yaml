@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '119'
+version: '0'
+event(fields): MemoryBlockRundown(GUID ApplicationId, UInt64 BlockId)
+opcode: ''
+keywords: MemoryBlockRundown
+task: MemoryBlockRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ApplicationId
+- field_type: UInt64
+  field_name: BlockId

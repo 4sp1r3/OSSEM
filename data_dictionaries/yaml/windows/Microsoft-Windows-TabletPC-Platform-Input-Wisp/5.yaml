@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Wisp
+event_id: '5'
+version: '0'
+event(fields): TABLET_INPUT_Pen_DoubleClickStart()
+opcode: Start
+keywords: ''
+task: TABLET_INPUT_Pen_DoubleClick
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

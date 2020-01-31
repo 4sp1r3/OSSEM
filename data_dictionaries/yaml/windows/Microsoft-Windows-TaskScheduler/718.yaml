@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '718'
+version: '0'
+event(fields): Credentialstoreupgradefailed(UInt32 ResultCode)
+opcode: ''
+keywords: ''
+task: Credentialstoreupgradefailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ResultCode

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Security-IdentityStore
+event_id: '22'
+version: '0'
+event(fields): CreateConnectedUserStart22()
+opcode: Start
+keywords: ''
+task: CreateConnectedUser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

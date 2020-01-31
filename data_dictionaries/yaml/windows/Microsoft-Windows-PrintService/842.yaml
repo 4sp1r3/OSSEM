@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-PrintService
+event_id: '842'
+version: '0'
+event(fields): Isolatingprinterdriversandotherplug_insSpoolerOperationSucceeded(UInt32
+  JobId, UnicodeString Processor, UnicodeString Printer, UnicodeString Driver, UInt32
+  IsolationMode, HexInt32 Error)
+opcode: SpoolerOperationSucceeded
+keywords: SPOOLER_KEYWORD_PRINT_DRIVER_SANDBOX
+task: Isolatingprinterdriversandotherplug_ins
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: Processor
+- field_type: UnicodeString
+  field_name: Printer
+- field_type: UnicodeString
+  field_name: Driver
+- field_type: UInt32
+  field_name: IsolationMode
+- field_type: HexInt32
+  field_name: Error

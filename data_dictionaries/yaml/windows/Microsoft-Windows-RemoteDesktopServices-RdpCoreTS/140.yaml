@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '140'
+version: '0'
+event(fields): RemoteFXmodule_4ProtocolExchange140(UnicodeString IPString)
+opcode: ProtocolExchange
+keywords: ''
+task: RemoteFXmodule_4
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: IPString

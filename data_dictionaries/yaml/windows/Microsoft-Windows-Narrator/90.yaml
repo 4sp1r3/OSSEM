@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '90'
+version: '0'
+event(fields): ExitNarratorSpeechStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: ExitNarratorSpeech
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

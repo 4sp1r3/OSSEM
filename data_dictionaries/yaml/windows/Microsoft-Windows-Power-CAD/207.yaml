@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Power-CAD
+event_id: '207'
+version: '0'
+event(fields): Notify207(UInt32 Size, UInt32 BatteryTag, UInt32 InformationLevel,
+  UInt32 ChargingSourceType, UInt32 VaData)
+opcode: ''
+keywords: Notify
+task: Notify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Size
+- field_type: UInt32
+  field_name: BatteryTag
+- field_type: UInt32
+  field_name: InformationLevel
+- field_type: UInt32
+  field_name: ChargingSourceType
+- field_type: UInt32
+  field_name: VaData

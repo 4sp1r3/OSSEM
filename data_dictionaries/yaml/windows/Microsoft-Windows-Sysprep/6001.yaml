@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sysprep
+event_id: '6001'
+version: '0'
+event(fields): DeleteadirectoryStart(UnicodeString DirectoryPath)
+opcode: Start
+keywords: keyPerformance keySysprep
+task: Deleteadirectory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DirectoryPath

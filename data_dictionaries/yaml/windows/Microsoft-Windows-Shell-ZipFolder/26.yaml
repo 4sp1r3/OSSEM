@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-ZipFolder
+event_id: '26'
+version: '0'
+event(fields): ZipFolder_LeaveFolderStop()
+opcode: Stop
+keywords: ''
+task: ZipFolder_LeaveFolder
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

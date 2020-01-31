@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LDAP-Client
+event_id: '22'
+version: '0'
+event(fields): task_022(AnsiString Message)
+opcode: ''
+keywords: verbose
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Message

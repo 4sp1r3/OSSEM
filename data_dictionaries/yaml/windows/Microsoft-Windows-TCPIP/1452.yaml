@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1452'
+version: '0'
+event(fields): IpRouteRundown(UInt32 Interface, UInt32 Compartment, UInt32 DestinationPrefixAddressLength,
+  Binary DestinationPrefix, UInt32 DestinationPrefixLength, UInt32 NextHopAddressLength,
+  Binary NextHopAddress, UInt32 Metric, UInt32 State, UInt32 Origin, UInt64 Age, UInt64
+  ValidLifetime, UInt64 PreferredLifetime, UInt32 Flags)
+opcode: ''
+keywords: ut:TcpipRoute ut:TcpipDiagnosis ut:Global
+task: IpRouteRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Interface
+- field_type: UInt32
+  field_name: Compartment
+- field_type: UInt32
+  field_name: DestinationPrefixAddressLength
+- field_type: Binary
+  field_name: DestinationPrefix
+- field_type: UInt32
+  field_name: DestinationPrefixLength
+- field_type: UInt32
+  field_name: NextHopAddressLength
+- field_type: Binary
+  field_name: NextHopAddress
+- field_type: UInt32
+  field_name: Metric
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Origin
+- field_type: UInt64
+  field_name: Age
+- field_type: UInt64
+  field_name: ValidLifetime
+- field_type: UInt64
+  field_name: PreferredLifetime
+- field_type: UInt32
+  field_name: Flags

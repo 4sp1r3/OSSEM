@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SpellChecker
+event_id: '2'
+version: '0'
+event(fields): ModifyWordlistStop(UInt32 WordlistType)
+opcode: Stop
+keywords: ''
+task: ModifyWordlist
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WordlistType

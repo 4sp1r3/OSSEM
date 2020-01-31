@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Security-Netlogon
+event_id: '9000'
+version: '0'
+event(fields): MSA(UnicodeString AccountName, UnicodeString AccountDomain, UInt32
+  Status)
+opcode: ''
+keywords: ''
+task: MSA
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AccountName
+- field_type: UnicodeString
+  field_name: AccountDomain
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '7'
+version: '0'
+event(fields): USBXHCIControllerDeleteInformation(Pointer fid_UcxController, UInt32
+  fid_ParentBusType, UInt32 fid_PciBus, UInt32 fid_PciDevice, UInt32 fid_PciFunction,
+  UInt32 fid_PciVendorId, UInt32 fid_PciDeviceId, UInt32 fid_PciRevisionId, AnsiString
+  fid_AcpiVendorId, AnsiString fid_AcpiDeviceId, AnsiString fid_AcpiRevisionId, UInt64
+  fid_FirmwareVersion, UInt32 fid_S0IdleStatus, UInt32 fid_WdfDevicePowerState, UInt32
+  fid_InstanceNumber, Boolean fid_WdfPowerReferenceForDebuggerAcquired)
+opcode: Information
+keywords: Default
+task: USBXHCIControllerDelete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: UInt32
+  field_name: fid_ParentBusType
+- field_type: UInt32
+  field_name: fid_PciBus
+- field_type: UInt32
+  field_name: fid_PciDevice
+- field_type: UInt32
+  field_name: fid_PciFunction
+- field_type: UInt32
+  field_name: fid_PciVendorId
+- field_type: UInt32
+  field_name: fid_PciDeviceId
+- field_type: UInt32
+  field_name: fid_PciRevisionId
+- field_type: AnsiString
+  field_name: fid_AcpiVendorId
+- field_type: AnsiString
+  field_name: fid_AcpiDeviceId
+- field_type: AnsiString
+  field_name: fid_AcpiRevisionId
+- field_type: UInt64
+  field_name: fid_FirmwareVersion
+- field_type: UInt32
+  field_name: fid_S0IdleStatus
+- field_type: UInt32
+  field_name: fid_WdfDevicePowerState
+- field_type: UInt32
+  field_name: fid_InstanceNumber
+- field_type: Boolean
+  field_name: fid_WdfPowerReferenceForDebuggerAcquired

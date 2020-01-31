@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '4'
+version: '0'
+event(fields): USB3.0HubDriverRundownInformation4(Pointer fid_UsbDevice, Int8 fid_USB20_HubDescriptor,
+  UInt32 fid_CurrentWdfPowerDeviceState)
+opcode: Information
+keywords: Default Rundown
+task: USB3.0HubDriverRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Int8
+  field_name: fid_USB20_HubDescriptor
+- field_type: UInt32
+  field_name: fid_CurrentWdfPowerDeviceState

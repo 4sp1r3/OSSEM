@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '191'
+version: '0'
+event(fields): DestroySwipeRecognizerStart()
+opcode: Start
+keywords: Input
+task: DestroySwipeRecognizer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-COMRuntime
+event_id: '5'
+version: '0'
+event(fields): DropQueueSyncMessage(UInt32 ApartmentType)
+opcode: ''
+keywords: DropInputMessage
+task: DropQueueSyncMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ApartmentType

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Performance-Recorder-Control
+event_id: '200'
+version: '0'
+event(fields): Debug_WPRCControl(UInt32 DebugType, UInt32 ObjectType, Int32 HResult,
+  UInt32 LineNumber, UnicodeString FileName, UnicodeString FunctionName)
+opcode: ''
+keywords: DebugStatus
+task: Debug_WPRCControl
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DebugType
+- field_type: UInt32
+  field_name: ObjectType
+- field_type: Int32
+  field_name: HResult
+- field_type: UInt32
+  field_name: LineNumber
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UnicodeString
+  field_name: FunctionName

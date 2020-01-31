@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '5332'
+version: '0'
+event(fields): task_05332(Boolean IsPolicyConfigured, UInt32 MaxTimeToWait, UInt32
+  TimeWaitedAtStartup, Boolean DidWaitTimeout)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsPolicyConfigured
+- field_type: UInt32
+  field_name: MaxTimeToWait
+- field_type: UInt32
+  field_name: TimeWaitedAtStartup
+- field_type: Boolean
+  field_name: DidWaitTimeout

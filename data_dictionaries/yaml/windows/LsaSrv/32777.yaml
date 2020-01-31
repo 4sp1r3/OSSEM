@@ -1,0 +1,11 @@
+provider: LsaSrv
+event_id: '32777'
+version: '0'
+event(fields): task_032777()
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

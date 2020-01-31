@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18858'
+version: '0'
+event(fields): Shell32_UA_RebuildSessionStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_UA_RebuildSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

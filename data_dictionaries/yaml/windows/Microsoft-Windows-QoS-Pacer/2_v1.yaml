@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-QoS-Pacer
+event_id: '2'
+version: '1'
+event(fields): task_02_V1(UInt32 Status, UInt32 FlowType, UInt32 SendSpecTokenRate,
+  UInt32 SendSpecTokenBucketSize, UInt32 SendSpecPeakBandwidth, UInt32 SendSpecLatency,
+  UInt32 SendSpecDelayVariation, UInt32 SendSpecServiceType, UInt32 SendSpecMaxSduSize,
+  UInt32 SendSpecMinimumPolicedSize, Int16 DsClass, Int16 TrafficClass, UInt32 NewQoSObjectBufferLen,
+  Binary NewQoSObjectBuffer, UInt32 AffectedPackets)
+opcode: ''
+keywords: ut:Configuration
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: FlowType
+- field_type: UInt32
+  field_name: SendSpecTokenRate
+- field_type: UInt32
+  field_name: SendSpecTokenBucketSize
+- field_type: UInt32
+  field_name: SendSpecPeakBandwidth
+- field_type: UInt32
+  field_name: SendSpecLatency
+- field_type: UInt32
+  field_name: SendSpecDelayVariation
+- field_type: UInt32
+  field_name: SendSpecServiceType
+- field_type: UInt32
+  field_name: SendSpecMaxSduSize
+- field_type: UInt32
+  field_name: SendSpecMinimumPolicedSize
+- field_type: Int16
+  field_name: DsClass
+- field_type: Int16
+  field_name: TrafficClass
+- field_type: UInt32
+  field_name: NewQoSObjectBufferLen
+- field_type: Binary
+  field_name: NewQoSObjectBuffer
+- field_type: UInt32
+  field_name: AffectedPackets

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '252'
+version: '0'
+event(fields): SwitchToStop()
+opcode: Stop
+keywords: Reader
+task: SwitchTo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

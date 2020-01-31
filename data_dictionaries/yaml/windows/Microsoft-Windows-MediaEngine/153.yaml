@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '153'
+version: '0'
+event(fields): ContentFramerateDetected(Pointer object, UInt64 FrameDuration)
+opcode: ''
+keywords: ''
+task: ContentFramerateDetected
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt64
+  field_name: FrameDuration

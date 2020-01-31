@@ -1,0 +1,54 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '11001'
+version: '1'
+event(fields): task_0OID_Handling_V1(GUID InterfaceGuid, UInt32 RequestId, UInt32
+  WwanStatus, UInt32 DeviceType, UInt32 CellularClass, UInt32 VoiceClass, UInt32 SimClass,
+  UInt32 DataClass, UnicodeString CustomDataClass, UInt32 BandClass, UnicodeString
+  CustomBandClass, UInt32 SmsCaps, UInt32 ControlCaps, UnicodeString DeviceId, UnicodeString
+  Manufacturer, UnicodeString Model, UnicodeString FirmwareInfo, UInt32 MaxActivatedContexts,
+  UInt32 AuthAlgoCaps)
+opcode: OID_Handling
+keywords: LwtDiagnostic WwanOid InterfaceEnum keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: WwanStatus
+- field_type: UInt32
+  field_name: DeviceType
+- field_type: UInt32
+  field_name: CellularClass
+- field_type: UInt32
+  field_name: VoiceClass
+- field_type: UInt32
+  field_name: SimClass
+- field_type: UInt32
+  field_name: DataClass
+- field_type: UnicodeString
+  field_name: CustomDataClass
+- field_type: UInt32
+  field_name: BandClass
+- field_type: UnicodeString
+  field_name: CustomBandClass
+- field_type: UInt32
+  field_name: SmsCaps
+- field_type: UInt32
+  field_name: ControlCaps
+- field_type: UnicodeString
+  field_name: DeviceId
+- field_type: UnicodeString
+  field_name: Manufacturer
+- field_type: UnicodeString
+  field_name: Model
+- field_type: UnicodeString
+  field_name: FirmwareInfo
+- field_type: UInt32
+  field_name: MaxActivatedContexts
+- field_type: UInt32
+  field_name: AuthAlgoCaps

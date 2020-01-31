@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '303'
+version: '0'
+event(fields): APMService303(UInt32 apmState1, UInt32 apmState2)
+opcode: ''
+keywords: Error
+task: APMService
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: apmState1
+- field_type: UInt32
+  field_name: apmState2

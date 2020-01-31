@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1019'
+version: '0'
+event(fields): SrvFileInvalidate(GUID ResumeKey, HexInt32 Status, HexInt32 TranslatedStatus,
+  HexInt32 TaskStatus, HexInt32 TranslatedTaskStatus)
+opcode: ''
+keywords: Operational
+task: SrvFileInvalidate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ResumeKey
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: TranslatedStatus
+- field_type: HexInt32
+  field_name: TaskStatus
+- field_type: HexInt32
+  field_name: TranslatedTaskStatus

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '3000'
+version: '1'
+event(fields): InstallinglanguagepackStart_V1(UnicodeString Language)
+opcode: Start
+keywords: ''
+task: Installinglanguagepack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language

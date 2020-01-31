@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '527'
+version: '0'
+event(fields): PowerStateEventRundown(UInt32 Event, UInt32 Class, UInt64 Count)
+opcode: ''
+keywords: po:Diagnostic
+task: PowerStateEventRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Event
+- field_type: UInt32
+  field_name: Class
+- field_type: UInt64
+  field_name: Count

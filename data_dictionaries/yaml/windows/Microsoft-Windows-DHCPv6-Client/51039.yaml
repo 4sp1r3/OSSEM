@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51039'
+version: '0'
+event(fields): AddressConfigurationStateEventAddressPlumbed(Binary Address, UInt32
+  InterfaceId, UInt32 StatusCode)
+opcode: AddressPlumbed
+keywords: DHCPV6_AOAC
+task: AddressConfigurationStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: Address
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: StatusCode

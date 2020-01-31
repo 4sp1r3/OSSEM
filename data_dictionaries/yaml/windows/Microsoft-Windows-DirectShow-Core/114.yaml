@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectShow-Core
+event_id: '114'
+version: '0'
+event(fields): DirectShowFilterGraphRunStart(Pointer context, Int64 tStart)
+opcode: Start
+keywords: ''
+task: DirectShowFilterGraphRun
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: context
+- field_type: Int64
+  field_name: tStart

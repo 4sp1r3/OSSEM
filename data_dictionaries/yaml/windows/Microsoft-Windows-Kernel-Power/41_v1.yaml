@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '41'
+version: '1'
+event(fields): DirtyTransition_V1(UInt32 BugcheckCode, Pointer BugcheckParameter)
+opcode: ''
+keywords: po:Simple
+task: DirtyTransition
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BugcheckCode
+- field_type: Pointer
+  field_name: BugcheckParameter

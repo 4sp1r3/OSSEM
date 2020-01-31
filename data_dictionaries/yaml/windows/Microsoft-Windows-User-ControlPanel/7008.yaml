@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-User-ControlPanel
+event_id: '7008'
+version: '0'
+event(fields): UserAccount_Taskflow_FinishPage7008()
+opcode: ''
+keywords: ''
+task: UserAccount_Taskflow_FinishPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

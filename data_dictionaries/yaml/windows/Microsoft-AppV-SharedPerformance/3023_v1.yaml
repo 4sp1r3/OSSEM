@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3023'
+version: '1'
+event(fields): PublishPackageGetOldPackageDataStart_V1()
+opcode: Start
+keywords: ''
+task: PublishPackageGetOldPackageData
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

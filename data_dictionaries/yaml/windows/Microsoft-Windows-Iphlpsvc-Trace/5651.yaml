@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5651'
+version: '0'
+event(fields): task_05651(UnicodeString Action)
+opcode: ''
+keywords: common
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Action

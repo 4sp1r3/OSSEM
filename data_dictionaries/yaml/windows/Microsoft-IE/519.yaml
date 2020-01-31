@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '519'
+version: '0'
+event(fields): Mshtml_MediaElement_FullScreenStart519(UInt32 MediaElementId)
+opcode: Start
+keywords: subsystem mshtml
+task: Mshtml_MediaElement_FullScreen
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaElementId

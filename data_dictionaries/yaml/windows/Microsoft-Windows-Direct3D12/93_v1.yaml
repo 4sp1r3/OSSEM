@@ -1,0 +1,67 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '93'
+version: '1'
+event(fields): ResourceDCStart_V1(Pointer pID3D12Device, Pointer pID3D12Resource,
+  Pointer hUMResource, UInt32 Dimension, UInt64 Width, UInt32 Height, UInt32 Depth,
+  UInt32 MipLevels, UInt32 ArraySize, UInt32 PlaneCount, UInt32 Format, UInt32 SampleCount,
+  UInt32 SampleQuality, UInt32 Layout, UInt32 Flags, UInt32 HeapType, Pointer pHeap,
+  UInt64 ImmutableHeapOffset, UInt64 PlacedAlignment, UInt64 PlacedSize, UInt32 NumTilesForResource,
+  UInt32 NumPackedMips, UInt32 NumTilesForPackedMips, Pointer pImmutableBuffer, UInt64
+  ImmutableBufferOffset)
+opcode: DC_Start
+keywords: Resources ObjectLifetime
+task: Resource
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12Resource
+- field_type: Pointer
+  field_name: hUMResource
+- field_type: UInt32
+  field_name: Dimension
+- field_type: UInt64
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: Depth
+- field_type: UInt32
+  field_name: MipLevels
+- field_type: UInt32
+  field_name: ArraySize
+- field_type: UInt32
+  field_name: PlaneCount
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: SampleCount
+- field_type: UInt32
+  field_name: SampleQuality
+- field_type: UInt32
+  field_name: Layout
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: HeapType
+- field_type: Pointer
+  field_name: pHeap
+- field_type: UInt64
+  field_name: ImmutableHeapOffset
+- field_type: UInt64
+  field_name: PlacedAlignment
+- field_type: UInt64
+  field_name: PlacedSize
+- field_type: UInt32
+  field_name: NumTilesForResource
+- field_type: UInt32
+  field_name: NumPackedMips
+- field_type: UInt32
+  field_name: NumTilesForPackedMips
+- field_type: Pointer
+  field_name: pImmutableBuffer
+- field_type: UInt64
+  field_name: ImmutableBufferOffset

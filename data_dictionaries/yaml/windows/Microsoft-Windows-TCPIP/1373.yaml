@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1373'
+version: '0'
+event(fields): Partition1373(UInt64 OldPartitionCount, UInt64 OldPartitionMask, UInt64
+  NewPartitionCount, UInt64 NewPartitionMask)
+opcode: ''
+keywords: ut:AlePartition
+task: Partition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OldPartitionCount
+- field_type: UInt64
+  field_name: OldPartitionMask
+- field_type: UInt64
+  field_name: NewPartitionCount
+- field_type: UInt64
+  field_name: NewPartitionMask

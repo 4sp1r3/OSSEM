@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18614'
+version: '0'
+event(fields): Shell32_MountPoint_SHHardwareEvent_VolumeArrivedStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_MountPoint_SHHardwareEvent_VolumeArrived
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

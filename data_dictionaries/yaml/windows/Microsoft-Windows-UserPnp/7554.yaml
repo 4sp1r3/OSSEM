@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7554'
+version: '0'
+event(fields): PnP_PlugPlay_DeviceInstall7554(UInt32 ThreadId)
+opcode: ''
+keywords: UserPnp
+task: PnP_PlugPlay_DeviceInstall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ThreadId

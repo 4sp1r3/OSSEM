@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '17007'
+version: '0'
+event(fields): RegistryStagingprocessstopruntimeStop()
+opcode: Stop
+keywords: ''
+task: RegistryStagingprocessstopruntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

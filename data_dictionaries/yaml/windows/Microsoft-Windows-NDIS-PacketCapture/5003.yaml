@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-NDIS-PacketCapture
+event_id: '5003'
+version: '0'
+event(fields): task_0Stop5003()
+opcode: Stop
+keywords: keyword_200000000000
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

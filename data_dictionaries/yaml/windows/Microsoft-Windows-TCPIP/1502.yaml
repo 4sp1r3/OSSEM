@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1502'
+version: '0'
+event(fields): TcpipRegSyncInterface(UInt32 IfIndex, UnicodeString Field, UInt32 Status)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis
+task: TcpipRegSyncInterface
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UnicodeString
+  field_name: Field
+- field_type: UInt32
+  field_name: Status

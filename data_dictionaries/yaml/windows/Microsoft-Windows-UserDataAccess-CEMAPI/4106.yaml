@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4106'
+version: '0'
+event(fields): QUERYROWS_FOLDERHIERARCHYStart()
+opcode: Start
+keywords: Performance
+task: QUERYROWS_FOLDERHIERARCHY
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

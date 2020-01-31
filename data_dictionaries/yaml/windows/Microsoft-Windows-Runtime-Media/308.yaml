@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '308'
+version: '0'
+event(fields): WinRTTranscode_TaskStop(Pointer Object, Int32 ErrorCode)
+opcode: Stop
+keywords: keyword_400000000000
+task: WinRTTranscode_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: ErrorCode

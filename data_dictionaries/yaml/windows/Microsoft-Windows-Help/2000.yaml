@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Help
+event_id: '2000'
+version: '0'
+event(fields): NonPerfEvents2000(UnicodeString policy)
+opcode: ''
+keywords: ''
+task: NonPerfEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: policy

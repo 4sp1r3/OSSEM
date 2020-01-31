@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AssignedAccess
+event_id: '10001'
+version: '0'
+event(fields): ConfiguringAssignedAccess(UnicodeString SID)
+opcode: ''
+keywords: ''
+task: ConfiguringAssignedAccess
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SID

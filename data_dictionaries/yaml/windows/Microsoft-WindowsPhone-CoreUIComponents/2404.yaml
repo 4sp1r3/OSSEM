@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2404'
+version: '0'
+event(fields): NavigationWindow2404(Pointer ptr, Boolean fBool, Boolean fBool2)
+opcode: ''
+keywords: NavigationWindow
+task: NavigationWindow
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ptr
+- field_type: Boolean
+  field_name: fBool
+- field_type: Boolean
+  field_name: fBool2

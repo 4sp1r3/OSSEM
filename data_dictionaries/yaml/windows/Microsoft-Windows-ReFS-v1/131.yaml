@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ReFS-v1
+event_id: '131'
+version: '0'
+event(fields): task_0131(UInt16 VolumeIdLength, UnicodeString VolumeId, UnicodeString
+  RepairDetail, UInt16 RepairDataLength, Binary RepairData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: VolumeIdLength
+- field_type: UnicodeString
+  field_name: VolumeId
+- field_type: UnicodeString
+  field_name: RepairDetail
+- field_type: UInt16
+  field_name: RepairDataLength
+- field_type: Binary
+  field_name: RepairData

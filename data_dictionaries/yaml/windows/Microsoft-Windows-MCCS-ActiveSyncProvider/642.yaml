@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '642'
+version: '0'
+event(fields): SPERF_TAG_PIM_ITEMSAVEStart()
+opcode: Start
+keywords: Performance
+task: SPERF_TAG_PIM_ITEMSAVE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

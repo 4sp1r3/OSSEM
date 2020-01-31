@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '18'
+version: '0'
+event(fields): DefaultLayoutManager_WriteStartLayoutToStorageStop(UInt32 TaskHResultValue)
+opcode: Stop
+keywords: ''
+task: DefaultLayoutManager_WriteStartLayoutToStorage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TaskHResultValue

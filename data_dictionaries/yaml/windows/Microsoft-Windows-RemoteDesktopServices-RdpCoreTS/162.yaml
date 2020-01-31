@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '162'
+version: '0'
+event(fields): RemoteFXmodule_4Runtime162(HexInt32 Version, UInt32 ClientMode, UInt32
+  AvcEnabled, UInt32 ProfileIdNum, UnicodeString ServerName)
+opcode: Runtime
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Version
+- field_type: UInt32
+  field_name: ClientMode
+- field_type: UInt32
+  field_name: AvcEnabled
+- field_type: UInt32
+  field_name: ProfileIdNum
+- field_type: UnicodeString
+  field_name: ServerName

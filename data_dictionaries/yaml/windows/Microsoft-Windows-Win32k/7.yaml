@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Win32k
+event_id: '7'
+version: '0'
+event(fields): UIPIInputError(UInt8 UIPI_Trace_Header, UInt32 InputType, UInt32 QIL,
+  UInt32 QLBN)
+opcode: ''
+keywords: UIPI
+task: UIPIInputError
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: UIPI_Trace_Header
+- field_type: UInt32
+  field_name: InputType
+- field_type: UInt32
+  field_name: QIL
+- field_type: UInt32
+  field_name: QLBN

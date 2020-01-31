@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '31'
+version: '0'
+event(fields): AisResidencyDelta31(UInt64 UniqueApplicationId, UInt64 FcousTime, UInt64
+  VisibleTime, UInt64 MinimizedTime, UInt32 DirtyGenerated, UInt32 DirtyPropagated,
+  UInt32 CompositorRendered)
+opcode: ''
+keywords: ''
+task: AisResidencyDelta
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueApplicationId
+- field_type: UInt64
+  field_name: FcousTime
+- field_type: UInt64
+  field_name: VisibleTime
+- field_type: UInt64
+  field_name: MinimizedTime
+- field_type: UInt32
+  field_name: DirtyGenerated
+- field_type: UInt32
+  field_name: DirtyPropagated
+- field_type: UInt32
+  field_name: CompositorRendered

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '2012'
+version: '0'
+event(fields): RunningthelpksetupWizardChangetheUserUIlanguagesettingtoselectedlanguage2012(UnicodeString
+  Language1, UnicodeString Language2)
+opcode: ChangetheUserUIlanguagesettingtoselectedlanguage
+keywords: ''
+task: RunningthelpksetupWizard
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language1
+- field_type: UnicodeString
+  field_name: Language2

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1002'
+version: '0'
+event(fields): DriverOperation(UInt32 State, UInt32 hr)
+opcode: ''
+keywords: ''
+task: DriverOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: hr

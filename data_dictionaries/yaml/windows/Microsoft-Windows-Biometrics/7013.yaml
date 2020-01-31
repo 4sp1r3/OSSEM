@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Biometrics
+event_id: '7013'
+version: '0'
+event(fields): WBioSrvcStop7013()
+opcode: Stop
+keywords: ''
+task: WBioSrvc
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

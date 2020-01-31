@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '6009'
+version: '0'
+event(fields): Filter_Addr_4Start(Pointer Address, UnicodeString MACAddress, Pointer
+  SockAddr, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Filter_Addr_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Address
+- field_type: UnicodeString
+  field_name: MACAddress
+- field_type: Pointer
+  field_name: SockAddr
+- field_type: UInt32
+  field_name: ErrorCode

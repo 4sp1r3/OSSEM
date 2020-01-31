@@ -1,0 +1,80 @@
+provider: Microsoft-Windows-ESE
+event_id: '168'
+version: '0'
+event(fields): ESE_IOCompletion2Sess_Trace(UnicodeString wszFilename, UInt32 fMultiIor,
+  UInt8 fWrite, UInt32 dwUserId, UInt8 bOperationId, UInt8 bOperationType, UInt8 bClientType,
+  UInt8 bFlags, UInt32 dwCorrelationId, UInt8 iorp, UInt8 iors, UInt8 iort, UInt8
+  ioru, UInt8 iorf, UInt8 tce, AnsiString szClientComponent, AnsiString szClientAction,
+  AnsiString szClientActionContext, GUID guidActivityId, UInt64 ibOffset, UInt32 cbTransfer,
+  UInt32 dwError, UInt32 qosHighestFirst, UInt64 cmsecIOElapsed, UInt32 dtickCompletionDelay,
+  UInt32 tidAlloc, UInt32 dwEngineFileType, UInt64 dwEngineFileId, UInt32 fmfFile,
+  UInt32 dwDiskNumber, UInt32 dwEngineObjid)
+opcode: ''
+keywords: IOSESS
+task: ESE_IOCompletion2Sess_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: wszFilename
+- field_type: UInt32
+  field_name: fMultiIor
+- field_type: UInt8
+  field_name: fWrite
+- field_type: UInt32
+  field_name: dwUserId
+- field_type: UInt8
+  field_name: bOperationId
+- field_type: UInt8
+  field_name: bOperationType
+- field_type: UInt8
+  field_name: bClientType
+- field_type: UInt8
+  field_name: bFlags
+- field_type: UInt32
+  field_name: dwCorrelationId
+- field_type: UInt8
+  field_name: iorp
+- field_type: UInt8
+  field_name: iors
+- field_type: UInt8
+  field_name: iort
+- field_type: UInt8
+  field_name: ioru
+- field_type: UInt8
+  field_name: iorf
+- field_type: UInt8
+  field_name: tce
+- field_type: AnsiString
+  field_name: szClientComponent
+- field_type: AnsiString
+  field_name: szClientAction
+- field_type: AnsiString
+  field_name: szClientActionContext
+- field_type: GUID
+  field_name: guidActivityId
+- field_type: UInt64
+  field_name: ibOffset
+- field_type: UInt32
+  field_name: cbTransfer
+- field_type: UInt32
+  field_name: dwError
+- field_type: UInt32
+  field_name: qosHighestFirst
+- field_type: UInt64
+  field_name: cmsecIOElapsed
+- field_type: UInt32
+  field_name: dtickCompletionDelay
+- field_type: UInt32
+  field_name: tidAlloc
+- field_type: UInt32
+  field_name: dwEngineFileType
+- field_type: UInt64
+  field_name: dwEngineFileId
+- field_type: UInt32
+  field_name: fmfFile
+- field_type: UInt32
+  field_name: dwDiskNumber
+- field_type: UInt32
+  field_name: dwEngineObjid

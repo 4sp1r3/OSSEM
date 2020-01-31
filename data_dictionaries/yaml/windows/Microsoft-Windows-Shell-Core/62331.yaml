@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62331'
+version: '0'
+event(fields): FilePlaceholder_StreamResolver_RetrievePrimaryStreamStop(UInt64 Position,
+  UInt64 Size, UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: FilePlaceholder_StreamResolver_RetrievePrimaryStream
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Position
+- field_type: UInt64
+  field_name: Size
+- field_type: UInt32
+  field_name: HRESULT

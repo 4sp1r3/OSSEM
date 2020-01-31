@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DSC
+event_id: '4257'
+version: '0'
+event(fields): task_04257(UnicodeString JobId, UnicodeString configurationMode, UInt32
+  configurationModeFrequencyMins, UnicodeString refreshmode, UInt32 refreshFrequencyMins,
+  UnicodeString rebootNodeIfNeeded, UnicodeString debugMode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId
+- field_type: UnicodeString
+  field_name: configurationMode
+- field_type: UInt32
+  field_name: configurationModeFrequencyMins
+- field_type: UnicodeString
+  field_name: refreshmode
+- field_type: UInt32
+  field_name: refreshFrequencyMins
+- field_type: UnicodeString
+  field_name: rebootNodeIfNeeded
+- field_type: UnicodeString
+  field_name: debugMode

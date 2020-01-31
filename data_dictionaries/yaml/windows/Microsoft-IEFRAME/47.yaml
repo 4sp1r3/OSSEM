@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '47'
+version: '0'
+event(fields): QueryHistoryStop()
+opcode: Stop
+keywords: primarynav
+task: QueryHistory
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

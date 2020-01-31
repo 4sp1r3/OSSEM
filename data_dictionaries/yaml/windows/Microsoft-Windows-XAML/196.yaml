@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '196'
+version: '0'
+event(fields): SwipeUnrecognized()
+opcode: ''
+keywords: Input
+task: SwipeUnrecognized
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

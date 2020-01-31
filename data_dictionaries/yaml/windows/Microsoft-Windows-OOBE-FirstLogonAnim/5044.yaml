@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-FirstLogonAnim
+event_id: '5044'
+version: '0'
+event(fields): NavigationStop()
+opcode: Stop
+keywords: FirstLogonAnim
+task: Navigation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-ESE
+event_id: '159'
+version: '0'
+event(fields): ESE_FileStationId_Trace(UInt8 tsidr, UInt64 hFile, UInt32 dwDiskNumber,
+  UInt32 dwEngineFileType, UInt64 qwEngineFileId, UInt32 fmf, UInt64 cbFileSize, UnicodeString
+  wszAbsPath)
+opcode: ''
+keywords: StationId
+task: ESE_FileStationId_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: tsidr
+- field_type: UInt64
+  field_name: hFile
+- field_type: UInt32
+  field_name: dwDiskNumber
+- field_type: UInt32
+  field_name: dwEngineFileType
+- field_type: UInt64
+  field_name: qwEngineFileId
+- field_type: UInt32
+  field_name: fmf
+- field_type: UInt64
+  field_name: cbFileSize
+- field_type: UnicodeString
+  field_name: wszAbsPath

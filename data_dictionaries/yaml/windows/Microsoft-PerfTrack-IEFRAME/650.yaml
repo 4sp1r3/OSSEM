@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '650'
+version: '0'
+event(fields): CreateThumbnail_Immersive_PerftrackStart(UInt64 Object)
+opcode: Start
+keywords: ''
+task: CreateThumbnail_Immersive_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

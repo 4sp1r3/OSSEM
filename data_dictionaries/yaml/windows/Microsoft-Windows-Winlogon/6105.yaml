@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '6105'
+version: '0'
+event(fields): UnlockStart()
+opcode: Start
+keywords: PerfDiagnostics keyword_200000000000
+task: Unlock
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

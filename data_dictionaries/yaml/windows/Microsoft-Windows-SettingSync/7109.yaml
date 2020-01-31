@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7109'
+version: '0'
+event(fields): Perf_LocalDeleteCollectionBackupStart(UnicodeString CollectionId)
+opcode: Start
+keywords: RoamingSettings
+task: Perf_LocalDeleteCollectionBackup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId

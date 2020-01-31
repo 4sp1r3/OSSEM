@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataUtils
+event_id: '101'
+version: '0'
+event(fields): task_0101(UInt32 Prop_LINE_UInt32, UnicodeString Prop_Trace_UnicodeString)
+opcode: ''
+keywords: Error
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_LINE_UInt32
+- field_type: UnicodeString
+  field_name: Prop_Trace_UnicodeString

@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-PrintService
+event_id: '817'
+version: '0'
+event(fields): EnablingspoolerRPCendpointsSpoolerOperationFailed817(HexInt32 WindowsStarterEdition,
+  HexInt32 SuiteStorageServer, HexInt32 SystemPrintingDisabled, HexInt32 SuiteBlade,
+  HexInt32 SuiteEmbeddedRestricted, HexInt32 SuiteComputerServer)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_ROUTER
+task: EnablingspoolerRPCendpoints
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: WindowsStarterEdition
+- field_type: HexInt32
+  field_name: SuiteStorageServer
+- field_type: HexInt32
+  field_name: SystemPrintingDisabled
+- field_type: HexInt32
+  field_name: SuiteBlade
+- field_type: HexInt32
+  field_name: SuiteEmbeddedRestricted
+- field_type: HexInt32
+  field_name: SuiteComputerServer

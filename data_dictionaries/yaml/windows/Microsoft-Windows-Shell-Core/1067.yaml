@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1067'
+version: '0'
+event(fields): DataLayer_GetRowsetPropertiesStop()
+opcode: Stop
+keywords: Shell
+task: DataLayer_GetRowsetProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

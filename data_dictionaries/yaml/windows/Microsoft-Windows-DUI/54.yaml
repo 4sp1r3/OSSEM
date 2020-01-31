@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '54'
+version: '0'
+event(fields): DirectUI_RichTextStop()
+opcode: Stop
+keywords: Default
+task: DirectUI_RichText
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

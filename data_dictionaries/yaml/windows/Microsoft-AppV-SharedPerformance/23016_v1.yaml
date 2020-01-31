@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23016'
+version: '1'
+event(fields): PackagingBrowserLocalMachineStart_V1()
+opcode: Start
+keywords: ''
+task: PackagingBrowserLocalMachine
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

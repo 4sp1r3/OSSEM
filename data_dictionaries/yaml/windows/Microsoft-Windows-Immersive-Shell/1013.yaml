@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1013'
+version: '0'
+event(fields): TileXML_ProcessMRTResourceStop(UnicodeString ApplicationId, UInt32
+  NotificationId, UInt32 HRESULT, UnicodeString UnprocessedResourceString, UnicodeString
+  ProcessedResourceString)
+opcode: Stop
+keywords: ''
+task: TileXML_ProcessMRTResource
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApplicationId
+- field_type: UInt32
+  field_name: NotificationId
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UnicodeString
+  field_name: UnprocessedResourceString
+- field_type: UnicodeString
+  field_name: ProcessedResourceString

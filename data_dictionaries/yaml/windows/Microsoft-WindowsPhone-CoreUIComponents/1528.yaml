@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1528'
+version: '0'
+event(fields): ServerTaskShowVisibleTask(UInt32 unParam, UInt32 ServerTaskState)
+opcode: ''
+keywords: NavigationPerformance ServerTask
+task: ServerTaskShowVisibleTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: ServerTaskState

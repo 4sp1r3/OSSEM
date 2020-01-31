@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-HttpService
+event_id: '26'
+version: '0'
+event(fields): HTTPCacheTraceTaskAddCacheEntryFailed(UnicodeString UrlBuffer, UInt32
+  ErrorStatus)
+opcode: AddCacheEntryFailed
+keywords: HTTP_KEYWORD_CACHE
+task: HTTPCacheTraceTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UrlBuffer
+- field_type: UInt32
+  field_name: ErrorStatus

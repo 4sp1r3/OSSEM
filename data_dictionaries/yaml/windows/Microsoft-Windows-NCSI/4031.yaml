@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4031'
+version: '0'
+event(fields): Suspectstate4031(GUID InterfaceGuid, UInt64 IfLuid, UInt32 Family)
+opcode: ''
+keywords: keyword_200000000000
+task: Suspectstate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt64
+  field_name: IfLuid
+- field_type: UInt32
+  field_name: Family

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '132'
+version: '0'
+event(fields): Startup_SetupWorkingDirectory_RemovePath(UnicodeString Path)
+opcode: ''
+keywords: Service
+task: Startup_SetupWorkingDirectory_RemovePath
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path

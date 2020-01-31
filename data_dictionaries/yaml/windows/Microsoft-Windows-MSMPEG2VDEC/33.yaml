@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '33'
+version: '0'
+event(fields): MFT_SetOutputAttribute(Int64 SampleTime, Int64 SampleDuration, Int8
+  PicStructPresent, Int8 PicStruct)
+opcode: ''
+keywords: ''
+task: MFT_SetOutputAttribute
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: SampleTime
+- field_type: Int64
+  field_name: SampleDuration
+- field_type: Int8
+  field_name: PicStructPresent
+- field_type: Int8
+  field_name: PicStruct

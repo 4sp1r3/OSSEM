@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WLAN-Driver
+event_id: '3'
+version: '1'
+event(fields): DataTransmitReceiveTransmit3_V1(UInt32 FrameUniqueID, UInt32 CustomData1,
+  UInt32 CustomData2, UInt32 CustomData3)
+opcode: Transmit
+keywords: DataPath
+task: DataTransmitReceive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FrameUniqueID
+- field_type: UInt32
+  field_name: CustomData1
+- field_type: UInt32
+  field_name: CustomData2
+- field_type: UInt32
+  field_name: CustomData3

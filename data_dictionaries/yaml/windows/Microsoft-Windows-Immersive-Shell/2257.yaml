@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2257'
+version: '0'
+event(fields): Share_TransitionViewStop()
+opcode: Stop
+keywords: ''
+task: Share_TransitionView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18913'
+version: '0'
+event(fields): Shell32_CopyEngine_ProgressSpeed(UInt64 Speed, UInt32 IsBytesPerSecond)
+opcode: ''
+keywords: Shell
+task: Shell32_CopyEngine_ProgressSpeed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Speed
+- field_type: UInt32
+  field_name: IsBytesPerSecond

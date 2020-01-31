@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintService
+event_id: '317'
+version: '0'
+event(fields): DeletingaprinterdriverSpoolerOperationSucceeded(UnicodeString param1)
+opcode: SpoolerOperationSucceeded
+keywords: SPOOLER_KEYWORD_DRIVER SPOOLER_KEYWORD_CLASSIC
+task: Deletingaprinterdriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

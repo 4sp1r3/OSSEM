@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1'
+version: '0'
+event(fields): HighPagingLevel(Pointer ProcessHandle, UInt32 PagingLevel)
+opcode: ''
+keywords: DxgKrnl DxgKrnl_WDI
+task: HighPagingLevel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ProcessHandle
+- field_type: UInt32
+  field_name: PagingLevel

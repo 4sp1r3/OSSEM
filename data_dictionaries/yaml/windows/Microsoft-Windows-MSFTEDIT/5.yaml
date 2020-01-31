@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSFTEDIT
+event_id: '5'
+version: '0'
+event(fields): DismissingSelection()
+opcode: ''
+keywords: ''
+task: DismissingSelection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

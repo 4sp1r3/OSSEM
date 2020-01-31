@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '16000'
+version: '0'
+event(fields): task_016000(UnicodeString Name, UnicodeString CommandLine, UnicodeString
+  RoutingMode, UnicodeString Class, UnicodeString HostDll, UnicodeString InExMode,
+  UnicodeString InExIncludes, UnicodeString InExExcludes)
+opcode: ''
+keywords: ShimEng
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: CommandLine
+- field_type: UnicodeString
+  field_name: RoutingMode
+- field_type: UnicodeString
+  field_name: Class
+- field_type: UnicodeString
+  field_name: HostDll
+- field_type: UnicodeString
+  field_name: InExMode
+- field_type: UnicodeString
+  field_name: InExIncludes
+- field_type: UnicodeString
+  field_name: InExExcludes

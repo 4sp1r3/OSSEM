@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SENSE
+event_id: '1835'
+version: '0'
+event(fields): task_01835(UnicodeString Message1, HexInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message1
+- field_type: HexInt32
+  field_name: HRESULT

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '3028'
+version: '0'
+event(fields): Callback_Get_ObjectStop(UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Callback_Get_Object
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

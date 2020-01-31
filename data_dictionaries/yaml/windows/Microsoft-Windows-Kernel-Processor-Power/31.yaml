@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '31'
+version: '0'
+event(fields): PccErrata()
+opcode: ''
+keywords: ''
+task: PccErrata
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

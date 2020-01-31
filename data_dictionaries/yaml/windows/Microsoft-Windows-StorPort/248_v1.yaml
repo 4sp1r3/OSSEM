@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-StorPort
+event_id: '248'
+version: '1'
+event(fields): IsrCompletionofrequest._V1(Pointer IsrRoutine, UInt32 PortNumber, UInt32
+  Processor, UInt64 Duration_100ns)
+opcode: Completionofrequest.
+keywords: ISR
+task: Isr
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: IsrRoutine
+- field_type: UInt32
+  field_name: PortNumber
+- field_type: UInt32
+  field_name: Processor
+- field_type: UInt64
+  field_name: Duration_100ns

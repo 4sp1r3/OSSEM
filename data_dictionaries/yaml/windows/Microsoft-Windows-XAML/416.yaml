@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '416'
+version: '0'
+event(fields): RecursiveInvalidateMeasure(UnicodeString State)
+opcode: ''
+keywords: Layout
+task: RecursiveInvalidateMeasure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: State

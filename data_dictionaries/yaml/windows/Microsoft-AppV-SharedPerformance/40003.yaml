@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40003'
+version: '0'
+event(fields): VReg.OpenKeyStop()
+opcode: Stop
+keywords: ''
+task: VReg.OpenKey
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

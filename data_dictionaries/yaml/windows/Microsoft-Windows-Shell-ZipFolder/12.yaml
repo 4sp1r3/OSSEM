@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-ZipFolder
+event_id: '12'
+version: '0'
+event(fields): ZipFolder_CheckEncryptedStop()
+opcode: Stop
+keywords: ''
+task: ZipFolder_CheckEncrypted
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

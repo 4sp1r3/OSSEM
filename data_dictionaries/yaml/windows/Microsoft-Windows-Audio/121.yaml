@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Audio
+event_id: '121'
+version: '0'
+event(fields): EndpointCharacteristicsDiscoveryStart(UnicodeString EndpointId)
+opcode: Start
+keywords: ''
+task: EndpointCharacteristicsDiscovery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EndpointId

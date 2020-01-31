@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '182'
+version: '0'
+event(fields): MediaFoundationPresent_HistoryRecordStart(Pointer object, Pointer pRecord,
+  Int32 ListCount, Boolean DecodeYUV, Int32 FrameCount, Int64 PresentCount, Boolean
+  Repeat, UInt64 SampleTime, UInt64 TargetQPC)
+opcode: Start
+keywords: ''
+task: MediaFoundationPresent_HistoryRecord
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: pRecord
+- field_type: Int32
+  field_name: ListCount
+- field_type: Boolean
+  field_name: DecodeYUV
+- field_type: Int32
+  field_name: FrameCount
+- field_type: Int64
+  field_name: PresentCount
+- field_type: Boolean
+  field_name: Repeat
+- field_type: UInt64
+  field_name: SampleTime
+- field_type: UInt64
+  field_name: TargetQPC

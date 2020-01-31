@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Wisp
+event_id: '1'
+version: '0'
+event(fields): TABLET_INPUT_Pen_ClickStart()
+opcode: Start
+keywords: ''
+task: TABLET_INPUT_Pen_Click
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

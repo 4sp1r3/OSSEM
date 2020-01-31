@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '126'
+version: '0'
+event(fields): HashCollision()
+opcode: ''
+keywords: Events
+task: HashCollision
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

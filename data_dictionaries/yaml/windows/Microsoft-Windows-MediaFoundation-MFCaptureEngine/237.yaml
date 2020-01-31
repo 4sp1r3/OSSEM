@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-MFCaptureEngine
+event_id: '237'
+version: '0'
+event(fields): MFCaptureEngineStartPreviewTask(Pointer PreviewSinkWriter, UInt32 SinkStreamIndex)
+opcode: ''
+keywords: ''
+task: MFCaptureEngineStartPreviewTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PreviewSinkWriter
+- field_type: UInt32
+  field_name: SinkStreamIndex

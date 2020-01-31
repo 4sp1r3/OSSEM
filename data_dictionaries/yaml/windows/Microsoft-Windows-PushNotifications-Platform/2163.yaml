@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2163'
+version: '0'
+event(fields): task_02163(UInt32 SettingType, UnicodeString PackageFamilyName)
+opcode: ''
+keywords: wpnend
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SettingType
+- field_type: UnicodeString
+  field_name: PackageFamilyName

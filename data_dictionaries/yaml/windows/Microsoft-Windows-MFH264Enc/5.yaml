@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MFH264Enc
+event_id: '5'
+version: '0'
+event(fields): MFH264Enc_WorkItemStart(Pointer EncoderInstance, Int64 TimeStamp, Int32
+  Type)
+opcode: Start
+keywords: ''
+task: MFH264Enc_WorkItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: EncoderInstance
+- field_type: Int64
+  field_name: TimeStamp
+- field_type: Int32
+  field_name: Type

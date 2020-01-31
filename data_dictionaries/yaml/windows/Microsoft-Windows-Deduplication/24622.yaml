@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '24622'
+version: '0'
+event(fields): ReadchunkdataStart(Pointer TlCache, Pointer Stream, UInt32 StreamMapEntryCount,
+  UInt64 RequestStartOffset, UInt64 RequestEndOffset)
+opcode: Start
+keywords: Filter
+task: Readchunkdata
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TlCache
+- field_type: Pointer
+  field_name: Stream
+- field_type: UInt32
+  field_name: StreamMapEntryCount
+- field_type: UInt64
+  field_name: RequestStartOffset
+- field_type: UInt64
+  field_name: RequestEndOffset

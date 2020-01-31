@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '851'
+version: '0'
+event(fields): task_0851(UInt64 Prop_Ulong, HexInt32 Prop_Hex)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Prop_Ulong
+- field_type: HexInt32
+  field_name: Prop_Hex

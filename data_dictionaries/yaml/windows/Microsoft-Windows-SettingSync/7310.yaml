@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7310'
+version: '0'
+event(fields): Perf_Backup_CollectionStop(UInt32 CollectionSize, UInt32 hresult, UInt32
+  SecondsSinceChangeNotify, UnicodeString CollectionName)
+opcode: Stop
+keywords: BackupTask
+task: Perf_Backup_Collection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CollectionSize
+- field_type: UInt32
+  field_name: hresult
+- field_type: UInt32
+  field_name: SecondsSinceChangeNotify
+- field_type: UnicodeString
+  field_name: CollectionName

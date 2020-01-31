@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '15505'
+version: '0'
+event(fields): PropertyDescription_SHGetPropertyDescriptionStart(GUID FMTID, UInt32
+  PID)
+opcode: Start
+keywords: Properties
+task: PropertyDescription_SHGetPropertyDescription
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: FMTID
+- field_type: UInt32
+  field_name: PID

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '12'
+version: '0'
+event(fields): SecureBootVariableUsage(UnicodeString UefiVariableName, UInt32 Size,
+  UInt32 Status)
+opcode: ''
+keywords: ''
+task: SecureBootVariableUsage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UefiVariableName
+- field_type: UInt32
+  field_name: Size
+- field_type: UInt32
+  field_name: Status

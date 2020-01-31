@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '48'
+version: '0'
+event(fields): Mshtml_HtmPost_SetFlag(Pointer HTMPOST, UInt32 Flags, UInt32 Line,
+  UInt32 Offset)
+opcode: ''
+keywords: subsystem mshtml
+task: Mshtml_HtmPost_SetFlag
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HTMPOST
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Line
+- field_type: UInt32
+  field_name: Offset

@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '862'
+version: '0'
+event(fields): CSms862(UInt32 Result, AnsiString String)
+opcode: ''
+keywords: Error
+task: CSms
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: AnsiString
+  field_name: String

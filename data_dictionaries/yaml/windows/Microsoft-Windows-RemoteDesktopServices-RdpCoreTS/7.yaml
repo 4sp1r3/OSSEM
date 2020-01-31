@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '7'
+version: '0'
+event(fields): RemoteFXmoduleInitialize7()
+opcode: Initialize
+keywords: ''
+task: RemoteFXmodule
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

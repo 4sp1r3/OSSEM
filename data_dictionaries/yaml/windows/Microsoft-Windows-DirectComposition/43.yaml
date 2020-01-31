@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '43'
+version: '0'
+event(fields): OFFER_RECLAIM43(UInt64 Id, UInt32 Width, UInt32 Height, Boolean PixelsDiscarded,
+  Boolean SurfaceInvalid)
+opcode: ''
+keywords: DCompMemory OfferReclaim
+task: OFFER_RECLAIM
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: Boolean
+  field_name: PixelsDiscarded
+- field_type: Boolean
+  field_name: SurfaceInvalid

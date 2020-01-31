@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Mobile-Broadband-Experience-Api-Internal
+event_id: '1004'
+version: '0'
+event(fields): task_01004(UnicodeString interfaceId, UnicodeString appPackageFamilyName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: interfaceId
+- field_type: UnicodeString
+  field_name: appPackageFamilyName

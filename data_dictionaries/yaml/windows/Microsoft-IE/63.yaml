@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '63'
+version: '0'
+event(fields): Mshtml_InitImageSizeCacheStart(Pointer Zero2, UInt32 Zero1)
+opcode: Start
+keywords: subsystem mshtml
+task: Mshtml_InitImageSizeCache
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Zero2
+- field_type: UInt32
+  field_name: Zero1

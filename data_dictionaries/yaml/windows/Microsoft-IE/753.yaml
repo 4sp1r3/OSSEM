@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '753'
+version: '0'
+event(fields): Mshtml_CrossCDoc_NodeAdoptionAttempt(UInt32 PID, UInt32 TID, UnicodeString
+  SourceUrl, UnicodeString TargetUrl, UnicodeString Func)
+opcode: ''
+keywords: mshtml
+task: Mshtml_CrossCDoc_NodeAdoptionAttempt
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PID
+- field_type: UInt32
+  field_name: TID
+- field_type: UnicodeString
+  field_name: SourceUrl
+- field_type: UnicodeString
+  field_name: TargetUrl
+- field_type: UnicodeString
+  field_name: Func

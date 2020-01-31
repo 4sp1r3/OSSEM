@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16709'
+version: '0'
+event(fields): ShellItem_CreatePropertyProviderHelperStop()
+opcode: Stop
+keywords: Properties
+task: ShellItem_CreatePropertyProviderHelper
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

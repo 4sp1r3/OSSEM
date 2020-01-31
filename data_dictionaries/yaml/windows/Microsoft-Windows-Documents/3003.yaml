@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '3003'
+version: '0'
+event(fields): DocPerf_Task_SmcN_ReadADStop()
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_SmcN_ReadAD
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

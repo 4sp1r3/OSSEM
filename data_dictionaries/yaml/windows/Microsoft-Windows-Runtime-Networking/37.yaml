@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '37'
+version: '0'
+event(fields): APIsAPIExit37(UInt32 win32Api, UInt32 error, UInt32 errorMessage)
+opcode: APIExit
+keywords: keywords.API
+task: APIs
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: win32Api
+- field_type: UInt32
+  field_name: error
+- field_type: UInt32
+  field_name: errorMessage

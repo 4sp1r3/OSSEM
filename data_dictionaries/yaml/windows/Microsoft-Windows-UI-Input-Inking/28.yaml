@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UI-Input-Inking
+event_id: '28'
+version: '0'
+event(fields): Inking_IRecognizerCollection_GetRecognizerViewStop()
+opcode: Stop
+keywords: InkStrokeManipulation
+task: Inking_IRecognizerCollection_GetRecognizerView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

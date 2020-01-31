@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27024'
+version: '1'
+event(fields): HandlePackageCancelLoadActivityStart_V1()
+opcode: Start
+keywords: ''
+task: HandlePackageCancelLoadActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

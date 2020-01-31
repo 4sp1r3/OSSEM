@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DXGI
+event_id: '8'
+version: '0'
+event(fields): OutputStop(Pointer pIDXGIOutput, Pointer pIDXGIAdapter, UInt32 VidPnSourceID,
+  UnicodeString GDIDeviceName)
+opcode: Stop
+keywords: Objects
+task: Output
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGIOutput
+- field_type: Pointer
+  field_name: pIDXGIAdapter
+- field_type: UInt32
+  field_name: VidPnSourceID
+- field_type: UnicodeString
+  field_name: GDIDeviceName

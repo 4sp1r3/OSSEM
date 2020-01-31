@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7282'
+version: '0'
+event(fields): ConnectedSearch_UploadPerfPing(UInt32 Result, UnicodeString ImpressionGUID,
+  UnicodeString DataCenter, Boolean IsAbandoned, UnicodeString JSONPayload)
+opcode: ''
+keywords: ''
+task: ConnectedSearch_UploadPerfPing
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result
+- field_type: UnicodeString
+  field_name: ImpressionGUID
+- field_type: UnicodeString
+  field_name: DataCenter
+- field_type: Boolean
+  field_name: IsAbandoned
+- field_type: UnicodeString
+  field_name: JSONPayload

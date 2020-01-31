@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '37004'
+version: '1'
+event(fields): StartupTask.VIRTMAN.Start_V1()
+opcode: Start
+keywords: ''
+task: StartupTask.VIRTMAN.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

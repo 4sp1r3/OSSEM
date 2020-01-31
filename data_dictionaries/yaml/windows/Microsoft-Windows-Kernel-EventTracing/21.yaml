@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '21'
+version: '0'
+event(fields): SavePersistedLoggerStart_8_1()
+opcode: Start_8_1
+keywords: ETW_KEYWORD_SOFT_RESTART
+task: SavePersistedLogger
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

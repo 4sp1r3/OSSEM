@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebIO
+event_id: '2112'
+version: '0'
+event(fields): RequestState2112(Pointer Context)
+opcode: ''
+keywords: ''
+task: RequestState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Context

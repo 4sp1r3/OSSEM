@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7095'
+version: '0'
+event(fields): Perf_LocalDeleteCollectionStart(UnicodeString CollectionId)
+opcode: Start
+keywords: ''
+task: Perf_LocalDeleteCollection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CollectionId

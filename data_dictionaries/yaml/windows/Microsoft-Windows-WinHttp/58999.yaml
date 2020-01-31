@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '58999'
+version: '0'
+event(fields): Debug(AnsiString Message)
+opcode: ''
+keywords: ''
+task: Debug
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Message

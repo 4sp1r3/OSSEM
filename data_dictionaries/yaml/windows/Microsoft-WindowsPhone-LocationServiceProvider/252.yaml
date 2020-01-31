@@ -1,0 +1,22 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '252'
+version: '0'
+event(fields): CellPE252(UInt32 BaseLat, UInt32 BaseLong, UInt32 BaseStationID, UInt32
+  NID, UInt32 SID)
+opcode: ''
+keywords: Selfhost CellPe
+task: CellPE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BaseLat
+- field_type: UInt32
+  field_name: BaseLong
+- field_type: UInt32
+  field_name: BaseStationID
+- field_type: UInt32
+  field_name: NID
+- field_type: UInt32
+  field_name: SID

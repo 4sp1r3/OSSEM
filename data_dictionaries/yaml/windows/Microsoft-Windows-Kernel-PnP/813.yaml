@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '813'
+version: '0'
+event(fields): ReenumerateDeviceOnly(UnicodeString Device)
+opcode: ''
+keywords: Enumeration
+task: ReenumerateDeviceOnly
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Device

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4405'
+version: '0'
+event(fields): MSG_OPENATTACHStop()
+opcode: Stop
+keywords: Performance
+task: MSG_OPENATTACH
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

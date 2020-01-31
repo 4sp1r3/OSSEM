@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '934'
+version: '0'
+event(fields): EUPP_DoAsyncOperation_PerftrackStart(UInt32 OpType)
+opcode: Start
+keywords: nonPerfTrack
+task: EUPP_DoAsyncOperation_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OpType

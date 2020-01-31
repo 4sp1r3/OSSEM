@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4113'
+version: '0'
+event(fields): QUERYROWS_CONVERSATIONSStop()
+opcode: Stop
+keywords: Performance
+task: QUERYROWS_CONVERSATIONS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

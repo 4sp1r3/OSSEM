@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5056'
+version: '0'
+event(fields): VMT_VID_PARTITION_PERSISTStart(GUID PartitionGuid)
+opcode: Start
+keywords: VMK_PARTITION
+task: VMT_VID_PARTITION_PERSIST
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PartitionGuid

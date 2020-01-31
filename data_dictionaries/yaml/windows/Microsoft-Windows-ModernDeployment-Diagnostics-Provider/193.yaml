@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ModernDeployment-Diagnostics-Provider
+event_id: '193'
+version: '0'
+event(fields): task_0193(UInt32 Uint1, UInt32 Uint2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Uint1
+- field_type: UInt32
+  field_name: Uint2

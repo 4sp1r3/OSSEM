@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4330'
+version: '0'
+event(fields): CTX_DELETEMSGSTOREStart()
+opcode: Start
+keywords: Performance
+task: CTX_DELETEMSGSTORE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

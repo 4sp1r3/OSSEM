@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client
+event_id: '11006'
+version: '1'
+event(fields): UnpublishPackage11006_V1(UnicodeString Item)
+opcode: ''
+keywords: ClientCoExistence
+task: UnpublishPackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Item

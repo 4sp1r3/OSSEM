@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '17'
+version: '0'
+event(fields): StateModel_ReleaseKeysStart()
+opcode: Start
+keywords: TabletPC_InputPanel_Keyword
+task: StateModel_ReleaseKeys
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

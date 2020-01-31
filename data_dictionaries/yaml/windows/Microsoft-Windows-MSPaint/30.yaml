@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSPaint
+event_id: '30'
+version: '0'
+event(fields): FlipOperationStop()
+opcode: Stop
+keywords: ''
+task: FlipOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

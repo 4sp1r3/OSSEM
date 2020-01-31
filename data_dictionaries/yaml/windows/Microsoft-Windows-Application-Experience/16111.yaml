@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '16111'
+version: '0'
+event(fields): task_016111(AnsiString ShimName, AnsiString ModuleName, AnsiString
+  ApiName, AnsiString Info)
+opcode: ''
+keywords: Shims
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: ShimName
+- field_type: AnsiString
+  field_name: ModuleName
+- field_type: AnsiString
+  field_name: ApiName
+- field_type: AnsiString
+  field_name: Info

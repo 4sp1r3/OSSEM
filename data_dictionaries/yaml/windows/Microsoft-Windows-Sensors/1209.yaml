@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1209'
+version: '0'
+event(fields): SensorClassExtensionClientInformationevent(UInt32 EventNumber, UInt32
+  EventCount, GUID SENSOR_ID, UInt32 ConnectedClients, UInt32 SubscribedClients, UInt32
+  SilentClients, UInt32 PID, UInt32 ClientBitfield)
+opcode: ''
+keywords: SensPerf
+task: SensorClassExtensionClientInformationevent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EventNumber
+- field_type: UInt32
+  field_name: EventCount
+- field_type: GUID
+  field_name: SENSOR_ID
+- field_type: UInt32
+  field_name: ConnectedClients
+- field_type: UInt32
+  field_name: SubscribedClients
+- field_type: UInt32
+  field_name: SilentClients
+- field_type: UInt32
+  field_name: PID
+- field_type: UInt32
+  field_name: ClientBitfield

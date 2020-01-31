@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-SecurityMitigationsBroker
+event_id: '1008'
+version: '0'
+event(fields): SecurityMitigationsBroker.Task.NotifyDisplayDriverUpdate1008(UInt64
+  DriverId, UInt32 ProcessId, UInt32 ErrorCode)
+opcode: ''
+keywords: SECURITYMITIGATIONBROKER_KEYWORD_ACG
+task: SecurityMitigationsBroker.Task.NotifyDisplayDriverUpdate
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DriverId
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: ErrorCode

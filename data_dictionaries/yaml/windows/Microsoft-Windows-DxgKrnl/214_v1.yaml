@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '214'
+version: '1'
+event(fields): RuntimePowerManagement214_V1(Pointer AdapterHandle, UInt32 ComponentIndex,
+  UInt32 State)
+opcode: ''
+keywords: DxgKrnl_Power
+task: RuntimePowerManagement
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdapterHandle
+- field_type: UInt32
+  field_name: ComponentIndex
+- field_type: UInt32
+  field_name: State

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '300'
+version: '0'
+event(fields): WinRTTranscode_Task(Pointer Transcode, UInt32 EngineType)
+opcode: ''
+keywords: keyword_400000000000
+task: WinRTTranscode_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Transcode
+- field_type: UInt32
+  field_name: EngineType

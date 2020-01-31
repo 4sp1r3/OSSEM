@@ -1,0 +1,43 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '4'
+version: '1'
+event(fields): GCHeapStats_V1(UInt64 GenerationSize0, UInt64 TotalPromotedSize0, UInt64
+  GenerationSize1, UInt64 TotalPromotedSize1, UInt64 GenerationSize2, UInt64 TotalPromotedSize2,
+  UInt64 GenerationSize3, UInt64 TotalPromotedSize3, UInt64 FinalizationPromotedSize,
+  UInt64 FinalizationPromotedCount, UInt32 PinnedObjectCount, UInt32 SinkBlockCount,
+  UInt32 GCHandleCount, UInt16 ClrInstanceID)
+opcode: HeapStats
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: GenerationSize0
+- field_type: UInt64
+  field_name: TotalPromotedSize0
+- field_type: UInt64
+  field_name: GenerationSize1
+- field_type: UInt64
+  field_name: TotalPromotedSize1
+- field_type: UInt64
+  field_name: GenerationSize2
+- field_type: UInt64
+  field_name: TotalPromotedSize2
+- field_type: UInt64
+  field_name: GenerationSize3
+- field_type: UInt64
+  field_name: TotalPromotedSize3
+- field_type: UInt64
+  field_name: FinalizationPromotedSize
+- field_type: UInt64
+  field_name: FinalizationPromotedCount
+- field_type: UInt32
+  field_name: PinnedObjectCount
+- field_type: UInt32
+  field_name: SinkBlockCount
+- field_type: UInt32
+  field_name: GCHandleCount
+- field_type: UInt16
+  field_name: ClrInstanceID

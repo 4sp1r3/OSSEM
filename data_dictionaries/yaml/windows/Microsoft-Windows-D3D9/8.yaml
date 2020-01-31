@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-D3D9
+event_id: '8'
+version: '0'
+event(fields): FlipExSemaphoreTimeout(UInt64 LogicalSurfaceHandle, UInt32 AdjustValue,
+  UInt64 FenceValue)
+opcode: ''
+keywords: Events
+task: FlipExSemaphoreTimeout
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: LogicalSurfaceHandle
+- field_type: UInt32
+  field_name: AdjustValue
+- field_type: UInt64
+  field_name: FenceValue

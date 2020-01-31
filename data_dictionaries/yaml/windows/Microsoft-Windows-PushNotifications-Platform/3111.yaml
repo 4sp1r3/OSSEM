@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3111'
+version: '0'
+event(fields): AFCForwardToastStart()
+opcode: Start
+keywords: wpnui
+task: AFCForwardToast
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '161'
+version: '0'
+event(fields): RenderViewStart()
+opcode: Start
+keywords: Reader
+task: RenderView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

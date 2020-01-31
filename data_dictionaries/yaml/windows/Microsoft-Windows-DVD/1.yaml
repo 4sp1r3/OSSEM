@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-DVD
+event_id: '1'
+version: '0'
+event(fields): NavSendSample(Pointer Object, Int32 StreamID, Int32 StreamType, Int32
+  IsRunning, Int64 rtTimestamp, Int64 rtNow, Int64 rtAhead, Int32 SyncPoint, Int32
+  TimeDisc, Int32 Length)
+opcode: ''
+keywords: ''
+task: NavSendSample
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: StreamID
+- field_type: Int32
+  field_name: StreamType
+- field_type: Int32
+  field_name: IsRunning
+- field_type: Int64
+  field_name: rtTimestamp
+- field_type: Int64
+  field_name: rtNow
+- field_type: Int64
+  field_name: rtAhead
+- field_type: Int32
+  field_name: SyncPoint
+- field_type: Int32
+  field_name: TimeDisc
+- field_type: Int32
+  field_name: Length

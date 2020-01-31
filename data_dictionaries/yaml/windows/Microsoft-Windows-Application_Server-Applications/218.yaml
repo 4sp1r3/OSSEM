@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '218'
+version: '0'
+event(fields): ServiceChannelCallStop(UnicodeString Action, UnicodeString ContractName,
+  UnicodeString Destination, UnicodeString HostReference, UnicodeString AppDomain)
+opcode: Stop
+keywords: ServiceModel Troubleshooting
+task: ServiceChannelCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Action
+- field_type: UnicodeString
+  field_name: ContractName
+- field_type: UnicodeString
+  field_name: Destination
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

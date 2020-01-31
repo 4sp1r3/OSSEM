@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '186'
+version: '0'
+event(fields): OfferAllocationStart(Pointer hAllocationHandle, UInt8 Priority)
+opcode: Start
+keywords: Base
+task: OfferAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAllocationHandle
+- field_type: UInt8
+  field_name: Priority

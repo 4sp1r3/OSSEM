@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '321'
+version: '0'
+event(fields): DmPointerHitTestStart()
+opcode: Start
+keywords: Input
+task: DmPointerHitTest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

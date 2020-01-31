@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '150'
+version: '0'
+event(fields): Mshtml_DOM_CustomSiteEvent(Pointer CWindow, Pointer Markup, UnicodeString
+  EventName)
+opcode: ''
+keywords: extended mshtml pagemark
+task: Mshtml_DOM_CustomSiteEvent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CWindow
+- field_type: Pointer
+  field_name: Markup
+- field_type: UnicodeString
+  field_name: EventName

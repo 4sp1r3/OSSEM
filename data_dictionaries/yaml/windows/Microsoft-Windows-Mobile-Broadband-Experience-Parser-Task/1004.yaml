@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Mobile-Broadband-Experience-Parser-Task
+event_id: '1004'
+version: '0'
+event(fields): task_01004(UnicodeString id, UInt32 error, Int32 hresult)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: id
+- field_type: UInt32
+  field_name: error
+- field_type: Int32
+  field_name: hresult

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '202'
+version: '0'
+event(fields): WININET_HTTP_REQUESTFail(Pointer Handle, UInt32 Error)
+opcode: Fail
+keywords: WININET_KEYWORD_HTTP WININET_KEYWORD_AOAC
+task: WININET_HTTP_REQUEST
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Handle
+- field_type: UInt32
+  field_name: Error

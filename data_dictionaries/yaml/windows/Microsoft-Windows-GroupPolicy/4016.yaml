@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '4016'
+version: '0'
+event(fields): task_0Start4016(GUID CSEExtensionId, UnicodeString CSEExtensionName,
+  Boolean IsExtensionAsyncProcessing, Boolean IsGPOListChanged, UnicodeString GPOListStatusString,
+  UnicodeString DescriptionString, UnicodeString ApplicableGPOList)
+opcode: Start
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: CSEExtensionId
+- field_type: UnicodeString
+  field_name: CSEExtensionName
+- field_type: Boolean
+  field_name: IsExtensionAsyncProcessing
+- field_type: Boolean
+  field_name: IsGPOListChanged
+- field_type: UnicodeString
+  field_name: GPOListStatusString
+- field_type: UnicodeString
+  field_name: DescriptionString
+- field_type: UnicodeString
+  field_name: ApplicableGPOList

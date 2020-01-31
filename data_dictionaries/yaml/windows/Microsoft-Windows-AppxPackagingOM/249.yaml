@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '249'
+version: '0'
+event(fields): PackagingLayout249(HexInt32 errorCode)
+opcode: ''
+keywords: ''
+task: PackagingLayout
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: errorCode

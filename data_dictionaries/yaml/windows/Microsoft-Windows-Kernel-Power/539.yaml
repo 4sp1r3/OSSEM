@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '539'
+version: '0'
+event(fields): DirectedDripsNotifyDevices(UInt8 CsSessionId, Boolean Suspended, UInt32
+  Result, UInt64 DurationMs)
+opcode: ''
+keywords: po:Diagnostic
+task: DirectedDripsNotifyDevices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: CsSessionId
+- field_type: Boolean
+  field_name: Suspended
+- field_type: UInt32
+  field_name: Result
+- field_type: UInt64
+  field_name: DurationMs

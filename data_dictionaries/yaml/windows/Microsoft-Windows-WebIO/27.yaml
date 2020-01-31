@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-WebIO
+event_id: '27'
+version: '0'
+event(fields): Information(Pointer Request, UInt32 PendingCount, Pointer InformationRoutine,
+  Pointer InformationContext, UInt32 Type, Pointer Information, UInt64 InformationLength)
+opcode: ''
+keywords: Keyword.API
+task: Information
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: UInt32
+  field_name: PendingCount
+- field_type: Pointer
+  field_name: InformationRoutine
+- field_type: Pointer
+  field_name: InformationContext
+- field_type: UInt32
+  field_name: Type
+- field_type: Pointer
+  field_name: Information
+- field_type: UInt64
+  field_name: InformationLength

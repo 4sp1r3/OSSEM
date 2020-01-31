@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '55'
+version: '0'
+event(fields): PagingOpDiscard(Pointer pDxgAdapter, Pointer hDmaBuffer, Boolean ContinueNextBuffer,
+  Pointer hAllocationGlobalHandle, UInt32 Flags, UInt32 SegmentId, UInt64 SegmentOffset)
+opcode: ''
+keywords: Resource
+task: PagingOpDiscard
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: hDmaBuffer
+- field_type: Boolean
+  field_name: ContinueNextBuffer
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: SegmentId
+- field_type: UInt64
+  field_name: SegmentOffset

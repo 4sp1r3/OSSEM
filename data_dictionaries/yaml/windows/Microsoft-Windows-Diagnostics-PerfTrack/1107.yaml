@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '1107'
+version: '0'
+event(fields): IdleDetection_Sample_Error(UnicodeString Resource, UInt32 HResult)
+opcode: ''
+keywords: PerfTrackStatus
+task: IdleDetection_Sample_Error
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Resource
+- field_type: UInt32
+  field_name: HResult

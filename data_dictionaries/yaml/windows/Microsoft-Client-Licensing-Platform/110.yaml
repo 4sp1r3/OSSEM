@@ -1,0 +1,15 @@
+provider: Microsoft-Client-Licensing-Platform
+event_id: '110'
+version: '0'
+event(fields): task_0110(Int32 Type, UInt32 HRESULT)
+opcode: ''
+keywords: SERVICE_KEYWORD
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Type
+- field_type: UInt32
+  field_name: HRESULT

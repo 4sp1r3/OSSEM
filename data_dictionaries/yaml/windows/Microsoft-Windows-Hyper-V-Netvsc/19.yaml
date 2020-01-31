@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Hyper-V-Netvsc
+event_id: '19'
+version: '0'
+event(fields): task_019(UInt32 Direction, Pointer Pointer, UInt64 CorrelationId, UInt32
+  IfIndex)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Direction
+- field_type: Pointer
+  field_name: Pointer
+- field_type: UInt64
+  field_name: CorrelationId
+- field_type: UInt32
+  field_name: IfIndex

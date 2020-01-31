@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '2104'
+version: '0'
+event(fields): task_02104(GUID InterfaceGuid, Int32 ModemIndex, Int32 ExecutorIndex,
+  UInt32 ModemType, UInt32 ErrorCode)
+opcode: ''
+keywords: LwtDiagnostic InterfaceEnum ut:L2ConnectPath keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: Int32
+  field_name: ModemIndex
+- field_type: Int32
+  field_name: ExecutorIndex
+- field_type: UInt32
+  field_name: ModemType
+- field_type: UInt32
+  field_name: ErrorCode

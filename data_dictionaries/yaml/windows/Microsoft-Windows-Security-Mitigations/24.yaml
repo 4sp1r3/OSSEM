@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-Security-Mitigations
+event_id: '24'
+version: '0'
+event(fields): USER_MITIGATION_TASK_ROP_SIMEXEC24(UInt32 Subcode, UnicodeString ProcessPath,
+  UInt32 ProcessId, UnicodeString HookedAPI, Pointer ReturnAddress, Pointer CalledAddress,
+  Pointer TargetAddress, Pointer StackAddress, Pointer FrameAddress, UnicodeString
+  ReturnAddressModuleFullPath, FILETIME ProcessStartTime, UInt32 ThreadId)
+opcode: ''
+keywords: ''
+task: USER_MITIGATION_TASK_ROP_SIMEXEC
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Subcode
+- field_type: UnicodeString
+  field_name: ProcessPath
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: HookedAPI
+- field_type: Pointer
+  field_name: ReturnAddress
+- field_type: Pointer
+  field_name: CalledAddress
+- field_type: Pointer
+  field_name: TargetAddress
+- field_type: Pointer
+  field_name: StackAddress
+- field_type: Pointer
+  field_name: FrameAddress
+- field_type: UnicodeString
+  field_name: ReturnAddressModuleFullPath
+- field_type: FILETIME
+  field_name: ProcessStartTime
+- field_type: UInt32
+  field_name: ThreadId

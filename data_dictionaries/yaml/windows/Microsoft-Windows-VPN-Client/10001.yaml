@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-VPN-Client
+event_id: '10001'
+version: '0'
+event(fields): VPNWmiCreateSuccess(UnicodeString VpnConnectionName, UnicodeString
+  PropertiesString)
+opcode: Success
+keywords: ''
+task: VPNWmiCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VpnConnectionName
+- field_type: UnicodeString
+  field_name: PropertiesString

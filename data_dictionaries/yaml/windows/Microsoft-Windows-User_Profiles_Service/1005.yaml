@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-User Profiles Service
+event_id: '1005'
+version: '0'
+event(fields): task_01005(UnicodeString ProfilePath, UInt32 AgeLimitInDays)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProfilePath
+- field_type: UInt32
+  field_name: AgeLimitInDays

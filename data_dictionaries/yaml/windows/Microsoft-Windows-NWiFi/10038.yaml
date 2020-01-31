@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10038'
+version: '0'
+event(fields): task_010038(Pointer ContextHandle, GUID AdapterGuid, UInt8 ResetType,
+  Binary MAC, Boolean DefaultMIB)
+opcode: ''
+keywords: Reset ut:Configuration
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextHandle
+- field_type: GUID
+  field_name: AdapterGuid
+- field_type: UInt8
+  field_name: ResetType
+- field_type: Binary
+  field_name: MAC
+- field_type: Boolean
+  field_name: DefaultMIB

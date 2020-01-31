@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '29'
+version: '0'
+event(fields): Release(Pointer pThis, UInt32 ReturnValue)
+opcode: ''
+keywords: ''
+task: Release
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: ReturnValue

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-General
+event_id: '1'
+version: '1'
+event(fields): SystemTimeChange_V1(FILETIME NewTime, FILETIME OldTime, UInt32 Reason)
+opcode: ''
+keywords: KERNEL_GENERAL_KEYWORD_TIME
+task: SystemTimeChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: NewTime
+- field_type: FILETIME
+  field_name: OldTime
+- field_type: UInt32
+  field_name: Reason

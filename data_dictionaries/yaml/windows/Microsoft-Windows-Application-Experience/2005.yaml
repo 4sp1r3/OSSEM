@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '2005'
+version: '0'
+event(fields): task_02005(UInt32 ProcessId, UInt32 QuirkId, UnicodeString QuirkName,
+  UnicodeString CommandLine, UInt8 Enabled, UInt8 Forced, UnicodeString PackageFullName,
+  UnicodeString ApplicationUserModelId)
+opcode: ''
+keywords: Debug
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: QuirkId
+- field_type: UnicodeString
+  field_name: QuirkName
+- field_type: UnicodeString
+  field_name: CommandLine
+- field_type: UInt8
+  field_name: Enabled
+- field_type: UInt8
+  field_name: Forced
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: ApplicationUserModelId

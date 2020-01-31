@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-QoS-Pacer
+event_id: '4'
+version: '1'
+event(fields): task_04_V1(UInt64 NetLuid, UInt32 NdisMediumType, UInt32 FriendlyNameLen,
+  UnicodeString FriendlyName, UInt32 DeviceNameLen, UnicodeString DeviceName, UInt32
+  Context)
+opcode: ''
+keywords: ut:Global
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: NetLuid
+- field_type: UInt32
+  field_name: NdisMediumType
+- field_type: UInt32
+  field_name: FriendlyNameLen
+- field_type: UnicodeString
+  field_name: FriendlyName
+- field_type: UInt32
+  field_name: DeviceNameLen
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: UInt32
+  field_name: Context

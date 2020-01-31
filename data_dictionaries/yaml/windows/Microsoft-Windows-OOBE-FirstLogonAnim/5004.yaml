@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-OOBE-FirstLogonAnim
+event_id: '5004'
+version: '0'
+event(fields): StartResult()
+opcode: ''
+keywords: FirstLogonAnim
+task: StartResult
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

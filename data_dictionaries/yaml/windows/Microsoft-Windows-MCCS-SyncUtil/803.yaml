@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-SyncUtil
+event_id: '803'
+version: '0'
+event(fields): task_0803(Int32 P1_Int32)
+opcode: ''
+keywords: Error
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: P1_Int32

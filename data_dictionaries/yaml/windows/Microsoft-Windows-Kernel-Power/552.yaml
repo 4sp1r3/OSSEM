@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '552'
+version: '0'
+event(fields): SystemIdleContextUpdate(UInt32 Reason, UInt32 PreviousTimeoutSource,
+  UInt32 PreviousTimeout, UInt32 NewTimeoutSource, UInt32 NewTimeout)
+opcode: ''
+keywords: po:Diagnostic
+task: SystemIdleContextUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: PreviousTimeoutSource
+- field_type: UInt32
+  field_name: PreviousTimeout
+- field_type: UInt32
+  field_name: NewTimeoutSource
+- field_type: UInt32
+  field_name: NewTimeout

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '227'
+version: '0'
+event(fields): NonPerfEvents227()
+opcode: ''
+keywords: NonPerfEvent
+task: NonPerfEvents
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

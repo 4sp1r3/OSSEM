@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1036'
+version: '0'
+event(fields): MiracastUmdReportChunkSent(UInt64 MiracastLuid, UInt32 FrameNumber,
+  UInt32 PartNumber)
+opcode: ''
+keywords: Miracast
+task: MiracastUmdReportChunkSent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UInt32
+  field_name: FrameNumber
+- field_type: UInt32
+  field_name: PartNumber

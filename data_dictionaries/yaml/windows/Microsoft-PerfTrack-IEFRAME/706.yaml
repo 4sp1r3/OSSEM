@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '706'
+version: '0'
+event(fields): Browseui_Tabs_NavToDroppedLinkStart(UInt64 Object)
+opcode: Start
+keywords: ''
+task: Browseui_Tabs_NavToDroppedLink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

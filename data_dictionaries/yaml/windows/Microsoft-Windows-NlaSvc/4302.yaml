@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4302'
+version: '0'
+event(fields): IntranetResolutionStop()
+opcode: Stop
+keywords: Resolver Intranet
+task: IntranetResolution
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

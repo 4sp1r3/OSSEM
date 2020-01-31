@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MUI
+event_id: '2006'
+version: '0'
+event(fields): MUIresourcecachebuilderStart()
+opcode: Start
+keywords: ''
+task: MUIresourcecachebuilder
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

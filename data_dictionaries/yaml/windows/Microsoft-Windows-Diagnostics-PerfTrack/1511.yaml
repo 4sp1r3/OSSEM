@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '1511'
+version: '0'
+event(fields): PerfTrack_moStop_resizeResponsiveStop(UInt32 ControlFlags, UInt32 ViewId,
+  UnicodeString PackageFullName, UnicodeString AUMID, UInt32 ResizeFlags, UInt32 WindowSize)
+opcode: Stop
+keywords: ''
+task: PerfTrack_moStop_resizeResponsive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ControlFlags
+- field_type: UInt32
+  field_name: ViewId
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AUMID
+- field_type: UInt32
+  field_name: ResizeFlags
+- field_type: UInt32
+  field_name: WindowSize

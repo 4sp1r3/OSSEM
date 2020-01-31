@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '28675'
+version: '1'
+event(fields): SerializeordeserializeremotingpayloadSerializationsettings_V1(UnicodeString
+  SerializedType, Int32 OriginalDepth, Int32 OverridenDepth, Int32 CurrentDepthBelowTopLevel)
+opcode: Serializationsettings
+keywords: Serializer
+task: Serializeordeserializeremotingpayload
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SerializedType
+- field_type: Int32
+  field_name: OriginalDepth
+- field_type: Int32
+  field_name: OverridenDepth
+- field_type: Int32
+  field_name: CurrentDepthBelowTopLevel

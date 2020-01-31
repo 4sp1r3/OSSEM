@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4621'
+version: '0'
+event(fields): MFTDriverProcessOutput(Pointer object, UInt32 StreamIndex, UInt32 StreamType,
+  Int64 timestamp, Pointer sample, Int64 duration)
+opcode: ''
+keywords: ''
+task: MFTDriverProcessOutput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: StreamIndex
+- field_type: UInt32
+  field_name: StreamType
+- field_type: Int64
+  field_name: timestamp
+- field_type: Pointer
+  field_name: sample
+- field_type: Int64
+  field_name: duration

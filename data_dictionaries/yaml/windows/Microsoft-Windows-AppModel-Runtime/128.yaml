@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '128'
+version: '0'
+event(fields): AppIntegrityInAppValidatePackageStop(UInt32 ErrorCode, UnicodeString
+  PackageFullName)
+opcode: Stop
+keywords: Process
+task: AppIntegrityInAppValidatePackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: PackageFullName

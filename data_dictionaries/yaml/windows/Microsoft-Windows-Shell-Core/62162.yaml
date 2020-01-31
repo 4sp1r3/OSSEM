@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62162'
+version: '0'
+event(fields): FilePicker_NamespaceExtensionFilter_Deny(GUID guid)
+opcode: ''
+keywords: Shell
+task: FilePicker_NamespaceExtensionFilter_Deny
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: guid

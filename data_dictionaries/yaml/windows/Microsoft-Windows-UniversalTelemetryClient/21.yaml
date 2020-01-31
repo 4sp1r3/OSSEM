@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '21'
+version: '0'
+event(fields): Upload_ConnectionError(UnicodeString Environment, UInt32 HRESULT)
+opcode: ''
+keywords: Upload
+task: Upload_ConnectionError
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: UInt32
+  field_name: HRESULT

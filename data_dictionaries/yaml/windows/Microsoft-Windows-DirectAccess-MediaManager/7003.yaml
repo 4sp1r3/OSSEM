@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DirectAccess-MediaManager
+event_id: '7003'
+version: '0'
+event(fields): EnumerateStart()
+opcode: Start
+keywords: ''
+task: Enumerate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

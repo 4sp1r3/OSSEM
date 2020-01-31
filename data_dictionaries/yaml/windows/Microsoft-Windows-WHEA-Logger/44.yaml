@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-WHEA-Logger
+event_id: '44'
+version: '0'
+event(fields): task_044(UInt32 ErrorSource, GUID FRUId, AnsiString FRUText, HexInt64
+  ValidBits, UInt8 ErrorType, HexInt32 VendorId, HexInt32 DeviceId, HexInt32 ClassCode,
+  HexInt32 FunctionNumber, HexInt32 DeviceNumber, HexInt32 BusNumber, HexInt32 SegmentNumber,
+  UInt32 Length, Binary RawData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorSource
+- field_type: GUID
+  field_name: FRUId
+- field_type: AnsiString
+  field_name: FRUText
+- field_type: HexInt64
+  field_name: ValidBits
+- field_type: UInt8
+  field_name: ErrorType
+- field_type: HexInt32
+  field_name: VendorId
+- field_type: HexInt32
+  field_name: DeviceId
+- field_type: HexInt32
+  field_name: ClassCode
+- field_type: HexInt32
+  field_name: FunctionNumber
+- field_type: HexInt32
+  field_name: DeviceNumber
+- field_type: HexInt32
+  field_name: BusNumber
+- field_type: HexInt32
+  field_name: SegmentNumber
+- field_type: UInt32
+  field_name: Length
+- field_type: Binary
+  field_name: RawData

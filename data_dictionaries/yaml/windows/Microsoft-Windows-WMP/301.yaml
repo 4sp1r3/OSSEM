@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '301'
+version: '0'
+event(fields): HOVERTRANSPORTSStart()
+opcode: Start
+keywords: mediaplayer
+task: HOVERTRANSPORTS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

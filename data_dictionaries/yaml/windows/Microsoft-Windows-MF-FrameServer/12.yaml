@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MF-FrameServer
+event_id: '12'
+version: '0'
+event(fields): FrameServerWatchdogTimerTaskStop(UInt32 TimerScope, UInt64 TimerScopeId,
+  UInt32 WatchdogOperation, UInt64 DurationToCompletionInHns)
+opcode: Stop
+keywords: ''
+task: FrameServerWatchdogTimerTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimerScope
+- field_type: UInt64
+  field_name: TimerScopeId
+- field_type: UInt32
+  field_name: WatchdogOperation
+- field_type: UInt64
+  field_name: DurationToCompletionInHns

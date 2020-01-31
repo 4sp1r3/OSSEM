@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WPDClassInstaller
+event_id: '205'
+version: '0'
+event(fields): DeviceMetadataRetrieval205(UnicodeString DevicePath, UnicodeString
+  ServicePath)
+opcode: ''
+keywords: ''
+task: DeviceMetadataRetrieval
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DevicePath
+- field_type: UnicodeString
+  field_name: ServicePath

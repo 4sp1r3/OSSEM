@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-mobsync
+event_id: '60104'
+version: '0'
+event(fields): SyncMgrTraceId_SyncFolderRemoveConflictsStop()
+opcode: Stop
+keywords: ''
+task: SyncMgrTraceId_SyncFolderRemoveConflicts
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

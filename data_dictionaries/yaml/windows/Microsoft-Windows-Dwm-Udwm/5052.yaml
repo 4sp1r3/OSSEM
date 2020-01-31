@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5052'
+version: '0'
+event(fields): UdwmPenPressHoldVisualStop(UInt32 flags)
+opcode: Stop
+keywords: Udwm UdwmInput
+task: UdwmPenPressHoldVisual
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: flags

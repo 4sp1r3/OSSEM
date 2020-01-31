@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-AppHost
+event_id: '504'
+version: '0'
+event(fields): Infrastructure.LifecycleAppHostOperationSucceeded504(UnicodeString
+  Action, Int32 WebInstance, Int32 PID, UnicodeString PackageFullName, UnicodeString
+  AppUserModelId)
+opcode: AppHostOperationSucceeded
+keywords: WWAHOST_KEYWORD
+task: Infrastructure.Lifecycle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Action
+- field_type: Int32
+  field_name: WebInstance
+- field_type: Int32
+  field_name: PID
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppUserModelId

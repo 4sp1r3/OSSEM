@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10090'
+version: '0'
+event(fields): Protocol(UnicodeString ProtocolName, UInt32 Reason)
+opcode: ''
+keywords: Protocol
+task: Protocol
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProtocolName
+- field_type: UInt32
+  field_name: Reason

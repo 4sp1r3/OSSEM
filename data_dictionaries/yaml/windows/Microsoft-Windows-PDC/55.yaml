@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDC
+event_id: '55'
+version: '0'
+event(fields): ResumeSvcsExit()
+opcode: ''
+keywords: suspendresume
+task: ResumeSvcsExit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

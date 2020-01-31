@@ -1,0 +1,72 @@
+provider: Microsoft-Windows-WFP
+event_id: '1005'
+version: '1'
+event(fields): task_01005_V1(FILETIME Timestamp, UInt32 LocalAddressLength, Binary
+  LocalAddress, UInt32 RemoteAddressLength, Binary RemoteAddress, UInt32 ScopeId,
+  UnicodeString AppId, SID UserSID, UnicodeString LocalSpn, UnicodeString PeerSpn,
+  UInt32 LocalGroupSidCount, UInt32 LocalGroupSidLength, UnicodeString LocalGroupSids,
+  UInt32 RemoteGroupSidCount, UInt32 RemoteGroupSidLength, UnicodeString RemoteGroupSids,
+  UInt32 FailureErrorCode, UInt32 FailurePoint, UInt32 Flags, UInt32 KeyingModuleType,
+  UInt32 MmState, UInt32 SaRole, UInt32 MMAuthMethod, Binary EndCertHash, UInt64 MMId,
+  UInt64 MMFilterId, GUID ProviderContextKey)
+opcode: ''
+keywords: ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: Timestamp
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: ScopeId
+- field_type: UnicodeString
+  field_name: AppId
+- field_type: SID
+  field_name: UserSID
+- field_type: UnicodeString
+  field_name: LocalSpn
+- field_type: UnicodeString
+  field_name: PeerSpn
+- field_type: UInt32
+  field_name: LocalGroupSidCount
+- field_type: UInt32
+  field_name: LocalGroupSidLength
+- field_type: UnicodeString
+  field_name: LocalGroupSids
+- field_type: UInt32
+  field_name: RemoteGroupSidCount
+- field_type: UInt32
+  field_name: RemoteGroupSidLength
+- field_type: UnicodeString
+  field_name: RemoteGroupSids
+- field_type: UInt32
+  field_name: FailureErrorCode
+- field_type: UInt32
+  field_name: FailurePoint
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: KeyingModuleType
+- field_type: UInt32
+  field_name: MmState
+- field_type: UInt32
+  field_name: SaRole
+- field_type: UInt32
+  field_name: MMAuthMethod
+- field_type: Binary
+  field_name: EndCertHash
+- field_type: UInt64
+  field_name: MMId
+- field_type: UInt64
+  field_name: MMFilterId
+- field_type: GUID
+  field_name: ProviderContextKey

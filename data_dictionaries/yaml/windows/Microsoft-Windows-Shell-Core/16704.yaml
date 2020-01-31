@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16704'
+version: '0'
+event(fields): ShellItem_GetPropertyStoreWithCreateObjectStart()
+opcode: Start
+keywords: Properties
+task: ShellItem_GetPropertyStoreWithCreateObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

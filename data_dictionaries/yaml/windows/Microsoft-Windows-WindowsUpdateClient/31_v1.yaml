@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '31'
+version: '1'
+event(fields): WindowsUpdateAgentDownload_V1(UnicodeString updateTitle, HexInt32 errorCode,
+  GUID updateGuid, UInt32 updateRevisionNumber)
+opcode: Download
+keywords: download failure
+task: WindowsUpdateAgent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: updateTitle
+- field_type: HexInt32
+  field_name: errorCode
+- field_type: GUID
+  field_name: updateGuid
+- field_type: UInt32
+  field_name: updateRevisionNumber

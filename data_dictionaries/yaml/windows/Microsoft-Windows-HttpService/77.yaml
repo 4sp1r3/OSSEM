@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-HttpService
+event_id: '77'
+version: '0'
+event(fields): HTTPCacheTraceTaskCachedSlicesMatchContent(UInt64 RequestId, Pointer
+  CacheEntryPtr, UInt32 NumberOfSlices, UInt32 SliceIndex1, UInt32 SliceIndex2, UInt32
+  NumberOfRanges, UInt64 Range1Start, UInt64 Range1End, UInt64 Range2Start, UInt64
+  Range2End)
+opcode: CachedSlicesMatchContent
+keywords: HTTP_KEYWORD_CACHE
+task: HTTPCacheTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RequestId
+- field_type: Pointer
+  field_name: CacheEntryPtr
+- field_type: UInt32
+  field_name: NumberOfSlices
+- field_type: UInt32
+  field_name: SliceIndex1
+- field_type: UInt32
+  field_name: SliceIndex2
+- field_type: UInt32
+  field_name: NumberOfRanges
+- field_type: UInt64
+  field_name: Range1Start
+- field_type: UInt64
+  field_name: Range1End
+- field_type: UInt64
+  field_name: Range2Start
+- field_type: UInt64
+  field_name: Range2End

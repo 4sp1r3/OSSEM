@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '364'
+version: '0'
+event(fields): AppXPackaging.Task.BlockMap.FileValidateHashStart()
+opcode: Start
+keywords: ''
+task: AppXPackaging.Task.BlockMap.FileValidateHash
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

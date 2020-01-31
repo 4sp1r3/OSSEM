@@ -1,0 +1,46 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1076'
+version: '0'
+event(fields): OutputDuplicationProcessHighLevel(Pointer ContextPtr, UInt32 KeyedMutexIdx,
+  UInt32 UpdateType, UInt32 PresentUpdateStatusCurrent, UInt32 AccumulatedFrames,
+  UInt32 PresentUpdateStatusAccumulated, Boolean bAcquiredMutex, Boolean bConsumerAcquired,
+  Boolean bConsumerDeviceStillProcessingFrame, Boolean bNewUpdateReady, Boolean bAccumulatedFrameUpdated,
+  Boolean bMovedCurrentPresentsToAccumulated, Boolean bKeyedMutexReleasedToConsumer,
+  Boolean bUsedGdiRgn, UInt32 Status)
+opcode: ''
+keywords: Base
+task: OutputDuplicationProcessHighLevel
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextPtr
+- field_type: UInt32
+  field_name: KeyedMutexIdx
+- field_type: UInt32
+  field_name: UpdateType
+- field_type: UInt32
+  field_name: PresentUpdateStatusCurrent
+- field_type: UInt32
+  field_name: AccumulatedFrames
+- field_type: UInt32
+  field_name: PresentUpdateStatusAccumulated
+- field_type: Boolean
+  field_name: bAcquiredMutex
+- field_type: Boolean
+  field_name: bConsumerAcquired
+- field_type: Boolean
+  field_name: bConsumerDeviceStillProcessingFrame
+- field_type: Boolean
+  field_name: bNewUpdateReady
+- field_type: Boolean
+  field_name: bAccumulatedFrameUpdated
+- field_type: Boolean
+  field_name: bMovedCurrentPresentsToAccumulated
+- field_type: Boolean
+  field_name: bKeyedMutexReleasedToConsumer
+- field_type: Boolean
+  field_name: bUsedGdiRgn
+- field_type: UInt32
+  field_name: Status

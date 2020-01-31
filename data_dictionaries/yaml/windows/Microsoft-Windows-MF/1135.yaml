@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MF
+event_id: '1135'
+version: '0'
+event(fields): MediaFoundationAsyncWrapperStart(Pointer ObjectPtr, Pointer MFTPtr)
+opcode: Start
+keywords: ''
+task: MediaFoundationAsyncWrapper
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ObjectPtr
+- field_type: Pointer
+  field_name: MFTPtr

@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '192'
+version: '0'
+event(fields): Mshtml_Scroll_SetOffsetStart(Int32 CurrentX, Int32 CurrentY, Int32
+  DeltaX, Int32 DeltaY)
+opcode: Start
+keywords: scroll
+task: Mshtml_Scroll_SetOffset
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: CurrentX
+- field_type: Int32
+  field_name: CurrentY
+- field_type: Int32
+  field_name: DeltaX
+- field_type: Int32
+  field_name: DeltaY

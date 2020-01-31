@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '55005'
+version: '0'
+event(fields): CredentialProviderUser_EnumerateAutoLogonUserStart()
+opcode: Start
+keywords: ''
+task: CredentialProviderUser_EnumerateAutoLogonUser
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

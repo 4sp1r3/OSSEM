@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Perflib
+event_id: '3003'
+version: '1'
+event(fields): task_03003_V1(AnsiString ProcName, UnicodeString Service)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: ProcName
+- field_type: UnicodeString
+  field_name: Service

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-HttpService
+event_id: '66'
+version: '0'
+event(fields): HTTPDriverGlobalSettingsTaskHotAddProcFailed(UInt8 NewProcNumber, AnsiString
+  ReasonString, UInt32 Status)
+opcode: HotAddProcFailed
+keywords: HTTP_KEYWORD_DRIVER_SETTING
+task: HTTPDriverGlobalSettingsTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: NewProcNumber
+- field_type: AnsiString
+  field_name: ReasonString
+- field_type: UInt32
+  field_name: Status

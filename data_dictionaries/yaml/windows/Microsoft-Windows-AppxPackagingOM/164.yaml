@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppxPackagingOM
+event_id: '164'
+version: '0'
+event(fields): DigitalSignatureVerifying164(UnicodeString subjectName)
+opcode: Verifying
+keywords: ''
+task: DigitalSignature
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: subjectName

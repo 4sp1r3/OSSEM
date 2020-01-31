@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '7712'
+version: '0'
+event(fields): DownloadFromWindowsUpdateStart()
+opcode: Start
+keywords: ''
+task: DownloadFromWindowsUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

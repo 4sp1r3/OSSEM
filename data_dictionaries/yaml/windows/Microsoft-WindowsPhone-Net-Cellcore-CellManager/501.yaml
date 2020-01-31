@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '501'
+version: '0'
+event(fields): ModemInitializationStop()
+opcode: Stop
+keywords: Performance
+task: ModemInitialization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

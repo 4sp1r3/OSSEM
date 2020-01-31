@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1021'
+version: '0'
+event(fields): ApplicationTerminationStart(UnicodeString PackageFullName, UnicodeString
+  AppID)
+opcode: Start
+keywords: WwaHost
+task: ApplicationTermination
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppID

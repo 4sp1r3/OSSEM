@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '35'
+version: '0'
+event(fields): StandbyDripsTime(UInt64 LastStandbyTotal, UInt64 CurrStandbyTotal,
+  UInt64 DeltaStandbyTotal, UInt64 LastDripsTotal, UInt64 CurrDripsTotal, UInt64 DeltaDripsTotal,
+  UInt64 LastActivationTotal, UInt64 CurrActivationTotal, UInt64 DeltaActivationTotal)
+opcode: StandbyDripsTime
+keywords: EnergyEstimation
+task: StandbyDripsTime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: LastStandbyTotal
+- field_type: UInt64
+  field_name: CurrStandbyTotal
+- field_type: UInt64
+  field_name: DeltaStandbyTotal
+- field_type: UInt64
+  field_name: LastDripsTotal
+- field_type: UInt64
+  field_name: CurrDripsTotal
+- field_type: UInt64
+  field_name: DeltaDripsTotal
+- field_type: UInt64
+  field_name: LastActivationTotal
+- field_type: UInt64
+  field_name: CurrActivationTotal
+- field_type: UInt64
+  field_name: DeltaActivationTotal

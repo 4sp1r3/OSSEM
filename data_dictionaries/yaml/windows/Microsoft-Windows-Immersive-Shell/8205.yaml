@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '8205'
+version: '0'
+event(fields): BackStackMusicPlay_Invoke_MusicSuggestion(UnicodeString PackageId,
+  UnicodeString ActivatableClassId, UnicodeString Verb)
+opcode: ''
+keywords: ''
+task: BackStackMusicPlay_Invoke_MusicSuggestion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageId
+- field_type: UnicodeString
+  field_name: ActivatableClassId
+- field_type: UnicodeString
+  field_name: Verb

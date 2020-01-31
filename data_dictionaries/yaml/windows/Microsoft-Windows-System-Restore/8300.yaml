@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-System-Restore
+event_id: '8300'
+version: '0'
+event(fields): task_0Start(UnicodeString SnapshotPath)
+opcode: Start
+keywords: Performance
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SnapshotPath

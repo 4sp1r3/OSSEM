@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '801'
+version: '0'
+event(fields): ProcessNewDevice(Pointer DeviceNode, UnicodeString DeviceInstancePath)
+opcode: ''
+keywords: Enumeration
+task: ProcessNewDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DeviceNode
+- field_type: UnicodeString
+  field_name: DeviceInstancePath

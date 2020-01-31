@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2531'
+version: '0'
+event(fields): TaskNTLaunchSession(UInt32 unParam, UnicodeString pwsz, UnicodeString
+  pwsz2)
+opcode: NTLaunchSession
+keywords: NavigationPerformance Task
+task: Task
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UnicodeString
+  field_name: pwsz2

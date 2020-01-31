@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '247'
+version: '0'
+event(fields): CUIAutomation_AddEventHandlerGroupStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CUIAutomation_AddEventHandlerGroup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Backup
+event_id: '22'
+version: '1'
+event(fields): task_022_V1(UInt32 HRESULT, FILETIME BackupTime, UnicodeString BackupTarget,
+  FILETIME BackupTime2, UInt32 HRESULT2, UInt32 NumOfVolumes, UnicodeString VolumeNames)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: FILETIME
+  field_name: BackupTime
+- field_type: UnicodeString
+  field_name: BackupTarget
+- field_type: FILETIME
+  field_name: BackupTime2
+- field_type: UInt32
+  field_name: HRESULT2
+- field_type: UInt32
+  field_name: NumOfVolumes
+- field_type: UnicodeString
+  field_name: VolumeNames

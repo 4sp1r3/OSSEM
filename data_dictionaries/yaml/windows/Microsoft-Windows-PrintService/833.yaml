@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PrintService
+event_id: '833'
+version: '0'
+event(fields): GeneralprintspoolerperformancetrackingStart(UnicodeString Name, UnicodeString
+  Context, HexInt32 StatusCode)
+opcode: Start
+keywords: SPOOLER_KEYWORD
+task: Generalprintspoolerperformancetracking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Context
+- field_type: HexInt32
+  field_name: StatusCode

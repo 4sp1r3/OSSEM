@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '368'
+version: '0'
+event(fields): PowerRequestDuringD3(Pointer AdapterFdoContext, UInt32 DevicePowerState,
+  UInt32 Reason)
+opcode: ''
+keywords: Diagnostics
+task: PowerRequestDuringD3
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AdapterFdoContext
+- field_type: UInt32
+  field_name: DevicePowerState
+- field_type: UInt32
+  field_name: Reason

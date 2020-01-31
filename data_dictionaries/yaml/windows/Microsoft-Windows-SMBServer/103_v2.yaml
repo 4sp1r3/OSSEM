@@ -1,0 +1,67 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '103'
+version: '2'
+event(fields): Smb2ResponseLogoff_V2(UInt64 SessionId, UInt32 ProcessId, UInt32 TreeId,
+  UInt64 MessageId, UInt64 MasterMessageId, UInt16 Command, UInt16 CreditsGranted,
+  UInt32 Flags, UInt32 Status, UInt32 ProcessingHits, UInt64 ProcessingCycles, UInt32
+  QueueHits, UInt64 QueueCycles, UInt32 FileSystemFastHits, UInt64 FileSystemFastCycles,
+  UInt32 FileSystemSlowHits, UInt64 FileSystemSlowCycles, UInt32 TransportFastHits,
+  UInt64 TransportFastCycles, UInt32 TransportSlowHits, UInt64 TransportSlowCycles,
+  UInt32 SecurityHits, UInt64 SecurityCycles, GUID ConnectionGUID, GUID SessionGUID)
+opcode: ''
+keywords: Response
+task: Smb2ResponseLogoff
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SessionId
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: TreeId
+- field_type: UInt64
+  field_name: MessageId
+- field_type: UInt64
+  field_name: MasterMessageId
+- field_type: UInt16
+  field_name: Command
+- field_type: UInt16
+  field_name: CreditsGranted
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: ProcessingHits
+- field_type: UInt64
+  field_name: ProcessingCycles
+- field_type: UInt32
+  field_name: QueueHits
+- field_type: UInt64
+  field_name: QueueCycles
+- field_type: UInt32
+  field_name: FileSystemFastHits
+- field_type: UInt64
+  field_name: FileSystemFastCycles
+- field_type: UInt32
+  field_name: FileSystemSlowHits
+- field_type: UInt64
+  field_name: FileSystemSlowCycles
+- field_type: UInt32
+  field_name: TransportFastHits
+- field_type: UInt64
+  field_name: TransportFastCycles
+- field_type: UInt32
+  field_name: TransportSlowHits
+- field_type: UInt64
+  field_name: TransportSlowCycles
+- field_type: UInt32
+  field_name: SecurityHits
+- field_type: UInt64
+  field_name: SecurityCycles
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: GUID
+  field_name: SessionGUID

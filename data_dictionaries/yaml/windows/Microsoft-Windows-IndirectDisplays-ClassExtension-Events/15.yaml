@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '15'
+version: '0'
+event(fields): MonitorSetGammaRamp(Int64 IddAdapterLuid, UInt32 ConnectorIndex)
+opcode: SetGammaRamp
+keywords: DdiCallbacks
+task: Monitor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: IddAdapterLuid
+- field_type: UInt32
+  field_name: ConnectorIndex

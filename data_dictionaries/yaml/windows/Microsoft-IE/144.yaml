@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '144'
+version: '0'
+event(fields): Mshtml_PrivacIE_AddUrlToDBStop(UnicodeString URL)
+opcode: Stop
+keywords: subsystem privacie
+task: Mshtml_PrivacIE_AddUrlToDB
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL

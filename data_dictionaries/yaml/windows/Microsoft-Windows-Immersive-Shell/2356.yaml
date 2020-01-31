@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2356'
+version: '0'
+event(fields): Launcher_OrientationChangeStart()
+opcode: Start
+keywords: ''
+task: Launcher_OrientationChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

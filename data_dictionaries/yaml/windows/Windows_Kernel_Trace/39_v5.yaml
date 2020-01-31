@@ -1,0 +1,37 @@
+provider: Windows Kernel Trace
+category: '{3d6fa8d0-fe05-11d0-9dda-00c04fd7ba7c}'
+event_id: '39'
+version: '5'
+event(fields): Process_Defunct_TypeGroup1(UInt32 UniqueProcessKey, UInt32 ProcessId,
+  UInt32 ParentId, UInt32 SessionId, SInt32 ExitStatus, UInt32 DirectoryTableBase,
+  UInt32 Flags, Object UserSID, String ImageFileName, String CommandLine, String PackageFullName,
+  String ApplicationId, UInt64 ExitTime)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: UniqueProcessKey
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: ParentId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: SInt32
+  field_name: ExitStatus
+- field_type: UInt32
+  field_name: DirectoryTableBase
+- field_type: UInt32
+  field_name: Flags
+- field_type: Object
+  field_name: UserSID
+- field_type: String
+  field_name: ImageFileName
+- field_type: String
+  field_name: CommandLine
+- field_type: String
+  field_name: PackageFullName
+- field_type: String
+  field_name: ApplicationId
+- field_type: UInt64
+  field_name: ExitTime

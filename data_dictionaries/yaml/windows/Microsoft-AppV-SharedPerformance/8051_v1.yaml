@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8051'
+version: '1'
+event(fields): ReintegratePackageStop_V1(UInt64 ActivityId)
+opcode: Stop
+keywords: ''
+task: ReintegratePackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ActivityId

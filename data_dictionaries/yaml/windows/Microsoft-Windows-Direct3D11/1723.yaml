@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1723'
+version: '0'
+event(fields): ID3D11VideoDevice_CreateVideoDecoderStop(UInt32 m_Ret, Pointer ppDecoder)
+opcode: Stop
+keywords: ''
+task: ID3D11VideoDevice_CreateVideoDecoder
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret
+- field_type: Pointer
+  field_name: ppDecoder

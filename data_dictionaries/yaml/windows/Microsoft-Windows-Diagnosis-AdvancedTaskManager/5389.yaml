@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5389'
+version: '0'
+event(fields): Dashboard_ChangeSummaryViewStart(UInt32 Snap, UInt32 CurrentView)
+opcode: Start
+keywords: dashboard
+task: Dashboard_ChangeSummaryView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Snap
+- field_type: UInt32
+  field_name: CurrentView

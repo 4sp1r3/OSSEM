@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Performance-Recorder-Control
+event_id: '115'
+version: '0'
+event(fields): Perf_LoadTraceMergePropertiesFromFileStop()
+opcode: Stop
+keywords: PerfStatus
+task: Perf_LoadTraceMergePropertiesFromFile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

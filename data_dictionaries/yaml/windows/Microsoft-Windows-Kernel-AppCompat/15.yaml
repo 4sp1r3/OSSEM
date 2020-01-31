@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-AppCompat
+event_id: '15'
+version: '0'
+event(fields): CompatSdbQueryStop(HexInt32 StatusCode)
+opcode: Stop
+keywords: ''
+task: CompatSdbQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: StatusCode

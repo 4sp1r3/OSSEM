@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1026'
+version: '0'
+event(fields): ResumingStop()
+opcode: Stop
+keywords: WwaHost
+task: Resuming
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

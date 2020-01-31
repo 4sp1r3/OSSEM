@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-EapHost
+event_id: '1044'
+version: '0'
+event(fields): Authenticator1044(Int32 Length)
+opcode: ''
+keywords: ''
+task: Authenticator
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Length

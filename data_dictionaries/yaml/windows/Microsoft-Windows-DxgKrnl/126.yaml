@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '126'
+version: '0'
+event(fields): DpiDispatchPnpStart(Pointer DeviceObject, UInt16 StackLocationSize,
+  Binary StackLocation, UInt32 Status)
+opcode: Start
+keywords: Base
+task: DpiDispatchPnp
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DeviceObject
+- field_type: UInt16
+  field_name: StackLocationSize
+- field_type: Binary
+  field_name: StackLocation
+- field_type: UInt32
+  field_name: Status

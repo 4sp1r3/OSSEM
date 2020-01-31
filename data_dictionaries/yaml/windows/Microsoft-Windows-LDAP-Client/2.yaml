@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LDAP-Client
+event_id: '2'
+version: '0'
+event(fields): task_02(AnsiString Message)
+opcode: ''
+keywords: write
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Message

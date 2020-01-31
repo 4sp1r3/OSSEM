@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-GPIO-ClassExtension
+event_id: '1024'
+version: '1'
+event(fields): task_0ReconfigureInterruptComplete_V1(UInt16 PinNumber)
+opcode: ReconfigureInterruptComplete
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: PinNumber

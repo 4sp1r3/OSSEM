@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '612'
+version: '0'
+event(fields): SoftKeyboard_OutputManager_LMStateChange(UnicodeString FromState, UnicodeString
+  ToState)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_OutputManager_LMStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FromState
+- field_type: UnicodeString
+  field_name: ToState

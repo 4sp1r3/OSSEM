@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '5283'
+version: '0'
+event(fields): task_05283()
+opcode: ''
+keywords: STATE_DEH_KEYWORD
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

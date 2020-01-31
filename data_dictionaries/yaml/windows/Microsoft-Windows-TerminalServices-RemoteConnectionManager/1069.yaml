@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-RemoteConnectionManager
+event_id: '1069'
+version: '0'
+event(fields): task_01069()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

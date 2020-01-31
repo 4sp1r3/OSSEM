@@ -1,0 +1,17 @@
+provider: Microsoft-JScript
+event_id: '239'
+version: '0'
+event(fields): Memprotect_GC_Unroot(Pointer HeapHandle, Pointer Address, UInt32 Source)
+opcode: ''
+keywords: MemProtectObjectAllocation
+task: Memprotect_GC_Unroot
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HeapHandle
+- field_type: Pointer
+  field_name: Address
+- field_type: UInt32
+  field_name: Source

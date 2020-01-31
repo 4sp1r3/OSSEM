@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Directory-Services-SAM
+event_id: '12302'
+version: '0'
+event(fields): task_012302(UnicodeString SecurityPackage, UnicodeString UserName,
+  UInt32 __binLength, Binary ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SecurityPackage
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: ErrorCode

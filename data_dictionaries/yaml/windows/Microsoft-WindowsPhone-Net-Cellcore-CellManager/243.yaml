@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '243'
+version: '0'
+event(fields): CellService243(UInt32 IccIdLength, UInt8 IccId)
+opcode: ''
+keywords: Trace
+task: CellService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IccIdLength
+- field_type: UInt8
+  field_name: IccId

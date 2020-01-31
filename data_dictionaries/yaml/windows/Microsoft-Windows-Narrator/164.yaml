@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '164'
+version: '0'
+event(fields): RebuildCacheStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: RebuildCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

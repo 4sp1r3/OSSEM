@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-RemoteConnectionManager
+event_id: '1142'
+version: '0'
+event(fields): task_01142()
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '4044'
+version: '0'
+event(fields): Messaging_InterconnectReceiveStart()
+opcode: Start
+keywords: MessagingPerformance Messaging
+task: Messaging_InterconnectReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

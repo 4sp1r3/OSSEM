@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1022'
+version: '0'
+event(fields): WinNatMInstanceDeletion(UnicodeString InstanceName, GUID InternalRoutingDomainId,
+  UInt32 ExternalIPInterfaceAddressPrefixLength, UInt32 ExternalIPInterfaceAddressPrefix,
+  UInt32 CompartmentId, UInt32 ExternalInterfaceIndex, UInt32 UdpIdleSessionTimeout,
+  UInt32 TcpTransientConnectionTimeout, UInt32 TcpEstablishedConnectionTimeout, UInt32
+  IcmpQueryTimeout, UInt32 TcpFilteringBehavior, UInt32 UdpFilteringBehavior, Boolean
+  UdpInboundRefresh)
+opcode: ''
+keywords: ut:Configuration
+task: WinNatMInstanceDeletion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InstanceName
+- field_type: GUID
+  field_name: InternalRoutingDomainId
+- field_type: UInt32
+  field_name: ExternalIPInterfaceAddressPrefixLength
+- field_type: UInt32
+  field_name: ExternalIPInterfaceAddressPrefix
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: ExternalInterfaceIndex
+- field_type: UInt32
+  field_name: UdpIdleSessionTimeout
+- field_type: UInt32
+  field_name: TcpTransientConnectionTimeout
+- field_type: UInt32
+  field_name: TcpEstablishedConnectionTimeout
+- field_type: UInt32
+  field_name: IcmpQueryTimeout
+- field_type: UInt32
+  field_name: TcpFilteringBehavior
+- field_type: UInt32
+  field_name: UdpFilteringBehavior
+- field_type: Boolean
+  field_name: UdpInboundRefresh

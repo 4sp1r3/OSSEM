@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-GPIOButtons
+event_id: '1'
+version: '0'
+event(fields): ConvertibleState(UInt32 ConvertibleState)
+opcode: ''
+keywords: keyword_400000000000
+task: ConvertibleState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ConvertibleState

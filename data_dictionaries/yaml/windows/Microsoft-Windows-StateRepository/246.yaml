@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '246'
+version: '0'
+event(fields): StateRepository.Task.WinRTAPI246(HexInt32 ErrorCode)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD
+task: StateRepository.Task.WinRTAPI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

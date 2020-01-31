@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3021'
+version: '1'
+event(fields): CreateSectionRevokedDriverLoaded_V1(UInt16 FileNameLength, UnicodeString
+  FileNameBuffer, HexInt32 SecureRequired, UInt8 RequestedSigningLevel, UInt16 ProcessNameLength,
+  UnicodeString ProcessNameBuffer)
+opcode: RevokedDriverLoaded
+keywords: ''
+task: CreateSection
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer
+- field_type: HexInt32
+  field_name: SecureRequired
+- field_type: UInt8
+  field_name: RequestedSigningLevel
+- field_type: UInt16
+  field_name: ProcessNameLength
+- field_type: UnicodeString
+  field_name: ProcessNameBuffer

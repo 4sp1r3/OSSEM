@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-WMP
+event_id: '393'
+version: '0'
+event(fields): HME_CDSUPnPInitializeStop(Pointer IUPnPDevice, UnicodeString UDN, UnicodeString
+  FriendlyName, UInt32 CDSVersion, Boolean IsSearchable, Boolean SupportsRME, Boolean
+  SupportsWakeOnLAN, Pointer IHMEProvider, UInt32 HRESULT)
+opcode: Stop
+keywords: mediaplayer
+task: HME_CDSUPnPInitialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: IUPnPDevice
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: UnicodeString
+  field_name: FriendlyName
+- field_type: UInt32
+  field_name: CDSVersion
+- field_type: Boolean
+  field_name: IsSearchable
+- field_type: Boolean
+  field_name: SupportsRME
+- field_type: Boolean
+  field_name: SupportsWakeOnLAN
+- field_type: Pointer
+  field_name: IHMEProvider
+- field_type: UInt32
+  field_name: HRESULT

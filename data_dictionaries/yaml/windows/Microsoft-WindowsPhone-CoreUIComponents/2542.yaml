@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2542'
+version: '0'
+event(fields): TaskNTNavigateTo2542(UInt32 unParam, Boolean fBool)
+opcode: NTNavigateTo
+keywords: Task
+task: Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: Boolean
+  field_name: fBool

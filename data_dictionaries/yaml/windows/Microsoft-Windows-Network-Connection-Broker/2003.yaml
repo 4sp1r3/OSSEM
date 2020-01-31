@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Network-Connection-Broker
+event_id: '2003'
+version: '0'
+event(fields): task_02003(GUID EventId, UnicodeString SocketId, UnicodeString AppName,
+  Int32 AddressFamily, Int32 SocketType, Int32 Protocol, Boolean IsTcpListener)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: EventId
+- field_type: UnicodeString
+  field_name: SocketId
+- field_type: UnicodeString
+  field_name: AppName
+- field_type: Int32
+  field_name: AddressFamily
+- field_type: Int32
+  field_name: SocketType
+- field_type: Int32
+  field_name: Protocol
+- field_type: Boolean
+  field_name: IsTcpListener

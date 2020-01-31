@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-UserDataAccess-CallHistoryClient
+event_id: '5'
+version: '0'
+event(fields): task_05(UInt32 P1)
+opcode: ''
+keywords: CommsDataModel keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: P1

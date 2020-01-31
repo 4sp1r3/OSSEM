@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20488'
+version: '0'
+event(fields): ComputechecksumStart(UInt32 ItemType, UInt32 DataSize)
+opcode: Start
+keywords: KmChunkStore
+task: Computechecksum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ItemType
+- field_type: UInt32
+  field_name: DataSize

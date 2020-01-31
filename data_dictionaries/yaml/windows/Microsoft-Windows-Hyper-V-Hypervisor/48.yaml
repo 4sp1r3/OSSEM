@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '48'
+version: '0'
+event(fields): task_048(HexInt32 Leaf, HexInt32 Register, HexInt32 FeaturesNeeded,
+  HexInt32 FeaturesSupported)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Leaf
+- field_type: HexInt32
+  field_name: Register
+- field_type: HexInt32
+  field_name: FeaturesNeeded
+- field_type: HexInt32
+  field_name: FeaturesSupported

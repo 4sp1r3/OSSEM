@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '134'
+version: '0'
+event(fields): Mshtml_Collections_EnsureAryStop(Pointer Cache, UInt32 Index)
+opcode: Stop
+keywords: verbose
+task: Mshtml_Collections_EnsureAry
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Cache
+- field_type: UInt32
+  field_name: Index

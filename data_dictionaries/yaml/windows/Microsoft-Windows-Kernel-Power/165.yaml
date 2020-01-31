@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '165'
+version: '0'
+event(fields): SystemIdle(Boolean IdleInformationUpdated, UInt32 TimeoutSource, UInt32
+  Action, UInt32 MinState, UInt32 Timeout, UInt32 Flags)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: SystemIdle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IdleInformationUpdated
+- field_type: UInt32
+  field_name: TimeoutSource
+- field_type: UInt32
+  field_name: Action
+- field_type: UInt32
+  field_name: MinState
+- field_type: UInt32
+  field_name: Timeout
+- field_type: UInt32
+  field_name: Flags

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3403'
+version: '0'
+event(fields): WrappedKeyDecryption(UnicodeString AppDomain)
+opcode: ''
+keywords: Security
+task: WrappedKeyDecryption
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

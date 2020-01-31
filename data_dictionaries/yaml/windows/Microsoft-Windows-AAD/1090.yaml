@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-AAD
+event_id: '1090'
+version: '0'
+event(fields): AadCloudAPPluginOperation1090(UnicodeString Error, UnicodeString ErrorDescription,
+  UnicodeString CorrelationID)
+opcode: ''
+keywords: Error Operational
+task: AadCloudAPPluginOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Error
+- field_type: UnicodeString
+  field_name: ErrorDescription
+- field_type: UnicodeString
+  field_name: CorrelationID

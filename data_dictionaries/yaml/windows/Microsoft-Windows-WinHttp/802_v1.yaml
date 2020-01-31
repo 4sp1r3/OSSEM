@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '802'
+version: '1'
+event(fields): WINHTTP_AUTOPROXY_DHCPStart_V1(UInt16 _InterfaceLength, UnicodeString
+  Interface)
+opcode: Start
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_AUTOPROXY_DHCP
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _InterfaceLength
+- field_type: UnicodeString
+  field_name: Interface

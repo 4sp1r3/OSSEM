@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '35'
+version: '0'
+event(fields): DropStop(Boolean Handled)
+opcode: Stop
+keywords: Input
+task: Drop
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Handled

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '29031'
+version: '1'
+event(fields): VSC.StopSubsystemProcessRuntimesStop_V1()
+opcode: Stop
+keywords: ''
+task: VSC.StopSubsystemProcessRuntimes
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

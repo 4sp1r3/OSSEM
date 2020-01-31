@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '614'
+version: '0'
+event(fields): SoftKeyboard_OutputManager_GetCapabilities(UnicodeString LMCapabilites)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_OutputManager_GetCapabilities
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LMCapabilites

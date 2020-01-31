@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '24674'
+version: '0'
+event(fields): ReadcleandedupfileStart(Pointer FileObject, UInt64 Offset, UInt32 Length)
+opcode: Start
+keywords: Filter
+task: Readcleandedupfile
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FileObject
+- field_type: UInt64
+  field_name: Offset
+- field_type: UInt32
+  field_name: Length

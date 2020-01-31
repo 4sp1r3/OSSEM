@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LiveId
+event_id: '4012'
+version: '0'
+event(fields): task_04012(UnicodeString ProcessName)
+opcode: ''
+keywords: Error CredProv
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProcessName

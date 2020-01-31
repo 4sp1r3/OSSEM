@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-UIRibbon
+event_id: '25'
+version: '0'
+event(fields): RibbonSqm(Int32 tcid, Int32 tcidParent, Int32 extraInfo, Int32 actionType,
+  Boolean wasPressed, Boolean gallerySelect, Int32 gallery)
+opcode: ''
+keywords: Default
+task: RibbonSqm
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: tcid
+- field_type: Int32
+  field_name: tcidParent
+- field_type: Int32
+  field_name: extraInfo
+- field_type: Int32
+  field_name: actionType
+- field_type: Boolean
+  field_name: wasPressed
+- field_type: Boolean
+  field_name: gallerySelect
+- field_type: Int32
+  field_name: gallery

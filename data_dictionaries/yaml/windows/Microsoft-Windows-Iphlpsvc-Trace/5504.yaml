@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5504'
+version: '0'
+event(fields): task_05504(UnicodeString IphttpsProfileName, UInt32 Status)
+opcode: ''
+keywords: damultisite
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: IphttpsProfileName
+- field_type: UInt32
+  field_name: Status

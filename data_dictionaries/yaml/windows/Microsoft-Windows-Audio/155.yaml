@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Audio
+event_id: '155'
+version: '0'
+event(fields): AEMemory(Pointer objInstance, UInt32 ucType, Pointer hHeap, UInt32
+  ulInitial, UInt32 ulMin, UInt32 ulMax, UInt32 ulAllocCount, UInt32 ulExtendCount,
+  UInt32 ulTotalAlloc)
+opcode: ''
+keywords: ''
+task: AEMemory
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: objInstance
+- field_type: UInt32
+  field_name: ucType
+- field_type: Pointer
+  field_name: hHeap
+- field_type: UInt32
+  field_name: ulInitial
+- field_type: UInt32
+  field_name: ulMin
+- field_type: UInt32
+  field_name: ulMax
+- field_type: UInt32
+  field_name: ulAllocCount
+- field_type: UInt32
+  field_name: ulExtendCount
+- field_type: UInt32
+  field_name: ulTotalAlloc

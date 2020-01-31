@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-MSVProc
+event_id: '104'
+version: '0'
+event(fields): MSVideoProcessoftMFT(D3D11)_VideoProcessorBltStop(Pointer OutputSample,
+  HexInt32 hr)
+opcode: Stop
+keywords: ''
+task: MSVideoProcessoftMFT(D3D11)_VideoProcessorBlt
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: OutputSample
+- field_type: HexInt32
+  field_name: hr

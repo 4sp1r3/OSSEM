@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '3057'
+version: '0'
+event(fields): AVTransport3057(Pointer Object, UnicodeString Uri, UnicodeString Metadata)
+opcode: ''
+keywords: ''
+task: AVTransport
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UnicodeString
+  field_name: Uri
+- field_type: UnicodeString
+  field_name: Metadata

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '122'
+version: '0'
+event(fields): Startup_RecoverDataFiles_RemoveDir(UnicodeString Path)
+opcode: ''
+keywords: Service
+task: Startup_RecoverDataFiles_RemoveDir
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path

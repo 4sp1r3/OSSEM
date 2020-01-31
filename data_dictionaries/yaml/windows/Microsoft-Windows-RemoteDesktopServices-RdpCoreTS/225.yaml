@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '225'
+version: '0'
+event(fields): RemoteFXmodule_4Runtime225(UnicodeString StateTransition, UInt32 PreviousState,
+  UnicodeString PreviousStateName, UInt32 NewState, UnicodeString NewStateName, UInt32
+  Event, UnicodeString EventName)
+opcode: Runtime
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StateTransition
+- field_type: UInt32
+  field_name: PreviousState
+- field_type: UnicodeString
+  field_name: PreviousStateName
+- field_type: UInt32
+  field_name: NewState
+- field_type: UnicodeString
+  field_name: NewStateName
+- field_type: UInt32
+  field_name: Event
+- field_type: UnicodeString
+  field_name: EventName

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IME-KRAPI
+event_id: '73'
+version: '0'
+event(fields): TaskID:IMEKRDictLoadStop()
+opcode: Stop
+keywords: ''
+task: TaskID:IMEKRDictLoad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

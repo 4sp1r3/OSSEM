@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Network-Connection-Broker
+event_id: '1107'
+version: '0'
+event(fields): task_01107(Pointer ContextHandle, Pointer Provider, Pointer RequestHolder,
+  Boolean UpdateRequested, Boolean CompleteCall, UInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextHandle
+- field_type: Pointer
+  field_name: Provider
+- field_type: Pointer
+  field_name: RequestHolder
+- field_type: Boolean
+  field_name: UpdateRequested
+- field_type: Boolean
+  field_name: CompleteCall
+- field_type: UInt32
+  field_name: Status

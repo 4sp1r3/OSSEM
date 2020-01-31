@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-ZipFolder
+event_id: '21'
+version: '0'
+event(fields): ZipFolder_RenameItemStart()
+opcode: Start
+keywords: ''
+task: ZipFolder_RenameItem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

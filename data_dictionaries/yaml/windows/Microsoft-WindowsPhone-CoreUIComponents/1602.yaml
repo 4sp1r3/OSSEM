@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1602'
+version: '0'
+event(fields): ServerWindow1602(UInt32 unParam)
+opcode: ''
+keywords: ServerWindow
+task: ServerWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

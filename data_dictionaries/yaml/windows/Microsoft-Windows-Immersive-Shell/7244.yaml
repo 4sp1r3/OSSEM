@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7244'
+version: '0'
+event(fields): ConnectedSearch_LogAppVisibilityBGStop()
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_LogAppVisibilityBG
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

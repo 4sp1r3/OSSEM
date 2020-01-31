@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-SEC
+event_id: '21'
+version: '0'
+event(fields): task_021(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime,
+  HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString VolumeName, HexInt64
+  VolWriteOffset, HexInt64 VolWriteSize, Boolean SystemVolume, UInt64 ProcessStartKey)
+opcode: ''
+keywords: Event21
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: HexInt32
+  field_name: ProcessId
+- field_type: Int64
+  field_name: ProcessTime
+- field_type: HexInt32
+  field_name: ThreadId
+- field_type: SID
+  field_name: UserSid
+- field_type: HexInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: HexInt64
+  field_name: VolWriteOffset
+- field_type: HexInt64
+  field_name: VolWriteSize
+- field_type: Boolean
+  field_name: SystemVolume
+- field_type: UInt64
+  field_name: ProcessStartKey

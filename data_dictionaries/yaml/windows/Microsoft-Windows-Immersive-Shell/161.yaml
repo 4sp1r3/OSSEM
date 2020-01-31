@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '161'
+version: '0'
+event(fields): ImmersiveShellIHMNotificationStart(Pointer FocusedHWND, Int32 IHMPosition_left,
+  Int32 IHMPosition_top, Int32 IHMPosition_right, Int32 IHMPosition_bottom)
+opcode: Start
+keywords: ''
+task: ImmersiveShellIHMNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FocusedHWND
+- field_type: Int32
+  field_name: IHMPosition_left
+- field_type: Int32
+  field_name: IHMPosition_top
+- field_type: Int32
+  field_name: IHMPosition_right
+- field_type: Int32
+  field_name: IHMPosition_bottom

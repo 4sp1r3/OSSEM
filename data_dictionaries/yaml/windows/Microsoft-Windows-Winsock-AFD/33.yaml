@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '33'
+version: '0'
+event(fields): task_033(Pointer Process, Pointer Endpoint, Int32 PacketSize, UInt32
+  Address, UInt16 Port, Int32 Reason)
+opcode: ''
+keywords: keyword_10000000000
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: Int32
+  field_name: PacketSize
+- field_type: UInt32
+  field_name: Address
+- field_type: UInt16
+  field_name: Port
+- field_type: Int32
+  field_name: Reason

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3041'
+version: '2'
+event(fields): GetFileCacheStop_V2(HexInt32 Status, HexInt32 CachedFlags, UInt8 CacheSource,
+  UInt8 CachedPolicy)
+opcode: Stop
+keywords: ''
+task: GetFileCache
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: CachedFlags
+- field_type: UInt8
+  field_name: CacheSource
+- field_type: UInt8
+  field_name: CachedPolicy

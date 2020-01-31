@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Documents
+event_id: '1207'
+version: '0'
+event(fields): DocPerf_Task_DrvDriverEventStop(UnicodeString Module)
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_DrvDriverEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Module

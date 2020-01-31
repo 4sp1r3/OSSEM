@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '7013'
+version: '0'
+event(fields): NavigationClientShow(UInt32 unParam, UInt32 dir, UInt32 animtype, UInt32
+  animflags)
+opcode: ''
+keywords: NavigationClient
+task: NavigationClientShow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: dir
+- field_type: UInt32
+  field_name: animtype
+- field_type: UInt32
+  field_name: animflags

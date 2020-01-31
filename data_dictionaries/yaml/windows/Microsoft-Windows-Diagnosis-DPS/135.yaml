@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-Diagnosis-DPS
+event_id: '135'
+version: '0'
+event(fields): ScenarioLifecycleTheDiagnosticPolicyServicewasnotabletoinstantiateadiagnosticmodulehost(GUID
+  ScenarioId, GUID InstanceId, GUID OriginalActivityId, UInt32 StatusCode, UnicodeString
+  DiagnosticModuleImageName, GUID DiagnosticModuleId)
+opcode: TheDiagnosticPolicyServicewasnotabletoinstantiateadiagnosticmodulehost
+keywords: lifecycle
+task: ScenarioLifecycle
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ScenarioId
+- field_type: GUID
+  field_name: InstanceId
+- field_type: GUID
+  field_name: OriginalActivityId
+- field_type: UInt32
+  field_name: StatusCode
+- field_type: UnicodeString
+  field_name: DiagnosticModuleImageName
+- field_type: GUID
+  field_name: DiagnosticModuleId

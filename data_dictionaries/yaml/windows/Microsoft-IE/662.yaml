@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '662'
+version: '0'
+event(fields): Mshtml_CDMScrollableTouchTarget_OnViewportStatusChanged(UInt32 PreviousStatus,
+  UInt32 CurrentStatus, Pointer TouchTargetPtr)
+opcode: ''
+keywords: touch
+task: Mshtml_CDMScrollableTouchTarget_OnViewportStatusChanged
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PreviousStatus
+- field_type: UInt32
+  field_name: CurrentStatus
+- field_type: Pointer
+  field_name: TouchTargetPtr

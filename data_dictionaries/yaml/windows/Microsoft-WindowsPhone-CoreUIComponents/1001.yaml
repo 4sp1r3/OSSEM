@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1001'
+version: '0'
+event(fields): InitStop(UInt32 hex)
+opcode: Stop
+keywords: Performance
+task: Init
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hex

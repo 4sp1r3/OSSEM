@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '152'
+version: '0'
+event(fields): Find_ActivateBarStop()
+opcode: Stop
+keywords: primarynav
+task: Find_ActivateBar
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

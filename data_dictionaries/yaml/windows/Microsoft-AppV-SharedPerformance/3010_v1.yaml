@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '3010'
+version: '1'
+event(fields): CreateMigrateUserCatalogStop_V1()
+opcode: Stop
+keywords: ''
+task: CreateMigrateUserCatalog
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

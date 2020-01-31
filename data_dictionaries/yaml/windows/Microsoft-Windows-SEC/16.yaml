@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-SEC
+event_id: '16'
+version: '0'
+event(fields): task_016(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime,
+  HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString Key, UnicodeString
+  Value, HexInt32 DataType, HexInt32 ValueDataSize, UInt32 ValueCopiedSize, Binary
+  ValueData, UInt64 ProcessStartKey)
+opcode: ''
+keywords: Event16
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: HexInt32
+  field_name: ProcessId
+- field_type: Int64
+  field_name: ProcessTime
+- field_type: HexInt32
+  field_name: ThreadId
+- field_type: SID
+  field_name: UserSid
+- field_type: HexInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: Key
+- field_type: UnicodeString
+  field_name: Value
+- field_type: HexInt32
+  field_name: DataType
+- field_type: HexInt32
+  field_name: ValueDataSize
+- field_type: UInt32
+  field_name: ValueCopiedSize
+- field_type: Binary
+  field_name: ValueData
+- field_type: UInt64
+  field_name: ProcessStartKey

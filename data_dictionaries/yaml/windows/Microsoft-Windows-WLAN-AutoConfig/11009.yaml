@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '11009'
+version: '0'
+event(fields): IhvSecurityFailure_24013_202(UnicodeString Adapter, GUID DeviceGuid,
+  UnicodeString LocalMac, UnicodeString SSID, UnicodeString BSSType, UnicodeString
+  PeerMac, HexInt32 IhvReasonCode, UInt32 IhvDataLength, Binary IhvData, Pointer ConnectionId)
+opcode: Failure_24013_202
+keywords: WlanConnect LwtDiagnostic
+task: IhvSecurity
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UnicodeString
+  field_name: PeerMac
+- field_type: HexInt32
+  field_name: IhvReasonCode
+- field_type: UInt32
+  field_name: IhvDataLength
+- field_type: Binary
+  field_name: IhvData
+- field_type: Pointer
+  field_name: ConnectionId

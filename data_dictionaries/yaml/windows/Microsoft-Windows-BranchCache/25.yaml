@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-BranchCache
+event_id: '25'
+version: '0'
+event(fields): task_0Loadinglocalcache.25(SYSTEMTIME Timestamp)
+opcode: Loadinglocalcache.
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SYSTEMTIME
+  field_name: Timestamp

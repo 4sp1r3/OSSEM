@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2184'
+version: '0'
+event(fields): Picker_FileOpenPickerUI_ClosingStart()
+opcode: Start
+keywords: ''
+task: Picker_FileOpenPickerUI_Closing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

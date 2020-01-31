@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinQuic
+event_id: '2'
+version: '0'
+event(fields): task_02(Pointer Connection)
+opcode: ''
+keywords: ut:Connection
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection

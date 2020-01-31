@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '216'
+version: '0'
+event(fields): CellService216(UInt32 dwCode1, UnicodeString wszString, Boolean bCode1)
+opcode: ''
+keywords: Error
+task: CellService
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwCode1
+- field_type: UnicodeString
+  field_name: wszString
+- field_type: Boolean
+  field_name: bCode1

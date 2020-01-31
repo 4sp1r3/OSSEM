@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-EQoS
+event_id: '213'
+version: '0'
+event(fields): task_0213(UInt32 NtStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NtStatus

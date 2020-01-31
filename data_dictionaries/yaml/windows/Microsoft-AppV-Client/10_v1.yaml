@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client
+event_id: '10'
+version: '1'
+event(fields): APIRequest10_V1()
+opcode: ''
+keywords: API
+task: APIRequest
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

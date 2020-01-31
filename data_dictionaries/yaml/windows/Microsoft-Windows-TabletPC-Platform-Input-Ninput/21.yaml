@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '21'
+version: '0'
+event(fields): NinputConfiguration21()
+opcode: ''
+keywords: ''
+task: NinputConfiguration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

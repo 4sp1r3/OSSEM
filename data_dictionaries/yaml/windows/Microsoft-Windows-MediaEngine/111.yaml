@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '111'
+version: '0'
+event(fields): MediaFoundationSeekStart(UInt32 id, Float rate)
+opcode: Start
+keywords: ''
+task: MediaFoundationSeek
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: id
+- field_type: Float
+  field_name: rate

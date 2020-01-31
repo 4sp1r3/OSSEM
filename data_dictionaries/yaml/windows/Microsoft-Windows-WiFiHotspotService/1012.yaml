@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WiFiHotspotService
+event_id: '1012'
+version: '0'
+event(fields): HotspotService1012(UnicodeString uString, UInt32 Dword)
+opcode: ''
+keywords: Error
+task: HotspotService
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: uString
+- field_type: UInt32
+  field_name: Dword

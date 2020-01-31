@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3083'
+version: '0'
+event(fields): WhqlEnforcementWhqlFailure3083(UInt16 FileNameLength, UnicodeString
+  FileNameBuffer)
+opcode: WhqlFailure
+keywords: ''
+task: WhqlEnforcement
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer

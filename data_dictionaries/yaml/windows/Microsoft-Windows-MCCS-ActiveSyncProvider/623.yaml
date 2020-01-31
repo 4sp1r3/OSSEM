@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MCCS-ActiveSyncProvider
+event_id: '623'
+version: '0'
+event(fields): SPERF_TAG_PROCESSRESPONSEStop()
+opcode: Stop
+keywords: Performance
+task: SPERF_TAG_PROCESSRESPONSE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

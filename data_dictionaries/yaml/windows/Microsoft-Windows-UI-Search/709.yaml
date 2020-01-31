@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UI-Search
+event_id: '709'
+version: '0'
+event(fields): XamlHostCreateWindowStart()
+opcode: Start
+keywords: ''
+task: XamlHostCreateWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

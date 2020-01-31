@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '1086'
+version: '0'
+event(fields): task_01086(UInt32 TaskId, UInt32 State, UInt32 HRESULT)
+opcode: ''
+keywords: ExecProductionCircular ExecDevPlatCircular Activation
+task: task_0
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TaskId
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: HRESULT

@@ -1,0 +1,16 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '51'
+version: '0'
+event(fields): ICSP_ConfigManagerNotification_TaskStop(UInt32 Notification, UInt32
+  Result)
+opcode: Stop
+keywords: Performance Trace
+task: ICSP_ConfigManagerNotification_Task
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Notification
+- field_type: UInt32
+  field_name: Result

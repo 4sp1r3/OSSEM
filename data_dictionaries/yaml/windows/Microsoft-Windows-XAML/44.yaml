@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '44'
+version: '0'
+event(fields): MeasureStop()
+opcode: Stop
+keywords: Layout
+task: Measure
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

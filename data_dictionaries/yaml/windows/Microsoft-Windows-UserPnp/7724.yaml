@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7724'
+version: '0'
+event(fields): PnP_SetupAPI_DevicePathDriverSearchStart()
+opcode: Start
+keywords: UserPnp
+task: PnP_SetupAPI_DevicePathDriverSearch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

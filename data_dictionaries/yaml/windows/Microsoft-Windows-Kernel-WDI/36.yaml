@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-WDI
+event_id: '36'
+version: '0'
+event(fields): SEMScenarioLifecycleAscenariostartattemptfailedintheSEM.(GUID ProviderID,
+  UInt16 EventID, UInt32 NTStatus)
+opcode: AscenariostartattemptfailedintheSEM.
+keywords: ''
+task: SEMScenarioLifecycle
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderID
+- field_type: UInt16
+  field_name: EventID
+- field_type: UInt32
+  field_name: NTStatus

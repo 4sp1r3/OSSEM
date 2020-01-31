@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '17'
+version: '0'
+event(fields): task_017(UnicodeString ManualPeer, UnicodeString ErrorMessage, UnicodeString
+  RetryMinutes)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ManualPeer
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: RetryMinutes

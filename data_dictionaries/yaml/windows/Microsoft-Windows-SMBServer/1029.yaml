@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1029'
+version: '0'
+event(fields): task_01029(UnicodeString CipherSuiteOrder)
+opcode: ''
+keywords: Operational
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CipherSuiteOrder

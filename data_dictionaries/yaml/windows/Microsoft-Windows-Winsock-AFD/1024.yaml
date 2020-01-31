@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '1024'
+version: '0'
+event(fields): AfdAcceptWithAddressConnected(UInt32 EnterExit, UInt32 Location, Pointer
+  Process, Pointer Endpoint, Pointer Buffer, UInt32 BufferLength, UInt32 Status, UInt32
+  AddressLen, Binary Address, Pointer AcceptEndpoint, UInt32 CurrentBacklog)
+opcode: Connected
+keywords: AFD_KW_SOURCE_WINSOCK
+task: AfdAcceptWithAddress
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EnterExit
+- field_type: UInt32
+  field_name: Location
+- field_type: Pointer
+  field_name: Process
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: BufferLength
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: AddressLen
+- field_type: Binary
+  field_name: Address
+- field_type: Pointer
+  field_name: AcceptEndpoint
+- field_type: UInt32
+  field_name: CurrentBacklog

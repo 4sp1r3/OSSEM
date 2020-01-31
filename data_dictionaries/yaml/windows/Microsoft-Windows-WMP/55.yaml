@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '55'
+version: '0'
+event(fields): HME_EXECUTEQUERYStart()
+opcode: Start
+keywords: mediaplayer
+task: HME_EXECUTEQUERY
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

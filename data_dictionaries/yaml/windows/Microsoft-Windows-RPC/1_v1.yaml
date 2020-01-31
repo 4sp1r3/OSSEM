@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-RPC
+event_id: '1'
+version: '1'
+event(fields): RpcClientCallStop_V1(UnicodeString ImageName, UnicodeString ComputerName,
+  UInt32 ProcessID, SYSTEMTIME TimeStamp, UInt32 GeneratingComponent, HexInt32 Status,
+  UInt16 DetectionLocation, UInt16 Flags, UInt16 NumberOfParameters, UInt64 Params)
+opcode: Stop
+keywords: ''
+task: RpcClientCall
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ImageName
+- field_type: UnicodeString
+  field_name: ComputerName
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: SYSTEMTIME
+  field_name: TimeStamp
+- field_type: UInt32
+  field_name: GeneratingComponent
+- field_type: HexInt32
+  field_name: Status
+- field_type: UInt16
+  field_name: DetectionLocation
+- field_type: UInt16
+  field_name: Flags
+- field_type: UInt16
+  field_name: NumberOfParameters
+- field_type: UInt64
+  field_name: Params

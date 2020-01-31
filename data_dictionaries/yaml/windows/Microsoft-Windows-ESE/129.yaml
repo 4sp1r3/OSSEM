@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-ESE
+event_id: '129'
+version: '0'
+event(fields): ESE_TimerTaskSchedule_Trace(Pointer posttTimerHandle, Pointer pfnTask,
+  Pointer pvTaskGroupContext, Pointer pvRuntimeContext, UInt32 dtickMinDelay, UInt32
+  dtickSlopDelay)
+opcode: ''
+keywords: Task
+task: ESE_TimerTaskSchedule_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: posttTimerHandle
+- field_type: Pointer
+  field_name: pfnTask
+- field_type: Pointer
+  field_name: pvTaskGroupContext
+- field_type: Pointer
+  field_name: pvRuntimeContext
+- field_type: UInt32
+  field_name: dtickMinDelay
+- field_type: UInt32
+  field_name: dtickSlopDelay

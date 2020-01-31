@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '473'
+version: '0'
+event(fields): BrowserRoamedSettingChange_TrackingProtectionListsStop(UInt64 HWND)
+opcode: Stop
+keywords: roaming
+task: BrowserRoamedSettingChange_TrackingProtectionLists
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: HWND

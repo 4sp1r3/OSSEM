@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7702'
+version: '0'
+event(fields): PnP_Drvinst_ProcessCoreDeviceInstallStart()
+opcode: Start
+keywords: PerfTrackContext
+task: PnP_Drvinst_ProcessCoreDeviceInstall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

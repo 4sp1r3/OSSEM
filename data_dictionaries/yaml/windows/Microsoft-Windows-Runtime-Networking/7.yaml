@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Runtime-Networking
+event_id: '7'
+version: '0'
+event(fields): WebSocketConnectHTTPoperation(UnicodeString uri)
+opcode: HTTPoperation
+keywords: keywords.Http
+task: WebSocketConnect
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: uri

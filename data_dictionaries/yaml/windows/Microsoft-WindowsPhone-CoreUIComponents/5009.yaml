@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '5009'
+version: '0'
+event(fields): ProxyInitializeConnectionStop()
+opcode: Stop
+keywords: MessagingPerformance Proxy
+task: ProxyInitializeConnection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

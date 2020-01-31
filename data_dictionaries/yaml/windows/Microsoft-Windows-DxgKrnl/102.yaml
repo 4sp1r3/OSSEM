@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '102'
+version: '0'
+event(fields): SetDisplayMode(Pointer pDxgAdapter, UInt32 VidPnSourceId, UInt32 Width,
+  UInt32 Height, UInt32 Format, UInt32 RefreshRateNumerator, UInt32 RefreshRateDenominator,
+  UInt32 ScanLineOrdering, UInt32 Orientation, UInt32 DisplayFixedOutput, UInt32 Flags,
+  UInt32 NumSamples, UInt32 NumQualityLevels)
+opcode: ''
+keywords: Base Miracast MixedReality
+task: SetDisplayMode
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: Format
+- field_type: UInt32
+  field_name: RefreshRateNumerator
+- field_type: UInt32
+  field_name: RefreshRateDenominator
+- field_type: UInt32
+  field_name: ScanLineOrdering
+- field_type: UInt32
+  field_name: Orientation
+- field_type: UInt32
+  field_name: DisplayFixedOutput
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: NumSamples
+- field_type: UInt32
+  field_name: NumQualityLevels

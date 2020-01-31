@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '172'
+version: '0'
+event(fields): NewTabPage_ShowStop()
+opcode: Stop
+keywords: primarynav
+task: NewTabPage_Show
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

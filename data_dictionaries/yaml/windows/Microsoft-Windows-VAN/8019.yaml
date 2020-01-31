@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-VAN
+event_id: '8019'
+version: '0'
+event(fields): DisplayContextMenuStart()
+opcode: Start
+keywords: VAN_Performance
+task: DisplayContextMenu
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

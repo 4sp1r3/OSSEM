@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync-OneDrive
+event_id: '9072'
+version: '0'
+event(fields): Perf_WLRoamGetSettingUnitFromResourceIdForRestoreStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_WLRoamGetSettingUnitFromResourceIdForRestore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '39'
+version: '0'
+event(fields): Mshtml_CDwnBindData_BindStart(UInt32 Flags, UnicodeString Text)
+opcode: Start
+keywords: primarynav
+task: Mshtml_CDwnBindData_Bind
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: UnicodeString
+  field_name: Text

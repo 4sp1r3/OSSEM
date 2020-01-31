@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '27'
+version: '0'
+event(fields): AppClose()
+opcode: ''
+keywords: PerfInstrumentation
+task: AppClose
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

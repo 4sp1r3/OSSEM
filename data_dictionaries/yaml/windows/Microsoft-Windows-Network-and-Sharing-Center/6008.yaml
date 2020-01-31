@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Network-and-Sharing-Center
+event_id: '6008'
+version: '0'
+event(fields): InvokeUI_FixNetworkProblemStart()
+opcode: Start
+keywords: ''
+task: InvokeUI_FixNetworkProblem
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

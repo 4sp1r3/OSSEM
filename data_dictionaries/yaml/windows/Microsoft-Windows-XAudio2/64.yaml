@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAudio2
+event_id: '64'
+version: '0'
+event(fields): MasteringVoiceCreate(Pointer Address, UInt32 Channels, UInt32 SampleRate,
+  UnicodeString RendererId)
+opcode: Create
+keywords: ''
+task: MasteringVoice
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Address
+- field_type: UInt32
+  field_name: Channels
+- field_type: UInt32
+  field_name: SampleRate
+- field_type: UnicodeString
+  field_name: RendererId

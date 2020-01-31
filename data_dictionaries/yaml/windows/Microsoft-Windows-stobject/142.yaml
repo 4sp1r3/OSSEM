@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-stobject
+event_id: '142'
+version: '0'
+event(fields): BatteryMeter_BatteryDrain(Int32 BatteryDrainRate, UInt32 CurrentBatteryPercent,
+  UInt32 TimeSinceLastLogged, UInt32 FullChargeCapacity, UInt32 ChargeCapacityRatio,
+  UInt32 BatteryDrainInfoFlags)
+opcode: ''
+keywords: BatteryMeter
+task: BatteryMeter_BatteryDrain
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: BatteryDrainRate
+- field_type: UInt32
+  field_name: CurrentBatteryPercent
+- field_type: UInt32
+  field_name: TimeSinceLastLogged
+- field_type: UInt32
+  field_name: FullChargeCapacity
+- field_type: UInt32
+  field_name: ChargeCapacityRatio
+- field_type: UInt32
+  field_name: BatteryDrainInfoFlags

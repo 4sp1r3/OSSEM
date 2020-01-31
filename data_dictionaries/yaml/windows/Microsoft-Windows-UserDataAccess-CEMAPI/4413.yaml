@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4413'
+version: '0'
+event(fields): MSG_DELETERECIPIENTSStop()
+opcode: Stop
+keywords: Performance
+task: MSG_DELETERECIPIENTS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

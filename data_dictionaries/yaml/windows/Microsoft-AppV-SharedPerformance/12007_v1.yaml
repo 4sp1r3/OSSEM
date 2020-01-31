@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '12007'
+version: '1'
+event(fields): VEMgrRemovePackageStop_V1()
+opcode: Stop
+keywords: ''
+task: VEMgrRemovePackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

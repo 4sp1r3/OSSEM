@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '504'
+version: '0'
+event(fields): SoftKeyboard_Geometry_RefreshGeometryStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_Geometry_RefreshGeometry
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

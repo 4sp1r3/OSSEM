@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '266'
+version: '0'
+event(fields): StateRepository.Task.WinRTAPI266(HexInt32 ErrorCode, HexInt32 Options,
+  Int32 MachineDatabase_Pages, Int32 MachineDatabase_PagesCheckpointed, Int32 DeploymentDatabase_Pages,
+  Int32 DeploymentDatabase_PagesCheckpointed)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD keyword_200000000000
+task: StateRepository.Task.WinRTAPI
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: HexInt32
+  field_name: Options
+- field_type: Int32
+  field_name: MachineDatabase_Pages
+- field_type: Int32
+  field_name: MachineDatabase_PagesCheckpointed
+- field_type: Int32
+  field_name: DeploymentDatabase_Pages
+- field_type: Int32
+  field_name: DeploymentDatabase_PagesCheckpointed

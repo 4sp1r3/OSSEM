@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-MathInput
+event_id: '81'
+version: '0'
+event(fields): MathmlRendererDrawDCStop()
+opcode: Stop
+keywords: ''
+task: MathmlRendererDrawDC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '451'
+version: '0'
+event(fields): task_0451(UnicodeString data1, UnicodeString AppDomain)
+opcode: ''
+keywords: WCFMessageLogging Troubleshooting
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

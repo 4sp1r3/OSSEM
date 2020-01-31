@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1405'
+version: '0'
+event(fields): UdpStartInetModuleFailure(UInt32 Status)
+opcode: ''
+keywords: ut:Global
+task: UdpStartInetModuleFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

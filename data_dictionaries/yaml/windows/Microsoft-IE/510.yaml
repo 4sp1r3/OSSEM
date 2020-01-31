@@ -1,0 +1,24 @@
+provider: Microsoft-IE
+event_id: '510'
+version: '0'
+event(fields): FlipAhead_InvokeTarget(Boolean Success, UInt32 MatchType, UnicodeString
+  Uri, UnicodeString TextContent, UInt32 FileVersion, UInt32 RuleID)
+opcode: ''
+keywords: flipahead
+task: FlipAhead_InvokeTarget
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Success
+- field_type: UInt32
+  field_name: MatchType
+- field_type: UnicodeString
+  field_name: Uri
+- field_type: UnicodeString
+  field_name: TextContent
+- field_type: UInt32
+  field_name: FileVersion
+- field_type: UInt32
+  field_name: RuleID

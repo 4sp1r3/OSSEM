@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DSC
+event_id: '4291'
+version: '0'
+event(fields): task_04291(UnicodeString JobId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: JobId

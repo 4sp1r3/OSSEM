@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '129'
+version: '0'
+event(fields): VideoMotionVectorHeapStop(Pointer pID3D12Device, Pointer pID3D12VideoMotionVectorHeap,
+  UInt32 NodeMask, UInt32 InputFormat, UInt32 BlockSize, UInt32 Precision, UInt32
+  MaxWidthInBlocks, UInt32 MaxHeightInBlocks, UInt32 MinWidthInBlocks, UInt32 MinHeightInBlocks)
+opcode: Stop
+keywords: Resources ObjectLifetime
+task: VideoMotionVectorHeap
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12VideoMotionVectorHeap
+- field_type: UInt32
+  field_name: NodeMask
+- field_type: UInt32
+  field_name: InputFormat
+- field_type: UInt32
+  field_name: BlockSize
+- field_type: UInt32
+  field_name: Precision
+- field_type: UInt32
+  field_name: MaxWidthInBlocks
+- field_type: UInt32
+  field_name: MaxHeightInBlocks
+- field_type: UInt32
+  field_name: MinWidthInBlocks
+- field_type: UInt32
+  field_name: MinHeightInBlocks

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DeviceGuard
+event_id: '7000'
+version: '0'
+event(fields): task_0DeviceGuard(UnicodeString VirtualizationBasedSecurity, UnicodeString
+  SecureBoot, UnicodeString DmaProtection, UnicodeString HVCI, UnicodeString LSA,
+  UnicodeString Reboot, HexInt32 Status)
+opcode: DeviceGuard
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: VirtualizationBasedSecurity
+- field_type: UnicodeString
+  field_name: SecureBoot
+- field_type: UnicodeString
+  field_name: DmaProtection
+- field_type: UnicodeString
+  field_name: HVCI
+- field_type: UnicodeString
+  field_name: LSA
+- field_type: UnicodeString
+  field_name: Reboot
+- field_type: HexInt32
+  field_name: Status

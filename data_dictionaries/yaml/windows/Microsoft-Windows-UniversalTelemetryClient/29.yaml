@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-UniversalTelemetryClient
+event_id: '29'
+version: '0'
+event(fields): Upload_SevilleEventlog_Error(UnicodeString Environment, UInt32 EventsUploaded,
+  UInt32 EventsDropped, UInt64 LastEventlogWrittenTime, UInt32 FailedConnections,
+  UInt32 LastHttpError, Boolean ProxySettingDetected, UInt32 SslCertValidationFailures,
+  UInt32 LastSslCertFailure)
+opcode: ''
+keywords: Upload
+task: Upload_SevilleEventlog_Error
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Environment
+- field_type: UInt32
+  field_name: EventsUploaded
+- field_type: UInt32
+  field_name: EventsDropped
+- field_type: UInt64
+  field_name: LastEventlogWrittenTime
+- field_type: UInt32
+  field_name: FailedConnections
+- field_type: UInt32
+  field_name: LastHttpError
+- field_type: Boolean
+  field_name: ProxySettingDetected
+- field_type: UInt32
+  field_name: SslCertValidationFailures
+- field_type: UInt32
+  field_name: LastSslCertFailure

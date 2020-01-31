@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WFP
+event_id: '1013'
+version: '1'
+event(fields): task_01013_V1(UInt32 MainModeLocalAddressLength, Binary MainModeLocalAddress,
+  UInt32 MainModePeerAddressLength, Binary MainModePeerAddress, UInt32 KeyingModule,
+  UInt64 SaLuid, UInt64 ICookie, UInt64 RCookie)
+opcode: ''
+keywords: ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MainModeLocalAddressLength
+- field_type: Binary
+  field_name: MainModeLocalAddress
+- field_type: UInt32
+  field_name: MainModePeerAddressLength
+- field_type: Binary
+  field_name: MainModePeerAddress
+- field_type: UInt32
+  field_name: KeyingModule
+- field_type: UInt64
+  field_name: SaLuid
+- field_type: UInt64
+  field_name: ICookie
+- field_type: UInt64
+  field_name: RCookie

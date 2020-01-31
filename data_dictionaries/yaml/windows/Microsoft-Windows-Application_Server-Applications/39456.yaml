@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '39456'
+version: '0'
+event(fields): TrackingRecordDropped(Int64 RecordNumber, GUID ProviderId, UnicodeString
+  AppDomain)
+opcode: Dropped
+keywords: WFTracking
+task: TrackingRecord
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: RecordNumber
+- field_type: GUID
+  field_name: ProviderId
+- field_type: UnicodeString
+  field_name: AppDomain

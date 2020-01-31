@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '609'
+version: '1'
+event(fields): Mshtml_CDoc_Navigation_V1(Pointer CDoc, Pointer CMarkup, UnicodeString
+  URL, UInt64 EventContextId)
+opcode: ''
+keywords: primarynav mshtml
+task: Mshtml_CDoc_Navigation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CDoc
+- field_type: Pointer
+  field_name: CMarkup
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt64
+  field_name: EventContextId

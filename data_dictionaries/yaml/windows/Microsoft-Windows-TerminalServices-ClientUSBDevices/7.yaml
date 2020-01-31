@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TerminalServices-ClientUSBDevices
+event_id: '7'
+version: '0'
+event(fields): RemoteDesktopUSBHubFilter7(AnsiString message)
+opcode: ''
+keywords: ''
+task: RemoteDesktopUSBHubFilter
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: message

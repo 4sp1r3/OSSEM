@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17516'
+version: '0'
+event(fields): GetCorrectOwnerSid_LookupStop(UInt32 Success, UnicodeString Path)
+opcode: Stop
+keywords: Properties
+task: GetCorrectOwnerSid_Lookup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Success
+- field_type: UnicodeString
+  field_name: Path

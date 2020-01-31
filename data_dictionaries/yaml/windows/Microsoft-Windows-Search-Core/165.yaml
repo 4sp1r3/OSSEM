@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '165'
+version: '0'
+event(fields): Gatherer_OnDataChange_Failed()
+opcode: ''
+keywords: IndexingItem Gatherer
+task: Gatherer_OnDataChange_Failed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

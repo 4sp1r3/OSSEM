@@ -1,0 +1,54 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '357'
+version: '1'
+event(fields): TOUCH_INTERACTION_DEBUG_EVENTS357_V1(UInt64 UniqueKey, UInt64 ScenarioPointer,
+  UInt16 SurfaceWidth, UInt16 SurfaceHeight, UInt64 Frame, UInt32 MonitorCount, SID
+  PrimaryAdapterLuid, Boolean PrimaryAdapterIsWarp, Boolean StartedInParallelMode,
+  UnicodeString AppUserModelId, UInt32 InputType, UInt32 InteractionContext, UInt64
+  QpcManipulationStart, UInt64 QpcInertiaStart, UInt32 manipulationFrame, UInt32 prevManipulationFrame,
+  UInt64 QpcLastUpdate, UInt64 QpcPrevUpdate, UInt32 ReferenceCount)
+opcode: ''
+keywords: DwmCore DwmInput
+task: TOUCH_INTERACTION_DEBUG_EVENTS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueKey
+- field_type: UInt64
+  field_name: ScenarioPointer
+- field_type: UInt16
+  field_name: SurfaceWidth
+- field_type: UInt16
+  field_name: SurfaceHeight
+- field_type: UInt64
+  field_name: Frame
+- field_type: UInt32
+  field_name: MonitorCount
+- field_type: SID
+  field_name: PrimaryAdapterLuid
+- field_type: Boolean
+  field_name: PrimaryAdapterIsWarp
+- field_type: Boolean
+  field_name: StartedInParallelMode
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: InputType
+- field_type: UInt32
+  field_name: InteractionContext
+- field_type: UInt64
+  field_name: QpcManipulationStart
+- field_type: UInt64
+  field_name: QpcInertiaStart
+- field_type: UInt32
+  field_name: manipulationFrame
+- field_type: UInt32
+  field_name: prevManipulationFrame
+- field_type: UInt64
+  field_name: QpcLastUpdate
+- field_type: UInt64
+  field_name: QpcPrevUpdate
+- field_type: UInt32
+  field_name: ReferenceCount

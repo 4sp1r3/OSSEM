@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-UserDataApis
+event_id: '1503'
+version: '0'
+event(fields): ChatConversationsReadBatchWithCountAsync_STOP()
+opcode: Stop
+keywords: Performance
+task: ChatConversationsReadBatchWithCountAsync_STOP
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

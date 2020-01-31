@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WEPHOSTSVC
+event_id: '2'
+version: '0'
+event(fields): TASK_SERVICE2(UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: TASK_SERVICE
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

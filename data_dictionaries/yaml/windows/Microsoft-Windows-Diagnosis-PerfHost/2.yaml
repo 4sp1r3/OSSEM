@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-PerfHost
+event_id: '2'
+version: '0'
+event(fields): task_02(UInt32 Error, UnicodeString ProviderName)
+opcode: ''
+keywords: errors
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: ProviderName

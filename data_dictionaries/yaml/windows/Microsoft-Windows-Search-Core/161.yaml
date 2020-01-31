@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '161'
+version: '0'
+event(fields): GatherLog_Crawl(UInt32 hrCode, UnicodeString URL, UInt32 TransactionType,
+  UInt32 StartAddressId, UInt32 CrawlNo, UInt32 DocId, UInt32 hrTransactionError,
+  UnicodeString Description)
+opcode: ''
+keywords: Indexing Gatherer
+task: GatherLog_Crawl
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hrCode
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt32
+  field_name: TransactionType
+- field_type: UInt32
+  field_name: StartAddressId
+- field_type: UInt32
+  field_name: CrawlNo
+- field_type: UInt32
+  field_name: DocId
+- field_type: UInt32
+  field_name: hrTransactionError
+- field_type: UnicodeString
+  field_name: Description

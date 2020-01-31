@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6217'
+version: '0'
+event(fields): Thumbnails_GetThumbnailStart(UnicodeString FileName, UInt32 RequestSize)
+opcode: Start
+keywords: Shell
+task: Thumbnails_GetThumbnail
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: RequestSize

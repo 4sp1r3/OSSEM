@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62021'
+version: '0'
+event(fields): PlaylistFolder_Document_LoadStop(UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: PlaylistFolder_Document_Load
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

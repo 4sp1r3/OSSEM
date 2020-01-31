@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-USB-USBHUB
+event_id: '210'
+version: '0'
+event(fields): USBHubException(Int32 fid_USBHUB_HC, Double fid_USBHUB_Hub, UInt32
+  fid_PortNumber, UInt32 fid_Class, UInt32 fid_NtStatus, UInt32 fid_UsbdStatus, AnsiString
+  fid_DebugText)
+opcode: Exception
+keywords: Diagnostics keyword_400000000000
+task: USBHubException
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: fid_USBHUB_HC
+- field_type: Double
+  field_name: fid_USBHUB_Hub
+- field_type: UInt32
+  field_name: fid_PortNumber
+- field_type: UInt32
+  field_name: fid_Class
+- field_type: UInt32
+  field_name: fid_NtStatus
+- field_type: UInt32
+  field_name: fid_UsbdStatus
+- field_type: AnsiString
+  field_name: fid_DebugText

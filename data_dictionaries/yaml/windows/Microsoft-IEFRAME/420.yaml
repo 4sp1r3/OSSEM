@@ -1,0 +1,22 @@
+provider: Microsoft-IEFRAME
+event_id: '420'
+version: '0'
+event(fields): Browseui_Tabs_BrowserTabRespondsNow_TabHung(UInt32 HRESULT, UInt32
+  TabID, UInt32 SyncTimeout, Boolean SetHung, Boolean UserAction)
+opcode: ''
+keywords: hang
+task: Browseui_Tabs_BrowserTabRespondsNow_TabHung
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: TabID
+- field_type: UInt32
+  field_name: SyncTimeout
+- field_type: Boolean
+  field_name: SetHung
+- field_type: Boolean
+  field_name: UserAction

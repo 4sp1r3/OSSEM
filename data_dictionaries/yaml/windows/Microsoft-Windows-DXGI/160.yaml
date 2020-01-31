@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '160'
+version: '0'
+event(fields): IDXGIOutput_GetFrameStatisticsStart(Pointer pThis, Binary pStats)
+opcode: Start
+keywords: ''
+task: IDXGIOutput_GetFrameStatistics
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Binary
+  field_name: pStats

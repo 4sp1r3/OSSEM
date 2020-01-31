@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FileHistory-Engine
+event_id: '11'
+version: '0'
+event(fields): UsnEventProcessingStop()
+opcode: Stop
+keywords: ''
+task: UsnEventProcessing
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

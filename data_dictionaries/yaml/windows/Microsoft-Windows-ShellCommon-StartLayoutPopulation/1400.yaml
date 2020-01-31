@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '1400'
+version: '0'
+event(fields): CuratedTileCollectionTransformer_UTMIntegration(UnicodeString tileIdentifier,
+  UnicodeString collectionName)
+opcode: ''
+keywords: ''
+task: CuratedTileCollectionTransformer_UTMIntegration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: tileIdentifier
+- field_type: UnicodeString
+  field_name: collectionName

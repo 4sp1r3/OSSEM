@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '117'
+version: '0'
+event(fields): CRCFailure117()
+opcode: ''
+keywords: Events
+task: CRCFailure
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

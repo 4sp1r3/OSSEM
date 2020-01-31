@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '35018'
+version: '1'
+event(fields): VFSCreateActCtxWrequestStart_V1()
+opcode: Start
+keywords: ''
+task: VFSCreateActCtxWrequest
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

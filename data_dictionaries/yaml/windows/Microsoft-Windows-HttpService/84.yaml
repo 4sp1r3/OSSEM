@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-HttpService
+event_id: '84'
+version: '0'
+event(fields): HTTPConnectionTraceTaskUsePolicyBasedQoSFlow(Pointer Connection, Pointer
+  FlowHandle)
+opcode: UsePolicyBasedQoSFlow
+keywords: HTTP_KEYWORD_REQUEST HTTP_KEYWORD_CONNECTION
+task: HTTPConnectionTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: FlowHandle

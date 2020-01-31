@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '4176'
+version: '0'
+event(fields): task_04176(UInt32 SourceIPv4Address, UInt16 SourcePort, UInt16 UpperValue,
+  UInt16 LowerValue, UInt16 PortPredicted)
+opcode: ''
+keywords: teredo
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SourceIPv4Address
+- field_type: UInt16
+  field_name: SourcePort
+- field_type: UInt16
+  field_name: UpperValue
+- field_type: UInt16
+  field_name: LowerValue
+- field_type: UInt16
+  field_name: PortPredicted

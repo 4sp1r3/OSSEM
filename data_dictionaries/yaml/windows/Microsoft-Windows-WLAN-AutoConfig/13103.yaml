@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '13103'
+version: '0'
+event(fields): ConnectionCost13103()
+opcode: ''
+keywords: LwtDiagnostic
+task: ConnectionCost
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

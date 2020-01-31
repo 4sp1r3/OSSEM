@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-WFP
+event_id: '1029'
+version: '1'
+event(fields): task_01029_V1(FILETIME Timestamp, UInt32 LocalAddressLength, Binary
+  LocalAddress, UInt32 RemoteAddressLength, Binary RemoteAddress, UInt16 EtherType,
+  UInt32 MediaType, UInt32 InterfaceType, UInt16 VlanTag, UInt64 FilterId, UInt16
+  LayerId, UnicodeString vSwitchId, UInt32 SourcevSwitchPort, UInt32 DestinationvSwitchPort)
+opcode: ''
+keywords: keyword_10000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: Timestamp
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt16
+  field_name: EtherType
+- field_type: UInt32
+  field_name: MediaType
+- field_type: UInt32
+  field_name: InterfaceType
+- field_type: UInt16
+  field_name: VlanTag
+- field_type: UInt64
+  field_name: FilterId
+- field_type: UInt16
+  field_name: LayerId
+- field_type: UnicodeString
+  field_name: vSwitchId
+- field_type: UInt32
+  field_name: SourcevSwitchPort
+- field_type: UInt32
+  field_name: DestinationvSwitchPort

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DotNETRuntimeRundown
+event_id: '161'
+version: '0'
+event(fields): ClrPerfTrackModuleRangeDCEnd(UInt16 ClrInstanceID, UInt64 ModuleID,
+  UInt32 RangeBegin, UInt32 RangeSize, UInt8 RangeType)
+opcode: ModuleRangeDCEnd
+keywords: PerfTrackRundownKeyword
+task: ClrPerfTrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: UInt64
+  field_name: ModuleID
+- field_type: UInt32
+  field_name: RangeBegin
+- field_type: UInt32
+  field_name: RangeSize
+- field_type: UInt8
+  field_name: RangeType

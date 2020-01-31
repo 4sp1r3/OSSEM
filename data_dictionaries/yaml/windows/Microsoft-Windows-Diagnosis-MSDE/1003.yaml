@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-MSDE
+event_id: '1003'
+version: '0'
+event(fields): PerfTrack_MSDT_EscalationStop()
+opcode: Stop
+keywords: ''
+task: PerfTrack_MSDT_Escalation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

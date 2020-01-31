@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '347'
+version: '0'
+event(fields): DCompCreateTransformGroup(UInt64 TransformGroup)
+opcode: ''
+keywords: DComp
+task: DCompCreateTransformGroup
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: TransformGroup

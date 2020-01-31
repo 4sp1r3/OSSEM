@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '6803'
+version: '0'
+event(fields): task_06803(UnicodeString Category, UnicodeString PackageName, UnicodeString
+  ErrorText, HexInt32 ErrorCode)
+opcode: ''
+keywords: APPX_BASE_DEH_KEYWORD
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Category
+- field_type: UnicodeString
+  field_name: PackageName
+- field_type: UnicodeString
+  field_name: ErrorText
+- field_type: HexInt32
+  field_name: ErrorCode

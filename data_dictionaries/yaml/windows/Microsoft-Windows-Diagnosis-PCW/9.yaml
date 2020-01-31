@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-PCW
+event_id: '9'
+version: '0'
+event(fields): task_09(UInt32 Status)
+opcode: ''
+keywords: notifications
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

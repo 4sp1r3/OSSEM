@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDC
+event_id: '34'
+version: '0'
+event(fields): CsPowerButtonConsumed()
+opcode: ''
+keywords: Cs CsDiag
+task: CsPowerButtonConsumed
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

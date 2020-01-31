@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Wired-AutoConfig
+event_id: '20032'
+version: '0'
+event(fields): AutoConf20032(GUID InterfaceGuid, UnicodeString ProfileName, UInt32
+  Location, UInt32 Context)
+opcode: ''
+keywords: AutoConf ut:Authentication
+task: AutoConf
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UInt32
+  field_name: Location
+- field_type: UInt32
+  field_name: Context

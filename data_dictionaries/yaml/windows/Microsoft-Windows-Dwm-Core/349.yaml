@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '349'
+version: '0'
+event(fields): SHADERS_EFFECT_COMPILEStart(Pointer pCompilationTask)
+opcode: Start
+keywords: DwmCore
+task: SHADERS_EFFECT_COMPILE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCompilationTask

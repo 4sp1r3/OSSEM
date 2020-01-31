@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '94'
+version: '1'
+event(fields): AllocationInfo_V1(Pointer pID3D12Device, Pointer pObject, UInt32 NumVirtualAddressInfos,
+  UInt16 pVirtualAddressInfos, UInt32 NumKMTInfos, Int64 pKMTInfos)
+opcode: ''
+keywords: Resources
+task: AllocationInfo
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pObject
+- field_type: UInt32
+  field_name: NumVirtualAddressInfos
+- field_type: UInt16
+  field_name: pVirtualAddressInfos
+- field_type: UInt32
+  field_name: NumKMTInfos
+- field_type: Int64
+  field_name: pKMTInfos

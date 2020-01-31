@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '342'
+version: '0'
+event(fields): DCompLinkPrimitive(UInt64 Primitive, UInt64 InsertAfter)
+opcode: ''
+keywords: DComp
+task: DCompLinkPrimitive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Primitive
+- field_type: UInt64
+  field_name: InsertAfter
