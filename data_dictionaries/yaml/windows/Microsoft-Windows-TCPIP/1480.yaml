@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1480'
+version: '0'
+event(fields): TcpRecentConnectionFailure(UInt32 Status, UInt32 LocalSockAddrLength,
+  Binary LocalSockAddr, UInt32 RemoteSockAddrLength, Binary RemoteSockAddr, UInt32
+  TcpState, UInt32 ProcessId, UInt16 Hour, UInt16 Minute, UInt16 Second, UInt32 Reason)
+opcode: ''
+keywords: keyword_200000000000
+task: TcpRecentConnectionFailure
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: LocalSockAddrLength
+- field_type: Binary
+  field_name: LocalSockAddr
+- field_type: UInt32
+  field_name: RemoteSockAddrLength
+- field_type: Binary
+  field_name: RemoteSockAddr
+- field_type: UInt32
+  field_name: TcpState
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt16
+  field_name: Hour
+- field_type: UInt16
+  field_name: Minute
+- field_type: UInt16
+  field_name: Second
+- field_type: UInt32
+  field_name: Reason

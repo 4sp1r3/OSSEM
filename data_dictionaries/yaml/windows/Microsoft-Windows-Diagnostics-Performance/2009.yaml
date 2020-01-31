@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '2009'
+version: '0'
+event(fields): Scenario_StartEventStart(GUID ProviderId, UInt16 EventId, UInt32 HResult)
+opcode: Start
+keywords: ScenarioStatus
+task: Scenario_StartEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderId
+- field_type: UInt16
+  field_name: EventId
+- field_type: UInt32
+  field_name: HResult

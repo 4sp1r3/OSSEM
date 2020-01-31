@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1110'
+version: '0'
+event(fields): SensorServiceprocessingsensordatafororientation,thetanegativesoadded360(Float
+  Theta)
+opcode: ''
+keywords: SensPerf
+task: SensorServiceprocessingsensordatafororientation,thetanegativesoadded360
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: Theta

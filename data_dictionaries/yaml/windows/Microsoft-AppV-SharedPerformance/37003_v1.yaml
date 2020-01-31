@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '37003'
+version: '1'
+event(fields): NotificationTask.VIRTMAN.Stop_V1()
+opcode: Stop
+keywords: ''
+task: NotificationTask.VIRTMAN.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

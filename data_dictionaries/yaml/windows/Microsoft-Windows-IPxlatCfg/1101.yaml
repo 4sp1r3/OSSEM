@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-IPxlatCfg
+event_id: '1101'
+version: '0'
+event(fields): task_0Start(UInt64 InterfaceLuid, UInt32 Metric, Binary RemotePrefix,
+  UInt32 RemotePrefixLength, Binary LocalPrefix, UInt32 LocalPrefixLength)
+opcode: Start
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: InterfaceLuid
+- field_type: UInt32
+  field_name: Metric
+- field_type: Binary
+  field_name: RemotePrefix
+- field_type: UInt32
+  field_name: RemotePrefixLength
+- field_type: Binary
+  field_name: LocalPrefix
+- field_type: UInt32
+  field_name: LocalPrefixLength

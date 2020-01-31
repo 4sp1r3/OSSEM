@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '507'
+version: '0'
+event(fields): CLine507(UInt32 ModemResetState)
+opcode: ''
+keywords: Information
+task: CLine
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ModemResetState

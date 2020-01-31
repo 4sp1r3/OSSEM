@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2244'
+version: '0'
+event(fields): Share_RunningSharesToView()
+opcode: ''
+keywords: ''
+task: Share_RunningSharesToView
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

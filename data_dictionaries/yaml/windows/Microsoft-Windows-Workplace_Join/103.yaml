@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Workplace Join
+event_id: '103'
+version: '0'
+event(fields): task_0103(Int32 HttpStatus, UnicodeString ServiceUri, UnicodeString
+  TraceId)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HttpStatus
+- field_type: UnicodeString
+  field_name: ServiceUri
+- field_type: UnicodeString
+  field_name: TraceId

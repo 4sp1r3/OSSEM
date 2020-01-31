@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Folder Redirection
+event_id: '1009'
+version: '0'
+event(fields): task_01009(HexInt32 Error)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '6007'
+version: '0'
+event(fields): GetConnectionGroupsStop()
+opcode: Stop
+keywords: ''
+task: GetConnectionGroups
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

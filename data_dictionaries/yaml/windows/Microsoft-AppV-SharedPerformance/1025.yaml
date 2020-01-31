@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '1025'
+version: '0'
+event(fields): PackagingStop()
+opcode: Stop
+keywords: ''
+task: Packaging
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '4106'
+version: '0'
+event(fields): TriggerDhcpNotification()
+opcode: DhcpNotification
+keywords: Trigger
+task: Trigger
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

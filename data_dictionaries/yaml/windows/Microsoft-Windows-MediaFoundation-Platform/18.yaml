@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '18'
+version: '0'
+event(fields): MF_MFT_Hardware_EnumerationStart(GUID Category)
+opcode: Start
+keywords: ''
+task: MF_MFT_Hardware_Enumeration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Category

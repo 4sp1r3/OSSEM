@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '9'
+version: '0'
+event(fields): ClrShutdownStart()
+opcode: Start
+keywords: Managed
+task: ClrShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

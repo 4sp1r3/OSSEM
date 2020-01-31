@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Bluetooth-Policy
+event_id: '10'
+version: '0'
+event(fields): task_010(UInt64 bthAddr)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: bthAddr

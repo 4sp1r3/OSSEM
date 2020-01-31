@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '322'
+version: '0'
+event(fields): AppReadiness_ExecuteTaskStop322(HexInt32 ExitCode)
+opcode: Stop
+keywords: Tasks
+task: AppReadiness_ExecuteTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ExitCode

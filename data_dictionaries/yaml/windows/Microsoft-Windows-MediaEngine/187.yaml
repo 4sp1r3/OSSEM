@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '187'
+version: '0'
+event(fields): UpdateGPUDeadlineoperation(Pointer object, Pointer DXObject, UInt32
+  DXType, Int64 deadline, Int64 hnsDeltaFromNow)
+opcode: ''
+keywords: ''
+task: UpdateGPUDeadlineoperation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: DXObject
+- field_type: UInt32
+  field_name: DXType
+- field_type: Int64
+  field_name: deadline
+- field_type: Int64
+  field_name: hnsDeltaFromNow

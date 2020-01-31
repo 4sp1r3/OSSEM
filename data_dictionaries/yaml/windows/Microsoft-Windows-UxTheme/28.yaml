@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UxTheme
+event_id: '28'
+version: '0'
+event(fields): HandleServerRequestStart()
+opcode: Start
+keywords: ''
+task: HandleServerRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

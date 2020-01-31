@@ -1,0 +1,13 @@
+provider: Intel-iaLPSS-GPIO
+event_id: '1004'
+version: '1'
+event(fields): EnumerationofGPIOxdriver1004_V1(Pointer WDFDEVICE)
+opcode: ''
+keywords: ''
+task: EnumerationofGPIOxdriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WDFDEVICE

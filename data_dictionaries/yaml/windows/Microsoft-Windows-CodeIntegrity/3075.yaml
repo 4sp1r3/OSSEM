@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3075'
+version: '0'
+event(fields): ValidateSIPolicyPolicyPerformance(UInt16 FileNameLength, UnicodeString
+  FileNameBuffer, UInt16 ProcessNameLength, UnicodeString ProcessNameBuffer, UInt8
+  RequestedSigningLevel, UInt8 ValidatedSigningLevel, UInt64 ElapsedTime, UInt64 PolicyElapsedTime,
+  UInt32 PercentageTime)
+opcode: PolicyPerformance
+keywords: ''
+task: ValidateSIPolicy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer
+- field_type: UInt16
+  field_name: ProcessNameLength
+- field_type: UnicodeString
+  field_name: ProcessNameBuffer
+- field_type: UInt8
+  field_name: RequestedSigningLevel
+- field_type: UInt8
+  field_name: ValidatedSigningLevel
+- field_type: UInt64
+  field_name: ElapsedTime
+- field_type: UInt64
+  field_name: PolicyElapsedTime
+- field_type: UInt32
+  field_name: PercentageTime

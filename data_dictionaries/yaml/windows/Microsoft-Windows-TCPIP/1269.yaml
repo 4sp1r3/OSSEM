@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1269'
+version: '0'
+event(fields): Ndkpi_Listen(Pointer NdkListener, UInt32 SockAddrLength, Binary SockAddr,
+  Pointer RequestContext)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Listen
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkListener
+- field_type: UInt32
+  field_name: SockAddrLength
+- field_type: Binary
+  field_name: SockAddr
+- field_type: Pointer
+  field_name: RequestContext

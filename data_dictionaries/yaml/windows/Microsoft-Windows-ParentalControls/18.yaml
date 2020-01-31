@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-ParentalControls
+event_id: '18'
+version: '0'
+event(fields): WebOverrideLaunch(UnicodeString UserID, UnicodeString URL, UInt32 Reason)
+opcode: Launch
+keywords: WPC
+task: WebOverride
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserID
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt32
+  field_name: Reason

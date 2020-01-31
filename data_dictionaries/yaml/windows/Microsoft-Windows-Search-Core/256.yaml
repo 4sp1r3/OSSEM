@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '256'
+version: '0'
+event(fields): CSearchScopeRule_get_PatternOrURL(UInt32 hr, UnicodeString Value)
+opcode: ''
+keywords: CSM
+task: CSearchScopeRule_get_PatternOrURL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr
+- field_type: UnicodeString
+  field_name: Value

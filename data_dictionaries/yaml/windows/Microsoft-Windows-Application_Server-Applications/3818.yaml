@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3818'
+version: '0'
+event(fields): RoutingServiceDuplexCallbackException(UnicodeString data1, UnicodeString
+  SerializedException, UnicodeString AppDomain)
+opcode: DuplexCallbackException
+keywords: RoutingServices
+task: RoutingService
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: SerializedException
+- field_type: UnicodeString
+  field_name: AppDomain

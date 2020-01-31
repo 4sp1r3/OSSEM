@@ -1,0 +1,18 @@
+provider: Intel-iaLPSS2-GPIO2
+event_id: '1137'
+version: '0'
+event(fields): iaLPSS_GPIO2GpioIoroutines1137(AnsiString BankName, UInt32 PinNo, UInt32
+  PinIoMode)
+opcode: ''
+keywords: ''
+task: iaLPSS_GPIO2GpioIoroutines
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: BankName
+- field_type: UInt32
+  field_name: PinNo
+- field_type: UInt32
+  field_name: PinIoMode

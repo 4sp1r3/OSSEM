@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '309'
+version: '0'
+event(fields): IHM_ModalitySwitch(Boolean Keyboard)
+opcode: ''
+keywords: ''
+task: IHM_ModalitySwitch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Keyboard

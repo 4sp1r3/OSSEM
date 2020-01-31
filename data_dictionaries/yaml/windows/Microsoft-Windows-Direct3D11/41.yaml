@@ -1,0 +1,46 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '41'
+version: '0'
+event(fields): RuntimeMarker41(Pointer pIDXGIDevice, UInt32 hContext, UInt8 BroadcastContexts,
+  UInt32 hBroadcastContexts, UInt32 MarkerLogType, UInt32 RenderCBSequenceNumber,
+  UInt32 FirstAPISequenceNumberHigh, UInt32 CompletedAPISequenceNumberLow0Size, UInt32
+  CompletedAPISequenceNumberLow1Size, UInt32 BegunAPISequenceNumberLow0Size, UInt32
+  BegunAPISequenceNumberLow1Size, UInt32 CompletedAPISequenceNumberLow0, UInt32 CompletedAPISequenceNumberLow1,
+  UInt32 BegunAPISequenceNumberLow0, UInt32 BegunAPISequenceNumberLow1)
+opcode: ''
+keywords: ''
+task: RuntimeMarker
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGIDevice
+- field_type: UInt32
+  field_name: hContext
+- field_type: UInt8
+  field_name: BroadcastContexts
+- field_type: UInt32
+  field_name: hBroadcastContexts
+- field_type: UInt32
+  field_name: MarkerLogType
+- field_type: UInt32
+  field_name: RenderCBSequenceNumber
+- field_type: UInt32
+  field_name: FirstAPISequenceNumberHigh
+- field_type: UInt32
+  field_name: CompletedAPISequenceNumberLow0Size
+- field_type: UInt32
+  field_name: CompletedAPISequenceNumberLow1Size
+- field_type: UInt32
+  field_name: BegunAPISequenceNumberLow0Size
+- field_type: UInt32
+  field_name: BegunAPISequenceNumberLow1Size
+- field_type: UInt32
+  field_name: CompletedAPISequenceNumberLow0
+- field_type: UInt32
+  field_name: CompletedAPISequenceNumberLow1
+- field_type: UInt32
+  field_name: BegunAPISequenceNumberLow0
+- field_type: UInt32
+  field_name: BegunAPISequenceNumberLow1

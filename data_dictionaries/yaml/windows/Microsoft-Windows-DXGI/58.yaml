@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '58'
+version: '0'
+event(fields): CheckMultiplaneOverlaySupportStop(UInt32 Result)
+opcode: Stop
+keywords: Events
+task: CheckMultiplaneOverlaySupport
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

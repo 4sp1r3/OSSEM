@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '239'
+version: '0'
+event(fields): Mshtml_CImgInfo_ForcedDecoding(Pointer DwnInfo, UInt32 DecodeFlags)
+opcode: ''
+keywords: subsystem
+task: Mshtml_CImgInfo_ForcedDecoding
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DwnInfo
+- field_type: UInt32
+  field_name: DecodeFlags

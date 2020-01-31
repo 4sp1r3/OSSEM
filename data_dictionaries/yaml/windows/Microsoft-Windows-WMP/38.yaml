@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '38'
+version: '0'
+event(fields): PDA_TRANSCODEStop()
+opcode: Stop
+keywords: mediaplayer
+task: PDA_TRANSCODE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

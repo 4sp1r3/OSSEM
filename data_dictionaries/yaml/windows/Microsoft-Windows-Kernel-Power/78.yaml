@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '78'
+version: '0'
+event(fields): DiskIdleCheck(Pointer Device, UInt32 Timeout, UInt32 IgnoreThreshold,
+  UInt32 IdleTime, UInt32 NonIdleTime)
+opcode: ''
+keywords: po:Idle
+task: DiskIdleCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Device
+- field_type: UInt32
+  field_name: Timeout
+- field_type: UInt32
+  field_name: IgnoreThreshold
+- field_type: UInt32
+  field_name: IdleTime
+- field_type: UInt32
+  field_name: NonIdleTime

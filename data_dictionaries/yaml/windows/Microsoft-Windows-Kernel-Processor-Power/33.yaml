@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '33'
+version: '0'
+event(fields): PccError(UInt16 Group, UInt8 Number)
+opcode: ''
+keywords: ''
+task: PccError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number

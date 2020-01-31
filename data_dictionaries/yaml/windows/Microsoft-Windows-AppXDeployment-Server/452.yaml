@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '452'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment452(AnsiString reason, UnicodeString
+  package)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD keyword_400000000000
+task: AppXDeployment.Task.Server.Deployment
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: reason
+- field_type: UnicodeString
+  field_name: package

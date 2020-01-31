@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '12027'
+version: '1'
+event(fields): RemovePackageGroupStop_V1()
+opcode: Stop
+keywords: ''
+task: RemovePackageGroup
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

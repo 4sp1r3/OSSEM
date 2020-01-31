@@ -1,0 +1,11 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '4006'
+version: '0'
+event(fields): SynchronizationtofilesystemAppAgent4006()
+opcode: AppAgent
+keywords: ''
+task: Synchronizationtofilesystem
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

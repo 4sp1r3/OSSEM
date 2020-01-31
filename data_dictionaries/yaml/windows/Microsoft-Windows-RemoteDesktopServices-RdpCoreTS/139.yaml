@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '139'
+version: '0'
+event(fields): RemoteFXmodule_4ProtocolExchange139(HexInt32 ResultCode, UnicodeString
+  IPString)
+opcode: ProtocolExchange
+keywords: ''
+task: RemoteFXmodule_4
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ResultCode
+- field_type: UnicodeString
+  field_name: IPString

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '28061'
+version: '1'
+event(fields): TransportrunrequestoperationStart28061_V1()
+opcode: Start
+keywords: ''
+task: Transportrunrequestoperation
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

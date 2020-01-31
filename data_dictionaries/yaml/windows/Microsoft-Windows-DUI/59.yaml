@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '59'
+version: '0'
+event(fields): DirectUI_TouchScrollBarFadeDelayStart()
+opcode: Start
+keywords: Default
+task: DirectUI_TouchScrollBarFadeDelay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7208'
+version: '0'
+event(fields): Perf_SyncRequestedByCloudStop(UInt32 Value)
+opcode: Stop
+keywords: RoamingSettings
+task: Perf_SyncRequestedByCloud
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

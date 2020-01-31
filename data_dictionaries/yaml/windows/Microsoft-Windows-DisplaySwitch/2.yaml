@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DisplaySwitch
+event_id: '2'
+version: '0'
+event(fields): DisplaySwitch_ApplicationStop()
+opcode: Stop
+keywords: ''
+task: DisplaySwitch_Application
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '636'
+version: '0'
+event(fields): Shdocvw_VirtualTab_NavigateThreadProc_NavigateEx2Call()
+opcode: ''
+keywords: primarynav
+task: Shdocvw_VirtualTab_NavigateThreadProc_NavigateEx2Call
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

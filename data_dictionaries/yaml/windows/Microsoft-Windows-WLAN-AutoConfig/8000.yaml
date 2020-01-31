@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '8000'
+version: '0'
+event(fields): AcmConnectionStart_24010_189(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UnicodeString ConnectionMode, UnicodeString ProfileName, UnicodeString SSID, UnicodeString
+  BSSType, Pointer ConnectionId)
+opcode: Start_24010_189
+keywords: WlanConnect LwtDiagnostic
+task: AcmConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UnicodeString
+  field_name: ConnectionMode
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: Pointer
+  field_name: ConnectionId

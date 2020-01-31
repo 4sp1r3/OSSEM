@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-GroupPolicy
+event_id: '5314'
+version: '0'
+event(fields): task_05314(UInt32 BandwidthInkbps, Boolean IsSlowLink, UInt32 ThresholdInkbps,
+  UInt32 PolicyApplicationMode, UInt32 ErrorCode, UnicodeString LinkDescription)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BandwidthInkbps
+- field_type: Boolean
+  field_name: IsSlowLink
+- field_type: UInt32
+  field_name: ThresholdInkbps
+- field_type: UInt32
+  field_name: PolicyApplicationMode
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: LinkDescription

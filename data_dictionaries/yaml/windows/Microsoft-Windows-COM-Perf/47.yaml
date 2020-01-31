@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '47'
+version: '0'
+event(fields): COM_FreeUnusedLibrary(UInt64 ApartmentId64, UInt32 AptId, UInt8 AptKind,
+  UInt32 UnloadDelay)
+opcode: ''
+keywords: ''
+task: COM_FreeUnusedLibrary
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ApartmentId64
+- field_type: UInt32
+  field_name: AptId
+- field_type: UInt8
+  field_name: AptKind
+- field_type: UInt32
+  field_name: UnloadDelay

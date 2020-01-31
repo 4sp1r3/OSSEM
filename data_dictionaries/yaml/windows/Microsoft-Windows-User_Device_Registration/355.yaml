@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '355'
+version: '0'
+event(fields): task_0355(UnicodeString Upn, UnicodeString TenantId, UnicodeString
+  Authority, UnicodeString Resource, Int32 ExitCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Upn
+- field_type: UnicodeString
+  field_name: TenantId
+- field_type: UnicodeString
+  field_name: Authority
+- field_type: UnicodeString
+  field_name: Resource
+- field_type: Int32
+  field_name: ExitCode

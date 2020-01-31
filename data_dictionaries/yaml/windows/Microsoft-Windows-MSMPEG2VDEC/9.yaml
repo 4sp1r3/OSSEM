@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '9'
+version: '0'
+event(fields): H264_FormatChange(UInt32 Width, UInt32 Height, UInt32 SARWidth, UInt32
+  SARHeight, UInt8 BitDepthLuma, UInt8 BitDepthChroma, UInt8 ChromaFormat)
+opcode: ''
+keywords: ''
+task: H264_FormatChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: SARWidth
+- field_type: UInt32
+  field_name: SARHeight
+- field_type: UInt8
+  field_name: BitDepthLuma
+- field_type: UInt8
+  field_name: BitDepthChroma
+- field_type: UInt8
+  field_name: ChromaFormat

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '260'
+version: '0'
+event(fields): task_0260(Int64 NetworkAudioEntriesCount, Boolean NetworkingReferenced)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: NetworkAudioEntriesCount
+- field_type: Boolean
+  field_name: NetworkingReferenced

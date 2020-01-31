@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '584'
+version: '0'
+event(fields): Mshtml_Media_TextTrack_ParsingStop584(Pointer Parser, Pointer Stream)
+opcode: Stop
+keywords: subsystem mshtml
+task: Mshtml_Media_TextTrack_Parsing
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Parser
+- field_type: Pointer
+  field_name: Stream

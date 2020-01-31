@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '11023'
+version: '1'
+event(fields): task_0OID_Handling11023_V1(GUID InterfaceGuid, UInt32 RequestId, UInt32
+  WwanStatus, UInt64 ModemID, UInt32 NumberOfExecutors, UInt32 NumberOfSlots, UInt32
+  Concurrency)
+opcode: OID_Handling
+keywords: LwtDiagnostic WwanOid InterfaceEnum keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: RequestId
+- field_type: UInt32
+  field_name: WwanStatus
+- field_type: UInt64
+  field_name: ModemID
+- field_type: UInt32
+  field_name: NumberOfExecutors
+- field_type: UInt32
+  field_name: NumberOfSlots
+- field_type: UInt32
+  field_name: Concurrency

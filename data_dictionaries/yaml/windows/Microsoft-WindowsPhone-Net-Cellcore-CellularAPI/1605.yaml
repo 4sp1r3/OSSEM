@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '1605'
+version: '0'
+event(fields): CAggregatedSlot1605(UInt32 DwordName1)
+opcode: ''
+keywords: Error UICC
+task: CAggregatedSlot
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DwordName1

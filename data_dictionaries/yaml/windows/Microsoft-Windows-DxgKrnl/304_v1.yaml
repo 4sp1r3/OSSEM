@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '304'
+version: '1'
+event(fields): UpdateVPR_V1(UInt32 PhysicalAdapterIndex, UInt32 DriverSegmentIndex,
+  UInt32 VprIndex, UInt64 NewStartOffset, UInt64 NewSize, Pointer pDxgAdapter)
+opcode: ''
+keywords: Base
+task: UpdateVPR
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PhysicalAdapterIndex
+- field_type: UInt32
+  field_name: DriverSegmentIndex
+- field_type: UInt32
+  field_name: VprIndex
+- field_type: UInt64
+  field_name: NewStartOffset
+- field_type: UInt64
+  field_name: NewSize
+- field_type: Pointer
+  field_name: pDxgAdapter

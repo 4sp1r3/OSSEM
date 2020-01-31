@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ESE
+event_id: '211'
+version: '0'
+event(fields): ESE_tagVersionStoreOOM_Trace(AnsiString szTrace)
+opcode: ''
+keywords: JETTraceTag
+task: ESE_tagVersionStoreOOM_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: szTrace

@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '35'
+version: '0'
+event(fields): AntiPhishing_EvaluateStop(Pointer ThisPtr, UnicodeString URL)
+opcode: Stop
+keywords: primarynav ap
+task: AntiPhishing_Evaluate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ThisPtr
+- field_type: UnicodeString
+  field_name: URL

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '551'
+version: '0'
+event(fields): FindObjectsOfTypeStart()
+opcode: Start
+keywords: Core
+task: FindObjectsOfType
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

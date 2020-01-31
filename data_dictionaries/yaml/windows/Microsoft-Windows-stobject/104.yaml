@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '104'
+version: '0'
+event(fields): BatteryMeter_DismissRichTooltipStop()
+opcode: Stop
+keywords: BatteryMeter
+task: BatteryMeter_DismissRichTooltip
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

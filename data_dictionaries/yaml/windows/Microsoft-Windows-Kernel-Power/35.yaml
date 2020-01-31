@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '35'
+version: '0'
+event(fields): SuspendDevicesPhaseStart(Boolean Query, UInt32 TargetState, UInt32
+  EffectiveState)
+opcode: PhaseStart
+keywords: po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:SleepDiagnostic
+  po:WdiDiagnostic
+task: SuspendDevices
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Query
+- field_type: UInt32
+  field_name: TargetState
+- field_type: UInt32
+  field_name: EffectiveState

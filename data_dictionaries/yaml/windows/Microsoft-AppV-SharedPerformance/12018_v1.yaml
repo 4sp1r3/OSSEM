@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '12018'
+version: '1'
+event(fields): VEMgrLookupProcessExStart_V1()
+opcode: Start
+keywords: ''
+task: VEMgrLookupProcessEx
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

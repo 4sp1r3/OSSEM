@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Kernel-ShimEngine
+event_id: '14'
+version: '1'
+event(fields): task_014_V1(Pointer Address, Pointer Caller, UInt32 Tag)
+opcode: ''
+keywords: DriverScopePool
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Address
+- field_type: Pointer
+  field_name: Caller
+- field_type: UInt32
+  field_name: Tag

@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '54'
+version: '0'
+event(fields): Mshtml_CScriptElement_CommitCode(UInt32 Length, UnicodeString Script,
+  Boolean IsInline)
+opcode: ''
+keywords: primarynav
+task: Mshtml_CScriptElement_CommitCode
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Length
+- field_type: UnicodeString
+  field_name: Script
+- field_type: Boolean
+  field_name: IsInline

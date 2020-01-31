@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '500'
+version: '0'
+event(fields): IdleTaskRegister(UInt32 IdleTaskId, UInt32 ProcessId)
+opcode: ''
+keywords: ForcedIdleProcessing
+task: IdleTaskRegister
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IdleTaskId
+- field_type: UInt32
+  field_name: ProcessId

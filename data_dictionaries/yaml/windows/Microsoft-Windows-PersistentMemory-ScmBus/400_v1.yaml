@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PersistentMemory-ScmBus
+event_id: '400'
+version: '1'
+event(fields): task_0400_V1(HexInt32 NfitHandle, UnicodeString Location, HexInt64
+  StartAddress, HexInt64 Length)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: NfitHandle
+- field_type: UnicodeString
+  field_name: Location
+- field_type: HexInt64
+  field_name: StartAddress
+- field_type: HexInt64
+  field_name: Length

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '180'
+version: '0'
+event(fields): ForceIdleReset(UInt32 Reason)
+opcode: ''
+keywords: po:Diagnostic
+task: ForceIdleReset
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason

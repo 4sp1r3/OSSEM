@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ApplicabilityEngine
+event_id: '105'
+version: '0'
+event(fields): UpdateScaleContextStop()
+opcode: Stop
+keywords: ''
+task: UpdateScaleContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

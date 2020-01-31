@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreMessaging
+event_id: '4001'
+version: '0'
+event(fields): Messaging_ConstructMessageSessionStop()
+opcode: Stop
+keywords: MessagingPerformance Messaging
+task: Messaging_ConstructMessageSession
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '457'
+version: '0'
+event(fields): TabRoaming_Delete(GUID TabId)
+opcode: ''
+keywords: roaming
+task: TabRoaming_Delete
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TabId

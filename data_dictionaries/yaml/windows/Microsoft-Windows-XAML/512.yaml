@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '512'
+version: '0'
+event(fields): CancelTransitionsStop()
+opcode: Stop
+keywords: Rendering
+task: CancelTransitions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

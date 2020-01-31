@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '8001'
+version: '0'
+event(fields): AcmConnectionSuccess(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UnicodeString ConnectionMode, UnicodeString ProfileName, UnicodeString SSID, UnicodeString
+  BSSType, UnicodeString PHYType, UnicodeString AuthenticationAlgorithm, UnicodeString
+  CipherAlgorithm, UInt32 OnexEnabled, Pointer ConnectionId, Boolean NonBroadcast)
+opcode: Success
+keywords: WlanConnect LwtDiagnostic Telemetry
+task: AcmConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UnicodeString
+  field_name: ConnectionMode
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UnicodeString
+  field_name: PHYType
+- field_type: UnicodeString
+  field_name: AuthenticationAlgorithm
+- field_type: UnicodeString
+  field_name: CipherAlgorithm
+- field_type: UInt32
+  field_name: OnexEnabled
+- field_type: Pointer
+  field_name: ConnectionId
+- field_type: Boolean
+  field_name: NonBroadcast

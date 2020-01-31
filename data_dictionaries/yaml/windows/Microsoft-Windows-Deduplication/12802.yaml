@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '12802'
+version: '0'
+event(fields): DataDeduplicationScrubbingTask12802(GUID JobInstanceId, FILETIME DetectionTime,
+  UnicodeString VolumeGuidPath, UnicodeString VolumeDisplayName, Boolean Fixed, UInt64
+  FileId, UnicodeString FilePath, UInt32 ContainerId, UInt32 FileLocator, UInt32 RecordLocator,
+  UInt32 CorruptionType, UInt32 ItemType, UInt32 ChunkStoreType, Boolean HasRedundantCopy)
+opcode: ''
+keywords: Reporting
+task: DataDeduplicationScrubbingTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: JobInstanceId
+- field_type: FILETIME
+  field_name: DetectionTime
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UnicodeString
+  field_name: VolumeDisplayName
+- field_type: Boolean
+  field_name: Fixed
+- field_type: UInt64
+  field_name: FileId
+- field_type: UnicodeString
+  field_name: FilePath
+- field_type: UInt32
+  field_name: ContainerId
+- field_type: UInt32
+  field_name: FileLocator
+- field_type: UInt32
+  field_name: RecordLocator
+- field_type: UInt32
+  field_name: CorruptionType
+- field_type: UInt32
+  field_name: ItemType
+- field_type: UInt32
+  field_name: ChunkStoreType
+- field_type: Boolean
+  field_name: HasRedundantCopy

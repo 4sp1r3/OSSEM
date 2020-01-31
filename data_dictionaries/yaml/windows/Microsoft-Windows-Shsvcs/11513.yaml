@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shsvcs
+event_id: '11513'
+version: '0'
+event(fields): HDSrv_CreateSafeFileHandleStart(UnicodeString FileName, UInt32 DesiredAccess)
+opcode: Start
+keywords: ''
+task: HDSrv_CreateSafeFileHandle
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: DesiredAccess

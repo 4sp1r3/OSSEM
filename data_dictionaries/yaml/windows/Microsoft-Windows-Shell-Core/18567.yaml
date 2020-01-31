@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18567'
+version: '0'
+event(fields): Shell32_DefView_StackStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: Shell32_DefView_Stack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

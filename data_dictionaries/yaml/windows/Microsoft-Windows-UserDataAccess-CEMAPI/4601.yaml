@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4601'
+version: '0'
+event(fields): CONVERSATION_DELETEStop()
+opcode: Stop
+keywords: Performance
+task: CONVERSATION_DELETE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

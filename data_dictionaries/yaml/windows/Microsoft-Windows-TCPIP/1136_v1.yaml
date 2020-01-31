@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1136'
+version: '1'
+event(fields): FramingNdisPause_V1(UInt32 InterfaceIndex, AnsiString TraceString,
+  UInt32 CompartmentId)
+opcode: ''
+keywords: ut:TcpipInterface ut:Global
+task: FramingNdisPause
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: AnsiString
+  field_name: TraceString
+- field_type: UInt32
+  field_name: CompartmentId

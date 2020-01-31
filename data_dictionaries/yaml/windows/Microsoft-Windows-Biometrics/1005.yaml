@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Biometrics
+event_id: '1005'
+version: '0'
+event(fields): WBioSrvc1005(UnicodeString BiometricSensor, UnicodeString SensorAdapter,
+  UnicodeString EngineAdapter, UnicodeString StorageAdapter, GUID DatabaseID, UInt32
+  SensorMode, UInt32 SensorPool, UInt32 IsolationLevel, UnicodeString IsolationSensorAdapter,
+  UnicodeString IsolationEngineAdapter, UnicodeString IsolationStorageAdapter)
+opcode: ''
+keywords: ''
+task: WBioSrvc
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: BiometricSensor
+- field_type: UnicodeString
+  field_name: SensorAdapter
+- field_type: UnicodeString
+  field_name: EngineAdapter
+- field_type: UnicodeString
+  field_name: StorageAdapter
+- field_type: GUID
+  field_name: DatabaseID
+- field_type: UInt32
+  field_name: SensorMode
+- field_type: UInt32
+  field_name: SensorPool
+- field_type: UInt32
+  field_name: IsolationLevel
+- field_type: UnicodeString
+  field_name: IsolationSensorAdapter
+- field_type: UnicodeString
+  field_name: IsolationEngineAdapter
+- field_type: UnicodeString
+  field_name: IsolationStorageAdapter

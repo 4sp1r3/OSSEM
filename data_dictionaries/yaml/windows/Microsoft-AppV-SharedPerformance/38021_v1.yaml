@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '38021'
+version: '1'
+event(fields): VObjects.ServiceReadXMLStop_V1()
+opcode: Stop
+keywords: ''
+task: VObjects.ServiceReadXML
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXP
+event_id: '4'
+version: '0'
+event(fields): MetadataAcquisitionStop(UnicodeString DeviceID)
+opcode: Stop
+keywords: ''
+task: MetadataAcquisition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceID

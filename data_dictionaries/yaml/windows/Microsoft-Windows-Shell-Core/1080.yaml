@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1080'
+version: '0'
+event(fields): DataLayer_CollectionMemberOfGroupStart()
+opcode: Start
+keywords: Shell
+task: DataLayer_CollectionMemberOfGroup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

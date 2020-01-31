@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Sensors-Core-Performance
+event_id: '1021'
+version: '0'
+event(fields): SensorSubscription(Pointer Driver, Pointer Sensor, UInt32 ClientPID,
+  GUID Type, UInt32 Interval)
+opcode: ''
+keywords: ''
+task: SensorSubscription
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Driver
+- field_type: Pointer
+  field_name: Sensor
+- field_type: UInt32
+  field_name: ClientPID
+- field_type: GUID
+  field_name: Type
+- field_type: UInt32
+  field_name: Interval

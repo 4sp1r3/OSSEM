@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '15007'
+version: '1'
+event(fields): PackageConfig.RemoveUserPackageStop_V1()
+opcode: Stop
+keywords: ''
+task: PackageConfig.RemoveUserPackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

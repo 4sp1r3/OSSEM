@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '14'
+version: '0'
+event(fields): SyncProviderSynchronizationController(UnicodeString stringValue1)
+opcode: SynchronizationController
+keywords: DebugTrace
+task: SyncProvider
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Photo-Image-Codec
+event_id: '11'
+version: '0'
+event(fields): WMPHOTO_Decoder_FrameParamsTransform_Info(Int32 ROIWidth, Int32 ROIHeight,
+  Int32 ROIX, Int32 ROIY, UInt32 OutWidth, UInt32 OutHeight, UInt8 Orientation)
+opcode: ''
+keywords: ''
+task: WMPHOTO_Decoder_FrameParamsTransform_Info
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ROIWidth
+- field_type: Int32
+  field_name: ROIHeight
+- field_type: Int32
+  field_name: ROIX
+- field_type: Int32
+  field_name: ROIY
+- field_type: UInt32
+  field_name: OutWidth
+- field_type: UInt32
+  field_name: OutHeight
+- field_type: UInt8
+  field_name: Orientation

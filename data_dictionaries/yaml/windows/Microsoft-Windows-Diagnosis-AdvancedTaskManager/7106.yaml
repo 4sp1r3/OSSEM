@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '7106'
+version: '0'
+event(fields): AppHistory_ParsePackageIconStart(UnicodeString PackageInstallPath)
+opcode: Start
+keywords: datamonitor
+task: AppHistory_ParsePackageIcon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageInstallPath

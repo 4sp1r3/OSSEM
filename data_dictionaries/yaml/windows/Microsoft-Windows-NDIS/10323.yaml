@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10323'
+version: '0'
+event(fields): Power10323(UInt32 IfIndex, UInt64 IfLuid, UnicodeString PowerStateFrom,
+  UnicodeString PowerStateTo, UInt64 IfInUnicastPackets, UInt64 IfOutUnicastPackets,
+  UInt64 IfInMulticastPackets, UInt64 IfOutMulticastPackets, UInt64 IfInBroadcastPackets,
+  UInt64 IfOutBroadcastPackets)
+opcode: ''
+keywords: Power LwtDiagnostic
+task: Power
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: IfLuid
+- field_type: UnicodeString
+  field_name: PowerStateFrom
+- field_type: UnicodeString
+  field_name: PowerStateTo
+- field_type: UInt64
+  field_name: IfInUnicastPackets
+- field_type: UInt64
+  field_name: IfOutUnicastPackets
+- field_type: UInt64
+  field_name: IfInMulticastPackets
+- field_type: UInt64
+  field_name: IfOutMulticastPackets
+- field_type: UInt64
+  field_name: IfInBroadcastPackets
+- field_type: UInt64
+  field_name: IfOutBroadcastPackets

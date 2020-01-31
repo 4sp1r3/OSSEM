@@ -1,0 +1,12 @@
+provider: Heap Trace Provider
+category: '{222962ab-6180-4b88-a825-346b75f2a24a}'
+event_id: '32'
+version: '2'
+event(fields): HeapCreate_V2(UInt32 HeapHandle, UInt32 HeapFlags)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: HeapHandle
+- field_type: UInt32
+  field_name: HeapFlags

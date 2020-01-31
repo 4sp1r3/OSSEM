@@ -1,0 +1,17 @@
+provider: Microsoft-AppV-Client
+event_id: '1033'
+version: '1'
+event(fields): PublishPackage1033_V1(GUID Id, GUID Version, UnicodeString Path)
+opcode: ''
+keywords: Publishing
+task: PublishPackage
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: GUID
+  field_name: Version
+- field_type: UnicodeString
+  field_name: Path

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27162'
+version: '0'
+event(fields): PerfTrack_SearchBox_CharactersTypedStop()
+opcode: Stop
+keywords: Shell
+task: PerfTrack_SearchBox_CharactersTyped
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

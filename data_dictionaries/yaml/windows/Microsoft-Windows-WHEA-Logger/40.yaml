@@ -1,0 +1,66 @@
+provider: Microsoft-Windows-WHEA-Logger
+event_id: '40'
+version: '0'
+event(fields): task_040(UInt32 ErrorSource, GUID FRUId, AnsiString FRUText, HexInt64
+  ValidBits, UInt32 PortType, HexInt32 Version, HexInt32 Command, HexInt32 Status,
+  HexInt32 Bus, HexInt32 Device, HexInt32 Function, HexInt32 Segment, HexInt32 SecondaryBus,
+  HexInt32 Slot, HexInt32 VendorID, HexInt32 DeviceID, HexInt32 ClassCode, HexInt64
+  DeviceSerialNumber, HexInt32 BridgeControl, HexInt32 BridgeStatus, HexInt32 UncorrectableErrorStatus,
+  HexInt32 CorrectableErrorStatus, Binary HeaderLog, UInt32 Length, Binary RawData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorSource
+- field_type: GUID
+  field_name: FRUId
+- field_type: AnsiString
+  field_name: FRUText
+- field_type: HexInt64
+  field_name: ValidBits
+- field_type: UInt32
+  field_name: PortType
+- field_type: HexInt32
+  field_name: Version
+- field_type: HexInt32
+  field_name: Command
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: Bus
+- field_type: HexInt32
+  field_name: Device
+- field_type: HexInt32
+  field_name: Function
+- field_type: HexInt32
+  field_name: Segment
+- field_type: HexInt32
+  field_name: SecondaryBus
+- field_type: HexInt32
+  field_name: Slot
+- field_type: HexInt32
+  field_name: VendorID
+- field_type: HexInt32
+  field_name: DeviceID
+- field_type: HexInt32
+  field_name: ClassCode
+- field_type: HexInt64
+  field_name: DeviceSerialNumber
+- field_type: HexInt32
+  field_name: BridgeControl
+- field_type: HexInt32
+  field_name: BridgeStatus
+- field_type: HexInt32
+  field_name: UncorrectableErrorStatus
+- field_type: HexInt32
+  field_name: CorrectableErrorStatus
+- field_type: Binary
+  field_name: HeaderLog
+- field_type: UInt32
+  field_name: Length
+- field_type: Binary
+  field_name: RawData

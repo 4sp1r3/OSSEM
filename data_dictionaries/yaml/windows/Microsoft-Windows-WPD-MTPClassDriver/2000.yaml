@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '2000'
+version: '0'
+event(fields): task_0(UInt32 SessionID, UInt32 TransactionID, UInt16 MTP_Opcode, UInt32
+  MTP_Command_Param_count, UInt32 MTP_Command_Params)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionID
+- field_type: UInt32
+  field_name: TransactionID
+- field_type: UInt16
+  field_name: MTP_Opcode
+- field_type: UInt32
+  field_name: MTP_Command_Param_count
+- field_type: UInt32
+  field_name: MTP_Command_Params

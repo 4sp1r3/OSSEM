@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CertPolEng
+event_id: '46'
+version: '0'
+event(fields): task_046(GUID Provider)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Provider

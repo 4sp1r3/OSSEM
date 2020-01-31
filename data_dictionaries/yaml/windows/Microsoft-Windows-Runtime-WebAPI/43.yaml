@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Runtime-WebAPI
+event_id: '43'
+version: '0'
+event(fields): AsyncI/OHTTPoperation43(UnicodeString uri)
+opcode: HTTPoperation
+keywords: keywords.AtomPub
+task: AsyncI/O
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: uri

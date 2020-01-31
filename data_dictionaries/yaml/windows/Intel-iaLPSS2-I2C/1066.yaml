@@ -1,0 +1,11 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1066'
+version: '0'
+event(fields): iaLPSS2_I2CPowerroutines1066()
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CPowerroutines
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-MFReadWrite
+event_id: '2'
+version: '0'
+event(fields): SourceReader_SetCurrentPositionStart(Pointer Object, GUID TimeFormat,
+  UInt32 VariantType, UInt64 Position)
+opcode: Start
+keywords: ''
+task: SourceReader_SetCurrentPosition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: GUID
+  field_name: TimeFormat
+- field_type: UInt32
+  field_name: VariantType
+- field_type: UInt64
+  field_name: Position

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '445'
+version: '0'
+event(fields): DCompCommandType(UInt32 CommandType, UInt64 status)
+opcode: ''
+keywords: Updates Visualization
+task: DCompCommandType
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CommandType
+- field_type: UInt64
+  field_name: status

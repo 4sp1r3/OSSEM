@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '8'
+version: '1'
+event(fields): Class8_V1(UInt32 DeviceNumber, UInt8 SenseKey, UInt8 AddSense, UInt8
+  AddSenseQ, UInt32 CurrentRetryCount)
+opcode: ''
+keywords: SenseData
+task: Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: UInt8
+  field_name: SenseKey
+- field_type: UInt8
+  field_name: AddSense
+- field_type: UInt8
+  field_name: AddSenseQ
+- field_type: UInt32
+  field_name: CurrentRetryCount

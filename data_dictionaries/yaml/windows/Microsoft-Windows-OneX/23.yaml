@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-OneX
+event_id: '23'
+version: '0'
+event(fields): User23(UInt32 PortId)
+opcode: ''
+keywords: User LwtDiagnostic ut:Authentication
+task: User
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PortId

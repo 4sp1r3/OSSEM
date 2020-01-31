@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '20009'
+version: '1'
+event(fields): VirtualProcessCreatedActivity_1704Stop_V1()
+opcode: Stop
+keywords: ''
+task: VirtualProcessCreatedActivity_1704
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

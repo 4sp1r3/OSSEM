@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '150'
+version: '0'
+event(fields): task_0150()
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

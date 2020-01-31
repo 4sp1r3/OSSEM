@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-COMRuntime
+event_id: '2'
+version: '0'
+event(fields): ComCallDelay(UInt32 Flags, UInt32 CallTimeMs, UInt32 CallResult, UInt32
+  TargetThreadId, UInt32 TargetProcessId, UInt32 TargetMethod, GUID TargetInterface)
+opcode: ''
+keywords: ComCallWaitAnalysis
+task: ComCallDelay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: CallTimeMs
+- field_type: UInt32
+  field_name: CallResult
+- field_type: UInt32
+  field_name: TargetThreadId
+- field_type: UInt32
+  field_name: TargetProcessId
+- field_type: UInt32
+  field_name: TargetMethod
+- field_type: GUID
+  field_name: TargetInterface

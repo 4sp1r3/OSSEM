@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '385'
+version: '0'
+event(fields): task_0385(UnicodeString KeyName, Int32 KeyStatus, UnicodeString KeyStatusSymbolicName,
+  Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: KeyName
+- field_type: Int32
+  field_name: KeyStatus
+- field_type: UnicodeString
+  field_name: KeyStatusSymbolicName
+- field_type: Int32
+  field_name: ErrorCode

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PackageStateRoaming
+event_id: '5006'
+version: '0'
+event(fields): task_05006(UnicodeString OldCollectionId, UnicodeString NewCollectionId,
+  UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: OldCollectionId
+- field_type: UnicodeString
+  field_name: NewCollectionId
+- field_type: UInt32
+  field_name: HRESULT

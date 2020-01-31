@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebAuth
+event_id: '1051'
+version: '0'
+event(fields): NavigationErrorStop1051(UnicodeString Url, UInt32 HttpStatusCode)
+opcode: Stop
+keywords: AuthHost
+task: NavigationError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Url
+- field_type: UInt32
+  field_name: HttpStatusCode

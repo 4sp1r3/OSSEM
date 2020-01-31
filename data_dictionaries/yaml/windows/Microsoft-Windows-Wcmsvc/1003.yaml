@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Wcmsvc
+event_id: '1003'
+version: '0'
+event(fields): task_01003(UInt32 Status, UInt32 Name)
+opcode: ''
+keywords: LwtDiagnostic
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: Name

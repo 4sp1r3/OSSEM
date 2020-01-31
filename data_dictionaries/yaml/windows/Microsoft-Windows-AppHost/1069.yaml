@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1069'
+version: '0'
+event(fields): LeavingBackgroundStart()
+opcode: Start
+keywords: WwaHost
+task: LeavingBackground
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

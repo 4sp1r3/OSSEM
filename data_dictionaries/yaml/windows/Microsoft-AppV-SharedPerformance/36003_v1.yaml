@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '36003'
+version: '1'
+event(fields): ManifestWriteStart_V1()
+opcode: Start
+keywords: ''
+task: ManifestWrite
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

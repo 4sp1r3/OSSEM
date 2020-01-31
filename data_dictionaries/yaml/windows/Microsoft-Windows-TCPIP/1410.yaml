@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1410'
+version: '0'
+event(fields): UdpStartEndpointModuleFailure(UnicodeString FailedQueueString, UInt32
+  Status)
+opcode: ''
+keywords: ut:Global
+task: UdpStartEndpointModuleFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FailedQueueString
+- field_type: UInt32
+  field_name: Status

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '98'
+version: '1'
+event(fields): SystemTimeResolutionKernelChange_V1(UInt32 RequestedResolution, UInt32
+  Tag)
+opcode: ''
+keywords: po:Diagnostic
+task: SystemTimeResolutionKernelChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestedResolution
+- field_type: UInt32
+  field_name: Tag

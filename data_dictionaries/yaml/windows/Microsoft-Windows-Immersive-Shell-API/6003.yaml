@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '6003'
+version: '0'
+event(fields): SearchPane_API_TypeAhead_AsyncImageDownloadStop()
+opcode: Stop
+keywords: ''
+task: SearchPane_API_TypeAhead_AsyncImageDownload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

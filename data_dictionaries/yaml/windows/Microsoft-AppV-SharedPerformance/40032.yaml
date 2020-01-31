@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40032'
+version: '0'
+event(fields): VReg.QuerySecurityStart()
+opcode: Start
+keywords: ''
+task: VReg.QuerySecurity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

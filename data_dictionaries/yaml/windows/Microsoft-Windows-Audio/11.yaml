@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Audio
+event_id: '11'
+version: '0'
+event(fields): AudioServer_Stream_Flags(UInt32 dwAudioSrvStreamFlags)
+opcode: ''
+keywords: ''
+task: AudioServer_Stream_Flags
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwAudioSrvStreamFlags

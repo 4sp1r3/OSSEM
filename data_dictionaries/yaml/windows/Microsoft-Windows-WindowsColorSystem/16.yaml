@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '16'
+version: '0'
+event(fields): TransformCreation(UnicodeString Profile, UnicodeString Reason)
+opcode: ''
+keywords: ''
+task: TransformCreation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Profile
+- field_type: UnicodeString
+  field_name: Reason

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Runtime-Media
+event_id: '245'
+version: '0'
+event(fields): MediaCapturePhotoConfirmation(Pointer SamplePtr)
+opcode: ''
+keywords: ''
+task: MediaCapturePhotoConfirmation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SamplePtr

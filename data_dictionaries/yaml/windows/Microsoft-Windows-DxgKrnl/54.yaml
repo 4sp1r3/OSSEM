@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '54'
+version: '0'
+event(fields): PagingOpFill(Pointer pDxgAdapter, Pointer hDmaBuffer, Boolean ContinueNextBuffer,
+  Pointer hAllocationGlobalHandle, UInt64 FillSize, UInt32 FillPattern, UInt32 SegmentId,
+  UInt64 SegmentOffset)
+opcode: ''
+keywords: Resource
+task: PagingOpFill
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: hDmaBuffer
+- field_type: Boolean
+  field_name: ContinueNextBuffer
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt64
+  field_name: FillSize
+- field_type: UInt32
+  field_name: FillPattern
+- field_type: UInt32
+  field_name: SegmentId
+- field_type: UInt64
+  field_name: SegmentOffset

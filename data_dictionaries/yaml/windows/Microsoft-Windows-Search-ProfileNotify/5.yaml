@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Search-ProfileNotify
+event_id: '5'
+version: '0'
+event(fields): task_0PCODE_64pcode_645(UnicodeString User, UInt32 __binLength, Binary
+  binary)
+opcode: opcode_64
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: binary

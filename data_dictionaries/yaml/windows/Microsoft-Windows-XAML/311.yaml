@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '311'
+version: '0'
+event(fields): NotifyGripperPositionChangedStart()
+opcode: Start
+keywords: Input
+task: NotifyGripperPositionChanged
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

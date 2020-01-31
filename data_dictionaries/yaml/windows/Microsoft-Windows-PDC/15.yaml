@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDC
+event_id: '15'
+version: '0'
+event(fields): NotificationCallback(UInt32 Status)
+opcode: ''
+keywords: notifications
+task: NotificationCallback
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status

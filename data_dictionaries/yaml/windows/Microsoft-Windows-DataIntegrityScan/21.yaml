@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DataIntegrityScan
+event_id: '21'
+version: '0'
+event(fields): task_0Start21(UInt16 VolumeNameLength, UnicodeString VolumeName, UInt16
+  FriendlyVolumeNameLength, UnicodeString FriendlyVolumeName, GUID VolumeGuid, UInt32
+  DiskNumber, GUID DiskGuid, GUID PortPoolId, GUID PortDiskId)
+opcode: Start
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: VolumeNameLength
+- field_type: UnicodeString
+  field_name: VolumeName
+- field_type: UInt16
+  field_name: FriendlyVolumeNameLength
+- field_type: UnicodeString
+  field_name: FriendlyVolumeName
+- field_type: GUID
+  field_name: VolumeGuid
+- field_type: UInt32
+  field_name: DiskNumber
+- field_type: GUID
+  field_name: DiskGuid
+- field_type: GUID
+  field_name: PortPoolId
+- field_type: GUID
+  field_name: PortDiskId

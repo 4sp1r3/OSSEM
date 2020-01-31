@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-AppHost
+event_id: '1022'
+version: '0'
+event(fields): ApplicationTerminationStop(UnicodeString PackageFullName, UnicodeString
+  AppID)
+opcode: Stop
+keywords: WwaHost
+task: ApplicationTermination
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppID

@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '515'
+version: '0'
+event(fields): Mshtml_Composition_Layer_Dependent_Subtree(Pointer DispNode, UnicodeString
+  NodeDescription, Boolean HasDependentCompositionEffect, Boolean HasRoundedBorders)
+opcode: ''
+keywords: composition
+task: Mshtml_Composition_Layer_Dependent_Subtree
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DispNode
+- field_type: UnicodeString
+  field_name: NodeDescription
+- field_type: Boolean
+  field_name: HasDependentCompositionEffect
+- field_type: Boolean
+  field_name: HasRoundedBorders

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '12000'
+version: '1'
+event(fields): VEMgrDriverLoadStart_V1()
+opcode: Start
+keywords: ''
+task: VEMgrDriverLoad
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

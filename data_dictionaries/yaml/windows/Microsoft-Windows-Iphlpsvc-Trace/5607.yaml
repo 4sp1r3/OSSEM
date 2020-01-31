@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5607'
+version: '0'
+event(fields): task_05607(UnicodeString SiteName, UInt64 Delay)
+opcode: ''
+keywords: damultisite
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SiteName
+- field_type: UInt64
+  field_name: Delay

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7418'
+version: '0'
+event(fields): ConnectedSearch_ImageDownloaderDeferredPreFetchTaskStart()
+opcode: Start
+keywords: ''
+task: ConnectedSearch_ImageDownloaderDeferredPreFetchTask
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

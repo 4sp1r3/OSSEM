@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '32'
+version: '0'
+event(fields): LogicalSurfPhysSurfUnbind(UInt64 hLogicalSurf, UInt64 hPhysicalSurf)
+opcode: ''
+keywords: Updates
+task: LogicalSurfPhysSurfUnbind
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hLogicalSurf
+- field_type: UInt64
+  field_name: hPhysicalSurf

@@ -1,0 +1,20 @@
+provider: Microsoft-AppV-Client
+event_id: '4006'
+version: '1'
+event(fields): ExecuteEmbeddedScripts4006_V1(GUID tGuid, UnicodeString tString, UInt32
+  ErrorHigh, UInt32 ErrorLow)
+opcode: ''
+keywords: EmbeddedScripting
+task: ExecuteEmbeddedScripts
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: tGuid
+- field_type: UnicodeString
+  field_name: tString
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow

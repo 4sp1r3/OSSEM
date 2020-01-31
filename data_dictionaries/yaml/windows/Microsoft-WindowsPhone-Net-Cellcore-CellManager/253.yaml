@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '253'
+version: '0'
+event(fields): CellService253(Boolean bCode1)
+opcode: ''
+keywords: Trace
+task: CellService
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: bCode1

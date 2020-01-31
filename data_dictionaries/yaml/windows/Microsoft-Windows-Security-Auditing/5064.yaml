@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '5064'
+version: '0'
+event(fields): task_05064(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, UInt64 SubjectLogonId, UnicodeString Scope, UnicodeString ContextName,
+  UnicodeString Operation, UInt32 ReturnCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: UInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: Scope
+- field_type: UnicodeString
+  field_name: ContextName
+- field_type: UnicodeString
+  field_name: Operation
+- field_type: UInt32
+  field_name: ReturnCode

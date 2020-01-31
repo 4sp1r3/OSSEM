@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '246'
+version: '0'
+event(fields): Mshtml_CPaintController_CanNotPaintNow(UInt64 Object, UInt64 Value)
+opcode: ''
+keywords: subsystem
+task: Mshtml_CPaintController_CanNotPaintNow
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object
+- field_type: UInt64
+  field_name: Value

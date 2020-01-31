@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MF
+event_id: '1310'
+version: '0'
+event(fields): SrcPrefetchFillBufferStart(Pointer Object)
+opcode: Start
+keywords: ''
+task: SrcPrefetchFillBuffer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '1165'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.QueueManagerGetNextStart()
+opcode: Start
+keywords: APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.QueueManagerGetNext
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '467'
+version: '0'
+event(fields): RenderTargetBitmapFallback(UInt64 Id, UInt32 Reason)
+opcode: ''
+keywords: Images
+task: RenderTargetBitmapFallback
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt32
+  field_name: Reason

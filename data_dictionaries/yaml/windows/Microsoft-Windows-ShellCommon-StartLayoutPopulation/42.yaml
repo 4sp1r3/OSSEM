@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '42'
+version: '0'
+event(fields): StartLayout_PostProcessing_Unattend(UnicodeString value)
+opcode: ''
+keywords: ''
+task: StartLayout_PostProcessing_Unattend
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value

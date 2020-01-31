@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebServices
+event_id: '16'
+version: '0'
+event(fields): MessageExchangeSendingMessageStop(UInt64 correlationId)
+opcode: SendingMessageStop
+keywords: keywords.Message
+task: MessageExchange
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: correlationId

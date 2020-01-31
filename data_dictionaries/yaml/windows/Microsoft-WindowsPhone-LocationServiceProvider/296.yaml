@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '296'
+version: '0'
+event(fields): CompositePE296(UInt64 Timestamp, Double Latitude, Double Longitude,
+  Double hAccuracy)
+opcode: ''
+keywords: SpeedEstimatorTracing
+task: CompositePE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Timestamp
+- field_type: Double
+  field_name: Latitude
+- field_type: Double
+  field_name: Longitude
+- field_type: Double
+  field_name: hAccuracy

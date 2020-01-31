@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CodeIntegrity
+event_id: '3055'
+version: '0'
+event(fields): SetFileCacheStop(HexInt32 Status)
+opcode: Stop
+keywords: ''
+task: SetFileCache
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

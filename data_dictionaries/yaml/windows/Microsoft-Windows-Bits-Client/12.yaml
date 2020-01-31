@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '12'
+version: '0'
+event(fields): peerneighborlist(server)_listeningforclientsStop12()
+opcode: Stop
+keywords: ''
+task: peerneighborlist(server)_listeningforclients
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

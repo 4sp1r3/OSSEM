@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '971'
+version: '0'
+event(fields): CellularModemContainer971(UInt32 dwordName, Boolean booleanName)
+opcode: ''
+keywords: Trace
+task: CellularModemContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwordName
+- field_type: Boolean
+  field_name: booleanName

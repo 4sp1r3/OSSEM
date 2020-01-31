@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2688'
+version: '0'
+event(fields): Settings_Flow_Broker_ShowStart()
+opcode: Start
+keywords: ''
+task: Settings_Flow_Broker_Show
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '227'
+version: '0'
+event(fields): task_0227(UnicodeString Verb, UInt32 Flags, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Verb
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ErrorCode

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BackgroundTransfer-ContentPrefetcher
+event_id: '16'
+version: '0'
+event(fields): URIFetch16(UnicodeString uri, UInt32 statusCode)
+opcode: ''
+keywords: ''
+task: URIFetch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: uri
+- field_type: UInt32
+  field_name: statusCode

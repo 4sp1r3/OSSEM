@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '533'
+version: '0'
+event(fields): KeyEventStop()
+opcode: Stop
+keywords: ''
+task: KeyEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

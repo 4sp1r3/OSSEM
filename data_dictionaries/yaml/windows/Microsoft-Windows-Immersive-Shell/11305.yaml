@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11305'
+version: '0'
+event(fields): LockScreenCallBroker_AppLaunched(GUID ConnectionGUID, UnicodeString
+  AppID, UnicodeString AppArguments, Boolean AppAlreadyRunning)
+opcode: ''
+keywords: LockScreenCallBroker
+task: LockScreenCallBroker_AppLaunched
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConnectionGUID
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UnicodeString
+  field_name: AppArguments
+- field_type: Boolean
+  field_name: AppAlreadyRunning

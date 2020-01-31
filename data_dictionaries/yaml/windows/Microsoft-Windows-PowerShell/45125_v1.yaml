@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45125'
+version: '1'
+event(fields): ConfigurationTobeusedwhenoperationisjustexecutingamethod45125_V1(UnicodeString
+  endpointName, UnicodeString enabledBy)
+opcode: Tobeusedwhenoperationisjustexecutingamethod
+keywords: PSWorkflow
+task: Configuration
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: endpointName
+- field_type: UnicodeString
+  field_name: enabledBy

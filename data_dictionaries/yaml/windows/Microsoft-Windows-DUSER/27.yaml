@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DUSER
+event_id: '27'
+version: '0'
+event(fields): DUser_LayerGadgetLoopStop(UInt32 cTrans, UInt32 dwTicket)
+opcode: Stop
+keywords: Default
+task: DUser_LayerGadgetLoop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: cTrans
+- field_type: UInt32
+  field_name: dwTicket

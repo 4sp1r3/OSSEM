@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '59995'
+version: '0'
+event(fields): DebugStop(Pointer Context, UInt32 EtwQueueActionType)
+opcode: Stop
+keywords: ''
+task: Debug
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Context
+- field_type: UInt32
+  field_name: EtwQueueActionType

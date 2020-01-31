@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Iphlpsvc-Trace
+event_id: '5403'
+version: '0'
+event(fields): task_05403(UnicodeString Action, UInt32 Status)
+opcode: ''
+keywords: PROXYMGR
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Action
+- field_type: UInt32
+  field_name: Status

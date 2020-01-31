@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '205'
+version: '0'
+event(fields): MLS(UnicodeString Name, UnicodeString Value)
+opcode: ''
+keywords: mls
+task: MLS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Value

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '2003'
+version: '0'
+event(fields): LanguagePackSetupUtilityfunctionalityLanguagePackSetupstandardoperation2003(UnicodeString
+  PreviousLanguage, UnicodeString NewLanguage, HexInt32 Error)
+opcode: LanguagePackSetupstandardoperation
+keywords: ''
+task: LanguagePackSetupUtilityfunctionality
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PreviousLanguage
+- field_type: UnicodeString
+  field_name: NewLanguage
+- field_type: HexInt32
+  field_name: Error

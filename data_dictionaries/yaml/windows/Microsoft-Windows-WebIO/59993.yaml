@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-WebIO
+event_id: '59993'
+version: '0'
+event(fields): ThreadTokenStart(UInt64 Token, UInt64 OldToken, UInt32 Error)
+opcode: Start
+keywords: ''
+task: ThreadToken
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Token
+- field_type: UInt64
+  field_name: OldToken
+- field_type: UInt32
+  field_name: Error

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1658'
+version: '0'
+event(fields): task_01658(UInt32 Type, UInt32 Context, AnsiString szNetwork, Float
+  Score, UInt64 flightId, UInt64 networkId, UInt32 DataNeeded)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Context
+- field_type: AnsiString
+  field_name: szNetwork
+- field_type: Float
+  field_name: Score
+- field_type: UInt64
+  field_name: flightId
+- field_type: UInt64
+  field_name: networkId
+- field_type: UInt32
+  field_name: DataNeeded

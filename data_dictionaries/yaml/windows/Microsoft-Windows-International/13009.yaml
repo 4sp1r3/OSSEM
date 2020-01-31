@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-International
+event_id: '13009'
+version: '0'
+event(fields): NLSUnattendedRegionalandLanguageOptionsNLSoperations13009()
+opcode: NLSoperations
+keywords: ''
+task: NLSUnattendedRegionalandLanguageOptions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2408'
+version: '0'
+event(fields): task_02408(UnicodeString ChannelId, UnicodeString NotificationType,
+  UInt32 TrackingId, UnicodeString AppUserModelId, GUID PhoneVoipAgentId)
+opcode: ''
+keywords: wpnend
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ChannelId
+- field_type: UnicodeString
+  field_name: NotificationType
+- field_type: UInt32
+  field_name: TrackingId
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: GUID
+  field_name: PhoneVoipAgentId

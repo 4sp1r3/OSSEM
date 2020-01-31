@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '66'
+version: '0'
+event(fields): IPS_Harvest_AppDictionaryStop()
+opcode: Stop
+keywords: ''
+task: IPS_Harvest_AppDictionary
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

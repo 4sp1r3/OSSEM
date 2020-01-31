@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6554'
+version: '0'
+event(fields): task_06554(UInt32 Value1, UInt32 Value2, UInt32 Value3, UInt32 Value4,
+  UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value1
+- field_type: UInt32
+  field_name: Value2
+- field_type: UInt32
+  field_name: Value3
+- field_type: UInt32
+  field_name: Value4
+- field_type: UInt32
+  field_name: HRESULT

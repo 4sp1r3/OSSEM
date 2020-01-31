@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1048'
+version: '2'
+event(fields): PrelaunchWorkerStop_V2(HexInt32 Result)
+opcode: Stop
+keywords: PfAp
+task: PrelaunchWorker
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Result

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '148'
+version: '0'
+event(fields): ShutdownMouseMonitorStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ShutdownMouseMonitor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

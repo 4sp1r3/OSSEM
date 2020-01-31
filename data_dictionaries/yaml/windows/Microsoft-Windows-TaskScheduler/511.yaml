@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '511'
+version: '0'
+event(fields): IdleTaskPerfTrackIdleExit(UInt32 TimeSinceUserNotPresent, UInt32 DATA)
+opcode: ''
+keywords: ForcedIdleProcessing
+task: IdleTaskPerfTrackIdleExit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimeSinceUserNotPresent
+- field_type: UInt32
+  field_name: DATA

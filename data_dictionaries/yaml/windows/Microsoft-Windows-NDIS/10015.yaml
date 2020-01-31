@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10015'
+version: '0'
+event(fields): Interface10015(GUID NetworkId)
+opcode: ''
+keywords: Interface
+task: Interface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: NetworkId

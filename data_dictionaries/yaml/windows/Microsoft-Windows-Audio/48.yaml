@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Audio
+event_id: '48'
+version: '0'
+event(fields): Audio_Glitch_DetectionKSEndpointGlitch:STRENDeviceStarved(Pointer pCAudioRenderPinStandardStreaming,
+  UInt64 DevicePosition, UInt64 StreamPosition, UInt32 AvailableFrames)
+opcode: STRENDeviceStarved
+keywords: ''
+task: Audio_Glitch_Detection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pCAudioRenderPinStandardStreaming
+- field_type: UInt64
+  field_name: DevicePosition
+- field_type: UInt64
+  field_name: StreamPosition
+- field_type: UInt32
+  field_name: AvailableFrames

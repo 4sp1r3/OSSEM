@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '505'
+version: '0'
+event(fields): WluiServerStartup()
+opcode: ''
+keywords: ''
+task: WluiServerStartup
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

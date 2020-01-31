@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Smartcard-Server
+event_id: '623'
+version: '0'
+event(fields): task_0623(UnicodeString Reader, UnicodeString Timeout, UnicodeString
+  PID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Reader
+- field_type: UnicodeString
+  field_name: Timeout
+- field_type: UnicodeString
+  field_name: PID

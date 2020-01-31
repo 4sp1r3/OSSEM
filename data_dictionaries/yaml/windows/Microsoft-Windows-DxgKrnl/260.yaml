@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '260'
+version: '0'
+event(fields): DpiFdoThermalActiveCooling(Pointer FunctionalDeviceObject, Boolean
+  Engaged)
+opcode: ''
+keywords: DxgKrnl_Power
+task: DpiFdoThermalActiveCooling
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: FunctionalDeviceObject
+- field_type: Boolean
+  field_name: Engaged

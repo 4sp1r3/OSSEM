@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60623'
+version: '0'
+event(fields): ItemsView_LineScroller_DesiredSizePassStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: ItemsView_LineScroller_DesiredSizePass
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

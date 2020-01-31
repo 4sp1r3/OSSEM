@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Workplace Join
+event_id: '400'
+version: '0'
+event(fields): task_0400(HexInt32 ExitCode, UnicodeString ErrorCodeText, UnicodeString
+  ErrorMessage, UnicodeString ErrorData)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ExitCode
+- field_type: UnicodeString
+  field_name: ErrorCodeText
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: ErrorData

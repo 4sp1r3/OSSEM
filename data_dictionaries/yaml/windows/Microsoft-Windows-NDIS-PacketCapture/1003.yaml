@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-NDIS-PacketCapture
+event_id: '1003'
+version: '0'
+event(fields): task_01003(UInt32 MiniportIfIndex, UInt32 LowerIfIndex, UInt32 SourcePortId,
+  UnicodeString SourcePortName, UnicodeString SourceNicName, UnicodeString SourceNicType,
+  UInt32 DestinationCount, Double Destination, UInt32 FragmentSize, Binary Fragment,
+  UInt32 OOBDataSize, Binary OOBData)
+opcode: ''
+keywords: VMSwitch keyword_40000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MiniportIfIndex
+- field_type: UInt32
+  field_name: LowerIfIndex
+- field_type: UInt32
+  field_name: SourcePortId
+- field_type: UnicodeString
+  field_name: SourcePortName
+- field_type: UnicodeString
+  field_name: SourceNicName
+- field_type: UnicodeString
+  field_name: SourceNicType
+- field_type: UInt32
+  field_name: DestinationCount
+- field_type: Double
+  field_name: Destination
+- field_type: UInt32
+  field_name: FragmentSize
+- field_type: Binary
+  field_name: Fragment
+- field_type: UInt32
+  field_name: OOBDataSize
+- field_type: Binary
+  field_name: OOBData

@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '613'
+version: '0'
+event(fields): Recovery_WriteInitialStoreStop(UnicodeString FileName)
+opcode: Stop
+keywords: verbose
+task: Recovery_WriteInitialStore
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-LiveId
+event_id: '2015'
+version: '0'
+event(fields): WLIDCredProvOperationStart()
+opcode: Start
+keywords: Analytic
+task: WLIDCredProvOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

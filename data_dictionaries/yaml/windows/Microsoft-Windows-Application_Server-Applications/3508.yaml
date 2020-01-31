@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3508'
+version: '0'
+event(fields): TrackingProfileNotFound(UnicodeString TrackingProfile, UnicodeString
+  ActivityDefinitionId, UnicodeString AppDomain)
+opcode: NotFound
+keywords: WFServices
+task: TrackingProfile
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TrackingProfile
+- field_type: UnicodeString
+  field_name: ActivityDefinitionId
+- field_type: UnicodeString
+  field_name: AppDomain

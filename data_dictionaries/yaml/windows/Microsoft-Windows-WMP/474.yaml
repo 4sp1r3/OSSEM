@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '474'
+version: '0'
+event(fields): WMPDMR_CONNECTION_MANAGER_ACTIONSStart()
+opcode: Start
+keywords: mediaplayer
+task: WMPDMR_CONNECTION_MANAGER_ACTIONS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

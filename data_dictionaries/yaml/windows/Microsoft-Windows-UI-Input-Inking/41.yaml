@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UI-Input-Inking
+event_id: '41'
+version: '0'
+event(fields): Inking_IStrokeBuilder_CreateStrokeStart()
+opcode: Start
+keywords: InkStrokeBuilding
+task: Inking_IStrokeBuilder_CreateStroke
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1101'
+version: '0'
+event(fields): WorkflowActivityStart(GUID Id, UnicodeString AppDomain)
+opcode: Start
+keywords: WFRuntime
+task: WorkflowActivity
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UnicodeString
+  field_name: AppDomain

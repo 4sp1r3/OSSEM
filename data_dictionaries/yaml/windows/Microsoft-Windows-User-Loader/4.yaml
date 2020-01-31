@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-User-Loader
+event_id: '4'
+version: '0'
+event(fields): task_04(UnicodeString FileName)
+opcode: ''
+keywords: USER_LOADER_LAUNCH_16BIT_APP
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '60014'
+version: '0'
+event(fields): AddressConfigurationStateEventPerfTrackFallbackAddressSet60014(GUID
+  InterfaceGuid, UInt32 InterfaceId, UInt32 StatusCode)
+opcode: PerfTrackFallbackAddressSet
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: StatusCode

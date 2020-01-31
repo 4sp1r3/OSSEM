@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '252'
+version: '0'
+event(fields): task_0252(UnicodeString PsmKey, Int32 ResumeReason, HexInt32 ErrorCode)
+opcode: ''
+keywords: PLM ExecDevPlatCircular
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: Int32
+  field_name: ResumeReason
+- field_type: HexInt32
+  field_name: ErrorCode

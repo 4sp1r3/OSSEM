@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '181'
+version: '0'
+event(fields): ImmersiveShellUIDrag(Int32 Left, Int32 Top, UnicodeString UIName)
+opcode: ''
+keywords: ''
+task: ImmersiveShellUIDrag
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Left
+- field_type: Int32
+  field_name: Top
+- field_type: UnicodeString
+  field_name: UIName

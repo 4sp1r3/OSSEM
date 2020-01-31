@@ -1,0 +1,30 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1333'
+version: '1'
+event(fields): TcpCtcpDataTransferSend1333_V1(Pointer Tcb, UInt32 Cwnd, UInt32 SndWnd,
+  UInt32 BytesSent, UInt32 SeqNo, UInt32 SRtt, UInt32 RttVar, UInt32 RTO, UInt32 RcvWnd)
+opcode: ''
+keywords: ut:SendPath
+task: TcpCtcpDataTransferSend
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Cwnd
+- field_type: UInt32
+  field_name: SndWnd
+- field_type: UInt32
+  field_name: BytesSent
+- field_type: UInt32
+  field_name: SeqNo
+- field_type: UInt32
+  field_name: SRtt
+- field_type: UInt32
+  field_name: RttVar
+- field_type: UInt32
+  field_name: RTO
+- field_type: UInt32
+  field_name: RcvWnd

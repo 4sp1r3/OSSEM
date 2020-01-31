@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PortableDeviceSyncProvider
+event_id: '435'
+version: '0'
+event(fields): WPDProvider_ReductionStop()
+opcode: Stop
+keywords: ''
+task: WPDProvider_Reduction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

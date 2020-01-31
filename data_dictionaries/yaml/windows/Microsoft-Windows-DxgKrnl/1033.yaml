@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1033'
+version: '0'
+event(fields): MiracastUmdDriverCbGetNextChunkDataStop(UInt64 MiracastLuid, UInt32
+  ChunkType, UInt32 FrameNumber, UInt32 PartNumber, UInt32 ProcessingTime, UInt32
+  EncodeRate, UInt32 PrivateDriverDataSize, UInt32 OutstandingChunksToProcess, UInt32
+  ReturnStatus)
+opcode: Stop
+keywords: Miracast
+task: MiracastUmdDriverCbGetNextChunkData
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid
+- field_type: UInt32
+  field_name: ChunkType
+- field_type: UInt32
+  field_name: FrameNumber
+- field_type: UInt32
+  field_name: PartNumber
+- field_type: UInt32
+  field_name: ProcessingTime
+- field_type: UInt32
+  field_name: EncodeRate
+- field_type: UInt32
+  field_name: PrivateDriverDataSize
+- field_type: UInt32
+  field_name: OutstandingChunksToProcess
+- field_type: UInt32
+  field_name: ReturnStatus

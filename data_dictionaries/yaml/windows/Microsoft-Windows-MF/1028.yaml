@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MF
+event_id: '1028'
+version: '0'
+event(fields): MediaProc:SourceNode_ProcessSampleStart(Pointer object, Pointer node,
+  UInt32 OutputIndex)
+opcode: Start
+keywords: ''
+task: MediaProc:SourceNode_ProcessSample
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: node
+- field_type: UInt32
+  field_name: OutputIndex

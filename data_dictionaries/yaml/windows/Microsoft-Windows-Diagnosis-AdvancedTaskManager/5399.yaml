@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5399'
+version: '0'
+event(fields): Dashboard_RemoveAdapterStart(UInt32 OldCount, UInt32 NewCount)
+opcode: Start
+keywords: dashboard
+task: Dashboard_RemoveAdapter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: OldCount
+- field_type: UInt32
+  field_name: NewCount

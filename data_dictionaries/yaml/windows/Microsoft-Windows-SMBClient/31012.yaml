@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '31012'
+version: '0'
+event(fields): task_031012(UInt16 Dialect, UInt16 SecurityMode, UInt32 Capabilities,
+  GUID Guid, UInt16 Dialect2, UInt16 SecurityMode2, UInt32 Capabilities2, GUID Guid2)
+opcode: ''
+keywords: Smb_Security
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Dialect
+- field_type: UInt16
+  field_name: SecurityMode
+- field_type: UInt32
+  field_name: Capabilities
+- field_type: GUID
+  field_name: Guid
+- field_type: UInt16
+  field_name: Dialect2
+- field_type: UInt16
+  field_name: SecurityMode2
+- field_type: UInt32
+  field_name: Capabilities2
+- field_type: GUID
+  field_name: Guid2

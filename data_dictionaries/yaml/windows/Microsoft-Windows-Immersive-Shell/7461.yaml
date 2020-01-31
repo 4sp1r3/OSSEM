@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7461'
+version: '0'
+event(fields): Perftrack_ConnectedSearch_PageLoadWithImagesStop7461(UnicodeString
+  Scope)
+opcode: Stop
+keywords: ''
+task: Perftrack_ConnectedSearch_PageLoadWithImages
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Scope

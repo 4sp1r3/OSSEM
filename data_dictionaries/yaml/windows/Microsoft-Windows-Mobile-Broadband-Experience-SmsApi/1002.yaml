@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Mobile-Broadband-Experience-SmsApi
+event_id: '1002'
+version: '0'
+event(fields): SendMessageStart()
+opcode: Start
+keywords: ''
+task: SendMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

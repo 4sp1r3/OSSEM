@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DLNA-Namespace
+event_id: '1008'
+version: '0'
+event(fields): Results2ShellPropertiesStop()
+opcode: Stop
+keywords: ''
+task: Results2ShellProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

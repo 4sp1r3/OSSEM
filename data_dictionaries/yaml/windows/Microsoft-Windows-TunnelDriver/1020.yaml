@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TunnelDriver
+event_id: '1020'
+version: '0'
+event(fields): task_01020(UInt32 IpAddrV6Length, Binary LocalIpv6Address, Binary RemoteIPv6Address)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IpAddrV6Length
+- field_type: Binary
+  field_name: LocalIpv6Address
+- field_type: Binary
+  field_name: RemoteIPv6Address

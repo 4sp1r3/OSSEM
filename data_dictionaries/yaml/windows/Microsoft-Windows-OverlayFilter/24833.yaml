@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-OverlayFilter
+event_id: '24833'
+version: '0'
+event(fields): WIMintegrityverificationIntegrityBlockVerificationFailure(UInt16 FileNameLength,
+  UnicodeString FileNameBuffer, UInt32 BlockNumber, UInt32 BlockLength)
+opcode: IntegrityBlockVerificationFailure
+keywords: ''
+task: WIMintegrityverification
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer
+- field_type: UInt32
+  field_name: BlockNumber
+- field_type: UInt32
+  field_name: BlockLength

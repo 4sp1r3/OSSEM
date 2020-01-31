@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Wordpad
+event_id: '19'
+version: '0'
+event(fields): Wordpad_ResizePictureStop()
+opcode: Stop
+keywords: ''
+task: Wordpad_ResizePicture
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

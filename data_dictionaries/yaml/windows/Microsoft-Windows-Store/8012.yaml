@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Store
+event_id: '8012'
+version: '0'
+event(fields): LMStateMachineChangeState(Pointer StateMachine, UInt32 ThreadID, UnicodeString
+  CurrentState, UnicodeString NewState, UnicodeString StateMachineName)
+opcode: ChangeState
+keywords: keyword_200000000000
+task: LMStateMachine
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: StateMachine
+- field_type: UInt32
+  field_name: ThreadID
+- field_type: UnicodeString
+  field_name: CurrentState
+- field_type: UnicodeString
+  field_name: NewState
+- field_type: UnicodeString
+  field_name: StateMachineName

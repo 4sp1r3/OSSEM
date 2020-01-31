@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '105'
+version: '0'
+event(fields): ProfileSettingChange(UInt8 ProfileId, AnsiString Name, UInt32 Type,
+  UInt8 Class, GUID Guid, UInt32 ValueSize, Binary Value)
+opcode: ''
+keywords: Algorithm Profiles
+task: ProfileSettingChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: ProfileId
+- field_type: AnsiString
+  field_name: Name
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt8
+  field_name: Class
+- field_type: GUID
+  field_name: Guid
+- field_type: UInt32
+  field_name: ValueSize
+- field_type: Binary
+  field_name: Value

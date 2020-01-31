@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Backup
+event_id: '11'
+version: '0'
+event(fields): task_011(GUID BackupSetId, UnicodeString VolumeFriendlyName)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BackupSetId
+- field_type: UnicodeString
+  field_name: VolumeFriendlyName

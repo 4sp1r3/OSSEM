@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TSF-msctf
+event_id: '42'
+version: '0'
+event(fields): ProcessALPCMessageStart(UInt32 message, UInt32 target_tid, UInt32 params)
+opcode: Start
+keywords: ALPC
+task: ProcessALPCMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: message
+- field_type: UInt32
+  field_name: target_tid
+- field_type: UInt32
+  field_name: params

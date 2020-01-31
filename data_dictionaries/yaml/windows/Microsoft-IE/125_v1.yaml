@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '125'
+version: '1'
+event(fields): Mshtml_FormatCalculation_ComputeFormatsStart_V1(Pointer TreeNode, UInt32
+  NodeType, UInt64 EventContextId)
+opcode: Start
+keywords: verbose
+task: Mshtml_FormatCalculation_ComputeFormats
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TreeNode
+- field_type: UInt32
+  field_name: NodeType
+- field_type: UInt64
+  field_name: EventContextId

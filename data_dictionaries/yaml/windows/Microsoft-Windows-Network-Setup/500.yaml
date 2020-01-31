@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Network-Setup
+event_id: '500'
+version: '0'
+event(fields): OperationStart(GUID TransactionGuid, UInt32 OperationType, UInt32 ObjectType,
+  GUID ObjectId, UInt16 PropertyBufferSize, Binary PropertyBuffer)
+opcode: Start
+keywords: ''
+task: Operation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionGuid
+- field_type: UInt32
+  field_name: OperationType
+- field_type: UInt32
+  field_name: ObjectType
+- field_type: GUID
+  field_name: ObjectId
+- field_type: UInt16
+  field_name: PropertyBufferSize
+- field_type: Binary
+  field_name: PropertyBuffer

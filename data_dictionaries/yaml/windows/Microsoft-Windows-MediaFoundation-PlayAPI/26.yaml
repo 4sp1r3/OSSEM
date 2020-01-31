@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '26'
+version: '0'
+event(fields): MFPlayStart26(Pointer Object, UInt64 TimeIn100ns, Pointer UserData)
+opcode: Start
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt64
+  field_name: TimeIn100ns
+- field_type: Pointer
+  field_name: UserData

@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '8012'
+version: '0'
+event(fields): SessionLayerExitRestrictedMode(UInt32 appLayer, Boolean fBool)
+opcode: ''
+keywords: SessionLayer
+task: SessionLayerExitRestrictedMode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: appLayer
+- field_type: Boolean
+  field_name: fBool

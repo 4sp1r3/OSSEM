@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '623'
+version: '0'
+event(fields): IA2TextRange_GetChildrenStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: IA2TextRange_GetChildren
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

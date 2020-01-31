@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7445'
+version: '0'
+event(fields): ConnectedSearch_LoadTemplateStop(UnicodeString Path, UInt32 Result)
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_LoadTemplate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UInt32
+  field_name: Result

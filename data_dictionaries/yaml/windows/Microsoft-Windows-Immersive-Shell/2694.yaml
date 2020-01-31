@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2694'
+version: '0'
+event(fields): Settings_Launch_PrivacyPolicyStart()
+opcode: Start
+keywords: ''
+task: Settings_Launch_PrivacyPolicy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '111'
+version: '0'
+event(fields): DirectUI_TouchSliderSelfLayoutStop()
+opcode: Stop
+keywords: Default
+task: DirectUI_TouchSliderSelfLayout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

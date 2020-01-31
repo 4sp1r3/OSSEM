@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AssignedAccess
+event_id: '33000'
+version: '0'
+event(fields): AssignedAccessMdmAlertmessages(UnicodeString Custom, HexInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: AssignedAccessMdmAlertmessages
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Custom
+- field_type: HexInt32
+  field_name: ErrorCode

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '168'
+version: '0'
+event(fields): Empty_ShutdownStop()
+opcode: Stop
+keywords: Service
+task: Empty_Shutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

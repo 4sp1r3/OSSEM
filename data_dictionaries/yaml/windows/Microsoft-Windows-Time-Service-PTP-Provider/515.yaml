@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-Time-Service-PTP-Provider
+event_id: '515'
+version: '0'
+event(fields): task_0515(UnicodeString AllowedMastersList, UInt32 AnnounceIntervalMsec,
+  UInt32 DelayPollIntervalMsec, UInt32 IfTstmp, UnicodeString BestMasterName, UnicodeString
+  BMAddress, UnicodeString BMClockId, UInt32 BMPortNum, UInt64 BMLastTimeSampleTickCount,
+  UInt32 ActiveMasterCount, UInt32 MulticastRxEnabled, UInt64 TickCount)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AllowedMastersList
+- field_type: UInt32
+  field_name: AnnounceIntervalMsec
+- field_type: UInt32
+  field_name: DelayPollIntervalMsec
+- field_type: UInt32
+  field_name: IfTstmp
+- field_type: UnicodeString
+  field_name: BestMasterName
+- field_type: UnicodeString
+  field_name: BMAddress
+- field_type: UnicodeString
+  field_name: BMClockId
+- field_type: UInt32
+  field_name: BMPortNum
+- field_type: UInt64
+  field_name: BMLastTimeSampleTickCount
+- field_type: UInt32
+  field_name: ActiveMasterCount
+- field_type: UInt32
+  field_name: MulticastRxEnabled
+- field_type: UInt64
+  field_name: TickCount

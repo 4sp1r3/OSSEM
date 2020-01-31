@@ -1,0 +1,15 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '122'
+version: '0'
+event(fields): CloseFrame(UInt32 TimespanInMs, UInt32 dwTabScenarioFlags)
+opcode: ''
+keywords: ''
+task: CloseFrame
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimespanInMs
+- field_type: UInt32
+  field_name: dwTabScenarioFlags

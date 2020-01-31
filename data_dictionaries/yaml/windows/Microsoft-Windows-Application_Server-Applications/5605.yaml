@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '5605'
+version: '0'
+event(fields): SessionCookieReading5605(UnicodeString HostReference, UnicodeString
+  AppDomain)
+opcode: ''
+keywords: Security
+task: SessionCookieReading
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-RTWorkQueue-Threading
+event_id: '4498'
+version: '0'
+event(fields): SetThreadCpuGroupMask(Pointer pWorkQueue, UnicodeString Class, Int32
+  Priority, Int32 ThreadId, UInt64 CurProcessorGroup, UInt64 CurProcessorMask, UInt64
+  NewProcessorGroup, UInt64 NewProcessorMask, Int32 Status)
+opcode: ''
+keywords: ''
+task: SetThreadCpuGroupMask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pWorkQueue
+- field_type: UnicodeString
+  field_name: Class
+- field_type: Int32
+  field_name: Priority
+- field_type: Int32
+  field_name: ThreadId
+- field_type: UInt64
+  field_name: CurProcessorGroup
+- field_type: UInt64
+  field_name: CurProcessorMask
+- field_type: UInt64
+  field_name: NewProcessorGroup
+- field_type: UInt64
+  field_name: NewProcessorMask
+- field_type: Int32
+  field_name: Status

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '1614'
+version: '0'
+event(fields): DocPerf_Task_XpsPrint_Callback_ErrorStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_XpsPrint_Callback_Error
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

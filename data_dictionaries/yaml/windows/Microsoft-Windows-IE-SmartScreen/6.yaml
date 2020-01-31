@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '6'
+version: '0'
+event(fields): URSCallStop(UInt32 ReqType)
+opcode: Stop
+keywords: ''
+task: URSCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ReqType

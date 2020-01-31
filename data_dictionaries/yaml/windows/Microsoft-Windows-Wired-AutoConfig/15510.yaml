@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Wired-AutoConfig
+event_id: '15510'
+version: '0'
+event(fields): task_015510(UnicodeString InterfaceGuid, UnicodeString InterfaceDescription)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription

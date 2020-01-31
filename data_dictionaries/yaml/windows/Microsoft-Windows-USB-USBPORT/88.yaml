@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '88'
+version: '0'
+event(fields): USBPORT_URB_NOP_ZERO_BW_PIPE_HANDLE_REQUESTDispatch(Int16 fid_USBPORT_HC,
+  Float fid_USBPORT_Device, Pointer fid_IRP_Ptr, Pointer fid_URB_Ptr, SYSTEMTIME fid_USBPORT_URB_INVALID_PIPE_REQUEST)
+opcode: Dispatch
+keywords: Diagnostic
+task: USBPORT_URB_NOP_ZERO_BW_PIPE_HANDLE_REQUEST
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int16
+  field_name: fid_USBPORT_HC
+- field_type: Float
+  field_name: fid_USBPORT_Device
+- field_type: Pointer
+  field_name: fid_IRP_Ptr
+- field_type: Pointer
+  field_name: fid_URB_Ptr
+- field_type: SYSTEMTIME
+  field_name: fid_USBPORT_URB_INVALID_PIPE_REQUEST

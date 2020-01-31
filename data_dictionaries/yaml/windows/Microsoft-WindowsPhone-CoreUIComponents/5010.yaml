@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '5010'
+version: '0'
+event(fields): ProxyPullProxyStart(UnicodeString pwsz, UInt32 unParam, UInt32 unParam2)
+opcode: Start
+keywords: MessagingPerformance Proxy
+task: ProxyPullProxy
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: unParam2

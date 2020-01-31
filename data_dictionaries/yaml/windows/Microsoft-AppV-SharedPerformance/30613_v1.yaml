@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '30613'
+version: '1'
+event(fields): DeserializeManifest_4106Start_V1()
+opcode: Start
+keywords: ''
+task: DeserializeManifest_4106
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

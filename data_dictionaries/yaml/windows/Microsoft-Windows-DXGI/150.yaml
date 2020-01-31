@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DXGI
+event_id: '150'
+version: '0'
+event(fields): IDXGIOutput_GetGammaControlCapabilitiesStart(Pointer pThis, Pointer
+  pGammaCaps)
+opcode: Start
+keywords: ''
+task: IDXGIOutput_GetGammaControlCapabilities
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pGammaCaps

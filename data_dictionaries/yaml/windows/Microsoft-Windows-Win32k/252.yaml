@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '252'
+version: '0'
+event(fields): TouchpadStopInertia252()
+opcode: ''
+keywords: TouchInput
+task: TouchpadStopInertia
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

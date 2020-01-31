@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Narrator
+event_id: '134'
+version: '0'
+event(fields): ElementTextGenerationStop(Int32 EventId)
+opcode: Stop
+keywords: PerfInstrumentation
+task: ElementTextGeneration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: EventId

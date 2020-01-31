@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DXGI
+event_id: '4'
+version: '0'
+event(fields): AdapterStart(Pointer pIDXGIAdapter, Pointer pIDXGIFactory, UInt32 KMTAdapterHandle,
+  Pointer ThunkDLLHandle, Boolean SharedResources)
+opcode: Start
+keywords: Objects
+task: Adapter
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGIAdapter
+- field_type: Pointer
+  field_name: pIDXGIFactory
+- field_type: UInt32
+  field_name: KMTAdapterHandle
+- field_type: Pointer
+  field_name: ThunkDLLHandle
+- field_type: Boolean
+  field_name: SharedResources

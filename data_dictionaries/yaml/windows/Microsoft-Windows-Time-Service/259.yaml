@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Time-Service
+event_id: '259'
+version: '0'
+event(fields): task_0259(UnicodeString AllNtpServers, UnicodeString ChosenReferenceNtpServer,
+  UInt64 TickCount, UInt32 IFTSTMP)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AllNtpServers
+- field_type: UnicodeString
+  field_name: ChosenReferenceNtpServer
+- field_type: UInt64
+  field_name: TickCount
+- field_type: UInt32
+  field_name: IFTSTMP

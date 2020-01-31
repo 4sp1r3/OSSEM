@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17001'
+version: '0'
+event(fields): Scope_FlattenStart()
+opcode: Start
+keywords: Shell
+task: Scope_Flatten
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

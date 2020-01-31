@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '1027'
+version: '0'
+event(fields): Boot_RurLegacyResourceStop()
+opcode: Stop
+keywords: BootStatus
+task: Boot_RurLegacyResource
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

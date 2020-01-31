@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1319'
+version: '0'
+event(fields): TcpipTimerDpcRescheduleEvent(UInt32 Component, UInt32 IndicatingProcessor,
+  UInt32 TargetProcessor, UInt32 CurrentTick, UInt32 NextExpirationTick, UInt64 OldScheduledExpiration,
+  UInt64 NewScheduledExpiration, Int64 DueTime, UInt32 Aperiodic)
+opcode: ''
+keywords: ut:Global
+task: TcpipTimerDpcRescheduleEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Component
+- field_type: UInt32
+  field_name: IndicatingProcessor
+- field_type: UInt32
+  field_name: TargetProcessor
+- field_type: UInt32
+  field_name: CurrentTick
+- field_type: UInt32
+  field_name: NextExpirationTick
+- field_type: UInt64
+  field_name: OldScheduledExpiration
+- field_type: UInt64
+  field_name: NewScheduledExpiration
+- field_type: Int64
+  field_name: DueTime
+- field_type: UInt32
+  field_name: Aperiodic

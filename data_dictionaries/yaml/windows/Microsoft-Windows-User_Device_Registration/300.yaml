@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '300'
+version: '0'
+event(fields): task_0300(GUID KeyId, UnicodeString UPN, UnicodeString Attestation,
+  UnicodeString ClientRequestId, UnicodeString ServerRequestId, UnicodeString ServerResponse)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: KeyId
+- field_type: UnicodeString
+  field_name: UPN
+- field_type: UnicodeString
+  field_name: Attestation
+- field_type: UnicodeString
+  field_name: ClientRequestId
+- field_type: UnicodeString
+  field_name: ServerRequestId
+- field_type: UnicodeString
+  field_name: ServerResponse

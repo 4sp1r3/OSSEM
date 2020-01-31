@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16502'
+version: '0'
+event(fields): PropertyProvider_CommitStop()
+opcode: Stop
+keywords: Properties
+task: PropertyProvider_Commit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

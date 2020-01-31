@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '817'
+version: '0'
+event(fields): ConfigureDeviceStart(UnicodeString Device, HexInt32 RequestType)
+opcode: Start
+keywords: DeviceConfig
+task: ConfigureDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Device
+- field_type: HexInt32
+  field_name: RequestType

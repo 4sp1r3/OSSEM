@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18931'
+version: '0'
+event(fields): Shell32_PerfMarker3Start()
+opcode: Start
+keywords: Shell
+task: Shell32_PerfMarker3
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

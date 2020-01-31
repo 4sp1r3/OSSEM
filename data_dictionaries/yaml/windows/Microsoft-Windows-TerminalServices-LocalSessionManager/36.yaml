@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TerminalServices-LocalSessionManager
+event_id: '36'
+version: '0'
+event(fields): task_036(UInt32 SessionId, UInt32 State, UnicodeString StateName, UInt32
+  Event, UnicodeString EventName, HexInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UInt32
+  field_name: State
+- field_type: UnicodeString
+  field_name: StateName
+- field_type: UInt32
+  field_name: Event
+- field_type: UnicodeString
+  field_name: EventName
+- field_type: HexInt32
+  field_name: ErrorCode

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4009'
+version: '0'
+event(fields): DataDrop(AnsiString tag, Pointer object, UInt8 dataType, Int64 sampleTime,
+  UInt32 bytesDropped, HexInt32 dropReasons)
+opcode: ''
+keywords: ''
+task: DataDrop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object
+- field_type: UInt8
+  field_name: dataType
+- field_type: Int64
+  field_name: sampleTime
+- field_type: UInt32
+  field_name: bytesDropped
+- field_type: HexInt32
+  field_name: dropReasons

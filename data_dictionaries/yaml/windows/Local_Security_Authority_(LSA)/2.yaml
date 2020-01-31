@@ -1,0 +1,8 @@
+provider: Local Security Authority (LSA)
+category: '{e28ee0eb-6181-49df-b859-2f3fd289a2d1}'
+event_id: '2'
+version: '0'
+event(fields): QueryForestTrustInfo_End()
+event_type: End
+description: QueryForestTrustInfo
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '47'
+version: '0'
+event(fields): DESTROY_SHARED_MEMORY_SECTION(UInt64 section, UInt32 size)
+opcode: ''
+keywords: DCompDiagnostic DCompSharedMemory
+task: DESTROY_SHARED_MEMORY_SECTION
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: section
+- field_type: UInt32
+  field_name: size

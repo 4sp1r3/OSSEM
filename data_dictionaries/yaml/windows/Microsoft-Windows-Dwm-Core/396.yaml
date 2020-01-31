@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '396'
+version: '0'
+event(fields): P3D_BUILDING_POLYGONLISTStart()
+opcode: Start
+keywords: DwmCore
+task: P3D_BUILDING_POLYGONLIST
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

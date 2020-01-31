@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60637'
+version: '0'
+event(fields): ItemsView_AnimationManager_AnimationLoopStart()
+opcode: Start
+keywords: Shell
+task: ItemsView_AnimationManager_AnimationLoop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

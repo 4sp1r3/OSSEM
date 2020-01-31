@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '15508'
+version: '0'
+event(fields): PropertyDescription_SHGetPropertyDescriptionByNameStop(UnicodeString
+  CanonicalName)
+opcode: Stop
+keywords: Properties
+task: PropertyDescription_SHGetPropertyDescriptionByName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CanonicalName

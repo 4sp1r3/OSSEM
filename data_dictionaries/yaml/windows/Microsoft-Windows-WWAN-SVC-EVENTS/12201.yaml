@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '12201'
+version: '0'
+event(fields): WWANConnectionConnectionPolicy(GUID InterfaceGuid, UnicodeString PolicyType,
+  UnicodeString PolicyState)
+opcode: ConnectionPolicy
+keywords: keyword_400000000000
+task: WWANConnection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: PolicyType
+- field_type: UnicodeString
+  field_name: PolicyState

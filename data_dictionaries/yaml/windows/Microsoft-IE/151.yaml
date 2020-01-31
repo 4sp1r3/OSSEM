@@ -1,0 +1,24 @@
+provider: Microsoft-IE
+event_id: '151'
+version: '0'
+event(fields): Mshtml_Ole_OleLayout_DrawStart(Pointer COleSite, GUID CLSID, UInt32
+  left, UInt32 top, UInt32 right, UInt32 bottom)
+opcode: Start
+keywords: extended mshtml
+task: Mshtml_Ole_OleLayout_Draw
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: COleSite
+- field_type: GUID
+  field_name: CLSID
+- field_type: UInt32
+  field_name: left
+- field_type: UInt32
+  field_name: top
+- field_type: UInt32
+  field_name: right
+- field_type: UInt32
+  field_name: bottom

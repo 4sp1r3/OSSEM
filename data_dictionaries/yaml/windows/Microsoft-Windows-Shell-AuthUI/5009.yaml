@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '5009'
+version: '0'
+event(fields): task_05009(UnicodeString Error, UInt32 DWORD1)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Error
+- field_type: UInt32
+  field_name: DWORD1

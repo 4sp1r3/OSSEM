@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-BootUX
+event_id: '1004'
+version: '0'
+event(fields): task_0(Boolean UsingUSB, Boolean success, UInt32 resultCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: UsingUSB
+- field_type: Boolean
+  field_name: success
+- field_type: UInt32
+  field_name: resultCode

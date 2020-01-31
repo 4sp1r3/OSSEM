@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinHttp
+event_id: '819'
+version: '0'
+event(fields): WINHTTP_AUTOPROXY_SWPAD(UInt32 WPADNetworkDecision, UInt32 NetworkCount)
+opcode: ''
+keywords: WINHTTP_KEYWORD_AUTOPROXY
+task: WINHTTP_AUTOPROXY_SWPAD
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WPADNetworkDecision
+- field_type: UInt32
+  field_name: NetworkCount

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AsynchronousCausality
+event_id: '20785'
+version: '1'
+event(fields): task_020785_V1()
+opcode: ''
+keywords: OperationWork LibraryOperation
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

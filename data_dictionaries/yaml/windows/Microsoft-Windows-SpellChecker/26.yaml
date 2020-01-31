@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SpellChecker
+event_id: '26'
+version: '0'
+event(fields): SettingandGettingOptionsStop26()
+opcode: Stop
+keywords: ''
+task: SettingandGettingOptions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

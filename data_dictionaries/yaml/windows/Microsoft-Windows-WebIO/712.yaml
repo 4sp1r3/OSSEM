@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-WebIO
+event_id: '712'
+version: '0'
+event(fields): SSLCertValidationStop(Pointer Connection, UInt64 ContextHandleHigh,
+  UInt64 ContextHandleLow, UInt32 IgnoredServerCertErrors, UInt32 ServerCertErrors,
+  UInt32 Error, UInt32 Reason)
+opcode: Stop
+keywords: Keyword.SECURITY
+task: SSLCertValidation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: UInt64
+  field_name: ContextHandleHigh
+- field_type: UInt64
+  field_name: ContextHandleLow
+- field_type: UInt32
+  field_name: IgnoredServerCertErrors
+- field_type: UInt32
+  field_name: ServerCertErrors
+- field_type: UInt32
+  field_name: Error
+- field_type: UInt32
+  field_name: Reason

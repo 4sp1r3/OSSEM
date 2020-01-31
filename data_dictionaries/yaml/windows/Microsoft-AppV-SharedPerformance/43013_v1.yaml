@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '43013'
+version: '1'
+event(fields): task_0Start43013_V1()
+opcode: Start
+keywords: ''
+task: task_0
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

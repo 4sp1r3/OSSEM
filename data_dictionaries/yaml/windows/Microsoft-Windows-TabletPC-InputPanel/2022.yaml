@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '2022'
+version: '0'
+event(fields): PKMUIActionStop(UInt32 UIActionType)
+opcode: Stop
+keywords: ''
+task: PKMUIAction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UIActionType

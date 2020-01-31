@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '813'
+version: '0'
+event(fields): Mshtml_CBase_AddInternalRef(Pointer JsVarInstance, Pointer ThisPointer,
+  UInt32 SSN, UInt32 RefAfterChange)
+opcode: ''
+keywords: internalrefcount
+task: Mshtml_CBase_AddInternalRef
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: JsVarInstance
+- field_type: Pointer
+  field_name: ThisPointer
+- field_type: UInt32
+  field_name: SSN
+- field_type: UInt32
+  field_name: RefAfterChange

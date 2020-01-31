@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '43'
+version: '0'
+event(fields): CommandListStop(Pointer pID3D11DeviceContext, Pointer pID3D11CommandList)
+opcode: Stop
+keywords: CommandLists
+task: CommandList
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D11DeviceContext
+- field_type: Pointer
+  field_name: pID3D11CommandList

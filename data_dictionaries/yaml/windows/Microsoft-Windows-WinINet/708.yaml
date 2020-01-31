@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WinINet
+event_id: '708'
+version: '0'
+event(fields): WININET_HTTPS_CLIENT_CERT_SELECTED(Pointer RequestHandle, UInt16 _CertHashLength,
+  AnsiString CertHash)
+opcode: ''
+keywords: WININET_KEYWORD_HTTPS
+task: WININET_HTTPS_CLIENT_CERT_SELECTED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestHandle
+- field_type: UInt16
+  field_name: _CertHashLength
+- field_type: AnsiString
+  field_name: CertHash

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-AdvancedTaskManager
+event_id: '5383'
+version: '0'
+event(fields): Dashboard_Network_Adapter_RefreshAdaptersStart()
+opcode: Start
+keywords: dashboard
+task: Dashboard_Network_Adapter_RefreshAdapters
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

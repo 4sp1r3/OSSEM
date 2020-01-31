@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AAD
+event_id: '1202'
+version: '0'
+event(fields): BrowserCoreOperationStop1202(Int32 Result)
+opcode: Stop
+keywords: Error Operational
+task: BrowserCoreOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Result

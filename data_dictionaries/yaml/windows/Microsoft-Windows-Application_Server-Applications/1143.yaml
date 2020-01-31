@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1143'
+version: '0'
+event(fields): ExecuteFlowchartNextNull(UnicodeString data1, UnicodeString AppDomain)
+opcode: NextNull
+keywords: WFActivities
+task: ExecuteFlowchart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

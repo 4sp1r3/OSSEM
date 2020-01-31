@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62333'
+version: '0'
+event(fields): FileChunkMap_CreateStop(UnicodeString FileName, UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: FileChunkMap_Create
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: HRESULT

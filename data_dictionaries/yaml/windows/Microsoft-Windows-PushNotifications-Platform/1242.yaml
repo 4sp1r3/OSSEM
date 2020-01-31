@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1242'
+version: '0'
+event(fields): task_01242(UInt32 PowerManagementType, UInt32 ConnectionType)
+opcode: ''
+keywords: wnptrans
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PowerManagementType
+- field_type: UInt32
+  field_name: ConnectionType

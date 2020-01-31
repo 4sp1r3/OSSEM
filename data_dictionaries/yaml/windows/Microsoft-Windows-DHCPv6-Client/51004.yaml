@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51004'
+version: '0'
+event(fields): ProtocolStateEventInitConfirmReply(UInt32 InterfaceId)
+opcode: InitConfirmReply
+keywords: DHCPV6_AOAC
+task: ProtocolStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId

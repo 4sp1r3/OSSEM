@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MP4SDECD
+event_id: '19'
+version: '0'
+event(fields): MP4SDECD_MFSetRate(Boolean ThinningMode, Float Rate)
+opcode: ''
+keywords: ''
+task: MP4SDECD_MFSetRate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: ThinningMode
+- field_type: Float
+  field_name: Rate

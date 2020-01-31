@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '2'
+version: '0'
+event(fields): LEGACY_EVENTPLAYLIST_OPEN_NOMEDIA()
+opcode: PLAYLIST_OPEN_NOMEDIA
+keywords: mediaplayer
+task: LEGACY_EVENT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDC
+event_id: '42'
+version: '0'
+event(fields): PdcInit(UInt32 AoAc, UInt32 Status)
+opcode: ''
+keywords: Cs
+task: PdcInit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AoAc
+- field_type: UInt32
+  field_name: Status

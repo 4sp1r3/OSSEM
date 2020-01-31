@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '397'
+version: '0'
+event(fields): Tab_ShellBrowser_OnBeforeUnload(UInt32 TabID)
+opcode: ''
+keywords: primarynav
+task: Tab_ShellBrowser_OnBeforeUnload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TabID

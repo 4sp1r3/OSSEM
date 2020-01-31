@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SetupCl
+event_id: '22'
+version: '0'
+event(fields): SetupCltask22(UnicodeString Message, HexInt32 Status)
+opcode: ''
+keywords: keyDiagnostic
+task: SetupCltask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: HexInt32
+  field_name: Status

@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '204'
+version: '0'
+event(fields): task_0204(GUID Id, UInt8 Key, UInt8 Asc, UInt8 Ascq, Int32 DeviceNumber,
+  UnicodeString DriveManufacturer, UnicodeString DriveModel, UnicodeString DriveSerial,
+  UnicodeString EnclosureManufacturer, UnicodeString EnclosureModel, UnicodeString
+  EnclosureSerial, Int32 Slot)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id
+- field_type: UInt8
+  field_name: Key
+- field_type: UInt8
+  field_name: Asc
+- field_type: UInt8
+  field_name: Ascq
+- field_type: Int32
+  field_name: DeviceNumber
+- field_type: UnicodeString
+  field_name: DriveManufacturer
+- field_type: UnicodeString
+  field_name: DriveModel
+- field_type: UnicodeString
+  field_name: DriveSerial
+- field_type: UnicodeString
+  field_name: EnclosureManufacturer
+- field_type: UnicodeString
+  field_name: EnclosureModel
+- field_type: UnicodeString
+  field_name: EnclosureSerial
+- field_type: Int32
+  field_name: Slot

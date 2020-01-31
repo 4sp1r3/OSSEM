@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14032'
+version: '1'
+event(fields): PublishPackageFinalizeComponentStop_V1(UInt32 Component)
+opcode: Stop
+keywords: ''
+task: PublishPackageFinalizeComponent
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Component

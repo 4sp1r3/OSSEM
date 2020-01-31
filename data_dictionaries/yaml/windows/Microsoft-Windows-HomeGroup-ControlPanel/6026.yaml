@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HomeGroup-ControlPanel
+event_id: '6026'
+version: '0'
+event(fields): Notification_AvailableToJoin_BalloonStop()
+opcode: Stop
+keywords: ''
+task: Notification_AvailableToJoin_Balloon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

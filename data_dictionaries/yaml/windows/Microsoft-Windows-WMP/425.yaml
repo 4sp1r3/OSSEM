@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMP
+event_id: '425'
+version: '0'
+event(fields): STREAMING_MENU_ACTIONSStart()
+opcode: Start
+keywords: mediaplayer
+task: STREAMING_MENU_ACTIONS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

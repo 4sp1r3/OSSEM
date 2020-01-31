@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '266'
+version: '0'
+event(fields): Gatherer_Queues_QueueLength(UInt32 GathererCodeLocation, UInt32 TransactionsInFile,
+  UInt32 TransactionsInMemory, UInt32 TransactionQueueLength, UInt32 TransactionsInFileNotifications,
+  UInt32 TransactionsInMemoryNotifications, UInt32 TransactionQueueLengthNotifications,
+  UInt32 TransactionsHighLimit, UInt32 TransactionsLowLimitPerCrawl, UInt32 TransactionsHighLimitPerCrawl,
+  UInt32 TransactionsInIncrementalQueue, UInt32 TransactionsInNotificationQueue, UInt32
+  TansactionsInNotificationHighPriorityQueue)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: Gatherer_Queues_QueueLength
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: GathererCodeLocation
+- field_type: UInt32
+  field_name: TransactionsInFile
+- field_type: UInt32
+  field_name: TransactionsInMemory
+- field_type: UInt32
+  field_name: TransactionQueueLength
+- field_type: UInt32
+  field_name: TransactionsInFileNotifications
+- field_type: UInt32
+  field_name: TransactionsInMemoryNotifications
+- field_type: UInt32
+  field_name: TransactionQueueLengthNotifications
+- field_type: UInt32
+  field_name: TransactionsHighLimit
+- field_type: UInt32
+  field_name: TransactionsLowLimitPerCrawl
+- field_type: UInt32
+  field_name: TransactionsHighLimitPerCrawl
+- field_type: UInt32
+  field_name: TransactionsInIncrementalQueue
+- field_type: UInt32
+  field_name: TransactionsInNotificationQueue
+- field_type: UInt32
+  field_name: TansactionsInNotificationHighPriorityQueue

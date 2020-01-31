@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1367'
+version: '1'
+event(fields): TcpipNblOob_V1(Pointer Nbl, UInt32 PathDirection, Pointer TcpIpChecksumNetBufferListInfo,
+  Pointer TcpLargeSendNetBufferListInfo, Pointer Ieee8021QNetBufferListInfo, Pointer
+  NetBufferListHashValue, Pointer NetBufferListHashInfo, Pointer VirtualSubnetInfo,
+  Pointer TcpRecvSegCoalesceInfo, Pointer NrtNameResolutionInfo)
+opcode: ''
+keywords: ut:SendPath ut:ReceivePath
+task: TcpipNblOob
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Nbl
+- field_type: UInt32
+  field_name: PathDirection
+- field_type: Pointer
+  field_name: TcpIpChecksumNetBufferListInfo
+- field_type: Pointer
+  field_name: TcpLargeSendNetBufferListInfo
+- field_type: Pointer
+  field_name: Ieee8021QNetBufferListInfo
+- field_type: Pointer
+  field_name: NetBufferListHashValue
+- field_type: Pointer
+  field_name: NetBufferListHashInfo
+- field_type: Pointer
+  field_name: VirtualSubnetInfo
+- field_type: Pointer
+  field_name: TcpRecvSegCoalesceInfo
+- field_type: Pointer
+  field_name: NrtNameResolutionInfo

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '32'
+version: '0'
+event(fields): EnergyNotification(UnicodeString AppName, UInt16 UserId, UInt32 Cookie,
+  UInt32 BackgroundScreenOffmJ, UInt32 BackgroundScreenOnmJ, UInt32 ForegroundScreenOffmJ,
+  UInt32 ForegroundScreenOnmJ)
+opcode: EnergyNotification
+keywords: EnergyEstimation
+task: EnergyNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppName
+- field_type: UInt16
+  field_name: UserId
+- field_type: UInt32
+  field_name: Cookie
+- field_type: UInt32
+  field_name: BackgroundScreenOffmJ
+- field_type: UInt32
+  field_name: BackgroundScreenOnmJ
+- field_type: UInt32
+  field_name: ForegroundScreenOffmJ
+- field_type: UInt32
+  field_name: ForegroundScreenOnmJ

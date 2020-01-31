@@ -1,0 +1,11 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '1010'
+version: '0'
+event(fields): TemplateProcessingTemplateService()
+opcode: TemplateService
+keywords: ''
+task: TemplateProcessing
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

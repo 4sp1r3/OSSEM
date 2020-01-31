@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client
+event_id: '14001'
+version: '1'
+event(fields): BackgroundStreaming_V1()
+opcode: ''
+keywords: Streaming
+task: BackgroundStreaming
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

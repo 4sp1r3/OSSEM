@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-BitLocker-DrivePreparationTool
+event_id: '4097'
+version: '1'
+event(fields): task_0Initialization4097_V1(GUID DiskId, HexInt32 Type, UInt64 Offset,
+  UInt64 Size, GUID VolumeId)
+opcode: Initialization
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DiskId
+- field_type: HexInt32
+  field_name: Type
+- field_type: UInt64
+  field_name: Offset
+- field_type: UInt64
+  field_name: Size
+- field_type: GUID
+  field_name: VolumeId

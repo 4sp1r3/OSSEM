@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '113'
+version: '0'
+event(fields): SI_State_ChangeStop()
+opcode: Stop
+keywords: ''
+task: SI_State_Change
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

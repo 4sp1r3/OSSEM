@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-MUI
+event_id: '2001'
+version: '0'
+event(fields): MUINotifyUILanguageChangetaskInvokecallbackfunction2001(UnicodeString
+  FileName)
+opcode: Invokecallbackfunction
+keywords: ''
+task: MUINotifyUILanguageChangetask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

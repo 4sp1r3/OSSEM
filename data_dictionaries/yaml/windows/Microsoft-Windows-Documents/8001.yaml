@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Documents
+event_id: '8001'
+version: '0'
+event(fields): DocPerf_Task_GetPrintCapabilitiesStop(UnicodeString PrinterName, Boolean
+  IsCached)
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_GetPrintCapabilities
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PrinterName
+- field_type: Boolean
+  field_name: IsCached

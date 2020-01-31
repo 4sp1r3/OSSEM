@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '111'
+version: '0'
+event(fields): EventprocessingStop(GUID PublisherGuid, UnicodeString PublisherName,
+  UInt32 EventMetaDataCount)
+opcode: Stop
+keywords: ''
+task: Eventprocessing
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PublisherGuid
+- field_type: UnicodeString
+  field_name: PublisherName
+- field_type: UInt32
+  field_name: EventMetaDataCount

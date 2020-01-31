@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '53'
+version: '0'
+event(fields): PagingOpTransfer(Pointer pDxgAdapter, Pointer hDmaBuffer, Boolean ContinueNextBuffer,
+  Pointer hAllocationGlobalHandle, UInt32 TransferOffset, UInt64 TransferSize, UInt32
+  SourceSegmentId, UInt64 SourceSegmentOffset, UInt32 DestinationSegmentId, UInt64
+  DestinationSegmentOffset, UInt32 Flags)
+opcode: ''
+keywords: Resource
+task: PagingOpTransfer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: Pointer
+  field_name: hDmaBuffer
+- field_type: Boolean
+  field_name: ContinueNextBuffer
+- field_type: Pointer
+  field_name: hAllocationGlobalHandle
+- field_type: UInt32
+  field_name: TransferOffset
+- field_type: UInt64
+  field_name: TransferSize
+- field_type: UInt32
+  field_name: SourceSegmentId
+- field_type: UInt64
+  field_name: SourceSegmentOffset
+- field_type: UInt32
+  field_name: DestinationSegmentId
+- field_type: UInt64
+  field_name: DestinationSegmentOffset
+- field_type: UInt32
+  field_name: Flags

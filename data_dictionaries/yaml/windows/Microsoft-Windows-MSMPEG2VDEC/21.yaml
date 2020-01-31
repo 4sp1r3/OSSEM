@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '21'
+version: '0'
+event(fields): DShow_DeliverStop()
+opcode: Stop
+keywords: ''
+task: DShow_Deliver
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

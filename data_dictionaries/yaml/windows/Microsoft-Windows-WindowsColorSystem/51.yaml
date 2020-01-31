@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WindowsColorSystem
+event_id: '51'
+version: '0'
+event(fields): ColorCalibration51(HexInt32 ReturnCode)
+opcode: ''
+keywords: ''
+task: ColorCalibration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ReturnCode

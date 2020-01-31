@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '11010'
+version: '0'
+event(fields): MsmSecurityStart_24012_200(UnicodeString Adapter, GUID DeviceGuid,
+  UnicodeString LocalMac, UnicodeString SSID, UnicodeString BSSType, UnicodeString
+  Auth, UInt32 AuthVal, UnicodeString Cipher, UInt32 CipherVal, UInt32 FIPSMode, UInt32
+  OnexEnabled, Pointer ConnectionId)
+opcode: Start_24012_200
+keywords: WlanConnect LwtDiagnostic
+task: MsmSecurity
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Adapter
+- field_type: GUID
+  field_name: DeviceGuid
+- field_type: UnicodeString
+  field_name: LocalMac
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: UnicodeString
+  field_name: BSSType
+- field_type: UnicodeString
+  field_name: Auth
+- field_type: UInt32
+  field_name: AuthVal
+- field_type: UnicodeString
+  field_name: Cipher
+- field_type: UInt32
+  field_name: CipherVal
+- field_type: UInt32
+  field_name: FIPSMode
+- field_type: UInt32
+  field_name: OnexEnabled
+- field_type: Pointer
+  field_name: ConnectionId

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18802'
+version: '0'
+event(fields): Shell32_CopyEngine_FileOperationStop()
+opcode: Stop
+keywords: CopyEngine
+task: Shell32_CopyEngine_FileOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

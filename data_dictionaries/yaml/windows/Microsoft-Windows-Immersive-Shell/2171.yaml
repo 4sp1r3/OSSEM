@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2171'
+version: '0'
+event(fields): Picker_CachedFileUpdater_UIRequested2171()
+opcode: ''
+keywords: ''
+task: Picker_CachedFileUpdater_UIRequested
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

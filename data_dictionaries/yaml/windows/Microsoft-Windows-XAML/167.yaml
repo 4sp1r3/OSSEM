@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '167'
+version: '0'
+event(fields): DmSetContact(UInt64 ViewportId)
+opcode: ''
+keywords: Input
+task: DmSetContact
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ViewportId

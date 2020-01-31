@@ -1,0 +1,17 @@
+provider: Microsoft-IEFRAME
+event_id: '581'
+version: '0'
+event(fields): Tab_Terminate_Process(Int32 TabID, Int32 ProcessID, Pointer HWND)
+opcode: ''
+keywords: hang
+task: Tab_Terminate_Process
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: TabID
+- field_type: Int32
+  field_name: ProcessID
+- field_type: Pointer
+  field_name: HWND

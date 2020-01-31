@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '123'
+version: '0'
+event(fields): TOCMergeStop()
+opcode: Stop
+keywords: PerfEvent
+task: TOCMerge
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

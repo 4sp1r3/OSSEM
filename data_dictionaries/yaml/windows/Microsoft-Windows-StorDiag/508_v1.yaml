@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '508'
+version: '1'
+event(fields): ClassCompletionofrequest.508_V1(GUID DeviceGUID, UInt32 DeviceNumber,
+  AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber,
+  HexInt32 DownLevelIrpStatus, UInt8 SrbStatus, HexInt32 SrbFunction, HexInt32 SrbFlags,
+  UInt8 NumberOfRetriesDone)
+opcode: Completionofrequest.
+keywords: NonReadWrite
+task: Class
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGUID
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: AnsiString
+  field_name: Vendor
+- field_type: AnsiString
+  field_name: Model
+- field_type: AnsiString
+  field_name: FirmwareVersion
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: HexInt32
+  field_name: DownLevelIrpStatus
+- field_type: UInt8
+  field_name: SrbStatus
+- field_type: HexInt32
+  field_name: SrbFunction
+- field_type: HexInt32
+  field_name: SrbFlags
+- field_type: UInt8
+  field_name: NumberOfRetriesDone

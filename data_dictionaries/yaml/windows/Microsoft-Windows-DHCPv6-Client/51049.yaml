@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51049'
+version: '0'
+event(fields): WinsockStateEventErrorClosingSocket(UInt32 InterfaceId, UInt32 StatusCode)
+opcode: ErrorClosingSocket
+keywords: ''
+task: WinsockStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: StatusCode

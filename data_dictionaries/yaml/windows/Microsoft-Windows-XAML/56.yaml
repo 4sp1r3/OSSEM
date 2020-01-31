@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '56'
+version: '0'
+event(fields): DynamicTimelineStop()
+opcode: Stop
+keywords: Animation
+task: DynamicTimeline
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1278'
+version: '0'
+event(fields): Ndkpi_Build_Lam(Pointer NdkAdapter, Pointer Mdl, UInt64 Length, Pointer
+  RequestContext, Pointer LAMBuffer, UInt32 LAMBufferSize)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Build_Lam
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkAdapter
+- field_type: Pointer
+  field_name: Mdl
+- field_type: UInt64
+  field_name: Length
+- field_type: Pointer
+  field_name: RequestContext
+- field_type: Pointer
+  field_name: LAMBuffer
+- field_type: UInt32
+  field_name: LAMBufferSize

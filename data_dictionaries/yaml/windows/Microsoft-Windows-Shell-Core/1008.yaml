@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1008'
+version: '0'
+event(fields): AutoLists_QueryResultsStackedStop()
+opcode: Stop
+keywords: Shell
+task: AutoLists_QueryResultsStacked
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

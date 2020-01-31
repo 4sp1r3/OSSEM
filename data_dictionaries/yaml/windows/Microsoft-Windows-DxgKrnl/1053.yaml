@@ -1,0 +1,46 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1053'
+version: '0'
+event(fields): MiracastGlobalConfiguration(UInt32 GraphicsVendorId, UInt32 GraphicsDeviceId,
+  UnicodeString GraphicsDeviceDescription, UnicodeString GraphicsDriverVersion, UnicodeString
+  SinkDeviceInformation, UInt32 TotalProcessedFrames, UInt32 TotalDroppedFrames, UInt32
+  TotalDriverProcessTime, UInt32 TotalIFrameRequests, UInt32 TotalDroppedFrameReports,
+  UInt32 MaxDroppedFramesInOneBucket, UInt32 TotalIFrameRequestReports, UInt32 MaxIFrameRequestsInOneBucket,
+  UInt32 TotalGraphicsLatencyReport, UInt32 MaxIAverageGraphicsLatencyInOneBucket)
+opcode: ''
+keywords: Miracast
+task: MiracastGlobalConfiguration
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: GraphicsVendorId
+- field_type: UInt32
+  field_name: GraphicsDeviceId
+- field_type: UnicodeString
+  field_name: GraphicsDeviceDescription
+- field_type: UnicodeString
+  field_name: GraphicsDriverVersion
+- field_type: UnicodeString
+  field_name: SinkDeviceInformation
+- field_type: UInt32
+  field_name: TotalProcessedFrames
+- field_type: UInt32
+  field_name: TotalDroppedFrames
+- field_type: UInt32
+  field_name: TotalDriverProcessTime
+- field_type: UInt32
+  field_name: TotalIFrameRequests
+- field_type: UInt32
+  field_name: TotalDroppedFrameReports
+- field_type: UInt32
+  field_name: MaxDroppedFramesInOneBucket
+- field_type: UInt32
+  field_name: TotalIFrameRequestReports
+- field_type: UInt32
+  field_name: MaxIFrameRequestsInOneBucket
+- field_type: UInt32
+  field_name: TotalGraphicsLatencyReport
+- field_type: UInt32
+  field_name: MaxIAverageGraphicsLatencyInOneBucket

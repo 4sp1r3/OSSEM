@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '70'
+version: '0'
+event(fields): RootSignatureStop(Pointer pID3D12Device, Pointer pID3D12RootSignature,
+  UInt32 NodeMask)
+opcode: Stop
+keywords: Resources ObjectLifetime
+task: RootSignature
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pID3D12Device
+- field_type: Pointer
+  field_name: pID3D12RootSignature
+- field_type: UInt32
+  field_name: NodeMask

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '2005'
+version: '0'
+event(fields): Scenario_CapturedCKCL(UInt32 HResult, UnicodeString SnapshotPath)
+opcode: ''
+keywords: ScenarioStatus
+task: Scenario_CapturedCKCL
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HResult
+- field_type: UnicodeString
+  field_name: SnapshotPath

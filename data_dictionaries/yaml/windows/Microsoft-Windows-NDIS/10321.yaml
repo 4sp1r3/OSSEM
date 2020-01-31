@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10321'
+version: '0'
+event(fields): Refcountrundown(UInt64 NetLuid, UInt32 ComponentId, UInt32 RefcountValue)
+opcode: ''
+keywords: Power LwtDiagnostic
+task: Refcountrundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: NetLuid
+- field_type: UInt32
+  field_name: ComponentId
+- field_type: UInt32
+  field_name: RefcountValue

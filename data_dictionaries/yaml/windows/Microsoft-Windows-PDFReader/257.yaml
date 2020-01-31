@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '257'
+version: '0'
+event(fields): ExecuteJavascriptStop(UInt32 ScriptUniqueIdentifier, UnicodeString
+  ScriptMetadata, Boolean ScriptCompletedSuccessfully)
+opcode: Stop
+keywords: Reader
+task: ExecuteJavascript
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScriptUniqueIdentifier
+- field_type: UnicodeString
+  field_name: ScriptMetadata
+- field_type: Boolean
+  field_name: ScriptCompletedSuccessfully

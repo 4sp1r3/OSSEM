@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-COM-RundownInstrumentation
+event_id: '22'
+version: '0'
+event(fields): RundownInstrumentation22(UInt64 OID, UInt32 DisconnectionType)
+opcode: ''
+keywords: RundownInstrumentation
+task: RundownInstrumentation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OID
+- field_type: UInt32
+  field_name: DisconnectionType

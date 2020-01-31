@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Direct3D12
+event_id: '45'
+version: '0'
+event(fields): CustomDriverMarker(UInt64 InsertionAPISequenceNumber, Pointer pID3D12CommandList,
+  Int32 Index, UnicodeString MarkerDescription)
+opcode: ''
+keywords: DriverCustomMarkers
+task: CustomDriverMarker
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: InsertionAPISequenceNumber
+- field_type: Pointer
+  field_name: pID3D12CommandList
+- field_type: Int32
+  field_name: Index
+- field_type: UnicodeString
+  field_name: MarkerDescription

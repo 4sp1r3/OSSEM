@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '21004'
+version: '0'
+event(fields): task_021004(UInt32 AdapterId, GUID InterfaceGuid, UInt32 AuthAlgoId,
+  UInt32 CipherAlgoId, Boolean OneXEnabled, Boolean UICancelled)
+opcode: ''
+keywords: MSMSEC ut:Authentication
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AdapterId
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: AuthAlgoId
+- field_type: UInt32
+  field_name: CipherAlgoId
+- field_type: Boolean
+  field_name: OneXEnabled
+- field_type: Boolean
+  field_name: UICancelled

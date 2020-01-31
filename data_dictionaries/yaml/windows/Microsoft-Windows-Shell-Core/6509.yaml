@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6509'
+version: '0'
+event(fields): CommonFileDialog_OpenStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: CommonFileDialog_Open
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

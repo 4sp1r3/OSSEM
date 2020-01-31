@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '524'
+version: '0'
+event(fields): NewTabPageData_RefreshStop()
+opcode: Stop
+keywords: primarynav
+task: NewTabPageData_Refresh
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

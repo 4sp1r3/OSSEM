@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LimitsManagement
+event_id: '10'
+version: '0'
+event(fields): PolicyRemoved(UInt64 Token)
+opcode: ''
+keywords: ''
+task: PolicyRemoved
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Token

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5072'
+version: '0'
+event(fields): task_05072(HexInt64 TotalPages, UInt8 PlatformDirected)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: TotalPages
+- field_type: UInt8
+  field_name: PlatformDirected

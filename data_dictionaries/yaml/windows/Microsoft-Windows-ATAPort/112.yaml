@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ATAPort
+event_id: '112'
+version: '0'
+event(fields): ATAportGeneralATAPORT_OPCODE_CHANNEL_START_COMPLETE()
+opcode: ATAPORT_OPCODE_CHANNEL_START_COMPLETE
+keywords: DeviceEnumeration
+task: ATAportGeneral
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

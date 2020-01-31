@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1277'
+version: '0'
+event(fields): Ndkpi_Create_Listener(Pointer NdkAdapter, Pointer ConnectEventContext,
+  Pointer RequestContext)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Create_Listener
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkAdapter
+- field_type: Pointer
+  field_name: ConnectEventContext
+- field_type: Pointer
+  field_name: RequestContext

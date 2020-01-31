@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '168'
+version: '0'
+event(fields): Flip(Pointer pDmaBuffer, UInt32 VidPnSourceId, Pointer FlipToAllocation,
+  UInt32 FlipInterval, Boolean FlipWithNoWait, Boolean MMIOFlip)
+opcode: ''
+keywords: Base
+task: Flip
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDmaBuffer
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: Pointer
+  field_name: FlipToAllocation
+- field_type: UInt32
+  field_name: FlipInterval
+- field_type: Boolean
+  field_name: FlipWithNoWait
+- field_type: Boolean
+  field_name: MMIOFlip

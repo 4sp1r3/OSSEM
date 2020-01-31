@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '31005'
+version: '1'
+event(fields): VCOM.ServiceDllDetachStop_V1()
+opcode: Stop
+keywords: ''
+task: VCOM.ServiceDllDetach
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

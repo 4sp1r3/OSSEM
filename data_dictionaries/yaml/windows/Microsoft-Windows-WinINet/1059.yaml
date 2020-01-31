@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1059'
+version: '0'
+event(fields): Wininet_SocketConnectStart(Pointer Request, UInt32 Socket, UInt32 SourcePort,
+  UInt32 RemoteAddressIndex)
+opcode: Start
+keywords: WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG
+task: Wininet_SocketConnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Request
+- field_type: UInt32
+  field_name: Socket
+- field_type: UInt32
+  field_name: SourcePort
+- field_type: UInt32
+  field_name: RemoteAddressIndex

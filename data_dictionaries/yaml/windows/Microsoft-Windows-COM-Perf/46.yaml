@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '46'
+version: '0'
+event(fields): COM_ServerAsyncCallStop(UInt32 CallTraceId, Int32 HRESULT, UInt32 ServerException)
+opcode: Stop
+keywords: ''
+task: COM_ServerAsyncCall
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CallTraceId
+- field_type: Int32
+  field_name: HRESULT
+- field_type: UInt32
+  field_name: ServerException

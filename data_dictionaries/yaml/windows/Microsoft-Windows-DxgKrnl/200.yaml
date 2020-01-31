@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '200'
+version: '0'
+event(fields): Dxgk_Diag_OutputDupl_Get_Meta_Data(UInt32 PacketIndex, UInt32 WdLogIndex,
+  UInt32 VidPnSourceId, UInt32 MetaDataType, UInt32 BufferSizeSupplied, UInt32 BufferSizeRequired,
+  UInt32 Status, UInt32 DirtyCount, UInt32 DirtyRectIntCount, Int32 DirtyRects)
+opcode: ''
+keywords: Base
+task: Dxgk_Diag_OutputDupl_Get_Meta_Data
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PacketIndex
+- field_type: UInt32
+  field_name: WdLogIndex
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: MetaDataType
+- field_type: UInt32
+  field_name: BufferSizeSupplied
+- field_type: UInt32
+  field_name: BufferSizeRequired
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: DirtyCount
+- field_type: UInt32
+  field_name: DirtyRectIntCount
+- field_type: Int32
+  field_name: DirtyRects

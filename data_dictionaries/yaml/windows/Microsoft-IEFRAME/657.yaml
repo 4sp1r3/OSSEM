@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '657'
+version: '0'
+event(fields): Device_Info_UtilStop(UnicodeString String)
+opcode: Stop
+keywords: primarynav
+task: Device_Info_Util
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: String

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1149'
+version: '0'
+event(fields): Wininet_DependencyServerContainerStart1149(Pointer Object, Pointer
+  Handle, Boolean IsCreateContainer, UnicodeString Directory)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_DependencyServerContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: Handle
+- field_type: Boolean
+  field_name: IsCreateContainer
+- field_type: UnicodeString
+  field_name: Directory

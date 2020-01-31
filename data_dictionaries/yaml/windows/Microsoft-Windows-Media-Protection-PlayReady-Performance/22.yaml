@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '22'
+version: '0'
+event(fields): HrSendHttpAsyncDomainJoinStart(Pointer Object, UInt32 HResult)
+opcode: Start
+keywords: ''
+task: HrSendHttpAsyncDomainJoin
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: HResult

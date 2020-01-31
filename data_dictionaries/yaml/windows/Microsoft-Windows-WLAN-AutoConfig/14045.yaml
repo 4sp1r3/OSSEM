@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '14045'
+version: '0'
+event(fields): task_014045(GUID InterfaceGuid, UnicodeString InterfaceDescription,
+  UnicodeString ProfileName, Boolean Auto, UnicodeString SSID, Boolean Multiple, UInt16
+  SSIDListSize, Binary SSIDList)
+opcode: ''
+keywords: State ut:L2ConnectPath
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: InterfaceDescription
+- field_type: UnicodeString
+  field_name: ProfileName
+- field_type: Boolean
+  field_name: Auto
+- field_type: UnicodeString
+  field_name: SSID
+- field_type: Boolean
+  field_name: Multiple
+- field_type: UInt16
+  field_name: SSIDListSize
+- field_type: Binary
+  field_name: SSIDList

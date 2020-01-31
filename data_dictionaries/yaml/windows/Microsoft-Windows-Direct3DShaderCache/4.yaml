@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '4'
+version: '0'
+event(fields): CreateShaderCacheStart(UInt32 Flags, GUID GUID, UnicodeString Filename,
+  UInt32 FileCreateDisposition, UInt32 Mode, UInt32 MaximumInMemoryCacheSizeBytes,
+  UInt32 MaximumInMemoryCacheEntries, UInt32 MaximumWriteQueueBytes, UInt32 MaximumWriteQueueNumEntries,
+  UInt32 MaximumValueFileSizeBytes)
+opcode: Start
+keywords: APIs Profiling
+task: CreateShaderCache
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: GUID
+  field_name: GUID
+- field_type: UnicodeString
+  field_name: Filename
+- field_type: UInt32
+  field_name: FileCreateDisposition
+- field_type: UInt32
+  field_name: Mode
+- field_type: UInt32
+  field_name: MaximumInMemoryCacheSizeBytes
+- field_type: UInt32
+  field_name: MaximumInMemoryCacheEntries
+- field_type: UInt32
+  field_name: MaximumWriteQueueBytes
+- field_type: UInt32
+  field_name: MaximumWriteQueueNumEntries
+- field_type: UInt32
+  field_name: MaximumValueFileSizeBytes

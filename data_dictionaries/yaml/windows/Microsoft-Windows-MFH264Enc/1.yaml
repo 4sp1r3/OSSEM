@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-MFH264Enc
+event_id: '1'
+version: '0'
+event(fields): MFH264Enc_EncodeSessionStart(Pointer EncoderInstance, Int32 Complexity,
+  Int32 RateCtrlMode, Int32 ContentType, Int32 BufferSize, Int32 AverageBitRate, Int32
+  PeakBitRate, Int32 EntropyMode, Int32 MultithreadEncodingMode, Int32 NumberOfWorkerThreads)
+opcode: Start
+keywords: ''
+task: MFH264Enc_EncodeSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: EncoderInstance
+- field_type: Int32
+  field_name: Complexity
+- field_type: Int32
+  field_name: RateCtrlMode
+- field_type: Int32
+  field_name: ContentType
+- field_type: Int32
+  field_name: BufferSize
+- field_type: Int32
+  field_name: AverageBitRate
+- field_type: Int32
+  field_name: PeakBitRate
+- field_type: Int32
+  field_name: EntropyMode
+- field_type: Int32
+  field_name: MultithreadEncodingMode
+- field_type: Int32
+  field_name: NumberOfWorkerThreads

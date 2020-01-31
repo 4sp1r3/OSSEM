@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1054'
+version: '0'
+event(fields): UpdateObjectStop(UnicodeString ID, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: UpdateObject
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ID
+- field_type: UInt32
+  field_name: ErrorCode

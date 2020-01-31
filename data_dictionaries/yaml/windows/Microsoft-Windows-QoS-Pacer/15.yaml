@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-QoS-Pacer
+event_id: '15'
+version: '0'
+event(fields): task_015(UInt32 TimerEvent, UInt32 TimerId, UInt64 CurrentTime, UInt64
+  SetTime, UInt64 RunTime, UInt32 FlowsProcessed, UInt32 NblsSent, UInt32 NblsDropped,
+  UInt32 Flags)
+opcode: ''
+keywords: ut:SendPath
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TimerEvent
+- field_type: UInt32
+  field_name: TimerId
+- field_type: UInt64
+  field_name: CurrentTime
+- field_type: UInt64
+  field_name: SetTime
+- field_type: UInt64
+  field_name: RunTime
+- field_type: UInt32
+  field_name: FlowsProcessed
+- field_type: UInt32
+  field_name: NblsSent
+- field_type: UInt32
+  field_name: NblsDropped
+- field_type: UInt32
+  field_name: Flags

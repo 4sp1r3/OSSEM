@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '624'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment624(UInt32 DeploymentOperation,
+  UnicodeString DependencyPaths, UInt32 Flags, UInt32 FlagsHigh, UnicodeString CallingProcess)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeploymentOperation
+- field_type: UnicodeString
+  field_name: DependencyPaths
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: FlagsHigh
+- field_type: UnicodeString
+  field_name: CallingProcess

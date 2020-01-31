@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '248'
+version: '0'
+event(fields): Mshtml_IViewObjectPresentSite_Present(Pointer Presenter, UInt32 x,
+  UInt32 y, UInt32 width, UInt32 height)
+opcode: ''
+keywords: subsystem
+task: Mshtml_IViewObjectPresentSite_Present
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Presenter
+- field_type: UInt32
+  field_name: x
+- field_type: UInt32
+  field_name: y
+- field_type: UInt32
+  field_name: width
+- field_type: UInt32
+  field_name: height

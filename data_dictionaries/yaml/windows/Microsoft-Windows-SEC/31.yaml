@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-SEC
+event_id: '31'
+version: '0'
+event(fields): task_031(UInt64 SequenceNumber, UInt32 SuspiciousEntryIndex, UInt32
+  TableSize, Binary Table, UInt32 CodeSize, Binary Code)
+opcode: ''
+keywords: Event31
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: UInt32
+  field_name: SuspiciousEntryIndex
+- field_type: UInt32
+  field_name: TableSize
+- field_type: Binary
+  field_name: Table
+- field_type: UInt32
+  field_name: CodeSize
+- field_type: Binary
+  field_name: Code

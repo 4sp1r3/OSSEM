@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18528'
+version: '0'
+event(fields): Shell32_CFindCmd_DoSearchStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_CFindCmd_DoSearch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

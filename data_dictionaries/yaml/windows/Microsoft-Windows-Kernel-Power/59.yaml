@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '59'
+version: '0'
+event(fields): AwayMode()
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: AwayMode
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

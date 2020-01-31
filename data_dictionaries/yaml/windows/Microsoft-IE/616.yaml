@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '616'
+version: '0'
+event(fields): Mshtml_RenderTask_ApplyPSPStart(Pointer RenderTask)
+opcode: Start
+keywords: subsystem composition
+task: Mshtml_RenderTask_ApplyPSP
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RenderTask

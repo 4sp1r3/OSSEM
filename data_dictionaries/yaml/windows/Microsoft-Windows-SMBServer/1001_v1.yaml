@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1001'
+version: '1'
+event(fields): SrvDisabled_V1()
+opcode: ''
+keywords: Operational
+task: SrvDisabled
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

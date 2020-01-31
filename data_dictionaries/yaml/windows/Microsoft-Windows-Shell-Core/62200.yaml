@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62200'
+version: '0'
+event(fields): Activation_Watermark_Register_Licensing_Event_Error(UInt32 Result)
+opcode: ''
+keywords: ''
+task: Activation_Watermark_Register_Licensing_Event_Error
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

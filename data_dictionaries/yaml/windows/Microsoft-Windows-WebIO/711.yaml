@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WebIO
+event_id: '711'
+version: '0'
+event(fields): SSLSendEntityStop(Pointer Connection, Pointer SslIOContext, Pointer
+  DataChunks, Boolean RequestDisconnect, UInt32 Error)
+opcode: Stop
+keywords: Keyword.SEND
+task: SSLSendEntity
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: SslIOContext
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: Boolean
+  field_name: RequestDisconnect
+- field_type: UInt32
+  field_name: Error

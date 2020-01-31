@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Bits-Client
+event_id: '14'
+version: '0'
+event(fields): listenviaWS_DiscoveryforserverannouncementsStop(UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: listenviaWS_Discoveryforserverannouncements
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

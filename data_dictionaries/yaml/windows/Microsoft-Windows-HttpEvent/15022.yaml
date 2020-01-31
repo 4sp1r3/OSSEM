@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-HttpEvent
+event_id: '15022'
+version: '0'
+event(fields): task_0PCODE_192pcode_19215022(UnicodeString DeviceObject, UnicodeString
+  Status)
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceObject
+- field_type: UnicodeString
+  field_name: Status

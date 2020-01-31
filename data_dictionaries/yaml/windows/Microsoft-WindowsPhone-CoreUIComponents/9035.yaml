@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '9035'
+version: '0'
+event(fields): ViewManagerValidateViewLimit(Int32 Param, Int32 Param2, UInt32 navigationError)
+opcode: ValidateViewLimit
+keywords: ViewManager
+task: ViewManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Param
+- field_type: Int32
+  field_name: Param2
+- field_type: UInt32
+  field_name: navigationError

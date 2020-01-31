@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '2001'
+version: '1'
+event(fields): RemovinglanguagepackStop2001_V1(UnicodeString Language)
+opcode: Stop
+keywords: ''
+task: Removinglanguagepack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language

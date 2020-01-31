@@ -1,0 +1,21 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '28678'
+version: '1'
+event(fields): SerializeordeserializeremotingpayloadTobeusedwhenanexceptionisraised28678_V1(UnicodeString
+  PropertyName, UnicodeString PropertyOwnerType, UnicodeString Exception, UnicodeString
+  InnerException)
+opcode: Tobeusedwhenanexceptionisraised
+keywords: Serializer
+task: Serializeordeserializeremotingpayload
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PropertyName
+- field_type: UnicodeString
+  field_name: PropertyOwnerType
+- field_type: UnicodeString
+  field_name: Exception
+- field_type: UnicodeString
+  field_name: InnerException

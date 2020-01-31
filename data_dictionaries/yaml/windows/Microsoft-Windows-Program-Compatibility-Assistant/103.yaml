@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Program-Compatibility-Assistant
+event_id: '103'
+version: '0'
+event(fields): PCA_MonitorProcessStart()
+opcode: Start
+keywords: ''
+task: PCA_MonitorProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

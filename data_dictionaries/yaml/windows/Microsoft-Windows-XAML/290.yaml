@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAML
+event_id: '290'
+version: '0'
+event(fields): CompTreeRemoveFromParentStart(UInt64 Parent, UInt64 Child, UInt32 RemoveForReparenting,
+  UInt32 MergePrimitiveGroups)
+opcode: Start
+keywords: DComp
+task: CompTreeRemoveFromParent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Parent
+- field_type: UInt64
+  field_name: Child
+- field_type: UInt32
+  field_name: RemoveForReparenting
+- field_type: UInt32
+  field_name: MergePrimitiveGroups

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1461'
+version: '0'
+event(fields): DropFeedback_Hide()
+opcode: ''
+keywords: ''
+task: DropFeedback_Hide
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

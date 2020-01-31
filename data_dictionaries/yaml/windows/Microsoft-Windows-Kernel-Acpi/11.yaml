@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Acpi
+event_id: '11'
+version: '0'
+event(fields): TemperatureChange(UInt16 ThermalZoneDeviceInstanceLength, UnicodeString
+  ThermalZoneDeviceInstance, UInt32 Temperature)
+opcode: ''
+keywords: acpi:Thermal
+task: TemperatureChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ThermalZoneDeviceInstanceLength
+- field_type: UnicodeString
+  field_name: ThermalZoneDeviceInstance
+- field_type: UInt32
+  field_name: Temperature

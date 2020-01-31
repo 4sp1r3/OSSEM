@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '82'
+version: '0'
+event(fields): DmaPoolTrimmingPolicy(Pointer Device, UInt32 Policy)
+opcode: ''
+keywords: Base
+task: DmaPoolTrimmingPolicy
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Device
+- field_type: UInt32
+  field_name: Policy

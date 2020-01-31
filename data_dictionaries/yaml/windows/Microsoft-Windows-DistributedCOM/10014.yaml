@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DistributedCOM
+event_id: '10014'
+version: '0'
+event(fields): task_010014(UnicodeString param1)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

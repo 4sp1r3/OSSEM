@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WinINet
+event_id: '604'
+version: '0'
+event(fields): WININET_AUTH_USING_CACHED_CREDS(Pointer RequestHandle, Boolean IsProxy)
+opcode: ''
+keywords: WININET_KEYWORD_AUTH
+task: WININET_AUTH_USING_CACHED_CREDS
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestHandle
+- field_type: Boolean
+  field_name: IsProxy

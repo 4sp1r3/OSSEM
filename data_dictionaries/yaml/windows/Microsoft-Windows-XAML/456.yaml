@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '456'
+version: '0'
+event(fields): ApiFunctionCallStop(UInt64 Id, UInt32 HR)
+opcode: Stop
+keywords: ApiCall
+task: ApiFunctionCall
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt32
+  field_name: HR

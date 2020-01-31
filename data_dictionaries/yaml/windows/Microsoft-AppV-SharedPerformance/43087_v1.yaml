@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '43087'
+version: '1'
+event(fields): PublishPackage_4302Stop_V1()
+opcode: Stop
+keywords: ''
+task: PublishPackage_4302
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

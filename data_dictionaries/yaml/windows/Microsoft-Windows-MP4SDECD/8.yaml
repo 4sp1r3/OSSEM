@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-MP4SDECD
+event_id: '8'
+version: '0'
+event(fields): MP4SDECD_ProcessInput(UInt32 Frame, Int64 SampleTime, Int64 SampleDuration)
+opcode: ''
+keywords: ''
+task: MP4SDECD_ProcessInput
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Frame
+- field_type: Int64
+  field_name: SampleTime
+- field_type: Int64
+  field_name: SampleDuration

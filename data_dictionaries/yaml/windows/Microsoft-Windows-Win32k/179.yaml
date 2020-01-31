@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Win32k
+event_id: '179'
+version: '0'
+event(fields): DirtyRgn(UInt64 hLogicalSurface, UInt32 RgnType, Int16 rcBounds, UInt32
+  NumRects, Int64 rcData)
+opcode: ''
+keywords: Updates
+task: DirtyRgn
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hLogicalSurface
+- field_type: UInt32
+  field_name: RgnType
+- field_type: Int16
+  field_name: rcBounds
+- field_type: UInt32
+  field_name: NumRects
+- field_type: Int64
+  field_name: rcData

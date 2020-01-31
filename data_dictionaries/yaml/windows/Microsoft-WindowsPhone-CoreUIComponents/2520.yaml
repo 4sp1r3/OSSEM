@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2520'
+version: '0'
+event(fields): TaskNTReadyToNavigate(UInt32 unParam, Boolean fBool)
+opcode: NTReadyToNavigate
+keywords: NavigationPerformance Task
+task: Task
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: Boolean
+  field_name: fBool

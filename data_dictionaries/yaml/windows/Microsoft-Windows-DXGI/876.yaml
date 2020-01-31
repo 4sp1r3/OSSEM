@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '876'
+version: '0'
+event(fields): IDXGISwapChainPartner_GetColorSpaceStart(Pointer pThis)
+opcode: Start
+keywords: ''
+task: IDXGISwapChainPartner_GetColorSpace
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis

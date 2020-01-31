@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '502'
+version: '0'
+event(fields): FlipManagerTokenReleaseToFrameStart(UInt64 PresentId)
+opcode: Start
+keywords: Updates
+task: FlipManagerTokenReleaseToFrame
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PresentId

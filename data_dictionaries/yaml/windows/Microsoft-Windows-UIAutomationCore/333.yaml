@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '333'
+version: '0'
+event(fields): CAutomationElement_GetRuntimeIdStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: CAutomationElement_GetRuntimeId
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

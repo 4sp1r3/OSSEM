@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '115'
+version: '0'
+event(fields): Mshtml_CStorageListHelper_SaveStart(Pointer StorageListHelper)
+opcode: Start
+keywords: subsystem
+task: Mshtml_CStorageListHelper_Save
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: StorageListHelper

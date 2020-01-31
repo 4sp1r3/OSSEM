@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinINet
+event_id: '834'
+version: '0'
+event(fields): WININET_AUTOPROXY_PERFTRACK_ALLStart(UInt32 UniqueId)
+opcode: Start
+keywords: WININET_KEYWORD_AUTOPROXY
+task: WININET_AUTOPROXY_PERFTRACK_ALL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: UniqueId

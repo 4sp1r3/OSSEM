@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1037'
+version: '0'
+event(fields): task_01037(UInt32 FailureType, UInt32 InterfaceIndex, HexInt32 Error)
+opcode: ''
+keywords: Nsi
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FailureType
+- field_type: UInt32
+  field_name: InterfaceIndex
+- field_type: HexInt32
+  field_name: Error

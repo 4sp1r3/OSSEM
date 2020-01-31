@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '8209'
+version: '0'
+event(fields): BackStackMusicPlay_Show_MTC_UI(UnicodeString AppId)
+opcode: ''
+keywords: ''
+task: BackStackMusicPlay_Show_MTC_UI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId

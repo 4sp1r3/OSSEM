@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '406'
+version: '0'
+event(fields): CUICCAppStop(UInt64 Pointer)
+opcode: Stop
+keywords: Performance
+task: CUICCApp
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Pointer

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '5403'
+version: '0'
+event(fields): TokenValidation5403(UnicodeString tokenType, UnicodeString tokenID,
+  UnicodeString HostReference, UnicodeString AppDomain)
+opcode: ''
+keywords: Security
+task: TokenValidation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: tokenType
+- field_type: UnicodeString
+  field_name: tokenID
+- field_type: UnicodeString
+  field_name: HostReference
+- field_type: UnicodeString
+  field_name: AppDomain

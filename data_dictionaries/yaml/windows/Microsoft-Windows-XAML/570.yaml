@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '570'
+version: '0'
+event(fields): SetCustomRuntimeDataForStyleStop()
+opcode: Stop
+keywords: Core
+task: SetCustomRuntimeDataForStyle
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

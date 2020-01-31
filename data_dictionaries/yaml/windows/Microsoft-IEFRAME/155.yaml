@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '155'
+version: '0'
+event(fields): Find_HighlightHitsStart()
+opcode: Start
+keywords: primarynav
+task: Find_HighlightHits
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

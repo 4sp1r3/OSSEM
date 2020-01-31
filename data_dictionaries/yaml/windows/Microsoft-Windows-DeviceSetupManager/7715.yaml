@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '7715'
+version: '0'
+event(fields): InstallFromWindowsUpdateStop()
+opcode: Stop
+keywords: ''
+task: InstallFromWindowsUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

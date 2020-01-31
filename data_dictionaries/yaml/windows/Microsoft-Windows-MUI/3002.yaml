@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MUI
+event_id: '3002'
+version: '0'
+event(fields): MUINotifyUILanguageChangetaskInvokecallbackfunction3002(UnicodeString
+  FileName, AnsiString FunctionName, UInt32 ReturnValue)
+opcode: Invokecallbackfunction
+keywords: ''
+task: MUINotifyUILanguageChangetask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: AnsiString
+  field_name: FunctionName
+- field_type: UInt32
+  field_name: ReturnValue

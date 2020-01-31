@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '29016'
+version: '1'
+event(fields): StartupTask.Start_V1()
+opcode: Start
+keywords: ''
+task: StartupTask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

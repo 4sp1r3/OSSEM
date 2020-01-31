@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '3108'
+version: '0'
+event(fields): AutoPlay_DialogNoContentThreadStop()
+opcode: Stop
+keywords: ''
+task: AutoPlay_DialogNoContentThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

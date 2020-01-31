@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Narrator
+event_id: '6'
+version: '0'
+event(fields): InitiateSpeakingStop(Int32 Channel, UnicodeString SpokenText)
+opcode: Stop
+keywords: PerfInstrumentation
+task: InitiateSpeaking
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Channel
+- field_type: UnicodeString
+  field_name: SpokenText

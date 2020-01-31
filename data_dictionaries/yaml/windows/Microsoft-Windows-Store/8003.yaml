@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Store
+event_id: '8003'
+version: '0'
+event(fields): LMError(UnicodeString Message, AnsiString Function, AnsiString Source,
+  UInt32 LineNumber)
+opcode: Error
+keywords: keyword_100000000000
+task: LM
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: AnsiString
+  field_name: Function
+- field_type: AnsiString
+  field_name: Source
+- field_type: UInt32
+  field_name: LineNumber

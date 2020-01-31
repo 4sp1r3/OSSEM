@@ -1,0 +1,13 @@
+provider: LsaSrv
+event_id: '32780'
+version: '0'
+event(fields): task_032780(HexInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4944'
+version: '0'
+event(fields): task_04944(UnicodeString GroupPolicyApplied, UnicodeString Profile,
+  UnicodeString OperationMode, UnicodeString RemoteAdminEnabled, UnicodeString MulticastFlowsEnabled,
+  UnicodeString LogDroppedPacketsEnabled, UnicodeString LogSuccessfulConnectionsEnabled)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: GroupPolicyApplied
+- field_type: UnicodeString
+  field_name: Profile
+- field_type: UnicodeString
+  field_name: OperationMode
+- field_type: UnicodeString
+  field_name: RemoteAdminEnabled
+- field_type: UnicodeString
+  field_name: MulticastFlowsEnabled
+- field_type: UnicodeString
+  field_name: LogDroppedPacketsEnabled
+- field_type: UnicodeString
+  field_name: LogSuccessfulConnectionsEnabled

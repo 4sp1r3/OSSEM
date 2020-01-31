@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '11006'
+version: '1'
+event(fields): ManifestCreateManifestDocumentFromXMLStop_V1()
+opcode: Stop
+keywords: ''
+task: ManifestCreateManifestDocumentFromXML
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

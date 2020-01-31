@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1291'
+version: '0'
+event(fields): Ndkpi_Fast_Register(Pointer NdkQp, Pointer RequestContext, Pointer
+  NdkMr, UInt32 AdapterPageCount, Pointer AdapterPageArray, UInt32 FBO, UInt64 Length,
+  Pointer BaseVirtualAddress, UInt32 Flags)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Fast_Register
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkQp
+- field_type: Pointer
+  field_name: RequestContext
+- field_type: Pointer
+  field_name: NdkMr
+- field_type: UInt32
+  field_name: AdapterPageCount
+- field_type: Pointer
+  field_name: AdapterPageArray
+- field_type: UInt32
+  field_name: FBO
+- field_type: UInt64
+  field_name: Length
+- field_type: Pointer
+  field_name: BaseVirtualAddress
+- field_type: UInt32
+  field_name: Flags

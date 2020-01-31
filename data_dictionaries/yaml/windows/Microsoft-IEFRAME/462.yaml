@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '462'
+version: '0'
+event(fields): BrowserRoamedSettingChange_TypedUrlsStart(UInt64 HWND)
+opcode: Start
+keywords: roaming
+task: BrowserRoamedSettingChange_TypedUrls
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: HWND

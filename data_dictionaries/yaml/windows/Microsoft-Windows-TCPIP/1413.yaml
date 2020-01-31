@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1413'
+version: '0'
+event(fields): UdpSendMessagesPathNextHopMissingFailure(Pointer Endpoint, UInt32 EndpointAddressLength,
+  Binary EndpointAddress, UInt32 SendAddressLength, Binary SendAddress, UInt32 Status)
+opcode: ''
+keywords: ut:SendPath
+task: UdpSendMessagesPathNextHopMissingFailure
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Endpoint
+- field_type: UInt32
+  field_name: EndpointAddressLength
+- field_type: Binary
+  field_name: EndpointAddress
+- field_type: UInt32
+  field_name: SendAddressLength
+- field_type: Binary
+  field_name: SendAddress
+- field_type: UInt32
+  field_name: Status

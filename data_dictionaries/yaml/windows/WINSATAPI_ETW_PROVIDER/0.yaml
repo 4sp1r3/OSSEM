@@ -1,0 +1,20 @@
+provider: WINSATAPI_ETW_PROVIDER
+event_id: '0'
+version: '0'
+event(fields): Application(UInt32 TestV1, UInt32 TestV2, UInt32 TestV3, UnicodeString
+  TestV4)
+opcode: ''
+keywords: ''
+task: Application
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TestV1
+- field_type: UInt32
+  field_name: TestV2
+- field_type: UInt32
+  field_name: TestV3
+- field_type: UnicodeString
+  field_name: TestV4

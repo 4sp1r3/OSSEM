@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18544'
+version: '0'
+event(fields): Shell32_AutoPlay_Proximity_SniffStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_AutoPlay_Proximity_Sniff
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

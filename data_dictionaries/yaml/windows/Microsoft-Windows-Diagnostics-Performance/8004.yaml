@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '8004'
+version: '0'
+event(fields): Shutdown_TroubleshootingStop(UInt32 HResult)
+opcode: Stop
+keywords: ShutdownStatus
+task: Shutdown_Troubleshooting
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HResult

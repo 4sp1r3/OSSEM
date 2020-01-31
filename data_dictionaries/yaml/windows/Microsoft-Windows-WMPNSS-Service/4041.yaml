@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4041'
+version: '0'
+event(fields): Obj_Get_Desc_Element_DataStop(UInt32 ElementValue, UInt32 Index, UInt32
+  AttributeValue, UInt32 MaxLength, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Obj_Get_Desc_Element_Data
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ElementValue
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: AttributeValue
+- field_type: UInt32
+  field_name: MaxLength
+- field_type: UInt32
+  field_name: ErrorCode

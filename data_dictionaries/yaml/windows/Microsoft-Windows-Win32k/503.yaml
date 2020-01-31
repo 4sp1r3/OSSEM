@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '503'
+version: '0'
+event(fields): FlipManagerTokenReleaseToFrameStop(UInt64 PresentId, UInt32 TokenResult)
+opcode: Stop
+keywords: Updates
+task: FlipManagerTokenReleaseToFrame
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: PresentId
+- field_type: UInt32
+  field_name: TokenResult

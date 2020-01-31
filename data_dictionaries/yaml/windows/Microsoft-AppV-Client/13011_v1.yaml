@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '13011'
+version: '1'
+event(fields): ApplicationLaunch13011_V1(GUID Package, GUID Version)
+opcode: ''
+keywords: VirtualAppLaunch
+task: ApplicationLaunch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Package
+- field_type: GUID
+  field_name: Version

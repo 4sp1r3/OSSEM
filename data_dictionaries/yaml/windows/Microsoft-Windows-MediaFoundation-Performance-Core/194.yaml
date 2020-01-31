@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '194'
+version: '0'
+event(fields): MFMFAudio_Render_StreamSinkAudStreamSink_DelayEOSMarker(Pointer object)
+opcode: AudStreamSink_DelayEOSMarker
+keywords: ''
+task: MFMFAudio_Render_StreamSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

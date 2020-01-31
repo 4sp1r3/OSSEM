@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Wallet
+event_id: '310'
+version: '0'
+event(fields): Core_GetPropertyStop(HexInt64 ItemId, UInt32 WalletItemPropertyType)
+opcode: Stop
+keywords: Performance
+task: Core_GetProperty
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: ItemId
+- field_type: UInt32
+  field_name: WalletItemPropertyType

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-QoS-qWAVE
+event_id: '1'
+version: '0'
+event(fields): task_0(UInt32 FlowId, UInt32 SetFlowType, UInt32 BufferLen, Binary
+  Buffer, UInt32 Flags, UInt32 FailureActivity, UInt32 FailureErrorCodeType, UInt32
+  FailureErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FlowId
+- field_type: UInt32
+  field_name: SetFlowType
+- field_type: UInt32
+  field_name: BufferLen
+- field_type: Binary
+  field_name: Buffer
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: FailureActivity
+- field_type: UInt32
+  field_name: FailureErrorCodeType
+- field_type: UInt32
+  field_name: FailureErrorCode

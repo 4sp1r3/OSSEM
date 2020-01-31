@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-FileHistory-Service
+event_id: '7'
+version: '0'
+event(fields): BackupCycleStart(UnicodeString ConfigFilePath, UInt32 BackupType)
+opcode: Start
+keywords: ''
+task: BackupCycle
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ConfigFilePath
+- field_type: UInt32
+  field_name: BackupType

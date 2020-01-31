@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '2'
+version: '0'
+event(fields): Error_IAccessibleErrors(UnicodeString Method, HexInt32 Hresult, UnicodeString
+  Details, UnicodeString SourceHwnd, UnicodeString Provider)
+opcode: ''
+keywords: ''
+task: Error_IAccessibleErrors
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Method
+- field_type: HexInt32
+  field_name: Hresult
+- field_type: UnicodeString
+  field_name: Details
+- field_type: UnicodeString
+  field_name: SourceHwnd
+- field_type: UnicodeString
+  field_name: Provider

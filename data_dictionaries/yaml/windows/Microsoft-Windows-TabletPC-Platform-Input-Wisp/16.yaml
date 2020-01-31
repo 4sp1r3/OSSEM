@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Wisp
+event_id: '16'
+version: '0'
+event(fields): TABLET_INPUT_Multi_Touch_Gesture_Mapping_LoadStop()
+opcode: Stop
+keywords: ''
+task: TABLET_INPUT_Multi_Touch_Gesture_Mapping_Load
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

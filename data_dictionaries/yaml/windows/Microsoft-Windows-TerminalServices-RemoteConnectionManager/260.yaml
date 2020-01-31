@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TerminalServices-RemoteConnectionManager
+event_id: '260'
+version: '0'
+event(fields): task_0260(UnicodeString listenerName, Pointer errorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: listenerName
+- field_type: Pointer
+  field_name: errorCode

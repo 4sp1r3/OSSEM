@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellularAPI
+event_id: '1207'
+version: '0'
+event(fields): CCan1207(Int32 HResultName)
+opcode: ''
+keywords: Error
+task: CCan
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HResultName

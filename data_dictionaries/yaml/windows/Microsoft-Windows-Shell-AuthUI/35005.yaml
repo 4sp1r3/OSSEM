@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '35005'
+version: '0'
+event(fields): CredUI_Dialog_Destroyed()
+opcode: ''
+keywords: ''
+task: CredUI_Dialog_Destroyed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

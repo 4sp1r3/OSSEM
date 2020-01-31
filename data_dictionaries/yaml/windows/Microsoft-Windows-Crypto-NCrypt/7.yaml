@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Crypto-NCrypt
+event_id: '7'
+version: '0'
+event(fields): OperationFailure_7(HexInt32 Flags, HexInt32 Status, UnicodeString ProcessName)
+opcode: ''
+keywords: ETW_KEYWORD_PROTECT_OPERATION
+task: OperationFailure_7
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Flags
+- field_type: HexInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: ProcessName

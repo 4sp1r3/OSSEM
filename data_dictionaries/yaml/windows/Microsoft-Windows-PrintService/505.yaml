@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-PrintService
+event_id: '505'
+version: '0'
+event(fields): Routingprintspoolercommand(s)SpoolerOperationFailed505(UnicodeString
+  Name, HexInt32 Error)
+opcode: SpoolerOperationFailed
+keywords: SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ROUTER
+task: Routingprintspoolercommand(s)
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: HexInt32
+  field_name: Error

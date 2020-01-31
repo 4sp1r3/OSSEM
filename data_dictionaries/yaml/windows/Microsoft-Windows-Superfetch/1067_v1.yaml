@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Superfetch
+event_id: '1067'
+version: '1'
+event(fields): PageCombiningStop_V1(Pointer PagesCombined)
+opcode: Stop
+keywords: Combine
+task: PageCombining
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PagesCombined

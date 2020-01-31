@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Eventlog
+event_id: '108'
+version: '0'
+event(fields): SystemAbnormalShutdown(SYSTEMTIME ShutdownTime, UInt32 ActualMaxInterval,
+  UInt32 DiskPmDisabledMaxInterval, UInt32 DiskPmEnabledFlag, UInt32 DiskPmEnabledMaxInterval,
+  UInt32 TimestampForced, UInt32 DiskPmPolicy, UInt32 BiasValid, UInt32 StartBias)
+opcode: ''
+keywords: el:SystemAvailability
+task: SystemAbnormalShutdown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SYSTEMTIME
+  field_name: ShutdownTime
+- field_type: UInt32
+  field_name: ActualMaxInterval
+- field_type: UInt32
+  field_name: DiskPmDisabledMaxInterval
+- field_type: UInt32
+  field_name: DiskPmEnabledFlag
+- field_type: UInt32
+  field_name: DiskPmEnabledMaxInterval
+- field_type: UInt32
+  field_name: TimestampForced
+- field_type: UInt32
+  field_name: DiskPmPolicy
+- field_type: UInt32
+  field_name: BiasValid
+- field_type: UInt32
+  field_name: StartBias

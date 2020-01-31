@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Magnification
+event_id: '3'
+version: '0'
+event(fields): SetWindowSource(UInt64 hWndLensCtx, AnsiString SrcRect)
+opcode: ''
+keywords: Magnification
+task: SetWindowSource
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hWndLensCtx
+- field_type: AnsiString
+  field_name: SrcRect

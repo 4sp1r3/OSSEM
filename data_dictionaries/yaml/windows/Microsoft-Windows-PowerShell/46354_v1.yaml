@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '46354'
+version: '1'
+event(fields): None46354_V1(GUID ProxyChildJobInstanceId)
+opcode: ''
+keywords: ''
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProxyChildJobInstanceId

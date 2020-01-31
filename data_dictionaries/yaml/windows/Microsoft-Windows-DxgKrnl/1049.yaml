@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1049'
+version: '0'
+event(fields): MiracastPerfTrackStartMiracastSessionFailedStop(UInt32 AssociationId,
+  UInt32 GraphicsDeviceId, UnicodeString SinkDeviceInformation)
+opcode: Stop
+keywords: Miracast
+task: MiracastPerfTrackStartMiracastSessionFailed
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AssociationId
+- field_type: UInt32
+  field_name: GraphicsDeviceId
+- field_type: UnicodeString
+  field_name: SinkDeviceInformation

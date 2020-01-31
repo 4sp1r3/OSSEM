@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dism-Cli
+event_id: '5'
+version: '0'
+event(fields): DismCliExecuteCmdLineStart()
+opcode: Start
+keywords: DismCliEvent
+task: DismCliExecuteCmdLine
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

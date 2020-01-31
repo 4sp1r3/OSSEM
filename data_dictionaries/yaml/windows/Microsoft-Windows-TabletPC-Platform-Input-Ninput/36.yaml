@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '36'
+version: '0'
+event(fields): NinputICCreateStart()
+opcode: Start
+keywords: ''
+task: NinputICCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '3'
+version: '0'
+event(fields): task_0()
+opcode: ''
+keywords: DxgKrnl_WDI
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

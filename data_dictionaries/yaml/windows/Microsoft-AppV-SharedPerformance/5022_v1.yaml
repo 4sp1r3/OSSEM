@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '5022'
+version: '1'
+event(fields): GlobalMaintenanceStop5022_V1()
+opcode: Stop
+keywords: ''
+task: GlobalMaintenance
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

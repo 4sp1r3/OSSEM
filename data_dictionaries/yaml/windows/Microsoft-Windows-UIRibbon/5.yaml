@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIRibbon
+event_id: '5'
+version: '0'
+event(fields): NetUIMouseEnter()
+opcode: ''
+keywords: Default
+task: NetUIMouseEnter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

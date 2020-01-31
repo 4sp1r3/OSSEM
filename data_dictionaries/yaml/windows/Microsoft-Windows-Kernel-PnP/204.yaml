@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '204'
+version: '0'
+event(fields): OsLoader(UInt64 OSLoaderStart, UInt64 OSLoaderEnd)
+opcode: ''
+keywords: Performance
+task: OsLoader
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: OSLoaderStart
+- field_type: UInt64
+  field_name: OSLoaderEnd

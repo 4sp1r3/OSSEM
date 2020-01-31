@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7259'
+version: '0'
+event(fields): ConnectedSearch_UnauthenticationStop()
+opcode: Stop
+keywords: ''
+task: ConnectedSearch_Unauthentication
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

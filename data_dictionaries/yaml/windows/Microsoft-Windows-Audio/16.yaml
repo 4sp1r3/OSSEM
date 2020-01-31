@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Audio
+event_id: '16'
+version: '0'
+event(fields): AudioPerf_Task_SessionAPIStart()
+opcode: Start
+keywords: ''
+task: AudioPerf_Task_SessionAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

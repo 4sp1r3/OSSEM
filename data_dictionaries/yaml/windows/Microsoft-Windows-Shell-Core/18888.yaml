@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18888'
+version: '0'
+event(fields): Shell32_ItemThumbnail_Prefetch_DispatchStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_ItemThumbnail_Prefetch_Dispatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

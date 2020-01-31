@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '10113'
+version: '1'
+event(fields): Startupofanewdriverhostprocess._V1(GUID LifetimeId, UnicodeString InstanceId,
+  UnicodeString ConflictingParameter, UInt64 Value, UnicodeString DriverName)
+opcode: ''
+keywords: ''
+task: Startupofanewdriverhostprocess.
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId
+- field_type: UnicodeString
+  field_name: InstanceId
+- field_type: UnicodeString
+  field_name: ConflictingParameter
+- field_type: UInt64
+  field_name: Value
+- field_type: UnicodeString
+  field_name: DriverName

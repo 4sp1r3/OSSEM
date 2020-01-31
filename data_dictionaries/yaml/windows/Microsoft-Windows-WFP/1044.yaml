@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-WFP
+event_id: '1044'
+version: '0'
+event(fields): task_01044(FILETIME Timestamp, UInt32 LocalAddressLength, Binary LocalAddress,
+  UInt32 RemoteAddressLength, Binary RemoteAddress, UInt32 ScopeId, UnicodeString
+  AppId, SID UserSID, UInt32 SPI)
+opcode: ''
+keywords: ut:ReceivePath
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: FILETIME
+  field_name: Timestamp
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UInt32
+  field_name: ScopeId
+- field_type: UnicodeString
+  field_name: AppId
+- field_type: SID
+  field_name: UserSID
+- field_type: UInt32
+  field_name: SPI

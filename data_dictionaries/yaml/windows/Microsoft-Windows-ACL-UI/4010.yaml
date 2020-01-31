@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ACL-UI
+event_id: '4010'
+version: '0'
+event(fields): DisplayEffectivePermissionReportStart()
+opcode: Start
+keywords: ''
+task: DisplayEffectivePermissionReport
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1219'
+version: '0'
+event(fields): SensorsHidInitializationTask1219(Pointer WdfDevice, UInt16 SensorUsage,
+  UInt8 ReportId, Boolean IsWakeReportingStateSupported, Boolean IsWakePowerStateSupported)
+opcode: ''
+keywords: ''
+task: SensorsHidInitializationTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: UInt16
+  field_name: SensorUsage
+- field_type: UInt8
+  field_name: ReportId
+- field_type: Boolean
+  field_name: IsWakeReportingStateSupported
+- field_type: Boolean
+  field_name: IsWakePowerStateSupported

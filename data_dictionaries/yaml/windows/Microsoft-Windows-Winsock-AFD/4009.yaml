@@ -1,0 +1,48 @@
+provider: Microsoft-Windows-Winsock-AFD
+event_id: '4009'
+version: '0'
+event(fields): AfdRioResizeRqPairModified(Pointer RioState, UInt32 OriginalSendEntryCount,
+  UInt32 OriginalSendQueueStart, UInt32 OriginalSendQueueEnd, UInt32 RequestedSendEntryCount,
+  Pointer SendUserAddress, Pointer SendSystemAddress, UInt32 SendBufferSize, UInt32
+  OriginalReceiveEntryCount, UInt32 OriginalReceiveQueueStart, UInt32 OriginalReceiveQueueEnd,
+  UInt32 RequestedReceiveEntryCount, Pointer ReceiveUserAddress, Pointer ReceiveSystemAddress,
+  UInt32 ReceiveBufferSize, UInt32 Status)
+opcode: Modified
+keywords: AFD_KW_RIO
+task: AfdRioResizeRqPair
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RioState
+- field_type: UInt32
+  field_name: OriginalSendEntryCount
+- field_type: UInt32
+  field_name: OriginalSendQueueStart
+- field_type: UInt32
+  field_name: OriginalSendQueueEnd
+- field_type: UInt32
+  field_name: RequestedSendEntryCount
+- field_type: Pointer
+  field_name: SendUserAddress
+- field_type: Pointer
+  field_name: SendSystemAddress
+- field_type: UInt32
+  field_name: SendBufferSize
+- field_type: UInt32
+  field_name: OriginalReceiveEntryCount
+- field_type: UInt32
+  field_name: OriginalReceiveQueueStart
+- field_type: UInt32
+  field_name: OriginalReceiveQueueEnd
+- field_type: UInt32
+  field_name: RequestedReceiveEntryCount
+- field_type: Pointer
+  field_name: ReceiveUserAddress
+- field_type: Pointer
+  field_name: ReceiveSystemAddress
+- field_type: UInt32
+  field_name: ReceiveBufferSize
+- field_type: UInt32
+  field_name: Status

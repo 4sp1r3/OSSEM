@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '219'
+version: '0'
+event(fields): DdiGetChildContainerIdStop(Pointer MiniportDeviceContext, UInt32 ChildUid,
+  UInt32 Status)
+opcode: Stop
+keywords: Base
+task: DdiGetChildContainerId
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportDeviceContext
+- field_type: UInt32
+  field_name: ChildUid
+- field_type: UInt32
+  field_name: Status

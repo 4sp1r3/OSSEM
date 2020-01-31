@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-D3D9
+event_id: '6'
+version: '0'
+event(fields): DWMRedirection(Boolean IsOn)
+opcode: ''
+keywords: Events
+task: DWMRedirection
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsOn

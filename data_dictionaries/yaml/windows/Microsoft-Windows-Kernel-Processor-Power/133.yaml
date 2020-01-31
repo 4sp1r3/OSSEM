@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '133'
+version: '0'
+event(fields): HiddenProcessorPerfRundown(UInt16 DomainMasterGroup, UInt8 DomainMasterNumber,
+  UInt32 ProcessorId, UInt32 BiosCap, UInt32 ThermalCap)
+opcode: ''
+keywords: Diag PerfDiag
+task: HiddenProcessorPerfRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: DomainMasterGroup
+- field_type: UInt8
+  field_name: DomainMasterNumber
+- field_type: UInt32
+  field_name: ProcessorId
+- field_type: UInt32
+  field_name: BiosCap
+- field_type: UInt32
+  field_name: ThermalCap

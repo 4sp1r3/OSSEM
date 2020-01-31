@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Audio
+event_id: '19'
+version: '0'
+event(fields): AudioPerf_Task_GlitchCounter(UInt32 dwGlitchCount, UInt64 hnsTimeWindow)
+opcode: ''
+keywords: ''
+task: AudioPerf_Task_GlitchCounter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: dwGlitchCount
+- field_type: UInt64
+  field_name: hnsTimeWindow

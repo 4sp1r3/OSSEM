@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3379'
+version: '0'
+event(fields): TransportSendStart3379(Int32 SocketId, Int32 Size, UnicodeString Endpoint,
+  UnicodeString AppDomain)
+opcode: Start
+keywords: TCP
+task: TransportSend
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: SocketId
+- field_type: Int32
+  field_name: Size
+- field_type: UnicodeString
+  field_name: Endpoint
+- field_type: UnicodeString
+  field_name: AppDomain

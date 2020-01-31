@@ -1,0 +1,20 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1203'
+version: '0'
+event(fields): iaLPSS2_I2CControllerroutines1203(UInt16 SlaveAddress, UInt32 Idx,
+  UInt32 Count, UInt64 Length)
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CControllerroutines
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: SlaveAddress
+- field_type: UInt32
+  field_name: Idx
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt64
+  field_name: Length

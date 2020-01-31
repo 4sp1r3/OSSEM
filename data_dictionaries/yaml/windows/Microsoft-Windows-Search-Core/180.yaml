@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '180'
+version: '0'
+event(fields): CEnumSearchRoots_Constructor()
+opcode: ''
+keywords: CSM
+task: CEnumSearchRoots_Constructor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

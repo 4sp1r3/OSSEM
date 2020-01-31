@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-LiveId
+event_id: '1022'
+version: '0'
+event(fields): LiveIdModernAPIOperation1022(UnicodeString RegistryLocation, HexInt32
+  Status)
+opcode: ''
+keywords: Error Operational
+task: LiveIdModernAPIOperation
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RegistryLocation
+- field_type: HexInt32
+  field_name: Status

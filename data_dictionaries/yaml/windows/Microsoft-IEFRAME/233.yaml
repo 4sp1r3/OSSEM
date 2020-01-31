@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '233'
+version: '0'
+event(fields): Shdocvw_BaseBrowser_FireEvent_BeforeScriptExecuteStart()
+opcode: Start
+keywords: primarynav
+task: Shdocvw_BaseBrowser_FireEvent_BeforeScriptExecute
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

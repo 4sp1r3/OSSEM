@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '22004'
+version: '1'
+event(fields): ShellNotifyAddShortcutStart_V1()
+opcode: Start
+keywords: ''
+task: ShellNotifyAddShortcut
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

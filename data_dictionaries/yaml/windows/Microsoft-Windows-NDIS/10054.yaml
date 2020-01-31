@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10054'
+version: '0'
+event(fields): Port10054(GUID IfGuid, UInt32 IfIndex, UInt64 NetLuid, UInt32 Reason,
+  UInt32 Port)
+opcode: ''
+keywords: Port LwtDiagnostic
+task: Port
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: IfGuid
+- field_type: UInt32
+  field_name: IfIndex
+- field_type: UInt64
+  field_name: NetLuid
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Port

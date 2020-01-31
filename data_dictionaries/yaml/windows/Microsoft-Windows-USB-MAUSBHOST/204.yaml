@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '204'
+version: '0'
+event(fields): task_0Information204(Pointer fid_Controller, UInt8 fid_HeaderVersion,
+  UInt8 fid_HeaderFlagBitHost, UInt8 fid_HeaderFlagBitRetry, UInt8 fid_HeaderFlagBitTimeStamp,
+  UInt8 fid_HeaderSubType, UInt8 fid_HeaderType, UInt16 fid_HeaderLength, UInt16 fid_HeaderDeviceHandle,
+  UInt8 fid_HeaderDeviceAddress, UInt8 fid_HeaderSSID, UInt8 fid_HeaderStatusCode,
+  UInt16 fid_HeaderDialogToken)
+opcode: Information
+keywords: MAUSBTraffic
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: UInt8
+  field_name: fid_HeaderVersion
+- field_type: UInt8
+  field_name: fid_HeaderFlagBitHost
+- field_type: UInt8
+  field_name: fid_HeaderFlagBitRetry
+- field_type: UInt8
+  field_name: fid_HeaderFlagBitTimeStamp
+- field_type: UInt8
+  field_name: fid_HeaderSubType
+- field_type: UInt8
+  field_name: fid_HeaderType
+- field_type: UInt16
+  field_name: fid_HeaderLength
+- field_type: UInt16
+  field_name: fid_HeaderDeviceHandle
+- field_type: UInt8
+  field_name: fid_HeaderDeviceAddress
+- field_type: UInt8
+  field_name: fid_HeaderSSID
+- field_type: UInt8
+  field_name: fid_HeaderStatusCode
+- field_type: UInt16
+  field_name: fid_HeaderDialogToken

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1318'
+version: '0'
+event(fields): TcpipPowerStateTransitionEvent(UInt32 Component, UInt32 PowerStateTransition,
+  UInt32 IndicatingProcessor, UInt32 CurrentTick, UInt64 CurrentTime)
+opcode: ''
+keywords: ut:Global
+task: TcpipPowerStateTransitionEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Component
+- field_type: UInt32
+  field_name: PowerStateTransition
+- field_type: UInt32
+  field_name: IndicatingProcessor
+- field_type: UInt32
+  field_name: CurrentTick
+- field_type: UInt64
+  field_name: CurrentTime

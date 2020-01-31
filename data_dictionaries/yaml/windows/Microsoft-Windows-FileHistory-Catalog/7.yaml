@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-FileHistory-Catalog
+event_id: '7'
+version: '0'
+event(fields): AddNamespaceRecordStart(UnicodeString Path)
+opcode: Start
+keywords: ''
+task: AddNamespaceRecord
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Path

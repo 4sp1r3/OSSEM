@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PDC
+event_id: '102'
+version: '0'
+event(fields): ClientVerboseRundown(UInt32 ClientId, UInt32 ClientFlags, UInt32 ClientNameLength,
+  UnicodeString ClientName)
+opcode: ''
+keywords: sleepstudy
+task: ClientVerboseRundown
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ClientId
+- field_type: UInt32
+  field_name: ClientFlags
+- field_type: UInt32
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName

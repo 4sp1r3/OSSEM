@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Biometrics
+event_id: '1402'
+version: '0'
+event(fields): BioCredProv1402(UnicodeString Username)
+opcode: ''
+keywords: ''
+task: BioCredProv
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Username

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '90'
+version: '0'
+event(fields): IllegalProcessorThrottleDiagnostic(UInt32 ProcessorId, HexInt64 ThrottleMSR,
+  UInt32 ElapsedTime, UInt32 LogInterval)
+opcode: ''
+keywords: po:Thermal
+task: IllegalProcessorThrottleDiagnostic
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessorId
+- field_type: HexInt64
+  field_name: ThrottleMSR
+- field_type: UInt32
+  field_name: ElapsedTime
+- field_type: UInt32
+  field_name: LogInterval

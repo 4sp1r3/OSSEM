@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-User Device Registration
+event_id: '204'
+version: '0'
+event(fields): task_0204(Int32 ExitCode, UnicodeString ActivityId, UInt32 HttpStatus,
+  UnicodeString ServerResponse)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ExitCode
+- field_type: UnicodeString
+  field_name: ActivityId
+- field_type: UInt32
+  field_name: HttpStatus
+- field_type: UnicodeString
+  field_name: ServerResponse

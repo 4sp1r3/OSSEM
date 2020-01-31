@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '33003'
+version: '1'
+event(fields): VFONTS.ProcessDllAttachStop_V1()
+opcode: Stop
+keywords: ''
+task: VFONTS.ProcessDllAttach
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

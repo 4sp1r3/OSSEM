@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PDC
+event_id: '110'
+version: '0'
+event(fields): PDCV2ActivationClientRegister(UInt32 ClientId, UInt32 Status, UInt32
+  PdcVersion, UInt32 ModuleNameLength, UnicodeString ModuleName)
+opcode: ''
+keywords: PdcClient
+task: PDCV2ActivationClientRegister
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ClientId
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: PdcVersion
+- field_type: UInt32
+  field_name: ModuleNameLength
+- field_type: UnicodeString
+  field_name: ModuleName

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DVD
+event_id: '6'
+version: '0'
+event(fields): NavStillTimerStop(Pointer Object, Int32 Duration)
+opcode: Stop
+keywords: ''
+task: NavStillTimer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: Duration

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4821'
+version: '0'
+event(fields): DiscoverySynchronizationContextSetToNull(UnicodeString AppDomain)
+opcode: SetToNull
+keywords: Discovery
+task: DiscoverySynchronizationContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

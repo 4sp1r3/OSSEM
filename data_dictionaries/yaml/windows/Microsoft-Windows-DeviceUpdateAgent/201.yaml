@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceUpdateAgent
+event_id: '201'
+version: '0'
+event(fields): task_0201(UInt32 Prop_NumFiles, UInt64 Prop_RequestSize)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Prop_NumFiles
+- field_type: UInt64
+  field_name: Prop_RequestSize

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RTWorkQueue-Extended
+event_id: '12'
+version: '0'
+event(fields): WorkQueue:RTLockAcquireStart(UInt32 WorkQueueID)
+opcode: Start
+keywords: ''
+task: WorkQueue:RTLockAcquire
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: WorkQueueID

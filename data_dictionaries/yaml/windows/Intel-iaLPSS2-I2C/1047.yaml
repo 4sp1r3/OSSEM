@@ -1,0 +1,18 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1047'
+version: '0'
+event(fields): iaLPSS2_I2CInitroutines1047(UInt32 MBAR_count, UInt32 INT_count, UInt32
+  Status)
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CInitroutines
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MBAR_count
+- field_type: UInt32
+  field_name: INT_count
+- field_type: UInt32
+  field_name: Status

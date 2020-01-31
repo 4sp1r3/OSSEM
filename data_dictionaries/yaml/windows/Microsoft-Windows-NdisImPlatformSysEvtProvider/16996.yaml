@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-NdisImPlatformSysEvtProvider
+event_id: '16996'
+version: '0'
+event(fields): task_0PCODE_128pcode_12816996(UnicodeString TeamNic, UnicodeString
+  Team, UnicodeString Status)
+opcode: opcode_128
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TeamNic
+- field_type: UnicodeString
+  field_name: Team
+- field_type: UnicodeString
+  field_name: Status

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '29'
+version: '0'
+event(fields): PccSummary(UInt8 MajorVersion, UInt8 MinorVersion, UInt8 MinPerfPercent,
+  UInt8 MinThrottlePercent)
+opcode: ''
+keywords: ''
+task: PccSummary
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: MajorVersion
+- field_type: UInt8
+  field_name: MinorVersion
+- field_type: UInt8
+  field_name: MinPerfPercent
+- field_type: UInt8
+  field_name: MinThrottlePercent

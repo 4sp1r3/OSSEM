@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2255'
+version: '0'
+event(fields): SharingManager_GetSharableItemDisplayInfoStop(UInt32 Result)
+opcode: Stop
+keywords: ''
+task: SharingManager_GetSharableItemDisplayInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

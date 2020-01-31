@@ -1,0 +1,18 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1802'
+version: '0'
+event(fields): ApnSettingsStore1802(AnsiString AnsiStringName, UInt32 IccIdLength,
+  UInt8 IccId)
+opcode: ''
+keywords: Error
+task: ApnSettingsStore
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: AnsiStringName
+- field_type: UInt32
+  field_name: IccIdLength
+- field_type: UInt8
+  field_name: IccId

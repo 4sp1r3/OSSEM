@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Direct3DShaderCache
+event_id: '115'
+version: '0'
+event(fields): L1Full115()
+opcode: ''
+keywords: Events
+task: L1Full
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

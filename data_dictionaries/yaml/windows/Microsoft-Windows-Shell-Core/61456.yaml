@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61456'
+version: '0'
+event(fields): FileAccessAPI_CacheFlush(UInt32 Count)
+opcode: ''
+keywords: Shell
+task: FileAccessAPI_CacheFlush
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count

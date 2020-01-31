@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-SEC
+event_id: '38'
+version: '0'
+event(fields): task_038(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime,
+  UInt64 ProcessStartKey, UInt64 OldFlags, UInt64 NewFlags)
+opcode: ''
+keywords: keyword_10000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: HexInt32
+  field_name: ProcessId
+- field_type: Int64
+  field_name: ProcessTime
+- field_type: UInt64
+  field_name: ProcessStartKey
+- field_type: UInt64
+  field_name: OldFlags
+- field_type: UInt64
+  field_name: NewFlags

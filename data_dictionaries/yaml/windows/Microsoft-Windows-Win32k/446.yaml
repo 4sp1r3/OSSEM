@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '446'
+version: '0'
+event(fields): DCompCommandsInBatch(UInt64 CommandsCount)
+opcode: ''
+keywords: Updates Visualization
+task: DCompCommandsInBatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: CommandsCount

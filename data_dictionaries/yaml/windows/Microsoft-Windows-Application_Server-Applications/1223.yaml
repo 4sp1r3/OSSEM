@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '1223'
+version: '0'
+event(fields): ExecuteActivity1223(UnicodeString data1, UnicodeString AppDomain)
+opcode: ''
+keywords: WFActivities
+task: ExecuteActivity
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: data1
+- field_type: UnicodeString
+  field_name: AppDomain

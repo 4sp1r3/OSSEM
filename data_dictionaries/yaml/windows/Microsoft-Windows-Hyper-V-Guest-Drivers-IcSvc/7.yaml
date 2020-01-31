@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Hyper-V-Guest-Drivers-IcSvc
+event_id: '7'
+version: '0'
+event(fields): task_07()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

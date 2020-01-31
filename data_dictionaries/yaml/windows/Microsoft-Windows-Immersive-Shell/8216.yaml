@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '8216'
+version: '0'
+event(fields): BackStackMusicPlay_Activate_AppStop(UnicodeString AppId)
+opcode: Stop
+keywords: ''
+task: BackStackMusicPlay_Activate_App
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppId

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-EFS
+event_id: '4379'
+version: '0'
+event(fields): task_04379(UInt32 FileNumber, UInt32 LineNumber, HexInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FileNumber
+- field_type: UInt32
+  field_name: LineNumber
+- field_type: HexInt32
+  field_name: ErrorCode

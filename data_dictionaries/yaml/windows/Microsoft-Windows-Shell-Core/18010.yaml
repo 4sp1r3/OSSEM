@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18010'
+version: '0'
+event(fields): Shdocvw_PanningTool_GetPanningPropertiesStop()
+opcode: Stop
+keywords: Shell
+task: Shdocvw_PanningTool_GetPanningProperties
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-exFAT-SQM
+event_id: '3'
+version: '0'
+event(fields): task_0(UInt32 SqmType, GUID SqmSessionGuid, SID SqmSid, UInt32 SqmWindowsSessionId,
+  UInt32 SqmSessionFlags)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SqmType
+- field_type: GUID
+  field_name: SqmSessionGuid
+- field_type: SID
+  field_name: SqmSid
+- field_type: UInt32
+  field_name: SqmWindowsSessionId
+- field_type: UInt32
+  field_name: SqmSessionFlags

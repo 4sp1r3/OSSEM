@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ESE
+event_id: '125'
+version: '0'
+event(fields): ESE_EventLogError_Trace(UnicodeString szTrace)
+opcode: ''
+keywords: Trace
+task: ESE_EventLogError_Trace
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: szTrace

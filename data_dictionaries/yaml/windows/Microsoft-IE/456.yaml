@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '456'
+version: '0'
+event(fields): Mshtml_Composition_Scrollbar_Paint(UInt32 ScrollbarLayerId)
+opcode: ''
+keywords: composition
+task: Mshtml_Composition_Scrollbar_Paint
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ScrollbarLayerId

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '222'
+version: '0'
+event(fields): task_0222(UnicodeString Prop_ContainerId, UnicodeString Prop_PackageId,
+  UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_ContainerId
+- field_type: UnicodeString
+  field_name: Prop_PackageId
+- field_type: UInt32
+  field_name: HRESULT

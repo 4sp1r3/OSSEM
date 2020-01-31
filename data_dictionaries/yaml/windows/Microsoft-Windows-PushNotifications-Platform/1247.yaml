@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '1247'
+version: '0'
+event(fields): task_01247(UInt32 ControlChannelTriggerStatus)
+opcode: ''
+keywords: wnptrans
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ControlChannelTriggerStatus

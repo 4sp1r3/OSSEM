@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '26010'
+version: '0'
+event(fields): Shell32_AdviseCollectionStop(UnicodeString Caller, Pointer IItemCollection,
+  Pointer ICollectionEventSink, UInt32 Cookie, UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: Shell32_AdviseCollection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Caller
+- field_type: Pointer
+  field_name: IItemCollection
+- field_type: Pointer
+  field_name: ICollectionEventSink
+- field_type: UInt32
+  field_name: Cookie
+- field_type: UInt32
+  field_name: HRESULT

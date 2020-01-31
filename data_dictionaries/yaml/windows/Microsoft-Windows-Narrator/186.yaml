@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Narrator
+event_id: '186'
+version: '0'
+event(fields): HandleNavigationCommandStart(Int32 Command)
+opcode: Start
+keywords: PerfInstrumentation
+task: HandleNavigationCommand
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Command

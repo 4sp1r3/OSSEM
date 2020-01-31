@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '410'
+version: '0'
+event(fields): LatencyModeProcessingStart()
+opcode: Start
+keywords: ''
+task: LatencyModeProcessing
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

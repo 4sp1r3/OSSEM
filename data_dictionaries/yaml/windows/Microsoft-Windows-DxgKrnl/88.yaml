@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '88'
+version: '0'
+event(fields): SemaphoreStart(Pointer hAdapter, Pointer hSyncObject, UInt32 Reason,
+  UInt32 Flags, Pointer SharedHandle, UInt32 MaxCount, UInt32 InitialCount)
+opcode: Start
+keywords: Base
+task: Semaphore
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAdapter
+- field_type: Pointer
+  field_name: hSyncObject
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: Flags
+- field_type: Pointer
+  field_name: SharedHandle
+- field_type: UInt32
+  field_name: MaxCount
+- field_type: UInt32
+  field_name: InitialCount

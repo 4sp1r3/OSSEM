@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '419'
+version: '0'
+event(fields): VidMmVprDefragmentLowCommit(Pointer pDxgAdapter, UInt16 PhysicalAdapterIndex,
+  UInt16 DriverSegmentIndex, UInt16 VprIndex, UInt32 CapacityRatio, UInt32 CurrentRatio,
+  UInt64 Capacity)
+opcode: ''
+keywords: References
+task: VidMmVprDefragmentLowCommit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt16
+  field_name: PhysicalAdapterIndex
+- field_type: UInt16
+  field_name: DriverSegmentIndex
+- field_type: UInt16
+  field_name: VprIndex
+- field_type: UInt32
+  field_name: CapacityRatio
+- field_type: UInt32
+  field_name: CurrentRatio
+- field_type: UInt64
+  field_name: Capacity

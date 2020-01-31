@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '332'
+version: '0'
+event(fields): task_0332(UnicodeString AUMID, HexInt32 ErrorCode)
+opcode: ''
+keywords: PLM ExecProductionCircular ExecDevPlatCircular
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AUMID
+- field_type: HexInt32
+  field_name: ErrorCode

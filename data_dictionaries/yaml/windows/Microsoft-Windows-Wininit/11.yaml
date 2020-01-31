@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Wininit
+event_id: '11'
+version: '0'
+event(fields): task_0(UInt32 StringCount, UnicodeString String)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: StringCount
+- field_type: UnicodeString
+  field_name: String

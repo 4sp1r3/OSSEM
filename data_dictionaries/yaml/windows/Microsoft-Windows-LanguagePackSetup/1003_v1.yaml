@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1003'
+version: '1'
+event(fields): RunningthelpksetupWizard1003_V1(HexInt32 Error, UnicodeString Message,
+  UnicodeString Language)
+opcode: ''
+keywords: ''
+task: RunningthelpksetupWizard
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: Message
+- field_type: UnicodeString
+  field_name: Language

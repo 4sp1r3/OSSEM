@@ -1,0 +1,45 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '173'
+version: '2'
+event(fields): MediaFoundationPresent_ProcessFlipMode_V2(Pointer object, Int64 SampleTime,
+  Int64 LastQueuedStartQPC, Int64 TargetQPC, Int64 nowQPC, Int64 AheadQPC, Int32 RepeatCount_Rounded,
+  Int32 RepeatCount_x1000, Int64 TimeUntilFrame_Orig, Int64 TimeUntilFrame_postRepeat,
+  Int32 FramesBehindAdjustment, UInt32 PresentCount, UInt32 FrameCount, Int64 PrimaryFramePeriod,
+  Int64 FramePeriod)
+opcode: ''
+keywords: ''
+task: MediaFoundationPresent_ProcessFlipMode
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: SampleTime
+- field_type: Int64
+  field_name: LastQueuedStartQPC
+- field_type: Int64
+  field_name: TargetQPC
+- field_type: Int64
+  field_name: nowQPC
+- field_type: Int64
+  field_name: AheadQPC
+- field_type: Int32
+  field_name: RepeatCount_Rounded
+- field_type: Int32
+  field_name: RepeatCount_x1000
+- field_type: Int64
+  field_name: TimeUntilFrame_Orig
+- field_type: Int64
+  field_name: TimeUntilFrame_postRepeat
+- field_type: Int32
+  field_name: FramesBehindAdjustment
+- field_type: UInt32
+  field_name: PresentCount
+- field_type: UInt32
+  field_name: FrameCount
+- field_type: Int64
+  field_name: PrimaryFramePeriod
+- field_type: Int64
+  field_name: FramePeriod

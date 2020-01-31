@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '10'
+version: '0'
+event(fields): SessionStart10(GUID SessionGuid, UInt32 LoggerMode, UnicodeString SessionName,
+  UnicodeString LogFileName)
+opcode: Start
+keywords: ETW_KEYWORD_SESSION
+task: Session
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SessionGuid
+- field_type: UInt32
+  field_name: LoggerMode
+- field_type: UnicodeString
+  field_name: SessionName
+- field_type: UnicodeString
+  field_name: LogFileName

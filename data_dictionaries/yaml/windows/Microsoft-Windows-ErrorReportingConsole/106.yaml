@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ErrorReportingConsole
+event_id: '106'
+version: '0'
+event(fields): PrsCplPageLayoutStop(UInt32 PageId)
+opcode: Stop
+keywords: ''
+task: PrsCplPageLayout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PageId

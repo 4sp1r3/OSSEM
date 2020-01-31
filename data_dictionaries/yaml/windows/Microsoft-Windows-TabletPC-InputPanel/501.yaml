@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '501'
+version: '0'
+event(fields): SoftKeyboard_Geometry_GetKeyboardInfo(UInt32 HKL, UInt32 gutter, Boolean
+  IsSplitLayout, Int32 LeftBumpId, Int32 RightBumpId, Int32 left, Int32 top, Int32
+  right, Int32 bottom)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_Geometry_GetKeyboardInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HKL
+- field_type: UInt32
+  field_name: gutter
+- field_type: Boolean
+  field_name: IsSplitLayout
+- field_type: Int32
+  field_name: LeftBumpId
+- field_type: Int32
+  field_name: RightBumpId
+- field_type: Int32
+  field_name: left
+- field_type: Int32
+  field_name: top
+- field_type: Int32
+  field_name: right
+- field_type: Int32
+  field_name: bottom

@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4065'
+version: '0'
+event(fields): WMP_SearchStart(UnicodeString ID, UnicodeString Query, UInt32 StartIndex,
+  UInt32 RequestedCount, UInt32 FilterItemCount, UInt32 SortItemCount, UInt32 TotalMatches,
+  UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: WMP_Search
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ID
+- field_type: UnicodeString
+  field_name: Query
+- field_type: UInt32
+  field_name: StartIndex
+- field_type: UInt32
+  field_name: RequestedCount
+- field_type: UInt32
+  field_name: FilterItemCount
+- field_type: UInt32
+  field_name: SortItemCount
+- field_type: UInt32
+  field_name: TotalMatches
+- field_type: UInt32
+  field_name: ErrorCode

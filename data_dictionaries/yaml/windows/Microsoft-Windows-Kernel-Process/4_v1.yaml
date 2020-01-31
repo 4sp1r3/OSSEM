@@ -1,0 +1,35 @@
+provider: Microsoft-Windows-Kernel-Process
+event_id: '4'
+version: '1'
+event(fields): ThreadStop_V1(UInt32 ProcessID, UInt32 ThreadID, Pointer StackBase,
+  Pointer StackLimit, Pointer UserStackBase, Pointer UserStackLimit, Pointer StartAddr,
+  Pointer Win32StartAddr, Pointer TebBase, UInt32 SubProcessTag, UInt64 CycleTime)
+opcode: Stop
+keywords: WINEVENT_KEYWORD_THREAD
+task: ThreadStop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessID
+- field_type: UInt32
+  field_name: ThreadID
+- field_type: Pointer
+  field_name: StackBase
+- field_type: Pointer
+  field_name: StackLimit
+- field_type: Pointer
+  field_name: UserStackBase
+- field_type: Pointer
+  field_name: UserStackLimit
+- field_type: Pointer
+  field_name: StartAddr
+- field_type: Pointer
+  field_name: Win32StartAddr
+- field_type: Pointer
+  field_name: TebBase
+- field_type: UInt32
+  field_name: SubProcessTag
+- field_type: UInt64
+  field_name: CycleTime

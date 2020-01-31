@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '1'
+version: '0'
+event(fields): LoggingWriteBuffer1(UnicodeString SessionName, UInt32 ErrorCode, UInt32
+  LoggingMode)
+opcode: WriteBuffer
+keywords: ETW_KEYWORD_SESSION
+task: Logging
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SessionName
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: LoggingMode

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '274'
+version: '0'
+event(fields): DriverDatabaseUnloadSuspend(UInt16 DriverNameLength, UnicodeString
+  DriverName)
+opcode: Suspend
+keywords: DriverDatabase
+task: DriverDatabaseUnload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: DriverNameLength
+- field_type: UnicodeString
+  field_name: DriverName

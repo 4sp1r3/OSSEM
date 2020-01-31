@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WinRM
+event_id: '1537'
+version: '0'
+event(fields): Userauthorization1537()
+opcode: ''
+keywords: Keyword.Server Keyword.Security
+task: Userauthorization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

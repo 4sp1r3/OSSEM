@@ -1,0 +1,13 @@
+provider: Microsoft-IE
+event_id: '805'
+version: '0'
+event(fields): WebPlatStorageServer805(UnicodeString HandleType)
+opcode: ''
+keywords: ''
+task: WebPlatStorageServer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HandleType

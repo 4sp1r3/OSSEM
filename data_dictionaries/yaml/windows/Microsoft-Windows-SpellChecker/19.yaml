@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SpellChecker
+event_id: '19'
+version: '0'
+event(fields): SetupStart19()
+opcode: Start
+keywords: ''
+task: Setup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

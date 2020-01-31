@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '179'
+version: '0'
+event(fields): UpdateNarratorCursorStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: UpdateNarratorCursor
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

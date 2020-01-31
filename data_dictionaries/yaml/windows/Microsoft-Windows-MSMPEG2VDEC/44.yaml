@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSMPEG2VDEC
+event_id: '44'
+version: '0'
+event(fields): DXVA_ExecuteStart()
+opcode: Start
+keywords: ''
+task: DXVA_Execute
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

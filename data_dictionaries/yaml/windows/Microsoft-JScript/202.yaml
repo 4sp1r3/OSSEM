@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '202'
+version: '0'
+event(fields): Memprotect_GC_SweepWeakRefStart(Pointer RecyclerID)
+opcode: Start
+keywords: MemProtectGarbageCollection
+task: Memprotect_GC_SweepWeakRef
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RecyclerID

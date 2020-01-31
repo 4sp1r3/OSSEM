@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-TimeBroker
+event_id: '4'
+version: '1'
+event(fields): task_04_V1(GUID BrokeredEventId, HexInt32 Status)
+opcode: ''
+keywords: Api
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BrokeredEventId
+- field_type: HexInt32
+  field_name: Status

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '276'
+version: '0'
+event(fields): PrimitiveCompositionTexture8BitExpandStart()
+opcode: Start
+keywords: DComp
+task: PrimitiveCompositionTexture8BitExpand
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

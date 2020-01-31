@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14011'
+version: '1'
+event(fields): ComponentUserLogoffStart_V1(UInt32 Component)
+opcode: Start
+keywords: ''
+task: ComponentUserLogoff
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Component

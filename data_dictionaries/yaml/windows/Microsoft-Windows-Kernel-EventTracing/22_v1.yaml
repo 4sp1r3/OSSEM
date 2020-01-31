@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '22'
+version: '1'
+event(fields): SavePersistedLoggerStop_8_2_V1(UnicodeString FileName, UInt32 BufferSize,
+  UInt32 BuffersPersisted, UInt32 BuffersWritten, UInt32 Status, UInt32 BuffersLost)
+opcode: Stop_8_2
+keywords: ETW_KEYWORD_SOFT_RESTART
+task: SavePersistedLogger
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: UInt32
+  field_name: BufferSize
+- field_type: UInt32
+  field_name: BuffersPersisted
+- field_type: UInt32
+  field_name: BuffersWritten
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: BuffersLost

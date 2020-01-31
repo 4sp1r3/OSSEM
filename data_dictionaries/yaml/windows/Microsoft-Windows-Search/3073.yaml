@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search
+event_id: '3073'
+version: '0'
+event(fields): task_0PCODE_128pcode_1283073(UnicodeString ExtraInfo)
+opcode: opcode_128
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtraInfo

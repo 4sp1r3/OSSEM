@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DNS-Client
+event_id: '1010'
+version: '0'
+event(fields): DnsNonMatchingSuffixSystem(UnicodeString DnsSuffix, UnicodeString AdSuffix)
+opcode: ''
+keywords: ut:DnsAutoLogKeyword
+task: DnsNonMatchingSuffixSystem
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DnsSuffix
+- field_type: UnicodeString
+  field_name: AdSuffix

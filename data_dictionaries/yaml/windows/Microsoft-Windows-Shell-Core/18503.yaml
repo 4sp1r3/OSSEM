@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18503'
+version: '0'
+event(fields): Shell32_AutoListEditor_Displayed()
+opcode: ''
+keywords: Shell
+task: Shell32_AutoListEditor_Displayed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

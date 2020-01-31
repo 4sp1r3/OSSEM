@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '500'
+version: '0'
+event(fields): AudCaptureStream_Info_TaskAudCaptureStream_ReadCaptureBuffer(Pointer
+  object, UInt32 u32FramesRead, UInt64 m_u64LastSampleTime, UInt64 u64Duration, UInt32
+  dwFlagsForSample)
+opcode: AudCaptureStream_ReadCaptureBuffer
+keywords: ''
+task: AudCaptureStream_Info_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: u32FramesRead
+- field_type: UInt64
+  field_name: m_u64LastSampleTime
+- field_type: UInt64
+  field_name: u64Duration
+- field_type: UInt32
+  field_name: dwFlagsForSample

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell-API
+event_id: '2042'
+version: '0'
+event(fields): CoreApplicationQuiescePsmBlockUnblockASTA(UInt32 BlockUnblockBool,
+  UInt32 ThreadId)
+opcode: ''
+keywords: ''
+task: CoreApplicationQuiescePsmBlockUnblockASTA
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: BlockUnblockBool
+- field_type: UInt32
+  field_name: ThreadId

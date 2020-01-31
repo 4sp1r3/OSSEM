@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPersonalization
+event_id: '8'
+version: '0'
+event(fields): IPS_PLUGINCLIENT_ProcessMessageStop()
+opcode: Stop
+keywords: ''
+task: IPS_PLUGINCLIENT_ProcessMessage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

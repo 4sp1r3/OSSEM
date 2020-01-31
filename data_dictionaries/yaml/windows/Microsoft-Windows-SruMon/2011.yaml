@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-SruMon
+event_id: '2011'
+version: '0'
+event(fields): SruMonNWAggregationTrace2011(UnicodeString _FunctionName)
+opcode: ''
+keywords: KeywordSruMonNWAggregationTrace
+task: SruMonNWAggregationTrace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: _FunctionName

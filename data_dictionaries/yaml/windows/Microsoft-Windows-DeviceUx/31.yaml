@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceUx
+event_id: '31'
+version: '0'
+event(fields): DevicePairing_WizardStop()
+opcode: Stop
+keywords: DeviceUX_Performance
+task: DevicePairing_Wizard
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

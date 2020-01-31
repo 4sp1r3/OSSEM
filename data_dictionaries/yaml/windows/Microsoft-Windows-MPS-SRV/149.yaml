@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '149'
+version: '0'
+event(fields): RpcAPIs_InitializeStart()
+opcode: Start
+keywords: Service
+task: RpcAPIs_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

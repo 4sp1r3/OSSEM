@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MF
+event_id: '1312'
+version: '0'
+event(fields): SrcStreamEOSState(Pointer Object, Int32 StreamID, Int32 Oldstate, Int32
+  Newstate)
+opcode: ''
+keywords: ''
+task: SrcStreamEOSState
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int32
+  field_name: StreamID
+- field_type: Int32
+  field_name: Oldstate
+- field_type: Int32
+  field_name: Newstate

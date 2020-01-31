@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '42008'
+version: '1'
+event(fields): VShell.SetAppUserModelIDStart_V1()
+opcode: Start
+keywords: ''
+task: VShell.SetAppUserModelID
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

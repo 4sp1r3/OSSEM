@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27199'
+version: '0'
+event(fields): PerfTrack_FilterMenu_MRUControlRendersStart()
+opcode: Start
+keywords: Shell WDI
+task: PerfTrack_FilterMenu_MRUControlRenders
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

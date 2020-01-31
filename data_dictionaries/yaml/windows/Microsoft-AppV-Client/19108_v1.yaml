@@ -1,0 +1,17 @@
+provider: Microsoft-AppV-Client
+event_id: '19108'
+version: '1'
+event(fields): PublishingRefresh19108_V1(GUID Guid1, GUID Guid2, GUID Guid3)
+opcode: ''
+keywords: PublishingRefresh
+task: PublishingRefresh
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Guid1
+- field_type: GUID
+  field_name: Guid2
+- field_type: GUID
+  field_name: Guid3

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '148'
+version: '0'
+event(fields): Crawl_InitializeNew(UInt32 CrawlNo, UInt32 CrawlType, UnicodeString
+  FileName, Boolean IsCatalogLevel)
+opcode: ''
+keywords: Indexing Gatherer
+task: Crawl_InitializeNew
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CrawlNo
+- field_type: UInt32
+  field_name: CrawlType
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: Boolean
+  field_name: IsCatalogLevel

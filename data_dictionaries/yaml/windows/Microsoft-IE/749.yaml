@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '749'
+version: '0'
+event(fields): Mshtml_CSP_CheckPolicyStart(Pointer CContentSecurityPolicy, UInt32
+  ResourceDirectiveType)
+opcode: Start
+keywords: mshtml
+task: Mshtml_CSP_CheckPolicy
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CContentSecurityPolicy
+- field_type: UInt32
+  field_name: ResourceDirectiveType

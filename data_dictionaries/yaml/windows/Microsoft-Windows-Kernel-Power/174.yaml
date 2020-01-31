@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '174'
+version: '0'
+event(fields): FlushSleepStudyLoggerStop()
+opcode: Stop
+keywords: po:Simple po:PerformanceLight
+task: FlushSleepStudyLogger
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

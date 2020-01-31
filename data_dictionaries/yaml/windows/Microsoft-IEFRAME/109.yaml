@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '109'
+version: '0'
+event(fields): Frame_SearchBandCreateStop()
+opcode: Stop
+keywords: primarynav
+task: Frame_SearchBandCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

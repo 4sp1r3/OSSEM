@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '565'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment.StageUserData565(UnicodeString
+  PackageMoniker)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment.StageUserData
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageMoniker

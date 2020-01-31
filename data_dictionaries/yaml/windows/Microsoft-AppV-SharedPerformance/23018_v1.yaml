@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23018'
+version: '1'
+event(fields): PackagingBrowserCurrentUserStart_V1()
+opcode: Start
+keywords: ''
+task: PackagingBrowserCurrentUser
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

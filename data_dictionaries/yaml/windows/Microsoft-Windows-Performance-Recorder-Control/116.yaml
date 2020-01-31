@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Performance-Recorder-Control
+event_id: '116'
+version: '0'
+event(fields): Perf_LoadTraceMergePropertiesFromStringStart()
+opcode: Start
+keywords: PerfStatus
+task: Perf_LoadTraceMergePropertiesFromString
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '119'
+version: '0'
+event(fields): MediaFoundationVideoFrameGlitch(Pointer object, Int64 sampleTime, Int32
+  FramesLate)
+opcode: ''
+keywords: ''
+task: MediaFoundationVideoFrameGlitch
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: sampleTime
+- field_type: Int32
+  field_name: FramesLate

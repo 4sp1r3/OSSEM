@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '7'
+version: '0'
+event(fields): HostControllerResume(UnicodeString fid_USBPORT_HC)
+opcode: Resume
+keywords: Diagnostic PowerDiagnostics
+task: HostController
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: fid_USBPORT_HC

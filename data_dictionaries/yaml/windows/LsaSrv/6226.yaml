@@ -1,0 +1,11 @@
+provider: LsaSrv
+event_id: '6226'
+version: '0'
+event(fields): LSALogonStop()
+opcode: Stop
+keywords: ''
+task: LSALogon
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

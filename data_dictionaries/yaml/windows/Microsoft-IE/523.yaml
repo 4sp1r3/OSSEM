@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '523'
+version: '0'
+event(fields): Mshtml_Animations_InstanceStart(Pointer AnimationInstanceObject, Pointer
+  AnimationStoryboardObject, UInt32 DISPID, Boolean IsTransition)
+opcode: Start
+keywords: animation composition_verbose
+task: Mshtml_Animations_Instance
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: AnimationInstanceObject
+- field_type: Pointer
+  field_name: AnimationStoryboardObject
+- field_type: UInt32
+  field_name: DISPID
+- field_type: Boolean
+  field_name: IsTransition

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Hyper-V-Netvsc
+event_id: '5'
+version: '0'
+event(fields): RndisMPInit5(UInt32 MiniportNameLen, UnicodeString MiniportName, UInt32
+  SubkeyNameLen, UnicodeString SubkeyName, UInt32 Status)
+opcode: ''
+keywords: ''
+task: RndisMPInit
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MiniportNameLen
+- field_type: UnicodeString
+  field_name: MiniportName
+- field_type: UInt32
+  field_name: SubkeyNameLen
+- field_type: UnicodeString
+  field_name: SubkeyName
+- field_type: UInt32
+  field_name: Status

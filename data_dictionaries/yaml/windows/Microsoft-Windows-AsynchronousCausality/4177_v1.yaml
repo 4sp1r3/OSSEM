@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AsynchronousCausality
+event_id: '4177'
+version: '1'
+event(fields): task_04177_V1(GUID PlatformId, UInt64 OperationId, UnicodeString OperationName,
+  UInt64 RelatedId)
+opcode: ''
+keywords: AsynchronousOperation LibraryOperation OperationCreate
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PlatformId
+- field_type: UInt64
+  field_name: OperationId
+- field_type: UnicodeString
+  field_name: OperationName
+- field_type: UInt64
+  field_name: RelatedId

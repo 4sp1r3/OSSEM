@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1157'
+version: '0'
+event(fields): Wininet_HstsServerContainerStart1157(Pointer Object, UnicodeString
+  MinimizedRDomain, Int64 Hash)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_HstsServerContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UnicodeString
+  field_name: MinimizedRDomain
+- field_type: Int64
+  field_name: Hash

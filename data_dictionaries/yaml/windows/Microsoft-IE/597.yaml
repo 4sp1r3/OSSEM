@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '597'
+version: '0'
+event(fields): Mshtml_View_LinkHighlightHideStart()
+opcode: Start
+keywords: subsystem mshtml touch
+task: Mshtml_View_LinkHighlightHide
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

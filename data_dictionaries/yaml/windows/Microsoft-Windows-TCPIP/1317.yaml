@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1317'
+version: '0'
+event(fields): TcpRepartitionEvent(Pointer Event, UInt32 Type, UInt32 Processor, UInt32
+  PowerSource, UInt32 OldPartitionCount, UInt32 NewPartitionCount, UInt32 Progress)
+opcode: ''
+keywords: ut:Global
+task: TcpRepartitionEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Event
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt32
+  field_name: Processor
+- field_type: UInt32
+  field_name: PowerSource
+- field_type: UInt32
+  field_name: OldPartitionCount
+- field_type: UInt32
+  field_name: NewPartitionCount
+- field_type: UInt32
+  field_name: Progress

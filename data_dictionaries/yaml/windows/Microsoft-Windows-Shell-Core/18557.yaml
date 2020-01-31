@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18557'
+version: '0'
+event(fields): Shell32_DefView_GroupStart()
+opcode: Start
+keywords: Shell ExplorerPerf
+task: Shell32_DefView_Group
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

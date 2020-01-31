@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22001'
+version: '0'
+event(fields): Taskbar_GroupState_ChangeNotifyStart()
+opcode: Start
+keywords: Shell
+task: Taskbar_GroupState_ChangeNotify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

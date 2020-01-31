@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '6715'
+version: '0'
+event(fields): SecondaryTile_FlyoutDisplayedStop(UInt32 HRESULT)
+opcode: Stop
+keywords: ''
+task: SecondaryTile_FlyoutDisplayed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HRESULT

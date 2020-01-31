@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4327'
+version: '0'
+event(fields): CTX_GETSTOREFROMDATABASEStop()
+opcode: Stop
+keywords: Performance
+task: CTX_GETSTOREFROMDATABASE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

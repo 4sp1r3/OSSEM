@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27064'
+version: '1'
+event(fields): FeatureBlockLoadStop_V1()
+opcode: Stop
+keywords: ''
+task: FeatureBlockLoad
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

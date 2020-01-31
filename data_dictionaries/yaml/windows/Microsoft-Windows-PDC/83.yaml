@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDC
+event_id: '83'
+version: '0'
+event(fields): DisplayOffStart(UInt32 EnterReason)
+opcode: ''
+keywords: Cs CsDiag
+task: DisplayOffStart
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: EnterReason

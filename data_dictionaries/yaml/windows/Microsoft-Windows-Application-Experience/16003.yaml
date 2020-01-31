@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '16003'
+version: '0'
+event(fields): task_016003(UnicodeString Name, UnicodeString CommandLine, Boolean
+  Enabled)
+opcode: ''
+keywords: ShimEng
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: CommandLine
+- field_type: Boolean
+  field_name: Enabled

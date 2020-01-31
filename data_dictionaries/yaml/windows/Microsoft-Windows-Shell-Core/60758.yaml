@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60758'
+version: '0'
+event(fields): Shell32_ActiveSetup_RunPendingGPOsStop()
+opcode: Stop
+keywords: Shell ActiveSetup
+task: Shell32_ActiveSetup_RunPendingGPOs
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

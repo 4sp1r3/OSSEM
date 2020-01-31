@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '403'
+version: '0'
+event(fields): task_0403(UInt32 Status, UnicodeString EnclosureManufacturer, UnicodeString
+  EnclosureModel, UnicodeString EnclosureSerial, UnicodeString EnclosureRevision)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Status
+- field_type: UnicodeString
+  field_name: EnclosureManufacturer
+- field_type: UnicodeString
+  field_name: EnclosureModel
+- field_type: UnicodeString
+  field_name: EnclosureSerial
+- field_type: UnicodeString
+  field_name: EnclosureRevision

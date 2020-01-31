@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19617'
+version: '0'
+event(fields): Shell32_ControlPanel_TaskStateCondition(UnicodeString pszName, UInt32
+  fVal)
+opcode: ''
+keywords: Shell
+task: Shell32_ControlPanel_TaskStateCondition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pszName
+- field_type: UInt32
+  field_name: fVal

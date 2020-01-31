@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '284'
+version: '0'
+event(fields): DCompMergePrimitiveGroup(UInt64 From, UInt64 To)
+opcode: ''
+keywords: DComp
+task: DCompMergePrimitiveGroup
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: From
+- field_type: UInt64
+  field_name: To

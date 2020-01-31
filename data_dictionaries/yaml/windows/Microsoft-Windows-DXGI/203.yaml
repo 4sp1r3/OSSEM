@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '203'
+version: '0'
+event(fields): IDXGIFactory_ReleaseStop(UInt32 m_Ret)
+opcode: Stop
+keywords: ''
+task: IDXGIFactory_Release
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret

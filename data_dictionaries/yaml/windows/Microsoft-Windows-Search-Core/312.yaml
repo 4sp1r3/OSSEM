@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '312'
+version: '0'
+event(fields): ServerQuery_DeferredProperty(UInt32 DocID, UInt32 PropID)
+opcode: ''
+keywords: Querying
+task: ServerQuery_DeferredProperty
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DocID
+- field_type: UInt32
+  field_name: PropID

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '1623'
+version: '0'
+event(fields): DocPerf_Task_XpsPrint_Dependent_XpsOMCreateFixedPageStop()
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_XpsPrint_Dependent_XpsOMCreateFixedPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '28029'
+version: '0'
+event(fields): Shell32_RegistryPackageChangeListener_RescanStop(Int32 InstalledVersion,
+  UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: Shell32_RegistryPackageChangeListener_Rescan
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: InstalledVersion
+- field_type: UInt32
+  field_name: HRESULT

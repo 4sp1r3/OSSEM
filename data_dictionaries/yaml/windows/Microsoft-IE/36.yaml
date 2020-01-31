@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '36'
+version: '0'
+event(fields): AntiPhishing_ProcessingComplete(Pointer ThisPtr, UInt32 PCL)
+opcode: ''
+keywords: primarynav ap
+task: AntiPhishing_ProcessingComplete
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ThisPtr
+- field_type: UInt32
+  field_name: PCL

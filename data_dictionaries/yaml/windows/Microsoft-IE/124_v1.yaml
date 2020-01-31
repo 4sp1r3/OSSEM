@@ -1,0 +1,22 @@
+provider: Microsoft-IE
+event_id: '124'
+version: '1'
+event(fields): Mshtml_CSS_ParserStop_V1(Pointer Parser, UInt32 ParserType, UInt32
+  ParseType, UnicodeString URL, Boolean IsInline)
+opcode: Stop
+keywords: subsystem mshtml
+task: Mshtml_CSS_Parser
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Parser
+- field_type: UInt32
+  field_name: ParserType
+- field_type: UInt32
+  field_name: ParseType
+- field_type: UnicodeString
+  field_name: URL
+- field_type: Boolean
+  field_name: IsInline

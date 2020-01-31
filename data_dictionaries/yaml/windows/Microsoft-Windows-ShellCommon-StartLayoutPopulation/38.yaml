@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '38'
+version: '0'
+event(fields): StartLayout_LayoutInitialization_FromCDS(UnicodeString value)
+opcode: ''
+keywords: ''
+task: StartLayout_LayoutInitialization_FromCDS
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value

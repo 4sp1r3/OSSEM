@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '180'
+version: '0'
+event(fields): None180(UInt32 CmdType, HexInt32 Result)
+opcode: ''
+keywords: Error Trace
+task: None
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CmdType
+- field_type: HexInt32
+  field_name: Result

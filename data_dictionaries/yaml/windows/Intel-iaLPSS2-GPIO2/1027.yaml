@@ -1,0 +1,20 @@
+provider: Intel-iaLPSS2-GPIO2
+event_id: '1027'
+version: '0'
+event(fields): iaLPSS_GPIO2Driverroutines1027(UInt32 Instance, UInt32 Version, UInt32
+  Revision, UInt32 Mode)
+opcode: ''
+keywords: ''
+task: iaLPSS_GPIO2Driverroutines
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Instance
+- field_type: UInt32
+  field_name: Version
+- field_type: UInt32
+  field_name: Revision
+- field_type: UInt32
+  field_name: Mode

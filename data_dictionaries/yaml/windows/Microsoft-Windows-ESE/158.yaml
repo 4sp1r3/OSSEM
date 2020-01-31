@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-ESE
+event_id: '158'
+version: '0'
+event(fields): ESE_DiskStationId_Trace(UInt8 tsidr, UInt32 dwDiskNumber, UnicodeString
+  wszDiskPathId, AnsiString szDiskModel, AnsiString szDiskFirmwareRev, AnsiString
+  szDiskSerialNumber)
+opcode: ''
+keywords: StationId
+task: ESE_DiskStationId_Trace
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: tsidr
+- field_type: UInt32
+  field_name: dwDiskNumber
+- field_type: UnicodeString
+  field_name: wszDiskPathId
+- field_type: AnsiString
+  field_name: szDiskModel
+- field_type: AnsiString
+  field_name: szDiskFirmwareRev
+- field_type: AnsiString
+  field_name: szDiskSerialNumber

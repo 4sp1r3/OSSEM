@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Help
+event_id: '148'
+version: '0'
+event(fields): LocalOEMContentSearchStart(UnicodeString url)
+opcode: Start
+keywords: PerfEvent
+task: LocalOEMContentSearch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: url

@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '763'
+version: '0'
+event(fields): Mshtml_Ortc_Audio_Render_Sample_Time_Delivery(UInt64 SampleCount, UInt64
+  CurrentTimeMSec, Pointer ThisPtr)
+opcode: ''
+keywords: mshtml
+task: Mshtml_Ortc_Audio_Render_Sample_Time_Delivery
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SampleCount
+- field_type: UInt64
+  field_name: CurrentTimeMSec
+- field_type: Pointer
+  field_name: ThisPtr

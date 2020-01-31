@@ -1,0 +1,50 @@
+provider: Microsoft-Windows-SMBServer
+event_id: '1006'
+version: '0'
+event(fields): SrvShareAccessCheckFailure(UInt16 ShareNameLength, UnicodeString ShareName,
+  UInt16 SharePathLength, UnicodeString SharePath, UInt32 ClientAddressLength, Binary
+  ClientAddress, UInt16 UserNameLength, UnicodeString UserName, UInt16 ClientNameLength,
+  UnicodeString ClientName, HexInt32 MappedAccess, HexInt32 GrantedAccess, UInt32
+  ShareSecurityDescriptorLength, Binary ShareSecurityDescriptor, HexInt32 Status,
+  HexInt32 TranslatedStatus, HexInt64 SessionID)
+opcode: ''
+keywords: Operational
+task: SrvShareAccessCheckFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ShareNameLength
+- field_type: UnicodeString
+  field_name: ShareName
+- field_type: UInt16
+  field_name: SharePathLength
+- field_type: UnicodeString
+  field_name: SharePath
+- field_type: UInt32
+  field_name: ClientAddressLength
+- field_type: Binary
+  field_name: ClientAddress
+- field_type: UInt16
+  field_name: UserNameLength
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UInt16
+  field_name: ClientNameLength
+- field_type: UnicodeString
+  field_name: ClientName
+- field_type: HexInt32
+  field_name: MappedAccess
+- field_type: HexInt32
+  field_name: GrantedAccess
+- field_type: UInt32
+  field_name: ShareSecurityDescriptorLength
+- field_type: Binary
+  field_name: ShareSecurityDescriptor
+- field_type: HexInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: TranslatedStatus
+- field_type: HexInt64
+  field_name: SessionID

@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '106'
+version: '0'
+event(fields): Frame_AddressBandCreateStart()
+opcode: Start
+keywords: primarynav
+task: Frame_AddressBandCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

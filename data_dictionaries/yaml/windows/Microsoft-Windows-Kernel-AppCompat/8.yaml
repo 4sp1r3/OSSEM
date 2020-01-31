@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-AppCompat
+event_id: '8'
+version: '0'
+event(fields): CompatCdbQueryStart()
+opcode: Start
+keywords: ''
+task: CompatCdbQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

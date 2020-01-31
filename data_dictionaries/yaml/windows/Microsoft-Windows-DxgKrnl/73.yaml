@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '73'
+version: '0'
+event(fields): PageInAllocation(Pointer hAllocationHandle, UInt32 uiSegmentId, UInt64
+  uliOffset)
+opcode: ''
+keywords: Base
+task: PageInAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hAllocationHandle
+- field_type: UInt32
+  field_name: uiSegmentId
+- field_type: UInt64
+  field_name: uliOffset

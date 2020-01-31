@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '4008'
+version: '0'
+event(fields): Execute_QueryStop(UInt32 TotalRetry, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Execute_Query
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: TotalRetry
+- field_type: UInt32
+  field_name: ErrorCode

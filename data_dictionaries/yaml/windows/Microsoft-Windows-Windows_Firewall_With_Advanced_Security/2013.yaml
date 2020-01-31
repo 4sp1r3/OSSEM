@@ -1,0 +1,77 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2013'
+version: '0'
+event(fields): task_02013(UnicodeString RuleId, UnicodeString RuleName, UInt32 Origin,
+  UInt16 Active, UInt16 Protocol, UnicodeString Endpoint1Ports, UnicodeString Endpoint2Ports,
+  UInt32 LocalTunnelEndpointV4, Binary LocalTunnelEndpointV6, UInt32 RemoteTunnelEndpointV4,
+  Binary RemoteTunnelEndpointV6, UnicodeString Phase1AuthSetId, UnicodeString Phase2AuthSetId,
+  UnicodeString Phase2CryptoSetId, UInt32 Action, UInt32 Profiles, UnicodeString Endpoint1,
+  UnicodeString Endpoint2, UnicodeString MMParentRuleId, UnicodeString EmbeddedContext,
+  UInt16 Flags, UInt16 IsDTM, UInt16 ApplyAuthZ, UInt16 BypassTunnelIfEncrypted, UInt16
+  NoIPSecOnOutbound, SID ModifyingUser, UnicodeString ModifyingApplication, UInt16
+  SchemaVersion, UInt32 RuleStatus)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: RuleId
+- field_type: UnicodeString
+  field_name: RuleName
+- field_type: UInt32
+  field_name: Origin
+- field_type: UInt16
+  field_name: Active
+- field_type: UInt16
+  field_name: Protocol
+- field_type: UnicodeString
+  field_name: Endpoint1Ports
+- field_type: UnicodeString
+  field_name: Endpoint2Ports
+- field_type: UInt32
+  field_name: LocalTunnelEndpointV4
+- field_type: Binary
+  field_name: LocalTunnelEndpointV6
+- field_type: UInt32
+  field_name: RemoteTunnelEndpointV4
+- field_type: Binary
+  field_name: RemoteTunnelEndpointV6
+- field_type: UnicodeString
+  field_name: Phase1AuthSetId
+- field_type: UnicodeString
+  field_name: Phase2AuthSetId
+- field_type: UnicodeString
+  field_name: Phase2CryptoSetId
+- field_type: UInt32
+  field_name: Action
+- field_type: UInt32
+  field_name: Profiles
+- field_type: UnicodeString
+  field_name: Endpoint1
+- field_type: UnicodeString
+  field_name: Endpoint2
+- field_type: UnicodeString
+  field_name: MMParentRuleId
+- field_type: UnicodeString
+  field_name: EmbeddedContext
+- field_type: UInt16
+  field_name: Flags
+- field_type: UInt16
+  field_name: IsDTM
+- field_type: UInt16
+  field_name: ApplyAuthZ
+- field_type: UInt16
+  field_name: BypassTunnelIfEncrypted
+- field_type: UInt16
+  field_name: NoIPSecOnOutbound
+- field_type: SID
+  field_name: ModifyingUser
+- field_type: UnicodeString
+  field_name: ModifyingApplication
+- field_type: UInt16
+  field_name: SchemaVersion
+- field_type: UInt32
+  field_name: RuleStatus

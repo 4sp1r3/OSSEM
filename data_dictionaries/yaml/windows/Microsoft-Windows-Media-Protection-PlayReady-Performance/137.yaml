@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '137'
+version: '0'
+event(fields): ProcessSampleStop(Pointer CMFTAsyncSimpleBase_ptr, UInt32 HResult)
+opcode: Stop
+keywords: ''
+task: ProcessSample
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMFTAsyncSimpleBase_ptr
+- field_type: UInt32
+  field_name: HResult

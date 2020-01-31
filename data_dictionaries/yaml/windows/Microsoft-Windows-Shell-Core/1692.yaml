@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '1692'
+version: '0'
+event(fields): ShellTask_Library_GetLibraryDescriptionThreadStart()
+opcode: Start
+keywords: Shell
+task: ShellTask_Library_GetLibraryDescriptionThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

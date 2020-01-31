@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-KernelStreaming
+event_id: '200'
+version: '0'
+event(fields): KS_PnpAddDeviceStart()
+opcode: Start
+keywords: ''
+task: KS_PnpAddDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

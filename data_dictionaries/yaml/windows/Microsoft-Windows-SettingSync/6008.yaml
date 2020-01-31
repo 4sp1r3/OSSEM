@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6008'
+version: '0'
+event(fields): task_06008(UInt8 Reason, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Reason
+- field_type: UInt32
+  field_name: HRESULT

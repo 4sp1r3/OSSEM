@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-NTLM
+event_id: '4011'
+version: '0'
+event(fields): task_04011(UInt32 CallerPID, UnicodeString ProcessName, HexInt32 NegotiatedSecurity,
+  HexInt32 RequiredSecurity)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CallerPID
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: HexInt32
+  field_name: NegotiatedSecurity
+- field_type: HexInt32
+  field_name: RequiredSecurity

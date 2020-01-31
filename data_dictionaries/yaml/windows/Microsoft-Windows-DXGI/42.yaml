@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DXGI
+event_id: '42'
+version: '0'
+event(fields): PresentStart(Pointer pIDXGISwapChain, UInt32 Flags, UInt32 SyncInterval,
+  UInt32 DirtyRects, UInt32 ScrollRects)
+opcode: Start
+keywords: Events
+task: Present
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapChain
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: SyncInterval
+- field_type: UInt32
+  field_name: DirtyRects
+- field_type: UInt32
+  field_name: ScrollRects

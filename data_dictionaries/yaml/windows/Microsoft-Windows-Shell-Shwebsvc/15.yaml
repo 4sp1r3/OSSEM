@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Shwebsvc
+event_id: '15'
+version: '0'
+event(fields): UploadStart()
+opcode: Start
+keywords: ''
+task: Upload
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

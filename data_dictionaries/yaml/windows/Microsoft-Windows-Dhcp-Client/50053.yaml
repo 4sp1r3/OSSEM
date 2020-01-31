@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50053'
+version: '0'
+event(fields): ProtocolStateEventNetworkError(UInt32 InterfaceId, UInt32 StatusCode)
+opcode: NetworkError
+keywords: ''
+task: ProtocolStateEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: StatusCode

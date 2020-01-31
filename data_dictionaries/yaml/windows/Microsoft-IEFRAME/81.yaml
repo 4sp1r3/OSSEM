@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '81'
+version: '0'
+event(fields): OnlineHistoryAddStop()
+opcode: Stop
+keywords: primarynav
+task: OnlineHistoryAdd
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

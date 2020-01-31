@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-NetworkSecurity
+event_id: '806'
+version: '0'
+event(fields): SaContextOperationStart()
+opcode: Start
+keywords: ''
+task: SaContextOperation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

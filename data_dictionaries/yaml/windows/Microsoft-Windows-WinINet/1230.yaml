@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1230'
+version: '0'
+event(fields): Wininet_UrlCacheContainerStop1230(UnicodeString Name, UnicodeString
+  RootPath)
+opcode: Stop
+keywords: WININET_KEYWORD_IE
+task: Wininet_UrlCacheContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: RootPath

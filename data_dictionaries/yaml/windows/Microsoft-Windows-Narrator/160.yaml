@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '160'
+version: '0'
+event(fields): DetailedReadingDataStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: DetailedReadingData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

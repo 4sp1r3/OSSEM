@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WPD-MTPClassDriver
+event_id: '1013'
+version: '0'
+event(fields): DeviceError1013()
+opcode: ''
+keywords: ''
+task: DeviceError
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

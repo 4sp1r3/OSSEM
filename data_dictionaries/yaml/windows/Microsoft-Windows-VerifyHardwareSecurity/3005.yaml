@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-VerifyHardwareSecurity
+event_id: '3005'
+version: '0'
+event(fields): CheckCertificatesERTSFAILEDTOCHECKertsFailedToCheck(Int32 hr)
+opcode: certsFailedToCheck
+keywords: ''
+task: CheckCertificates
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: hr

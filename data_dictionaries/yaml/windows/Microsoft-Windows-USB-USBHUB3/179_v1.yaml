@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '179'
+version: '1'
+event(fields): ClientRequestError179_V1(Pointer fid_UsbDevice, UInt32 fid_IoctlCode,
+  UInt32 fid_UrbFunction, UInt16 fid_idVendor, UInt16 fid_idProduct, UInt16 fid_bcdDevice,
+  UInt32 fid_EventCount)
+opcode: Error
+keywords: Default Enumeration HWVerifyHub
+task: ClientRequest
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt32
+  field_name: fid_IoctlCode
+- field_type: UInt32
+  field_name: fid_UrbFunction
+- field_type: UInt16
+  field_name: fid_idVendor
+- field_type: UInt16
+  field_name: fid_idProduct
+- field_type: UInt16
+  field_name: fid_bcdDevice
+- field_type: UInt32
+  field_name: fid_EventCount

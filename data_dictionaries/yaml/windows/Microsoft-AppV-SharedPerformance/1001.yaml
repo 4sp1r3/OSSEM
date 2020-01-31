@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '1001'
+version: '0'
+event(fields): DeserializeManifestStart()
+opcode: Start
+keywords: ''
+task: DeserializeManifest
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4950'
+version: '0'
+event(fields): task_04950(UnicodeString ProfileChanged, UnicodeString SettingType,
+  UnicodeString SettingValue)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProfileChanged
+- field_type: UnicodeString
+  field_name: SettingType
+- field_type: UnicodeString
+  field_name: SettingValue

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2134'
+version: '0'
+event(fields): PerfTrack_Picker_Launch_Open_Thumbnail_ResponsiveStart(UnicodeString
+  AppID, UnicodeString PackageName)
+opcode: Start
+keywords: ''
+task: PerfTrack_Picker_Launch_Open_Thumbnail_Responsive
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UnicodeString
+  field_name: PackageName

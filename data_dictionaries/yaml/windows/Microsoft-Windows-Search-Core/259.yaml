@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '259'
+version: '0'
+event(fields): Gatherer_OnDataChange_Track_Url(UInt64 Resource, UnicodeString TransactionURL)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: Gatherer_OnDataChange_Track_Url
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Resource
+- field_type: UnicodeString
+  field_name: TransactionURL

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '701'
+version: '0'
+event(fields): MPEG2Mux_MuxSample_Task(Pointer object, Int32 Stream, Int32 ES_Stream,
+  Int64 TimeStamp, Int32 PackSize, Int64 LastPCR)
+opcode: ''
+keywords: ''
+task: MPEG2Mux_MuxSample_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: Stream
+- field_type: Int32
+  field_name: ES_Stream
+- field_type: Int64
+  field_name: TimeStamp
+- field_type: Int32
+  field_name: PackSize
+- field_type: Int64
+  field_name: LastPCR

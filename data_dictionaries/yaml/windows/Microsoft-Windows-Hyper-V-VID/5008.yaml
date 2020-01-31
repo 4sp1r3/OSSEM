@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5008'
+version: '0'
+event(fields): VID_reservepagesStop5008(Int64 Parameter0)
+opcode: Stop
+keywords: VMK_HYPERV_PERF_INNER VMK_HYPERV_PERF
+task: VID_reservepages
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: Parameter0

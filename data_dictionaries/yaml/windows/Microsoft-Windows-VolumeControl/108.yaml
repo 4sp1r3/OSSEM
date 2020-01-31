@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-VolumeControl
+event_id: '108'
+version: '0'
+event(fields): task_VolumeLimit_UIVolumeLimit_WnfCallback_ScheduleUI(Pointer object,
+  Pointer m_pUIWorkItem)
+opcode: VolumeLimit_WnfCallback_ScheduleUI
+keywords: ''
+task: task_VolumeLimit_UI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Pointer
+  field_name: m_pUIWorkItem

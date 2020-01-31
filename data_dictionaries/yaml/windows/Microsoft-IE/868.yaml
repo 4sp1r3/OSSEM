@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '868'
+version: '0'
+event(fields): Mshtml_AlignedBeat_VSync_Beat(UInt64 Object, UInt64 Value)
+opcode: ''
+keywords: paintbeat
+task: Mshtml_AlignedBeat_VSync_Beat
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object
+- field_type: UInt64
+  field_name: Value

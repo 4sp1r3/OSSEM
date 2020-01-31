@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '117'
+version: '0'
+event(fields): SegmentPolicyChange(Pointer hProcessId, Pointer pDxgAdapter, UInt32
+  ulSegmentId, UInt32 Policy, UInt64 ullValue, UInt32 ulHysteresisCount, UInt32 ulHysteresisNext)
+opcode: ''
+keywords: Base
+task: SegmentPolicyChange
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hProcessId
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: ulSegmentId
+- field_type: UInt32
+  field_name: Policy
+- field_type: UInt64
+  field_name: ullValue
+- field_type: UInt32
+  field_name: ulHysteresisCount
+- field_type: UInt32
+  field_name: ulHysteresisNext

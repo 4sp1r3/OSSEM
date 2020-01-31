@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '11005'
+version: '1'
+event(fields): ManifestCreateManifestDocumentFromXMLStart_V1()
+opcode: Start
+keywords: ''
+task: ManifestCreateManifestDocumentFromXML
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

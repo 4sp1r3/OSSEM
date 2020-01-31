@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '125'
+version: '0'
+event(fields): FullTextMergeStop()
+opcode: Stop
+keywords: PerfEvent
+task: FullTextMerge
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

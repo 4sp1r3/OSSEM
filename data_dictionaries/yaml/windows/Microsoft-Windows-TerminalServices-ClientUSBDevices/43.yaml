@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TerminalServices-ClientUSBDevices
+event_id: '43'
+version: '0'
+event(fields): RemoteDesktopUSBHubFilter43()
+opcode: ''
+keywords: ''
+task: RemoteDesktopUSBHubFilter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

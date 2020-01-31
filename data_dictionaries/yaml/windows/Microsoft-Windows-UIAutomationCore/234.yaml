@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '234'
+version: '0'
+event(fields): CUIAutomation_GetPropertyProgrammaticNameStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CUIAutomation_GetPropertyProgrammaticName
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

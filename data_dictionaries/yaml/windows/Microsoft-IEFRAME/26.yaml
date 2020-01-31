@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '26'
+version: '0'
+event(fields): Browseui_CBrowserFrame_CloseStart()
+opcode: Start
+keywords: primarynav
+task: Browseui_CBrowserFrame_Close
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

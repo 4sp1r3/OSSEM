@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-EapHost
+event_id: '1045'
+version: '0'
+event(fields): Authenticator1045()
+opcode: ''
+keywords: ''
+task: Authenticator
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27043'
+version: '1'
+event(fields): HandleUnpublishPackageActivityStop_V1()
+opcode: Stop
+keywords: ''
+task: HandleUnpublishPackageActivity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22080'
+version: '0'
+event(fields): Taskbar_Immersive_Show()
+opcode: ''
+keywords: Shell
+task: Taskbar_Immersive_Show
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

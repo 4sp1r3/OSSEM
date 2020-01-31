@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '48'
+version: '0'
+event(fields): EnumHistoryRecordsStart()
+opcode: Start
+keywords: primarynav
+task: EnumHistoryRecords
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

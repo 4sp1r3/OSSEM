@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '45015'
+version: '0'
+event(fields): Shutdown_SlideToShutDownScreen_SelfRevealAnimationStart()
+opcode: Start
+keywords: ''
+task: Shutdown_SlideToShutDownScreen_SelfRevealAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

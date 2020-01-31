@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-ConfigManager2
+event_id: '154'
+version: '0'
+event(fields): CNodeWrapper_PersistRollbackSetPropertyStateDCStop(UInt32 Result)
+opcode: DC_Stop
+keywords: Error Performance Trace
+task: CNodeWrapper_PersistRollbackSetPropertyState
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Result

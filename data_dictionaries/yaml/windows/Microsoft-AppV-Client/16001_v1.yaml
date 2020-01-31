@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '16001'
+version: '1'
+event(fields): VirtualEnvironmentStart16001_V1(GUID PackageGroup, GUID Version)
+opcode: ''
+keywords: VOBJ
+task: VirtualEnvironmentStart
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PackageGroup
+- field_type: GUID
+  field_name: Version

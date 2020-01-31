@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '114'
+version: '0'
+event(fields): AudStreamSink_OnInvokeStreamSwitch_TaskStart(Pointer object)
+opcode: Start
+keywords: ''
+task: AudStreamSink_OnInvokeStreamSwitch_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

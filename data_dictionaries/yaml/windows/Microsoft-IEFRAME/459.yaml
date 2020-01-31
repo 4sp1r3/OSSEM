@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '459'
+version: '0'
+event(fields): TabRoaming_PLMSuspendWithOutstandingTimer()
+opcode: ''
+keywords: roaming
+task: TabRoaming_PLMSuspendWithOutstandingTimer
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

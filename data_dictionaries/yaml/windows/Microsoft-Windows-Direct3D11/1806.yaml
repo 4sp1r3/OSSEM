@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1806'
+version: '0'
+event(fields): ID3D11VideoDevice_CreateCryptoSessionStart(Pointer pThis, GUID CryptoType,
+  GUID KeyExhangeType, Pointer ppCryptoSession)
+opcode: Start
+keywords: ''
+task: ID3D11VideoDevice_CreateCryptoSession
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: GUID
+  field_name: CryptoType
+- field_type: GUID
+  field_name: KeyExhangeType
+- field_type: Pointer
+  field_name: ppCryptoSession

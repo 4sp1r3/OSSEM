@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DHCPv6-Client
+event_id: '51037'
+version: '0'
+event(fields): ProtocolStateEventInformationRefreshTimeOptionReceived(UInt32 InterfaceId,
+  UInt32 RefreshTime)
+opcode: InformationRefreshTimeOptionReceived
+keywords: ''
+task: ProtocolStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InterfaceId
+- field_type: UInt32
+  field_name: RefreshTime

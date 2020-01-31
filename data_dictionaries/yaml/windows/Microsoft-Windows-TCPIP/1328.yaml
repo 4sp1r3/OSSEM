@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1328'
+version: '0'
+event(fields): Ndkpi_Cq_Result_Ex(Pointer NdkCq, UInt32 Status, UInt32 BytesTransferred,
+  Pointer QpContext, Pointer RequestContext, Int32 ResultIndex, Int32 ResultCount,
+  UInt32 Type, UInt64 TypeSpecificCompletionOutput)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Cq_Result_Ex
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkCq
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt32
+  field_name: BytesTransferred
+- field_type: Pointer
+  field_name: QpContext
+- field_type: Pointer
+  field_name: RequestContext
+- field_type: Int32
+  field_name: ResultIndex
+- field_type: Int32
+  field_name: ResultCount
+- field_type: UInt32
+  field_name: Type
+- field_type: UInt64
+  field_name: TypeSpecificCompletionOutput

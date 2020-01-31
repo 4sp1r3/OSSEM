@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '8203'
+version: '0'
+event(fields): SyncaSecurityCatalogwiththeCatalogDatabaseStop8203(HexInt32 Status)
+opcode: Stop
+keywords: Catalog
+task: SyncaSecurityCatalogwiththeCatalogDatabase
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: Status

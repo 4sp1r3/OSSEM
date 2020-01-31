@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Audio
+event_id: '117'
+version: '0'
+event(fields): Pump:cancellingdeadline(Pointer PumpInstance)
+opcode: ''
+keywords: ''
+task: Pump:cancellingdeadline
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PumpInstance

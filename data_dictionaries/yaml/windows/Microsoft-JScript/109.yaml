@@ -1,0 +1,13 @@
+provider: Microsoft-JScript
+event_id: '109'
+version: '0'
+event(fields): Jscript_Recycler_AllocationAllocate_Array(Pointer MemoryAddress)
+opcode: Allocate_Array
+keywords: JScriptObjectAllocation
+task: Jscript_Recycler_Allocation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MemoryAddress

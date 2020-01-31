@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '124'
+version: '0'
+event(fields): VsmPolicyFailure(UInt8 Phase, UInt32 Status)
+opcode: ''
+keywords: keyword_80000000000 keyword_400000000000
+task: VsmPolicyFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Phase
+- field_type: UInt32
+  field_name: Status

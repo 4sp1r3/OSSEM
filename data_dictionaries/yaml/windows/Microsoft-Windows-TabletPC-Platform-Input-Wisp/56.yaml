@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Wisp
+event_id: '56'
+version: '0'
+event(fields): TABLET_INPUT_Pan_IsScrollableStart()
+opcode: Start
+keywords: ''
+task: TABLET_INPUT_Pan_IsScrollable
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

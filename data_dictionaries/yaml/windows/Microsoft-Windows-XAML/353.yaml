@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-XAML
+event_id: '353'
+version: '0'
+event(fields): VirtualizedItemAdded(UInt64 ElementId, UInt64 ScrollViewerId, Int32
+  ItemIndex, Boolean IsPlaceholder)
+opcode: ''
+keywords: Input
+task: VirtualizedItemAdded
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UInt64
+  field_name: ScrollViewerId
+- field_type: Int32
+  field_name: ItemIndex
+- field_type: Boolean
+  field_name: IsPlaceholder

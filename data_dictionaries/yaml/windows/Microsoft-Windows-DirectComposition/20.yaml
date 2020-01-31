@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DirectComposition
+event_id: '20'
+version: '0'
+event(fields): ATLAS_UTILIZATION(UInt64 Id, UInt32 Width, UInt32 Height, UInt32 BitDepth,
+  Float PercentUsed)
+opcode: ''
+keywords: DCompDiagnostic DCompMemory
+task: ATLAS_UTILIZATION
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: BitDepth
+- field_type: Float
+  field_name: PercentUsed

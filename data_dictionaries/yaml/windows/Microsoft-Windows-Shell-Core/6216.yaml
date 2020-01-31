@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6216'
+version: '0'
+event(fields): Thumbnails_InitializeStop()
+opcode: Stop
+keywords: Shell
+task: Thumbnails_Initialize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

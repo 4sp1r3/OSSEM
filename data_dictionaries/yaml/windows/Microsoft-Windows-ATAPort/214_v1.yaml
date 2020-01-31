@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ATAPort
+event_id: '214'
+version: '1'
+event(fields): PortCompletionofrequest.214_V1(Pointer Irp, HexInt32 Status)
+opcode: Completionofrequest.
+keywords: IOCTL WMI
+task: Port
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: HexInt32
+  field_name: Status

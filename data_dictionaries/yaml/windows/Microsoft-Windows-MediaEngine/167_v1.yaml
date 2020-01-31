@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '167'
+version: '1'
+event(fields): MediaFoundationPresent_InitVSyncRefreshRate_V1(Pointer object, Float
+  FrameRate, Float minFrameRate, Float maxFrameRate, Int32 Ratio, Int32 MaxRatio,
+  Int32 Reason)
+opcode: ''
+keywords: ''
+task: MediaFoundationPresent_InitVSyncRefreshRate
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Float
+  field_name: FrameRate
+- field_type: Float
+  field_name: minFrameRate
+- field_type: Float
+  field_name: maxFrameRate
+- field_type: Int32
+  field_name: Ratio
+- field_type: Int32
+  field_name: MaxRatio
+- field_type: Int32
+  field_name: Reason

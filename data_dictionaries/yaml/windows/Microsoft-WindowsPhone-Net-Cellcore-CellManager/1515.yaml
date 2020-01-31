@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Net-Cellcore-CellManager
+event_id: '1515'
+version: '0'
+event(fields): CellManagerArd1515(Pointer dwCode1, Boolean dwCode2)
+opcode: ''
+keywords: Trace
+task: CellManagerArd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: dwCode1
+- field_type: Boolean
+  field_name: dwCode2

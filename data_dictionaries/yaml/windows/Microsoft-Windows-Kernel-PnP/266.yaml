@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-PnP
+event_id: '266'
+version: '0'
+event(fields): SystemStartDriverReinitStart()
+opcode: Start
+keywords: Performance
+task: SystemStartDriverReinit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1728'
+version: '0'
+event(fields): ID3D11VideoProcessor_ReleaseStart(Pointer pThis)
+opcode: Start
+keywords: ''
+task: ID3D11VideoProcessor_Release
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUSER
+event_id: '67'
+version: '0'
+event(fields): DUser_IntervalReleaseRegionStart()
+opcode: Start
+keywords: Default
+task: DUser_IntervalReleaseRegion
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

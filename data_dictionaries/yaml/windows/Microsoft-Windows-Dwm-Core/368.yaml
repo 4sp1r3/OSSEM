@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '368'
+version: '0'
+event(fields): COMPUTESCRIBBLE_WAKEUPEVENTCREATED(UInt64 FrameID, UInt8 Framebuffer,
+  UInt32 SyncRefreshCount, Float TimeBeforeVBlank)
+opcode: ''
+keywords: DwmCore
+task: COMPUTESCRIBBLE_WAKEUPEVENTCREATED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: FrameID
+- field_type: UInt8
+  field_name: Framebuffer
+- field_type: UInt32
+  field_name: SyncRefreshCount
+- field_type: Float
+  field_name: TimeBeforeVBlank

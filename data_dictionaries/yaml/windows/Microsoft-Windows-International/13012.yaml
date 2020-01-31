@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-International
+event_id: '13012'
+version: '0'
+event(fields): NLSUnattendedRegionalandLanguageOptionsNLSoperations13012(UnicodeString
+  LocaleName)
+opcode: NLSoperations
+keywords: ''
+task: NLSUnattendedRegionalandLanguageOptions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocaleName

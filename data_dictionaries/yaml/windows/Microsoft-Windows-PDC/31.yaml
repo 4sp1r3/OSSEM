@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PDC
+event_id: '31'
+version: '0'
+event(fields): CsMonitorHandler(UInt32 At)
+opcode: ''
+keywords: Cs CsDiag
+task: CsMonitorHandler
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: At

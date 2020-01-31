@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-Security-Kerberos
+event_id: '303'
+version: '0'
+event(fields): task_0303(UInt32 LuidHighPart, UInt32 LuidLowPart, UnicodeString DomainName,
+  UnicodeString UserName, Boolean UpdateCurrent, Boolean UpdateOld, Boolean Refresh,
+  UnicodeString LastFileTime, UnicodeString CurrentFileTime)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LuidHighPart
+- field_type: UInt32
+  field_name: LuidLowPart
+- field_type: UnicodeString
+  field_name: DomainName
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: Boolean
+  field_name: UpdateCurrent
+- field_type: Boolean
+  field_name: UpdateOld
+- field_type: Boolean
+  field_name: Refresh
+- field_type: UnicodeString
+  field_name: LastFileTime
+- field_type: UnicodeString
+  field_name: CurrentFileTime

@@ -1,0 +1,18 @@
+provider: Intel-iaLPSS-GPIO
+event_id: '1003'
+version: '1'
+event(fields): EnumerationofGPIOxdriver1003_V1(UnicodeString FailReason, UInt32 Status,
+  Pointer WDFDEVICE)
+opcode: ''
+keywords: ''
+task: EnumerationofGPIOxdriver
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FailReason
+- field_type: UInt32
+  field_name: Status
+- field_type: Pointer
+  field_name: WDFDEVICE

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18552'
+version: '0'
+event(fields): Shell32_DefView_FilterStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_DefView_Filter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

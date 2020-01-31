@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '4319'
+version: '0'
+event(fields): ImmersiveMonitorReconcileMonitorsStop()
+opcode: Stop
+keywords: ''
+task: ImmersiveMonitorReconcileMonitors
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

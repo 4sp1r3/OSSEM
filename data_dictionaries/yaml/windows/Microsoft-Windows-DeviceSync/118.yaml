@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '118'
+version: '0'
+event(fields): SI_Unsubscribe_EventsStart()
+opcode: Start
+keywords: ''
+task: SI_Unsubscribe_Events
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

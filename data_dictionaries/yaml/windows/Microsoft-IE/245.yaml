@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '245'
+version: '0'
+event(fields): Mshtml_CHighFreqScheduler_FireStop(UInt64 Object, UInt64 Value)
+opcode: Stop
+keywords: paintbeat
+task: Mshtml_CHighFreqScheduler_Fire
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object
+- field_type: UInt64
+  field_name: Value

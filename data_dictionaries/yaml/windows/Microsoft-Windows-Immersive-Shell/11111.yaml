@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11111'
+version: '0'
+event(fields): PLM_StartUp_PsmRegisterFailure(UInt32 NTSTATUS)
+opcode: ''
+keywords: PLMComponent
+task: PLM_StartUp_PsmRegisterFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NTSTATUS

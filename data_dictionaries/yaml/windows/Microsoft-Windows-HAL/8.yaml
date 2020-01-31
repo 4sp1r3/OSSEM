@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-HAL
+event_id: '8'
+version: '0'
+event(fields): task_08(Int32 LeadProcessor, Int32 MaximumPositiveDeltaProcessor, Int32
+  MaximumPositiveDelta, Int32 MaximumNegativeDelta, Int32 Microseconds)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: LeadProcessor
+- field_type: Int32
+  field_name: MaximumPositiveDeltaProcessor
+- field_type: Int32
+  field_name: MaximumPositiveDelta
+- field_type: Int32
+  field_name: MaximumNegativeDelta
+- field_type: Int32
+  field_name: Microseconds

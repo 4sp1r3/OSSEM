@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Kernel-Network
+event_id: '17'
+version: '0'
+event(fields): KERNEL_NETWORK_TASK_TCPIPTCPconnectionattemptfailed.(UInt16 Proto,
+  UInt16 FailureCode)
+opcode: TCPconnectionattemptfailed.
+keywords: KERNEL_NETWORK_KEYWORD_IPV4 KERNEL_NETWORK_KEYWORD_IPV6
+task: KERNEL_NETWORK_TASK_TCPIP
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: Proto
+- field_type: UInt16
+  field_name: FailureCode

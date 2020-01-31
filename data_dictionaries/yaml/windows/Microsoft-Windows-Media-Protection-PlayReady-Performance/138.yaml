@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '138'
+version: '0'
+event(fields): LockitStart(Pointer CMFTAsyncSimpleBase_lock)
+opcode: Start
+keywords: ''
+task: Lockit
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMFTAsyncSimpleBase_lock

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MemoryDiagnostics-Results
+event_id: '1202'
+version: '0'
+event(fields): task_01202(UnicodeString CompletionType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CompletionType

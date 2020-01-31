@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '106'
+version: '0'
+event(fields): AppReadiness_Service106(UnicodeString User)
+opcode: ''
+keywords: Service
+task: AppReadiness_Service
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: User

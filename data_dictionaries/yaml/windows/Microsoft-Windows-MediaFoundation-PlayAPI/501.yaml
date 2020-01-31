@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '501'
+version: '0'
+event(fields): MFPlayStart501(Pointer Object, Pointer EventCookie, UInt32 EventType,
+  UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: MFPlay
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Pointer
+  field_name: EventCookie
+- field_type: UInt32
+  field_name: EventType
+- field_type: UInt32
+  field_name: ErrorCode

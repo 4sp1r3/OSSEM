@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-IoTrace
+event_id: '2'
+version: '0'
+event(fields): KernelIo()
+opcode: ''
+keywords: ''
+task: KernelIo
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

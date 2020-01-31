@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '5003'
+version: '0'
+event(fields): task_05003(UnicodeString ApplicationName, UnicodeString ApplicationVersion,
+  UnicodeString ExecutablePath, UnicodeString RecommendedLayer, UInt32 VistaPlus,
+  UnicodeString FileID, UnicodeString ProgramID)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApplicationName
+- field_type: UnicodeString
+  field_name: ApplicationVersion
+- field_type: UnicodeString
+  field_name: ExecutablePath
+- field_type: UnicodeString
+  field_name: RecommendedLayer
+- field_type: UInt32
+  field_name: VistaPlus
+- field_type: UnicodeString
+  field_name: FileID
+- field_type: UnicodeString
+  field_name: ProgramID

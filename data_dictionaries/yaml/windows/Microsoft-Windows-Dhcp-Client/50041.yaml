@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '50041'
+version: '0'
+event(fields): DNSStateEventDomainChangeNotification()
+opcode: DomainChangeNotification
+keywords: ''
+task: DNSStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '139'
+version: '0'
+event(fields): TextureAtlasFree(UInt64 Id)
+opcode: ''
+keywords: Rendering
+task: TextureAtlasFree
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id

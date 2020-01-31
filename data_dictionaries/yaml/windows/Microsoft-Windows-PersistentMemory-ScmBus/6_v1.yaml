@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PersistentMemory-ScmBus
+event_id: '6'
+version: '1'
+event(fields): task_06_V1(AnsiString CertificationArea, AnsiString FailureMessage)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: CertificationArea
+- field_type: AnsiString
+  field_name: FailureMessage

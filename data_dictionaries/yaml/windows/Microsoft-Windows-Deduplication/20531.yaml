@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20531'
+version: '0'
+event(fields): UnpinchunkcontainerStop(UInt32 CompletionStatus)
+opcode: Stop
+keywords: KmChunkContainer
+task: Unpinchunkcontainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CompletionStatus

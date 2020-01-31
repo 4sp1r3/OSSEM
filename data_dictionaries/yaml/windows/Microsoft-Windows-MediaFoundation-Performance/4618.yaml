@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4618'
+version: '0'
+event(fields): MFTDriverProcessInputStop(Pointer object, UInt32 StreamIndex, UInt32
+  hrResult)
+opcode: Stop
+keywords: ''
+task: MFTDriverProcessInput
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: UInt32
+  field_name: StreamIndex
+- field_type: UInt32
+  field_name: hrResult

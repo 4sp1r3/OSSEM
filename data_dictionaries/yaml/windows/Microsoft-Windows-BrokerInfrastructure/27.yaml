@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '27'
+version: '0'
+event(fields): BackgroundTaskTaskWatchdog(UInt16 EntryPointLength, UnicodeString TaskEntryPoint,
+  UInt16 NameLength, UnicodeString TaskName, UnicodeString PackageFullName, GUID InstanceId,
+  UInt32 SessionId, SID UserSid, Boolean LockScreen)
+opcode: TaskWatchdog
+keywords: Watchdog
+task: BackgroundTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: EntryPointLength
+- field_type: UnicodeString
+  field_name: TaskEntryPoint
+- field_type: UInt16
+  field_name: NameLength
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: GUID
+  field_name: InstanceId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: SID
+  field_name: UserSid
+- field_type: Boolean
+  field_name: LockScreen

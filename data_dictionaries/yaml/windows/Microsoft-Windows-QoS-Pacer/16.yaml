@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-QoS-Pacer
+event_id: '16'
+version: '0'
+event(fields): task_016(Binary NetLuid, UInt64 CurrentTime, UInt32 BytesRequested,
+  UInt32 BytesCompleted, UInt32 BytesInQueue, Int64 BufferAvailable, Int64 BetaTerm,
+  Int64 AlphaTerm, Int64 DeltaSendWindow, Int64 NewSendWindow)
+opcode: ''
+keywords: ut:SendPath
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Binary
+  field_name: NetLuid
+- field_type: UInt64
+  field_name: CurrentTime
+- field_type: UInt32
+  field_name: BytesRequested
+- field_type: UInt32
+  field_name: BytesCompleted
+- field_type: UInt32
+  field_name: BytesInQueue
+- field_type: Int64
+  field_name: BufferAvailable
+- field_type: Int64
+  field_name: BetaTerm
+- field_type: Int64
+  field_name: AlphaTerm
+- field_type: Int64
+  field_name: DeltaSendWindow
+- field_type: Int64
+  field_name: NewSendWindow

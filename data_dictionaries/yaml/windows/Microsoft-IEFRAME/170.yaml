@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '170'
+version: '0'
+event(fields): Addressbar_InlineAutocompleteStop()
+opcode: Stop
+keywords: primarynav
+task: Addressbar_InlineAutocomplete
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

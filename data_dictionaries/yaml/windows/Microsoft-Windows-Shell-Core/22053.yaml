@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '22053'
+version: '0'
+event(fields): Taskbar_Compute_Column_Layout(UInt32 nTotalHeight, UInt32 nTotalFixedHeight,
+  UInt32 iGroupStart, UInt32 iItemStart, UInt32 iGroupEnd, UInt32 iItemEnd)
+opcode: ''
+keywords: Shell
+task: Taskbar_Compute_Column_Layout
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: nTotalHeight
+- field_type: UInt32
+  field_name: nTotalFixedHeight
+- field_type: UInt32
+  field_name: iGroupStart
+- field_type: UInt32
+  field_name: iItemStart
+- field_type: UInt32
+  field_name: iGroupEnd
+- field_type: UInt32
+  field_name: iItemEnd

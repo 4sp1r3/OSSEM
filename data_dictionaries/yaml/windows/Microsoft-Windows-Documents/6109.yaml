@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Documents
+event_id: '6109'
+version: '0'
+event(fields): DocPerf_Task_Setup_StagePackageDriverStart(UInt32 InstanceId)
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_Setup_StagePackageDriver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InstanceId

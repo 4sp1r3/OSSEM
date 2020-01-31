@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-AppHost
+event_id: '10003'
+version: '0'
+event(fields): ApplicationTracing.InformationalAppHostApplicationInformation10003(Int32
+  DeferralCount)
+opcode: AppHostApplicationInformation
+keywords: WWAHOST_DIAGNOSTIC_KEYWORD
+task: ApplicationTracing.Informational
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: DeferralCount

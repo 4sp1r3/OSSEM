@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-SMBClient
+event_id: '32002'
+version: '0'
+event(fields): task_032002(UInt32 Reason, UInt16 Dialect, UInt16 SecurityMode, UInt16
+  ServerNameLength, UnicodeString ServerName)
+opcode: ''
+keywords: Smb_Info
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt16
+  field_name: Dialect
+- field_type: UInt16
+  field_name: SecurityMode
+- field_type: UInt16
+  field_name: ServerNameLength
+- field_type: UnicodeString
+  field_name: ServerName

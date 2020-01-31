@@ -1,0 +1,20 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '291'
+version: '0'
+event(fields): CompositePE291(UInt32 PeRole, UInt32 RemainingTime, UInt32 hr, UInt32
+  AcquireId)
+opcode: ''
+keywords: Selfhost CompositePe
+task: CompositePE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PeRole
+- field_type: UInt32
+  field_name: RemainingTime
+- field_type: UInt32
+  field_name: hr
+- field_type: UInt32
+  field_name: AcquireId

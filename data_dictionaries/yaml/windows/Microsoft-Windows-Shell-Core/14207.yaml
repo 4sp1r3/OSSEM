@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14207'
+version: '0'
+event(fields): TypeAhead_OnQuery(UInt32 QueryId, UnicodeString QueryString)
+opcode: ''
+keywords: Shell
+task: TypeAhead_OnQuery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: QueryId
+- field_type: UnicodeString
+  field_name: QueryString

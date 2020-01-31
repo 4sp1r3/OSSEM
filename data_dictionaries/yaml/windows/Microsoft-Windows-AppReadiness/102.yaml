@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '102'
+version: '0'
+event(fields): AppReadiness_Service_ThreadStart()
+opcode: Start
+keywords: Service
+task: AppReadiness_Service_Thread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

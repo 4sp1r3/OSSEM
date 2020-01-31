@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16906'
+version: '0'
+event(fields): PHLocationCreator_RemoveSearchRootLocationsStop()
+opcode: Stop
+keywords: Shell
+task: PHLocationCreator_RemoveSearchRootLocations
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMP
+event_id: '314'
+version: '0'
+event(fields): LIBRARYUX314(UnicodeString Value1, UnicodeString Value2, UnicodeString
+  Value3)
+opcode: ''
+keywords: mediaplayer
+task: LIBRARYUX
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Value1
+- field_type: UnicodeString
+  field_name: Value2
+- field_type: UnicodeString
+  field_name: Value3

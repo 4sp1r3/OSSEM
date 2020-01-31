@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '112'
+version: '0'
+event(fields): HighlightDelete()
+opcode: ''
+keywords: Reader
+task: HighlightDelete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

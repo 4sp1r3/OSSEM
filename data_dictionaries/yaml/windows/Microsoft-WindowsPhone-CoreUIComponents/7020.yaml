@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '7020'
+version: '0'
+event(fields): NavigationClientOnDeactivatedStop(UInt32 unParam)
+opcode: Stop
+keywords: NavigationClient
+task: NavigationClientOnDeactivated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

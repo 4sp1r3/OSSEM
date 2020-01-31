@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TerminalServices-ClientActiveXCore
+event_id: '227'
+version: '0'
+event(fields): RDPStateTransitionThiseventisraisedduringastatetransition.227(UnicodeString
+  StateTransitionName, UInt32 ChannelID, UnicodeString ChannelName)
+opcode: Thiseventisraisedduringastatetransition.
+keywords: ''
+task: RDPStateTransition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StateTransitionName
+- field_type: UInt32
+  field_name: ChannelID
+- field_type: UnicodeString
+  field_name: ChannelName

@@ -1,0 +1,58 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '2006'
+version: '0'
+event(fields): task_02006(GUID InterfaceGuid, UInt32 dwMajorVersion, UInt32 dwMinorVersion,
+  UInt32 dwDriverCaps, UInt32 WwanCellularClass, UInt32 WwanDataClass, UInt32 WwanGSMBandClass,
+  UInt32 WwanCDMABandClass, UInt32 ReadyState, UInt32 HwRadioState, UInt32 SwRadioState,
+  UInt8 InformationAvailability, UInt32 NoOfProviders, UInt32 RegisterState, UInt32
+  RegisterMode, UInt32 PacketAttachState, UInt32 CurrentNetworkCaps, UInt32 NwError,
+  UInt32 ConnectionId, UInt32 ActivationState, UInt32 VoiceCallState)
+opcode: ''
+keywords: ut:Configuration
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: dwMajorVersion
+- field_type: UInt32
+  field_name: dwMinorVersion
+- field_type: UInt32
+  field_name: dwDriverCaps
+- field_type: UInt32
+  field_name: WwanCellularClass
+- field_type: UInt32
+  field_name: WwanDataClass
+- field_type: UInt32
+  field_name: WwanGSMBandClass
+- field_type: UInt32
+  field_name: WwanCDMABandClass
+- field_type: UInt32
+  field_name: ReadyState
+- field_type: UInt32
+  field_name: HwRadioState
+- field_type: UInt32
+  field_name: SwRadioState
+- field_type: UInt8
+  field_name: InformationAvailability
+- field_type: UInt32
+  field_name: NoOfProviders
+- field_type: UInt32
+  field_name: RegisterState
+- field_type: UInt32
+  field_name: RegisterMode
+- field_type: UInt32
+  field_name: PacketAttachState
+- field_type: UInt32
+  field_name: CurrentNetworkCaps
+- field_type: UInt32
+  field_name: NwError
+- field_type: UInt32
+  field_name: ConnectionId
+- field_type: UInt32
+  field_name: ActivationState
+- field_type: UInt32
+  field_name: VoiceCallState

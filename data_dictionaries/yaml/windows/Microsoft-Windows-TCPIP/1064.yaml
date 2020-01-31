@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1064'
+version: '0'
+event(fields): TcpTcbStartTimer(Pointer Tcb, UInt32 TimerType, UInt32 WaitTimeMilliseconds)
+opcode: ''
+keywords: ut:TcpipTcb ut:Endpoint
+task: TcpTcbStartTimer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: TimerType
+- field_type: UInt32
+  field_name: WaitTimeMilliseconds

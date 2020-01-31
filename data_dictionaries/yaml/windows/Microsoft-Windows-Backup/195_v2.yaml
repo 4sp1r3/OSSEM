@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-Backup
+event_id: '195'
+version: '2'
+event(fields): task_0195_V2(GUID BackupSetId, FILETIME BackupSetTime, GUID RestoreEventId,
+  Int32 RestoreState, HexInt32 HRESULT, HexInt32 DetailedHRESULT, UnicodeString ErrorMessage,
+  UnicodeString BackupTargetFriendlyName, UInt32 NumOfVolumes, UnicodeString VolumesInfo,
+  UInt32 PrepareRestoreTime, FILETIME RestoreTime, UInt32 WriteRestoreTime)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BackupSetId
+- field_type: FILETIME
+  field_name: BackupSetTime
+- field_type: GUID
+  field_name: RestoreEventId
+- field_type: Int32
+  field_name: RestoreState
+- field_type: HexInt32
+  field_name: HRESULT
+- field_type: HexInt32
+  field_name: DetailedHRESULT
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UnicodeString
+  field_name: BackupTargetFriendlyName
+- field_type: UInt32
+  field_name: NumOfVolumes
+- field_type: UnicodeString
+  field_name: VolumesInfo
+- field_type: UInt32
+  field_name: PrepareRestoreTime
+- field_type: FILETIME
+  field_name: RestoreTime
+- field_type: UInt32
+  field_name: WriteRestoreTime

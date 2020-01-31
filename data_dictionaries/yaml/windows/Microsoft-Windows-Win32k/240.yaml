@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '240'
+version: '0'
+event(fields): PTPReadThresholdsStop()
+opcode: Stop
+keywords: TouchInput
+task: PTPReadThresholds
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

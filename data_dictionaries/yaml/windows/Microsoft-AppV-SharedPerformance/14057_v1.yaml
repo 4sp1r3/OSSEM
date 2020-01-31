@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '14057'
+version: '1'
+event(fields): PublishPackageGroupComplete_1029Start_V1()
+opcode: Start
+keywords: ''
+task: PublishPackageGroupComplete_1029
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-EapHost
+event_id: '2009'
+version: '0'
+event(fields): Peer2009(AnsiString FunctionName)
+opcode: ''
+keywords: ''
+task: Peer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: FunctionName

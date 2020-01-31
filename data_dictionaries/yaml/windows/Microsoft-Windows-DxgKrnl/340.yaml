@@ -1,0 +1,19 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '340'
+version: '0'
+event(fields): Lock340(Pointer pAlloc, UInt32 Flags, UInt32 Location, Boolean bFallbackToSystemMemory)
+opcode: ''
+keywords: Base
+task: Lock
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pAlloc
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: Location
+- field_type: Boolean
+  field_name: bFallbackToSystemMemory

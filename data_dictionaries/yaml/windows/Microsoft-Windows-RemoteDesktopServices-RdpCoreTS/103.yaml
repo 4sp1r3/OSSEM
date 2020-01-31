@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '103'
+version: '0'
+event(fields): RemoteFXmodule_4CloseConnection103(UInt32 ReasonCode)
+opcode: CloseConnection
+keywords: ''
+task: RemoteFXmodule_4
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ReasonCode

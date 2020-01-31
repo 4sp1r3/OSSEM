@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '2002'
+version: '0'
+event(fields): VisibilityInputType2002(Boolean IsRegularKeyPress)
+opcode: ''
+keywords: TabletPC_InputPanel_Keyword
+task: VisibilityInputType
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: IsRegularKeyPress

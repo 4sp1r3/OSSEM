@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '14000'
+version: '0'
+event(fields): AppMonitor_170ApplicationMonitor(UnicodeString stringValue1)
+opcode: ApplicationMonitor
+keywords: ''
+task: AppMonitor_170
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1

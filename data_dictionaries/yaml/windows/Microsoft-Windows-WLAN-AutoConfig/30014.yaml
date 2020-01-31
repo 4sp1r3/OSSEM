@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WLAN-AutoConfig
+event_id: '30014'
+version: '0'
+event(fields): ConnecttonetworkonresumeafterinterveningdisconnectStop30014(GUID InterfaceGuid)
+opcode: Stop
+keywords: ''
+task: Connecttonetworkonresumeafterinterveningdisconnect
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

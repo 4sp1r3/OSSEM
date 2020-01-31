@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-CoreInkRecognition
+event_id: '76'
+version: '0'
+event(fields): RECO_TRAINER_TextTrainStop()
+opcode: Stop
+keywords: ''
+task: RECO_TRAINER_TextTrain
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

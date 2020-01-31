@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '32016'
+version: '1'
+event(fields): VENV.ServiceReadXMLStart_V1()
+opcode: Start
+keywords: ''
+task: VENV.ServiceReadXML
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

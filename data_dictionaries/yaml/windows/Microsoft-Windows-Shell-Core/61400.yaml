@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61400'
+version: '0'
+event(fields): FileAccessAPI_GetThumbnailStart(UInt32 RequestedSize, UInt32 Options)
+opcode: Start
+keywords: Shell
+task: FileAccessAPI_GetThumbnail
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RequestedSize
+- field_type: UInt32
+  field_name: Options

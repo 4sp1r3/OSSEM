@@ -1,0 +1,11 @@
+provider: Schannel
+event_id: '36873'
+version: '0'
+event(fields): task_036873()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

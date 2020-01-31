@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '54'
+version: '0'
+event(fields): ExtensionCatalog_RoGetExtensionRegistrationForLaunchContractsStart(UnicodeString
+  ContractId, UnicodeString PackageId)
+opcode: Start
+keywords: ''
+task: ExtensionCatalog_RoGetExtensionRegistrationForLaunchContracts
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContractId
+- field_type: UnicodeString
+  field_name: PackageId

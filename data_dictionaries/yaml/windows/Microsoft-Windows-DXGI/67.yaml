@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '67'
+version: '0'
+event(fields): SetHardwareProtectionFailure(Pointer pIDXGISwapchain, UInt32 Result)
+opcode: ''
+keywords: Events
+task: SetHardwareProtectionFailure
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pIDXGISwapchain
+- field_type: UInt32
+  field_name: Result

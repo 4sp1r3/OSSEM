@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '29'
+version: '0'
+event(fields): GCFinalizeObject(Pointer TypeID, Pointer ObjectID, UInt16 ClrInstanceID)
+opcode: FinalizeObject
+keywords: GCKeyword
+task: GC
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: TypeID
+- field_type: Pointer
+  field_name: ObjectID
+- field_type: UInt16
+  field_name: ClrInstanceID

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '348'
+version: '0'
+event(fields): DeleteCatalog(UInt32 hr, UnicodeString Message)
+opcode: ''
+keywords: Service
+task: DeleteCatalog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: hr
+- field_type: UnicodeString
+  field_name: Message

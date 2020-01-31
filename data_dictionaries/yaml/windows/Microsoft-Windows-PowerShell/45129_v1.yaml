@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-PowerShell
+event_id: '45129'
+version: '1'
+event(fields): None45129_V1(UnicodeString checkpointPath, UnicodeString configProviderId,
+  UnicodeString userName, UnicodeString path)
+opcode: ''
+keywords: PSWorkflow
+task: None
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: checkpointPath
+- field_type: UnicodeString
+  field_name: configProviderId
+- field_type: UnicodeString
+  field_name: userName
+- field_type: UnicodeString
+  field_name: path

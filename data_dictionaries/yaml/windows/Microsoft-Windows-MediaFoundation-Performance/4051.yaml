@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-Performance
+event_id: '4051'
+version: '0'
+event(fields): TopoLoaderCreateMFTStart(AnsiString tag, Pointer object)
+opcode: Start
+keywords: ''
+task: TopoLoaderCreateMFT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: tag
+- field_type: Pointer
+  field_name: object

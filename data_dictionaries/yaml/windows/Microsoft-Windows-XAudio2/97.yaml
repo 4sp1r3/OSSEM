@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAudio2
+event_id: '97'
+version: '0'
+event(fields): ProcessingPerformanceWarning97(Float Value)
+opcode: PerformanceWarning
+keywords: ''
+task: Processing
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: Value

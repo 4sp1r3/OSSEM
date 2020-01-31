@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '9'
+version: '0'
+event(fields): MFTStateShutdownStop(Pointer CMFTAsyncSimpleBase_ptr)
+opcode: Stop
+keywords: ''
+task: MFTStateShutdown
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMFTAsyncSimpleBase_ptr

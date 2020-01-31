@@ -1,0 +1,31 @@
+provider: Microsoft-IE
+event_id: '697'
+version: '0'
+event(fields): Mshtml_CTouchHelper_IsDoubleClick(Boolean fPotentialDoubleTap, Boolean
+  fDoubleTapTimerPending, UInt32 pMessageTime, UInt64 MaxTimeForSecondTap, Int32 FirstTapPointX,
+  Int32 FirstTapPointY, Int32 SecondTapPointX, Int32 SecondTapPointY, Boolean fIsDoubleClick)
+opcode: ''
+keywords: touch
+task: Mshtml_CTouchHelper_IsDoubleClick
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: fPotentialDoubleTap
+- field_type: Boolean
+  field_name: fDoubleTapTimerPending
+- field_type: UInt32
+  field_name: pMessageTime
+- field_type: UInt64
+  field_name: MaxTimeForSecondTap
+- field_type: Int32
+  field_name: FirstTapPointX
+- field_type: Int32
+  field_name: FirstTapPointY
+- field_type: Int32
+  field_name: SecondTapPointX
+- field_type: Int32
+  field_name: SecondTapPointY
+- field_type: Boolean
+  field_name: fIsDoubleClick

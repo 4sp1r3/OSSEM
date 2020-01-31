@@ -1,0 +1,28 @@
+provider: Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter
+event_id: '208'
+version: '1'
+event(fields): PortCompletionofrequest._V1(Pointer Irp, HexInt32 NTStatus, UInt8 SrbStatus,
+  UInt8 ScsiStatus, UInt8 SenseKey, UInt8 AddSense, UInt8 AddSenseQ, Pointer OriginalIrp)
+opcode: Completionofrequest.
+keywords: Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite
+task: Port
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Irp
+- field_type: HexInt32
+  field_name: NTStatus
+- field_type: UInt8
+  field_name: SrbStatus
+- field_type: UInt8
+  field_name: ScsiStatus
+- field_type: UInt8
+  field_name: SenseKey
+- field_type: UInt8
+  field_name: AddSense
+- field_type: UInt8
+  field_name: AddSenseQ
+- field_type: Pointer
+  field_name: OriginalIrp

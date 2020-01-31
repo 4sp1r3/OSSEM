@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '82'
+version: '0'
+event(fields): PLAYBACKStateChange(UnicodeString EventType, UInt32 NewState)
+opcode: StateChange
+keywords: mediaplayer
+task: PLAYBACK
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventType
+- field_type: UInt32
+  field_name: NewState

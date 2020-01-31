@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '27013'
+version: '1'
+event(fields): Userlogoff.Stop_V1()
+opcode: Stop
+keywords: ''
+task: Userlogoff.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27149'
+version: '0'
+event(fields): PerfTrack_Taskbar_LaunchStart()
+opcode: Start
+keywords: Shell WDI
+task: PerfTrack_Taskbar_Launch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

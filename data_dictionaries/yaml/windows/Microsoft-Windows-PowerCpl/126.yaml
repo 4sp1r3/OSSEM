@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PowerCpl
+event_id: '126'
+version: '0'
+event(fields): PowerCpl_InitializePowerPlansPageStart()
+opcode: Start
+keywords: PowerCpl
+task: PowerCpl_InitializePowerPlansPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

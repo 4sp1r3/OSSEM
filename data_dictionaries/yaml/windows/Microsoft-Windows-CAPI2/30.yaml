@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-CAPI2
+event_id: '30'
+version: '0'
+event(fields): VerifyChainPolicy(UnicodeString EventWriteData)
+opcode: ''
+keywords: PathValidation
+task: VerifyChainPolicy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: EventWriteData

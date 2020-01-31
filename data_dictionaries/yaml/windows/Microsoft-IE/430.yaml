@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '430'
+version: '0'
+event(fields): Mshtml_SetTimeout_Url(Pointer WindowObject, UInt32 IsPrimary, UnicodeString
+  URL)
+opcode: ''
+keywords: paintbeat
+task: Mshtml_SetTimeout_Url
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WindowObject
+- field_type: UInt32
+  field_name: IsPrimary
+- field_type: UnicodeString
+  field_name: URL

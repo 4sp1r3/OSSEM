@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '40011'
+version: '0'
+event(fields): VReg.DeleteKeyStop()
+opcode: Stop
+keywords: ''
+task: VReg.DeleteKey
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

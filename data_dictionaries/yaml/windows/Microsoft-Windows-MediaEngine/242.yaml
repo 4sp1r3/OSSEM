@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '242'
+version: '0'
+event(fields): EMEKeyMessage2Start(UnicodeString sessionId, UInt32 MessageType, UnicodeString
+  url, UInt32 length, Binary data)
+opcode: Start
+keywords: ''
+task: EMEKeyMessage2
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: sessionId
+- field_type: UInt32
+  field_name: MessageType
+- field_type: UnicodeString
+  field_name: url
+- field_type: UInt32
+  field_name: length
+- field_type: Binary
+  field_name: data

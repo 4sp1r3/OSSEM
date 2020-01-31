@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4021'
+version: '0'
+event(fields): FOLDER_GETCONTENTSTABLEStart()
+opcode: Start
+keywords: Performance
+task: FOLDER_GETCONTENTSTABLE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

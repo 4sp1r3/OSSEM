@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WinINet
+event_id: '806'
+version: '0'
+event(fields): WININET_AUTOPROXY_DNSStop(UInt16 _ConfigurationURLLength, AnsiString
+  ConfigurationURL, UInt32 DetectFlags)
+opcode: Stop
+keywords: WININET_KEYWORD_AUTOPROXY
+task: WININET_AUTOPROXY_DNS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: _ConfigurationURLLength
+- field_type: AnsiString
+  field_name: ConfigurationURL
+- field_type: UInt32
+  field_name: DetectFlags

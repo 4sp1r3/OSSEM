@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-BTH-BTHPORT
+event_id: '310'
+version: '0'
+event(fields): task_0310(UInt32 RadioState)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RadioState

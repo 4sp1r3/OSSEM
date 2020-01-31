@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '200'
+version: '0'
+event(fields): METADATALIFECYCLE(UnicodeString Name, UnicodeString Value)
+opcode: ''
+keywords: metadatalifecycle
+task: METADATALIFECYCLE
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Value

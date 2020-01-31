@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WMVENCOD
+event_id: '3'
+version: '0'
+event(fields): VC1ENC_PRODUCEOUTPUTStop(Int64 SampleTime, Pointer SamplePointer, Pointer
+  EncoderInstance)
+opcode: Stop
+keywords: ''
+task: VC1ENC_PRODUCEOUTPUT
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: SampleTime
+- field_type: Pointer
+  field_name: SamplePointer
+- field_type: Pointer
+  field_name: EncoderInstance

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1714'
+version: '0'
+event(fields): IDXGIDevice2_OfferResourcesStart(Pointer pThis, UInt32 NumResources,
+  Pointer ppResources, UInt32 Priority)
+opcode: Start
+keywords: ''
+task: IDXGIDevice2_OfferResources
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: UInt32
+  field_name: NumResources
+- field_type: Pointer
+  field_name: ppResources
+- field_type: UInt32
+  field_name: Priority

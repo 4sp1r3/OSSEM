@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-EapHost
+event_id: '2005'
+version: '0'
+event(fields): Peer2005(UnicodeString Connection, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: Peer
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Connection
+- field_type: UInt32
+  field_name: ErrorCode

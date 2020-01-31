@@ -1,0 +1,11 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '15002'
+version: '0'
+event(fields): TemplateConsole_1016TemplateConsole15002()
+opcode: TemplateConsole
+keywords: ''
+task: TemplateConsole_1016
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

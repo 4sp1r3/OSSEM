@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1448'
+version: '0'
+event(fields): FeatureFallback(Pointer Fallback, UInt32 Feature, UInt32 Reason, Int32
+  Confidence, UInt32 Successes, UInt32 Failures)
+opcode: ''
+keywords: ut:Configuration
+task: FeatureFallback
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Fallback
+- field_type: UInt32
+  field_name: Feature
+- field_type: UInt32
+  field_name: Reason
+- field_type: Int32
+  field_name: Confidence
+- field_type: UInt32
+  field_name: Successes
+- field_type: UInt32
+  field_name: Failures

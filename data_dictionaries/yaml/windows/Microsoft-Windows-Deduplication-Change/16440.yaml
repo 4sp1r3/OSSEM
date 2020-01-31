@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Deduplication-Change
+event_id: '16440'
+version: '0'
+event(fields): task_016440(UInt64 FileId, UnicodeString FilePath)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: FileId
+- field_type: UnicodeString
+  field_name: FilePath

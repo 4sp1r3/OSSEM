@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '632'
+version: '0'
+event(fields): AppXDeployment.Task.Server.Deployment632(UInt32 DeploymentOperation,
+  UnicodeString MainPackageMoniker, UInt32 ResiliencyCurrentState, UnicodeString ResiliencyFilePath)
+opcode: ''
+keywords: APPXDEPLOYMENTSERVER_KEYWORD
+task: AppXDeployment.Task.Server.Deployment
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeploymentOperation
+- field_type: UnicodeString
+  field_name: MainPackageMoniker
+- field_type: UInt32
+  field_name: ResiliencyCurrentState
+- field_type: UnicodeString
+  field_name: ResiliencyFilePath

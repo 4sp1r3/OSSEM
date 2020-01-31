@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '26050'
+version: '2'
+event(fields): loadfiletask.Start_V2()
+opcode: Start
+keywords: ''
+task: loadfiletask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

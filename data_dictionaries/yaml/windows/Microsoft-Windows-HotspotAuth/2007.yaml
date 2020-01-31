@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HotspotAuth
+event_id: '2007'
+version: '0'
+event(fields): WISPrDetectionStop2007(GUID InterfaceGuid)
+opcode: Stop
+keywords: ut:WISPrDetection
+task: WISPrDetection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid

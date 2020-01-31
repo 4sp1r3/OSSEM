@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PDC
+event_id: '43'
+version: '0'
+event(fields): SuspendResumeRegistration(Pointer Process, UInt32 Session, Pointer
+  Client, UInt32 PdcId, UInt32 Status)
+opcode: ''
+keywords: suspendresume
+task: SuspendResumeRegistration
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Process
+- field_type: UInt32
+  field_name: Session
+- field_type: Pointer
+  field_name: Client
+- field_type: UInt32
+  field_name: PdcId
+- field_type: UInt32
+  field_name: Status

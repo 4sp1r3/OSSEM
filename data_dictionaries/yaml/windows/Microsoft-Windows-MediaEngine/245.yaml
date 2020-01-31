@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '245'
+version: '0'
+event(fields): EMEMediaKeys245(UnicodeString keysystem, Pointer CDMAccess, Pointer
+  CDMCustomConfig, Pointer MediaKeysObject, UInt32 SoftwareOverride)
+opcode: ''
+keywords: ''
+task: EMEMediaKeys
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: keysystem
+- field_type: Pointer
+  field_name: CDMAccess
+- field_type: Pointer
+  field_name: CDMCustomConfig
+- field_type: Pointer
+  field_name: MediaKeysObject
+- field_type: UInt32
+  field_name: SoftwareOverride

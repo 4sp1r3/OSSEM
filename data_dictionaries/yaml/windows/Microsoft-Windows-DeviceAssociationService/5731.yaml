@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DeviceAssociationService
+event_id: '5731'
+version: '0'
+event(fields): das_AssociationStop5731(Pointer DasContext)
+opcode: Stop
+keywords: DeviceAssociationService association
+task: das_Association
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DasContext

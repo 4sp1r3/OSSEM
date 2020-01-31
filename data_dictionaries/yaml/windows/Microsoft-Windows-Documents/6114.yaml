@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Documents
+event_id: '6114'
+version: '0'
+event(fields): DocPerf_Task_Setup_DetectRemotePrinterHardwareIDStop(UnicodeString
+  PrinterName, UnicodeString HardwareID)
+opcode: Stop
+keywords: DocPerf
+task: DocPerf_Task_Setup_DetectRemotePrinterHardwareID
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PrinterName
+- field_type: UnicodeString
+  field_name: HardwareID

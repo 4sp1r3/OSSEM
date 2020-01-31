@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1487'
+version: '0'
+event(fields): IpSessionFailure(UInt32 SocketOptionLevel, UInt32 SocketOptionValue,
+  UInt32 Status)
+opcode: ''
+keywords: ut:TcpipInterface ut:TcpipDiagnosis
+task: IpSessionFailure
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SocketOptionLevel
+- field_type: UInt32
+  field_name: SocketOptionValue
+- field_type: UInt32
+  field_name: Status

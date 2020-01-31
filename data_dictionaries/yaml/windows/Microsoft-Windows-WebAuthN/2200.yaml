@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2200'
+version: '0'
+event(fields): CtapUsbProviderThreadStart(GUID TransactionId)
+opcode: Start
+keywords: Ctap Usb
+task: CtapUsbProviderThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId

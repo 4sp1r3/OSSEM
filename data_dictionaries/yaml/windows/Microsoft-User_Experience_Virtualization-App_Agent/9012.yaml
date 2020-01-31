@@ -1,0 +1,13 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '9012'
+version: '0'
+event(fields): LocalStore_140AppAgent9012(UnicodeString stringValue1)
+opcode: AppAgent
+keywords: ''
+task: LocalStore_140
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1

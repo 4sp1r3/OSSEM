@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1355'
+version: '0'
+event(fields): TcpIsPatternCoalescingRequired(Pointer Tcb, UInt32 RequireAddressCoalescing,
+  UInt16 LocalPort, UInt16 RtcStartPort, UInt16 RtcEndPort, UInt32 Status)
+opcode: ''
+keywords: ut:Global
+task: TcpIsPatternCoalescingRequired
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: RequireAddressCoalescing
+- field_type: UInt16
+  field_name: LocalPort
+- field_type: UInt16
+  field_name: RtcStartPort
+- field_type: UInt16
+  field_name: RtcEndPort
+- field_type: UInt32
+  field_name: Status

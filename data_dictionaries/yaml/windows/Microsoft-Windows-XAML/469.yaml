@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '469'
+version: '0'
+event(fields): ReferenceTrackerCollected(Int32 ID)
+opcode: ''
+keywords: Core
+task: ReferenceTrackerCollected
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ID

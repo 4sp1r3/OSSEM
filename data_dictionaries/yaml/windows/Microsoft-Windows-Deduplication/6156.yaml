@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '6156'
+version: '0'
+event(fields): task_06156(UInt32 JobType, Boolean Full, Boolean ReadOnly, GUID JobInstanceId,
+  UnicodeString VolumeGuidPath, UnicodeString VolumeDisplayName, UInt32 ErrorCode,
+  UnicodeString ErrorMessage, UInt64 TotalCorruptionCount, UInt64 FixableCorruptionCount,
+  UnicodeString FileSystem)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobType
+- field_type: Boolean
+  field_name: Full
+- field_type: Boolean
+  field_name: ReadOnly
+- field_type: GUID
+  field_name: JobInstanceId
+- field_type: UnicodeString
+  field_name: VolumeGuidPath
+- field_type: UnicodeString
+  field_name: VolumeDisplayName
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorMessage
+- field_type: UInt64
+  field_name: TotalCorruptionCount
+- field_type: UInt64
+  field_name: FixableCorruptionCount
+- field_type: UnicodeString
+  field_name: FileSystem

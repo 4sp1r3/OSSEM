@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '339'
+version: '0'
+event(fields): BlockOnGPUStop(UInt64 Device)
+opcode: Stop
+keywords: Rendering
+task: BlockOnGPU
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Device

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61369'
+version: '0'
+event(fields): FileAccessAPI_Enumeration_GetCountStop(UInt32 Count, UInt32 HRESULT)
+opcode: Stop
+keywords: Shell
+task: FileAccessAPI_Enumeration_GetCount
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt32
+  field_name: HRESULT

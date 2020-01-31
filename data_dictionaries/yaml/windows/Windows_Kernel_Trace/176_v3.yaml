@@ -1,0 +1,17 @@
+provider: Windows Kernel Trace
+category: '{2cb15d1d-5fc1-11d2-abe1-00a0c911f518}'
+event_id: '176'
+version: '3'
+event(fields): LoaderNewDllEvent(UInt32 NewDllBaseAddress, UInt32 ParentDllBaseAddress,
+  UInt32 LoadReason, String FilePath)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: NewDllBaseAddress
+- field_type: UInt32
+  field_name: ParentDllBaseAddress
+- field_type: UInt32
+  field_name: LoadReason
+- field_type: String
+  field_name: FilePath

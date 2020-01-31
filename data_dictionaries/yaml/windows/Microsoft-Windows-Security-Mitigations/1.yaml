@@ -1,0 +1,39 @@
+provider: Microsoft-Windows-Security-Mitigations
+event_id: '1'
+version: '0'
+event(fields): KERNEL_MITIGATION_TASK_PROHIBIT_DYNAMIC_CODE(UInt16 ProcessPathLength,
+  UnicodeString ProcessPath, UInt16 ProcessCommandLineLength, UnicodeString ProcessCommandLine,
+  UInt32 CallingProcessId, FILETIME CallingProcessCreateTime, UInt64 CallingProcessStartKey,
+  UInt8 CallingProcessSignatureLevel, UInt8 CallingProcessSectionSignatureLevel, UInt8
+  CallingProcessProtection, UInt32 CallingThreadId, FILETIME CallingThreadCreateTime)
+opcode: ''
+keywords: ''
+task: KERNEL_MITIGATION_TASK_PROHIBIT_DYNAMIC_CODE
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: ProcessPathLength
+- field_type: UnicodeString
+  field_name: ProcessPath
+- field_type: UInt16
+  field_name: ProcessCommandLineLength
+- field_type: UnicodeString
+  field_name: ProcessCommandLine
+- field_type: UInt32
+  field_name: CallingProcessId
+- field_type: FILETIME
+  field_name: CallingProcessCreateTime
+- field_type: UInt64
+  field_name: CallingProcessStartKey
+- field_type: UInt8
+  field_name: CallingProcessSignatureLevel
+- field_type: UInt8
+  field_name: CallingProcessSectionSignatureLevel
+- field_type: UInt8
+  field_name: CallingProcessProtection
+- field_type: UInt32
+  field_name: CallingThreadId
+- field_type: FILETIME
+  field_name: CallingThreadCreateTime

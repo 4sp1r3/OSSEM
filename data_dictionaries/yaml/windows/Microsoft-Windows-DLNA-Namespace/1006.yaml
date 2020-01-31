@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DLNA-Namespace
+event_id: '1006'
+version: '0'
+event(fields): SearchStop(UnicodeString ObjectID, UnicodeString SearchCriteria, UnicodeString
+  Filter, UnicodeString SortCriteria, UInt32 StartingOffset, UInt32 NumItemsToRetrieve,
+  UInt32 NumItemsReturned, UInt32 NumItemsMatched, UInt32 HResultParam)
+opcode: Stop
+keywords: ''
+task: Search
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ObjectID
+- field_type: UnicodeString
+  field_name: SearchCriteria
+- field_type: UnicodeString
+  field_name: Filter
+- field_type: UnicodeString
+  field_name: SortCriteria
+- field_type: UInt32
+  field_name: StartingOffset
+- field_type: UInt32
+  field_name: NumItemsToRetrieve
+- field_type: UInt32
+  field_name: NumItemsReturned
+- field_type: UInt32
+  field_name: NumItemsMatched
+- field_type: UInt32
+  field_name: HResultParam

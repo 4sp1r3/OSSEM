@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DeviceSetupManager
+event_id: '403'
+version: '0'
+event(fields): DownloadDriverTaskStop(UnicodeString Prop_DevnodeId, UInt32 HRESULT)
+opcode: Stop
+keywords: ''
+task: DownloadDriverTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Prop_DevnodeId
+- field_type: UInt32
+  field_name: HRESULT

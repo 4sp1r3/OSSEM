@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2222'
+version: '0'
+event(fields): CtapUsbChangesInformational(GUID TransactionId)
+opcode: Informational
+keywords: Ctap Usb
+task: CtapUsbChanges
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-USB-USBPORT
+event_id: '62'
+version: '0'
+event(fields): URB_FUNCTION_RELEASE_FRAME_LENGTH_CONTROLDispatch()
+opcode: Dispatch
+keywords: Diagnostic
+task: URB_FUNCTION_RELEASE_FRAME_LENGTH_CONTROL
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '17003'
+version: '0'
+event(fields): ScopePicker_OpenStart()
+opcode: Start
+keywords: Shell
+task: ScopePicker_Open
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

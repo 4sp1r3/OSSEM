@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '16700'
+version: '0'
+event(fields): ShellItem_GetPropertyStoreStart()
+opcode: Start
+keywords: Properties
+task: ShellItem_GetPropertyStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

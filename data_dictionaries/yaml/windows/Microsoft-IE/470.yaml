@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '470'
+version: '0'
+event(fields): Mshtml_CJScript9Holder_TypeSystem_InitStart(Pointer CActiveScriptHolder,
+  Pointer CMarkup)
+opcode: Start
+keywords: mshtml
+task: Mshtml_CJScript9Holder_TypeSystem_Init
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CActiveScriptHolder
+- field_type: Pointer
+  field_name: CMarkup

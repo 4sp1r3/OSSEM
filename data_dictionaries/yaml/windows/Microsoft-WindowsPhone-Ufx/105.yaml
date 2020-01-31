@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-Ufx
+event_id: '105'
+version: '0'
+event(fields): IoctlRequest(UInt32 Index, UInt32 IOCTL)
+opcode: ''
+keywords: UfxBus
+task: IoctlRequest
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: IOCTL

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '19804'
+version: '0'
+event(fields): ShowDesktop_RaiseDesktopStop()
+opcode: Stop
+keywords: Shell
+task: ShowDesktop_RaiseDesktop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '1001'
+version: '0'
+event(fields): LogonHours(UInt32 ActionId, UInt32 TimeLeft)
+opcode: ''
+keywords: NotificationEvents
+task: LogonHours
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ActionId
+- field_type: UInt32
+  field_name: TimeLeft

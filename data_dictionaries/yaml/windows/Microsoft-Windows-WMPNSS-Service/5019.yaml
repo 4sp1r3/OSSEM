@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '5019'
+version: '0'
+event(fields): Handle_Network_ChangeStop()
+opcode: Stop
+keywords: ''
+task: Handle_Network_Change
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

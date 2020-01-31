@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-StorageManagement
+event_id: '5'
+version: '0'
+event(fields): task_05(UnicodeString ClassName, UnicodeString MethodName, UInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ClassName
+- field_type: UnicodeString
+  field_name: MethodName
+- field_type: UInt32
+  field_name: ErrorCode

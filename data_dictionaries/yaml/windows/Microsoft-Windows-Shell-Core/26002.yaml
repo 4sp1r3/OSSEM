@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '26002'
+version: '0'
+event(fields): CTrackEvents_OperationQueueInfo(UnicodeString Operation, UInt32 PendingCount,
+  UInt32 EventReadyState)
+opcode: ''
+keywords: Shell
+task: CTrackEvents_OperationQueueInfo
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Operation
+- field_type: UInt32
+  field_name: PendingCount
+- field_type: UInt32
+  field_name: EventReadyState

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WUSA
+event_id: '9'
+version: '0'
+event(fields): task_09(UnicodeString UpdateTitle, UnicodeString CommandLine)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UpdateTitle
+- field_type: UnicodeString
+  field_name: CommandLine

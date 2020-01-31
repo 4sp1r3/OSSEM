@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1464'
+version: '0'
+event(fields): TcpFastopenIncompatCallout(Pointer BaseEndpoint)
+opcode: ''
+keywords: ut:Configuration
+task: TcpFastopenIncompatCallout
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: BaseEndpoint

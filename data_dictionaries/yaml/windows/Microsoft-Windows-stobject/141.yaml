@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '141'
+version: '0'
+event(fields): BatteryCriticalSystemNotification_DismissNotificationByACPowerStop()
+opcode: Stop
+keywords: BatteryCriticalSystemNotification
+task: BatteryCriticalSystemNotification_DismissNotificationByACPower
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

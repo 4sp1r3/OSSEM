@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-NetworkProvisioning
+event_id: '5005'
+version: '0'
+event(fields): ActivationTask5005(GUID InterfaceGuid, UInt32 ProfileType, Int32 ErrorCode)
+opcode: ''
+keywords: ActivationTask ut:Configuration
+task: ActivationTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: ProfileType
+- field_type: Int32
+  field_name: ErrorCode

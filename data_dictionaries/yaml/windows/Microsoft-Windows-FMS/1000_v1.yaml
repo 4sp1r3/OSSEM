@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-FMS
+event_id: '1000'
+version: '1'
+event(fields): FMSDLLinitializationStart_V1()
+opcode: Start
+keywords: ''
+task: FMSDLLinitialization
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

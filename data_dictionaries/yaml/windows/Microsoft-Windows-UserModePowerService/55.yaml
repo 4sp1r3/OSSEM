@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '55'
+version: '0'
+event(fields): OverrideDllSettingsUpdate()
+opcode: ''
+keywords: ''
+task: OverrideDllSettingsUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

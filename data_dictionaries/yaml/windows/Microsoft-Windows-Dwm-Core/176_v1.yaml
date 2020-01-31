@@ -1,0 +1,69 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '176'
+version: '1'
+event(fields): TOUCH_INTERACTION_DEBUG_EVENTS176_V1(UInt64 UniqueKey, UInt64 QpcKernelInputStartTimestamp,
+  UInt64 QpcInteractionLibraryStartTimestamp, UInt64 QpcInteractionLibraryStopTimestamp,
+  UInt64 QpcDwmRenderStartTimestamp, UInt64 QpcDwmPresentStartTimestamp, UInt64 QpcDwmFrameConfirmedTimestamp,
+  UInt64 QpcHostInputSendTimestamp, UInt64 QpcContainerInputReceiveTimestamp, UInt32
+  InputLatencyUs, UInt32 DwmLatencyMs, UInt32 KernelInputLatencyUs, UInt32 InteractionLibraryLatencyUs,
+  UInt32 CommitLatencyMs, UInt32 RenderLatencyMs, UInt32 PresentLatencyMs, UInt32
+  HostInputLatencyUs, UInt32 ContainerBoundaryInputLatencyUs, UInt32 ContainerKernelInputLatencyUs,
+  UInt32 ManipulationFrame, UInt32 PointerFrame, UInt64 DwmFrame, UInt32 MonitorCount,
+  25 PrimaryAdapterLuid, Boolean PrimaryAdapterIsWarp)
+opcode: ''
+keywords: DwmCore DwmInput
+task: TOUCH_INTERACTION_DEBUG_EVENTS
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: UniqueKey
+- field_type: UInt64
+  field_name: QpcKernelInputStartTimestamp
+- field_type: UInt64
+  field_name: QpcInteractionLibraryStartTimestamp
+- field_type: UInt64
+  field_name: QpcInteractionLibraryStopTimestamp
+- field_type: UInt64
+  field_name: QpcDwmRenderStartTimestamp
+- field_type: UInt64
+  field_name: QpcDwmPresentStartTimestamp
+- field_type: UInt64
+  field_name: QpcDwmFrameConfirmedTimestamp
+- field_type: UInt64
+  field_name: QpcHostInputSendTimestamp
+- field_type: UInt64
+  field_name: QpcContainerInputReceiveTimestamp
+- field_type: UInt32
+  field_name: InputLatencyUs
+- field_type: UInt32
+  field_name: DwmLatencyMs
+- field_type: UInt32
+  field_name: KernelInputLatencyUs
+- field_type: UInt32
+  field_name: InteractionLibraryLatencyUs
+- field_type: UInt32
+  field_name: CommitLatencyMs
+- field_type: UInt32
+  field_name: RenderLatencyMs
+- field_type: UInt32
+  field_name: PresentLatencyMs
+- field_type: UInt32
+  field_name: HostInputLatencyUs
+- field_type: UInt32
+  field_name: ContainerBoundaryInputLatencyUs
+- field_type: UInt32
+  field_name: ContainerKernelInputLatencyUs
+- field_type: UInt32
+  field_name: ManipulationFrame
+- field_type: UInt32
+  field_name: PointerFrame
+- field_type: UInt64
+  field_name: DwmFrame
+- field_type: UInt32
+  field_name: MonitorCount
+- field_type: '25'
+  field_name: PrimaryAdapterLuid
+- field_type: Boolean
+  field_name: PrimaryAdapterIsWarp

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '217'
+version: '0'
+event(fields): ApplicationResumeStop()
+opcode: Stop
+keywords: Appmodel
+task: ApplicationResume
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

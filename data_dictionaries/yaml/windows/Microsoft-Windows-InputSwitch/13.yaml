@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-InputSwitch
+event_id: '13'
+version: '0'
+event(fields): SelectInputModality(UInt32 param)
+opcode: ''
+keywords: Perf InputSwitch_Keyword
+task: SelectInputModality
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: param

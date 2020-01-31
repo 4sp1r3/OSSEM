@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '135'
+version: '0'
+event(fields): Tab_ShellBrowserOnCreateStart()
+opcode: Start
+keywords: primarynav
+task: Tab_ShellBrowserOnCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-BrokerInfrastructure
+event_id: '101'
+version: '0'
+event(fields): WatchdogIterationPerfTrackWatchdogIteration(UInt32 Duration, UInt32
+  ActivitySummary, UInt32 EventTypeAndBitfield, UnicodeString PackageFullName, UnicodeString
+  EntryPoint)
+opcode: WatchdogIteration
+keywords: ''
+task: WatchdogIterationPerfTrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Duration
+- field_type: UInt32
+  field_name: ActivitySummary
+- field_type: UInt32
+  field_name: EventTypeAndBitfield
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: EntryPoint

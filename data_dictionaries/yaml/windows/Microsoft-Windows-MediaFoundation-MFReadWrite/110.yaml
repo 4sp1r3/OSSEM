@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-MediaFoundation-MFReadWrite
+event_id: '110'
+version: '0'
+event(fields): SinkWriter_MediaSinkEvent(Pointer Object, UInt32 EventType, UInt32
+  ErrorCode)
+opcode: ''
+keywords: ''
+task: SinkWriter_MediaSinkEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: EventType
+- field_type: UInt32
+  field_name: ErrorCode

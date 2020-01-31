@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1326'
+version: '0'
+event(fields): IpSourceAddressSelection(UInt32 IpAddrLength, Binary PreferredSourceIPAddress,
+  Binary NonPreferredSourceIPAddress, Binary DestinationIPAddress, UInt32 CompartmentId,
+  UInt32 Rule, UInt32 RuleExtension, UInt32 RuleName)
+opcode: ''
+keywords: ut:TcpipRoute
+task: IpSourceAddressSelection
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IpAddrLength
+- field_type: Binary
+  field_name: PreferredSourceIPAddress
+- field_type: Binary
+  field_name: NonPreferredSourceIPAddress
+- field_type: Binary
+  field_name: DestinationIPAddress
+- field_type: UInt32
+  field_name: CompartmentId
+- field_type: UInt32
+  field_name: Rule
+- field_type: UInt32
+  field_name: RuleExtension
+- field_type: UInt32
+  field_name: RuleName

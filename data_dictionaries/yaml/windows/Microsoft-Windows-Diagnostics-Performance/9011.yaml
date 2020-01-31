@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '9011'
+version: '0'
+event(fields): SecondaryLogon_TroubleshootingStart()
+opcode: Start
+keywords: SecondaryLogonStatus
+task: SecondaryLogon_Troubleshooting
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '51'
+version: '0'
+event(fields): StartTileCollection_TDLMigrationStop()
+opcode: Stop
+keywords: ''
+task: StartTileCollection_TDLMigration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

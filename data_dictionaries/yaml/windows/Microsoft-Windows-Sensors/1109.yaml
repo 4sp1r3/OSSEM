@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Sensors
+event_id: '1109'
+version: '0'
+event(fields): SensorServiceprocessingsensordatafororientation,screenorientationresult(Float
+  Theta, Float AngularCalibration)
+opcode: ''
+keywords: SensPerf
+task: SensorServiceprocessingsensordatafororientation,screenorientationresult
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: Theta
+- field_type: Float
+  field_name: AngularCalibration

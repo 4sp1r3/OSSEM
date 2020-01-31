@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaFoundation-PlayAPI
+event_id: '5'
+version: '0'
+event(fields): MFPlayObjectdestroyed5(Pointer Object, UInt32 ErrorCode)
+opcode: Objectdestroyed
+keywords: ''
+task: MFPlay
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: UInt32
+  field_name: ErrorCode

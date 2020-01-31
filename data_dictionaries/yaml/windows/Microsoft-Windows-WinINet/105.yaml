@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinINet
+event_id: '105'
+version: '0'
+event(fields): WININET_HANDLE_CLOSED(Pointer HINTERNET)
+opcode: ''
+keywords: WININET_KEYWORD_HANDLES WININET_KEYWORD_HTTPDIAG
+task: WININET_HANDLE_CLOSED
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: HINTERNET

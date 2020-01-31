@@ -1,0 +1,81 @@
+provider: Microsoft-Windows-Backup
+event_id: '14'
+version: '1'
+event(fields): task_0Stop_V1(GUID BackupTemplateID, UInt32 HRESULT, Int32 BackupState,
+  UnicodeString BackupTarget, UInt32 NumOfVolumes, FILETIME BackupTime, UInt32 HRESULT2,
+  UnicodeString VolumesInfo, UInt32 DetailedHRESULT, FILETIME SourceSnapStartTime,
+  FILETIME SourceSnapEndTime, UnicodeString PrepareBackupStartTime, UnicodeString
+  PrepareBackupEndTime, UnicodeString BackupWriteStartTime, UnicodeString BackupWriteEndTime,
+  FILETIME TargetSnapStartTime, FILETIME TargetSnapEndTime, UnicodeString DVDFormatStartTime,
+  UnicodeString DVDFormatEndTime, UnicodeString MediaVerifyStartTime, UnicodeString
+  MediaVerifyEndTime, Int32 BackupPreviousState, UnicodeString ComponentStatus, FILETIME
+  SSBEnumerateStartTime, FILETIME SSBEnumerateEndTime, FILETIME SSBVhdCreationStartTime,
+  FILETIME SSBVhdCreationEndTime, FILETIME SSBBackupStartTime, FILETIME SSBBackupEndTime,
+  Boolean SystemStateBackup)
+opcode: Stop
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: BackupTemplateID
+- field_type: UInt32
+  field_name: HRESULT
+- field_type: Int32
+  field_name: BackupState
+- field_type: UnicodeString
+  field_name: BackupTarget
+- field_type: UInt32
+  field_name: NumOfVolumes
+- field_type: FILETIME
+  field_name: BackupTime
+- field_type: UInt32
+  field_name: HRESULT2
+- field_type: UnicodeString
+  field_name: VolumesInfo
+- field_type: UInt32
+  field_name: DetailedHRESULT
+- field_type: FILETIME
+  field_name: SourceSnapStartTime
+- field_type: FILETIME
+  field_name: SourceSnapEndTime
+- field_type: UnicodeString
+  field_name: PrepareBackupStartTime
+- field_type: UnicodeString
+  field_name: PrepareBackupEndTime
+- field_type: UnicodeString
+  field_name: BackupWriteStartTime
+- field_type: UnicodeString
+  field_name: BackupWriteEndTime
+- field_type: FILETIME
+  field_name: TargetSnapStartTime
+- field_type: FILETIME
+  field_name: TargetSnapEndTime
+- field_type: UnicodeString
+  field_name: DVDFormatStartTime
+- field_type: UnicodeString
+  field_name: DVDFormatEndTime
+- field_type: UnicodeString
+  field_name: MediaVerifyStartTime
+- field_type: UnicodeString
+  field_name: MediaVerifyEndTime
+- field_type: Int32
+  field_name: BackupPreviousState
+- field_type: UnicodeString
+  field_name: ComponentStatus
+- field_type: FILETIME
+  field_name: SSBEnumerateStartTime
+- field_type: FILETIME
+  field_name: SSBEnumerateEndTime
+- field_type: FILETIME
+  field_name: SSBVhdCreationStartTime
+- field_type: FILETIME
+  field_name: SSBVhdCreationEndTime
+- field_type: FILETIME
+  field_name: SSBBackupStartTime
+- field_type: FILETIME
+  field_name: SSBBackupEndTime
+- field_type: Boolean
+  field_name: SystemStateBackup

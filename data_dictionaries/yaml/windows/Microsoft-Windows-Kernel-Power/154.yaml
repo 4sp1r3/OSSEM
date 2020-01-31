@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '154'
+version: '0'
+event(fields): CoolingExtensionPassiveUpdate(UInt8 Throttle, Pointer Token)
+opcode: ''
+keywords: po:Thermal
+task: CoolingExtensionPassiveUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: Throttle
+- field_type: Pointer
+  field_name: Token

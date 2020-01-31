@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NlaSvc
+event_id: '6104'
+version: '0'
+event(fields): PerftrackCancel6104(GUID InterfaceGuid, UnicodeString AdapterName)
+opcode: ''
+keywords: Identification
+task: PerftrackCancel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: AdapterName

@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-International-RegionalOptionsControlPanel
+event_id: '15006'
+version: '0'
+event(fields): RegionandLanguagecontrolpanelRLOUIoperations15006(UInt32 Value)
+opcode: RLOUIoperations
+keywords: ''
+task: RegionandLanguagecontrolpanel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Value

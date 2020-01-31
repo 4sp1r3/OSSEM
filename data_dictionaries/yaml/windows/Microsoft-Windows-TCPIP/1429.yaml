@@ -1,0 +1,39 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1429'
+version: '0'
+event(fields): TcpCubicDataTransferCumAck(Pointer Tcb, UInt32 Cwnd, UInt32 SndWnd,
+  UInt32 BytesAcked, UInt32 SeqNo, UInt8 InRecovery, UInt64 TimeSinceLastLossMS, UInt64
+  CubicCwnd, UInt32 AimdCwnd, UInt64 K, UInt32 Wmax, UInt32 LastWmax, UInt32 MaxSndWnd)
+opcode: ''
+keywords: ut:SendPath
+task: TcpCubicDataTransferCumAck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Tcb
+- field_type: UInt32
+  field_name: Cwnd
+- field_type: UInt32
+  field_name: SndWnd
+- field_type: UInt32
+  field_name: BytesAcked
+- field_type: UInt32
+  field_name: SeqNo
+- field_type: UInt8
+  field_name: InRecovery
+- field_type: UInt64
+  field_name: TimeSinceLastLossMS
+- field_type: UInt64
+  field_name: CubicCwnd
+- field_type: UInt32
+  field_name: AimdCwnd
+- field_type: UInt64
+  field_name: K
+- field_type: UInt32
+  field_name: Wmax
+- field_type: UInt32
+  field_name: LastWmax
+- field_type: UInt32
+  field_name: MaxSndWnd

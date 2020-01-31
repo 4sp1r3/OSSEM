@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIAutomationCore
+event_id: '530'
+version: '0'
+event(fields): ReleaseCollection_IncompatibleContext()
+opcode: ''
+keywords: PerfInstrumentation
+task: ReleaseCollection_IncompatibleContext
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

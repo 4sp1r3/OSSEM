@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '24009'
+version: '1'
+event(fields): UnpublishingStop_V1()
+opcode: Stop
+keywords: ''
+task: Unpublishing
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

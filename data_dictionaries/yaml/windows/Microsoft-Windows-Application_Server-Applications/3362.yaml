@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3362'
+version: '0'
+event(fields): TransportSend(UnicodeString AppDomain)
+opcode: ''
+keywords: HTTP
+task: TransportSend
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppDomain

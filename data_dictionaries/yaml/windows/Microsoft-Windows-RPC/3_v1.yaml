@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-RPC
+event_id: '3'
+version: '1'
+event(fields): task_0_V1(UnicodeString ImageName, UInt16 DetectionLocation, UInt32
+  Status, HexInt32 AdditionalData1, HexInt32 AdditionalData2)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ImageName
+- field_type: UInt16
+  field_name: DetectionLocation
+- field_type: UInt32
+  field_name: Status
+- field_type: HexInt32
+  field_name: AdditionalData1
+- field_type: HexInt32
+  field_name: AdditionalData2

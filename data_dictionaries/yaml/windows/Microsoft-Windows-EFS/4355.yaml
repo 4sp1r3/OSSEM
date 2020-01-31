@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-EFS
+event_id: '4355'
+version: '0'
+event(fields): task_04355(UInt32 FileNumber, UInt32 LineNumber)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FileNumber
+- field_type: UInt32
+  field_name: LineNumber

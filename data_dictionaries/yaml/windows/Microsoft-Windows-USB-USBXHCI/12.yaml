@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-USB-USBXHCI
+event_id: '12'
+version: '0'
+event(fields): USBXHCIEndpointUpdateInformation(Pointer fid_UcxController, Pointer
+  fid_UsbDevice, Pointer fid_Endpoint, UInt16 fid_USB_Endpoint_Descriptor, Double
+  fid_USB_SuperSpeed_Endpoint_Companion_Descriptor, FILETIME fid_USB_SuperSpeedPlus_Isoch_Endpoint_Companion_Descriptor)
+opcode: Information
+keywords: Default
+task: USBXHCIEndpointUpdate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Pointer
+  field_name: fid_Endpoint
+- field_type: UInt16
+  field_name: fid_USB_Endpoint_Descriptor
+- field_type: Double
+  field_name: fid_USB_SuperSpeed_Endpoint_Companion_Descriptor
+- field_type: FILETIME
+  field_name: fid_USB_SuperSpeedPlus_Isoch_Endpoint_Companion_Descriptor

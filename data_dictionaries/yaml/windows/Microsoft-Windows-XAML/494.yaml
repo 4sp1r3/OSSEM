@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '494'
+version: '0'
+event(fields): RaiseLoadedEventStop()
+opcode: Stop
+keywords: Core
+task: RaiseLoadedEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

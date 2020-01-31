@@ -1,0 +1,33 @@
+provider: Microsoft-Windows-Kernel-Memory
+event_id: '11'
+version: '0'
+event(fields): ContAllocation(UInt64 DurationInMicroseconds, UInt64 TotalBytes, UInt64
+  LowAddress, UInt64 HighAddress, UInt64 Boundary, UInt64 PhysicalAddress, Pointer
+  MappedAddress, Boolean AllocatedFromPool, UInt32 ProtectionMask, UInt32 PreferredNode)
+opcode: ''
+keywords: KERNEL_MEM_KEYWORD_PHYSICAL_ALLOC
+task: ContAllocation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: DurationInMicroseconds
+- field_type: UInt64
+  field_name: TotalBytes
+- field_type: UInt64
+  field_name: LowAddress
+- field_type: UInt64
+  field_name: HighAddress
+- field_type: UInt64
+  field_name: Boundary
+- field_type: UInt64
+  field_name: PhysicalAddress
+- field_type: Pointer
+  field_name: MappedAddress
+- field_type: Boolean
+  field_name: AllocatedFromPool
+- field_type: UInt32
+  field_name: ProtectionMask
+- field_type: UInt32
+  field_name: PreferredNode

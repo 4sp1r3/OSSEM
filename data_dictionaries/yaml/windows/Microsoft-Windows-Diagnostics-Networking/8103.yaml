@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Diagnostics-Networking
+event_id: '8103'
+version: '0'
+event(fields): Start8103(UnicodeString HelperClassName)
+opcode: Start
+keywords: ndf:Performance
+task: Start
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: HelperClassName

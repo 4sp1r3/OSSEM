@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-LocationServiceProvider
+event_id: '233'
+version: '0'
+event(fields): SuplSession233(UInt32 Action, AnsiString Name, UInt32 Size)
+opcode: ''
+keywords: Selfhost Supl
+task: SuplSession
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Action
+- field_type: AnsiString
+  field_name: Name
+- field_type: UInt32
+  field_name: Size

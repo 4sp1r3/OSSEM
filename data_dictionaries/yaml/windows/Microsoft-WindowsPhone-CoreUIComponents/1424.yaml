@@ -1,0 +1,17 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1424'
+version: '0'
+event(fields): SessionManager1424(UInt32 unParam, UInt32 dir, Boolean fBool)
+opcode: ''
+keywords: SessionManager
+task: SessionManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam
+- field_type: UInt32
+  field_name: dir
+- field_type: Boolean
+  field_name: fBool

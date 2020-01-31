@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '248'
+version: '0'
+event(fields): ETWGUID_PRIMITIVE_GROUP_SELF_OCCLUSION_INFO(Pointer PrimitiveGroup,
+  UInt32 OccluderCommandIndex)
+opcode: ''
+keywords: DwmCore
+task: ETWGUID_PRIMITIVE_GROUP_SELF_OCCLUSION_INFO
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: PrimitiveGroup
+- field_type: UInt32
+  field_name: OccluderCommandIndex

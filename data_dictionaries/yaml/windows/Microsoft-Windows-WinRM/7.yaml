@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WinRM
+event_id: '7'
+version: '0'
+event(fields): WSManSessioninitializeStop(UInt32 errorCode)
+opcode: Stop
+keywords: Keyword.Client
+task: WSManSessioninitialize
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: errorCode

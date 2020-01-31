@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '19'
+version: '0'
+event(fields): LostEvent(GUID ProviderId, UInt32 StatusCode, UInt16 EventId, UnicodeString
+  SessionName)
+opcode: ''
+keywords: ETW_KEYWORD_LOST_EVENT
+task: LostEvent
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderId
+- field_type: UInt32
+  field_name: StatusCode
+- field_type: UInt16
+  field_name: EventId
+- field_type: UnicodeString
+  field_name: SessionName

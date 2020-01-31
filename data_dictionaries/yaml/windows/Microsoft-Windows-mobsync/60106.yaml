@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-mobsync
+event_id: '60106'
+version: '0'
+event(fields): SyncMgrTraceId_SyncFolderSyncTimeStop()
+opcode: Stop
+keywords: ''
+task: SyncMgrTraceId_SyncFolderSyncTime
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

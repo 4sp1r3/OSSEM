@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-AssignedAccess
+event_id: '20000'
+version: '0'
+event(fields): ConfiguringAssignedAccess20000(UnicodeString SID, UnicodeString UserName,
+  UnicodeString AppID, UnicodeString AppName)
+opcode: ''
+keywords: ''
+task: ConfiguringAssignedAccess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SID
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UnicodeString
+  field_name: AppID
+- field_type: UnicodeString
+  field_name: AppName

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '7003'
+version: '0'
+event(fields): Perf_MouseSettingHandler_GetUnitStart()
+opcode: Start
+keywords: RoamingSettings
+task: Perf_MouseSettingHandler_GetUnit
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

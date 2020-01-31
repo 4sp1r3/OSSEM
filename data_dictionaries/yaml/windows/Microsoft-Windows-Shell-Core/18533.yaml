@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18533'
+version: '0'
+event(fields): Shell32_ControlPanel_CategoryView_InitStart()
+opcode: Start
+keywords: Shell WDI
+task: Shell32_ControlPanel_CategoryView_Init
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

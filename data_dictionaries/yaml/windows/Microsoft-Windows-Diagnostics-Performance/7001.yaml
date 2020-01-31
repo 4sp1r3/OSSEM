@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnostics-Performance
+event_id: '7001'
+version: '0'
+event(fields): Boot_Loopback_SnapshotKMScenario()
+opcode: ''
+keywords: BootLoopback
+task: Boot_Loopback_SnapshotKMScenario
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

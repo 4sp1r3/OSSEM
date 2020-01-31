@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WMPDMCUI
+event_id: '2023'
+version: '0'
+event(fields): PLAYTO_DEVICE_SETAVTRANSPORTURIStart(UnicodeString UDN, UnicodeString
+  URI)
+opcode: Start
+keywords: ''
+task: PLAYTO_DEVICE_SETAVTRANSPORTURI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UDN
+- field_type: UnicodeString
+  field_name: URI

@@ -1,0 +1,15 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '1428'
+version: '0'
+event(fields): SessionManagerNSSMSystemKeyPressed(UInt32 SystemKey, UInt32 ActivationLevel)
+opcode: NSSMSystemKeyPressed
+keywords: NavigationPerformance SessionManager
+task: SessionManager
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SystemKey
+- field_type: UInt32
+  field_name: ActivationLevel

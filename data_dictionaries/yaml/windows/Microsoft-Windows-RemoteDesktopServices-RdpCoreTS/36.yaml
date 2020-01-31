@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '36'
+version: '0'
+event(fields): RemoteFXmodule_4Initialize36(HexInt32 ErrorCode)
+opcode: Initialize
+keywords: ''
+task: RemoteFXmodule_4
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

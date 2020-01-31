@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintService
+event_id: '344'
+version: '0'
+event(fields): PruningaprinterSpoolerOperationSucceeded344(UnicodeString param1)
+opcode: SpoolerOperationSucceeded
+keywords: SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR
+task: Pruningaprinter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1

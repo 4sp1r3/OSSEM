@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MSFTEDIT
+event_id: '8'
+version: '0'
+event(fields): HideGripperStart(UInt32 param)
+opcode: Start
+keywords: ''
+task: HideGripper
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: param

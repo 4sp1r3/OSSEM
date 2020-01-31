@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Media-Protection-PlayReady-Performance
+event_id: '101'
+version: '0'
+event(fields): CreateSampleAndBufferUsingPool101(UInt32 Arg1, UInt32 Arg2, UInt32
+  Arg3, UInt32 Arg4)
+opcode: ''
+keywords: ''
+task: CreateSampleAndBufferUsingPool
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Arg1
+- field_type: UInt32
+  field_name: Arg2
+- field_type: UInt32
+  field_name: Arg3
+- field_type: UInt32
+  field_name: Arg4

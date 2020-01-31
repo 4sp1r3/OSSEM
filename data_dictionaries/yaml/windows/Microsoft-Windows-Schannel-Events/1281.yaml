@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Schannel-Events
+event_id: '1281'
+version: '0'
+event(fields): PKCryptoStart()
+opcode: Start
+keywords: ''
+task: PKCrypto
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

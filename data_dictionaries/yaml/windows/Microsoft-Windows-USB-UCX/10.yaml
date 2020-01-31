@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-USB-UCX
+event_id: '10'
+version: '0'
+event(fields): UCXRootHubCreateInformation(Pointer fid_UcxController, Pointer fid_UsbDevice,
+  UnicodeString fid_DeviceInterfacePath)
+opcode: Information
+keywords: Default
+task: UCXRootHubCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UcxController
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UnicodeString
+  field_name: fid_DeviceInterfacePath

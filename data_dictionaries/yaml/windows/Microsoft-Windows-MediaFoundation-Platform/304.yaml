@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-MediaFoundation-Platform
+event_id: '304'
+version: '0'
+event(fields): MediaFoundationMFTEnumStop(HexInt32 hr, UInt32 localMFTs, UInt32 hardwareMFTs,
+  UInt32 MFTs)
+opcode: Stop
+keywords: ''
+task: MediaFoundationMFTEnum
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: hr
+- field_type: UInt32
+  field_name: localMFTs
+- field_type: UInt32
+  field_name: hardwareMFTs
+- field_type: UInt32
+  field_name: MFTs

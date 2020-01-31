@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1012'
+version: '0'
+event(fields): ProcessinglpksetupunattendedexecutionfromthecommandlineValidateuser'spermission()
+opcode: Validateuser'spermission
+keywords: ''
+task: Processinglpksetupunattendedexecutionfromthecommandline
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

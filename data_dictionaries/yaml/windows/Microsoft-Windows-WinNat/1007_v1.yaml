@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WinNat
+event_id: '1007'
+version: '1'
+event(fields): WinNatBindingDelete_V1(UInt32 InternalAddrLen, Binary InternalAddr,
+  UInt32 ExternalAddrLen, Binary ExternalAddr, UInt32 TransportProtocol, UInt32 SessionCount,
+  Boolean Configured, UInt32 InternalCompartmentId)
+opcode: ''
+keywords: ut:Binding
+task: WinNatBindingDelete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: InternalAddrLen
+- field_type: Binary
+  field_name: InternalAddr
+- field_type: UInt32
+  field_name: ExternalAddrLen
+- field_type: Binary
+  field_name: ExternalAddr
+- field_type: UInt32
+  field_name: TransportProtocol
+- field_type: UInt32
+  field_name: SessionCount
+- field_type: Boolean
+  field_name: Configured
+- field_type: UInt32
+  field_name: InternalCompartmentId

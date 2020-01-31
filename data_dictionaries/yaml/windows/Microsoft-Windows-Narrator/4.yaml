@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Narrator
+event_id: '4'
+version: '0'
+event(fields): ScrapeWindowStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ScrapeWindow
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppXDeployment-Server
+event_id: '9510'
+version: '0'
+event(fields): task_09510(UnicodeString PackageFullname, UnicodeString Path)
+opcode: ''
+keywords: keyword_80000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullname
+- field_type: UnicodeString
+  field_name: Path

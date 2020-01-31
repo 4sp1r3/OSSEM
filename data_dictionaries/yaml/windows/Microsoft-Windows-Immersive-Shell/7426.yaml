@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '7426'
+version: '0'
+event(fields): ConnectedSearch_LogImagesCompleteStart()
+opcode: Start
+keywords: ''
+task: ConnectedSearch_LogImagesComplete
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

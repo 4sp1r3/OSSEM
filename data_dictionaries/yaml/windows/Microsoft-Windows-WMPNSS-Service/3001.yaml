@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '3001'
+version: '0'
+event(fields): Generate_Nontrans_Res_ElementStart(UInt32 ElementCount, UInt32 ErrorCode)
+opcode: Start
+keywords: ''
+task: Generate_Nontrans_Res_Element
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ElementCount
+- field_type: UInt32
+  field_name: ErrorCode

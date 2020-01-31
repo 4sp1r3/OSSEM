@@ -1,0 +1,32 @@
+provider: Microsoft-Windows-Security-Auditing
+event_id: '4695'
+version: '0'
+event(fields): task_04695(SID SubjectUserSid, UnicodeString SubjectUserName, UnicodeString
+  SubjectDomainName, HexInt64 SubjectLogonId, UnicodeString DataDescription, UnicodeString
+  MasterKeyId, HexInt32 ProtectedDataFlags, UnicodeString CryptoAlgorithms, HexInt32
+  FailureReason)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: SID
+  field_name: SubjectUserSid
+- field_type: UnicodeString
+  field_name: SubjectUserName
+- field_type: UnicodeString
+  field_name: SubjectDomainName
+- field_type: HexInt64
+  field_name: SubjectLogonId
+- field_type: UnicodeString
+  field_name: DataDescription
+- field_type: UnicodeString
+  field_name: MasterKeyId
+- field_type: HexInt32
+  field_name: ProtectedDataFlags
+- field_type: UnicodeString
+  field_name: CryptoAlgorithms
+- field_type: HexInt32
+  field_name: FailureReason

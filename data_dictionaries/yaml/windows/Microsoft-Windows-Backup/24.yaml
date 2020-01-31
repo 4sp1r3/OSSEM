@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Backup
+event_id: '24'
+version: '0'
+event(fields): task_024(GUID VolumeGUID, UnicodeString VolumeFriendlyName, UnicodeString
+  VhdDeleteReason)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: VolumeGUID
+- field_type: UnicodeString
+  field_name: VolumeFriendlyName
+- field_type: UnicodeString
+  field_name: VhdDeleteReason

@@ -1,0 +1,16 @@
+provider: Microsoft-IE
+event_id: '468'
+version: '0'
+event(fields): Mshtml_CActiveScriptHolder_Construct(Pointer CActiveScriptHolder, Pointer
+  CMarkup)
+opcode: ''
+keywords: mshtml
+task: Mshtml_CActiveScriptHolder_Construct
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CActiveScriptHolder
+- field_type: Pointer
+  field_name: CMarkup

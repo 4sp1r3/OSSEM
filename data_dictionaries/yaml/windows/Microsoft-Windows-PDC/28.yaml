@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PDC
+event_id: '28'
+version: '0'
+event(fields): CsMonitorRequestEnter(UInt32 On, UInt32 Console)
+opcode: ''
+keywords: Cs
+task: CsMonitorRequestEnter
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: 'On'
+- field_type: UInt32
+  field_name: Console

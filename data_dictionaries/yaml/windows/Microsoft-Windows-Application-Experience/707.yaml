@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '707'
+version: '0'
+event(fields): task_0707(HexInt32 FailureCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: FailureCode

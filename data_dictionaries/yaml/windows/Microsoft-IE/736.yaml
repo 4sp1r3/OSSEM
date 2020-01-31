@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '736'
+version: '0'
+event(fields): Mshtml_WebOCEvents_NavigateError(Pointer CMarkup, UInt32 hrReason)
+opcode: ''
+keywords: webocevents
+task: Mshtml_WebOCEvents_NavigateError
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CMarkup
+- field_type: UInt32
+  field_name: hrReason

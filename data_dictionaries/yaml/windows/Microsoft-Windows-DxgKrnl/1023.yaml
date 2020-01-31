@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1023'
+version: '0'
+event(fields): MiracastUmdDriverDestroyMiracastContextStop(UInt64 MiracastLuid)
+opcode: Stop
+keywords: Miracast
+task: MiracastUmdDriverDestroyMiracastContext
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: MiracastLuid

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '8025'
+version: '0'
+event(fields): AppointmentActions_ExecuteAction(UnicodeString ActionType, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: AppointmentActions_ExecuteAction
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ActionType
+- field_type: UInt32
+  field_name: HRESULT

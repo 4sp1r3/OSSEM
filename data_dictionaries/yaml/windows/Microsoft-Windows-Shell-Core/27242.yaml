@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '27242'
+version: '0'
+event(fields): PerfTrack_StartMenu_SystemControlPanel_LaunchStop()
+opcode: Stop
+keywords: Shell
+task: PerfTrack_StartMenu_SystemControlPanel_Launch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

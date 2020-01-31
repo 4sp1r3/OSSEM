@@ -1,0 +1,19 @@
+provider: Windows Kernel Trace
+category: '{2cb15d1d-5fc1-11d2-abe1-00a0c911f518}'
+event_id: '212'
+version: '3'
+event(fields): LoaderDllSearchResults(UInt32 LdrLoadFlags, UInt32 LdrSearchFlags,
+  UInt32 SearchInfo, UInt32 LoadReason, String FullDllName)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: LdrLoadFlags
+- field_type: UInt32
+  field_name: LdrSearchFlags
+- field_type: UInt32
+  field_name: SearchInfo
+- field_type: UInt32
+  field_name: LoadReason
+- field_type: String
+  field_name: FullDllName

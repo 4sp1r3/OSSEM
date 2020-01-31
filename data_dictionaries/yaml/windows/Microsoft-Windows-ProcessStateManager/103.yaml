@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-ProcessStateManager
+event_id: '103'
+version: '0'
+event(fields): ProcessRegisterDCStop(UInt64 ApplicationId, UInt32 SessionId, UnicodeString
+  PsmKey, UInt32 ActivationFlags, UInt64 HostId)
+opcode: DC_Stop
+keywords: ProcessRegister
+task: ProcessRegister
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ApplicationId
+- field_type: UInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: PsmKey
+- field_type: UInt32
+  field_name: ActivationFlags
+- field_type: UInt64
+  field_name: HostId

@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '6351'
+version: '0'
+event(fields): ProcessMemStats(UInt32 ProcessId, UnicodeString ProcessName, GUID ProductID,
+  Boolean IsForeground, UInt64 PageFaultCount, UInt64 WorkingSetSize, UInt64 PeakWorkingSetSize,
+  UInt64 QuotaPeakPagedPoolUsage, UInt64 QuotaPagedPoolUsage, UInt64 QuotaPeakNonPagedPoolUsage,
+  UInt64 QuotaNonPagedPoolUsage, UInt64 PagefileUsage, UInt64 PeakPagefileUsage)
+opcode: ''
+keywords: ExecMan ExecDevPlatCircular
+task: ProcessMemStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ProcessName
+- field_type: GUID
+  field_name: ProductID
+- field_type: Boolean
+  field_name: IsForeground
+- field_type: UInt64
+  field_name: PageFaultCount
+- field_type: UInt64
+  field_name: WorkingSetSize
+- field_type: UInt64
+  field_name: PeakWorkingSetSize
+- field_type: UInt64
+  field_name: QuotaPeakPagedPoolUsage
+- field_type: UInt64
+  field_name: QuotaPagedPoolUsage
+- field_type: UInt64
+  field_name: QuotaPeakNonPagedPoolUsage
+- field_type: UInt64
+  field_name: QuotaNonPagedPoolUsage
+- field_type: UInt64
+  field_name: PagefileUsage
+- field_type: UInt64
+  field_name: PeakPagefileUsage

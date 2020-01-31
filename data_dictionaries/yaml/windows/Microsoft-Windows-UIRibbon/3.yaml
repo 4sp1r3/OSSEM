@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UIRibbon
+event_id: '3'
+version: '0'
+event(fields): RibbonTabActivated()
+opcode: ''
+keywords: Default
+task: RibbonTabActivated
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

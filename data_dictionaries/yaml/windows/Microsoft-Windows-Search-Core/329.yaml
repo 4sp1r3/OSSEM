@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '329'
+version: '0'
+event(fields): ValueIndexCreationStart(UInt32 Locale, AnsiString IdxName, Boolean
+  IsShadow, UInt64 ColumnType)
+opcode: Start
+keywords: Indexing Querying
+task: ValueIndexCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Locale
+- field_type: AnsiString
+  field_name: IdxName
+- field_type: Boolean
+  field_name: IsShadow
+- field_type: UInt64
+  field_name: ColumnType

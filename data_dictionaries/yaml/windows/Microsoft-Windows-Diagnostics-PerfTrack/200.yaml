@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-Diagnostics-PerfTrack
+event_id: '200'
+version: '0'
+event(fields): PerfPipe_TraceCapture_StartEnd(Int64 StartTimeStamp, GUID StartProviderId,
+  UInt16 StartEventId, UInt8 StartEventVersion, Int64 StopTimeStamp, GUID StopProviderId,
+  UInt16 StopEventId, UInt8 StopEventVersion, GUID ScenarioId, UInt32 SqmId, UInt32
+  Duration, UInt32 RuleId)
+opcode: ''
+keywords: PerfTrackStatus
+task: PerfPipe_TraceCapture_StartEnd
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: StartTimeStamp
+- field_type: GUID
+  field_name: StartProviderId
+- field_type: UInt16
+  field_name: StartEventId
+- field_type: UInt8
+  field_name: StartEventVersion
+- field_type: Int64
+  field_name: StopTimeStamp
+- field_type: GUID
+  field_name: StopProviderId
+- field_type: UInt16
+  field_name: StopEventId
+- field_type: UInt8
+  field_name: StopEventVersion
+- field_type: GUID
+  field_name: ScenarioId
+- field_type: UInt32
+  field_name: SqmId
+- field_type: UInt32
+  field_name: Duration
+- field_type: UInt32
+  field_name: RuleId

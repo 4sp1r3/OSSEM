@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-SleepStudy
+event_id: '3'
+version: '0'
+event(fields): TopOffendersPerfTrack(UInt32 ActiveTimeAndCommonData, UInt32 TopLevelActiveTime,
+  UnicodeString BlockerHierarchyLevel1, UnicodeString BlockerHierarchyLevel2, UnicodeString
+  BlockerHierarchyLevel3)
+opcode: ''
+keywords: ''
+task: TopOffendersPerfTrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ActiveTimeAndCommonData
+- field_type: UInt32
+  field_name: TopLevelActiveTime
+- field_type: UnicodeString
+  field_name: BlockerHierarchyLevel1
+- field_type: UnicodeString
+  field_name: BlockerHierarchyLevel2
+- field_type: UnicodeString
+  field_name: BlockerHierarchyLevel3

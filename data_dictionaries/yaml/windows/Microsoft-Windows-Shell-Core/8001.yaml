@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '8001'
+version: '0'
+event(fields): DetailsPropertyPage_AddPagesStart()
+opcode: Start
+keywords: Shell
+task: DetailsPropertyPage_AddPages
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

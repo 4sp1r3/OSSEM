@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-SetupCl
+event_id: '1'
+version: '0'
+event(fields): SetupCltask(UnicodeString Name, UnicodeString Description, UInt64 Statistic)
+opcode: ''
+keywords: keyDiagnostic
+task: SetupCltask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Name
+- field_type: UnicodeString
+  field_name: Description
+- field_type: UInt64
+  field_name: Statistic

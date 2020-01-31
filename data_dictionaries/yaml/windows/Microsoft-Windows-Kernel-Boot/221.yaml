@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '221'
+version: '0'
+event(fields): MeasuredLaunchDrtmDriversNotSupportVbs()
+opcode: DrtmDriversNotSupportVbs
+keywords: ''
+task: MeasuredLaunch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

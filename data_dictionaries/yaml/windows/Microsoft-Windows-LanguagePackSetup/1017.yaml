@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '1017'
+version: '0'
+event(fields): InstallinglanguagepackVerifyifthemachinehassufficientdiskspacefortheinstallation(UnicodeString
+  Language)
+opcode: Verifyifthemachinehassufficientdiskspacefortheinstallation
+keywords: ''
+task: Installinglanguagepack
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Language

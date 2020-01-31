@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DUI
+event_id: '52'
+version: '0'
+event(fields): DirectUI_ElementPaintStop()
+opcode: Stop
+keywords: Default
+task: DirectUI_ElementPaint
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

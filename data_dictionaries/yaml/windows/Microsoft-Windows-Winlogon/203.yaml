@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '203'
+version: '0'
+event(fields): RequestCredentialsStart()
+opcode: Start
+keywords: PerfInstrumentation
+task: RequestCredentials
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

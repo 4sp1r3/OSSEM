@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-UserPnp
+event_id: '7952'
+version: '0'
+event(fields): PnP_DMRC_Query7952(UnicodeString Message, HexInt32 NetworkErrorCode,
+  UInt32 HttpStatusCode)
+opcode: ''
+keywords: UserPnp
+task: PnP_DMRC_Query
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Message
+- field_type: HexInt32
+  field_name: NetworkErrorCode
+- field_type: UInt32
+  field_name: HttpStatusCode

@@ -1,0 +1,75 @@
+provider: Microsoft-Windows-Windows Defender
+event_id: '1010'
+version: '0'
+event(fields): task_01010(UnicodeString ProductName, UnicodeString ProductVersion,
+  UnicodeString ErrorCode, UnicodeString ErrorDescription, UnicodeString Unused, UnicodeString
+  Unused2, UnicodeString Unused3, UnicodeString Domain, UnicodeString User, UnicodeString
+  SID, UnicodeString ThreatName, UnicodeString ThreatID, UnicodeString SeverityID,
+  UnicodeString CategoryID, UnicodeString FWLink, UnicodeString Path, UnicodeString
+  Unused4, UnicodeString Unused5, UnicodeString Unused6, UnicodeString Unused7, UnicodeString
+  Unused8, UnicodeString Unused9, UnicodeString Unused10, UnicodeString Unused11,
+  UnicodeString SeverityName, UnicodeString CategoryName, UnicodeString SecurityintelligenceVersion,
+  UnicodeString EngineVersion)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ProductName
+- field_type: UnicodeString
+  field_name: ProductVersion
+- field_type: UnicodeString
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorDescription
+- field_type: UnicodeString
+  field_name: Unused
+- field_type: UnicodeString
+  field_name: Unused2
+- field_type: UnicodeString
+  field_name: Unused3
+- field_type: UnicodeString
+  field_name: Domain
+- field_type: UnicodeString
+  field_name: User
+- field_type: UnicodeString
+  field_name: SID
+- field_type: UnicodeString
+  field_name: ThreatName
+- field_type: UnicodeString
+  field_name: ThreatID
+- field_type: UnicodeString
+  field_name: SeverityID
+- field_type: UnicodeString
+  field_name: CategoryID
+- field_type: UnicodeString
+  field_name: FWLink
+- field_type: UnicodeString
+  field_name: Path
+- field_type: UnicodeString
+  field_name: Unused4
+- field_type: UnicodeString
+  field_name: Unused5
+- field_type: UnicodeString
+  field_name: Unused6
+- field_type: UnicodeString
+  field_name: Unused7
+- field_type: UnicodeString
+  field_name: Unused8
+- field_type: UnicodeString
+  field_name: Unused9
+- field_type: UnicodeString
+  field_name: Unused10
+- field_type: UnicodeString
+  field_name: Unused11
+- field_type: UnicodeString
+  field_name: SeverityName
+- field_type: UnicodeString
+  field_name: CategoryName
+- field_type: UnicodeString
+  field_name: SecurityintelligenceVersion
+- field_type: UnicodeString
+  field_name: EngineVersion

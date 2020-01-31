@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+event_id: '2'
+version: '0'
+event(fields): RDPStackInitialize2()
+opcode: Initialize
+keywords: ''
+task: RDPStack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

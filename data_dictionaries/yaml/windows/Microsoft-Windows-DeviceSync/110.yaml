@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DeviceSync
+event_id: '110'
+version: '0'
+event(fields): SI_Query_ServiceStart()
+opcode: Start
+keywords: ''
+task: SI_Query_Service
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

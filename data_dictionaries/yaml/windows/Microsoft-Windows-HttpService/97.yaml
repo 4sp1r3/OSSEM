@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-HttpService
+event_id: '97'
+version: '0'
+event(fields): HTTPRequestTraceTaskHttpErrorResponseSent(UnicodeString Url, UInt32
+  Verb, UInt16 StatusCode, Boolean CacheSend, UnicodeString RequestQueue, UInt32 ProcessId,
+  UInt32 ThreadId, AnsiString ImageFileName, UInt64 WorkingSetSize, UInt32 SendStatus,
+  UInt32 ThreadCount, AnsiString ReasonPhrase, AnsiString ErrorCause, UInt32 Verbosity)
+opcode: HttpErrorResponseSent
+keywords: HTTP_KEYWORD_REQUEST
+task: HTTPRequestTraceTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Url
+- field_type: UInt32
+  field_name: Verb
+- field_type: UInt16
+  field_name: StatusCode
+- field_type: Boolean
+  field_name: CacheSend
+- field_type: UnicodeString
+  field_name: RequestQueue
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UInt32
+  field_name: ThreadId
+- field_type: AnsiString
+  field_name: ImageFileName
+- field_type: UInt64
+  field_name: WorkingSetSize
+- field_type: UInt32
+  field_name: SendStatus
+- field_type: UInt32
+  field_name: ThreadCount
+- field_type: AnsiString
+  field_name: ReasonPhrase
+- field_type: AnsiString
+  field_name: ErrorCause
+- field_type: UInt32
+  field_name: Verbosity

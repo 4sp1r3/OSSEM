@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NDIS
+event_id: '10014'
+version: '0'
+event(fields): Interface10014(UInt32 IfType, UInt64 NetLuid)
+opcode: ''
+keywords: Interface
+task: Interface
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IfType
+- field_type: UInt64
+  field_name: NetLuid

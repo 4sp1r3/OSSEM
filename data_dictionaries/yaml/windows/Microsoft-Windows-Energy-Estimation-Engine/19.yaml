@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Energy-Estimation-Engine
+event_id: '19'
+version: '0'
+event(fields): DisplayEnergyMonitorPowerState(UInt8 PreviousState, UInt8 CurrentState)
+opcode: MonitorPowerState
+keywords: ''
+task: DisplayEnergy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt8
+  field_name: PreviousState
+- field_type: UInt8
+  field_name: CurrentState

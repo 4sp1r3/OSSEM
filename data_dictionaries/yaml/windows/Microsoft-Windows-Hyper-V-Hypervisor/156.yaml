@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '156'
+version: '0'
+event(fields): task_0156(Boolean NotAffectedRdclNo, Boolean NotAffectedAtom, Boolean
+  CacheFlushSupported, Boolean SmtEnabled, Boolean ParentHypervisorFlushes, Boolean
+  DisabledLoadOption, Boolean Enabled, Boolean CacheFlushNeeded)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: NotAffectedRdclNo
+- field_type: Boolean
+  field_name: NotAffectedAtom
+- field_type: Boolean
+  field_name: CacheFlushSupported
+- field_type: Boolean
+  field_name: SmtEnabled
+- field_type: Boolean
+  field_name: ParentHypervisorFlushes
+- field_type: Boolean
+  field_name: DisabledLoadOption
+- field_type: Boolean
+  field_name: Enabled
+- field_type: Boolean
+  field_name: CacheFlushNeeded

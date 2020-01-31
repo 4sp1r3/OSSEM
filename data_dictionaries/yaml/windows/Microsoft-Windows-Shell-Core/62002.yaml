@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '62002'
+version: '0'
+event(fields): PlaylistFolder_DataSource_ItemEnumerationStop()
+opcode: Stop
+keywords: Shell
+task: PlaylistFolder_DataSource_ItemEnumeration
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

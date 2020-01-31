@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '156'
+version: '0'
+event(fields): Transactions_IterateHistory_Modify(UInt32 CrawlNo, UnicodeString URL)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: Transactions_IterateHistory_Modify
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: CrawlNo
+- field_type: UnicodeString
+  field_name: URL

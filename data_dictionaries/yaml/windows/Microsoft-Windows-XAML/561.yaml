@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '561'
+version: '0'
+event(fields): SetCustomRuntimeDataOnCurrentInstanceStart()
+opcode: Start
+keywords: Core
+task: SetCustomRuntimeDataOnCurrentInstance
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

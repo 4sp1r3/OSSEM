@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '275'
+version: '0'
+event(fields): Brightness(Pointer DeviceObject, UInt32 OldBrightness, UInt32 NewBrightness,
+  UInt32 Result)
+opcode: ''
+keywords: Base
+task: Brightness
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DeviceObject
+- field_type: UInt32
+  field_name: OldBrightness
+- field_type: UInt32
+  field_name: NewBrightness
+- field_type: UInt32
+  field_name: Result

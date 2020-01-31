@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '581'
+version: '0'
+event(fields): CreateViewportInteraction(Pointer UIElement, Boolean OnRootVisual)
+opcode: ''
+keywords: Input
+task: CreateViewportInteraction
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: UIElement
+- field_type: Boolean
+  field_name: OnRootVisual

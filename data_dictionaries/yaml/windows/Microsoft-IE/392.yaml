@@ -1,0 +1,11 @@
+provider: Microsoft-IE
+event_id: '392'
+version: '0'
+event(fields): Mshtml_Composition_Destroy_Layer_GroupStop()
+opcode: Stop
+keywords: composition
+task: Mshtml_Composition_Destroy_Layer_Group
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

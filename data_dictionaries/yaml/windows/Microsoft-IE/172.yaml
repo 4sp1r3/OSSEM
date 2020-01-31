@@ -1,0 +1,15 @@
+provider: Microsoft-IE
+event_id: '172'
+version: '0'
+event(fields): JScript_NativeCodeGenDelayStart(Pointer Element, UInt32 Zero)
+opcode: Start
+keywords: jscript
+task: JScript_NativeCodeGenDelay
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Element
+- field_type: UInt32
+  field_name: Zero

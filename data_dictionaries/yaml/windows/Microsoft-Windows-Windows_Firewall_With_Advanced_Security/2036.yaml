@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_id: '2036'
+version: '0'
+event(fields): task_02036(UInt32 IPsecPhase, UInt32 StoreType, SID ModifyingUser,
+  UnicodeString ModifyingApplication)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: IPsecPhase
+- field_type: UInt32
+  field_name: StoreType
+- field_type: SID
+  field_name: ModifyingUser
+- field_type: UnicodeString
+  field_name: ModifyingApplication

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '198'
+version: '0'
+event(fields): Dxgk_Diag_OutputDupl_High_Level_Update_Stop(UInt32 PacketIndex, UInt32
+  WdLogIndex, UInt32 VidPnSourceId, UInt32 ContextIndex, UInt32 Status, Boolean AcquiredMutex,
+  UInt32 AccumulatedFrames, Boolean AccumulatedFrameUpdated, UInt32 StatusBits)
+opcode: ''
+keywords: Base
+task: Dxgk_Diag_OutputDupl_High_Level_Update_Stop
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PacketIndex
+- field_type: UInt32
+  field_name: WdLogIndex
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: ContextIndex
+- field_type: UInt32
+  field_name: Status
+- field_type: Boolean
+  field_name: AcquiredMutex
+- field_type: UInt32
+  field_name: AccumulatedFrames
+- field_type: Boolean
+  field_name: AccumulatedFrameUpdated
+- field_type: UInt32
+  field_name: StatusBits

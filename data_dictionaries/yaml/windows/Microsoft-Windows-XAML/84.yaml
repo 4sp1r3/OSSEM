@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '84'
+version: '0'
+event(fields): BeginStoryboard(UInt64 ElementId, UInt64 TargetElementId)
+opcode: ''
+keywords: Animation
+task: BeginStoryboard
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId
+- field_type: UInt64
+  field_name: TargetElementId

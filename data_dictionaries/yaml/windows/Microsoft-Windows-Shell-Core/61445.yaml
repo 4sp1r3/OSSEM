@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '61445'
+version: '0'
+event(fields): FileAccessAPI_StreamedFile_WriteStreamStop()
+opcode: Stop
+keywords: Shell
+task: FileAccessAPI_StreamedFile_WriteStream
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

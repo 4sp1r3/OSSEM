@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-PersistentMemory-PmemDisk
+event_id: '108'
+version: '0'
+event(fields): task_0108(GUID PersistentMemoryDiskGuid, UInt32 DeviceNumber, Pointer
+  Irp, HexInt32 MinorFunction, HexInt32 Type, Pointer DeviceObject)
+opcode: ''
+keywords: PnP
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: PersistentMemoryDiskGuid
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: Pointer
+  field_name: Irp
+- field_type: HexInt32
+  field_name: MinorFunction
+- field_type: HexInt32
+  field_name: Type
+- field_type: Pointer
+  field_name: DeviceObject

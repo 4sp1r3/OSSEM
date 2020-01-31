@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '1901'
+version: '0'
+event(fields): CuratedTileCollectionTransformer_Errors1901()
+opcode: ''
+keywords: ''
+task: CuratedTileCollectionTransformer_Errors
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

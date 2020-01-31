@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
+event_id: '4006'
+version: '0'
+event(fields): task_0Start4006()
+opcode: Start
+keywords: search
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '306'
+version: '0'
+event(fields): IHM_CaretTrackingLeave()
+opcode: ''
+keywords: ''
+task: IHM_CaretTrackingLeave
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

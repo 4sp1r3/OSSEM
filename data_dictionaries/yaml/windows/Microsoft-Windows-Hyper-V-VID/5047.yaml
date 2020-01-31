@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Hyper-V-VID
+event_id: '5047'
+version: '0'
+event(fields): VMT_VID_ALLOCATE_PARTITION_NODE_PAGESStop(Pointer Mdl, UInt64 TotalBytes)
+opcode: Stop
+keywords: VMK_ALLOCATE_PAGES
+task: VMT_VID_ALLOCATE_PARTITION_NODE_PAGES
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Mdl
+- field_type: UInt64
+  field_name: TotalBytes

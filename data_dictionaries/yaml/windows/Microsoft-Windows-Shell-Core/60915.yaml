@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60915'
+version: '0'
+event(fields): ShellTask_SmartScreen_CheckReputation(Int32 EnumValue)
+opcode: ''
+keywords: Shell
+task: ShellTask_SmartScreen_CheckReputation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: EnumValue

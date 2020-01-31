@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '4136'
+version: '0'
+event(fields): task_04136(UInt32 JobType, UnicodeString Param1, UnicodeString Param2,
+  UnicodeString Context, UnicodeString DebugInfo)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: JobType
+- field_type: UnicodeString
+  field_name: Param1
+- field_type: UnicodeString
+  field_name: Param2
+- field_type: UnicodeString
+  field_name: Context
+- field_type: UnicodeString
+  field_name: DebugInfo

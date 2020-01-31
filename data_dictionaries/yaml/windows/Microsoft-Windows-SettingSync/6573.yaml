@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SettingSync
+event_id: '6573'
+version: '0'
+event(fields): task_06573(Boolean HasInternetConnection, Boolean IsRoaming)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: HasInternetConnection
+- field_type: Boolean
+  field_name: IsRoaming

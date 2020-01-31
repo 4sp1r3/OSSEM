@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '438'
+version: '0'
+event(fields): Mshtml_MediaElement_VisualizationStop(UInt32 MediaElementId, UInt32
+  AnimationGroupId, UInt32 VisualizationId)
+opcode: Stop
+keywords: subsystem mshtml
+task: Mshtml_MediaElement_Visualization
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: MediaElementId
+- field_type: UInt32
+  field_name: AnimationGroupId
+- field_type: UInt32
+  field_name: VisualizationId

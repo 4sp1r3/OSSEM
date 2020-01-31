@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1865'
+version: '0'
+event(fields): TileNotifications_PresentNotificationFailed(UnicodeString ApplicationID,
+  UInt32 NotificationID, UInt32 HRESULT)
+opcode: ''
+keywords: NotificationE2E
+task: TileNotifications_PresentNotificationFailed
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ApplicationID
+- field_type: UInt32
+  field_name: NotificationID
+- field_type: UInt32
+  field_name: HRESULT

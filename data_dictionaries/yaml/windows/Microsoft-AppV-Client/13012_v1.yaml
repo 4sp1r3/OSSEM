@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '13012'
+version: '1'
+event(fields): ApplicationLaunch13012_V1(GUID ConnectionGroup, GUID Version)
+opcode: ''
+keywords: VirtualAppLaunch
+task: ApplicationLaunch
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ConnectionGroup
+- field_type: GUID
+  field_name: Version

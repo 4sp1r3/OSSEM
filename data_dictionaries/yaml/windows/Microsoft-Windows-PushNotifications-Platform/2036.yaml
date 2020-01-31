@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2036'
+version: '0'
+event(fields): task_02036(UnicodeString PackageFullName, UnicodeString AppUserModelID,
+  GUID TimerId)
+opcode: ''
+keywords: wpnend
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppUserModelID
+- field_type: GUID
+  field_name: TimerId

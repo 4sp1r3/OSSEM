@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '12017'
+version: '1'
+event(fields): VEMgrLookupProcessStop_V1()
+opcode: Stop
+keywords: ''
+task: VEMgrLookupProcess
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

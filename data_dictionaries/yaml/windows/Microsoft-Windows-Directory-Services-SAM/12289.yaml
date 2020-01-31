@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Directory-Services-SAM
+event_id: '12289'
+version: '0'
+event(fields): task_012289(UInt32 __binLength, Binary ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: __binLength
+- field_type: Binary
+  field_name: ErrorCode

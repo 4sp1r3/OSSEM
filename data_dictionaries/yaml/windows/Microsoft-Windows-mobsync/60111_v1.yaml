@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-mobsync
+event_id: '60111'
+version: '1'
+event(fields): SyncMgrTraceId_HandlerLoadStart_V1(UnicodeString psz)
+opcode: Start
+keywords: ''
+task: SyncMgrTraceId_HandlerLoad
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: psz

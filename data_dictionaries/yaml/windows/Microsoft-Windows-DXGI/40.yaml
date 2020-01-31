@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '40'
+version: '0'
+event(fields): ProfileStart(UInt32 Event)
+opcode: Start
+keywords: Events
+task: Profile
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Event

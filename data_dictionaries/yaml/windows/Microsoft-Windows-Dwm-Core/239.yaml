@@ -1,0 +1,52 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '239'
+version: '0'
+event(fields): ANIMATION_LAST_FRAME_EVENT(UInt64 cFrameStart, UInt64 cFrameStop, UInt32
+  PercentVsyncsMissed, UInt32 VsyncCount, UInt64 VsyncCadenceInHz, UInt64 FrameRateInFps,
+  UInt32 MaxFramePeriodInMS, UnicodeString AnimationScenario, UInt32 ScenarioIndex,
+  UInt32 MaxVsyncsMissed, UInt32 TimeToFirstFrameInMS, UInt32 TimeFromInputToFirstFrameInMS,
+  UInt32 IntendedDurationInMS, UInt32 ScenarioDetailsHash, UnicodeString ScenarioDetails,
+  UnicodeString ApplicationId, UInt32 FrameGlitchesCount, UInt32 TotalVsyncsMissed)
+opcode: ''
+keywords: DwmCore LowOverheadSmoothnessTracking
+task: ANIMATION_LAST_FRAME_EVENT
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: cFrameStart
+- field_type: UInt64
+  field_name: cFrameStop
+- field_type: UInt32
+  field_name: PercentVsyncsMissed
+- field_type: UInt32
+  field_name: VsyncCount
+- field_type: UInt64
+  field_name: VsyncCadenceInHz
+- field_type: UInt64
+  field_name: FrameRateInFps
+- field_type: UInt32
+  field_name: MaxFramePeriodInMS
+- field_type: UnicodeString
+  field_name: AnimationScenario
+- field_type: UInt32
+  field_name: ScenarioIndex
+- field_type: UInt32
+  field_name: MaxVsyncsMissed
+- field_type: UInt32
+  field_name: TimeToFirstFrameInMS
+- field_type: UInt32
+  field_name: TimeFromInputToFirstFrameInMS
+- field_type: UInt32
+  field_name: IntendedDurationInMS
+- field_type: UInt32
+  field_name: ScenarioDetailsHash
+- field_type: UnicodeString
+  field_name: ScenarioDetails
+- field_type: UnicodeString
+  field_name: ApplicationId
+- field_type: UInt32
+  field_name: FrameGlitchesCount
+- field_type: UInt32
+  field_name: TotalVsyncsMissed

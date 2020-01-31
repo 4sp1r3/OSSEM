@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-XAML
+event_id: '407'
+version: '0'
+event(fields): CompNodeOffset(Float translateX, Float translateY)
+opcode: ''
+keywords: Input
+task: CompNodeOffset
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: translateX
+- field_type: Float
+  field_name: translateY

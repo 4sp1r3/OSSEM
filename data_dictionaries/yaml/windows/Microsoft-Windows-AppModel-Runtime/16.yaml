@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-AppModel-Runtime
+event_id: '16'
+version: '0'
+event(fields): task_016(UnicodeString FileName, Int32 ErrorCode, UInt64 Size, UInt32
+  Offset, Pointer HeaderAddr, UnicodeString Section, UInt32 ProcessId)
+opcode: ''
+keywords: Process
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: Int32
+  field_name: ErrorCode
+- field_type: UInt64
+  field_name: Size
+- field_type: UInt32
+  field_name: Offset
+- field_type: Pointer
+  field_name: HeaderAddr
+- field_type: UnicodeString
+  field_name: Section
+- field_type: UInt32
+  field_name: ProcessId

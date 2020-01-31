@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Kernel-Registry
+event_id: '39'
+version: '0'
+event(fields): Thisgroupofeventstrackstheperformanceofrestoringhives.Start(UnicodeString
+  SourceFile, HexInt32 Flags)
+opcode: Start
+keywords: ''
+task: Thisgroupofeventstrackstheperformanceofrestoringhives.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SourceFile
+- field_type: HexInt32
+  field_name: Flags

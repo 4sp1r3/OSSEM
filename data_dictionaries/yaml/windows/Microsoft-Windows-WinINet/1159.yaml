@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WinINet
+event_id: '1159'
+version: '0'
+event(fields): Wininet_HstsServerContainerStart1159(Pointer Object, Int64 Hash, UInt32
+  HstsEntryCount)
+opcode: Start
+keywords: WININET_KEYWORD_IE
+task: Wininet_HstsServerContainer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object
+- field_type: Int64
+  field_name: Hash
+- field_type: UInt32
+  field_name: HstsEntryCount

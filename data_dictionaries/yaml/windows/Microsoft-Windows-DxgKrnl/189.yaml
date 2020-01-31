@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '189'
+version: '0'
+event(fields): ReportOfferAllocation(Pointer hGlobalAllocationHandle, UInt8 State,
+  UInt8 Priority)
+opcode: ''
+keywords: Base
+task: ReportOfferAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hGlobalAllocationHandle
+- field_type: UInt8
+  field_name: State
+- field_type: UInt8
+  field_name: Priority

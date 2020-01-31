@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-IPSEC-SRV
+event_id: '109'
+version: '0'
+event(fields): IPSEC_BFE_EngineCloseStart()
+opcode: Start
+keywords: PolicyAgent
+task: IPSEC_BFE_EngineClose
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '5915'
+version: '0'
+event(fields): AppActivation_RPCTimeoutSet()
+opcode: ''
+keywords: ''
+task: AppActivation_RPCTimeoutSet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

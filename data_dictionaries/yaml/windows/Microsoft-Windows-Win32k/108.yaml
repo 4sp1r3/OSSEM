@@ -1,0 +1,38 @@
+provider: Microsoft-Windows-Win32k
+event_id: '108'
+version: '0'
+event(fields): TouchTargetingPointerEvent108(Int32 pointerId, Int32 cursorId, Int32
+  pointerType, Int32 pointerFlags, Int32 touchMask, Int32 ptLocationX, Int32 ptLocationY,
+  Int32 rcContactLeft, Int32 rcContactRight, Int32 rcContactTop, Int32 rcContactBottom,
+  Int32 orientation)
+opcode: ''
+keywords: MessagePumpInternalAndInput
+task: TouchTargetingPointerEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: pointerId
+- field_type: Int32
+  field_name: cursorId
+- field_type: Int32
+  field_name: pointerType
+- field_type: Int32
+  field_name: pointerFlags
+- field_type: Int32
+  field_name: touchMask
+- field_type: Int32
+  field_name: ptLocationX
+- field_type: Int32
+  field_name: ptLocationY
+- field_type: Int32
+  field_name: rcContactLeft
+- field_type: Int32
+  field_name: rcContactRight
+- field_type: Int32
+  field_name: rcContactTop
+- field_type: Int32
+  field_name: rcContactBottom
+- field_type: Int32
+  field_name: orientation

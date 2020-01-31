@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Api
+event_id: '69'
+version: '0'
+event(fields): ApipGetGlobalStateStart()
+opcode: Start
+keywords: DwmApi
+task: ApipGetGlobalState
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

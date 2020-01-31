@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '3001'
+version: '1'
+event(fields): Impersonation/DeimpersonationStop_V1(UInt32 ErrorHigh, UInt32 ErrorLow)
+opcode: Stop
+keywords: Common
+task: Impersonation/Deimpersonation
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorHigh
+- field_type: UInt32
+  field_name: ErrorLow

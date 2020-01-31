@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebServices
+event_id: '9'
+version: '0'
+event(fields): IOOperationsIOCompleted(UInt32 operation, UInt32 size)
+opcode: IOCompleted
+keywords: keywords.IO
+task: IOOperations
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: operation
+- field_type: UInt32
+  field_name: size

@@ -1,0 +1,11 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2314'
+version: '0'
+event(fields): ExecutionManagerClientInitStart()
+opcode: Start
+keywords: NavigationPerformance ExecutionManagerClient
+task: ExecutionManagerClientInit
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

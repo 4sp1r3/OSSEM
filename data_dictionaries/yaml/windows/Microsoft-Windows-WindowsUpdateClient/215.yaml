@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WindowsUpdateClient
+event_id: '215'
+version: '0'
+event(fields): WindowsUpdateAgentUninstallation215(UnicodeString updateTitle, GUID
+  updateGuid, UInt32 updateRevisionNumber)
+opcode: Uninstallation
+keywords: started uninstall
+task: WindowsUpdateAgent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: updateTitle
+- field_type: GUID
+  field_name: updateGuid
+- field_type: UInt32
+  field_name: updateRevisionNumber

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '112'
+version: '0'
+event(fields): TransformStart112()
+opcode: Start
+keywords: PerfEvent
+task: Transform
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

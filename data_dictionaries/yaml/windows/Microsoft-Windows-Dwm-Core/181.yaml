@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Core
+event_id: '181'
+version: '0'
+event(fields): ETWGUID_DRAWING_CONTEXT_FRAMEStop()
+opcode: Stop
+keywords: DwmCore FrameVisualization
+task: ETWGUID_DRAWING_CONTEXT_FRAME
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

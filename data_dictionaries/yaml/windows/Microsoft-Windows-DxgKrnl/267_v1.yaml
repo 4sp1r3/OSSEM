@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '267'
+version: '1'
+event(fields): IndependentFlipTransition_V1(Boolean Entering, UInt64 compositionSurfaceLuid,
+  UInt32 VidPnSourceId, UInt32 Plane, UInt32 ApprovedPresentDuration, Boolean PendingIndependentFlip,
+  UInt64 bindId, Boolean RequestedByDwm, UInt64 confirmationCookie)
+opcode: ''
+keywords: Base
+task: IndependentFlipTransition
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: Entering
+- field_type: UInt64
+  field_name: compositionSurfaceLuid
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: Plane
+- field_type: UInt32
+  field_name: ApprovedPresentDuration
+- field_type: Boolean
+  field_name: PendingIndependentFlip
+- field_type: UInt64
+  field_name: bindId
+- field_type: Boolean
+  field_name: RequestedByDwm
+- field_type: UInt64
+  field_name: confirmationCookie

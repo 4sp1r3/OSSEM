@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '527'
+version: '0'
+event(fields): IntelliForms_Evaluate_AutoStuffStop()
+opcode: Stop
+keywords: primarynav
+task: IntelliForms_Evaluate_AutoStuff
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

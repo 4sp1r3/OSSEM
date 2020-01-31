@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TaskScheduler
+event_id: '151'
+version: '0'
+event(fields): TaskSchedulerfailedtoinstantiatetaskatservicestartup.(UnicodeString
+  TaskName, UnicodeString LogPoint, UInt32 ResultCode)
+opcode: ''
+keywords: ''
+task: TaskSchedulerfailedtoinstantiatetaskatservicestartup.
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TaskName
+- field_type: UnicodeString
+  field_name: LogPoint
+- field_type: UInt32
+  field_name: ResultCode

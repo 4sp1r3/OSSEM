@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-WebIO
+event_id: '121'
+version: '0'
+event(fields): ResponseConnectionBufferReceiveStop(Pointer Connection, Pointer DataChunks,
+  Pointer Buffer, UInt32 BufferLengthConsumed, UInt32 BufferLengthData, UInt32 BufferLengthRemaining,
+  UInt32 Error, UInt64 Information)
+opcode: Stop
+keywords: Keyword.RECEIVE
+task: ResponseConnectionBufferReceive
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Connection
+- field_type: Pointer
+  field_name: DataChunks
+- field_type: Pointer
+  field_name: Buffer
+- field_type: UInt32
+  field_name: BufferLengthConsumed
+- field_type: UInt32
+  field_name: BufferLengthData
+- field_type: UInt32
+  field_name: BufferLengthRemaining
+- field_type: UInt32
+  field_name: Error
+- field_type: UInt64
+  field_name: Information

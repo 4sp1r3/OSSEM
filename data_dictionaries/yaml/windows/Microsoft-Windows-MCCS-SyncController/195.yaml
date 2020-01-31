@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '195'
+version: '0'
+event(fields): task_0195(UnicodeString P2_UnicodeString)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: P2_UnicodeString

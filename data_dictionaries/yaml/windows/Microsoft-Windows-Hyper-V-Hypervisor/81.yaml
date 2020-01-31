@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '81'
+version: '0'
+event(fields): task_081()
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

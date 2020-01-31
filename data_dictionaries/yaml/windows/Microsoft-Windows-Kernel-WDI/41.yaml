@@ -1,0 +1,14 @@
+provider: Microsoft-Windows-Kernel-WDI
+event_id: '41'
+version: '0'
+event(fields): SEMInitializationThenumberofprovidersspecifiedacrossallscenariosisabovethemaximumallowedamount.(GUID
+  ProviderID)
+opcode: Thenumberofprovidersspecifiedacrossallscenariosisabovethemaximumallowedamount.
+keywords: ''
+task: SEMInitialization
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: ProviderID

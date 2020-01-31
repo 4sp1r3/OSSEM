@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Hyper-V-Hypervisor
+event_id: '97'
+version: '0'
+event(fields): task_097(HexInt32 CPU, HexInt64 LeafNumber, HexInt64 Register, HexInt64
+  BSPCpuidData, HexInt64 APCpuidData)
+opcode: ''
+keywords: keyword_400000000000
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: CPU
+- field_type: HexInt64
+  field_name: LeafNumber
+- field_type: HexInt64
+  field_name: Register
+- field_type: HexInt64
+  field_name: BSPCpuidData
+- field_type: HexInt64
+  field_name: APCpuidData

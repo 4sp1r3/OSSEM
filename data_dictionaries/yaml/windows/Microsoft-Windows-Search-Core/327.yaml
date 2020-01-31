@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '327'
+version: '0'
+event(fields): GathererRecoverStart()
+opcode: Start
+keywords: Service Gatherer
+task: GathererRecover
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '1073'
+version: '0'
+event(fields): OutputDuplicationCreate(Pointer ContextPtr, Pointer hAdapter, UInt32
+  VidPnSourceId, UInt32 KeyedMutexCount)
+opcode: ''
+keywords: Base
+task: OutputDuplicationCreate
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: ContextPtr
+- field_type: Pointer
+  field_name: hAdapter
+- field_type: UInt32
+  field_name: VidPnSourceId
+- field_type: UInt32
+  field_name: KeyedMutexCount

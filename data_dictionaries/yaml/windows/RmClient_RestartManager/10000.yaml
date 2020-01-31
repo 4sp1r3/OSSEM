@@ -1,0 +1,15 @@
+provider: RmClient_RestartManager
+event_id: '10000'
+version: '0'
+event(fields): task_0(UInt32 RmSessionId, FILETIME UTCStartTime)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RmSessionId
+- field_type: FILETIME
+  field_name: UTCStartTime

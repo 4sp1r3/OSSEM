@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Winsock-NameResolution
+event_id: '1003'
+version: '0'
+event(fields): WinsockGai1003(UnicodeString NodeName, UInt64 CancelHandle)
+opcode: ''
+keywords: ''
+task: WinsockGai
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: NodeName
+- field_type: UInt64
+  field_name: CancelHandle

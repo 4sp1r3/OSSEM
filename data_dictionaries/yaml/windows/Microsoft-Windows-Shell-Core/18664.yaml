@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '18664'
+version: '0'
+event(fields): Shell32_DefView_HighQualityStretchStop()
+opcode: Stop
+keywords: Shell
+task: Shell32_DefView_HighQualityStretch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

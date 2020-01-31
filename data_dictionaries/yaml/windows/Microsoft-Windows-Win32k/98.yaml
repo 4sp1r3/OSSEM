@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Win32k
+event_id: '98'
+version: '0'
+event(fields): TouchTargetingPointerTargetStart()
+opcode: Start
+keywords: MessagePumpInternalAndInput
+task: TouchTargetingPointerTarget
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

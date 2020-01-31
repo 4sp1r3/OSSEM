@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-CLNT
+event_id: '225'
+version: '0'
+event(fields): MPS_CLNT_API_AddConnectionSecurityRuleStop()
+opcode: Stop
+keywords: Client
+task: MPS_CLNT_API_AddConnectionSecurityRule
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

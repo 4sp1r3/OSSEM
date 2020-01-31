@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WebAuthN
+event_id: '2310'
+version: '0'
+event(fields): CtapNfcReaderThreadStart(GUID TransactionId, UnicodeString Reader)
+opcode: Start
+keywords: Ctap Nfc
+task: CtapNfcReaderThread
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: TransactionId
+- field_type: UnicodeString
+  field_name: Reader

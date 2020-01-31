@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PersistentMemory-ScmBus
+event_id: '101'
+version: '1'
+event(fields): task_0101_V1(HexInt32 NfitHandle, HexInt64 StartAddress, HexInt64 Length)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: NfitHandle
+- field_type: HexInt64
+  field_name: StartAddress
+- field_type: HexInt64
+  field_name: Length

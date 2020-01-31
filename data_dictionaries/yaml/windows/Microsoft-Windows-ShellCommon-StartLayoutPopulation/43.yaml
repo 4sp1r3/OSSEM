@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ShellCommon-StartLayoutPopulation
+event_id: '43'
+version: '0'
+event(fields): CuratedTileCollectionManager_DetectOSUpgrade()
+opcode: ''
+keywords: ''
+task: CuratedTileCollectionManager_DetectOSUpgrade
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

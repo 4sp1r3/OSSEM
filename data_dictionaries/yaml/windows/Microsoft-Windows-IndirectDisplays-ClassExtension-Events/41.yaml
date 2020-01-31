@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+event_id: '41'
+version: '0'
+event(fields): AdapterTraceCommitPaths(Int64 IddAdapterLuid, UInt32 PathIndex, UInt32
+  PathFlags, UInt32 Width, UInt32 Height)
+opcode: TraceCommitPaths
+keywords: DdiCallbacks
+task: Adapter
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int64
+  field_name: IddAdapterLuid
+- field_type: UInt32
+  field_name: PathIndex
+- field_type: UInt32
+  field_name: PathFlags
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Height

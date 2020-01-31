@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '246'
+version: '0'
+event(fields): GpuWork(Pointer hContext, UInt32 RecordCount, Int64 RecordTime)
+opcode: ''
+keywords: LongHaul
+task: GpuWork
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hContext
+- field_type: UInt32
+  field_name: RecordCount
+- field_type: Int64
+  field_name: RecordTime

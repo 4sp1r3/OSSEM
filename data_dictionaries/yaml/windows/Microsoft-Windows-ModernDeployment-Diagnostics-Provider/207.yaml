@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ModernDeployment-Diagnostics-Provider
+event_id: '207'
+version: '0'
+event(fields): task_0207(HexInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: HRESULT

@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1622'
+version: '0'
+event(fields): AppsFolderItemState_Enqueue(UInt32 Operation, UnicodeString TargetAppID,
+  UnicodeString RefAppID, UInt32 ModifyFlags, UInt32 ViewOrSize, UnicodeString GroupName)
+opcode: ''
+keywords: ''
+task: AppsFolderItemState_Enqueue
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Operation
+- field_type: UnicodeString
+  field_name: TargetAppID
+- field_type: UnicodeString
+  field_name: RefAppID
+- field_type: UInt32
+  field_name: ModifyFlags
+- field_type: UInt32
+  field_name: ViewOrSize
+- field_type: UnicodeString
+  field_name: GroupName

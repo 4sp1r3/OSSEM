@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '1610'
+version: '0'
+event(fields): AppsFolder_GetPropertyStoreStop()
+opcode: Stop
+keywords: ''
+task: AppsFolder_GetPropertyStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

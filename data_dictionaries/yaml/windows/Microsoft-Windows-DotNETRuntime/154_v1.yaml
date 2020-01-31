@@ -1,0 +1,25 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '154'
+version: '1'
+event(fields): LoaderAssemblyLoad_V1(UInt64 AssemblyID, UInt64 AppDomainID, UInt64
+  BindingID, UInt32 AssemblyFlags, UnicodeString FullyQualifiedAssemblyName, UInt16
+  ClrInstanceID)
+opcode: AssemblyLoad
+keywords: LoaderKeyword
+task: Loader
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: AssemblyID
+- field_type: UInt64
+  field_name: AppDomainID
+- field_type: UInt64
+  field_name: BindingID
+- field_type: UInt32
+  field_name: AssemblyFlags
+- field_type: UnicodeString
+  field_name: FullyQualifiedAssemblyName
+- field_type: UInt16
+  field_name: ClrInstanceID

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-AppModel-Exec
+event_id: '1053'
+version: '0'
+event(fields): task_01053(UInt64 p1_UInt64, UnicodeString p2_String, UnicodeString
+  p3_String, UInt32 p4_UInt32, Boolean p5_Boolean)
+opcode: ''
+keywords: ExecDevPlatCircular Activation
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: p1_UInt64
+- field_type: UnicodeString
+  field_name: p2_String
+- field_type: UnicodeString
+  field_name: p3_String
+- field_type: UInt32
+  field_name: p4_UInt32
+- field_type: Boolean
+  field_name: p5_Boolean

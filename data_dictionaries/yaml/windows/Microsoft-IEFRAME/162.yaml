@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '162'
+version: '0'
+event(fields): Search_SuggestionsDownload()
+opcode: ''
+keywords: primarynav
+task: Search_SuggestionsDownload
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

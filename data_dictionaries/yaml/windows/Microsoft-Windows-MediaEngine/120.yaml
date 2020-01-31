@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '120'
+version: '0'
+event(fields): MediaFoundationPresentAtSleepStart(Pointer object)
+opcode: Start
+keywords: ''
+task: MediaFoundationPresentAtSleep
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

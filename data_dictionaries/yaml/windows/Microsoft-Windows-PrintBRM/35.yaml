@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-PrintBRM
+event_id: '35'
+version: '0'
+event(fields): BackupPrintBRMoperationsuccess35(UInt32 NumberOfForms)
+opcode: PrintBRMoperationsuccess
+keywords: PRINT_FORM_KEYWORD
+task: Backup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: NumberOfForms

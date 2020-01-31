@@ -1,0 +1,13 @@
+provider: Microsoft-IEFRAME
+event_id: '602'
+version: '0'
+event(fields): TabRoaming_LoadRoamedMachineStart(UnicodeString FileName)
+opcode: Start
+keywords: roaming
+task: TabRoaming_LoadRoamedMachine
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FileName

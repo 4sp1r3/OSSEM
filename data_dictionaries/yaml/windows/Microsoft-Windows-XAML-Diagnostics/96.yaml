@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '96'
+version: '0'
+event(fields): UpdateViewSize(UInt32 ViewId, Float Width, Float Height)
+opcode: ''
+keywords: DesignerAppManager
+task: UpdateViewSize
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ViewId
+- field_type: Float
+  field_name: Width
+- field_type: Float
+  field_name: Height

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-Client
+event_id: '5002'
+version: '1'
+event(fields): VirtualFileSystemRedirection5002_V1()
+opcode: ''
+keywords: VFS
+task: VirtualFileSystemRedirection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

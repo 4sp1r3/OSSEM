@@ -1,0 +1,27 @@
+provider: Microsoft-Windows-NCSI
+event_id: '4012'
+version: '0'
+event(fields): CheckCorporateInside/outsideLocation4012(UInt64 IfLuid, GUID InterfaceGuid,
+  UnicodeString ProbeHost, UnicodeString ProbePath, UInt32 ErrorCode, UnicodeString
+  ErrorString, UInt32 RetryInterval)
+opcode: ''
+keywords: LwtDiagnostic ut:L3ConnectPath
+task: CheckCorporateInside/outsideLocation
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: IfLuid
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UnicodeString
+  field_name: ProbeHost
+- field_type: UnicodeString
+  field_name: ProbePath
+- field_type: UInt32
+  field_name: ErrorCode
+- field_type: UnicodeString
+  field_name: ErrorString
+- field_type: UInt32
+  field_name: RetryInterval

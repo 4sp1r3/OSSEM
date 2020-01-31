@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '2016'
+version: '0'
+event(fields): PKMRegisteredWithWin32k2016()
+opcode: ''
+keywords: ''
+task: PKMRegisteredWithWin32k
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

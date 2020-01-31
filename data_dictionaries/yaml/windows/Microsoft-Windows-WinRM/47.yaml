@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WinRM
+event_id: '47'
+version: '0'
+event(fields): WinRMMIOperationStart(UnicodeString operationType, UnicodeString namespaceName,
+  UnicodeString className)
+opcode: Start
+keywords: Keyword.Client
+task: WinRMMIOperation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: operationType
+- field_type: UnicodeString
+  field_name: namespaceName
+- field_type: UnicodeString
+  field_name: className

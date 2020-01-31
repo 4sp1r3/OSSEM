@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Disk
+event_id: '219'
+version: '1'
+event(fields): ClassCompletionofrequest.219_V1(UInt32 DeviceNumber, Pointer Irp, UInt32
+  NumberOfChildren, HexInt32 Status)
+opcode: Completionofrequest.
+keywords: PnP Enum
+task: Class
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: Pointer
+  field_name: Irp
+- field_type: UInt32
+  field_name: NumberOfChildren
+- field_type: HexInt32
+  field_name: Status

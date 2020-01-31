@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-ShareMedia-ControlPanel
+event_id: '1020'
+version: '0'
+event(fields): ShowErrorPageStop(UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: ShowErrorPage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ErrorCode

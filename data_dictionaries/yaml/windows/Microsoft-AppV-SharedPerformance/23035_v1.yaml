@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '23035'
+version: '1'
+event(fields): PackagingInstantMessagingLocalMachine.Stop_V1()
+opcode: Stop
+keywords: ''
+task: PackagingInstantMessagingLocalMachine.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

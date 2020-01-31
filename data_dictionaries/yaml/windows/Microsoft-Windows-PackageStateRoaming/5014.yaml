@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PackageStateRoaming
+event_id: '5014'
+version: '0'
+event(fields): task_05014(UnicodeString PackageFamilyName, UInt32 Count, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFamilyName
+- field_type: UInt32
+  field_name: Count
+- field_type: UInt32
+  field_name: HRESULT

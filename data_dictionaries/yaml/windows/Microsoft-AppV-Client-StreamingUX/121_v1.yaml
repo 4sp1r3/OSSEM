@@ -1,0 +1,13 @@
+provider: Microsoft-AppV-Client-StreamingUX
+event_id: '121'
+version: '1'
+event(fields): task_0121_V1(UInt64 unint64)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: unint64

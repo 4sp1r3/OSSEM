@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Fault-Tolerant-Heap
+event_id: '1003'
+version: '0'
+event(fields): task_0(UInt32 FthEnabledPID, UnicodeString FthEnabledProcessName, FILETIME
+  FthEnabledProcessStartup)
+opcode: ''
+keywords: FTH_EVENT_KEYWORD_LIFECYCLE
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: FthEnabledPID
+- field_type: UnicodeString
+  field_name: FthEnabledProcessName
+- field_type: FILETIME
+  field_name: FthEnabledProcessStartup

@@ -1,0 +1,26 @@
+provider: RmClient_RestartManager
+event_id: '10004'
+version: '0'
+event(fields): task_010004(UInt32 RmSessionId, UInt32 nFiles, UInt32 nRegProcs, UInt32
+  nRegServices, UnicodeString Files, UnicodeString RegProcs, UnicodeString RegServices)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: RmSessionId
+- field_type: UInt32
+  field_name: nFiles
+- field_type: UInt32
+  field_name: nRegProcs
+- field_type: UInt32
+  field_name: nRegServices
+- field_type: UnicodeString
+  field_name: Files
+- field_type: UnicodeString
+  field_name: RegProcs
+- field_type: UnicodeString
+  field_name: RegServices

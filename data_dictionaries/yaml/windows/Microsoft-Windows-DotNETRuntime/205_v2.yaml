@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-DotNETRuntime
+event_id: '205'
+version: '2'
+event(fields): GCGlobalHeapHistory_V2(UInt64 FinalYoungestDesired, Int32 NumHeaps,
+  UInt32 CondemnedGeneration, UInt32 Gen0ReductionCount, UInt32 Reason, UInt32 GlobalMechanisms,
+  UInt16 ClrInstanceID, UInt32 PauseMode, UInt32 MemoryPressure)
+opcode: GlobalHeapHistory
+keywords: GCKeyword
+task: GC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: FinalYoungestDesired
+- field_type: Int32
+  field_name: NumHeaps
+- field_type: UInt32
+  field_name: CondemnedGeneration
+- field_type: UInt32
+  field_name: Gen0ReductionCount
+- field_type: UInt32
+  field_name: Reason
+- field_type: UInt32
+  field_name: GlobalMechanisms
+- field_type: UInt16
+  field_name: ClrInstanceID
+- field_type: UInt32
+  field_name: PauseMode
+- field_type: UInt32
+  field_name: MemoryPressure

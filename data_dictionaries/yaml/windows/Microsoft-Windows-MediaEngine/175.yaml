@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-MediaEngine
+event_id: '175'
+version: '0'
+event(fields): MinLatencyDoneoperation(Pointer object, Int64 TimeRemaining)
+opcode: ''
+keywords: ''
+task: MinLatencyDoneoperation
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: TimeRemaining

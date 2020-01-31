@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '41011'
+version: '1'
+event(fields): VServices.ProcessStartRuntimeStop_V1()
+opcode: Stop
+keywords: ''
+task: VServices.ProcessStartRuntime
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,23 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '510'
+version: '0'
+event(fields): AudCaptureStream_CreateAudioClient2Stop(Pointer object, Boolean AudioClientProperties_bIsOffload,
+  UInt32 AudioClientProperties_eCategory, UInt32 AudioClientProperties_Options, UInt32
+  hResult)
+opcode: Stop
+keywords: ''
+task: AudCaptureStream_CreateAudioClient2
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Boolean
+  field_name: AudioClientProperties_bIsOffload
+- field_type: UInt32
+  field_name: AudioClientProperties_eCategory
+- field_type: UInt32
+  field_name: AudioClientProperties_Options
+- field_type: UInt32
+  field_name: hResult

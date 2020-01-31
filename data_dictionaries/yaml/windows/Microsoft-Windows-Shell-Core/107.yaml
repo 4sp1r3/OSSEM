@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '107'
+version: '0'
+event(fields): DeskCPL_ShowDialogStart()
+opcode: Start
+keywords: Shell
+task: DeskCPL_ShowDialog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

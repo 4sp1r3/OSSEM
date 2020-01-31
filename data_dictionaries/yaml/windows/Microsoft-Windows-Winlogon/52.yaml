@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '52'
+version: '0'
+event(fields): ThemesOnLogoffStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: ThemesOnLogoff
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

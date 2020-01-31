@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-XAML-Diagnostics
+event_id: '3'
+version: '0'
+event(fields): TappedStart(UInt64 RegisterdOn, UInt32 PointerDeviceType, UInt64 OriginalSource)
+opcode: Start
+keywords: Input
+task: Tapped
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RegisterdOn
+- field_type: UInt32
+  field_name: PointerDeviceType
+- field_type: UInt64
+  field_name: OriginalSource

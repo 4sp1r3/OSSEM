@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TSF-UIManager
+event_id: '15'
+version: '0'
+event(fields): IUIManager_HideStart()
+opcode: Start
+keywords: TSF_UIManager
+task: IUIManager_Hide
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

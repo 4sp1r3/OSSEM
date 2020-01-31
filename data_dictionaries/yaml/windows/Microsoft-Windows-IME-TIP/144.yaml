@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-IME-TIP
+event_id: '144'
+version: '0'
+event(fields): TaskID:IME_JPN_HWKBD_KeyProcess(UInt32 Duration, UInt32 PreviousKey,
+  UInt32 CurrentKey)
+opcode: ''
+keywords: ''
+task: TaskID:IME_JPN_HWKBD_KeyProcess
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Duration
+- field_type: UInt32
+  field_name: PreviousKey
+- field_type: UInt32
+  field_name: CurrentKey

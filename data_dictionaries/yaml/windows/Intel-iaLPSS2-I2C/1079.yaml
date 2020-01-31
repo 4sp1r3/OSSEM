@@ -1,0 +1,24 @@
+provider: Intel-iaLPSS2-I2C
+event_id: '1079'
+version: '0'
+event(fields): iaLPSS2_I2CSPBDDIcalls1079(Pointer SpbController, Pointer SpbTarget,
+  Pointer SpbRequest, UInt64 InputLength, UInt64 OutputLength, UInt32 IoControlCode)
+opcode: ''
+keywords: ''
+task: iaLPSS2_I2CSPBDDIcalls
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: SpbController
+- field_type: Pointer
+  field_name: SpbTarget
+- field_type: Pointer
+  field_name: SpbRequest
+- field_type: UInt64
+  field_name: InputLength
+- field_type: UInt64
+  field_name: OutputLength
+- field_type: UInt32
+  field_name: IoControlCode

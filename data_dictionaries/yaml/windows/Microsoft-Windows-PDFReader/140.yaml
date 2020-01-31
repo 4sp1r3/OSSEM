@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '140'
+version: '0'
+event(fields): ScrollToDestinationStart()
+opcode: Start
+keywords: Reader
+task: ScrollToDestination
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

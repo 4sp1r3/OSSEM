@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '9512'
+version: '0'
+event(fields): Explorer_StartPane_Cascade_ShowStop()
+opcode: Stop
+keywords: Shell
+task: Explorer_StartPane_Cascade_Show
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

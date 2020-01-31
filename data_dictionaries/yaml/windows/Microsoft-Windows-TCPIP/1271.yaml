@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1271'
+version: '0'
+event(fields): Ndkpi_Create_Srq(Pointer NdkPd, UInt32 SrqDepth, UInt32 MaxReceiveRequestSge,
+  UInt32 NotifyThreshold, Pointer SrqNotificationContext, UInt64 AffinityMask, UInt16
+  AffinityGroup, Pointer RequestContext)
+opcode: ''
+keywords: ut:TcpipNdkpi
+task: Ndkpi_Create_Srq
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: NdkPd
+- field_type: UInt32
+  field_name: SrqDepth
+- field_type: UInt32
+  field_name: MaxReceiveRequestSge
+- field_type: UInt32
+  field_name: NotifyThreshold
+- field_type: Pointer
+  field_name: SrqNotificationContext
+- field_type: UInt64
+  field_name: AffinityMask
+- field_type: UInt16
+  field_name: AffinityGroup
+- field_type: Pointer
+  field_name: RequestContext

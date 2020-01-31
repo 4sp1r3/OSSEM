@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '200'
+version: '0'
+event(fields): CEnumSearchScopeRules_SkipStart()
+opcode: Start
+keywords: CSM
+task: CEnumSearchScopeRules_Skip
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-SMBDirect
+event_id: '1007'
+version: '1'
+event(fields): task_01007_V1(GUID SocketID, HexInt32 Status)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: SocketID
+- field_type: HexInt32
+  field_name: Status

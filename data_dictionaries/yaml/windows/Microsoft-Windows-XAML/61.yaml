@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-XAML
+event_id: '61'
+version: '0'
+event(fields): ElementCreated(UInt64 ElementId)
+opcode: ''
+keywords: Detailed
+task: ElementCreated
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ElementId

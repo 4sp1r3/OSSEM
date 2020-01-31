@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-InputPanel
+event_id: '681'
+version: '0'
+event(fields): SoftKeyboard_Prediction_Prediction_HideStop()
+opcode: Stop
+keywords: TabletPC_InputPanel_Keyword
+task: SoftKeyboard_Prediction_Prediction_Hide
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

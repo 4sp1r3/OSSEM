@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-TabletPC-Platform-Input-Ninput
+event_id: '50'
+version: '0'
+event(fields): NinputTouchpadInertiaStop()
+opcode: ''
+keywords: ''
+task: NinputTouchpadInertiaStop
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

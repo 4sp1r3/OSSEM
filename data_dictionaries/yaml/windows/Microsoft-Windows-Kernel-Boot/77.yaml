@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '77'
+version: '0'
+event(fields): BootDebuggerInitFailure(UInt32 DebuggerStatus, UInt32 Status)
+opcode: InitFailure
+keywords: ''
+task: BootDebugger
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DebuggerStatus
+- field_type: UInt32
+  field_name: Status

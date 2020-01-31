@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '30010'
+version: '1'
+event(fields): ReadfromHardware.Start_V1(UInt32 HwAccessTargetType, UInt32 HwAccessTargetSize,
+  UInt32 HwAccessBufferCount)
+opcode: Start
+keywords: ''
+task: ReadfromHardware.
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HwAccessTargetType
+- field_type: UInt32
+  field_name: HwAccessTargetSize
+- field_type: UInt32
+  field_name: HwAccessBufferCount

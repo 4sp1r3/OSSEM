@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-DriverFrameworks-UserMode
+event_id: '2002'
+version: '1'
+event(fields): Startupofanewdriverhostprocess.Stop2002_V1(GUID LifetimeId, UInt32
+  ExitCode)
+opcode: Stop
+keywords: ''
+task: Startupofanewdriverhostprocess.
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: LifetimeId
+- field_type: UInt32
+  field_name: ExitCode

@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '444'
+version: '0'
+event(fields): TrackedWorkloadDescriptor(UInt64 Id, UInt32 DeadlineType, UInt32 Policy,
+  UInt32 Flags, UInt32 MaxInstances)
+opcode: ''
+keywords: DxgKrnl_Power
+task: TrackedWorkloadDescriptor
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Id
+- field_type: UInt32
+  field_name: DeadlineType
+- field_type: UInt32
+  field_name: Policy
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: MaxInstances

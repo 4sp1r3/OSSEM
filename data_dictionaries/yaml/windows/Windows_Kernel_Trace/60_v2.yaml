@@ -1,0 +1,19 @@
+provider: Windows Kernel Trace
+category: '{e43445e0-0903-48c3-b878-ff0fccebdd04}'
+event_id: '60'
+version: '2'
+event(fields): IdleExitLatency(UInt32 Flags, UInt32 PlatformState, UInt32 ProcessorState,
+  UInt32 ReturnLatency, UInt32 TotalLatency)
+event_type: ''
+description: ''
+event_fields:
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: PlatformState
+- field_type: UInt32
+  field_name: ProcessorState
+- field_type: UInt32
+  field_name: ReturnLatency
+- field_type: UInt32
+  field_name: TotalLatency

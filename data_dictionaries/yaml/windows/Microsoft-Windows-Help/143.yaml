@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '143'
+version: '0'
+event(fields): PageCustomizationStop()
+opcode: Stop
+keywords: PerfEvent
+task: PageCustomization
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

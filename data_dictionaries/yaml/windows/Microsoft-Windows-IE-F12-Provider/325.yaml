@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-IE-F12-Provider
+event_id: '325'
+version: '0'
+event(fields): Debugger_Editor_CreateModelStop(UnicodeString TraceDescription)
+opcode: Stop
+keywords: ''
+task: Debugger_Editor_CreateModel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: TraceDescription

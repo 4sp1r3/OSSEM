@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DUSER
+event_id: '82'
+version: '0'
+event(fields): DUser_ReleaseStagingBuffer(Pointer surfaceId)
+opcode: ''
+keywords: DUserSurface
+task: DUser_ReleaseStagingBuffer
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: surfaceId

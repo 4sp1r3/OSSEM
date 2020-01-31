@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Direct3D11
+event_id: '1786'
+version: '0'
+event(fields): ID3D11VideoContext_DecoderEndFrameStart(Pointer pThis, Pointer pDecoder)
+opcode: Start
+keywords: ''
+task: ID3D11VideoContext_DecoderEndFrame
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pDecoder

@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '7015'
+version: '1'
+event(fields): RemovePackageStart_V1()
+opcode: Start
+keywords: ''
+task: RemovePackage
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

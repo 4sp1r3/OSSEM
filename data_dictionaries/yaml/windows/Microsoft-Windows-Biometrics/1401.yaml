@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Biometrics
+event_id: '1401'
+version: '0'
+event(fields): BioCredProv1401(HexInt32 ErrorCode)
+opcode: ''
+keywords: ''
+task: BioCredProv
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode

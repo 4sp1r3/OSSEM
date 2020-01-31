@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-stobject
+event_id: '127'
+version: '0'
+event(fields): BatteryMeter_BigBatteryAnimationStart()
+opcode: Start
+keywords: BatteryMeter
+task: BatteryMeter_BigBatteryAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

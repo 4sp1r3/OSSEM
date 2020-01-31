@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-TerminalServices-RdpSoundDriver
+event_id: '2004'
+version: '0'
+event(fields): SettingsCheck2004(UnicodeString StringParameter, UInt32 UInt32Parameter,
+  UInt32 SessionID)
+opcode: ''
+keywords: ''
+task: SettingsCheck
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: StringParameter
+- field_type: UInt32
+  field_name: UInt32Parameter
+- field_type: UInt32
+  field_name: SessionID

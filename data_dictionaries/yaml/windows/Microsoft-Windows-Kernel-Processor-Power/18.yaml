@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Kernel-Processor-Power
+event_id: '18'
+version: '0'
+event(fields): ProcessorPerfStateChange18(UInt32 State, UInt32 Speed, UInt16 Group,
+  UInt8 Number)
+opcode: ''
+keywords: Perf
+task: ProcessorPerfStateChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: State
+- field_type: UInt32
+  field_name: Speed
+- field_type: UInt16
+  field_name: Group
+- field_type: UInt8
+  field_name: Number

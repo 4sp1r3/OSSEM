@@ -1,0 +1,75 @@
+provider: Microsoft-Windows-WFP
+event_id: '1028'
+version: '1'
+event(fields): task_01028_V1(UInt32 LocalAddressLength, Binary LocalAddress, UnicodeString
+  LocalAddressMask, UInt32 LocalTunnelEndpointLength, Binary LocalTunnelEndpoint,
+  UInt32 RemoteAddressLength, Binary RemoteAddress, UnicodeString RemoteAddressMask,
+  UInt32 RemoteTunnelEndpointLength, Binary RemoteTunnelEndpoint, UInt32 IPProtocol,
+  UInt8 KeyingModuleName, UInt8 AHAuthType, UInt8 ESPAuthType, UInt8 ESPCipherType,
+  UInt32 LifetimeSeconds, UInt32 LifetimeKilobytes, UInt32 LifetimePackets, UInt8
+  Mode, UInt8 Role, UInt64 TransportFilterId, UInt64 MMSaLuid, UInt64 QMSaLuid, UInt32
+  InboundSPI, UInt32 OutboundSPI, UInt64 VirtualIFTunnelId, UInt64 VirtualIFTrafficSelectorId,
+  UInt32 RekeySPI)
+opcode: ''
+keywords: ut:Authentication
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LocalAddressLength
+- field_type: Binary
+  field_name: LocalAddress
+- field_type: UnicodeString
+  field_name: LocalAddressMask
+- field_type: UInt32
+  field_name: LocalTunnelEndpointLength
+- field_type: Binary
+  field_name: LocalTunnelEndpoint
+- field_type: UInt32
+  field_name: RemoteAddressLength
+- field_type: Binary
+  field_name: RemoteAddress
+- field_type: UnicodeString
+  field_name: RemoteAddressMask
+- field_type: UInt32
+  field_name: RemoteTunnelEndpointLength
+- field_type: Binary
+  field_name: RemoteTunnelEndpoint
+- field_type: UInt32
+  field_name: IPProtocol
+- field_type: UInt8
+  field_name: KeyingModuleName
+- field_type: UInt8
+  field_name: AHAuthType
+- field_type: UInt8
+  field_name: ESPAuthType
+- field_type: UInt8
+  field_name: ESPCipherType
+- field_type: UInt32
+  field_name: LifetimeSeconds
+- field_type: UInt32
+  field_name: LifetimeKilobytes
+- field_type: UInt32
+  field_name: LifetimePackets
+- field_type: UInt8
+  field_name: Mode
+- field_type: UInt8
+  field_name: Role
+- field_type: UInt64
+  field_name: TransportFilterId
+- field_type: UInt64
+  field_name: MMSaLuid
+- field_type: UInt64
+  field_name: QMSaLuid
+- field_type: UInt32
+  field_name: InboundSPI
+- field_type: UInt32
+  field_name: OutboundSPI
+- field_type: UInt64
+  field_name: VirtualIFTunnelId
+- field_type: UInt64
+  field_name: VirtualIFTrafficSelectorId
+- field_type: UInt32
+  field_name: RekeySPI

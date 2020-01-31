@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '60647'
+version: '0'
+event(fields): ItemsView_UIItemsView_BlockRedrawStart()
+opcode: Start
+keywords: Shell
+task: ItemsView_UIItemsView_BlockRedraw
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

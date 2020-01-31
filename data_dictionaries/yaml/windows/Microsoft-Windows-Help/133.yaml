@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Help
+event_id: '133'
+version: '0'
+event(fields): ContentOnlineDataRetrievalStop()
+opcode: Stop
+keywords: PerfEvent
+task: ContentOnlineDataRetrieval
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

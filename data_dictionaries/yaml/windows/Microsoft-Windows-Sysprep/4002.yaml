@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Sysprep
+event_id: '4002'
+version: '0'
+event(fields): CreatelistofactionsforacomponentStop(UnicodeString ComponentName)
+opcode: Stop
+keywords: keyPerformance keySysprep
+task: Createlistofactionsforacomponent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ComponentName

@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '177'
+version: '0'
+event(fields): MFMFAudio_Render_StreamSinkAudStreamSink_RenderContainer_FreeSample(Pointer
+  object, Int64 MFTimeOfLastRenderSample)
+opcode: AudStreamSink_RenderContainer_FreeSample
+keywords: ''
+task: MFMFAudio_Render_StreamSink
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int64
+  field_name: MFTimeOfLastRenderSample

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DLNA-Namespace
+event_id: '1009'
+version: '0'
+event(fields): Discover()
+opcode: ''
+keywords: ''
+task: Discover
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

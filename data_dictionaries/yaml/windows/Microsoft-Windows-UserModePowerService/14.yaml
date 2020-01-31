@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '14'
+version: '0'
+event(fields): PowerMeterMetaData(Pointer MeterId, UInt64 SamplingPeriod, UInt32 MeterNameLength,
+  UnicodeString MeterName, UInt32 MeteredHardwareCount, UnicodeString MeteredHardwareName)
+opcode: ''
+keywords: PowerMeter
+task: PowerMeterMetaData
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MeterId
+- field_type: UInt64
+  field_name: SamplingPeriod
+- field_type: UInt32
+  field_name: MeterNameLength
+- field_type: UnicodeString
+  field_name: MeterName
+- field_type: UInt32
+  field_name: MeteredHardwareCount
+- field_type: UnicodeString
+  field_name: MeteredHardwareName

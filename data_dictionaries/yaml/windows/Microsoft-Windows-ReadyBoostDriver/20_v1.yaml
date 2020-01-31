@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-ReadyBoostDriver
+event_id: '20'
+version: '1'
+event(fields): GlobalStats_V1(UInt32 Size, Binary Data)
+opcode: ''
+keywords: StoreOps
+task: GlobalStats
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Size
+- field_type: Binary
+  field_name: Data

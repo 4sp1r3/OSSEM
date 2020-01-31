@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '1'
+version: '0'
+event(fields): Frame_URLEntered()
+opcode: ''
+keywords: primarynav
+task: Frame_URLEntered
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

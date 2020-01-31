@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Audio
+event_id: '63'
+version: '0'
+event(fields): AudioCore_EVT_MMDevAPIMMDevAPI:DeviceRemovedcallback(Pointer object)
+opcode: DeviceRemovedcallback
+keywords: ''
+task: AudioCore_EVT_MMDevAPI
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object

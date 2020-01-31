@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '13011'
+version: '1'
+event(fields): PreSetSecurityStart_V1()
+opcode: Start
+keywords: ''
+task: PreSetSecurity
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

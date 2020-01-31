@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '361'
+version: '0'
+event(fields): RehydrateTabStop()
+opcode: Stop
+keywords: tabhydration
+task: RehydrateTab
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

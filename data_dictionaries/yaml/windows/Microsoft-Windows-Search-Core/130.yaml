@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '130'
+version: '0'
+event(fields): Startup_CSearchService_Init2(Boolean NoRun, Boolean SystemSetupOver)
+opcode: ''
+keywords: Service
+task: Startup_CSearchService_Init2
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: NoRun
+- field_type: Boolean
+  field_name: SystemSetupOver

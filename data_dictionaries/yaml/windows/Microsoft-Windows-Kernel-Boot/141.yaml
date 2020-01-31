@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '141'
+version: '0'
+event(fields): PersistMemoryPartitionStop(GUID Identifier, UInt32 RunCount, UInt64
+  PageCount, UInt32 Status, UInt16 PartitionNameLength, UnicodeString PartitionName)
+opcode: Stop
+keywords: SoftRestart MemoryPreservation
+task: PersistMemoryPartition
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Identifier
+- field_type: UInt32
+  field_name: RunCount
+- field_type: UInt64
+  field_name: PageCount
+- field_type: UInt32
+  field_name: Status
+- field_type: UInt16
+  field_name: PartitionNameLength
+- field_type: UnicodeString
+  field_name: PartitionName

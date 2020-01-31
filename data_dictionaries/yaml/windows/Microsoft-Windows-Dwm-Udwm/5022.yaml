@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5022'
+version: '0'
+event(fields): UdwmRippleAnimation5022()
+opcode: ''
+keywords: Udwm
+task: UdwmRippleAnimation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,31 @@
+provider: Microsoft-Windows-SEC
+event_id: '40'
+version: '0'
+event(fields): task_040(UInt64 SequenceNumber, HexInt32 ProcessId, Int64 ProcessTime,
+  HexInt32 ThreadId, SID UserSid, HexInt32 SessionId, UnicodeString FileName, HexInt32
+  FileAttributes, UInt64 ProcessStartKey)
+opcode: ''
+keywords: keyword_40000000000
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: SequenceNumber
+- field_type: HexInt32
+  field_name: ProcessId
+- field_type: Int64
+  field_name: ProcessTime
+- field_type: HexInt32
+  field_name: ThreadId
+- field_type: SID
+  field_name: UserSid
+- field_type: HexInt32
+  field_name: SessionId
+- field_type: UnicodeString
+  field_name: FileName
+- field_type: HexInt32
+  field_name: FileAttributes
+- field_type: UInt64
+  field_name: ProcessStartKey

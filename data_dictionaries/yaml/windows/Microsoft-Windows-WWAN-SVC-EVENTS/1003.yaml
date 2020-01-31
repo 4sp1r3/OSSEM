@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-WWAN-SVC-EVENTS
+event_id: '1003'
+version: '0'
+event(fields): task_01003(UnicodeString FunctionCall, UnicodeString Method, UInt32
+  ErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: FunctionCall
+- field_type: UnicodeString
+  field_name: Method
+- field_type: UInt32
+  field_name: ErrorCode

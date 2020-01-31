@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Crashdump
+event_id: '1'
+version: '1'
+event(fields): ResumecapablesettingsOpCodeResumeCapable_V1(Boolean ResumeCapable,
+  UInt32 ReasonCodes)
+opcode: OpCodeResumeCapable
+keywords: Config
+task: Resumecapablesettings
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: ResumeCapable
+- field_type: UInt32
+  field_name: ReasonCodes

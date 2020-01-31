@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Win32k
+event_id: '162'
+version: '0'
+event(fields): DCompGetBatch(Pointer pBatch)
+opcode: ''
+keywords: Updates Visualization
+task: DCompGetBatch
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pBatch

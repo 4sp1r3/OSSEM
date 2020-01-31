@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-MCCS-SyncController
+event_id: '196'
+version: '0'
+event(fields): task_0196(Boolean P1_Boolean)
+opcode: ''
+keywords: CommsService
+task: task_0
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: P1_Boolean

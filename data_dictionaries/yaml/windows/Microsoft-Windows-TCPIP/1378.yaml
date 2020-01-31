@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1378'
+version: '0'
+event(fields): Memory1378(UInt32 HighMemoryEvent, UInt32 HighNonPagedPoolEvent, UInt32
+  LowMemoryEvent, UInt32 LowNonPagedPoolEvent)
+opcode: ''
+keywords: ut:AleMemory
+task: Memory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: HighMemoryEvent
+- field_type: UInt32
+  field_name: HighNonPagedPoolEvent
+- field_type: UInt32
+  field_name: LowMemoryEvent
+- field_type: UInt32
+  field_name: LowNonPagedPoolEvent

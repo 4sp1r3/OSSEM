@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-WinINet
+event_id: '213'
+version: '0'
+event(fields): WININET_HTTP_RESPONSE_BODY_READ_ERROR(Pointer RequestHandle, UInt32
+  Error)
+opcode: ''
+keywords: WININET_KEYWORD_HTTP WININET_KEYWORD_AOAC
+task: WININET_HTTP_RESPONSE_BODY_READ_ERROR
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: RequestHandle
+- field_type: UInt32
+  field_name: Error

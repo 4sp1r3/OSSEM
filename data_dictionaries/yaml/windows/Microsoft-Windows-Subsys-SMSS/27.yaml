@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Subsys-SMSS
+event_id: '27'
+version: '0'
+event(fields): smss:PlatformExecuteListStart()
+opcode: Start
+keywords: smss:Diagnostics
+task: smss:PlatformExecuteList
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

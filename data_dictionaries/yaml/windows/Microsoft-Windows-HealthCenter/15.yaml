@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '15'
+version: '0'
+event(fields): HealthCenter_CrimsonProcessing15(UnicodeString ChannelName)
+opcode: ''
+keywords: ''
+task: HealthCenter_CrimsonProcessing
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ChannelName

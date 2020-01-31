@@ -1,0 +1,40 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '110'
+version: '1'
+event(fields): DpiReportAdapter_V1(Pointer pDxgAdapter, UInt32 ConfigSpaceSize, UInt8
+  ConfigSpace, UInt32 ChainUid, UInt32 NumberOfLinksInChain, Boolean LeadLink, UInt32
+  BusType, UInt32 VendorID, UInt32 DeviceID, UInt32 SubVendorID, UInt32 SubSystemID,
+  UInt32 RevisionID, UInt64 AdapterLuid)
+opcode: ''
+keywords: Base
+task: DpiReportAdapter
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: ConfigSpaceSize
+- field_type: UInt8
+  field_name: ConfigSpace
+- field_type: UInt32
+  field_name: ChainUid
+- field_type: UInt32
+  field_name: NumberOfLinksInChain
+- field_type: Boolean
+  field_name: LeadLink
+- field_type: UInt32
+  field_name: BusType
+- field_type: UInt32
+  field_name: VendorID
+- field_type: UInt32
+  field_name: DeviceID
+- field_type: UInt32
+  field_name: SubVendorID
+- field_type: UInt32
+  field_name: SubSystemID
+- field_type: UInt32
+  field_name: RevisionID
+- field_type: UInt64
+  field_name: AdapterLuid

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-BranchCacheSMB
+event_id: '3001'
+version: '0'
+event(fields): task_03001()
+opcode: ''
+keywords: CscEvtKeywd_SMBBranchCache
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

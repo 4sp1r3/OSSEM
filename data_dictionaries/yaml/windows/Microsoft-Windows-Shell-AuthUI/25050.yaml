@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-AuthUI
+event_id: '25050'
+version: '0'
+event(fields): Logon_LogonFrame_WTSRegisterSessionNotificationStop()
+opcode: Stop
+keywords: ''
+task: Logon_LogonFrame_WTSRegisterSessionNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

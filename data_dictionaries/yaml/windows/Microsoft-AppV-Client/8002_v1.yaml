@@ -1,0 +1,15 @@
+provider: Microsoft-AppV-Client
+event_id: '8002'
+version: '1'
+event(fields): ParseDynamicConfigurationFile8002_V1(Int32 Error, UnicodeString Reason)
+opcode: ''
+keywords: DynamicConfiguration
+task: ParseDynamicConfigurationFile
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Error
+- field_type: UnicodeString
+  field_name: Reason

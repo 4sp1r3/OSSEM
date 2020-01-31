@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-HealthCenter
+event_id: '11'
+version: '0'
+event(fields): HealthCenter_LoadFromCache(UnicodeString CanonicalName, UInt32 HRESULT)
+opcode: ''
+keywords: ''
+task: HealthCenter_LoadFromCache
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: CanonicalName
+- field_type: UInt32
+  field_name: HRESULT

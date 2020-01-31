@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '14216'
+version: '0'
+event(fields): TypeAhead_SearchHistoryStoreStop()
+opcode: Stop
+keywords: Shell
+task: TypeAhead_SearchHistoryStore
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

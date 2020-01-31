@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MPS-SRV
+event_id: '283'
+version: '0'
+event(fields): MPS_SVC_API_QueryConnectionSecurityRulesStop()
+opcode: Stop
+keywords: Service
+task: MPS_SVC_API_QueryConnectionSecurityRules
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

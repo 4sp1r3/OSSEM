@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '3130'
+version: '0'
+event(fields): PINRecoveryStart3130(UInt32 PinRecoveryEntryType)
+opcode: Start
+keywords: Internal
+task: PINRecovery
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PinRecoveryEntryType

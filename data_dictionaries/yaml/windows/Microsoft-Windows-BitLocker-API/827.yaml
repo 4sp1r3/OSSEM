@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '827'
+version: '0'
+event(fields): BitLockerPasswordModificationTask827(Int32 ErrorCode)
+opcode: ''
+keywords: ''
+task: BitLockerPasswordModificationTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: ErrorCode

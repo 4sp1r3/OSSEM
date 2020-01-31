@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1019'
+version: '0'
+event(fields): SensorsCxGetDataIntervalTask(Pointer WdfDevice, Pointer SENSOROBJECT,
+  Pointer pIntervalMs, UInt32 NtStatus)
+opcode: ''
+keywords: ''
+task: SensorsCxGetDataIntervalTask
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: Pointer
+  field_name: SENSOROBJECT
+- field_type: Pointer
+  field_name: pIntervalMs
+- field_type: UInt32
+  field_name: NtStatus

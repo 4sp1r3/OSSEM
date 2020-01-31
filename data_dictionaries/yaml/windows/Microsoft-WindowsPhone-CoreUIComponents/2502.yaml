@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2502'
+version: '0'
+event(fields): Task2502(UInt32 unParam)
+opcode: ''
+keywords: Error
+task: Task
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

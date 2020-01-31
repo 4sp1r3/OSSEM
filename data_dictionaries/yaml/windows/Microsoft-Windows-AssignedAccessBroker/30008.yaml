@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AssignedAccessBroker
+event_id: '30008'
+version: '0'
+event(fields): AbovelockToastTask(UnicodeString Operation, HexInt32 HResult)
+opcode: ''
+keywords: ''
+task: AbovelockToastTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Operation
+- field_type: HexInt32
+  field_name: HResult

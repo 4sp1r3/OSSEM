@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '1030'
+version: '0'
+event(fields): Objwriter_Write_ObjectStop(UInt32 Element)
+opcode: Stop
+keywords: ''
+task: Objwriter_Write_Object
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Element

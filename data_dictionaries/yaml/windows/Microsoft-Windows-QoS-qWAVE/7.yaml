@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-QoS-qWAVE
+event_id: '7'
+version: '0'
+event(fields): task_07(UInt32 AddressLen, Binary Address, UInt32 Flags, UInt32 FailureActivity,
+  UInt32 FailureErrorCodeType, UInt32 FailureErrorCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: AddressLen
+- field_type: Binary
+  field_name: Address
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: FailureActivity
+- field_type: UInt32
+  field_name: FailureErrorCodeType
+- field_type: UInt32
+  field_name: FailureErrorCode

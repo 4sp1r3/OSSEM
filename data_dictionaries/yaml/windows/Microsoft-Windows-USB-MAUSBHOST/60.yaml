@@ -1,0 +1,29 @@
+provider: Microsoft-Windows-USB-MAUSBHOST
+event_id: '60'
+version: '0'
+event(fields): StateMachineInformation(Pointer fid_Controller, Pointer fid_UsbDevice,
+  Pointer fid_Endpoint, Pointer fid_ObjectHandle, UInt32 fid_TransitionType, UInt32
+  fid_SourceState, UInt32 fid_Event, UInt32 fid_TargetState)
+opcode: Information
+keywords: Default StateMachine
+task: StateMachine
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_Controller
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: Pointer
+  field_name: fid_Endpoint
+- field_type: Pointer
+  field_name: fid_ObjectHandle
+- field_type: UInt32
+  field_name: fid_TransitionType
+- field_type: UInt32
+  field_name: fid_SourceState
+- field_type: UInt32
+  field_name: fid_Event
+- field_type: UInt32
+  field_name: fid_TargetState

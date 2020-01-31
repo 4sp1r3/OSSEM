@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Mobile-Broadband-Experience-SmsApi
+event_id: '1006'
+version: '0'
+event(fields): GetMessagesStart()
+opcode: Start
+keywords: ''
+task: GetMessages
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

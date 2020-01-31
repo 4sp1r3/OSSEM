@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Dhcp-Client
+event_id: '60002'
+version: '0'
+event(fields): AddressConfigurationStateEventPerfTrackGatewayReachable(GUID InterfaceGuid,
+  UInt32 InterfaceId)
+opcode: PerfTrackGatewayReachable
+keywords: ''
+task: AddressConfigurationStateEvent
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: InterfaceGuid
+- field_type: UInt32
+  field_name: InterfaceId

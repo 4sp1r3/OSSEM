@@ -1,0 +1,17 @@
+provider: Microsoft-AppV-Client
+event_id: '1002'
+version: '1'
+event(fields): ConfigurePackage_V1(GUID Package, GUID Version, UnicodeString Folder)
+opcode: ''
+keywords: Publishing
+task: ConfigurePackage
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Package
+- field_type: GUID
+  field_name: Version
+- field_type: UnicodeString
+  field_name: Folder

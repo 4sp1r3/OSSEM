@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '172'
+version: '1'
+event(fields): RobotThread_IsHistoryIterator_V1(UInt64 ITrans)
+opcode: ''
+keywords: IndexingItem Gatherer
+task: RobotThread_IsHistoryIterator
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: ITrans

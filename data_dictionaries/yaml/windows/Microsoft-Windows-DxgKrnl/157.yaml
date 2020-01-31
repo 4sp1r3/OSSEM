@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '157'
+version: '0'
+event(fields): DdiNotifyAcpiEventStop(Pointer MiniportContext, Int32 EventType, UInt32
+  Event, UInt32 AcpiFlags, UInt32 Status)
+opcode: Stop
+keywords: Base
+task: DdiNotifyAcpiEvent
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: MiniportContext
+- field_type: Int32
+  field_name: EventType
+- field_type: UInt32
+  field_name: Event
+- field_type: UInt32
+  field_name: AcpiFlags
+- field_type: UInt32
+  field_name: Status

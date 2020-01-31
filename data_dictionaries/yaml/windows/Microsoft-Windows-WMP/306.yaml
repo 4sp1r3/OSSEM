@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMP
+event_id: '306'
+version: '0'
+event(fields): BASKETStop(UnicodeString Value1, UInt32 Value2)
+opcode: Stop
+keywords: mediaplayer
+task: BASKET
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: Value1
+- field_type: UInt32
+  field_name: Value2

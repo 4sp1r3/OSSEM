@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '2682'
+version: '0'
+event(fields): Settings_Launch_PermissionsStart()
+opcode: Start
+keywords: ''
+task: Settings_Launch_Permissions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

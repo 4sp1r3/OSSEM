@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '60004'
+version: '0'
+event(fields): task_060004(UInt32 Context, UInt32 UpdateReasonCode)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Context
+- field_type: UInt32
+  field_name: UpdateReasonCode

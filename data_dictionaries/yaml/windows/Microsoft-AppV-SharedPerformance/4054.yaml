@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '4054'
+version: '0'
+event(fields): Send_AppvClientReportStart()
+opcode: Start
+keywords: ''
+task: Send_AppvClientReport
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3018'
+version: '0'
+event(fields): NewCloudNotificationArrival(UnicodeString AppUserModelId, UInt32 TrackingId)
+opcode: ''
+keywords: wpnui wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage
+  wpnperf_NewCloudNotificationArrival wpnperf_NewCloudNotificationArrivalWithCloudImage
+  wpndev_NotificationE2E
+task: NewCloudNotificationArrival
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: TrackingId

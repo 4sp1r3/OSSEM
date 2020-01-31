@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-OverlayFilter
+event_id: '24834'
+version: '0'
+event(fields): WIMintegrityverificationIntegrityInvalidBlock(UInt16 FileNameLength,
+  UnicodeString FileNameBuffer, Int64 FileOffset, UInt32 ReadSize)
+opcode: IntegrityInvalidBlock
+keywords: ''
+task: WIMintegrityverification
+level: Critical
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt16
+  field_name: FileNameLength
+- field_type: UnicodeString
+  field_name: FileNameBuffer
+- field_type: Int64
+  field_name: FileOffset
+- field_type: UInt32
+  field_name: ReadSize

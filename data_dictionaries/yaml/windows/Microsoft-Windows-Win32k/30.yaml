@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Win32k
+event_id: '30'
+version: '0'
+event(fields): LogicalSurfDestroy(UInt64 hLogicalSurf, UInt32 Flags)
+opcode: ''
+keywords: Updates
+task: LogicalSurfDestroy
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: hLogicalSurf
+- field_type: UInt32
+  field_name: Flags

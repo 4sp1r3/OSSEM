@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-StorageSpaces-Driver
+event_id: '1008'
+version: '0'
+event(fields): task_01008(GUID Id)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: Id

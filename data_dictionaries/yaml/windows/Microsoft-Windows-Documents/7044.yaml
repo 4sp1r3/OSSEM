@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Documents
+event_id: '7044'
+version: '0'
+event(fields): DocPerf_Task_XpsViewer_DigSig_SignDigSigStart()
+opcode: Start
+keywords: DocPerf
+task: DocPerf_Task_XpsViewer_DigSig_SignDigSig
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

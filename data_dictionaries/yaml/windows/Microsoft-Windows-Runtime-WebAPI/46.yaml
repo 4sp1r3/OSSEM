@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Runtime-WebAPI
+event_id: '46'
+version: '0'
+event(fields): AsyncI/OParsecategorydocument(UnicodeString uri, UInt32 hresult, Int32
+  errorMessage)
+opcode: Parsecategorydocument
+keywords: keywords.AtomPub
+task: AsyncI/O
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: uri
+- field_type: UInt32
+  field_name: hresult
+- field_type: Int32
+  field_name: errorMessage

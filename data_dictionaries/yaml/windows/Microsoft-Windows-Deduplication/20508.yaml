@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-Deduplication
+event_id: '20508'
+version: '0'
+event(fields): CopychunkStart(Pointer Block, UInt32 Size, UInt32 BufferType, UInt32
+  BufferOffset, UInt32 OutputCapacity)
+opcode: Start
+keywords: KmChunkContainer
+task: Copychunk
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Block
+- field_type: UInt32
+  field_name: Size
+- field_type: UInt32
+  field_name: BufferType
+- field_type: UInt32
+  field_name: BufferOffset
+- field_type: UInt32
+  field_name: OutputCapacity

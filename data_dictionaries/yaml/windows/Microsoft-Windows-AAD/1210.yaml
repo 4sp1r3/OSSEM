@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-AAD
+event_id: '1210'
+version: '0'
+event(fields): AadCloudAPPluginOperation1210(UnicodeString value)
+opcode: ''
+keywords: Operational Warning
+task: AadCloudAPPluginOperation
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: value

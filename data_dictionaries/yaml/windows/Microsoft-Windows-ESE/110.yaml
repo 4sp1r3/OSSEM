@@ -1,0 +1,52 @@
+provider: Microsoft-Windows-ESE
+event_id: '110'
+version: '0'
+event(fields): ESE_CacheDirtyPage_Trace(UInt32 tick, UInt32 ifmp, UInt32 pgno, UInt32
+  objid, UInt32 PageFlags, UInt32 DirtyLevel, UInt64 LgposModify, UInt32 UserId, UInt8
+  OperationId, UInt8 OperationType, UInt8 ClientType, UInt8 Flags, UInt32 CorrelationId,
+  UInt8 Iorp, UInt8 Iors, UInt8 Iort, UInt8 Ioru, UInt8 Iorf, UInt8 ParentObjectClass)
+opcode: ''
+keywords: Performance BF BFRESMGR
+task: ESE_CacheDirtyPage_Trace
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: tick
+- field_type: UInt32
+  field_name: ifmp
+- field_type: UInt32
+  field_name: pgno
+- field_type: UInt32
+  field_name: objid
+- field_type: UInt32
+  field_name: PageFlags
+- field_type: UInt32
+  field_name: DirtyLevel
+- field_type: UInt64
+  field_name: LgposModify
+- field_type: UInt32
+  field_name: UserId
+- field_type: UInt8
+  field_name: OperationId
+- field_type: UInt8
+  field_name: OperationType
+- field_type: UInt8
+  field_name: ClientType
+- field_type: UInt8
+  field_name: Flags
+- field_type: UInt32
+  field_name: CorrelationId
+- field_type: UInt8
+  field_name: Iorp
+- field_type: UInt8
+  field_name: Iors
+- field_type: UInt8
+  field_name: Iort
+- field_type: UInt8
+  field_name: Ioru
+- field_type: UInt8
+  field_name: Iorf
+- field_type: UInt8
+  field_name: ParentObjectClass

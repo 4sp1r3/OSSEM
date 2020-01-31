@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '22'
+version: '0'
+event(fields): ExtensionCatalog_CustomPropertyLookupStop(Int32 HRESULT, UnicodeString
+  CustomPropertyKey)
+opcode: Stop
+keywords: ''
+task: ExtensionCatalog_CustomPropertyLookup
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: HRESULT
+- field_type: UnicodeString
+  field_name: CustomPropertyKey

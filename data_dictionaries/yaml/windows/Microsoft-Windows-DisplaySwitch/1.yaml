@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-DisplaySwitch
+event_id: '1'
+version: '0'
+event(fields): DisplaySwitch_ApplicationStart()
+opcode: Start
+keywords: ''
+task: DisplaySwitch_Application
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-StateRepository
+event_id: '263'
+version: '0'
+event(fields): StateRepository.Task.DataAccessLayer263(HexInt32 ErrorCode, HexInt32
+  Options, UInt64 FixCount)
+opcode: ''
+keywords: STATEREPOSITORY_KEYWORD
+task: StateRepository.Task.DataAccessLayer
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: HexInt32
+  field_name: Options
+- field_type: UInt64
+  field_name: FixCount

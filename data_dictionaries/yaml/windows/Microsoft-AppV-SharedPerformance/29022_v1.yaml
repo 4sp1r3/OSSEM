@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '29022'
+version: '1'
+event(fields): ShutdownTask.Start_V1()
+opcode: Start
+keywords: ''
+task: ShutdownTask.
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

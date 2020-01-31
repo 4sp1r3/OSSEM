@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-DXGI
+event_id: '147'
+version: '0'
+event(fields): IDXGIOutput_TakeOwnershipStop(UInt32 m_Ret)
+opcode: Stop
+keywords: ''
+task: IDXGIOutput_TakeOwnership
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: m_Ret

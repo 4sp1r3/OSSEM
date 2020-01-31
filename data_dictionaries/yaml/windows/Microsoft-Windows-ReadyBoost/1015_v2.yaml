@@ -1,0 +1,41 @@
+provider: Microsoft-Windows-ReadyBoost
+event_id: '1015'
+version: '2'
+event(fields): ReadyBoot_V2(UInt64 RB_IoReadBytes, UInt64 RB_CacheHitBytes, UInt64
+  RB_PrefetchBytes, Double RB_CacheHitPercentage, UInt32 RB_IoReadCount, UInt32 RB_CacheHitCount,
+  UInt32 RB_PrefetchReadCount, UInt32 RB_PrefetchDiskTimeUs, UInt64 RB_SyncPrefetchIoBytes,
+  UInt32 RB_SyncPrefetchIoCount, UInt32 RB_SyncPhaseDurationUs, UInt32 RB_PostSyncPhasePendCount,
+  UInt32 RB_Flags)
+opcode: ''
+keywords: ReadyBoot
+task: ReadyBoot
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: RB_IoReadBytes
+- field_type: UInt64
+  field_name: RB_CacheHitBytes
+- field_type: UInt64
+  field_name: RB_PrefetchBytes
+- field_type: Double
+  field_name: RB_CacheHitPercentage
+- field_type: UInt32
+  field_name: RB_IoReadCount
+- field_type: UInt32
+  field_name: RB_CacheHitCount
+- field_type: UInt32
+  field_name: RB_PrefetchReadCount
+- field_type: UInt32
+  field_name: RB_PrefetchDiskTimeUs
+- field_type: UInt64
+  field_name: RB_SyncPrefetchIoBytes
+- field_type: UInt32
+  field_name: RB_SyncPrefetchIoCount
+- field_type: UInt32
+  field_name: RB_SyncPhaseDurationUs
+- field_type: UInt32
+  field_name: RB_PostSyncPhasePendCount
+- field_type: UInt32
+  field_name: RB_Flags

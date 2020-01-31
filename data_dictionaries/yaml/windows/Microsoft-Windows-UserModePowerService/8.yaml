@@ -1,0 +1,54 @@
+provider: Microsoft-Windows-UserModePowerService
+event_id: '8'
+version: '0'
+event(fields): RundownBatteryInformation(UnicodeString DeviceName, UnicodeString ManufacturerName,
+  UInt8 ManufactureDay, UInt8 ManufactureMonth, UInt16 ManufactureYear, UnicodeString
+  SerialNumber, UInt32 Capabilities, UInt8 Technology, Binary Pad, AnsiString Chemistry,
+  UInt32 DesignCapacity, UInt32 FullChargeCapacity, UInt32 DefaultAlert1, UInt32 DefaultAlert2,
+  UInt32 CriticalBias, UInt32 CycleCount, UInt32 GranularityScaleCount, SID GranularityScale,
+  UnicodeString UniqueId)
+opcode: ''
+keywords: ''
+task: RundownBatteryInformation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: DeviceName
+- field_type: UnicodeString
+  field_name: ManufacturerName
+- field_type: UInt8
+  field_name: ManufactureDay
+- field_type: UInt8
+  field_name: ManufactureMonth
+- field_type: UInt16
+  field_name: ManufactureYear
+- field_type: UnicodeString
+  field_name: SerialNumber
+- field_type: UInt32
+  field_name: Capabilities
+- field_type: UInt8
+  field_name: Technology
+- field_type: Binary
+  field_name: Pad
+- field_type: AnsiString
+  field_name: Chemistry
+- field_type: UInt32
+  field_name: DesignCapacity
+- field_type: UInt32
+  field_name: FullChargeCapacity
+- field_type: UInt32
+  field_name: DefaultAlert1
+- field_type: UInt32
+  field_name: DefaultAlert2
+- field_type: UInt32
+  field_name: CriticalBias
+- field_type: UInt32
+  field_name: CycleCount
+- field_type: UInt32
+  field_name: GranularityScaleCount
+- field_type: SID
+  field_name: GranularityScale
+- field_type: UnicodeString
+  field_name: UniqueId

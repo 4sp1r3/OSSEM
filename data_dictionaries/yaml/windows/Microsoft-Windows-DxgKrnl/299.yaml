@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '299'
+version: '0'
+event(fields): RetireSyncPoint(Pointer hDevice, UInt64 SyncPointId)
+opcode: ''
+keywords: Base
+task: RetireSyncPoint
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: hDevice
+- field_type: UInt64
+  field_name: SyncPointId

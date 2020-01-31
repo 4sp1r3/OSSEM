@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Diagnostics-LoggingChannel
+event_id: '10'
+version: '0'
+event(fields): task_010(UnicodeString LoggingChannelName, UnicodeString StringValue,
+  Int32 IntegerValue)
+opcode: ''
+keywords: K_LogPair
+task: task_0
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LoggingChannelName
+- field_type: UnicodeString
+  field_name: StringValue
+- field_type: Int32
+  field_name: IntegerValue

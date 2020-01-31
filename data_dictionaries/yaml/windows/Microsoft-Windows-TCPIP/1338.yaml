@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-TCPIP
+event_id: '1338'
+version: '0'
+event(fields): UdpDetachNotificationChannel(Pointer UdpEndpoint, Pointer NcmContext,
+  UInt32 Activated, UInt32 Pid, UInt32 IsLoopback, UInt32 ChannelStatus, UInt32 Status)
+opcode: ''
+keywords: ut:Global
+task: UdpDetachNotificationChannel
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: UdpEndpoint
+- field_type: Pointer
+  field_name: NcmContext
+- field_type: UInt32
+  field_name: Activated
+- field_type: UInt32
+  field_name: Pid
+- field_type: UInt32
+  field_name: IsLoopback
+- field_type: UInt32
+  field_name: ChannelStatus
+- field_type: UInt32
+  field_name: Status

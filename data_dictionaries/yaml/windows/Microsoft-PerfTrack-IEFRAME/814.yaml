@@ -1,0 +1,11 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '814'
+version: '0'
+event(fields): Thumbnail_RemoveGuttersStart()
+opcode: Start
+keywords: nonPerfTrack
+task: Thumbnail_RemoveGutters
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

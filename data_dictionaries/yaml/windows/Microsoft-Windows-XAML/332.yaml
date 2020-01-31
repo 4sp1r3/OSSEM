@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-XAML
+event_id: '332'
+version: '0'
+event(fields): CommitSecondaryDeviceStop()
+opcode: Stop
+keywords: Rendering
+task: CommitSecondaryDevice
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

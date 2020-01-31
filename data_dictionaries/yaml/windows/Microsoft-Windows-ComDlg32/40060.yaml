@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ComDlg32
+event_id: '40060'
+version: '0'
+event(fields): FontChooserCommonDialogChooseFontendWM_INITDIALOG()
+opcode: ChooseFontendWM_INITDIALOG
+keywords: ''
+task: FontChooserCommonDialog
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

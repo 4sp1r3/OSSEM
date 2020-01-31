@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '238'
+version: '0'
+event(fields): UnwaitQueuePacket(Pointer QueuePacket, Pointer hContext)
+opcode: ''
+keywords: Base
+task: UnwaitQueuePacket
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: QueuePacket
+- field_type: Pointer
+  field_name: hContext

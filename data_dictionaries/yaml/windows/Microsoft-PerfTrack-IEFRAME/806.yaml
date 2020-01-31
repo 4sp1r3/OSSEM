@@ -1,0 +1,13 @@
+provider: Microsoft-PerfTrack-IEFRAME
+event_id: '806'
+version: '0'
+event(fields): Browseui_CIMTabView_CloseTab_PerftrackStart(UInt64 Object)
+opcode: Start
+keywords: nonPerfTrack
+task: Browseui_CIMTabView_CloseTab_Perftrack
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: Object

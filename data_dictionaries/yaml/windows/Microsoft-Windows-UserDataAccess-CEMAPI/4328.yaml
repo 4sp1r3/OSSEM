@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-UserDataAccess-CEMAPI
+event_id: '4328'
+version: '0'
+event(fields): CTX_OPENMSGSTOREStart()
+opcode: Start
+keywords: Performance
+task: CTX_OPENMSGSTORE
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

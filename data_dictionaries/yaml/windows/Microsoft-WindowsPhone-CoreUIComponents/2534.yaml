@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '2534'
+version: '0'
+event(fields): TaskNTLaunchChildTaskComplete(UInt32 unParam)
+opcode: NTLaunchChildTaskComplete
+keywords: NavigationPerformance Task
+task: Task
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: unParam

@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-Kernel-EventTracing
+event_id: '26'
+version: '0'
+event(fields): EnableInfo(GUID GUID, UInt8 Index, UInt16 LoggerId, UInt64 MatchAnyKeyword,
+  UInt64 MatchAllKeyword, UInt8 Level, UInt32 EnableProperty)
+opcode: ''
+keywords: ETW_KEYWORD_PROVIDER ETW_KEYWORD_CAPTURE_STATE
+task: EnableInfo
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: GUID
+- field_type: UInt8
+  field_name: Index
+- field_type: UInt16
+  field_name: LoggerId
+- field_type: UInt64
+  field_name: MatchAnyKeyword
+- field_type: UInt64
+  field_name: MatchAllKeyword
+- field_type: UInt8
+  field_name: Level
+- field_type: UInt32
+  field_name: EnableProperty

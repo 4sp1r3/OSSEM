@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Immersive-Shell
+event_id: '11115'
+version: '0'
+event(fields): PLM_QuiesceHangReport(UnicodeString PsmKey)
+opcode: ''
+keywords: PLMComponent
+task: PLM_QuiesceHangReport
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PsmKey

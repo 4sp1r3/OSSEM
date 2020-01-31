@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Kernel-Boot
+event_id: '151'
+version: '0'
+event(fields): PartitionInitialAddMemoryStart(UInt32 PartitionId, UInt32 RunCount,
+  UInt64 PageCount)
+opcode: Start
+keywords: MemoryPartitions
+task: PartitionInitialAddMemory
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PartitionId
+- field_type: UInt32
+  field_name: RunCount
+- field_type: UInt64
+  field_name: PageCount

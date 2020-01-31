@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Search-Core
+event_id: '95'
+version: '0'
+event(fields): Backoff_AllowNewItemsCheck(UInt32 LastIndexNewItemReason, UInt32 IndexNewItemReason,
+  UInt32 BackoffReason)
+opcode: ''
+keywords: Backoff
+task: Backoff_AllowNewItemsCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: LastIndexNewItemReason
+- field_type: UInt32
+  field_name: IndexNewItemReason
+- field_type: UInt32
+  field_name: BackoffReason

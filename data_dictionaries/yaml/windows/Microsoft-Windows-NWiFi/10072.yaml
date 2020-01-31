@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-NWiFi
+event_id: '10072'
+version: '0'
+event(fields): task_010072(UInt32 PowerMgmtMode, Boolean PowerMgmtModeSupported, GUID
+  AdapterGuid, Binary MAC, AnsiString SSID)
+opcode: ''
+keywords: PowerMgmt
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PowerMgmtMode
+- field_type: Boolean
+  field_name: PowerMgmtModeSupported
+- field_type: GUID
+  field_name: AdapterGuid
+- field_type: Binary
+  field_name: MAC
+- field_type: AnsiString
+  field_name: SSID

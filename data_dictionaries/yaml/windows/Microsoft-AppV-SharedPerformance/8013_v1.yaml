@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '8013'
+version: '1'
+event(fields): NotifyShortcutUnpinStart_V1()
+opcode: Start
+keywords: ''
+task: NotifyShortcutUnpin
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

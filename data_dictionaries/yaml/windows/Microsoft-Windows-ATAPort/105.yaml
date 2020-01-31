@@ -1,0 +1,34 @@
+provider: Microsoft-Windows-ATAPort
+event_id: '105'
+version: '0'
+event(fields): ATAportGeneralATAPORT_OPCODE_IO_REQUEST_TRANSPORT_ERROR(UInt32 DeviceAddress,
+  UInt32 RequestSequence, UInt64 QueueTime, UInt64 DeviceTime, Pointer MasterIRP,
+  UInt32 ActiveRequestCount, UInt16 IRBFunction, UInt8 DeviceCommand, UInt8 IRBStatus,
+  UInt8 ATAStatus)
+opcode: ATAPORT_OPCODE_IO_REQUEST_TRANSPORT_ERROR
+keywords: IOErrors
+task: ATAportGeneral
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DeviceAddress
+- field_type: UInt32
+  field_name: RequestSequence
+- field_type: UInt64
+  field_name: QueueTime
+- field_type: UInt64
+  field_name: DeviceTime
+- field_type: Pointer
+  field_name: MasterIRP
+- field_type: UInt32
+  field_name: ActiveRequestCount
+- field_type: UInt16
+  field_name: IRBFunction
+- field_type: UInt8
+  field_name: DeviceCommand
+- field_type: UInt8
+  field_name: IRBStatus
+- field_type: UInt8
+  field_name: ATAStatus

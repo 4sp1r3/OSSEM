@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-RemoteApp and Desktop Connections
+event_id: '1030'
+version: '0'
+event(fields): Connection1030(UnicodeString UserName, UnicodeString ConnectionName)
+opcode: ''
+keywords: ''
+task: Connection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: UserName
+- field_type: UnicodeString
+  field_name: ConnectionName

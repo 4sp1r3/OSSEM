@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '3306'
+version: '0'
+event(fields): ChannelFactoryCaching3306(Int32 Count, UnicodeString EventSource, UnicodeString
+  AppDomain)
+opcode: ''
+keywords: ServiceModel
+task: ChannelFactoryCaching
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: Count
+- field_type: UnicodeString
+  field_name: EventSource
+- field_type: UnicodeString
+  field_name: AppDomain

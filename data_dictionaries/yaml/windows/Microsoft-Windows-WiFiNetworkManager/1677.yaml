@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-WiFiNetworkManager
+event_id: '1677'
+version: '0'
+event(fields): task_01677(Boolean bQueryTM, Boolean bScmEnabled, Boolean bCredEnabled,
+  Boolean bCPEnabled, UInt32 dwTMFlags, Boolean bCloudEnabled)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Boolean
+  field_name: bQueryTM
+- field_type: Boolean
+  field_name: bScmEnabled
+- field_type: Boolean
+  field_name: bCredEnabled
+- field_type: Boolean
+  field_name: bCPEnabled
+- field_type: UInt32
+  field_name: dwTMFlags
+- field_type: Boolean
+  field_name: bCloudEnabled

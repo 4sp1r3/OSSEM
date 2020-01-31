@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '159'
+version: '0'
+event(fields): Find_ChangeSelectedHitStop()
+opcode: Stop
+keywords: primarynav
+task: Find_ChangeSelectedHit
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

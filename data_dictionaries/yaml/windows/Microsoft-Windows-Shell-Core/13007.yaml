@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '13007'
+version: '0'
+event(fields): NamespaceControl_RenderingStart()
+opcode: Start
+keywords: Shell
+task: NamespaceControl_Rendering
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

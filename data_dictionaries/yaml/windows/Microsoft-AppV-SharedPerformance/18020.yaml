@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '18020'
+version: '0'
+event(fields): SendchangenotificationsStart()
+opcode: Start
+keywords: ''
+task: Sendchangenotifications
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

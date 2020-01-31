@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-PDFReader
+event_id: '172'
+version: '0'
+event(fields): ManipulationDelta(Float NewZoom, Float TranslationDeltaX, Float TranslationDeltaY,
+  Boolean TranslationDeltaIsInertial, Float TranslationDeltaAnchorPointX, Float TranslationDeltaAnchorPointY)
+opcode: ''
+keywords: Reader
+task: ManipulationDelta
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Float
+  field_name: NewZoom
+- field_type: Float
+  field_name: TranslationDeltaX
+- field_type: Float
+  field_name: TranslationDeltaY
+- field_type: Boolean
+  field_name: TranslationDeltaIsInertial
+- field_type: Float
+  field_name: TranslationDeltaAnchorPointX
+- field_type: Float
+  field_name: TranslationDeltaAnchorPointY

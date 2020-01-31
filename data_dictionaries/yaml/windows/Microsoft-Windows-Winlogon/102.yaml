@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '102'
+version: '0'
+event(fields): CreatePrimaryTerminalStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: CreatePrimaryTerminal
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

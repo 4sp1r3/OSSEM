@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Sdbus
+event_id: '104'
+version: '0'
+event(fields): Error(HexInt64 SDHostPhysicalAddress, HexInt32 ErrorCode, UInt32 ErrorCount)
+opcode: ''
+keywords: Emmc
+task: Error
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: HexInt64
+  field_name: SDHostPhysicalAddress
+- field_type: HexInt32
+  field_name: ErrorCode
+- field_type: UInt32
+  field_name: ErrorCount

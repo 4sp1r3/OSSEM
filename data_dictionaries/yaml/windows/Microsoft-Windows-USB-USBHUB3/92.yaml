@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-USB-USBHUB3
+event_id: '92'
+version: '0'
+event(fields): ClientRequestStart92(Pointer fid_UsbDevice, UInt32 fid_UrbFunction)
+opcode: Start
+keywords: Default IRP
+task: ClientRequest
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: fid_UsbDevice
+- field_type: UInt32
+  field_name: fid_UrbFunction

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-MSFTEDIT
+event_id: '17'
+version: '0'
+event(fields): ChangeSelectionStop()
+opcode: Stop
+keywords: ''
+task: ChangeSelection
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

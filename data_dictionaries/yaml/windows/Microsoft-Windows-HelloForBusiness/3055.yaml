@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-HelloForBusiness
+event_id: '3055'
+version: '0'
+event(fields): ContainerCreationStart()
+opcode: Start
+keywords: Internal
+task: ContainerCreation
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

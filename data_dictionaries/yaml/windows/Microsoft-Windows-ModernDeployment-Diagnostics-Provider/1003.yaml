@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-ModernDeployment-Diagnostics-Provider
+event_id: '1003'
+version: '0'
+event(fields): task_01003()
+opcode: ''
+keywords: ''
+task: task_0
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

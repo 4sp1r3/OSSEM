@@ -1,0 +1,20 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '4004'
+version: '0'
+event(fields): SynchronizationtofilesystemAppAgent4004(UnicodeString fileIdentifier,
+  UnicodeString packagePath, UnicodeString serverRoot, Int32 hresult)
+opcode: AppAgent
+keywords: ''
+task: Synchronizationtofilesystem
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: fileIdentifier
+- field_type: UnicodeString
+  field_name: packagePath
+- field_type: UnicodeString
+  field_name: serverRoot
+- field_type: Int32
+  field_name: hresult

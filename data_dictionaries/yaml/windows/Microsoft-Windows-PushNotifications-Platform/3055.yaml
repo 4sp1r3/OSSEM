@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '3055'
+version: '0'
+event(fields): ClearToastNotification(UInt32 SessionId)
+opcode: ''
+keywords: wpnui wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage
+  wpnperf_NewCloudNotificationArrival wpnperf_NewCloudNotificationArrivalWithCloudImage
+  wpntroubleshoot wpndebug_cloudtile_isolate wpndebug_localtile_isolate wpndev_NotificationE2E
+task: ClearToastNotification
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: SessionId

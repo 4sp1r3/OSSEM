@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-MediaFoundation-Performance-Core
+event_id: '527'
+version: '0'
+event(fields): AudCaptureStream_Info_TaskAudioCaptureSessionNotify_OnSessionDisconnected(Pointer
+  object, Int32 DisconnectReason)
+opcode: AudioCaptureSessionNotify_OnSessionDisconnected
+keywords: ''
+task: AudCaptureStream_Info_Task
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: object
+- field_type: Int32
+  field_name: DisconnectReason

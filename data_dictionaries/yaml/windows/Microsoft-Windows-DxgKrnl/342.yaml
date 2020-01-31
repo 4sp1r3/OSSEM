@@ -1,0 +1,18 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '342'
+version: '0'
+event(fields): HardwareContentProtectionTeardown(Pointer pDxgAdapter, UInt32 Flags,
+  UInt32 SessionId)
+opcode: ''
+keywords: Base
+task: HardwareContentProtectionTeardown
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pDxgAdapter
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: SessionId

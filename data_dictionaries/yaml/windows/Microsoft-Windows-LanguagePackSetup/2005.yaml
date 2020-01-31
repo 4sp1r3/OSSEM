@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-LanguagePackSetup
+event_id: '2005'
+version: '0'
+event(fields): RunningthelpksetupWizard()
+opcode: ''
+keywords: ''
+task: RunningthelpksetupWizard
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,22 @@
+provider: Microsoft-IEFRAME
+event_id: '578'
+version: '0'
+event(fields): Terminate_Browser_Tab_ProcessStop(Int32 TabID, Boolean AllowRecovery,
+  Boolean UseWER, Boolean HangUIShowing, UInt32 Result)
+opcode: Stop
+keywords: hang
+task: Terminate_Browser_Tab_Process
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Int32
+  field_name: TabID
+- field_type: Boolean
+  field_name: AllowRecovery
+- field_type: Boolean
+  field_name: UseWER
+- field_type: Boolean
+  field_name: HangUIShowing
+- field_type: UInt32
+  field_name: Result

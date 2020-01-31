@@ -1,0 +1,18 @@
+provider: Microsoft-IE
+event_id: '512'
+version: '0'
+event(fields): Mshtml_CView_ExecuteInvalidationTasks_Stats(Pointer CView, UInt32 ElementsInvalidated,
+  HexInt32 InvalidationFlags)
+opcode: ''
+keywords: verbose invalidation
+task: Mshtml_CView_ExecuteInvalidationTasks_Stats
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: CView
+- field_type: UInt32
+  field_name: ElementsInvalidated
+- field_type: HexInt32
+  field_name: InvalidationFlags

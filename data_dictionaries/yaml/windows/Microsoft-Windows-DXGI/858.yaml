@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-DXGI
+event_id: '858'
+version: '0'
+event(fields): IDXGISwapChain_GetMaximumFrameLatencyStart(Pointer pThis, Pointer pMaxLatency)
+opcode: Start
+keywords: ''
+task: IDXGISwapChain_GetMaximumFrameLatency
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: pThis
+- field_type: Pointer
+  field_name: pMaxLatency

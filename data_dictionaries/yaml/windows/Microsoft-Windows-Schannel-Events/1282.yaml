@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Schannel-Events
+event_id: '1282'
+version: '0'
+event(fields): PKCryptoStop()
+opcode: Stop
+keywords: ''
+task: PKCrypto
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

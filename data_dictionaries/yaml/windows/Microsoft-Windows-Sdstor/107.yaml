@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-Sdstor
+event_id: '107'
+version: '0'
+event(fields): Discard(UInt64 LBA, UInt32 Length)
+opcode: ''
+keywords: ''
+task: Discard
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt64
+  field_name: LBA
+- field_type: UInt32
+  field_name: Length

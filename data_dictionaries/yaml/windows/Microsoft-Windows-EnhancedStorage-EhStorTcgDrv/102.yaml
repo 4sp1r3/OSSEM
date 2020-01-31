@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-EnhancedStorage-EhStorTcgDrv
+event_id: '102'
+version: '0'
+event(fields): DriverGeneral102(AnsiString Context, HexInt32 Param1, HexInt32 Param2,
+  HexInt32 Param3, HexInt32 Param4)
+opcode: General
+keywords: ''
+task: Driver
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: AnsiString
+  field_name: Context
+- field_type: HexInt32
+  field_name: Param1
+- field_type: HexInt32
+  field_name: Param2
+- field_type: HexInt32
+  field_name: Param3
+- field_type: HexInt32
+  field_name: Param4

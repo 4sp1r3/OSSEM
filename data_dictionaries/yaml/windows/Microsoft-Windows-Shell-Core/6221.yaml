@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Shell-Core
+event_id: '6221'
+version: '0'
+event(fields): Thumbnails_GetAspectRatioStart()
+opcode: Start
+keywords: Shell
+task: Thumbnails_GetAspectRatio
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

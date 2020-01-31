@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-AppReadiness
+event_id: '110'
+version: '0'
+event(fields): AppReadiness_Service110(UInt32 ReferencesLeaked, UInt32 ShutdownDelayMsec)
+opcode: ''
+keywords: Service
+task: AppReadiness_Service
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: ReferencesLeaked
+- field_type: UInt32
+  field_name: ShutdownDelayMsec

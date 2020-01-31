@@ -1,0 +1,24 @@
+provider: Microsoft-Windows-BitLocker-API
+event_id: '834'
+version: '0'
+event(fields): task_0834(UInt32 PCRBitmap, UInt32 PCRBitmapSource, UInt32 PCRValuesSize,
+  Binary PCRValues, UInt32 FilteredTcgLogSize, Binary FilteredTcgLog)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: PCRBitmap
+- field_type: UInt32
+  field_name: PCRBitmapSource
+- field_type: UInt32
+  field_name: PCRValuesSize
+- field_type: Binary
+  field_name: PCRValues
+- field_type: UInt32
+  field_name: FilteredTcgLogSize
+- field_type: Binary
+  field_name: FilteredTcgLog

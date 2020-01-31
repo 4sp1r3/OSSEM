@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-BitLocker-Driver-Performance
+event_id: '11'
+version: '0'
+event(fields): fve:VolumeStackCreate(Pointer DevObjPtr, Pointer PdoPtr)
+opcode: ''
+keywords: fve:Performance
+task: fve:VolumeStackCreate
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: DevObjPtr
+- field_type: Pointer
+  field_name: PdoPtr

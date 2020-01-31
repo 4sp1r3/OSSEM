@@ -1,0 +1,11 @@
+provider: Microsoft-IEFRAME
+event_id: '536'
+version: '0'
+event(fields): TravelLogScreenshotNav_OldTab_ReadyToClose()
+opcode: ''
+keywords: TravelLogScreenshotNav
+task: TravelLogScreenshotNav_OldTab_ReadyToClose
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

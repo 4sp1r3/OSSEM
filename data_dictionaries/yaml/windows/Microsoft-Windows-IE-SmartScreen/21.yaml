@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-IE-SmartScreen
+event_id: '21'
+version: '0'
+event(fields): URLReputationCheck21(UnicodeString URL, UInt32 LinksCount, UInt32 TopTargetCount)
+opcode: ''
+keywords: functionality
+task: URLReputationCheck
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: URL
+- field_type: UInt32
+  field_name: LinksCount
+- field_type: UInt32
+  field_name: TopTargetCount

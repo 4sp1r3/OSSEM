@@ -1,0 +1,42 @@
+provider: Microsoft-Windows-StorDiag
+event_id: '510'
+version: '1'
+event(fields): ClassCompletionofrequest.510_V1(GUID DeviceGUID, UInt32 DeviceNumber,
+  AnsiString Vendor, AnsiString Model, AnsiString FirmwareVersion, AnsiString SerialNumber,
+  HexInt32 IrpStatus, UInt8 IrpMinorFunction, UInt32 PowerSystemContext, UInt32 PowerStateType,
+  UInt32 PowerState, UInt32 PowerShutdownType, UInt32 CurrentPowerState, UInt32 ContextPowerChangeState)
+opcode: Completionofrequest.
+keywords: Power
+task: Class
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: DeviceGUID
+- field_type: UInt32
+  field_name: DeviceNumber
+- field_type: AnsiString
+  field_name: Vendor
+- field_type: AnsiString
+  field_name: Model
+- field_type: AnsiString
+  field_name: FirmwareVersion
+- field_type: AnsiString
+  field_name: SerialNumber
+- field_type: HexInt32
+  field_name: IrpStatus
+- field_type: UInt8
+  field_name: IrpMinorFunction
+- field_type: UInt32
+  field_name: PowerSystemContext
+- field_type: UInt32
+  field_name: PowerStateType
+- field_type: UInt32
+  field_name: PowerState
+- field_type: UInt32
+  field_name: PowerShutdownType
+- field_type: UInt32
+  field_name: CurrentPowerState
+- field_type: UInt32
+  field_name: ContextPowerChangeState

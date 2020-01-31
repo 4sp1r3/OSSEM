@@ -1,0 +1,14 @@
+provider: Windows Kernel Trace
+category: '{ce1dbfb4-137e-4da6-87b0-3f59aa102cbc}'
+event_id: '67'
+version: '1'
+event(fields): ISR_V1(Object InitialTime, UInt32 Routine, UInt32 ReturnValue)
+event_type: ''
+description: ''
+event_fields:
+- field_type: Object
+  field_name: InitialTime
+- field_type: UInt32
+  field_name: Routine
+- field_type: UInt32
+  field_name: ReturnValue

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Winlogon
+event_id: '108'
+version: '0'
+event(fields): WaitForLSMStop()
+opcode: Stop
+keywords: PerfInstrumentation
+task: WaitForLSM
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

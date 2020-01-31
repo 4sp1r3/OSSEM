@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Application-Experience
+event_id: '81'
+version: '0'
+event(fields): task_081(GUID QuestionId, UnicodeString QuestionKind, UInt32 QuestionValue,
+  UnicodeString FollowupValue)
+opcode: ''
+keywords: WDI
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: GUID
+  field_name: QuestionId
+- field_type: UnicodeString
+  field_name: QuestionKind
+- field_type: UInt32
+  field_name: QuestionValue
+- field_type: UnicodeString
+  field_name: FollowupValue

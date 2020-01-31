@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-Application Server-Applications
+event_id: '4801'
+version: '0'
+event(fields): DiscoveryClientFailedToClose(UnicodeString SerializedException, UnicodeString
+  AppDomain)
+opcode: FailedToClose
+keywords: Discovery
+task: DiscoveryClient
+level: Warning
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: SerializedException
+- field_type: UnicodeString
+  field_name: AppDomain

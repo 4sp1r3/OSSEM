@@ -1,0 +1,36 @@
+provider: Microsoft-Windows-Kernel-Power
+event_id: '524'
+version: '0'
+event(fields): BatteryTriggerMet(UInt32 Index, UInt32 ActiveBatteryCount, UInt32 RemainingPercentage,
+  UInt32 IsAcOnline, HexInt32 BatteryActionInternalFlags, UInt32 IsPowerActionCallIgnored,
+  UInt32 IsPowerPolicyEnabled, UInt32 PowerPolicyAction, UInt32 PowerPolicyBatteryLevel,
+  UInt32 PowerPolicyEventCode, UInt32 PowerPolicyMinState)
+opcode: ''
+keywords: po:Diagnostic po:DiagnosticLight
+task: BatteryTriggerMet
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Index
+- field_type: UInt32
+  field_name: ActiveBatteryCount
+- field_type: UInt32
+  field_name: RemainingPercentage
+- field_type: UInt32
+  field_name: IsAcOnline
+- field_type: HexInt32
+  field_name: BatteryActionInternalFlags
+- field_type: UInt32
+  field_name: IsPowerActionCallIgnored
+- field_type: UInt32
+  field_name: IsPowerPolicyEnabled
+- field_type: UInt32
+  field_name: PowerPolicyAction
+- field_type: UInt32
+  field_name: PowerPolicyBatteryLevel
+- field_type: UInt32
+  field_name: PowerPolicyEventCode
+- field_type: UInt32
+  field_name: PowerPolicyMinState

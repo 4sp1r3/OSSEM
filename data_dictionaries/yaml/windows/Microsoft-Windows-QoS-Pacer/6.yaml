@@ -1,0 +1,26 @@
+provider: Microsoft-Windows-QoS-Pacer
+event_id: '6'
+version: '0'
+event(fields): task_0Stop(UInt32 DroppedPackets, UInt32 PacketsScheduled, UInt32 PacketsTransmitted,
+  UInt64 BytesScheduled, UInt64 BytesTransmitted, UInt32 NblSent, UInt32 NblComplete)
+opcode: Stop
+keywords: ut:Configuration
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: DroppedPackets
+- field_type: UInt32
+  field_name: PacketsScheduled
+- field_type: UInt32
+  field_name: PacketsTransmitted
+- field_type: UInt64
+  field_name: BytesScheduled
+- field_type: UInt64
+  field_name: BytesTransmitted
+- field_type: UInt32
+  field_name: NblSent
+- field_type: UInt32
+  field_name: NblComplete

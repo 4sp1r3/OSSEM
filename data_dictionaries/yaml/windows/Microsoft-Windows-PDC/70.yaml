@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-PDC
+event_id: '70'
+version: '0'
+event(fields): PdcScreenOffDisabled()
+opcode: ''
+keywords: Cs
+task: PdcScreenOffDisabled
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

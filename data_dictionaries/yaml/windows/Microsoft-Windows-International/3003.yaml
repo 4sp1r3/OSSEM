@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-International
+event_id: '3003'
+version: '0'
+event(fields): NLSlocalefunctionsNLSoperations3003(UnicodeString LocaleName, UInt32
+  Flags, UInt32 ProcessId, UnicodeString ProdessName, UInt32 ReturnCode)
+opcode: NLSoperations
+keywords: ''
+task: NLSlocalefunctions
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: LocaleName
+- field_type: UInt32
+  field_name: Flags
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: UnicodeString
+  field_name: ProdessName
+- field_type: UInt32
+  field_name: ReturnCode

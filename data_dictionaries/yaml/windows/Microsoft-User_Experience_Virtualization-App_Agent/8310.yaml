@@ -1,0 +1,15 @@
+provider: Microsoft-User Experience Virtualization-App Agent
+event_id: '8310'
+version: '0'
+event(fields): UEVGeneratorUE_VGenerator8310(UnicodeString stringValue1, Int32 intValue1)
+opcode: UE_VGenerator
+keywords: ''
+task: UEVGenerator
+level: Error
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: stringValue1
+- field_type: Int32
+  field_name: intValue1

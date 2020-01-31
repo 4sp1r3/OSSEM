@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-LUA
+event_id: '15028'
+version: '0'
+event(fields): ConsentUI_LEASVC(Pointer Parameters)
+opcode: ''
+keywords: ''
+task: ConsentUI_LEASVC
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Parameters

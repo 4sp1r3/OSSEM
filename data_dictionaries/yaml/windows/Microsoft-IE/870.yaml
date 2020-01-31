@@ -1,0 +1,20 @@
+provider: Microsoft-IE
+event_id: '870'
+version: '0'
+event(fields): Edgehtml_Extensions_Script_ExecutionStop(UnicodeString ExtensionId,
+  UInt32 ScriptType, Double ScriptExecutionTime, UnicodeString CorrelationId)
+opcode: Stop
+keywords: mshtml extensions
+task: Edgehtml_Extensions_Script_Execution
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExtensionId
+- field_type: UInt32
+  field_name: ScriptType
+- field_type: Double
+  field_name: ScriptExecutionTime
+- field_type: UnicodeString
+  field_name: CorrelationId

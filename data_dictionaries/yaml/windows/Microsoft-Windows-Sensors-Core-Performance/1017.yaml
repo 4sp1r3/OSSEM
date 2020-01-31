@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-Sensors-Core-Performance
+event_id: '1017'
+version: '0'
+event(fields): NativeToCxReadTransferTaskStart()
+opcode: Start
+keywords: ''
+task: NativeToCxReadTransferTask
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

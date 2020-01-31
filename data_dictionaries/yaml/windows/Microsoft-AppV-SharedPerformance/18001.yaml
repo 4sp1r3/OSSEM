@@ -1,0 +1,11 @@
+provider: Microsoft-AppV-SharedPerformance
+event_id: '18001'
+version: '0'
+event(fields): EnumeratesettingchangesStop()
+opcode: Stop
+keywords: ''
+task: Enumeratesettingchanges
+level: ''
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

@@ -1,0 +1,11 @@
+provider: Microsoft-Windows-WlanConn
+event_id: '8010'
+version: '0'
+event(fields): WisprStart()
+opcode: Start
+keywords: ''
+task: Wispr
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields: []

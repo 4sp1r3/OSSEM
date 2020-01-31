@@ -1,0 +1,13 @@
+provider: Microsoft-Windows-Media-Streaming
+event_id: '3103'
+version: '0'
+event(fields): MediaDeliveryEngine_starttheserverStart(Pointer Object)
+opcode: Start
+keywords: ''
+task: MediaDeliveryEngine_starttheserver
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Object

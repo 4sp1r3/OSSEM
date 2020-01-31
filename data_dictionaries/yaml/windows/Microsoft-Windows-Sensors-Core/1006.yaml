@@ -1,0 +1,20 @@
+provider: Microsoft-Windows-Sensors-Core
+event_id: '1006'
+version: '0'
+event(fields): SensorsCxInitializationTask1006(Pointer WdfDevice, Pointer SENSOROBJECT,
+  GUID VendorDefinedSubType, GUID PersistentUniqueID)
+opcode: ''
+keywords: ''
+task: SensorsCxInitializationTask
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: WdfDevice
+- field_type: Pointer
+  field_name: SENSOROBJECT
+- field_type: GUID
+  field_name: VendorDefinedSubType
+- field_type: GUID
+  field_name: PersistentUniqueID

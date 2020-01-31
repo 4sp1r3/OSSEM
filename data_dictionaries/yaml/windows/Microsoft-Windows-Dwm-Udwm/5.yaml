@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Dwm-Udwm
+event_id: '5'
+version: '0'
+event(fields): UdwmProcessModeChange(UInt32 Height, UInt32 Width, UInt32 Depth)
+opcode: ''
+keywords: Udwm
+task: UdwmProcessModeChange
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UInt32
+  field_name: Height
+- field_type: UInt32
+  field_name: Width
+- field_type: UInt32
+  field_name: Depth

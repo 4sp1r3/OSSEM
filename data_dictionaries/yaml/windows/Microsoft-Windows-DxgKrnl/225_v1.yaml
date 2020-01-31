@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-DxgKrnl
+event_id: '225'
+version: '1'
+event(fields): ProcessAllocationStart_V1(Pointer Handle, UInt64 Size, UInt32 Mapping,
+  UInt32 ProcessId, Boolean IsHeapBlock)
+opcode: Start
+keywords: Memory
+task: ProcessAllocation
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: Pointer
+  field_name: Handle
+- field_type: UInt64
+  field_name: Size
+- field_type: UInt32
+  field_name: Mapping
+- field_type: UInt32
+  field_name: ProcessId
+- field_type: Boolean
+  field_name: IsHeapBlock

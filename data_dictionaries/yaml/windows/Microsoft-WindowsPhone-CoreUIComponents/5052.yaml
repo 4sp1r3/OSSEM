@@ -1,0 +1,13 @@
+provider: Microsoft-WindowsPhone-CoreUIComponents
+event_id: '5052'
+version: '0'
+event(fields): ProxyMessageEventStart(UnicodeString pwsz)
+opcode: Start
+keywords: MessagingPerformance Proxy
+task: ProxyMessageEvent
+level: Verbose
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: pwsz

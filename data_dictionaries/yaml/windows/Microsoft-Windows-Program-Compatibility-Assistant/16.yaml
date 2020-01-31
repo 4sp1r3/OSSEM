@@ -1,0 +1,17 @@
+provider: Microsoft-Windows-Program-Compatibility-Assistant
+event_id: '16'
+version: '0'
+event(fields): task_016(UnicodeString ExePath, UInt64 ResolverMap, UInt32 DialogType)
+opcode: ''
+keywords: ''
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ExePath
+- field_type: UInt64
+  field_name: ResolverMap
+- field_type: UInt32
+  field_name: DialogType

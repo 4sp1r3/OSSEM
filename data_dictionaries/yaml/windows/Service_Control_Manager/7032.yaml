@@ -1,0 +1,20 @@
+provider: Service Control Manager
+event_id: '7032'
+version: '0'
+event(fields): task_0PCODE_192pcode_1927032(UnicodeString param1, UnicodeString param2,
+  UnicodeString param3, UnicodeString param4)
+opcode: opcode_192
+keywords: ''
+task: task_0
+level: Always
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: param1
+- field_type: UnicodeString
+  field_name: param2
+- field_type: UnicodeString
+  field_name: param3
+- field_type: UnicodeString
+  field_name: param4

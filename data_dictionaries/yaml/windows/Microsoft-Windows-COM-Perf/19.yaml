@@ -1,0 +1,16 @@
+provider: Microsoft-Windows-COM-Perf
+event_id: '19'
+version: '0'
+event(fields): ExtensionCatalog_QueryCatalogByPackageFamilyStart(UnicodeString ContractId,
+  UnicodeString PackageFamilyName)
+opcode: Start
+keywords: ''
+task: ExtensionCatalog_QueryCatalogByPackageFamily
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: ContractId
+- field_type: UnicodeString
+  field_name: PackageFamilyName

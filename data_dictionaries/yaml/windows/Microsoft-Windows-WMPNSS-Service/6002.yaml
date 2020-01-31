@@ -1,0 +1,15 @@
+provider: Microsoft-Windows-WMPNSS-Service
+event_id: '6002'
+version: '0'
+event(fields): Is_AllowedStop(UnicodeString MACAddress, UInt32 ErrorCode)
+opcode: Stop
+keywords: ''
+task: Is_Allowed
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: MACAddress
+- field_type: UInt32
+  field_name: ErrorCode

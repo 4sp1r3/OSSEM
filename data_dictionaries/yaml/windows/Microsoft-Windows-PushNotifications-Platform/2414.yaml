@@ -1,0 +1,22 @@
+provider: Microsoft-Windows-PushNotifications-Platform
+event_id: '2414'
+version: '0'
+event(fields): task_02414(UnicodeString PackageFullName, UnicodeString AppUserModelId,
+  UInt32 AppSettings, UInt32 AppType, Int32 ErrorCode)
+opcode: ''
+keywords: wpnend wpntroubleshoot
+task: task_0
+level: Informational
+evtlog_channel: ''
+evtlog_message: ''
+event_fields:
+- field_type: UnicodeString
+  field_name: PackageFullName
+- field_type: UnicodeString
+  field_name: AppUserModelId
+- field_type: UInt32
+  field_name: AppSettings
+- field_type: UInt32
+  field_name: AppType
+- field_type: Int32
+  field_name: ErrorCode
